@@ -1,0 +1,72 @@
+# Blender for cv
+This library helps CV researchers to generate data using blender.
+
+## Library tutorial
+
+This repo provides a simple package `blcv` that can put models into scene and get images from different viewpoints.
+
+### Install
+
+You can use `pip install blcv ` to install the package.
+
+Note that we should use `blcv` in Blender's bundled Python, so you need to install the package in Blender's Python environment.
+
+Use the following commands:
+
+`$ cd /blender-path/2.xx/python/bin/`
+
+`/blender-path/2.xx/python/bin$ python.exe get-pip.py`
+
+`/blender-path/2.xx/python/bin$ python.exe -m pip install blcv`
+
+If you encounter more problems installing blcv in Blender environment, you can refer to this [answer]( https://blender.stackovernet.com/cn/q/14721 ).
+
+If there is problems using `pip`, you can simply clone this repo, and use the files in `blcv` folder.
+
+### Functions
+
+blcv
+
+- call_blender(render_code, blender_executable_path, blank_blend_file_path, io_redirect='', background=True): activate Blender and call the script
+  - render_code: directory to Blender script
+  - blender_executable_path: directory to Blender.exe
+  - blank_blend_file_path: Blender file
+  - io_redirect: redirect the output into a file, use '' to show the output in command lines
+  - background: whether run the Blender in background, default as 'True'
+
+blcv.tools
+
+- BcObject: operate an existed object in the scene
+  - init(self, id): input the name of the object
+  - destroy(self): delete the object
+  - set_loc(self, x, y, z): set the object's location
+  - get_loc(self, x, y, z): get the object's location
+  - set_rot(self, x, y, z, w=None, mode='XYZ'): set the object's rotation; the mode includes 'AXIS_ANGLE', 'QUATERNION' and 'XYZ'
+  - get_rot(self, mode='XYZ', w=None): set the object's rotation; the mode includes 'AXIS_ANGLE', 'QUATERNION' and 'XYZ'
+  - set_scale(self, x, y, z): set the object's scale
+  - get_scale(self, ): get the object's scale
+- BcCamera(BcObject): operate an camera in the scene
+  - init(self, id): input the name of the camera
+  - set_camera_to_center(self, dist, azimuth_deg, elevation_deg, theta_deg): given the camera's rotation, set the camera in the position towards the center point [0, 0, 0]
+- BcScene:
+  - init(self)
+  - set_render_mode(self, mode): set the background mode
+  - get_img(self, filepath): save image crop in filaepath
+- import_obj(shape_file): import a new model into the scene and return its name
+
+### Demo
+
+You can modify the configurations and run `start_blender.py` to call `blender_script` in Blender.
+
+The demo generates airplane images from circle viewpoints using the models in `examples` folder, the results will be saved in `images` folder.
+
+### Contact
+
+If you have any questions or encounter any problems, feel free to contact me by sarahwei0210@gmail.com.
+
+
+
+
+
+
+
