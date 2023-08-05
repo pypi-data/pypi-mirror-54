@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pystickynote
+Version: 1.2
+Summary: Easy Sticky Note Widgets
+Home-page: https://github.com/M4cs/pystickynote
+Author: Max Bridgland
+Author-email: mabridgland@protonmail.com
+License: GNU General Public License v3 (GPLv3) (GPL)
+Project-URL: Discord Server, https://discordapp.com/invite/7VN9VZe
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: IronPython
+Classifier: Programming Language :: Python :: Implementation :: Jython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
