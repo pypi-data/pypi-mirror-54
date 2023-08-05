@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: struct2tensor
+Version: 0.0.1.dev1
+Summary: Struct2Tensor is a package for parsing and manipulating structured data for TensorFlow
+Home-page: UNKNOWN
+Author: Google LLC
+Author-email: tensorflow-extended-dev@googlegroups.com
+License: Apache 2.0
+Keywords: tensorflow protobuf machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: protobuf (>=3.8.0)
+Requires-Dist: tensorflow (>=1.15.0)
+Requires-Dist: tensorflow-metadata (>=0.13.0)
+
+UNKNOWN
+
+
