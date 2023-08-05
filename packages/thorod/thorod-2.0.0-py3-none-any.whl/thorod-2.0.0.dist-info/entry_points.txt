@@ -1,0 +1,3 @@
+[console_scripts]
+thorod=thorod.cli:run
+
