@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: robotpt-common-utils
+Version: 0.0.1
+Summary: Common python functions used in RobotPT projects
+Home-page: https://github.com/robotpt/robotpt-common-utils
+Author: Audrow Nash
+Author-email: audrowna@usc.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
