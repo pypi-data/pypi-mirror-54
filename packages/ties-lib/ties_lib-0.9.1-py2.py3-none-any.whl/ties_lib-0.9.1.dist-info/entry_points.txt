@@ -1,0 +1,5 @@
+[console_scripts]
+ties-convert = ties.cli.ties_convert:main
+ties-format = ties.cli.ties_format:main
+ties-validate = ties.cli.ties_validate:main
+
