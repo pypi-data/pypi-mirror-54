@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"email": "patkarkarthik@gmail.com", "name": "karthik", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "generator": "bdist_wheel (0.29.0)", "license": "kar", "metadata_version": "2.0", "name": "getUserName", "summary": "Gets system Username", "version": "0.1"}
