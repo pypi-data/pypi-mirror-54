@@ -1,0 +1,3 @@
+[console_scripts]
+merge_fastq = merge_fastq.cli:main
+
