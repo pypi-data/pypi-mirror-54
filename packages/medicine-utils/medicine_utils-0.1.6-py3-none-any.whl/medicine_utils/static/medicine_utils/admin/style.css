@@ -1,0 +1,162 @@
+
+#content-main {}
+#content-main .app-constance {
+    display: none;
+}
+
+#header {
+    padding: 10px 40px;
+    line-height: 20px;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 2000;
+}
+
+#index-sidebar {
+    float: right;
+    width: 260px;
+    position: relative;
+    margin-right: -300px;
+    margin-bottom: 20px;
+}
+#index-sidebar #content-related {
+    float: none;
+    margin-right: 0;
+}
+#apps {
+    margin-bottom: 20px;
+    background: #f8f8f8;
+    padding-bottom: 10px;
+}
+#apps a {
+    text-transform: uppercase;
+}
+#apps h2 {
+    margin-top: 0;
+    background: none;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+
+div.breadcrumbs {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2000;
+    border-bottom: 1px solid #eee;
+}
+.breadcrumbs .crumbs {
+    float: left;
+}
+.breadcrumbs .object-tools {
+    float: right;
+    margin: -5px 0 0 0;
+    padding: 0;
+}
+
+#container {
+    padding: 75px 0 20px 0;
+}
+#branding h1 {
+    font-size: 18px;
+}
+#branding small {
+    font-size: 13px;
+}
+
+#user-tools {
+    font-size: 12px;
+}
+
+.app-directory .field-_ref_node_id {
+    overflow: visible !important;
+}
+
+.CodeMirror.cm-s-default {
+    border: 0;
+    padding: 0;
+    height: auto;
+}
+
+.CodeMirror .cm-tab {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.aligned label.inline {
+    width: auto;
+    display: inline-block;
+}
+
+.constance table thead th:nth-child(1) {
+    width: 300px;
+}
+.constance table thead th:nth-child(2) {
+    width: 250px;
+}
+.constance table thead th:nth-child(4) {
+    width: 200px;
+}
+.constance table tbody a {
+    display: none;
+}
+
+.change-form .submit-row {
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px 40px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+.change-form #content-main {
+    float: left;
+    width: 100%;
+    padding: 0 0 30px 0;
+}
+
+form .aligned .results_on_deck {
+    padding-left: 75px !important;
+    margin-left: 7em;
+}
+
+#content h1, #content .object-tools {
+
+}
+
+/*
+ Страница авторизации
+ */
+.login #header {
+    position: inherit;
+    line-height: 30px;
+    padding: 10px 20px !important;
+}
+.login #container {
+    padding: 0;
+}
+
+select.admin-autocomplete {
+    width: 400px !important;
+}
+.related-widget-wrapper .related-widget-wrapper-link {
+    display: none;
+}
+
+.field-period select {
+    margin-right: 10px;
+}
