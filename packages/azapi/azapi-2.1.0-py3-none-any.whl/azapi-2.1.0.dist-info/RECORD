@@ -1,0 +1,9 @@
+azapi/__init__.py,sha256=jIH6c0Z76m_wjyLS-vxsxwRk9AgYT7xXCG2mi7MIB08,263
+azapi/azapi.py,sha256=D-7YuL5RA2M2JIe9vVc7rUK-0svKyVsHFL3TM_UkVbA,6654
+azapi/requester.py,sha256=IB1fGW7BLkc02LZVws0_niCGAntSCeVA8Me-V4kub8o,98665
+azapi/tools.py,sha256=ejYbPFlCw3dP7AtSpZf0nr_tICVXECJTKyupb2wSdto,3429
+azapi-2.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+azapi-2.1.0.dist-info/METADATA,sha256=xWABZACHB1vW4A56kd727D1ylcuoA_IG6KxBCh8Trbc,2385
+azapi-2.1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+azapi-2.1.0.dist-info/top_level.txt,sha256=dGiKjHj9_hq9CwamShRF44UINy7DGqNdCjSn3mnByt8,6
+azapi-2.1.0.dist-info/RECORD,,
