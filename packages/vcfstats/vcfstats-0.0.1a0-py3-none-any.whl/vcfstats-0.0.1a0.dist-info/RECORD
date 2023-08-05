@@ -1,0 +1,8 @@
+vcfstats/__init__.py,sha256=Kjc7xbVv77TF9cNN0ilEZdJ--ZsgCi55XnWxOyi6c4g,7397
+vcfstats/formula.py,sha256=mf6zBCt4UxjKRRifmt-MJecWkYjIIzm4Wv9yM5dQnlU,10722
+vcfstats/macros.py,sha256=D09Qecc8FHub0TwywsgNVQACJG-miP3csyZXWkiAVkA,3315
+vcfstats/one.py,sha256=_mp8LGuOmG03DyPOsSUlI7iJzzyCfSd2Pe8K6r9yLnM,6848
+vcfstats-0.0.1a0.dist-info/entry_points.txt,sha256=AFqMj-r__G0weCBgNYrHqPXd_8VztX0abj-ug5Z_B3Q,42
+vcfstats-0.0.1a0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+vcfstats-0.0.1a0.dist-info/METADATA,sha256=NJhfZOQRa36SvNVRKyGo7I-2w2cOgIGKZ3mP8TYq-aw,8249
+vcfstats-0.0.1a0.dist-info/RECORD,,
