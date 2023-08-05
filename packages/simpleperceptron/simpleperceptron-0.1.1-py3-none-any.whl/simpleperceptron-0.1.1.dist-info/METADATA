@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simpleperceptron
+Version: 0.1.1
+Summary: A simple percepton package for understanding neural network concept
+Home-page: https://github.com/wiphoo/neural-simple_perceptron
+Author: Wiphoo Methachawalit
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+
+UNKNOWN
+
+

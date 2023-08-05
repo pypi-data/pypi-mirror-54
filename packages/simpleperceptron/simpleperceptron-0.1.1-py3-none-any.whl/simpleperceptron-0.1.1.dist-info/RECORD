@@ -1,0 +1,10 @@
+simpleperceptron/ActivationFuncs.py,sha256=EogmOEOLHFA54WOwWybhW6gUkTXL4EKnfPDJNCv4UF4,1339
+simpleperceptron/BackwardPropagator.py,sha256=OyQECsD96kt6OYsgo8vwH4MNi3lK9mFNf3Av2mQ1i9g,4684
+simpleperceptron/ForwardPropagator.py,sha256=OkcUOHf1NlUpYIL0oHkrivpGdFneblvajsO5Az_r9kE,3451
+simpleperceptron/Perceptron.py,sha256=fwSE1vsS0agdZZsk9sELgPWovqvg2iezBZSVjesoeDo,3266
+simpleperceptron/__init__.py,sha256=CeSthNVDeqvFVPYv4DR0JvqwpyMhU2r8uZouU7qQ9BE,475
+simpleperceptron-0.1.1.dist-info/LICENSE,sha256=fXukg8FSb59l2vtvxmI8lpB1S1uR5EfctxmKpnlUzjg,1063
+simpleperceptron-0.1.1.dist-info/METADATA,sha256=rESfIJBtJ0snl7pCg_U4udORqZAEvP31UdRco9rsSE4,463
+simpleperceptron-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+simpleperceptron-0.1.1.dist-info/top_level.txt,sha256=cfv1H9NxTFMV7kNua2u-E7xwqtEuspT-UykS52O4LIc,17
+simpleperceptron-0.1.1.dist-info/RECORD,,
