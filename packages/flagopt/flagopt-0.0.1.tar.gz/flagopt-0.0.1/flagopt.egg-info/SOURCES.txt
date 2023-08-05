@@ -1,0 +1,11 @@
+README.md
+setup.py
+flagopt/__init__.py
+flagopt/abstract.py
+flagopt/general.py
+flagopt/helpers.py
+flagopt.egg-info/PKG-INFO
+flagopt.egg-info/SOURCES.txt
+flagopt.egg-info/dependency_links.txt
+flagopt.egg-info/requires.txt
+flagopt.egg-info/top_level.txt
