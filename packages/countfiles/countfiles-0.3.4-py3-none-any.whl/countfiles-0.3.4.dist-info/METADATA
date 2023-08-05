@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: countfiles
+Version: 0.3.4
+Summary: A simple module to count or list the attributes of files in a directory.
+Home-page: https://github.com/pypa/sampleproject
+Author: Aiden Blishen Cuneo
+Author-email: aidencuneo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+
+A simple module used to count or list the attributes of files in a directory.
+This module can be used from the command line, with the command `countfiles`.
+
+### Usage (CLI):
+
+    countfiles <directory> [options...]
+
+### Usage (Python):
+
+    import countfiles
+
+    counter = countfiles.Counter(path='.', count=True, size=False)
+    counter.call()
+
+### Options include:
+- `path` (str)
+- `count` (bool)
+- `size` (bool)
+
+

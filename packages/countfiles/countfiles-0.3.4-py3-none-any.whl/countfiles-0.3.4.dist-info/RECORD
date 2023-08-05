@@ -1,0 +1,13 @@
+countfiles/__init__.py,sha256=eYBTaS3JZ7PL38s13y1oPgKMXsV-43mRR5Af_dHLZ5A,60
+countfiles/__main__.py,sha256=7tLZpEpqSY1BgyN6KcYWAIi4yc2BHyyr29G85aOUzkQ,435
+countfiles/core.py,sha256=eU2LYhveWQh3XVEic5QRDimo_n-61TO7pvGBMokoJ7E,1093
+countfiles/countfiles.py,sha256=AGkil8GWaayhAvNuSlz4-4BM90UCgwUhrTqAsLZwXgY,531
+countfiles/data.py,sha256=HtQqR7LTUgoevGP0T6Z040rXQmhXqnxpy3r5K-gd3Wg,2701
+src/Countfiles.py,sha256=T3hrakZgVPzfuPGnJTuomDt636-mb9Hi-760pZHfZ0c,530
+src/__init__.py,sha256=EbXPQ73a3dr6P-D19kKxUaAw1vqrSyCaiKgUARvyCHM,39
+src/__main__.py,sha256=K3HdmHaKUuenmz7lmyEKxza2asU0vnI166859hYkwTQ,282
+countfiles-0.3.4.dist-info/LICENSE,sha256=j90slDSlQXTRI3ovawEA44CwzMO0SthE1ebLFKoU9wY,1076
+countfiles-0.3.4.dist-info/METADATA,sha256=pzFZynMP1pOARZxm_DRByDz4GZ5TfoaDUS8C6fjekY0,911
+countfiles-0.3.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+countfiles-0.3.4.dist-info/top_level.txt,sha256=yTsfWYXNZ37sB-MsfdqqmxLSKFbnKk3zLZKRSQyXuwg,11
+countfiles-0.3.4.dist-info/RECORD,,
