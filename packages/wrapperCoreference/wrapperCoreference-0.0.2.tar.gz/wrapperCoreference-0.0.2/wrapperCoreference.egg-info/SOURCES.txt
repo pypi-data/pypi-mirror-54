@@ -1,0 +1,9 @@
+README.md
+setup.py
+wrapperCoreference/__init__.py
+wrapperCoreference/wrapperCoreference.py
+wrapperCoreference.egg-info/PKG-INFO
+wrapperCoreference.egg-info/SOURCES.txt
+wrapperCoreference.egg-info/dependency_links.txt
+wrapperCoreference.egg-info/requires.txt
+wrapperCoreference.egg-info/top_level.txt
