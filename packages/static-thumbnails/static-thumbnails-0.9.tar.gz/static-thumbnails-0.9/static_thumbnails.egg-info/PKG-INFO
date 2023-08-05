@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: static-thumbnails
+Version: 0.9
+Summary: Extension to easy_thumbnails for Django providing thumbnails from static files
+Home-page: https://github.com/mawilmsen/static-thumbnails
+Author: Marc-Alexander Wilmsen
+Author-email: wilmsen@valloc.de
+License: UNKNOWN
+Description: # static-thumbnails
+        Django application providing template tags to create thumbnails from static files using easy-thumbnails
+        
+        ## Installation
+        
+        ```shell script
+        pip install Pillow easy-thumbnails static-thumbnails
+        ```
+        ## Usage
+        
+        Add static-thumbnails to your settings.py:
+        ```python
+        INSTALLED_APPS = [
+            # ... regular django apps go here
+            'easy_thumbnails',
+            'static_thumbnails',
+        ]
+        ```
+        
+        And then use it as the regular thumbnail tag from easy-thumbnails, but pointing ot to a file in your STATIC_ROOT:
+        
+        ```jinja2
+        {% static_thumbnail 'some/static/file.png' 150x100 quality=100 HIGH_RESOLUTION as logo %}
+        <img src="{{ logo.highres_url }}" width="{{ logo.width }}" height="{{ logo.height }}" />
+        ```
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

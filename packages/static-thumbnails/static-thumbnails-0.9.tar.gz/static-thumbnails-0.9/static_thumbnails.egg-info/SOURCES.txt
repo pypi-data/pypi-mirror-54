@@ -1,0 +1,14 @@
+README.md
+setup.py
+static_thumbnails/__init__.py
+static_thumbnails/apps.py
+static_thumbnails/get_version.py
+static_thumbnails/models.py
+static_thumbnails.egg-info/PKG-INFO
+static_thumbnails.egg-info/SOURCES.txt
+static_thumbnails.egg-info/dependency_links.txt
+static_thumbnails.egg-info/not-zip-safe
+static_thumbnails.egg-info/requires.txt
+static_thumbnails.egg-info/top_level.txt
+static_thumbnails/templatetags/__init__.py
+static_thumbnails/templatetags/static_thumbnails.py
