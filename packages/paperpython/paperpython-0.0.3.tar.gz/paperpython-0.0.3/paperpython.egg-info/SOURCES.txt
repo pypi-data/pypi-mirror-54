@@ -1,0 +1,12 @@
+README.md
+setup.py
+paperpython/__init__.py
+paperpython/__main__.py
+paperpython/communication.py
+paperpython/wsgi.py
+paperpython/wsgiImporter.py
+paperpython/wsgi_pb2.py
+paperpython.egg-info/PKG-INFO
+paperpython.egg-info/SOURCES.txt
+paperpython.egg-info/dependency_links.txt
+paperpython.egg-info/top_level.txt
