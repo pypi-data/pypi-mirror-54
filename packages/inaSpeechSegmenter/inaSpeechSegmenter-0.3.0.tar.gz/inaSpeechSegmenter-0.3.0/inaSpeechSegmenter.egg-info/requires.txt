@@ -1,0 +1,5 @@
+numpy
+keras
+scikit-image
+sidekit==1.2.4
+pyannote.algorithms
