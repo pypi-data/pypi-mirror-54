@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: terminalmushroom
+Version: 2.0.1
+Summary: 
+Author: Coriander Pines
+Author-email: 1647914-cvpines@users.noreply.gitlab.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: protobuf (>=3.10,<4.0)
