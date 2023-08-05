@@ -1,0 +1,9 @@
+README.md
+setup.py
+vizdnn/__init__.py
+vizdnn.egg-info/PKG-INFO
+vizdnn.egg-info/SOURCES.txt
+vizdnn.egg-info/dependency_links.txt
+vizdnn.egg-info/not-zip-safe
+vizdnn.egg-info/requires.txt
+vizdnn.egg-info/top_level.txt

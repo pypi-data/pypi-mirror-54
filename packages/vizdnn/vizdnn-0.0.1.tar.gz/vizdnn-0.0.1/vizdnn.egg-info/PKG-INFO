@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: vizdnn
+Version: 0.0.1
+Summary: Deep Neural Network Vizualizer
+Home-page: https://github.com/karthikziffer/vizdnn
+Author: Karthik
+Author-email: karthik.cool1300@gmail.com
+License: MIT
+Description: # Vizdnn
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
