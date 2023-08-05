@@ -1,0 +1,12 @@
+README.md
+setup.py
+adt/__init__.py
+adt/core.py
+algebraic_data_type.egg-info/PKG-INFO
+algebraic_data_type.egg-info/SOURCES.txt
+algebraic_data_type.egg-info/dependency_links.txt
+algebraic_data_type.egg-info/requires.txt
+algebraic_data_type.egg-info/top_level.txt
+tests/__init__.py
+tests/test_adt.py
+tests/test_multimethod.py
