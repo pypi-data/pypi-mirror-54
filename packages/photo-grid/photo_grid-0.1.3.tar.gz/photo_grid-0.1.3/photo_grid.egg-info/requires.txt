@@ -1,0 +1,11 @@
+numpy
+pandas>=0.19.2
+sklearn
+scipy
+matplotlib
+qdarkstyle
+opencv-python
+image
+rasterio
+PyQt5==5.12
+tqdm
