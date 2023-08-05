@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: urlunshort3
+Version: 0.2
+Summary: Take a URL, compare to known shortening services, and expand it. A python3 rewrite of https://pypi.org/project/urlunshort/
+Home-page: https://github.com/user/reponame
+Author: remotephone
+Author-email: remotephone@gmail.com
+License: BSD
+Description: ### urlunshort3
+        
+        
+        I found this pacakage which did exactly what I needed but in Python2 https://pypi.org/project/urlunshort/. I updated the code and moved the web logic to requests to simplify some things. 
+        
+        Some URLs for shortening came from https://gist.github.com/ninetyfivenorth/9322bfc20523ba2eb7521d57cf25f265.
+        
+        This should handle 
+Keywords: urlshorten,expand,security
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6

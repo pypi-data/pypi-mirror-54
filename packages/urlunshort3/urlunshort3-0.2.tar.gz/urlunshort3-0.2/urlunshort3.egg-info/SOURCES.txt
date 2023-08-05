@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+test/testidentification.py
+test/testresolvers.py
+urlunshort3/__init__.py
+urlunshort3/resolvers.py
+urlunshort3/urlunshort3.py
+urlunshort3.egg-info/PKG-INFO
+urlunshort3.egg-info/SOURCES.txt
+urlunshort3.egg-info/dependency_links.txt
+urlunshort3.egg-info/requires.txt
+urlunshort3.egg-info/top_level.txt
