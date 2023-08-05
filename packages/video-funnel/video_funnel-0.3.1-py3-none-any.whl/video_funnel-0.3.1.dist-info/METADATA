@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: video-funnel
+Version: 0.3.1
+Summary: Use multiple connections to request the video, then feed the combined data to the player.
+Home-page: https://github.com/cshuaimin/video-funnel
+Author: Chen Shuaimin
+Author-email: chen_shuaimin@outlook.com
+License: MIT
+Keywords: Online multi-threaded video play
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Requires-Dist: aiohttp (==3.5.4)
+Requires-Dist: argparse
+Requires-Dist: tqdm
+Requires-Dist: browsercookie
+Requires-Dist: pycookiecheat
+
+UNKNOWN
+
+
