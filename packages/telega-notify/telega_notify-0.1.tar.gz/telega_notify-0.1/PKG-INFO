@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: telega_notify
+Version: 0.1
+Summary: Send messages to a Telegram chat
+Home-page: http://github.com/umonkey/telega-notify
+Author: Justin Forest
+Author-email: hex@umonkey.net
+License: GNU GPL
+Description: Sends text messages to a pre-configured telegram chat.  Useful to
+        send notifications from background or long-running processes.  Very simple to
+        use.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities

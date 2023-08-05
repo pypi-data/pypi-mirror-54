@@ -1,0 +1,9 @@
+README.md
+setup.py
+telega_notify/__init__.py
+telega_notify/main.py
+telega_notify.egg-info/PKG-INFO
+telega_notify.egg-info/SOURCES.txt
+telega_notify.egg-info/dependency_links.txt
+telega_notify.egg-info/entry_points.txt
+telega_notify.egg-info/top_level.txt

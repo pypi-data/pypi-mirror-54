@@ -1,0 +1,3 @@
+[console_scripts]
+telega = telega_notify.main:main
+
