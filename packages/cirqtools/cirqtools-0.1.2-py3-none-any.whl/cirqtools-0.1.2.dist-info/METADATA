@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cirqtools
+Version: 0.1.2
+Summary: Useful classes and functions to use with Cirq circuits.
+Home-page: https://github.com/cduck/cirqtools
+Author: Casey Duckering
+License: UNKNOWN
+Download-URL: https://github.com/cduck/cirqtools/archive/0.1.2.tar.gz
+Keywords: cirq,quantum computing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Description-Content-Type: text/markdown
+Requires-Dist: cirq-dev
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+
+UNKNOWN
+
+
