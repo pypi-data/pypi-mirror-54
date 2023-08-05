@@ -1,0 +1,6 @@
+#!python
+
+import git_gud
+
+if __name__ == '__main__':
+    git_gud.cli_entrypoint()
