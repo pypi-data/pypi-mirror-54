@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "c3f671119de9ef45094e042a0a68e00c1378518047eede0f0136d1e7987ba97d"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "ipdetector": {
+            "editable": true,
+            "path": "."
+        }
+    },
+    "develop": {}
+}
