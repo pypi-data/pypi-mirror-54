@@ -1,0 +1,9 @@
+[console_scripts]
+ardgw = s3_extend.gateways.arduino_gateway:arduino_gateway
+espgw = s3_extend.gateways.esp8266_gateway:esp8266_gateway
+rpigw = s3_extend.gateways.rpi_gateway:rpi_gateway
+s3a = s3_extend.s3a:s3ax
+s3e = s3_extend.s3e:s3ex
+s3r = s3_extend.s3r:s3rx
+wsgw = s3_extend.gateways.ws_gateway:ws_gateway
+
