@@ -1,0 +1,13 @@
+basicauth
+beautifulsoup4
+colorlog
+email_validator
+html5lib
+psycopg2-binary
+pyaml
+ratelimit
+six>=1.12.0
+sshtunnel
+tabulator>=1.27.0
+typing
+yamlloader
