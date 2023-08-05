@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PythonJsonEditorWindow
+Version: 0.0.4
+Summary: A GUI window for editing JSON files using Python.
+Home-page: https://github.com/starikcetin/PythonJsonEditorWindow
+Author: starikcetin <cetinsamedtarik@gmail.com> (https://github.com/starikcetin)
+Author-email: cetinsamedtarik@gmail.com
+License: UNKNOWN
+Description: # PythonJsonEditorWindow
+        A GUI window for editing JSON files using Python.
+        
+        	pip install PythonJsonEditorWindow
+        
+        https://pypi.org/project/PythonJsonEditorWindow/
+        
+        MIT license
+        
+Keywords: python json editor window gui ui
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
