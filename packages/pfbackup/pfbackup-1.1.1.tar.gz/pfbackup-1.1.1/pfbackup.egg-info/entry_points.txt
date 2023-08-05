@@ -1,0 +1,3 @@
+[console_scripts]
+pfbackup = pfbackup.main:main
+
