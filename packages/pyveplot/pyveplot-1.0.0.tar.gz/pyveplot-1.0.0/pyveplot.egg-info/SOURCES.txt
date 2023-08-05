@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyveplot/__init__.py
+pyveplot.egg-info/PKG-INFO
+pyveplot.egg-info/SOURCES.txt
+pyveplot.egg-info/dependency_links.txt
+pyveplot.egg-info/requires.txt
+pyveplot.egg-info/top_level.txt
