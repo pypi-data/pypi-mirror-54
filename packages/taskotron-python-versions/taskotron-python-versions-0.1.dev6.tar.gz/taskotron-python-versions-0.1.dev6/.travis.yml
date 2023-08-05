@@ -1,0 +1,24 @@
+language: generic
+
+services:
+  - docker
+
+env:
+  - FEDORA=29 TOXENV=integration
+  - FEDORA=29 TOXENV=py3
+  - FEDORA=30 TOXENV=integration
+  - FEDORA=30 TOXENV=py3
+  - FEDORA=30 TOXENV=style
+  - FEDORA=31 TOXENV=integration
+  - FEDORA=31 TOXENV=py3
+  - FEDORA=rawhide TOXENV=integration
+  - FEDORA=rawhide TOXENV=py3
+
+install:
+  - sed -i "s/fedora-30-x86_64/fedora-${FEDORA}-x86_64/" mock.cfg
+  - sed -i "s/\$releasever/${FEDORA}/" mock.cfg  # needed on rawhide
+  - sed -i "s|FROM fedora|FROM registry.fedoraproject.org/fedora:${FEDORA}|" Dockerfile
+  - docker build -t taskotron .
+
+script:
+  - docker run --cap-add=SYS_ADMIN -v $(pwd):$(pwd) -w $(pwd) -i -e "TOXENV=$TOXENV" -t taskotron
