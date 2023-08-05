@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: glance_times
+Version: 0.3.6
+Summary: Who will watch the watchman? Glance can.
+Home-page: https://github.com/mrice88/glance
+Author: Mark Rice
+Author-email: markricejr@gmail.com
+License: MIT License
+Download-URL: https://github.com/mrice88/glance/archive/master.zip
+Description: UNKNOWN
+Keywords: logging,utility
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
