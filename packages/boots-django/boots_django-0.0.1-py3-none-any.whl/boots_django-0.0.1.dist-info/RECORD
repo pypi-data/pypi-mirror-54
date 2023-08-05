@@ -1,0 +1,15 @@
+vali/__init__.py,sha256=TQREBDZ90QoXEVOXYMYiYCb5utCxLVqxCvuPVuGwVa8,44
+vali/apps.py,sha256=u21oGwSC5D7FkQvW9OoFoj2ttIXPGWce1XdVeqTn2Pg,172
+vali/charts.py,sha256=VyNhfKO3Mbz4zsc43bHO1GBQW0Cq1K_AsXsWrEPBuww,753
+vali/counters.py,sha256=ADfsyGo7OSbKEI9rOCXMJNYZfEzz7TPSHTXMg96IsHw,650
+vali/decorator.py,sha256=z2ordUWXgHi4Hs6p1w2vJUlFLumCx9At6toMIFQ67ZE,410
+vali/urls.py,sha256=G65bf0CyMFB7JC-6R9-nFyMlrSxmwlC5kOhp31OmHv8,155
+vali/views.py,sha256=vPcl1bRDaiMrXXNfddA8ESilP6QLmjxBo2j1kTXOT0s,5055
+vali/widgets.py,sha256=DYEBGP0a2SfSnv_L-8DX75kTx6i4s_lF8gijYZ27PKo,1910
+vali/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vali/templatetags/vali_tags.py,sha256=D9ivGkjuFzfWoJ58xW3ddW6gAtNdceV3dfuRNGKTFSw,6111
+boots_django-0.0.1.dist-info/LICENSE,sha256=4Yhz2OkZxxLTHI-R7vpMD2Q6lURa8gnPMsJRiPA_kbI,1150
+boots_django-0.0.1.dist-info/METADATA,sha256=8Ug6vzPyLH825rMMDwPnIxI8KESEl_NavNOEpFrCRN4,612
+boots_django-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+boots_django-0.0.1.dist-info/top_level.txt,sha256=kiuAGOl8oNQfPPC6a37duXMnDjmV6YkyX8oqjYBMk1k,5
+boots_django-0.0.1.dist-info/RECORD,,
