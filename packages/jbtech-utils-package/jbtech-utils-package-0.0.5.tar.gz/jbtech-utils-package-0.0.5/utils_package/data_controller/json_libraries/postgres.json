@@ -1,0 +1,21 @@
+{
+  "db_connections": {
+    "catan_local": {
+      "port": 5432,
+      "server": "localhost",
+      "db_name": "postgres"
+    }
+  },
+  "user_credentials": {
+    "local": {
+      "writer": {
+        "user": "catan_writer",
+        "password": "catan_writer"
+      },
+      "reader": {
+        "user": "catan_reader",
+        "password": "catan_reader"
+      }
+    }
+  }
+}
