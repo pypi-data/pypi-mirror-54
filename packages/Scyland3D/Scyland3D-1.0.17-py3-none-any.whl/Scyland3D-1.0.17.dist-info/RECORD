@@ -1,0 +1,16 @@
+Scyland3D/Scyland3D.py,sha256=L4WfrqQlCmThEOmlzYHS6gc03ARpmh7YM1xU93ESMy0,16709
+Scyland3D/__init__.py,sha256=1-B6HtvDY-44VsNFtFyvrWM8ulRJTXkAJypBPzPlLz8,21
+Scyland3D/example/200118G_canicula_mediterranean_40_female_mature_lower_tooth04_4.pts,sha256=kDfsVvdUIlTEbej0oPW9QzMg1HI3lJolDZ-kJkhOdSs,3007
+Scyland3D/example/200118G_canicula_mediterranean_40_female_mature_lower_tooth09_4.pts,sha256=vagZd-I9gncN2AOZVxPpUTBcz9WFlfxoec688tYpeag,3007
+Scyland3D/example/200118H_canicula_mediterranean_47_female_mature_upper_tooth04_3.pts,sha256=dq7Kyow6I19FPBBOnvuhISv1MySiFMF10yIusoQwOdo,3007
+Scyland3D/example/200118H_canicula_mediterranean_47_female_mature_upper_tooth09_2.pts,sha256=DRFGV_vVVXFs4jPjyi-B2NgSC_PJ5M91IY-uH2bkoOM,3007
+Scyland3D/example/200118H_canicula_mediterranean_47_female_mature_upper_tooth15_3.pts,sha256=Ex3yWlu_64hMkKHd1hJjdE93yjQ-VJSqSCeot_MSBA4,3007
+Scyland3D/test/landmarks_ref.csv,sha256=0TDaCOUkn_iELTP_lKe8nNeph7ByQsFwX2e2gNfXD1Q,6855
+Scyland3D/test/landmarks_reordered_ref.csv,sha256=l_kvo3-gG1ZwE0p50sOkDperW8UjGX8M3iRMPCB9vCE,6855
+Scyland3D/test/landmarks_reversed_ref.csv,sha256=xOQ7vzhOJuVbCzk67_xbMff8LRQyd7W8pv-XygBwMZY,8198
+Scyland3D-1.0.17.dist-info/LICENSE,sha256=EO0uR9nVdVF_8Ojclt9i_Xzdxkn-R4P8x0x1hU9xvVI,1083
+Scyland3D-1.0.17.dist-info/METADATA,sha256=si7rb5SE6F1XKfmA18zkQcxh3inFv8O7L7c1mvhMNJA,7584
+Scyland3D-1.0.17.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+Scyland3D-1.0.17.dist-info/entry_points.txt,sha256=LlsH8ilQWwJr3D--dtqLqu720OnuaYsvZunJnwzp6yE,64
+Scyland3D-1.0.17.dist-info/top_level.txt,sha256=eCvWg1uLeedmCzrPX46Z7IivJshdQnSY3GiehuUjZJU,10
+Scyland3D-1.0.17.dist-info/RECORD,,
