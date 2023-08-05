@@ -1,0 +1,7 @@
+blacklist:
+    - license: "*agpl*"
+    - license: None
+    - license: ""
+    - name: "*"
+whitelist:
+    - name: system

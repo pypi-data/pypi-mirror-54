@@ -1,0 +1,3 @@
+[console_scripts]
+conda-mirror-ng = conda_mirror_ng.conda_mirror:cli
+
