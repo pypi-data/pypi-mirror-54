@@ -1,0 +1,3 @@
+[console_scripts]
+ginpar = ginpar.cli:cli
+
