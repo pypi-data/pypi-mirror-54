@@ -1,0 +1,5 @@
+aws-requests-auth
+boto3
+chaostoolkit-lib>=1.7.0
+requests
+cdpchaostoolkit
