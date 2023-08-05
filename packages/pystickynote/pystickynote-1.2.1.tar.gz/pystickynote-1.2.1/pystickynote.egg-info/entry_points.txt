@@ -1,0 +1,3 @@
+[console_scripts]
+pystickynote = pystickynote.__main__:main
+
