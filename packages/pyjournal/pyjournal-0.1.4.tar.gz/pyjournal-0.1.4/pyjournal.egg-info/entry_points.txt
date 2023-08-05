@@ -1,0 +1,3 @@
+[console_scripts]
+journal = pyjournal.__main__:write
+
