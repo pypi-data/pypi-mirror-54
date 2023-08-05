@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_pwny.egg-info/PKG-INFO
+django_pwny.egg-info/SOURCES.txt
+django_pwny.egg-info/dependency_links.txt
+django_pwny.egg-info/not-zip-safe
+django_pwny.egg-info/top_level.txt
+pwny/__init__.py
+pwny/validation.py
