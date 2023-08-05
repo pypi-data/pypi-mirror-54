@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: robotpt-common-utils
+Version: 0.0.4
+Summary: Tested functions for common operations
+Home-page: https://github.com/robotpt/robotpt-common-utils
+Author: Audrow Nash
+Author-email: audrowna@usc.edu
+License: MIT
+Description: 
+        README
+        ======
+        
+        A collection of common functions.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
