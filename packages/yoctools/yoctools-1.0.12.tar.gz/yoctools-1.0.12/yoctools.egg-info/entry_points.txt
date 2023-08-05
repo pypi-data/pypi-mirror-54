@@ -1,0 +1,4 @@
+[console_scripts]
+csi = yoctools.csi:gen_chip_sdk
+yoc = yoctools.yoc:main
+
