@@ -1,0 +1,10 @@
+README.md
+setup.py
+conventional_commit.egg-info/PKG-INFO
+conventional_commit.egg-info/SOURCES.txt
+conventional_commit.egg-info/dependency_links.txt
+conventional_commit.egg-info/entry_points.txt
+conventional_commit.egg-info/top_level.txt
+gitcommit/__init__.py
+gitcommit/__main__.py
+gitcommit/gitcommit.py
