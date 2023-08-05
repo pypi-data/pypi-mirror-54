@@ -1,0 +1,9 @@
+click
+backoff
+requests
+appdirs
+PyYAML
+quetzal-openapi-client<0.6,>=0.5.0
+
+[:platform_system == "Windows"]
+pyreadline
