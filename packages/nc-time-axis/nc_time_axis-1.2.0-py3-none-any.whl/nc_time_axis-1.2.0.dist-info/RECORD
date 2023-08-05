@@ -1,0 +1,16 @@
+nc_time_axis/__init__.py,sha256=USbOgNRc2ndt0BIfMzcJyIVgSMuebQxQ12IzkAB9xYc,11985
+nc_time_axis/_version.py,sha256=79rxPcgDhMbj3NwQkq_yZ8PawmB7Q79OeR56ZX1OzKg,475
+nc_time_axis/tests/__init__.py,sha256=RSchUbd_XveJDh_1hugM9Flp1epJXLWv1h_rm5mQykI,130
+nc_time_axis/tests/test_pep8.py,sha256=vNkdx9fo1L6iNcZw5U8ZFP7B_J92b0leycQ64oUABRM,1546
+nc_time_axis/tests/integration/__init__.py,sha256=7Ps2hNENzRKDzIVMTgc9Ln2hI04SOo1dWkqiVDpc61Q,192
+nc_time_axis/tests/integration/test_plot.py,sha256=7ZTRNHSNiMNLKRpKIsRUNj5PJwHc8KzzsESF1P3kXQg,1521
+nc_time_axis/tests/unit/__init__.py,sha256=C2nNAtoDU8Q0y_sfyumHwaqqVgM3hWlmTvxC04BrDCM,185
+nc_time_axis/tests/unit/test_CalendarDateTime.py,sha256=yOVLCE5wwfUAvTlhkthVFUusb5L4GSD1px4_qdxz-CA,1818
+nc_time_axis/tests/unit/test_NetCDFTimeConverter.py,sha256=ffjYBedb0hdSlTuHUZh3WO9T7P6c1ig-6stEXXMuHmU,6124
+nc_time_axis/tests/unit/test_NetCDFTimeDateFormatter.py,sha256=ucUn3hYTUUiTvu83iXZjppy0eq8wZjS4EZ-jmplKNGE,959
+nc_time_axis/tests/unit/test_NetCDFTimeDateLocator.py,sha256=C7Hc6QpYi0aOTtxAU0sateug__YgSzbZkFLpzaXRmuw,4506
+nc_time_axis-1.2.0.dist-info/LICENSE,sha256=a9oWSlnsVX3DR5azewWa0pk1o6u4v1XABMcq6lAHE-8,1504
+nc_time_axis-1.2.0.dist-info/METADATA,sha256=Rp1ZF2AC7QYs57xUnSLwVkpP92mKAixDbXEg2nohWco,340
+nc_time_axis-1.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+nc_time_axis-1.2.0.dist-info/top_level.txt,sha256=MmT21cHhTb_RUfvB0VSuEKY2d3Y-pHSscv7WGYvbXKQ,13
+nc_time_axis-1.2.0.dist-info/RECORD,,

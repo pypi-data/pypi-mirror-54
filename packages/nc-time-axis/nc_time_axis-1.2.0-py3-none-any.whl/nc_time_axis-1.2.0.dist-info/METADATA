@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nc-time-axis
+Version: 1.2.0
+Summary: cftime support for matplotlib axis
+Home-page: https://github.com/scitools/nc-time-axis
+Author: Laura Dreyer, Philip Elson
+Author-email: UNKNOWN
+License: BSD3
+Platform: UNKNOWN
+Requires-Dist: cftime
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: six
+
+UNKNOWN
+
+
