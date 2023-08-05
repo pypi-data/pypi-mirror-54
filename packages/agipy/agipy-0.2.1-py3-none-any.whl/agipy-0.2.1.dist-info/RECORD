@@ -1,0 +1,12 @@
+agipy/__init__.py,sha256=yRPP0nBDy-9LdMP6yUzPEtJrWQ1wucJe2MMQy_vZVPU,736
+agipy/agipy.py,sha256=rMGtSB-me5dtXrtfkuhbkYIe4WJcjP-C_QH7xacDvLI,1144
+agipy/test_agipy.py,sha256=pmnm58iRVi_796CCh3zzCcTrMxO4ZP_xbFuCxgPOFu0,1420
+agipy/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agipy/providers/azure.py,sha256=PF7xwBcnBAiYZtco5IFBAA6_MVV4TYvVkA7wiQ108oA,4895
+agipy/providers/test_azure.py,sha256=wu0P1Ig8iWOsytLy3kQF88zJCzq-9K9BKUvHepfrGSs,7380
+agipy-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+agipy-0.2.1.dist-info/METADATA,sha256=fi_u7wY5HEL-j1UsS6Z68GiREOxg35n8H6qu3l-AlY0,5378
+agipy-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+agipy-0.2.1.dist-info/entry_points.txt,sha256=cDNlVOqS5iG3muMlwxKSIkzdb7kyy5IYyyWGULra7LY,49
+agipy-0.2.1.dist-info/top_level.txt,sha256=jUlg1XewF_2Dyi1SgKqGIDx5G8B3udh1iPKvif3mFAw,6
+agipy-0.2.1.dist-info/RECORD,,
