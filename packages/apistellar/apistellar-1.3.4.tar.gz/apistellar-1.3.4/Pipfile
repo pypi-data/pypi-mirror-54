@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest-apistellar = "*"
+pytest-cov = "*"
+pytest-asyncio = "*"
+pytest = "*"
+pylint = "*"
+
+[packages]
+apistar = "<=0.5.42"
+uvicorn = ">=0.7.0"
+gunicorn = "*"
+toolkity = "~=1.8.0"
+whitenoise = "<=3.3.1"
+pyaop = "*"
+Flask = "==1.0.2"
+pytz = "*"
+aiofiles = "*"
+aiohttp = "*"
+databases = {extras = ["sqlite"],version = "*"}
+
+[requires]
+python_version = "3.7"
