@@ -1,0 +1,13 @@
+README.md
+setup.py
+netsuitesdk/__init__.py
+netsuitesdk/client.py
+netsuitesdk/constants.py
+netsuitesdk/exceptions.py
+netsuitesdk/netsuite_types.py
+netsuitesdk/utils.py
+netsuitesdk.egg-info/PKG-INFO
+netsuitesdk.egg-info/SOURCES.txt
+netsuitesdk.egg-info/dependency_links.txt
+netsuitesdk.egg-info/requires.txt
+netsuitesdk.egg-info/top_level.txt
