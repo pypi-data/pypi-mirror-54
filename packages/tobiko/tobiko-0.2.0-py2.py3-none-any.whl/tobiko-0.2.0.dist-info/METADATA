@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: tobiko
+Version: 0.2.0
+Summary: OpenStack Testing Upgrades Library
+Home-page: UNKNOWN
+Author: OpenStack
+Author-email: openstack-discuss@lists.openstack.org
+License: UNKNOWN
+Keywords: setup,distutils
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: ansible (<2.8.0,>=2.4.0)
+Requires-Dist: fixtures (>=3.0.0)
+Requires-Dist: keystoneauth1 (>=3.4.0)
+Requires-Dist: Jinja2 (>=2.8.0)
+Requires-Dist: junitxml (>=0.7)
+Requires-Dist: netaddr (>=0.7.18)
+Requires-Dist: neutron-lib (>=1.25.0)
+Requires-Dist: os-faults (>=0.1.18)
+Requires-Dist: oslo.config (>=5.2.0)
+Requires-Dist: oslo.log (>=3.36.0)
+Requires-Dist: paramiko (>=2.4.0)
+Requires-Dist: pbr (>=4.0.0)
+Requires-Dist: python-heatclient (>=1.5.0)
+Requires-Dist: python-glanceclient (>=2.16.0)
+Requires-Dist: python-neutronclient (>=6.7.0)
+Requires-Dist: python-novaclient (>=9.1.0)
+Requires-Dist: python-octaviaclient (>=1.9.0)
+Requires-Dist: python-openstackclient (>=3.0.0)
+Requires-Dist: stestr (>=2.0)
+Requires-Dist: six (>=1.10.0)
+Requires-Dist: testtools (>=2.2.0)
+Requires-Dist: pandas (>=0.24.2)
+
+======
+Tobiko
+======
+
+
+Test Big Cloud Operations
+-------------------------
+
+Tobiko is an OpenStack testing framework focusing on areas mostly
+complementary to `Tempest <https://docs.openstack.org/tempest/latest/>`__.
+While tempest main focus has been testing OpenStack rest APIs, the main Tobiko
+focus would be to test OpenStack system operations while "simulating"
+the use of the cloud as the final user would.
+
+Tobiko's test cases populate the cloud with workloads such as instances, allows
+the CI workflow to perform an operation such as an update or upgrade, and then
+runs test cases to validate that the cloud workloads are still functional.
+
+
+Main Project Goals
+~~~~~~~~~~~~~~~~~~
+
+- To provide a Python framework to write system scenario test cases.
+- To provide tools for testing OpenStack system operations like update,
+  upgrades and fast forward upgrade.
+- To provide CLI tools to implement a workflow designed to test potentially
+  destructive operations (like rebooting cloud nodes, restarting services
+  or others kinds of fault injections).
+- To provide tools to monitor and recollect the healthy status of the cloud as
+  seen from user perspective (black-box testing) or from inside (white-box
+  testing).
+
+
+References
+----------
+
+* Free software: Apache License, Version 2.0
+* Documentation: https://tobiko.readthedocs.io/en/latest/
+* Release notes: https://docs.openstack.org/releasenotes/tobiko/
+* Source: https://opendev.org/x/tobiko
+* Bugs: https://storyboard.openstack.org/#!/project/x/tobiko
+
+
+
