@@ -1,0 +1,10 @@
+setup.py
+jupyterlab_commenting_service/__init__.py
+jupyterlab_commenting_service/main.py
+jupyterlab_commenting_service/service.py
+jupyterlab_commenting_service.egg-info/PKG-INFO
+jupyterlab_commenting_service.egg-info/SOURCES.txt
+jupyterlab_commenting_service.egg-info/dependency_links.txt
+jupyterlab_commenting_service.egg-info/entry_points.txt
+jupyterlab_commenting_service.egg-info/requires.txt
+jupyterlab_commenting_service.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: jupyterlab-commenting-service
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/jupyterlab/jupyterlab-commenting
+Author: CalPoly/Quansight
+Author-email: jacobrhoussian@gmail.com
+License: BSD-3-Clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
