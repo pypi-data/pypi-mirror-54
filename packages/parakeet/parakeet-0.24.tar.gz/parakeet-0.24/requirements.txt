@@ -1,0 +1,4 @@
+dsltools
+numpy
+appdirs
+nose
