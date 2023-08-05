@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: explore
+Version: 0.0.0
+Summary: Value scoring and best match picking.
+Home-page: https://github.com/Exahilosys/explore
+License: MIT
+Description: ## Installing
+        
+        ```
+        pip3 install explore
+        ```
+        
+        ## Specific Usage
+        
+        ```python
+        import explore
+        
+        # yummy foods to choose from
+        foods = ('pasta', 'pork', 'broccoli', 'anchovy', 'peking duck')
+        
+        # choosing during a keyboard stroke
+        food = explore.pick(foods, 'vorcloki')
+        ```
+        
+        ## Generic Usage
+        ```python
+        import explore
+        
+        # lots of yummy food info
+        foods = food_api.get_all()
+        
+        # match according to these attributes
+        fetch = lambda food: (food.id, food.name)
+        
+        # returns value, NOT attribute matched against
+        food = explore.pick(foods, 'vorcloki', fetch = fetch)
+        ```
+        
+        ## Extended Usage
+        ```python
+        import explore
+        
+        # lots of yummy food info
+        foods = food_api.get_all()
+        
+        # match according to these attributes
+        fetch = lambda food: (food.id, food.name, food.color)
+        
+        # this is a generator, iterating exhausts it
+        pairs = explore.generic(fetch, values, 'vorcloki') # [(food, score), ...]
+        
+        # best matching one
+        food = explore.lead(pairs)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
