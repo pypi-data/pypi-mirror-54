@@ -1,0 +1,12 @@
+[console_scripts]
+tobiko = tobiko.cmd.run:main
+tobiko-create = tobiko.cmd.create:main
+tobiko-delete = tobiko.cmd.delete:main
+tobiko-fault = tobiko.cmd.fault:main
+tobiko-fixture = tobiko.cmd.fixture:main
+tobiko-keystone-credentials = tobiko.openstack.keystone._credentials:print_credentials
+tobiko-list = tobiko.cmd.list:main
+
+[oslo.config.opts]
+tobiko = tobiko.config:list_tobiko_options
+

@@ -1,0 +1,554 @@
+CHANGES
+=======
+
+0.2.0
+-----
+
+* Add stack properties to get network gateway IPs
+* Use tobiko selection API for filtering L3 router agents
+* Update topology API
+* Remove \*.test\_ssh\_command test cases
+* Relax low coverage trealdshold
+* Remove \*.test\_ssh\_from\_cli test cases
+* Allow to select IP address by scope
+* List namespaces and namespace IPs on cloud nodes
+* Add wrapper for IP command
+* Add test to verify VM can ping all gateway route ports
+* Add tests for routers
+* Create test case for Neutron ports
+* Install ip command on RH's distros
+* Add bindep file
+* Generate os-faults.yaml using new topology API
+* Fix Openstack topology discovery for Python 2
+* Create scenario test case for cloud nodes
+* Allow to get host\_config and connect parameters before connecting to SSH server
+* Add controller topology nodes group
+* Add wrapper for ipconfig shell command
+* Fix wrapper for 'hostname' shell command
+* Add support for proxy\_client parameter to ssh.ssh\_client function
+* Fix ping fixed delay at the end of command execution
+* Update tripleo topology driver
+* Implement TripleO topology driver
+* Create OpenStack topology API to interact with cloud nodes
+* Copy the build ssh key to authorized\_keys on all hosts for stack
+* Add functions to look for port IP addresses
+* Wraps 'hostname' command
+* Fix class constructor
+* Fix import order
+* Remove files added accidentally to the repo
+* Check pacemaker resources
+* Fix os-fault CLI command executor
+* Add report files to Git ignore files
+* Configure upstream DevStack CI jobs with Octavia
+* Add support for SSH proxy in os-faults integration
+* Safely generate os-faults file to temporary files
+* Disable colorized log files on DevStack CI jobs
+* Fix clouad.yaml support debug message
+* Add support for clouds.yaml file in DevStack plugin
+* use subunit2junitxml for junit-xml report otherwise jenkisn can't read the results
+* Handle multiple ping commands dialects
+* collect junit xml results
+* Debug local process brute termination
+* Use OpenStack default config files and directories
+* Workaround SSH command timeout problems
+* Add ping timeout functional test case
+* Generate subunit results XML file report
+* Fixes: ansible shell non needed quotes :
+* Write to log the begin and the end of every test case
+* ir plugin conditional python3 / 2 :
+* Skip functional test case that is producing undebuggable failures
+* add report collection for downstream jobs
+* Update get\_exit\_status for shell process classes
+* Set path for tobiko logs in devstack tobiko jobs
+* Execute single node upstream CI job checks
+* Refactor OS-faults integration
+* Enable Neutron L3 agent on sub-nodes on upstream CI
+* Wait for server console output if empty
+* Debug ping command output
+* Fix remote process get\_exit\_status method
+* Remove RTD Pip requirements file
+* Fix ping error command handler when unknow host error is received
+* Disable often failing test cases
+* Update tox.ini style
+* Add single node devstack upstream CI job
+* Enable PEP8 extensions
+* Enable ignored PEP8 verifications
+* Fix centos 7 DevStack CI job
+* Fix shell process execution:
+* Fix docs building requirements
+* Check stack status before fetching Nova server details
+* Fix Nova quota instances for upstream CI
+* Prevent unestable openstack-three-node-centos-7 job from voting
+* Use the IPv6 documentation prefix as the default cidr
+* Fix code style for passing PEP8 verifications
+* Don't threat as an error when OS\_CLOUD env variable is not defined
+* Reduce custom MTU value because of restrictions
+* Make clouds file support configurable
+* Update OpenStack clouds file support
+* Add Fedora image and flavor fixtures
+* Enable DevStack os-fault plugin
+* Add SSH connectivity to overcloud nodes
+* Change server console output format to JSON
+* Add support for clouds config file
+* Use fedora-29 instead of fedora-28
+* Update server stack details dumping
+* Add functions to get overcloud nodes IP addresses
+* Add functions to list overcloud nodes
+* Add functions to connect to undercloud APIs
+* Update tripleo configuration
+* Use tobiko.makedirs instead of os.makedirs to avoid concurrency problems
+* Allow to gather detail content from a json object
+* Increment SSH connection tries intevals
+* Debug and fix execution loop in comunicate process
+* Ignore encoding errors
+* Add CentOS image and flavor fixtures
+* Check hostname without domain name
+* Add VM to VM L3HA connectivity test cases
+* Re-enable functional test case for Ubuntu based VMs
+* Fix test case for getting server console output from server stack
+* Fix typo in NeutronClientManager class name
+* Fixed incorrect default directory mode
+* Take out overcloud stuff from undercloud module
+* Fix duplicated details gathering
+* Add functions to list or find nova server instances
+* Create fixture to translate OS\_\* env variables to Keystone credentials
+* Add functions to fetch OS\_\* env variables from stackrc and overcloudrc files
+* Add Nova server console output as test failure detail
+* Add functions to ssh connect to undercloud-0 as stack user
+* Add API call to capture Nova servers console output
+* Add captured log lines to test case details
+* Patch HTTP proxy environ variable in unit tests
+* Export no\_proxy option always when it's set in config file
+* Add functional test case for undercloud SSH connection params
+* Rename skip\_until to skip\_unless
+* Fix default username and port for SSH client connection
+* Create unittest for tripleo tobiko.conf section
+* Create TripleO section in tobiko.conf
+* Delay tobiko config initialization
+* Fix logging line in tobiko.config
+* Add possibility to prevent Tobiko from creating test image
+* Update VM to VM conectivity test case
+* Skip different host test if there are less then two hypervisors
+* Test VM to VM connectivity
+* Remove old resource searching modules
+* Update Glance image search
+* Update Keystone resource search
+* Update Neutron resource search
+* Update ipervisors selection by attribute
+* Fix concurrent SSH key file creation
+* Update neutron agent listing
+* Add test floating IP test case with HA router
+* Skip Ubuntu server test case because of flaky failures
+* Add toools for listing hypervisors and skiping when missing some
+* Add function to select objects by attribute values
+* Update and test nova\_client function
+* Add API to list neutron agents and skipp tests if missing some
+* Look for tobiko.conf into current direcory and its parents
+* Fix build autogenerated config files doc on RTD
+* Switch from py36 to py37 as default python3 interpreter version
+* Add autogenerated tobiko.conf example file
+* Remove publishing to docs.openstack.org
+* Add possibility to prevent Tobiko from creating test resources
+* Add requirements file for RTD builds
+* Automatically create SSH key file if it doesn't exists
+* Update documentation after some required resources creation has been automated
+* Remove unused default nova flavor
+* Add tobiko.conf to .gitignore file
+* Add glance client to requirements file
+* Adds octavia client integration
+* Add find\_service\_endpoint keystone function
+* Fix typo in keystone client integration
+* Separate keystone monkey patching from base openstack test case
+* Create base mixin class for patching in unit tests from test cases and fixtures
+* Allow to override fixture initialization in FixtureManager class
+* Autogenerate config options and sample config file
+* Add Ubuntu image and flavor fixtures
+* Allow skipping in case service is not available
+* Add Keystone client API
+* Fix default tobiko configuration file location
+* Move default server fixture to new cirros module
+* Add support for XZ image decompression
+* Fix SSH connectivity issues
+* Increase RAM to 128Mb for CirrOS based VMs
+* Check code complexity
+* Reduce code complexity of tobiko/tests/unit/cmd/test\_fixture.py
+* Reduce shell process 'communicate' method code complexity
+* Reduce ping code complexity
+* Fix local command execution
+* Implement glance image files decompression (zip, gz, bz2)
+* Fix check\_image\_status function
+* Handle Glance image concurrent creation
+* Fix find\_resources functions
+* Remove configuration of flavor in InfraRed plugin
+* Fix flavors concurrent creation
+* List stack resources in HeatStackFixture
+* Update documentation after adding fixture to create flavors
+* Remove configuration of flavor in DevStack plugin
+* Create a loop for defining image configuration option
+* Add fixture to create flavor for CirrOS images
+* Fix CirrOS image fixture configuration (URL, container\_format, disk\_format)
+* Fix shell package
+* Restructure shell package
+* Fix DevStack jobs: mark files as irrelevant
+* Let KeystoneCredentials.to\_dict() method to return a dictionary
+* Add tool to print out yaml file to js format
+* Bug fix for : https://trello.com/c/Jjij9ktA/131-fix-tox-not-found-in-downstream-job
+* Use CirrosGlanceImageFixture to fetch CirrOS image on Infrared
+* Add command to print out keystone credentials used by Tobiko
+* Increase default ping timeout from 60 to 90 seconds
+* Update documentation after cirros image creation has been automated
+* Use CirrosGlanceImageFixture to fetch CirrOS image on DevStack
+* Implement Glance image management (setup and cleanup)
+* Create wrapper to sys.exc\_info
+* fix for typo when: test.refsec for https://trello.com/c/NOgGkEXH/123-add-infrared-plugin-option-gerritchangeid-to-select-specific-patch-for-ir-plugin
+* Recursively list required fixtures
+* Add tobiko-fixture CLI wrapper to CI tools
+* Update CI tools with an openstack wrapper
+* Use stack fixture name as seed for random CIDR generation
+* allow specifying custom tobiko gerrit refsec for checking out and testing a specific patch
+* changes missed for: https://review.opendev.org/#/c/665966/13
+* - allow rerunning of infrared tobiko configure tasks - also set external net name according to osp version - fix the string bug when using multiple words with --tests : http://pastebin.test.redhat.com/773150 Change-Id: I1d217f179be13498bb5f21b777d39636292da835
+* Generate random subnet CIDRs
+* Skip test cases for broken CIDR subnet assignation
+* Restore execution of FloatingIpWithMtuWritableTest
+* Use CirrosImageFixture in existing stacks
+* Add package for OpenStack Glance client
+* Fix tests to check network network stack subnet gateway ips
+* Add support for dynamic parameters allocation in Heat stacks
+* Update Neutron Client
+* Update OpenStack clients to improve 'lazyness'
+* Improve keystone client 'lazyness'
+* Add check valid type function
+* Add reset fixture function
+* Use NetworkWithNetMtuWriteStackFixture for testing net-mtu-write extension
+* Improve neutron client integration
+* Add n-api-meta and q-agt services to DevStack subnodes
+* Rename fixture: NetworkWithNetMtuWriteStackFixture -> NetworkWithNetMtuWriteStackFixture
+* Use FloatingIpServerStackFixture in test\_floating\_ip
+* Use connect SSH client method to wait for networking connectivity
+* Update fixtures for creating networks
+* Create functional test case for NetworkStackFixture
+* Add basic ssh connection test cases
+* Remove test case properties
+* Rename "floating\_ip\_stack" attribute name as "stack"
+* Update test\_floating\_ip docstrings
+* Get stack otputs direclty from stack attribures
+* Add support for net-mtu-write to NetworkStackFixture
+* Remove .outputs reference when not needed
+* Optimize getting stack outputs
+* Let get\_fixture\_name skip calling \_\_getattr\_\_ method in shared fixtures
+* Update heat stack template and outputs
+* Try to fix failing RTD web hook
+* Move security group stack fixture to shared package
+* Verify shared stack hostname
+* Use shared floating ip server stack in test\_floating\_ip
+* Update shared fixture classes
+
+0.1.1
+-----
+
+* Configure documentation upstream CI jobs
+* Update tobiko documentation page URL
+* Fix test\_ssh after Include directive is being ignored
+* Implement async shell result handling
+* Refine tobiko faults
+* Update irrilevant files for Devstack CI jobs
+* Fix keystone credentials
+
+0.1.0
+-----
+
+* Fix : /bin/sh: line 1: wget: command not found
+* Use NovaKeyPairFixture in neutron scenario test cases
+* Create reusable Heat staks
+* Add info about Heat in Devstack
+* Disable SSH agent formarding by default
+* Update SSH client integration
+* Test SSH connectivity via floating IP
+* Update SSH client integration
+* Compare port security groups as sets
+* Cleanup zuul configuration
+* Add compute host service to single-node functional job
+* Run all scenario test cases
+* Automatically select python version on scenario and fucntional tests
+* Update CI job irrelevant files
+* Update docs requirements and fix link
+* Pass to default python for static analisys tests
+* Pass statical analisys wiht Python2
+* Rename package: tobiko.shell.paramiko -> tobiko.shell.ssh
+* Rename package: tobiko.tests -> tobiko.tests.unit
+* Override fixture manager in every unit test
+* Add tox environment to generate HTML test case reports
+* Fix SSH connection procedure when server instance is booting
+* Add fixture\_property decorator
+* Update Paramiko integration
+* Reduce fixture managing verbosity
+* Add paramiko SSH client integration
+* Add infrared plugin to tobiko
+* Fix tobiko-fixture subcommand
+* Update requirements after ansible 2.8 release
+* Update DevStack plugin after Keystone auth params improvement
+* Improve KeyStone credentials parameter handling
+* Fix ping when no stdout is given
+* Update project goals in README.rst file
+* Sort Zuul project templates and jobs by name
+* Document how to configure Tobiko and run scenario test cases
+* Fix requirements and use ReadTheDocs HTML documentation theme
+* Create Nova key pair with random name
+* Addition of (nova ssh) key\_pair\_fixture with cmdline,heat template, and a stacks fixture class to be used in test\_floating\_ip scenarios
+* Clarify README.rst, remove duplication in docs/index.rst
+* Add missing copyrigths
+* Refine and add docstrings to fixture module
+* Refactor exceptions message formatting on top of format method
+* Update README file
+* Add quick start guide to RST documentation
+* Document and refine scenario tests
+* Create docs job and environment
+* Restore voting flag to CentOS 7 CI job
+* Add copypastable quick start section
+* Use CI pipelines from upstream project templates
+* Add PyPi pubblication CI jobs
+* Add devstack functional job
+* Move shell test cases to functional package
+* Add cover CI job and tox env
+* Let run test cases of the same class by the same parallel executor
+* Add Jinja2 to requirements file
+* Skip FlatingIpWithMtuWritableTest when net-mtu-writable is not available
+* Remove neutron-requirements.txt file
+* Handle "No route to host" ping error message
+* Refactor tox.ini to match OpenStack Project Testing Interface
+* Call again setup\_fixture and cleanup\_fixture after they fails
+* Skip test cases by setUp method instead of setUpClass method
+* Update README.rst after OpenDev Migration Patch
+* OpenDev Migration Patch
+* Re-assign voting flag to Fedora 28 job
+* Revert "Enable voting to CentOS 7 jobs (Rocky and trunk)"
+* Refactor fixtures test cases
+* Refactor test\_floating\_ip using the new required\_fixture\_setup function
+* Enable voting to CentOS 7 jobs (Rocky and trunk)
+* Modify quick-start doc
+* Refactor required fixtures listing
+* Remove "constants" module
+* Remove stack manager class
+* Remove duplicate method
+* Add required fixtures to tobiko-fixture list command
+* Test net-mtu-writable networking API extension
+* Allow skipping test cases when missing networking extensions
+* Allow to decorate for skipping fixtures or test case classes
+* Make setup\_stack aware of Heat concurrency issue
+* Check it gets something from stderr before handling ping errors
+* Remove voting from Fedora 28 and CentOS 7 jobs
+* Temporarly remove vote to CentOS stable branches
+* Allow pylint to execute paralled processes to speedup execution
+* Replace tobiko.common.utils.network with tobiko.shell.ping
+* Re-enable voting to Fedora-28 job and add stable branches CentOS jobs
+* Implement ping command wrapper
+* Create base tool to execute shell commands
+* Move tobiko.common.managers.fixture to tobiko.common package
+* Import base exceptions from main tobiko module
+* Update requrements files
+* Substitude class attribute 'parameters' dict to an easier to read individual class attributes
+* Update Ubuntu version in Vagrantfile
+* Disable dns-integration in Neutron in Fedora job
+* Import base exception from tobiko package
+* Add Tobiko credentials to devstack plugin
+* Add reno for release notes management
+* Test sending oversized ICMP packages over floating IP
+* Remove old test cases based on stack manager classs
+* Remove commands test cases
+* Rewrite floating IP test case
+* Create CentOS Neutron job
+* Rename tobiko.openstack.nova.client module
+* Rename tobiko.openstack.neutron.client module
+* Rename tobiko.openstack.keystone modules
+* Rename tobiko.openstack.heat modules
+* Adding an installation guide for Tobiko
+* Disable voting for Neutron Fedora job
+* Fix fleaky failures on Python 2.7
+* Remove ClientManager class
+* Create Heat stack fixture
+* Create Heat template loader
+* Rename tobiko.conf options and split openstack config module
+* Addition of verbose / quiet options to tobiko cmd
+* Add tobiko-neutron job based on Fedora 28 images
+* Use only pep8, pylint, py36 and py27 as default tox envs
+* get\_fixture with fixture instance return instance itself
+* Create OpenStack clients using new tobiko.openstack package
+* Disables Swift on tobiko-devstack job
+* Replace openstack.org git:// URLs with https://
+* Add fixture to create nova client
+* Add install command to IR plugin
+* Add fixture to create neutron client
+* Check actual client/session instance classes
+* Create fixture for creating heat client
+* Implement base classes for Openstack clients
+* Fix get\_keystone\_session
+* Remove tempest.conf integration
+* Make sure default credentials exists in openstack unit tests
+* Add tobiko-fault command
+* Add licence type to cryptography extra requirement
+* Initialize Keystone session using the new keystone package
+* Create Keystone session manager class
+* Create Keystone session fixture class
+* Get default credentials using new keystone package
+* Patch default credentials when executing command unit tests
+* Fix typing error
+* Create fixtures for default Keystone credentials
+* Make Heat and Neutron clients creation lazy (just-in-time)
+* Rename "identity" section as "keystone" in tobiko.conf
+* Create model class to store Keystone credentials
+* [Devstack] Use devstack's install\_python3 function
+* Get parsed test results in tobiko-devstack job
+* Reduce logging verbosity in fixture manager
+* Patch "http" section in HTTP proxy configuration test case
+* Write to log undefined variables and options
+* Use openstack-three-node-bionic nodeset in tobiko devstack job
+* Move HTTP proxy support behind a fixture. Make it more reliable
+* Move tobiko test config to new tobiko.openstack package
+* Fix return type for cleanUp override method
+* Implement get method on SharedFixture class to shorcut get\_fixture method
+* Refactor fixture manager test cases
+* Make shared fixture class smarter to use
+* Enable services according to DevStack multinode configuration
+* Restrict n-cpu service to subnodes
+* Move HEAT from subnodes to controller
+* Add compute2 to subnodes and peers groups
+* Implement "help" subcommand and handle setup/cleanup errors
+* Implement "setup" and "cleanup" fixture sub-commands
+* Implement "tobiko fixture list" subcommand
+* Parse additional stestr paramters
+* Start implementing tobiko-fixture command
+* Implement shared fixture base class
+* Use mock library to verify setUp and cleanUp are called
+* Rebase fixture management on top fo fixtures library
+* Capture Python warnings
+* Discover test case method dependencies using load\_object function
+* Add passenv vars to tox neutron virutalenv to allow connecting to OS
+* Remove Nova from controller node
+* Use multinode configuration for DevStack CI jobs
+* Add Nova client
+* Disable "unsafe" os-fault operation (for the second time)
+* Remove dependency from crayons library
+* Revert "Disable "unsafe" os-fault operation."
+* Add Tobiko run command
+* Implement load\_module function
+* Limit max default concurrency for tox jobs
+* InfraRed Integration Skeleton
+* Resolve stack outputs when required
+* Remove load\_modules method
+* Add object loader
+* Disable "unsafe" os-fault operation
+* Add support for faults
+* Allow disabling tempest integration
+* Create method to load test case modules
+* Create method to list test case IDs unsing stestr
+* Create abstract fixture manager
+* Improve stack error reporting
+* Add licence type into requirements files
+* Update project requirements
+* Vagrantfile: configure to pass neutron test cases
+* Vagrant: syncronize resolf.conf and Tobiko files
+* Pass options from local.conf ot tobiko.conf
+* Expand floating allocation pool
+* Enable heat services
+* Disable devstack job for gate trigger
+* Execute existing neutron tests on upstream CI
+* Allow to run playbooks in delete mode
+* Add method to Ansible manager to run playbooks
+* Prepare devstack environment for executing tox -e neutron command
+* Create Vagrantfile for manual testing via DevStack
+* Ignore log files
+* Fix environment configuration options retrieval
+* Execute unittest with py37 tox env in upstream CI
+* Fix unit tests when checking for os.walk calls
+* Add password config option
+* Read OS credentials from tobiko.conf
+* Add Ansible manager
+* Configure DevStack job
+* Modify some simple error
+* Refactor test\_mtu test case after base scenario test case changed
+* Recreate stacks before executing scenario tests
+* Refactor scenario test case to create template in setUpClass method
+* Rebase list command unit test on top of base command unit test
+* Add wait flag to delete command
+* Add wait flag to create command
+* Move CREATE\_COMPLETE constant to stack.py
+* Write log messages to STDERR in tobiko commands
+* Add devstack Zuul job
+* Add  openstack-discuss
+* Document proposed Tobiko workflow in a short quick start guide
+* Fix doble writes of logging messges to STDERR when using stderr
+* Use tobiko/tests as test\_path discover directory for stestr
+* Split tox environments requirements files
+* Improve ping command tracing
+* Use Python3 for running neutron tests
+* Improve ping utils
+* Create test case stack (self.stack) from setUp base class method
+* create\_stack and wait\_for\_stack\_status return get\_stack result
+* Check for stack status before getting outputs
+* Check ip\_address in ping\_ip\_address function
+* Write log messages to STDERR by default and silence tempest DEBUG messages
+* Fix ping shell when not SSH proxy is given
+* Run zuul jobs for pylint, py35 and py27 tox environments
+* Split tox environments (pep8, pylint, py27, py35 and neutron)
+* Add Ansible playbooks directory and first playbook
+* Review pylint violation warning adn fix setup\_tobiko\_config function
+* Remove MissingTemplateException
+* Add pylint static analysis test
+* Pass pylint test with networking scenario tests
+* Pass pylint test with unit tests
+* Remove unused process utils
+* Fix stack manager exception handling and pass pylint
+* Refactor base exception
+* Refactor config management for passing pylint
+* Use logger lazy formatting
+* Make sure absolute\_import is active in all modules
+* Remove copyrigth notices from empty \_\_init\_\_.py files
+* Get code coverage when running test cases
+* Remote unused module "plugin"
+* Remote duplicate stack module
+* Remove duplicate module net\_utils
+* Correct tobiko-list command args patching in test case
+* Use sys.stdout.write to write out command output
+* Fix comment in test\_delete
+* Delete stack by name and assume no stacks means all stacks
+* Allow calling tobiko-create without stack
+* Fix create command and create test case for it
+* Fix base command and create test case
+* Fix or skip test cases after framework refactory
+* Udate client allocation after client manager refactory
+* Allow to ping from a remote proxy by configuring a shell command
+* Take default config parameters from tobiko.conf and tempest.conf
+* Get credentials from environ and lazly allocate clients
+* Set base test class default attributes at class level
+* Fix dummy ping assert command bug when should succeed is False
+* Get config options from environment first, then tobiko.conf, then tempest.conf
+* Split framework dependencies from test dependencies
+* Add list CLI util
+* Add MTU tests
+* Add security groups tests
+* Move to template per test class
+* [Clients] Add support for env variables
+* Add a cleanup utility
+* Add a utility for setting up resources
+* Add network manager
+* Add additional instance to the default template
+* Allow test classes not using the default stack
+* Use class name as identifier for background ping
+* Clean tests and move code to framework
+* Create background ping helpers
+* Add continuous ping tests
+* Share stack across tests
+* Update clients code to support v3 auth
+* Use image from tempest configuration
+* Add tobiko tempest to gate queue
+* Add CI jobs
+* Create tox.ini file
+* Add files required for making this project a tempest plugin
+* Add common module for handling clients
+* Add common stack methods
+* Add heat template for creating the stack
+* Add two tests for testing instance connectivity
+* Add initial structure
+* Add minimal jobs file
+* Added .gitreview

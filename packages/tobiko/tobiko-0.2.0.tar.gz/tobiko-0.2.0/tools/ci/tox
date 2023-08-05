@@ -1,0 +1,81 @@
+#!/bin/bash
+
+set -eu
+
+source $(dirname "$0")/activate
+
+
+# Prefer python 3 over python 2
+TOX_BASE_PYTHON=${PYTHON:-$(which python3 || which python)}
+TOX_VIRTUAL_ENV=$(realpath "${TOX_VIRTUAL_ENV:-.tox/tox}")
+
+
+function tox {
+    tox_setup
+    "${TOX_VIRTUAL_ENV}/bin/tox" "$@"
+}
+
+
+function tox_python {
+    "${TOX_VIRTUAL_ENV}/bin/python" "$@"
+}
+
+
+function tox_pip {
+    "${TOX_VIRTUAL_ENV}/bin/pip" "$@"
+}
+
+
+function tox_setup {
+    if ! tox_activate; then
+        tox_install_deps
+
+        # Cleanup and create virtualenv directory
+        rm -fR "${TOX_VIRTUAL_ENV}"
+        mkdir -p $(dirname "${TOX_VIRTUAL_ENV}")
+        "${TOX_BASE_PYTHON}" -m virtualenv "${TOX_VIRTUAL_ENV}"
+
+        # Activate virtualenv
+        if tox_activate; then
+            # Install/upgrade the last Python packages into the new virutalenv
+            curl https://bootstrap.pypa.io/get-pip.py | tox_python
+            tox_pip install --upgrade setuptools wheel virtualenv tox
+        fi
+    fi
+}
+
+
+function tox_install_deps {
+    if ! "${TOX_BASE_PYTHON}" -m pip --version; then
+        curl https://bootstrap.pypa.io/get-pip.py --user | "${TOX_BASE_PYTHON}"
+    fi
+    if ! "${TOX_BASE_PYTHON}" -m virtualenv --version; then
+        "${TOX_BASE_PYTHON}" -m pip install --user virtualenv
+    fi
+}
+
+
+function tox_activate {
+    local venv_script=${TOX_VIRTUAL_ENV}/bin/activate
+    if ! [ -r "${venv_script}" ]; then
+        return 1
+    fi
+
+    if ! tox_is_active; then
+        # Activate only once
+        set +eu
+        source "${venv_script}"
+        set -eu
+        tox_is_active
+    fi
+}
+
+
+function tox_is_active {
+    [ "$(python_prefix)" == "${TOX_VIRTUAL_ENV}" ]
+}
+
+
+if [ $(basename "$0") == tox ]; then
+    tox "$@"
+fi

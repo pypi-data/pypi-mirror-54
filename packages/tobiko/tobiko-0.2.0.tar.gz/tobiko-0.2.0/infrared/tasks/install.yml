@@ -1,0 +1,69 @@
+- name: Install pip using get-pip.py
+  become: yes
+  shell: |
+      curl https://bootstrap.pypa.io/get-pip.py | {{ python_ver }}
+
+- name: Install required packages
+  become: yes
+  vars:
+    required_packages: ["{{ python_ver }}-virtualenv", 'git', 'gcc', "{{
+    python_ver }}-devel", 'wget']
+  yum:
+      name: "{{ required_packages }}"
+      state: present
+
+- name: "Ensure {{ test.dir }} doesn't exist"
+  file:
+    path: "{{ test.dir }}"
+    state: absent
+
+- name: Clone Tobiko project
+  git:
+      repo: 'https://review.opendev.org/x/tobiko'
+      dest: "{{ test.dir }}"
+  when: test.refsec == ''
+
+- name: Checkout specific gerrit patch
+  git:
+      repo: 'https://review.opendev.org/x/tobiko'
+      dest: "{{ test.dir }}"
+      refspec: "{{ test.refsec }}"
+      version: 'FETCH_HEAD'
+  when: test.refsec != ''
+
+- name: output gerrit patch log
+  shell: |
+        git log -n 1
+  register: git_log
+  args:
+    chdir: "{{ test.dir }}"
+  when: test.refsec != ''
+
+- debug: var=git_log.stdout_lines
+  when: test.refsec != ''
+
+- name: Create Virtualenv if python >= 3
+  vars:
+      packages: ['pip', 'setuptools', 'tox']
+  pip:
+      virtualenv: "{{ test.venv }}"
+      name: "{{ packages }}"
+      state: latest
+  when: ansible_python.version.major >=3
+
+- name: Create Virtualenv if python <= 2
+  vars:
+      packages: ['pip', 'setuptools', 'tox<=2.5.0']
+  pip:
+      virtualenv: "{{ test.venv }}"
+      name: "{{ packages }}"
+      state: present
+  when: ansible_python.version.major <=2
+
+- name: Install Tobiko
+  pip:
+      chdir: "{{ test.dir }}"
+      name: "."
+      virtualenv: "{{ test.venv }}"
+      editable: true
+      extra_args: "-c https://opendev.org/openstack/requirements/raw/branch/master/upper-constraints.txt -r {{ test.dir }}/requirements.txt"

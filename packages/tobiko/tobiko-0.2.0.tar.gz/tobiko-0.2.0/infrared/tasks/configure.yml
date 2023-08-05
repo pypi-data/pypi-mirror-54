@@ -1,0 +1,15 @@
+- name: Create os-faults configuration file
+  template:
+      src: "templates/os-faults.yaml.j2"
+      dest: "~/os-faults.yaml"
+      mode: 0755
+
+- name: Set up Overcloud resources create ssh keys
+  shell: |
+    test -f ~/.ssh/id_rsa||ssh-keygen -f ~/.ssh/id_rsa -P ''
+
+- name: Create tobiko configuration file
+  template:
+      src: "templates/tobiko.conf.j2"
+      dest: "{{ test.dir }}/tobiko.conf"
+      mode: 0755
