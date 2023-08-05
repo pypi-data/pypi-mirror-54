@@ -1,0 +1,34 @@
+Metadata-Version: 1.0
+Name: pzhive
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/AngersZhuuu/pzhive
+Author: anegrszhuuu
+Author-email: angers.zhu@gmail.com
+License: UNKNOWN
+Description: 
+        # pzhive
+        support hive zookeeper HA mode(based on pyhive and kazoo)
+        
+        # requirements
+        kazoo
+        pyhive
+        
+        
+        # example
+        
+            from pzhive import pzhive
+            
+            cursor = pzhive.connect_by_zk(zk_url="zk_host:2181",
+                                          zk_name_space="name_space",
+                                          auth="KERBEROS",
+                                          configuration={"hive.server2.proxy.user": "hadoop"},
+                                          kerberos_service_name="hive",
+                                          kerberos_service_host="xxx",
+                                          database="default")
+            
+            cursor.execute("show tables")
+            print(cursor.fetchall())
+            
+        
+Platform: UNKNOWN
