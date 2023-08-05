@@ -1,0 +1,15 @@
+README.md
+setup.py
+textx_ls_core/__init__.py
+textx_ls_core/exceptions.py
+textx_ls_core/models.py
+textx_ls_core/utils.py
+textx_ls_core.egg-info/PKG-INFO
+textx_ls_core.egg-info/SOURCES.txt
+textx_ls_core.egg-info/dependency_links.txt
+textx_ls_core.egg-info/requires.txt
+textx_ls_core.egg-info/top_level.txt
+textx_ls_core/features/__init__.py
+textx_ls_core/features/generators.py
+textx_ls_core/features/projects.py
+textx_ls_core/features/validate.py

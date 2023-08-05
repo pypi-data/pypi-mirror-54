@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: textx-ls-core
+Version: 0.1.0
+Summary: a core language server logic for domain specific languages based on textX
+Home-page: https://github.com/textX/textX-LS/core
+Author: Daniel Elero
+Author-email: danixeee@gmail.com
+License: MIT
+Description: # _textX-LS-core_
+        
+        _textX-LS-core_ project contains all logic for providing features like:
+        
+        - _Code completion_
+        - _Code lens_
+        - _Find all references_
+        - _Go to definition_
+        
+Keywords: textX DSL python domain specific languages
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: vscode
