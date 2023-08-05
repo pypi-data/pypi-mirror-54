@@ -1,0 +1,14 @@
+asset:
+  cover: cover.png
+  favicon: favicon.png
+contact:
+  name: Postblog team
+site:
+  author: Postblog team
+  description: The kickerly fast site management
+  formcarry: https://formcarry.com/s/...
+  link: https://machineand.me/
+  name: Postblog
+  script_js: console.log("Analytics is not used");
+theme:
+  color: '#633fea'
