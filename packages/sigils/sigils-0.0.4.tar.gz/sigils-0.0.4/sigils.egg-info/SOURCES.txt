@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+sigils/__init__.py
+sigils/context.py
+sigils/exceptions.py
+sigils/extract.py
+sigils/parse.py
+sigils/replace.py
+sigils/resolve.py
+sigils/transform.py
+sigils.egg-info/PKG-INFO
+sigils.egg-info/SOURCES.txt
+sigils.egg-info/dependency_links.txt
+sigils.egg-info/requires.txt
+sigils.egg-info/top_level.txt
+sigils.egg-info/zip-safe
