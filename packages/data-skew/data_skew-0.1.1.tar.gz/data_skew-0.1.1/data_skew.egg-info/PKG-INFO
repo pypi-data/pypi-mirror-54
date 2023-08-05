@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: data-skew
+Version: 0.1.1
+Summary: Create DataFrames based on a required bias
+Home-page: http://github.com/JVoogt/data-skew
+Author: J Voogt
+Author-email: jvoogt1@outlook.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

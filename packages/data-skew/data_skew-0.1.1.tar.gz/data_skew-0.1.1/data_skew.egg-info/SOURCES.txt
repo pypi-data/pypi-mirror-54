@@ -1,0 +1,8 @@
+README.md
+setup.py
+data_skew/__init__.py
+data_skew.egg-info/PKG-INFO
+data_skew.egg-info/SOURCES.txt
+data_skew.egg-info/dependency_links.txt
+data_skew.egg-info/not-zip-safe
+data_skew.egg-info/top_level.txt
