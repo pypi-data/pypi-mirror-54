@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: lilcom
+Version: 0.0.0
+Summary: Small compression utility for sequence data in NumPy
+Home-page: http://packages.python.org/an_example_pypi_project
+Author: Daniel Povey, Soroush Zargar, Mahsa Yarmohammadi
+Author-email: dpovey@gmail.com
+License: BSD
+Description: # lilcom
+        Small compression utility
+        
+        
+        Note: you can run
+        ```
+        python setup.py build
+        python setup.py install
+        ```
+        
+        and then from python, do:
+        
+        ```
+        >>> import lilcom
+        >>> lilcom.lilcom("a")
+        ```
+        and it will segfault.  Currently the interface in lilcommodule.c is just a
+        skeleton I copied from somewhere, it needs to be actually implemented.
+        
+Keywords: compression numpy
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License

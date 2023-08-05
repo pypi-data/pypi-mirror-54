@@ -1,0 +1,14 @@
+README.md
+setup.py
+lilcom/__init__.py
+lilcom/lilcom.c
+lilcom/lilcom.py
+lilcom/lilcom_interface.py
+lilcom/lilcommodule.c
+lilcom.egg-info/PKG-INFO
+lilcom.egg-info/SOURCES.txt
+lilcom.egg-info/dependency_links.txt
+lilcom.egg-info/top_level.txt
+test/__init__.py
+test/routine1-one-dimensional-integer.py
+test/routine2-one-dimensional-float.py
