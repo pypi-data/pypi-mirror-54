@@ -1,0 +1,4 @@
+requests
+upt>=0.9
+
+[test]
