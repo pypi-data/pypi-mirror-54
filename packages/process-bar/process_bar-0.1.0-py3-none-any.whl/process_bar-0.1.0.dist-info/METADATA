@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: process-bar
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/hypc/process-bar
+Author: hypc
+Author-email: h_yp00@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=3
+
+# process-bar
+
+控制台进度条。
+
+效果如下：
+
+![](https://raw.githubusercontent.com/hypc/process-bar/master/process-bar.png)
+
+
