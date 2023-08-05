@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: lca_sweng
+Version: 0.0.1
+Summary: a Python module to return the lca of two given nodes
+Home-page: UNKNOWN
+Author: Sharon Olorunniwo
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2.7
