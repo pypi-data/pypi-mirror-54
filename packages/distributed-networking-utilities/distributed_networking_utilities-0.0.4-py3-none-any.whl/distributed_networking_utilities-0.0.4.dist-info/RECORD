@@ -1,0 +1,7 @@
+distributed_networking_utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+distributed_networking_utilities/multiproc_arr_recv.py,sha256=U2nf7aaSFRzIkX9WH8nMebFVIDmtuCyGW8GmmXNabLQ,1400
+distributed_networking_utilities/zmq_exchange.py,sha256=RqRwM1pz1g_bvfm19HQwxuKABt6G4rd1NKPhR6ZbO0s,1107
+distributed_networking_utilities-0.0.4.dist-info/METADATA,sha256=seUfH3Z1UavlQYfKGBN7wpf1DDrXt0oiFSztIl250T0,1153
+distributed_networking_utilities-0.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+distributed_networking_utilities-0.0.4.dist-info/top_level.txt,sha256=wWL0SzpPF2kSjbwcrEXT0ZbqC2P5ljWufOv_DjzDlnw,33
+distributed_networking_utilities-0.0.4.dist-info/RECORD,,
