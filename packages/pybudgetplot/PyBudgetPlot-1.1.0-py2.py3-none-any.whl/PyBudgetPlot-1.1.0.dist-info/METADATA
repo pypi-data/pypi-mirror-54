@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: PyBudgetPlot
+Version: 1.1.0
+Summary: Simple budged plotting application.
+Home-page: https://github.com/Hrissimir/PyBudgetPlot
+Author: Hrissimir
+Author-email: hrisimir.dakov@gmail.com
+License: mit
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: python-dateutil
+Requires-Dist: recurrent
+Requires-Dist: pyyaml
+Requires-Dist: tabulate
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+
+============
+PyBudgetPlot
+============
+
+
+    Simple budged plotting application.
+
+
+Description
+===========
+
+    Takes a budget definition from .yaml file and plots the near future.
+
+
+Installation
+============
+
+    `pip install PyBudgetPlot`
+
+
+Usage
+=====
+
+
+Plotting a budget
+-----------------
+
+    `plot-budget /path/to/budget.yaml`
+
+
+Initialize sample budget
+------------------------
+
+    `to be implemented`
+
+
+Note
+====
+
+Requires Python >=3.6
+
+
