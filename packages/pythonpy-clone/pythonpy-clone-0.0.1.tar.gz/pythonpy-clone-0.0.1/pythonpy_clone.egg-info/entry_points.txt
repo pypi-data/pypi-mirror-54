@@ -1,0 +1,5 @@
+[console_scripts]
+py = pythonpy_clone:main
+py3 = pythonpy_clone:main
+py3.7 = pythonpy_clone:main
+
