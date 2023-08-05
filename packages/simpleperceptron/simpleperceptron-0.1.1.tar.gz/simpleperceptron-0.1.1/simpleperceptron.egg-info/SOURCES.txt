@@ -1,0 +1,12 @@
+README.md
+setup.py
+simpleperceptron/ActivationFuncs.py
+simpleperceptron/BackwardPropagator.py
+simpleperceptron/ForwardPropagator.py
+simpleperceptron/Perceptron.py
+simpleperceptron/__init__.py
+simpleperceptron.egg-info/PKG-INFO
+simpleperceptron.egg-info/SOURCES.txt
+simpleperceptron.egg-info/dependency_links.txt
+simpleperceptron.egg-info/requires.txt
+simpleperceptron.egg-info/top_level.txt
