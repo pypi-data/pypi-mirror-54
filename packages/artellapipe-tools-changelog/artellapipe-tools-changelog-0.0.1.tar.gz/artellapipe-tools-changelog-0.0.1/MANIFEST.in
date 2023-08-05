@@ -1,0 +1,2 @@
+include artellapipe/tools/changelog/__logging__.ini
+include artellapipe/tools/changelog/resources/images/*.*
