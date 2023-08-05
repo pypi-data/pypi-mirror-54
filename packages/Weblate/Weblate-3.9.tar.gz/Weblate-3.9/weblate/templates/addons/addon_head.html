@@ -1,0 +1,28 @@
+{% load i18n %}
+{% load translations %}
+
+<h4>
+{% if addon.project_scope %}
+<span class="badge pull-right flip text-tooltip" title="{% trans "This addon is used for the whole project, it is enough to install it for one component." %}">{% trans "project wide" %}</span>
+{% endif %}
+{% if addon.repo_scope %}
+<span class="badge pull-right flip text-tooltip" title="{% trans "This addon is used for all components sharing this repository." %}">{% trans "repository wide" %}</span>
+{% endif %}
+<i class="fa fa-{{ addon.icon }}"></i> 
+{{ addon.verbose }}
+{% documentation_icon "admin/addons" addon.doc_anchor %}
+</h4>
+{% if addon.instance %}
+{% with form=addon.get_settings_form %}
+{% if form %}
+<div>
+{% for field in form %}
+{% if not field.is_hidden and field.value %}
+<span class="badge addon-summary">{{ field.label }} <span>{{ field|choiceval }}</span></span>
+{% endif %}
+{% endfor %}
+</div>
+{% endif %}
+{% endwith %}
+{% endif %}
+<p>{{ addon.description }}</p>
