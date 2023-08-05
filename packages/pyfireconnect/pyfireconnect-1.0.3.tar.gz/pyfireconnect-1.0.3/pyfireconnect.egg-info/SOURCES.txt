@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+pyfireconnect/__init__.py
+pyfireconnect/pyfireconnect.py
+pyfireconnect.egg-info/PKG-INFO
+pyfireconnect.egg-info/SOURCES.txt
+pyfireconnect.egg-info/dependency_links.txt
+pyfireconnect.egg-info/requires.txt
+pyfireconnect.egg-info/top_level.txt
+sseclient/__init__.py
+sseclient/sseclient.py
