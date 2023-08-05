@@ -1,0 +1,6 @@
+click
+GitPython
+PyYAML
+wget
+kubernetes>=9.0.1
+openshift
