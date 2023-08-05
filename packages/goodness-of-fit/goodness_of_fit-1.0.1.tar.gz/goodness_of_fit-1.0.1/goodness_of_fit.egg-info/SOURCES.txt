@@ -1,0 +1,11 @@
+README.md
+setup.py
+goodness_of_fit/__init__.py
+goodness_of_fit.egg-info/PKG-INFO
+goodness_of_fit.egg-info/SOURCES.txt
+goodness_of_fit.egg-info/dependency_links.txt
+goodness_of_fit.egg-info/requires.txt
+goodness_of_fit.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_goodness_of_fit.py
