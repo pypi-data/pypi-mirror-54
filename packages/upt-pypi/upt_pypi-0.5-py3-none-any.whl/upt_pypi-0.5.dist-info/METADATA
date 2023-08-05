@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: upt-pypi
+Version: 0.5
+Summary: PyPI frontend for upt
+Home-page: https://framagit.org/upt/upt-pypi
+Author: Cyril Roelandt
+Author-email: tipecaml@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: upt (>=0.9)
+Provides-Extra: test
+
+# Universal Packaging Tool: PyPI frontend
+This is a [PyPI](https://pypi.python.org) frontend for [upt](https://pypi.python.org/pypi/upt).
+
+

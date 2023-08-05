@@ -1,0 +1,12 @@
+upt_pypi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upt_pypi/licenses.py,sha256=vlnNPgiuhIS-LPxrB_Ua7Cz61TSe3XET3lfgyEuRwEE,31238
+upt_pypi/upt_pypi.py,sha256=VVYN4Zk83382Y3RR9jMHjxfZuYXCQ5vzc96s4efF5q0,6632
+upt_pypi/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upt_pypi/tests/test_licenses.py,sha256=iTLeGzAnaWUa48SBliX7mYZH5AnMTcmTGMT6K3hszg8,4144
+upt_pypi/tests/test_upt_pypi.py,sha256=mZOcgNvcyEoMgRa1FXvyraCJaEAyZDlgl37JT2PDpOk,9825
+upt_pypi-0.5.dist-info/LICENSE,sha256=WKoK5u2_uNTIGKHEBRVSRAQmkMNt8-GsI43qTlbIisU,1464
+upt_pypi-0.5.dist-info/METADATA,sha256=0aLqKv6pxKKyUmV92oFphc_QxYcGRemCeu5swLHv1bg,774
+upt_pypi-0.5.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+upt_pypi-0.5.dist-info/entry_points.txt,sha256=ObKaKvVTXF7NWZGo80Mtx96KE3rnWaTuKhhplrD2hHw,55
+upt_pypi-0.5.dist-info/top_level.txt,sha256=fCuTZwqVJycQpm_X06chvwjkLyxEQLl9NX-UYQUWZTA,9
+upt_pypi-0.5.dist-info/RECORD,,
