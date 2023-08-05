@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: hrep
+Version: 0.3.0a0
+Summary: Binary files search utility
+Home-page: https://gitlab.com/rekodah/hrep
+Author: Jonathan Goren
+Author-email: jonagn@gmail.com
+License: MIT
+Description: # hrep
+        
+        `grep` for binary files.
+        
+        ## Examples
+        TODO add some...
+        
+        ## Usage
+        
+        ```
+        usage: hrep [-h] [-x HEX] [-a ASCII] [-e REGEX] [-r] [--chunk-size CHUNK_SIZE]
+                    [-d] [-X] [-w DUMP_WIDTH] [-s] [-A AFTER] [-B BEFORE] [-C CONTEXT]
+                    [-I INCLUDE] [-E EXCLUDE] [-L] [-l] [-c] [-m NUM] [-p]
+                    [--no-color] [--monochrome]
+                    [HEX] [filename [filename ...]]
+        
+        Search for binary sequences in files
+        
+        positional arguments:
+          HEX                   Hex encoded binary sequence to search for
+          filename              List of files to search in
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -x HEX, --hex HEX     Search for a hexadecimal pattern('?' matches a single
+                                nibble, '*' matches any number of bytes)
+          -a ASCII, --ascii ASCII
+                                Search for an ASCII string
+          -e REGEX, --regex REGEX
+                                Search for a regular expression
+          -r, --recursive       Recursively search in directories
+          --chunk-size CHUNK_SIZE
+                                Override default buffer size
+          -d, --decimal-offset  Output decimal file offsets (by default prints hex)
+          -X, --no-hexdump      Disable hex dump
+          -w DUMP_WIDTH, --dump-width DUMP_WIDTH
+                                Width of hex dump
+          -s, --summary         Print summary at the end
+          -A AFTER, --after AFTER
+                                Number of additional bytes to display after match
+          -B BEFORE, --before BEFORE
+                                Number of additional bytes to display before match
+          -C CONTEXT, --context CONTEXT
+                                Number of additional bytes to display before and after
+                                match
+          -I INCLUDE, --include INCLUDE
+                                Filename pattern to include
+          -E EXCLUDE, --exclude EXCLUDE
+                                Filename pattern to exclude
+          -L, --files-without-match
+                                Only output unmatching filenames
+          -l, --files-with-match
+                                Only output matching filenames
+          -c, --count           Only output number of matches for each input file
+          -m NUM, --max-count NUM
+                                Stop searching after NUM matches.
+          -p, --progress        Enable progress display
+          --no-color            Disable color output
+          --monochrome          Use monochrome color scheme
+        
+        Unless one of --files-with(out)-match, --count is specified, each output line
+        corresponds to a match in the format: `<filename>:<offset>:<match>'
+        ```
+Keywords: grep binary files hex search
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Provides-Extra: all

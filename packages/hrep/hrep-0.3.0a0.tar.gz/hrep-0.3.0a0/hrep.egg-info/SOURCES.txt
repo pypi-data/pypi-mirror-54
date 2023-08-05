@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/hrep
+hrep/__init__.py
+hrep/__main__.py
+hrep/hexdump.py
+hrep.egg-info/PKG-INFO
+hrep.egg-info/SOURCES.txt
+hrep.egg-info/dependency_links.txt
+hrep.egg-info/requires.txt
+hrep.egg-info/top_level.txt
