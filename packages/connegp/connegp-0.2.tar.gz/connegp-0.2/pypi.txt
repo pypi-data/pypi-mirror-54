@@ -1,0 +1,16 @@
+# 0. install wheel & twine via pip
+
+# 1. delete build/ , dist/, connegp.egg-info
+
+# 2. change version no in pylode/__init__.py
+
+# 3. $ git commit changes
+
+# 4. $ git tag <VERSION_NO>
+
+# 5. $ git push
+
+# 6. $ python setup.py sdist bdist_wheel
+
+# 7. $ twine upload dist/*
+#   use nick$  ~/Work/mediatypes-dataset/venv/bin/python -m twine upload dist/*

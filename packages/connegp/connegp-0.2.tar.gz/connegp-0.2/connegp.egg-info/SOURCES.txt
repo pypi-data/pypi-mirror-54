@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+pypi.txt
+requirements.txt
+setup.cfg
+setup.py
+connegp/__init__.py
+connegp.egg-info/PKG-INFO
+connegp.egg-info/SOURCES.txt
+connegp.egg-info/dependency_links.txt
+connegp.egg-info/top_level.txt
