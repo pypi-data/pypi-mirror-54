@@ -1,0 +1,7 @@
+six
+
+[colored]
+colored>=1.4.0
+
+[six]
+six>=1.12.0
