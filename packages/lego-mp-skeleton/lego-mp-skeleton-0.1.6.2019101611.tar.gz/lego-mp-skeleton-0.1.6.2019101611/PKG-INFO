@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: lego-mp-skeleton
+Version: 0.1.6.2019101611
+Summary: Skeleton for the Lego EV3 MicroPython Port
+Home-page: https://github.com/klutzybubbles/lego-micropython-skeleton
+Author: Lee Tzilantonis
+Author-email: LTzilantonis@gmail.com
+License: UNKNOWN
+Description: # lego-micropython-skeleton
+        
+        Skeleton to help with linting programs using the MicroPython functions built for Lego EV3 Mindstorms
+        
+        This package contains NO WORKING CODE! all functions return
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
