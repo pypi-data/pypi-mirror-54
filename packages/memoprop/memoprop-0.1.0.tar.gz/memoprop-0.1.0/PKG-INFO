@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: memoprop
+Version: 0.1.0
+Summary: Basic memoized properties for Python.
+Home-page: https://lewisacidic.github.io/memoprop
+Author: Rich Lewis
+Author-email: opensource@richlew.is
+License: MIT license
+Download-URL: https://github.com/lewisacidic/memoprop/releases
+Project-URL: Trackers, https://github.com/lewisacidic/memoprop/issues
+Project-URL: Source, https://github.com/lewisacidic/memoprop
+Project-URL: Documentation, https://lewisacidic.github.io/memoprop/docs
+Description: # memoprop
+        
+        Basic memoized properties (properties which cache the result of their getter) for *Python*.
+        
+        ## Quickstart/Installation
+        
+        ```shell
+        pip install memoprop
+        ```
+        
+        
+        ## Developing
+        
+        Create the conda environment:
+        
+        ```shell
+        conda env create -f envs/dev.yml
+        conda activate memoprop-dev
+        ```
+        
+        
+        Format code by running the pre-commit tasks:
+        
+        ```shell
+        pre-commit run --all
+        ```
+        
+        Run the tests with pytest:
+        
+        ```shell
+        pytest
+        ```
+        
+Keywords: decorator,property,memoized
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Provides-Extra: lint
+Provides-Extra: dev
+Provides-Extra: test
