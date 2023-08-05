@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: decotra
+Version: 0.0.1.dev0
+Summary: 
+Author: funwarioisii
+Author-email: g231q026@s.iwate-pu.ac.jp
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
