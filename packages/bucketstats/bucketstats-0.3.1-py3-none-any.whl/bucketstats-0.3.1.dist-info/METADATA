@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: bucketstats
+Version: 0.3.1
+Summary: Data analysis for bucketed data or histograms.
+Home-page: https://github.com/mprelee/bucketstats
+Author: Matthew Prelee
+Author-email: mprelee@gmail.com
+License: GPLv3.0
+Project-URL: Bug Tracker, https://github.com/mprelee/bucketstats/issues
+Project-URL: Documentation, https://github.com/mprelee/bucketstats
+Project-URL: Source Code, https://github.com/mprelee/bucketstats
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: cached-property
+
+# bucketstats
+
+Data science tools for analyzing histograms using classic probbility theory and
+statistics.  Useful when a dataset is too large to load into memory, but a
+histogram is available.
+
+[![Build Status](https://travis-ci.com/mprelee/bucketstats.svg?branch=master)](https://travis-ci.com/mprelee/bucketstats)
+
+
+
