@@ -1,0 +1,9 @@
+apispec_serpyco/__init__.py,sha256=ZRNMCdZI43P3upcEaNibmGkYcTzGAT-HDwweEUC3DXc,11419
+apispec_serpyco/openapi.py,sha256=hIQTIpUJs-uKT_Cu0wU9Hi6zaTWKYi1Bl9GRyY0StWo,7276
+apispec_serpyco/utils.py,sha256=R0xzgVmXgq4gI6Nxs7TBHSg36xY8oeVbCpyA5OTa4PM,1477
+apispec_serpyco-0.17.data/data/LICENSE,sha256=1Cjo5p8geDskO98NhAzymRP_og5JJto-cUBIip_gtqk,1062
+apispec_serpyco-0.17.dist-info/LICENSE,sha256=1Cjo5p8geDskO98NhAzymRP_og5JJto-cUBIip_gtqk,1062
+apispec_serpyco-0.17.dist-info/METADATA,sha256=x5RaHTuo-HZ_1UnQoDO9m7PjQ6wltPntNxdAcDEJCDc,689
+apispec_serpyco-0.17.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+apispec_serpyco-0.17.dist-info/top_level.txt,sha256=EJDHd-nyAj2yz74MjRDTypmSt4F0ginmE2kwMyGLu-U,16
+apispec_serpyco-0.17.dist-info/RECORD,,
