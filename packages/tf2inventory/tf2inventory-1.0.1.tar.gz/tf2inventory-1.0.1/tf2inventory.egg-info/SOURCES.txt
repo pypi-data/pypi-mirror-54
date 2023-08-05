@@ -1,0 +1,9 @@
+setup.py
+tf2inventory/__init__.py
+tf2inventory.egg-info/PKG-INFO
+tf2inventory.egg-info/SOURCES.txt
+tf2inventory.egg-info/dependency_links.txt
+tf2inventory.egg-info/entry_points.txt
+tf2inventory.egg-info/not-zip-safe
+tf2inventory.egg-info/requires.txt
+tf2inventory.egg-info/top_level.txt
