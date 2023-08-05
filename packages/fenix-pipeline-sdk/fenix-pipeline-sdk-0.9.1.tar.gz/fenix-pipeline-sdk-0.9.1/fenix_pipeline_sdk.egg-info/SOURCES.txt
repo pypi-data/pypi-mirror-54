@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fenix_pipeline/__init__.py
+fenix_pipeline_sdk.egg-info/PKG-INFO
+fenix_pipeline_sdk.egg-info/SOURCES.txt
+fenix_pipeline_sdk.egg-info/dependency_links.txt
+fenix_pipeline_sdk.egg-info/requires.txt
+fenix_pipeline_sdk.egg-info/top_level.txt
+tests/__init__.py
