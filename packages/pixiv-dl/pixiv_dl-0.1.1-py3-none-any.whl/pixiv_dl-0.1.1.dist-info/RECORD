@@ -1,0 +1,7 @@
+pixiv_dl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixiv_dl/__main__.py,sha256=7A3Jh-BUzV-2P75bNEseiIPWxGRoxT8ZS0IRSaZz70k,45
+pixiv_dl/downloader.py,sha256=Tx1YGr-rpa_6lEjxCCoWT2gSEwmhYVvjHfWrjqbAzuE,22176
+pixiv_dl-0.1.1.dist-info/entry_points.txt,sha256=fcVfrtNgO7flFUuwMgR3K2_CAPd6Glhu-wbFUugu33s,53
+pixiv_dl-0.1.1.dist-info/WHEEL,sha256=uvv1AQW2KofoDi40QrELRF14CCscf7j9E3GsqyAEk-s,85
+pixiv_dl-0.1.1.dist-info/METADATA,sha256=mMMg3A1d1nj7UOrxBug3X9DQUUAWKWJlqRtG9mRPQKE,2635
+pixiv_dl-0.1.1.dist-info/RECORD,,
