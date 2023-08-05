@@ -1,0 +1,6 @@
+confuse
+python-dateutil
+pywsse
+PyYAML
+requests
+six
