@@ -1,0 +1,8 @@
+README.md
+setup.py
+jasperstarter/__init__.py
+jasperstarter/exeptions.py
+pyjasperstarter.egg-info/PKG-INFO
+pyjasperstarter.egg-info/SOURCES.txt
+pyjasperstarter.egg-info/dependency_links.txt
+pyjasperstarter.egg-info/top_level.txt

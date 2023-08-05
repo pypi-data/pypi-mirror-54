@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyjasperstarter
+Version: 0.0.1
+Summary: Eita
+Home-page: UNKNOWN
+Author: Rafael Reuber
+Author-email: rafaelreuber@gmail.com
+License: MIT
+Description: Eita
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
