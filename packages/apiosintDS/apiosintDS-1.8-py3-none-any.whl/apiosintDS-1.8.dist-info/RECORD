@@ -1,0 +1,12 @@
+apiosintDS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apiosintDS/apiosintDS.py,sha256=PrOB09_JdiIiHD30or7IjVSqjJb05Jc3zEKrFa2LOv8,11660
+apiosintDS/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apiosintDS/modules/dosearch.py,sha256=gjorapbdCjO0xK3AlyI0kkE6Rfgs6zfJo5pkpk7o66Q,7226
+apiosintDS/modules/listutils.py,sha256=MmF2QxTnqjgtaUGiZbi1PPfnkjEAhfzA2Q0LlRkNE2A,9807
+apiosintDS/schema/schema.json,sha256=CDfRYCQspPh2obHANhCFEgf3RD_ieuhhP5IMPk0qomk,15641
+apiosintDS-1.8.dist-info/LICENSE.txt,sha256=-6XuIa65FOgQ_LeCUU8npcdaGJa2mJ-m0ukXzWTGHfM,1072
+apiosintDS-1.8.dist-info/METADATA,sha256=NvanUFqpRN3iHWbCoFNxiQC3QBxry3yIScuOl_3h1MM,7922
+apiosintDS-1.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+apiosintDS-1.8.dist-info/entry_points.txt,sha256=YkXBasL2V7ba0CdKl66-vKcqp471B8GX1d2z0gxYuuc,59
+apiosintDS-1.8.dist-info/top_level.txt,sha256=pmnm4zN5WnGNmwGpw-E9xEGpx5FJY9AbnEPVxHbGW8Q,11
+apiosintDS-1.8.dist-info/RECORD,,
