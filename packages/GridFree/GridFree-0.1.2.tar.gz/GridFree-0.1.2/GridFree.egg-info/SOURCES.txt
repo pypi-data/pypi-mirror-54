@@ -1,0 +1,13 @@
+setup.py
+GridFree/__init__.py
+GridFree/calculator.py
+GridFree/tkinterGUI.py
+GridFree/tkintercore.py
+GridFree/tkintercorestat.py
+GridFree/tkintersinglecore.py
+GridFree/trainmodel.py
+GridFree.egg-info/PKG-INFO
+GridFree.egg-info/SOURCES.txt
+GridFree.egg-info/dependency_links.txt
+GridFree.egg-info/requires.txt
+GridFree.egg-info/top_level.txt
