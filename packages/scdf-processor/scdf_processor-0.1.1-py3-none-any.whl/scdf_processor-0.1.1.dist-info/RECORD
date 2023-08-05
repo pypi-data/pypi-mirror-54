@@ -1,0 +1,8 @@
+scdf_processor/.DS_Store,sha256=sSrNe8VOtPrBFQI2ZYzE8MoYWxaa4Z1iF66Ev53ynIs,6148
+scdf_processor/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+scdf_processor/http_status_server.py,sha256=zUGbQCIrnBo8cjUkczbah6Bnz5zahaxC2jKk4H95s_E,792
+scdf_processor/processor.py,sha256=s2eCv0zV7KzfcrFxKei6HeJHfTffWjgMAJ2FnGptq3w,751
+scdf_processor/task_args.py,sha256=ZYTati9UX6RmXQ1L3dDvK_14PgOa8Ke-_818enqbsjc,868
+scdf_processor-0.1.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+scdf_processor-0.1.1.dist-info/METADATA,sha256=207tLEMMqbBp5s8ZzZF3R-EkRPBczdLAmQeUKFEgJ7M,333
+scdf_processor-0.1.1.dist-info/RECORD,,
