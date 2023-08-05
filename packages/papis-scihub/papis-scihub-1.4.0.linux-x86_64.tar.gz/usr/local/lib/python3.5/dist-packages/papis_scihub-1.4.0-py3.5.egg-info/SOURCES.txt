@@ -1,0 +1,10 @@
+README.rst
+setup.py
+papis_scihub/__init__.py
+papis_scihub/plugin.py
+papis_scihub.egg-info/PKG-INFO
+papis_scihub.egg-info/SOURCES.txt
+papis_scihub.egg-info/dependency_links.txt
+papis_scihub.egg-info/entry_points.txt
+papis_scihub.egg-info/requires.txt
+papis_scihub.egg-info/top_level.txt

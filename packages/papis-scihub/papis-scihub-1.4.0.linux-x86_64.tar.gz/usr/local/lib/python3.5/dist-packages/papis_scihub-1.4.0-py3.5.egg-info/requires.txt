@@ -1,0 +1,3 @@
+papis>=0.9
+python-doi>=0.1.0
+scihub>=0.0.1

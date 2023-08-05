@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: papis-scihub
+Version: 1.4.0
+Summary: Scihub compatibility package for papis
+Home-page: https://github.com/papis/scripts/tree/master/papis-scihub
+Author: Alejandro Gallo
+Author-email: aamsgallo@gmail.com
+License: GPLv3
+Description: .. image:: https://badge.fury.io/py/papis-scihub.svg
+            :target: https://badge.fury.io/py/papis-scihub
+        
+        Papis SCIHUB
+        ============
+        
+        This script will download the document files and the information
+        from a doi using `scihub <https://sci-hub.tw/>`_.
+        
+Keywords: papis,scihub,bibtex,management,cli,biliography
+Platform: linux
+Platform: osx
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities

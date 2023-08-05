@@ -1,0 +1,3 @@
+[papis.importer]
+scihub = papis_scihub.plugin:Importer
+
