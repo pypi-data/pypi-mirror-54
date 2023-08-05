@@ -1,0 +1,13 @@
+mynlp/__init__.py,sha256=w2IBdkACDbSicY-3RN3oVw48RBI_sv8k_ticuRKFov0,45
+mynlp/settings.py,sha256=h8RHorfy3g8QY3RRGJueBVq2C5Lj9abALfRBxVuK8wk,64
+mynlp/data/test.dat,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mynlp/features/__init__.py,sha256=em2BWAhwGB_8d9x22fqQvbp-caaoZ999-ARuWJ_y8UM,67
+mynlp/features/document.py,sha256=9tFO2K60Y2Zh5mjMMLwIl-ksid_etpROE-zvxynC1LQ,2800
+mynlp/preprocess/__init__.py,sha256=uICH0snjaeMStjhZPmkrH_c7xv48c1iQOq8i3kOk38s,1006
+mynlp/preprocess/chineseprocess.py,sha256=OiHeIB8AUW_OW_9alvtZ7F_uVWGyGQAw-XjgOiTpP9M,1817
+mynlp/preprocess/englishprocess.py,sha256=oqa2ZdVsdGP_txRW2HuGfdZVllb0A665D4p9px3BeTM,2682
+mynlp/utils/__init__.py,sha256=dWMN3P9g4O5YBxZAjVbd4XMjpI0sBxkGYzp_PMTX2tg,842
+my_nlp-0.12.dist-info/METADATA,sha256=yQCVyFMs4TmULvjzUjt3wEt50YNlPifTx52EVoLbHVs,587
+my_nlp-0.12.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+my_nlp-0.12.dist-info/top_level.txt,sha256=0Bov3O5uGeiK8lfJi856PHUzk_fR3X0nJTBCpuXBfAY,6
+my_nlp-0.12.dist-info/RECORD,,
