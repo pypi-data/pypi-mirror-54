@@ -1,0 +1,11 @@
+ndx_ecog/__init__.py,sha256=UJLQQeM80mY4TAdUGEV65ERgJ_MeMzLNku7EFsJPkl8,652
+ndx_ecog/ecog.py,sha256=EnT0WRwr3Xvp4aOL2rIyZieikEnDociYesHXiNchGVk,2592
+ndx_ecog/spec/ndx-ecog.extensions.yaml,sha256=5SrnAc0Q5JyZgSL4wL5fBHwGgDpR1xqOQhBRbCob9uc,1232
+ndx_ecog/spec/ndx-ecog.namespace.yaml,sha256=EOMOx_Q7Gh87tOt3fJhvFEJ1xsa0gu5luqGdTcXouSs,323
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_ndx_ecog.py,sha256=yJKKBUeYp88yHGQWPW3q1I44JxIhaWwFKZTVg3zDNdc,2085
+ndx_ecog-0.1.0.dist-info/LICENSE.txt,sha256=0YkMXQJfv_ugh4cKqjfSeFqo1d37M_Rku_UuosAHb3s,1511
+ndx_ecog-0.1.0.dist-info/METADATA,sha256=cg4oAcM9X-cVv8_5XNa89XNm7UActuXePRdXfWrizSs,2003
+ndx_ecog-0.1.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+ndx_ecog-0.1.0.dist-info/top_level.txt,sha256=6-SMaPaJgS_C_dyy02dEhAkX5BoXISOqHpheZNC3aWc,14
+ndx_ecog-0.1.0.dist-info/RECORD,,

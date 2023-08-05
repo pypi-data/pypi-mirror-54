@@ -1,0 +1,49 @@
+groups:
+- neurodata_type_def: ECoGSubject
+  neurodata_type_inc: Subject
+  name: subject
+  doc: extension of subject that holds cortical surface data
+  groups:
+  - neurodata_type_def: CorticalSurfaces
+    neurodata_type_inc: NWBDataInterface
+    name: cortical_surfaces
+    doc: triverts for cortical surfaces
+    quantity: '?'
+    attributes:
+    - name: help
+      dtype: text
+      value: This holds the vertices and faces for the cortical surface meshes
+      doc: help
+    groups:
+    - neurodata_type_def: Surface
+      neurodata_type_inc: NWBDataInterface
+      doc: brain cortical surface
+      quantity: +
+      attributes:
+      - name: help
+        dtype: text
+        value: This holds Surface objects
+        doc: help
+      datasets:
+      - name: faces
+        dtype: uint32
+        dims:
+        - face_number
+        - vertex_index
+        shape:
+        - null
+        - 3
+        doc: faces for surface, indexes vertices
+      - name: vertices
+        dtype: float
+        dims:
+        - vertex_number
+        - xyz
+        shape:
+        - null
+        - 3
+        doc: vertices for surface, points in 3D space
+  - name: images
+    neurodata_type_inc: Images
+    doc: images of subject's brain
+    quantity: '?'
