@@ -1,0 +1,6 @@
+{
+    "dbpath": "/zpool/shared/etc",
+    "pool": "zpool",
+    "rootfs": "zpool/shared",
+    "resetkey": "toto"
+}
