@@ -1,0 +1,11 @@
+README.md
+setup.py
+markyp_fontawesome/__init__.py
+markyp_fontawesome/factories.py
+markyp_fontawesome.egg-info/PKG-INFO
+markyp_fontawesome.egg-info/SOURCES.txt
+markyp_fontawesome.egg-info/dependency_links.txt
+markyp_fontawesome.egg-info/requires.txt
+markyp_fontawesome.egg-info/top_level.txt
+test/test_factories.py
+test/test_init.py
