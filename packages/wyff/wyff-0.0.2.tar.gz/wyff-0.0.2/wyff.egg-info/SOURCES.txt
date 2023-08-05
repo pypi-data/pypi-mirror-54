@@ -1,0 +1,8 @@
+README.md
+setup.py
+wyff/__init__.py
+wyff/wyff.py
+wyff.egg-info/PKG-INFO
+wyff.egg-info/SOURCES.txt
+wyff.egg-info/dependency_links.txt
+wyff.egg-info/top_level.txt
