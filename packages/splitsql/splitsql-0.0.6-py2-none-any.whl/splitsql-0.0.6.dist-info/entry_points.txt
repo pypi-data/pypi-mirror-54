@@ -1,0 +1,3 @@
+[console_scripts]
+splitsql = splitsql.main:main
+
