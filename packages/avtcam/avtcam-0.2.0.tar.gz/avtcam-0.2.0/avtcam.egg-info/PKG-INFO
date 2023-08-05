@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: avtcam
+Version: 0.2.0
+Summary: An easy to use Allied Vision camera interface for NVIDIA Jetson and other third-party embedded platforms
+Home-page: https://github.com/SunnyAVT/avtcam
+Author: SunnyAVT
+Author-email: lxftm@hotmail.com
+License: UNKNOWN
+Description: avtcam is a Python wrapper for application usage. avtcam use the existing module which wrapped Allied Vision's Vimba C API.file included in the Vimba installation to provide a simple Python interface for Allied Vision cameras. It currently supports only basic functionality provided by Vimba.
+Keywords: python,python3,opencv,cv,machine vision,computer vision,image recognition,vimba,allied vision
+Platform: UNKNOWN

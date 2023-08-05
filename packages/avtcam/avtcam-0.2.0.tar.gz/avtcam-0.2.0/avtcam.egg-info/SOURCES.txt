@@ -1,0 +1,11 @@
+README.md
+setup.py
+avtcam/__init__.py
+avtcam/avt_camera.py
+avtcam/hi_avt.py
+avtcam.egg-info/PKG-INFO
+avtcam.egg-info/SOURCES.txt
+avtcam.egg-info/dependency_links.txt
+avtcam.egg-info/not-zip-safe
+avtcam.egg-info/requires.txt
+avtcam.egg-info/top_level.txt
