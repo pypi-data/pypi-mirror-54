@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: ipygraphql
+Version: 0.0.2
+Summary: Graphql widgets for Jupyter
+Home-page: https://github.com/mariobuikhuizen/ipygraphql
+Author: Mario Buikhuizen, Maarten Breddels
+Author-email: mbuikhuizen@gmail.com, maartenbreddels@gmail.com
+License: UNKNOWN
+Description: Graphql widgets for Jupyter
+Keywords: ipython,jupyter,widgets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
