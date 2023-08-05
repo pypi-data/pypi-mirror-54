@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: footmark
+Version: 1.13.0
+Summary: A Python interface to Aliyun Web Services
+Home-page: https://github.com/alibaba/footmark
+Author: xiaozhu
+Author-email: guimin.hgm@alibaba-inc.com
+License: MIT
+Description: A Python interface to Aliyun Web Services
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
