@@ -1,0 +1,5 @@
+vcver
+intake
+pandas
+PyYAML
+deepmerge
