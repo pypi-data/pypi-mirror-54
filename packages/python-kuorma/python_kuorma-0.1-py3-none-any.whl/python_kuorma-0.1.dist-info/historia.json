@@ -1,0 +1,14 @@
+[
+  {
+    "tyyppi": "julkaisu",
+    "tunnus": "94bc2e9dbf42a91f2e5e45282e8f68df28976fa5",
+    "versio": "0.1",
+    "kuvaus": "Versio 0.1"
+  },
+  {
+    "tyyppi": "muutos",
+    "tunnus": "07ecf3732bbb7d9dc3c9be2c7c2ee3003105f664",
+    "versio": "0.1",
+    "kuvaus": "Alustava toteutus"
+  }
+]
