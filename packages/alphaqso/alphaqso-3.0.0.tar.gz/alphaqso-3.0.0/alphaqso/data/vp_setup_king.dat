@@ -1,0 +1,10 @@
+pcvals
+nsubmax 21
+NOVARS 4
+adsplit 2.5
+maxadrem 75
+adcontf 2.2 10 5.0 12.5
+lastchtied v
+bvalmin 0.30 0.30
+bltdrop 0.05
+dots 1

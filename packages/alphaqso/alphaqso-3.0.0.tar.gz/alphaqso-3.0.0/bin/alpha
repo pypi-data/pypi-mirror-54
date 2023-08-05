@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+#######################################################################
+# Copyright (c) 2019, Quasar Astronomy Group.
+# Produced at Lawrence Berkeley National Laboratory.
+# Written by V. Dumont (vincentdumont11@gmail.com).
+# All rights reserved.
+# This file is part of the ALPHA software.
+# For details, see github.com/vincentdumont/alpha.
+# For details about use and distribution, please read ALPHA/LICENSE.
+#######################################################################
+import alphaqso,argparse
+#######################################################################
+# Extract input arguments
+#######################################################################
+parser = argparse.ArgumentParser(prog='alpha',description='Alpha and spectral distortion research algorithm.')
+parser.add_argument('operation', help='Operation to be run',choices=['run','curve','mgfe','qlist'])
+parser.add_argument('--arm',metavar='',help='Arm(s) of spectrographs to consider',choices=['blue','red','redblue'])
+parser.add_argument('--chisq',metavar='',type=float,default=1.E-5,help='Chi-square threshold (default: %(default)s)')
+parser.add_argument('--coddam',metavar='',default='./',help='Path to CoDDAM spreadsheet')
+parser.add_argument('--compress',action='store_true',help='For supercomputer use, whether results should be compressed')
+parser.add_argument('--instrument',metavar='',help='High-resolution spectrograph name',choices=['uves','hires'])
+parser.add_argument('--fit',metavar='',help='Perform fit of chi-square or da/a curves or both',choices=['chisq','alpha','both'])
+parser.add_argument('--fitdir',metavar='',help='Repository of quasar systems',default='/Users/vincent/Documents/systems/')
+parser.add_argument('--mgisotope',action='store_true',help='Whether we consider non-terrestrial Mg abundance')
+parser.add_argument('--mode',metavar='',default='single',help="Type of distortion curve to plot. [single] Individual chi-square curve;\n[global] Summ every system's chi-square points;\n[model] Summ every system's chi-square fit; [alpha] Save da/a results",choices=['single','global','model','alpha'])
+parser.add_argument('--model',metavar='',type=float,help='Model version to be considered',choices=[1.1,1.2,1.3,2.1,3.1,4.1,5.1,6.1,7.1,7.2,7.3])
+parser.add_argument('--path',metavar='',default='./',help='Path to parent system repository')
+parser.add_argument('--previous',action='store_true',help='Use model from previous slope as first guess for next')
+parser.add_argument('--repeat',metavar='',type=int,default=1,help='Number of consecutive VPFIT iteration to be done')
+parser.add_argument('--sample',metavar='',help='Quasar spectra sample, e.g. UVES_squader, HIRES_sargent')
+parser.add_argument('--save',metavar='',help='Filename of saved figure')
+parser.add_argument('--selection',metavar='',help='Selection list name from CoDDAM',choices=['mtm01','mtm03','mtm04','jak12','aw12','mw15','vd17a','vd17b','vd17c','vd17d'])
+parser.add_argument('--shape',metavar='',default='slope',help='For HIRES dat. Shape of distortion curve (slope,amplitude).',choices=['slope','amplitude'])
+parser.add_argument('--show',action='store_true',help='Display results.')
+parser.add_argument('--simulation',metavar='',help='Type of simulation to be carried out',choices=['simple','complex'])
+parser.add_argument('--slope',metavar='',type=float,default=0,help='Central or single slope value')
+parser.add_argument('--sloperange',metavar='',nargs=2,type=float,default=[None,None],help='Slope range to be covered')
+parser.add_argument('--snr',metavar='',type=float,help="Pixel signal-to-noise. Its inverse correspond to the artificial pixel's error and will be used as standard deviation to generate random noise. By default, the real pixel's error is used.")
+parser.add_argument('--stdev',metavar='',type=float,default=0,help='Standard deviation for random slope distribution')
+parser.add_argument('--step',metavar='',type=float,default=0,help='Step size between slope values')
+parser.add_argument('--system',metavar='',help='Absorption line system to study')
+parser.add_argument('--vpfit',metavar='',default='',help='Specific VPFIT version')
+parser.add_argument('--whitmore',action='store_true',help='Explore model using simplistic distortion model')
+args = parser.parse_args()
+
+# Run alpha and distortion calculations
+if args.operation=='run':
+    alphaqso.run(args)
+
+# Plot distortion curve results
+if args.operation=='curve':
+    alphaqso.curveplot(args)
+
+# Plot histograms of MgII and FeII for every model
+if args.operation=='mgfe':
+    alphaqso.mgfe(args.fitdir,args.save)
+
+# Plot q-coefficient vs. rest-wavelength and frequency
+if args.operation=='qlist':
+    alphaqso.qlist(args.instrument,args.fitdir,args.save)

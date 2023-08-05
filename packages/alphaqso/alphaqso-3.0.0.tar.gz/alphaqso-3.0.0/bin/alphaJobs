@@ -1,0 +1,112 @@
+#!/bin/bash
+
+# Do compare plot between old and updated HIRES results
+alpha results \
+      --instrument hires \
+      --selection jak12 \
+      --original \
+      --compare vd17a \
+      --chisq 1e-6 \
+      --constrain \
+      --display2
+# Do compare plot between old and updated UVES results
+alpha results \
+      --instrument uves \
+      --selection jak12 \
+      --original \
+      --compare vd17a \
+      --chisq 1e-6 \
+      --constrain \
+      --display2
+# Do compare plot between thermal and turbulent HIRES results
+alpha results \
+      --instrument hires \
+      --selection vd17a \
+      --chisq 1e-6 \
+      --constrain
+# Perform dipole fitting for updated HIRES sample
+alpha dipole \
+      --instrument hires \
+      --selection vd17a \
+      --chisq 1e-6
+# Plot da/a versus redshift for HIRES old and updated results
+alpha alphaz
+# Create simulated model and chi-square curve results for paper 1 system
+alpha run_complex \
+      --system J043037-485523/1.35560/UVES_squader \
+      --simulation complex \
+      --snr 1000 \
+      --distmid 0.200 \
+      --distmin 0 \
+      --distmax 0.3 \
+      --distsep 0.005 \
+      --model 1 \
+      --chisq 1e-05 \
+      --previous \
+      --clean \
+      --instrument uves
+# Check all fort.26 for error in log(N) larger than 1
+alpha sanity \
+      --selection vd17a \
+      --chisq 1e-6 \
+      --instrument uves
+# Produce the slope clipped weighted mean vs. standard deviation
+alpha slopes_sim \
+      --instrument uves
+# Create curve for calculation without using previous slope as first guess
+alpha curve_real \
+      --instrument uves \
+      --chisq 1e-6 \
+      --mode single \
+      --system J001602-001225/0.63630/UVES_squader
+# Create curve for calculation with real UVES data
+alpha curve_real \
+      --instrument uves \
+      --mode single \
+      --previous
+# Run distortion calculation without using previous slope as first guess
+alpha run_real \
+      --instrument uves \
+      --chisq 1e-6
+      --system J001602-001225/0.63630/UVES_squader
+# Run distortion calculation for degenerate system for larger range
+alpha run_real \
+      --instrument uves \
+      --chisq 1e-6 \
+      --system J111113-080402/3.60770/UVES_squader \
+      --distmin -2 \
+      --distmax 2 \
+      --distsep 0.5 \
+      --model 2.1 \
+      --previous \
+      --instrument uves
+# Run DW2 calculations
+alpha run_complex \
+      --system J000344-232354/0.45210/UVES_squader \
+      --instrument uves \
+      --simulation complex \
+      --expind \
+      --stdev 0.05 \
+      --distmid -0.123 \
+      --distmin -1.123 \
+      --distmax 0.877 \
+      --distsep 0.1 \
+      --previous
+# Fit slope values on real data
+alpha slopes_fit \
+      --instrument uves
+# Fit slope values on simulated data
+alpha slopes_fit \
+      --instrument uves \
+      --simulation complex \
+      --expind \
+      --stdev 0.05
+# Fit slope results for DW2 simulations
+alpha slopes_sim \
+      --instrument uves
+# Do kinematic plots
+alpha kinematics \
+      --all \
+      --chunks \
+      --bin 3 \
+      --ntrans 5
