@@ -1,0 +1,37 @@
+- project:
+    templates:
+      - docs-on-readthedocs
+      - openstack-python-jobs
+      - openstack-python35-jobs
+      - openstack-python36-jobs
+    vars:
+      rtd_webhook_id: '61274'
+    check:
+      jobs:
+        - sqlalchemy-migrate-tox-py27sa07
+        - sqlalchemy-migrate-devstack:
+            voting: false
+    gate:
+      jobs:
+        - sqlalchemy-migrate-tox-py27sa07
+
+- job:
+    name: sqlalchemy-migrate-tox-py27sa07
+    parent: tox
+    description: |
+      Run tests for sqlalchemy-migrate project.
+
+      Uses tox with the ``py27sa07`` environment.
+    vars:
+      tox_envlist: py27sa07
+
+- job:
+    name: sqlalchemy-migrate-devstack
+    parent: legacy-dsvm-base
+    run: playbooks/sqlalchemy-migrate-devstack-dsvm/run.yaml
+    post-run: playbooks/sqlalchemy-migrate-devstack-dsvm/post.yaml
+    timeout: 10800
+    required-projects:
+      - openstack/devstack
+      - openstack/devstack-gate
+      - x/sqlalchemy-migrate
