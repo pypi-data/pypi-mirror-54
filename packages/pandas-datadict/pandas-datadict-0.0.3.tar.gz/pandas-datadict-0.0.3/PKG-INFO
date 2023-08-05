@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pandas-datadict
+Version: 0.0.3
+Summary: Data dictionary functionality for pandas data frames
+Home-page: https://github.com/177arc/pandas-datadict
+Author: Marc Maier
+Author-email: py@177arc.net
+License: MIT
+Description: # Documentation
+        
+        For the code documentation, please visit the documentation Github Pages: https://177arc.github.io/pandas-datadict/docs/datadict/.
+        
+        # Source code repository
+        
+        The source code repository is hosted at Github: https://github.com/177arc/pandas-datadict/
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
