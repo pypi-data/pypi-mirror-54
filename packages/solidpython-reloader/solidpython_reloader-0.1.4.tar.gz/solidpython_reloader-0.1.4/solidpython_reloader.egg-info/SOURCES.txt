@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/sp-reloader
+solidpython_reloader.egg-info/PKG-INFO
+solidpython_reloader.egg-info/SOURCES.txt
+solidpython_reloader.egg-info/dependency_links.txt
+solidpython_reloader.egg-info/entry_points.txt
+solidpython_reloader.egg-info/requires.txt
+solidpython_reloader.egg-info/top_level.txt
+spreloader/__init__.py
+spreloader/command_line.py
+spreloader/spreloader.py
