@@ -1,0 +1,3 @@
+[pidi.plugin.display]
+File = pidi_display_pil:DisplayFile
+

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pidi-display-pil
+Version: 0.0.1
+Summary: pidi plugin for display output using PIL.
+Home-page: https://github.com/pimoroni/pidi-plugins
+Author: Philip Howard
+Author-email: phil@pimoroni.com
+License: MIT
+Description: # pidi PIL display plugin
+        
+        This plugin renders album art and transport information to a PIL image for display.
+        
+Platform: UNKNOWN
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
