@@ -1,0 +1,3 @@
+cubicweb-pyramid
+WebTest
+
