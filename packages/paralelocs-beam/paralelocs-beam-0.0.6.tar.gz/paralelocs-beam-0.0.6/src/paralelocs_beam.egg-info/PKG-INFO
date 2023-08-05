@@ -1,0 +1,90 @@
+Metadata-Version: 1.2
+Name: paralelocs-beam
+Version: 0.0.6
+Summary: Paraleo CS Custom packages to work with Apache Beam on Python SDK
+Home-page: https://gitlab.com/paralelo/paralelocs_beam
+Author: Lucas de Castro Magalhães
+Author-email: contato@paralelocs.com.br
+License: Apache-2.0
+Project-URL: Changelog, https://https://gitlab.com/paralelo/lucasmagalhaes/paralelocs_beam/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://https://gitlab.com/paralelo/lucasmagalhaes/paralelocs_beam/issues
+Description: ========
+        Overview
+        ========
+        
+        Paraleo CS Custom packages to work with Apache Beam on Python SDK
+        
+        * Free software: Apache Software License 2.0
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install paralelocs-beam
+        
+        You can also install the in-development version with::
+        
+            pip install git+ssh://git@https://gitlab.com/paralelo/lucasmagalhaes/paralelocs_beam.git@master
+        
+        Documentation
+        =============
+        
+        
+        To use the project:
+        
+        .. code-block:: python
+        
+            import paralelocs_beam
+            paralelocs_beam.longest()
+        
+        
+        Development
+        ===========
+        
+        To run the all tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.0.6 (2019-10-20)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
