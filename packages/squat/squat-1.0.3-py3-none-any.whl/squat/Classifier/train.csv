@@ -1,0 +1,103 @@
+Text,Label
+Cash,cash
+CS DEP,cash
+cash deposit,cash
+cash dep,cash
+hard money,cash
+CASH WITHDRAWAL,cash
+account deposit,cash
+BILL PAYMENT CMS,digital
+PUB,digital
+HDB,digital
+Utility,digital
+phone,digital
+INSUR,digital
+Online,digital
+Online Payment,digital
+paytm,digital
+google pay,digital
+amazon pay,digital
+ola money,digital
+mobikwik inr gurgaon,digital
+phonepay,digital
+FAST PAYMENT Quek 20 05 RW EBGPP90528618763 UOB:1101314451:IDEAL SALARY PAYMENT SGD 513,salary
+salary,salary
+sal,salary
+Bonus,salary
+PAYROLL,salary
+NEFT Credit,salary
+FUND TRANSFER,transfer
+clg,transfer
+transfer,transfer
+NEFT,transfer
+RTGS,transfer
+RTGX,transfer
+PAYMENT/TRANSFER,transfer
+REMITTANCE TRANSFER OF FUNDS RTF Ghani 22/06 TAX 0016RF5360573 GHANI SGD 6.75,tax
+Tax Payment,tax
+VAT,tax
+excise,tax
+service,tax
+IRAS,tax
+income tax,tax
+cpf,tax
+charge,tax
+interest,tax
+penalty,tax
+chg,tax
+comm,tax
+commission,tax
+Bach,tax
+fee,tax
+renewal,tax
+Profit,tax
+POS SETTLEMENT,shopping
+super market,shopping
+d mart siddapura,shopping
+reliance digital,shopping
+future lifestyle fashion,shopping
+capital hypermart,shopping
+sri balaji exports,shopping
+central bangalore,shopping
+POS,shopping
+cheque,cheque
+Outward,cheque
+CI CM,cheque
+CA CHQ,cheque
+DC WDL,cheque
+rtn chq 5342868,cheque
+INWARD RETURNED CHEQUES,cheque
+OUTWARD RETURNED CHEQUES,cheque
+CHQ RET,cheque
+GIRO RETURNED,cheque
+ADV GIRO RETURN,cheque
+OUT CHQ RET,cheque
+IRC,cheque
+RCQ,cheque
+INW CHQ RET,cheque
+CLEARING CHEQUE,cheque
+amar service station,travel
+petro surcharge,travel
+travel india,travel
+s v m fuel station,travel
+v.r. enterprises ecity,travel
+fuel pump,travel
+petrol station,travel
+diesel ,travel
+yatra flight,travel
+mmt inc,travel
+SHELL EASTERN PETROLE,travel
+hotel,travel
+wow momo,food
+aithi grand,food
+moriz resturant,food
+odia dine bangalore,food
+swiggy mumbai,food
+uber eats delhi,food
+zomato india,food
+udupi aatithya bangalore,food
+udupi nalapaka,food
+andhra spicy resturant,food
+mc donalds,food
+KFC bangalore,food
+sri dining,food
