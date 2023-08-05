@@ -1,0 +1,10 @@
+lucyfer
+lucyfer/backend
+lucyfer/base
+lucyfer/django
+lucyfer/elastic
+lucyfer/parser
+lucyfer/searchset
+lucyfer/searchset/fields
+lucyfer/searchset/mapping
+lucyfer/searchset/searchhelper
