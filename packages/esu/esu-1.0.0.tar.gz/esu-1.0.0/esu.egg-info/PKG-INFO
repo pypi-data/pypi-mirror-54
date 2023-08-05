@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: esu
+Version: 1.0.0
+Summary: Enjoy the flexibility of structs with esu!
+Home-page: http://github.com/torokmark/esu
+Author: Mark Torok
+License: Apache License 2.0
+Project-URL: Documentation, https://esu.readthedocs.io
+Project-URL: Source, https://github.com/torokmark/esu
+Description: # esu
+        :egg: Enjoy the flexibility of structs with esu!
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.6, >=3.5
+Description-Content-Type: text/markdown

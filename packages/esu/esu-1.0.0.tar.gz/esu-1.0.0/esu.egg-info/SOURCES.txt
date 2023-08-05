@@ -1,0 +1,8 @@
+README.md
+setup.py
+esu/Struct.py
+esu/__init__.py
+esu.egg-info/PKG-INFO
+esu.egg-info/SOURCES.txt
+esu.egg-info/dependency_links.txt
+esu.egg-info/top_level.txt
