@@ -1,0 +1,3 @@
+[console_scripts]
+mmbca-py = mahdiyeh_mbca.main:main
+
