@@ -1,0 +1,3 @@
+[console_scripts]
+squat = squat.cli:main
+
