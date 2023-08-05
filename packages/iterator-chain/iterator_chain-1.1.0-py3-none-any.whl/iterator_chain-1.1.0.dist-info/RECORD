@@ -1,0 +1,9 @@
+iterator_chain/__init__.py,sha256=8CoQ4LGVVY18XbX97opkyru75OUhADcwz1IMeIMXsow,125
+iterator_chain/begin.py,sha256=RWECkeOwv9eRvmK-QkjXXpSTTIyI7ugxNmq5RrNZIlc,1844
+iterator_chain/intermediate.py,sha256=msy7kzxWnyLV-pTz4UWl1__gFd0rmT3iDQzqksoKmUc,9652
+iterator_chain/parallel_intermediate.py,sha256=h7MjArIj4PMMLCueNdCyCP9JUcFlU8O_JldyqEaxcZE,10915
+iterator_chain-1.1.0.dist-info/LICENSE,sha256=ZMTlTfWcxlFt3_1RKrsFPnzuLgZNKvU85a2hZL5KZ_o,1055
+iterator_chain-1.1.0.dist-info/METADATA,sha256=Ea6Ky9W7LereAOZwq-QLEuiC42nYijMjqNUTo-C4H3I,9604
+iterator_chain-1.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+iterator_chain-1.1.0.dist-info/top_level.txt,sha256=fZFFf1fIFsR0yIaYzkF2WPoHuOpIiSiXBN33CSlCSVw,15
+iterator_chain-1.1.0.dist-info/RECORD,,
