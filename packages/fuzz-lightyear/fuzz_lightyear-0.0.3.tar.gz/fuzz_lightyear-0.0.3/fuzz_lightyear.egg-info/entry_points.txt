@@ -1,0 +1,3 @@
+[console_scripts]
+fuzz-lightyear = fuzz_lightyear.main:main
+
