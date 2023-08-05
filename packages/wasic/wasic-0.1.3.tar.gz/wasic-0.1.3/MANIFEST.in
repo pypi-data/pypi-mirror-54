@@ -1,0 +1,2 @@
+include wasic/wasic.cmake
+recursive-include wasic/stubs *
