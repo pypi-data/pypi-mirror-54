@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ds4ml
+Version: 0.0.3
+Summary: A python library for data synthesis and evaluation
+Home-page: UNKNOWN
+Author: ['Rongjun', 'Yan', 'David']
+Author-email: rongjun.gao@sap.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.14.3)
+Requires-Dist: matplotlib (>=2.2.2)
+Requires-Dist: mako (==1.0.12)
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: scikit-learn (>=0.20.2)
+Requires-Dist: pytest (>=4.6.2)
+Requires-Dist: python-dateutil (>=2.7.3)
+Requires-Dist: setuptools (>=39.1.0)
+
+UNKNOWN
+
+
