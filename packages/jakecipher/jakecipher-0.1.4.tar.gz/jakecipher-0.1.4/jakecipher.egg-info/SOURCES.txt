@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+jakecipher/__init__.py
+jakecipher.egg-info/PKG-INFO
+jakecipher.egg-info/SOURCES.txt
+jakecipher.egg-info/dependency_links.txt
+jakecipher.egg-info/not-zip-safe
+jakecipher.egg-info/requires.txt
+jakecipher.egg-info/top_level.txt
