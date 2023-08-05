@@ -1,0 +1,6 @@
+panel
+holoviews
+hvplot
+xarray
+netcdf4
+datashader
