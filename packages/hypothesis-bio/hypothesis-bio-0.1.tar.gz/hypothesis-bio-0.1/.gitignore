@@ -1,0 +1,9 @@
+.tox/
+Pipfile
+Pipfile.lock
+.python-version
+dist/
+**/__pycache__/
+.hypothesis
+.coverage
+docs/_build
