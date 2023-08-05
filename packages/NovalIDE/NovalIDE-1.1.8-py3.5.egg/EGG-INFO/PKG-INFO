@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: NovalIDE
+Version: 1.1.8
+Summary: NovalIDE is a cross platform Python IDE
+Home-page: https://github.com/noval102200/NovalIDE.git
+Author: wukan
+Author-email: wekay102200@sohu.com
+License: Genetalks
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy

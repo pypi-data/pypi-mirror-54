@@ -1,0 +1,4 @@
+
+        [gui_scripts]
+        NovalIDE = noval.python.run:main
+        
