@@ -1,0 +1,13 @@
+greek_normalisation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+greek_normalisation/convert_files.py,sha256=P1i8S2GYkfR2bPbC2YYAbL35r8Yi42aJpaCrlWqUOBg,435
+greek_normalisation/norm_data.py,sha256=-366ztUoaIJiRWlNrz3nRMuOlFrxfaKkFxqo5BULHv4,1726
+greek_normalisation/normalise.py,sha256=2-vvJ1o7SNIBsmxiksv1Kw0przajgIyMY9Ok0inmn7w,1522
+greek_normalisation/regexes.py,sha256=Ce34ONAWB-BIz1BkV4MMz81ZIJ2Wm7Bmlgl2ThSgFOA,1429
+greek_normalisation/to2019.py,sha256=50XiD7pgK2EmbJpiksVxNo08tQMLH7rN5zhI0KLptfg,425
+greek_normalisation/utils.py,sha256=aiBSe45SrKXpKAQip1Be2_6AgEJzfoIxIrk_DjqS8AE,1844
+greek_normalisation-0.3.dist-info/LICENSE,sha256=T1DPElaFGRwGJELRd3SRiJqGF_ujjWOEIYrb1ddP-Ls,1069
+greek_normalisation-0.3.dist-info/METADATA,sha256=klEUF0CMYJucTQcLZgVnVRRH1BVAKfwkf3nBhipfL-M,1363
+greek_normalisation-0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+greek_normalisation-0.3.dist-info/entry_points.txt,sha256=rJmVNg9IZtIY8W6FSsMM90szxE09eIqBVzSrJ8g48e4,117
+greek_normalisation-0.3.dist-info/top_level.txt,sha256=25uwl_qh0eEFWbu9E0Ej4GtH-FIQ8FL4IBEf3UlV1TE,20
+greek_normalisation-0.3.dist-info/RECORD,,

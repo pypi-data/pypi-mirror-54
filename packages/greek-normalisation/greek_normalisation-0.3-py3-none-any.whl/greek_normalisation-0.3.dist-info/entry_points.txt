@@ -1,0 +1,4 @@
+[console_scripts]
+toNFC = greek_normalisation.convert_files:to_nfc
+toNFD = greek_normalisation.convert_files:to_nfd
+
