@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+nfstream/__init__.py
+nfstream/classifier.py
+nfstream/ndpi_bindings.py
+nfstream/ndpi_wrap.so
+nfstream/observer.py
+nfstream/streamer.py
+nfstream.egg-info/PKG-INFO
+nfstream.egg-info/SOURCES.txt
+nfstream.egg-info/dependency_links.txt
+nfstream.egg-info/requires.txt
+nfstream.egg-info/top_level.txt
