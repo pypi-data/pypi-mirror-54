@@ -1,0 +1,17 @@
+falcontyping/__init__.py,sha256=yjv1sqEiC3I7A8xegDHHy_QFagK40m3UHT1adExk0Bo,144
+falcontyping/base/__init__.py,sha256=kl3Sx2KaBNvbXYOb_QrgNYdNoBeQQLdI07cjWeTnhyU,379
+falcontyping/base/exceptions.py,sha256=fh24YHklKsw3uUAil6SMCzynfnOCQUtsk13eLqpvpAw,66
+falcontyping/base/resource.py,sha256=2EgjvVwhYYjdldSD6lUieVnm3Rur2sMSBPoEQLHZ8KE,128
+falcontyping/base/utils.py,sha256=KyaoUkyqMDR68BREDLdikBlNXiTt7J8Flst8pXv0SPU,5663
+falcontyping/base/wrapper.py,sha256=NcgSkM6Htgi1WanJBcY6hKs7ACvm0zgr2h9Cgi80bJE,885
+falcontyping/middleware/__init__.py,sha256=LoU58MrYc1HCccwIOaqajJuYrpCbvJNvi7d_P-PEJlM,70
+falcontyping/middleware/typing_.py,sha256=znCA-cEzTspzHV-8ItFtyBVUtdGQXRLyDHQBJjyKtjk,5869
+falcontyping/typedjson/__init__.py,sha256=K8Yi-fqUQMMeaBLEAE5ual1piW9I4KhLfEKAlJz2jlk,1393
+falcontyping/typedjson/annotation.py,sha256=4YSSXsMuXdYMSayLut8twQ3E7V_4p8m9Dn_YirgnLew,3184
+falcontyping/typedjson/base.py,sha256=VCiBEOzqRMtoqQR8GAGuI9FXkadCJ17Ytxn886FcB7o,3341
+falcontyping/typedjson/decoding.py,sha256=XjeXVtduqBW8Vb9CpL_YR42Q88EssLhV3LOx-BcZjvI,5053
+falcontyping-0.2.6.dist-info/LICENSE,sha256=tDAhU_v2FlYIYpkzzfQFZCyBvDcDXvY2AJT_zuFV16Q,1070
+falcontyping-0.2.6.dist-info/METADATA,sha256=f0sOq0Ppa-8f8t5teex2FolaAQ1jFlqzFJOsMd5ilmM,1885
+falcontyping-0.2.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+falcontyping-0.2.6.dist-info/top_level.txt,sha256=ZB2fftakBOiKvZJ6uogkAagx5Hu9gBPRBde8jBSuvd4,13
+falcontyping-0.2.6.dist-info/RECORD,,
