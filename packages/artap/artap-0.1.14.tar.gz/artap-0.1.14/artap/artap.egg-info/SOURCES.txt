@@ -1,0 +1,45 @@
+MANIFEST.in
+README.md
+setup.py
+3rdparty/submodules.sh
+artap/environment.json
+artap/artap.egg-info/PKG-INFO
+artap/artap.egg-info/SOURCES.txt
+artap/artap.egg-info/dependency_links.txt
+artap/artap.egg-info/not-zip-safe
+artap/artap.egg-info/requires.txt
+artap/artap.egg-info/top_level.txt
+artap/examples/Agros - simple capacitor.py
+artap/examples/__init__.py
+artap/examples/simple_optimization/Two Bar Truss Design.py
+artap/examples/simple_optimization/__init__.py
+artap/examples/simple_optimization/bi_objective_test.py
+artap/examples/simple_optimization/dtlz_test.py
+artap/examples/simple_optimization/gear_design.py
+artap/examples/simple_optimization/single_objective problem.py
+artap/examples/simple_optimization/spring_design.py
+artap/lib/_nlopt.so
+artap/lib/bayesopt.so
+artap/tests/__init__.py
+artap/tests/test_agros.py
+artap/tests/test_algorithm.py
+artap/tests/test_comsol.py
+artap/tests/test_custom_gradient.py
+artap/tests/test_datastore.py
+artap/tests/test_dynamical_systems.py
+artap/tests/test_generators.py
+artap/tests/test_graphical_results.py
+artap/tests/test_job.py
+artap/tests/test_operators.py
+artap/tests/test_problem_bayes.py
+artap/tests/test_problem_bayesopt.py
+artap/tests/test_problem_epsmoea.py
+artap/tests/test_problem_nlopt.py
+artap/tests/test_problem_nsga2.py
+artap/tests/test_problem_scipy.py
+artap/tests/test_problem_swarm.py
+artap/tests/test_remote.py
+artap/tests/test_remote_condor.py
+artap/tests/test_scikit.py
+artap/tests/test_sensitivity.py
+artap/tests/test_surrogate.py
