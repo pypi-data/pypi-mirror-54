@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: glowing-waffles
+Version: 0.1.0.dev562
+Summary: A package for performing stellar photometry.
+Home-page: https://github.com/glowing-waffle/glowing-waffles
+Author: Matt Craig
+Author-email: mattwcraig@gmail.com
+License: BSD 3-Clause
+Platform: UNKNOWN
+Requires-Dist: astropy (>=3.1)
+Requires-Dist: astroquery
+Requires-Dist: ccdproc
+Requires-Dist: ginga
+Requires-Dist: ipywidgets
+Requires-Dist: bottleneck
+Requires-Dist: photutils
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: gatspy
+
+This is a package for doing stellar photometry that relies on astropy.
+
+
