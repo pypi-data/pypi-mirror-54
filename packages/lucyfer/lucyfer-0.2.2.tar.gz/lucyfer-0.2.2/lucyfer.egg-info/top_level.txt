@@ -1,0 +1,7 @@
+lucyfer
+lucyfer/backend
+lucyfer/parser
+lucyfer/searchset
+lucyfer/searchset/fields
+lucyfer/searchset/mapping
+lucyfer/searchset/searchhelper
