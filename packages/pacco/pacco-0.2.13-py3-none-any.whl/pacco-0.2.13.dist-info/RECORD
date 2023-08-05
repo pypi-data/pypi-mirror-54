@@ -1,0 +1,15 @@
+pacco/__init__.py,sha256=C0atO05M0rfDTTHt02NxNa4jt0eSqXM4AxShEhb2epA,23
+pacco/classes_file_based.py,sha256=iuop3XJ3gS8Uae4YPkrlOfyIy4ZYym587n-dqWTIdRY,15083
+pacco/classes_interface.py,sha256=fnVFWLVuioNimgZfOKPTvOyTDp85RkUl017qqWtsSFg,6268
+pacco/clients.py,sha256=Y7E6EgfnQYXt8YSVPMNMcu3snIOIYNo_Sn9pKxl_0vQ,8491
+pacco/remote_manager.py,sha256=ZoU0NVwLOJ9LYxWxFmOnHdE7tvx0sFZq7pEIsPQ_gSg,11192
+pacco/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pacco/cli/command_manager.py,sha256=iLk9saeyB-WwM2r3_vzlLPtJeTo9_F-ZgfvarKc_kRQ,18030
+pacco/cli/entry_point.py,sha256=vlGmumq8l4sgs_AW3oxvSptnTy85lSr3YYnISQstHX4,171
+pacco/cli/output_stream.py,sha256=s51TD-d1IBHgBSt9fz2jeL5EwFpyq-PAjbQpFILmhSQ,662
+pacco-0.2.13.dist-info/LICENSE,sha256=RCKhRDni9y8WnBf7EbE4s1sJwBWvPP9ARAJ1yfVjpls,1069
+pacco-0.2.13.dist-info/METADATA,sha256=B0XvGkqY_IXnL_HY4NRFUMUQQuxDLCbZXn0FUnbysq0,409
+pacco-0.2.13.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pacco-0.2.13.dist-info/entry_points.txt,sha256=lMN_h_YrQPDPP-dB9yL7v9Ya_OFnM3ItfXgjGoxUlZA,53
+pacco-0.2.13.dist-info/top_level.txt,sha256=CEKh0c9Lxs4V1t2Od_pDGYMOLe75wcCNhig5JhaMfjs,6
+pacco-0.2.13.dist-info/RECORD,,
