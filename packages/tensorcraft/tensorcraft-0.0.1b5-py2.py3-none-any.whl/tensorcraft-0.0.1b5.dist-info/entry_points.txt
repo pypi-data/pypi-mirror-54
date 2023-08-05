@@ -1,0 +1,3 @@
+[console_scripts]
+tensorcraft = tensorcraft.shell.main:main
+
