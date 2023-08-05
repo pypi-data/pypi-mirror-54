@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aiohypixel
+Version: 0.2.0
+Summary: An asynchronous Hypixel API Wrapper written in Python
+Home-page: None
+Author: Tmpod
+Author-email: None
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: aiohttp (>=3.5,<4.0)
+Requires-Dist: dataclasses (>=0.6.0,<0.7.0)
