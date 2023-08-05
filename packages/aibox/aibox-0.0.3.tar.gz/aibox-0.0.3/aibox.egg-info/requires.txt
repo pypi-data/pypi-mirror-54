@@ -1,0 +1,4 @@
+requests
+re
+nltk
+string
