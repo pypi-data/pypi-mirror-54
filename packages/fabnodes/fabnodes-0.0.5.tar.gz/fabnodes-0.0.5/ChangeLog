@@ -1,0 +1,24 @@
+CHANGES
+=======
+
+0.0.5
+-----
+
+* Fixing requirements
+
+0.0.4
+-----
+
+* Moving packages around
+
+0.0.3
+-----
+
+* Added lib package (since ignored from gitignore)
+
+0.0.2
+-----
+
+* More features and profile is being respected
+* Updating readme
+* Initial Commit

@@ -1,0 +1,213 @@
+CloudFormation {
+    {% set counter = {
+        'additional_roles': 0,
+        } -%}
+    {%- macro increment(dct, key, inc=1) -%}
+        {%- if dct.update({key: dct[key] + inc}) -%} {%- endif -%}
+    {%- endmacro %}
+    {%- set prefix = stack_name -%}
+    {%- set nodename = [prefix, node['fxname']]|join('') %}
+    description = external_parameters.fetch(
+        :description,  "{{ description }}")
+
+    code_archive = '{{ node['archive'] }}'
+    handler = '{{ node['handler'] }}'
+    fx_name = '{{ nodename }}'
+    code_bucket_id = '{{ node['bucket_name'] }}'
+    node_role_id = '{{ node['role_import'] }}'
+
+    Description description
+
+    {% for input in inputs -%}
+    {%- set queue_name = [prefix, input['name'], 'Input']|join('') -%}
+    {%- set input_name = [prefix, input['name'], 'Trigger']|join('') -%}
+    Queue(:{{ queue_name }}) do
+    end
+
+    {% set isource = 'FnImportValue(\'' + input['source'] + '\')' -%}
+    {%- if 'type' in input and input['type'] == 'arn' -%}
+    {%- set isource = '\'' + input['source'] + '\'' -%}
+    {%- endif %}
+
+    Resource("{{ queue_name + 'Source' }}") do
+        Type("AWS::SNS::Subscription")
+        Property("Protocol", "sqs")
+        Property("Endpoint", FnGetAtt(:{{ queue_name }}, 'Arn'))
+        Property("TopicArn", {{ isource }})
+    end
+
+    QueuePolicy(:{{ queue_name + 'SourcePolicy' }}) do
+        PolicyDocument(
+            'Id' => '{{ queue_name + 'SourcePolicy' }}',
+            'Statement' =>
+            [
+                {
+                    'Effect' => 'Allow',
+                    'Action' => [
+                        'sqs:SendMessage'
+                    ],
+                    'Condition' => {
+                        'ArnEquals' => {
+                            'aws:SourceArn' => {{ isource }}
+                        }
+                    },
+                    'Principal' => {
+                        'AWS' => '*'
+                    },
+                    'Resource' => '*',
+                    'Sid' => 'Allows router to SNS->SQS filter'
+                }
+            ]
+        )
+        Queues [ Ref(:{{ queue_name }}) ]
+    end
+
+    Resource(:{{ input_name }}) do
+        Type 'AWS::Lambda::EventSourceMapping'
+        Property('EventSourceArn', FnGetAtt(:{{ queue_name }}, 'Arn'))
+        Property('FunctionName', FnGetAtt(:{{ nodename }}, 'Arn'))
+    end
+    {% endfor -%}
+
+    {%- for bucket in buckets -%}
+    {%- if bucket['role'] is not none -%}
+    {{ increment(counter, 'additional_roles') }}
+    {%- endif -%}
+    {%- endfor %}
+
+    Resource(:{{ nodename + 'IAMRole' }}) do
+        Type 'AWS::IAM::Role'
+        Property('AssumeRolePolicyDocument', {
+            'Statement' => [
+                {
+                    'Action' => [
+                        'sts:AssumeRole'
+                    ],
+                    'Effect' => 'Allow',
+                    'Principal' => {
+                        'Service' => [
+                            'lambda.amazonaws.com'
+                        ]
+                    }
+                }{{ ',' if counter['additional_roles'] > 0 }}
+    {% for bucket in buckets -%}
+    {%- if bucket['role'] is not none %}
+                {
+                    'Action' => [
+                        'sts:AssumeRole'
+                    ],
+                    'Effect' => 'Allow',
+                    'Principal' => {
+                        'AWS': '{{ bucket['role'] }}'
+                    }
+                }{{ ',' if not loop.last }}
+    {%- endif -%}
+    {%- endfor %}
+            ],
+            'Version' => '2012-10-17'
+        })
+        Property('Path', '/')
+        Property('Policies', [
+            {
+                "PolicyDocument" => {
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "logs:*"
+                            ],
+                            "Resource": "arn:aws:logs:*:*:*"
+                        },
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "s3:GetObject",
+                                "s3:PutObject"
+                            ],
+                            "Resource": "arn:aws:s3:::*"
+                        },{
+    {% for bucket in buckets %}
+                            "Effect": "Allow",
+                            "Action": [
+                                "s3:GetObject",
+                                "s3:PutObject"
+                            ],
+                            "Resource": "arn:aws:s3:::{{ bucket['bucket_name'] }}/*"
+                        },{
+    {%- endfor %}
+                            "Action": [
+                                "sqs:*"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": "*"
+                        },{
+                            "Action": [
+                                "sns:Publish"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": "*"
+                        }
+                    ],
+                    "Version": "2012-10-17"
+                },
+                "PolicyName" => "{{ nodename }}-filter-logs-and-s3-access"
+            }
+        ])
+    end
+
+    Resource(:{{ nodename }}) do
+        Type 'AWS::Lambda::Function'
+        Property('Handler', handler)
+        Property('FunctionName', fx_name)
+        Property('Role', FnGetAtt(:{{ nodename + 'IAMRole' }}, 'Arn'))
+        Property('Code',
+                S3Bucket: code_bucket_id,
+                S3Key: code_archive)
+        Property('Runtime', 'python3.7')
+        Property('Timeout', '25')
+        Property('Environment', {
+            'Variables' => {
+                {% for output in outputs -%}
+                {%- set topic_name = [prefix, output['name'], 'Output']|join('') -%}
+                '{{ output['name']}}': Ref(:{{ topic_name }}){{ ',' if not loop.last }}
+                {% endfor %}
+            }
+        })
+    end
+
+    {% for output in outputs -%}
+    {%- set topic_name = [prefix, output['name'], 'Output']|join('') -%}
+
+    Topic(:{{ topic_name }}) do
+    end
+
+    Output(:{{ 'export'+topic_name }}) do
+        Description '{{ node['fxname'] + '.' + output['name'] }}'
+        Value Ref(:{{ topic_name }})
+        Export '{{ prefix + '-' + output['name'] }}'
+    end
+
+    TopicPolicy(:{{ topic_name + 'Policy' }}) do
+        PolicyDocument(
+            'Version' => '2012-10-17',
+            'Statement' =>
+            [
+                {
+                    'Effect' => 'Allow',
+                    'Action' => 'sns:Publish',
+                    'Principal' => {
+                        'AWS': '*'
+                    },
+                    'Resource' => Ref(:{{ topic_name }}),
+                    'Condition' => {
+                        'ArnLike' => {
+                            'aws:SourceArn' => FnGetAtt(:{{ nodename }}, 'Arn')
+                        }
+                    }
+                }
+            ]
+        )
+        Topics [ Ref(:{{ topic_name }}) ]
+    end
+    {%- endfor %}
+}

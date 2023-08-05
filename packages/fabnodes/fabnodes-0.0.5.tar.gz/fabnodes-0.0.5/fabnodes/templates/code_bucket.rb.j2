@@ -1,0 +1,12 @@
+CloudFormation {
+    {% set prefix = stack_name -%}
+    {%- set bucket_export_name = prefix + bucket_name + 'ExportId' -%}
+    
+    Description '{{ bucket_description }}'
+
+    {%- set bucket_key = bucket_name | replace('-', '') %}
+    S3_Bucket(:{{ bucket_key }}) do
+        BucketName '{{ bucket_name }}'
+        VersioningConfiguration(Status: '{{ bucket_versioning }}')
+    end
+}
