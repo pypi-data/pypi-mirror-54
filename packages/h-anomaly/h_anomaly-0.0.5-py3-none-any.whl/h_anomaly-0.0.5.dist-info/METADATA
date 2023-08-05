@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: h-anomaly
+Version: 0.0.5
+Summary: A small example package Anomaly detection using hierarchical clustering, anomaly detector, classifiers and fast model rebuilding
+Home-page: https://github.com/ai-se/h_anomaly
+Author: RAISE_LAB
+Author-email: smajumd3@ncsu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: freediscovery[core]
+Requires-Dist: seaborn
+
+# h_anomaly
+A small example package Anomaly detection using hierarchical clustering, anomaly detector, classifiers and fast model rebuilding
+
+

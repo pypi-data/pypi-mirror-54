@@ -1,0 +1,9 @@
+h_anomaly/__init__.py,sha256=fqhD_9aKsTIy2u43letoLtWgn0McfvZTILL2yDmwA1Q,395
+h_anomaly/bcluster.py,sha256=0qGZuYyv2QVFU8wy_6Xp5QLf3Ox2AXY66q-GtoEvB_I,4024
+h_anomaly/birch.py,sha256=lwsfgtdK9FLCEfM2TWIbNsQyQDMIpU-crMcKa5Yk_n8,11777
+h_anomaly/driver.py,sha256=EmghD1CNJ5m1mYCEj1nbiuNUaZO__QNFXog_vBnCKBQ,1047
+h_anomaly-0.0.5.dist-info/LICENSE,sha256=TYmZ-915wf2HehpQ3LebkYO_3sNZKzoP1PKwKNTkKMw,1078
+h_anomaly-0.0.5.dist-info/METADATA,sha256=fn040dQBllcb6tvtWIvwLZiq3IV9RbdXnQPd7zZVVek,712
+h_anomaly-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+h_anomaly-0.0.5.dist-info/top_level.txt,sha256=iFLI9wZ5c9A0pTVhjplxbUOQAK4vmq0FdrTlEMr89Fk,10
+h_anomaly-0.0.5.dist-info/RECORD,,
