@@ -1,0 +1,9 @@
+README.md
+setup.py
+gyd_test.egg-info/PKG-INFO
+gyd_test.egg-info/SOURCES.txt
+gyd_test.egg-info/dependency_links.txt
+gyd_test.egg-info/requires.txt
+gyd_test.egg-info/top_level.txt
+pip_demo/__init__.py
+pip_demo/test.py

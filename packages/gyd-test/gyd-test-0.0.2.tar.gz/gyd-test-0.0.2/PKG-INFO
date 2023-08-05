@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gyd-test
+Version: 0.0.2
+Summary: A small example package
+Home-page: https://www.baidu.com/
+Author: Gu Youda
+Author-email: guyouda@qq.com
+License: MIT
+Description: test
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
