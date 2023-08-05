@@ -1,0 +1,13 @@
+README.md
+pcp
+setup.py
+partialCopy/Common.py
+partialCopy/Config.py
+partialCopy/__init__.py
+partialCopy/backup.py
+partialCopy/pcp.cfg
+partialCopy/pcp.py
+partialCopy.egg-info/PKG-INFO
+partialCopy.egg-info/SOURCES.txt
+partialCopy.egg-info/dependency_links.txt
+partialCopy.egg-info/top_level.txt
