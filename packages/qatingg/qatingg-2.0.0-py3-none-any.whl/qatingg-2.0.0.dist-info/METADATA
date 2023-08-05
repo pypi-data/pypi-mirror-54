@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: qatingg
+Version: 2.0.0
+Summary: Cellulant QA adapter
+Home-page: https://tingg.africa
+Author: S.Kingori
+Author-email: samson.mwangi@cllulant.com
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pycryptodome
+Requires-Dist: requests
+
+# CELLULANT EXPRESS
+## qatingg ###
+
+Python adapter for Cellulant Tingg express checkout version 2.0
+
+To install: `pip install qatingg`
+
+For all calls you first have to initiate the adapter with your credentials
+You can find your credentials over here: https://beep2.cellulant.com:9212/checkout/v2/portal/#/home
+
+```
+adapter = MulaAdapter(<client id>, <client secret>, <service code>, <access_key>, <domain>)
+```
+
+```domain:```  User have two options.These are cellulant's testing environments:
+
+```
+STAGING 
+or 
+SANDBOX
+```
+```due_date:``` User can pass the number of minutes(``` int```) for the session or use cellulant data format(```''Y-m-d H:M:S''```)
+To get the express page:
+
+```checkout_type:``` Cellulant have several ways of checkout
+```
+Example:
+-------------
+modal
+express
+themed-checkout
+---------------
+```
+``` json
+adapter.get_encryption(
+        msisdn='0730xxxxxxx',
+        customer_first_name='John',
+        customer_last_name='Doeh',
+        customer_email='john.doeh@jd.com',
+        transaction_id='<unique>',
+        account_number='066564ACC',
+        amount=1000,
+        currency_code='KES',
+        country_code='KE',
+        description='Air ticket',
+        due_date='2019-10-01 12:12:00',
+        payer_client_code='i8UytECD',
+        language_code='en',
+        success_url='http://callbackurl.com/success',
+        fail_url='http://callbackurl.com/fail'
+        callback_url='http://callbackurl.com/callback',
+)
+```
+```
+Note: Add payer client code, ONLY if you're testing single payment option' 
+```
+This will return checkout response as a url.
+```
+Example below:
+
+https://beep2.cellulant.com:9212/checkout/v2/express/?params=<params>&accessKey=<accesskey>&countryCode=KE
+
+```
+
+###### Tests
+
+Running tests
+
+```
+python setup.py test
+```
+
+
+
