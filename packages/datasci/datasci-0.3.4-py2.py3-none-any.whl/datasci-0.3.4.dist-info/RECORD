@@ -1,0 +1,9 @@
+datasci/__init__.py,sha256=L6v0jTZtGns3gV8qCatqrzXowOC5uEnPSo-X4LNpMPY,842
+datasci/notebook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datasci/notebook/init.py,sha256=AsEvZtn6TKUperZObDBAOax2BmlI4VNQTM2vuhjMERk,7426
+datasci/pandas/__init__.py,sha256=-pLys_ytlZUGDIXwdzMPctmwAXT7UhEs8re9q35L0hM,2928
+datasci/strings/__init__.py,sha256=5rzGD3rcwFf7Dss-HFFGkrRNDqtOpZ-Cbzq8M8DuQ90,1316
+datasci-0.3.4.dist-info/METADATA,sha256=OqFAUG_pGCxydjTvJq0XWjpuezJqvZ-wI2bzLxqouss,1598
+datasci-0.3.4.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+datasci-0.3.4.dist-info/top_level.txt,sha256=1oJR-K0cjQS-4s7p3yOzB-WqVrKGkH2EHnRzoXmmar8,8
+datasci-0.3.4.dist-info/RECORD,,
