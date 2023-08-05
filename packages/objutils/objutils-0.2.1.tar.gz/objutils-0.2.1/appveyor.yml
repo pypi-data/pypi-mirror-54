@@ -1,0 +1,92 @@
+environment:
+
+  PYPI_PASSWORD:
+    secure: zBC2GOUADRTMx3wJG8UE5w==    # zBC2G0UADRTMx3wJG8UE5w
+
+  matrix:
+
+    # For Python versions available on Appveyor, see
+    # http://www.appveyor.com/docs/installed-software#python
+    # The list here is complete (excluding Python 2.6, which
+    # isn't covered by this document) at the time of writing.
+
+    - PYTHON: "C:\\Python34"
+    - PYTHON: "C:\\Python35"
+    - PYTHON: "C:\\Python36"
+    - PYTHON: "C:\\Python37"
+    - PYTHON: "C:\\Python34-x64"
+    - PYTHON: "C:\\Python35-x64"
+    - PYTHON: "C:\\Python36-x64"
+    - PYTHON: "C:\\Python37-x64"
+
+install:
+  # We need wheel installed to build wheels
+  - cmd: set PATH=%PATH%;%PYTHON%\Scripts
+  - "%PYTHON%\\python.exe -m pip install --upgrade pip"
+  - "%PYTHON%\\python.exe -m pip install --upgrade setuptools"
+  - "%PYTHON%\\python.exe -m pip install wheel twine"
+  - "%PYTHON%\\python.exe -m pip install -r requirements.txt"
+
+build: off
+
+test_script:
+  # Put your test command here.
+  # If you don't need to build C extensions on 64-bit Python 3.3 or 3.4,
+  # you can remove "build.cmd" from the front of the command, as it's
+  # only needed to support those cases.
+  # Note that you must use the environment variable %PYTHON% to refer to
+  # the interpreter you're using - Appveyor does not do anything special
+  # to put the Python evrsion you want to use on PATH.
+  - "%PYTHON%\\python.exe setup.py test"
+
+after_test:
+  # This step builds your wheels.
+  # Again, you only need build.cmd if you're building C extensions for
+  # 64-bit Python 3.3/3.4. And you need to use %PYTHON% to get the correct
+  # interpreter
+  - "%PYTHON%\\python.exe setup.py bdist_wheel"
+  - "%PYTHON%\\python.exe setup.py sdist --formats=zip,gztar"
+
+artifacts:
+  # bdist_wheel puts your built wheel in the dist directory
+  - path: dist\*
+    name: pypiartifacts
+
+#on_success:
+#  You can use this step to upload your artifacts to a public website.
+#  See Appveyor's documentation for more details. Or you can simply
+#  access your wheels from the Appveyor "artifacts" tab for your build.
+on_finish:
+  - ps: |
+      $wc = New-Object 'System.Net.WebClient'
+      $wc.UploadFile("https://ci.appveyor.com/api/testresults/junit/$($env:APPVEYOR_JOB_ID)", (Resolve-Path .\result.xml))
+
+deploy:
+- provider: GitHub
+  artifact: '*.*' #"dist\\*"
+  on:
+      APPVEYOR_REPO_TAG: true
+  auth_token:
+    secure: Wiweaot1JAHzV9mMZ3Zhn/5XUuLe5XYAyfpRZmWNpLW7fMW1FhAdoRliiAhz3Sv6
+  description: Test release -- do not use
+  tag: $(APPVEYOR_REPO_TAG_NAME)
+  draft: false
+  prerelease: true
+
+deploy_script:
+  - echo "Starting Artifact Deployment"
+  # populate pypirc file for twine
+  - echo [distutils]                                  > %USERPROFILE%\\.pypirc
+  - echo index-servers =                             >> %USERPROFILE%\\.pypirc
+    #- echo     pypi                                    >> %USERPROFILE%\\.pypirc
+    #- echo [pypi]                                      >> %USERPROFILE%\\.pypirc
+  - echo     testpypi                                    >> %USERPROFILE%\\.pypirc
+  - echo [testpypi]                                      >> %USERPROFILE%\\.pypirc
+  - echo username=christoph2                         >> %USERPROFILE%\\.pypirc
+  - echo password=%PYPI_PASSWORD%                    >> %USERPROFILE%\\.pypirc
+  # upload to pypi for windows
+  - set PATH=%BK_PATH%
+  - set HOME=%USERPROFILE%
+  - ps: If ($env:APPVEYOR_REPO_TAG -eq "true" -And $env:APPVEYOR_REPO_BRANCH -eq "master") { Invoke-Expression "twine upload --skip-existing dist/*.whl" 2>$null } Else { write-output "Not on a tag on master, won't deploy to pypi"}
+  - echo "Finished Artifact Deployment"
+

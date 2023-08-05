@@ -1,0 +1,11 @@
+future
+mako
+six
+construct
+attrs
+
+[develop]
+bumpversion
+
+[docs]
+sphinxcontrib-napoleon
