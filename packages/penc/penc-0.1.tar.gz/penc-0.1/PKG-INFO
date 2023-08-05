@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: penc
+Version: 0.1
+Summary: A python command-line tool to encode and decode from hex and base64
+Home-page: https://github.com/wborgeaud/penc
+Author: William Borgeaud
+Author-email: williamborgeaud@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
