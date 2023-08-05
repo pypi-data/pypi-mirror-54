@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: alembic-multischema
+Version: 0.0.7
+Summary: Multi schema postgres migrations using alembic
+Home-page: https://github.com/QuiNovas/alembic-multischema
+Author: Mathew Moon
+Author-email: me@mathewmoon.net
+License: APL 2.0
+Keywords: quinovas
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: System :: Software Distribution
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# alembic-multischema
+This module provides the ability to act on multiple postgres schemas at once when using alembic.
+
+# Functions:
+### perSchema(**kwargs)
+Used to decorate the upgrade() and downgrade() functions in a migration. When upgrade or downgrade are decorated with perSchema() the decorated function will be called for a list of schemas in the current database.
+#### kwargs:
+  * schemas
+  A list of schema names to run the function against. If omitted perSchema() will automatically generate a list of non-system schemas from the current database by using getAllNonSystemSchemas()
+  * exclude
+  A list of schema names to exclude from running the function against
+
+
+### getAllSchemas()
+  Returns a list of all schemas in the current database.
+#### kwargs:
+  * exclude
+  A list of schema names to exclude from running the function against
+
+### getAllNonSystemSchemas()
+  Returns a list of schemas in the current database, omitting information_schema and pg_catalog.  
+#### kwargs:
+  * exclude
+  A list of schema names to exclude from running the function against
+
+## Example Usage:
+```
+"""CreateUsersTable
+
+Revision ID: a6a219646b55
+Revises:
+Create Date: 2019-10-16 14:43:11.347575
+
+"""
+from alembic import op
+import sqlalchemy as sa
+from sqlalchemy.sql import text
+from almebic_multischema import perSchema
+
+# revision identifiers, used by Alembic.
+revision = 'a6a219646b55'
+down_revision = None
+branch_labels = None
+depends_on = None
+
+@perSchema(schemas=["public", "foo", "bar"])
+def upgrade():
+    users = text(
+      """CREATE TABLE users
+          (
+            id serial PRIMARY KEY,
+            firstname VARCHAR (50) UNIQUE,
+            lastname VARCHAR (50)
+          );
+      """)
+    op.execute(users)
+
+@perSchema(schemas=["public", "foo", "bar"])
+def downgrade():
+    op.execute(text("DROP TABLE users"))
+```
+
+
