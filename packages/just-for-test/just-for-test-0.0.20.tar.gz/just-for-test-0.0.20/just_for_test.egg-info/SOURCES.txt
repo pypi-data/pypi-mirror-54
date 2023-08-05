@@ -1,0 +1,8 @@
+README.rst
+setup.py
+just_for_test/__init__.py
+just_for_test.egg-info/PKG-INFO
+just_for_test.egg-info/SOURCES.txt
+just_for_test.egg-info/dependency_links.txt
+just_for_test.egg-info/requires.txt
+just_for_test.egg-info/top_level.txt

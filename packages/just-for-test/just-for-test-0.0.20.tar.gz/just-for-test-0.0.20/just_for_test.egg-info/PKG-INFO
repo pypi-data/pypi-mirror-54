@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: just-for-test
+Version: 0.0.20
+Summary: only for test.
+Home-page: https://github.com/codeif/just-for-test
+Author: codeif
+Author-email: me@codeif.com
+License: MIT
+Project-URL: Documentation, https://just-for-test.readthedocs.io
+Description: just for test
+        ================
+        
+        pip install just-for-test
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: docs
