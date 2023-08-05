@@ -1,0 +1,10 @@
+sleeppy/__init__.py,sha256=cKhjbnccYboF2tntcUL5FzwD_iERaYqbuAcdkgnD9H4,128
+sleeppy/sleep.py,sha256=i9La0x-NNGM-gMAl8O0j4MvbVtsHQ4uWfYGHUmnZtDw,53526
+sleeppy/version.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+sleeppy/tests/__init__.py,sha256=CA_08LcI8CHOEQ6kbmhcmhezOx7s5sVGbydYFkxilto,26
+sleeppy/tests/demo.py,sha256=FdWySRCgtMk1WVyRJ58_7GNgH4CFpqNwhNkyRMeUgEk,1970
+sleeppy-0.2.0.dist-info/LICENSE.md,sha256=3WA4Nxd3GlQOTKQkQdFMZDUK22utIVbG02WEX0T_HCo,1075
+sleeppy-0.2.0.dist-info/METADATA,sha256=ewiBKRgJF64m9gXjU9iIwGJc5LNstX-sPrDAtyH-ji8,11079
+sleeppy-0.2.0.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+sleeppy-0.2.0.dist-info/top_level.txt,sha256=InmkQmDZDW11p4VO_dis9GlM2Q1b154KTtJnIpX0MOw,8
+sleeppy-0.2.0.dist-info/RECORD,,
