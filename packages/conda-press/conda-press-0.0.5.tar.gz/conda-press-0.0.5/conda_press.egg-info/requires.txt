@@ -1,0 +1,6 @@
+xonsh
+lazyasd
+ruamel.yaml
+tqdm
+requests
+dataclasses
