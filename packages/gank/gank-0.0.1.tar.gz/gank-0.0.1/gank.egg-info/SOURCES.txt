@@ -1,0 +1,8 @@
+README.md
+setup.py
+gank/__init__.py
+gank/gank.py
+gank.egg-info/PKG-INFO
+gank.egg-info/SOURCES.txt
+gank.egg-info/dependency_links.txt
+gank.egg-info/top_level.txt
