@@ -1,0 +1,13 @@
+dxf2x/__init__.py,sha256=Cidz4kAfVPRYVGKAx4DOVV9JTrEudXVCDos4WI_ln6Q,2525
+dxf2x/compiler.py,sha256=l4kfDiibqSZodk4W_8P2Q2cMYgtlLB_w631j29w0h6A,2309
+dxf2x/dxf.py,sha256=AnBoEXhV1s-GiCd5jc7-VWeYElOmcrFJKlEH90l9sIg,613
+dxf2x/model_pb2.py,sha256=RajN-jgW9uJb8MN4icuCVMqwRbX-dzoH6ExrTuJfmUI,21031
+dxf2x/proto.py,sha256=qMn9Om87oLO2hb914mryD0lxJ6ffNS0WOpwJNcdPMfQ,6135
+dxf2x/svg.py,sha256=zsEPMjBJII5XqDqdY5lCuce6qSnnYvge4XNMtHKzXKE,9968
+dxf2x/tsv.py,sha256=ZtuWxHSRnwt7URL7Ki1uCANieH33TOJw8PkYFsy66Ik,805
+dxf2x-0.0.1.dist-info/LICENSE,sha256=HtbhxUVDBj3meknVqX2u4hYp0OP9umcsZrMuoz-tAUk,1314
+dxf2x-0.0.1.dist-info/METADATA,sha256=nxPhFsF-VL0zoQaGv0OFyO2Veek7VQKCum4gAhpse6k,1293
+dxf2x-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dxf2x-0.0.1.dist-info/entry_points.txt,sha256=vyJlOymXeLVKmvW3zTGV5T_agGWFAU5KSvF_sk_eAkQ,39
+dxf2x-0.0.1.dist-info/top_level.txt,sha256=JR-2hFyRD83lKL4ZuxTZFuvkhWLMmJ3rukwzrifTokw,6
+dxf2x-0.0.1.dist-info/RECORD,,
