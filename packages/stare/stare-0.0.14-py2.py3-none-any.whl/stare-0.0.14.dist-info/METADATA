@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: stare
+Version: 0.0.14
+Summary: python sdk for Glance API
+Home-page: https://giordonstark.com
+Author: Giordon Stark
+Author-email: gstark@cern.ch
+License: BSD 3-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: cachecontrol[filecache]
+Requires-Dist: click (>=6.0)
+Requires-Dist: python-jose
+Requires-Dist: attrs
+Requires-Dist: python-dotenv
+Provides-Extra: complete
+Requires-Dist: bandit ; extra == 'complete'
+Requires-Dist: betamax ; extra == 'complete'
+Requires-Dist: betamax-serializers ; extra == 'complete'
+Requires-Dist: bumpversion ; extra == 'complete'
+Requires-Dist: coverage ; extra == 'complete'
+Requires-Dist: pre-commit ; extra == 'complete'
+Requires-Dist: pyflakes ; extra == 'complete'
+Requires-Dist: pytest ; extra == 'complete'
+Requires-Dist: pytest-cov ; extra == 'complete'
+Requires-Dist: pytest-mock ; extra == 'complete'
+Requires-Dist: twine ; extra == 'complete'
+Requires-Dist: black ; (python_version >= "3.6") and extra == 'complete'
+Provides-Extra: develop
+Requires-Dist: pyflakes ; extra == 'develop'
+Requires-Dist: pytest ; extra == 'develop'
+Requires-Dist: pytest-cov ; extra == 'develop'
+Requires-Dist: pytest-mock ; extra == 'develop'
+Requires-Dist: coverage ; extra == 'develop'
+Requires-Dist: bumpversion ; extra == 'develop'
+Requires-Dist: pre-commit ; extra == 'develop'
+Requires-Dist: bandit ; extra == 'develop'
+Requires-Dist: betamax ; extra == 'develop'
+Requires-Dist: betamax-serializers ; extra == 'develop'
+Requires-Dist: twine ; extra == 'develop'
+Requires-Dist: black ; (python_version >= "3.6") and extra == 'develop'
+
+# stare
+
+[![GitHub Actions Status](https://github.com/kratsg/stare/workflows/CI/badge.svg)](https://github.com/kratsg/stare/actions?workflow=CI) [![GitHub Actions Deploy Status](https://github.com/kratsg/stare/workflows/Publish%20Python%20%F0%9F%90%8D%20distributions%20%F0%9F%93%A6%20to%20PyPI%20and%20TestPyPI/badge.svg)](https://github.com/kratsg/stare/actions?workflow=Publish+Python+%F0%9F%90%8D+distributions+%F0%9F%93%A6+to+PyPI+and+TestPyPI)
+
+The python wrapper for the Glance API.
+
+## CLI Usage
+
+Use `stare --help` for the various options provided.
+
+## Python Usage
+
+```
+import stare
+client = stare.Glance()
+
+# list of analyses as dict
+analyses = client.analyses['analyses']
+# list of papers as dict
+papers = client.papers['papers']
+```
+
+## SSL
+
+In order to get SSL handshakes working (certificate verification), one needs to make sure we add/trust the CERN Certification Authorities (CA) for both the Root and the Grid CAs. Specifically, we rely on the Root CA to sign/issue the Grid CA. The Grid CA is what's relied on for the SSL chain. To make this happen, we'll need both PEM for each CA combined into a single `CERN_chain.pem` file which is bundled up with this package.
+
+Going to the [CERN CA Files website](https://cafiles.cern.ch/cafiles/) and downloading the CERN Root Certification Authority 2 (DER file) and CERN Grid Certification Authority (PEM file). We can then convert the DER to PEM as follows (for the Root CA):
+
+```
+openssl x509 -in CERN_ROOT_CA_2.crt -inform der -outform pem -out CERN_ROOT_CA_2.pem
+```
+
+and then combine the two
+
+```
+cat CERN_GRID_CA_2.pem CERN_ROOT_CA_2.pem > CERN_chain.pem
+```
+
+This can be passed into any python `requests::Session` via `verify='/path/to/CERN_chain.pem'` and SSL verification should work.
+
+[1] [DER vs PEM?](https://support.ssl.com/Knowledgebase/Article/View/19/0/der-vs-crt-vs-cer-vs-pem-certificates-and-how-to-convert-them)
+
+
+# Reference
+* http://bhomnick.net/design-pattern-python-api-client/
+* https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
+  * Thanks to @webknjaz [da900a16](https://github.com/kratsg/stare/commit/da900a1669af8b72fe8fbbf1c83d8d95e412af8e)
+
+
