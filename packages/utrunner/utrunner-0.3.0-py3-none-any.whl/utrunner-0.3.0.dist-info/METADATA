@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: utrunner
+Version: 0.3.0
+Summary: Simple test runner that wraps unittest and Coverage
+Home-page: https://github.com/kevwo/utrunner
+Author: Kevin Woodmansee
+Author-email: kevinwoodmansee@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: coverage (>=4.0)
+
+Please see documentation here: https://github.com/kevwo/utrunner
+
+
