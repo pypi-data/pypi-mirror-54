@@ -1,0 +1,5 @@
+[console_scripts]
+rm = core.main:main
+rm.printDB = core.printDB:main
+rm.recover = core.recover:main
+
