@@ -1,0 +1,183 @@
+Metadata-Version: 2.1
+Name: evc-manager
+Version: 1.1.3
+Summary: A Python module to manipulate Ethernet Virtual Circuit in SDN environments
+Home-page: https://github.com/amlight/evc_manager
+Author: AmLight Dev Team
+Author-email: dev@amlight.net
+License: UNKNOWN
+Description: # AmLight Ethernet Virtual Circuit (EVC) Manager
+        
+        The AmLight EVC Manager is a tool to help SDN operators to manage
+        multiple Ethernet Virtual Circuits in a batch operation, such as
+        creating/deleting/changing multiple EVCs at a time. It was created to
+        help AmLight network engineers in the daily operation of the AmLight SDN
+        network, which currently has more than one thousands flows and more than
+        ten OpenFlow switches in North and South America.
+        
+        The AmLight EVC\_Manager requires Python 3.6.
+        
+        # Features
+        
+        The EVC Manager was created with the following major goals:
+        
+        >   - Support multiple backends, such as OESS and Kytos E-Line.
+        >   - Support exporting all circuits to YAML or JSON files
+        >   - Support creating/changing/deleting multiple circuits via YAML
+        >     files
+        >   - Support moving circuits out a specific link (or NNI)
+        >   - Support forcing circuit reprovisioning
+        >   - Support changing circuits' paths
+        >   - Support exporting monitoring data using Zabbix LLD format for
+        >     integration with Zabbix
+        >   - Support multiple queries:
+        >       - Get VLANs in use in a specific UNI or NNI
+        >       - Get circuits using a specific UNI or NNI
+        >       - Get circuit utilization
+        >       - Get circuit with under-provisioned paths
+        >       - Get circuits using backup paths
+        >       - Get list of devices and links
+        >       - Compare and report two EVC dumps
+        
+        # Current Version
+        
+        By September 2018, the current EVC Manager is 0.1. The following major
+        features are supported:
+        
+        >   - Support for OESS backend
+        >   - Support exporting all circuits to YAML or JSON files
+        >   - Support creating/changing/deleting multiple circuits via YAML
+        >     files
+        
+        # Roadmap
+        
+        Version 0.2 is scheduled for December 2019 with the following features:
+        
+        >   - Support for EVC creation using VLAN ranges
+        >   - Support for Kytos MEF E-Line backend
+        >   - Support moving EVC out a specific link (or NNI)
+        >   - Support forcing EVC reprovisioning
+        >   - Support changing EVCs' paths
+        >   - Support multiple queries:
+        >       - Get EVC using a specific UNI or NNI
+        >       - Get EVC using backup paths
+        
+        Version 0.3 is scheduled for March 2020 with the following features:
+        
+        >   - Support exporting monitoring data using Zabbix LLD format for
+        >     integration with Zabbix
+        >   - Support multiple queries:
+        >       - Get VLANs in use in a specific UNI or NNI
+        >       - Get circuit utilization
+        >       - Get circuit with under-provisioned paths
+        >       - Get list of devices and links
+        
+        # Using the evc manager
+        
+        The EVC Manager has the following command line options:
+        
+            usage: python3.6 -m evc_manager.py [-h] (-L | -A | -D | -M MOVE_EVC) [-f SOURCE_FILE]
+                                               [-F DESTINATION_FILE] -u USER [-t TENANT]
+                                               [-p PASSWORD | -P] (-O OESS_URL | -K KYTOS_URL) [-V]
+                                               [-v {info,warning,debug}] [-y | -j | -z]
+            
+            optional arguments:
+              -h, --help            show this help message and exit
+              -L, --list-evc        List all EVCs and output them using YAML
+              -A, --add-evc         Add/Update EVCs provided in the YAML file
+              -R, --add-range-evcs  Add/Update EVCs provided in the YAML file with
+                                    VLAN ranges instead of individual EVCs
+              -D, --delete-evc      Delete all EVCs provided in the YAML file
+              -M MOVE_EVC, --move-evc MOVE_EVC
+                                    Move one or all EVCs out the NNI provided.
+              -f SOURCE_FILE, --source-file SOURCE_FILE
+                                    Source YAML file used by options -A or -D
+              -F DESTINATION_FILE, --destination-file DESTINATION_FILE
+                                    Destination YAML file used by options -L
+              -p PASSWORD, --password PASSWORD
+                                    Provide pass for authentication
+              -P, --prompt_password
+                                    Prompt pass for authentication
+              -O OESS_URL, --oess-url OESS_URL
+                                    Use OESS backend. Provide OESS's URL
+              -K KYTOS_URL, --kytos-url KYTOS_URL
+                                    Use Kytos E-Line backend's URL.
+              -V, --version         show program's version number and exit
+              -v {info,warning,debug}, --verbose {info,warning,debug}
+                                    Set Verbose Level (info | warning | debug)
+              -y, --to-yaml         Print using YAML.
+              -j, --to-json         Print using JSON.
+              -z, --to_zabbix       Converts output to Zabbix LLD format
+            
+            authentication:
+              -u USER, --user USER  Backend user for authentication
+              -t TENANT, --tenant TENANT
+                                    Backend user group for authentication
+        
+        Attention: Avoid using option --password with admin accounts. Your
+        password might be stored in your Bash history\!\!
+        
+        # EVC data modeling
+        
+        To help modeling EVCs, the following data model was created:
+        
+            version: 1.0
+            name: Circuit Name
+            unis: List of User-to-Network Interfaces
+              - device: network device's name
+                interface_name: network device's interface_name
+                interface_description: network device's interface_description
+                mac_addresses: list of MAC addresses connected to the network interface
+                  -
+                tag: interface TAG type
+                  type: Type could be MPLS or VLAN
+                  value: VLAN ID or MPLS tag or [start, end] for VLAN ranges.
+            metrics: Circuit required metrics
+              min_bw: minimum bandwidth
+              max_delay: maximum delay acceptable in milliseconds
+              max_hops: max number of hops
+              avoid_shared: if circuit should avoid shared links
+            provisioning_time: when the circuit should be created
+            decommissioning_time: when the circuit should be terminated
+            requested_paths: list of paths, in a priority list. 'Any' if no physical path is required.
+            tenant: group name
+            priority: circuit priority
+            external_id: any external ID if needed
+            monitoring: monitoring requirements
+              dataplane:
+                trace: if data plane path tracing is required
+                  active: True or False
+                  interval: interval between tests
+              controlplane:
+                trace: if control plane path tracing is enough
+                  active: True or False
+                  interval: interval between tests
+            notification: notification requirements
+              slack_channel:
+                - workgroup1
+                  channel1
+                - workgroup2
+                  channel2
+              emails:
+                - user1@email
+                - user2@email
+            current_config: Current configuration
+              backend: backend or technology being used
+              current_path: # list of links being used
+              is_backup: is it using a backup path?
+              is_optimized: is it using under-provisioned links? (not enough BW, delay higher that required, etc.)
+              to_provisioned:
+              is_expired:
+              is_up:
+              is_active: True if between provisioning time and decommissioning time
+        
+        Data models are provided on folder libs.models.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Networking
+Classifier: Environment :: Console
+Classifier: Environment :: No Input/Output (Daemon)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
