@@ -1,0 +1,9 @@
+README.md
+setup.py
+useful.py
+the_useful_tools.egg-info/PKG-INFO
+the_useful_tools.egg-info/SOURCES.txt
+the_useful_tools.egg-info/dependency_links.txt
+the_useful_tools.egg-info/entry_points.txt
+the_useful_tools.egg-info/requires.txt
+the_useful_tools.egg-info/top_level.txt
