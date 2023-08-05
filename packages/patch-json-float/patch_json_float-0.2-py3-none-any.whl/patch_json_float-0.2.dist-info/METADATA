@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: patch-json-float
+Version: 0.2
+Summary: patch builtins float class
+Home-page: https://github.com/weaming/patch-json-float
+Author: weaming
+Author-email: garden.yuen@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/weaming/patch-json-float
+Project-URL: Bug Reports, https://github.com/weaming/patch-json-float
+Keywords: monkey-patch,patch,developer
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Patch Python `float`
+
+Convert to `decimal.Decimal` for every operations of `Float`, which will monkey patch builtins `float`.
+
+## Usage
+
+```
+from patch_float import patch_json_loads, test_json_loads
+patch_json_loads()
+test_json_loads()
+
+# Or
+
+from patch_float import patch_float_all
+patch_float_all()
+```
+
+
