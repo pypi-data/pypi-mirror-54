@@ -1,0 +1,7 @@
+README.md
+setup.py
+wrapperWSD.egg-info/PKG-INFO
+wrapperWSD.egg-info/SOURCES.txt
+wrapperWSD.egg-info/dependency_links.txt
+wrapperWSD.egg-info/requires.txt
+wrapperWSD.egg-info/top_level.txt
