@@ -1,0 +1,11 @@
+identifyPropositions/__init__.py,sha256=HNqtBshRqvrvHLayJ7usBQ0k0zkmCS-2wkEmo-yg8qU,139
+identifyPropositions/__main__.py,sha256=NaTzon4blpVfR-LaArjBFNNDWL6VGSfyUNWH3KWG8sw,703
+identifyPropositions/config.py,sha256=NJppHbNU73kwJ_-iaop107hdRtnq9cfFm_R2fbTNJw4,330
+identifyPropositions/identify.py,sha256=LmEI3l26WRH9vp3BL1N9u2qgu8fKfftSY2Zq4evi2sY,381
+identifyPropositions/util.py,sha256=YJPxFIoEqvA6Oii7Qn5NeZdOnIcgr6ZgXeaNN2vPW84,2029
+syllogio_identifyPropositions-1.1.0.dist-info/LICENSE,sha256=_m20-aX9QvnSglde83v3imEotglyhK1Ac9_Fr4W_UM4,1066
+syllogio_identifyPropositions-1.1.0.dist-info/METADATA,sha256=ZurqJsyiQ8u-NEN653z_lDmVjBmNDH-suAyS8Gxm8R8,1673
+syllogio_identifyPropositions-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+syllogio_identifyPropositions-1.1.0.dist-info/entry_points.txt,sha256=LHfmzRJ_wsbfH7jugSgoxdm00UhtJ8XET6ExGZyly0s,119
+syllogio_identifyPropositions-1.1.0.dist-info/top_level.txt,sha256=e5AcYexP1Hh9sWGmGhJLtSSl6ODU8iF70WcwzxttnNE,21
+syllogio_identifyPropositions-1.1.0.dist-info/RECORD,,
