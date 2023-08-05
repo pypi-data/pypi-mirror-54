@@ -1,0 +1,13 @@
+rest_framework_expandable/__init__.py,sha256=nxGmAQacSvFurLc56hWyk9t9UZAhc_Dsi2RA3f3pFzc,176
+rest_framework_expandable/fields.py,sha256=kb8WnvV2jQLaqusXhS1dEicNYlTrFqysEh36ll1_AsY,358
+rest_framework_expandable/serializers.py,sha256=cfc94uJIJR2dyOrWKJ9b5QR0IEDbvlSEIXpUvGzr37Q,376
+rest_framework_expandable/utils.py,sha256=LhlJdM9bXmUBxMUQiWeAqbYhhAbhnkozGK-tolqRW88,3975
+rest_framework_expandable/mixins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_expandable/mixins/expandable.py,sha256=9fvcN5_zf6QUqswXO4bc9Wyj9fCvpmGXTeNbhQnq8Ss,2529
+rest_framework_expandable/mixins/expandable_model_serializer.py,sha256=ZD39oA_pAV0-Y11juoGYYPlFJ-_YKgU2_ro_ExG-rSI,2977
+rest_framework_expandable/mixins/expandable_related_field.py,sha256=PRqaXc2Vs-7esX-5a61t1m6aduVtx7zdiJfaNb5B3V8,15219
+django_rest_framework_expandable-0.4.1.dist-info/LICENSE.txt,sha256=EPbdzdWhgM45gQvcJZksiAREhO55qCgIyCjA4c55jSs,1268
+django_rest_framework_expandable-0.4.1.dist-info/METADATA,sha256=FYnELl_vvn9cM3yd58skhO6VCB3936vQqcs7gt1ZnnE,2660
+django_rest_framework_expandable-0.4.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_rest_framework_expandable-0.4.1.dist-info/top_level.txt,sha256=NmWKKAUPVvfA9NDikqZ5nDDEqbJErepxVzn5J92YD3E,26
+django_rest_framework_expandable-0.4.1.dist-info/RECORD,,
