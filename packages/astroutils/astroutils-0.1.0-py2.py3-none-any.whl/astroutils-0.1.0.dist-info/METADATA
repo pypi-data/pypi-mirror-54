@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: astroutils
+Version: 0.1.0
+Summary: Many utility functions for astronomical research
+Home-page: https://github.com/chengxinlun/astroutils
+Author: Xinlun Cheng
+Author-email: chengxinlun@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: astropy (>=3.0)
+Requires-Dist: numpy (>=1.14.0)
+Requires-Dist: matplotlib (>=3.0)
+
+# astroutils
+Many utility functions for astronomical research
+
+
