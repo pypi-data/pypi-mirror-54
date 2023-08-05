@@ -1,0 +1,2 @@
+import sys; exec('try:\n    breakpoint\nexcept NameError:\n    try:\n        import _future_breakpoint\n    except ImportError:\n        pass\n    else:\n        import builtins as builtins\n        import sys\n        sys.breakpointhook = _future_breakpoint.breakpointhook\n        sys.__breakpointhook__ = _future_breakpoint.breakpointhook\n        builtins.breakpoint = _future_breakpoint.breakpoint\n')
+
