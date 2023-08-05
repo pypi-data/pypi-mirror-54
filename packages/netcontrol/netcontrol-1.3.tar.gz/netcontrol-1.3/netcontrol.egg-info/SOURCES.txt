@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+fpocctl/__init__.py
+fpocctl/fpocctl.py
+netcontrol.egg-info/PKG-INFO
+netcontrol.egg-info/SOURCES.txt
+netcontrol.egg-info/dependency_links.txt
+netcontrol.egg-info/top_level.txt
+sshctl/__init__.py
+sshctl/sshctl.py
+sshctl/test_paramiko.py
+vmctl/__init__.py
+vmctl/vmctl.py
+vyosctl/__init__.py
+vyosctl/vyosctl.py
