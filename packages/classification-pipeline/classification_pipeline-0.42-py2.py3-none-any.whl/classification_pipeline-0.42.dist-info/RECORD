@@ -1,0 +1,7 @@
+classification_pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classification_pipeline/classification.py,sha256=G-YlwtzXQG4adezNXDp00FvVb8o0WJ0VFMMd8wOQnH4,7793
+classification_pipeline-0.42.dist-info/LICENSE,sha256=c6LaTBIGmMBMCxquzykjJzYaOUyz8pbYv9fCYek9Y3s,1095
+classification_pipeline-0.42.dist-info/METADATA,sha256=xGF5o83ehdEBDbH0f6tD9lC_xVcqiUtynqqxFRdVWYA,418
+classification_pipeline-0.42.dist-info/WHEEL,sha256=1Cc6AMC7xwtmRYeNiHurrGRLJoEuor81IEEqyHblQuw,116
+classification_pipeline-0.42.dist-info/top_level.txt,sha256=O6mYph9TIrM9zdb3lAvS3uO8yUn6qh5xo5_zQPaaYIk,24
+classification_pipeline-0.42.dist-info/RECORD,,
