@@ -1,0 +1,11 @@
+ffile/__init__.py,sha256=oNrzTd-A14qld5HgQTC6SZuBuIRbqXUYMIUSSXaA9a0,25
+ffile/ffile.py,sha256=cXtoZBEjIUTFfTgIRpdvG_53i0KR0620385vK3ny0KA,3334
+ffile/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ffile/tests/test_Ffile.py,sha256=AYfhLSL5Y45VZss4S1a-7HIqZvGusoQYMaliYz0hlcU,1756
+ffile/tests/test_cli.py,sha256=6XWaEqqPxQ6C930qUI97aXTqloL5ngSdNSZ9G4HqwVo,3844
+ffile-1.2.dist-info/LICENSE,sha256=hWUT7PwMbRB7bZ4lhsV-ZAIM7GH_w8-w6vLaV9F0XLM,1073
+ffile-1.2.dist-info/METADATA,sha256=LLkpHbxeNVYxHXCnQLayYvfjupDIIXQyyHi2dEOW7CY,316
+ffile-1.2.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+ffile-1.2.dist-info/entry_points.txt,sha256=BKqT6vnjpCAH7DfVv3yh9FJfbGtGPg0vgHBWVZxyP64,43
+ffile-1.2.dist-info/top_level.txt,sha256=VSxF_ZeeN8faC1jlTP4lcL2_3tkQestvAqpn8lZq148,6
+ffile-1.2.dist-info/RECORD,,
