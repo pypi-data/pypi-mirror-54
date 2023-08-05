@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pipemaker
+Version: 0.0.2
+Summary: pipemaker
+Home-page: https://gitlab.com/simonm3/pipemaker
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyYAML
+Requires-Dist: dill
+Requires-Dist: fs
+Requires-Dist: graphviz
+Requires-Dist: ipython
+Requires-Dist: ipywidgets
+Requires-Dist: matplotlib
+Requires-Dist: multiprocess
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pika
+Requires-Dist: pipreqs
+Requires-Dist: pydal
+Requires-Dist: pyfs
+Requires-Dist: pyftpdlib
+Requires-Dist: pytest
+Requires-Dist: python-json-logger
+Requires-Dist: requests
+Requires-Dist: fs1-s3fs
+Requires-Dist: pywin32 ; platform_system == "Windows"
+
+UNKNOWN
+
+
