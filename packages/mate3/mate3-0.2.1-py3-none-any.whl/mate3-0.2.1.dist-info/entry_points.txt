@@ -1,0 +1,4 @@
+[console_scripts]
+mate3=mate3.main:main
+mate3_pg=mate3.mate3_pg:main
+
