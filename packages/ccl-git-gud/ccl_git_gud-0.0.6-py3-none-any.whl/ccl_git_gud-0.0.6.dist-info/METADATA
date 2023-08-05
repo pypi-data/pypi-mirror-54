@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ccl-git-gud
+Version: 0.0.6
+Summary: Gitlab workflow command line automation.
+Home-page: https://gitlab.com/ccl-consulting/placeholder/gud
+Author: CCL Consulting
+Author-email: ggau@ccl-consulting.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: loguru
+Requires-Dist: urllib3
+Requires-Dist: python-gitlab
+
+# Git GUD
+
+[Documentation](https://ccl-consulting.gitlab.io/placeholder/placeholder/contributing)
+
+## Contributing
+
+```sh
+git clone git@gitlab.com:ccl-consulting/placeholder/gud.git
+
+cd gud
+# EDIT FILES
+
+# Activate local `git gud`
+make install; source venv/bin/activate
+# Run this command upon every change in the python program
+deactivate; make clean install; source venv/bin/activate
+```
+
+

@@ -1,0 +1,12 @@
+ccl_git_gud-0.0.6.data/scripts/git-gud,sha256=b_V1YCeQlc2G5aAgIr_ffsIk3p-G82AE7anvCol6k0s,82
+git_gud/__init__.py,sha256=8D5a8oKgqd6WA1RUkiKCn4l_PVemtyuckxQut0vDHXM,20
+git_gud/cmd.py,sha256=-mu_y24Ult9KOS9kxvnFo8tK9gi-SZTacyxNroEM2rk,2732
+git_gud/feature.py,sha256=JaMxSckf8d7UNX5K78NmOPH6-l-lw5BeBXqc1lbo9q0,6373
+git_gud/main.py,sha256=jAFQr06GUyCV1xnu29F2QMdcWFbDUP76jFR-NPLij4g,1121
+git_gud/release.py,sha256=IPoHfX366VVdW2KM2cjwxV1ukuThu4ThPkfhZg4hpYM,6760
+git_gud/utils.py,sha256=vG5UucX16rn2w_X5NMQdPDBJL88-uZ4jINODpIW5qb0,4480
+ccl_git_gud-0.0.6.dist-info/LICENSE,sha256=hFe9Wi27MmAMvItb2uvlctDu-QoKK30HHmsDkzitw_Y,1055
+ccl_git_gud-0.0.6.dist-info/METADATA,sha256=m0B3zSPIwNZ9f-l4v4QPc-ws7pxfLiLEOiuoQw10EKY,914
+ccl_git_gud-0.0.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ccl_git_gud-0.0.6.dist-info/top_level.txt,sha256=KCJKeFuuadpZTedD6c3PxqaLpOW_mvu4ojF59Em3CNE,8
+ccl_git_gud-0.0.6.dist-info/RECORD,,
