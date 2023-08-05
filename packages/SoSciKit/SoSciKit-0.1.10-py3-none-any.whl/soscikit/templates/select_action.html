@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+{% block head %}
+    {{ super() }}
+    <style>
+
+    </style>
+{% endblock %}
+{% block content %}
+    <h1> SoSciKit</h1>
+    <h3> Social Science Kit - Open Source Software for Social Science</h3>
+    <h2>select action</h2>
+
+    <form action = "{{url_for('action')}}" method = "POST">
+
+          <p> Select type action  </p>
+          <input type="radio" name="select_action" value="monovariate"> monovariate <br>
+          <input type="radio" name="select_action" value="bivariate_and_regression" checked>bivariate_and_regression<br>
+          <input type="radio" name="select_action" value="multi cross tab"> n cross tab <br>
+          <input type="radio" name="select_action" value="k-mean"> k-mean classification <br>
+        <input type="radio" name="select_action" value="recode"> calc and recode <br>
+        <input type="radio" onclick="alert('this action could take a few minutes')" name="select_action" value="profiling"> profiling <br>
+
+    <p>file status = {{ selected_file }} </p>
+
+
+    <input type="submit">
+
+    <h3> first 5 dataset lines</h3>
+    {{ html_data | safe}}
+
+    </form>
+    <script>
+    $(document).ready( function () {
+    $('#head_data').DataTable(
+        {scrollX:        true,
+        scrollY:        true,}
+    );
+    } );
+
+    </script>
+
+
+{% endblock %}
+
+
+
+
+
+
