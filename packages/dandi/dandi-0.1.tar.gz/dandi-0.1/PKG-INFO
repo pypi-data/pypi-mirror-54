@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: dandi
+Version: 0.1
+Summary: Command line client for interaction with DANDI archive elements
+Home-page: http://dandiarchive.org
+Author: DANDI developers
+Author-email: team@dandiarchive.org
+Maintainer: Yaroslav O. Halchenko
+Maintainer-email: debian@onerussian.com
+License: Apache 2.0
+Download-URL: https://github.com/dandi/dandi-cli
+Description: # DANDI Client
+        
+        This repository is under heavy development.  Check-in later.
+        
+        ## Development/contributing
+        
+        Assuming that you have `python3` (and virtualenv) installed, the fastest
+        way to establish yourself a development environment (or a sample deployment),
+        is via virtualenv:
+        
+            git clone https://github.com/dandi/dandi-cli \
+                && cd dandi-cli \
+                &&  virtualenv --system-site-packages --python=python3 venvs/dev3 \
+                && source venvs/dev3/bin/activate \
+                && pip install -e .
+        
+        ### Install and activate precommit
+        
+        Install pre-commit dependency with `pip install pre-commit`
+        
+        In the source directory
+        ```
+        pre-commit install
+        ```
+        ## 3rd party components included
+        
+        ### dandi/support/generatorify.py
+        
+        From https://github.com/eric-wieser/generatorify, as of 7bd759ecf88f836ece6cdbcf7ce1074260c0c5ef
+        Copyright (c) 2019 Eric Wieser, MIT/Expat licensed.
+        
+Platform: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Provides: dandi
+Requires-Python: >=3.5.1
+Description-Content-Type: text/x-rst; charset=UTF-8
+Provides-Extra: style
+Provides-Extra: test
+Provides-Extra: all
