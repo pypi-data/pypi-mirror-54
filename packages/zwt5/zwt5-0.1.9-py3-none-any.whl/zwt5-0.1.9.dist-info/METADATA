@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zwt5
+Version: 0.1.9
+Summary: A silly package
+Home-page: UNKNOWN
+Author: Wentao Zheng
+Author-email: nkzhengwt@outlook.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
