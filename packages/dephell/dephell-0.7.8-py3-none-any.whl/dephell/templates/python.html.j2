@@ -1,0 +1,19 @@
+
+<div>
+  Incompatible python constraint for {{ conflict.name }}.
+</div>
+
+<div>
+  Required by marker: {{ conflict.marker.python_version }}.
+</div>
+
+<div>
+  Supported:
+  <ul>
+    {% for release in conflict.groups.releases %}
+      <li>
+        Version {{ release.version }} compatible with python {{ release.python or '*' }}.
+      </li>
+    {% endfor %}
+  </ul>
+</div>
