@@ -1,0 +1,17 @@
+dask_cloudprovider/__init__.py,sha256=nBJLfRIwaFhAY6RsGHMPxJfy2DEVePv_PexmB7dtF3k,217
+dask_cloudprovider/_version.py,sha256=cjm9EL_3l3kbpG54oY86eL07rlmZUqeUt25vB9bnpnU,497
+dask_cloudprovider/cloudprovider.yaml,sha256=dDW78v8H3R2wniFcJeczIfhfYocg-e1s3_OVO1nMfis,1886
+dask_cloudprovider/config.py,sha256=RlyB6fNq5od-84evucMPf6hPmwaWXDUQ6zGKlwpkAvA,298
+dask_cloudprovider/cli/ecs.py,sha256=QKdysleE_gfjBIpTTdGjQ8pkoeafa_ZF61jgKzVikrc,6210
+dask_cloudprovider/providers/aws/ecs.py,sha256=E7Ii7Uki1znrGh4S5coGPvEOzoc42-9Sq0ce2x8brZo,42901
+dask_cloudprovider/providers/aws/helper.py,sha256=FpbzYhMv4jSSU_2-a0M9-X3TeYt5lk4UGRceHCD6yUg,532
+dask_cloudprovider/providers/aws/tests/test_ecs.py,sha256=xqVgZeKGWYndvGF4Cg5f8pT4vB9p-fUoKpiPjZADQJE,281
+dask_cloudprovider/providers/aws/tests/test_helper.py,sha256=VA6tKwMD8iatOL_Dnhn3un9EU11xhPXbZXqCZbOBxpY,674
+dask_cloudprovider/utils/logs.py,sha256=80OlV6bFeGp5eY9qOh5ZSPzFforTNED0_nKtcxv3Toc,703
+dask_cloudprovider/utils/timeout.py,sha256=sRvGa1gWwdKuYk6GOdC8LL3MSO6UeUbgUgjoPjKvT98,2512
+dask_cloudprovider-0.1.0.dist-info/LICENSE,sha256=skzZyJ0YZWX4sls4H4PUBXDlEQutWTO4WhyNW_-nI4E,1517
+dask_cloudprovider-0.1.0.dist-info/METADATA,sha256=1v7bcnskV1bEp9ECk7s8ubnrPIo16OmxaLld5LkuJ-c,371
+dask_cloudprovider-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+dask_cloudprovider-0.1.0.dist-info/entry_points.txt,sha256=X-X4A6kla7SvOJIc_xpjuoynDVlbTrbzwA2AIYUXfhM,70
+dask_cloudprovider-0.1.0.dist-info/top_level.txt,sha256=MMSq9Yf3rn1w4rjPFVQ2XmYxamLNlT0yeCRnWx82FJM,19
+dask_cloudprovider-0.1.0.dist-info/RECORD,,
