@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: lnmc
+Version: 1.0.0a1
+Summary: Allows to create symbolic link in batches from a YAML file and consolidate them in a specific directory.
+Home-page: https://github.com/LuqueDaniel/lnmc
+Author: Daniel Luque
+Author-email: danielluque14@gmail.com
+License: AGPLv3+
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Shells
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: PyYAML
+
+# lnmc
+
+Allows to create symbolic link in batches from a YAML file and consolidate them in a
+specific directory.
+
+Install:
+
+```
+pip install --user lnmc
+```
+
+Use:
+
+```shell
+$ lnmc addons.yaml ./ destination/
+```
+
+## Configuration File
+
+lncm as first argument needs a `.yaml` or `.yml` file. The directories, sub-directories
+and files that will be the target for symbolic links are specified in this file. For example.
+
+```yaml
+reporting-engine:
+    - report_xlsx
+purchase-workflow:
+    - purchase_landed_cost
+pos:
+    - pos_margin
+partner-contact:
+    - partner_vat_unique
+    - base_location_nuts
+    - base_location_geonames_import
+    - base_location
+mis-builder:
+    - mis_builder
+    - mis_builder_budget
+# It will create symbolic links of all subdirectories and files
+l10n-spain:
+```
+
+*(Example from an tipical Odoo project)*
+
+
