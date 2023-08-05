@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: dbx-deploy
+Version: 0.6.1
+Summary: Databrics Deployment Tool
+Home-page: https://github.com/DataSentics/dbx-deploy
+Author: Jiri Koutny
+Author-email: jiri.koutny@datasentics.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: appnope (==0.1.0)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: backcall (==0.1.0)
+Requires-Dist: bleach (==3.1.0)
+Requires-Dist: certifi (==2019.9.11)
+Requires-Dist: cffi (==1.13.0)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==7.0)
+Requires-Dist: colorama (==0.4.1)
+Requires-Dist: colorlog (==4.0.2)
+Requires-Dist: configparser (==4.0.2)
+Requires-Dist: databricks-api (==0.3.0)
+Requires-Dist: databricks-cli (==0.9.0)
+Requires-Dist: dbx-notebook-exporter (==0.2.2)
+Requires-Dist: decorator (==4.4.0)
+Requires-Dist: defusedxml (==0.6.0)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: idna (==2.8)
+Requires-Dist: importlib-metadata (==0.23)
+Requires-Dist: injecta (==0.4.2)
+Requires-Dist: ipython (==7.8.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: jedi (==0.15.1)
+Requires-Dist: jinja2 (==2.10.3)
+Requires-Dist: jsonschema (==3.1.1)
+Requires-Dist: jupyter-core (==4.6.0)
+Requires-Dist: markupsafe (==1.1.1)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: more-itertools (==7.2.0)
+Requires-Dist: nbconvert (==5.6.0)
+Requires-Dist: nbformat (==4.4.0)
+Requires-Dist: pandocfilters (==1.4.2)
+Requires-Dist: parso (==0.5.1)
+Requires-Dist: pexpect (==4.7.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: prompt-toolkit (==2.0.10)
+Requires-Dist: ptyprocess (==0.6.0)
+Requires-Dist: pycparser (==2.19)
+Requires-Dist: pygit2 (==0.28.2)
+Requires-Dist: pygments (==2.4.2)
+Requires-Dist: pyrsistent (==0.15.4)
+Requires-Dist: python-box (==3.4.5)
+Requires-Dist: pywin32 (==225)
+Requires-Dist: pyyaml (==5.1.2)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: tabulate (==0.8.5)
+Requires-Dist: testpath (==0.4.2)
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: urllib3 (==1.25.6)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: win-unicode-console (==0.5)
+Requires-Dist: zipp (==0.6.0)
+
+Databricks project deployment package
+
+
