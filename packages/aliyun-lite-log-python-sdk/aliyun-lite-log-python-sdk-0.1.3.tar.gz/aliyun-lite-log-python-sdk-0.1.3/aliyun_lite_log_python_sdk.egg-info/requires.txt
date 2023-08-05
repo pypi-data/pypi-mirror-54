@@ -1,0 +1,4 @@
+aliyun-log-python-sdk>=0.6.44
+elasticsearch<7.0.0,>=6.0.0
+kafka-python>=1.4.4
+responses

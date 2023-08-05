@@ -1,0 +1,11 @@
+README.md
+setup.py
+aliyun_lite_log_python_sdk.egg-info/PKG-INFO
+aliyun_lite_log_python_sdk.egg-info/SOURCES.txt
+aliyun_lite_log_python_sdk.egg-info/dependency_links.txt
+aliyun_lite_log_python_sdk.egg-info/requires.txt
+aliyun_lite_log_python_sdk.egg-info/top_level.txt
+loglite/__init__.py
+loglite/log/__init__.py
+loglite/log/logclient.py
+loglite/log/version.py

@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: aliyun-lite-log-python-sdk
+Version: 0.1.3
+Summary: Aliyun log Kafka ElasticSearch Plugin Python client SDK
+Home-page: https://github.com/aliyun/aliyun-lite-log-python-sdk
+Author: Aliyun
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: 
+        Python SDK for Aliyun Lite Log
+        http://aliyun-lite-log-python-sdk.readthedocs.io
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
