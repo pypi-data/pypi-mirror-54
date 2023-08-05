@@ -1,0 +1,9 @@
+include AUTHORS.rst
+include LICENSE
+include MANIFEST.in
+include README.rst
+include test_docformatter.py
+
+exclude .pre-commit-hooks.yaml
+exclude .travis.yml
+exclude Makefile

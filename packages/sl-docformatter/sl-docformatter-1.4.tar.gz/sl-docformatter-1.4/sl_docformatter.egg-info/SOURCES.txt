@@ -1,0 +1,13 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.rst
+docformatter.py
+setup.py
+test_docformatter.py
+sl_docformatter.egg-info/PKG-INFO
+sl_docformatter.egg-info/SOURCES.txt
+sl_docformatter.egg-info/dependency_links.txt
+sl_docformatter.egg-info/entry_points.txt
+sl_docformatter.egg-info/requires.txt
+sl_docformatter.egg-info/top_level.txt
