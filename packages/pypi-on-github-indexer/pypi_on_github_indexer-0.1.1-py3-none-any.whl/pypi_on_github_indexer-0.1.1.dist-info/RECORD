@@ -1,0 +1,9 @@
+pypi_on_github_indexer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypi_on_github_indexer/__main__.py,sha256=E6WvZWoVToR-JBeO1rhVpWqHU7O21GGZ_-B6z2GVk8M,6153
+pypi_on_github_indexer/parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypi_on_github_indexer/parser/index_html_parser.py,sha256=ezPrERG9JsdCNIrRbUKFd0VRuCeDAiG05STLm1luAJ4,669
+pypi_on_github_indexer-0.1.1.dist-info/LICENSE,sha256=n6nSGHLdTb-2knB15jzARNlu6YrRCQK-26buZA4CHac,11355
+pypi_on_github_indexer-0.1.1.dist-info/METADATA,sha256=Sp4TmXT9mr4c2q8yehUe4qcx8RDJEwpfyFcXbswRpyc,2323
+pypi_on_github_indexer-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pypi_on_github_indexer-0.1.1.dist-info/top_level.txt,sha256=cDj8sc5z5wuvezYXndPesb0wIxw-cTLfe62ePazCB88,23
+pypi_on_github_indexer-0.1.1.dist-info/RECORD,,
