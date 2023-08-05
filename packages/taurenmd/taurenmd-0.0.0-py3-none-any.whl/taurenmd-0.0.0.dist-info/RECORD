@@ -1,0 +1,10 @@
+taurenmd/__init__.py,sha256=7Mp8iqklf3_AKmDXbtfWFufmP2NUURhE5CXW4A0vn-c,22
+taurenmd/__main__.py,sha256=fbzdS2mVtNVWSNvHEupezD_4it3n1o7Hwc77krkv0U8,364
+taurenmd/cli.py,sha256=5gCV9LC3M4J5HIKC-nr2HhR9qlo3C16o1IXi4Wd7hBE,918
+taurenmd-0.0.0.dist-info/AUTHORS.rst,sha256=E-XdzkMqOhBnnlGX-rGD2B8joGhcmKWy9hOk0AOTy2s,69
+taurenmd-0.0.0.dist-info/LICENSE,sha256=ZA2Q9u5AEkH_YoNNDRsz-DBJ6ZuL_foE7RsKFjXd4-c,18093
+taurenmd-0.0.0.dist-info/METADATA,sha256=2cLLbyfaJ8zBV-8O-qTxaZGLZDcu_vR6aMQ5-beCf_U,3164
+taurenmd-0.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+taurenmd-0.0.0.dist-info/entry_points.txt,sha256=vRyKXmRpMDmqMw0BSA6xwGRZM3akt6nEuKwpCq4ag50,48
+taurenmd-0.0.0.dist-info/top_level.txt,sha256=GJCBIuQOSP_54431HIKo0P6cXQKhavqbPfpOnwdXKvo,9
+taurenmd-0.0.0.dist-info/RECORD,,
