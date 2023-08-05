@@ -1,0 +1,6 @@
+setup.py
+lib_attacher/__init__.py
+lib_attacher.egg-info/PKG-INFO
+lib_attacher.egg-info/SOURCES.txt
+lib_attacher.egg-info/dependency_links.txt
+lib_attacher.egg-info/top_level.txt
