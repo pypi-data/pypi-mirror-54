@@ -1,0 +1,11 @@
+README.md
+setup.py
+py2captcha/__init__.py
+py2captcha/client.py
+py2captcha/exceptions.py
+py2captcha/tasks.py
+py2captcha.egg-info/PKG-INFO
+py2captcha.egg-info/SOURCES.txt
+py2captcha.egg-info/dependency_links.txt
+py2captcha.egg-info/requires.txt
+py2captcha.egg-info/top_level.txt
