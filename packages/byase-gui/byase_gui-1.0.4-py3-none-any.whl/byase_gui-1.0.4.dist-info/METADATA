@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: byase-gui
+Version: 1.0.4
+Summary: A GUI tool for BYASE software.
+Home-page: https://github.com/ncjllld/byase_gui
+Author: Lili Dong
+Author-email: ncjllld@hit.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: byase
+Requires-Dist: psutil
+Requires-Dist: wxPython
+
+# BYASE-GUI
+
+A GUI (Graphical User Interface) tool for BYASE software.
+
+
