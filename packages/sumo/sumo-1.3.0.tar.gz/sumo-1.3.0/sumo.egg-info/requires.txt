@@ -1,0 +1,17 @@
+spglib
+numpy
+scipy
+h5py
+phonopy>=2.1.3
+matplotlib
+seekpath
+
+[:python_version=="3.5"]
+pymatgen<=2019.6.20,>=2016.12.30
+
+[:python_version>="3.6"]
+pymatgen>=2017.12.30
+
+[docs]
+sphinx
+sphinx-argparse
