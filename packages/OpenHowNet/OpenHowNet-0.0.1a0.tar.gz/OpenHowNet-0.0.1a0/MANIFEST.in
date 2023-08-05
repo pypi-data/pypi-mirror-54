@@ -1,0 +1,22 @@
+include \
+  *.md \
+  *.ipynb \
+
+graft OpenHowNet
+
+prune OpenHowNet/pack/submit_user/pickle
+
+prune OpenHowNet/pack/submit_user/data
+
+global-exclude \
+  *.py[cod] \
+  .DS_Store \
+  .git* \
+  .env* \
+  __* \
+  .* \
+  OpenHowNet/pack/submit_user/pickle/* \
+  OpenHowNet/pack/submit_user/data/* \
+  *.txt \
+  *.sh \
+  HowNet_dict* \
