@@ -1,0 +1,38 @@
+branches:
+  only:
+    - master
+
+language: python
+
+python:
+  - "2.7"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.8"
+
+env: TOXENV=py
+
+matrix:
+  include:
+    - python: 3.8
+      env: TOXENV=check
+
+install:
+  # Check tooling versions and upgrade to latest
+  # TODO: It's probably safer to pin the versions
+  - pip list
+  - pip install -U setuptools pip virtualenv tox codecov
+
+script:
+  - tox
+
+cache:
+  directories:
+    # Speed up future runs by caching installed packages
+    # TODO: Might want to periodically clean this up
+    - $HOME/.cache/pip
+    - $HOME/.cache/pre-commit
+
+after_success:
+  - codecov

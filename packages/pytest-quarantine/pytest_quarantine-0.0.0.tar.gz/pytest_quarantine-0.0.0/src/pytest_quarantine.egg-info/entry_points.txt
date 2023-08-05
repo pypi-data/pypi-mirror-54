@@ -1,0 +1,3 @@
+[pytest11]
+quarantine = pytest_quarantine
+
