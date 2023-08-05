@@ -1,0 +1,3 @@
+[console_scripts]
+testribute = TEStribute.cli:main
+
