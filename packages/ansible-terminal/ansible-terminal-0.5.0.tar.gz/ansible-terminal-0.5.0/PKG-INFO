@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ansible-terminal
+Version: 0.5.0
+Summary: SSH/SFTP Terminal Manager for Ansible
+Home-page: UNKNOWN
+Author: Aytunc Beken
+Author-email: aytuncbeken.ab@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7, <=3.0
