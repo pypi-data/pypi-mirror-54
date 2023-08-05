@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "opsgenie-logger"
+version = "0.1.4"
+description = "Provides a logging handler for Atlassian OpsGenie"
+
+authors = ["Dylan Anthony <danthony@triaxtec.com>"]
+
+readme = "README.md"
+packages = [
+    {include = "opsgenie_logger"},
+]
+include = ["docs/CHANGELOG.md", "opsgenie_logger/py.typed"]
+
+[tool.poetry.dependencies]
+python = "==3.*,>=3.7.0"
+opsgenie-sdk = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-mock = "*"
+python-dotenv = "==0.*,>=0.10.3"
+sphinx = "==2.*,>=2.1.0"
+recommonmark = "==0.*,>=0.5.0"
+sphinx-rtd-theme = "==0.*,>=0.4.3"
+pygments-github-lexers = "==0.*,>=0.0.5"
+lockfile = "==0.*,>=0.12.2"
+mypy = "==0.*,>=0.720.0"
+black = {allows-prereleases = true, version = "*"}
+safety = "*"
+
+
+[tool.dephell]
+versioning = "semver"
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "poetry", path = "poetry.lock"}
+
+[tool.black]
+line-length = 120
+target_version = ['py37']
+exclude = '''
+(
+  /(
+    | \.git
+    | \.venv
+    | \.mypy_cache
+  )/
+)
+'''
