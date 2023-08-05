@@ -1,0 +1,418 @@
+{
+    "nombre_heuristica": "RecocidoSimulado",
+    "lista_parametros": [
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 1.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 50,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 5
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        },
+        {
+            "temperatura": 2.0,
+            "iteraciones_inyeccion_temperatura": 100,
+            "maximo_inyecciones_temperatura": 10
+        }
+    ],
+    "lista_nombres_parametros_dataframes": [
+        "f_sol",
+        "iter",
+        "temp"
+    ],
+    "fecha_hora": "2019-10-20---18-50",
+    "funciones_utilizadas_pdf": [
+        "solucion_minima",
+        "solucion_maxima",
+        "calcula_media",
+        "calcula_desv_estandar",
+        "calcula_desv_minima"
+    ]
+}

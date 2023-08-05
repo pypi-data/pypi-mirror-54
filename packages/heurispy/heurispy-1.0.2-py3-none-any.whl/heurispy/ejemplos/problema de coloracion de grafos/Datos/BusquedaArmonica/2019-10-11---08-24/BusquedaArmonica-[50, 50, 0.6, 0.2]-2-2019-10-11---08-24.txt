@@ -1,0 +1,20 @@
+{
+    "mejor_solucion": [
+        5,
+        6,
+        0,
+        6,
+        7,
+        6,
+        6,
+        9,
+        5,
+        0
+    ],
+    "f_mejor_solucion": 5,
+    "iteracion_mejor_solucion": 661,
+    "total_iteraciones": 712,
+    "total_llamados_funcion": 1475,
+    "condicion_de_parada": "No se encontraton mejores soluciones",
+    "tiempo_ejecucion": 15.249813556671143
+}

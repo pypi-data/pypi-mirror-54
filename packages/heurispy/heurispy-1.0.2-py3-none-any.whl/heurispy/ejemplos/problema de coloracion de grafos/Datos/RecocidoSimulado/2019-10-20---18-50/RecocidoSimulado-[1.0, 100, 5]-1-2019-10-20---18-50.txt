@@ -1,0 +1,20 @@
+{
+    "mejor_solucion": [
+        8,
+        6,
+        8,
+        7,
+        6,
+        8,
+        7,
+        7,
+        6,
+        8
+    ],
+    "f_mejor_solucion": 3,
+    "iteracion_mejor_solucion": 1131,
+    "total_iteraciones": 2087,
+    "total_llamados_funcion": 6403,
+    "condici\u00f3n_de_parada": "M\u00e1ximo de iteraciones alcanzadas",
+    "tiempo_ejecucion": 4.061145782470703
+}

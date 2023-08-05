@@ -1,0 +1,5 @@
+solucion_minima
+solucion_maxima
+calcula_media
+calcula_desv_estandar
+calcula_desv_minima
