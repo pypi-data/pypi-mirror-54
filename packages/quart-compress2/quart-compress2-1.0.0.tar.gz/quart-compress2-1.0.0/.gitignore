@@ -1,0 +1,15 @@
+# __pycache__
+__pycache__/
+*/__pycache__/
+
+# OSX
+.DS_Store
+
+# venv
+.tox/
+venv/
+
+# distribution
+*egg-info/
+build/
+dist/
