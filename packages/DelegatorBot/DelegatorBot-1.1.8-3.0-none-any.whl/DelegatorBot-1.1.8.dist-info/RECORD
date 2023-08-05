@@ -1,0 +1,14 @@
+DelegatorBot-1.1.8.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+DelegatorBot-1.1.8.dist-info/METADATA,sha256=8hCR0pOlPogOA2nTMV_-FQ0qYAWA6yHSWWDIde3yiTw,392
+DelegatorBot-1.1.8.dist-info/RECORD,,
+DelegatorBot-1.1.8.dist-info/WHEEL,sha256=svKBKDnDbuVRlTCA0zRVN1_eFGuhcwi_le6UyZuECtA,106
+DelegatorBot-1.1.8.dist-info/entry_points.txt,sha256=2BKRzVf_IGxKV6P_fIQMQsjZVo7GTBq9yd3vTYidEM4,52
+DelegatorBot-1.1.8.dist-info/metadata.json,sha256=XQEgasamNNRz3-X1kFM9n5a85jUhAnkWDd01M5tgUfc,738
+DelegatorBot-1.1.8.dist-info/top_level.txt,sha256=tjuDeBNyDA2EL5ADUaOrAvfYabEDHA835K24jRvxT9s,13
+delegatorbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+delegatorbot/botdb.py,sha256=NZl59kywOTioYMw80UciS29jQ__h88id5kmdK0cDip8,7802
+delegatorbot/delegatorbot.py,sha256=W1u79xGPV0HjjHwTjLiDlJE5y1G2GjARdl5fST6RHwY,29784
+delegatorbot/post_template.txt,sha256=URnKq4qriqBD-V9LTvfciwNc6wikCZPfmaGYzp_mGKs,1336
+delegatorbot/reply_template.txt,sha256=D67DAMnW-vPG6wfXqIDqp7pnbjt45989TXpwjX5FlwM,479
+delegatorbot/runbot.py,sha256=Pvg34S1iBUb3CbMGjX10uAn8z4iED9t7kr87f6BUSjM,3206
+delegatorbot/settings.py,sha256=Km4DGjKUI61u-db95FRjq2FzSWxQYbWXnS9lMFON4Xg,6256
