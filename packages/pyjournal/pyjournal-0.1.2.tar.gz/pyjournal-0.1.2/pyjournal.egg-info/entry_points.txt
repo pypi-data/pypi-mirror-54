@@ -1,0 +1,3 @@
+[console_scripts]
+oijasoidj = pyjournal.__main__:main
+
