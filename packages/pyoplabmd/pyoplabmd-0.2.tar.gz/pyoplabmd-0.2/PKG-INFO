@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pyoplabmd
+Version: 0.2
+Summary: Data Market integration with Oplab API
+Home-page: https://github.com/user/marcellopaz
+Author: MARCELLO HENRIQUE SILVA PAZ
+Author-email: marcellohspaz@gmail.com
+License: MIT
+Download-URL: https://github.com/marcellopaz/pyoplabmd/archive/v0.2.tar.gz
+Description: UNKNOWN
+Keywords: MARKETDATA,OPLAB
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
