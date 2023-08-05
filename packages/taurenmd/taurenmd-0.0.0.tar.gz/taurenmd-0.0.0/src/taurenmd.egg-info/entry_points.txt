@@ -1,0 +1,3 @@
+[console_scripts]
+taurenmd = taurenmd.cli:main
+
