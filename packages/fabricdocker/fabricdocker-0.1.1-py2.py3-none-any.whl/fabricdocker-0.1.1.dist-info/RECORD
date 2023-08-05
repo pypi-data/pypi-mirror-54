@@ -1,0 +1,9 @@
+fabricdocker/__init__.py,sha256=tOLF-0UBJeNounlstmsjxzinnylBGzA68qkq-uB-bQw,166
+fabricdocker/fabricdocker.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+fabricdocker/compose/__init__.py,sha256=ugOqGK6L8LQ6pFUDFvNsmxCWDizzzznGb0G44foNPNQ,998
+fabricdocker-0.1.1.dist-info/AUTHORS.rst,sha256=L916GN-mMiKPdAJqUdQqsjdjtJzjIthdlrziCd8VvEw,166
+fabricdocker-0.1.1.dist-info/LICENSE,sha256=vocli6HF0QW2xqI6rSYnRFbxz1CxDDfIwkdLzbS1i2g,1079
+fabricdocker-0.1.1.dist-info/METADATA,sha256=fKhUJLYUeaaSS-o8Rq4RjXNJFVlm0xJwsi2owspnRlA,1802
+fabricdocker-0.1.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+fabricdocker-0.1.1.dist-info/top_level.txt,sha256=cBmiUhrHfTz34RjZP4xZpMcAp5KSG41cMuuFcD2ZfgY,13
+fabricdocker-0.1.1.dist-info/RECORD,,
