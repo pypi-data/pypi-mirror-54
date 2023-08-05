@@ -1,0 +1,5 @@
+recognizers-text>=1.0.2.a1
+recognizers-text-number>=1.0.2.a1
+recognizers-text-number-with-unit>=1.0.2.a1
+regex
+datedelta
