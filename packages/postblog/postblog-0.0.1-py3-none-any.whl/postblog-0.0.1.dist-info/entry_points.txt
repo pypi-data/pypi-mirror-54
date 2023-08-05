@@ -1,0 +1,3 @@
+[console_scripts]
+postblog = postblog.cli:main
+
