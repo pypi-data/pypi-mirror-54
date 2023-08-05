@@ -1,0 +1,41 @@
+3.0.15:
+  Add proc name in logs for waiting and result
+3.0.14:
+  Add env var BIOMAJ_HOST_DATA_DIR to use with *docker* process executor to specify data.dir location if different between host and container (if BIOMAJ_DATA_DIR not a subdirectory of BIOMAJ_DIR for example)
+    If variable is not set, container wil mount data.dir between host and container,
+    else will mount BIOMAJ_HOST_DATA_DIR:data.dir
+3.0.13:
+  Fix traefik prefix
+3.0.12:
+  Update pika dependency release
+  Add tags for traefik support
+3.0.11:
+  Catch exception for microservices if remote server is not reachable
+  Rename package for protobuf to avoid collisions
+3.0.10:
+  README doc fixes
+  Add dependency banks additional volumes for Docker
+3.0.9:
+  Allow local_endpoint definition per service
+  Fix volumes for docker with dependency banks
+3.0.8:
+  Fix #1, DRMAA needs colon in front of output and error path (mandatory depending on versions)
+3.0.7:
+  fix case if process desc or type is missing in bank properties
+3.0.6:
+  disable web thread logging
+3.0.5:
+  retry in case of contact failure with proxy
+3.0.4:
+  for docker, restrict directory to bank directory and dependencies
+  add host in prometheus stats
+3.0.3:
+  fix prometheus + gunicorn multi process
+  add consul supervision
+3.0.2:
+  add logging info
+  execute docker processes in biomaj micro service
+3.0.1:
+  bug fixes
+3.0.0:
+  move process management out of biomaj main package
