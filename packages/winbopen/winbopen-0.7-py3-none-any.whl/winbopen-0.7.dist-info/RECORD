@@ -1,0 +1,10 @@
+nbopen/__init__.py,sha256=3IWBR46gWYsq1Ek1JGrvv01m0jEDvz6fef4F54gbF7o,120
+nbopen/__main__.py,sha256=-CmioK2qE1qL2YEeuobopNwHc6uf4OK1ONegabUGaek,32
+nbopen/install_win.py,sha256=NnJP26B1tbbBXAN_PG1DuqZq2jx_HVZ2bdy-y-jUiYo,1287
+nbopen/install_xdg.py,sha256=i_9mPcyVmVSyAYOEiJZUCwEEiJJ7rfhjgBXvd8hsDr8,1284
+nbopen/nbopen.py,sha256=h2IU7hxDPpokUavfl7SC-e_yKk4-0XvL4NesTA9nGIk,3186
+winbopen-0.7.dist-info/LICENSE,sha256=NLPnoaor3UE_srRCPxoF_hQW6ffSacgFwzbYVoW-ER0,1540
+winbopen-0.7.dist-info/METADATA,sha256=dEP1fuBjkp4cme16TFtgHZeIjqUqkmuYNnXhiRdoioY,1376
+winbopen-0.7.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+winbopen-0.7.dist-info/top_level.txt,sha256=GcIR9s294WsMx_DEJPw4I2jFSoXquZJRO94lYya-OV8,7
+winbopen-0.7.dist-info/RECORD,,
