@@ -1,0 +1,13 @@
+uliweb_apijson/__init__.py,sha256=Va5rKrw6KL4aeS1L_GRvi9OI8RfwnHHGEpxTqHGhfRI,147
+uliweb_apijson/apijson/README.md,sha256=SwTfVnZ6E1tOYqtS1s4pGipeZMKY5hUWi5RvtxxR1xI,4342
+uliweb_apijson/apijson/__init__.py,sha256=81dsvhu4FrpwTvXDDgRWKcH4S6YVIOLlWQfsmTbBjS8,9056
+uliweb_apijson/apijson/settings.ini,sha256=CfTtf7XGqOwJK4Ep-m8gbdlMfBa5D7ECjX8biuq1vd0,786
+uliweb_apijson/apijson/views.py,sha256=CnxKgfFKPKq732utuRHKjfQ0aGg_hx0RuwmdLTlR7u8,26532
+uliweb_apijson/apijson/static/readme.txt,sha256=WVDlgZvM_FAUlndhBunhUDYKaXyBoJPNVkDAr17ISsA,45
+uliweb_apijson/apijson/templates/readme.txt,sha256=DBSzt9qdh_LQfc7Q6G1qjvGkQP1Z0Psusao9OouOpEo,47
+uliweb_apijson/apijson/templates/vue/inc_apijson_table.html,sha256=Bf3L0uuWFkwzzqELMGpwi76fbcv7BBVxgD09Qvpaj6M,21258
+uliweb_apijson/apijson/templates/vue/inc_apijson_viewedit.html,sha256=C4hGDfj22YA8f8gosXjS8Z4rWEmWiVbgOyFZGxuZCmw,5855
+uliweb_apijson-0.2.1.dist-info/METADATA,sha256=gJxnWq46XhF2jo4CPMQczeLNZ9_Fi4-qjJ4Z8q9qahE,9551
+uliweb_apijson-0.2.1.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+uliweb_apijson-0.2.1.dist-info/top_level.txt,sha256=Bg4Nsywm6upLXBguMqWOe0y7wG0BbZd7T5hD6fKyFkA,15
+uliweb_apijson-0.2.1.dist-info/RECORD,,
