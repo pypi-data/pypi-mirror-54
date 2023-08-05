@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: predictiveopt
+Version: 0.0.2
+Summary: Package containing an implementation of the Predictive Hyperparameter Optimisation algorithm.
+Home-page: https://github.com/DobromirM/Predictive-Hyperparameter-Optimisation
+Author: Dobromir Marinov
+Author-email: mr.d.marinov@gmail.com
+License: UNKNOWN
+Description: # Predictive Hyper Parameter Optimisation
+        
+        [![Build Status](https://travis-ci.org/DobromirM/Predictive-Hyperparameter-Optimisation.svg?branch=master)](https://travis-ci.org/DobromirM/Predictive-Hyperparameter-Optimisation)
+        
+        Implementation of a newly developed Predictive Hyperparameter Optimisation algorithm.
+        
+        https://pypi.org/project/predictiveopt/
+        
+        ## Installation
+        
+        `pip install predictiveopt`
+        
+        
+        ## Building instructions
+        
+        1) Building the package: `python setup.py sdist bdist_wheel`
+        2) Uploading to PyPi: `python -m twine upload  dist/*`
+        3) Uploading new versions: `twine upload --skip-existing dist/*`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
