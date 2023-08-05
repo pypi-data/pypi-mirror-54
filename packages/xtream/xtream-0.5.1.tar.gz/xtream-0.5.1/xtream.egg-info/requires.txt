@@ -1,0 +1,17 @@
+cliff
+requests
+docopt
+requests
+django
+pytest
+py-cpuinfo
+celery
+redis
+dj-static
+static3
+gunicorn
+django-heroku
+uWSGI
+django-ratelimit
+django-crispy-forms
+iso8601
