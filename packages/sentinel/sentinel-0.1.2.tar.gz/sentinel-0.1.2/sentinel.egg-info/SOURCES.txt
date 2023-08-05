@@ -1,0 +1,8 @@
+MANIFEST.in
+README.rst
+sentinel.py
+setup.py
+sentinel.egg-info/PKG-INFO
+sentinel.egg-info/SOURCES.txt
+sentinel.egg-info/dependency_links.txt
+sentinel.egg-info/top_level.txt
