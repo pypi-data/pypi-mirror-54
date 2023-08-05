@@ -1,0 +1,8 @@
+{
+  "account": 5323,
+  "device":2,
+  "weight":%%OBX.0.OBX_5%%,
+  "height":%%OBX.1.OBX_5::format_period%%,
+  "recordedAt":%%MSH.MSH_7::format_date%%,
+  "bodyFat": 3000
+}
