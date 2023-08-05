@@ -1,0 +1,31 @@
+CHANGES
+=======
+
+1.0.0
+-----
+
+* Release 1.0.0
+* Drop support for Python version < 3.6
+* Add PyPi and CI status to README.md
+* Update README.md
+* Use pytest instead of unittest
+* Requirements & Travis CI configuration cleanups & Adding Pylint
+* Add CHANGELOG.md
+* Use PBR
+* Bump version
+* Support message with curly brackets (without args & kwargs)
+* Bump version
+* Support args & kwargs for STEP message
+* Version bump
+* Set step log color to blue
+* Fix hook names
+* Port to gossip
+* Oops - wrong email
+* fix for python 2.6
+* update version to match slash version
+* fix dependancy
+* fix gitignore
+* tox and egg should have been ignored
+* travis yaml
+* Initial commit
+* Initial commit

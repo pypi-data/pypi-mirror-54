@@ -1,0 +1,9 @@
+Logbook>=1.2.0
+gossip
+slash>=0.7.0
+
+[testing]
+pylint~=2.3.1
+astroid~=2.2.5
+pytest
+munch
