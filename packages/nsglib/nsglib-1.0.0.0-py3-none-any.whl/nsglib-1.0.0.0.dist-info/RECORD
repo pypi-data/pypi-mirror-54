@@ -1,0 +1,15 @@
+nsg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsg/rgi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsg/rgi/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsg/rgi/common/bounding_box.py,sha256=A6mPddIdwGlEPOgDZejJRJVR37OPPm9FBY0z0qbVNF0,1939
+nsg/rgi/common/coordinate.py,sha256=yQNPYPjgmH0BXakF191aPsLjLT3eU3j0xqAq4d6gQ28,1602
+nsg/rgi/common/spatial_reference_system.py,sha256=ICEnGFF9hmb16lLTAZCz0RWcD835r5spA0NYbfTFyR8,7918
+nsg/rgi/tile_cache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsg/rgi/tile_cache/tile.py,sha256=YqmYThScKFVQwmAxC84HhVhFHb1zgPvRTFoHzXciu1w,1421
+nsg/rgi/tile_cache/tile_cache.py,sha256=YoY8u3Wc8KsZY6FNQsPUXRx-_ox8HIfc0i8etnR5tVM,1797
+nsg/rgi/tile_cache/tile_scheme.py,sha256=91UaXmvrlZfzBzKgMtf9GdynIsu4Pe5UPvPyLR_IAHc,5309
+nsglib-1.0.0.0.dist-info/LICENSE.txt,sha256=Eb33DXU5JD83i79XSwuSXDsWoiK7P50nKf8btwI5Nq4,1094
+nsglib-1.0.0.0.dist-info/METADATA,sha256=LJna0F1mJAlYMgxFew1mxjz_LK9D250j6LgGLT8Jh8I,3474
+nsglib-1.0.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+nsglib-1.0.0.0.dist-info/top_level.txt,sha256=WUQcVcLPcJzsXzuGhvLnR_hqbMIBhGfNVgowTKn145w,4
+nsglib-1.0.0.0.dist-info/RECORD,,
