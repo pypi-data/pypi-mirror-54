@@ -1,0 +1,8 @@
+adversarial_labeller/__init__.py,sha256=-QtoyhbBSl3Q7bjX6z4ozZkgezNbXX8RZ_i8Jsgh4vI,100
+adversarial_labeller/adversarial_labeller.py,sha256=QynJKfFxb_QIDhaYSjIVOUqhb-iww9UqQlf6rcmK1zU,12438
+adversarial_labeller/adversarial_scoring.py,sha256=vU9eY8yQiwnMCvm1c9pgfvzh4Zh4oRRrgGuHxPPa9Ew,972
+adversarial_labeller-0.1.3.dist-info/LICENSE,sha256=U9j7hY8hpoh2esTLM7AoooBThRo72Z92gDzkVOQzJHE,1078
+adversarial_labeller-0.1.3.dist-info/METADATA,sha256=PJXhyHOf7-0c2mzxRe-T2Im90FC0u3_OaqEZh5qyS30,1032
+adversarial_labeller-0.1.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+adversarial_labeller-0.1.3.dist-info/top_level.txt,sha256=gBCTBEnPlQkT91Sagc701eCt4HB7YqiIrJojq2AuGDI,21
+adversarial_labeller-0.1.3.dist-info/RECORD,,

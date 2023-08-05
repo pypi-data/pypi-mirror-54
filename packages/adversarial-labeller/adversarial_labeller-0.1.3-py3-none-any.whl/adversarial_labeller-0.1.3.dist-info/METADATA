@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: adversarial-labeller
+Version: 0.1.3
+Summary: Sklearn compatiable model instance labelling tool to help validate models in situations involving data drift.
+Home-page: https://github.com/robinsonkwame/adversarial_labeller
+Author: Kwame Porter Robinson
+Author-email: kwamepr@umich.edu
+License: MIT license
+Keywords: model selection,validation,data drift
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: imbalanced-learn (==0.5.0)
+Requires-Dist: joblib (==0.13.2)
+Requires-Dist: numpy (==1.17.2)
+Requires-Dist: pandas (==0.25.1)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: pytz (==2019.2)
+Requires-Dist: scikit-learn (==0.21.3)
+Requires-Dist: scipy (==1.3.1)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: sklearn (==0.0)
+
+UNKNOWN
+
+
