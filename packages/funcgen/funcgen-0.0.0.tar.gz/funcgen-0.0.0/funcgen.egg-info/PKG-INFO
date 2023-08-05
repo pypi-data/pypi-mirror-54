@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: funcgen
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Conrad Bailey
+Author-email: conrad@cbailey.tech
+License: MIT
+Project-URL: Documentation, https://funcgen.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/ConradBailey/funcgen
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: dev
+Provides-Extra: docs
