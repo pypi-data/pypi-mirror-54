@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-15 12:17+0700\n"
+"PO-Revision-Date: 2019-09-15 12:18+0700\n"
+"Last-Translator: Igor 'idle sign' Starikov <idlesign@yandex.ru>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: admin/models.py:10 admin/models.py:11
+msgid "Summary"
+msgstr "Сводка"
+
+#: admin/models.py:19 admin/models.py:20
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: admin/models.py:28 admin/models.py:29 admin/realms.py:48
+msgid "Workers"
+msgstr "Рабочие"
+
+#: admin/realms.py:39
+msgid "Version"
+msgstr "Версия"
+
+#: admin/realms.py:40
+msgid "Hostname"
+msgstr "Хост"
+
+#: admin/realms.py:41 admin/realms.py:115
+msgid "Serving since"
+msgstr "Работает с"
+
+#: admin/realms.py:42
+msgid "Serving for"
+msgstr "Время работы"
+
+#: admin/realms.py:43
+msgid "Clock"
+msgstr "Часы"
+
+#: admin/realms.py:44
+msgid "Master PID"
+msgstr "PID Мастера"
+
+#: admin/realms.py:45
+msgid "Memory (RSS, VSZ)"
+msgstr "Память (RSS, VSZ)"
+
+#: admin/realms.py:46
+msgid "Buffer size"
+msgstr "Размер буфера"
+
+#: admin/realms.py:47
+msgid "Cores"
+msgstr "Ядра"
+
+#: admin/realms.py:49
+msgid "Mules"
+msgstr "Мулы"
+
+#: admin/realms.py:50
+msgid "Farms"
+msgstr "Фермы"
+
+#: admin/realms.py:51
+msgid "Threads support"
+msgstr "Поддержка нитей"
+
+#: admin/realms.py:52
+msgid "Current worker"
+msgstr "Текущий рабочий"
+
+#: admin/realms.py:53
+msgid "Requests by worker"
+msgstr "Запросов на рабочем"
+
+#: admin/realms.py:54
+msgid "Requests total"
+msgstr "Запросов всего"
+
+#: admin/realms.py:55
+msgid "Socket queue size"
+msgstr "Размер очереди сокета"
+
+#: admin/realms.py:56
+msgid "Log size"
+msgstr "Размер журнала"
+
+#: admin/realms.py:57
+msgid "RPC"
+msgstr ""
+
+#: admin/realms.py:58
+msgid "Post fork hooks"
+msgstr "Хуки после fork"
+
+#: admin/realms.py:59 admin/realms.py:102
+msgid "Signals"
+msgstr "Сигналы"
+
+#: admin/realms.py:91 admin/realms.py:114
+msgid "ID"
+msgstr ""
+
+#: admin/realms.py:92
+msgid "PID"
+msgstr ""
+
+#: admin/realms.py:93
+msgid "Status"
+msgstr "Статус"
+
+#: admin/realms.py:95
+msgid "Running for"
+msgstr "Время работы"
+
+#: admin/realms.py:96
+msgid "Spawned at"
+msgstr "Время порождения"
+
+#: admin/realms.py:98
+msgid "Respawns"
+msgstr "Порождения"
+
+#: admin/realms.py:99 admin/realms.py:121
+msgid "Requests"
+msgstr "Запросы"
+
+#: admin/realms.py:100
+msgid "Delta requests"
+msgstr "Разница запросов"
+
+#: admin/realms.py:101 admin/realms.py:122
+msgid "Exceptions"
+msgstr "Исключения"
+
+#: admin/realms.py:104
+msgid "RSS"
+msgstr ""
+
+#: admin/realms.py:105
+msgid "VSZ"
+msgstr ""
+
+#: admin/realms.py:107
+msgid "Transmitted"
+msgstr "Передано"
+
+#: admin/realms.py:108
+msgid "Avg. response"
+msgstr "На запрос (сред.)"
+
+#: admin/realms.py:116
+msgid "Interpreter"
+msgstr "Интерпретатор"
+
+#: admin/realms.py:117
+msgid "Modifier 1"
+msgstr "Модификатор 1"
+
+#: admin/realms.py:118
+msgid "Mountpoint"
+msgstr "Точка входа"
+
+#: admin/realms.py:119
+msgid "Callable"
+msgstr "Вызываемый объект"
+
+#: admin/realms.py:120
+msgid "Directory"
+msgstr "Директория"
+
+#: admin/realms.py:152
+msgid "Worker"
+msgstr "Рабочий"
+
+#: admin/realms.py:152
+msgid "Application"
+msgstr "Приложение"
+
+#: config.py:8
+msgid "uWSGI Integration"
+msgstr "Интеграция с uWSGI"
+
+#: templates/admin/uwsgify/onepage.html:7
+msgid "Home"
+msgstr "Домой"
+
+#: templates/admin/uwsgify/onepage.html:18
+msgid ""
+"This site is not served by uWSGI. Certain functionality or data may be "
+"unavailable."
+msgstr ""
+"Этот сайт работает на на uWSGI. Некоторая функциональность или данные могут "
+"быть недоступны."
+
+#~ msgid "Available signal number"
+#~ msgstr "Доступный номер сигнала"
