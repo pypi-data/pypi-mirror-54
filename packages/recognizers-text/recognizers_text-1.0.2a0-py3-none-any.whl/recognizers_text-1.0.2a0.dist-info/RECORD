@@ -1,0 +1,12 @@
+recognizers_text/__init__.py,sha256=Rim9LhUqsFL-0luBvzHMHu_FOcV-SbLWqMrsgpDPuBI,142
+recognizers_text/culture.py,sha256=rg04DYLRibuq9hiYxpMT6712OvtN_seRtm_MglQv0ew,463
+recognizers_text/extractor.py,sha256=MdKOVNHpBrR-itX1jPcbcrKweiS_Eom23WSoeMmd92Q,2603
+recognizers_text/meta_data.py,sha256=cnn96cpH3lHjPQGN1ZhxPGKLqTbnmtZxfzkBoC4-HdM,75
+recognizers_text/model.py,sha256=zNkWmbIXlwXJgtKoku4m41mCo1jrn7hkO8HVWMwv8-M,3420
+recognizers_text/parser.py,sha256=TA-43M4zUXQGx7jaWy5_1juqIX83rgA0nTfOyLyBmrQ,653
+recognizers_text/recognizer.py,sha256=Ka0SAeYn6FdOwYy_TdqdSOudN4gASqkBaBGfjuuQ0_g,1237
+recognizers_text/utilities.py,sha256=RDBJpFN-xWSPqkvzeYftS1tMDuWzSwnqOHTqVKfbTdA,3707
+recognizers_text-1.0.2a0.dist-info/METADATA,sha256=tcCIjq4ZVlxlux8djjyt0RwFwDA9wggMrB7hB4lSYpE,685
+recognizers_text-1.0.2a0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+recognizers_text-1.0.2a0.dist-info/top_level.txt,sha256=wcyNNgiTg_y70pv1WKuE3uBMFd4lpKDLiysJw86RcTU,17
+recognizers_text-1.0.2a0.dist-info/RECORD,,
