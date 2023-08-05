@@ -1,0 +1,4 @@
+Jinja2
+bitarray
+pyvcd>=0.1.4
+setuptools
