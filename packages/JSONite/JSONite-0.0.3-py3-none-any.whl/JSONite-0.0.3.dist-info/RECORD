@@ -1,0 +1,10 @@
+jsonite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonite/javascript.py,sha256=pNoN2vRVUZZ-4lIet6khFj1e30WqGHZw9PtMId74JB4,1756
+jsonite/middleware.py,sha256=V6hEkbYNm6rA92wN85G3UhOemtDr8bK77uWYOmpOFic,925
+jsonite/provider.py,sha256=oaGvNx1vh-aopFuwzUUPCFL5GsvRM7ATthm7VG1PDFg,319
+jsonite/transformer.py,sha256=A2qRbhVUiCj8xq47Tt6XYNw8O-feCOSd9o3ct-MvBvM,1119
+JSONite-0.0.3.dist-info/LICENSE,sha256=xSl21Z1qovCWz2be6BJ5KDA2tpminRfBNTsxbv65HEM,1073
+JSONite-0.0.3.dist-info/METADATA,sha256=njLi4VpOPW4aarCpsw73VC3JGPKu1waO01B0gKexzyo,2175
+JSONite-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+JSONite-0.0.3.dist-info/top_level.txt,sha256=9qwc2kECUlHOX6X5-wgJjqzVj7sisD98G_a5tR1G4vA,8
+JSONite-0.0.3.dist-info/RECORD,,
