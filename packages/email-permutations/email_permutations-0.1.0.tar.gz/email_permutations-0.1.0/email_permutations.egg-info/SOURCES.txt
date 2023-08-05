@@ -1,0 +1,11 @@
+setup.py
+email_permutations.egg-info/PKG-INFO
+email_permutations.egg-info/SOURCES.txt
+email_permutations.egg-info/dependency_links.txt
+email_permutations.egg-info/top_level.txt
+permutations/__init__.py
+permutations/email_permutations.py
+test_email_permutations/__init__.py
+test_email_permutations/email_permutations.py
+test_pratik/__init__.py
+test_pratik/abc.py
