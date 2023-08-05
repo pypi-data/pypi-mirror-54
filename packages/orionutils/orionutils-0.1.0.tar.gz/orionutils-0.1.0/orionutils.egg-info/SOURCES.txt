@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+orionutils/__init__.py
+orionutils/generator.py
+orionutils.egg-info/PKG-INFO
+orionutils.egg-info/SOURCES.txt
+orionutils.egg-info/dependency_links.txt
+orionutils.egg-info/requires.txt
+orionutils.egg-info/top_level.txt
