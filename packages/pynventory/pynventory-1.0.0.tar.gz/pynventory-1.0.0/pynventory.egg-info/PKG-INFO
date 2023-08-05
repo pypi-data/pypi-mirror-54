@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pynventory
+Version: 1.0.0
+Summary: Generate a Dokuwiki friendly inventory table of you Linux Servers
+Home-page: https://github.com/kufsa/pynventory
+Author: Kuffer Sam
+Author-email: sam@skuffer.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
