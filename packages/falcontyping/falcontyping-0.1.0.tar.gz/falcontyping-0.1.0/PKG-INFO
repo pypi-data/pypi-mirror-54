@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: falcontyping
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/abdelrahman-t/falcontyping
+Author: Abdurrahman Talaat <abdurrahman.talaat@gmail.com>
+Author-email: abdurrahman.talaat@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: falcon,typing,hints,mypy,pydantic,marshmallow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
