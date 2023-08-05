@@ -1,0 +1,7 @@
+README.rst
+setup.py
+clhs.egg-info/PKG-INFO
+clhs.egg-info/SOURCES.txt
+clhs.egg-info/dependency_links.txt
+clhs.egg-info/requires.txt
+clhs.egg-info/top_level.txt
