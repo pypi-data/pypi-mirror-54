@@ -1,0 +1,9 @@
+README.md
+setup.py
+easycfg/__init__.py
+easycfg/core.py
+easycfg.egg-info/PKG-INFO
+easycfg.egg-info/SOURCES.txt
+easycfg.egg-info/dependency_links.txt
+easycfg.egg-info/requires.txt
+easycfg.egg-info/top_level.txt
