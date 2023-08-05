@@ -1,0 +1,9 @@
+bit_field/__init__.py,sha256=JHcsINejSjEH3I4p1p6NtW21sLM8zx_b_5bE6WPDJ4s,116
+bit_field/__main__.py,sha256=RxXjXnu5V-VmzMOjD9B-v1d4SIGvjk_p6FtonIst4Tg,1607
+bit_field/jsonml_stringify.py,sha256=B5lR1-_KRUiLgkYvtQCjPyfjb0Lec8uJJD5BSDYepOs,471
+bit_field/render.py,sha256=vtB6YA-XwGuFI-g3CscwFwLtbDKu0e1YfBsOTSXmjt4,7368
+bit_field/tspan.py,sha256=uF0jk_zwUf4UuwRqZFbUPS_lO29OLG0GwmnIQPxLc-c,2072
+bit_field-0.2.0.dist-info/METADATA,sha256=DzvHBy2-UALUN4UBYO1pmNnF_UYZigzDoO43aDVYMZ4,1910
+bit_field-0.2.0.dist-info/RECORD,,
+bit_field-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bit_field-0.2.0.dist-info/top_level.txt,sha256=3NsZcGI2w2uVcsAbO8JA0B6zKJe_HLqkjHkUENbuoy4,10
