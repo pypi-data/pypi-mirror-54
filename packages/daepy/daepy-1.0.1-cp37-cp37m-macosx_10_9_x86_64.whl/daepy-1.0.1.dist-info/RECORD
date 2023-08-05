@@ -1,0 +1,15 @@
+daepy/__init__.py,sha256=eDFTCoeTueX5kdqTn9RtYw5OJKJxSqIXamnRBrh8uEI,102
+daepy/bvp.py,sha256=uSlZ41_UGR2k4PJ3VoqwVk6rS62CbDQmRcIij8hTZpE,28681
+daepy/collocation.py,sha256=yMCk4SvHspx1iBzggDIZXvHl8Vl17mIW4E9Bl862OlI,15330
+daepy/continuation.py,sha256=1i5IJ90AWuVNBjLQCgVRAeAMjWAJUaneGyGdJutS_Ak,7595
+daepy/dae.py,sha256=C-wjFWVJhjd7whEEubY-PvYBVFMSpN_E-9rHxGbFsY0,2316
+daepy/derivatives.py,sha256=ykhJrygRcCrYoh4uTQqsKgrdWMpcmpKQMkGwfMcP9bs,1094
+daepy/nonlinear.py,sha256=2t-r28hn0AG6rzQhkTqxBasmEddWx0ITyvm27YGCgDs,7137
+daepy/cheby/__init__.py,sha256=mHgyAj2GiCJaEvRwmuJXyaXmOe7xhRylps_aIbWip7U,133
+daepy/cheby/cheby.cpython-37m-darwin.so,sha256=wNby4sekKpaaghGSYp0CzY6fbBJvmQ3xU3I4Zg2z4cM,222988
+daepy/cheby/setup.py,sha256=_KTUW1c0-t_9CUJrK1C5FBf0jXh4jVonAIWcgD7qQQ8,208
+daepy-1.0.1.dist-info/LICENSE,sha256=sWI1jNYfyfbqCTYwXTinyL2s7AjgZ7WB0TjR_sFWQBg,1071
+daepy-1.0.1.dist-info/METADATA,sha256=40xCOhHZoD3wv9hfCwOOPd4rUdSILmN2ah5HUDMJI7w,1690
+daepy-1.0.1.dist-info/WHEEL,sha256=PJpvlWYoaC6URR0LWg8CW_GxFlQ7xrZNRTDuqcfncbQ,110
+daepy-1.0.1.dist-info/top_level.txt,sha256=8f2_uG0Pt2tnBLcHK6ndxFzK1iAW82HKipl55coAcD8,6
+daepy-1.0.1.dist-info/RECORD,,
