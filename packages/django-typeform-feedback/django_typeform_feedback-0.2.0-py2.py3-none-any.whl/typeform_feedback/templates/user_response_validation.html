@@ -1,0 +1,5 @@
+{% if object.status == 'D' %}
+  <div>Response for user {{ object.user }} has been marked as approved!</div>
+{% elif object.status == 'F' %}
+  <div>Response for user {{ object.user }} has been marked as fail!</div>
+{% endif %}
