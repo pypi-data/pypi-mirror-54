@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wpoke
+Version: 0.1.0
+Summary: WordPress information gathering tool
+Home-page: https://pypi.org/project/wpoke/
+Author: Marcos Sanchez
+Author-email: marsanben92@gmail.com
+Maintainer: Marcos Sanchez
+Maintainer-email: marsanben92@gmail.com
+License: MIT
+Project-URL: Code, https://github.com/sonirico/wpoke/
+Project-URL: Issue tracker, https://github.com/sonirico/wpoke/issues
+Description: WordPress information gathering tool
+Platform: any
+Requires-Python: >=3.7
+Provides-Extra: dev
+Provides-Extra: docs
