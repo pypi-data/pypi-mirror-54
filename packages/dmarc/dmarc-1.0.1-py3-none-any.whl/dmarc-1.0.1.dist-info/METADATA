@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: dmarc
+Version: 1.0.1
+Summary: Parse and evaluate DMARC email authentication policy
+Home-page: https://gitlab.com/duobradovic/pydmarc
+Author: Dusan Obradovic
+Author-email: dusan@euracks.net
+License: MIT
+Keywords: dkim,spf,dmarc,email,authentication,rfc5451,rfc7001,rfc7601,rfc8601
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Email :: Mail Transport Agents
+Classifier: Topic :: Communications :: Email :: Filters
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+# DMARC (Domain-based Message Authentication, Reporting & Conformance)
+
+This module allows an application to parse and evaluate email authentication policy, to application supplied TXT RR, SPF and DKIM results.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dmarc.
+
+```bash
+pip install dmarc
+```
+
+## Usage
+
+```python
+>>> import dmarc
+
+# represent verified SPF and DKIM status
+>>> aspf = dmarc.SPF(domain='news.example.com', result=dmarc.SPF_PASS)
+
+>>> adkim = dmarc.DKIM(domain='example.com', result=dmarc.DKIM_PASS)
+
+>>> d = dmarc.DMARC()
+
+# parse policy TXT RR
+>>> p = d.parse_record(record='v=DMARC1; p=reject;', domain='example.com')
+
+# evaluate policy
+>>> r = d.get_result(p, spf=aspf, dkim=adkim)
+
+# check result
+>>> r.result == dmarc.POLICY_PASS
+True
+
+# check disposition
+>>> r.disposition == dmarc.POLICY_DIS_NONE
+True
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
