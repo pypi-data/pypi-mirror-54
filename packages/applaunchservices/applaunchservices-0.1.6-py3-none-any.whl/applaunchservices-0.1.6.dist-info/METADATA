@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: applaunchservices
+Version: 0.1.6
+Summary: Simple package for registering an app with apple Launch Services to handle UTI and URL
+Home-page: https://github.com/impact27/applaunchservices
+Author: Quentin Peter
+Author-email: qpeter@bluewin.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+
+# applaunchservices
+Simple package for registering an app with apple Launch Services to handle UTI and URL
+
+
