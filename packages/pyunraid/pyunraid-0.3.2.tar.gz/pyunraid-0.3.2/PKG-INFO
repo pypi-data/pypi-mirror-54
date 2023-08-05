@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pyunraid
+Version: 0.3.2
+Summary: A Python library to interface directly with Unraid servers
+Home-page: https://github.com/simse/pyunraid
+Author: Simon Sorensen
+Author-email: hello@simse.io
+License: GNU GPLv3
+Description: UNKNOWN
+Keywords: unraid,control,webgui
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
