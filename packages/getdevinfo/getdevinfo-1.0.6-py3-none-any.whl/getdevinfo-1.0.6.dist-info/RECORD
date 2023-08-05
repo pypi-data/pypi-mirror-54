@@ -1,0 +1,15 @@
+getdevinfo/__init__.py,sha256=b6O1V_fZ46LGygwFECLOrS0pt3koMiPn9I9Re1ne2Zk,790
+getdevinfo/getdevinfo.py,sha256=414tkooHyWCJiQg_oP1Q7wEgo51zFpHCocvBm4q_Oaw,3372
+getdevinfo/linux.py,sha256=hbroBmeP0ZlNG7m6vNAh37LBB6QwMUVTRZ3_iThnzUQ,33495
+getdevinfo/macos.py,sha256=hsOsmqeLLqQNrP-l7qOOmDfdtyqZsHJgUA8fP6BJVrU,14950
+getdevinfo/tests.py,sha256=7fBKbzxklAklWPtyPr1wOvJ0MCe4AQoSPWL0hX34vwk,2768
+getdevinfo/tests/__init__.py,sha256=g2vo4XoNKh2KSzg68whFfNZDTsa2GH-q1ClipRmhXYU,758
+getdevinfo/tests/getdevinfo_test_data.py,sha256=WCrcgAOTTAwtCeSPdrtnmuyf3QdMTS6kd6YM-caqdfo,47708
+getdevinfo/tests/getdevinfo_test_functions.py,sha256=mxEx5HJ5PUm14TF3skk6AW_uivko8kYleK_cQWa9D8Y,1848
+getdevinfo/tests/getdevinfo_tests_linux.py,sha256=YNI415O3vOIsM7Lmq300M-Otn0zHsT32TieacELsjBs,18089
+getdevinfo/tests/getdevinfo_tests_macos.py,sha256=dd0UtKSgLgmfyvMxtUqhl-0Vhknyk5Q82r4EnS3l_rg,11868
+getdevinfo-1.0.6.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+getdevinfo-1.0.6.dist-info/METADATA,sha256=6j4FJtR3EnUKmePEwN9ECPMYyXxpMIYvDKJfiBdX6Lg,4436
+getdevinfo-1.0.6.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+getdevinfo-1.0.6.dist-info/top_level.txt,sha256=bs0uKeu3nkIuSRBvd_CzziFt7zlWyFJqhnkLqj6TmWc,11
+getdevinfo-1.0.6.dist-info/RECORD,,
