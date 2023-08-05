@@ -1,0 +1,10 @@
+setup.py
+sebasudacitytestpypi/Binomialdistribution.py
+sebasudacitytestpypi/Gaussiandistribution.py
+sebasudacitytestpypi/Generaldistribution.py
+sebasudacitytestpypi/__init__.py
+sebasudacitytestpypi.egg-info/PKG-INFO
+sebasudacitytestpypi.egg-info/SOURCES.txt
+sebasudacitytestpypi.egg-info/dependency_links.txt
+sebasudacitytestpypi.egg-info/not-zip-safe
+sebasudacitytestpypi.egg-info/top_level.txt
