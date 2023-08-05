@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: reloading
+Version: 0.1.1
+Summary: Reloads a loop body from source on each iteration without loosing state
+Home-page: https://github.com/julvo/reloading
+Author: Julian Vossen
+Author-email: pypi@julianvossen.de
+License: MIT
+Download-URL: https://github.com/julvo/reloading/archive/v0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: reload,reloading,refresh,loop
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
