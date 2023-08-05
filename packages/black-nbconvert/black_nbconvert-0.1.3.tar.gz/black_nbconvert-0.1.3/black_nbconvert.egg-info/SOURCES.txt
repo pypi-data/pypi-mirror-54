@@ -1,0 +1,15 @@
+.gitignore
+.pre-commit-hooks.yaml
+LICENSE
+README.md
+black_nbconvert.py
+pyproject.toml
+setup.cfg
+setup.py
+black_nbconvert.egg-info/PKG-INFO
+black_nbconvert.egg-info/SOURCES.txt
+black_nbconvert.egg-info/dependency_links.txt
+black_nbconvert.egg-info/entry_points.txt
+black_nbconvert.egg-info/not-zip-safe
+black_nbconvert.egg-info/requires.txt
+black_nbconvert.egg-info/top_level.txt
