@@ -1,0 +1,7 @@
+README.md
+setup.py
+jddf/__init__.py
+jddf.egg-info/PKG-INFO
+jddf.egg-info/SOURCES.txt
+jddf.egg-info/dependency_links.txt
+jddf.egg-info/top_level.txt
