@@ -1,0 +1,10 @@
+autogen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogen/autogen.py,sha256=EL_IuPWpw6GxVtruJUOt0Ya2VZANYn579Fup89bCJkY,3875
+autogen/defaultlog.py,sha256=jmKy0JBH2AMe1JXe-9i5b-5e-BFSlzJXHp2h5DACMCE,645
+templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templates/conf.py,sha256=lIPHFKd57-0c4Qi2p5BpRIPe6RmJ4BBtP7h1UMHyQTQ,2864
+autogen-0.0.15.dist-info/METADATA,sha256=JfhjxieNm2YIen-19atnf605-CCgZZfGg0HQzDpufRw,402
+autogen-0.0.15.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+autogen-0.0.15.dist-info/entry_points.txt,sha256=NPiXsajhF_bMeaBO62wqPp9xoTr7UewAu1I4PP0cZ-o,50
+autogen-0.0.15.dist-info/top_level.txt,sha256=TcZrzvilOAljmSvacQf_9-mDEdYYFFIJtOSXIlL8UNg,18
+autogen-0.0.15.dist-info/RECORD,,
