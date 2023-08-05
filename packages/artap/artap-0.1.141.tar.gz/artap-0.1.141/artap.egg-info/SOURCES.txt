@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+3rdparty/submodules.sh
+artap/environment.json
+artap.egg-info/PKG-INFO
+artap.egg-info/SOURCES.txt
+artap.egg-info/dependency_links.txt
+artap.egg-info/not-zip-safe
+artap.egg-info/requires.txt
+artap.egg-info/top_level.txt
+artap/lib/_nlopt.so
+artap/lib/bayesopt.so
