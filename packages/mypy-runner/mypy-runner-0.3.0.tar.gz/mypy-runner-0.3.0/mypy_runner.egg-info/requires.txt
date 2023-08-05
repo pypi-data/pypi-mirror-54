@@ -1,0 +1,7 @@
+configparser
+
+[tests]
+coverage
+pytest==5.2.0
+tox==3.14.0
+mypy==0.730

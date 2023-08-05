@@ -1,0 +1,10 @@
+README.rst
+mypyrun.py
+setup.cfg
+setup.py
+mypy_runner.egg-info/PKG-INFO
+mypy_runner.egg-info/SOURCES.txt
+mypy_runner.egg-info/dependency_links.txt
+mypy_runner.egg-info/entry_points.txt
+mypy_runner.egg-info/requires.txt
+mypy_runner.egg-info/top_level.txt
