@@ -1,0 +1,12 @@
+histastro/__init__.py,sha256=I7hpQQRz5ARhogSrL8TufnyElCwYjtLDgBMmp2ws9Iw,1204
+histastro/constants.py,sha256=v_LgdfDlMYTzBQDbdpeujCCBY2CJR_ykDRh2X0PNQus,1506
+histastro/coordinates.py,sha256=FZpFwVfLOxUMb7uZou6wa1gLoYsxwRfnPC9PR682M2o,8927
+histastro/datetime.py,sha256=fVC4-5jfSAxLi-6cAxcgQxjKNGo2Yyh6EYmmBAjMJg4,11008
+histastro/moon.py,sha256=DaW9550Lue7lmJZJ7E9ny2609jt7xdNxLy6SmeT2vxA,9070
+histastro/planets.py,sha256=uSZuB-HCkq7jtR8voNRpxLAUnMEbwKsPqe2k_UQPXJc,11063
+histastro/plot.py,sha256=Dcbdci75G_NUmWmdMH_kfvIhco8Jb7rl4YtO6lFPBbU,1376
+histastro-0.0.2.dist-info/LICENCE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+histastro-0.0.2.dist-info/METADATA,sha256=L2lxUSrebFlAx0ZBby8UhGWDJUzggNLbmFzti1BSpxQ,2805
+histastro-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+histastro-0.0.2.dist-info/top_level.txt,sha256=7D5c0Ht1DM1pOLJBhYzQcrfTH9ylQ90DgcrmITY6vvw,10
+histastro-0.0.2.dist-info/RECORD,,
