@@ -1,0 +1,10 @@
+autodraft/__init__.py,sha256=ahT0BBXE9_HGisdRX52WQjylHVRVYg_Wg-QRi82qYRY,18
+autodraft/api.py,sha256=XP06fup-dqiyV__xY3CI7PfHC_YV4AszIlwKy4SjAeQ,14936
+autodraft/arima.py,sha256=qYC80nIYw0eVExXLAHXmS92x-oulnHNESQlTSdZEm4M,7415
+autodraft/gluonts.py,sha256=AD0b0fBLfEPk-eYaSnIsiHH6fDXqN53fIvvdxUHbIps,15620
+autodraft/visualization.py,sha256=2CgqHFkgFdYf0dgs4IgSmK_Vsde-PkDHOGSzMlYNRwA,24043
+autodraft-0.0.3.dist-info/LICENSE,sha256=IxEAb_0qPY_UYo3nW6YT5d0usZ6_XiR98Y-91fg_-EI,1055
+autodraft-0.0.3.dist-info/METADATA,sha256=n-TiLdTOF_MjeXhCjxY14iC3QDr-j6mpab47zE47gWg,1224
+autodraft-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+autodraft-0.0.3.dist-info/top_level.txt,sha256=Zq7jtricxIUNCbiPZpNqKyNbDDQC8ELH25LwztFGFDI,10
+autodraft-0.0.3.dist-info/RECORD,,

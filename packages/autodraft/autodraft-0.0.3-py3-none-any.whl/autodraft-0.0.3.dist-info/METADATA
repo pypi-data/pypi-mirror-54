@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: autodraft
+Version: 0.0.3
+Summary: A small package for the AutoDraft streamlit app as well as working with the NHL's API.
+Home-page: https://github.com/j4th/autodraft_pkg
+Author: Justin Forth
+Author-email: justinforth@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# AutoDraft Package
+This package contains the necessary modules for running the various scripts within the [AutoDraft](https://github.com/j4th/AutoDraft) project. Namely:
+ - `api.py`: Wrapper for the NHL's undocumented (mostly, shout-out to [dword4](https://gitlab.com/dword4/nhlapi)) API.
+ - `arima.py`: Module for performing Auto-ARIMA modelling and predictions using [pmdarima](https://www.alkaline-ml.com/pmdarima/).
+ - `gluonts.py`: Module for performing DeepAR modelling and predictions; could be extended to any [GluonTS](https://gluon-ts.mxnet.io/) model.
+ - `visualization.py`: Module for visualizing model output and performance, largely through leveraging [Bokeh](https://bokeh.pydata.org/en/latest/index.html).
+
