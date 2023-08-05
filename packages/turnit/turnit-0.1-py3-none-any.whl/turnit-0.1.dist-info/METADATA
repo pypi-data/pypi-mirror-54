@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: turnit
+Version: 0.1
+Summary: Orient STL files to minimize supports
+Home-page: http://github.com/nickc92/turnit
+Author: Nick C
+Author-email: nickcholy@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: numpy-stl
+Requires-Dist: rtree
+
+# Turnit: minimize support structures for 3D printing
+
+Turnit is a program that, given an .STL file describing an object, orients it
+in a way that would minimize the amount of support structure needed to
+3D-print it.
+
+![Turnit](images/turnit_example.png)
+
+
