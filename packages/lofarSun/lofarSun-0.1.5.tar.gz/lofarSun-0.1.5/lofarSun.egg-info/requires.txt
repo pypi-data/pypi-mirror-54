@@ -1,0 +1,4 @@
+matplotlib
+sunpy
+opencv-python
+astropy
