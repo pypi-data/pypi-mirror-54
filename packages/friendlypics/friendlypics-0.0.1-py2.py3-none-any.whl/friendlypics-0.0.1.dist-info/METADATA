@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: friendlypics
+Version: 0.0.1
+Summary: User friendly command line image manipulation program
+Home-page: https://github.com/TheFriendlyCoder/friendlypics
+Author: Kevin S. Phillips
+Author-email: thefriendlycoder@gmail.com
+License: Apache License 2.0
+Keywords: image process picture organizer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6.0
+Requires-Dist: click
+Requires-Dist: pillow
+Requires-Dist: piexif
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-timeout ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: tox-factor ; extra == 'dev'
+
+.. image:: https://travis-ci.org/TheFriendlyCoder/friendlypics.svg?tag=0.0.1
+    :target: https://travis-ci.org/TheFriendlyCoder/friendlypics
+    :alt: Build Automation
+
+.. image:: https://coveralls.io/repos/github/TheFriendlyCoder/friendlypics/badge.svg?tag=0.0.1
+    :target: https://coveralls.io/github/TheFriendlyCoder/friendlypics?tag=0.0.1
+    :alt: Test Coverage
+
+.. image:: https://img.shields.io/pypi/pyversions/friendlypics.svg
+    :target: https://pypi.python.org/pypi/friendlypics
+    :alt: Python Versions
+
+.. image:: https://readthedocs.org/projects/friendlypics/badge/?version=0.0.1
+    :target: http://friendlypics.readthedocs.io/en/0.0.1
+    :alt: Documentation Status
+
+.. image:: https://requires.io/github/TheFriendlyCoder/friendlypics/requirements.svg?tag=0.0.1
+    :target: https://requires.io/github/TheFriendlyCoder/friendlypics/requirements/?tag=0.0.1
+    :alt: Requirements Status
+
+.. image:: https://img.shields.io/pypi/format/friendlypics.svg
+    :target: https://pypi.python.org/pypi/friendlypics/
+    :alt: Package Format
+
+.. image:: https://img.shields.io/pypi/dm/friendlypics.svg
+    :target: https://pypi.python.org/pypi/friendlypics/
+    :alt: Download Count
+
+.. image:: https://img.shields.io/pypi/l/friendlypics.svg
+    :target: https://www.apache.org/licenses/LICENSE-2.0.txt
+    :alt: Apache License 2.0
+
+Overview
+========
+
+This is a command line utility I created to perform some common image operations that I tend to do regularly allowing me to do those operations faster and with fewer steps. One of the most helpful functions is the "sort" command which takes a source folder filled with images and sorts all images found (recursively) into folders sorted by year. The sort command also does optimizations as well like looking for duplicate and renamed files and eliminating the duplicates.
+
+I've mainly hosted this on GitHub to make it easier for me to find and deploy the source onto several machines, but in case anyone else finds this project helpful and would like to contribute feel free to `reach out <mailto:thefriendlycoder@gmail.com>`_ with comments or suggestions.
+
+Quick Start Guide
+=================
+
+1. First, and most obviously, you must have Python installed on your system. For details specific to your OS we recommend seeing `Python's website <http://www.python.com/>`_. Currently this tool requires Python v3.6.0 or newer to run.
+
+1. Install FriendlyPins directly from PyPI using PIP:
+
+::
+
+    # pip install friendlypics
+
+1. start using the friendlypics command line interface
+::
+
+    >>> fpics --help
+

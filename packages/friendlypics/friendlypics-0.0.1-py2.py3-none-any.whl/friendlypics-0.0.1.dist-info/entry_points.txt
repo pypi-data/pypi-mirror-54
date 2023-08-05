@@ -1,0 +1,6 @@
+[console_scripts]
+fpics = friendlypics.scripts.fpics:main
+
+[friendlypics.plugins.v1.0]
+
+

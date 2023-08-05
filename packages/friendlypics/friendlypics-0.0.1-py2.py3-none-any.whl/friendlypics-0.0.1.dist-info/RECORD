@@ -1,0 +1,12 @@
+friendlypics/__init__.py,sha256=R7T_6Ygpl_7YOWhIQmInsalY7FvTL0S_rJX97cojLgA,122
+friendlypics/file_object.py,sha256=cSU5jqCSy9pIV5dKj4o1TrkGzHY4uVSipkDcH2pssjw,7196
+friendlypics/manifest_file.py,sha256=YlC5ZlyQbgKxvyceZJbOcEqOTe4l-kM4t6t-s5BHwGg,3986
+friendlypics/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+friendlypics/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+friendlypics/scripts/fpics.py,sha256=ZhGYVD48iWZlTSeJAaP24cy5RSJne1lOpjTd1JzLpZ8,5622
+friendlypics-0.0.1.dist-info/LICENSE,sha256=H4HUThUGrvNxhGU9LTHQCubk9FPUMd6XHCh5vpYGZbg,10139
+friendlypics-0.0.1.dist-info/METADATA,sha256=YDbC19USiTgfNIh-riG0pgXEYCP8Bw8JiH12QuoWvlo,3527
+friendlypics-0.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+friendlypics-0.0.1.dist-info/entry_points.txt,sha256=ZAgqIDgVSriMZmeXV97OslsnkYGIkUN9hYThDeThTw4,89
+friendlypics-0.0.1.dist-info/top_level.txt,sha256=Rxk1rU6_yhLVamgk_8Y6tBEK6K_OxuKL7qHkhUhGSVY,13
+friendlypics-0.0.1.dist-info/RECORD,,
