@@ -1,0 +1,49 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:upgrade-step="http://namespaces.zope.org/ftw.upgrade"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:profilehook="http://namespaces.zope.org/profilehook"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="ftw.contentnav">
+
+    <include package="ftw.profilehook" />
+
+    <i18n:registerTranslations directory="locales" />
+
+    <include file="permissions.zcml" />
+    <include package=".behaviors" />
+    <include package=".viewlets" />
+
+    <include zcml:condition="installed ftw.lawgiver" file="lawgiver.zcml" />
+
+    <include package="ftw.upgrade" file="meta.zcml" />
+
+    <!-- Register the installation GenericSetup extension profile -->
+    <genericsetup:registerProfile
+        name="default"
+        title="ftw.contentnav"
+        directory="profiles/default"
+        description="Installs contentnav"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <profilehook:hook
+        profile="ftw.contentnav:default"
+        handler=".hooks.installed"
+        />
+
+    <!-- indexer -->
+    <adapter name="get_content_categories" factory=".indexer.categories" />
+
+    <utility
+        component=".vocabularies.contentcategories_vocabulary"
+        name="ftw.contentnav.contentcategories"
+        />
+
+    <upgrade-step:directory
+        profile="ftw.contentnav:default"
+        directory="./upgrades"
+        />
+
+</configure>

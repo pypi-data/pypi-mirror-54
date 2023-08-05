@@ -1,0 +1,56 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-09-26 16:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Preferred-Encodings: utf-8 latin1\n"
+
+#: ./ftw/contentnav/behaviors/configure.zcml:18
+msgid "Extends a content by the category field to show           it in the contentnavigation"
+msgstr ""
+
+#: ./ftw/contentnav/configure.zcml:33
+msgid "Installs contentnav"
+msgstr ""
+
+#: ./ftw/contentnav/behaviors/content_categories.py:20
+msgid "categories"
+msgstr ""
+
+#: ./ftw/contentnav/configure.zcml:33
+msgid "ftw.contentnav"
+msgstr ""
+
+#: ./ftw/contentnav/behaviors/configure.zcml:18
+msgid "ftw.contentnav categorisation behavior"
+msgstr ""
+
+#. Default: "Category for contentlisting"
+#: ./ftw/contentnav/behaviors/content_categories.py:17
+msgid "help_categories"
+msgstr ""
+
+#. Default: "New categories for contentlisting"
+#: ./ftw/contentnav/behaviors/content_categories.py:31
+msgid "help_new_categories"
+msgstr ""
+
+#. Default: "Categories"
+#: ./ftw/contentnav/behaviors/content_categories.py:16
+msgid "label_categories"
+msgstr ""
+
+#. Default: "New categories"
+#: ./ftw/contentnav/behaviors/content_categories.py:30
+msgid "label_new_categories"
+msgstr ""
+

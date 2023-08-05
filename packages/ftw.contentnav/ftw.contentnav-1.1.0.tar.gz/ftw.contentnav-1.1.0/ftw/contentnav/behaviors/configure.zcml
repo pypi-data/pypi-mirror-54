@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="ftw.contentnav">
+
+    <include package="plone.behavior" file="meta.zcml" />
+    <include package="plone.directives.form" file="meta.zcml" />
+    <include package="plone.directives.form" />
+
+    <plone:behavior
+        title="ftw.contentnav categorisation behavior"
+        description="Extends a content by the category field to show
+                     it in the contentnavigation"
+        provides="ftw.contentnav.behaviors.content_categories.IContentCategories"
+        factory=".content_categories.ContentCategoriesStorage"
+        marker="ftw.contentnav.interfaces.ICategorizable"
+        />
+</configure>

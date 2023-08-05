@@ -1,0 +1,10 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="ftw.contentnav">
+
+    <permission
+        id="ftw.contentnav.categories_behavior.add_new_categories"
+        title="ftw.contentnav: Add new categories 'content categories behavior'"
+        />
+
+</configure>
