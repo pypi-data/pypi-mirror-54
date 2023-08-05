@@ -1,0 +1,10 @@
+{
+	"account":%%PID.PID_3%%, 
+	"recordedAt":%%MSH.MSH_7::format_date%%,
+	"device": 2, 
+	"height":%%OBX.1.OBX_5&OBX.1.OBX_6::format_meters_to_cm%%, 
+	"weight":%%OBX.0.OBX_5&OBX.0.OBX_6::convert_to_grams%%,
+	"bodyFat": 0,
+	"fatMassWeight":%%OBX.3.OBX_5&OBX.3.OBX_6::convert_to_grams%%,
+  "visceralFatPercentage":%%OBX.16.OBX_5&OBX.16.OBX_6::format_percentage%%
+}

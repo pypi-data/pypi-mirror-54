@@ -1,0 +1,9 @@
+{
+    "account":5354,
+    "recordedAt":%%MSH.MSH_7::format_date%%,
+    "device":1,
+    "height":%%OBX.2.OBX_5::format_period%%,
+    "weight":%%OBX.3.OBX_5%%,
+    "firstName":%%PID.PID_5.PID_5_2%%,
+    "lastName":%%PID.PID_5.PID_5_1%%
+}
