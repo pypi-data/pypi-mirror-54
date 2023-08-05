@@ -1,0 +1,8 @@
+README.md
+legomena.py
+setup.py
+legomena.egg-info/PKG-INFO
+legomena.egg-info/SOURCES.txt
+legomena.egg-info/dependency_links.txt
+legomena.egg-info/requires.txt
+legomena.egg-info/top_level.txt
