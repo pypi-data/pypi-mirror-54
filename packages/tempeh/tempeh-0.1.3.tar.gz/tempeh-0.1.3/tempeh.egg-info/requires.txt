@@ -1,0 +1,12 @@
+keras
+lightgbm
+memory_profiler
+numpy
+pandas
+pytest
+scipy
+shap
+scikit-learn
+tensorflow
+torch
+xgboost
