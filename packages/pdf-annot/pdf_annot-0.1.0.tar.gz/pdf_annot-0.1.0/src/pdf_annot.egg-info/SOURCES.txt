@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/pdf_annot/__init__.py
+src/pdf_annot/annotation.py
+src/pdf_annot/attach.py
+src/pdf_annot/extract.py
+src/pdf_annot.egg-info/PKG-INFO
+src/pdf_annot.egg-info/SOURCES.txt
+src/pdf_annot.egg-info/dependency_links.txt
+src/pdf_annot.egg-info/requires.txt
+src/pdf_annot.egg-info/top_level.txt
