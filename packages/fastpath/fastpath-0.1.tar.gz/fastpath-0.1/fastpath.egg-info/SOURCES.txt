@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+fastpath.egg-info/PKG-INFO
+fastpath.egg-info/SOURCES.txt
+fastpath.egg-info/dependency_links.txt
+fastpath.egg-info/top_level.txt
+src/fastpath-py.c
+src/fastpath.c
