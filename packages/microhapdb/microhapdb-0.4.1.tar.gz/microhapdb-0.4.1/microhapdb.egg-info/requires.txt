@@ -1,0 +1,2 @@
+pandas
+pytest>=5.0
