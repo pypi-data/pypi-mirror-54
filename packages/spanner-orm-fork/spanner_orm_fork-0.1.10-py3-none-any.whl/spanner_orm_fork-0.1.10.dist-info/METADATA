@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: spanner-orm-fork
+Version: 0.1.10
+Summary: Basic ORM for Spanner
+Home-page: https://github.com/google/python-spanner-orm
+Maintainer: Derek Brandao
+Maintainer-email: dbrandao@google.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ~=3.7
+Requires-Dist: google-cloud-spanner (<2.0.0dev,>=1.6)
+
+UNKNOWN
+
+
