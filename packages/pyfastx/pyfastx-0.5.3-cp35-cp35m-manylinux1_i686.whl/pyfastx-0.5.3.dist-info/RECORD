@@ -1,0 +1,9 @@
+pyfastxcli.py,sha256=f4UHMAWxJzLQ6NxhMvFXfX8J9GwXnlUv3lboSqi4nbI,7755
+pyfastx.cpython-35m-i386-linux-gnu.so,sha256=ER3yuAC0JlsNJSfzXloUzVxTO1Hpkd4HHJMycS7XYUQ,254476
+.libspyfastx/libz-83853723.so.1.2.3,sha256=6L0AYPckpsJzCjqPErwqsxt4jx3jn-XyAVLME9t7bNc,75576
+.libspyfastx/libsqlite3-70381833.so.0.8.6,sha256=Fwzywy3qMuW81yNJ6txMg-lVo5PoP4_6cMQRYlm1dp0,4313064
+pyfastx-0.5.3.dist-info/top_level.txt,sha256=SsXTluhVwhrmzzNmCTptjn8WGqJKu_62hDSFDoe-d6c,19
+pyfastx-0.5.3.dist-info/RECORD,,
+pyfastx-0.5.3.dist-info/METADATA,sha256=O0ZzBiGXdCjjRk8dQAu0FimE9rNC01C9oQc98N8869U,19895
+pyfastx-0.5.3.dist-info/entry_points.txt,sha256=77xtuZrs9_MjxEo53lDyS_WyVzzLFIPcRTaIT6sozPM,45
+pyfastx-0.5.3.dist-info/WHEEL,sha256=5uJgXrzESlz5BEVUtG_qT5iZkFr_xW73vqby14S5SqE,107
