@@ -1,0 +1,21 @@
+# Directories
+__pycache__/
+
+# Sphinx
+docs/_build/
+
+# Pytest and coverage related
+htmlcov
+.coverage
+.coverage.*
+.pytest_cache/
+tests/create_data/tmp/
+
+# setuptools_scm
+emg3d/version.py
+
+# Build related
+.eggs/
+build/
+dist/
+emg3d.egg-info/
