@@ -1,0 +1,8 @@
+model_admin_autocomplete/__init__.py,sha256=4IY8aENUrryPAs6Cm3YW8Y8KNYlGeZbIeNrmmQeB0S4,69
+model_admin_autocomplete/mixins.py,sha256=2yXOamNy_DaKcJ6I0Ay60vgB8VEXjSli2U8OY67g2pU,5688
+model_admin_autocomplete/views.py,sha256=zEOBjBdj2TdOuU8_QEs1LxA4ZH6XO7vwEjwnQu0y_pk,1163
+django_model_admin_autocomplete-0.1.0.dist-info/LICENSE,sha256=SIcV9eix1QohuO4PkXY7W0KPraA99f0wTbqBBsnS9cg,1075
+django_model_admin_autocomplete-0.1.0.dist-info/METADATA,sha256=fFtt78qqV4CLRuNlgFLrDcVQ98ffOI7339eO0J2X6bU,1949
+django_model_admin_autocomplete-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_model_admin_autocomplete-0.1.0.dist-info/top_level.txt,sha256=nZguYHwVS0FAJ-ilSL30tXoUYlM-eDGlMPyesaeTnQo,25
+django_model_admin_autocomplete-0.1.0.dist-info/RECORD,,

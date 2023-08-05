@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: django-model-admin-autocomplete
+Version: 0.1.0
+Summary: Tweaks for existing built-in Django"s autocomplete feature
+Home-page: https://github.com/jerinpetergeorge/django-model-admin-autocomplete
+Author: Jerin Peter George
+Author-email: jerinpetergeorge@gmail.com
+License: MIT-Zero
+Download-URL: https://github.com/jerinpetergeorge/django-model-admin-autocomplete/tarball/0.1.0
+Platform: UNKNOWN
+
+===============================
+django-model-admin-autocomplete
+===============================
+This simple django app enables users to do a few tweaks to `Django's built-in autocomplete <https://docs.djangoproject.com/en/2.2/ref/contrib/admin/#django.contrib.admin.ModelAdmin.autocomplete_fields>`_
+ feature.
+
+************
+Installation
+************
+::
+
+    pip install django-model-admin-autocomplete
+
+and then add this to your `settings.py` module
+
+::
+
+    SILENCED_SYSTEM_CHECKS = ["admin.E039"]
+
+*****
+Usage
+*****
+Consider you have a few models as,
+::
+
+    # models.py
+    class Article(models.Model):
+        headline = models.CharField(max_length=100)
+        pub_date = models.DateField()
+        publications = models.ManyToManyField(Publication)
+        reporter = models.ForeignKey(Reporter, on_delete=models.CASCADE)
+
+        def __str__(self):
+            return self.headline
+
+and you need autocomplete fields for `publications` and `reporter` in models admin.
+::
+
+    # admin.py
+    from django.contrib import admin
+    from .models import Article
+    from model_admin_autocomplete import ModelAdminAutoComplete
+
+
+    class ArticleModelAdmin(ModelAdminAutoComplete, admin.ModelAdmin):
+        autocomplete_fields = ('publications', 'reporter')
+
+
+    admin.site.register(Article, ArticleModelAdmin)
+
+****
+Demo
+****
+If you want to see a very simple Django demo project using this module, please take a look at `model-admin-autocomplete-demo <https://github.com/jerinpetergeorge/model-admin-autocomplete-demo>`__.
+
