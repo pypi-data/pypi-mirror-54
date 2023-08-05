@@ -1,0 +1,7 @@
+README.md
+conquer.py
+setup.py
+Conquer.egg-info/PKG-INFO
+Conquer.egg-info/SOURCES.txt
+Conquer.egg-info/dependency_links.txt
+Conquer.egg-info/top_level.txt
