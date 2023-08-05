@@ -1,0 +1,6 @@
+aiohttp==3.6.2
+aiodns==2.0.0
+sqlalchemy-utils==0.33.5
+passlib==1.7.1
+pyjwt==1.6.4
+cryptography==2.3.1
