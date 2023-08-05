@@ -1,0 +1,47 @@
+---
+0:
+  - function: "Read data"
+    guide:
+      - "FlowInstructions.read_data()"
+1:
+  - function: "Encode categorical features"
+    guide:
+      - "FlowInstructions.encode_categorical_features()"
+2:
+  - function: "Scale numeric features"
+    guide:
+      - "FlowInstructions.scale_numeric_features()"
+3:
+  - function: "Train a model"
+    guide:
+      - "FlowInstructions.explore_data()"
+      - "FlowInstructions.train_a_model()"
+4:
+  - function: "One-hot encoding"
+    guide:
+      - 'FlowInstructions.one_hot_encoding()'
+5:
+  - function: "Flatten JSON data"
+    guide:
+      - 'FlowInstructions.flatten_JSON_data()'
+6:
+  - function: "Drop high corrected columns but keep one"
+    guide:
+      - 'FlowInstructions.drop_high_corrected_columns_but_keep_one()'
+7:
+  - function: "Delete features with constant values"
+    guide:
+      - 'FlowInstructions.delete_features_with_constant_values()'
+8:
+  - function: "Target-based categorical feature encoding"
+    guide:
+      - 'FlowInstructions.target_based_categorical_feature_encoding()'
+9:
+  - function: "Frequency-based categorical feature encoding"
+    guide:
+      - 'FlowInstructions.frequency_based_categorical_feature_encoding()'
+
+1000:
+  - function: "Finish"
+    guide:
+      - 'print("This is the end of the flow")'
