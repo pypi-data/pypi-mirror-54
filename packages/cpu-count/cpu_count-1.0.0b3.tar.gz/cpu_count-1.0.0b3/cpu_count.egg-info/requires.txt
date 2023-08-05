@@ -1,0 +1,11 @@
+importlib_metadata
+
+[dev]
+twine
+black
+isort
+venvtools
+
+[docs]
+
+[tests]
