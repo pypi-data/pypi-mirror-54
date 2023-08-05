@@ -1,0 +1,10 @@
+PyICU.py,sha256=7Epua5uUhubXDexBsIEaIc6Ws5nkiz0cro1V4krYYYA,1463
+_icu.cpython-34m.so,sha256=Xdao-6tYBM3cwFK6TQeC-4C3YfbIqbMdePtpSznA7fU,4430344
+.libs_icu/libicudata-247f6632.so.65.1,sha256=bdMOYu7Dtq3WVBQIpLeInVRmQmhxqwlG60m9Q6MaqPg,27979960
+.libs_icu/libicuuc-4712b63f.so.65.1,sha256=3jJT3mnrruKGXNF6gGo3oCH3KtRr9E6uob62vTcI6l8,2582072
+.libs_icu/libicui18n-f8ba1216.so.65.1,sha256=0SE8Nw8M8dOtcbTtsx_wWDLEmQ70m6lOF9LKv8ref6k,5294944
+icu/__init__.py,sha256=1ltbDJrkm6Yf5K1HiPI8nGCTuDBop65VzbMhb2IkwGA,1545
+PyICU_binary-2.3.1.dist-info/WHEEL,sha256=x7uUT1DITuOWfNQ5Z5nxxiCgay-5C46SfoISIjrweYE,109
+PyICU_binary-2.3.1.dist-info/RECORD,,
+PyICU_binary-2.3.1.dist-info/top_level.txt,sha256=Gj-72XZAPkSgsPEa9-bHxAimNgZhufGgmxawCyf-80c,15
+PyICU_binary-2.3.1.dist-info/METADATA,sha256=WJDnq7ddkfq5LNvYDFpmoc05C4lgTMv_OCauPNW2WUY,8824
