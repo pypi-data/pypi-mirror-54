@@ -1,0 +1,4 @@
+[console_scripts]
+create_text_siblings = nlp_knowledge_cli:create_text_siblings
+name_raw_screenshots = nlp_knowledge_cli:name_raw_screenshots
+
