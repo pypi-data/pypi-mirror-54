@@ -1,0 +1,308 @@
+Metadata-Version: 2.1
+Name: sky-chaostoolkit-toxiproxy-2
+Version: 0.1.6
+Summary: Chaos Toolkit toxiproxy support by SKY
+Home-page: http://chaostoolkit.org
+Author: Leslie Lintott
+Author-email: leslie.lintott@sky.uk
+License: Apache License Version 2.0
+Description: # Chaos Toolkit tokiproxy driver
+        
+        
+        [![pypi](https://img.shields.io/pypi/v/sky-chaostoolkit-toxiproxy.svg)](https://pypi.python.org/pypi/sky-chaostoolkit-toxiproxy) [![travis](https://img.shields.io/travis/grubert65/chaostp.svg)](https://travis-ci.org/grubert65/chaostp) [![readthedocs](https://readthedocs.org/projects/chaostp/badge/?version=latest)](https://chaostp.readthedocs.io/en/latest/?badge=latest)
+        
+        
+        This module provides actions to configure toxiproxy proxies and toxies.
+        
+        WARNING: This module exposes actions that have rather strong impacts on your
+        cluster. While Chaos Engineering is all about disrupting and weaknesses,
+        it is important to take the time to fully appreciate what those actions
+        do and how they do it.
+        
+        ## Install
+        
+        To be used from your experiment, this package must be installed in the Python
+        environment where [chaostoolkit][] already lives.
+        
+        [chaostoolkit]: https://github.com/chaostoolkit/chaostoolkit
+        
+        ```
+        $ pip install sky-chaostoolkit-toxiproxy
+        ```
+        
+        ## Usage
+        
+        
+        ### Configuration
+        In your experiment configuration section you can set the toxiproxy server
+        address if different from localhost:
+        
+        ```json
+          "configuration":{
+            "toxiproxy_host": "<defaults to localhost...>",
+            "toxiproxy_port": 1234  
+          }
+        ```
+        
+        If more than one toxiproxy server needs to be addressed, you can set the list
+        using the "toxiproxy" configuration key:
+        
+        ```json
+          "configuration":{
+              "toxiproxy": [
+                {
+                  "host": "<defaults to localhost>",
+                  "port": "<defaults to 8474>"
+                },
+              ]
+        ```
+        
+        ### Exported actions
+        
+        #### Adding a toxic
+        
+        ```
+          add_toxic(
+            server: Dict = {'host': 'localhost', 'port': 8474}, 
+            random_server: bool = False, 
+            proxy_name: str = None, 
+            toxic_name: str = None, 
+            type: str = None, 
+            stream: str = 'downstream', 
+            toxicity: float = 1.0, 
+            attributes: str = None 
+          )
+        ```
+        Add a toxic to a proxy
+        
+        The server can be specifically passed as parameter. Alternatively,
+        if the "toxiproxy" configuration section is present, a random
+        server is picked setting the "random_server" parameter to True.
+        
+        The name of the proxy to add the toxic to can be specified,
+        otherwise a random proxy for the server is picked up
+        
+        #### Creating a new proxy
+        
+        ```
+          create_proxy(
+            proxy_name, 
+            upstream, 
+            listen, 
+            enabled: bool = True, 
+            server: Dict = {'host': 'localhost', 'port': 8474}
+        ```
+        
+        #### Deleting all proxies attached to a server
+        ```
+          delete_all_proxies(
+            server: Dict = {'host': 'localhost', 'port': 8474}
+          )
+        ```
+        
+        #### Deleting all toxic attached to a proxy
+        ```
+          delete_all_toxics(
+            server: Dict = {'host': 'localhost', 'port': 8474}, 
+            proxy_name: str = None
+          )
+        ```
+        
+        #### Deleting a proxy
+        ```
+          delete_proxy(
+            proxy_name: str, 
+            server: Dict = {'host': 'localhost', 'port': 8474}
+          )
+        ```
+        
+        #### Deleting a toxic
+        ```
+          delete_toxic(
+            server: Dict = {'host': 'localhost', 'port': 8474}, 
+            proxy_name: str = None, 
+            stream: str = 'downstream', 
+            type: str = None
+          )
+        ```
+        
+        #### Disabling a proxy
+        ```
+          disable_proxy(
+            server: Dict = {'host': 'localhost', 'port': 8474}, 
+            proxy_name: str = None
+          )
+        ```
+        
+        #### Enabling a proxy
+        ```
+          enable_proxy(
+            server: Dict = {'host': 'localhost', 'port': 8474}, 
+            proxy_name: str = None
+          )
+        ```
+        
+        #### Populating a server
+        
+        ```
+          populate(
+            proxies, 
+            server: Dict = {'host': 'localhost', 'port': 8474}
+          )
+        ```
+        
+        #### Resetting all servers
+        ```
+          reset_all()
+        ```
+        Enable all proxies and remove all active toxics for all servers
+        
+        #### Resetting a server
+        ```
+          reset_server(
+            server: Dict = {'host': 'localhost', 'port': 8474}
+          )
+        ```
+        Enable all proxies and remove all active toxics
+        
+        
+        
+        ### Sample experiment
+        
+        ```json
+        {
+          "version": "1.0.0",
+          "title": "What happens if a latency is introduced on a proxy for cassandra",
+          "description": "We introduce a 400 ms latency on a single cassandra node",
+          "tags": ["proxy"],
+          "steady-state-hypothesis": {
+            "title": "Proxy is found",
+            "probes": [
+              {
+                "type": "probe",
+                "name": "proxy-is-found",
+                "tolerance": "c1",
+                "provider": {
+                  "type": "python",
+                  "module": "chaostp.proxy.probes",
+                  "func": "get_proxy",
+                  "arguments": {
+                      "name": "c1"
+                  }
+                }
+              }
+            ]
+          },
+          "method": [
+            {
+              "type": "action",
+              "name": "delete_all_toxics",
+              "provider": {
+                  "type": "python",
+                  "module": "chaostp.proxy.actions",
+                  "func": "delete_all_toxics",
+                  "arguments": {
+                      "proxy_name": "localhost",
+                      "name": "c1"
+                  }
+              }
+            },
+            {
+              "type": "action",
+              "name": "add-a-latency-toxic",
+              "provider": {
+                  "type": "python",
+                  "module": "chaostp.proxy.actions",
+                  "func": "add_toxic",
+                  "arguments": {
+                      "proxy_name": "c1",
+                      "toxic_name": "t1",
+                      "type": "latency",
+                      "stream": "upstream",
+                      "toxicity": 0.5,
+                      "attributes": {"latency": 100}
+                  }
+              },
+              "pauses": {
+                  "before": 10,
+                  "after": 40
+              }
+            },
+            {
+              "type": "action",
+              "name": "add-a-bandwidth-degradation-toxic",
+              "provider": {
+                  "type": "python",
+                  "module": "chaostp.proxy.actions",
+                  "func": "add_toxic",
+                  "arguments": {
+                      "proxy_name": "c1",
+                      "toxic_name": "bandwidth_degradation_toxic",
+                      "type": "bandwidth",
+                      "stream": "upstream",
+                      "toxicity": 0.5,
+                      "attributes": {"rate": 400}
+                  }
+              },
+              "pauses": {
+                  "before": 10,
+                  "after": 40
+              }
+            },
+            {
+              "type": "action",
+              "name": "delete_all_toxics", "provider": {
+                  "type": "python",
+                  "module": "chaostp.proxy.actions",
+                  "func": "delete_all_toxics",
+                  "arguments": {
+                      "name": "c1"
+                  }
+              }
+            }
+          ],
+          "rollbacks": []
+        }
+        ```
+        
+        Please explore the code to see existing probes and actions.
+        
+        ### Discovery
+        
+        You may use the Chaos Toolkit to discover the capabilities of this extension:
+        
+        ```
+        $ chaos discover sky-chaostoolkit-toxiproxy  --no-install
+        ```
+        
+        ## Configuration
+        
+        The module expects a toxiproxy-server running and listening on the default port 8474,
+        there is currently no way to configure another server address.
+        
+        ## Contribute
+        
+        If you wish to contribute more functions to this package, you are more than
+        welcome to do so. Please fork this project, make your changes following the
+        usual [PEP 8][pep8] code style, add appropriate tests and submit a PR for
+        review.
+        
+        [pep8]: https://pycodestyle.readthedocs.io/en/latest/
+        
+        The Chaos Toolkit projects require all contributors must sign a
+        [Developer Certificate of Origin][dco] on each commit they would like to merge
+        into the master branch of the repository. Please, make sure you can abide by
+        the rules of the DCO before submitting a PR.
+        
+        [dco]: https://github.com/probot/dco#how-it-works
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freely Distributable
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5.*
+Description-Content-Type: text/markdown
