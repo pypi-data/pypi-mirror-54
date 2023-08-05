@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ndx-simulation-output
+Version: 0.2.6
+Summary: Holds structures for recording data from multiple compartments of multiple neurons in a single TimeSeries
+Home-page: UNKNOWN
+Author: Ben Dichter
+Author-email: ben.dichter@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research

@@ -1,0 +1,49 @@
+groups:
+- neurodata_type_def: Compartments
+  neurodata_type_inc: DynamicTable
+  default_name: compartments
+  doc: Table that holds information about what places are being recorded.
+  datasets:
+  - name: number
+    neurodata_type_inc: VectorData
+    dtype: int
+    doc: Cell compartment ids corresponding to a each column in the data.
+  - name: number_index
+    neurodata_type_inc: VectorIndex
+    doc: Index that maps cell to compartments.
+    quantity: '?'
+  - name: position
+    neurodata_type_inc: VectorData
+    dtype: float
+    doc: Position of recording within a compartment. 0 is close to soma, 1 is other
+      end.
+    quantity: '?'
+  - name: position_index
+    neurodata_type_inc: VectorIndex
+    doc: Index for position.
+    quantity: '?'
+  - name: label
+    neurodata_type_inc: VectorData
+    dtype: text
+    doc: Labels for compartments.
+    quantity: '?'
+  - name: label_index
+    neurodata_type_inc: VectorIndex
+    doc: indexes label
+    quantity: '?'
+- neurodata_type_def: CompartmentSeries
+  neurodata_type_inc: TimeSeries
+  doc: Stores continuous data from cell compartments
+  links:
+  - name: compartments
+    target_type: Compartments
+    doc: Metadata about compartments in this CompartmentSeries.
+    quantity: '?'
+- neurodata_type_def: SimulationMetaData
+  neurodata_type_inc: LabMetaData
+  name: simulation
+  doc: Group that holds metadata for simulations.
+  groups:
+  - name: compartments
+    neurodata_type_inc: Compartments
+    doc: Table that holds information about what places are being recorded.
