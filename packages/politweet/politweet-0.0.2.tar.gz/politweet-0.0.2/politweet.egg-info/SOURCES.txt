@@ -1,0 +1,9 @@
+README.md
+setup.py
+politweet/__init__.py
+politweet/scraper.py
+politweet.egg-info/PKG-INFO
+politweet.egg-info/SOURCES.txt
+politweet.egg-info/dependency_links.txt
+politweet.egg-info/requires.txt
+politweet.egg-info/top_level.txt
