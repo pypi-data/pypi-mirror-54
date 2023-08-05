@@ -1,0 +1,16 @@
+README.md
+setup.py
+boots_django.egg-info/PKG-INFO
+boots_django.egg-info/SOURCES.txt
+boots_django.egg-info/dependency_links.txt
+boots_django.egg-info/top_level.txt
+vali/__init__.py
+vali/apps.py
+vali/charts.py
+vali/counters.py
+vali/decorator.py
+vali/urls.py
+vali/views.py
+vali/widgets.py
+vali/templatetags/__init__.py
+vali/templatetags/vali_tags.py
