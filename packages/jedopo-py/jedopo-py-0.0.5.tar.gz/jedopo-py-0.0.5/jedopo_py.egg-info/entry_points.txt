@@ -1,0 +1,3 @@
+[console_scripts]
+jedopo = jedopo.poc:main
+
