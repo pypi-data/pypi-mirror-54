@@ -1,0 +1,9 @@
+itk/_TotalVariationPython.so,sha256=uJa8CwjJBjqiV-BFZMrQKN_HRz2lAyH_He7ngvStuWA,3423664
+itk/itkProxTVImageFilterPython.py,sha256=u6ipJUaAhhLxjAqnW65ixGvovfpJbTo3aggDgPk1j1s,14701
+itk/TotalVariationPython.py,sha256=wC9BUHCrOAJH4P3jJy3_cGhbutgFI0f1OEuGGqObF3w,3174
+itk/Configuration/TotalVariationConfig.py,sha256=-QqqZZoAKZOYeY7DL_estG9TLHyt0Q8MezgB3CvYRJs,416
+itk/.libs/libgomp-3300acd3.so.1.0.0,sha256=EnFXr4fqW6urRgYk7TwUCvF6S1oXVZfVyUZW3IZWJYo,63024
+itk_totalvariation-0.1.0.dist-info/RECORD,,
+itk_totalvariation-0.1.0.dist-info/METADATA,sha256=Gko_OGKb1pKkUjxKQh25dO2tiq4YsZRPG4sDh9d-pRM,1548
+itk_totalvariation-0.1.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_totalvariation-0.1.0.dist-info/WHEEL,sha256=1SrEjqRRN_kt0y0aDZFxEvdZRymT59pibFaABd4hdQE,102
