@@ -1,0 +1,1 @@
+nzbget_file_opener
