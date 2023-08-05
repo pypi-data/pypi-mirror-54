@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: vostok
+Version: 0.1.0
+Summary: A chagelog parser for Keep a Changelog format
+Home-page: https://github.com/vitorbaraujo/vostok
+Author: vitorbaraujo
+Author-email: vitornga15@gmail.com
+License: UNKNOWN
+Description: # Vostok
+        
+        A python changelog parser for Keep a Changelog format https://keepachangelog.com/en/1.0.0/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

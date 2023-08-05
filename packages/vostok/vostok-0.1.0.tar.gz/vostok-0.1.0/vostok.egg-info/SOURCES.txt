@@ -1,0 +1,7 @@
+README.md
+setup.py
+vostok/__init__.py
+vostok.egg-info/PKG-INFO
+vostok.egg-info/SOURCES.txt
+vostok.egg-info/dependency_links.txt
+vostok.egg-info/top_level.txt
