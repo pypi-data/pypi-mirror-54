@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+applaunchservices/__init__.py
+applaunchservices/_dummy.py
+applaunchservices/_ls.py
+applaunchservices.egg-info/PKG-INFO
+applaunchservices.egg-info/SOURCES.txt
+applaunchservices.egg-info/dependency_links.txt
+applaunchservices.egg-info/requires.txt
+applaunchservices.egg-info/top_level.txt
