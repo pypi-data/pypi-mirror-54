@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: basisgen
+Version: 1.0.2
+Summary: Package for the generation of operator bases
+Home-page: https://github.com/jccriado/basisgen
+Author: Juan Carlos Criado
+Author-email: jccriadoalamo@ugr.es
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
