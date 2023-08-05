@@ -1,0 +1,8 @@
+aiofiles
+fastapi
+jinja2
+logmuse>=0.2
+starlette
+ubiquerg>=0.5.0
+uvicorn>=0.7.1
+yacman>=0.3
