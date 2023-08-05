@@ -1,0 +1,3 @@
+requests>=2.18.4
+jujubundlelib>=0.5.1
+macaroonbakery>=0.0.6
