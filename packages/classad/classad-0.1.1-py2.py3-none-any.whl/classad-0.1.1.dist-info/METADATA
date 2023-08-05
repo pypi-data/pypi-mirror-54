@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: classad
+Version: 0.1.1
+Summary: Python package to parse and interpret HTCondor classads
+Home-page: https://github.com/MaineKuehn/classad
+License: UNKNOWN
+Keywords: htcondor classad python
+Author: Eileen Kuehn, Max Fischer
+Author-email: mainekuehn@gmail.com
+Description-Content-Type: text/x-rst
+Classifier: License :: OSI Approved :: MIT License
+
+classad
+=======
+
+Python package to parse and interpret HTCondor classads
+
