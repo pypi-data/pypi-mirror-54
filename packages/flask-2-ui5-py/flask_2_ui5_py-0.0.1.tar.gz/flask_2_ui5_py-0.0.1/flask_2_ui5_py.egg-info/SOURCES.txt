@@ -1,0 +1,9 @@
+README.md
+setup.py
+flask_2_ui5_py/__init__.py
+flask_2_ui5_py/json_util.py
+flask_2_ui5_py/message_util.py
+flask_2_ui5_py.egg-info/PKG-INFO
+flask_2_ui5_py.egg-info/SOURCES.txt
+flask_2_ui5_py.egg-info/dependency_links.txt
+flask_2_ui5_py.egg-info/top_level.txt
