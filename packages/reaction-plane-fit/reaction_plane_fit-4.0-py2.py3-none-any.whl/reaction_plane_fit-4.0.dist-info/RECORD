@@ -1,0 +1,16 @@
+reaction_plane_fit/__init__.py,sha256=ez9YvnsGUBZzPBhr5lH4nF1YHEZd1BW-WWEq9__D3uw,639
+reaction_plane_fit/base.py,sha256=PXXBLHJzlBb2iV8CxEMEr-AieePqIuDsxbUYEWHX-7E,6627
+reaction_plane_fit/example.py,sha256=77wxQjKAU0bCgHoeI1yVH8qHgbJElrWaK1ejIEC0_c8,8071
+reaction_plane_fit/fit.py,sha256=lagJaVBpxxLXq3WvKfRh9ircgcdEL2ZmGQXaQGiLwVA,39632
+reaction_plane_fit/functions.py,sha256=cMhOhgvQxuGOWdvF8VKBtE2dRIiBs-2_cVvtfdc4zHE,11653
+reaction_plane_fit/plot.py,sha256=j1jeaDHpXgM3QZiUgnzuY1fYqr9Pa_nQpFF_QUtAYng,11594
+reaction_plane_fit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reaction_plane_fit/three_orientations.py,sha256=6L77GKmSR9nfY46fyNEjgcc_yTpVE8PYzV2J1pMYZBE,18918
+reaction_plane_fit/version.py,sha256=BW1XdGzmoRNNVkKOQ0qiRrPdxGlM01Lm10mcDLMuqJM,747
+reaction_plane_fit/sample_data/__init__.py,sha256=FYgD_KTqeLCJ_-fwmfqvbVBP3_vux4e0zqI4YBrwb84,301
+reaction_plane_fit/sample_data/three_orientations.root,sha256=LPmsFyDj6POsQF1bri-AZ6136KrY92XGzRmwTusCfYI,13057
+reaction_plane_fit-4.0.dist-info/LICENSE,sha256=BVirwEPR2uAk2RYoMBacF8LlgZAUvdUqlzekUdsxU3w,1526
+reaction_plane_fit-4.0.dist-info/METADATA,sha256=oAql1bdagwAC_8LCWlSJlPkAAo5WK9h6XtouRdNwfks,8972
+reaction_plane_fit-4.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+reaction_plane_fit-4.0.dist-info/top_level.txt,sha256=ksBCtaLSSTeSilZEfwUMo_0xDNUQszYoy8IZC4fNe4M,19
+reaction_plane_fit-4.0.dist-info/RECORD,,
