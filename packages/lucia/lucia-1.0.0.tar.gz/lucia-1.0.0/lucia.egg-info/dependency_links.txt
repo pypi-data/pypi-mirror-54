@@ -1,0 +1,5 @@
+https://github.com/NicklasMCHD/PyAL/tarball/master#egg=PyAL
+https://github.com/Accessiware/platform_utils/tarball/master#egg=platform_utils
+https://github.com/Accessiware/libloader/tarball/master#egg=libloader
+https://github.com/Accessiware/sound_lib/tarball/master#egg=sound_lib
+https://github.com/Accessiware/accessible_output2/tarball/master#egg=accessible_output2

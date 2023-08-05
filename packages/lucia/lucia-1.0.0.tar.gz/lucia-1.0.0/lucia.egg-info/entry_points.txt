@@ -1,0 +1,4 @@
+
+[console_scripts]
+lucia.packer=lucia.cli.packer:main
+lucia=lucia.cli:main

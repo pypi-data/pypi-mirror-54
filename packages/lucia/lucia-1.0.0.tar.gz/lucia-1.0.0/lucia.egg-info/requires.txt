@@ -1,0 +1,10 @@
+pygame
+pycryptodomex
+pysoundfile
+numpy
+pyfmodex
+platform_utils
+libloader
+sound_lib
+accessible_output2
+pypiwin32
