@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: BDPapi
+Version: 0.0.8
+Summary: BDP api
+Home-page: https://github.com/haizhiml/BDP
+Author: blue
+Author-email: xuguozheng@haizhi.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.16.2)
+Requires-Dist: requests (>=2.21.0)
+
+BDP api
+
+

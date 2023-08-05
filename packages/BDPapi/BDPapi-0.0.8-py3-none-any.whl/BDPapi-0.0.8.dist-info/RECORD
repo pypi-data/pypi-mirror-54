@@ -1,0 +1,10 @@
+BDP/__init__.py,sha256=TgPo3wLzkU_I2BmNMWlLOPtK2pJJ7xLceNSfFwvZk2w,36
+BDP/api.py,sha256=fuq8KIDpS0HlrX6xouvFtTmE2bXO5CRit4ZcwIK7FFo,2297
+BDP/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BDP/utils/test.py,sha256=85_TKG_FLVm2hVpNel1pFTOJPdpbIVB96v6jZRCdm18,1211
+BDP/utils/util.py,sha256=xw4gsHL7z9rUWLbmyZj8kL5uhNbKW8foyUrvevlRAmU,651
+BDPapi-0.0.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+BDPapi-0.0.8.dist-info/METADATA,sha256=L69Ojja5UmlQvUT3zKE-imaJwPeuVlwyZfoAaOdBy3I,481
+BDPapi-0.0.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+BDPapi-0.0.8.dist-info/top_level.txt,sha256=pSLI52WLQ__VUF4iO3pcYAj5evA67pj9-4j2mtX9JRM,4
+BDPapi-0.0.8.dist-info/RECORD,,
