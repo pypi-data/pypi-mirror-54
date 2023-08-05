@@ -1,0 +1,38 @@
+branches:
+  only:
+    - master
+
+environment:
+  matrix:
+    - PYTHON: "C:\\Python27"
+    - PYTHON: "C:\\Python35"
+    - PYTHON: "C:\\Python36"
+    - PYTHON: "C:\\Python37"
+    # TODO - PYTHON: "C:\\Python38"
+    # https://www.appveyor.com/docs/windows-images-software/#python
+
+  TOXENV: "py"
+
+init:
+  - SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%
+  # Check that we have the expected version and architecture for Python
+  - python -V
+  - python -c "import struct;print(8 * struct.calcsize('P'))"
+
+install:
+  # Check tooling versions and upgrade to latest
+  # TODO: It's probably safer to pin the versions
+  # Using `python -m pip` to avoid `Access is denied` error
+  - python -m pip list
+  - python -m pip install -U setuptools pip virtualenv tox
+
+ # Not a C# project, build stuff at the test step instead
+build: false
+
+test_script:
+  - tox
+
+cache:
+  # Speed up future runs by caching installed packages
+  # TODO: Might want to periodically clean this up
+  - '%LOCALAPPDATA%\pip\Cache'
