@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: urlspy
+Version: 0.0.1
+Summary: [WIP] Get information about URLs
+License: MIT
+Author: Keshab Paudel
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: aiodns (>=2.0,<3.0)
+Requires-Dist: aiohttp (>=3.6,<4.0)
+Requires-Dist: ruia (>=0.6.2,<0.7.0)
