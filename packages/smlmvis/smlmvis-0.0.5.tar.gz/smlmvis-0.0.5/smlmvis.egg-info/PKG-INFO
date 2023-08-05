@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: smlmvis
+Version: 0.0.5
+Summary: Superresolution visualization of 3D protein localization data from a range of microscopes
+Home-page: https://github.com/bencardoen/smlmvis
+Author: Ben Cardoen
+Author-email: bcardoen@sfu.ca
+License: GPLv3
+Download-URL: https://github.com/bencardoen/smlmvis/archive/v0.0.5.tar.gz
+Description: UNKNOWN
+Keywords: smlmvis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
