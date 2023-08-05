@@ -1,0 +1,9 @@
+musicbrainzngs
+python-mpd2
+
+[mpv]
+python-mpv
+
+[tk]
+pil
+tk
