@@ -1,0 +1,64 @@
+// NLDSL (c) 2019 by Kevin Kiefer <abc.kiefer@gmail.com>, Heidelberg University
+//
+// NLDSL is licensed under a
+// Creative Commons Attribution-NonCommercial 3.0 Unported License.
+//
+// You should have received a copy of the license along with this
+// work.  If not, see <http://creativecommons.org/licenses/by-nc/3.0/>.
+
+OrExpr:
+	exprs+=AndExpr['or']
+;
+
+AndExpr:
+	exprs+=NotExpr['and']
+;
+
+NotExpr:
+	'not' exprs*=NotExpr['not'] | comp=ComparisonExpr
+;
+
+ComparisonExpr:
+	lhs=ArithExpr rhs*=ComparisonExprRhs
+;
+
+ComparisonExprRhs:
+	operator=ComparisonOperator expr=ArithExpr
+;
+
+ArithExpr:
+	lhs=TermExpr rhs*=ArithExprRhs
+;
+
+ArithExprRhs:
+	(operator='+' | operator='-') expr=TermExpr
+;
+
+TermExpr:
+	lhs=FactorExpr rhs*=TermExprRhs
+;
+
+TermExprRhs:
+	(operator='*' | operator='/' | operator='%') expr=FactorExpr
+;
+
+FactorExpr:
+	(operator='+' | operator='-') factor=FactorExpr | expr=PowerExpr
+;
+
+PowerExpr:
+	atom=AtomExpr ('**' factor=FactorExpr)?
+;
+
+AtomExpr:
+	'[' value_list*=TYPE ']' | '(' dyck_expr=OrExpr ')' | value=TYPE | expr=OrExpr
+;
+
+// The order of operators is important
+ComparisonOperator:
+	'>=' | '<=' | '==' | '!=' | '<>' | '<' | '>' | 'not in' | 'is not' | 'in' | 'is'
+;
+
+TYPE:
+	value="0" | float=FLOAT | value=INT | value=BOOL | string=STRING | value=/[^\d\W](\w|\.)*\b/ 
+;
