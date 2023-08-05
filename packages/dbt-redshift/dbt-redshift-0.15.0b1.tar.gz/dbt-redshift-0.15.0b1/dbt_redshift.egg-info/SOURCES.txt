@@ -1,0 +1,7 @@
+README.md
+setup.py
+dbt_redshift.egg-info/PKG-INFO
+dbt_redshift.egg-info/SOURCES.txt
+dbt_redshift.egg-info/dependency_links.txt
+dbt_redshift.egg-info/requires.txt
+dbt_redshift.egg-info/top_level.txt
