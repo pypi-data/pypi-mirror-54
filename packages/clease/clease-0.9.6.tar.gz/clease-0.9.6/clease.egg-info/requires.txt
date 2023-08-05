@@ -1,0 +1,3 @@
+ase>=3.18
+matplotlib
+spglib
