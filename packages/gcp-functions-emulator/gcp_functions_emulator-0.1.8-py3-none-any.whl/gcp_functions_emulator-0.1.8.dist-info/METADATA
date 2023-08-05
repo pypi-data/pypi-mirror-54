@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gcp-functions-emulator
+Version: 0.1.8
+Summary: Emulator for Google Cloud Functions to run in local
+Home-page: https://gitlab.com/divisadero/cloud-functions-python-emulator
+Author: Daniel Iñigo
+Author-email: danielinigobanos@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: Flask
+Requires-Dist: Click
+
+UNKNOWN
+
+
