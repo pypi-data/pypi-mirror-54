@@ -1,0 +1,12 @@
+README.md
+setup.py
+twks/__init__.py
+twks/client/__init__.py
+twks/client/twks_client.py
+twks/nanopub/__init__.py
+twks/nanopub/nanopublication.py
+twks_client.egg-info/PKG-INFO
+twks_client.egg-info/SOURCES.txt
+twks_client.egg-info/dependency_links.txt
+twks_client.egg-info/requires.txt
+twks_client.egg-info/top_level.txt
