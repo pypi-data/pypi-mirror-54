@@ -1,0 +1,12 @@
+README.md
+setup.py
+aih_codegen/__init__.py
+aih_codegen/generate.py
+aih_codegen/template.py
+aih_codegen.egg-info/PKG-INFO
+aih_codegen.egg-info/SOURCES.txt
+aih_codegen.egg-info/dependency_links.txt
+aih_codegen.egg-info/not-zip-safe
+aih_codegen.egg-info/requires.txt
+aih_codegen.egg-info/top_level.txt
+bin/aih
