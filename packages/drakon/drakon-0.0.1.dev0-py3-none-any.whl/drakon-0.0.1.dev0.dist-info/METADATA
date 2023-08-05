@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: drakon
+Version: 0.0.1.dev0
+Summary: Drakon is LLVM-based HotSpot-style Optimizing JIT Compiler for CPython
+Home-page: https://www.drakon.cc
+Author: Karellen, Inc.
+Author-email: supervisor@karellen.co
+Maintainer: Arcadiy Ivanov
+Maintainer-email: arcadiy@ivanov.biz
+License: Apache License, Version 2.0
+Download-URL: https://pypi.com/project/drakon
+Project-URL: Bug Tracker, https://github.com/karellen/drakon/issues
+Project-URL: Source Code, https://github.com/karellen/drakon/
+Project-URL: Documentation, https://www.drakon.cc
+Project-URL: Website, https://www.drakon.cc
+Keywords: cpython python jit llvm compiler
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Assemblers
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: <3.9,>=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+
+========================================================================
+ Drakon is LLVM-based HotSpot-style Optimizing JIT Compiler for CPython
+========================================================================
+
+.. warning::
+    HIC SUNT DRACONES!!! (pun intended)
+
+    There is nothing to see here for now. Stay away.
+
+Problem
+=======
+
+What we're solving.
+
+Solution
+========
+
+How we're solving it.
+
+Contact Us
+==========
+
+Post feedback and issues on the `Bug Tracker`_, `Gitter`_,
+and `Twitter (@karelleninc)`_.
+
+.. _bug tracker: https://github.com/karellen/drakon/issues
+.. _gitter: https://gitter.im/karellen/Lobby
+.. _twitter (@karelleninc): https://twitter.com/karelleninc
+.. _pypi: https://pypi.org/project/drakon/
