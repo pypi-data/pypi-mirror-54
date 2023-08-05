@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+SUSTech/__init__.py
+SUSTech.egg-info/PKG-INFO
+SUSTech.egg-info/SOURCES.txt
+SUSTech.egg-info/dependency_links.txt
+SUSTech.egg-info/top_level.txt
