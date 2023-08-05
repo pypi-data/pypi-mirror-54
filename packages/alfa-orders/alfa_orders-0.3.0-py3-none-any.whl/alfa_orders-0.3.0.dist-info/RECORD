@@ -1,0 +1,15 @@
+alfa_orders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alfa_orders/api.py,sha256=uUIa70v9LE-G0yefGdsOTW_rVBpdDX4ggciFGJFWNug,1677
+alfa_orders/columns.py,sha256=MXoreAx-s4xfIl2OqVcqqyIbRq_seTrTSxVU2FHH_J4,3195
+alfa_orders/config.py,sha256=BHJdLCaRfISwck1qDo4-dVsxX5_PLkAZcqgiP1fyCnA,455
+alfa_orders/loaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alfa_orders/loaders/base.py,sha256=HQiHk1Hz8ftRofsuxQXdt8CgidwxlfFCI8WSMOU3hhc,2220
+alfa_orders/loaders/refunds.py,sha256=7BlC5KvvOsuXywWLf5gPKHm0JvGTV5EkkGS66pAzRRU,2137
+alfa_orders/loaders/transactions.py,sha256=-t0bOvFue8_fMf3D-ijng0fYketvTMRzfFX9fGAJv9c,2534
+alfa_orders/models.py,sha256=kl9TrY4P_DfObvCxPhSPRu4rqGuC3YXeeBJ8U5tSJJA,319
+alfa_orders/processors.py,sha256=2PQgP9hWTNqlyqBGqwsfO4ZDeBRVAzUqX3KYRrsHCaM,1732
+alfa_orders/session.py,sha256=3yRcJRKvb855pWud5xUbx-W9_EiBoM1oXo2BkFyv72c,763
+alfa_orders/utils.py,sha256=_1IKv15mC4CsWlzuIOCVWOvoHvsyPE7Ug8p-sKCVZlE,431
+alfa_orders-0.3.0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+alfa_orders-0.3.0.dist-info/METADATA,sha256=flE3eoo0oq7yeozW06vYOnR3KI3AXWY-0U_pJBUpBcs,971
+alfa_orders-0.3.0.dist-info/RECORD,,
