@@ -1,0 +1,3 @@
+[console_scripts]
+irida_uploader_cl = irida_uploader_cl.irida_uploader_cl:main
+
