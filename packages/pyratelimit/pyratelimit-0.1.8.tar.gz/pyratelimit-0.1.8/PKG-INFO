@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: pyratelimit
+Version: 0.1.8
+Summary: A distributed rate limiting library for python using leaky bucket algorithm and Redis
+Home-page: https://github.com/ascheucher/pyratelimit
+Author: Biplap Sarkar, Andreas Scheucher
+Author-email: andreas.scheucher@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: rate limiting,throttle,redis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
