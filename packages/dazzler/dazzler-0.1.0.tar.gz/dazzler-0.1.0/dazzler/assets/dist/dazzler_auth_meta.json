@@ -1,0 +1,208 @@
+{
+  "src/auth/js/components/Login.jsx": {
+    "description": "A login form to include on dazzler pages.\n\n:CSS:\n\n    ``dazzler-auth-login``\n    - ``login-field``\n    - ``login-label``\n    - ``login-input``\n    - ``login-username``\n    - ``login-password``\n    - ``login-button``",
+    "displayName": "Login",
+    "methods": [],
+    "props": {
+      "login_url": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The url to perform login."
+      },
+      "next_url": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Redirect to this page after login."
+      },
+      "method": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Method to submit the login form.",
+        "defaultValue": {
+          "value": "'POST'",
+          "computed": false
+        }
+      },
+      "username_label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The label to show before the.",
+        "defaultValue": {
+          "value": "'Username'",
+          "computed": false
+        }
+      },
+      "password_label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Label to replace the password.",
+        "defaultValue": {
+          "value": "'Password'",
+          "computed": false
+        }
+      },
+      "submit_label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Label for the submit button.",
+        "defaultValue": {
+          "value": "'Login'",
+          "computed": false
+        }
+      },
+      "horizontal": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Style the form with the fields side by side."
+      },
+      "bordered": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Apply a border around the"
+      },
+      "placeholder_labels": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Put the label in placeholder attribute instead of a `<label>` element."
+      },
+      "header": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Included as first child of the form.\nWrapped under div with CSS class ``login-header``"
+      },
+      "footer": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Included at bottom of the login form.\nWrapped under div with CSS class ``login-footer``"
+      },
+      "errors": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Form errors"
+      },
+      "class_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": ""
+      },
+      "identity": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "updateAspects": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  },
+  "src/auth/js/components/Logout.jsx": {
+    "description": "A logout button.\n\n:CSS:\n\n    ``dazzler-auth-logout``\n    - ``logout-button``",
+    "displayName": "Logout",
+    "methods": [],
+    "props": {
+      "logout_url": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "Logout url"
+      },
+      "next_url": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Redirect to this page after logout."
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Label of the logout button.",
+        "defaultValue": {
+          "value": "'Logout'",
+          "computed": false
+        }
+      },
+      "method": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Method to submit the logout form.",
+        "defaultValue": {
+          "value": "'POST'",
+          "computed": false
+        }
+      },
+      "class_name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": ""
+      },
+      "identity": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "updateAspects": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}
