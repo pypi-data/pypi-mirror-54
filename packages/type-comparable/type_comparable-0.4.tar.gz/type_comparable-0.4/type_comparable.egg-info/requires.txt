@@ -1,0 +1,14 @@
+wrapt
+
+[:python_version <= "3.5"]
+typing
+
+[develop]
+wheel
+twine
+docutils
+Pygments
+pytest
+pytest-xdist
+coverage
+tox
