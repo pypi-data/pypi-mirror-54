@@ -1,0 +1,15 @@
+beren/VERSION,sha256=h7JBsnXFkWlIRlYOmHn1DJ2jFQ-FTv2r14LFOXcvMDM,6
+beren/__init__.py,sha256=nez-UL-HKR2CvivvUY0VnEYEygpW6OdAka9mMeG-CAY,657
+beren/orthanc.py,sha256=GOpnkW9qq1KX90E7Sb-5HZTNorOjZ2kSpD7UdVCw78I,38512
+beren/endpoints/__init__.py,sha256=OSc-BplYdHlwaS8m1hP1q5NRVS4lbGKyxlXR-GLeI78,431
+beren/endpoints/instances.py,sha256=VBsBmrP1TYplFtD5DqGttp8JSxtjeLGbGjNV1zJNXy8,4497
+beren/endpoints/misc.py,sha256=RCPiTAaPuG-430qatfCxX1qRBIDpwtU_SC_HLVzXRaQ,3864
+beren/endpoints/modalities.py,sha256=P3r49rV3QsQoZam7pgHjxm1RoVkrf13pfkwugUg-i9M,1342
+beren/endpoints/patients.py,sha256=F22v3J91Y-SZG8m0zdEu69WlPV99wGtArkBtdj_RQ8g,3735
+beren/endpoints/queries.py,sha256=-dkqXnZyTldp1QKiEJAaamq0QvgNiAB4cpjS7f1P3oA,1803
+beren/endpoints/series.py,sha256=Y6azItB1KHbt-9Dkcf_8I9XaRa7IDxi_vrNAl0XyWX0,3557
+beren/endpoints/studies.py,sha256=ynbMKT3nwOgeSuExtLRt1uqlGiULrpVmjGRdI-Msd7I,3623
+beren-0.6.1.dist-info/METADATA,sha256=Dfv_mqWgYQyFL-1PW9nJ89N3c1HbIcRCwtskILH6IaQ,3190
+beren-0.6.1.dist-info/RECORD,,
+beren-0.6.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+beren-0.6.1.dist-info/top_level.txt,sha256=yG37IjHUI0tHVMo1TUybUDnzPHmDPEL0s4XB64_GpWk,6
