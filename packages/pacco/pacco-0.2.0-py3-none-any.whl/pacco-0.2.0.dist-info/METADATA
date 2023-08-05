@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pacco
+Version: 0.2.0
+Summary: A simple package manager (used for prebuilt binary), interoperable with Nexus repository manager
+Home-page: https://kwinata.github.io/pacco/
+Author: Kevin Winata
+Author-email: kevinwinatamichael@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: PyYAML
+
+UNKNOWN
+
+
