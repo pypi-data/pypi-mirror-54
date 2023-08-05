@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: getthat
+Version: 0.0.2
+Summary: getthat i dont care if i don't have it.(pip3 install if modulenotfound)
+Home-page: https://github.com/eaybek/getthat
+Author: Erdem Aybek
+Author-email: eaybek@gmail.com
+License: UNKNOWN
+Description: 
+        [github](https://github.com/eaybek/getthat/)  
+        [PyPi](https://pypi.org/project/getthat/)  
+        
+        getthat  
+        
+        i dont care if i don't have it.  
+        (pip3 install if modulenotfound)  
+        
+        
+        
+        ```python3
+        from getthat import getthat
+        
+        
+        # from sna.search import Sna
+        Sna = getthat("sna.search", "Sna")
+        
+        
+        sna = Sna()
+        
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
