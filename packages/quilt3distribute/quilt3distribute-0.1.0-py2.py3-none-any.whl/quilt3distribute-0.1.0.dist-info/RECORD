@@ -1,0 +1,13 @@
+quilt3distribute/__init__.py,sha256=tndXhQMPs7DgI5DcnOytRJz8-fLELVVpbyOmP7qbR0w,326
+quilt3distribute/dataset.py,sha256=CePYhJZ8Br3Qb-au5dXGJsEwk7jRpk5WNyeDHsL3dsI,22816
+quilt3distribute/documentation.py,sha256=btswAQXB_KhdeSDR0u0qM_7l-FqSmAnhsPOdshbe4IE,5698
+quilt3distribute/file_utils.py,sha256=ljPgSlERqjs05fe3WLiTQYAq4I-cK4NE0rC6tuc-1DQ,487
+quilt3distribute/validation.py,sha256=T_N0FwMzlqH1Zs63AcJNPSqOAmPYCMMcHBTgcyeD4cg,18158
+quilt3distribute/bin/__init__.py,sha256=FYMq00muT4cTnhG6USDKAYJeLrrMmf5ZwYrrP__C66Y,73
+quilt3distribute/bin/quilt3_distribute_dataset.py,sha256=4OqmRK3JyrhUp5eG_jWV_cJlWhtimsQVV_X6sdOKWRE,5553
+quilt3distribute-0.1.0.dist-info/LICENSE,sha256=6XGwvhk6YBrr4OMs2QU-wVfw6nY2R-Yf4gaizAPaiK8,1960
+quilt3distribute-0.1.0.dist-info/METADATA,sha256=DDAjbt1COL8mzgatr7uCHlQ9cy_3SNp5X7g0QRXnVgU,7394
+quilt3distribute-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+quilt3distribute-0.1.0.dist-info/entry_points.txt,sha256=UR_2t8XXCXv651nefn_GwG2mz39zc-BW3PV5qIz9iI8,99
+quilt3distribute-0.1.0.dist-info/top_level.txt,sha256=n7wDGIzlv51zHM-YCj21H5lB3I9nNwdXEwkfbqvQt7A,17
+quilt3distribute-0.1.0.dist-info/RECORD,,
