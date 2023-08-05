@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: miniabm
+Version: 0.0.1
+Summary: Minimalist tool for agent-based modeling in python
+Home-page: https://github.com/davidnsousa/miniabm
+Author: David Naves Sousa
+Author-email: davidnsousa@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# miniabm
+
+miniabm is a minimalist tool for agent-based modeling in python. This package allows the user to easily create objects with prespecified attributes, group the objects according the their attributes and change them dynamically in a batch.
+
+## Get the package
+
+To download miniabm, either fork this github repo or use Pypi via pip:
+
+`pip install miniabm`
+
+## Usage
+
+Read the [docs](http://htmlpreview.github.io/?http://github.com/davidnsousa/miniabm/blob/master/doc.html) and see [examples here](http://github.com/davidnsousa/miniabm/tree/master/examples) to quickly get started.
+
