@@ -1,0 +1,5 @@
+setup.py
+Hextapus.egg-info/PKG-INFO
+Hextapus.egg-info/SOURCES.txt
+Hextapus.egg-info/dependency_links.txt
+Hextapus.egg-info/top_level.txt
