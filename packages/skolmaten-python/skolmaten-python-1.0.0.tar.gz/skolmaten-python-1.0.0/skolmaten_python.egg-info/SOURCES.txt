@@ -1,0 +1,9 @@
+README.md
+setup.py
+skolmaten/__init__.py
+skolmaten/skolmaten.py
+skolmaten_python.egg-info/PKG-INFO
+skolmaten_python.egg-info/SOURCES.txt
+skolmaten_python.egg-info/dependency_links.txt
+skolmaten_python.egg-info/requires.txt
+skolmaten_python.egg-info/top_level.txt
