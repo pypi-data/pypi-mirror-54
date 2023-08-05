@@ -1,0 +1,17 @@
+README.rst
+setup.py
+flair/__init__.py
+flair/data.py
+flair/embeddings.py
+flair/file_utils.py
+flair/nn.py
+flair/setup.py
+flair/training_utils.py
+flair/models/__init__.py
+flair/models/language_model.py
+flair/models/text_classification_model.py
+flairstreamlined.egg-info/PKG-INFO
+flairstreamlined.egg-info/SOURCES.txt
+flairstreamlined.egg-info/dependency_links.txt
+flairstreamlined.egg-info/requires.txt
+flairstreamlined.egg-info/top_level.txt

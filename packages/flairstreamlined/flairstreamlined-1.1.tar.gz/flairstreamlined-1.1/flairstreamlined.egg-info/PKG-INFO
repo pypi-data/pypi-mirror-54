@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: flairstreamlined
+Version: 1.1
+Summary: streamlined version of flair to use with aws lambda
+Home-page: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.6
