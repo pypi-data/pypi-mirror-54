@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: notebook_parameterizer
+Version: 0.0.2
+Summary: A tool to generate parameterized Jupyter Notebooks
+Home-page: https://github.com/rasmunk/notebook_parameterizer
+Author: Rasmus Munk
+Author-email: rasmus.munk@nbi.ku.dk
+License: MIT
+Project-URL: Source Code, https://github.com/rasmunk/notebook_parameterizer
+Description: .. image:: https://travis-ci.org/rasmunk/notebook_parameterizer.svg?branch=master
+            :target: https://travis-ci.org/rasmunk/notebook_parameterizer
+        
+        ======================
+        notebook_parameterizer
+        ======================
+        
+        A tool to generate parameterized Jupyter Notebooks.
+        
+        
+Keywords: jupyter notebook parameters
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test
+Provides-Extra: dev
