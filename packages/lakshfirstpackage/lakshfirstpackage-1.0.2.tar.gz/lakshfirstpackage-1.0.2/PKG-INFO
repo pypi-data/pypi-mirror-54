@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lakshfirstpackage
+Version: 1.0.2
+Summary: Read the latest Real Python tutorials
+Home-page: https://github.com/realpython/reader
+Author: Real Python
+Author-email: office@realpython.com
+License: MIT
+Description: Dummy readme
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

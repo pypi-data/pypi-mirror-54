@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+lakshfirstpackage.egg-info/PKG-INFO
+lakshfirstpackage.egg-info/SOURCES.txt
+lakshfirstpackage.egg-info/dependency_links.txt
+lakshfirstpackage.egg-info/entry_points.txt
+lakshfirstpackage.egg-info/requires.txt
+lakshfirstpackage.egg-info/top_level.txt
+reader/__init__.py
+reader/__main__.py
+reader/config.txt
+reader/feed.py
+reader/viewer.py
