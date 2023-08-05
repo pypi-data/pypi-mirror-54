@@ -1,0 +1,5 @@
+grpclib
+
+[compiler]
+jinja2
+protobuf
