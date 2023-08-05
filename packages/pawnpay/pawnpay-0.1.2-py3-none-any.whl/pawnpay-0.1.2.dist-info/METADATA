@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pawnpay
+Version: 0.1.2
+Summary: The official Python client library for the Pawn Payment Solutions API
+Home-page: https://pawn-pay.com
+Author: Pawn Payment Solutions
+Author-email: support@pawn-pay.com
+License: GNUv3
+Keywords: pawn,pay,pawn-pay,client,pawnmaster,pawndex,api
+Platform: UNKNOWN
+Requires-Dist: sentry-sdk
+Requires-Dist: loguru
+Requires-Dist: requests
+Requires-Dist: ratelimit
+Requires-Dist: sqlalchemy
+Requires-Dist: Cython
+Requires-Dist: pymssql
+Requires-Dist: pyodbc
+Requires-Dist: fuzzywuzzy
+Requires-Dist: python-Levenshtein-wheels
+Requires-Dist: yaspin
+
+UNKNOWN
+
+
