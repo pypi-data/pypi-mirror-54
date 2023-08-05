@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mannequin
+Version: 0.0.1
+Summary: Neural network implementation in pure python
+Author: Kracekumar
+Author-email: me@kracekumar
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy (>=1.17,<2.0)
