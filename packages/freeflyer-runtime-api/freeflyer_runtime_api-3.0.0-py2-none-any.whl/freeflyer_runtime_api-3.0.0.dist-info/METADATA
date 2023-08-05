@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: freeflyer-runtime-api
+Version: 3.0.0
+Summary: Python interface to the FreeFlyer® Runtime API
+Home-page: https://ai-solutions.com/freeflyer/
+Author: a.i. solutions, Inc.
+Author-email: techsupport@ai-solutions.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+
+FreeFlyer® is a commercial off-the-shelf (COTS) software application for space mission design, analysis, and operations. The FreeFlyer® Runtime API is a tool allowing users to interface directly with the FreeFlyer® engine from other programming languages.
+
+To use the API, import the `RuntimeApiEngine` class from the `freeflyer_runtime_api` package. Documentation and examples can by found in the FreeFlyer® installation.
+
+
