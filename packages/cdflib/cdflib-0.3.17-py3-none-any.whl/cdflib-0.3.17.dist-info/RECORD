@@ -1,0 +1,12 @@
+cdflib/CDFLeapSeconds.txt,sha256=teXCXfCh65q6cBp_S75sLBHYrFLFjM801FaRdLrCZ8A,2118
+cdflib/__init__.py,sha256=zlwcYy1N1D7FEeA6KUFmlGLAvVvg8R_sMjG9BwTVZ9g,601
+cdflib/cdfread.py,sha256=pN7VV2wL6ySQ7Sb50e0hg873pc_7LWVKjz5TuB9RkV0,98640
+cdflib/cdfwrite.py,sha256=p7sxuW618_zSYGtFzrZaxueJtTc1QrPvdDRHwfBK3u8,102942
+cdflib/epochs.py,sha256=kGT6f1RssVzAHN_h5PXMePj0nh2nR9mQN9hkNyoX_Z0,70676
+cdflib/epochs_astropy.py,sha256=YysLYuazEuXNNHVcGwlUlQhDgNcAO230_KrDd1GWUdw,11056
+cdflib-0.3.17.dist-info/LICENSE,sha256=1SK37h25LCtG9iM7-OBtHJw8Y1mokv-zQMpKJoBW62w,1066
+cdflib-0.3.17.dist-info/METADATA,sha256=xR-Ez-g104oF6erzAVl0drKLxP4e-rmaH-pvrov3UTI,26066
+cdflib-0.3.17.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cdflib-0.3.17.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+cdflib-0.3.17.dist-info/top_level.txt,sha256=f2USJXVPav3IonOXd7gLbYOcJ-LX3LILK3fPPuidKyI,7
+cdflib-0.3.17.dist-info/RECORD,,
