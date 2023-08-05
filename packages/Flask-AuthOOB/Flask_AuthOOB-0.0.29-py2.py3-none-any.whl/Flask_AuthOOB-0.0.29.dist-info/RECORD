@@ -1,0 +1,9 @@
+flask_authoob/__init__.py,sha256=70VdjyXygkL3CSTq_Xs9cBcsLCf7_R1eMLhF7i23xAg,5712
+flask_authoob/email_provider.py,sha256=jWVmYuz3ubwtfyNv20heRmGJItnXoGAgCFioUom7v8U,1039
+flask_authoob/hooks.py,sha256=8M2uhXQHng1UsiIxQkEaiexCXjd9PnP0mit_EPqv8G8,269
+flask_authoob/routes.py,sha256=v3wKUpC8AuGpuc7rMJe9alYFp-BSMJEzi-Z_PZAz61U,11015
+Flask_AuthOOB-0.0.29.dist-info/LICENSE,sha256=548oOCrCNqQty8Fsqqry522lXdxnBTqLyzqr38ct-cw,1040
+Flask_AuthOOB-0.0.29.dist-info/METADATA,sha256=03npGIXD1MvKCmsD_5X1EG5xyJT1U_5bf9yZfMVCbqo,11616
+Flask_AuthOOB-0.0.29.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+Flask_AuthOOB-0.0.29.dist-info/top_level.txt,sha256=Dr59a67NdWe3Q7CR4swwuTELfanl8GnZTgDzSVkJRR8,14
+Flask_AuthOOB-0.0.29.dist-info/RECORD,,
