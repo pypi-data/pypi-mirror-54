@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: html5prescan
+Version: 0.1.0
+Summary: Prescan a byte string and return WHATWG and Python encoding names.
+Home-page: https://github.com/openandclose/html5prescan
+Author: Open Close
+Author-email: openandclose23@gmail.com
+License: MIT
+Description: Prescan a byte string and return WHATWG and Python encoding names.
+        
+        See https://github.com/openandclose/html5prescan
+        
+        License: MIT
+Keywords: html html5 WHATWG prescan sniff meta charset
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Utilities
+Requires-Python: ~=3.5

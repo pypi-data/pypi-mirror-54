@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+VERSION
+setup.py
+src/html5prescan/__init__.py
+src/html5prescan/encodings.json
+src/html5prescan/replacement.py
+src/html5prescan/scan.py
+src/html5prescan.egg-info/PKG-INFO
+src/html5prescan.egg-info/SOURCES.txt
+src/html5prescan.egg-info/dependency_links.txt
+src/html5prescan.egg-info/entry_points.txt
+src/html5prescan.egg-info/not-zip-safe
+src/html5prescan.egg-info/top_level.txt

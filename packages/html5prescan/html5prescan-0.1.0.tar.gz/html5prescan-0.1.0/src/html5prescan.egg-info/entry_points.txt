@@ -1,0 +1,3 @@
+[console_scripts]
+html5prescan = html5prescan.scan:main
+
