@@ -1,0 +1,8 @@
+PyYAML
+pexpect
+paramiko
+pyte
+tqdm
+gevent
+setuptools
+configParser
