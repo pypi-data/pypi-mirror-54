@@ -1,0 +1,15 @@
+boost_histogram/__init__.py,sha256=ThvRU5wbTBfrc2jKcWvnBPROHaG9HVBUYwOW7ep-SsY,269
+boost_histogram/_hist.py,sha256=bDjxTjKHlPeMJJAmr1aEM5cejUOmdvOBCJBm8S6-JbI,5442
+boost_histogram/accumulators.py,sha256=aBXHgwIlXJXzC-jUUpnkyV3DcqO9vvstSQ5Uy_JtYaw,139
+boost_histogram/algorithm.py,sha256=-s6Ej2DQTdQQ6SP7ZfCKOtHz38mpLZQ-Z7fJSK3uEHk,403
+boost_histogram/axis.py,sha256=D8Ey-_jexc1N5AIgQTcFhYltVlokdMKTncnPdKQGG-I,4985
+boost_histogram/core.pyd,sha256=tiigFJvd8hQYR87VIBOCYM-Woqfo6KFu87-uRJ22Jvo,3793920
+boost_histogram/numpy.py,sha256=4sP2nYqFri1csgCGjD5qmdRsgLfEeAyjXtWjnLh5ghE,3355
+boost_histogram/storage.py,sha256=G_3QLqcSuRJYCjLS9AVDI-2uNuFFQcw2TPBe8OTGyp0,200
+boost_histogram/utils.py,sha256=Q5WVIo2arTvECd7RusvpVsPxuCR4Qmvv6J4wbf-G6aE,1708
+boost_histogram/version.py,sha256=pZzEdsuAE3uDnTsMODkFABqmk03QJAN-SEFrFRq4y1U,23
+boost_histogram-0.5.0.dist-info/LICENSE,sha256=n4tp_g7uevreIdznc50ply9jGfdRMzJSomaUZMfDwxE,1568
+boost_histogram-0.5.0.dist-info/METADATA,sha256=WBLM1y0ObqgpMLhyl5vahr1-dno7k69ynS9g6GYd9CA,12061
+boost_histogram-0.5.0.dist-info/WHEEL,sha256=2Nylt3wmSMBMjHPKa3YR_rTipDZoAXpZfo_3s2qq0lk,106
+boost_histogram-0.5.0.dist-info/top_level.txt,sha256=579QoqRGNl906tvR9rXRmL7MejoQEbCbaFW9wc_7Y70,16
+boost_histogram-0.5.0.dist-info/RECORD,,
