@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: TurnonModbusTCP
+Version: 0.0.2
+Summary: Turnon-Tech for Franka Modbus
+Home-page: http://pypi.org/user/n159951357753/
+Author: Kevin Wang
+Author-email: n159951357753159@gmail.com
+License: MIT
+Description: Turnon-Tech for Franka Modbus
+Platform: any
