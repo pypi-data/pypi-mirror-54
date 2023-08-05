@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+install_party/__init__.py
+install_party/__main__.py
+install_party.egg-info/PKG-INFO
+install_party.egg-info/SOURCES.txt
+install_party.egg-info/dependency_links.txt
+install_party.egg-info/requires.txt
+install_party.egg-info/top_level.txt
+install_party/creator/__init__.py
+install_party/creator/create.py
+install_party/creator/post_create.sh
