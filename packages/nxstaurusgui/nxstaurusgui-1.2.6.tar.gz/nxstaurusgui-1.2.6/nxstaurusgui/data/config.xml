@@ -1,0 +1,26 @@
+<taurusgui_config>
+  <GUI_NAME>Experiment Control Panel</GUI_NAME>
+  <ORGANIZATION>DESY</ORGANIZATION>
+  <ORGANIZATION_LOGO>data/desylogo.png</ORGANIZATION_LOGO>
+  <CUSTOM_LOGO/>
+  <PanelDescriptions>
+    <PanelDescription>
+      <name>NXSelector</name>
+      <classname>Selector</classname>
+      <modulename>nxsselector.Selector</modulename>
+      <floating>False</floating>
+      <sharedDataWrite>
+	<item datauid="expConfChanged" signalName="experimentConfigurationChanged" />
+	<item datauid="doorName" signalName="doorName" />
+      </sharedDataWrite>
+      <sharedDataRead>
+	<item datauid="expConfChanged" slotName="resetConfiguration" />
+	<item datauid="doorName" slotName="updateDoorName" />
+      </sharedDataRead>
+      <model>module</model>
+    </PanelDescription>
+  </PanelDescriptions>
+  <MACROSERVER_NAME>macroserver</MACROSERVER_NAME>
+  <DOOR_NAME>door</DOOR_NAME> 
+  <INSTRUMENTS_FROM_POOL>False</INSTRUMENTS_FROM_POOL>
+</taurusgui_config>
