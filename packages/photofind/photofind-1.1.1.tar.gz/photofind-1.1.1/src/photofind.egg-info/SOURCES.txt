@@ -1,0 +1,13 @@
+README.md
+VERSION
+setup.cfg
+setup.py
+src/photofind/__init__.py
+src/photofind/photofind.py
+src/photofind/version.py
+src/photofind.egg-info/PKG-INFO
+src/photofind.egg-info/SOURCES.txt
+src/photofind.egg-info/dependency_links.txt
+src/photofind.egg-info/entry_points.txt
+src/photofind.egg-info/requires.txt
+src/photofind.egg-info/top_level.txt
