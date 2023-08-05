@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+ubgrade/__init__.py
+ubgrade/exam_template.tex
+ubgrade/ubgrade.py
+ubgrade.egg-info/PKG-INFO
+ubgrade.egg-info/SOURCES.txt
+ubgrade.egg-info/dependency_links.txt
+ubgrade.egg-info/requires.txt
+ubgrade.egg-info/top_level.txt

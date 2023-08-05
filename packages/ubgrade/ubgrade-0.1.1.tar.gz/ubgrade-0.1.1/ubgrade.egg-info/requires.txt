@@ -1,0 +1,8 @@
+pdf2image
+reportlab
+PyPDF2
+pyzbar
+numpy
+matplotlib
+pandas
+opencv-python
