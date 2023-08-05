@@ -1,0 +1,10 @@
+numpy
+scikit-image
+tifffile
+pynrrd
+nibabel
+tqdm
+natsort
+psutil
+slurmio
+nibabel>=2.1.0
