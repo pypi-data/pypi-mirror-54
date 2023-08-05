@@ -1,0 +1,2 @@
+include solstice/config/*.json
+include solstice/config/*.yml
