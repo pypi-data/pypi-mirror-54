@@ -1,0 +1,95 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2019-08-27T18:30:32",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Api-Key": [
+            "<APIKEY>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "User-Agent": [
+            "python-requests/2.22.0"
+          ]
+        },
+        "method": "GET",
+        "uri": "https://glance-stage.cern.ch/release/frapi/atlas/analysis/api/public/auth"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAAAAAAAy2O306DMBxG34UHWGhx03knW9x+zJZMCrTcGCkohTKIdfyp8d1F4+WX8+XkfDmvUpbGsK4pL869U86BW/IHFarglKCzetoFVX6QvxtiC4iqYLtaTkjiZI7S8wLAghpVwamWzTRkWF+h7pTgz0Zw8im9xJYRGLj4Wraolx7tc7y2UPc5tI9XkU5ribUF7RpodVXsYENYjGndWLIXlizujFfj4pwoEzhkxCU1mZcwnXnBUHD/z8Wj/4a2mHMvGeUMmxSh7QqKvQjHu1P1Zm6PBxKn7JhN7/4gb1z9EXaRyyKfpNyql9j5/gEdUMN6DwEAAA==",
+          "encoding": "UTF-8",
+          "string": ""
+        },
+        "headers": {
+          "Access-Control-Allow-Headers": [
+            "API-KEY, Authorization"
+          ],
+          "Access-Control-Allow-Methods": [
+            "GET, POST, PUT, DELETE"
+          ],
+          "Access-Control-Allow-Origin": [
+            "*"
+          ],
+          "Cache-Control": [
+            "private"
+          ],
+          "Connection": [
+            "Keep-Alive"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Length": [
+            "250"
+          ],
+          "Content-Type": [
+            "text/html; charset=UTF-8"
+          ],
+          "Date": [
+            "Tue, 27 Aug 2019 18:30:31 GMT"
+          ],
+          "Expires": [
+            "Thu, 19 Nov 1981 08:52:00 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=5, max=100"
+          ],
+          "Pragma": [
+            "no-cache"
+          ],
+          "Server": [
+            "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16"
+          ],
+          "Set-Cookie": [
+            "PHPSESSID=4uh1okl7dfm7p02soik5bkrc23; path=/"
+          ],
+          "Vary": [
+            "Accept-Encoding,User-Agent"
+          ],
+          "X-Powered-By": [
+            "PHP/5.4.16"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://glance-stage.cern.ch/release/frapi/atlas/analysis/api/public/auth"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}
