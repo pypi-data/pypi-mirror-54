@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: distributed_networking_utilities
+Version: 0.0.4
+Summary: Utilities for distributed systems construction.
+Home-page: https://github.com/roj4s/distributed_networking_utilities
+Author: Luis Rojas Aguilera
+Author-email: rojas@icomp.ufam.edu.br
+License: UNKNOWN
+Description: ## Distributed computing patterns and utilities.
+        
+        Fast inter-nodes data exchanging in a distributed setup. Implementation of
+        a pattern for fast data sharing (numpy arrays, json objects, etc ..) among nodes
+        of a distributed system configuration. Makes use of ZeroMQ and python
+        multiprocessing.
+        
+        This projet might be usefull to construct massive processing sytems like Machine
+        Learning and Computer Vision setups that needs to cope with several connections
+        and processing requests.
+        
+        DISCLAIMER: This project is under construction.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
