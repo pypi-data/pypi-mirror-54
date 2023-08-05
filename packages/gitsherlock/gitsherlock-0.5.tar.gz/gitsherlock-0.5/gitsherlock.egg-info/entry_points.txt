@@ -1,0 +1,3 @@
+[console_scripts]
+gitsherlock = gitsherlock.__main__:main
+

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gitsherlock
+Version: 0.5
+Summary: A repository mining tool for research purposes.
+Home-page: https://github.com/omazhary/git-sherlock
+Author: omazhary
+Author-email: omazhary@gmail.com
+License: MIT License
+Description: # GitSherlock
+        
+        A simple class to facilitate repository API mining.
+        
+        ## Additional Libraries
+        
+        - argparse
+        - bs4
+        - requests
+        
+Keywords: data collection scrape research
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Description-Content-Type: text/markdown
