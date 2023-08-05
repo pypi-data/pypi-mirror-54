@@ -1,0 +1,3 @@
+[console_scripts]
+sknni = sknni.cli:cli
+
