@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: py-mdb
+Version: 0.0.1a5
+Summary: Package for parsing IMDb datasets and scraping web pages
+Home-page: https://github.com/zembrodt/pymdb
+Author: Ryan Zembrodt
+Author-email: ryan.zembrodt@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: selectolax
+
+# PyMBd
+
+Package to both parse datasets provided by IMDb and scrape information from their web pages.
+
