@@ -1,0 +1,12 @@
+README.md
+setup.py
+aiotus/__init__.py
+aiotus/log.py
+aiotus/lowlevel.py
+aiotus/upload.py
+aiotus.egg-info/PKG-INFO
+aiotus.egg-info/SOURCES.txt
+aiotus.egg-info/dependency_links.txt
+aiotus.egg-info/requires.txt
+aiotus.egg-info/top_level.txt
+scripts/aiotus-client
