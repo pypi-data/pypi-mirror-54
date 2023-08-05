@@ -1,0 +1,18 @@
+attrs
+Django<2.0,>=1.8
+attrs<18.0.0,>=17.2.0
+six
+sailthru-client==2.2.3
+python-dateutil
+stevedore
+stevedore==1.10.0
+Django
+
+[:python_version < "3.3"]
+mock
+
+[:python_version < "3.4"]
+enum34
+
+[sailthru]
+sailthru-client<2.3,>2.2
