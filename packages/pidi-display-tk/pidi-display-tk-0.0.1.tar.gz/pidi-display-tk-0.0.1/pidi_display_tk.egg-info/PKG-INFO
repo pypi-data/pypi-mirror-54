@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pidi-display-tk
+Version: 0.0.1
+Summary: pidi plugin to display output using PIL and Tk.
+Home-page: https://github.com/pimoroni/pidi-plugins
+Author: Philip Howard
+Author-email: phil@pimoroni.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

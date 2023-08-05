@@ -1,0 +1,3 @@
+[pidi.plugin.display]
+DisplayTK = pidi_display_tk:DisplayTK
+
