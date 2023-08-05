@@ -1,0 +1,17 @@
+chardet>=3.0
+cleo>=0.7.5
+clikit>=0.3.1
+pandas>=0.24.1
+regex>=2018.11
+tabview>=1.4
+
+[dev]
+sphinx
+m2r
+green
+
+[docs]
+sphinx
+m2r
+
+[tests]
