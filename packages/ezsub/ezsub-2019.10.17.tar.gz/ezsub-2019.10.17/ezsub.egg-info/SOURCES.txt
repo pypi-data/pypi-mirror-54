@@ -1,0 +1,17 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ezsub/__init__.py
+ezsub/cli.py
+ezsub.egg-info/PKG-INFO
+ezsub.egg-info/SOURCES.txt
+ezsub.egg-info/dependency_links.txt
+ezsub.egg-info/entry_points.txt
+ezsub.egg-info/not-zip-safe
+ezsub.egg-info/top_level.txt
+ezsub/tools/__init__.py
+ezsub/tools/changelog.py
+ezsub/tools/version.py
