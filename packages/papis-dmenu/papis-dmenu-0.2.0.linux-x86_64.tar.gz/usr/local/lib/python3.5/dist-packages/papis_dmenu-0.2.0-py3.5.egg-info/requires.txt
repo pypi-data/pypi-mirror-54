@@ -1,0 +1,9 @@
+papis>=0.9
+dmenu
+
+[develop]
+sphinx
+sphinx-click
+sphinx_rtd_theme
+pytest
+pytest-cov
