@@ -1,0 +1,26 @@
+entity: model
+filename: value.pkl
+provenance:
+  cache_schema_version: 2
+  case_key:
+    feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+    hyperparams_dict: !!python/unicode 8fe242c631
+    random_seed: !!python/unicode 0
+    test_split_fraction: !!python/unicode 0.3
+  code_id: orig_flow=None code_version=None
+  dependencies:
+  - case_key:
+      hyperparams_dict: !!python/unicode 8fe242c631
+    entity: hyperparams_dict
+    provenance: !!python/unicode 830d93a652c2efda294c6942bd4f23dbb1f6d3ff4f444071ad5a0506631b3d4a
+  - case_key:
+      random_seed: !!python/unicode 0
+    entity: random_seed
+    provenance: !!python/unicode b73887d49aa950a4427432888fe714024ac0ba7b602645482bbe4e7526c5b7d4
+  - case_key:
+      feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+      random_seed: !!python/unicode 0
+      test_split_fraction: !!python/unicode 0.3
+    entity: train_frame
+    provenance: !!python/unicode c0e5fc4a7631d86cf70b7cad167dc1d781cb7424e54dc13c8dfc3122a58a7872
+  python_major_version: 2
