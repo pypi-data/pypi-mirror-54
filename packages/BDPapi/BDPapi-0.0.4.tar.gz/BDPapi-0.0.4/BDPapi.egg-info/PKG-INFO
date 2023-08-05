@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: BDPapi
+Version: 0.0.4
+Summary: BDP api
+Home-page: https://github.com/haizhiml/BDP.git
+Author: blue
+Author-email: xuguozheng@haizhi.com
+License: MIT Licence
+Description: BDP api
+Keywords: pip,BDPapi
+Platform: any
