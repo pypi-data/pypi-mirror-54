@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: amphoradata
+Version: 0.0.2
+Summary: Amphora Data Api
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: rian@amphoradata.com
+License: UNKNOWN
+Description:     API for interacting with the Amphora Data platform.
+            
+Keywords: OpenAPI,OpenAPI-Generator,Amphora Data Api
+Platform: UNKNOWN
