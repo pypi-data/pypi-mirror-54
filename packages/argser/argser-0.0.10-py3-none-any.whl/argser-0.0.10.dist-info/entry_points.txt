@@ -1,0 +1,3 @@
+[console_scripts]
+argser=argser.__main__:main
+
