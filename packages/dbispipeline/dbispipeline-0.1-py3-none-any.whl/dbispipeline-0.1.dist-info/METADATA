@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dbispipeline
+Version: 0.1
+Summary: should make things more reproducible
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: gitpython (>2)
+Requires-Dist: sqlalchemy (>1.3)
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: psycopg2-binary
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
