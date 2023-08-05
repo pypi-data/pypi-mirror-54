@@ -1,0 +1,9 @@
+bits/__init__.py,sha256=EtOD91ivU_kXxRA8lopap-Ihis3DvCkFVpiaQIdypM4,89
+bits/appengine/__init__.py,sha256=5IB8Zu5bjfOw2yAQSWwYFDK-H3k0QnxUmHWyLXpoHtU,1348
+bits/appengine/config.py,sha256=i_w_3yyjqOYnI6wAXkunx_cGWqUokb0lyTa_c8Oc9AU,1789
+bits/appengine/endpoints.py,sha256=g953QkcKmXU_93gTykgJBDvxC6O7AZdSosFD7n6V4gI,7897
+bits/appengine/user.py,sha256=mgBW6v1hFq4ZyN8PEgHNwQG8hcasIR64avPsVfUY6V0,3596
+bits_appengine-1.1.2.dist-info/METADATA,sha256=Wi-JI3m-9A7rEoc9rsYfJKM_-Q_uwFFD3_OTKefzDxk,428
+bits_appengine-1.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bits_appengine-1.1.2.dist-info/top_level.txt,sha256=r0CPtEdvhPhtNI1RzFMKlSds-wmUFadHdR_o8lZNEOg,5
+bits_appengine-1.1.2.dist-info/RECORD,,
