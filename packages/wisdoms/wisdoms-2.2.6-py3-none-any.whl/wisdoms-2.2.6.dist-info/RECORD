@@ -1,0 +1,15 @@
+wisdoms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wisdoms/auth.py,sha256=43xNnaPYq6hMtgdpd48hZacuFZCiR-CQWbzuRPi36S0,3573
+wisdoms/config.py,sha256=Q8_j_I60HbpmY3howOb5yLvRt7UZ1_Z-dCximkkjTDg,2404
+wisdoms/es_db.py,sha256=Xe2U87k36uvkSasIqqYU7SgrU_XfPhCBrS5Qt-1UiqI,4829
+wisdoms/exec.py,sha256=u30gqHJGaMVxYgyZjvySXG5ssMU3eeSy0SbWaqy8Yk0,4148
+wisdoms/logger.py,sha256=OukhNGOODVnQgiB__r1U95KeDAaW3v2dHxdV9Ryx2fY,1807
+wisdoms/ms.py,sha256=TWIflFCA7dP_uLHuqQ235OON8sOS0hXI1h5OSlbf4N8,16421
+wisdoms/pg_db.py,sha256=DBW9yukJ-Lvg0EhaWIPESfxsZlGxcK60tRlvGQtTHOs,4099
+wisdoms/utils.py,sha256=gTMJ07QJrkh8GWurKluKRRzVWZoDYXQdA5TUZBMVkzk,3206
+wisdoms/commons/__init__.py,sha256=15CmWyMstoRt-oOEMmJNbmwvAwc7_wBCh7PHPCW8VEk,914
+wisdoms/commons/my_code.py,sha256=5IZ6GmhWP_yyBvwLHnxk40ZAty2d3BzeBE6JgdPlnvo,3620
+wisdoms-2.2.6.dist-info/METADATA,sha256=MzYjlQDuOvWFhOMCV2Ni7jgkMlsO2g3rhD9DsFaq_aE,8089
+wisdoms-2.2.6.dist-info/RECORD,,
+wisdoms-2.2.6.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+wisdoms-2.2.6.dist-info/top_level.txt,sha256=JmsO-pzRlhzFYpf3kSAXIO4xJsVrOiEqVekQyUN4aB8,8
