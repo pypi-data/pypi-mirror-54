@@ -1,0 +1,1662 @@
+skolverket_kommunnamn,skolverket_skolnamn,huvudman,skolverket_huvudman_namn,school_unit,skolverket_antal_fli_tcv140,skolverket_andel_fli_tcv140,skolverket_and_uppn_alla_amnen_fli_tcv140,skolverket_and_behorig_fli_tcv140,skolverket_gmv_fli_tcv140,skolverket_antal_poj_tcv140,skolverket_andel_poj_tcv140,skolverket_and_uppn_alla_amnen_poj_tcv140,skolverket_and_behorig_poj_tcv140,skolverket_gmv_poj_tcv140,year
+Ale,Aroseniusskolan,Kommunal,Ale,48529699,43,"40,6","79,1","86,0","226,4",63,"59,4","49,2","79,4","178,7",2013
+Ale,Bohusskolan 7-9,Kommunal,Ale,70878576,27,"44,3","66,7","77,8","201,8",34,"55,7","47,1","76,5","170,5",2013
+Ale,Himlaskolan,Kommunal,Ale,54807007,33,"51,6","66,7",~100,"220,0",31,"48,4","71,0",~100,"199,0",2013
+Ale,Kyrkbyskolan,Kommunal,Ale,54087001,26,"41,9","57,7","80,8","222,3",36,"58,1","55,6","77,8","169,4",2013
+Ale,Ahlafors Fria skola,Enskild,,71387206,25,"55,6","88,0","100,0","231,0",20,"44,4","90,0",~100,"206,3",2013
+Alingsås,Gustav Adolfsskolan,Kommunal,Alingsås,74064638,40,"48,2","90,0",~100,"240,7",43,"51,8","88,4",~100,"212,7",2013
+Alingsås,Nolhagaskolan,Kommunal,Alingsås,84581048,36,"45,0","80,6",~100,"250,4",44,"55,0","84,1",~100,"196,1",2013
+Alingsås,Sollebrunns skola 6-9,Kommunal,Alingsås,76908037,19,"40,4","89,5","100,0","235,5",28,"59,6","92,9",~100,"223,9",2013
+Alingsås,Östlyckeskolan,Kommunal,Alingsås,63889771,57,"41,0","78,9",~100,"231,0",82,"59,0","68,3","80,5","193,8",2013
+Alingsås,Linnéskolan,Enskild,,32478204,..,..,.,.,..,..,..,..,..,..,2013
+Alingsås,Montessoriskolan Globen,Enskild,,87109819,31,"60,8","100,0","100,0","264,9",20,"39,2","90,0",~100,"228,3",2013
+Alingsås,Vittra Gerdsken,Enskild,,98272016,26,"59,1","76,9","100,0","224,4",18,"40,9","88,9",~100,"239,4",2013
+Alvesta,Grönkullaskolan,Kommunal,Alvesta,94191518,49,"51,0","69,4","81,6","208,4",47,"49,0","63,8","78,7","181,4",2013
+Alvesta,Mohedaskolan,Kommunal,Alvesta,69699568,17,"45,9","82,4",~100,"232,6",20,"54,1","70,0",~100,"190,4",2013
+Alvesta,Vislandaskolan,Kommunal,Alvesta,88176175,32,"56,1","87,5",~100,"215,5",25,"43,9","88,0",~100,"216,7",2013
+Aneby,Furulidskolan,Kommunal,Aneby,88669294,29,"43,3","86,2",~100,"222,8",38,"56,7","94,7",~100,"218,9",2013
+Arboga,Gäddgårdsskolan 5-9,Kommunal,Arboga,65483259,33,"44,6","78,8","84,8","211,3",41,"55,4","80,5",~100,"215,5",2013
+Arboga,Stureskolan,Kommunal,Arboga,13854755,34,"48,6","76,5",~100,"229,7",36,"51,4","72,2",~100,"200,3",2013
+Arjeplog,Kyrkholmsskolan,Kommunal,Arjeplog,96277636,..,..,..,..,..,..,..,..,..,..,2013
+Arvidsjaur,Fridhemsskolan,Kommunal,Arvidsjaur,48373752,26,"46,4","92,3","100,0","219,5",30,"53,6","76,7","80,0","209,1",2013
+Arvika,Centralskolan 1,Kommunal,Arvika,60318692,73,"50,0","79,5","89,0","220,4",73,"50,0","74,0","90,4","187,2",2013
+Arvika,Järvenskolan,Kommunal,Arvika,96316449,..,..,..,..,..,..,..,"83,3",~100,"222,9",2013
+Arvika,Kyrkebyskolan åk 7-9,Kommunal,Arvika,64771195,28,"47,5","46,4",~100,"182,1",31,"52,5","54,8",~100,"189,9",2013
+Arvika,"Estetiska skolan, Arvika",Enskild,,99375199,25,"64,1","88,0",~100,"222,7",14,"35,9","100,0","100,0","231,6",2013
+Askersund,Sjöängsskolan,Kommunal,Askersund,15766661,46,"44,2","71,7","80,4","220,6",58,"55,8","60,3","79,3","182,5",2013
+Avesta,Domarhagsskolan,Kommunal,Avesta,87516620,51,"54,8","66,7","74,5","215,9",42,"45,2","64,3","76,2","183,3",2013
+Avesta,Johan Olovsskolan,Kommunal,Avesta,48240990,10,"43,5",..,"100,0","246,8",13,"56,5","92,3",~100,"213,3",2013
+Avesta,Åvestadalskolan,Kommunal,Avesta,62023955,29,"42,0","75,9",~100,"222,6",40,"58,0","92,5",~100,"219,8",2013
+Bengtsfors,Bengtsgården,Kommunal,Bengtsfors,28484259,49,"53,3","75,5","87,8","217,9",43,"46,7","69,8","86,0","201,1",2013
+Berg,Myrvikens skola,Kommunal,Berg,56709330,13,"50,0","100,0","100,0","236,2",13,"50,0","100,0","100,0","227,7",2013
+Berg,Svenstavik åk 1-9,Kommunal,Berg,24753562,23,"51,1","69,6","69,6","185,5",22,"48,9","59,1","63,6","178,0",2013
+Bjurholm,Castorskolan,Kommunal,Bjurholm,81730469,12,"48,0","83,3",~100,"216,5",13,"52,0",..,~100,"207,5",2013
+Bjuv,Ekeby skola,Kommunal,Bjuv,47546433,18,"60,0","72,2",~100,"197,9",12,"40,0",..,"100,0","198,3",2013
+Bjuv,Jens Billeskolan,Kommunal,Bjuv,19344516,21,"47,7","81,0",~100,"224,0",23,"52,3","56,5",~100,"177,9",2013
+Bjuv,Varagårdsskolan Bjuv Östra,Kommunal,Bjuv,43688189,30,"45,5","63,3",~100,"193,5",36,"54,5","63,9",~100,"194,9",2013
+Bjuv,Forsärlans Miljöskola,Enskild,,18213876,12,"44,4","83,3",~100,"212,7",15,"55,6","93,3",~100,"205,0",2013
+Boden,Bodens alternativa skola BAS,Kommunal,Boden,19570579,..,..,.,..,..,..,..,.,.,.,2013
+Boden,Brönjaskolan,Kommunal,Boden,60633912,19,"40,4","100,0","100,0","251,4",28,"59,6","100,0","100,0","235,3",2013
+Boden,Harads skola,Kommunal,Boden,82094905,..,..,..,..,..,..,..,"85,7",~100,"203,2",2013
+Boden,Stureskolan 1,Kommunal,Boden,75627171,46,"55,4","84,8","87,0","229,1",37,"44,6","83,8",~100,"212,4",2013
+Boden,Stureskolan 2,Kommunal,Boden,89885803,29,"50,9","93,1",~100,"242,8",28,"49,1","85,7",~100,"209,2",2013
+Boden,Älvskolan,Kommunal,Boden,29649408,..,..,..,..,..,..,..,..,..,..,2013
+Boden,Fria Emilia,Enskild,,98998541,..,..,"92,3",~100,"257,7",..,..,..,..,..,2013
+Boden,Norrskenets Friskola i Boden,Enskild,,40708452,11,"21,2",..,~100,"212,5",41,"78,8","90,2","100,0","211,7",2013
+Bollebygd,Bollebygdskolan 7-9,Kommunal,Bollebygd,60372258,41,"46,1","90,2",~100,"221,2",48,"53,9","75,0",~100,"208,2",2013
+Bollnäs,Arbråskolan F-9,Kommunal,Bollnäs,75662206,22,"64,7","81,8",~100,"220,0",12,"35,3",..,~100,"175,4",2013
+Bollnäs,Granbergsskolan 7-9,Kommunal,Bollnäs,55545825,37,"40,2","48,6","59,5","186,8",55,"59,8","45,5","60,0","172,1",2013
+Bollnäs,Kilafors skola F-9,Kommunal,Bollnäs,41793797,24,"52,2","83,3",~100,"223,2",22,"47,8","77,3",~100,"190,9",2013
+Bollnäs,Edenskolan,Enskild,,69498258,..,..,..,..,..,..,..,..,..,..,2013
+Borgholm,Slottsskolan,Kommunal,Borgholm,80852248,44,"55,7","88,6",~100,"232,1",35,"44,3","57,1",~100,"183,9",2013
+Borgholm,Åkerboskolan,Kommunal,Borgholm,82520504,..,..,..,..,..,..,..,"76,9",~100,"193,3",2013
+Borlänge,Domnarvets skola,Kommunal,Borlänge,91219337,35,"47,9","68,6","82,9","219,9",38,"52,1","68,4","86,8","193,2",2013
+Borlänge,Forssaklackskolan,Kommunal,Borlänge,84601215,83,"60,6","83,1","89,2","228,1",54,"39,4","79,6","85,2","192,5",2013
+Borlänge,Maserskolan,Kommunal,Borlänge,56442130,59,"45,4","57,6","69,5","189,1",71,"54,6","50,7","76,1","187,3",2013
+Borlänge,Ornäs skola,Kommunal,Borlänge,33944118,19,"51,4","68,4",~100,"206,3",18,"48,6","77,8",~100,"215,6",2013
+Borlänge,Immanuelskolan,Enskild,,24147931,..,..,..,..,..,..,..,..,..,..,2013
+Borås,Bodaskolan,Kommunal,Borås,67454907,62,"47,3","71,0","85,5","210,6",69,"52,7","59,4","78,3","190,5",2013
+Borås,Dalsjöskolan 4-9,Kommunal,Borås,95015820,56,"58,9","83,9","89,3","232,5",39,"41,1","56,4","69,2","178,6",2013
+Borås,Daltorpskolan 7-9,Kommunal,Borås,97706771,39,"29,8","74,4","82,1","212,4",92,"70,2","62,0","82,6","191,7",2013
+Borås,Engelbrektskolan 7-9,Kommunal,Borås,86215855,58,"48,3","87,9",~100,"239,4",62,"51,7","85,5","90,3","210,8",2013
+Borås,Erikslundskolan,Kommunal,Borås,50870189,21,"33,3","61,9",~100,"202,8",42,"66,7","78,6","88,1","192,7",2013
+Borås,Fristadskolan 7-9,Kommunal,Borås,86708639,47,"50,5","89,4",~100,"229,6",46,"49,5","73,9","89,1","189,9",2013
+Borås,Sandgärdskolan,Kommunal,Borås,98081621,57,"50,9","91,2",~100,"238,0",55,"49,1","80,0",~100,"211,0",2013
+Borås,Särlaskolan 7-9,Kommunal,Borås,23108037,29,"45,3","58,6","72,4","203,3",35,"54,7","77,1","82,9","207,1",2013
+Borås,Viskaforsskolan 6-9,Kommunal,Borås,50756758,26,"40,0","69,2",~100,"197,7",39,"60,0","66,7","84,6","193,5",2013
+Borås,Borås Kristna skola,Enskild,,64720166,..,..,"73,3",~100,"225,8",..,..,..,..,..,2013
+Borås,Engelska Skolan i Borås,Enskild,,58354320,26,"47,3","88,5",~100,"276,9",29,"52,7","96,6",~100,"251,6",2013
+Borås,Kunskapsskolan Borås,Enskild,,10257640,61,"63,5","91,8",~100,"253,2",35,"36,5","97,1","100,0","230,3",2013
+Borås,Malmen Montessori,Enskild,,10132939,12,"44,4",..,~100,"213,5",15,"55,6","80,0",~100,"190,8",2013
+Botkyrka,Björkhaga Skola,Kommunal,Botkyrka,43238662,31,"43,1","54,8","64,5","190,7",41,"56,9","68,3","73,2","184,2",2013
+Botkyrka,Björkhaga Skola 1GR,Kommunal,Botkyrka,30755074,..,..,.,.,.,..,..,.,.,..,2013
+Botkyrka,Broängsskolan,Kommunal,Botkyrka,38661388,58,"55,8","87,9",~100,"229,5",46,"44,2","91,3",~100,"224,9",2013
+Botkyrka,Brunnaskolan,Kommunal,Botkyrka,53426548,26,"45,6","61,5","80,8","187,6",31,"54,4","67,7","80,6","193,7",2013
+Botkyrka,Falkbergsskolan,Kommunal,Botkyrka,85558618,34,"63,0","91,2",~100,"194,6",20,"37,0","90,0","100,0","207,3",2013
+Botkyrka,Falkbergsskolan 1GR,Kommunal,Botkyrka,23477041,..,..,.,.,.,..,..,.,..,..,2013
+Botkyrka,Fittjaskolan Botkyrka Norra,Kommunal,Botkyrka,40631085,34,"54,0","67,6","82,4","206,5",29,"46,0","44,8","58,6","160,2",2013
+Botkyrka,Grindtorpsskolan,Kommunal,Botkyrka,57228484,35,"59,3","31,4","57,1","155,8",24,"40,7",..,"45,8","124,8",2013
+Botkyrka,Grindtorpsskolan 1GR,Kommunal,Botkyrka,90361689,..,..,.,..,..,..,..,.,.,.,2013
+Botkyrka,Hammerstaskolan,Kommunal,Botkyrka,25918983,29,"61,7","72,4",~100,"215,5",18,"38,3","66,7",~100,"196,4",2013
+Botkyrka,Karsby International School,Kommunal,Botkyrka,67742754,27,"41,5","37,0","66,7","183,3",38,"58,5","65,8","68,4","182,0",2013
+Botkyrka,Kvarnhagsskolan,Kommunal,Botkyrka,56417100,16,"40,0",..,~100,"198,6",24,"60,0","79,2",~100,"199,0",2013
+Botkyrka,Malmsjö skola,Kommunal,Botkyrka,86985859,14,"43,8",..,~100,"232,3",18,"56,3","72,2",~100,"204,0",2013
+Botkyrka,Storvretskolan 1GR,Kommunal,Botkyrka,16223141,..,..,.,.,.,..,..,..,..,..,2013
+Botkyrka,Trädgårdsstadsskolan,Kommunal,Botkyrka,58310322,44,"55,0","88,6","100,0","247,4",36,"45,0","88,9",~100,"204,9",2013
+Botkyrka,Tunaskolan,Kommunal,Botkyrka,36350546,32,"43,8","53,1","78,1","195,3",41,"56,2","46,3","78,0","187,4",2013
+Botkyrka,Botkyrka Friskola F-9,Enskild,,80378022,23,"50,0","87,0",~100,"228,9",23,"50,0","91,3",~100,"235,8",2013
+Botkyrka,Freinetskolan Kastanjen,Enskild,,29524966,..,..,..,..,..,..,..,..,~100,"206,3",2013
+Botkyrka,Kunskapsskolan Botkyrka,Enskild,,84411355,34,"47,9","88,2",~100,"248,5",37,"52,1","91,9",~100,"234,3",2013
+Botkyrka,"Sverigefinska skolan, Botkyrka",Enskild,,57850353,..,..,.,.,..,..,..,..,..,..,2013
+Boxholm,Stenbockskolan MH,Kommunal,Boxholm,71843145,39,"54,9","69,2",~100,"205,6",32,"45,1","68,8",~100,"180,9",2013
+Bromölla,Dalaskolan Södra,Kommunal,Bromölla,79707757,23,"51,1","78,3",~100,"222,9",22,"48,9","54,5",~100,"160,5",2013
+Bromölla,Humleskolan,Kommunal,Bromölla,18195751,39,"41,9","89,7",~100,"223,5",54,"58,1","83,3",~100,"206,4",2013
+Burlöv,Stora Dalslundskolan,Kommunal,Burlöv,58712142,39,"55,7","71,8","82,1","215,6",31,"44,3","90,3",~100,"226,9",2013
+Burlöv,Vårboskolan,Kommunal,Burlöv,95748172,36,"40,9","63,9","77,8","192,1",52,"59,1","71,2","86,5","200,0",2013
+Båstad,Förslövs skola 7-9,Kommunal,Båstad,94453321,34,"55,7","88,2",~100,"230,6",27,"44,3","96,3","100,0","211,9",2013
+Båstad,Strandängsskolan 7-9,Kommunal,Båstad,16148785,26,"48,1","76,9",~100,"225,7",28,"51,9","78,6",~100,"194,4",2013
+Dals-Ed,Hagaskolan,Kommunal,Dals-Ed,93081338,21,"42,0","71,4",~100,"223,2",29,"58,0","75,9",~100,"227,6",2013
+Danderyd,Fribergaskolan,Kommunal,Danderyd,42986451,80,"55,9","93,8",~100,"257,4",63,"44,1","88,9",~100,"239,6",2013
+Danderyd,Mörbyskolan,Kommunal,Danderyd,97174070,65,"46,4","93,8","100,0","251,5",75,"53,6","88,0","100,0","234,7",2013
+Danderyd,Viktor Rydbergs Samskola,Enskild,,13493243,89,"49,4","97,8","100,0","257,1",91,"50,6","91,2","100,0","240,2",2013
+Degerfors,Stora Vallaskolan,Kommunal,Degerfors,96969231,42,"43,3","66,7","83,3","206,7",55,"56,7","69,1","80,0","185,2",2013
+Dorotea,Strandenskolan,Kommunal,Dorotea,56595678,..,..,..,..,..,..,..,"76,9",~100,"200,0",2013
+Eda,Gunnarsbyskolan 7-9,Kommunal,Eda,95519589,16,"44,4","75,0",~100,"225,3",20,"55,6","75,0",~100,"196,1",2013
+Eda,Hierneskolan,Kommunal,Eda,85815904,19,"50,0","68,4",~100,"218,6",19,"50,0","84,2",~100,"195,4",2013
+Ekerö,Ekebyhovskolan,Kommunal,Ekerö,99373839,21,"45,7","100,0","100,0","255,5",25,"54,3","76,0","80,0","198,4",2013
+Ekerö,Tappströmsskolan,Kommunal,Ekerö,52217632,30,"46,9","76,7","76,7","236,8",34,"53,1","94,1",~100,"225,0",2013
+Ekerö,Träkvista skola,Kommunal,Ekerö,66475520,15,"50,0","100,0","100,0","277,2",15,"50,0","73,3",~100,"200,8",2013
+Ekerö,Uppgårdskolan,Kommunal,Ekerö,95057356,37,"49,3","86,5",~100,"233,6",38,"50,7","84,2",~100,"202,0",2013
+Ekerö,Birkaskolan,Enskild,,27595656,12,"38,7","100,0","100,0","245,6",19,"61,3","94,7",~100,"244,2",2013
+Ekerö,Drottningholmskolan,Enskild,,28231215,..,..,..,..,..,..,..,..,..,..,2013
+Ekerö,Sundsgården skola,Enskild,,14571770,..,..,.,.,.,..,..,.,..,..,2013
+Eksjö,Furulundsskolan,Kommunal,Eksjö,48108874,12,"40,0","83,3",~100,"196,5",18,"60,0","61,1",~100,"191,7",2013
+Eksjö,Prästängsskolan,Kommunal,Eksjö,48457931,49,"41,9","73,5","89,8","207,7",68,"58,1","73,5","92,6","207,4",2013
+Eksjö,Broarps skola,Enskild,,30452569,..,..,.,..,..,..,..,..,..,..,2013
+Emmaboda,Bjurbäcksskolan 13-16 år,Kommunal,Emmaboda,37716305,31,"39,7","67,7","100,0","229,4",47,"60,3","70,2","78,7","184,9",2013
+Enköping,Bergvretenskolan,Kommunal,Enköping,56521117,26,"39,4","76,9",~100,"218,8",40,"60,6","75,0",~100,"207,0",2013
+Enköping,Fjärdhundraskolan,Kommunal,Enköping,94821900,14,"43,8","71,4",~100,"204,6",18,"56,3","88,9",~100,"196,5",2013
+Enköping,Korsängsskolan,Kommunal,Enköping,96757645,30,"52,6","70,0","83,3","203,6",27,"47,4","74,1",~100,"195,2",2013
+Enköping,S:t Iliansskolan,Kommunal,Enköping,83592480,32,"42,1","84,4",~100,"218,2",44,"57,9","77,3","81,8","215,3",2013
+Enköping,Västerledsskolan,Kommunal,Enköping,76759877,47,"39,5","74,5","80,9","188,6",72,"60,5","83,3","93,1","193,8",2013
+Enköping,Örsundsbroskolan,Kommunal,Enköping,98587494,25,"54,3","80,0",~100,"213,3",21,"45,7","76,2","76,2","197,4",2013
+Enköping,Bergtallens skola,Enskild,,73178642,..,..,.,.,.,..,..,..,..,..,2013
+Enköping,Kunskapsskolan Enköping,Enskild,,67723630,51,"58,6","92,2",~100,"229,0",36,"41,4","86,1","100,0","219,4",2013
+Eskilstuna,Djurgårdsskolan hög 1,Kommunal,Eskilstuna,34148803,28,"50,0","78,6",~100,"221,3",28,"50,0","67,9",~100,"193,3",2013
+Eskilstuna,Djurgårdsskolan hög 2,Kommunal,Eskilstuna,54605092,37,"42,0","86,5",~100,"241,2",51,"58,0","84,3",~100,"205,0",2013
+Eskilstuna,Gökstensskolan 7-9,Kommunal,Eskilstuna,40577236,39,"41,9","79,5",~100,"209,7",54,"58,1","74,1","83,3","184,3",2013
+Eskilstuna,Skiftingehus hög A- och B-lag,Kommunal,Eskilstuna,73348838,26,"45,6","61,5","69,2","182,9",31,"54,4","64,5","74,2","172,9",2013
+Eskilstuna,Skiftingehus hög E-lag,Kommunal,Eskilstuna,47926452,10,"34,5",..,..,"221,5",19,"65,5","68,4",~100,"203,9",2013
+Eskilstuna,Skogstorpsskolan hög 6-9 AB,Kommunal,Eskilstuna,80168622,30,"50,8","80,0","83,3","209,0",29,"49,2","65,5","82,8","201,6",2013
+Eskilstuna,Skogstorpsskolan hög 7-9 CD,Kommunal,Eskilstuna,25219509,27,"46,6","74,1",~100,"205,0",31,"53,4","67,7",~100,"180,1",2013
+Eskilstuna,Stålforsskolan arbetslag A,Kommunal,Eskilstuna,73039560,15,"24,6","73,3",~100,"228,4",46,"75,4","63,0","84,8","188,7",2013
+Eskilstuna,Stålforsskolan arbetslag B,Kommunal,Eskilstuna,18528290,30,"48,4","53,3","73,3","190,6",32,"51,6","71,9","84,4","195,9",2013
+Eskilstuna,Stålforsskolan arbetslag C,Kommunal,Eskilstuna,76124360,25,"40,3","48,0","72,0","215,4",37,"59,7","45,9","81,1","200,8",2013
+Eskilstuna,Stålforsskolan arbetslag D,Kommunal,Eskilstuna,62261827,39,"62,9","84,6","87,2","234,6",23,"37,1","78,3",~100,"217,9",2013
+Eskilstuna,Stålforsskolan Faktoriet,Kommunal,Eskilstuna,64275635,23,"39,0","82,6",~100,"201,2",36,"61,0","52,8","61,1","142,6",2013
+Eskilstuna,Tegelviken Byn,Kommunal,Eskilstuna,78673553,..,..,..,..,..,..,..,..,..,..,2013
+Eskilstuna,Tegelviken Sundet,Kommunal,Eskilstuna,83485208,..,..,..,..,..,..,..,..,..,..,2013
+Eskilstuna,Tegelviken Viken,Kommunal,Eskilstuna,10967899,..,..,..,..,..,..,..,..,..,..,2013
+Eskilstuna,Årbyskolan hög,Kommunal,Eskilstuna,60791109,57,"68,7","47,4","68,4","177,5",26,"31,3","50,0","69,2","170,9",2013
+Eskilstuna,"British Junior Sec, Eskilstuna",Enskild,,50048111,..,..,..,..,..,..,..,..,..,..,2013
+Eskilstuna,Engelska Skolan i Eskilstuna,Enskild,,36759013,96,"49,7","96,9","100,0","281,2",97,"50,3","93,8","100,0","264,9",2013
+Eslöv,Ekenässkolan,Kommunal,Eslöv,83526311,48,"47,5","79,2","81,3","221,4",53,"52,5","77,4","84,9","214,4",2013
+Eslöv,Källebergsskolan,Kommunal,Eslöv,26645758,26,"39,4","84,6",~100,"223,8",40,"60,6","72,5","87,5","200,8",2013
+Eslöv,Norrevångsskolan 7-9,Kommunal,Eslöv,37995642,51,"50,5","76,5",~100,"225,7",50,"49,5","74,0",~100,"197,6",2013
+Eslöv,Ölyckeskolan,Kommunal,Eslöv,96788188,27,"50,9","81,5",~100,"223,3",26,"49,1","61,5","76,9","176,0",2013
+Essunga,Nossebro skola år 0-9,Kommunal,Essunga,57353499,34,"60,7","82,4",~100,"213,8",22,"39,3","54,5",~100,"176,3",2013
+Fagersta,Risbroskolan,Kommunal,Fagersta,88657987,63,"52,5","76,2","87,3","205,9",57,"47,5","54,4","77,2","173,4",2013
+Fagersta,Lindgårdsskolan,Enskild,,50128489,..,..,..,..,..,..,..,..,..,..,2013
+Falkenberg,Apelskolan 1,Kommunal,Falkenberg,31158776,30,"41,1","93,3",~100,"239,0",43,"58,9","83,7","86,0","200,9",2013
+Falkenberg,Falkenbergs Montessoriskola,Kommunal,Falkenberg,78647439,..,..,..,..,..,..,..,"92,3","100,0","242,9",2013
+Falkenberg,Skogstorpsskolan 1,Kommunal,Falkenberg,34104887,20,"33,9","100,0","100,0","240,5",39,"66,1","82,1","87,2","206,7",2013
+Falkenberg,Söderskolan 6-9,Kommunal,Falkenberg,49385052,24,"51,1","87,5",~100,"223,9",23,"48,9","52,2","73,9","172,3",2013
+Falkenberg,Tångaskolan 6-9,Kommunal,Falkenberg,60510073,35,"44,9","74,3",~100,"219,0",43,"55,1","72,1","88,4","199,1",2013
+Falkenberg,Vesterhavsskolan,Enskild,,35136963,29,"39,7","89,7",~100,"247,2",44,"60,3","97,7",~100,"240,7",2013
+Falköping,Centralskolan 6-9,Kommunal,Falköping,17911537,27,"45,8","51,9","59,3","177,0",32,"54,2","56,3","59,4","170,2",2013
+Falköping,Flobyskolan,Kommunal,Falköping,19044601,16,"44,4","87,5",~100,"224,7",20,"55,6","95,0",~100,"214,0",2013
+Falköping,Gudhemsskolan,Kommunal,Falköping,48695990,18,"51,4","77,8",~100,"221,1",17,"48,6","64,7",~100,"184,1",2013
+Falköping,Kinnarpsskolan,Kommunal,Falköping,15357005,18,"50,0","77,8",~100,"228,7",18,"50,0","55,6","72,2","177,9",2013
+Falköping,Kyrkerörsskolan A + C,Kommunal,Falköping,20272897,28,"46,7","89,3",~100,"227,3",32,"53,3","81,3",~100,"207,1",2013
+Falköping,Kyrkerörsskolan B + D + E,Kommunal,Falköping,78444521,25,"48,1","64,0","76,0","184,4",27,"51,9","74,1",~100,"204,3",2013
+Falköping,Stenstorpsskolan,Kommunal,Falköping,48923792,17,"45,9","76,5",~100,"195,3",20,"54,1","80,0",~100,"193,1",2013
+Falköping,Vartoftaskolan,Kommunal,Falköping,93035626,11,"36,7",..,~100,"216,1",19,"63,3","78,9",~100,"195,8",2013
+Falköping,Vårkullens skolveckohem,Enskild,,43911053,..,..,.,.,.,..,..,..,..,..,2013
+Falun,Bjursåsskolan 7-9,Kommunal,Falun,55126250,35,"52,2","91,4",~100,"222,2",32,"47,8","78,1",~100,"202,8",2013
+Falun,Britsarvsskolan,Kommunal,Falun,17033155,47,"42,7","76,6","80,9","201,7",63,"57,3","79,4","85,7","192,8",2013
+Falun,Hälsinggårdsskolan 7-9,Kommunal,Falun,28599917,61,"50,4","82,0",~100,"215,5",60,"49,6","76,7","83,3","188,4",2013
+Falun,Montessoriskolan i Falun,Kommunal,Falun,57444890,..,..,..,..,..,..,..,"100,0","100,0","244,1",2013
+Falun,Svärdsjöskolan 7-9,Kommunal,Falun,27506076,35,"43,8","82,9",~100,"210,4",45,"56,3","84,4",~100,"191,3",2013
+Falun,Västra Skolan,Kommunal,Falun,27153243,37,"47,4","67,6",~100,"210,6",41,"52,6","90,2",~100,"193,3",2013
+Falun,Backafors resursskola,Enskild,,27560810,..,..,..,..,..,..,..,..,..,..,2013
+Falun,Friskolan Mosaik,Enskild,,65494903,10,"47,6",..,..,"232,5",11,"52,4",..,"100,0","249,1",2013
+Falun,Söderbaumska skolan,Enskild,,72625090,26,"55,3","88,5",~100,"230,0",21,"44,7","85,7",~100,"231,0",2013
+Filipstad,Ferlinskolan,Kommunal,Filipstad,76981284,40,"46,0","92,5",~100,"215,3",47,"54,0","76,6","83,0","193,5",2013
+Filipstad,Stålvallaskolan,Kommunal,Filipstad,37648787,12,"50,0","83,3",~100,"242,5",12,"50,0",..,..,"186,3",2013
+Finspång,Grosvadskolan,Kommunal,Finspång,40732962,45,"49,5","62,2","73,3","194,5",46,"50,5","69,6","82,6","192,0",2013
+Finspång,Nyhemsskolan 7-9,Kommunal,Finspång,65487720,60,"60,0","83,3","88,3","210,1",40,"40,0","72,5","87,5","184,3",2013
+Flen,Bruksskolan,Kommunal,Flen,59846075,14,"42,4","100,0","100,0","244,1",19,"57,6","73,7",~100,"188,8",2013
+Flen,Malmaskolan,Kommunal,Flen,41621337,27,"40,9","63,0","77,8","200,0",39,"59,1","71,8","87,2","213,2",2013
+Flen,Stenhammarskolan,Kommunal,Flen,81546814,52,"51,5","57,7","75,0","189,9",49,"48,5","55,1","83,7","187,3",2013
+Flen,Flens kristna skola,Enskild,,52287808,..,..,..,..,..,..,..,..,..,..,2013
+Flen,Gårdsjö skola,Enskild,,38402217,..,..,.,..,..,..,..,.,..,..,2013
+Forshaga,Dejeskolan MH-stadiet,Kommunal,Forshaga,43553761,27,"62,8","70,4","100,0","199,6",16,"37,2","62,5",~100,"185,9",2013
+Forshaga,Forshaga lärcenter H-stadiet,Kommunal,Forshaga,68533503,40,"46,5","92,5",~100,"236,4",46,"53,5","73,9",~100,"191,2",2013
+Färgelanda,Valboskolan 7-9,Kommunal,Färgelanda,17089857,30,"47,6","73,3","83,3","225,5",33,"52,4","63,6","81,8","163,1",2013
+Gagnef,Djuråsskolan F-9,Kommunal,Gagnef,36819574,28,"52,8","82,1",~100,"245,0",25,"47,2","72,0",~100,"194,3",2013
+Gagnef,Mockfjärdsskolan,Kommunal,Gagnef,95610127,15,"45,5","93,3",~100,"237,3",18,"54,5","83,3",~100,"195,4",2013
+Gislaved,Lundåkerskolans högstadium,Kommunal,Gislaved,47236914,72,"50,3","76,4","83,3","217,7",71,"49,7","71,8","83,1","186,3",2013
+Gislaved,Nordinskolan,Kommunal,Gislaved,40991541,47,"52,2","83,0","89,4","216,8",43,"47,8","55,8","79,1","171,1",2013
+Gislaved,Åsenskolan,Kommunal,Gislaved,70954223,42,"46,7","81,0",~100,"220,4",48,"53,3","68,8","75,0","183,5",2013
+Gislaved,Ölmestadskolan,Kommunal,Gislaved,85013151,17,"43,6","64,7",~100,"211,3",22,"56,4","63,6",~100,"199,5",2013
+Gislaved,Montessorifriskolan i Gislaved,Enskild,,93436580,..,..,..,..,..,..,..,..,..,..,2013
+Gnesta,Frejaskolan 6-9,Kommunal,Gnesta,71986467,44,"55,7","77,3","88,6","213,5",35,"44,3","65,7","82,9","186,1",2013
+Gnesta,Gnesta Waldorfskola,Enskild,,35159342,..,..,..,..,..,..,..,..,..,..,2013
+Gnosjö,Bäckaskolan 7-9,Kommunal,Gnosjö,43172419,42,"51,9","83,3","85,7","215,0",39,"48,1","74,4","79,5","185,1",2013
+Gnosjö,Hillerstorpsskolan 7-9,Kommunal,Gnosjö,33877675,20,"42,6","90,0",~100,"233,6",27,"57,4","74,1","77,8","187,2",2013
+Gotland,Fårösundsskolan,Kommunal,Gotland,68188627,17,"60,7","82,4",~100,"235,3",11,"39,3","100,0","100,0","204,3",2013
+Gotland,Högby skola,Kommunal,Gotland,94163432,34,"54,8","88,2",~100,"218,0",28,"45,2","60,7","71,4","180,9",2013
+Gotland,Klinteskolan,Kommunal,Gotland,24429776,20,"48,8","80,0",~100,"202,3",21,"51,2","66,7",~100,"201,4",2013
+Gotland,Romaskolan,Kommunal,Gotland,60700608,14,"34,1","85,7","100,0","223,4",27,"65,9","85,2",~100,"195,0",2013
+Gotland,Solbergaskolan,Kommunal,Gotland,96609581,89,"47,1","89,9","93,3","238,1",100,"52,9","72,0","80,0","198,5",2013
+Gotland,Solklintsskolan,Kommunal,Gotland,10979668,..,..,..,..,..,..,..,..,..,..,2013
+Gotland,Södervärnsskolans 7-9,Kommunal,Gotland,80013231,41,"38,0","82,9",~100,"231,2",67,"62,0","82,1","88,1","200,1",2013
+Gotland,Atheneskolan,Enskild,,52229866,32,"62,7","100,0","100,0","227,8",19,"37,3","89,5",~100,"213,6",2013
+Gotland,"Guteskolan, grundskola",Enskild,,42518434,21,"63,6","76,2",~100,"227,5",12,"36,4","100,0","100,0","223,8",2013
+Gotland,Orionskolan,Enskild,,27928506,..,..,.,..,..,..,..,.,.,.,2013
+Grums,Jättestenskolan 6-9,Kommunal,Grums,16891307,33,"42,3","87,9",~100,"222,0",45,"57,7","64,4","71,1","200,5",2013
+Grästorp,Centralskolan 4-9 Norr,Kommunal,Grästorp,24376988,17,"48,6","82,4",~100,"204,6",18,"51,4","66,7",~100,"185,6",2013
+Grästorp,Centralskolan Söder 4-9,Kommunal,Grästorp,31381375,..,..,..,..,..,..,..,..,..,..,2013
+Gullspång,Gullstensskolan åk 7-9,Kommunal,Gullspång,89624871,31,"55,4","64,5","71,0","197,8",25,"44,6","60,0",~100,"189,5",2013
+Gällivare,Hedskolan LMH,Kommunal,Gällivare,13185131,15,"46,9","86,7",~100,"237,0",17,"53,1","94,1",~100,"200,7",2013
+Gällivare,Myranskolan LMH,Kommunal,Gällivare,82657877,10,"45,5",..,"100,0","216,3",12,"54,5","83,3",~100,"209,8",2013
+Gällivare,Sjöparksskolan MH,Kommunal,Gällivare,24426745,21,"48,8","81,0",~100,"238,8",22,"51,2","90,9",~100,"213,0",2013
+Gällivare,Tallbackaskolan MH,Kommunal,Gällivare,68699648,19,"48,7","52,6",~100,"181,8",20,"51,3","80,0",~100,"196,0",2013
+Gävle,Bergby Centralskola 1-9,Kommunal,Gävle,55373417,13,"41,9",..,~100,"182,3",18,"58,1",..,"72,2","156,9",2013
+Gävle,Lillhagsskolan,Kommunal,Gävle,51387807,42,"50,0","61,9","85,7","189,6",42,"50,0","69,0",~100,"184,3",2013
+Gävle,Milboskolan,Kommunal,Gävle,93378411,23,"57,5","87,0",~100,"221,3",17,"42,5","76,5",~100,"181,3",2013
+Gävle,Nynäs Montessori,Kommunal,Gävle,40944032,..,..,..,..,..,..,..,..,..,..,2013
+Gävle,Sofiedalskolan,Kommunal,Gävle,80177526,52,"57,8","69,2","78,8","191,0",38,"42,2","68,4","78,9","179,6",2013
+Gävle,Solängsskolan,Kommunal,Gävle,58984764,56,"49,6","87,5",~100,"236,1",57,"50,4","84,2",~100,"213,1",2013
+Gävle,Stenebergsskolan,Kommunal,Gävle,17248313,18,"40,0",..,..,"171,2",27,"60,0",..,"40,7","123,9",2013
+Gävle,Stigslunds skola,Kommunal,Gävle,91652716,34,"45,3","76,5",~100,"221,0",41,"54,7","78,0",~100,"205,5",2013
+Gävle,Stora Sätraskolan,Kommunal,Gävle,49779956,26,"43,3","50,0","73,1","157,2",34,"56,7","44,1","64,7","162,4",2013
+Gävle,Sörbyskolan,Kommunal,Gävle,23223141,42,"50,6","52,4","69,0","177,6",41,"49,4","46,3","65,9","155,4",2013
+Gävle,Engelska Skolan i Gävle,Enskild,,53952728,105,"51,5","88,6","100,0","264,1",99,"48,5","79,8",~100,"227,6",2013
+Gävle,Friskolan Lyftet,Enskild,,11476454,10,"45,5",..,..,"206,0",12,"54,5",..,..,"151,1",2013
+Gävle,MBC skolan Gävle,Enskild,,64745639,..,..,.,.,.,..,..,.,.,..,2013
+Gävle,"Prolympia, Gävle",Enskild,,57578095,27,"30,0","96,3","100,0","220,9",63,"70,0","85,7",~100,"208,4",2013
+Gävle,Trädgårdsskolan GKS,Enskild,,87088456,..,..,..,..,..,..,..,..,..,..,2013
+Göteborg,Bergsjöskolan 7-9,Kommunal,Göteborg,35416997,32,"48,5",..,"37,5","131,8",34,"51,5",..,"47,1","157,3",2013
+Göteborg,Bergums skola 4-9,Kommunal,Göteborg,98771543,21,"36,8","66,7",~100,"197,1",36,"63,2","41,7","83,3","180,8",2013
+Göteborg,Brunnsboskolan,Kommunal,Göteborg,20519865,44,"49,4","79,5","86,4","250,1",45,"50,6","62,2","84,4","210,8",2013
+Göteborg,Bräckeskolan,Kommunal,Göteborg,85329103,15,"40,5",..,..,"147,5",22,"59,5","59,1","63,6","176,7",2013
+Göteborg,Ekåsa skola och internat,Kommunal,Göteborg,93540606,..,..,.,..,..,..,..,..,..,..,2013
+Göteborg,Fiskebäcksskolan 6-9,Kommunal,Göteborg,99641533,26,"43,3","80,8",~100,"249,0",34,"56,7","79,4",~100,"224,3",2013
+Göteborg,Fjällskolan,Kommunal,Göteborg,53332364,17,"33,3","70,6",~100,"207,4",34,"66,7","70,6","85,3","217,7",2013
+Göteborg,Flatås G-klasser,Kommunal,Göteborg,98780126,..,..,.,.,.,..,..,..,..,..,2013
+Göteborg,Frölunda Bräcke,Kommunal,Göteborg,51009918,..,..,.,.,..,..,..,.,.,.,2013
+Göteborg,Frölundaskolan 6-9,Kommunal,Göteborg,97820269,43,"50,6","69,8","81,4","218,4",42,"49,4","59,5","73,8","199,6",2013
+Göteborg,Gamlestadsskolan H,Kommunal,Göteborg,90710178,39,"54,9","74,4","87,2","206,5",32,"45,1","56,3","81,3","187,3",2013
+Göteborg,Gathenhielmsskolan,Kommunal,Göteborg,22061272,..,..,.,.,..,..,..,..,..,..,2013
+Göteborg,Glöstorpsskolan 7-9,Kommunal,Göteborg,85656343,51,"58,6","78,4",~100,"218,6",36,"41,4","72,2","83,3","198,8",2013
+Göteborg,Guldhedsskolan 7-9,Kommunal,Göteborg,98423378,45,"58,4","71,1","84,4","218,2",32,"41,6","59,4","78,1","169,3",2013
+Göteborg,Gårdstensskolan 4-9,Kommunal,Göteborg,55886598,25,"40,3",..,..,"152,8",37,"59,7","29,7","56,8","181,9",2013
+Göteborg,Herrgårdsskolan,Kommunal,Göteborg,54775782,15,"55,6","80,0",~100,"229,8",12,"44,4",..,~100,"181,3",2013
+Göteborg,Hjällboskolan 6-9,Kommunal,Göteborg,63925456,41,"40,2","48,8","51,2","163,0",61,"59,8","29,5","47,5","147,3",2013
+Göteborg,Hovåsskolan 7-9,Kommunal,Göteborg,32603156,56,"52,3","89,3",~100,"252,4",51,"47,7","72,5",~100,"211,1",2013
+Göteborg,Jättestensskolan F-9,Kommunal,Göteborg,55124975,31,"60,8","45,2","61,3","175,3",20,"39,2",..,"55,0","174,6",2013
+Göteborg,Kannebäcksskolan döva och hör,Kommunal,Göteborg,61201931,..,..,..,..,..,..,..,..,..,..,2013
+Göteborg,Karl Johansskolan,Kommunal,Göteborg,61374247,17,"50,0","64,7",~100,"218,7",17,"50,0","76,5",~100,"220,9",2013
+Göteborg,Klarebergsskolan 7-9,Kommunal,Göteborg,20429308,42,"51,2","88,1",~100,"220,7",40,"48,8","77,5","87,5","204,3",2013
+Göteborg,Kärralundsskolan 7-9,Kommunal,Göteborg,77176658,32,"42,7","90,6",~100,"263,2",43,"57,3","90,7","100,0","247,7",2013
+Göteborg,Kärraskolan 4-9,Kommunal,Göteborg,85930744,35,"50,7","62,9","74,3","204,6",34,"49,3","73,5","82,4","203,2",2013
+Göteborg,Lindåsskolan 4-9,Kommunal,Göteborg,61845870,26,"55,3","73,1","80,8","214,8",21,"44,7","95,2","100,0","233,8",2013
+Göteborg,Lövgärdesskolan 4-9,Kommunal,Göteborg,31928894,36,"56,3","38,9","61,1","155,4",28,"43,8",..,"60,7","159,7",2013
+Göteborg,Nordhemsskolan,Kommunal,Göteborg,19560147,54,"48,6","85,2","88,9","231,5",57,"51,4","75,4",~100,"202,5",2013
+Göteborg,Nordlyckeskolan,Kommunal,Göteborg,93002896,45,"44,1","91,1",~100,"249,8",57,"55,9","86,0",~100,"216,5",2013
+Göteborg,Nya Lundenskolan,Kommunal,Göteborg,77193656,41,"58,6","73,2","82,9","217,0",29,"41,4","72,4","82,8","216,9",2013
+Göteborg,Nya Påvelundsskolan 1,Kommunal,Göteborg,33511119,49,"54,4","98,0","100,0","251,6",41,"45,6","92,7","100,0","222,9",2013
+Göteborg,Nya Påvelundsskolan 2,Kommunal,Göteborg,43441529,39,"43,3","82,1",~100,"240,4",51,"56,7","92,2",~100,"235,2",2013
+Göteborg,Nygårdsskolan 4-9,Kommunal,Göteborg,65651613,28,"40,6","100,0","100,0","255,4",41,"59,4","92,7","100,0","235,4",2013
+Göteborg,Nytorpsskolan 4-9,Kommunal,Göteborg,16396010,44,"57,9","43,2","50,0","170,5",32,"42,1","37,5","59,4","164,0",2013
+Göteborg,Park-Kålltorpsskolan 7-9,Kommunal,Göteborg,89792955,45,"48,9","88,9",~100,"251,9",47,"51,1","87,2",~100,"224,5",2013
+Göteborg,Rambergsskolan,Kommunal,Göteborg,42348410,24,"55,8","70,8","75,0","190,1",19,"44,2","63,2","63,2","204,2",2013
+Göteborg,Resursskolan Linden,Kommunal,Göteborg,52459484,..,..,.,.,..,..,..,.,..,..,2013
+Göteborg,Ryaskolan F-9,Kommunal,Göteborg,28890717,17,"40,5",..,..,"111,2",25,"59,5",..,"40,0","158,1",2013
+Göteborg,Sandeklevsskolan 7-9,Kommunal,Göteborg,91683255,38,"51,4","31,6","47,4","176,4",36,"48,6","33,3","52,8","159,3",2013
+Göteborg,Sannaskolan,Kommunal,Göteborg,71588377,23,"46,0","47,8","73,9","181,2",27,"54,0","63,0","70,4","174,8",2013
+Göteborg,Sjumilaskolan F-9,Kommunal,Göteborg,25261308,21,"53,8",..,"61,9","182,4",18,"46,2",.,"61,1","133,3",2013
+Göteborg,Skälltorpssk. Sv. Balettskolan,Kommunal,Göteborg,24937512,..,..,"75,0",~100,"227,5",..,..,..,..,..,2013
+Göteborg,Skälltorpsskolan,Kommunal,Göteborg,21231498,51,"51,0","78,4","88,2","221,0",49,"49,0","69,4","85,7","202,0",2013
+Göteborg,Styrsöskolan,Kommunal,Göteborg,81179515,18,"58,1","88,9",~100,"230,6",13,"41,9","76,9",~100,"226,0",2013
+Göteborg,Toleredsskolan,Kommunal,Göteborg,98511483,48,"46,6","77,1","87,5","207,5",55,"53,4","41,8","65,5","162,0",2013
+Göteborg,Torpaskolan 7-9,Kommunal,Göteborg,50118397,22,"55,0","72,7",~100,"227,6",18,"45,0","88,9",~100,"220,6",2013
+Göteborg,Torslandaskolan 6-9,Kommunal,Göteborg,54282652,37,"44,6","78,4",~100,"211,9",46,"55,4","76,1",~100,"220,4",2013
+Göteborg,Trulsegårdsskolan,Kommunal,Göteborg,84103533,59,"46,1","83,1","88,1","223,0",69,"53,9","69,6","82,6","180,0",2013
+Göteborg,Tynneredsskolan,Kommunal,Göteborg,12026626,37,"39,8","64,9","83,8","225,8",56,"60,2","48,2","71,4","181,4",2013
+Göteborg,Utmarksskolan,Kommunal,Göteborg,39000072,35,"50,0","54,3","68,6","200,2",35,"50,0","37,1","42,9","160,9",2013
+Göteborg,Vättleskolan 4-9,Kommunal,Göteborg,27760036,25,"41,7",..,"52,0","161,7",35,"58,3","34,3","54,3","181,8",2013
+Göteborg,Ånässkolan 4-6,Kommunal,Göteborg,18504905,..,..,.,..,..,..,..,..,..,..,2013
+Göteborg,Önneredsskolan 2,Kommunal,Göteborg,26855170,47,"48,0","78,7",~100,"231,9",51,"52,0","62,7","90,2","206,0",2013
+Göteborg,Assaredsskolan,Enskild,,25852980,14,"56,0","78,6",~100,"236,6",11,"44,0",..,..,"173,3",2013
+Göteborg,Brandströmska skolan Nylöse,Enskild,,11295861,19,"44,2","52,6",~100,"210,1",24,"55,8",..,"62,5","186,4",2013
+Göteborg,Böskolans friskola,Enskild,,83071620,14,"31,8","92,9","100,0","231,8",30,"68,2","90,0",~100,"235,6",2013
+Göteborg,Centrina Lindholmen,Enskild,,79866556,40,"56,3","90,0",~100,"270,1",31,"43,7","74,2",~100,"223,8",2013
+Göteborg,Drakbergsskolan,Enskild,,60526603,13,"56,5","76,9",~100,"247,3",10,"43,5",..,..,"208,0",2013
+Göteborg,Ebba Petterssons Grundskola,Enskild,,88247874,52,"53,1","94,2",~100,"244,7",46,"46,9","93,5","100,0","218,8",2013
+Göteborg,Fenestra Centrum,Enskild,,87139814,35,"53,0","74,3",~100,"225,3",31,"47,0","74,2",~100,"201,0",2013
+Göteborg,Fenestra S:t Jörgen,Enskild,,27265374,21,"33,3","71,4","100,0","225,7",42,"66,7","69,0",~100,"212,6",2013
+Göteborg,Franska skolan Göteborg,Enskild,,55860193,..,..,..,"100,0","236,3",..,..,..,..,..,2013
+Göteborg,Freinetskolan Bild & Form,Enskild,,31872640,17,"58,6","82,4","100,0","255,9",12,"41,4","83,3","100,0","225,4",2013
+Göteborg,Göteborgs Högre Samskola gr.,Enskild,,52538248,89,"49,7","96,6",~100,"264,7",90,"50,3","93,3",~100,"254,3",2013
+Göteborg,Int Engelska Skolan i Göteborg,Enskild,,45124936,73,"67,6","68,5",~100,"230,0",35,"32,4","68,6",~100,"217,1",2013
+Göteborg,ISGR/International section,Enskild,,30191226,27,"48,2",..,..,..,29,"51,8",..,..,..,2013
+Göteborg,ISGR/Swedish-English,Enskild,,80498460,19,"36,5","68,4",~100,"228,6",33,"63,5","87,9","100,0","248,4",2013
+Göteborg,Katolska skolan av Notre Dame,Enskild,,45045293,21,"44,7","81,0",~100,"224,9",26,"55,3","53,8","80,8","186,1",2013
+Göteborg,Kristinaskolan,Enskild,,46512685,..,..,..,~100,"218,2",..,..,..,..,..,2013
+Göteborg,Kunskapsskolan Krokslätt,Enskild,,83045482,25,"39,7","88,0",~100,"236,0",38,"60,3","78,9",~100,"221,2",2013
+Göteborg,Magelungen Karlaskolan,Enskild,,97205555,..,..,.,..,..,..,..,..,..,..,2013
+Göteborg,Montessoriskolan Casa,Enskild,,76938537,14,"48,3","100,0","100,0","269,6",15,"51,7","100,0","100,0","258,2",2013
+Göteborg,Montessoriskolan Centrum,Enskild,,73995321,17,"63,0","76,5",~100,"222,5",10,"37,0",..,..,"216,5",2013
+Göteborg,Montessoriskolan Skäret,Enskild,,25894254,13,"48,1","100,0","100,0","256,2",14,"51,9","100,0","100,0","216,4",2013
+Göteborg,Rudolf Steinerskolan Göteborg,Enskild,,42817980,..,..,"66,7","100,0","253,3",..,..,..,..,..,2013
+Göteborg,Römosseskolan,Enskild,,72408586,15,"55,6","80,0",~100,"248,5",12,"44,4",..,"100,0","244,0",2013
+Göteborg,Sverigefinska skolan i Gbg,Enskild,,56289245,..,..,..,..,..,..,..,.,.,.,2013
+Göteborg,The English School Gothenburg,Enskild,,66890810,19,"63,3","89,5","100,0","251,6",11,"36,7","90,9",~100,"238,4",2013
+Göteborg,Vasaskolan,Enskild,,56168083,20,"46,5","95,0","100,0","250,6",23,"53,5","82,6","100,0","222,6",2013
+Göteborg,Victoriaskolan,Enskild,,80678068,10,"47,6",..,..,"204,3",11,"52,4",..,"100,0","231,4",2013
+Göteborg,Vittra Kronhusparken,Enskild,,67543412,23,"50,0","69,6",~100,"219,2",23,"50,0","65,2",~100,"197,5",2013
+Göteborg,Waldorfskolan Grenkvist,Enskild,,36158006,..,..,..,..,..,..,..,..,..,..,2013
+Götene,Fornängsskolan,Kommunal,Götene,34900938,39,"41,9","87,2","100,0","217,9",54,"58,1","74,1","85,2","190,6",2013
+Götene,Västerbyskolan,Kommunal,Götene,78301783,26,"49,1","84,6",~100,"244,6",27,"50,9","70,4",~100,"189,1",2013
+Habo,Hagabodaskolan 6-9,Kommunal,Habo,38553494,48,"42,1","87,5","87,5","204,1",66,"57,9","77,3","84,8","208,9",2013
+Hagfors,Kyrkhedens skola 4-9,Kommunal,Hagfors,64460662,16,"44,4","68,8",~100,"185,0",20,"55,6","55,0",~100,"181,8",2013
+Hagfors,Älvstrandens Bildn.Centrum 7-9,Kommunal,Hagfors,18315553,33,"49,3","90,9",~100,"233,9",34,"50,7","76,5","76,5","189,9",2013
+Hallsberg,Folkasboskolan,Kommunal,Hallsberg,99707554,17,"39,5","82,4",~100,"241,3",26,"60,5","57,7","65,4","192,4",2013
+Hallsberg,Transtenskolan,Kommunal,Hallsberg,63503591,62,"49,2","69,4","77,4","207,9",64,"50,8","54,7","67,2","172,5",2013
+Hallstahammar,Lindboskolan,Kommunal,Hallstahammar,88403889,53,"52,0","71,7","81,1","226,3",49,"48,0","67,3","71,4","191,3",2013
+Hallstahammar,Tunboskolan,Kommunal,Hallstahammar,32758035,17,"54,8","76,5",~100,"201,9",14,"45,2","92,9","100,0","207,0",2013
+Halmstad,Brunnsåkersskolan 1,Kommunal,Halmstad,71629462,64,"53,3","75,0","89,1","215,0",56,"46,7","76,8","91,1","206,2",2013
+Halmstad,Brunnsåkersskolan 2,Kommunal,Halmstad,87737594,..,..,.,.,..,..,..,.,.,.,2013
+Halmstad,Furulundsskolan 1,Kommunal,Halmstad,84189577,17,"50,0","82,4",~100,"216,2",17,"50,0","58,8",~100,"187,5",2013
+Halmstad,Fyllingeskolan 1,Kommunal,Halmstad,65388353,17,"45,9","100,0","100,0","213,1",20,"54,1","100,0","100,0","236,8",2013
+Halmstad,Förberedelseklass,Kommunal,Halmstad,32197343,..,..,.,.,.,..,..,.,.,.,2013
+Halmstad,Getingeskolan 1,Kommunal,Halmstad,99829869,47,"55,3","95,7","100,0","230,9",38,"44,7","84,2","100,0","223,2",2013
+Halmstad,Gullbrandstorpsskolan 1,Kommunal,Halmstad,74772092,21,"40,4","100,0","100,0","238,1",31,"59,6","100,0","100,0","220,5",2013
+Halmstad,Hallägraskolan 1,Kommunal,Halmstad,18751410,28,"59,6","92,9",~100,"226,0",19,"40,4","73,7",~100,"215,0",2013
+Halmstad,Hallägraskolan 2,Kommunal,Halmstad,67995611,24,"50,0","95,8","100,0","247,3",24,"50,0","95,8","100,0","218,2",2013
+Halmstad,Stenstorpsskolan,Kommunal,Halmstad,52347444,23,"52,3","87,0",~100,"251,6",21,"47,7","81,0",~100,"216,1",2013
+Halmstad,Trönningeskolan 1,Kommunal,Halmstad,86573921,25,"41,0","84,0",~100,"224,9",36,"59,0","88,9",~100,"217,4",2013
+Halmstad,Vallåsskolan 1,Kommunal,Halmstad,19274764,26,"44,1","84,6",~100,"219,2",33,"55,9","78,8",~100,"192,5",2013
+Halmstad,Östergårdsskolan 1,Kommunal,Halmstad,74243509,43,"57,3","74,4",~100,"210,2",32,"42,7","59,4","75,0","190,2",2013
+Halmstad,Östergårdsskolan 2,Kommunal,Halmstad,24668709,19,"42,2","94,7",~100,"223,3",26,"57,8","84,6",~100,"199,3",2013
+Halmstad,Östergårdsskolan 3,Kommunal,Halmstad,63902508,..,..,"100,0","100,0","257,2",..,..,..,..,..,2013
+Halmstad,Österledskolan 1,Kommunal,Halmstad,92337813,37,"42,5","81,1","86,5","201,7",50,"57,5","70,0","80,0","195,1",2013
+Halmstad,Eketånga Montessoriskola,Enskild,,28459364,12,"48,0","100,0","100,0","240,2",13,"52,0","92,3","100,0","226,3",2013
+Halmstad,Vittra Halmstad,Enskild,,61582926,..,..,..,..,..,..,..,..,..,"186,9",2013
+Halmstad,Wallbergsskolan,Enskild,,42422737,13,"56,5","100,0","100,0","237,1",10,"43,5",..,"100,0","214,0",2013
+Hammarö,Hammarlundens skola 7-9,Kommunal,Hammarö,95243847,30,"48,4","100,0","100,0","252,1",32,"51,6","93,8",~100,"223,6",2013
+Hammarö,Mörmoskolan 7-9,Kommunal,Hammarö,47480841,49,"57,6","83,7","89,8","214,6",36,"42,4","80,6",~100,"205,2",2013
+Haninge,Brandbergsskolan,Kommunal,Haninge,73184968,56,"54,9","66,1","75,0","211,9",46,"45,1","56,5","69,6","194,3",2013
+Haninge,Dalarö skola,Kommunal,Haninge,74610376,15,"53,6","86,7",~100,"205,2",13,"46,4","92,3","100,0","235,8",2013
+Haninge,Haga Lyckebyskolan,Kommunal,Haninge,81680693,27,"48,2","88,9",~100,"220,2",29,"51,8","100,0","100,0","215,1",2013
+Haninge,Ribbyskolan,Kommunal,Haninge,59497255,48,"44,4","77,1","83,3","214,6",60,"55,6","60,0","71,7","198,2",2013
+Haninge,Söderbymalmsskolan,Kommunal,Haninge,10035236,73,"40,8","63,0","84,9","209,6",106,"59,2","67,9","88,7","192,8",2013
+Haninge,Tungelsta skola,Kommunal,Haninge,38975788,43,"51,2","81,4",~100,"212,0",41,"48,8","75,6","85,4","189,8",2013
+Haninge,Utö skola,Kommunal,Haninge,86577795,..,..,.,.,.,..,..,..,..,..,2013
+Haninge,Vendelsömalmsskolan,Kommunal,Haninge,72266104,27,"34,6","70,4","77,8","194,2",51,"65,4","56,9","70,6","171,7",2013
+Haninge,Funkis skola,Enskild,,14845171,..,..,.,.,.,..,..,.,..,..,2013
+Haninge,Rudanskolan,Enskild,,17957898,58,"45,7","65,5","87,9","220,1",69,"54,3","85,5",~100,"210,9",2013
+Haparanda,Gränsskolan,Kommunal,Haparanda,29991096,29,"50,0","72,4","79,3","197,5",29,"50,0","69,0","82,8","201,6",2013
+Haparanda,Marielundsskolan,Kommunal,Haparanda,13768276,..,..,..,..,..,..,..,"100,0","100,0","232,7",2013
+Haparanda,Språkskolan,Kommunal,Haparanda,98675845,17,"58,6","100,0","100,0","258,7",12,"41,4","100,0","100,0","222,5",2013
+Heby,Heby skola 7-9,Kommunal,Heby,36374693,44,"47,8","77,3","84,1","223,4",48,"52,2","72,9","87,5","191,5",2013
+Heby,Östervåla skola 7-9,Kommunal,Heby,88091927,28,"44,4","85,7",~100,"225,6",35,"55,6","57,1","77,1","172,7",2013
+Hedemora,Jonsboskolan 7-9,Kommunal,Hedemora,74123583,..,..,"100,0","100,0","231,1",..,..,..,..,..,2013
+Hedemora,Vasaskolan,Kommunal,Hedemora,42687238,55,"44,7","78,2",~100,"205,1",68,"55,3","70,6","82,4","188,1",2013
+Hedemora,Annaskolan,Enskild,,95227669,..,..,..,..,..,..,..,..,..,..,2013
+Helsingborg,Dalhemsskolan,Kommunal,Helsingborg,86764194,18,"62,1","66,7","72,2","209,3",11,"37,9",..,..,"157,5",2013
+Helsingborg,Elinebergsskolan,Kommunal,Helsingborg,41811292,36,"35,0","80,6",~100,"236,7",67,"65,0","76,1","86,6","196,0",2013
+Helsingborg,Gantofta skola,Kommunal,Helsingborg,28424574,26,"66,7","73,1",~100,"211,3",13,"33,3","84,6",~100,"205,4",2013
+Helsingborg,Gläntanskolan,Kommunal,Helsingborg,67721487,..,..,..,..,..,..,..,..,..,"146,9",2013
+Helsingborg,Holstagårdsskolan,Kommunal,Helsingborg,28754789,14,"35,9","100,0","100,0","285,0",25,"64,1","100,0","100,0","253,6",2013
+Helsingborg,Högastensskolan,Kommunal,Helsingborg,13175575,39,"58,2","69,2","76,9","200,7",28,"41,8","75,0",~100,"213,5",2013
+Helsingborg,International school of Hbg/Gr,Kommunal,Helsingborg,47717980,16,"42,1","87,5",~100,"284,7",22,"57,9","68,2",~100,"244,3",2013
+Helsingborg,Laröds skola,Kommunal,Helsingborg,87251726,15,"50,0","80,0",~100,"243,2",15,"50,0","80,0",~100,"227,5",2013
+Helsingborg,Magnus Stenbocksskolan,Kommunal,Helsingborg,23608621,31,"59,6","90,3",~100,"261,4",21,"40,4","66,7",~100,"197,7",2013
+Helsingborg,Maria Parkskolan,Kommunal,Helsingborg,42164778,26,"59,1","84,6",~100,"231,6",18,"40,9","77,8",~100,"193,1",2013
+Helsingborg,Musikgrundskolan Synkopen,Kommunal,Helsingborg,55200547,..,..,..,..,..,..,..,"91,7","100,0","240,8",2013
+Helsingborg,Påarps skola,Kommunal,Helsingborg,66351593,19,"26,8","52,6",~100,"206,3",52,"73,2","69,2",~100,"197,6",2013
+Helsingborg,Rydebäcks skola,Kommunal,Helsingborg,40385157,12,"32,4","100,0","100,0","248,8",25,"67,6","84,0","100,0","231,2",2013
+Helsingborg,Slottsvångsskolan,Kommunal,Helsingborg,63957271,13,"29,5",..,..,"105,2",31,"70,5","54,8","74,2","169,1",2013
+Helsingborg,Svensgårdsskolan,Kommunal,Helsingborg,89693828,21,"60,0","85,7",~100,"230,2",14,"40,0",..,~100,"207,3",2013
+Helsingborg,Västra Berga skola,Kommunal,Helsingborg,28060171,21,"47,7","71,4",~100,"219,5",23,"52,3","69,6",~100,"203,6",2013
+Helsingborg,Västra Ramlösa skola,Kommunal,Helsingborg,49010566,17,"54,8","94,1","100,0","249,0",14,"45,2","71,4",~100,"205,9",2013
+Helsingborg,Wieselgrensskolan,Kommunal,Helsingborg,51014228,72,"63,2","80,6","83,3","214,3",42,"36,8","83,3",~100,"202,7",2013
+Helsingborg,Ättekullaskolan,Kommunal,Helsingborg,64728140,..,..,..,..,..,..,..,..,..,..,2013
+Helsingborg,Corpore Byskola,Enskild,,19676761,..,..,.,.,.,..,..,..,..,..,2013
+Helsingborg,Kubikskolan,Enskild,,82943624,21,"38,9","57,1","61,9","209,9",33,"61,1","72,7","84,8","228,9",2013
+Helsingborg,Kunskapsskolan Helsingborg,Enskild,,48798589,59,"61,5","93,2",~100,"246,7",37,"38,5","83,8",~100,"215,4",2013
+Helsingborg,Pauliskolan,Enskild,,50194424,..,..,.,.,..,..,..,..,..,..,2013
+Helsingborg,"PeterSvenskolan, Helsingborg 1",Enskild,,16688128,42,"62,7","95,2","100,0","239,6",25,"37,3","96,0","100,0","211,8",2013
+Helsingborg,PeterSvenskolan Helsingborg 2,Enskild,,49050798,34,"53,1","91,2",~100,"233,0",30,"46,9","80,0",~100,"196,3",2013
+Helsingborg,Sally Bauerskolans Högstadium,Enskild,,53515359,17,"43,6","94,1",~100,"235,7",22,"56,4","86,4",~100,"205,8",2013
+Helsingborg,Vittra Adolfsberg,Enskild,,71069736,..,..,"80,0",~100,"214,8",..,..,..,..,..,2013
+Helsingborg,Vittra Landborgen,Enskild,,90080902,26,"50,0","73,1",~100,"220,0",26,"50,0","92,3",~100,"211,6",2013
+Helsingborg,Västra Alléskolan,Enskild,,57590681,..,..,..,..,..,..,..,"85,7","100,0","226,6",2013
+Herrljunga,Altorpskolan,Kommunal,Herrljunga,24142437,48,"46,2","83,3",~100,"222,1",56,"53,8","75,0","87,5","199,6",2013
+Hjo,Guldkroksskolan 7-9,Kommunal,Hjo,81342093,49,"55,7","83,7",~100,"214,5",39,"44,3","87,2",~100,"195,3",2013
+Hofors,Petreskolan,Kommunal,Hofors,25716177,51,"45,1","76,5","82,4","208,1",62,"54,9","80,6","83,9","200,5",2013
+Huddinge,Annerstaskolan,Kommunal,Huddinge,79012683,38,"37,3","57,9","65,8","199,2",64,"62,7","68,8","78,1","190,4",2013
+Huddinge,Balingsnässkolan,Kommunal,Huddinge,13654969,33,"66,0","93,9",~100,"240,1",17,"34,0","58,8",~100,"199,7",2013
+Huddinge,Edboskolan,Kommunal,Huddinge,98477278,39,"42,4","92,3",~100,"228,5",53,"57,6","86,8",~100,"207,9",2013
+Huddinge,Kungsklippeskolan,Kommunal,Huddinge,89510449,22,"42,3","100,0","100,0","259,2",30,"57,7","86,7",~100,"208,0",2013
+Huddinge,Kvarnbergsskolan,Kommunal,Huddinge,54516737,69,"35,9","88,4",~100,"223,7",123,"64,1","91,9","95,9","222,7",2013
+Huddinge,Källbrinksskolan,Kommunal,Huddinge,41213404,47,"54,7","95,7","100,0","233,0",39,"45,3","100,0","100,0","219,0",2013
+Huddinge,Rosenhillskolan,Kommunal,Huddinge,16654786,..,..,.,.,..,..,..,.,.,..,2013
+Huddinge,Segeltorpsskolan,Kommunal,Huddinge,15483394,39,"48,8","92,3",~100,"233,6",41,"51,3","80,5",~100,"207,3",2013
+Huddinge,Skogåsskolan,Kommunal,Huddinge,93760143,41,"44,1","61,0","68,3","211,7",52,"55,9","80,8","84,6","215,1",2013
+Huddinge,Tomtbergaskolan,Kommunal,Huddinge,28313791,27,"54,0","85,2",~100,"233,1",23,"46,0","82,6",~100,"217,4",2013
+Huddinge,Trångsundsskolan,Kommunal,Huddinge,42601396,41,"56,9","87,8",~100,"241,1",31,"43,1","80,6",~100,"211,9",2013
+Huddinge,Vistaskolan,Kommunal,Huddinge,50783450,22,"41,5","81,8",~100,"233,6",31,"58,5","93,5",~100,"232,5",2013
+Huddinge,Vårbyskolan,Kommunal,Huddinge,64949601,21,"58,3",..,..,"163,1",15,"41,7",..,..,"124,7",2013
+Huddinge,Södertörns friskola,Enskild,,22019000,67,"55,8","85,1",~100,"228,0",53,"44,2","83,0",~100,"215,0",2013
+Hudiksvall,Ede skola,Kommunal,Hudiksvall,83627088,29,"44,6","93,1",~100,"246,6",36,"55,4","91,7",~100,"209,8",2013
+Hudiksvall,Iggesunds skola,Kommunal,Hudiksvall,80631297,22,"50,0","95,5","100,0","227,6",22,"50,0","90,9",~100,"236,4",2013
+Hudiksvall,Läroverket,Kommunal,Hudiksvall,23786565,56,"47,1","67,9","83,9","208,2",63,"52,9","58,7","71,4","193,3",2013
+Hudiksvall,Östra skolan,Kommunal,Hudiksvall,50190330,50,"44,6","78,0","86,0","209,9",62,"55,4","61,3","77,4","188,6",2013
+Hudiksvall,Glada Hudikskolan,Enskild,,63507156,23,"53,5","91,3",~100,"231,0",20,"46,5","90,0",~100,"223,3",2013
+Hultsfred,Albäcksskolan 2,Kommunal,Hultsfred,62351132,48,"51,1","79,2","83,3","216,1",46,"48,9","63,0","71,7","174,2",2013
+Hultsfred,Prolympia Virserum,Enskild,,12289594,..,..,..,..,..,..,..,..,~100,"197,5",2013
+Hylte,Örnaskolan 2,Kommunal,Hylte,74001260,30,"43,5","76,7","83,3","221,5",39,"56,5","69,2","84,6","215,1",2013
+Hylte,Örnaskolan 3,Kommunal,Hylte,80477825,22,"52,4","59,1","77,3","209,4",20,"47,6","50,0","70,0","155,1",2013
+Hylte,Labora Grundskola,Enskild,,48694604,..,..,..,..,..,..,..,..,..,..,2013
+Håbo,Futurum,Kommunal,Håbo,64305292,27,"40,3","70,4",~100,"203,9",40,"59,7","67,5",~100,"191,8",2013
+Håbo,Gransäterskolan,Kommunal,Håbo,90826660,19,"36,5",..,~100,"174,3",33,"63,5","63,6","84,8","173,9",2013
+Håbo,Resursskolan,Kommunal,Håbo,44553894,..,..,.,.,..,..,..,.,..,..,2013
+Håbo,Västerängsskolan,Kommunal,Håbo,29299366,18,"39,1","66,7",~100,"239,0",28,"60,9","82,1",~100,"212,3",2013
+Håbo,Läraskolan,Enskild,,28306495,10,"50,0",..,"100,0","242,8",10,"50,0",..,..,"211,8",2013
+Håbo,Potentia Education,Enskild,,15081255,..,..,"100,0","100,0","282,5",..,..,..,..,..,2013
+Hällefors,Klockarhagsskolan,Kommunal,Hällefors,38657898,25,"41,7","92,0",~100,"211,1",35,"58,3","65,7","77,1","174,3",2013
+Härjedalen,Funäsdalens skola,Kommunal,Härjedalen,72295998,..,..,..,..,..,..,..,..,..,..,2013
+Härjedalen,Sonfjällsskolan,Kommunal,Härjedalen,85325551,..,..,"84,6","100,0","218,3",..,..,..,..,..,2013
+Härjedalen,Södra Skolan,Kommunal,Härjedalen,79022806,28,"52,8","82,1",~100,"210,9",25,"47,2","68,0","68,0","215,8",2013
+Härjedalen,Ytterhogdals Centralskola,Kommunal,Härjedalen,92387607,..,..,..,..,..,..,..,..,..,..,2013
+Härnösand,Gerestaskolan,Kommunal,Härnösand,87856368,24,"46,2","87,5",~100,"221,6",28,"53,8","71,4","82,1","195,9",2013
+Härnösand,Kiörningskolan,Kommunal,Härnösand,13510547,30,"43,5","80,0",~100,"228,8",39,"56,5","74,4","79,5","193,2",2013
+Härnösand,Landgrenskolan,Kommunal,Härnösand,19405413,34,"43,0","55,9",~100,"208,4",45,"57,0","60,0","77,8","184,8",2013
+Härnösand,Murbergsskolan,Kommunal,Härnösand,93068004,22,"41,5","81,8",~100,"229,8",31,"58,5","74,2",~100,"198,2",2013
+Härnösand,Kastellskolan,Enskild,,69454219,..,..,.,..,..,..,..,..,..,..,2013
+Härryda,Båtsmansskolan,Kommunal,Härryda,37772170,32,"53,3","96,9","100,0","257,1",28,"46,7","89,3","100,0","232,9",2013
+Härryda,Djupedalskolan,Kommunal,Härryda,91978548,23,"40,4","95,7",~100,"236,4",34,"59,6","79,4",~100,"192,5",2013
+Härryda,Ekdalaskolan,Kommunal,Härryda,17730768,48,"48,5","93,8",~100,"236,5",51,"51,5","92,2",~100,"213,9",2013
+Härryda,Landvetterskolan,Kommunal,Härryda,98934110,33,"46,5","87,9","100,0","243,4",38,"53,5","84,2",~100,"200,3",2013
+Härryda,Rävlandaskolan,Kommunal,Härryda,34127854,29,"52,7","72,4",~100,"215,2",26,"47,3","80,8",~100,"216,9",2013
+Härryda,Önnerödsskolan,Kommunal,Härryda,28698437,37,"60,7","86,5",~100,"223,9",24,"39,3","87,5",~100,"192,2",2013
+Härryda,Pixbo Montessoriskola,Enskild,,54688919,..,..,..,..,..,..,..,..,..,..,2013
+Hässleholm,Bjärnums skola 4-9,Kommunal,Hässleholm,83878055,31,"50,0","61,3","80,6","197,2",31,"50,0","77,4",~100,"191,5",2013
+Hässleholm,Furutorpskolan 7-9,Kommunal,Hässleholm,78602001,30,"52,6","73,3","83,3","195,8",27,"47,4","85,2",~100,"188,4",2013
+Hässleholm,Hästveda skola 4-9,Kommunal,Hässleholm,50909158,22,"56,4","77,3",~100,"211,3",17,"43,6","94,1",~100,"224,6",2013
+Hässleholm,Linné 7-9,Kommunal,Hässleholm,84432632,32,"60,4","81,3",~100,"223,4",21,"39,6","71,4",~100,"187,9",2013
+Hässleholm,Läredaskolan 7-9,Kommunal,Hässleholm,29689372,44,"51,8","81,8",~100,"220,3",41,"48,2","68,3","75,6","197,9",2013
+Hässleholm,Silviaskolan,Kommunal,Hässleholm,65408331,..,..,..,..,..,..,..,..,..,..,2013
+Hässleholm,T4-skolan F-9,Kommunal,Hässleholm,76278008,21,"52,5","81,0",~100,"202,6",19,"47,5","63,2",~100,"187,1",2013
+Hässleholm,T4-skolan Montessori,Kommunal,Hässleholm,28804882,10,"37,0",..,..,"211,8",17,"63,0","94,1",~100,"235,5",2013
+Hässleholm,Tyringe skola 6-9,Kommunal,Hässleholm,98064311,28,"41,2","85,7",~100,"234,6",40,"58,8","80,0","87,5","206,7",2013
+Hässleholm,Vannarödsskolan,Kommunal,Hässleholm,93845278,15,"38,5","73,3",~100,"209,5",24,"61,5","58,3",~100,"182,8",2013
+Hässleholm,Västerskolan 7-9,Kommunal,Hässleholm,91571086,35,"53,0","68,6","77,1","193,7",31,"47,0","38,7","83,9","183,8",2013
+Höganäs,Bruksskolan,Kommunal,Höganäs,95635160,18,"46,2","77,8","100,0","252,5",21,"53,8","76,2",~100,"217,1",2013
+Höganäs,Jonstorpsskolan,Kommunal,Höganäs,27665244,22,"50,0","95,5","100,0","236,5",22,"50,0","81,8",~100,"195,0",2013
+Höganäs,Lerbergsskolan,Kommunal,Höganäs,26702041,25,"51,0","96,0",~100,"249,2",24,"49,0","79,2","79,2","205,0",2013
+Höganäs,Nyhamnsskolan,Kommunal,Höganäs,28226699,10,"43,5",..,..,"159,0",13,"56,5","92,3","100,0","228,7",2013
+Höganäs,Tornlyckeskolan,Kommunal,Höganäs,75919914,16,"51,6",..,"68,8","201,3",15,"48,4","66,7",~100,"190,3",2013
+Höganäs,Vikenskolan,Kommunal,Höganäs,99439224,22,"35,5","100,0","100,0","248,8",40,"64,5","87,5",~100,"216,3",2013
+Höganäs,Brunnbyskolan,Enskild,,95113658,..,..,..,..,..,..,..,..,..,..,2013
+Höganäs,Montessoriskolan Tellus,Enskild,,69182531,..,..,..,..,..,..,..,.,.,.,2013
+Höganäs,"PeterSvenskolan, Höganäs",Enskild,,40689020,20,"62,5","75,0",~100,"249,1",12,"37,5",..,~100,"214,6",2013
+Högsby,Fröviskolan 7-9,Kommunal,Högsby,78308250,33,"40,7","66,7","75,8","184,5",48,"59,3","75,0","79,2","184,1",2013
+Hörby,Frostaskolan 7-9,Kommunal,Hörby,38299211,41,"41,0","90,2",~100,"225,9",59,"59,0","83,1",~100,"212,2",2013
+Hörby,Georgshillsskolan 4-9,Kommunal,Hörby,90834434,26,"50,0","84,6",~100,"229,6",26,"50,0","46,2","80,8","172,8",2013
+Hörby,Pilevallens skola,Enskild,,93569920,..,..,.,.,.,..,..,..,..,..,2013
+Höör,Ringsjöskolan,Kommunal,Höör,82942801,53,"54,6","75,5","86,8","210,6",44,"45,4","68,2","79,5","187,6",2013
+Höör,Sätoftaskolan,Kommunal,Höör,35670754,33,"50,8","84,8",~100,"236,7",32,"49,2","68,8",~100,"200,5",2013
+Höör,Emiliaskolan Höörs waldorfsk.,Enskild,,63846783,..,..,..,..,..,..,..,"83,3","100,0","224,4",2013
+Höör,Segrande Liv Grundskola,Enskild,,95024923,..,..,..,..,..,..,..,..,..,..,2013
+Jokkmokk,Östra skolan,Kommunal,Jokkmokk,86851817,21,"47,7","95,2",~100,"222,7",23,"52,3","69,6",~100,"190,1",2013
+Jokkmokk,Vuollerims Friskola,Enskild,,33468088,..,..,..,..,..,..,..,..,..,..,2013
+Järfälla,Björkebyskolan,Kommunal,Järfälla,40847752,46,"43,0","67,4","82,6","209,9",61,"57,0","82,0","91,8","208,7",2013
+Järfälla,Fjällenskolan,Kommunal,Järfälla,15080815,44,"41,5","93,2","100,0","237,2",62,"58,5","82,3",~100,"216,4",2013
+Järfälla,Källtorpskolan,Kommunal,Järfälla,17287315,33,"43,4","81,8",~100,"220,8",43,"56,6","65,1",~100,"214,5",2013
+Järfälla,Tallbohovskolan,Kommunal,Järfälla,97777849,38,"46,9","47,4","65,8","205,7",43,"53,1","37,2","53,5","153,3",2013
+Järfälla,Viksjöskolan,Kommunal,Järfälla,98925408,69,"47,9","82,6",~100,"232,8",75,"52,1","74,7","90,7","207,2",2013
+Järfälla,Engelska Skolan i Järfälla,Enskild,,79093755,55,"45,8","94,5","100,0","245,5",65,"54,2","96,9","100,0","242,9",2013
+Järfälla,Vittra Jakobsberg,Enskild,,66634449,39,"66,1","92,3",~100,"253,1",20,"33,9","100,0","100,0","246,6",2013
+Jönköping,Alfred Dalinskolan,Kommunal,Jönköping,85416841,104,"47,1","67,3","76,9","193,5",117,"52,9","64,1","76,9","186,8",2013
+Jönköping,Attarpsskolan 6-9,Kommunal,Jönköping,40546319,45,"48,9","93,3",~100,"230,4",47,"51,1","100,0","100,0","212,3",2013
+Jönköping,Flahultsskolan,Kommunal,Jönköping,28849109,54,"54,0","83,3",~100,"214,6",46,"46,0","89,1",~100,"208,1",2013
+Jönköping,Herrgårdsskolan,Kommunal,Jönköping,92212933,..,..,.,.,..,..,..,..,..,..,2013
+Jönköping,Junedalsskolan,Kommunal,Jönköping,20696736,92,"41,4","92,4","94,6","229,3",130,"58,6","88,5",~100,"215,7",2013
+Jönköping,Ljungarumsskolan,Kommunal,Jönköping,40224836,56,"48,3","75,0","83,9","214,3",60,"51,7","71,7","88,3","208,3",2013
+Jönköping,Ribbaskolan,Kommunal,Jönköping,83919671,49,"51,0","83,7","87,8","230,6",47,"49,0","78,7",~100,"215,1",2013
+Jönköping,Rosenlundsskolan 7-9,Kommunal,Jönköping,96558008,55,"49,5","70,9","78,2","204,3",56,"50,5","67,9","85,7","190,4",2013
+Jönköping,Stadsgårdsskolan,Kommunal,Jönköping,12759583,29,"36,7","75,9",~100,"225,0",50,"63,3","76,0",~100,"212,6",2013
+Jönköping,Engelska Skolan i Jönköping,Enskild,,86499334,67,"54,5","85,1",~100,"251,6",56,"45,5","85,7",~100,"234,2",2013
+Jönköping,Grennaskolan,Enskild,,66533280,..,..,..,~100,"252,0",..,..,..,..,..,2013
+Jönköping,Hyddans skola gr,Enskild,,80627954,..,..,.,.,.,..,..,.,.,.,2013
+Jönköping,Kunskapsskolan Jönköping,Enskild,,86562542,..,..,..,..,"202,0",..,..,..,..,..,2013
+Jönköping,Magnus Ladulås skola grund,Enskild,,17890412,..,..,.,..,..,..,..,.,..,..,2013
+Jönköping,"Prolympia, Jönköping",Enskild,,95673344,31,"31,3","83,9",~100,"229,8",68,"68,7","83,8","88,2","199,9",2013
+Jönköping,Strandskolan,Enskild,,23250615,..,..,..,..,"174,4",..,..,..,..,..,2013
+Kalix,Manhemsskolan,Kommunal,Kalix,10617819,83,"53,2","84,3","90,4","208,3",73,"46,8","76,7","87,7","192,5",2013
+Kalix,Norrskenets Friskola i Kalix,Enskild,,20525218,..,..,..,..,..,..,..,"87,5",~100,"184,7",2013
+Kalmar,Barkestorpsskolan,Kommunal,Kalmar,58215076,41,"57,7","75,6","82,9","199,6",30,"42,3","70,0","83,3","174,7",2013
+Kalmar,Falkenbergsskolan,Kommunal,Kalmar,99856371,30,"56,6","93,3",~100,"217,9",23,"43,4","91,3","100,0","214,3",2013
+Kalmar,Kalmarsundsskolan,Kommunal,Kalmar,24092221,35,"48,6","62,9","68,6","176,0",37,"51,4","75,7","81,1","179,9",2013
+Kalmar,Lindsdalsskolan,Kommunal,Kalmar,51848797,55,"58,5","87,3",~100,"216,5",39,"41,5","84,6",~100,"191,3",2013
+Kalmar,Södermöreskolan,Kommunal,Kalmar,79012102,35,"50,0","88,6",~100,"213,6",35,"50,0","85,7",~100,"192,6",2013
+Kalmar,Vasa skolområde,Kommunal,Kalmar,51627420,35,"56,5","94,3",~100,"232,6",27,"43,5","81,5",~100,"202,8",2013
+Kalmar,Östra Funkaboskolan,Kommunal,Kalmar,12852899,38,"41,3","89,5",~100,"220,5",54,"58,7","72,2","81,5","203,0",2013
+Kalmar,Kalmar waldorfskola,Enskild,,16517618,18,"64,3","72,2",~100,"226,1",10,"35,7",..,..,"190,0",2013
+Kalmar,Solhagaskolan,Enskild,,87544967,..,..,.,.,..,..,..,.,.,..,2013
+Kalmar,Södra skolan,Enskild,,13936858,36,"52,9","100,0","100,0","245,0",32,"47,1","90,6",~100,"221,6",2013
+Karlsborg,Carl Johanskolan,Kommunal,Karlsborg,34231336,26,"42,6","88,5","100,0","226,5",35,"57,4","94,3",~100,"201,6",2013
+Karlshamn,Norrevångskolan,Kommunal,Karlshamn,89878714,31,"52,5","74,2",~100,"213,6",28,"47,5","50,0",~100,"188,4",2013
+Karlshamn,Stenbackaskolan,Kommunal,Karlshamn,16767324,42,"48,3","81,0",~100,"232,1",45,"51,7","62,2","88,9","197,8",2013
+Karlshamn,Österslättsskolan A,Kommunal,Karlshamn,72744832,63,"68,5","74,6","88,9","218,3",29,"31,5","58,6","75,9","185,4",2013
+Karlshamn,Österslättsskolan B,Kommunal,Karlshamn,56399024,11,"19,3",..,..,"175,8",46,"80,7","69,6","82,6","188,8",2013
+Karlshamn,Waldorfskolan i Karlshamn,Enskild,,22909101,..,..,..,..,..,..,..,..,..,..,2013
+Karlskoga,Karlbergsskolan åk 7-9,Kommunal,Karlskoga,71762216,64,"58,7","75,0","81,3","211,0",45,"41,3","73,3","88,9","197,8",2013
+Karlskoga,Skranta skola,Kommunal,Karlskoga,65654358,61,"50,4","82,0","85,2","223,2",60,"49,6","80,0","88,3","198,9",2013
+Karlskoga,Österledskolan,Kommunal,Karlskoga,34767418,45,"45,0","73,3","80,0","213,7",55,"55,0","61,8","76,4","192,2",2013
+Karlskrona,Jändelskolan 6-9,Kommunal,Karlskrona,20104552,31,"43,1","93,5",~100,"225,5",41,"56,9","65,9","87,8","182,5",2013
+Karlskrona,Nättrabyskolan 6-9,Kommunal,Karlskrona,26209081,21,"50,0","90,5",~100,"230,7",21,"50,0","71,4",~100,"184,0",2013
+Karlskrona,Rosenholmskolan Sport College,Kommunal,Karlskrona,89523926,18,"40,9","100,0","100,0","256,7",26,"59,1","100,0","100,0","215,5",2013
+Karlskrona,Rödebyskolan 6-9,Kommunal,Karlskrona,32421136,32,"41,0","75,0",~100,"205,0",46,"59,0","50,0","67,4","167,0",2013
+Karlskrona,Sunnadalskolan 7-9,Kommunal,Karlskrona,68263602,18,"47,4","72,2",~100,"202,9",20,"52,6","50,0","55,0","158,2",2013
+Karlskrona,Vedebyskolan,Kommunal,Karlskrona,55709634,23,"27,7","87,0",~100,"231,4",60,"72,3","60,0","80,0","186,4",2013
+Karlskrona,"Wämöskolan, Wämö",Kommunal,Karlskrona,63323984,32,"44,4","59,4","75,0","201,6",40,"55,6","75,0","87,5","199,8",2013
+Karlskrona,Friskolan Svettpärlan,Enskild,,93964634,13,"50,0","100,0","100,0","215,4",13,"50,0","92,3","100,0","213,5",2013
+Karlskrona,JB Galären Dator o Teknik,Enskild,,64959079,..,..,..,..,..,..,..,"57,9",~100,"194,6",2013
+Karlskrona,"JB Galären, grundskola",Enskild,,10662754,51,"65,4","90,2",~100,"237,5",27,"34,6","96,3","100,0","223,4",2013
+Karlskrona,Karlskrona Montessorifriskola,Enskild,,67509465,..,..,..,..,..,..,..,..,..,..,2013
+Karlskrona,Musikugglan,Enskild,,93919365,14,"58,3","100,0","100,0","259,6",10,"41,7",..,"100,0","236,0",2013
+Karlskrona,Piggelinen,Enskild,,99469094,..,..,..,~100,"202,9",..,..,..,..,..,2013
+Karlstad,Frödingskolan 7-9,Kommunal,Karlstad,29058107,27,"49,1","70,4","77,8","209,9",28,"50,9","67,9","78,6","191,9",2013
+Karlstad,Hultsbergsskolan 6-9,Kommunal,Karlstad,99406709,42,"54,5","85,7",~100,"210,4",35,"45,5","77,1",~100,"193,3",2013
+Karlstad,Ilandaskolan,Kommunal,Karlstad,27418903,47,"41,6","97,9","100,0","243,1",66,"58,4","92,4",~100,"214,0",2013
+Karlstad,Mariebergsskolan,Kommunal,Karlstad,81424988,51,"54,8","70,6",~100,"209,6",42,"45,2","69,0",~100,"195,2",2013
+Karlstad,Norrstrandsskolan Alfa,Kommunal,Karlstad,83999935,25,"41,0","96,0",~100,"226,1",36,"59,0","88,9",~100,"204,9",2013
+Karlstad,Norrstrandsskolan Beta/Ga,Kommunal,Karlstad,57635312,63,"54,8","82,5",~100,"222,6",52,"45,2","76,9",~100,"201,8",2013
+Karlstad,Nyeds skola 4-9,Kommunal,Karlstad,32255602,18,"43,9","77,8",~100,"234,4",23,"56,1","82,6",~100,"211,3",2013
+Karlstad,Rudsskolan Atl/Dan,Kommunal,Karlstad,85833115,41,"50,6","80,5","87,8","222,4",40,"49,4","82,5",~100,"203,1",2013
+Karlstad,Rudsskolan Bal/Oce,Kommunal,Karlstad,91487596,30,"51,7","73,3",~100,"211,7",28,"48,3","89,3","100,0","216,7",2013
+Karlstad,Vålbergsskolan 4-9,Kommunal,Karlstad,80659104,30,"58,8","70,0","80,0","209,0",21,"41,2","81,0",~100,"201,4",2013
+Karlstad,Engelska Skolan i Karlstad,Enskild,,93730568,47,"58,0","93,6",~100,"251,3",34,"42,0","94,1","100,0","243,5",2013
+Katrineholm,Nyhemsskolan 7-9,Kommunal,Katrineholm,19216121,48,"49,0","50,0","58,3","169,1",50,"51,0","46,0","52,0","166,1",2013
+Katrineholm,Södra skolan,Kommunal,Katrineholm,43723580,67,"55,4","73,1","80,6","202,9",54,"44,6","57,4","77,8","188,9",2013
+Katrineholm,Tallåsskolan,Kommunal,Katrineholm,14164796,44,"41,9","77,3","81,8","212,0",61,"58,1","60,7","73,8","187,1",2013
+Katrineholm,Floda friskola,Enskild,,42354333,..,..,..,"100,0","236,0",..,..,..,..,..,2013
+Kil,Sannerudsskolan 7-9,Kommunal,Kil,17665080,71,"54,6","74,6","84,5","213,6",59,"45,4","72,9","91,5","200,8",2013
+Kinda,Värgårdsskolan,Kommunal,Kinda,75296593,53,"54,6","88,7",~100,"226,5",44,"45,4","81,8",~100,"189,3",2013
+Kiruna,Abisko skolan,Kommunal,Kiruna,76026322,..,..,..,..,..,..,..,..,..,..,2013
+Kiruna,Högalidskolan 7-9,Kommunal,Kiruna,80693905,49,"52,1","71,4","85,7","230,2",45,"47,9","64,4","80,0","200,8",2013
+Kiruna,Karesuando skola,Kommunal,Kiruna,79467784,..,..,..,..,..,..,..,..,..,..,2013
+Kiruna,Raketskolan 6-9,Kommunal,Kiruna,43351950,38,"44,2","65,8","78,9","208,4",48,"55,8","64,6","79,2","177,6",2013
+Kiruna,Svappavaara skola,Kommunal,Kiruna,21462543,..,..,..,..,..,..,..,..,..,..,2013
+Kiruna,Triangelskolan,Kommunal,Kiruna,14938538,11,"47,8",..,..,..,12,"52,2","83,3",~100,"225,5",2013
+Kiruna,Friluftsskolan Vargen,Enskild,,73281949,..,..,..,..,..,..,..,"86,7",~100,"226,0",2013
+Klippan,Ljungbyhedsskolan 1,Kommunal,Klippan,75091646,23,"36,5","73,9",~100,"214,6",40,"63,5","77,5",~100,"204,6",2013
+Klippan,Snyggatorpsskolan 1,Kommunal,Klippan,10822811,27,"41,5","70,4",~100,"219,2",38,"58,5","71,1","84,2","208,9",2013
+Klippan,Snyggatorpsskolan 2,Kommunal,Klippan,71644999,34,"50,7","79,4","85,3","216,9",33,"49,3","63,6","84,8","187,3",2013
+Knivsta,Alsike skola,Kommunal,Knivsta,49742321,..,..,..,..,..,..,..,"85,0",~100,"227,5",2013
+Knivsta,Thunmanskolan,Kommunal,Knivsta,92364234,50,"47,2","88,0",~100,"233,2",56,"52,8","91,1",~100,"224,2",2013
+Knivsta,Margarethaskolan,Enskild,,51867275,..,..,"93,8",~100,"245,5",..,..,..,..,..,2013
+Kramfors,Gudmundråskolan,Kommunal,Kramfors,11159060,39,"42,4","76,9",~100,"204,7",53,"57,6","64,2","84,9","180,0",2013
+Kramfors,Högakustenskolan,Kommunal,Kramfors,75515918,30,"66,7","93,3",~100,"237,0",15,"33,3","80,0","100,0","209,5",2013
+Kramfors,Ytterlännässkolan,Kommunal,Kramfors,30403490,17,"56,7","94,1","100,0","221,5",13,"43,3","76,9",~100,"192,7",2013
+Kristianstad,Degebergaskolan 3-9,Kommunal,Kristianstad,54930405,18,"48,6","94,4","100,0","221,5",19,"51,4","68,4",~100,"172,4",2013
+Kristianstad,Fjälkinge skola,Kommunal,Kristianstad,12725451,19,"52,8","100,0","100,0","250,1",17,"47,2","58,8","70,6","193,4",2013
+Kristianstad,Fröknegårdskolan LM,Kommunal,Kristianstad,51988106,69,"56,1","60,9","73,9","201,3",54,"43,9","57,4","75,9","197,2",2013
+Kristianstad,Norretullskolan,Kommunal,Kristianstad,59782586,41,"42,3","58,5","68,3","178,7",56,"57,7","76,8","85,7","187,1",2013
+Kristianstad,Nosabyskolan,Kommunal,Kristianstad,69725960,50,"50,0","68,0","90,0","226,1",50,"50,0","68,0","86,0","200,7",2013
+Kristianstad,Rönnowskolan LM,Kommunal,Kristianstad,51801312,26,"49,1","92,3",~100,"244,6",27,"50,9","92,6",~100,"205,8",2013
+Kristianstad,Slättängsskolan LM,Kommunal,Kristianstad,50316106,37,"44,6","67,6","75,7","197,2",46,"55,4","47,8","80,4","168,0",2013
+Kristianstad,Spängerskolan,Kommunal,Kristianstad,64694970,12,"44,4",..,..,"171,7",15,"55,6",..,~100,"175,0",2013
+Kristianstad,Sånnaskolan LM,Kommunal,Kristianstad,41261089,28,"42,4","89,3",~100,"212,9",38,"57,6","94,7",~100,"218,0",2013
+Kristianstad,Tollarps skola L,Kommunal,Kristianstad,75994251,31,"70,5","87,1",~100,"231,5",13,"29,5",..,~100,"189,6",2013
+Kristianstad,Väskolan L,Kommunal,Kristianstad,70339689,27,"50,0","100,0","100,0","223,0",27,"50,0","70,4",~100,"210,1",2013
+Kristianstad,Öllsjöskolan LM,Kommunal,Kristianstad,88024354,17,"54,8","94,1","100,0","232,5",14,"45,2",..,~100,"203,4",2013
+Kristianstad,Önnestads skola LM,Kommunal,Kristianstad,55252770,33,"56,9","72,7","84,8","227,0",25,"43,1","92,0",~100,"218,0",2013
+Kristianstad,Antonskolan,Enskild,,14555807,..,..,"90,9",~100,"228,4",..,..,..,..,..,2013
+Kristianstad,Antonskolan Österäng,Enskild,,57538739,..,..,..,..,..,..,..,..,..,..,2013
+Kristianstad,Axonaskolan i Tollarp,Enskild,,81452013,..,..,..,..,..,..,..,..,..,..,2013
+Kristianstad,Kristianstads Montessoriskola,Enskild,,72491525,14,"48,3","85,7",~100,"252,0",15,"51,7","80,0",~100,"227,7",2013
+Kristianstad,Lejonskolan,Enskild,,26843745,11,"47,8",..,"100,0","188,9",12,"52,2",..,~100,"184,0",2013
+Kristinehamn,Djurgårdsskolan 7-9,Kommunal,Kristinehamn,41433169,36,"53,7","83,3",~100,"223,5",31,"46,3","71,0","74,2","201,2",2013
+Kristinehamn,Stenstalidskolan 7-9,Kommunal,Kristinehamn,14885908,33,"42,9","84,8",~100,"233,0",44,"57,1","72,7","77,3","181,8",2013
+Kristinehamn,Södermalmsskolan 7-9,Kommunal,Kristinehamn,16272625,36,"38,3","72,2","77,8","197,6",58,"61,7","74,1","79,3","197,7",2013
+Krokom,Cederbergskolan,Kommunal,Krokom,64778601,..,..,"93,8",~100,"225,2",..,..,..,..,..,2013
+Krokom,Nyhedens skola,Kommunal,Krokom,40025257,40,"46,5","87,5",~100,"224,0",46,"53,5","63,0","78,3","188,4",2013
+Krokom,Ås skola,Kommunal,Krokom,25036442,16,"55,2","100,0","100,0","238,6",13,"44,8","92,3",~100,"216,3",2013
+Krokom,Änge skola,Kommunal,Krokom,25036714,17,"53,1","58,8",~100,"195,7",15,"46,9","86,7","100,0","220,5",2013
+Kumla,Kumlaby skola 6-9,Kommunal,Kumla,75692870,43,"52,4","74,4","83,7","195,6",39,"47,6","64,1","87,2","198,2",2013
+Kumla,Skogstorpsskolan 6-9,Kommunal,Kumla,44243725,54,"51,4","87,0","87,0","225,0",51,"48,6","80,4","84,3","204,0",2013
+Kumla,Vialundskolan,Kommunal,Kumla,99992013,39,"54,9","61,5","71,8","207,2",32,"45,1","50,0","75,0","179,8",2013
+Kungsbacka,Frillesåsskolan 6-9,Kommunal,Kungsbacka,10927868,21,"47,7","95,2",~100,"235,8",23,"52,3","82,6",~100,"203,8",2013
+Kungsbacka,Fullriggaren Malevik 4-9,Kommunal,Kungsbacka,33170625,14,"35,9","100,0","100,0","264,5",25,"64,1","96,0","100,0","235,4",2013
+Kungsbacka,Hedeskolan 4-9,Kommunal,Kungsbacka,11231816,24,"58,5","91,7",~100,"230,6",17,"41,5","94,1",~100,"228,4",2013
+Kungsbacka,Hålabäcksskolan,Kommunal,Kungsbacka,99688470,38,"52,8","86,8",~100,"225,8",34,"47,2","64,7","70,6","180,4",2013
+Kungsbacka,Kapareskolan A-D,Kommunal,Kungsbacka,28803215,41,"61,2","87,8",~100,"236,8",26,"38,8","80,8",~100,"186,6",2013
+Kungsbacka,Kapareskolan E-H,Kommunal,Kungsbacka,84111198,24,"55,8","79,2",~100,"198,4",19,"44,2","89,5",~100,"203,9",2013
+Kungsbacka,Kullaviksskolan Nidingen,Kommunal,Kungsbacka,75835202,27,"34,2","92,6","100,0","260,0",52,"65,8","88,5",~100,"232,3",2013
+Kungsbacka,Kullenskolan,Kommunal,Kungsbacka,77574230,..,..,.,.,.,..,..,.,..,..,2013
+Kungsbacka,Presseskolan 7-9,Kommunal,Kungsbacka,28271314,18,"45,0","88,9",~100,"238,1",22,"55,0","90,9","100,0","212,7",2013
+Kungsbacka,Smedingeskolan B,Kommunal,Kungsbacka,29293076,38,"45,8","92,1",~100,"222,2",45,"54,2","75,6","84,4","183,9",2013
+Kungsbacka,Särö skola 4-9,Kommunal,Kungsbacka,72090315,23,"47,9","91,3",~100,"249,7",25,"52,1","96,0","100,0","220,7",2013
+Kungsbacka,Toråsskolan 4-9,Kommunal,Kungsbacka,14101582,20,"40,8","95,0",~100,"221,0",29,"59,2","82,8",~100,"187,8",2013
+Kungsbacka,Varlaskolan norra,Kommunal,Kungsbacka,37101902,22,"45,8","95,5",~100,"239,7",26,"54,2","73,1",~100,"204,7",2013
+Kungsbacka,Varlaskolan södra,Kommunal,Kungsbacka,70143574,49,"51,0","89,8","100,0","238,6",47,"49,0","83,0","100,0","219,0",2013
+Kungsbacka,Åsa Gårds skola 4-9,Kommunal,Kungsbacka,16824824,11,"45,8",..,..,"232,3",13,"54,2","84,6",~100,"190,6",2013
+Kungsbacka,Åsaskolan 4-9,Kommunal,Kungsbacka,18035112,19,"41,3","84,2",~100,"222,9",27,"58,7","81,5",~100,"204,4",2013
+Kungsbacka,Älvsåkersskolan 4-9,Kommunal,Kungsbacka,74587667,20,"44,4","85,0",~100,"247,4",25,"55,6","80,0",~100,"203,2",2013
+Kungsbacka,Kullaviks Montessoriskola,Enskild,,10902849,12,"52,2","100,0","100,0","270,2",11,"47,8","100,0","100,0","239,8",2013
+Kungsbacka,Nova Montessoriskola,Enskild,,47832100,18,"58,1","94,4","100,0","250,7",13,"41,9","100,0","100,0","218,5",2013
+Kungsbacka,Onsala Montessoriskola,Enskild,,90784555,..,..,.,.,..,..,..,..,..,..,2013
+Kungsbacka,Vittra Forsgläntan,Enskild,,42568760,15,"51,7","93,3",~100,"256,5",14,"48,3","100,0","100,0","253,6",2013
+Kungsör,Kung Karls skola,Kommunal,Kungsör,46834580,36,"46,2","77,8","83,3","210,7",42,"53,8","81,0","85,7","200,7",2013
+Kungälv,Munkegärdeskolan,Kommunal,Kungälv,51596946,57,"53,8","80,7","84,2","223,5",49,"46,2","83,7",~100,"210,5",2013
+Kungälv,Thorildskolan,Kommunal,Kungälv,73505986,55,"45,5","80,0",~100,"215,9",66,"54,5","60,6","87,9","197,5",2013
+Kungälv,"Ytterbyskolan 1,2",Kommunal,Kungälv,94523247,54,"61,4","85,2",~100,"235,8",34,"38,6","82,4",~100,"215,7",2013
+Kungälv,"Ytterbyskolan 3,4",Kommunal,Kungälv,63621283,33,"53,2","87,9",~100,"218,1",29,"46,8","89,7",~100,"212,9",2013
+Kungälv,Fredkullaskolan (waldorfskola),Enskild,,38353942,..,..,..,..,..,..,..,..,..,..,2013
+Kungälv,Friskolan i Kärna,Enskild,,25790317,24,"53,3","91,7",~100,"231,3",21,"46,7","95,2","100,0","216,7",2013
+Kungälv,Montessoriskolan Älvkullen,Enskild,,49323438,..,..,..,..,..,..,..,..,..,..,2013
+Kungälv,Strandskolan,Enskild,,21917957,12,"50,0","91,7",~100,"231,7",12,"50,0","91,7",~100,"224,4",2013
+Kungälv,Tobiasskolan,Enskild,,31356056,..,..,..,..,..,..,..,.,.,..,2013
+Kävlinge,Korsbackaskolan,Kommunal,Kävlinge,46107605,52,"48,1","84,6",~100,"213,1",56,"51,9","78,6","87,5","196,4",2013
+Kävlinge,Tolvåkerskolan,Kommunal,Kävlinge,13578112,47,"58,8","87,2",~100,"237,2",33,"41,3","84,8",~100,"212,5",2013
+Kävlinge,J B Sandhammaren,Enskild,,12203393,13,"40,6","84,6",~100,"215,8",19,"59,4","84,2",~100,"215,9",2013
+Kävlinge,JB Lödde,Enskild,,19504051,25,"54,3","96,0","100,0","240,9",21,"45,7","95,2","100,0","235,5",2013
+Köping,Karlbergsskolan,Kommunal,Köping,31319179,55,"53,9","67,3","83,6","208,3",47,"46,1","66,0","87,2","192,9",2013
+Köping,Malmaskolan 3-9,Kommunal,Köping,49665496,26,"46,4","84,6","100,0","218,4",30,"53,6","90,0",~100,"212,0",2013
+Köping,Scheeleskolan,Kommunal,Köping,24379201,45,"46,4","68,9","80,0","206,0",52,"53,6","40,4","67,3","153,5",2013
+Laholm,Lagaholmsskolan,Kommunal,Laholm,50150550,67,"57,3","79,1","88,1","225,4",50,"42,7","68,0","84,0","202,7",2013
+Laholm,Veingeskolan 7-9,Kommunal,Laholm,95134514,38,"48,1","84,2","86,8","227,2",41,"51,9","85,4",~100,"203,3",2013
+Laholm,Våxtorpsskolan 7-9,Kommunal,Laholm,35795213,31,"50,0","87,1",~100,"208,1",31,"50,0","80,6",~100,"207,3",2013
+Landskrona,Asmundtorps skola 7-9,Kommunal,Landskrona,70803452,..,..,"81,3",~100,"219,1",..,..,..,..,..,2013
+Landskrona,Estet College,Kommunal,Landskrona,63055510,..,..,..,..,..,..,..,.,..,..,2013
+Landskrona,Glumslövs skola,Kommunal,Landskrona,30917121,21,"65,6","100,0","100,0","262,3",11,"34,4","90,9",~100,"190,5",2013
+Landskrona,Junior College,Kommunal,Landskrona,97823288,15,"51,7",..,..,"176,3",14,"48,3",..,..,"150,2",2013
+Landskrona,Sandåkerskolan 1,Kommunal,Landskrona,65652546,21,"38,9","81,0","100,0","235,8",33,"61,1","87,9",~100,"225,5",2013
+Landskrona,Seminarieskolan 7-9,Kommunal,Landskrona,22078228,28,"58,3","60,7","64,3","210,6",20,"41,7",..,..,"168,8",2013
+Landskrona,Västervångskolan 7-9,Kommunal,Landskrona,29541747,52,"48,6","73,1",~100,"216,0",55,"51,4","72,7","90,9","210,5",2013
+Landskrona,Dianaskolan,Enskild,,70072964,..,..,..,..,..,..,..,"83,3","100,0","213,6",2013
+Landskrona,Kunskapsskolan Landskrona,Enskild,,60956248,26,"56,5","100,0","100,0","241,2",20,"43,5","100,0","100,0","244,3",2013
+Landskrona,Säbyholms montessoriskola,Enskild,,42908219,..,..,..,..,..,..,..,..,"100,0","198,3",2013
+Laxå,Centralskolan,Kommunal,Laxå,24748604,34,"49,3","82,4",~100,"204,9",35,"50,7","65,7","74,3","180,3",2013
+Lekeberg,Lekebergsskolan 7-9,Kommunal,Lekeberg,97648883,21,"38,2","81,0",~100,"221,8",34,"61,8","67,6","85,3","199,2",2013
+Leksand,Insjöns skola,Kommunal,Leksand,62927602,13,"43,3","84,6",~100,"233,5",17,"56,7",..,~100,"169,4",2013
+Leksand,Sammilsdalskolan 7-9,Kommunal,Leksand,99792496,56,"52,3","96,4",~100,"232,9",51,"47,7","84,3","90,2","200,0",2013
+Leksand,Åkerö skola 7-9,Kommunal,Leksand,28235575,20,"50,0","95,0",~100,"234,9",20,"50,0","70,0","70,0","184,4",2013
+Leksand,Banérskolan,Enskild,,89749001,..,..,..,..,..,..,..,..,..,..,2013
+Lerum,Alléskolan,Kommunal,Lerum,17313432,58,"47,2","87,9",~100,"228,7",65,"52,8","75,4","92,3","213,2",2013
+Lerum,Ljungviksskolan,Kommunal,Lerum,41823753,20,"47,6","95,0","100,0","209,5",22,"52,4","95,5",~100,"209,4",2013
+Lerum,Rydsbergsskolan,Kommunal,Lerum,50281921,26,"43,3","88,5",~100,"242,2",34,"56,7","79,4","85,3","206,5",2013
+Lerum,Röselidsskolan,Kommunal,Lerum,63428977,19,"52,8","84,2","100,0","218,0",17,"47,2","94,1","100,0","211,0",2013
+Lerum,Stenkulan,Kommunal,Lerum,98561879,27,"49,1","77,8",~100,"211,5",28,"50,9","75,0",~100,"190,0",2013
+Lerum,Torpskolan,Kommunal,Lerum,76968645,58,"47,5","87,9",~100,"228,4",64,"52,5","84,4",~100,"209,4",2013
+Lerum,Montessoriskolan Floda säteri,Enskild,,82651095,12,"44,4","100,0","100,0","244,2",15,"55,6","80,0",~100,"222,7",2013
+Lessebo,Bikupan,Kommunal,Lessebo,74218950,25,"32,9","68,0","72,0","180,4",51,"67,1","56,9","80,4","162,2",2013
+Lidingö,Bodals skola,Kommunal,Lidingö,98780182,26,"72,2","84,6",~100,"254,5",10,"27,8","100,0","100,0","240,3",2013
+Lidingö,Dalskolan,Kommunal,Lidingö,76738650,..,..,.,..,..,..,..,..,..,..,2013
+Lidingö,Högsätra internationella kl 2,Kommunal,Lidingö,11253933,..,..,.,.,.,..,..,.,.,.,2013
+Lidingö,Högsätra skola 2,Kommunal,Lidingö,49631077,40,"67,8","90,0",~100,"253,6",19,"32,2","73,7",~100,"192,1",2013
+Lidingö,Källängens skola,Kommunal,Lidingö,69329486,52,"46,8","100,0","100,0","272,4",59,"53,2","96,6","100,0","238,9",2013
+Lidingö,Käppala skola 2,Kommunal,Lidingö,20137688,26,"39,4","88,5","100,0","242,5",40,"60,6","100,0","100,0","234,6",2013
+Lidingö,Kärnskolan,Kommunal,Lidingö,13696709,..,..,.,..,..,..,..,.,..,..,2013
+Lidingö,Torsviks skola 3,Kommunal,Lidingö,45104329,44,"37,9","95,5",~100,"254,7",72,"62,1","88,9",~100,"244,1",2013
+Lidingö,"Futuraskolan, Lidingö",Enskild,,47937226,..,..,"92,9","100,0","277,3",..,..,..,..,..,2013
+Lidingö,Vittra på Lidingö,Enskild,,46585145,13,"29,5","100,0","100,0","277,5",31,"70,5","90,3",~100,"248,6",2013
+Lidköping,Dalängskolan,Kommunal,Lidköping,37707717,71,"48,3","85,9","88,7","224,1",76,"51,7","85,5","93,4","209,8",2013
+Lidköping,Fredriksdalskolan,Kommunal,Lidköping,25486432,52,"44,8","73,1","90,4","222,9",64,"55,2","73,4","87,5","201,7",2013
+Lidköping,Rudenschöldskolan,Kommunal,Lidköping,52152242,78,"54,5","83,3","89,7","223,8",65,"45,5","83,1","89,2","214,3",2013
+Lidköping,Broholmskolan,Enskild,,98083121,..,..,..,..,..,..,..,..,..,..,2013
+Lilla Edet,Fuxernaskolan 7-9,Kommunal,Lilla Edet,22512947,17,"30,4","88,2",~100,"208,5",39,"69,6","56,4","87,2","166,3",2013
+Lilla Edet,Tingbergsskolan 7-9,Kommunal,Lilla Edet,48148032,37,"56,9","78,4","83,8","211,4",28,"43,1","67,9",~100,"181,8",2013
+Lilla Edet,"Nya Skolan, Lilla Edet",Enskild,,74771085,..,..,..,..,..,..,..,..,..,..,2013
+Lindesberg,Fröviskolan 7-9,Kommunal,Lindesberg,81993942,30,"44,1","66,7","73,3","207,2",38,"55,9","50,0","84,2","174,9",2013
+Lindesberg,Stadsskogsskolan 1,Kommunal,Lindesberg,11576148,37,"53,6","83,8","86,5","220,0",32,"46,4","71,9","81,3","188,0",2013
+Lindesberg,Stadsskogsskolan 2,Kommunal,Lindesberg,29424201,35,"44,9","71,4","77,1","197,3",43,"55,1","48,8","62,8","171,2",2013
+Lindesberg,Storåskolan,Kommunal,Lindesberg,88486410,14,"36,8","78,6",~100,"192,1",24,"63,2","70,8","79,2","196,6",2013
+Linköping,Berzeliusskolan grundskola,Kommunal,Linköping,62868366,70,"38,9","84,3","90,0","231,3",110,"61,1","85,5","93,6","217,4",2013
+Linköping,Ekholmsskolan,Kommunal,Linköping,96360048,40,"43,0","80,0","85,0","218,7",53,"57,0","84,9","86,8","218,1",2013
+Linköping,Folkungaskolan grundskola,Kommunal,Linköping,65857121,64,"68,1","100,0","100,0","267,1",30,"31,9","93,3",~100,"252,9",2013
+Linköping,Internationella skolan Atlas,Kommunal,Linköping,84408578,27,"50,0","96,3",~100,"250,8",27,"50,0","100,0","100,0","260,8",2013
+Linköping,Kungsbergsskolan,Kommunal,Linköping,69901106,43,"38,1","74,4","86,0","205,9",70,"61,9","72,9","84,3","189,4",2013
+Linköping,Kärna skola,Kommunal,Linköping,36579596,41,"57,7","80,5",~100,"210,0",30,"42,3","70,0",~100,"203,6",2013
+Linköping,Linghemsskolan,Kommunal,Linköping,93274980,35,"46,1","85,7",~100,"221,5",41,"53,9","78,0","100,0","197,5",2013
+Linköping,Ljungsbro skola,Kommunal,Linköping,53361064,30,"41,7","83,3",~100,"218,6",42,"58,3","83,3",~100,"203,3",2013
+Linköping,Nya Rydsskolan,Kommunal,Linköping,94781421,17,"41,5",..,~100,"206,8",24,"58,5",..,"66,7","164,6",2013
+Linköping,Skäggetorpskolan,Kommunal,Linköping,46577157,48,"45,7","45,8","64,6","177,5",57,"54,3","52,6","77,2","174,2",2013
+Linköping,Slussenskolan,Kommunal,Linköping,77844194,..,..,.,.,..,..,..,.,..,..,2013
+Linköping,Stångåskolan,Kommunal,Linköping,25519969,..,..,.,.,.,..,..,.,..,..,2013
+Linköping,Tinnerbäcksskolan,Kommunal,Linköping,24877681,..,..,.,..,..,..,..,..,..,..,2013
+Linköping,Tokarpsskolan,Kommunal,Linköping,76714455,23,"48,9","87,0","100,0","241,0",24,"51,1","87,5",~100,"197,8",2013
+Linköping,Tornhagsskolan,Kommunal,Linköping,49971344,43,"55,1","72,1",~100,"221,3",35,"44,9","71,4","85,7","202,5",2013
+Linköping,Ånestadsskolan,Kommunal,Linköping,76049947,43,"53,1","53,5","69,8","204,4",38,"46,9","52,6","68,4","175,1",2013
+Linköping,Björkö friskola,Enskild,,78992223,10,"41,7",..,..,"214,8",14,"58,3","78,6",~100,"207,9",2013
+Linköping,Dar Al Uloum skola,Enskild,,80769468,..,..,..,..,..,..,..,.,.,.,2013
+Linköping,Engelska Skolan i Linköping,Enskild,,82086591,64,"54,2","98,4","100,0","262,2",54,"45,8","96,3","100,0","230,7",2013
+Linköping,Nya Munken,Enskild,,76521863,83,"47,4","83,1","92,8","219,7",92,"52,6","83,7",~100,"212,0",2013
+Linköping,Pandionskolan,Enskild,,16928929,..,..,.,.,..,..,..,.,.,..,2013
+Linköping,Vittra Lambohov,Enskild,,26255239,12,"52,2","91,7","100,0","252,9",11,"47,8",..,"100,0","262,5",2013
+Ljungby,Astradskolan 2,Kommunal,Ljungby,90628474,60,"53,1","80,0",~100,"232,3",53,"46,9","64,2","86,8","190,8",2013
+Ljungby,Kungshögsskolan 2,Kommunal,Ljungby,87262274,20,"44,4","90,0",~100,"253,9",25,"55,6","60,0",~100,"192,1",2013
+Ljungby,Kungshögsskolan 3,Kommunal,Ljungby,96958960,29,"43,9","82,8",~100,"231,8",37,"56,1","70,3","81,1","185,3",2013
+Ljungby,Åbyskolan 2,Kommunal,Ljungby,75853223,17,"43,6","100,0","100,0","237,1",22,"56,4","77,3",~100,"187,5",2013
+Ljungby,"Karl-Oskarskolan, Ljungby",Enskild,,59021648,13,"46,4","100,0","100,0","238,5",15,"53,6","93,3",~100,"221,5",2013
+Ljusdal,Färila skola,Kommunal,Ljusdal,36425969,17,"51,5","94,1",~100,"236,3",16,"48,5","87,5",~100,"190,6",2013
+Ljusdal,Los skola,Kommunal,Ljusdal,87366152,..,..,..,..,..,..,..,..,..,..,2013
+Ljusdal,Ramsjö skola,Kommunal,Ljusdal,27980866,..,..,.,.,.,..,..,..,..,..,2013
+Ljusdal,Stenhamreskolan 7-9,Kommunal,Ljusdal,48142004,26,"48,1","69,2","73,1","206,4",28,"51,9","46,4","60,7","159,7",2013
+Ljusdal,Öjeskolan,Kommunal,Ljusdal,47378558,14,"40,0","85,7","100,0","234,3",21,"60,0","71,4","76,2","203,6",2013
+Ljusdal,Friskolan Vintergatan,Enskild,,62270371,16,"45,7","87,5",~100,"234,7",19,"54,3","78,9",~100,"228,6",2013
+Ljusdal,Tallbacken,Enskild,,84673347,..,..,..,..,..,..,..,..,..,"199,5",2013
+Ljusnarsberg,Kyrkbacksskolan,Kommunal,Ljusnarsberg,82038420,24,"48,0","58,3","70,8","174,0",26,"52,0","61,5",~100,"179,6",2013
+Lomma,Bjärehovskolan,Kommunal,Lomma,41254600,44,"55,7","95,5",~100,"254,9",35,"44,3","97,1",~100,"236,1",2013
+Lomma,Pilängskolan,Kommunal,Lomma,15610637,41,"38,7","85,4",~100,"236,0",65,"61,3","95,4","100,0","235,9",2013
+Lomma,Rutsborgskolan,Kommunal,Lomma,19570704,28,"49,1","96,4",~100,"250,1",29,"50,9","89,7",~100,"248,4",2013
+Lomma,Montessoriskolan i Bjärred,Enskild,,52025747,..,..,..,..,..,..,..,"82,4",~100,"216,6",2013
+Ludvika,Kyrkskolan 7-9,Kommunal,Ludvika,28230949,47,"46,1","80,9","80,9","213,1",55,"53,9","65,5","80,0","185,5",2013
+Ludvika,Lorensbergaskolan 7-9,Kommunal,Ludvika,47736072,58,"48,7","74,1","86,2","209,1",61,"51,3","65,6","82,0","177,0",2013
+Ludvika,Parkskolan,Kommunal,Ludvika,61260328,12,"38,7",..,..,"189,4",19,"61,3","84,2",~100,"188,4",2013
+Luleå,Bergskolan,Kommunal,Luleå,72942852,41,"44,6","90,2",~100,"241,6",51,"55,4","90,2","100,0","211,8",2013
+Luleå,Björkskataskolan,Kommunal,Luleå,89477984,54,"56,3","79,6","88,9","200,2",42,"43,8","66,7","78,6","177,6",2013
+Luleå,Hertsöskolan 7-9,Kommunal,Luleå,15579589,40,"50,6","70,0","85,0","210,3",39,"49,4","59,0","76,9","186,1",2013
+Luleå,Kråkbergsskolan,Kommunal,Luleå,46323920,23,"44,2","95,7","100,0","258,6",29,"55,8","93,1","100,0","227,6",2013
+Luleå,Montessori 7-9,Kommunal,Luleå,35085794,11,"42,3",..,..,"229,8",15,"57,7","93,3","100,0","225,5",2013
+Luleå,Residensskolan 7-9,Kommunal,Luleå,73462793,14,"53,8","78,6",~100,"239,1",12,"46,2","83,3",~100,"209,8",2013
+Luleå,Råneskolan 7-9,Kommunal,Luleå,22462490,20,"47,6","85,0",~100,"208,5",22,"52,4","68,2",~100,"193,0",2013
+Luleå,Stadsöskolan 7-9,Kommunal,Luleå,95536453,49,"58,3","91,8",~100,"237,4",35,"41,7","94,3",~100,"220,4",2013
+Luleå,Tunaskolan 7-9,Kommunal,Luleå,43539193,23,"41,8","78,3",~100,"226,7",32,"58,2","68,8","71,9","189,5",2013
+Luleå,Örnässkolan 7-9,Kommunal,Luleå,20104143,29,"46,8","79,3","82,8","208,6",33,"53,2","90,9",~100,"190,7",2013
+Luleå,Norrskenets Friskola i Luleå,Enskild,,55520065,15,"29,4",..,~100,"207,2",36,"70,6","66,7","83,3","192,2",2013
+Luleå,Nya Läroverket,Enskild,,82183259,35,"54,7","100,0","100,0","237,1",29,"45,3","96,6",~100,"226,9",2013
+Luleå,Nya Läroverket Bergnäset,Enskild,,52734580,..,..,..,..,..,..,..,..,..,..,2013
+Lund,Ekelundsskolan,Kommunal,Lund,15466912,..,..,..,..,..,..,..,..,..,..,2013
+Lund,Fågelskolan,Kommunal,Lund,91670988,15,"38,5","73,3",~100,"200,0",24,"61,5","83,3",~100,"221,8",2013
+Lund,Fågelskolan LIG,Kommunal,Lund,37859279,..,..,.,.,..,..,..,.,.,.,2013
+Lund,Fåglasång grund,Kommunal,Lund,43558887,..,..,.,.,.,..,..,.,..,..,2013
+Lund,Fäladsgården,Kommunal,Lund,54391347,50,"53,8","86,0","88,0","236,2",43,"46,2","88,4",~100,"236,3",2013
+Lund,Fäladsgården LIG,Kommunal,Lund,52748045,..,..,.,.,.,..,..,.,.,..,2013
+Lund,Gunnesboskolan,Kommunal,Lund,91672607,32,"46,4","96,9","100,0","243,9",37,"53,6","89,2","100,0","228,0",2013
+Lund,Järnåkraskolan 4-9,Kommunal,Lund,39307298,33,"37,9","84,8",~100,"244,5",54,"62,1","85,2",~100,"229,3",2013
+Lund,Killebäckskolan,Kommunal,Lund,88266589,50,"47,2","88,0",~100,"228,1",56,"52,8","89,3","100,0","226,7",2013
+Lund,Lerbäckskolan,Kommunal,Lund,81923307,43,"49,4","93,0","100,0","249,7",44,"50,6","90,9",~100,"231,4",2013
+Lund,Lerbäckskolan BG,Kommunal,Lund,95230714,..,..,.,.,..,..,..,.,..,..,2013
+Lund,Nya Almelundsskolan,Kommunal,Lund,92834089,..,..,.,..,..,..,..,.,..,..,2013
+Lund,Nyvångskolan,Kommunal,Lund,29004993,50,"51,5","90,0",~100,"257,9",47,"48,5","83,0",~100,"222,9",2013
+Lund,Nyvångskolan LIG,Kommunal,Lund,83378388,..,..,.,.,.,..,..,..,..,..,2013
+Lund,Svaleboskolan,Kommunal,Lund,53063984,36,"55,4","91,7",~100,"234,9",29,"44,6","75,9",~100,"215,1",2013
+Lund,Svaneskolan,Kommunal,Lund,67020135,49,"57,0","87,8",~100,"256,3",37,"43,0","62,2",~100,"214,5",2013
+Lund,Tunaskolan,Kommunal,Lund,46811001,40,"51,3","87,5",~100,"256,4",38,"48,7","81,6","100,0","236,2",2013
+Lund,Tunaskolan LIG,Kommunal,Lund,11731664,..,..,.,.,.,..,..,.,.,..,2013
+Lund,Vikingaskolan,Kommunal,Lund,68201054,..,..,.,..,..,..,..,"71,4",~100,"192,5",2013
+Lund,Önneslövskolan,Kommunal,Lund,41615217,..,..,.,.,.,..,..,.,.,..,2013
+Lund,Bilingual Montes.schoolLund,Enskild,,75154610,..,..,..,..,..,..,..,..,..,"240,5",2013
+Lund,Freinetskolan i Lund,Enskild,,60492534,..,..,..,..,..,..,..,..,..,..,2013
+Lund,Humfryskolan i Lund,Enskild,,96068989,..,..,"86,7",~100,"249,1",..,..,..,..,..,2013
+Lund,Kunskapsskolan Lund,Enskild,,52037312,41,"52,6","97,6","100,0","250,1",37,"47,4","100,0","100,0","219,8",2013
+Lund,Lunds Montessorigrundskola,Enskild,,70044059,10,"50,0","100,0","100,0","260,8",10,"50,0",..,..,"245,0",2013
+Lund,Lunds Waldorfskola,Enskild,,96533068,..,..,"100,0","100,0","261,0",..,..,..,..,..,2013
+Lund,Maria Montessori-skolan,Enskild,,40248457,..,..,..,..,..,..,..,..,..,..,2013
+Lund,Sankt Thomas Skola,Enskild,,28753548,..,..,..,..,..,..,..,..,..,..,2013
+Lycksele,Finnbacksskolan,Kommunal,Lycksele,35637430,49,"55,1","85,7","89,8","233,2",40,"44,9","77,5","87,5","198,6",2013
+Lycksele,"Finnbacksskolan, Ped.verkstad",Kommunal,Lycksele,76238542,..,..,..,..,..,..,..,..,..,..,2013
+Lycksele,Forsdalaskolan F-9,Kommunal,Lycksele,15825322,16,"38,1","93,8",~100,"222,5",26,"61,9","80,8",~100,"205,9",2013
+Lysekil,Gullmarsskolan 7-9,Kommunal,Lysekil,12247315,61,"41,8","91,8",~100,"232,5",85,"58,2","74,1","83,5","205,0",2013
+Malmö,Apelgårdsskolan 4-9,Kommunal,Malmö,56672773,28,"57,1",..,"67,9","207,8",21,"42,9",..,"52,4","161,8",2013
+Malmö,Augustenborgsskolan 7-9 A B,Kommunal,Malmö,89876778,33,"55,9","66,7",~100,"218,3",26,"44,1","53,8","76,9","178,2",2013
+Malmö,Augustenborgsskolan 7-9 C D,Kommunal,Malmö,58647704,32,"49,2","53,1",~100,"202,3",33,"50,8","57,6","72,7","180,5",2013
+Malmö,Bergaskolan 6-9,Kommunal,Malmö,40035084,72,"51,8","95,8",~100,"258,8",67,"48,2","86,6",~100,"222,7",2013
+Malmö,Bäckagårdsskolan,Kommunal,Malmö,12636945,31,"54,4","100,0","100,0","258,4",26,"45,6","92,3",~100,"227,0",2013
+Malmö,Dammfri skolenhet 3,Kommunal,Malmö,23710967,22,"50,0","59,1",~100,"188,5",22,"50,0","45,5","72,7","184,7",2013
+Malmö,Dammfri skolenhet 4,Kommunal,Malmö,31438378,19,"38,0","52,6","63,2","191,2",31,"62,0","41,9","74,2","181,9",2013
+Malmö,Höjaskolan,Kommunal,Malmö,99835038,26,"45,6","88,5",~100,"230,1",31,"54,4","77,4",~100,"220,6",2013
+Malmö,Johannesskolan,Kommunal,Malmö,82797662,24,"53,3","54,2","70,8","203,2",21,"46,7",..,"61,9","182,2",2013
+Malmö,Kirsebergsskolan 7-9,Kommunal,Malmö,25054799,41,"40,6","61,0","70,7","184,1",60,"59,4","58,3","71,7","184,9",2013
+Malmö,Lindeborgsskolan 6-9 EH,Kommunal,Malmö,22509001,25,"43,9","76,0",~100,"209,1",32,"56,1","68,8","84,4","209,3",2013
+Malmö,Lindeborgsskolan 6-9 GI,Kommunal,Malmö,83001556,23,"44,2","60,9","78,3","210,5",29,"55,8","55,2","69,0","185,4",2013
+Malmö,Lindängeskolan 7-9,Kommunal,Malmö,75875503,43,"50,0","51,2","60,5","186,4",43,"50,0","44,2","65,1","179,4",2013
+Malmö,Linnéskolan,Kommunal,Malmö,63951601,33,"50,8","63,6","72,7","198,3",32,"49,2","53,1","84,4","200,1",2013
+Malmö,Malmö Idrottsgrundskola,Kommunal,Malmö,71454628,18,"36,0","94,4","100,0","261,4",32,"64,0","78,1",~100,"218,5",2013
+Malmö,Munkhätteskolan 7-9,Kommunal,Malmö,74972690,30,"46,2","40,0","46,7","178,5",35,"53,8","34,3","51,4","153,7",2013
+Malmö,Möllevångsskolan 2,Kommunal,Malmö,23491494,11,"35,5",..,~100,"186,5",20,"64,5",..,"75,0","161,4",2013
+Malmö,Olympen,Kommunal,Malmö,87991089,..,..,.,.,.,..,..,.,.,..,2013
+Malmö,Oxievångsskolan 1,Kommunal,Malmö,64402572,20,"37,0","75,0",~100,"211,4",34,"63,0","79,4","82,4","201,9",2013
+Malmö,Oxievångsskolan 2,Kommunal,Malmö,51192874,36,"49,3","83,3",~100,"222,1",37,"50,7","73,0","83,8","202,2",2013
+Malmö,Rosengårdsskolan 7-9,Kommunal,Malmö,90085480,22,"44,0",..,..,"123,5",28,"56,0",..,"39,3","137,8",2013
+Malmö,Rönnenskolan,Kommunal,Malmö,93599910,56,"66,7","85,7",~100,"227,4",28,"33,3","75,0",~100,"228,9",2013
+Malmö,"Rörsjöskolan,Zenith 6-9",Kommunal,Malmö,83861471,35,"46,7","57,1","80,0","210,1",40,"53,3","50,0","70,0","189,0",2013
+Malmö,Sakura,Kommunal,Malmö,89945429,..,..,.,.,.,..,..,..,..,..,2013
+Malmö,Slottsstaden skolenhet 1,Kommunal,Malmö,92862757,28,"51,9","100,0","100,0","255,5",26,"48,1","88,5",~100,"250,3",2013
+Malmö,Slottsstaden skolenhet 2,Kommunal,Malmö,29860678,38,"50,0","86,8",~100,"252,8",38,"50,0","89,5",~100,"243,6",2013
+Malmö,Sofielundsskolan 1,Kommunal,Malmö,65836771,21,"55,3",..,..,"156,7",17,"44,7",..,..,"115,5",2013
+Malmö,Sorgenfriskolan 3,Kommunal,Malmö,48409491,20,"45,5","65,0","70,0","186,8",24,"54,5","62,5",~100,"188,3",2013
+Malmö,Stenkulaskolan 3,Kommunal,Malmö,82859678,19,"39,6",..,..,"171,4",29,"60,4","48,3","62,1","187,8",2013
+Malmö,Strandskolan 7-9,Kommunal,Malmö,13262181,18,"37,5","100,0","100,0","266,5",30,"62,5","76,7",~100,"230,0",2013
+Malmö,Sundsbroskolan 6-9,Kommunal,Malmö,56363473,28,"38,4","82,1",~100,"237,6",45,"61,6","71,1","80,0","209,5",2013
+Malmö,Söderkulla Internationella sk.,Kommunal,Malmö,59841622,..,..,..,..,..,..,..,..,..,..,2013
+Malmö,Söderkulla kommunikationsklass,Kommunal,Malmö,51220608,..,..,.,.,..,..,..,.,..,..,2013
+Malmö,Söderkullaskolan 7-9 B,Kommunal,Malmö,23073987,45,"45,5","68,9",~100,"229,8",54,"54,5","57,4","88,9","224,2",2013
+Malmö,Team Munkhättan 7-9,Kommunal,Malmö,87253745,..,..,..,..,..,..,..,.,.,..,2013
+Malmö,Velanderskolan,Kommunal,Malmö,71203301,..,..,..,..,..,..,..,..,..,..,2013
+Malmö,Videdalsskolan,Kommunal,Malmö,37324136,48,"44,9","79,2","87,5","223,0",59,"55,1","55,9","78,0","189,2",2013
+Malmö,Värner Rydénskolan 7-9,Kommunal,Malmö,65099615,30,"57,7","33,3","46,7","172,4",22,"42,3",..,"54,5","165,9",2013
+Malmö,Västra Hamnens skola,Kommunal,Malmö,28640213,26,"53,1","88,5",~100,"253,0",23,"46,9","87,0","100,0","230,1",2013
+Malmö,Örtagårdskolan 7-9,Kommunal,Malmö,80490565,29,"56,9","62,1","72,4","225,9",22,"43,1",..,"45,5","134,1",2013
+Malmö,Backaskolan,Enskild,,55040455,..,..,"100,0","100,0","246,0",..,..,..,..,..,2013
+Malmö,Bladins grundskola,Enskild,,57534630,11,"45,8","90,9","100,0","277,5",13,"54,2","100,0","100,0","258,5",2013
+Malmö,Boukefs Privatskola,Enskild,,68849385,..,..,..,..,..,..,..,..,~100,"197,3",2013
+Malmö,Europaportens grundskola,Enskild,,24339301,..,..,"100,0","100,0","276,5",..,..,..,..,..,2013
+Malmö,Humfryskolan,Enskild,,91823719,18,"64,3","83,3",~100,"234,9",10,"35,7","100,0","100,0","215,5",2013
+Malmö,Kastanjeskolan,Enskild,,19024032,..,..,..,..,..,..,..,..,"100,0","226,2",2013
+Malmö,Kilowattskolan i Malmö,Enskild,,61317595,..,..,..,..,..,..,..,..,..,..,2013
+Malmö,Malmö Friskola,Enskild,,75599504,10,"100,0",..,..,"224,8",.,.,.,.,.,2013
+Malmö,Malmö Montessoriskola,Enskild,,13299659,15,"48,4","100,0","100,0","268,8",16,"51,6","93,8","100,0","249,5",2013
+Malmö,Mariaskolan,Enskild,,67272295,10,"50,0","100,0","100,0","270,0",10,"50,0",..,..,"216,5",2013
+Malmö,Resursskolan UngArt,Enskild,,89498184,..,..,.,.,.,..,..,..,..,..,2013
+Malmö,Runstyckets skola,Enskild,,57386343,..,..,"100,0","100,0","227,5",..,..,..,..,..,2013
+Malmö,Videdals privatskolor,Enskild,,31996111,..,..,..,..,..,..,..,..,..,..,2013
+Malmö,Vittra Västra hamnen,Enskild,,13495830,19,"38,8","57,9",~100,"237,5",30,"61,2","80,0",~100,"237,4",2013
+Malmö,Ängsdals skola,Enskild,,34314029,11,"42,3","100,0","100,0","258,6",15,"57,7","100,0","100,0","249,2",2013
+Malmö,Östra Skolan,Enskild,,40470449,..,..,..,..,"206,9",..,..,..,..,..,2013
+Malung-Sälen,Centralskolan,Kommunal,Malung-Sälen,83084730,29,"47,5","86,2",~100,"199,7",32,"52,5","84,4",~100,"196,2",2013
+Malung-Sälen,Ungärde skola,Kommunal,Malung-Sälen,17208837,14,"38,9","100,0","100,0","253,4",22,"61,1","100,0","100,0","205,3",2013
+Malå,Nilaskolan 7-9,Kommunal,Malå,28454424,21,"52,5","100,0","100,0","237,6",19,"47,5","84,2",~100,"189,3",2013
+Mariestad,Högelidsskolan 7-9,Kommunal,Mariestad,62694008,41,"47,1","82,9",~100,"224,5",46,"52,9","73,9","89,1","203,8",2013
+Mariestad,Tunaholmsskolan,Kommunal,Mariestad,48016437,81,"62,8","84,0","91,4","227,3",48,"37,2","68,8","89,6","197,8",2013
+Mariestad,Ekhamraskolan,Enskild,,29289355,19,"43,2","100,0","100,0","241,4",25,"56,8","96,0",~100,"189,9",2013
+Mark,Fritslaskolan 3-9,Kommunal,Mark,10100177,12,"52,2",..,~100,"192,9",11,"47,8","90,9","100,0","242,3",2013
+Mark,Lyckeskolan,Kommunal,Mark,10428442,34,"46,6","79,4",~100,"225,0",39,"53,4","64,1","82,1","179,7",2013
+Mark,Sätilaskolan 6-9,Kommunal,Mark,90548647,33,"55,9","66,7",~100,"208,0",26,"44,1","84,6","100,0","222,2",2013
+Mark,Ängskolan,Kommunal,Mark,13666864,69,"46,6","72,5","85,5","220,5",79,"53,4","67,1","89,9","190,4",2013
+Mark,Örbyskolan 6-9,Kommunal,Mark,76300443,29,"60,4","89,7",~100,"230,0",19,"39,6","63,2","73,7","176,3",2013
+Mark,Leteboskolan,Enskild,,79844557,..,..,..,..,..,..,..,..,..,..,2013
+Mark,Montessoriskolan Pärlan,Enskild,,80072686,..,..,.,.,.,..,..,..,..,..,2013
+Mark,Skogsbrynets resursskola,Enskild,,30894215,..,..,.,.,.,..,..,.,..,..,2013
+Markaryd,Huneskolan,Kommunal,Markaryd,79075195,29,"46,8","75,9","100,0","210,7",33,"53,2","72,7","84,8","194,3",2013
+Markaryd,Strömsnässkolan,Kommunal,Markaryd,59001324,25,"67,6","56,0",~100,"206,1",12,"32,4",..,"100,0","216,7",2013
+Mellerud,Rådaskolan,Kommunal,Mellerud,53764779,50,"49,5","70,0","84,0","220,9",51,"50,5","70,6","84,3","197,2",2013
+Mjölby,Blåklintskolan,Kommunal,Mjölby,27259736,12,"32,4",..,~100,"216,0",25,"67,6","68,0","80,0","202,4",2013
+Mjölby,Lagmansskolan Alfa MH,Kommunal,Mjölby,66224705,37,"49,3","86,5",~100,"210,8",38,"50,7","78,9",~100,"203,5",2013
+Mjölby,Trojenborgsskolan MH,Kommunal,Mjölby,37310404,26,"43,3","76,9",~100,"221,4",34,"56,7","55,9","67,6","179,6",2013
+Mjölby,Vifolkaskolan 7-9,Kommunal,Mjölby,16727370,51,"51,5","74,5","90,2","206,1",48,"48,5","79,2","87,5","190,4",2013
+Mora,Morkarlbyhöjdens skola 7-9,Kommunal,Mora,95649680,52,"61,9","69,2","76,9","192,1",32,"38,1","59,4","65,6","196,4",2013
+Mora,Noretsskolan 7-9,Kommunal,Mora,68663553,55,"52,4","89,1",~100,"245,1",50,"47,6","82,0",~100,"214,5",2013
+Motala,Hällaskolan,Kommunal,Motala,87963970,29,"38,7","72,4","75,9","210,4",46,"61,3","63,0","69,6","169,4",2013
+Motala,Mariebergsskolan,Kommunal,Motala,87531665,33,"54,1","84,8",~100,"236,7",28,"45,9","85,7",~100,"219,0",2013
+Motala,Skolgårda skola 7-9,Kommunal,Motala,82224915,36,"41,4","88,9",~100,"218,3",51,"58,6","82,4",~100,"198,4",2013
+Motala,Södra skolan 7-9,Kommunal,Motala,69769596,30,"46,2","53,3","70,0","186,0",35,"53,8","68,6","85,7","208,6",2013
+Motala,Zederslundsskolan,Kommunal,Motala,98031467,32,"47,1","78,1",~100,"216,1",36,"52,9","77,8",~100,"202,0",2013
+Motala,Karin Boye-skolan,Enskild,,11664326,31,"63,3","100,0","100,0","238,7",18,"36,7","88,9",~100,"228,1",2013
+Mullsjö,Trollehöjdskolan,Kommunal,Mullsjö,28156767,38,"51,4","84,2",~100,"214,5",36,"48,6","88,9","100,0","200,0",2013
+Munkedal,Hedekas skola,Kommunal,Munkedal,24798079,..,..,..,..,..,..,..,"83,3",~100,"193,1",2013
+Munkedal,Kungsmarksskolan,Kommunal,Munkedal,44650086,61,"60,4","70,5","85,2","188,7",40,"39,6","67,5","82,5","190,8",2013
+Munkfors,Forsnässkolan 6-9,Kommunal,Munkfors,70083827,19,"42,2","89,5","100,0","226,6",26,"57,8","46,2","69,2","166,1",2013
+Mölndal,Almåsskolan,Kommunal,Mölndal,40577779,34,"60,7","94,1",~100,"243,0",22,"39,3","77,3",~100,"202,6",2013
+Mölndal,Ekhagaskolan,Kommunal,Mölndal,92538683,38,"38,0","63,2","71,1","211,8",62,"62,0","50,0","54,8","159,3",2013
+Mölndal,Katrinebergsskolan,Kommunal,Mölndal,13050305,17,"41,5","58,8",~100,"192,4",24,"58,5","62,5","70,8","167,2",2013
+Mölndal,Kvarnbyskolan,Kommunal,Mölndal,67822057,59,"45,0","84,7",~100,"241,9",72,"55,0","91,7",~100,"220,4",2013
+Mölndal,Sinntorpsskolan 4-9,Kommunal,Mölndal,90949251,32,"47,8","81,3",~100,"222,6",35,"52,2","94,3",~100,"219,1",2013
+Mölndal,Skånhällaskolan 4-9,Kommunal,Mölndal,91907164,25,"46,3","92,0",~100,"238,3",29,"53,7","89,7",~100,"214,5",2013
+Mölndal,Streteredsskolan,Kommunal,Mölndal,54881559,26,"42,6","88,5",~100,"216,6",35,"57,4","82,9","85,7","180,3",2013
+Mölndal,Sörgårdsskolan,Kommunal,Mölndal,53442807,63,"57,8","95,2",~100,"243,8",46,"42,2","84,8","89,1","225,3",2013
+Mölndal,Montessoriskolan Kvarnhjulet,Enskild,,64490264,..,..,..,..,..,..,..,"90,9","100,0","234,8",2013
+Mönsterås,Krungårdsskolan,Kommunal,Mönsterås,72714150,18,"40,9","77,8",~100,"216,5",26,"59,1","88,5",~100,"208,7",2013
+Mönsterås,Parkskolan,Kommunal,Mönsterås,84285512,39,"44,3","74,4","82,1","212,4",49,"55,7","73,5","81,6","188,2",2013
+Mörbylånga,Skansenskolan,Kommunal,Mörbylånga,69905940,61,"52,1","93,4",~100,"233,7",56,"47,9","83,9","91,1","193,8",2013
+Mörbylånga,Ölands Friskola,Enskild,,28562125,24,"52,2","87,5",~100,"251,5",22,"47,8","72,7",~100,"206,5",2013
+Nacka,Björknässkolan,Kommunal,Nacka,75834458,43,"41,3","60,5","81,4","202,7",61,"58,7","80,3","86,9","219,6",2013
+Nacka,Eklidens skola,Kommunal,Nacka,47243834,117,"59,4","93,2",~100,"250,2",80,"40,6","82,5","91,3","218,3",2013
+Nacka,Myrsjöskolan,Kommunal,Nacka,84884375,92,"48,4","94,6",~100,"254,5",98,"51,6","90,8",~100,"232,6",2013
+Nacka,Saltsjöbadens samskola,Kommunal,Nacka,11777750,48,"40,3","100,0","100,0","271,9",71,"59,7","84,5","88,7","229,3",2013
+Nacka,Skuru skola,Kommunal,Nacka,85321366,51,"38,6","96,1","100,0","249,4",81,"61,4","95,1",~100,"237,3",2013
+Nacka,Stavsborgsskolan,Kommunal,Nacka,14040970,36,"39,1","88,9",~100,"244,9",56,"60,9","83,9","91,1","218,4",2013
+Nacka,Engelska Skolan i Nacka,Enskild,,74358019,80,"66,7","88,8",~100,"271,8",40,"33,3","82,5",~100,"250,9",2013
+Nacka,Johannes Petri skola,Enskild,,32965692,46,"63,9","87,0",~100,"253,6",26,"36,1","80,8",~100,"233,9",2013
+Nacka,Kunskapsskolan Nacka,Enskild,,87425546,44,"60,3","93,2",~100,"256,6",29,"39,7","96,6",~100,"265,3",2013
+Nacka,Kunskapsskolan Saltsjöbaden,Enskild,,11496096,10,"43,5",..,..,"266,8",13,"56,5","100,0","100,0","261,9",2013
+Nacka,Maestroskolan Nacka,Enskild,,64065898,16,"100,0","87,5",~100,"248,3",.,.,.,.,.,2013
+Nacka,Montessorisk. Castello Nacka,Enskild,,34135484,20,"64,5","85,0","100,0","255,3",11,"35,5","90,9","100,0","215,9",2013
+Nacka,Snitz grundskola Nacka,Enskild,,82438535,..,..,..,..,..,..,..,.,.,..,2013
+Nacka,Vittra Saltsjö-Boo,Enskild,,44802890,..,..,..,..,..,..,..,..,~100,"201,3",2013
+Nora,Karlsängsskolan,Kommunal,Nora,40684137,63,"46,7","84,1",~100,"216,0",72,"53,3","79,2","90,3","192,4",2013
+Norberg,Centralskolan,Kommunal,Norberg,50485280,21,"47,7","85,7",~100,"213,5",23,"52,3","95,7","100,0","202,1",2013
+Nordanstig,Bergsjö Centralskola år 4-9,Kommunal,Nordanstig,95045408,35,"46,7","68,6","74,3","192,1",40,"53,3","42,5","57,5","166,8",2013
+Nordanstig,Hosiannaskolan,Enskild,,21342606,..,..,..,..,..,..,..,..,..,..,2013
+Nordmaling,Artediskolan,Kommunal,Nordmaling,58185455,30,"51,7","80,0",~100,"227,1",28,"48,3","64,3",~100,"197,8",2013
+Norrköping,Borgsmoskolan,Kommunal,Norrköping,26387738,33,"44,6","48,5","78,8","167,6",41,"55,4","53,7","75,6","178,3",2013
+Norrköping,Djäkneparksskolan,Kommunal,Norrköping,59526276,88,"53,3","77,3","86,4","229,5",77,"46,7","59,7","71,4","179,6",2013
+Norrköping,Ektorpsskolan,Kommunal,Norrköping,37133485,68,"47,6","66,2","77,9","202,1",75,"52,4","62,7","73,3","177,7",2013
+Norrköping,Enebyskolan H,Kommunal,Norrköping,35609364,56,"50,9","78,6","85,7","219,0",54,"49,1","66,7","72,2","182,4",2013
+Norrköping,Hagaskolan,Kommunal,Norrköping,76530329,47,"59,5","76,6","87,2","234,8",32,"40,5","68,8","81,3","202,2",2013
+Norrköping,Hultdalskolan,Kommunal,Norrköping,40393888,44,"48,9","93,2",~100,"228,7",46,"51,1","82,6","89,1","208,5",2013
+Norrköping,Mosstorpsskolan,Kommunal,Norrköping,41484780,35,"42,7","77,1","85,7","207,8",47,"57,3","66,0","87,2","183,4",2013
+Norrköping,Navestadsskolan,Kommunal,Norrköping,81182971,68,"53,5","72,1","77,9","193,7",59,"46,5","81,4","91,5","200,4",2013
+Norrköping,Råsslaskolan,Kommunal,Norrköping,61717116,25,"53,2","84,0",~100,"236,6",22,"46,8","68,2",~100,"200,8",2013
+Norrköping,Söderporten Porten,Kommunal,Norrköping,24979620,29,"53,7","48,3","69,0","197,0",25,"46,3","44,0","80,0","193,1",2013
+Norrköping,Vikbolandsskolan,Kommunal,Norrköping,34784374,41,"60,3","92,7",~100,"230,2",27,"39,7","77,8",~100,"197,6",2013
+Norrköping,Johannesskolan Norrkpg Kr Sk,Enskild,,57529996,..,..,..,..,..,..,..,..,..,..,2013
+Norrköping,Jönsbergska Idrottsskolan,Enskild,,61454000,19,"36,5","94,7","100,0","260,1",33,"63,5","100,0","100,0","241,4",2013
+Norrköping,Kunskapsskolan Norrköping,Enskild,,77437748,51,"50,5","98,0","100,0","242,3",50,"49,5","94,0","100,0","225,7",2013
+Norrköping,"Prolympia, Norrköping",Enskild,,16013826,37,"37,0","70,3",~100,"216,3",63,"63,0","88,9",~100,"208,6",2013
+Norrköping,Rudolf Steinerskolan,Enskild,,33530590,14,"53,8","92,9","100,0","234,6",12,"46,2","91,7","100,0","222,1",2013
+Norrköping,Stegehus Waldorfskola,Enskild,,73656861,..,..,.,.,.,..,..,.,.,..,2013
+Norrköping,Vittra Röda stan,Enskild,,38936292,29,"64,4","62,1","82,8","211,0",16,"35,6",..,~100,"173,3",2013
+Norrtälje,Bålbro skola,Kommunal,Norrtälje,45874608,18,"50,0","55,6",~100,"205,4",18,"50,0","61,1","72,2","194,4",2013
+Norrtälje,Grindskolan,Kommunal,Norrtälje,29416145,..,..,..,..,..,..,..,"77,8",~100,"223,5",2013
+Norrtälje,Hallsta skola,Kommunal,Norrtälje,24146389,22,"42,3","77,3",~100,"208,0",30,"57,7","73,3","80,0","196,4",2013
+Norrtälje,Lommarskolan,Kommunal,Norrtälje,15312030,23,"45,1","78,3",~100,"199,2",28,"54,9","35,7","64,3","166,2",2013
+Norrtälje,Långsjöskolan,Kommunal,Norrtälje,99749462,19,"42,2","63,2","73,7","195,1",26,"57,8","57,7","80,8","180,4",2013
+Norrtälje,Länna skola,Kommunal,Norrtälje,72471883,12,"40,0","83,3",~100,"204,8",18,"60,0",..,"66,7","168,8",2013
+Norrtälje,Norrsund-Elmstaskolan,Kommunal,Norrtälje,61218902,16,"42,1","75,0",~100,"208,7",22,"57,9","77,3",~100,"195,2",2013
+Norrtälje,Roslagsskolan,Kommunal,Norrtälje,31851256,75,"54,7","73,3","85,3","214,6",62,"45,3","72,6","88,7","205,0",2013
+Norrtälje,Rådmansö skola,Kommunal,Norrtälje,50905672,10,"50,0",..,..,"220,8",10,"50,0",..,..,"180,3",2013
+Norrtälje,Svanbergaskolan,Kommunal,Norrtälje,59975651,25,"48,1","92,0",~100,"222,4",27,"51,9","70,4",~100,"197,3",2013
+Norrtälje,Ekebyholmsskolan,Enskild,,98239828,17,"63,0","82,4",~100,"246,8",10,"37,0",..,..,"218,0",2013
+Norrtälje,Freinetskolan Hugin,Enskild,,89692072,..,..,..,..,..,..,..,"76,9",~100,"220,0",2013
+Norrtälje,Freinetskolan Mimer,Enskild,,45133950,..,..,"100,0","100,0","246,3",..,..,..,..,..,2013
+Norrtälje,Montessoriskolan i Norrtälje,Enskild,,99665701,..,..,..,..,..,..,..,..,..,..,2013
+Norrtälje,Viby friskola,Enskild,,54806839,10,"100,0",..,..,"240,5",.,.,.,.,.,2013
+Norsjö,Norsjöskolan 6-9,Kommunal,Norsjö,65848878,19,"42,2","100,0","100,0","223,0",26,"57,8","76,9","80,8","213,2",2013
+Nybro,Alsterbro skola Abro02,Kommunal,Nybro,32988493,..,..,..,..,..,..,..,..,..,..,2013
+Nybro,Madesjöskolan Ma02,Kommunal,Nybro,38198417,24,"42,9","75,0","100,0","214,1",32,"57,1","78,1",~100,"212,5",2013
+Nybro,Paradisskolan Pa02,Kommunal,Nybro,79650118,54,"48,2","77,8","90,7","217,2",58,"51,8","70,7","84,5","193,9",2013
+Nykvarn,Lillhagaskolan,Kommunal,Nykvarn,99640618,56,"46,7","92,9","100,0","241,8",64,"53,3","90,6",~100,"212,0",2013
+Nyköping,Borgmästarhagsskolan,Kommunal,Nyköping,98253969,92,"48,4","79,3","83,7","214,5",98,"51,6","80,6","86,7","205,5",2013
+Nyköping,Långbergsskolan H,Kommunal,Nyköping,71976383,21,"45,7","52,4",~100,"183,6",25,"54,3","76,0",~100,"200,6",2013
+Nyköping,Nicolaiskolan,Kommunal,Nyköping,92637603,34,"43,0","61,8","67,6","208,5",45,"57,0","73,3","88,9","203,3",2013
+Nyköping,Oppebyskolan,Kommunal,Nyköping,11808146,49,"55,1","89,8",~100,"243,4",40,"44,9","65,0","85,0","184,2",2013
+Nyköping,Båktorp skolan,Enskild,,17393295,..,..,..,..,..,..,..,.,..,..,2013
+Nyköping,Fokusskolan,Enskild,,18915192,..,..,..,..,..,..,..,..,..,..,2013
+Nyköping,Kunskapsskolan Nyköping,Enskild,,88046003,61,"58,7","96,7",~100,"247,4",43,"41,3","97,7",~100,"213,0",2013
+Nyköping,Mikaeliskolan,Enskild,,75746018,..,..,..,..,..,..,..,..,..,..,2013
+Nyköping,Vittra Kungshagen,Enskild,,50698424,..,..,..,..,..,..,..,"88,9",~100,"229,2",2013
+Nynäshamn,Gröndalsskolan F-9,Kommunal,Nynäshamn,65717061,37,"46,8","89,2",~100,"226,3",42,"53,2","85,7",~100,"211,1",2013
+Nynäshamn,Sunnerbyskolan F-9,Kommunal,Nynäshamn,78703073,32,"54,2","84,4","84,4","202,9",27,"45,8","48,1","70,4","163,9",2013
+Nynäshamn,Vanstaskolan 4-9,Kommunal,Nynäshamn,73184416,30,"38,0","93,3",~100,"242,8",49,"62,0","55,1","77,6","186,5",2013
+Nynäshamn,Viaskolan 6-9,Kommunal,Nynäshamn,34814578,28,"50,0","78,6",~100,"208,8",28,"50,0","96,4","100,0","203,3",2013
+Nässjö,Centralskolan,Kommunal,Nässjö,27489659,35,"43,2","88,6",~100,"230,4",46,"56,8","69,6","84,8","189,6",2013
+Nässjö,Norråsaskolan,Kommunal,Nässjö,19118399,74,"50,3","75,7","83,8","215,9",73,"49,7","68,5","86,3","190,9",2013
+Nässjö,Parkskolan,Kommunal,Nässjö,97882848,35,"53,8","82,9",~100,"225,5",30,"46,2","80,0",~100,"203,7",2013
+Nässjö,Rosenholmsskolan,Kommunal,Nässjö,66394964,..,..,..,..,"193,3",..,..,..,..,..,2013
+Ockelbo,Perslundaskolan,Kommunal,Ockelbo,40000547,21,"40,4","71,4","76,2","202,1",31,"59,6","74,2","77,4","173,3",2013
+Olofström,Högavångsskolan,Kommunal,Olofström,53603984,65,"56,0","90,8","90,8","213,7",51,"44,0","80,4","88,2","209,9",2013
+Orsa,Orsaskolan,Kommunal,Orsa,19694910,34,"40,0","82,4","85,3","195,3",51,"60,0","60,8","78,4","186,8",2013
+Orust,Henåns skola,Kommunal,Orust,34619290,40,"47,6","90,0",~100,"229,3",44,"52,4","75,0","88,6","205,3",2013
+Orust,Ängås 7-9 skola,Kommunal,Orust,34557677,28,"51,9","85,7",~100,"238,0",26,"48,1","69,2",~100,"199,5",2013
+Osby,Hasslarödsskolan 6-9,Kommunal,Osby,25927535,27,"49,1","88,9",~100,"241,6",28,"50,9","82,1",~100,"210,0",2013
+Osby,Parkskolan 7-9 E,Kommunal,Osby,16078764,11,"47,8",..,..,"223,0",12,"52,2","83,3",~100,"199,0",2013
+Osby,Parkskolan F-9 D,Kommunal,Osby,28242140,14,"56,0","92,9",~100,"235,8",11,"44,0",..,~100,"169,5",2013
+Osby,Visslan,Kommunal,Osby,65486343,..,..,.,.,.,..,..,..,..,..,2013
+Osby,Örkenedsskolan 7-9,Kommunal,Osby,99562575,19,"50,0","84,2",~100,"237,4",19,"50,0","73,7",~100,"186,0",2013
+Oskarshamn,Rödsleskolan 3,Kommunal,Oskarshamn,40041600,44,"53,0","81,8",~100,"213,2",39,"47,0","84,6",~100,"205,3",2013
+Oskarshamn,Vallhallaskolan 2,Kommunal,Oskarshamn,46592871,47,"42,3","85,1","89,4","219,0",64,"57,7","76,6","85,9","198,0",2013
+Ovanåker,Alftaskolan F-9,Kommunal,Ovanåker,92304123,26,"44,8","76,9","80,8","206,3",32,"55,2","78,1","78,1","175,9",2013
+Ovanåker,Celsiusskolan 7-9,Kommunal,Ovanåker,43362307,35,"56,5","85,7",~100,"230,1",27,"43,5","88,9",~100,"214,0",2013
+Oxelösund,Breviksskolan åk 6-9,Kommunal,Oxelösund,34893654,48,"52,7","91,7","100,0","224,8",43,"47,3","76,7",~100,"197,3",2013
+Pajala,Gårdbyskolan,Kommunal,Pajala,55662841,..,..,..,..,..,..,..,..,..,..,2013
+Pajala,Junosuando Centralskola,Kommunal,Pajala,80594830,..,..,..,..,..,..,..,..,..,..,2013
+Pajala,Pajala Centralskola,Kommunal,Pajala,12443258,25,"56,8","100,0","100,0","250,1",19,"43,2","89,5",~100,"200,0",2013
+Pajala,Tärendö Centralskola,Kommunal,Pajala,37347252,..,..,..,..,..,..,..,..,..,..,2013
+Pajala,Kangos Kultur- o ekologiskola,Enskild,,35837794,..,..,..,..,..,..,..,..,..,..,2013
+Partille,Björndammens skola 6-9,Kommunal,Partille,98209377,12,"40,0",..,~100,"193,1",18,"60,0","61,1","100,0","210,3",2013
+Partille,Furulunds skola 6-9,Kommunal,Partille,89146220,36,"43,9","69,4","77,8","196,4",46,"56,1","65,2","73,9","192,1",2013
+Partille,Lexby skola 6-9,Kommunal,Partille,51610240,66,"44,9","84,8",~100,"219,6",81,"55,1","74,1","88,9","201,6",2013
+Partille,Ugglums skola 4-9,Kommunal,Partille,78100490,24,"38,1","100,0","100,0","250,1",39,"61,9","94,9",~100,"240,9",2013
+Partille,Vallhamra skola 6-9,Kommunal,Partille,92848832,31,"38,8","83,9",~100,"235,2",49,"61,3","81,6","100,0","214,3",2013
+Partille,Öjersjö Brunn skola F-9,Kommunal,Partille,49402521,13,"48,1","100,0","100,0","268,1",14,"51,9","92,9","100,0","242,1",2013
+Partille,Öjersjö Storegård skola 4-9,Kommunal,Partille,20047742,15,"50,0","100,0","100,0","232,0",15,"50,0","93,3","100,0","225,8",2013
+Partille,Casa Montessori,Enskild,,68358072,..,..,..,..,"268,5",..,..,..,..,..,2013
+Perstorp,Centralskolan 1,Kommunal,Perstorp,97348759,34,"44,2","76,5","82,4","213,4",43,"55,8","67,4","76,7","190,4",2013
+Perstorp,Centralskolan 2,Kommunal,Perstorp,52123183,..,..,..,..,..,..,..,..,..,..,2013
+Piteå,Christina skolenhet,Kommunal,Piteå,94591900,48,"48,0","95,8","100,0","230,8",52,"52,0","88,5",~100,"211,3",2013
+Piteå,Hortlax skolenhet,Kommunal,Piteå,10185533,45,"46,9","93,3","100,0","222,9",51,"53,1","90,2",~100,"209,2",2013
+Piteå,Pitholm skolenhet 7-9,Kommunal,Piteå,18339846,28,"45,2","92,9",~100,"233,0",34,"54,8","85,3",~100,"194,0",2013
+Piteå,Porsnäs skolenhet,Kommunal,Piteå,18748381,24,"49,0","66,7",~100,"199,3",25,"51,0","76,0","76,0","175,4",2013
+Piteå,Rönnskolans skolenhet gr,Kommunal,Piteå,14747413,..,..,.,.,..,..,..,.,.,..,2013
+Piteå,Sjulnässkolan,Kommunal,Piteå,42296356,23,"56,1","78,3",~100,"231,0",18,"43,9","83,3",~100,"197,8",2013
+Piteå,Solanderskolan 7-9 skolenhet,Kommunal,Piteå,56399220,28,"53,8","75,0",~100,"214,6",24,"46,2","70,8",~100,"212,1",2013
+Ragunda,Anders-Olofskolan,Kommunal,Ragunda,78545687,16,"48,5","81,3",~100,"200,6",17,"51,5","58,8",~100,"181,0",2013
+Ragunda,Hansåkerskolan,Kommunal,Ragunda,22316816,..,..,..,..,..,..,..,..,..,..,2013
+Robertsfors,Tundalsskolan åk 7-9,Kommunal,Robertsfors,16553934,25,"41,0","76,0",~100,"214,8",36,"59,0","75,0","86,1","198,6",2013
+Ronneby,Kallingeskolan 7-9,Kommunal,Ronneby,53155267,39,"47,6","64,1","87,2","204,0",43,"52,4","58,1","74,4","178,9",2013
+Ronneby,Snäckebacksskolan,Kommunal,Ronneby,73745566,58,"46,4","69,0","89,7","213,0",67,"53,6","71,6",~100,"195,8",2013
+Ronneby,Karl-Oskarskolan i Ronneby,Enskild,,38449858,28,"43,8","60,7","78,6","193,9",36,"56,3","75,0","83,3","204,2",2013
+Rättvik,Rättviksskolan,Kommunal,Rättvik,73451967,59,"50,9","93,2","100,0","228,8",57,"49,1","86,0",~100,"207,4",2013
+Sala,Ekebyskolan,Kommunal,Sala,36193586,56,"51,4","83,9","91,1","229,5",53,"48,6","66,0","81,1","180,5",2013
+Sala,Vallaskolan,Kommunal,Sala,64954528,38,"40,4","84,2","86,8","224,5",56,"59,6","75,0","85,7","190,6",2013
+Salem,Nytorpsskolan,Kommunal,Salem,36262199,15,"53,6","100,0","100,0","277,5",13,"46,4",..,"100,0","230,4",2013
+Salem,Rönninge skola,Kommunal,Salem,71677992,18,"43,9","100,0","100,0","260,0",23,"56,1","87,0",~100,"205,1",2013
+Salem,Skogsängsskolan,Kommunal,Salem,58385274,29,"50,9","62,1","72,4","202,7",28,"49,1","35,7","50,0","133,4",2013
+Salem,Säbytorp,Kommunal,Salem,92406445,18,"42,9","66,7",~100,"237,2",24,"57,1","75,0",~100,"203,2",2013
+Salem,Söderby friskola,Enskild,,56858061,..,..,..,..,..,..,..,"100,0","100,0","213,3",2013
+Sandviken,Hedängskolan 7-9,Kommunal,Sandviken,23876630,22,"41,5","81,8",~100,"193,4",31,"58,5","67,7",~100,"190,9",2013
+Sandviken,Jernvallsskolan 4-9,Kommunal,Sandviken,30006957,19,"43,2","78,9",~100,"205,9",25,"56,8","76,0",~100,"190,4",2013
+Sandviken,Murgårdsskolan 6-9 I,Kommunal,Sandviken,93190753,16,"55,2","62,5","68,8","191,8",13,"44,8",..,..,"151,5",2013
+Sandviken,Murgårdsskolan II,Kommunal,Sandviken,36589800,29,"52,7","58,6","82,8","200,1",26,"47,3",..,"46,2","137,5",2013
+Sandviken,Söderskolan I,Kommunal,Sandviken,95475697,49,"50,0","67,3","81,6","199,0",49,"50,0","67,3","71,4","189,4",2013
+Sandviken,Söderskolan II,Kommunal,Sandviken,58929072,24,"51,1","41,7","50,0","151,0",23,"48,9","78,3","78,3","186,6",2013
+Sandviken,Österfärnebo skola,Kommunal,Sandviken,73076578,..,..,..,..,..,..,..,..,..,..,2013
+Sandviken,Prosperitas utbildning,Enskild,,91119383,..,..,..,..,"162,8",..,..,..,..,..,2013
+Sandviken,Sandvikens Montessoriskola,Enskild,,17233525,..,..,"85,7",~100,"211,4",..,..,..,..,..,2013
+Sigtuna,Centralskolan,Kommunal,Sigtuna,61056172,17,"42,5",..,"64,7","183,4",23,"57,5","47,8","73,9","182,4",2013
+Sigtuna,Ekillaskolan,Kommunal,Sigtuna,14261356,63,"47,7","60,3","73,0","194,3",69,"52,3","46,4","53,6","167,5",2013
+Sigtuna,S:t Olof,Kommunal,Sigtuna,13579948,43,"50,6","93,0","100,0","231,7",42,"49,4","85,7",~100,"205,5",2013
+Sigtuna,Valstaskolan,Kommunal,Sigtuna,61234191,34,"40,5","44,1","79,4","175,5",50,"59,5","54,0","70,0","176,1",2013
+Sigtuna,"Josefinaskolan, grundskola",Enskild,,55508705,..,..,..,..,"208,5",..,..,..,..,..,2013
+Sigtuna,Sigtunaskolan hum. läroverket,Enskild,,70883860,26,"47,3","84,6",~100,"246,5",29,"52,7","75,9",~100,"211,1",2013
+Sigtuna,Skolan Bergius,Enskild,,35008423,21,"36,2","90,5","100,0","269,6",37,"63,8","81,1","100,0","238,0",2013
+Simrishamn,Skolområde Korsavad,Kommunal,Simrishamn,66350640,48,"40,7","85,4","89,6","223,5",70,"59,3","65,7","85,7","188,8",2013
+Simrishamn,Famn,Enskild,,68370166,..,..,.,.,.,..,..,..,..,..,2013
+Simrishamn,Nils Holgerssonskolan,Enskild,,24445412,..,..,"75,0",~100,"229,2",..,..,..,..,..,2013
+Simrishamn,Sophiaskolan,Enskild,,59958745,..,..,..,..,..,..,..,..,..,..,2013
+Sjöbo,Emanuelskolan,Kommunal,Sjöbo,37998000,..,..,..,..,..,..,..,..,"66,7","198,5",2013
+Sjöbo,"Färsinga lärcentrum, åk 6-9",Kommunal,Sjöbo,17176734,39,"55,7","92,3",~100,"248,1",31,"44,3","64,5","83,9","177,4",2013
+Sjöbo,Sandbäckskolan,Kommunal,Sjöbo,47897364,27,"60,0","77,8",~100,"202,9",18,"40,0","83,3",~100,"206,5",2013
+Sjöbo,Storkskolan,Kommunal,Sjöbo,55675413,10,"43,5",..,..,"203,3",13,"56,5","76,9",~100,"207,3",2013
+Sjöbo,Vollsjö Friskola,Enskild,,78396564,..,..,.,.,.,..,..,.,..,..,2013
+Skara,Djäkneskolan,Kommunal,Skara,25963247,53,"60,2","77,4","88,7","217,2",35,"39,8","74,3","82,9","196,4",2013
+Skara,Teglaskolan,Kommunal,Skara,35308702,46,"46,9","82,6","84,8","221,8",52,"53,1","92,3",~100,"220,9",2013
+Skara,Friskolan Metis,Enskild,,46013569,..,..,"100,0","100,0","230,2",..,..,..,..,..,2013
+Skellefteå,Björnåkersskolan,Kommunal,Skellefteå,61150314,19,"35,8","78,9",~100,"217,9",34,"64,2","82,4","100,0","212,7",2013
+Skellefteå,Bolidenskolan 1-9,Kommunal,Skellefteå,51881643,21,"44,7","66,7","71,4","186,3",26,"55,3","73,1","76,9","178,4",2013
+Skellefteå,Brännanskolan,Kommunal,Skellefteå,16211359,54,"55,1","94,4",~100,"237,2",44,"44,9","97,7",~100,"226,0",2013
+Skellefteå,Bureskolan 6-9,Kommunal,Skellefteå,62125265,11,"35,5",..,~100,"200,7",20,"64,5","60,0","75,0","190,3",2013
+Skellefteå,Byskeskolan 6-9,Kommunal,Skellefteå,97534677,24,"42,1","70,8","75,0","196,4",33,"57,9","81,8",~100,"209,6",2013
+Skellefteå,Furuskolan,Kommunal,Skellefteå,62717625,..,..,"100,0","100,0","207,8",..,..,..,..,..,2013
+Skellefteå,Kanalskolan,Kommunal,Skellefteå,94485755,36,"45,6","91,7",~100,"242,1",43,"54,4","86,0",~100,"202,0",2013
+Skellefteå,Kågeskolan 6-9,Kommunal,Skellefteå,66412077,33,"49,3","78,8",~100,"216,4",34,"50,7","79,4","85,3","207,4",2013
+Skellefteå,Lövångersskolan,Kommunal,Skellefteå,87194036,..,..,"83,3",~100,"216,9",..,..,..,..,..,2013
+Skellefteå,Norrhammarskolan 7-9,Kommunal,Skellefteå,40166272,39,"49,4","87,2",~100,"230,1",40,"50,6","77,5","87,5","199,4",2013
+Skellefteå,Sörböleskolan,Kommunal,Skellefteå,83796196,51,"42,1","70,6","80,4","206,0",70,"57,9","60,0","68,6","172,1",2013
+Skellefteå,Ursviksskolan 6-9,Kommunal,Skellefteå,37579892,17,"36,2","88,2",~100,"223,4",30,"63,8","83,3",~100,"203,4",2013
+Skellefteå,Örjansskolan 6-9,Kommunal,Skellefteå,99512173,28,"63,6","82,1",~100,"227,1",16,"36,4","75,0",~100,"206,3",2013
+Skellefteå,Bruksskolan,Enskild,,90056405,10,"41,7",..,..,"230,0",14,"58,3","92,9",~100,"203,4",2013
+Skinnskatteberg,Klockarbergsskolan,Kommunal,Skinnskatteberg,62958817,..,..,..,..,..,..,..,..,..,"183,8",2013
+Skurup,Alléskolan,Kommunal,Skurup,60217642,..,..,..,..,..,..,..,..,..,..,2013
+Skurup,Mackleanskolan,Kommunal,Skurup,21999433,74,"53,2","83,8","90,5","230,9",65,"46,8","84,6",~100,"209,0",2013
+Skövde,Eriksdalskolan 483,Kommunal,Skövde,97361837,19,"43,2","94,7",~100,"203,0",25,"56,8","76,0",~100,"183,3",2013
+Skövde,Helenaskolan 475,Kommunal,Skövde,54790414,80,"47,6","88,8",~100,"239,2",88,"52,4","70,5","90,9","201,1",2013
+Skövde,Helenaskolan 476,Kommunal,Skövde,33092776,..,..,.,.,.,..,..,.,..,..,2013
+Skövde,Rydskolan 459,Kommunal,Skövde,79244614,31,"38,8","48,4","67,7","183,8",49,"61,3","24,5","61,2","153,9",2013
+Skövde,Stöpenskolan,Kommunal,Skövde,89477299,45,"49,5","84,4","86,7","224,8",46,"50,5","73,9","87,0","209,7",2013
+Skövde,Vasaskolan 477,Kommunal,Skövde,96989994,54,"45,4","92,6",~100,"236,9",65,"54,6","72,3","86,2","201,6",2013
+Skövde,Mia skola,Enskild,,94502924,..,..,.,.,.,..,..,.,..,..,2013
+Smedjebacken,Bergaskolan,Kommunal,Smedjebacken,81136807,30,"47,6","66,7","80,0","204,0",33,"52,4","81,8",~100,"189,1",2013
+Smedjebacken,Kyrkskolan,Kommunal,Smedjebacken,68814096,..,..,..,..,..,..,..,"91,7",~100,"208,0",2013
+Sollefteå,Junsele skola,Kommunal,Sollefteå,49748045,..,..,..,..,..,..,..,"94,7",~100,"200,4",2013
+Sollefteå,Ramsele skola,Kommunal,Sollefteå,20197159,..,..,..,..,..,..,..,"83,3",~100,"190,0",2013
+Sollefteå,Vallaskolan 4-9,Kommunal,Sollefteå,74074564,86,"50,9","74,4","80,2","201,5",83,"49,1","53,0","65,1","168,5",2013
+Sollentuna,"Djupdalsskolan, RH-enhet",Kommunal,Sollentuna,91730309,..,..,.,.,..,..,..,.,..,..,2013
+Sollentuna,Edsbergsskolan,Kommunal,Sollentuna,38076081,55,"53,4","90,9","100,0","240,5",48,"46,6","89,6","100,0","226,8",2013
+Sollentuna,Förberedelseklasser,Kommunal,Sollentuna,91113722,..,..,.,.,..,..,..,.,.,..,2013
+Sollentuna,Gärdesskolan,Kommunal,Sollentuna,77585025,20,"32,3","95,0","100,0","253,8",42,"67,7","90,5","100,0","232,8",2013
+Sollentuna,Helenelundsskolan,Kommunal,Sollentuna,15572902,42,"37,8","100,0","100,0","257,3",69,"62,2","97,1","100,0","243,3",2013
+Sollentuna,Häggviksskolan,Kommunal,Sollentuna,96594250,20,"46,5","100,0","100,0","262,0",23,"53,5","95,7",~100,"235,0",2013
+Sollentuna,Häggviksskolan LSI,Kommunal,Sollentuna,68505032,..,..,.,.,..,..,..,..,..,..,2013
+Sollentuna,Runbacka skolor/Fenix,Kommunal,Sollentuna,43236825,..,..,.,.,.,..,..,..,..,..,2013
+Sollentuna,Runbacka skolor/Runan,Kommunal,Sollentuna,62737044,14,"37,8","92,9",~100,"258,2",23,"62,2","95,7",~100,"229,5",2013
+Sollentuna,Sofielundsskolan,Kommunal,Sollentuna,68288321,31,"70,5","77,4",~100,"233,4",13,"29,5","84,6","100,0","229,4",2013
+Sollentuna,Sollentuna internat. school,Kommunal,Sollentuna,27740655,23,"56,1","87,0","100,0","257,1",18,"43,9","83,3",~100,"252,5",2013
+Sollentuna,Sollentuna musikklasser,Kommunal,Sollentuna,21871265,42,"72,4","100,0","100,0","277,4",16,"27,6","100,0","100,0","269,4",2013
+Sollentuna,Tal- o språkcentrum/Brageskola,Kommunal,Sollentuna,12092203,..,..,.,.,..,..,..,..,..,..,2013
+Sollentuna,Utbildning Rotebro/Gillboskola,Kommunal,Sollentuna,59955409,36,"60,0","88,9",~100,"242,3",24,"40,0","79,2",~100,"218,2",2013
+Sollentuna,"Utbildning Silverdal, gr",Kommunal,Sollentuna,67346137,..,..,..,..,..,..,..,..,..,..,2013
+Sollentuna,"Utbildning Silverdal, gr asp",Kommunal,Sollentuna,76880740,..,..,..,..,..,..,..,..,..,..,2013
+Sollentuna,Futuraskolan Hertig Karl,Enskild,,40467992,..,..,"100,0","100,0","286,6",..,..,..,..,..,2013
+Sollentuna,Mikaelskolan,Enskild,,85777315,..,..,..,..,..,..,..,..,..,..,2013
+Sollentuna,Norrvikens skola,Enskild,,47462120,38,"46,9","89,5",~100,"253,1",43,"53,1","95,3",~100,"225,8",2013
+Sollentuna,Vibyskolan,Enskild,,15547680,15,"55,6","93,3","100,0","264,0",12,"44,4","91,7","100,0","223,8",2013
+Sollentuna,Vittra Sollentuna,Enskild,,58102266,15,"41,7","80,0",~100,"242,3",21,"58,3","90,5","100,0","246,9",2013
+Solna,Bagartorpsskolan 4-9,Kommunal,Solna,39508236,15,"48,4","66,7","100,0","209,0",16,"51,6",..,~100,"189,8",2013
+Solna,Bergshamraskolan,Kommunal,Solna,43133926,22,"44,0","81,8",~100,"237,2",28,"56,0","78,6","82,1","198,7",2013
+Solna,Råsunda skola,Kommunal,Solna,69725476,35,"39,8","100,0","100,0","246,3",53,"60,2","84,9",~100,"202,3",2013
+Solna,Skytteholmsskolan,Kommunal,Solna,84278529,36,"58,1","55,6","77,8","202,7",26,"41,9","53,8","80,8","187,6",2013
+Solna,Tallbackaskolan,Kommunal,Solna,73581523,19,"38,0","89,5",~100,"240,3",31,"62,0","74,2",~100,"215,8",2013
+Solna,Alfaskolan,Enskild,,27323097,22,"42,3","90,9",~100,"261,7",30,"57,7","96,7","100,0","263,4",2013
+Solna,"Ingridskolan, grundskola",Enskild,,53259263,..,..,..,..,..,..,..,..,..,..,2013
+Solna,Svedenskolan Bergshamra,Enskild,,89893224,..,..,.,.,.,..,..,..,..,..,2013
+Solna,Vittra Frösunda,Enskild,,48760074,10,"40,0",..,..,"233,3",15,"60,0","93,3","100,0","222,5",2013
+Solna,Ängkärrsskolan i Solna,Enskild,,98515782,..,..,..,..,..,..,..,"69,6","69,6","192,2",2013
+Sorsele,Vindelälvsskolan,Kommunal,Sorsele,69943442,13,"33,3","76,9",~100,"219,0",26,"66,7","57,7","69,2","187,4",2013
+Sotenäs,Sotenässkolan,Kommunal,Sotenäs,78294346,42,"49,4","90,5",~100,"238,5",43,"50,6","86,0",~100,"205,7",2013
+Staffanstorp,Centralskolan,Kommunal,Staffanstorp,38539511,32,"49,2","62,5",~100,"211,2",33,"50,8","87,9",~100,"228,0",2013
+Staffanstorp,Hagalidskolan,Kommunal,Staffanstorp,28784410,53,"54,1","88,7",~100,"231,3",45,"45,9","91,1",~100,"222,8",2013
+Staffanstorp,Hjärupslundsskolan,Kommunal,Staffanstorp,46191968,28,"57,1","96,4",~100,"246,5",21,"42,9","95,2",~100,"248,0",2013
+Staffanstorp,Skånska Småstadens Kulturskola,Enskild,,85506411,..,..,..,..,..,..,..,..,..,..,2013
+Stenungsund,Kristinedalskolan,Kommunal,Stenungsund,36819548,21,"41,2","76,2","76,2","206,0",30,"58,8","83,3",~100,"215,9",2013
+Stenungsund,Stenungskolan,Kommunal,Stenungsund,30707344,64,"48,1","87,5",~100,"220,9",69,"51,9","84,1","91,3","199,8",2013
+Stenungsund,Stora Högaskolan,Kommunal,Stenungsund,59097955,51,"48,1","84,3",~100,"223,3",55,"51,9","87,3","90,9","192,1",2013
+Stenungsund,Stenungsunds Montessoriskola,Enskild,,38786895,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Abrahamsbergsskolan,Kommunal,Stockholm,44673074,39,"50,0","94,9","100,0","256,2",39,"50,0","89,7",~100,"228,7",2013
+Stockholm,Adolf Fredriks musikklasser,Kommunal,Stockholm,99648792,113,"63,5","97,3","100,0","274,7",65,"36,5","98,5","100,0","261,0",2013
+Stockholm,Akalla grundskola F-9,Kommunal,Stockholm,37796564,29,"55,8","48,3","75,9","202,1",23,"44,2",..,..,"152,7",2013
+Stockholm,Alviksskolan,Kommunal,Stockholm,72627865,53,"53,5","66,0","75,5","225,3",46,"46,5","65,2","71,7","197,3",2013
+Stockholm,Aspuddens skola,Kommunal,Stockholm,72672270,47,"39,5","78,7",~100,"235,6",72,"60,5","76,4","87,5","199,0",2013
+Stockholm,Bagarmossens skola,Kommunal,Stockholm,13679897,18,"36,7","61,1","66,7","177,6",31,"63,3","77,4",~100,"205,1",2013
+Stockholm,Björkhagens skola,Kommunal,Stockholm,43088454,32,"36,0","84,4",~100,"218,3",57,"64,0","89,5",~100,"229,8",2013
+Stockholm,Blommensbergsskolan,Kommunal,Stockholm,82140090,59,"51,3","93,2",~100,"247,1",56,"48,7","78,6","87,5","199,5",2013
+Stockholm,Bredbyskolan,Kommunal,Stockholm,27287797,13,"56,5",..,~100,"196,7",10,"43,5",.,..,"123,5",2013
+Stockholm,Bredängsskolan,Kommunal,Stockholm,14121892,36,"58,1","61,1","83,3","190,5",26,"41,9","50,0",~100,"175,4",2013
+Stockholm,Bäckahagens skola,Kommunal,Stockholm,20683111,18,"40,0","66,7",~100,"230,3",27,"60,0","63,0","77,8","199,0",2013
+Stockholm,Enbacksskolan,Kommunal,Stockholm,43632318,23,"62,2","47,8",~100,"198,3",14,"37,8",..,~100,"204,0",2013
+Stockholm,Engelbrektsskolan,Kommunal,Stockholm,87521048,50,"41,7","78,0",~100,"224,5",70,"58,3","81,4",~100,"235,5",2013
+Stockholm,Enskede skola,Kommunal,Stockholm,72248694,59,"50,9","94,9",~100,"241,0",57,"49,1","91,2",~100,"232,4",2013
+Stockholm,Eriksdalsskolan,Kommunal,Stockholm,59249600,91,"51,4","68,1","89,0","215,7",86,"48,6","72,1","84,9","202,0",2013
+Stockholm,Farsta grundskola,Kommunal,Stockholm,38758770,38,"54,3","52,6","76,3","207,3",32,"45,7","59,4","78,1","202,0",2013
+Stockholm,Fruängens skola,Kommunal,Stockholm,19353396,23,"41,8","87,0",~100,"226,5",32,"58,2","43,8","68,8","177,7",2013
+Stockholm,Grimstaskolan,Kommunal,Stockholm,51341279,26,"51,0","50,0","80,8","218,3",25,"49,0","56,0","76,0","182,5",2013
+Stockholm,Gubbängsskolan,Kommunal,Stockholm,93412255,30,"33,7","73,3",~100,"238,8",59,"66,3","54,2","89,8","193,9",2013
+Stockholm,Gärdesskolan,Kommunal,Stockholm,41176931,82,"51,9","79,3","91,5","245,7",76,"48,1","80,3","92,1","236,9",2013
+Stockholm,Hagsätraskolan,Kommunal,Stockholm,82110758,27,"48,2","55,6","59,3","192,8",29,"51,8","69,0","75,9","188,6",2013
+Stockholm,Hjulsta skola,Kommunal,Stockholm,69266159,59,"50,0","33,9","44,1","176,0",59,"50,0",..,"39,0","134,5",2013
+Stockholm,Husbygårdsskolan F-9,Kommunal,Stockholm,42149666,30,"57,7","50,0","63,3","179,0",22,"42,3",..,"45,5","156,1",2013
+Stockholm,Hägerstensåsens skola,Kommunal,Stockholm,70329261,..,..,.,.,.,..,..,..,..,..,2013
+Stockholm,Hässelby Villastads skola,Kommunal,Stockholm,86597125,34,"38,6","70,6",~100,"239,1",54,"61,4","83,3",~100,"228,1",2013
+Stockholm,Hässelbygårdsskolan,Kommunal,Stockholm,87838841,52,"57,1","82,7","88,5","226,3",39,"42,9","48,7","64,1","176,8",2013
+Stockholm,Högalidsskolan,Kommunal,Stockholm,24716970,43,"75,4","90,7",~100,"247,0",14,"24,6","92,9",~100,"245,7",2013
+Stockholm,Höglandsskolan,Kommunal,Stockholm,36281817,12,"41,4","100,0","100,0","303,5",17,"58,6","100,0","100,0","276,8",2013
+Stockholm,Hökarängsskolan,Kommunal,Stockholm,57184925,28,"49,1","64,3","78,6","195,5",29,"50,9","44,8","58,6","152,3",2013
+Stockholm,Johan Skytteskolan,Kommunal,Stockholm,97683561,66,"55,0","78,8","89,4","233,6",54,"45,0","88,9",~100,"213,4",2013
+Stockholm,Katarina Norra skola,Kommunal,Stockholm,23617768,32,"45,7","87,5",~100,"239,0",38,"54,3","86,8",~100,"229,4",2013
+Stockholm,Kungl. Svenska Balettskolan gr,Kommunal,Stockholm,63321041,..,..,"93,3",~100,"273,0",..,..,..,..,..,2013
+Stockholm,Kungsholmens grundskola,Kommunal,Stockholm,29410344,14,"28,6",..,~100,"218,2",35,"71,4","94,3","100,0","241,9",2013
+Stockholm,Lillholmsskolan,Kommunal,Stockholm,46581319,27,"52,9","63,0","81,5","237,8",24,"47,1","66,7","75,0","199,7",2013
+Stockholm,Mariaskolan,Kommunal,Stockholm,69895255,39,"47,0","76,9",~100,"223,8",44,"53,0","86,4",~100,"230,2",2013
+Stockholm,Matteusskolan,Kommunal,Stockholm,16348406,43,"46,7","86,0",~100,"249,2",49,"53,3","79,6",~100,"221,2",2013
+Stockholm,Mälarhöjdens skola,Kommunal,Stockholm,46165232,51,"47,2","94,1",~100,"263,5",57,"52,8","94,7",~100,"240,0",2013
+Stockholm,Nya Elementar,Kommunal,Stockholm,83828066,47,"33,8","93,6",~100,"256,1",92,"66,2","79,3","93,5","212,4",2013
+Stockholm,Nytorpsskolan,Kommunal,Stockholm,23618510,..,..,..,..,..,..,..,"64,7","70,6","180,6",2013
+Stockholm,Nytorpsskolan/Österholm grund,Kommunal,Stockholm,34047582,..,..,.,.,..,..,..,..,..,..,2013
+Stockholm,Rinkebyskolan,Kommunal,Stockholm,37416253,63,"50,8","46,0","71,4","188,2",61,"49,2","31,1","65,6","160,2",2013
+Stockholm,Rågsvedsskolan,Kommunal,Stockholm,60382920,24,"43,6",..,..,"152,6",31,"56,4",..,..,"154,5",2013
+Stockholm,Rålambshovsskolan,Kommunal,Stockholm,61686233,81,"54,0","92,6",~100,"256,0",69,"46,0","81,2","92,8","227,9",2013
+Stockholm,Rödabergsskolan,Kommunal,Stockholm,97686250,29,"39,2","93,1",~100,"264,0",45,"60,8","82,2","86,7","243,8",2013
+Stockholm,Sjöstadsskolan,Kommunal,Stockholm,15331669,18,"43,9","83,3",~100,"229,3",23,"56,1","73,9",~100,"205,5",2013
+Stockholm,Sjöängsskolan,Kommunal,Stockholm,13124830,45,"56,3","71,1","88,9","207,1",35,"43,8","71,4",~100,"207,2",2013
+Stockholm,Skarpnäcks skola,Kommunal,Stockholm,53075005,33,"50,8","90,9",~100,"246,4",32,"49,2","87,5",~100,"228,8",2013
+Stockholm,Slättgårdsskolan,Kommunal,Stockholm,59468219,16,"41,0","75,0",~100,"238,6",23,"59,0","65,2",~100,"199,8",2013
+Stockholm,Smedshagsskolan,Kommunal,Stockholm,50060022,11,"52,4",..,~100,"219,5",10,"47,6",..,..,"188,8",2013
+Stockholm,Sofia skola,Kommunal,Stockholm,45436515,54,"48,6","87,0",~100,"250,9",57,"51,4","77,2","86,0","205,6",2013
+Stockholm,Solbergaskolan,Kommunal,Stockholm,34671128,..,..,..,..,..,..,..,..,~100,"204,2",2013
+Stockholm,Spånga grundskola,Kommunal,Stockholm,17640364,75,"63,0","93,3",~100,"255,2",44,"37,0","84,1",~100,"233,1",2013
+Stockholm,Sturebyskolan,Kommunal,Stockholm,91816093,41,"34,5","97,6","100,0","251,1",78,"65,5","91,0",~100,"228,9",2013
+Stockholm,Sundbyskolan,Kommunal,Stockholm,44046131,37,"48,1","83,8",~100,"246,9",40,"51,9","82,5",~100,"216,8",2013
+Stockholm,Sätraskolan,Kommunal,Stockholm,21724208,12,"34,3",..,..,"198,8",23,"65,7","65,2","73,9","176,1",2013
+Stockholm,Söderholmsskolan,Kommunal,Stockholm,18064456,17,"48,6","58,8",~100,"235,6",18,"51,4",..,~100,"205,6",2013
+Stockholm,Södermalmsskolan,Kommunal,Stockholm,75614609,51,"59,3","92,2",~100,"244,8",35,"40,7","80,0",~100,"228,0",2013
+Stockholm,Södra Ängby skola F-9,Kommunal,Stockholm,88795871,46,"54,8","80,4",~100,"246,3",38,"45,2","89,5",~100,"224,1",2013
+Stockholm,Trollbodaskolan,Kommunal,Stockholm,89605548,30,"35,3","83,3",~100,"221,5",55,"64,7","80,0",~100,"208,9",2013
+Stockholm,Tätorpsskolan,Kommunal,Stockholm,95801750,18,"35,3","77,8",~100,"219,7",33,"64,7","54,5","54,5","178,4",2013
+Stockholm,Vasa Real,Kommunal,Stockholm,52863414,71,"51,4","88,7",~100,"256,6",67,"48,6","76,1",~100,"240,8",2013
+Stockholm,Vinstagårdsskolan,Kommunal,Stockholm,82850292,33,"40,7","72,7",~100,"232,1",48,"59,3","54,2",~100,"213,7",2013
+Stockholm,Vällingbyskolan,Kommunal,Stockholm,36031993,36,"50,0","66,7","86,1","219,0",36,"50,0","72,2","83,3","209,1",2013
+Stockholm,Årstaskolan,Kommunal,Stockholm,48328583,17,"41,5","76,5",~100,"212,6",24,"58,5","66,7","70,8","187,4",2013
+Stockholm,Åsö grundskola,Kommunal,Stockholm,94864296,70,"43,2","81,4","92,9","246,7",92,"56,8","71,7",~100,"221,2",2013
+Stockholm,Äppelviksskolan,Kommunal,Stockholm,15594566,80,"49,1","98,8","100,0","276,5",83,"50,9","92,8",~100,"240,7",2013
+Stockholm,Ärvingeskolan,Kommunal,Stockholm,11218326,34,"41,5","67,6","82,4","210,0",48,"58,5","64,6",~100,"204,1",2013
+Stockholm,Al-Azharskolan,Enskild,,90711097,21,"58,3","52,4",~100,"225,7",15,"41,7","66,7","100,0","201,5",2013
+Stockholm,Alla Nationers Fria Skola,Enskild,,82838118,..,..,..,..,..,..,..,.,..,..,2013
+Stockholm,Alzahraa Idealiska akademi,Enskild,,77656740,14,"56,0","85,7",~100,"210,7",11,"44,0",..,..,"166,1",2013
+Stockholm,Beta School,Enskild,,16061350,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Bågenskolan,Enskild,,35784391,..,..,.,.,.,..,..,..,..,..,2013
+Stockholm,Carlssons skola,Enskild,,35547286,30,"46,9","100,0","100,0","273,7",34,"53,1","100,0","100,0","257,9",2013
+Stockholm,Dialogskolan,Enskild,,92127007,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Drakenskolan,Enskild,,76324672,..,..,.,.,.,..,..,.,.,..,2013
+Stockholm,Ellen Key skolan,Enskild,,16394249,12,"46,2","83,3","100,0","246,7",14,"53,8","92,9","100,0","247,3",2013
+Stockholm,Elma School,Enskild,,11532790,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Engelska Skolan i Bromma,Enskild,,90732940,84,"47,2","88,1","100,0","269,0",94,"52,8","90,4","100,0","258,3",2013
+Stockholm,Engelska Skolan i Enskede gr,Enskild,,38935587,85,"55,9","94,1","100,0","266,4",67,"44,1","88,1","100,0","248,8",2013
+Stockholm,Engelska skolan i Hässelby,Enskild,,74482611,35,"59,3","94,3",~100,"265,4",24,"40,7","91,7",~100,"234,2",2013
+Stockholm,Engelska Skolan Norr,Enskild,,29725531,23,"46,9","87,0","100,0","263,8",26,"53,1","61,5",~100,"255,9",2013
+Stockholm,Engelska skolan på Kungsholmen,Enskild,,66455663,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Enskilda gymnasiet,Enskild,,92750123,32,"52,5","96,9","100,0","289,6",29,"47,5","100,0","100,0","281,3",2013
+Stockholm,Estniska Skolan i Stockholm,Enskild,,34540901,..,..,..,..,..,..,..,..,"100,0","232,3",2013
+Stockholm,Europaskolan på Södermalm,Enskild,,79969356,28,"65,1","89,3","100,0","282,7",15,"34,9","93,3","100,0","257,2",2013
+Stockholm,Franska Skolan/Ecole francaise,Enskild,,42328518,35,"55,6","100,0","100,0","268,9",28,"44,4","96,4","100,0","272,3",2013
+Stockholm,"Fryshusets grundskola, Sthlm",Enskild,,19657993,26,"55,3","84,6",~100,"213,1",21,"44,7","66,7",~100,"192,3",2013
+Stockholm,Första Sportskolan gr,Enskild,,10360193,..,..,..,..,..,..,..,..,"100,0","213,8",2013
+Stockholm,Grundskolan Metapontum,Enskild,,90850620,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,JENSEN grundskola Gärdet Sthlm,Enskild,,87377212,20,"50,0","75,0",~100,"257,4",20,"50,0","95,0",~100,"251,6",2013
+Stockholm,Kristofferskolan,Enskild,,98760751,27,"45,8","92,6","100,0","269,9",32,"54,2","93,8",~100,"244,8",2013
+Stockholm,Kulturama gr. Hammarby Sjöstad,Enskild,,23066257,54,"72,0","83,3",~100,"243,3",21,"28,0","90,5",~100,"241,1",2013
+Stockholm,Kulturskolan Raketen,Enskild,,24172067,10,"41,7","100,0","100,0","268,5",14,"58,3","78,6","100,0","246,1",2013
+Stockholm,Kunskapsskolan Enskede,Enskild,,16426165,59,"50,4","96,6",~100,"256,4",58,"49,6","93,1",~100,"230,8",2013
+Stockholm,Kunskapsskolan Fruängen,Enskild,,63954028,41,"52,6","92,7","100,0","254,8",37,"47,4","91,9",~100,"233,3",2013
+Stockholm,Kunskapsskolan Kista,Enskild,,98098631,15,"44,1",..,..,"196,2",19,"55,9",..,"68,4","184,1",2013
+Stockholm,Kunskapsskolan Spånga,Enskild,,46796995,60,"49,6","81,7","88,3","238,9",61,"50,4","85,2","90,2","229,9",2013
+Stockholm,Kunskapsskolan Tyresö,Enskild,,81266343,80,"62,0","96,3",~100,"258,3",49,"38,0","98,0","100,0","246,8",2013
+Stockholm,Kunskapsskolans Resursskola,Enskild,,24671487,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Lunaskolan,Enskild,,72509254,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Lycée Francais Saint Louis,Enskild,,40610606,21,"44,7",.,.,.,26,"55,3",.,.,.,2013
+Stockholm,Maria Elementarskola,Enskild,,73893187,14,"48,3","100,0","100,0","282,5",15,"51,7","100,0","100,0","263,2",2013
+Stockholm,Martinskolan Söders waldorfsk,Enskild,,82854505,13,"54,2","100,0","100,0","268,7",11,"45,8",..,"100,0","220,0",2013
+Stockholm,MBC skolan Älvsjö,Enskild,,38096510,..,..,.,..,..,..,..,.,.,..,2013
+Stockholm,Mosebackeskolan,Enskild,,34880783,..,..,..,..,..,..,..,.,.,.,2013
+Stockholm,Musikskolan Lilla Akademien,Enskild,,36066067,19,"65,5","89,5","100,0","284,9",10,"34,5","100,0","100,0","275,0",2013
+Stockholm,Nya Broskolan,Enskild,,14283912,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Prima Kulturskola Farsta,Enskild,,26568390,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Raoul Wallenbergskolan Bromma,Enskild,,50848996,53,"57,6","69,8","88,7","221,0",39,"42,4","66,7",~100,"214,2",2013
+Stockholm,Skolgrunden,Enskild,,23414344,..,..,.,.,.,..,..,..,..,..,2013
+Stockholm,Snitz grundskola Odenplan,Enskild,,57510246,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Sofiaängens skola,Enskild,,86086213,..,..,.,..,..,..,..,.,..,..,2013
+Stockholm,S:t Eriks Katolska Skola,Enskild,,94943347,..,..,"78,6","100,0","245,4",..,..,..,..,..,2013
+Stockholm,Stift. Sthlm Intern. School gr,Enskild,,85670099,21,"44,7",.,.,.,26,"55,3",.,.,.,2013
+Stockholm,Stockholm Internat. Academy,Enskild,,11442396,..,..,..,..,..,..,..,.,.,.,2013
+Stockholm,Studemaskolan,Enskild,,91352227,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Sv Interkulturella grundskolan,Enskild,,98705470,..,..,..,~100,"203,8",..,..,.,..,..,2013
+Stockholm,Sverigefinska skolan Sthlm,Enskild,,78508835,..,..,"87,5",~100,"257,2",..,..,..,..,..,2013
+Stockholm,Södermalmskyrkans Kristna sk.,Enskild,,14472068,..,..,"100,0","100,0","271,4",..,..,..,..,..,2013
+Stockholm,Tasava skola,Enskild,,82448624,..,..,.,..,..,..,..,.,.,..,2013
+Stockholm,Tornadoskolan,Enskild,,29796042,13,"56,5","92,3","100,0","236,5",10,"43,5",..,"100,0","229,3",2013
+Stockholm,Tyska skolan,Enskild,,53175499,27,"57,4",.,.,.,20,"42,6",.,.,.,2013
+Stockholm,Vasastans Montessoriskola,Enskild,,75656508,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Vintertullsskolan i Stockholm,Enskild,,28138418,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Vittra Sjöstaden,Enskild,,28778917,..,..,..,..,..,..,..,..,..,..,2013
+Stockholm,Vittra Södermalm,Enskild,,59900714,24,"49,0","79,2","100,0","225,3",25,"51,0","64,0",~100,"208,3",2013
+Stockholm,Västbergaskolan,Enskild,,64736967,34,"54,8","82,4",~100,"235,1",28,"45,2","75,0",~100,"222,9",2013
+Stockholm,Västerholms friskola,Enskild,,35890890,45,"45,9","44,4","86,7","216,8",53,"54,1","49,1","73,6","211,1",2013
+Storfors,Vargbroskolan,Kommunal,Storfors,24306424,28,"48,3","82,1",~100,"213,1",30,"51,7","66,7","76,7","178,3",2013
+Storfors,Lundsbergs skola,Enskild,,26377128,..,..,"100,0","100,0","242,0",..,..,..,..,..,2013
+Storuman,Röbroskolan,Kommunal,Storuman,87510386,37,"58,7","89,2",~100,"232,0",26,"41,3","76,9",~100,"183,2",2013
+Storuman,Skytteanska skolan,Kommunal,Storuman,52561988,..,..,..,..,..,..,..,"100,0","100,0","210,0",2013
+Strängnäs,Lagmansskolan resurssk autisti,Kommunal,Strängnäs,28218473,..,..,..,..,..,..,..,..,..,..,2013
+Strängnäs,Mariefreds skola 4-9,Kommunal,Strängnäs,91506877,24,"44,4","66,7",~100,"219,6",30,"55,6","80,0",~100,"207,1",2013
+Strängnäs,Paulinska skolan,Kommunal,Strängnäs,21086074,28,"36,4","78,6",~100,"223,4",49,"63,6","57,1","69,4","191,2",2013
+Strängnäs,Stallarholmsskolan,Kommunal,Strängnäs,42957784,19,"48,7","89,5",~100,"247,8",20,"51,3","60,0",~100,"163,1",2013
+Strängnäs,Åkerskolan,Kommunal,Strängnäs,74265915,14,"38,9","85,7",~100,"222,9",22,"61,1","68,2",~100,"191,0",2013
+Strängnäs,Friskolan Asken,Enskild,,63423770,35,"63,6","97,1","100,0","241,6",20,"36,4","90,0","100,0","211,0",2013
+Strängnäs,Roggeskolan Strängnäs,Enskild,,31980822,31,"55,4","90,3","100,0","248,8",25,"44,6","84,0","100,0","227,7",2013
+Strängnäs,Strängnäs Montessoriskola,Enskild,,30181143,..,..,"86,4",~100,"243,1",..,..,..,..,..,2013
+Strömstad,Strömstiernaskolan,Kommunal,Strömstad,47464666,61,"54,0","73,8","78,7","208,8",52,"46,0","78,8","84,6","201,3",2013
+Strömsund,Centralskolan Hoting,Kommunal,Strömsund,20930818,..,..,..,..,..,..,..,..,..,..,2013
+Strömsund,Fjällsjöskolan,Kommunal,Strömsund,82584417,..,..,..,..,..,..,..,..,..,..,2013
+Strömsund,Frostviksskolan,Kommunal,Strömsund,76970830,..,..,..,..,..,..,..,..,..,..,2013
+Strömsund,Grevåkerskolan Hammerdal,Kommunal,Strömsund,54719506,14,"34,1",..,~100,"230,7",27,"65,9","81,5","81,5","203,5",2013
+Strömsund,Vattudalsskolan,Kommunal,Strömsund,71396086,31,"50,8","80,6",~100,"222,3",30,"49,2","73,3",~100,"182,6",2013
+Sundbyberg,Rissneskolan,Kommunal,Sundbyberg,76870977,27,"37,5","55,6","77,8","178,7",45,"62,5","24,4","57,8","142,3",2013
+Sundbyberg,Ängskolan,Kommunal,Sundbyberg,22847273,50,"44,6","80,0","86,0","236,4",62,"55,4","71,0","83,9","200,7",2013
+Sundbyberg,Kulturama Grundsk. Sundbyberg,Enskild,,37112288,49,"77,8","87,8",~100,"250,4",14,"22,2","71,4",~100,"231,3",2013
+Sundsvall,Bergsåkers skola 2,Kommunal,Sundsvall,68493050,45,"51,1","82,2",~100,"224,2",43,"48,9","88,4","100,0","213,7",2013
+Sundsvall,Hagaskolan 2,Kommunal,Sundsvall,92913189,60,"47,2","58,3","68,3","183,3",67,"52,8","52,2","68,7","163,8",2013
+Sundsvall,Höglundaskolan 2,Kommunal,Sundsvall,52845715,60,"53,1","50,0","73,3","186,2",53,"46,9","60,4","77,4","196,0",2013
+Sundsvall,Lidens skola,Kommunal,Sundsvall,64029211,..,..,..,..,..,..,..,..,..,..,2013
+Sundsvall,Ljustadalens skola 1,Kommunal,Sundsvall,20027707,..,..,.,.,..,..,..,.,.,.,2013
+Sundsvall,Matfors skola 2,Kommunal,Sundsvall,86927239,31,"45,6","80,6",~100,"235,2",37,"54,4","54,1",~100,"182,4",2013
+Sundsvall,Nivrenaskolan 1,Kommunal,Sundsvall,55740795,44,"40,7","68,2","72,7","189,0",64,"59,3","76,6","78,1","188,8",2013
+Sundsvall,Stöde skola,Kommunal,Sundsvall,11181258,..,..,"73,3",~100,"206,8",..,..,..,..,..,2013
+Sundsvall,Sundsvalls Montessoriskola,Kommunal,Sundsvall,78495763,..,..,"78,6",~100,"220,7",..,..,..,..,..,2013
+Sundsvall,Vibackeskolan 2,Kommunal,Sundsvall,64221308,33,"44,6","78,8","84,8","201,1",41,"55,4","63,4","68,3","176,4",2013
+Sundsvall,Engelska Skolan i Sundsvall,Enskild,,54802332,48,"54,5","79,2",~100,"235,5",40,"45,5","95,0","100,0","238,9",2013
+Sundsvall,Heliås Naturvetenskaplig Frisk,Enskild,,21250086,16,"57,1","100,0","100,0","213,0",12,"42,9","83,3",~100,"220,4",2013
+Sundsvall,Kristna skolan Oasen,Enskild,,38897013,..,..,..,~100,"226,1",..,..,..,..,..,2013
+Sundsvall,Kunskapsakademin,Enskild,,57722644,22,"61,1","95,5","100,0","242,8",14,"38,9","92,9",~100,"207,0",2013
+Sundsvall,Mimerskolan,Enskild,,10023937,20,"33,9","85,0",~100,"229,4",39,"66,1","94,9","100,0","227,1",2013
+Sundsvall,Njurunda Friskola,Enskild,,65125762,..,..,..,..,..,..,..,..,..,..,2013
+Sundsvall,"Prolympia 6-9, Sundsvall",Enskild,,18952472,34,"44,2","76,5","82,4","218,5",43,"55,8","83,7","88,4","195,8",2013
+Sunne,Fryxellska skolan,Kommunal,Sunne,25636648,74,"49,3","82,4","93,2","226,5",76,"50,7","68,4","86,8","187,0",2013
+Surahammar,Hammarskolan,Kommunal,Surahammar,74582871,35,"50,7","74,3","85,7","212,4",34,"49,3","64,7","70,6","173,3",2013
+Surahammar,Virsboskolan,Kommunal,Surahammar,36302522,..,..,..,..,..,..,..,..,~100,"172,7",2013
+Svalöv,Linåkerskolan,Kommunal,Svalöv,44263951,42,"38,5","66,7","81,0","206,3",67,"61,5","61,2","80,6","184,3",2013
+Svalöv,"Blichers friskola, Norrvidinge",Enskild,,81535814,..,..,..,..,..,..,..,..,..,..,2013
+Svalöv,Svalövs Montessoriskola,Enskild,,58981647,..,..,..,..,..,..,..,..,..,..,2013
+Svedala,Klågerupsskolan,Kommunal,Svedala,99748375,19,"50,0","89,5","100,0","230,9",19,"50,0","84,2",~100,"200,5",2013
+Svedala,Marbäcksskolan,Kommunal,Svedala,43569718,..,..,.,..,..,..,..,..,..,..,2013
+Svedala,Naverlönnskolan,Kommunal,Svedala,65569784,63,"48,8","82,5","92,1","225,7",66,"51,2","80,3","92,4","208,5",2013
+Svedala,Spångholmsskolan,Kommunal,Svedala,83516023,34,"57,6","100,0","100,0","246,5",25,"42,4","64,0",~100,"190,6",2013
+Svenljunga,"Mogaskolan, 7-9",Kommunal,Svenljunga,35242545,59,"49,6","76,3","89,8","214,2",60,"50,4","60,0","90,0","183,0",2013
+Säffle,Tegnérskolan,Kommunal,Säffle,40517936,45,"46,4","62,2","82,2","211,2",52,"53,6","51,9","67,3","170,0",2013
+Säter,Klockarskolan,Kommunal,Säter,60111640,37,"43,5","83,8",~100,"220,4",48,"56,5","66,7","79,2","185,0",2013
+Sävsjö,Hofgårdsskolan,Kommunal,Sävsjö,59983229,57,"52,8","73,7","84,2","216,0",51,"47,2","70,6",~100,"188,5",2013
+Sävsjö,Rörviks skola,Kommunal,Sävsjö,74170440,11,"40,7","100,0","100,0","272,3",16,"59,3","75,0",~100,"205,5",2013
+Söderhamn,Bergvikskolan,Kommunal,Söderhamn,32721673,22,"38,6","81,8",~100,"211,0",35,"61,4","54,3","74,3","174,6",2013
+Söderhamn,Norrtullskolan C,Kommunal,Söderhamn,35139330,53,"55,8","71,7","77,4","204,3",42,"44,2","64,3","73,8","189,9",2013
+Söderhamn,Stenbergaskolan,Kommunal,Söderhamn,26147333,22,"47,8","95,5",~100,"238,4",24,"52,2","79,2",~100,"201,7",2013
+Söderhamn,Vågbroskolan,Kommunal,Söderhamn,95878068,22,"50,0","90,9",~100,"231,3",22,"50,0","72,7","77,3","178,7",2013
+Söderhamn,HamnaSkolan,Enskild,,99882962,..,..,..,..,..,..,..,..,..,..,2013
+Söderköping,Ramunderskolan 12,Kommunal,Söderköping,99361107,56,"45,9","91,1",~100,"236,5",66,"54,1","66,7","89,4","200,8",2013
+Söderköping,Söderköpings Waldorfskola,Enskild,,70789823,..,..,..,..,..,..,..,..,..,..,2013
+Södertälje,Blombackaskolan,Kommunal,Södertälje,34148887,65,"43,9","67,7","76,9","200,1",83,"56,1","56,6","77,1","181,4",2013
+Södertälje,Brunnsängskolan,Kommunal,Södertälje,60570294,31,"43,7","74,2",~100,"219,4",40,"56,3","85,0",~100,"223,9",2013
+Södertälje,Hovsjöskolan,Kommunal,Södertälje,82137009,30,"51,7","53,3","70,0","212,3",28,"48,3",..,"42,9","166,3",2013
+Södertälje,Hölöskolan,Kommunal,Södertälje,79466321,16,"50,0","81,3",~100,"221,6",16,"50,0","93,8",~100,"195,9",2013
+Södertälje,Järna grundskola,Kommunal,Södertälje,97655739,30,"41,7","86,7",~100,"233,5",42,"58,3","88,1",~100,"216,5",2013
+Södertälje,Lina grundskola,Kommunal,Södertälje,62288230,..,..,..,"63,2","189,6",..,..,..,..,..,2013
+Södertälje,Pershagenskolan,Kommunal,Södertälje,38653015,24,"46,2","83,3",~100,"213,6",28,"53,8","60,7",~100,"185,2",2013
+Södertälje,Ronnaskolan,Kommunal,Södertälje,51210001,32,"40,0","53,1","78,1","220,9",48,"60,0","50,0","72,9","179,5",2013
+Södertälje,Rosenborgskolan,Kommunal,Södertälje,11914814,52,"45,6","73,1","88,5","212,5",62,"54,4","51,6","75,8","178,8",2013
+Södertälje,Wasaskolan,Kommunal,Södertälje,56568612,41,"57,7","51,2","58,5","199,7",30,"42,3",..,"50,0","160,7",2013
+Södertälje,Järna friskola,Enskild,,41584790,15,"60,0","93,3","100,0","247,2",10,"40,0","100,0","100,0","261,8",2013
+Södertälje,Kringlaskolan,Enskild,,74489639,15,"32,6",..,~100,"193,9",31,"67,4","64,5",~100,"183,1",2013
+Södertälje,Mariaskolan,Enskild,,31528772,..,..,..,..,..,..,..,..,..,..,2013
+Södertälje,Mikaelgården Läkeped. Institut,Enskild,,73075913,..,..,.,.,.,..,..,..,..,..,2013
+Södertälje,Nyckelskolan,Enskild,,16068461,12,"52,2","91,7",~100,"250,6",11,"47,8",..,"100,0","230,5",2013
+Södertälje,Solvikskolan,Enskild,,45994471,..,..,..,..,..,..,..,..,..,..,2013
+Södertälje,Södertälje friskola,Enskild,,38394561,..,..,..,..,..,..,..,"72,2",~100,"182,8",2013
+Södertälje,Vittra Östertälje,Enskild,,12757193,24,"44,4","95,8","100,0","235,5",30,"55,6","96,7",~100,"205,5",2013
+Södertälje,Örjanskolan,Enskild,,10661388,11,"40,7",..,~100,"255,0",16,"59,3","100,0","100,0","271,3",2013
+Sölvesborg,Bokelundsskolan H,Kommunal,Sölvesborg,94309839,62,"55,9","85,5","91,9","219,2",49,"44,1","71,4","87,8","208,6",2013
+Sölvesborg,Mjällby skola H,Kommunal,Sölvesborg,24822447,36,"64,3","91,7",~100,"220,9",20,"35,7","55,0","65,0","179,3",2013
+Tanum,Hamburgsundskolan,Kommunal,Tanum,81072495,23,"54,8","78,3","100,0","209,5",19,"45,2","63,2",~100,"188,8",2013
+Tanum,Tanumskolan,Kommunal,Tanum,74079446,37,"49,3","86,5",~100,"218,6",38,"50,7","84,2",~100,"205,9",2013
+Tibro,Nyboskolan arbetslag A,Kommunal,Tibro,24564454,49,"43,0","89,8",~100,"225,6",65,"57,0","61,5","75,4","181,7",2013
+Tidaholm,Forsenskolan 7-9,Kommunal,Tidaholm,40717964,25,"54,3","80,0",~100,"221,3",21,"45,7","57,1","61,9","174,6",2013
+Tidaholm,Hökensåsskolan 7-9,Kommunal,Tidaholm,42899954,46,"59,0","69,6","84,8","203,8",32,"41,0","75,0","75,0","182,9",2013
+Tierp,Aspenskolan,Kommunal,Tierp,15416514,45,"52,9","77,8",~100,"218,5",40,"47,1","50,0","87,5","175,4",2013
+Tierp,Centralskolan,Kommunal,Tierp,17240817,24,"45,3","62,5","79,2","200,3",29,"54,7","75,9","82,8","199,4",2013
+Tierp,Ol Andersskolan,Kommunal,Tierp,65153737,17,"42,5","88,2",~100,"209,9",23,"57,5","73,9",~100,"196,5",2013
+Tierp,Örbyhus skola,Kommunal,Tierp,69241995,26,"42,6","61,5","73,1","195,0",35,"57,4","82,9",~100,"206,6",2013
+Timrå,Ala skola,Kommunal,Timrå,59092675,16,"43,2","81,3",~100,"211,3",21,"56,8","66,7",~100,"193,7",2013
+Timrå,Arenaskolan,Kommunal,Timrå,81784662,39,"50,6","87,2","87,2","225,3",38,"49,4","50,0","73,7","167,0",2013
+Timrå,Mariedalsskolan,Kommunal,Timrå,23957720,31,"44,3","77,4","83,9","200,6",39,"55,7","76,9",~100,"198,7",2013
+Tingsryd,Dackeskolan 5-9,Kommunal,Tingsryd,56361478,43,"48,3","72,1","79,1","204,8",46,"51,7","60,9","69,6","184,7",2013
+Tingsryd,Idekulla skola,Enskild,,66342347,..,..,"92,3",~100,"263,3",..,..,..,..,..,2013
+Tjörn,Bleketskolan,Kommunal,Tjörn,16656370,33,"55,0","87,9","100,0","238,1",27,"45,0","92,6","100,0","219,1",2013
+Tjörn,Häggvallskolan,Kommunal,Tjörn,23228302,43,"53,8","97,7",~100,"241,6",37,"46,3","70,3","86,5","211,3",2013
+Tomelilla,Kastanjeskolan,Kommunal,Tomelilla,90360196,62,"47,7","77,4","82,3","213,4",68,"52,3","76,5","88,2","195,1",2013
+Torsby,Frykenskolan,Kommunal,Torsby,21568934,46,"43,0","80,4","84,8","217,7",61,"57,0","75,4","85,2","199,7",2013
+Torsby,Kvistbergsskolan,Kommunal,Torsby,83025413,12,"44,4",..,~100,"189,4",15,"55,6","73,3",~100,"204,5",2013
+Torsås,Torskolan H,Kommunal,Torsås,99636909,38,"55,1","94,7",~100,"225,7",31,"44,9","80,6","80,6","184,0",2013
+Tranemo,Tranängskolan 7-9,Kommunal,Tranemo,33759766,55,"40,4","80,0","87,3","235,1",81,"59,6","72,8","85,2","200,1",2013
+Tranås,Junkaremålsskolan 7-9,Kommunal,Tranås,18476537,53,"46,1","88,7",~100,"225,4",62,"53,9","83,9","91,9","206,7",2013
+Tranås,Ängarydsskolan,Kommunal,Tranås,10155751,36,"42,9","86,1",~100,"210,6",48,"57,1","60,4","79,2","175,7",2013
+Trelleborg,Fågelbäckskolan,Kommunal,Trelleborg,94965726,21,"40,4","71,4","71,4","218,0",31,"59,6","54,8","74,2","184,7",2013
+Trelleborg,Liljeborgsskolan 7-9,Kommunal,Trelleborg,42096980,91,"52,6","85,7","92,3","233,8",82,"47,4","62,2","81,7","191,7",2013
+Trelleborg,Vannhögskolan,Kommunal,Trelleborg,92281801,33,"37,9","90,9",~100,"240,8",54,"62,1","85,2","90,7","199,8",2013
+Trelleborg,Väståkraskolan,Kommunal,Trelleborg,45448758,40,"52,6","75,0","87,5","219,1",36,"47,4","83,3","86,1","217,4",2013
+Trelleborg,Kunskapsskolan Trelleborg,Enskild,,65892623,21,"37,5","95,2",~100,"267,5",35,"62,5","65,7","85,7","199,3",2013
+Trollhättan,Hjortmosseskolan 6-9,Kommunal,Trollhättan,66644468,24,"50,0","79,2",~100,"238,7",24,"50,0","54,2","75,0","196,5",2013
+Trollhättan,Kronan 7-9,Kommunal,Trollhättan,63750711,44,"47,3",..,"22,7","133,7",49,"52,7",..,"30,6","143,2",2013
+Trollhättan,Lyrfågelskolan 4-9,Kommunal,Trollhättan,12667629,31,"43,1","87,1",~100,"230,7",41,"56,9","80,5","87,8","195,2",2013
+Trollhättan,Paradisskolan 7-9,Kommunal,Trollhättan,38786603,44,"69,8","90,9",~100,"246,4",19,"30,2","84,2",~100,"211,4",2013
+Trollhättan,Sjuntorp skolan 4-9,Kommunal,Trollhättan,39396701,24,"50,0","91,7",~100,"236,6",24,"50,0","91,7",~100,"223,1",2013
+Trollhättan,Skogshöjdens skola,Kommunal,Trollhättan,77954455,19,"59,4","100,0","100,0","255,3",13,"40,6","76,9",~100,"215,8",2013
+Trollhättan,Stavreskolan 4-9,Kommunal,Trollhättan,49525819,35,"61,4","91,4",~100,"240,1",22,"38,6","68,2",~100,"195,2",2013
+Trollhättan,Strömslundsskolan 7-9,Kommunal,Trollhättan,96091081,25,"51,0","84,0",~100,"213,8",24,"49,0","79,2",~100,"204,4",2013
+Trollhättan,Sylteskolan 7-9,Kommunal,Trollhättan,66414430,47,"64,4","61,7","78,7","202,1",26,"35,6","65,4","73,1","186,0",2013
+Trollhättan,"Fridaskolan, Trollhättan",Enskild,,56884611,41,"54,7","92,7",~100,"220,1",34,"45,3","88,2",~100,"205,3",2013
+Trollhättan,"Nya Skolan, Trollhättan",Enskild,,11588924,16,"42,1","87,5",~100,"220,5",22,"57,9","95,5","100,0","218,5",2013
+Trosa,Hedebyskolan,Kommunal,Trosa,45500152,25,"61,0","92,0",~100,"217,1",16,"39,0","75,0",~100,"195,2",2013
+Trosa,Tomtaklintskolan,Kommunal,Trosa,51044218,49,"50,5","87,8",~100,"229,1",48,"49,5","79,2","87,5","214,1",2013
+Tyresö,Dalskolan,Kommunal,Tyresö,56130729,40,"47,6","95,0",~100,"227,4",44,"52,4","72,7","81,8","201,3",2013
+Tyresö,Kumla skola,Kommunal,Tyresö,37147254,55,"41,7","89,1",~100,"242,1",77,"58,3","81,8","93,5","218,2",2013
+Tyresö,Nyboda skola,Kommunal,Tyresö,31281674,66,"50,0","66,7","75,8","202,8",66,"50,0","50,0","66,7","169,1",2013
+Tyresö,Strandskolan,Kommunal,Tyresö,87665835,35,"59,3","82,9",~100,"232,1",24,"40,7","75,0",~100,"183,0",2013
+Tyresö,Tyresö skola,Kommunal,Tyresö,83020784,37,"54,4","81,1",~100,"217,2",31,"45,6","83,9",~100,"213,2",2013
+Täby,Attundaskolan,Kommunal,Täby,85045274,..,..,.,..,..,..,..,.,.,..,2013
+Täby,Gribby Gård,Kommunal,Täby,20587249,15,"33,3","86,7","100,0","223,7",30,"66,7","93,3","100,0","229,9",2013
+Täby,Näsbydalskolan,Kommunal,Täby,22807677,56,"50,5","96,4","100,0","263,6",55,"49,5","85,5",~100,"242,5",2013
+Täby,Näsbyparksskolan,Kommunal,Täby,96330648,25,"51,0","100,0","100,0","255,4",24,"49,0","83,3",~100,"220,9",2013
+Täby,Skarpängsskolan,Kommunal,Täby,83454509,66,"45,2","97,0",~100,"237,5",80,"54,8","97,5","100,0","228,1",2013
+Täby,Skolhagenskolan,Kommunal,Täby,69088221,36,"41,9","100,0","100,0","245,3",50,"58,1","100,0","100,0","244,0",2013
+Täby,Vallatorpsskolan,Kommunal,Täby,57206066,15,"55,6","73,3",~100,"232,0",12,"44,4","83,3",~100,"205,6",2013
+Täby,Byängsskolan,Enskild,,65839656,25,"46,3","100,0","100,0","262,2",29,"53,7","96,6",~100,"234,4",2013
+Täby,Engelska Skolan i Täby,Enskild,,12332278,70,"44,9","97,1","100,0","270,3",86,"55,1","97,7","100,0","251,3",2013
+Täby,Enhagenskolan,Enskild,,32231541,56,"65,9","96,4","100,0","254,5",29,"34,1","93,1","100,0","235,5",2013
+Täby,Futuraskolan Bergtorp,Enskild,,24142153,85,"51,5","95,3",~100,"254,9",80,"48,5","95,0","100,0","235,3",2013
+Täby,Helleborusskolan,Enskild,,45984740,..,..,..,..,..,..,..,..,"100,0","196,0",2013
+Täby,Kunskapsskolan Täby,Enskild,,25309669,24,"53,3","87,5","100,0","248,9",21,"46,7","90,5","100,0","220,8",2013
+Täby,Mellansjö skola,Enskild,,54332921,..,..,.,.,..,..,..,..,..,..,2013
+Täby,Milstensskolan,Enskild,,23312767,..,..,..,..,..,..,..,..,..,..,2013
+Täby,Nya Tidens Montessorisk. Täby,Enskild,,89424201,..,..,"87,5","100,0","266,4",..,..,..,..,..,2013
+Täby,Svalnäs skola,Enskild,,84230778,..,..,.,..,..,..,..,.,..,..,2013
+Täby,Täby byskola,Enskild,,64580337,..,..,..,..,..,..,..,..,..,..,2013
+Töreboda,Töreboda Centralskola,Kommunal,Töreboda,94707451,45,"47,4","73,3","84,4","196,1",50,"52,6","70,0","82,0","190,6",2013
+Uddevalla,Norgårdenskolan 7-9,Kommunal,Uddevalla,10405686,62,"50,4","80,6",~100,"217,7",61,"49,6","77,0","90,2","183,8",2013
+Uddevalla,Ramnerödsskolan,Kommunal,Uddevalla,83416307,31,"42,5","64,5","83,9","202,8",42,"57,5","57,1","81,0","193,0",2013
+Uddevalla,Västerskolan,Kommunal,Uddevalla,62222568,85,"58,2","94,1","100,0","243,1",61,"41,8","90,2",~100,"223,2",2013
+Uddevalla,Äsperödsskolan 7-9,Kommunal,Uddevalla,45535775,39,"43,3","82,1",~100,"216,2",51,"56,7","74,5","88,2","200,5",2013
+Uddevalla,Östanvindsskolan,Kommunal,Uddevalla,75650987,..,..,.,.,.,..,..,..,..,..,2013
+Uddevalla,Bohusläns Helhetsskola,Enskild,,82570039,..,..,.,.,..,..,..,.,.,..,2013
+Uddevalla,"Fridaskolan, Uddevalla",Enskild,,27489448,41,"64,1","90,2",~100,"247,2",23,"35,9","73,9",~100,"208,5",2013
+Uddevalla,Hällebergsskolan,Enskild,,52464734,..,..,..,..,..,..,..,..,..,..,2013
+Uddevalla,Linnéaskolan,Enskild,,92086024,11,"27,5","90,9","100,0","259,3",29,"72,5","69,0",~100,"216,6",2013
+Uddevalla,Stenbackeskolan,Enskild,,77005811,..,..,..,..,..,..,..,..,..,..,2013
+Ulricehamn,Stenbocksskolan ST 1 + 2,Kommunal,Ulricehamn,68980697,50,"53,2","80,0","84,0","219,5",44,"46,8","65,9","72,7","185,4",2013
+Ulricehamn,Stenbocksskolan ST 3 + 4,Kommunal,Ulricehamn,53032398,44,"49,4","77,3","81,8","236,0",45,"50,6","64,4","77,8","189,8",2013
+Ulricehamn,Ätradalsskolan,Kommunal,Ulricehamn,28080863,38,"55,1","73,7",~100,"225,8",31,"44,9","71,0","77,4","200,1",2013
+Umeå,Bräntbergsskolan,Kommunal,Umeå,44391304,48,"46,6","93,8",~100,"260,2",55,"53,4","81,8",~100,"208,2",2013
+Umeå,Carlshöjdsskolan,Kommunal,Umeå,16095592,26,"47,3","76,9",~100,"208,3",29,"52,7","75,9","82,8","190,9",2013
+Umeå,Ersängsskolan,Kommunal,Umeå,96783420,34,"43,6","73,5",~100,"223,3",44,"56,4","68,2","86,4","211,8",2013
+Umeå,Grubbeskolan,Kommunal,Umeå,21768043,76,"56,7","94,7",~100,"244,4",58,"43,3","98,3","100,0","220,2",2013
+Umeå,Hagaskolan,Kommunal,Umeå,53016523,44,"59,5","77,3","86,4","232,5",30,"40,5","63,3","76,7","200,9",2013
+Umeå,Hedlunda Invandrarundervisning,Kommunal,Umeå,45854948,..,..,.,.,..,..,..,.,.,"31,9",2013
+Umeå,Hörnefors Centralskola,Kommunal,Umeå,60878225,23,"48,9","95,7",~100,"220,4",24,"51,1","79,2",~100,"194,3",2013
+Umeå,Linneaskolan,Kommunal,Umeå,39117429,23,"45,1","78,3",~100,"236,3",28,"54,9","82,1",~100,"193,7",2013
+Umeå,Obbola skola,Kommunal,Umeå,84519587,20,"44,4","90,0",~100,"225,4",25,"55,6","88,0",~100,"203,8",2013
+Umeå,Sjöfruskolan,Kommunal,Umeå,11834732,22,"56,4","68,2",~100,"221,1",17,"43,6","94,1",~100,"229,1",2013
+Umeå,Storsjöskolan,Kommunal,Umeå,82985120,33,"47,1","78,8",~100,"222,4",37,"52,9","78,4",~100,"197,3",2013
+Umeå,Sävar skola,Kommunal,Umeå,90639590,35,"49,3","65,7","80,0","217,6",36,"50,7","77,8",~100,"197,1",2013
+Umeå,Tegs centralskola,Kommunal,Umeå,96517991,62,"45,9","88,7",~100,"238,0",73,"54,1","79,5","89,0","209,0",2013
+Umeå,Västangårds skola,Kommunal,Umeå,36171517,12,"41,4","83,3",~100,"224,2",17,"58,6","58,8",~100,"210,0",2013
+Umeå,Ålidhemsskolan,Kommunal,Umeå,42752416,18,"40,9","88,9",~100,"255,1",26,"59,1","69,2",~100,"208,8",2013
+Umeå,Hannaskolan,Enskild,,68950088,..,..,..,..,..,..,..,..,..,..,2013
+Umeå,Minervaskolan,Enskild,,75713343,39,"56,5","94,9","100,0","252,1",30,"43,5","86,7","100,0","228,9",2013
+Umeå,"Prolympia, Umeå",Enskild,,28958120,27,"36,5","96,3","100,0","237,1",47,"63,5","87,2","100,0","201,2",2013
+Umeå,Umeå Waldorfskola,Enskild,,16183719,..,..,"77,8",~100,"230,6",..,..,..,..,..,2013
+Upplands Väsby,Grimsta skola,Kommunal,Upplands Väsby,44227469,47,"42,0","80,9",~100,"222,7",65,"58,0","80,0","87,7","203,2",2013
+Upplands Väsby,Runby skola,Kommunal,Upplands Väsby,77624936,33,"49,3","60,6","72,7","197,4",34,"50,7","52,9","61,8","159,0",2013
+Upplands Väsby,Väsby skola,Kommunal,Upplands Väsby,31018677,51,"54,8","58,8","78,4","208,8",42,"45,2",..,"42,9","122,7",2013
+Upplands Väsby,Sandbergska skolan,Enskild,,97762139,..,..,.,..,..,..,..,"63,2",~100,"202,8",2013
+Upplands Väsby,"Sverigefinska sk, Uppl Väsby",Enskild,,68403656,..,..,.,..,..,..,..,..,..,..,2013
+Upplands Väsby,Södervikskolan,Enskild,,49021135,46,"43,4","87,0",~100,"228,9",60,"56,6","73,3","88,3","209,3",2013
+Upplands Väsby,Vittra Väsby,Enskild,,24374886,18,"48,6",..,"61,1","164,7",19,"51,4","57,9","73,7","198,0",2013
+Upplands-Bro,Broskolan,Kommunal,Upplands-Bro,16983719,47,"56,0","66,0","83,0","236,3",37,"44,0","59,5","78,4","195,1",2013
+Upplands-Bro,Ekhammarskolan,Kommunal,Upplands-Bro,92284588,37,"46,8","73,0",~100,"205,1",42,"53,2","59,5","83,3","202,5",2013
+Upplands-Bro,Hagnässkolan,Kommunal,Upplands-Bro,16969143,27,"55,1","85,2",~100,"230,3",22,"44,9","59,1",~100,"185,3",2013
+Upplands-Bro,Källskolan,Enskild,,69098787,..,..,..,..,..,..,..,..,..,..,2013
+Uppsala,Almunge skola,Kommunal,Uppsala,99056007,28,"43,8","82,1",~100,"243,3",36,"56,3","75,0","77,8","194,0",2013
+Uppsala,Björkvallsskolan,Kommunal,Uppsala,89112467,38,"48,1","78,9","84,2","215,1",41,"51,9","68,3",~100,"188,8",2013
+Uppsala,Brantingsskolan,Kommunal,Uppsala,54035395,43,"43,9","79,1",~100,"210,7",55,"56,1","65,5","87,3","187,1",2013
+Uppsala,Eriksbergsskolan,Kommunal,Uppsala,18733789,50,"40,7","74,0","86,0","227,1",73,"59,3","86,3","93,2","232,0",2013
+Uppsala,Gottsundaskolan 2,Kommunal,Uppsala,93042073,35,"31,3","71,4","77,1","224,4",77,"68,8","83,1","87,0","216,7",2013
+Uppsala,Gränbyskolan,Kommunal,Uppsala,60782519,60,"38,2","73,3","90,0","224,8",97,"61,8","76,3","89,7","208,7",2013
+Uppsala,Gåvsta skola,Kommunal,Uppsala,12275851,..,..,..,..,..,..,..,"55,0",~100,"206,1",2013
+Uppsala,Kvarngärdesskolan,Kommunal,Uppsala,61003071,..,..,..,..,..,..,..,"92,3",~100,"261,7",2013
+Uppsala,Luthagens skolor 1,Kommunal,Uppsala,92713811,20,"37,0","95,0","100,0","263,3",34,"63,0","82,4",~100,"234,7",2013
+Uppsala,Luthagens skolor 2,Kommunal,Uppsala,12733075,21,"33,9","85,7",~100,"224,9",41,"66,1","87,8",~100,"230,3",2013
+Uppsala,Nannaskolan-Bolandsgymnasiet,Kommunal,Uppsala,29677535,37,"78,7","75,7",~100,"216,2",10,"21,3",..,..,..,2013
+Uppsala,Stavby skola,Kommunal,Uppsala,72802066,..,..,..,..,..,..,..,..,..,..,2013
+Uppsala,Sävjaskolan,Kommunal,Uppsala,93826170,33,"49,3","51,5","72,7","198,0",34,"50,7","61,8",~100,"197,8",2013
+Uppsala,Tuna skola,Kommunal,Uppsala,26666728,..,..,..,..,..,..,..,..,..,..,2013
+Uppsala,Tunabergsskolan 1,Kommunal,Uppsala,54742485,52,"64,2","76,9","86,5","212,3",29,"35,8","79,3",~100,"198,7",2013
+Uppsala,Tunabergsskolan 2,Kommunal,Uppsala,13243642,32,"52,5","87,5",~100,"223,7",29,"47,5","93,1","100,0","217,5",2013
+Uppsala,Vaksalaskolan,Kommunal,Uppsala,28006480,63,"55,8","92,1",~100,"254,0",50,"44,2","86,0","100,0","224,1",2013
+Uppsala,Valsätraskolan,Kommunal,Uppsala,56446888,35,"44,3","68,6","77,1","215,4",44,"55,7","65,9","75,0","207,0",2013
+Uppsala,von Bahrs skola 2,Kommunal,Uppsala,67720051,10,"40,0",..,..,..,15,"60,0",..,..,"162,5",2013
+Uppsala,Västra Stenhagenskolan,Kommunal,Uppsala,48134074,35,"49,3","77,1","85,7","223,6",36,"50,7","72,2","72,2","184,2",2013
+Uppsala,Ärentunaskolan 1,Kommunal,Uppsala,64800741,22,"36,1","63,6",~100,"212,7",39,"63,9","59,0","82,1","171,5",2013
+Uppsala,Ärentunaskolan 2,Kommunal,Uppsala,22449764,24,"40,0","95,8","100,0","233,4",36,"60,0","66,7","83,3","188,2",2013
+Uppsala,Engelska skolan i Uppsala,Enskild,,83401016,28,"57,1","89,3",~100,"249,1",21,"42,9","85,7",~100,"236,0",2013
+Uppsala,Gluntens Montessoriskola,Enskild,,57484572,..,..,"90,0",~100,"258,4",..,..,..,..,..,2013
+Uppsala,Kajan Friskola,Enskild,,95219888,..,..,.,.,.,..,..,.,.,..,2013
+Uppsala,Katarinaskolan,Enskild,,71951060,51,"55,4","86,3",~100,"255,5",41,"44,6","85,4",~100,"236,5",2013
+Uppsala,Kunskapsskolan Uppsala,Enskild,,73947432,42,"46,7","97,6",~100,"267,7",48,"53,3","89,6",~100,"226,9",2013
+Uppsala,Kunskapsskolan Uppsala Norra,Enskild,,73806643,31,"60,8","96,8","100,0","236,0",20,"39,2","95,0",~100,"259,3",2013
+Uppsala,LOKS Kyrkskolan 7-9,Enskild,,35561766,35,"50,7","85,7",~100,"217,9",34,"49,3","88,2","100,0","227,1",2013
+Uppsala,Raoul Wallenbergskolan Uppsala,Enskild,,56867001,..,..,..,~100,"232,9",..,..,..,..,..,2013
+Uppsala,Skogstibble grundskola,Enskild,,49262000,..,..,.,.,..,..,..,.,.,..,2013
+Uppsala,Uppsala Musikklasser,Enskild,,89387408,51,"67,1","100,0","100,0","268,1",25,"32,9","100,0","100,0","261,3",2013
+Uppsala,Uppsala waldorfskola,Enskild,,69405762,..,..,..,..,..,..,..,..,..,..,2013
+Uppsala,Vaksala Friskola,Enskild,,77415942,..,..,.,..,..,..,..,.,..,..,2013
+Uppvidinge,Åsedaskolan 7-9,Kommunal,Uppvidinge,75658239,34,"56,7","100,0","100,0","228,2",26,"43,3","80,8",~100,"191,5",2013
+Uppvidinge,Älghultskolan,Kommunal,Uppvidinge,73077490,20,"45,5","75,0",~100,"213,8",24,"54,5","66,7","79,2","190,0",2013
+Vadstena,Petrus Magni skola H,Kommunal,Vadstena,21550555,41,"52,6","65,9","73,2","204,3",37,"47,4","59,5","78,4","189,5",2013
+Vaggeryd,Fågelforsskolan 6-9,Kommunal,Vaggeryd,38944084,39,"58,2","74,4","82,1","218,5",28,"41,8","64,3","82,1","177,7",2013
+Vaggeryd,Hjortsjöskolan 6-9,Kommunal,Vaggeryd,95197505,33,"45,8","69,7",~100,"219,6",39,"54,2","82,1","87,2","203,1",2013
+Valdemarsvik,Vammarskolan 7-9,Kommunal,Valdemarsvik,53620708,32,"51,6","62,5","71,9","202,6",30,"48,4","66,7","70,0","186,5",2013
+Vallentuna,"Atlas, samverkansklass",Kommunal,Vallentuna,40724774,..,..,.,.,.,..,..,..,..,..,2013
+Vallentuna,Bällstabergsskolan,Kommunal,Vallentuna,52293921,15,"42,9","80,0",~100,"203,8",20,"57,1","70,0",~100,"197,5",2013
+Vallentuna,"Clavis, resursklass",Kommunal,Vallentuna,42652939,..,..,..,..,..,..,..,..,..,..,2013
+Vallentuna,Ekebyskolan,Kommunal,Vallentuna,78821726,16,"59,3","81,3",~100,"183,3",11,"40,7",..,..,"201,6",2013
+Vallentuna,Hammarbacksskolan,Kommunal,Vallentuna,31772387,26,"49,1","73,1",~100,"222,5",27,"50,9","81,5",~100,"219,4",2013
+Vallentuna,Hjälmstaskolan,Kommunal,Vallentuna,16855764,48,"52,7","85,4",~100,"211,1",43,"47,3","76,7",~100,"195,9",2013
+Vallentuna,Karbyskolan,Kommunal,Vallentuna,57370453,17,"45,9","94,1","100,0","236,0",20,"54,1","90,0",~100,"230,1",2013
+Vallentuna,Lovisedalsskolan,Kommunal,Vallentuna,29278599,15,"57,7","100,0","100,0","254,8",11,"42,3",..,..,"203,0",2013
+Vallentuna,Optimusskolan,Kommunal,Vallentuna,10493792,..,..,.,.,.,..,..,.,.,..,2013
+Vallentuna,"Tunaskolan, skoldaghem",Kommunal,Vallentuna,56878797,..,..,..,..,..,..,..,.,..,..,2013
+Vallentuna,"Vallen, språkklass",Kommunal,Vallentuna,48822997,..,..,..,..,..,..,..,.,.,..,2013
+Vallentuna,Roslagens Resursskola,Enskild,,48184058,..,..,.,.,..,..,..,.,.,..,2013
+Vallentuna,Vallentuna Friskola,Enskild,,72378947,10,"40,0",..,"100,0","233,3",15,"60,0","93,3",~100,"220,7",2013
+Vallentuna,Vittra Vallentuna,Enskild,,46206050,11,"52,4","90,9",~100,"228,9",10,"47,6",..,"100,0","208,0",2013
+Vansbro,Smedbergsskolan 6-9,Kommunal,Vansbro,20545871,42,"53,2","83,3","85,7","225,4",37,"46,8","67,6","83,8","191,5",2013
+Vara,Nästegårdsskolan,Kommunal,Vara,88862132,22,"42,3","81,8","100,0","228,2",30,"57,7","73,3","83,3","193,0",2013
+Varberg,Almers skola F-9,Kommunal,Varberg,21170795,16,"48,5","87,5",~100,"214,5",17,"51,5","94,1","100,0","232,1",2013
+Varberg,Ankarskolan,Kommunal,Varberg,38621807,21,"47,7","95,2","100,0","225,1",23,"52,3","95,7",~100,"228,9",2013
+Varberg,Bläshammar skola F-9,Kommunal,Varberg,13220136,14,"48,3","78,6",~100,"215,5",15,"51,7","86,7",~100,"215,3",2013
+Varberg,Bockstensskolan 4-9,Kommunal,Varberg,36590494,12,"42,9","83,3",~100,"207,7",16,"57,1","81,3",~100,"194,8",2013
+Varberg,Bosgårdsskolan 4-9,Kommunal,Varberg,92184735,32,"61,5","75,0","81,3","190,1",20,"38,5","70,0","100,0","189,6",2013
+Varberg,Buaskolan F-9,Kommunal,Varberg,11061967,10,"50,0",..,"100,0","206,5",10,"50,0",..,..,..,2013
+Varberg,Furubergsskolan 7-9,Kommunal,Varberg,15808139,26,"45,6","96,2","100,0","245,7",31,"54,4","90,3",~100,"225,6",2013
+Varberg,Göthriks skola F-9,Kommunal,Varberg,67801661,11,"50,0","100,0","100,0","237,5",11,"50,0",..,..,"163,9",2013
+Varberg,Hagaskolan F-9 Spår Badbord,Kommunal,Varberg,26579492,24,"47,1","70,8",~100,"237,3",27,"52,9","66,7","81,5","221,0",2013
+Varberg,Håstensskolan F-9,Kommunal,Varberg,75684823,20,"54,1","85,0",~100,"216,5",17,"45,9","64,7",~100,"172,5",2013
+Varberg,Lindbergs skola 1-9,Kommunal,Varberg,23521056,12,"37,5","83,3",~100,"232,9",20,"62,5","85,0",~100,"220,4",2013
+Varberg,Mariedalsskolan,Kommunal,Varberg,62599057,..,..,..,..,..,..,..,"83,3",~100,"180,4",2013
+Varberg,Påskbergsskolan 4-9,Kommunal,Varberg,42127916,24,"53,3","87,5",~100,"212,6",21,"46,7","85,7",~100,"228,1",2013
+Varberg,Rolfstorps skola,Kommunal,Varberg,46202890,16,"53,3","75,0",~100,"210,8",14,"46,7","85,7",~100,"205,9",2013
+Varberg,Vidhögeskolan 4-9,Kommunal,Varberg,70460569,29,"45,3","79,3",~100,"227,0",35,"54,7","88,6",~100,"205,9",2013
+Varberg,Montessorisk. Lära för livet,Enskild,,88650307,..,..,..,..,..,..,..,..,..,..,2013
+Varberg,Nyhemsskolan Varbergs Krist sk,Enskild,,74843338,..,..,..,..,..,..,..,..,..,..,2013
+Vaxholm,Norrbergsskolan,Kommunal,Vaxholm,24710426,43,"47,8","86,0",~100,"221,3",47,"52,2","80,9",~100,"216,4",2013
+Vellinge,Herrestorpskolan,Kommunal,Vellinge,16650439,16,"51,6","87,5","100,0","216,7",15,"48,4","100,0","100,0","210,3",2013
+Vellinge,Ljungenskolan,Kommunal,Vellinge,41197162,22,"48,9","100,0","100,0","258,4",23,"51,1","87,0","100,0","232,3",2013
+Vellinge,Sandeplanskolan,Kommunal,Vellinge,71367825,22,"45,8","86,4","100,0","258,9",26,"54,2","88,5",~100,"252,3",2013
+Vellinge,Skanörs skola,Kommunal,Vellinge,46945514,19,"46,3","84,2","100,0","249,6",22,"53,7","81,8",~100,"222,4",2013
+Vellinge,Stora Hammars skola,Kommunal,Vellinge,24181728,17,"51,5","94,1",~100,"237,6",16,"48,5","87,5",~100,"221,3",2013
+Vellinge,Södervångskolan,Kommunal,Vellinge,28023150,25,"43,1","92,0",~100,"244,4",33,"56,9","81,8",~100,"204,9",2013
+Vellinge,Tångvallaskolan,Kommunal,Vellinge,58994715,22,"48,9","100,0","100,0","278,4",23,"51,1","100,0","100,0","231,4",2013
+Vellinge,Framtidskomp. V Ingelstad sk,Enskild,,44979671,19,"55,9","94,7","100,0","229,9",15,"44,1","86,7","100,0","214,7",2013
+Vellinge,Framtidskompassen i Vellinge,Enskild,,15068529,21,"42,0","100,0","100,0","260,1",29,"58,0","96,6","100,0","229,0",2013
+Vellinge,Skanör Falsterbo Montessorisk.,Enskild,,46725455,10,"50,0","100,0","100,0","270,8",10,"50,0",..,"100,0","243,0",2013
+Vellinge,Ängdalaskolan,Enskild,,11885832,21,"47,7","95,2","100,0","258,0",23,"52,3","100,0","100,0","233,3",2013
+Vetlanda,Landsbro skola 7-9,Kommunal,Vetlanda,69564434,46,"46,9","80,4","84,8","212,7",52,"53,1","67,3","90,4","192,4",2013
+Vetlanda,Mogärdeskolan 7-9,Kommunal,Vetlanda,28429330,43,"51,8","74,4","88,4","198,3",40,"48,2","75,0","82,5","188,8",2013
+Vetlanda,Withalaskolan,Kommunal,Vetlanda,71069662,44,"40,0","77,3","84,1","208,1",66,"60,0","68,2","87,9","183,4",2013
+Vetlanda,Vetlanda Friskola,Enskild,,13123046,..,..,..,..,..,..,..,.,..,..,2013
+Vilhelmina,Dikanäs skola,Kommunal,Vilhelmina,16889382,..,..,..,..,..,..,..,..,..,..,2013
+Vilhelmina,Hembergsskolan,Kommunal,Vilhelmina,99257809,29,"50,0","75,9",~100,"227,8",29,"50,0","69,0","72,4","178,8",2013
+Vilhelmina,Saxnäs skola,Kommunal,Vilhelmina,79002691,..,..,..,..,..,..,..,..,..,..,2013
+Vilhelmina,Strandskolan,Enskild,,45737019,..,..,..,..,..,..,..,..,..,..,2013
+Vimmerby,Astrid Lindgrens skola 7-9,Kommunal,Vimmerby,92620495,30,"47,6","83,3",~100,"214,1",33,"52,4","81,8",~100,"200,9",2013
+Vimmerby,Vimarskolan 7-9,Kommunal,Vimmerby,39345593,43,"47,8","90,7",~100,"225,3",47,"52,2","74,5",~100,"192,6",2013
+Vindeln,Renforsskolan,Kommunal,Vindeln,74352559,30,"55,6","80,0",~100,"205,2",24,"44,4","75,0",~100,"197,3",2013
+Vingåker,Vidåkersskolan,Kommunal,Vingåker,53174138,47,"54,7","74,5","89,4","197,2",39,"45,3","74,4","84,6","184,7",2013
+Vårgårda,Gullhögskolan,Kommunal,Vårgårda,84179524,60,"50,8","83,3","88,3","208,1",58,"49,2","81,0",~100,"203,8",2013
+Vänersborg,Centrala skolenheten,Kommunal,Vänersborg,33067448,141,"52,6","71,6","83,0","217,0",127,"47,4","68,5","86,6","197,8",2013
+Vänersborg,Dalboskolan,Kommunal,Vänersborg,93140467,31,"51,7","77,4",~100,"202,7",29,"48,3","51,7","62,1","159,3",2013
+Vänersborg,"Fridaskolan, Vänersborg",Enskild,,10982633,34,"49,3","88,2","100,0","228,3",35,"50,7","88,6",~100,"229,3",2013
+Vännäs,Hammarskolan 7-9 AB,Kommunal,Vännäs,94348319,20,"46,5","75,0",~100,"193,9",23,"53,5","87,0","100,0","205,0",2013
+Vännäs,Hammarskolan 7-9 CD,Kommunal,Vännäs,59355811,22,"48,9","59,1",~100,"237,0",23,"51,1","95,7",~100,"201,0",2013
+Värmdö,Brunns skola,Kommunal,Värmdö,42434583,23,"46,9","95,7",~100,"255,4",26,"53,1","84,6","100,0","231,1",2013
+Värmdö,Djurö skola,Kommunal,Värmdö,60606792,12,"52,2","83,3","100,0","239,4",11,"47,8",..,"100,0","214,1",2013
+Värmdö,Hemmestaskolan 6-9,Kommunal,Värmdö,69982204,44,"51,2","81,8",~100,"232,5",42,"48,8","71,4","88,1","203,6",2013
+Värmdö,Skärgårdsskolan,Kommunal,Värmdö,53821266,..,..,.,.,.,..,..,..,..,..,2013
+Värmdö,Lemshaga Akademi,Enskild,,11364996,25,"51,0","84,0",~100,"233,4",24,"49,0","83,3",~100,"226,5",2013
+Värnamo,Apladalsskolan,Kommunal,Värnamo,40576389,65,"50,8","81,5","87,7","217,7",63,"49,2","79,4","85,7","199,2",2013
+Värnamo,Bors skola,Kommunal,Värnamo,68702432,35,"53,8","91,4",~100,"240,5",30,"46,2","86,7",~100,"206,4",2013
+Värnamo,Forshedaskolan,Kommunal,Värnamo,23192281,25,"43,9","72,0","76,0","222,3",32,"56,1","81,3",~100,"211,3",2013
+Värnamo,Gröndalsskolan,Kommunal,Värnamo,41729877,35,"41,2","91,4",~100,"233,8",50,"58,8","90,0",~100,"208,0",2013
+Västervik,AL5/Falken,Kommunal,Västervik,46345666,..,..,.,.,.,..,..,.,..,..,2013
+Västervik,Ankarsrums skola,Kommunal,Västervik,72904597,17,"40,5","82,4",~100,"227,8",25,"59,5","76,0","80,0","193,9",2013
+Västervik,Ellen Keyskolan,Kommunal,Västervik,88600321,64,"59,8","76,6","87,5","224,7",43,"40,2","81,4","86,0","212,7",2013
+Västervik,Ludvigsborgsskolan,Kommunal,Västervik,16547623,36,"45,0","86,1",~100,"235,0",44,"55,0","77,3","81,8","207,4",2013
+Västervik,Åbyskolan,Kommunal,Västervik,48015765,27,"44,3","74,1",~100,"219,2",34,"55,7","70,6","79,4","179,9",2013
+Västervik,Överumsskolan 7-9,Kommunal,Västervik,75732352,14,"50,0","100,0","100,0","243,2",14,"50,0",..,~100,"190,2",2013
+Västervik,Alphaskolan,Enskild,,25749057,..,..,..,..,..,..,..,..,..,..,2013
+Västervik,Gamlebyvikens friskola,Enskild,,80536102,..,..,..,..,..,..,..,..,..,..,2013
+Västerås,Apalbyskolan 6-9,Kommunal,Västerås,99947080,20,"46,5","80,0",~100,"242,6",23,"53,5","82,6",~100,"210,7",2013
+Västerås,Bäckbyskolan 1,Kommunal,Västerås,82768033,26,"43,3","53,8",~100,"194,1",34,"56,7","73,5","79,4","194,3",2013
+Västerås,Bäckbyskolan 2,Kommunal,Västerås,36793802,..,..,..,..,..,..,..,..,..,..,2013
+Västerås,Irstaskolan 7-9,Kommunal,Västerås,12507517,31,"47,7","83,9",~100,"224,1",34,"52,3","85,3",~100,"201,5",2013
+Västerås,Kristiansborgsskolan,Kommunal,Västerås,65736810,60,"44,4","81,7","85,0","224,1",75,"55,6","86,7","90,7","213,7",2013
+Västerås,Nybyggeskolan 1,Kommunal,Västerås,14086188,50,"49,0","74,0","80,0","221,6",52,"51,0","61,5","71,2","189,4",2013
+Västerås,Nybyggeskolan 2,Kommunal,Västerås,39103253,26,"45,6","84,6",~100,"217,3",31,"54,4","61,3","74,2","179,3",2013
+Västerås,Persboskolan,Kommunal,Västerås,10453232,26,"47,3","80,8",~100,"204,4",29,"52,7","65,5","72,4","199,5",2013
+Västerås,Rönnbyskolan 6-9,Kommunal,Västerås,16313755,23,"45,1","87,0",~100,"234,9",28,"54,9","92,9",~100,"222,9",2013
+Västerås,Skiljeboskolan,Kommunal,Västerås,77449846,47,"49,0","51,1","59,6","197,2",49,"51,0","53,1","67,3","180,0",2013
+Västerås,S:t Ilians skola,Kommunal,Västerås,66142210,49,"46,7","69,4","79,6","194,4",56,"53,3","53,6","66,1","165,0",2013
+Västerås,Tillbergaskolan 6-9,Kommunal,Västerås,22744262,40,"52,6","85,0",~100,"212,6",36,"47,4","83,3",~100,"223,9",2013
+Västerås,Viksängsskolan 1,Kommunal,Västerås,15622675,22,"38,6","100,0","100,0","231,8",35,"61,4","94,3",~100,"212,9",2013
+Västerås,Viksängsskolan 2,Kommunal,Västerås,96481822,52,"47,3","96,2",~100,"239,1",58,"52,7","77,6",~100,"217,9",2013
+Västerås,Önstaskolan,Kommunal,Västerås,84998800,49,"59,0","73,5","81,6","209,9",34,"41,0","70,6",~100,"201,1",2013
+Västerås,Centuriaskolan,Enskild,,83896681,..,..,..,..,..,..,..,"76,9","100,0","212,1",2013
+Västerås,Engelska Skolan i Västerås,Enskild,,46042136,..,..,"100,0","100,0","266,6",..,..,..,..,..,2013
+Västerås,Entréskolan,Enskild,,77743622,32,"74,4","59,4","75,0","185,1",11,"25,6",..,~100,"185,7",2013
+Västerås,Fryxellska skolan,Enskild,,73093445,85,"67,5","90,6",~100,"240,8",41,"32,5","82,9",~100,"218,3",2013
+Västerås,Kunskapsskolan Västerås,Enskild,,30576881,43,"53,1","88,4","88,4","243,8",38,"46,9","78,9","84,2","203,2",2013
+Västerås,"MBC skolan, Västerås",Enskild,,82151850,..,..,.,..,..,..,..,.,..,..,2013
+Västerås,Pilträdsskolan,Enskild,,81265119,..,..,..,..,..,..,..,..,..,..,2013
+Västerås,Rotundaskolan,Enskild,,80009811,23,"46,0","65,2","73,9","216,2",27,"54,0","81,5","81,5","205,6",2013
+Västerås,"Västerås Waldorfskola, grund",Enskild,,14896115,..,..,..,..,..,..,..,..,..,..,2013
+Växjö,Arabyskolan,Kommunal,Växjö,14836816,38,"49,4","63,2","84,2","185,1",39,"50,6","51,3","71,8","168,1",2013
+Växjö,Bergundaskolan 7-9,Kommunal,Växjö,78331744,63,"52,9","84,1","90,5","238,1",56,"47,1","82,1","85,7","206,5",2013
+Växjö,Braås skola,Kommunal,Växjö,40283052,37,"52,1","86,5",~100,"226,2",34,"47,9","88,2",~100,"205,7",2013
+Växjö,Fagrabäckskolan,Kommunal,Växjö,29751275,73,"49,0","80,8",~100,"217,2",76,"51,0","67,1","88,2","178,6",2013
+Växjö,Lammhults skola,Kommunal,Växjö,57569623,16,"55,2","93,8",~100,"233,9",13,"44,8",..,~100,"166,3",2013
+Växjö,Norregårdskolan,Kommunal,Växjö,12286029,67,"42,9","88,1",~100,"224,1",89,"57,1","84,3","92,1","213,1",2013
+Växjö,Ringsbergsskolan,Kommunal,Växjö,65161034,..,..,"92,3","100,0","232,5",..,..,..,..,..,2013
+Växjö,Teleborg Centrum,Kommunal,Växjö,72833305,79,"52,3","77,2","84,8","228,8",72,"47,7","79,2","80,6","192,0",2013
+Växjö,"Karl-Oskarskolan, Växjö",Enskild,,69600902,29,"37,7","75,9","82,8","227,2",48,"62,3","81,3",~100,"209,4",2013
+Växjö,Kronoberg Skola,Enskild,,44785862,21,"37,5","95,2",~100,"261,7",35,"62,5","97,1","100,0","241,4",2013
+Ydre,Ydreskolan,Kommunal,Ydre,17132875,11,"36,7",..,..,"228,0",19,"63,3","94,7",~100,"206,4",2013
+Ystad,Norreportskolan,Kommunal,Ystad,89680009,79,"52,3","92,4",~100,"231,1",72,"47,7","88,9",~100,"216,1",2013
+Ystad,Västervångskolan,Kommunal,Ystad,24450024,30,"44,8","90,0",~100,"244,0",37,"55,2","94,6",~100,"216,3",2013
+Ystad,Kunskapsskolan Ystad,Enskild,,58980145,49,"57,0","100,0","100,0","248,9",37,"43,0","94,6",~100,"235,1",2013
+Åmål,Kristinebergskolan,Kommunal,Åmål,57530972,68,"54,0","70,6","91,2","217,6",58,"46,0","72,4","89,7","193,8",2013
+Ånge,Fränstaskolan,Kommunal,Ånge,17514337,10,"28,6","100,0","100,0","269,0",25,"71,4","76,0","80,0","192,8",2013
+Ånge,Minervaskolan,Kommunal,Ånge,43954518,28,"56,0","85,7",~100,"221,0",22,"44,0","45,5","54,5","157,8",2013
+Ånge,Heliås nat.vet skola Erikslund,Enskild,,65951625,..,..,..,..,..,..,..,..,..,..,2013
+Åre,Duveds skola 4-9,Kommunal,Åre,53536862,10,"32,3","100,0","100,0","234,5",21,"67,7","90,5","100,0","220,6",2013
+Åre,Hallens Kyrkskola F-9,Kommunal,Åre,47003034,..,..,..,..,..,..,..,..,..,..,2013
+Åre,Mörsils skola 7-9,Kommunal,Åre,99830430,30,"38,5","73,3","83,3","206,5",48,"61,5","66,7","81,3","201,9",2013
+Årjäng,Silbodalskolan H,Kommunal,Årjäng,31591948,38,"45,8","97,4",~100,"230,0",45,"54,2","77,8","88,9","202,5",2013
+Årjäng,Töcksfors skola,Kommunal,Årjäng,77714062,22,"51,2","77,3",~100,"241,5",21,"48,8","85,7","100,0","210,0",2013
+Åsele,Åsele Centralskola,Kommunal,Åsele,43833784,..,..,..,..,..,..,..,"76,2",~100,"187,3",2013
+Åstorp,Björnekullaskolan,Kommunal,Åstorp,97128428,38,"35,5","60,5","76,3","187,6",69,"64,5","72,5","92,8","189,5",2013
+Åstorp,Hyllinge skola,Kommunal,Åstorp,11662899,15,"35,7","80,0",~100,"192,3",27,"64,3","74,1",~100,"200,6",2013
+Åstorp,"PeterSvenskolan, Åstorp",Enskild,,86363057,20,"50,0","80,0",~100,"206,0",20,"50,0","75,0","75,0","168,3",2013
+Åtvidaberg,Alléskolan,Kommunal,Åtvidaberg,56528690,70,"48,6","74,3","82,9","207,7",74,"51,4","51,4","75,7","181,2",2013
+Älmhult,Diö skola,Kommunal,Älmhult,93625542,12,"48,0","100,0","100,0","256,3",13,"52,0","84,6",~100,"204,0",2013
+Älmhult,Gemö-/Linnéskolan 4,Kommunal,Älmhult,66753925,51,"61,4","78,4","90,2","222,9",32,"38,6","71,9","78,1","192,1",2013
+Älmhult,Klöxhultsskolan 2,Kommunal,Älmhult,55348814,15,"45,5","100,0","100,0","266,0",18,"54,5","61,1",~100,"174,9",2013
+Älmhult,Karl-Oskarskolan i Älmhult,Enskild,,84756527,..,..,..,..,..,..,..,..,~100,"174,7",2013
+Älvdalen,Strandskolan,Kommunal,Älvdalen,92564610,..,..,..,..,..,..,..,..,..,"174,4",2013
+Älvdalen,Älvdalsskolan,Kommunal,Älvdalen,10521174,25,"49,0","96,0",~100,"244,3",26,"51,0","80,8","80,8","196,6",2013
+Älvkarleby,Rotskärsskolan,Kommunal,Älvkarleby,96982474,19,"45,2","63,2",~100,"176,7",23,"54,8","69,6",~100,"174,9",2013
+Älvkarleby,Älvskolan,Kommunal,Älvkarleby,49671776,..,..,.,..,..,..,..,.,.,.,2013
+Älvkarleby,Älvboda friskola,Enskild,,74070812,19,"46,3","100,0","100,0","232,2",22,"53,7","72,7",~100,"169,1",2013
+Älvsbyn,Vidselskolan,Kommunal,Älvsbyn,86476920,..,..,..,..,..,..,..,..,..,..,2013
+Älvsbyn,Älvåkraskolan,Kommunal,Älvsbyn,32970785,40,"57,1","82,5",~100,"226,8",30,"42,9","73,3","83,3","189,5",2013
+Ängelholm,Kungsgårdsskolan,Kommunal,Ängelholm,25522582,82,"55,0","81,7","89,0","225,3",67,"45,0","86,6","89,6","212,5",2013
+Ängelholm,Magnarps skola,Kommunal,Ängelholm,75244062,13,"36,1","84,6","100,0","235,0",23,"63,9","91,3",~100,"201,3",2013
+Ängelholm,Nyhemsskolan,Kommunal,Ängelholm,60842677,68,"53,5","92,6",~100,"235,7",59,"46,5","69,5",~100,"192,6",2013
+Ängelholm,Strövelstorps skola,Kommunal,Ängelholm,68323880,13,"41,9","100,0","100,0","255,0",18,"58,1","83,3",~100,"206,1",2013
+Ängelholm,Söndrebalgs skola,Kommunal,Ängelholm,53600648,20,"60,6","100,0","100,0","235,5",13,"39,4","84,6","100,0","207,5",2013
+Ängelholm,Toftaskolan,Kommunal,Ängelholm,51497405,21,"46,7","100,0","100,0","252,9",24,"53,3","83,3",~100,"205,7",2013
+Ängelholm,AGAPE-skolan,Enskild,,10747241,..,..,.,.,.,..,..,.,.,..,2013
+Ängelholm,Vittra Fram,Enskild,,14569133,15,"50,0","86,7",~100,"218,0",15,"50,0","93,3","100,0","234,0",2013
+Öckerö,Brattebergsskolan,Kommunal,Öckerö,85862849,46,"41,1","97,8","100,0","255,5",66,"58,9","83,3",~100,"222,9",2013
+Ödeshög,Lysingskolan,Kommunal,Ödeshög,34255565,37,"60,7","83,8","86,5","226,9",24,"39,3","70,8","79,2","203,0",2013
+Örebro,Adolfsbergssk. spec.enhet,Kommunal,Örebro,68103849,..,..,.,.,..,..,..,..,..,..,2013
+Örebro,Adolfsbergsskolan 7-9,Kommunal,Örebro,47684564,67,"46,2","89,6",~100,"238,6",78,"53,8","83,3","91,0","212,6",2013
+Örebro,Almby skola,Kommunal,Örebro,22049573,64,"60,4","78,1","81,3","215,3",42,"39,6","61,9","71,4","167,4",2013
+Örebro,Engelbrektsskolan,Kommunal,Örebro,82807694,63,"45,3","92,1","92,1","231,7",76,"54,7","76,3","89,5","197,8",2013
+Örebro,Glanshammars skola,Kommunal,Örebro,39061881,..,..,..,..,..,..,..,"92,3",~100,"215,4",2013
+Örebro,Gumaeliusskolan,Kommunal,Örebro,74902204,82,"45,8","79,3","87,8","210,2",97,"54,2","73,2","83,5","201,7",2013
+Örebro,Lillåns skola 7-9,Kommunal,Örebro,84774734,66,"57,4","93,9",~100,"247,2",49,"42,6","79,6","85,7","205,6",2013
+Örebro,Mellringeskolan,Kommunal,Örebro,26290434,48,"44,4","56,3","75,0","187,7",60,"55,6","65,0",~100,"192,9",2013
+Örebro,Navet,Kommunal,Örebro,12248380,18,"39,1","61,1","72,2","225,4",28,"60,9","53,6","78,6","182,2",2013
+Örebro,Odenskolan F-9,Kommunal,Örebro,66382532,32,"54,2","81,3",~100,"219,8",27,"45,8","51,9","74,1","163,8",2013
+Örebro,Olaus Petriskolan,Kommunal,Örebro,65613995,24,"47,1","83,3",~100,"233,6",27,"52,9","81,5",~100,"202,8",2013
+Örebro,Språkklass Navet,Kommunal,Örebro,22223037,..,..,.,.,.,..,..,.,.,.,2013
+Örebro,Vivallaskolan F-9,Kommunal,Örebro,37730120,36,"46,8","41,7","63,9","156,7",41,"53,2","48,8","75,6","171,1",2013
+Örebro,Västra Engelbrektsskolan,Kommunal,Örebro,54656817,27,"42,9","51,9","59,3","172,0",36,"57,1","47,2","66,7","153,9",2013
+Örebro,Alsalam,Enskild,,99730324,..,..,..,..,"216,8",..,..,..,..,..,2013
+Örebro,Engelska Skolan i Örebro,Enskild,,23908629,57,"48,3","87,7",~100,"252,4",61,"51,7","80,3",~100,"216,9",2013
+Örebro,Grenadjärskolan,Enskild,,36409468,..,..,..,..,..,..,..,..,..,..,2013
+Örebro,Hannaskolan,Enskild,,13390547,15,"60,0","86,7",~100,"227,2",10,"40,0",..,..,"220,0",2013
+Örebro,Johannaskolan Örebro waldorfsk,Enskild,,11909268,..,..,..,..,..,..,..,..,..,..,2013
+Örebro,Karl Johans skola,Enskild,,28067210,65,"72,2","92,3",~100,"243,0",25,"27,8","84,0","100,0","233,8",2013
+Örebro,Kunskapsskolan Örebro,Enskild,,76018506,34,"50,7","85,3",~100,"231,6",33,"49,3","75,8",~100,"216,4",2013
+Örebro,MBC skolan Örebro,Enskild,,27319904,..,..,.,.,..,..,..,.,..,..,2013
+Örebro,Viktoriaskolan,Enskild,,19742982,..,..,"82,4",~100,"250,6",..,..,..,..,..,2013
+Örkelljunga,Bokelundaskolan,Kommunal,Örkelljunga,75730222,..,..,..,..,..,..,..,..,..,..,2013
+Örkelljunga,Kungsskolan,Kommunal,Örkelljunga,45558673,38,"48,7","81,6",~100,"227,9",40,"51,3","85,0",~100,"198,1",2013
+Örkelljunga,Solängskolan,Enskild,,10757780,..,..,..,..,..,..,..,.,.,.,2013
+Örnsköldsvik,Alneskolan,Kommunal,Örnsköldsvik,69067954,23,"48,9","87,0","100,0","212,5",24,"51,1","91,7",~100,"203,3",2013
+Örnsköldsvik,Bjästaskolan,Kommunal,Örnsköldsvik,54267727,30,"48,4","83,3",~100,"233,5",32,"51,6","71,9",~100,"203,8",2013
+Örnsköldsvik,Björnaskolan,Kommunal,Örnsköldsvik,24396451,16,"45,7","81,3",~100,"202,5",19,"54,3","84,2",~100,"187,8",2013
+Örnsköldsvik,Bredbynskolan,Kommunal,Örnsköldsvik,51597705,26,"42,6","88,5",~100,"204,4",35,"57,4","94,3",~100,"208,3",2013
+Örnsköldsvik,Geneskolan,Kommunal,Örnsköldsvik,62716649,71,"55,9","71,8","83,1","204,4",56,"44,1","67,9","85,7","192,5",2013
+Örnsköldsvik,Husumskolan,Kommunal,Örnsköldsvik,18668554,15,"40,5","100,0","100,0","241,7",22,"59,5","72,7","100,0","195,6",2013
+Örnsköldsvik,Höglandskolan,Kommunal,Örnsköldsvik,93761242,22,"55,0","95,5",~100,"231,6",18,"45,0",..,"72,2","182,5",2013
+Örnsköldsvik,Själevadskolan,Kommunal,Örnsköldsvik,32230046,20,"41,7","85,0",~100,"225,9",28,"58,3","85,7",~100,"210,5",2013
+Örnsköldsvik,Sörlidenskolan,Kommunal,Örnsköldsvik,42897421,15,"40,5",..,..,"195,5",22,"59,5","50,0","63,6","172,8",2013
+Örnsköldsvik,Ängetskolan,Kommunal,Örnsköldsvik,10788890,28,"49,1","92,9",~100,"229,1",29,"50,9","82,8",~100,"206,2",2013
+Örnsköldsvik,Broskolan Ö-viks Kristna skola,Enskild,,32866578,..,..,..,..,..,..,..,..,..,..,2013
+Örnsköldsvik,Bäckagårdsskolan,Enskild,,50936464,..,..,.,.,.,..,..,..,..,..,2013
+Östersund,Kastalskolan,Kommunal,Östersund,34895088,43,"52,4","83,7",~100,"211,2",39,"47,6","74,4","87,2","185,9",2013
+Östersund,Lugnviksskolan 2,Kommunal,Östersund,98996524,..,..,"82,4","100,0","240,3",..,..,..,..,..,2013
+Östersund,Parkskolan 1,Kommunal,Östersund,28195485,33,"52,4","84,8",~100,"216,4",30,"47,6","83,3",~100,"203,5",2013
+Östersund,Parkskolan 2,Kommunal,Östersund,71055676,..,..,.,.,.,..,..,.,.,..,2013
+Östersund,Storsjöskolan,Kommunal,Östersund,95233985,45,"56,3","95,6",~100,"251,3",35,"43,8","91,4",~100,"224,3",2013
+Östersund,Torvallaskolan,Kommunal,Östersund,56710032,18,"50,0","88,9",~100,"235,3",18,"50,0","61,1","72,2","164,9",2013
+Östersund,Treälvsskolan 1,Kommunal,Östersund,76664723,17,"56,7","76,5",~100,"239,7",13,"43,3","76,9",~100,"186,5",2013
+Östersund,Vallaskolan Omega,Kommunal,Östersund,27412144,12,"42,9","100,0","100,0","253,1",16,"57,1","100,0","100,0","228,6",2013
+Östersund,Ängsmogården,Kommunal,Östersund,57462607,..,..,..,..,..,..,..,"76,9",~100,"208,1",2013
+Östersund,Östbergsskolan Västerhus,Kommunal,Östersund,74981470,13,"54,2","84,6",~100,"213,7",11,"45,8","90,9",~100,"198,0",2013
+Östersund,Östbergsskolan Österhus,Kommunal,Östersund,87451528,..,..,"82,4",~100,"237,9",..,..,..,..,..,2013
+Östersund,Friggaskolan,Enskild,,58922041,16,"40,0","100,0","100,0","268,6",24,"60,0","100,0","100,0","216,7",2013
+Östersund,"Prolympia, Östersund",Enskild,,16858929,29,"37,7","89,7",~100,"230,5",48,"62,3","97,9","100,0","219,8",2013
+Österåker,Ljusterö skola,Kommunal,Österåker,53319802,..,..,..,..,..,..,..,..,"100,0","207,5",2013
+Österåker,Skärgårdsstadsskolan,Kommunal,Österåker,73272488,22,"50,0","81,8",~100,"207,3",22,"50,0","77,3",~100,"216,6",2013
+Österåker,Solskiftesskolan,Kommunal,Österåker,82624830,43,"55,8","79,1","83,7","204,3",34,"44,2","79,4",~100,"209,0",2013
+Österåker,Söraskolan,Kommunal,Österåker,88712672,40,"38,1","47,5","57,5","209,7",65,"61,9","61,5","69,2","171,4",2013
+Österåker,Tråsättraskolan,Kommunal,Österåker,51305351,40,"48,2","80,0",~100,"221,6",43,"51,8","69,8",~100,"204,5",2013
+Österåker,"Prolympia, Åkersberga",Enskild,,22738124,10,"31,3",..,"100,0","239,3",22,"68,8","77,3","100,0","222,0",2013
+Östhammar,Frösåkersskolan,Kommunal,Östhammar,98029852,44,"45,8","70,5","75,0","192,9",52,"54,2","82,7",~100,"203,9",2013
+Östhammar,Olandsskolan 6-9,Kommunal,Östhammar,69145770,21,"51,2","85,7",~100,"229,4",20,"48,8","75,0",~100,"211,9",2013
+Östhammar,Resursskolan,Kommunal,Östhammar,40205847,..,..,.,.,.,..,..,.,.,.,2013
+Östhammar,Vallonskolan,Kommunal,Östhammar,31047050,19,"45,2",..,"63,2","173,0",23,"54,8",..,"52,2","178,2",2013
+Östhammar,Österbyskolan,Kommunal,Östhammar,57548666,13,"37,1",..,~100,"241,5",22,"62,9",..,~100,"189,5",2013
+Östra Göinge,Göingeskolan,Kommunal,Östra Göinge,84902434,34,"54,0","88,2",~100,"231,8",29,"46,0","75,9","82,8","205,8",2013
+Östra Göinge,Snapphaneskolan,Kommunal,Östra Göinge,81683738,39,"52,0","82,1",~100,"211,0",36,"48,0","75,0",~100,"193,9",2013
+Östra Göinge,Färe Montessoriskola,Enskild,,26599013,..,..,.,..,..,..,..,..,..,"191,8",2013
+Överkalix,Strandskolan,Kommunal,Överkalix,50308658,11,"36,7","90,9",~100,"228,2",19,"63,3","89,5",~100,"216,1",2013
+Överkalix,Överkalix Friskola,Enskild,,13342436,..,..,..,..,..,..,..,.,..,..,2013
+Övertorneå,"Övertorneå CSK år F-9, Ro 2",Kommunal,Övertorneå,53794508,12,"33,3",..,~100,"246,8",24,"66,7",..,"54,2","140,1",2013
+Övertorneå,Hietaniemi friskola,Enskild,,46252858,..,..,..,..,..,..,..,..,..,..,2013
