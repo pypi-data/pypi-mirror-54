@@ -1,0 +1,55 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+    simple:
+        format: "%(asctime)s | %(name)s | %(levelname)s | %(message)s"
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: INFO
+        formatter: simple
+        stream: ext://sys.stdout
+
+    info_file_handler:
+        class: logging.handlers.RotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: amlearn.log
+        maxBytes: 524288000 # 500 * 1024 * 1024
+        backupCount: 500
+        encoding: "utf8"
+
+loggers:
+    BackendContext:
+        level: DEBUG
+        handlers: [console]
+        propagate: no
+    MLBackend:
+        level: DEBUG
+        handlers: [console]
+        propagate: no
+    FeatureBackend:
+        level: DEBUG
+        handlers: [console]
+        propagate: no
+    Preprocessor:
+        level: DEBUG
+        handlers: [console]
+        propagate: no
+    FeatureSelection:
+        level: DEBUG
+        handlers: [console]
+        propagate: no
+    Amlearn_Featurizer:
+        level: DEBUG
+        handlers: [console]
+        propagate: no
+    Amlearn_ML:
+        level: DEBUG
+        handlers: [console]
+        propagate: no
+
+roots:
+    level: DEBUG
+    handlers: [console]
+    propagate: true
