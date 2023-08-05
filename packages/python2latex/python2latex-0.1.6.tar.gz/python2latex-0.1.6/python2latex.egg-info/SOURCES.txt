@@ -1,0 +1,15 @@
+README.md
+setup.py
+python2latex/__init__.py
+python2latex/color.py
+python2latex/document.py
+python2latex/floating_environment.py
+python2latex/plot.py
+python2latex/table.py
+python2latex/tex_base.py
+python2latex/tex_environment.py
+python2latex.egg-info/PKG-INFO
+python2latex.egg-info/SOURCES.txt
+python2latex.egg-info/dependency_links.txt
+python2latex.egg-info/requires.txt
+python2latex.egg-info/top_level.txt
