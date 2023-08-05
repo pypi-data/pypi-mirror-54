@@ -1,0 +1,10 @@
+README.md
+setup.py
+sqlang/__init__.py
+sqlang/sql.py
+sqlang.egg-info/PKG-INFO
+sqlang.egg-info/SOURCES.txt
+sqlang.egg-info/dependency_links.txt
+sqlang.egg-info/top_level.txt
+tests/__init__.py
+tests/test_basic_sql_expansion.py
