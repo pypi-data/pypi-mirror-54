@@ -1,0 +1,11 @@
+README.rst
+setup.py
+dispatchsdk/__init__.py
+dispatchsdk/client.py
+dispatchsdk/connector.py
+dispatchsdk/errors.py
+dispatchsdk/hmac.py
+dispatchsdk.egg-info/PKG-INFO
+dispatchsdk.egg-info/SOURCES.txt
+dispatchsdk.egg-info/dependency_links.txt
+dispatchsdk.egg-info/top_level.txt
