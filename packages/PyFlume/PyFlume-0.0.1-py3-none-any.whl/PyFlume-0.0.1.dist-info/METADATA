@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: PyFlume
+Version: 0.0.1
+Summary: Package to integrate with Flume Sensor
+Home-page: https://github.com/ChrisMandich/PyFlume
+Author: ChrisMandich
+Author-email: Chris@Mandich.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyFlume
+
+
