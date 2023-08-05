@@ -1,0 +1,11 @@
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
+scipy
+IPython
+pprint
+plotly==3.10.0
+cufflinks==0.16
+pyperclip
