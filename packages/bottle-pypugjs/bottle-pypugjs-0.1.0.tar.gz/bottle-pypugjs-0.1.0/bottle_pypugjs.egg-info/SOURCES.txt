@@ -1,0 +1,8 @@
+README.rst
+bottle_pypugjs.py
+setup.py
+bottle_pypugjs.egg-info/PKG-INFO
+bottle_pypugjs.egg-info/SOURCES.txt
+bottle_pypugjs.egg-info/dependency_links.txt
+bottle_pypugjs.egg-info/requires.txt
+bottle_pypugjs.egg-info/top_level.txt

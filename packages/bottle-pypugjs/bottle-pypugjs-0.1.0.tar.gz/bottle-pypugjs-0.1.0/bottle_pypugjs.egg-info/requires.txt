@@ -1,0 +1,2 @@
+bottle
+pypugjs>=5.8.1
