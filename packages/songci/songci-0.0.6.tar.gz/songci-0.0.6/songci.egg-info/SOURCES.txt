@@ -1,0 +1,12 @@
+README.md
+setup.py
+songci/__init__.py
+songci/__main__.py
+songci/api.py
+songci/helper.py
+songci.egg-info/PKG-INFO
+songci.egg-info/SOURCES.txt
+songci.egg-info/dependency_links.txt
+songci.egg-info/entry_points.txt
+songci.egg-info/requires.txt
+songci.egg-info/top_level.txt
