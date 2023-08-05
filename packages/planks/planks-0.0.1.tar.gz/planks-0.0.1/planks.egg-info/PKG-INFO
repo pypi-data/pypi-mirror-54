@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: planks
+Version: 0.0.1
+Summary: planks
+Home-page: https://thevoxel.net/projects/planks
+Author: Vorap
+Author-email: vorap@thevoxel.net
+License: GNU GPLv3
+Description: # Planks
+        An auditing framework
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
