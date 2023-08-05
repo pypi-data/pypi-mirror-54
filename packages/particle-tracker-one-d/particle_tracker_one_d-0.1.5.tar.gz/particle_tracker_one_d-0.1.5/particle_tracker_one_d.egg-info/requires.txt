@@ -1,0 +1,10 @@
+astropy
+ipywidgets
+matplotlib
+numpy>=1.16.0
+numpydoc
+readme_renderer>=21.0
+scipy
+setuptools>=38.6.0
+twine==1.11.0
+wheel==0.31.0
