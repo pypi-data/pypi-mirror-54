@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: testflows.asserts
+Version: 5.2.191016.1221916
+Summary: TestFlows - Asserts Assertion Library
+Home-page: https://github.com/testflows/testflows-asserts
+Author: Vitaliy Zakaznikov
+Author-email: vzakaznikov@testflows.com
+License: Apache-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Provides-Extra: dev
