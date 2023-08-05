@@ -1,0 +1,4 @@
+[console_scripts]
+ldpred = ldpred.run:main
+ldpred-unittest = tests.test:run_unit_tests
+
