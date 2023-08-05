@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: reegis
+Version: 0.1.0rc0
+Summary: Open geospatial data model
+Home-page: UNKNOWN
+Author: Uwe Krien
+Author-email: krien@uni-bremen.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas (<0.25,>=0.21.0)
+Requires-Dist: demandlib
+Requires-Dist: tables
+Requires-Dist: shapely
+Requires-Dist: pvlib (<0.7)
+Requires-Dist: geopandas (<0.5)
+Requires-Dist: requests
+Requires-Dist: numpy (<1.16)
+Requires-Dist: workalendar
+Requires-Dist: pyproj
+Requires-Dist: pytz
+Requires-Dist: windpowerlib (<0.3)
+Requires-Dist: python-dateutil
+Requires-Dist: cython
+Requires-Dist: Rtree
+Requires-Dist: xlrd
+
+UNKNOWN
+
+
