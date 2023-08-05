@@ -1,0 +1,5 @@
+[console_scripts]
+mfdca = pydca.mfdca_main:run_meanfield_dca
+plmdca = pydca.plmdca_main:run_plm_dca
+pydca = pydca.main:run_pydca
+
