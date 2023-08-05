@@ -1,0 +1,13 @@
+chordparser/__init__.py,sha256=A3_lihGaix5o2VeH9S_Mujyp8qcfFqEgoRHxDEjIKyQ,182
+chordparser/chords.py,sha256=Vam-Lq4YSGVFtRG0XPdGjnynBeOnnbdL0jdhfQKYOAI,5254
+chordparser/chordsheet.py,sha256=w0dcHsUkslmALHo2OHUel58yMuVYH0XoxDeODAeTObM,230
+chordparser/general.py,sha256=EQsywKa9Uoio6_WFxi10gbn6yj9AZYtokPbU6sd5RWw,79
+chordparser/notes.py,sha256=m3ZzqdQ1xuEmrKZ7Mzp5dBWqNq2X3IM-yQYPSWNtahs,7907
+chordparser/scales.py,sha256=_zesUeA37GA_Jrnh6fk0iFM2m2f2cKiAbcEfyApxudI,4462
+src/chordparser/__init__.py,sha256=ChObCWEMYgOMTrlB7XCdVI643-5TIb5uvcp8FDYJxEI,156
+src/chordparser/chordsheet.py,sha256=qXcFGpKvzvvB68WIrCYoa5BddDsb-1qHuuT5ZNwW9O4,83
+chordparser-0.1.1.dist-info/LICENSE,sha256=sNaImM_Hjqf3r6bQPlGHO2LA46VPsDrafUN7Cq52yVM,1087
+chordparser-0.1.1.dist-info/METADATA,sha256=1kSzuvZyNAke0Xd9az6BBsboTVC0HnSZjiZD_-DlfG0,2388
+chordparser-0.1.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+chordparser-0.1.1.dist-info/top_level.txt,sha256=iqtzWwck-IHpLzkI3KGLGo1DucTtPsKhPwS2CDJGqNw,12
+chordparser-0.1.1.dist-info/RECORD,,
