@@ -1,0 +1,3 @@
+[intake.drivers]
+nested_yaml_cat = intake_nested_yaml_catalog.nested_yaml_catalog:NestedYAMLFileCatalog
+
