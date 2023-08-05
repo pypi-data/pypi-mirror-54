@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+lib_clickbot/__init__.py
+lib_clickbot/__main__.py
+lib_clickbot/clickbot.py
+lib_clickbot/events.py
+lib_clickbot/logger.py
+lib_clickbot.egg-info/PKG-INFO
+lib_clickbot.egg-info/SOURCES.txt
+lib_clickbot.egg-info/dependency_links.txt
+lib_clickbot.egg-info/entry_points.txt
+lib_clickbot.egg-info/requires.txt
+lib_clickbot.egg-info/top_level.txt

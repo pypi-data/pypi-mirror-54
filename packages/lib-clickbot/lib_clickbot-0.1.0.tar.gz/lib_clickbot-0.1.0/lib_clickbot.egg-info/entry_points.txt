@@ -1,0 +1,3 @@
+[console_scripts]
+clickbot = lib_clickbot.__main__:main
+
