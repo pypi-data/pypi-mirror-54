@@ -1,0 +1,14 @@
+.gitignore
+License
+readme.md
+requirements.txt
+setup.py
+RTFMaker/__init__.py
+RTFMaker/core.py
+RTFMaker/htmlconv.py
+RTFMaker/utils.py
+RTFMaker.egg-info/PKG-INFO
+RTFMaker.egg-info/SOURCES.txt
+RTFMaker.egg-info/dependency_links.txt
+RTFMaker.egg-info/requires.txt
+RTFMaker.egg-info/top_level.txt
