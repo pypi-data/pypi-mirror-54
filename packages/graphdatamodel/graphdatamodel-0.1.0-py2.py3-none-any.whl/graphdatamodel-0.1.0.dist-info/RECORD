@@ -1,0 +1,10 @@
+graphdatamodel/__init__.py,sha256=UzTSJKSwEh0Dyn-DDsYhei2Zfh8n6PUez67VApWgoFA,182
+graphdatamodel/cli.py,sha256=AyVG3fQAT0gCMv4IrSp6-mTuY1Fc1IkIT3bqd5I3LI0,463
+graphdatamodel/graphdatamodel.py,sha256=Qtq3EpSkdAFqQNQPDXTAouXS784LkR8Rh2D5s5w5_tc,47
+graphdatamodel-0.1.0.dist-info/AUTHORS.rst,sha256=t143sIc2ia8xSZvQsLz71Mko4M7CqEqxNq3WaJX3PUU,187
+graphdatamodel-0.1.0.dist-info/LICENSE,sha256=vGMV7dijrFwvrAthZ3E-__Nvdj7E2P200eoG4NSomxg,1099
+graphdatamodel-0.1.0.dist-info/METADATA,sha256=DHmcfJNlHmz2yMLk_HTaDCM5jfuecucvlNtUIOLA-u8,2147
+graphdatamodel-0.1.0.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+graphdatamodel-0.1.0.dist-info/entry_points.txt,sha256=2sJrDeD7fQCoU23LLv4BiBaCxtvgs2KMMUGG6hVzVYM,60
+graphdatamodel-0.1.0.dist-info/top_level.txt,sha256=zttuYckKMmv7BX-58P-coYjGcwWe2rgiDc0GLkr1oBM,15
+graphdatamodel-0.1.0.dist-info/RECORD,,
