@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gthb
+Version: 0.0.1
+Summary: A library for everything Github
+Home-page: https://github.com/hannansatopay/gthb
+Author: Hannan Satopay
+Author-email: sathannan@hotmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+gthb is an elegant and simple Github library for Python, built with â™¥.
+
+-- WORK IN PROGRESS --
+
