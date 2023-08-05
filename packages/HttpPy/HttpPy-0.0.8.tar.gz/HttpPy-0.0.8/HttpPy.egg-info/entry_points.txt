@@ -1,0 +1,3 @@
+[console_scripts]
+HttpPy = HttpPy.__main__:main
+
