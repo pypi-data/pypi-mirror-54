@@ -1,0 +1,27 @@
+**包安装**::
+
+    pip install fast-down-upload
+
+**使用例子**::
+
+    from redis_queue_tool import RedisQueue
+    from fast-down-upload import UploadFile
+    from fast-down-upload import public_downupload_task,start_customer_downupload_task
+
+    # redis连接配置
+    RedisQueue.redis_host = '127.0.0.1'
+    RedisQueue.redis_password = ''
+    RedisQueue.redis_port = 6379
+    RedisQueue.redis_db = 0
+
+    # ALIYUN OSS配置
+    UploadFile.aliyun_access_key_id = ''
+    UploadFile.aliyun_access_key_secret = ''
+    UploadFile.aliyun_endpoint = ''
+    UploadFile.aliyun_bucket_name = ''
+
+    for i in range(1,21):
+        down_dict = {'down_url': 'https://video1.matafy.com/dyvideo/201811/6609568770908228877.mp4', 'file_name': 'test'+str(i),'file_dir': 'douyin', 'file_type': '', 'callback': None}
+        public_downupload_task(down_dict)
+
+    start_customer_downupload_task(threads_num=100)
