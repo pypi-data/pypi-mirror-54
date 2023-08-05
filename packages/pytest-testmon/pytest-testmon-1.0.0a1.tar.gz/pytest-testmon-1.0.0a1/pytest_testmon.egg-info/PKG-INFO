@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pytest-testmon
+Version: 1.0.0a1
+Summary: automated selection of tests affected by recent changes
+Home-page: https://testmon.org
+Author: Tibor Arpas, Daniel Hahler, Tomas Matlovic, Martin Racak
+Author-email: tibor.arpas@infinit.sk
+License: AGPL
+Description: TODO
+Platform: linux
+Platform: osx
+Platform: win32
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
