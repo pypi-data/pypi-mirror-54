@@ -1,0 +1,10 @@
+solidpython_reloader-0.1.4.data/scripts/sp-reloader,sha256=xSED5NMpgXqXYzEW45dZHdteglAsxZkH1xGazgrVGUk,88
+spreloader/__init__.py,sha256=0Nd3QluDFLbSpA-Som8olEgrZ8pVveE-WyPw8C8rn1E,25
+spreloader/command_line.py,sha256=xO3G8xeHYGKa29MIu4YEkh3AkSPeRF_bUTVWsqKK7zI,52
+spreloader/spreloader.py,sha256=SRPKy-U_wEcCPVLm3Ofou4I7Hokp7l9uF90yRjvGcyg,4203
+solidpython_reloader-0.1.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+solidpython_reloader-0.1.4.dist-info/METADATA,sha256=PUU7Q-eVsABkIRb51BSEbVCW1kJ3DtPB1wSIwJuQnVM,2042
+solidpython_reloader-0.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+solidpython_reloader-0.1.4.dist-info/entry_points.txt,sha256=1Mz0-7obV9euQNpMz4PYjqQFjc6wwqITwMYfCUG_qrM,62
+solidpython_reloader-0.1.4.dist-info/top_level.txt,sha256=V3ypnjTcBoY1FauJ1KmLmknB0VDZCMpNYywFCkd1Z80,11
+solidpython_reloader-0.1.4.dist-info/RECORD,,
