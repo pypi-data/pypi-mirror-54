@@ -1,0 +1,11 @@
+blobfile/__init__.py,sha256=X4BxMCnczLT186m26lAyklOupC561NcbJzZs9xBP5X0,626
+blobfile/azure.py,sha256=P7UR2KxJDKp8O8sHJg1YkdjVSC94SO6dR2-asZVccuI,7604
+blobfile/blobfile.py,sha256=q2ZvCKk26zueXM2NazVajwTdkt7YABPoaR8YhleCwjo,40339
+blobfile/blobfile_test.py,sha256=4llnxTJseUj7qFJ8TGatuXwzEZxEUDYBfLUJHoRnuxg,14434
+blobfile/common.py,sha256=yrDBkqaSnPC2I-LavMPq0jAo36tNvb8-yUG4E57vujM,1276
+blobfile/google.py,sha256=rvJhAs8Oyr6NXRHZwQTS3kq7Gs-tgA8ByqbHYs6paKM,7661
+blobfile-0.3.3.dist-info/LICENSE,sha256=FHo3YUVhJ7y4raLDRyijAdAazTFpRqrX1gXDqc435vI,1233
+blobfile-0.3.3.dist-info/METADATA,sha256=MaFlumdBHdokTkLHGeGyoOmoHZeVLdSTSN9S4BncasU,3124
+blobfile-0.3.3.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+blobfile-0.3.3.dist-info/top_level.txt,sha256=BsixHWRC2Vk13oMQM4HUfWAfrjXllowAwpGFz0w6MrM,9
+blobfile-0.3.3.dist-info/RECORD,,
