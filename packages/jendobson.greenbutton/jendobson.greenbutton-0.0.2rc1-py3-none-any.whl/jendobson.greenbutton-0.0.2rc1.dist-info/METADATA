@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: jendobson.greenbutton
+Version: 0.0.2rc1
+Summary: Python tools to explore GreenButton data.
+Home-page: https://github.com/JenDobson/greenbutton
+Author: Jen Dobson
+Author-email: jendobson@gmail.com
+License: UNKNOWN
+Keywords: greenbutton energy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: xmlschema (>=1.0)
+Requires-Dist: pandas (>=0.25)
+Requires-Dist: matplotlib (>=3.1)
+
+# jendobson.greenbutton
+Python tools for working with [Green Button](http://www.greenbuttondata.org "The Green Button") data.
+
+See demo_script.py for usage.
+
+See also:
+* https://github.com/GreenButtonAlliance/hpxml
+* https://github.com/asciiphil/greenbutton-python/tree/master/doc
+* https://github.com/teeterc/gbapi
+
+
+
