@@ -1,0 +1,3 @@
+[console_scripts]
+service_runner = service_runner.manage:main
+
