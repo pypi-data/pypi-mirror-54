@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: openEPhys-DACQ
+Version: 0.81
+Summary: A package for neural data acquisition with automated experiments
+Home-page: https://barry-lab.github.io/openEPhys_DACQ/
+Author: Barry-lab
+Author-email: caswellbarry@ucl.ac.uk
+License: BSD License
+Keywords: open-ephys,raspberrypi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: paramiko
+Requires-Dist: psutil
+Requires-Dist: pygame
+Requires-Dist: PyQt5
+Requires-Dist: pyqtgraph
+Requires-Dist: pyzmq
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: Pillow
+Provides-Extra: processing
+Requires-Dist: klustakwik ; extra == 'processing'
+Requires-Dist: kilosort ; extra == 'processing'
+Requires-Dist: matlab.engine ; extra == 'processing'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+
+# Welcome to openEPhys_DACQ repository.
+
+This recording system works in synchrony with [Open Ephys GUI](https://github.com/open-ephys/plugin-GUI) and allows acquisition of video data from multiple cameras together with online tracking.
+
+The package also includes a behavioural task for study of spatial navigation. The behavioural task involves physical actuators (reward modules) which can be built based on instructions in the documentation.
+
+Please follow [this link for documentation](https://barry-lab.github.io/openEPhys_DACQ/index.html)
+
+
