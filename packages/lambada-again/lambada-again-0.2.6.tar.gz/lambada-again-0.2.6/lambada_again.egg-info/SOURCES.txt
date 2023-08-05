@@ -1,0 +1,11 @@
+README.md
+setup.py
+lambada/__init__.py
+lambada/cli.py
+lambada/models.py
+lambada_again.egg-info/PKG-INFO
+lambada_again.egg-info/SOURCES.txt
+lambada_again.egg-info/dependency_links.txt
+lambada_again.egg-info/entry_points.txt
+lambada_again.egg-info/requires.txt
+lambada_again.egg-info/top_level.txt
