@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: refreeze-scripts
+Version: 0.1.2
+Summary: Rewrite EXE files in Scripts directory on Windows
+Home-page: https://github.com/fixpoint/refreeze-scripts
+License: MIT
+Keywords: Windows,pip,setuptools
+Author: lambdalisue
+Author-email: lambdalisue@fixpoint.co.jp
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: setuptools (>=41.4.0,<42.0.0)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0)
+Project-URL: Repository, https://github.com/fixpoint/refreeze-scripts
+Description-Content-Type: text/markdown
+
+# refreeze-scripts
+
+A *refreeze-scripts* refreeze EXE files in `Scripts` directory on Windows.
+
+It extract a script part from [simple_launcer](https://bitbucket.org/vinay.sajip/simple_launcher/src/default/); which is used in pip internally to make `console_script` executable; EXE file and make it executable via `cli.exe` in setuptools.
+
