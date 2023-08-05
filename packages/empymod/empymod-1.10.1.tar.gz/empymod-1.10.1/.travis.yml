@@ -1,0 +1,40 @@
+# http://conda.pydata.org/docs/travis.html
+language: python
+
+matrix:
+  include:
+    - python: 3.5
+      env: PYTHON=3.5 PCKGS="numexpr matplotlib" CHAN="defaults" TEST="--mpl" INST="pytest-mpl scooby"
+    - python: 3.6
+      env: PYTHON=3.6 PCKGS="numexpr matplotlib" CHAN="defaults" TEST="--mpl" INST="pytest-mpl scooby"
+    - python: 3.6  # => 3.7
+      env: PYTHON=3.7 PCKGS="numexpr matplotlib" CHAN="defaults" TEST="--mpl" INST="pytest-mpl scooby"
+    - python: 3.6  # => 3.6 with conda-forge
+      env: PYTHON=3.6 PCKGS="numexpr matplotlib" CHAN="conda-forge" TEST="--mpl" INST="pytest-mpl"
+    - python: 3.6  # => 3.6 with without matplotlib, numexpr
+      env: PYTHON=3.6 PCKGS="" CHAN="defaults" TEST="" INST=""
+
+install:
+  - sudo apt-get update
+  # We do this conditionally because it saves us some downloading if the
+  # version is the same.
+  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update --all
+  # Useful for debugging any issues with conda
+  - conda info -a
+
+  # Install and activate environment, install packages
+  - conda create -q -n test-environment -c $CHAN python=$PYTHON numpy scipy pytest pytest-cov $PCKGS
+  - source activate test-environment
+  - pip install setuptools_scm coveralls pytest-flake8 $INST
+  - python setup.py install
+  - cp tests/matplotlibrc .
+
+
+script: pytest --cov=empymod --flake8 $TEST
+
+after_success: coveralls

@@ -1,0 +1,20 @@
+# Directories
+__pycache__/
+
+# Sphinx
+docs/_build/
+
+# Pytest and coverage related
+htmlcov
+.coverage
+.coverage.*
+.pytest_cache/
+
+# setuptools_scm
+empymod/version.py
+
+# Build related
+.eggs/
+build/
+dist/
+empymod.egg-info/
