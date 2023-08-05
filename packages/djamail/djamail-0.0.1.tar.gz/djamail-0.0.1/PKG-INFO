@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: djamail
+Version: 0.0.1
+Summary: A pluggable app to ease the task of creating emails
+Home-page: https://github.com/buserbrasil/djamail
+Author: Diogo Freitas
+Author-email: diogolaco@gmail.com
+License: MIT
+Description: # djamail
+        Emails pra djá
+        
+Keywords: django mail
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

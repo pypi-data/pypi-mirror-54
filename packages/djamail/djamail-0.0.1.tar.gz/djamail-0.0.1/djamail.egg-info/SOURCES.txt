@@ -1,0 +1,12 @@
+README.md
+setup.py
+djamail/__init__.py
+djamail/tests.py
+djamail/urls.py
+djamail/views.py
+djamail.egg-info/PKG-INFO
+djamail.egg-info/SOURCES.txt
+djamail.egg-info/dependency_links.txt
+djamail.egg-info/not-zip-safe
+djamail.egg-info/requires.txt
+djamail.egg-info/top_level.txt
