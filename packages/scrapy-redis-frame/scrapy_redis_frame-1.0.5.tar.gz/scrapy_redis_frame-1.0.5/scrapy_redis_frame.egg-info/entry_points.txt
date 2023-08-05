@@ -1,0 +1,3 @@
+[console_scripts]
+scrapy_redis_create = scrapy_redis_frame.create_command:create_project
+
