@@ -1,0 +1,39 @@
+six
+
+[azure-pipelines]
+coverage
+freezegun>=0.2.8
+pretend
+pytest>=3.3.0
+simplejson
+pytest-azurepipelines
+
+[azure-pipelines:python_version >= "3.6"]
+python-rapidjson
+
+[dev]
+coverage
+freezegun>=0.2.8
+pretend
+pytest>=3.3.0
+simplejson
+sphinx
+twisted
+pre-commit
+
+[dev:python_version >= "3.6"]
+python-rapidjson
+
+[docs]
+sphinx
+twisted
+
+[tests]
+coverage
+freezegun>=0.2.8
+pretend
+pytest>=3.3.0
+simplejson
+
+[tests:python_version >= "3.6"]
+python-rapidjson
