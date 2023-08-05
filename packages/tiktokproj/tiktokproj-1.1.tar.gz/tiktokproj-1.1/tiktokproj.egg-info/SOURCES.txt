@@ -1,0 +1,7 @@
+setup.py
+tiktokpk/__init__.py
+tiktokpk/tic-tak3.py
+tiktokproj.egg-info/PKG-INFO
+tiktokproj.egg-info/SOURCES.txt
+tiktokproj.egg-info/dependency_links.txt
+tiktokproj.egg-info/top_level.txt
