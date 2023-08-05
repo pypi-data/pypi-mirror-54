@@ -1,0 +1,6 @@
+pymacaron-unit
+pymacaron
+celery
+pycurl
+redis
+supervisor
