@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: br_loterias
+Version: 0.0.3
+Summary: br loterias api
+Home-page: https://github.com/lucianovilasboas/br_loterias
+Author: Luciano Vilas Boas Espiridião
+Author-email: lucianovilasboas@gmail.com
+License: MIT
+Description: Br Loterias é uma API simples desenvolvida com finalidades educacionais. código python nessa api usa o site do UOL para coletar os dados dos sorteios das principais loterias do país.
+Keywords: loterias brazil
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

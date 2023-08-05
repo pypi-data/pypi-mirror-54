@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+br_loterias/__init__.py
+br_loterias/loteria.py
+br_loterias.egg-info/PKG-INFO
+br_loterias.egg-info/SOURCES.txt
+br_loterias.egg-info/dependency_links.txt
+br_loterias.egg-info/top_level.txt
