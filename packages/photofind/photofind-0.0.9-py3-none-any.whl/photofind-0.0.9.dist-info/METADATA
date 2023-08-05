@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: photofind
+Version: 0.0.9
+Summary: read filenames and output EXIF data from named files
+Home-page: https://github.com/rstms/photofind
+Author: Matt Krueger
+Author-email: mkrueger@rstms.net
+License: MIT
+Keywords: exif photo image
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: ExifRead
+Requires-Dist: geopy
+
+# photofind
+
+Scans image files, reading and outputting selected EXIF data tags.
+
+Suitable for use in a command pipeline to scan your filesystems for image files to identify the photos created by your own devices.
+
+
