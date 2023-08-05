@@ -1,0 +1,13 @@
+pyodata/__init__.py,sha256=sAhYgxon5ExjbaJGFMKutt-V9N1ZyzkrmQkpgFIhMuU,98
+pyodata/client.py,sha256=l74XUMgDeJqVk38IGqIR_iivfvENlNBznUoTGFbl5GA,2624
+pyodata/exceptions.py,sha256=7MwTE3wsSwjhe49mVM5wajao1H0P2X3oOT7WBxE8MNk,1029
+pyodata/v2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyodata/v2/model.py,sha256=mjbN1U4FJT3O2IjNSGaHEOjkmalPSpOIvJR33KoFOm4,90019
+pyodata/v2/service.py,sha256=jGkvtQvcfSog9RYgubLaPf9pxOJQZ8S__mgDfwQASh4,54305
+pyodata/vendor/SAP.py,sha256=4mlkeguS3tA3lH8n_HCNVQcvO-VI4BpD9mhwbjBa-F4,1882
+pyodata/vendor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyodata-1.3.0.dist-info/LICENSE,sha256=nrjuSrjuf0BNh-rL-UeyglqLZfbD9WDkBNsCDRDfpQs,11536
+pyodata-1.3.0.dist-info/METADATA,sha256=AidYmBMU0S4wFaYhLM2lz1hq7wTi0KkSGfH_mDDuzj8,4043
+pyodata-1.3.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pyodata-1.3.0.dist-info/top_level.txt,sha256=5GL3QxGQ6OgdkK8rp__c6mc2XI9WC5tBzMQN5xBqMak,8
+pyodata-1.3.0.dist-info/RECORD,,
