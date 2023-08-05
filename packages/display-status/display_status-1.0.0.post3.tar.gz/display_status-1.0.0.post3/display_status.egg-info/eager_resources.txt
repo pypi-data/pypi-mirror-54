@@ -1,0 +1,3 @@
+display_status_bin.so
+display_status_bin.h
+main.go

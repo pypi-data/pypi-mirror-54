@@ -1,0 +1,4 @@
+include display_status.so
+include display_status.h
+include main.go
+include LICENSE
