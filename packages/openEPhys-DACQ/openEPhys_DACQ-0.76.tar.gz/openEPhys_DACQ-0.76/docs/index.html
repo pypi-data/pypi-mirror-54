@@ -1,0 +1,354 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Welcome to openEPhys_DACQ repository &mdash; openEPhys_DACQ 0.75 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Recording PC setup for Data Acquisition" href="recordingPCandOpenEphysGUI.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> openEPhys_DACQ
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.75
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="recordingPCandOpenEphysGUI.html">Recording PC setup for Data Acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cameraRPiSetup.html">Camera and GlobalClock Raspberry Pi setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wirelessRewardSetup.html">FEEDER setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recordingPCforDataProcessing.html">Recording PC setup for Data Processing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="userManual.html">User Manual</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">openEPhys_DACQ</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Welcome to openEPhys_DACQ repository</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-openephys-dacq-repository">
+<h1>Welcome to openEPhys_DACQ repository<a class="headerlink" href="#welcome-to-openephys-dacq-repository" title="Permalink to this headline">¶</a></h1>
+<p>This is a system for automated experiments acquiring neural data using <a class="reference external" href="https://github.com/open-ephys/plugin-GUI">OpenEhysGUI</a>. It combines online tracking from any number of cameras with a behavioural task program and peripherals for interacting with the subject. The package comes with an easy to use graphical interface.</p>
+<p>The original purpose for this system was to collect neural data from rodents performing a navigational task in a large environment.</p>
+<p>The github page for this repository: <a class="reference external" href="https://github.com/Barry-lab/openEPhys_DACQ">https://github.com/Barry-lab/openEPhys_DACQ</a></p>
+<div class="section" id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Data synchronisation with <a class="reference external" href="https://github.com/open-ephys/plugin-GUI">OpenEhysGUI</a></dt><dd><ul>
+<li><p>Global clock TTL signal for precision synchrony</p></li>
+<li><p>Logging messages with recording timestamps (e.g. pellet dropped)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Real-time tracking and 1080p video recording</dt><dd><ul>
+<li><dl class="simple">
+<dt>Any number of cameras</dt><dd><ul>
+<li><p>Built-in calibration to same reference frame</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Multiple tracking methods</dt><dd><ul>
+<li><p>Motion</p></li>
+<li><p>1 LED (brightest spot)</p></li>
+<li><p>2 LED (different luminance)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Reward devices</dt><dd><ul>
+<li><dl class="simple">
+<dt>Pellet Feeder</dt><dd><ul>
+<li><p>Releases specified number of pellets on command</p></li>
+<li><p>Activation automated based on animal behaviour</p></li>
+<li><p>WiFi controlled</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Milk Feeder</dt><dd><ul>
+<li><p>Releases milk or other liquid with pinch valve</p></li>
+<li><p>Animal friendly - can be placed in the enviornment</p></li>
+<li><p>Battery powered</p></li>
+<li><p>WiFi controlled</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Automated behavioural task</dt><dd><ul>
+<li><p>New task programs can be integrated independently</p></li>
+<li><p>Has messaging ability with OpenEphysGUI</p></li>
+<li><p>Has real-time tracking information</p></li>
+<li><p>Controls reward devices</p></li>
+<li><dl class="simple">
+<dt>Navigational task available</dt><dd><ul>
+<li><p>Fully configurable flexible task program</p></li>
+<li><p>Milk feeder reward based navigational task</p></li>
+<li><p>Audio and/or light signals for trials</p></li>
+<li><p>Concurrent foraging task with intelligent pellet scattering</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Processing pipeline for tetrode recordings</dt><dd><ul>
+<li><dl class="simple">
+<dt>Parallel implementation of 3 spike sorting methods</dt><dd><ul>
+<li><p>Kilosort</p></li>
+<li><p>Klustakwik - offline detected spikes</p></li>
+<li><p>Klustakwik - on OpenEphysGUI detected spikes</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="system-overview-and-the-user-manual">
+<h2>System overview and the user manual<a class="headerlink" href="#system-overview-and-the-user-manual" title="Permalink to this headline">¶</a></h2>
+<p>In depth description of the system is in the <a class="reference internal" href="userManual.html#usermanual-systemoverview"><span class="std std-ref">System overview</span></a> section of the <a class="reference internal" href="userManual.html#usermanual"><span class="std std-ref">User Manual</span></a></p>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>This document details every step required for setting up an Ubuntu PC for electrophysiological data collection using <a class="reference external" href="https://github.com/open-ephys/plugin-GUI">OpenEhysGUI</a>, separate tracking system using Raspberry Pis and two different Rasperry Pi based reward modules. The instructions detail every single step, every line of code required to get things running. Therefore, it is definitely painfully long to work through for an advanced user, if not amusing at times. The reason for such detail is that anyone could set it up.</p>
+<p>Occasionally the document includes instructions in double brackets, where the steps may not me necessary but were made by me during the setup process. E.g. <em>((Do this, in case otherwise something will not work later on))</em>.</p>
+<p>All terminal commands written here should be run while in home directory, unless instructed to call on a specific file. This ensures a sensible folder structure is created.</p>
+<p>The instructions can be worked through in the order they are presented in the below table to set up the system from ground up.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="recordingPCandOpenEphysGUI.html">Recording PC setup for Data Acquisition</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="recordingPCandOpenEphysGUI.html#setting-up-the-operating-system">Setting up the Operating System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordingPCandOpenEphysGUI.html#other-useful-steps">Other useful steps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordingPCandOpenEphysGUI.html#install-open-ephys-gui">Install Open Ephys GUI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordingPCandOpenEphysGUI.html#intan-headstage-setup">Intan Headstage setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordingPCandOpenEphysGUI.html#setup-recording-pc-for-using-recording-manager">Setup Recording PC for using Recording Manager</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cameraRPiSetup.html">Camera and GlobalClock Raspberry Pi setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cameraRPiSetup.html#hardware-setup">Hardware setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cameraRPiSetup.html#software-setup">Software setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cameraRPiSetup.html#setting-up-raspberry-pi-networking-with-recording-pc">Setting up Raspberry Pi networking with recording PC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cameraRPiSetup.html#making-copies-of-raspberry-pis">Making copies of Raspberry Pis</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="wirelessRewardSetup.html">FEEDER setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="wirelessRewardSetup.html#setting-up-raspberry-pi-zero-software">Setting up Raspberry Pi Zero software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wirelessRewardSetup.html#setting-up-raspberry-pi-zero-networking-with-recording-pc">Setting up Raspberry Pi Zero networking with Recording PC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wirelessRewardSetup.html#production-and-assembly-of-pellet-feeder">Production and assembly of Pellet FEEDER</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wirelessRewardSetup.html#use-and-maintenance-of-pellet-feeder">Use and Maintenance of Pellet FEEDER</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wirelessRewardSetup.html#production-and-assembly-of-milk-feeder">Production and assembly of Milk FEEDER</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="recordingPCforDataProcessing.html">Recording PC setup for Data Processing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="recordingPCforDataProcessing.html#install-matlab-for-kilosort">Install MATLAB for KiloSort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordingPCforDataProcessing.html#install-klustakwik">Install Klustakwik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordingPCforDataProcessing.html#install-scripts-from-github">Install Scripts from GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordingPCforDataProcessing.html#install-google-chrome-to-use-waveform-gui">Install Google Chrome to use Waveform GUI</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="userManual.html">User Manual</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="userManual.html#system-overview">System overview</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="recordingPCandOpenEphysGUI.html" class="btn btn-neutral float-right" title="Recording PC setup for Data Acquisition" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Barry-lab
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
