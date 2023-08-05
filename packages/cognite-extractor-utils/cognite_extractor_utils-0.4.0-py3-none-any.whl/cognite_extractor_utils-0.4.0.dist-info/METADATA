@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cognite-extractor-utils
+Version: 0.4.0
+Summary: Utilities for easier development of extractors for CDF
+Home-page: UNKNOWN
+Author: Mathias Lohne
+Author-email: mathias.lohne@cognite.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: cognite-sdk (>=1.0.0)
+Requires-Dist: typing
+Requires-Dist: google-cloud-pubsub
+Requires-Dist: google-api-core
+Requires-Dist: prometheus-client
+
+UNKNOWN
+
+
