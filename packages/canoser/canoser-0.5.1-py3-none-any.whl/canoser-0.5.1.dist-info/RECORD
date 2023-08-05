@@ -1,0 +1,15 @@
+canoser/__init__.py,sha256=PVh8xjIUDSY6jUkdLvkYowRw9Yuc3BG8g9Xp08LsQrM,501
+canoser/base.py,sha256=lFDCe36AqRBq4qSdmlx5swNBpJAUloL7fL4htL5IOug,1200
+canoser/cursor.py,sha256=MZ2UIDkdlxHneYGPWUU5rt-YCl9F9fvk8D2fmMWnksI,818
+canoser/delegate_t.py,sha256=GAuexg4njxml2lpLbMDQ4TheYRNOtTW4CAjIxeOIVTI,914
+canoser/rust_enum.py,sha256=uCLj17iwvW6LBaWGqyPCCxaQXs6vuJjHClhoJH3n-K4,3354
+canoser/rust_optional.py,sha256=TnUrV7nXIuaKO1NQEpAPq_NDhulzup6FfTgfK2dAB7M,1955
+canoser/struct.py,sha256=3QcXuaUdoadMwOqjpZ7oOzJePLpimAtZ3PrnA6x8Cps,4117
+canoser/types.py,sha256=gEOS-UNbYkYM1FYpSimD8GIniv3iAlBpDJ22x3gAlUU,11514
+canoser/util.py,sha256=J-R8-2jxCQ92LRn3-Y5xhkkTVHCszz5Y7iIgSpqYyCk,530
+canoser/version.py,sha256=JJftSo3_1uubLc5OuuK1DK_2ytVVzTlexIIsrB8TKXM,19
+canoser-0.5.1.dist-info/LICENSE,sha256=J71EvVPNeIBKyng-QAY1O1hiz-lYQEAVGYwjr_Cv9ik,1104
+canoser-0.5.1.dist-info/METADATA,sha256=my4HA5cwXfK9Siyc4TqWla_luN_EhJM9B72LuGNhxQ0,12860
+canoser-0.5.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+canoser-0.5.1.dist-info/top_level.txt,sha256=M1twqQqBnyMf3m2Re4FozB_KjPJxN5N6FLaKXQF41Mc,8
+canoser-0.5.1.dist-info/RECORD,,
