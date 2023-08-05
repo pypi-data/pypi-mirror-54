@@ -1,0 +1,3 @@
+recursive-include wagtail_site/home/templates *.html
+recursive-include wagtail_site/home/static *.css
+recursive-include wagtail_site/wagtail_site/templates *.html
