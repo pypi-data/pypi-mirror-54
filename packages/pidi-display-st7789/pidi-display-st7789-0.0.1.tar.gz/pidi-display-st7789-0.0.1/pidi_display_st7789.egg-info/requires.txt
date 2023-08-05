@@ -1,0 +1,3 @@
+Pillow
+pidi-display-pil
+st7789

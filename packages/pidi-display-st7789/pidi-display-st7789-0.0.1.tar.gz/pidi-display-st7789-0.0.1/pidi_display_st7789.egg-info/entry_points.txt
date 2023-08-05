@@ -1,0 +1,3 @@
+[pidi.plugin.display]
+DisplayST7789 = pidi_display_st7789:DisplayST7789
+

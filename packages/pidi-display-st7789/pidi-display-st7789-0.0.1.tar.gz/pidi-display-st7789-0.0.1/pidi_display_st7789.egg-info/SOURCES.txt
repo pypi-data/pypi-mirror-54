@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+pidi_display_st7789/__init__.py
+pidi_display_st7789.egg-info/PKG-INFO
+pidi_display_st7789.egg-info/SOURCES.txt
+pidi_display_st7789.egg-info/dependency_links.txt
+pidi_display_st7789.egg-info/entry_points.txt
+pidi_display_st7789.egg-info/requires.txt
+pidi_display_st7789.egg-info/top_level.txt
