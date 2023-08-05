@@ -1,0 +1,12 @@
+% setdefault('cfgfile', None)
+% setdefault('cfg', None)
+% rebase('tpl/base.html', title = 'config')
+<p>
+	Config file: {{cfgfile}}
+</p>
+<hr>
+<p>
+% for line in cfg.splitlines():
+	{{line}}<br>
+% end
+</p>
