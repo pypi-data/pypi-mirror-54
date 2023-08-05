@@ -1,0 +1,15 @@
+evohomeclient/__init__.py,sha256=D7fWv3HINETeEUZUPQuHjwZJH7auBPivxc_baFkFE_w,12222
+evohomeclient/tests.py,sha256=pCZYrx2zTygJF-WZdMbMuCABeP7AoE4tz8JT6Pl51BU,15434
+evohomeclient-0.3.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+evohomeclient-0.3.4.dist-info/METADATA,sha256=50-5FChG6AjJggs0KFEB9CLA5OjA5gsX7y3nlyiQgbQ,450
+evohomeclient-0.3.4.dist-info/RECORD,,
+evohomeclient-0.3.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+evohomeclient-0.3.4.dist-info/metadata.json,sha256=tI1XQmSI2eMOvDcemoDq7WHBNHKTPYMF06obrep6Ckk,682
+evohomeclient-0.3.4.dist-info/top_level.txt,sha256=sjU8ktbskfDxpAIqk76yVoGRyvJjysSvNlskGD8UYwg,29
+evohomeclient2/__init__.py,sha256=OSzAyZqWg2u-pl5EjW_q_3qIFDav1JzRX_ozTAhW1wA,11120
+evohomeclient2/controlsystem.py,sha256=nFEsGkS5pHQZrWLNpR5l1R9RDs9dEPZarFZbXmeLgyw,6055
+evohomeclient2/gateway.py,sha256=-C7JLXEWoa55DlXUmoRf2PkTqJHliDwjl2hSmCjjIvI,822
+evohomeclient2/hotwater.py,sha256=p7MYBvivewzbOAgsUuZSlu03inBY4LKk3a-PVKReAcA,2097
+evohomeclient2/location.py,sha256=NCAxdxZBMmjIb1aGVUGNcH6AERb_tQ-Jb-EM2daLUJ8,2059
+evohomeclient2/tests.py,sha256=q88izD6_gekHkTsO-_eaojaSe-4qme-ODhfxQE7zzhI,7587
+evohomeclient2/zone.py,sha256=cjFKY5iglomBWTiX67YNaNH_PG3yAkcLiA0OKqwr5rM,3824
