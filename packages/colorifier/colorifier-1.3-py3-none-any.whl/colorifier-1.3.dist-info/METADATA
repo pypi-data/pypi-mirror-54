@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: colorifier
+Version: 1.3
+Summary: Classifier for colors
+Home-page: https://github.com/ofrik/colorifier
+Author: Ofri Masad
+Author-email: ofrik89@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Colorifier
+A library to classify colors
+
+# How to use
+`from colorifier import Classifier`  
+`model = Classifier()`  
+`print(model.classify_hex("#e6194b"))`  
+`print(model.classify_rgb((255, 0, 0)))`  
+`print(model.classify_hsv((0, 255, 255)))`  
+
+

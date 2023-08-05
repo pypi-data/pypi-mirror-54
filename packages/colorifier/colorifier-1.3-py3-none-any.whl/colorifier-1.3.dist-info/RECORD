@@ -1,0 +1,9 @@
+colorifier/__init__.py,sha256=ge4jhWJhPVVDFZShIDoQhLtY8hp1G_pmiDbQMqehFrU,43
+colorifier/model.pkl,sha256=edCl_Iqe8g8VzzH8i4I9qbPjpvv_8gf2BGt4mQuArZY,1332535
+colorifier/predict.py,sha256=kCuBwUJqcog92vdp-kLNPbLkjerq9peP5JLPcTl98ac,1227
+colorifier/train.py,sha256=1r9aZej0-NlW9dKXVM6SoD7vghVyBq2pszProIKNqGk,1818
+colorifier/util.py,sha256=dfutjJwb862KQyi_Y9guSoUlPVlzga_c2DDYzf9B0Os,544
+colorifier-1.3.dist-info/METADATA,sha256=HLaCSkimffpE1H6uAnt2o5slSgLlvBd08hedl05sAFk,653
+colorifier-1.3.dist-info/RECORD,,
+colorifier-1.3.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+colorifier-1.3.dist-info/top_level.txt,sha256=9-S4oh1VL2FAEcjFR7IYgpLifx5F1fg9HKRQf_j2il8,11
