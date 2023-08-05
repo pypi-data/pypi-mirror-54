@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: cngi_prototype
+Version: 0.0.1
+Summary: casa next generation infrastructure prototype
+Home-page: https://github.com/casangi/cngi_prototype
+Author: National Radio Astronomy Observatory
+Author-email: casa-feedback@nrao.edu
+License: Apache-2.0
+Description-Content-Type: text/markdown
+Description: # CASA Next Generation Infrastructure Prototype
+        
+Platform: UNKNOWN
