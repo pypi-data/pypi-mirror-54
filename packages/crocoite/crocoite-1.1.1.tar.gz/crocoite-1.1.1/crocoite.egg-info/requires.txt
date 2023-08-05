@@ -1,0 +1,12 @@
+warcio
+html5lib>=0.999999999
+bottom
+pytz
+websockets
+aiohttp
+PyYAML
+yarl
+multidict
+
+[manhole]
+manhole>=1.6

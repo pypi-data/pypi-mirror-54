@@ -1,0 +1,7 @@
+__pycache__
+*.sw?
+*.egg-info/
+.pytest_cache/
+coverage.xml
+htmlcov
+.coverage
