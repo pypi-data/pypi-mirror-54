@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: amundsenatlastypes
+Version: 0.0.5
+Summary: Custom Amundsen Atlas data types definition
+Home-page: https://github.com/dwarszawski/amundsen-atlas-types
+Author: Damian Warszawski
+Maintainer: Verdan Mahmood
+Maintainer-email: verdan.mahmood@gmail.com
+License: Apache Software License 2.0
+Description: # Amundsen Atlas Types
+        [![PyPI version](https://badge.fury.io/py/amundsenatlastypes.svg)](https://badge.fury.io/py/amundsenatlastypes)
+        [![Build Status](https://api.travis-ci.org/dwarszawski/amundsen-atlas-types.svg?branch=master)](https://travis-ci.org/dwarszawski/amundsen-atlas-types)
+        [![License](http://img.shields.io/:license-Apache%202-blue.svg)](LICENSE)
+        
+        Entity definitions needed to integrate Apache Atlas with Amundsen. 
+Keywords: apache atlas,atlas types,amundsen,amundsen atlas
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
