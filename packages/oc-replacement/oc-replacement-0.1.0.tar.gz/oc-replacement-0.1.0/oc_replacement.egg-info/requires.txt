@@ -1,0 +1,8 @@
+ruamel.yaml
+requests
+requests-oauthlib
+
+[dev]
+pytest
+pytest-cov
+better-exceptions
