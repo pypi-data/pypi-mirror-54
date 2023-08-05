@@ -1,0 +1,14 @@
+quikey/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quikey/directories.py,sha256=g_jRKG0KHVw8J-7JlgFS5sKFVLch6MOn2nbocUN-CUI,493
+quikey/filewatch.py,sha256=edoUyBdoj55TjIoTsqIEAjgqQWFbneWxnhwpi7oQn44,835
+quikey/input.py,sha256=TYfNkoBZe2la_ddmsnT-igMQZa4tmv_-lxbi8sZ3VQ8,5717
+quikey/models.py,sha256=k0X_ACSHeEy-rD0inWtPaIK1klNSYMUImvwykpXw0_g,989
+quikey/qkdaemon.py,sha256=MHG0PL1iSnVeSWlgCOP8bbzVO9ILoAwvU1At30DmRrk,4651
+quikey/quikey.py,sha256=l8iHiZYFzLPa3-YXxirIwQc_DJ6erVxM6PwZ_-q-6-o,3604
+quikey/version.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+quikey-0.1.1.dist-info/LICENSE,sha256=oV-2lmcbQtRrrROaejT_HsHUScHWLQhPmNNyayH6pKU,1068
+quikey-0.1.1.dist-info/METADATA,sha256=y4POJTZkOBwThSceFw951uFv_ZSdTXiqpPpmcciQBUE,408
+quikey-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+quikey-0.1.1.dist-info/entry_points.txt,sha256=8Y_4iPIHgqCYY35b1_JIprvndA0ofKD-_1iG_iej6HA,78
+quikey-0.1.1.dist-info/top_level.txt,sha256=7VE0Eb3SDPvcHEQlPBqjtfwHkYmbn_S4Pn8wAsQo14A,7
+quikey-0.1.1.dist-info/RECORD,,
