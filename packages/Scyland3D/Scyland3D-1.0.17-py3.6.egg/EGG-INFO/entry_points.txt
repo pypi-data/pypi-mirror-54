@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        Scyland3D=Scyland3D:main
+    
