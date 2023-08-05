@@ -1,0 +1,10 @@
+dapr/__init__.py,sha256=HevOnABfpoCdS4j_7Kzx8BtqAI6KSrl_AB2SGCdwKWc,20
+dapr/dapr_pb2.py,sha256=zz5EKU7dMrUpNuG0ATY-07EuHGjAxyW0RVH2WtACHrk,44435
+dapr/dapr_pb2_grpc.py,sha256=dg9HeUVQpZcQFcBjX8-EgvQ9ng-g7GbHnGY4gvSbMeg,5621
+dapr/daprclient_pb2.py,sha256=2AF2CAtxMDPh6tyITpt0C_ldXPztmNUgFzDWcJOHjuk,31311
+dapr/daprclient_pb2_grpc.py,sha256=LXBBjhIXk_YEXf5-sl3s1t-IJsYBjbcBHlEinZOrAnc,5273
+dapr_client-0.1.0b1.dist-info/LICENSE,sha256=KWYE8SVGZT7ZdybcX8LzlF1Myh8Hq9JYn1MWRxd7Bvw,1095
+dapr_client-0.1.0b1.dist-info/METADATA,sha256=JeVd18sJq6djmUlF6l-TViJJMSAxuuu2t4NA0_DdqRU,856
+dapr_client-0.1.0b1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+dapr_client-0.1.0b1.dist-info/top_level.txt,sha256=iLDu9C_1nUTIsa3H4jMbuHuF-zs0opkitR7p7PCPYz0,5
+dapr_client-0.1.0b1.dist-info/RECORD,,
