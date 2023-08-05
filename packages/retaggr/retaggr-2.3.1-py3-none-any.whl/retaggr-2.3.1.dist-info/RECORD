@@ -1,0 +1,17 @@
+retaggr/__init__.py,sha256=uTlyy3NNUKxVpiSR_mcWTmM7JGyw7_RLRkCwgPcllKg,554
+retaggr/config.py,sha256=z2Er3Tcs3AoDg8ro43h85eRFpXte0DY72eZm5z_mgNY,1148
+retaggr/core.py,sha256=PFLPB-EhNogSTbSBRh7UXjIsCeg8aym4ilOQyKaDUCI,7121
+retaggr/errors.py,sha256=ZmvbBtQP25F_Qmlly4F7mhXq0K5GB3ERIdL23vuywZg,517
+retaggr/aiohttp_requests/__init__.py,sha256=UwYfW2-b-BgZ6WEGhlgDzDLQaplOcDDFQd-OkNz_YZE,3554
+retaggr/engines/__init__.py,sha256=_wUw6RJKx0QPWvRdCCU6kW9dN-Qzolnu4MdCqgQyRTU,190
+retaggr/engines/base.py,sha256=u5EE_hTtA6VFLZEeyJyoYhCoPdHJQaCRFWZJNrnSj6Q,1810
+retaggr/engines/danbooru.py,sha256=fnRvE7jfOFumlDR5MjK9zVRfE2T8WOdJ9Uspd1iOnsU,1609
+retaggr/engines/e621.py,sha256=YqidOCrZF7VMUSAiT7zfvBQcY4Mu7JNq-TjEebLIrh0,2828
+retaggr/engines/iqdb.py,sha256=ZUUmY9uN_boYM1p1WWr7MJBM4UKbnXNYdj4BURBPBkQ,2449
+retaggr/engines/paheal.py,sha256=foOeoWjLQEDnmM5vdhL2fQVr6gg0G434gmub4RVUsSY,1295
+retaggr/engines/saucenao.py,sha256=NHkXMGquQT3fG7ZX6wKVpYYcFfNctG0ktuM3qgScfhM,5218
+retaggr-2.3.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+retaggr-2.3.1.dist-info/METADATA,sha256=AZVPG2JTb-fIDQfW6dNmAHF-2vFwWjnd8blQYfvfYMc,1934
+retaggr-2.3.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+retaggr-2.3.1.dist-info/top_level.txt,sha256=YxBg6-ctzG7KIMwAlq6aL-__8SXITzpvYi3AuGOIhwI,8
+retaggr-2.3.1.dist-info/RECORD,,
