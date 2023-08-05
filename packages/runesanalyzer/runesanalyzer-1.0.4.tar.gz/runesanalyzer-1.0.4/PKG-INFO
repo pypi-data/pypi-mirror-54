@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: runesanalyzer
+Version: 1.0.4
+Summary: Gathers different kinds of runic inscriptions
+Home-page: https://github.com/clemsciences/runes-analyzer
+Author: Clément Besnier
+Author-email: clemsciences@gmail.com
+License: License :: OSI Approved :: MIT License
+Description: 
+        
+        # Runes analyzer 
+        
+        Elder Futhark, Younger Futhark, Short-twig Younger Futhark available
+        An example of transcription.
+        
+        To do list:
+        
+        * use spraakbanken corpus of runic inscriptions and track phonetic evolutions
+        
+        Source:
+        
+        * Les causes de la réduction du *futhark* germanique, les glides et le vocalisme. By Alain MAREZ.
+        
+Keywords: runes,corpus
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
