@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ukedown
+Version: 1.0.0
+Summary: markdown extensions to simplify ukulele songsheet generation
+Home-page: https://github.com/lanky/ukedown
+Author: Stuart Sears
+Author-email: stuart@sjsears.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: markdown
+
+# Ukedown package
+
+Ukedown is a series of extensions to the standard [Markdown library](https://github.com/waylan/Python-Markdown/tree/master/markdown) which is documented [here](https://pythonhosted.org/Markdown/extensions/api.html)
+
+It is intended to simplify songsheet (and songbook) generation for ukulele (although it work work well for other stringed instruments too), allowing songsheets to be written as plain text, which will be converted to HTML (via markdown) and thence to PDF.
+
+All output styling will be done using CSS - examples of this are available (with a toolset to use ukedown) from the [ukebook-md repository](https://github.com/lanky/ukebook-md)
+
+basic CSS to demonstrate is to be found in the 'css' subdir of the ukedown package itself.
+
+
+
