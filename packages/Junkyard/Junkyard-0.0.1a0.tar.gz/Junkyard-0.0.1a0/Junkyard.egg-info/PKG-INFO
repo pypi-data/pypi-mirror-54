@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Junkyard
+Version: 0.0.1a0
+Summary: A collection of helpers created by and for the author
+Home-page: https://github.com/crushkilldestroy/Junkyard
+Author: CKD
+Author-email: crushkilldestroy@tuta.io
+License: UNKNOWN
+Description: JUNKYARD
+        
+        A collection of various helper classes and modules designed by the author for use by the author.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
