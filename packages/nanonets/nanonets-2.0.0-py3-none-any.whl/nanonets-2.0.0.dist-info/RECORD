@@ -1,0 +1,11 @@
+nanonets/__init__.py,sha256=7WjijUpbMFEEV2dIwzOFzk_8DNQJcoRn9H9mIKmGc8Y,267
+nanonets/classification.py,sha256=6tmFQqVRgKLencQTF8CBzfDd-MPKkHw--GCJ37Cladc,9290
+nanonets/model.py,sha256=AYjY-B6nceTr4N4UTq_q7xUdvXriVuXEZ1dtFZh24fs,3906
+nanonets/multilabel_classification.py,sha256=rnKdewc-bLsokrbb42VyE_mhelP0Ab838WQ1Dq3vJRA,7759
+nanonets/object_detection.py,sha256=bZS8k8BxehAIlm5u9xWbkXTVWGlQadm7wq0e1PN1jZA,6240
+nanonets/ocr.py,sha256=ue-Bp1JI76Y9Qs64TeH8w6zF6GlWhLjiwsXZqTBsI6Q,7013
+nanonets/utils.py,sha256=ALfj9HddlkvegmEL8UGKI8ACFZJbXuptnph_zpbAiuE,1434
+nanonets-2.0.0.dist-info/METADATA,sha256=btGQ81EqNgoBCaJWcmU2VCvk-cJjzRb31N8Q2oaLoy0,5009
+nanonets-2.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+nanonets-2.0.0.dist-info/top_level.txt,sha256=R47ir_ECu75BstXaf3l-fg-IFO-V5Gs_h3RSmjvD8Vk,9
+nanonets-2.0.0.dist-info/RECORD,,
