@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+nbopen/__init__.py
+nbopen/__main__.py
+nbopen/install_win.py
+nbopen/install_xdg.py
+nbopen/nbopen.py
+winbopen.egg-info/PKG-INFO
+winbopen.egg-info/SOURCES.txt
+winbopen.egg-info/dependency_links.txt
+winbopen.egg-info/not-zip-safe
+winbopen.egg-info/requires.txt
+winbopen.egg-info/top_level.txt
