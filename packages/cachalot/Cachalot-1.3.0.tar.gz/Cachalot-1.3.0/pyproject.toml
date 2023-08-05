@@ -1,0 +1,51 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "Cachalot"
+version = "1.3.0"
+description = "Minimal persistent memoization cache"
+authors = ["Radek Sprta <mail@radeksprta.eu>"]
+license = "MIT"
+
+readme = "README.md"
+
+homepage = "https://radek-sprta.gitlab.io/cachalot/"
+repository = "https://gitlab.com/radek-sprta/cachalot"
+documentation = "https://radek-sprta.gitlab.io/cachalot/"
+
+keywords = ["memoization", "cache"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7"
+]
+
+packages = [
+    { include = "cachalot", from = "src" },
+]
+
+include = ["LICENSE", "CHANGELOG.md", "CONTRIBUTING.md"]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+tinydb-smartcache = "*"
+tinydb = "*"
+jsonpickle = "*"
+
+[tool.poetry.dev-dependencies]
+coverage = "^4.5.2"
+mkdocs = "*"
+mkdocs-cinder = "*"
+pylint="^2.2"
+pytest = "4.0.2"
+pytest-asyncio = "^0.9.0"
+wheel = "*"
