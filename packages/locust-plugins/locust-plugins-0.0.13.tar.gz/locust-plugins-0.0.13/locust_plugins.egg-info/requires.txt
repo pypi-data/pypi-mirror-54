@@ -1,0 +1,6 @@
+locustio==0.11.1
+websocket-client
+
+[postgres]
+psycogreen
+psycopg2
