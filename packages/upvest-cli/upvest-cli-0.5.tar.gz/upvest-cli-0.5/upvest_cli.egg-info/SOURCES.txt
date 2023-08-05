@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.py
+upvest_cli/__init__.py
+upvest_cli/__pkginfo__.py
+upvest_cli/application.py
+upvest_cli/config.py
+upvest_cli/execute.py
+upvest_cli/user.py
+upvest_cli.egg-info/PKG-INFO
+upvest_cli.egg-info/SOURCES.txt
+upvest_cli.egg-info/dependency_links.txt
+upvest_cli.egg-info/entry_points.txt
+upvest_cli.egg-info/not-zip-safe
+upvest_cli.egg-info/requires.txt
+upvest_cli.egg-info/top_level.txt
