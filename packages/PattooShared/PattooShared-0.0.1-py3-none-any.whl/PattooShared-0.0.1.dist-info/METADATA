@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: PattooShared
+Version: 0.0.1
+Summary: Shared libraries for Pattoo Servers and Agents.
+Home-page: https://github.com/PalisadoesFoundation/pattoo-shared
+Author: Peter Harrison
+Author-email: peter@palisadoes.org
+Maintainer: Peter Harrison
+Maintainer-email: peter@palisadoes.org
+License: MIT
+Download-URL: https://github.com/PalisadoesFoundation/pattoo-shared
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+
+.. image:: https://user-images.githubusercontent.com/16875803/66711530-9bdbab80-ed42-11e9-913f-7a21ede86d8f.png
+   :target: https://user-images.githubusercontent.com/16875803/66711530-9bdbab80-ed42-11e9-913f-7a21ede86d8f.png
+   :alt: pattoo
+
+pattoo-shared
+=============
+
+Shared libraries for Pattoo Servers and Agents
+
+
