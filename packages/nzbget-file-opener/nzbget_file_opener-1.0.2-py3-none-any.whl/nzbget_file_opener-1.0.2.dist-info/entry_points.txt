@@ -1,0 +1,3 @@
+[console_scripts]
+nzbget-file-opener = nzbget_file_opener.app:main
+
