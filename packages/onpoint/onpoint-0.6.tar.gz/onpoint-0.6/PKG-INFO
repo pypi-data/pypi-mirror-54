@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: onpoint
+Version: 0.6
+Summary: NLP question answering service
+Home-page: https://github.com/hairong-wang/OnPoint
+Author: Hairong Wang
+Author-email: whairong2011@gmail.com
+License: MIT
+Download-URL: https://github.com/hairong-wang/OnPoint/archive/v_06.tar.gz
+Description: UNKNOWN
+Keywords: NLP,question-answering_service,Flask-app
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
