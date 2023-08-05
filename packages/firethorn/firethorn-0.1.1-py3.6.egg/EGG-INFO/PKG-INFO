@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: firethorn
+Version: 0.1.1
+Summary: A python suite for firethorn, and vo services (TAP)
+Home-page: http://wfau.metagrid.co.uk/code/firethorn
+Author: Stelios Voutsinas
+Author-email: stv@roe.ac.uk
+License: BSD
+Description: README
+Keywords: firethorn vo
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Free For Home Use
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
