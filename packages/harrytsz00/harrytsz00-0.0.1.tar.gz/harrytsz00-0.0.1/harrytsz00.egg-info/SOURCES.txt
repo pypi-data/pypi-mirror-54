@@ -1,0 +1,8 @@
+README.md
+setup.py
+algorithms/__init__.py
+algorithms/anagrams.py
+harrytsz00.egg-info/PKG-INFO
+harrytsz00.egg-info/SOURCES.txt
+harrytsz00.egg-info/dependency_links.txt
+harrytsz00.egg-info/top_level.txt
