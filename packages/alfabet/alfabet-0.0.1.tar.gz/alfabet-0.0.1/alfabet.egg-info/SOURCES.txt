@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+alfabet/__init__.py
+alfabet/fragment.py
+alfabet/model.py
+alfabet/preprocessor_utils.py
+alfabet.egg-info/PKG-INFO
+alfabet.egg-info/SOURCES.txt
+alfabet.egg-info/dependency_links.txt
+alfabet.egg-info/requires.txt
+alfabet.egg-info/top_level.txt
+alfabet/model_files/best_model.hdf5
+alfabet/model_files/preprocessor.p
