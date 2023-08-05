@@ -1,0 +1,14 @@
+red_magic/__init__.py,sha256=WNfXkeHWssMe1LkNSYov1FMKTSMjV0aKsnV57s9CDCM,337
+red_magic/chi2.py,sha256=KvyVj1-i-mM_vczvkiZ3IJextPf_1UlZbDqDHLVVfcs,2338
+red_magic/general.py,sha256=P2eAhnj_kPZwjrVEBFC9CU2YXz9wk40FFZqYr7016oo,1847
+red_magic/graphic_selection.py,sha256=r4fgb_YDuwE07lYucOdtVI8_DMVBXEL4N0fq1gU-rqM,2540
+red_magic/manual_fitting.py,sha256=V6YGuEcRooaipodSmIRhWjiamn-k7Uw5_OgNQgmlmIQ,5020
+red_magic/mcmc_addon.py,sha256=ZhwxYN_iNg-0P_ClxUKqvo9oQiee11xJhemqFt0ePXA,2061
+red_magic/model_physics.py,sha256=Iib-JxRNU-1FJaLAnhFANli8NMrtSZdxTnTTgnMqLl8,4139
+red_magic/psd.py,sha256=m6ScfbwR_LDcTTlNWC0w4FS9Kj-CT0y3oInMG7chl6E,4645
+red_magic/stream_reader.py,sha256=98Sr7VRXJQvklUM4BWyyhBAfXSDhrL11V8WMryfCCg4,11216
+red_magic-0.0.6.dist-info/LICENSE,sha256=MP86B6OYPXg7YOgc4AC0WXo9fUJot2gA8EdLqDhihwM,1071
+red_magic-0.0.6.dist-info/METADATA,sha256=uULBAB2AbYfPOgh17sq1JU-7S0L1jpR__s1Du6mBSTQ,1231
+red_magic-0.0.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+red_magic-0.0.6.dist-info/top_level.txt,sha256=-OM1zhx3JrKjkOdJLiEP3Vq2bDFcyZaeq23MIaRczdA,10
+red_magic-0.0.6.dist-info/RECORD,,
