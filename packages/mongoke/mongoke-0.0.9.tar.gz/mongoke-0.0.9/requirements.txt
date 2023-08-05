@@ -1,0 +1,10 @@
+funcy
+populate>=0.0.8
+skema>=0.0.57
+requests
+fire
+
+# tests 
+prtty
+asynctest
+pytest-asyncio
