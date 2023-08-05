@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+CANdas.egg-info/PKG-INFO
+CANdas.egg-info/SOURCES.txt
+CANdas.egg-info/dependency_links.txt
+CANdas.egg-info/requires.txt
+CANdas.egg-info/top_level.txt
+candas/__init__.py
+candas/database.py
+candas/dataframe.py
