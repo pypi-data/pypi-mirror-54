@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pickle_database.egg-info/PKG-INFO
+pickle_database.egg-info/SOURCES.txt
+pickle_database.egg-info/dependency_links.txt
+pickle_database.egg-info/requires.txt
+pickle_database.egg-info/top_level.txt
+pickled_database/__init__.py
+pickled_database/database.py
+pickled_database/tested_setter_and_getter.py

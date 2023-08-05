@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pickle-database
+Version: 0.0.1
+Summary: A database that saves its state in a file every time it is modified
+Home-page: https://github.com/robotpt/pickle-database
+Author: Audrow Nash
+Author-email: audrowna@usc.edu
+License: MIT
+Description: 
+        README
+        ======
+        
+        A database that saves its state in a file every time it is modified.
+        See `example.py` for usage.
+        
+        Features:
+        
+        * Allows `0` to `n` tests to be run on setting a variable.  If these tests don't pass, an exception is raised.
+        * Records the time that a database key is last set.  
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
