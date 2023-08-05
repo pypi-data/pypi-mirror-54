@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tfignite
+Version: 0.0.2
+Summary: Hight level training routine for tensorflow.
+Home-page: https://github.com/ipod825/tfignite
+Author: Shih-Ming Wang
+Author-email: swang150@ucsc.edu
+License: MIT
+Download-URL: https://github.com/ipod825/tfignite/tarball/0.0.1
+Platform: UNKNOWN
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
