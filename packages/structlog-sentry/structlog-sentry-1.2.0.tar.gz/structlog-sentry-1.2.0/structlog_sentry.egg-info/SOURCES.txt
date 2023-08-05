@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.in
+setup.py
+test-requirements.in
+structlog_sentry/__init__.py
+structlog_sentry.egg-info/PKG-INFO
+structlog_sentry.egg-info/SOURCES.txt
+structlog_sentry.egg-info/dependency_links.txt
+structlog_sentry.egg-info/requires.txt
+structlog_sentry.egg-info/top_level.txt
+test/__init__.py
+test/test_sentry_processor.py
