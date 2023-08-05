@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: theseus
+Version: 0.0.5
+Summary: Graphical frequency neuron like node
+Home-page: https://github.com/Niarfe/theseus_node.git
+Author: Efrain Olivares
+Author-email: efrain.olivares@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
