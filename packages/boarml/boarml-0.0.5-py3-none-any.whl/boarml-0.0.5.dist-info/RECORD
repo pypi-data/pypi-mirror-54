@@ -1,0 +1,17 @@
+boarml/__init__.py,sha256=VNu0uH0Wld4OYJMRKKempmGgI49V1cI1hgom9c7bByA,282
+boarml/architectures/__init__.py,sha256=VLC4jchYO14OdJRgz08oOPb4rn2-2wwzGN50S8ZOjCU,50
+boarml/architectures/cnn_architecture.py,sha256=H9Z0SB-bULrGvyTIhHmilqs1jebOH4sdNFp7H_WOi18,6080
+boarml/builders/__init__.py,sha256=WXS9RFUi5-3wzWZPesL70A5MTJLEfScgyry9ytgDK_8,40
+boarml/builders/base_builder.py,sha256=EjyBKH0s47wLZ7fiyVViPfKtQmfQqqysqXpiDF3bfM0,194
+boarml/builders/keras_builder.py,sha256=PSuwV1qUf51DRGIyMxEjgWD_4WRnVixT6X_BJgXRx-8,1768
+boarml/cnn/__init__.py,sha256=rNHd8mfwwER0Mr-zpng3LorsCg1iG_h-VZwYlLzSceA,200
+boarml/cnn/layers.py,sha256=s-NY0ZitC_lpFd8BIhdjygQK55jymIRGync5Pi_BHbs,5066
+boarml/cnn/model.py,sha256=el5EZgBqZWZqZQA7UthNCXLkRmK6AMcW9-KAwGh_h-0,524
+boarml/cnn/unit.py,sha256=C9T5-m4cv85HSrIbSEp4ntAR-RAWyfSUnN1dEYlC1ps,468
+boarml/generators/__init__.py,sha256=RFzniti-iuhxw0T6uPKkeg2EkuAGOJ3tcc0w-WR-vPA,44
+boarml/generators/model_generator.py,sha256=oh0fctK6_uKjssWCE5Sn3k_e0C-_APPc4wOMQah7hhU,6940
+boarml-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+boarml-0.0.5.dist-info/METADATA,sha256=NQ3eyKmN3qiG2S3Q29Y67S8VrTOcW3wHzIkWAsZsl-0,1269
+boarml-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+boarml-0.0.5.dist-info/top_level.txt,sha256=SBMbtguUqGxfiRtnWx_1YQ1IO3wxlWq2foShzvo2W-s,7
+boarml-0.0.5.dist-info/RECORD,,
