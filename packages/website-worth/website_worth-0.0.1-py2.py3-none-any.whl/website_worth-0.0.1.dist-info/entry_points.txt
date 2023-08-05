@@ -1,0 +1,3 @@
+[console_scripts]
+website_worth = website_worth.cli:main
+

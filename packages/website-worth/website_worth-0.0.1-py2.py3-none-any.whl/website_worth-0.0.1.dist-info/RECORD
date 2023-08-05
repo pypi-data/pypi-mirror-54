@@ -1,0 +1,9 @@
+website_worth/__init__.py,sha256=AsiRdNN0kHipriIQ5VpqR4Qom68zgY9n_CS_CmGwPF0,161
+website_worth/calcs.py,sha256=MCZACxu-6k9JvqqfPVmHOA8Nb2AScWawLdN33MGfwy0,1824
+website_worth/cli.py,sha256=xSzDLG6TOykoK7wjQfYr5Qz8k20sXriI47ZqN_A_RPE,811
+website_worth/constants.py,sha256=F1XyyhuRnEnSB_NiZBAcTcC76_0t_kO_G-eosmc-840,91
+website_worth-0.0.1.dist-info/METADATA,sha256=SlAMx8Tx0Ip_7W6o7sqD9KJo4oFCthIiLcMTRZnV0qI,1219
+website_worth-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+website_worth-0.0.1.dist-info/entry_points.txt,sha256=KLqasklO0hFSNTP7UI83zaiS70dsPXXHk3hwdbP5lhM,58
+website_worth-0.0.1.dist-info/top_level.txt,sha256=uxWFwlh8TWFBntg1KaYW3_C_ysm1lZ-Bx52A0xFtaTE,14
+website_worth-0.0.1.dist-info/RECORD,,
