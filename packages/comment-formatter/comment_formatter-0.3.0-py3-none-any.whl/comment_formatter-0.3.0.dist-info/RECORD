@@ -1,0 +1,6 @@
+comment_formatter/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+comment_formatter/formatter.py,sha256=jLH6_OLeuFhQsCqlLywpDzugyBwtF_eMCz2182AdI10,5575
+comment_formatter/run.py,sha256=0p4-kFZU2vG_yzAXqb7xke_cl9ybl1O-9HmA-d9WW3Q,888
+comment_formatter-0.3.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+comment_formatter-0.3.0.dist-info/METADATA,sha256=_orY2CdYk0JRXbwG5bZCx6QpQ5TSNcArwTd9aj3WqOI,390
+comment_formatter-0.3.0.dist-info/RECORD,,
