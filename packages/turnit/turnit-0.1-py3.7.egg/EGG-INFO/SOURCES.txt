@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/turnit
+turnit/__init__.py
+turnit/turnit.py
+turnit.egg-info/PKG-INFO
+turnit.egg-info/SOURCES.txt
+turnit.egg-info/dependency_links.txt
+turnit.egg-info/not-zip-safe
+turnit.egg-info/requires.txt
+turnit.egg-info/top_level.txt
