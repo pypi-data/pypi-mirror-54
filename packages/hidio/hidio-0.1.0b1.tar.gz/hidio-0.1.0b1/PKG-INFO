@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: hidio
+Version: 0.1.0b1
+Summary: HID-IO Python Library
+Home-page: https://github.com/kiibohd/kll
+Author: Jacob Alexander
+Author-email: haata@kiibohd.com
