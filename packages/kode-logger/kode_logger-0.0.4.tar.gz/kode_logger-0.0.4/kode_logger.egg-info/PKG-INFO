@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kode-logger
+Version: 0.0.4
+Summary: Encode logs to JSON format
+Home-page: UNKNOWN
+Author: KODE
+Author-email: ashelepov@kode-t.ru
+License: UNKNOWN
+Description: # KODE Logger
+        
+        ## Usage example
+        ```python
+        import kode_logger
+        
+        logger = kode_logger.create_json('my-app-context')
+        logger.warning('some_message', extra={
+            'custom_variable': 'value'
+        })
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
