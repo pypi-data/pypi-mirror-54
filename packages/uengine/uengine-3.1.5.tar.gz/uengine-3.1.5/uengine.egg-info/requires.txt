@@ -1,0 +1,8 @@
+jinja2
+flask
+pymongo
+lazy_object_proxy
+line_profiler
+ipython
+pylint
+mongomock
