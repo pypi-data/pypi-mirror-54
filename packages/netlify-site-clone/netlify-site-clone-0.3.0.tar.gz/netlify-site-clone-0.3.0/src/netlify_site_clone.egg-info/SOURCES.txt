@@ -1,0 +1,16 @@
+.bumpversion.cfg
+.gitignore
+.travis.yml
+LICENSE
+README.md
+requirements-dev.txt
+setup.py
+tasks.py
+src/netlify_site_clone/__init__.py
+src/netlify_site_clone/_cli.py
+src/netlify_site_clone.egg-info/PKG-INFO
+src/netlify_site_clone.egg-info/SOURCES.txt
+src/netlify_site_clone.egg-info/dependency_links.txt
+src/netlify_site_clone.egg-info/entry_points.txt
+src/netlify_site_clone.egg-info/requires.txt
+src/netlify_site_clone.egg-info/top_level.txt
