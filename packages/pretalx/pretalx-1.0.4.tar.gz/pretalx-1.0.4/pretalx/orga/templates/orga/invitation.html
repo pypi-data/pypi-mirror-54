@@ -1,0 +1,24 @@
+{% extends "orga/base.html" %}
+{% load bootstrap4 %}
+{% load i18n %}
+
+{% block title %}{% trans "Invitation" %} :: {% trans "Sign in" %}{% endblock %}
+{% block content %}
+<h3>
+    {% blocktrans with organiser=invitation.team.organiser.name name=invitation.team.name trimmed %}
+        Invitation to the {{ organiser }} team "{{ name }}"
+    {% endblocktrans %}
+</h3>
+
+{% if request.user.is_anonymous %}
+    {% include "common/auth.html" %}
+{% else %}
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-block btn-success font-weight-bold">
+            {% trans "Join the team!" %}
+        </button>
+    </form>
+{% endif %}
+
+{% endblock %}

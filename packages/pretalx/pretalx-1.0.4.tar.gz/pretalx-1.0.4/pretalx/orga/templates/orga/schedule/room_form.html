@@ -1,0 +1,25 @@
+{% extends "orga/base.html" %}
+{% load bootstrap4 %}
+{% load compress %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+    {% compress js %}
+        <script defer src="{% static "vendored/moment-with-locales.js" %}"></script>
+        <script defer src="{% static "vendored/moment-timezone-with-data-2012-2022.js" %}"></script>
+        <script defer src="{% static "vendored/fullcalendar/fullcalendar.min.js" %}"></script>
+        <script defer src="{% static "common/js/availabilities.js" %}"></script>
+    {% endcompress %}
+    <form method="post">
+        {% csrf_token %}
+        {% bootstrap_form_errors form %}
+        <h2>{% trans "Room" %}</h2>
+        {% bootstrap_field form.name layout='event' %}
+        {% bootstrap_field form.description layout='event' %}
+        {% bootstrap_field form.speaker_info layout='event' %}
+        {% bootstrap_field form.capacity addon_after='people' addon_after_class='input-group-append input-group-text' layout='event' %}
+        {% bootstrap_field form.availabilities layout='event' %}
+        {% include "orga/submit_row.html" %}
+    </form>
+{% endblock %}
