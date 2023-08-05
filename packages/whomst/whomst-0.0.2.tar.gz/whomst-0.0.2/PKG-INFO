@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: whomst
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/minelminel/whomst
+Author: minelminel
+Author-email: ctrlcmdspace@gmail.com
+License: UNKNOWN
+Description: # whomst :owl:
+        [![Build Status](https://travis-ci.org/minelminel/whomst.svg?branch=master)](https://travis-ci.org/minelminel/whomst)
+        [![codecov](https://codecov.io/gh/minelminel/whomst/branch/master/graph/badge.svg)](https://codecov.io/gh/minelminel/whomst)
+        #### mystery dependency detective & missing `requirements.txt` creator
+        ```
+        🦉 ~/whomst:$  whomst .
+        bar
+        foo
+        new
+        pytest
+        setuptools
+        whomst
+        
+        🦉 ~/whomst:$  whomst . > requirements.txt
+        
+        🦉 ~/whomst:$  whomst . > requirements.txt && cat requirements.txt
+        bar
+        foo
+        new
+        pytest
+        setuptools
+        whomst
+        ```
+        
+        ---
+        ### `/usr/bin`
+        ```bash
+        git clone https://github.com/minelminel/whomst.git
+        cd whomst
+        ./install
+        ```
+        
+        ### `/site-packages/`
+        ```bash
+        git clone https://github.com/minelminel/whomst.git
+        cd whomst
+        pip install -e .
+        ```
+        
+        ### Uninstall
+        ```bash
+        cd whomst && ./uninstall
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.0
+Description-Content-Type: text/markdown

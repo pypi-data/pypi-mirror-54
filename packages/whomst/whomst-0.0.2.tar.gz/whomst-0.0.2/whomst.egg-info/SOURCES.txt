@@ -1,0 +1,8 @@
+README.md
+setup.py
+whomst/__init__.py
+whomst.egg-info/PKG-INFO
+whomst.egg-info/SOURCES.txt
+whomst.egg-info/dependency_links.txt
+whomst.egg-info/entry_points.txt
+whomst.egg-info/top_level.txt
