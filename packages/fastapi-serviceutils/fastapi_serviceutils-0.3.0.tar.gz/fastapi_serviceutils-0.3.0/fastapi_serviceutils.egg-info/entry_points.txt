@@ -1,0 +1,2 @@
+[console_scripts]
+create_service = fastapi_serviceutils.cli.create_service:main
