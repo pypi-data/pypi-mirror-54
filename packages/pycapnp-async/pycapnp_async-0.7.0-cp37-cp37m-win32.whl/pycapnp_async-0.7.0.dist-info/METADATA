@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pycapnp-async
+Version: 0.7.0
+Summary: A cython wrapping of the C++ Cap'n Proto library with support for asyncio
+Home-page: https://github.com/haata/pycapnp-async
+Author: Jacob Alexander
+Author-email: haata@kiibohd.com
+License: BSD
+Download-URL: https://github.com/haata/pycapnp-async/archive/v0.7.0.zip
+Keywords: capnp,capnproto,Cap'n Proto,pycapnp,pycapnp-async
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Communications
+
+UNKNOWN
+
+
