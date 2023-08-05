@@ -1,0 +1,1 @@
+This module has been designed with the aim of extracting and returning state data on a per DUT basis based on actions defined in the testcase/playbook. 

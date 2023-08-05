@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: harmeet_state
+Version: 1.0
+Summary: state module
+Home-page: UNKNOWN
+Author: harmeet sethi
+Author-email: harmeet.sethi@nokia.com
+License: MIT
+Description: This module has been designed with the aim of extracting and returning state data on a per DUT basis based on actions defined in the testcase/playbook. 
+        
+Platform: UNKNOWN
