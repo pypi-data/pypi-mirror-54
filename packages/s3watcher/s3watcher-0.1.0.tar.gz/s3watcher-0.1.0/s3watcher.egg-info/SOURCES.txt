@@ -1,0 +1,13 @@
+README.md
+setup.py
+s3watcher/__init__.py
+s3watcher/client.py
+s3watcher/exceptions.py
+s3watcher/log.py
+s3watcher/message.py
+s3watcher/server.py
+s3watcher.egg-info/PKG-INFO
+s3watcher.egg-info/SOURCES.txt
+s3watcher.egg-info/dependency_links.txt
+s3watcher.egg-info/requires.txt
+s3watcher.egg-info/top_level.txt
