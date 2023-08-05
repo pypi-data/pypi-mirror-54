@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: wf-database-connection
+Version: 0.1.0
+Summary: A simple, generic database interface that can be adapted to many different use cases and implementations
+Home-page: https://github.com/WildflowerSchools/database_connection
+Author: Theodore Quinn
+Author-email: ted.quinn@wildflowerschools.org
+License: UNKNOWN
+Keywords: database
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: python-dateutil (>=2.8.0)
+
+# database_connection
+
+A simple, generic database interface that can be adapted to many different use cases and implementations.
+
+
