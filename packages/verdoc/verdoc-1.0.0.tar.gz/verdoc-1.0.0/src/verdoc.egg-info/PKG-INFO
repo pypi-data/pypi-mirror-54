@@ -1,0 +1,42 @@
+Metadata-Version: 1.2
+Name: verdoc
+Version: 1.0.0
+Summary: Deploy references from source control.
+Home-page: https://pypi.org/project/verdoc
+Author: David Tucker
+Author-email: david@tucker.name
+License: LGPLv2+
+Project-URL: Code, https://github.com/dmtucker/verdoc
+Project-URL: Issues, https://github.com/dmtucker/verdoc/issues
+Project-URL: Builds, https://travis-ci.com/dmtucker/verdoc
+Description: ======
+        Verdoc
+        ======
+        
+        Deploy references from source control.
+        
+        Installation
+        ============
+        
+        Use `pipx <https://pipxproject.github.io/pipx/>`__ to install ``verdoc``.
+        
+        .. code:: sh
+        
+            pipx install verdoc
+        
+        Usage
+        =====
+        
+        ``verdoc`` currently requires the use of Git and tox.
+        It will check out specified references (in temporary clones) and build them by running ``tox -e verdoc -- "$dir"`` (or ``-e foo`` if ``--build-opt env=foo`` is provided) where ``$dir`` is a subdirectory of ``--dest`` named after the reference.
+        Additionally, ``verdoc-index "$url"`` can be used to create an ``index.html`` file that redirects to ``$url`` (which can be handy for deploying websites).
+        
+        See `the documentation <https://dmtucker.github.io/verdoc/>`__ for more information.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: ~= 3.7
