@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: hypothesis-bio
+Version: 0.1
+Summary: Hypothesis strategies for biological data
+Home-page: https://github.com/luizirber/hypothesis-bio
+License: UNKNOWN
+Author: Luiz Irber
+Author-email: contact@luizirber.org
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Hypothesis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Testing
+Requires-Dist: hypothesis >= 4.0.0
+Requires-Dist: sphinx >= 2.0.0, < 3; extra == "docs"
+Requires-Dist: pygments-github-lexers >= 0.0.5; extra == "docs"
+Requires-Dist: sphinxcontrib-autoprogram >= 0.1.5; extra == "docs"
+Requires-Dist: pytest >=2.7.3; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Provides-Extra: docs
+Provides-Extra: testing
+
+[![Build Status][status]][status_link]
+[![codecov][codecov]][codecov_link]
+
+[status]: https://travis-ci.com/luizirber/hypothesis-bio.svg?branch=master
+[status_link]: https://travis-ci.com/luizirber/hypothesis-bio
+[codecov]: https://codecov.io/gh/luizirber/hypothesis-bio/branch/master/graph/badge.svg
+[codecov_link]: https://codecov.io/gh/luizirber/hypothesis-bio
+
+# Hypothesis-bio
+
+This module provides a [Hypothesis][Hypothesis] strategy for generating biological data formats.
+This can be used to efficiently and thoroughly test your code.
+
+## Installation
+
+This module can be installed via `pip`:
+```
+pip install hypothesis-bio
+```
+
+## Development
+
+Tests can be executed using tox:
+`tox -e py37` runs all tests in a Python 3.7 environment.
+
+There are also [pre-commit][pre-commit] files available, so you can run
+`pre-commit install` to add them to your repo.
+(These are enforced by CI)
+
+[pre-commit]: https://pre-commit.com/
+
+## See also
+
+This module is based on [Hypothesis-networkx][nx], [hypothesis-csv][csv] and
+[hypothesis-jsonschema][jsonschema].
+
+[nx]: https://github.com/pckroon/hypothesis-networkx/
+[csv]: https://github.com/chobeat/hypothesis-csv
+[jsonschema]: https://github.com/Zac-HD/hypothesis-jsonschema
+[Hypothesis]: https://hypothesis.readthedocs.io/en/latest/index.html
+
