@@ -1,0 +1,12 @@
+resolve_march_native/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resolve_march_native/engine.py,sha256=Epp4b4wSNjVU1wwUBQDSZO4uZFV-HInglechU5ua2L8,3973
+resolve_march_native/parser.py,sha256=ZTKFzE9ucPOIsc3Vcb3T9FXm_8FF2s1YWG-Gk_7vyDc,731
+resolve_march_native/recommended.py,sha256=hc23enkd4AUar580ymEa9TKUwCBUFb5HLDshiw_5M98,264
+resolve_march_native/runner.py,sha256=Y9FjpP7OyUgaeKOlWXhzAtzWMf-MubEzAR_1t4dH7rk,1627
+resolve_march_native/sort.py,sha256=1RosGLi1i8UCeCP7BBeXjDUDE1C9bHbBiaGhz7YgG0M,363
+resolve_march_native/version.py,sha256=-RhwFKh8Idvqyp9fESIZYaHA1zlVA8zD54bgpyWeigA,119
+resolve_march_native-0.9.3.data/scripts/resolve-march-native,sha256=OlhEx-q1H2gCFoPeLICy_7xQyOjpkz5g23RBA_Ib4ag,2743
+resolve_march_native-0.9.3.dist-info/METADATA,sha256=VP9u9yuSWb3hYvaJks3DRtU2C5WoyRdbgX5Fumq3XWU,2797
+resolve_march_native-0.9.3.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+resolve_march_native-0.9.3.dist-info/top_level.txt,sha256=WGdd78O71MFXNCtbvHUNoHQka1taEr0tH-gRq4Hi5PI,21
+resolve_march_native-0.9.3.dist-info/RECORD,,
