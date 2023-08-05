@@ -1,0 +1,15 @@
+odoo/addons/l10n_de_holidays/README.rst,sha256=bXyhJl5PG0b2vXHDJHL-vcagoi5qFjzKQqLX6zf8gtg,1936
+odoo/addons/l10n_de_holidays/__init__.py,sha256=nmmGcFDn0FhR-tWbL0IU94d5WUZxlBHV9RpZsWdFASU,22
+odoo/addons/l10n_de_holidays/__manifest__.py,sha256=lk1V0zNPLLyvs27-V2xhmwR-nj11ogFYmHXJl1VNqFQ,544
+odoo/addons/l10n_de_holidays/i18n/de.po,sha256=sFqqOYyFkJZhlYM2KzmfnDN0hG2MUcMcYSmbTXKZDog,3718
+odoo/addons/l10n_de_holidays/i18n/l10n_de_holidays.pot,sha256=rtlyMmB1u0ft1FRRc0qeIe7kJMZmRSEPyNOFssBzmX0,3239
+odoo/addons/l10n_de_holidays/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/l10n_de_holidays/tests/__init__.py,sha256=1JVvjxuyOxJLXlbn1T0Fv1LuUF80KKzy7M0DzLTCErA,219
+odoo/addons/l10n_de_holidays/tests/common.py,sha256=Ggcpb_srS3iGLEJObKnMNbsDbvsoXDQKq5IPVwetA18,930
+odoo/addons/l10n_de_holidays/tests/test_hr_holidays_public_generator.py,sha256=YOGRRBmtf3ulNp1uCXRKRxwntN9-TLvHCJwBP0RDS3g,4115
+odoo/addons/l10n_de_holidays/wizards/__init__.py,sha256=xRIfoMs6yQkEi6mJIThpNq0dplsw4U-6izH2YiGE0qQ,46
+odoo/addons/l10n_de_holidays/wizards/hr_holidays_public_generator_de.py,sha256=cb33okWgaXziQ3ySIq3KjBYSW6GpzsY6n5arL3UAgG0,13583
+odoo11_addon_l10n_de_holidays-11.0.1.0.0.99.dev2.dist-info/METADATA,sha256=kiapypo3alYlQvg3yj9t6hMFMgplxB_xzvARz3l0WFc,2572
+odoo11_addon_l10n_de_holidays-11.0.1.0.0.99.dev2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+odoo11_addon_l10n_de_holidays-11.0.1.0.0.99.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_l10n_de_holidays-11.0.1.0.0.99.dev2.dist-info/RECORD,,
