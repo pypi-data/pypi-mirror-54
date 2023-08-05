@@ -1,0 +1,14 @@
+.gitignore
+LICENCE-2.0.txt
+README.md
+pyproject.toml
+setup.py
+airflow_faculty_plugin/__init__.py
+airflow_faculty_plugin.egg-info/PKG-INFO
+airflow_faculty_plugin.egg-info/SOURCES.txt
+airflow_faculty_plugin.egg-info/dependency_links.txt
+airflow_faculty_plugin.egg-info/entry_points.txt
+airflow_faculty_plugin.egg-info/requires.txt
+airflow_faculty_plugin.egg-info/top_level.txt
+airflow_faculty_plugin/operators/__init__.py
+airflow_faculty_plugin/operators/jobs.py

@@ -1,0 +1,3 @@
+[airflow.plugins]
+unused = airflow_faculty_plugin:FacultyPlugin
+
