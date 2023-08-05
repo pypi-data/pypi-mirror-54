@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pytest-graphql-schema
+Version: 0.0.2
+Summary: Get graphql schema as fixture for pytest
+Home-page: https://github.com/imaging8896/pytest-graphql-schema
+Author: Ted Chen
+Author-email: imaging8896@gmail.com
+License: MIT license
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

@@ -1,0 +1,9 @@
+setup.py
+pytest_graphql_schema/__init__.py
+pytest_graphql_schema/plugin.py
+pytest_graphql_schema.egg-info/PKG-INFO
+pytest_graphql_schema.egg-info/SOURCES.txt
+pytest_graphql_schema.egg-info/dependency_links.txt
+pytest_graphql_schema.egg-info/entry_points.txt
+pytest_graphql_schema.egg-info/requires.txt
+pytest_graphql_schema.egg-info/top_level.txt
