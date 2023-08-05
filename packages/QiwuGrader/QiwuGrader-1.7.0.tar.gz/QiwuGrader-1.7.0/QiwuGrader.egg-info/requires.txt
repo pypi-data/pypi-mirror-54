@@ -1,0 +1,6 @@
+requests
+pyyaml
+enum34
+
+[srt]
+srt
