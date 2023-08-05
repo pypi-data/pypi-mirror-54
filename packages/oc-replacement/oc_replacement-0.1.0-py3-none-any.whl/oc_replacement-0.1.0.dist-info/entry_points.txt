@@ -1,0 +1,3 @@
+[console_scripts]
+oc-auth = oc_auth.cli.main:main
+
