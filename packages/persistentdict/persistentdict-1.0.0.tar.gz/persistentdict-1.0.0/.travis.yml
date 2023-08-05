@@ -1,0 +1,9 @@
+dist: bionic
+language: python
+services:
+  - redis-server
+# command to install dependencies
+install:
+  - pip install .
+# command to run tests
+script: pytest --color=yes --verbose --showlocals
