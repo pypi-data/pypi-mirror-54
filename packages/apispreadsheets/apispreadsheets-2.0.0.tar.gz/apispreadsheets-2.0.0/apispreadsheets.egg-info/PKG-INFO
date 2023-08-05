@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: apispreadsheets
+Version: 2.0.0
+Summary: Library for API Spreadsheets Tool
+Home-page: https://github.com/asharma327/apispreadsheets_python_lib.git
+Author: API Spreadsheets Team
+Author-email: info@apispreadsheets.com
+License: UNKNOWN
+Description: # API Spreadsheets
+        
+        This is a library to access data uploaded to the API Spreadsheet tool 
+        
+        Visit [www.apispreadsheets.com](www.apispreadsheets.com) to upload a file and get started.
+        
+        You can contact us with any questions at info@apispreadsheets.com
+        
+        Happy Sharing!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

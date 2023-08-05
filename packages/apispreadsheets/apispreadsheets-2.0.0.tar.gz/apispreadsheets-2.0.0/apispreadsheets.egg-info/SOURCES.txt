@@ -1,0 +1,8 @@
+README.md
+setup.py
+apispreadsheets/__init__.py
+apispreadsheets.egg-info/PKG-INFO
+apispreadsheets.egg-info/SOURCES.txt
+apispreadsheets.egg-info/dependency_links.txt
+apispreadsheets.egg-info/requires.txt
+apispreadsheets.egg-info/top_level.txt
