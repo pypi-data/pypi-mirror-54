@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: wildflower-honeycomb-sdk
+Version: 0.7.3
+Summary: SDK for use with the Wildflower Honeycomb API
+Home-page: https://github.com/WildflowerSchools/wildflower-honeycomb-sdk-py
+Author: optimuspaul
+Author-email: paul.decoursey@wildflowerschools.org
+License: UNKNOWN
+Description: Provides uniform access to all aspects of the honeycomb API as well as a direct GraphQL interface for more complex queries.
+Platform: UNKNOWN
+Provides-Extra: local
+Provides-Extra: test
