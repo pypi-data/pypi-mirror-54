@@ -1,0 +1,8 @@
+README.md
+backupy.py
+setup.py
+backupy.egg-info/PKG-INFO
+backupy.egg-info/SOURCES.txt
+backupy.egg-info/dependency_links.txt
+backupy.egg-info/entry_points.txt
+backupy.egg-info/top_level.txt
