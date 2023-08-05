@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sc-stream
+Version: 0.1.1
+Summary: 
+Author: 仇昌栋
+Author-email: qiuchangdong@cmhi.chinamobile.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: kafka-python (>=1.4,<2.0)
