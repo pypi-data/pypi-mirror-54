@@ -1,0 +1,7 @@
+README.md
+setup.py
+fstrans/__init__.py
+fstrans.egg-info/PKG-INFO
+fstrans.egg-info/SOURCES.txt
+fstrans.egg-info/dependency_links.txt
+fstrans.egg-info/top_level.txt
