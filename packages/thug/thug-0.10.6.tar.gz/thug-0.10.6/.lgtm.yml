@@ -1,0 +1,17 @@
+path_classifiers:
+  docs:
+    - exclude: /
+    - docs
+  test:
+    - exclude: /
+    - tests
+    - samples
+  thug:
+    - thug/ThugAPI/IThugAPI.py
+    - thug/Plugins/IPlugin.py
+    - thug/DOM/eval.js
+    - thug/DOM/write.js
+    - thug/Debugger/d8.js
+    - utils/fingerprint.html
+queries:
+  - exclude: py/similar-function
