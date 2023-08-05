@@ -1,0 +1,25 @@
+# __pycache__
+__pycache__/
+*/__pycache__/
+
+# OSX
+.DS_Store
+
+# venv
+.tox/
+venv/
+
+# mypy
+.mypy_cache/
+
+# idea
+.idea/
+
+# coverage
+.coverage
+htmlcov/
+
+# distribution
+*egg-info/
+build/
+dist/
