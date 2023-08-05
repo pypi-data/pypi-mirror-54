@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fuzz-lightyear
+Version: 0.0.3
+Summary: Vulnerability Discovery through Stateful Swagger Fuzzing
+Home-page: UNKNOWN
+Author: Aaron Loo <aaronloo@yelp.com>, Joey Lee <joeylee@yelp.com>, Victor Zhou <vzhou@yelp.com>
+Author-email: UNKNOWN
+License: Copyright Yelp, Inc. 2019
+Keywords: fuzzer,security,swagger
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Dist: bravado
+Requires-Dist: cached-property
+Requires-Dist: hypothesis
+
+UNKNOWN
+
+
