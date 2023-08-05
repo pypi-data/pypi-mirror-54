@@ -1,0 +1,14 @@
+click
+requests
+requests
+django
+py-cpuinfo
+celery
+redis
+dj-static
+static3
+gunicorn
+uWSGI
+django-ratelimit
+django-crispy-forms
+iso8601
