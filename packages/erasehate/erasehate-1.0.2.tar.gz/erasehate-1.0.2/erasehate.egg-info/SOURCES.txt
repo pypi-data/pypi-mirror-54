@@ -1,0 +1,12 @@
+README.md
+setup.py
+erasehate/__init__.py
+erasehate/classifier.py
+erasehate/reclass.py
+erasehate/twitter.py
+erasehate.egg-info/PKG-INFO
+erasehate.egg-info/SOURCES.txt
+erasehate.egg-info/dependency_links.txt
+erasehate.egg-info/requires.txt
+erasehate.egg-info/top_level.txt
+erasehate.egg-info/zip-safe
