@@ -1,0 +1,6 @@
+ujson
+ruamel.yaml>=0.15.0
+xmltodict
+
+[:python_version < "3.7"]
+dataclasses
