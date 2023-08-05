@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+dekit/__init__.py
+dekit/deprecated.py
+dekit/run_once.py
+dekit.egg-info/PKG-INFO
+dekit.egg-info/SOURCES.txt
+dekit.egg-info/dependency_links.txt
+dekit.egg-info/top_level.txt
