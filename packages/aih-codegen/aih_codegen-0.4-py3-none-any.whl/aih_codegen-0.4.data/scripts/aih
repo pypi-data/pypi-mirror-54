@@ -1,0 +1,5 @@
+#!python
+
+import aih_codegen
+
+aih_codegen.GraphqlGenerate()
