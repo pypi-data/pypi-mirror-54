@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: keras_augm_layer
+Version: 1.0.3
+Summary: Keras implementation of layer which performs augmentations of images using GPU.
+Home-page: https://github.com/ZFTurbo/Keras-augmentation-layer
+Author: Roman Sol (ZFTurbo)
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Keras implementation of layer which performs augmentations of images using GPU.More details: https://github.com/ZFTurbo/Keras-augmentation-layer
+Platform: UNKNOWN
