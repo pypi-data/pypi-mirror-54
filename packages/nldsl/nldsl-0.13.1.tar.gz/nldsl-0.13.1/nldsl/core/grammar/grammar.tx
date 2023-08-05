@@ -1,0 +1,64 @@
+// NLDSL (c) 2019 by Kevin Kiefer <abc.kiefer@gmail.com>, Heidelberg University
+//
+// NLDSL is licensed under a
+// Creative Commons Attribution-NonCommercial 3.0 Unported License.
+//
+// You should have received a copy of the license along with this
+// work.  If not, see <http://creativecommons.org/licenses/by-nc/3.0/>.
+
+// Grammer for the NLDSL
+Input:
+	stmts+=Stmt
+;
+
+
+// Statemetns
+Stmt:
+	'##' eval=EvalPipeStmt | '#$' define=DefPipeStmt
+;
+
+EvalPipeStmt:		
+	(result=ID '=')? operations+=OpExpr['|']
+;
+
+DefPipeStmt:
+	assign+=DefAssignExpr '=' operations+=DefOpExpr['|']
+;
+
+
+// Expressions
+OpExpr:
+	args*=ArgExpr
+;
+
+ArgExpr:
+	(',')? expr=Expr
+;
+
+DefOpExpr:
+	args*=DefArgExpr
+;
+
+DefAssignExpr:
+	(',')? (value=ID | '$' variable=ID | '!' def_expr=ID | '$[' var_list+=DefArgListExpr ']')
+;
+
+DefArgExpr:
+	(',')? (expr=Expr | '$' variable=ID | '!' def_expr=ID | '$[' var_list+=DefArgListExpr ']')
+;
+
+DefArgListExpr:
+	(',')? (value=ID | '$' variable=ID | '!' def_expr=ID)
+;
+
+Expr:
+	value=TYPE
+;
+
+TYPE:	
+	value='>=' | value='<=' | value='==' | value='!=' | value='<>' | value='<' | value='>'
+	| value='-' | value='+' | value='**' | value='*'| value=/\//
+	| value=/not in\s/ | value=/is not\s/ | value=/in\s/ | value=/is\s/
+	| value='[' | value=']' | value='(' | value=')' | value="0"
+	| float=FLOAT | value=INT | value=BOOL | string=STRING | value=/[^\d\W](\w|\.)*\b/
+;
