@@ -1,0 +1,6 @@
+printListModule.py
+setup.py
+printListModuleAm.egg-info/PKG-INFO
+printListModuleAm.egg-info/SOURCES.txt
+printListModuleAm.egg-info/dependency_links.txt
+printListModuleAm.egg-info/top_level.txt
