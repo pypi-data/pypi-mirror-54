@@ -1,0 +1,12 @@
+accounts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+accounts/admin.py,sha256=mufZgNffG5fn-UEjm5C4Qn37TIAgpt5xd_n0w5QsN70,699
+accounts/apps.py,sha256=jNZLObsdjIU4AXlTN2C66EBY2ugSQCPuGMZb-kWQlRg,138
+accounts/backends.py,sha256=F-kHncU8nEfaEX96iuyz0NgC5DZ6XUSWVJAIgnGvjzo,1053
+accounts/settings.py,sha256=xWD5T-8fizUbhPTOa9sBfFkC_dS01B3HccurSEYFeLs,1122
+accounts/urls.py,sha256=VsE89ccaDVPnm9fSDk3wp8G6lKVcIoO9dIIwhFGCAbQ,314
+accounts/views.py,sha256=VgVff_RvjuN9_uVd4SDSu2gSC8UcxlyXASc5yUpZzfQ,2245
+django_labs_accounts-0.3.8.dist-info/LICENSE.md,sha256=aCUFvAD-aYRZo-4dXFzKaHwNlt32WaG_vh1LJvh83zA,1066
+django_labs_accounts-0.3.8.dist-info/METADATA,sha256=mu99FptZoh9ve1akRgxLAe9Ch2rBV0ih__rpdMxFSUs,3317
+django_labs_accounts-0.3.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_labs_accounts-0.3.8.dist-info/top_level.txt,sha256=m3_bV1pZHGfNZ5apJvsvFgHypzAg00btjWoYTovcdBE,9
+django_labs_accounts-0.3.8.dist-info/RECORD,,
