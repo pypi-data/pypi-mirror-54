@@ -1,0 +1,9 @@
+README.md
+setup.py
+asset_inventory/__init__.py
+asset_inventory/asset_inventory.py
+asset_inventory.egg-info/PKG-INFO
+asset_inventory.egg-info/SOURCES.txt
+asset_inventory.egg-info/dependency_links.txt
+asset_inventory.egg-info/requires.txt
+asset_inventory.egg-info/top_level.txt
