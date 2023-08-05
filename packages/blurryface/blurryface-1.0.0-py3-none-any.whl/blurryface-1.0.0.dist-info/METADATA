@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: blurryface
+Version: 1.0.0
+Summary: Blurryface
+Home-page: UNKNOWN
+Author: Jason Darnell
+Author-email: UNKNOWN
+License: Proprietary
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pyqt5
+Requires-Dist: opencv-python
+
+UNKNOWN
+
+

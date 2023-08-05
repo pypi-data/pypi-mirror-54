@@ -1,0 +1,4 @@
+[console_scripts]
+blurryface-image = blurryface.blurryface_image:main
+blurryface-video = blurryface.blurryface_video:main
+
