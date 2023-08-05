@@ -1,0 +1,11 @@
+sharik/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sharik/abstract.py,sha256=oDe0FC4Hs6L_A8hzm8M_TG4KKbKsDXG9a0yXf5RwvGs,309
+sharik/builder.py,sha256=r2rL-YHdJCXNwEDQIG5dXVkvp9LwpDPwZWLQjSf4Uyg,4102
+sharik/cli.py,sha256=RYhqOFSOoJGkDJeolqoHMe2lhsCSt20KPz5iHOY9ygI,2010
+sharik/data_sources.py,sha256=uQkC59gscQy9sErOKO624IkINgKtFkJO1x7cMBHiotQ,1581
+sharik-0.1.dist-info/LICENSE,sha256=Dq7yX0pAdepc1vu3B5HEPbXhv8ZUoTmoY2nW_SchHJc,1519
+sharik-0.1.dist-info/METADATA,sha256=8mARcTlHaJhvNrky4Dl-LAHze-hrXMkynTnWQETeimw,322
+sharik-0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+sharik-0.1.dist-info/entry_points.txt,sha256=2yaEQGF6OpXT_DfaQwfyoV2acO6_9nIq2MxEiUETBA0,48
+sharik-0.1.dist-info/top_level.txt,sha256=cEWK18TLrH97iL9gccpq_WKvW7e8l_B6-wyTtV2MaUg,7
+sharik-0.1.dist-info/RECORD,,
