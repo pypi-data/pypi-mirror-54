@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: terra-layer
+Version: 0.3.0
+Summary: Geographic data visualizer backend for terra-visu
+Home-page: https://github.com/Terralego/terra-layer.git
+Author: Makina Corpus
+Author-email: terralego-pypi@makina-corpus.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Django (==2.2.5)
+Requires-Dist: djangorestframework (<3.9,>=3.8)
+Requires-Dist: django-geosource (>=0.3)
+Requires-Dist: terra-common (>=0.3)
+
+# Terra Layer
+
+This django applications aims to provide an API to connect django_geosource to django_geodata.
+It serve an API that provides informations wanted by a frontend to configure data rendering.
+
+## Set configuration
+
+In Django settings, you must set the different views provided to fronted, like this:
+
+```
+TERRA_LAYER_VIEWS = {
+    'slug-name': {
+        'name': 'Human Name',
+        'pk': 1,
+    },
+}
+```
+
+The dict key is the stored value in view field of layers.
+
+
+0.3.0      (2019-10-18)
+-----------------------
+
+### Release
+
+* First release
+
+
