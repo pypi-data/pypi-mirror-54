@@ -1,0 +1,10 @@
+vmware_exporter/__init__.py,sha256=p50wlmG8fStasFPHtg43J9b4J6z7KgnW2EyiK1eZUsY,88
+vmware_exporter/defer.py,sha256=MQaTcfzfzYSAzkt3GCGzsVivtrRkdsc-7nnfWS8rYZk,3155
+vmware_exporter/helpers.py,sha256=iub04BOi2JNYBPSYozJcc9hmH9GwMxIQTKYJS4GIOr8,1666
+vmware_exporter/vmware_exporter.py,sha256=EDbYkuFuZjCrLgnxb2duv5ubeROdWMTAVXVM6lUrPug,44093
+vmware_exporter-0.10.4.dist-info/LICENSE,sha256=Xphk-Zr2J6zkItieCxdiBMLckwILYlpG4VCbVwuKJqM,1513
+vmware_exporter-0.10.4.dist-info/METADATA,sha256=JjqSwqjKlo_0p6bjGHZbu_IqMMO7lrnIkU-8eXFePDE,11454
+vmware_exporter-0.10.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+vmware_exporter-0.10.4.dist-info/entry_points.txt,sha256=xwC5LCPfI2YsIUSGTZuPD68J4qPGo_7zh8958Hd7b38,74
+vmware_exporter-0.10.4.dist-info/top_level.txt,sha256=Tt5QH1R19IgoaMzEwDI8SccCCi14jT8lDsZRKaQAfWY,16
+vmware_exporter-0.10.4.dist-info/RECORD,,
