@@ -1,0 +1,10 @@
+comment_formatter/.pytest_cache/.gitignore,sha256=VD_ez6CVlVki-8QAd96VkRSteqj7ViF0_gOhLH0R3Ks,50
+comment_formatter/.pytest_cache/README.md,sha256=numMMZ_9AtPkbSmahGy9Q5CMiP3PnfbXMRcSADxcW3Y,295
+comment_formatter/.pytest_cache/v/cache/nodeids,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+comment_formatter/.pytest_cache/v/cache/stepwise,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+comment_formatter/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+comment_formatter/formatter.py,sha256=NlorVWYI2BQo5JqEZgEurk5aPm1GchyE-EmCuLzq3qg,5461
+comment_formatter/run.py,sha256=2Bk66FiIpbaQaEMf1jJdjAPqwlP16kwu-341KvvcsZU,543
+comment_formatter-0.2.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+comment_formatter-0.2.0.dist-info/METADATA,sha256=-Ng68OotMfEXNwer73ZPgi1PDeWPNzObsmYNubjeSJk,309
+comment_formatter-0.2.0.dist-info/RECORD,,
