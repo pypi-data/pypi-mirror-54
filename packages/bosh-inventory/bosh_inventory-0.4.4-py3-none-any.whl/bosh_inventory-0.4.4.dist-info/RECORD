@@ -1,0 +1,8 @@
+bosh_inventory/__init__.py,sha256=EU58DExb8EeAmIM-nJyFIvSFBXIubfl0rpMUxt7CPH0,71
+bosh_inventory/bosh_inventory.py,sha256=auX5rsxeXnebeaTytidOr7SnAwrVPl0zQqh0A9aRWJw,14528
+bosh_inventory-0.4.4.dist-info/LICENSE.txt,sha256=EGqpzjpmIgnnv8oTZTUrX9iiRjI52AwYxymc6rxX8js,1075
+bosh_inventory-0.4.4.dist-info/METADATA,sha256=uZ4zDJ1csllQ5Yg3m8MmfI2NVFlbEySkYeA7-WJwS4I,7018
+bosh_inventory-0.4.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bosh_inventory-0.4.4.dist-info/entry_points.txt,sha256=bBrrnMioD_gSKIiS9zbIrzvbt0pwrDTPjqTB9k8ubFw,71
+bosh_inventory-0.4.4.dist-info/top_level.txt,sha256=2ZuCF9xNDtOZjo6VgbqryPBtRQO6zrtTRreKYdCpWeI,15
+bosh_inventory-0.4.4.dist-info/RECORD,,
