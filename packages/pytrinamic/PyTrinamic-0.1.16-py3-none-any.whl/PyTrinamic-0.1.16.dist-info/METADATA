@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: PyTrinamic
+Version: 0.1.16
+Summary: TRINAMIC's Python Technology Access Package.
+Home-page: https://github.com/trinamic/PyTrinamic
+Author: ED, LK, LH, JM, ..
+Author-email: tmc_info@trinamic.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: python-can (<4,>=3)
+Requires-Dist: pyserial (>=3)
+
+# PyTrinamic
+TRINAMIC's Python Technology Access Package.
+
+## Setup
+Simply run `pip install pytrinamic` for basic usage.
+
+## Tests
+For tests, you will need to install the additional package `openhtf` via `pip install openhtf`.
+
+
