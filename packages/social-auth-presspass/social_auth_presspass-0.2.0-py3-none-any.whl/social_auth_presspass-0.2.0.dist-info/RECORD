@@ -1,0 +1,11 @@
+social_auth_presspass/__init__.py,sha256=NPfttO0NjPr7UQD2jPFsIxyezBDELzUNTae69Ys8zM8,30
+social_auth_presspass/backends.py,sha256=Q8IjG9a7zwYXMGJm-hFRM2X5j9PYDqkQdsIzr15UpUM,596
+social_auth_presspass/pipelines.py,sha256=Qlld9_U0t3koo1HMySsswVDbpxVSaTFyxKBeO_vb3Xs,295
+src/__init__.py,sha256=NPfttO0NjPr7UQD2jPFsIxyezBDELzUNTae69Ys8zM8,30
+src/backends.py,sha256=Q8IjG9a7zwYXMGJm-hFRM2X5j9PYDqkQdsIzr15UpUM,596
+src/pipelines.py,sha256=qtk8cm-NbPO07G8-QGx1i1wdzDbNY2b94XoalIeUsv0,435
+social_auth_presspass-0.2.0.dist-info/LICENSE,sha256=8j-K0d0sbjuO5sa4V2tVAPq6F61lPncEcfVclyZUQ10,1070
+social_auth_presspass-0.2.0.dist-info/METADATA,sha256=WfX0IWAiiNotoE388ygkOnG2INYv65VnPmKu7iwJ334,6111
+social_auth_presspass-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+social_auth_presspass-0.2.0.dist-info/top_level.txt,sha256=Hk8PB0dfWOAzhEo854k9BSg5-dwLjaFNeS026LRiQS8,22
+social_auth_presspass-0.2.0.dist-info/RECORD,,
