@@ -1,0 +1,13 @@
+pystickynote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystickynote/__main__.py,sha256=5Lcwe5RT0X2LzKznXNBvVAWGtT8icaIY9eswyxK77Cw,1516
+pystickynote/config.py,sha256=NJA8Se0dBPOU9ZyEPYQ7TRP0XRGjXEv_57tVmp7xIU4,1648
+pystickynote/core.py,sha256=iPVqG2jfydvzVfXJviMzmg7RPDkbBPfJpX9evAcZLC8,4692
+pystickynote/paths.py,sha256=9SP7d2jOq-3vTvp02vyV6MFd7yuvLc-kEHxCCO5KedA,280
+pystickynote/lib/PySimpleGUIQt.py,sha256=UhMFx7BloxX7aA2bZN6A4BFFbjLaNKGswJydq8JjaOw,342576
+pystickynote/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystickynote-1.5.1.dist-info/METADATA,sha256=BDU1BZ4SyTkbbrMp5WYo027lLl22d5q4aHrszak_KqI,3222
+pystickynote-1.5.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pystickynote-1.5.1.dist-info/entry_points.txt,sha256=qQtbCuoQQQjJGcZnL0PuNLxbCNzhI44XoDvFfi_4ZIg,95
+pystickynote-1.5.1.dist-info/top_level.txt,sha256=Q3-llZoCP1CsyAVo13JKMRdvpkBT3F2jgU_L-cMq3lQ,13
+pystickynote-1.5.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pystickynote-1.5.1.dist-info/RECORD,,
