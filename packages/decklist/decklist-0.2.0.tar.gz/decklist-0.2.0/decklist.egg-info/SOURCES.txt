@@ -1,0 +1,11 @@
+README.md
+setup.py
+decklist/__init__.py
+decklist/deck.py
+decklist/parse.py
+decklist/setcodes.py
+decklist.egg-info/PKG-INFO
+decklist.egg-info/SOURCES.txt
+decklist.egg-info/dependency_links.txt
+decklist.egg-info/top_level.txt
+test/test_parser.py
