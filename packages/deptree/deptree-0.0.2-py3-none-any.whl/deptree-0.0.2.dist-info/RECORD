@@ -1,0 +1,11 @@
+deptree/__init__.py,sha256=XPOUvq_4_IhWDzh1IZZFXfus1sNXg6ZQc2hvP2GAadU,120
+deptree/__main__.py,sha256=RCfMgbgavpezxW-763ryTh7ahSBloEvoX6iR0H0P1D4,108
+deptree/_meta.py,sha256=yD2p8h8tjOyWGtBBBMMrx7Q4yep2c2BHKqxRN02oPZU,144
+deptree/_pkg_resources.py,sha256=odOf_D6haLToA2YYwcTRTuM7rBwIlFS87XVgfnDVPG0,2966
+deptree/cli.py,sha256=Pv0K159OyO7AwSkeqQd9bOHFvc2s68xr97eVbVtXDe4,463
+deptree-0.0.2.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+deptree-0.0.2.dist-info/METADATA,sha256=xe2xp-NPtya-9iIQbCFLThoy8-U_XpUeHJrkeN3O-Fo,2350
+deptree-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+deptree-0.0.2.dist-info/entry_points.txt,sha256=C2YMprtuZb7f2m1N5BNoR6DSAAuxOrjv-H7QliD3VuY,46
+deptree-0.0.2.dist-info/top_level.txt,sha256=9afaed1esl-cUeTuFVf173JV_8dLYvdpOTmSyrKKDZ4,8
+deptree-0.0.2.dist-info/RECORD,,
