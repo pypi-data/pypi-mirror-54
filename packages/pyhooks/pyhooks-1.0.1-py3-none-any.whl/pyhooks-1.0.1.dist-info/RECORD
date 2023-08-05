@@ -1,0 +1,13 @@
+pyhooks/__init__.py,sha256=1u2itxvTACSUSYovXeQQJt7K6hHvyhRTxgZJ5yjbPlA,55
+pyhooks/hooks.py,sha256=gqeWfs5OmE-99AN1EjEePAv8-mmnWZBb6xfae1AEMGY,1650
+pyhooks/tags.py,sha256=oEUyVlHSqzRiWbl1b4LncIRRUz1T-hYKYLWZ-BqtYUk,1513
+pyhooks/utils.py,sha256=PE_Cy2ODeLkGGIAGBZZyhxtgx0ht3yVfObZbuKMQ0NU,2263
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=Bk4BVAXj7WSn5ki0ie2J6Z7pglsmtf3BAOMszIJ550M,576
+tests/hooks.py,sha256=YjTQx4V-2N4XLym4OxyrMxdcBUwh412aM4uKM2kkVGk,629
+tests/tags.py,sha256=I4-DWVNAJUFUOMWB4G4Nsrvd3c84mCHjFROPBcNaCXQ,1271
+tests/utils.py,sha256=xikqjuKcBOTqyFhx7CU0OLh6uNKbgwIxIeqMgL9Hdio,241
+pyhooks-1.0.1.dist-info/METADATA,sha256=dALXUI0yUvT1nme_w5kFOXbpoSe-3zhk857RQL1RYFQ,3162
+pyhooks-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyhooks-1.0.1.dist-info/top_level.txt,sha256=E5I1uQgdTBde69yhnTcWdG-YR4hUeb60AR7XO17i6CY,14
+pyhooks-1.0.1.dist-info/RECORD,,
