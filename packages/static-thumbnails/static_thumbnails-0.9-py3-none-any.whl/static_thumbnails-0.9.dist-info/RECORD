@@ -1,0 +1,11 @@
+static_thumbnails/__init__.py,sha256=K28l8t2aaISoj8jTsMWaqCBsXcjE1sf1flmZqPidd0w,262
+static_thumbnails/apps.py,sha256=nraa9fHTq0q-JS67-z0opVUwxwhyI_icYeu7VL841UA,98
+static_thumbnails/get_version.py,sha256=Fwlyuc-lmePIG0OQleyHemMbwtWjx0NMOiB10-JRCNc,1911
+static_thumbnails/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+static_thumbnails/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+static_thumbnails/templatetags/static_thumbnails.py,sha256=qv0j10zK9nwD6Ywx5e2nKwl49zy3ebogrS4PQzJPR6M,8241
+static_thumbnails-0.9.dist-info/LICENSE,sha256=QLyQxCl_U7p7JGT83Q073-kwZHh-v28xZNJqii3cSGU,1069
+static_thumbnails-0.9.dist-info/METADATA,sha256=_QcOEORjKcqkgLwe_VpxFN2IdfZn3aC3PVNUzddk4vI,1981
+static_thumbnails-0.9.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+static_thumbnails-0.9.dist-info/top_level.txt,sha256=ikMGEhIrun40VFTC5Vi98We2ClMLFD5NES8qrCn7HCE,18
+static_thumbnails-0.9.dist-info/RECORD,,
