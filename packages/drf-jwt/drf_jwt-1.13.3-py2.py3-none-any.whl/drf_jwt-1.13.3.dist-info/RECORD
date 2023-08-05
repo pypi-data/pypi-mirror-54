@@ -1,0 +1,12 @@
+rest_framework_jwt/__init__.py,sha256=YO4wdIGzvUmBWaMZFvykyIZ-yHynbJVMAHgmluGfKo0,235
+rest_framework_jwt/authentication.py,sha256=vfSTVYJrDd1gCFXTqsVwIkN0DJahZ4QfTknQ6__40uw,4696
+rest_framework_jwt/models.py,sha256=pVyDPm6SAu-lYcKcFgVuQHvjNermXm9fzHwseTqpuQM,50
+rest_framework_jwt/serializers.py,sha256=bH9mIUjsHWJEcoRdCMNNbG_sJbz8Yh-Zam7oD1bfq5Q,4583
+rest_framework_jwt/settings.py,sha256=e757IucIO-WbatNjitQvRSIQkh3TySXc7Gjh50ZTtX0,2110
+rest_framework_jwt/utils.py,sha256=MuwXZiPWuhqxnm4wXPbUwh5NbToqbs8DJi7eJYXwVNg,4073
+rest_framework_jwt/views.py,sha256=VTk5uy4PbmVVAzBNxe9s_wnG1EU9s9-q6PKfKxjEXCo,2746
+drf_jwt-1.13.3.dist-info/LICENSE,sha256=3os99yc8IcGm-KWF1LgxCCdzIgxe0NGCnauwZJx1M6o,1106
+drf_jwt-1.13.3.dist-info/METADATA,sha256=K98pNZTB6tpn_E-XgB5KMsNsUhZnB7NJ8xe8suHMUUY,3302
+drf_jwt-1.13.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+drf_jwt-1.13.3.dist-info/top_level.txt,sha256=tDhHXFiYpRVqem1Qo5O260T55cz2v2aErJ08R6Y30ew,19
+drf_jwt-1.13.3.dist-info/RECORD,,
