@@ -1,0 +1,54 @@
+Metadata-Version: 1.2
+Name: frites
+Version: 0.1.0
+Summary: Framework of Information Theory for Electrophysiological data and Statistics
+Home-page: https://github.com/brainets/frites
+Author: BraiNets
+Author-email: e.combrisson@gmail.com
+Maintainer: Etienne Combrisson
+License: BSD 3-Clause License
+Download-URL: https://github.com/brainets/frites/archive/v0.1.0.tar.gz
+Description: ======
+        frites
+        ======
+        
+        .. image:: https://travis-ci.org/brainets/frites.svg?branch=master
+            :target: https://travis-ci.org/brainets/frites
+        
+        .. image:: https://circleci.com/gh/brainets/frites.svg?style=svg
+            :target: https://circleci.com/gh/brainets/frites
+        
+        .. image:: https://codecov.io/gh/brainets/frites/branch/master/graph/badge.svg
+          :target: https://codecov.io/gh/brainets/frites
+        
+        .. figure::  https://github.com/brainets/frites/blob/master/docs/source/_static/frites.png
+            :align:  center
+        
+        
+        Description
+        -----------
+        
+        Framework for Information Theoretical analysis of Electrophysiological data and Statistics
+        
+        
+        Installation
+        ------------
+        
+        In your terminal enter the following lines :
+        
+        .. code-block:: shell
+        
+            git clone https://github.com/brainets/frites.git
+            cd frites
+            python setup.py develop
+        
+        
+Keywords: information-theory statistics
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
