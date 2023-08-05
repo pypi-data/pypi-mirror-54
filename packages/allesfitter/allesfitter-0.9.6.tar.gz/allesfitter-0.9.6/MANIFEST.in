@@ -1,0 +1,6 @@
+include allesfitter/GUI.ipynb
+include allesfitter/LOGO_circ.png
+prune build/
+prune dist/
+prune tutorials/
+prune docs/
