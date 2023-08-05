@@ -1,0 +1,9 @@
+setup.py
+CUMSUM_Change_Point_Analytics/ChangePointDetection.py
+CUMSUM_Change_Point_Analytics/__init__.py
+CUMSUM_Change_Point_Analytics/assertStatements.py
+CUMSUM_Change_Point_Analytics.egg-info/PKG-INFO
+CUMSUM_Change_Point_Analytics.egg-info/SOURCES.txt
+CUMSUM_Change_Point_Analytics.egg-info/dependency_links.txt
+CUMSUM_Change_Point_Analytics.egg-info/not-zip-safe
+CUMSUM_Change_Point_Analytics.egg-info/top_level.txt
