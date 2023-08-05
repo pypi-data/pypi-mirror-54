@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: E2Yaml
+Version: 0.3
+Summary: An Environment Variable to Yaml Converter
+Home-page: https://github.com/josephp27/E2Yaml
+Author: Joseph Procopio
+Author-email: josephp27@live.com
+License: MIT
+Download-URL: https://github.com/josephp27/E2Yaml/archive/0.3.tar.gz
+Description: UNKNOWN
+Keywords: Yaml,Converter,Environment,Variable
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
