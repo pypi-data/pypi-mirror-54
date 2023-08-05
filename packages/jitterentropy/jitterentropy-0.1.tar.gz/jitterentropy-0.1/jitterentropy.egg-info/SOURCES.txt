@@ -1,0 +1,7 @@
+README.md
+jitterentropy.c
+setup.py
+jitterentropy.egg-info/PKG-INFO
+jitterentropy.egg-info/SOURCES.txt
+jitterentropy.egg-info/dependency_links.txt
+jitterentropy.egg-info/top_level.txt

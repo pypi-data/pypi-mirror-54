@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: jitterentropy
+Version: 0.1
+Summary: Use libjitterentropy to get random bytes
+Home-page: https://github.com/swills/py-jitterentropy
+Author: Steve Wills
+Author-email: steve@mouf.net
+License: LICENSE
+Description: # What is this?
+        
+        Python wrapper for libjitterentropy
+        
+        # See also
+        
+        * [jitterentropy docs](http://www.chronox.de/jent.html)
+        * [libjitterentropy](https://github.com/smuellerDD/jitterentropy-library)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
