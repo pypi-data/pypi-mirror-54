@@ -1,0 +1,15 @@
+version: 2.1
+jobs:
+  build:
+
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: build images
+          command: |
+            make build-docker
+      - run:
+          name: run unit tests
+          command: |
+            make unit-test-docker
