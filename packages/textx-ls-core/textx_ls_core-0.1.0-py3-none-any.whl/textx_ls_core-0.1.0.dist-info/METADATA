@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: textx-ls-core
+Version: 0.1.0
+Summary: a core language server logic for domain specific languages based on textX
+Home-page: https://github.com/textX/textX-LS/core
+Author: Daniel Elero
+Author-email: danixeee@gmail.com
+License: MIT
+Keywords: textX DSL python domain specific languages
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: textX (>=2.1.0)
+Requires-Dist: click (==7.0)
+Requires-Dist: wheel-inspect (==1.3.0)
+Provides-Extra: dev
+Requires-Dist: bandit (==1.5.1) ; extra == 'dev'
+Requires-Dist: flake8 (==3.7.7) ; extra == 'dev'
+Requires-Dist: textx-gen-vscode (>=0.1.2) ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage (==4.5.3) ; extra == 'test'
+Requires-Dist: pytest (==4.3.1) ; extra == 'test'
+Requires-Dist: pytest-cov (==2.6.1) ; extra == 'test'
+Provides-Extra: vscode
+Requires-Dist: textx-gen-vscode (>=0.1.2) ; extra == 'vscode'
+
+# _textX-LS-core_
+
+_textX-LS-core_ project contains all logic for providing features like:
+
+- _Code completion_
+- _Code lens_
+- _Find all references_
+- _Go to definition_
+
+
