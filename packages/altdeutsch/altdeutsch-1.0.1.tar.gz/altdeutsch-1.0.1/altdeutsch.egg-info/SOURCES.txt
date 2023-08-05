@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+altdeutsch/__init__.py
+altdeutsch/reader.py
+altdeutsch.egg-info/PKG-INFO
+altdeutsch.egg-info/SOURCES.txt
+altdeutsch.egg-info/dependency_links.txt
+altdeutsch.egg-info/top_level.txt
+altdeutsch.egg-info/zip-safe
+altdeutsch/tests/__init__.py
+altdeutsch/tests/test_reader.py
+altdeutsch/tests/data/hildebrandslied.txt
