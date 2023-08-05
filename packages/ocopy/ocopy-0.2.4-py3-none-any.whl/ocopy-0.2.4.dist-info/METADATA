@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ocopy
+Version: 0.2.4
+Summary: Securely copy files to multiple destinations using source and destination verification.
+Home-page: https://github.com/ottomatic-io/ocopy
+Author: Ben Hagen
+Author-email: ben@ottomatic.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=7.0)
+Requires-Dist: lxml (>=4.4.1)
+Requires-Dist: sh (>=1.12.14)
+Requires-Dist: xxhash (>=1.4.2)
+
+# o/COPY
+A multi destination copy tool / library with source and destination verification using xxHash.
+
+## Installation
+
+### With pip
+If you have Python 3 installed you can just use `pip`:
+```
+pip3 install ocopy
+```
+
+
