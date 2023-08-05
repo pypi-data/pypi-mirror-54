@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: voice_assistant_mm
+Version: 0.0.1
+Summary: A simple module that allows for the quick setup of python Voice Assistants
+Home-page: https://github.com/MattCodes03/voice_assist
+Author: Matthew McCann
+Author-email: matthewmccann41@gmail.com
+License: UNKNOWN
+Description: # voice_assist
+        
+        This module allows for the quick creation of voice assistants in python, by allowing developers to bypass the set-up of speech recognition and audio response functions
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

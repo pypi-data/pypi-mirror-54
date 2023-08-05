@@ -1,0 +1,6 @@
+README.md
+setup.py
+voice_assistant_mm.egg-info/PKG-INFO
+voice_assistant_mm.egg-info/SOURCES.txt
+voice_assistant_mm.egg-info/dependency_links.txt
+voice_assistant_mm.egg-info/top_level.txt
