@@ -1,0 +1,10 @@
+pydist_cli/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+pydist_cli/__main__.py,sha256=rhtGJtj7pP0IsGsnxDI2Oj0zoWj6_4_2zEr0UXvqbiI,1242
+pydist_cli/install.py,sha256=BEtuwxyiTeIMOVmn4qq5Bw1isF7FLL2fXRY8rJqfmFo,252
+pydist_cli/publish.py,sha256=saJ5EkjmQgJodWjH6_OJI9SGLNPHFe9_9fhPlnkHJE0,1187
+pydist_cli/settings.py,sha256=BHf_Xc1GmdxIMWwOZO9GzoeYah6vueXYpUWbnE1KEmk,1960
+pydist_cli-0.1.1.dist-info/METADATA,sha256=KvAykCvthmGmg6GgiklvtY95DyMqwSSMdvxyrcf_1lk,1420
+pydist_cli-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pydist_cli-0.1.1.dist-info/entry_points.txt,sha256=A2CN2hjhq_qQdwWEQJOehdrn-q0zh6XIsAhm2Qo4sZ8,53
+pydist_cli-0.1.1.dist-info/top_level.txt,sha256=OiXnhz15H6ZYPWtyX7MCyzB0SY4JSk3Ikzc5Q99ah1M,11
+pydist_cli-0.1.1.dist-info/RECORD,,
