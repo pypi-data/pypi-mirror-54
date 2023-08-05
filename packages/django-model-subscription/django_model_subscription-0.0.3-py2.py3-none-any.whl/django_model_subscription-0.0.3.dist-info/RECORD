@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=ANUCAIuKZlVg6DrBemhILxTvKie984MIUT44VSduejM,1420
+django_model_subscription/__init__.py,sha256=CCdB8H1ofBDZI_PwUXlHe450bOrz69DqAf86d268gng,147
+django_model_subscription/settings.py,sha256=Tq5f-Z2UVmvDZDNAs12o6Goyluv8eDwtRGeRNaGKTx4,3255
+django_model_subscription/urls.py,sha256=pg9vyvnKlWFzmggDYRwfY-xd9tYWStW4e_Lfb5fuVZ0,767
+django_model_subscription/wsgi.py,sha256=XmSYvD7plzGwv7fvRFRsLFYl-Z9xUn8-GKx4oH24Tlk,427
+manage.py,sha256=KllkwYi6uyH3UvoJo55bkEHQfixuh6oX9PvqJ9RQwh4,557
+django_model_subscription-0.0.3.dist-info/WHEEL,sha256=QMHkjGvxv3VzbxS3PLXUS4g079erQ43qD1oit7eHsL0,89
+django_model_subscription-0.0.3.dist-info/METADATA,sha256=GsA9e-osYTYDrb5t4FyvBNNLxC8fHAXQMYJIMY9jhh8,2007
+django_model_subscription-0.0.3.dist-info/RECORD,,
