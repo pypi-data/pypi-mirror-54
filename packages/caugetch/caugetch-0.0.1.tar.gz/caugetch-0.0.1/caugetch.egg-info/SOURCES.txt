@@ -1,0 +1,9 @@
+README.md
+setup.py
+caugetch/__init__.py
+caugetch/getch.py
+caugetch/pause.py
+caugetch.egg-info/PKG-INFO
+caugetch.egg-info/SOURCES.txt
+caugetch.egg-info/dependency_links.txt
+caugetch.egg-info/top_level.txt
