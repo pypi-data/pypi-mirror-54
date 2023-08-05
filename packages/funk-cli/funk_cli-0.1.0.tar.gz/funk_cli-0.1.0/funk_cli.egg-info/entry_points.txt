@@ -1,0 +1,3 @@
+[console_scripts]
+funk_cli = funk_cli.cli:main
+
