@@ -1,0 +1,3 @@
+[console_scripts]
+not-much-fire=not_much_fire.cli:main
+
