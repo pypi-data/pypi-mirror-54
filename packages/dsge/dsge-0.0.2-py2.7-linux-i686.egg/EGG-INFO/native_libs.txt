@@ -1,0 +1,3 @@
+dsge/fortran/cholmod.so
+dsge/fortran/gensysw.so
+dsge/fortran/filter.so
