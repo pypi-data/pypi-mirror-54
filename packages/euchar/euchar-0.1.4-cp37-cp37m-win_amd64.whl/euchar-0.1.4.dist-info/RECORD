@@ -1,0 +1,15 @@
+euchar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+euchar/curve.py,sha256=gEWUXjnK1IGBebZdOcaOV7OuXHLMDJLM5-mwFgaau20,4631
+euchar/display.py,sha256=1PhYype235Ij7duJDctFaN8jmgwv4Of2HmMDN35_UYg,12442
+euchar/filtrations.py,sha256=RuAdQPZo4j6vdj8xtQohVk2T6pyanc9ZfrZyFZ1xaVQ,6025
+euchar/surface.py,sha256=bkkxH42YmzHyT9tVhelyQ6dELrZ4QYKbZfM9WPIQxjY,7536
+euchar/utils.py,sha256=fyKCyVKKGNochYpthbjJgtVqJDVohWJ1qwTPbnhGGtY,10367
+euchar/cppbinding/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+euchar/cppbinding/curve.cp37-win_amd64.pyd,sha256=JtyCaxCKLFWx4nYZ8NhCYRm_z9xMbvHvJifoOL4MEGk,132096
+euchar/cppbinding/surface.cp37-win_amd64.pyd,sha256=bDbbLtVI3vKvjlAc84GABfihKSt-9OSHoO1kYosL_KU,143360
+euchar/cppbinding/utils.cp37-win_amd64.pyd,sha256=PljTh4VjPEDR-zi-5kC3a9ItXtoMCbwW2nMGwK42uQI,123904
+euchar-0.1.4.dist-info/LICENSE,sha256=MUZYh0qnskfWvetwREO6cU_xYtjiahKkLS4WGawUmxM,1095
+euchar-0.1.4.dist-info/METADATA,sha256=MDi7fafz0VEu24d0ej9SWAI6IU5smuPujtFlwKlQw30,1827
+euchar-0.1.4.dist-info/WHEEL,sha256=uaZe_9gV-4T_d4AskuIQkCgcY8wMc0UXsVFnf0_mBGs,106
+euchar-0.1.4.dist-info/top_level.txt,sha256=KaJD7XdwZk6qVv8Rkwiqq5ebXFQQIFiex_AIjAyWKt8,27
+euchar-0.1.4.dist-info/RECORD,,
