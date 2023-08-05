@@ -1,0 +1,4 @@
+locustio
+psycogreen
+psycopg2
+websocket-client
