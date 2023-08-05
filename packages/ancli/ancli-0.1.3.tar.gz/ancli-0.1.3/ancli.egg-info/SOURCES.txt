@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+ancli/__init__.py
+ancli/__main__.py
+ancli/ancli.py
+ancli/version.py
+ancli.egg-info/PKG-INFO
+ancli.egg-info/SOURCES.txt
+ancli.egg-info/dependency_links.txt
+ancli.egg-info/top_level.txt
