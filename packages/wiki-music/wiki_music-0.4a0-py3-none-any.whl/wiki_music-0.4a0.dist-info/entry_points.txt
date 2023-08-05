@@ -1,0 +1,4 @@
+[console_scripts]
+wiki-music-cli = wiki_music.app_cli:main
+wiki-music-gui = wiki_music.app_gui:main
+
