@@ -1,0 +1,10 @@
+README.md
+setup.py
+wecover/__init__.py
+wecover/image.py
+wecover.egg-info/PKG-INFO
+wecover.egg-info/SOURCES.txt
+wecover.egg-info/dependency_links.txt
+wecover.egg-info/entry_points.txt
+wecover.egg-info/requires.txt
+wecover.egg-info/top_level.txt
