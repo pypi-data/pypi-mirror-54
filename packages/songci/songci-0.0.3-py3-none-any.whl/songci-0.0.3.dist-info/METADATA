@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: songci
+Version: 0.0.3
+Summary: songci checks proxies
+Home-page: https://github.com/terbeznik/songci
+Author: Alexander Terbeznik
+Author-email: alexander.terbeznik@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: beautifulsoup4
+
+# UNDER CONSTRUCTION
+
+

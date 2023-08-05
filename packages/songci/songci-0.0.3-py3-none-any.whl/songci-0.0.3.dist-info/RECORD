@@ -1,0 +1,10 @@
+songci/__init__.py,sha256=UKZ1JWzYsCkYiVACJsUX4fxKWMSf_kNf8M0_Z030uxE,392
+songci/__main__.py,sha256=MF5OrxxQ9fzOq40IUumpKc6ONo_8FnU329N_hL982NM,1530
+songci/api.py,sha256=mc4q48MrSTkDCT10xtMHzUfeLCcQ4PPYH0BcgjL5llM,5893
+songci/helper.py,sha256=urHMao4kDfmvB9vKQ6qq-XZJuu3EouTuC5nlUszSYpk,2542
+songci-0.0.3.dist-info/LICENSE,sha256=e_M1LvoDD_WkEJlUDGynJToxBdeyMlSmi7vMc1GN2To,1075
+songci-0.0.3.dist-info/METADATA,sha256=QmL9BAzaA8OBgaIpQZ3hXi7Eqo3QBlyAr0YdJBWvZ5g,519
+songci-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+songci-0.0.3.dist-info/entry_points.txt,sha256=UrI3ofD_F1Y4VCQho2cebozb9SoQ__FWYu9_KREShsI,49
+songci-0.0.3.dist-info/top_level.txt,sha256=RB423ENzalXe3GWtruEaxO9fPibAQkQR5ASOBPrCJnY,7
+songci-0.0.3.dist-info/RECORD,,
