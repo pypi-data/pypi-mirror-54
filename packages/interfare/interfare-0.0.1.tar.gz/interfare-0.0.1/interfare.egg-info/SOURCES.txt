@@ -1,0 +1,12 @@
+README.md
+setup.py
+interfare/__init__.py
+interfare/interfare.py
+interfare.egg-info/PKG-INFO
+interfare.egg-info/SOURCES.txt
+interfare.egg-info/dependency_links.txt
+interfare.egg-info/top_level.txt
+sample/__init__.py
+sample/sample.py
+test/__init__.py
+test/interfare.py
