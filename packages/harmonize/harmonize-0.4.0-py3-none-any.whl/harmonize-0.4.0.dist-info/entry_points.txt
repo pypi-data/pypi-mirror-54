@@ -1,0 +1,3 @@
+[console_scripts]
+harmonize = harmonize.__main__:main
+
