@@ -1,0 +1,6 @@
+[console_scripts]
+clockify_to_workbook = clockify_idleless.clockify_to_workbook:main
+
+[gui_scripts]
+clockify_idleless = clockify_idleless.idleless:main
+

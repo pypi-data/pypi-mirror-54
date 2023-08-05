@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+clockify_idleless/Clockify.ico
+clockify_idleless/__init__.py
+clockify_idleless/clockify.py
+clockify_idleless/clockify_to_workbook.py
+clockify_idleless/config.ini
+clockify_idleless/idleless.py
+clockify_idleless.egg-info/PKG-INFO
+clockify_idleless.egg-info/SOURCES.txt
+clockify_idleless.egg-info/dependency_links.txt
+clockify_idleless.egg-info/entry_points.txt
+clockify_idleless.egg-info/requires.txt
+clockify_idleless.egg-info/top_level.txt
