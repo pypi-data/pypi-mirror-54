@@ -1,0 +1,12 @@
+README.rst
+setup.py
+django_simplecaptcha.egg-info/PKG-INFO
+django_simplecaptcha.egg-info/SOURCES.txt
+django_simplecaptcha.egg-info/dependency_links.txt
+django_simplecaptcha.egg-info/requires.txt
+django_simplecaptcha.egg-info/top_level.txt
+simplecaptcha/__init__.py
+simplecaptcha/decorators.py
+simplecaptcha/fields.py
+simplecaptcha/settings.py
+simplecaptcha/widgets.py
