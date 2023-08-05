@@ -1,0 +1,7 @@
+README.md
+setup.py
+geniuspy/__init__.py
+geniuspy.egg-info/PKG-INFO
+geniuspy.egg-info/SOURCES.txt
+geniuspy.egg-info/dependency_links.txt
+geniuspy.egg-info/top_level.txt
