@@ -1,0 +1,8 @@
+README.md
+pic2tweet
+setup.py
+pic2tweet.egg-info/PKG-INFO
+pic2tweet.egg-info/SOURCES.txt
+pic2tweet.egg-info/dependency_links.txt
+pic2tweet.egg-info/requires.txt
+pic2tweet.egg-info/top_level.txt
