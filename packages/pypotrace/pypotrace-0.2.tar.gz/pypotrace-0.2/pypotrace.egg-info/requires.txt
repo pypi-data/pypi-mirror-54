@@ -1,0 +1,6 @@
+numpy
+
+[dev]
+nose
+pillow
+cython<0.29
