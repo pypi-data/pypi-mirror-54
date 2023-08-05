@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+me-nd-distributions/Binomialdistribution.py
+me-nd-distributions/Gaussiandistribution.py
+me-nd-distributions/Generaldistribution.py
+me-nd-distributions/__init__.py
+me_nd_distributions.egg-info/PKG-INFO
+me_nd_distributions.egg-info/SOURCES.txt
+me_nd_distributions.egg-info/dependency_links.txt
+me_nd_distributions.egg-info/not-zip-safe
+me_nd_distributions.egg-info/top_level.txt
