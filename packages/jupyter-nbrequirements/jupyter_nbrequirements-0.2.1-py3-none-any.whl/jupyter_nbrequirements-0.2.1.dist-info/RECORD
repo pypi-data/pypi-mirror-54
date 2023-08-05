@@ -1,0 +1,13 @@
+jupyter_nbrequirements/__about__.py,sha256=WZ3qBTgSg3OuEMsECfCvvL7SP8h-l49EMuUzEAm6fgg,506
+jupyter_nbrequirements/__init__.py,sha256=T3WUQyqZV-xulp31uHPniWHo3GMNIc0wosKzmJnR5aQ,17341
+jupyter_nbrequirements/magic_parser.py,sha256=euJt1lcLqFSc34T6G2ZsR5f7mLu7I8RLEBIe6kJL8l4,1759
+jupyter_nbrequirements/static/extension.js,sha256=NdotErMc263t8FFfsfS5FI0FVViDndhUXMhq33gBzjc,10668
+jupyter_nbrequirements/static/index.js,sha256=qjGf9s4pU_8eXfSsHtL_oTQKYrztgP3MCF4MjKBt0Mk,1651940
+jupyter_nbrequirements-0.2.1.data/data/etc/jupyter/nbconfig/notebook.d/jupyter-nbrequirements.json,sha256=e49RkmH0XZQmX3zxjFoCpVD5-GbJu71sU1FdZR079N8,76
+jupyter_nbrequirements-0.2.1.data/data/share/jupyter/nbextensions/jupyter-nbrequirements/extension.js,sha256=NdotErMc263t8FFfsfS5FI0FVViDndhUXMhq33gBzjc,10668
+jupyter_nbrequirements-0.2.1.data/data/share/jupyter/nbextensions/jupyter-nbrequirements/index.js,sha256=qjGf9s4pU_8eXfSsHtL_oTQKYrztgP3MCF4MjKBt0Mk,1651940
+jupyter_nbrequirements-0.2.1.dist-info/LICENSE,sha256=HiGTk4vmR4tDrQOcnwRDYXdv1rjbg_26OezLBN6d2o0,1071
+jupyter_nbrequirements-0.2.1.dist-info/METADATA,sha256=D9uoRdJTlZAmp1iwZTWYewbViGDxFRhBv5Uu6CL2Sq0,4168
+jupyter_nbrequirements-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+jupyter_nbrequirements-0.2.1.dist-info/top_level.txt,sha256=M9x0T77yD_fArXWkjlSbrrFog54AYFyi5xpDjiGr_zA,23
+jupyter_nbrequirements-0.2.1.dist-info/RECORD,,
