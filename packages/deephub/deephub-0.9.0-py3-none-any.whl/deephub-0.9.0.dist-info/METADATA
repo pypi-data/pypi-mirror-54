@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: deephub
+Version: 0.9.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: ujson (==1.35)
+Requires-Dist: Fabric (==1.12.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: pandas-gbq
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+Requires-Dist: h5py
+Requires-Dist: yagmail
+Requires-Dist: keyring (==8.7)
+Requires-Dist: tqdm
+Requires-Dist: gensim
+Requires-Dist: json-logging-py (==0.2)
+Requires-Dist: imageio (~=2.3.0)
+Requires-Dist: flask
+Requires-Dist: google-cloud-storage (~=1.14)
+Requires-Dist: tabulate (~=0.8.2)
+Requires-Dist: nltk
+Requires-Dist: spacy
+Requires-Dist: PyYAML (~=3.13.0)
+Requires-Dist: Pillow (~=5.2.0)
+Requires-Dist: jupyter
+Requires-Dist: tf-sentencepiece
+Requires-Dist: sentencepiece
+Requires-Dist: six (~=1.12.0)
+Requires-Dist: attrs (~=18.2.0)
+Requires-Dist: tensorflow (==1.15rc2)
+Requires-Dist: pytest
+Requires-Dist: metayaml
+Provides-Extra: test
+Requires-Dist: pytest (>=3.0.2) ; extra == 'test'
+Requires-Dist: pytest-logging (==2015.11.4) ; extra == 'test'
+Requires-Dist: mock (~=2.0.0) ; extra == 'test'
+Requires-Dist: nltk (~=3.3.0) ; extra == 'test'
+
+UNKNOWN
+
+

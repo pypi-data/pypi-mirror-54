@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        deep=deephub.__main__:cli
+        deep_resources=deephub.resources.__main__:cli
+      
