@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: partialCopy
+Version: 0.2.1
+Summary: A tool to copy big data to multiple smaller disks 
+Home-page: https://github.com/mkalioby/partialCopy
+Author: Mohamed El-Kalioby
+Author-email: mkalioby@mkalioby.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: admin,utils,notification
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
