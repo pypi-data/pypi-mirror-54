@@ -1,0 +1,12 @@
+./aph/Makefile.am
+./api/Makefile.am
+./bbb/Makefile.am
+./com/Makefile.am
+./flx/Makefile.am
+./grd/Makefile.am
+./ncl/Makefile.am
+./pyuedgesrvr/ue/Makefile.am
+./pyuedgesrvr/Makefile.am
+./svr/Makefile.am
+./wdf/Makefile.am
+./pyscripts/Makefile.am
