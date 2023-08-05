@@ -1,0 +1,3 @@
+[console_scripts]
+example-pkg-cloos=example_pkg_cloos.cli:main
+
