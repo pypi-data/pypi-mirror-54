@@ -1,0 +1,11 @@
+nfsepmsj/__init__.py,sha256=RE2qi_9SLi4pvTubQPOdghh8ml_yTZMIfSCmOsGwVt0,905
+nfsepmsj/client.py,sha256=XnbesFn2Zh6POLUZqf-HrgbvaVmy0-Q9Id7OkyZj27Q,18750
+nfsepmsj/utils.py,sha256=fnh0oM_lqGmroVy0wqtATV27tUD2wrVvmApUmBiNZB8,1551
+nfsepmsj/xml.py,sha256=xDSv3FZ0h6E7QF7SBofrrxWPeH45-byljPZXDbVrmYo,9540
+nfsepmsj/xsd/nfse_v202.xsd,sha256=qzL3Y9I0BQjRmhvAY0v0d0f2jeO2R8xVCKvRn09bkqE,37790
+nfsepmsj/xsd/xmldsig-core-schema20020212.xsd,sha256=E_KYV8M3vvV05Z6hAjyqqbQHvK4N6gE8XClThWiHCNQ,10467
+nfsepmsj-0.0.2.dist-info/LICENSE,sha256=F8_1CktPnu0Vr6yquQ9tWoRXpXEri_bCowxxzsUIYO8,11372
+nfsepmsj-0.0.2.dist-info/METADATA,sha256=FOFZVOMoN311nPCsS26Nfb00j9-_5H1fAbXM5XhjG6E,14586
+nfsepmsj-0.0.2.dist-info/WHEEL,sha256=CihQvCnsGZQBGAHLEUMf0IdA4fRduS_NBUTMgCTtvPM,110
+nfsepmsj-0.0.2.dist-info/top_level.txt,sha256=moi_wbBMJjzzSNuIaPWM2oD6qvVZVTom-h8bxSxdH50,9
+nfsepmsj-0.0.2.dist-info/RECORD,,
