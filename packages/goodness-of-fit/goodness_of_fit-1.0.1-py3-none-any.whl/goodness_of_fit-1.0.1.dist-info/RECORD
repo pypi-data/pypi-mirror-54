@@ -1,0 +1,9 @@
+goodness_of_fit/__init__.py,sha256=S27xIj40KpIhThSEZ5iOwD3stJSiUEcKYzgYxaQkTqI,17088
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_goodness_of_fit.py,sha256=TRO8JCWiRYXOR1RYWXIKJ5SAvl_Ka2V7QA_j0BKlu8o,3953
+goodness_of_fit-1.0.1.dist-info/LICENSE.txt,sha256=V8bBeOSCkPlUIloHhzQjsyKnlKe703SHsxvsnDSpINc,18324
+goodness_of_fit-1.0.1.dist-info/METADATA,sha256=KyfqHsGxYuMJgyFCZLcrocbJUVQ1Yaj8wDQ7KwHd-lo,2435
+goodness_of_fit-1.0.1.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+goodness_of_fit-1.0.1.dist-info/top_level.txt,sha256=hF50IMBcan0QuZuMgjZ61_Pa1CzqtOqooRlo9sl1tJ0,22
+goodness_of_fit-1.0.1.dist-info/RECORD,,
