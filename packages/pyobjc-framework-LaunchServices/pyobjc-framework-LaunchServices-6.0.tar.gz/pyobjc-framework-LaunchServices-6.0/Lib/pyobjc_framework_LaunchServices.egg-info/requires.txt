@@ -1,0 +1,2 @@
+pyobjc-core>=6.0
+pyobjc-framework-CoreServices>=6.0
