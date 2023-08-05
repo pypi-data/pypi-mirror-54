@@ -1,0 +1,13 @@
+README.md
+setup.py
+pywindow/__init__.py
+pywindow/io_tools.py
+pywindow/molecular.py
+pywindow/tables.py
+pywindow/trajectory.py
+pywindow/utilities.py
+pywindowx.egg-info/PKG-INFO
+pywindowx.egg-info/SOURCES.txt
+pywindowx.egg-info/dependency_links.txt
+pywindowx.egg-info/requires.txt
+pywindowx.egg-info/top_level.txt
