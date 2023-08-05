@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: lib-clickbot
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/jfuruness/lib_clickbot.git
+Author: Justin Furuness
+Author-email: jfuruness@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/jfuruness/lib_clickbot.git
+Description: UNKNOWN
+Keywords: Furuness,furuness,pypi,package,clickbot
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
