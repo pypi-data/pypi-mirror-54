@@ -1,0 +1,7 @@
+README.md
+setup.py
+dmarc/__init__.py
+dmarc.egg-info/PKG-INFO
+dmarc.egg-info/SOURCES.txt
+dmarc.egg-info/dependency_links.txt
+dmarc.egg-info/top_level.txt
