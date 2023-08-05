@@ -1,0 +1,7 @@
+README.md
+hax.py
+setup.py
+hax.egg-info/PKG-INFO
+hax.egg-info/SOURCES.txt
+hax.egg-info/dependency_links.txt
+hax.egg-info/top_level.txt
