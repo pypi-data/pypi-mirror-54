@@ -1,0 +1,156 @@
+{
+    "config": {
+        "db": {
+            "path": "/rpool/data/shared/System",
+            "file": "safer.pdb"
+        },
+        "pool": {
+            "name": "rpool",
+            "mountpoint": "/rpool",
+            "parent": "",
+            "dirs": [],
+            "rootfs": false
+        },
+        "filesystems": [
+            {
+                "pool": "rpool",
+                "name": "rpool/data/shared",
+                "parent": "rpool",
+                "mountpoint": "/rpool/data/shared",
+                "backup": "HighFreq",
+                "dirs": ["System"],
+                "owner": "root",
+                "rootfs": true
+            },
+            {
+                "pool": "rpool",
+                "name": "rpool/data/shared/hf-1",
+                "parent": "rpool/data/shared",
+                "mountpoint": "/rpool/data/shared/hf-1",
+                "backup": "HighFreq",
+                "dirs": ["Homes", "Documents", "Workspace", "Projects", "Desktop"],
+                "owner": "www-data",
+                "rootfs": false
+            },
+            {
+                "pool": "rpool",
+                "name": "rpool/data/shared/lf-1",
+                "parent": "rpool/data/shared",
+                "mountpoint": "/rpool/data/shared/lf-1",
+                "backup": "LowFreq",
+                "dirs": ["Photos", "Videos"],
+                "owner": "www-data",
+                "rootfs": false
+            },
+            {
+                "pool": "rpool",
+                "name": "rpool/data/shared/nobk-1",
+                "parent": "rpool/data/shared",
+                "mountpoint": "/rpool/data/shared/nobk-1",
+                "backup": "None",
+                "dirs": ["Downloads", "NoBackup", "Temp"],
+                "owner": "www-data",
+                "rootfs": false
+            },
+            {
+                "pool": "rpool",
+                "name": "rpool/data/shared/sync-1",
+                "parent": "rpool/data/shared",
+                "mountpoint": "/rpool/data/shared/sync-1",
+                "backup": "Synchonized",
+                "dirs": ["Archives", "Backups", "Music", "Applications"],
+                "owner": "www-data",
+                "rootfs": false
+            }
+        ],
+        "volumes": [
+            {
+                "pool": "rpool",
+                "name": "rpool/data/shared/external-1",
+                "fstype": "ext4",
+                "backup": "Synchronized",
+                "size": "1024G",
+                "thin": true
+            }
+        ],
+        "backups": {
+            "HighFreq": {
+                "policy": [
+                    {
+                        "duration": "2h",
+                        "period": "15min"
+                    },
+                    {
+                        "duration": "3d",
+                        "period": "4h"
+                    },
+                    {
+                        "duration": "10d",
+                        "period": "12h"
+                    },
+                    {
+                        "durartion": "1month",
+                        "period": "1d"
+                    },
+                    {
+                        "duration": "6month",
+                        "period": "1w"
+                    },
+                    {
+                        "duration": "2y",
+                        "period": "1month"
+                    }
+                ],
+                "target": {
+                    "node": "stor1.inspeere.net",
+                    "sshport": "11022",
+                    "login": "user1",
+                    "sshkey": "opt/safer/.ssh/id_rsa",
+                    "zpool": "zpool",
+                    "rootfs": "zpool/BACKUPS/hf"
+                }
+            },
+            "LowFreq": {
+                "policy": [
+                    {
+                        "duration": "1month",
+                        "period": "1d"
+                    },
+                    {
+                        "duration": "6month",
+                        "period": "1w"
+                    },
+                    {
+                        "duration": "2y",
+                        "period": "1month"
+                    }
+                ],
+                "target": {
+                    "node": "stor1.inspeere.net",
+                    "sshport": "11022",
+                    "login": "user1",
+                    "sshkey": "opt/safer/.ssh/id_rsa",
+                    "zpool": "zpool",
+                    "rootfs": "zpool/BACKUPS/lf"
+                }
+            },
+            "Synchronized": {
+                "policy": [
+                    {
+                        "duration": "1d",
+                        "period": "1d"
+                    }
+                ],
+                "target": {
+                    "node": "stor1.inspeere.net",
+                    "sshport": "11022",
+                    "login": "user1",
+                    "sshkey": "opt/safer/.ssh/id_rsa",
+                    "zpool": "zpool",
+                    "root": "zpool/BACKUPS/sync"
+                }
+            }
+        }
+
+    }
+}

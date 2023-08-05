@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+email-validator
+pyzfs
+pickledbod
+setuptools
+twine
+wheel
