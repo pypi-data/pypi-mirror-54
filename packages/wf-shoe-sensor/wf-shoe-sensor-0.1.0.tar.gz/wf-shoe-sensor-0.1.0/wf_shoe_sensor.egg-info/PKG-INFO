@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: wf-shoe-sensor
+Version: 0.1.0
+Summary: Python package for communicating with Wildflower shoe sensors through BLE interface
+Home-page: https://github.com/WildflowerSchools/shoe_sensor
+Author: Theodore Quinn
+Author-email: ted.quinn@wildflowerschools.org
+License: UNKNOWN
+Description: # shoe_sensor
+        
+        Python package for communicating with Wildflower shoe sensors through BLE interface
+        
+Keywords: bluetooth
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python

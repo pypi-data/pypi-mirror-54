@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+VERSION
+setup.py
+shoe_sensor/__init__.py
+shoe_sensor/core.py
+shoe_sensor/tools/__init__.py
+shoe_sensor/tools/collect_csv.py
+shoe_sensor/tools/collect_honeycomb.py
+shoe_sensor/tools/shoe_scan.py
+wf_shoe_sensor.egg-info/PKG-INFO
+wf_shoe_sensor.egg-info/SOURCES.txt
+wf_shoe_sensor.egg-info/dependency_links.txt
+wf_shoe_sensor.egg-info/requires.txt
+wf_shoe_sensor.egg-info/top_level.txt
