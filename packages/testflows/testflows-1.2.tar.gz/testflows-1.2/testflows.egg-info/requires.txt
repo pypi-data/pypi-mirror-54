@@ -1,0 +1,6 @@
+testflows.core
+testflows.asserts
+testflows.uexpect
+testflows.connect
+
+[dev]
