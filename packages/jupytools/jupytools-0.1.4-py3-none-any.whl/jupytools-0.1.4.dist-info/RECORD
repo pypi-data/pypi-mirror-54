@@ -1,0 +1,11 @@
+jupytools/__init__.py,sha256=dxW-uGeJDdsb8dA2mUJiYEFna81nqLXN-qCPzC-1U3U,149
+jupytools/__main__.py,sha256=7q-PYJFuE4UhigWhDJBssBgUTcFND-ehSt1jgS85mP0,1275
+jupytools/debug.py,sha256=u7L3b-6AoO_LaRwjwP26BZKi1CGW-T0TgkLeRXVrPOo,1803
+jupytools/export.py,sha256=zqwkY64_Si6i8KPUtOvIoyptT7OWQY8iNp1_bM4zfB8,6642
+jupytools/syspath.py,sha256=HY26Ech0VzJGXgbo2sMufUKrg4wZoUkBNb-WMccsfGs,1117
+jupytools/version.py,sha256=_3Xg4v_ZMB_oS_duJHdhCKnCScKlFbcgXLCC8hlGoX8,23
+jupytools-0.1.4.dist-info/LICENSE,sha256=TztsXLo7432y8Q5aWmJU_3Wu4tJUkgq3xGag6RzoHUg,1065
+jupytools-0.1.4.dist-info/METADATA,sha256=9zzFXs2Rkv2O-tvl2zvhbngAzWdrKc-sqKYAc6lFOIg,734
+jupytools-0.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+jupytools-0.1.4.dist-info/top_level.txt,sha256=or2YUSUj5DVBCPjt3h-bKmVBLi8uv8b6vXLR-0eJEUI,10
+jupytools-0.1.4.dist-info/RECORD,,
