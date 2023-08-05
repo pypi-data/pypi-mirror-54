@@ -1,0 +1,89 @@
+- project:
+    templates:
+      - openstack-python-jobs
+      - openstack-python35-jobs
+      - periodic-stable-jobs
+      - publish-openstack-sphinx-docs
+      - check-requirements
+      - release-notes-jobs
+    check:
+      jobs:
+        - openstack-tox-pylint:
+            voting: false
+        - sahara-tests-scenario:
+            vars:
+              sahara_scenario_tox_env: venv-py2
+        - sahara-tests-scenario-modwsgi:
+            vars:
+              sahara_scenario_tox_env: venv-py2
+            voting: false
+        - sahara-tests-tempest
+        - openstack-tox-cover:
+            voting: false
+        - sahara-grenade
+    gate:
+      queue: sahara
+      jobs:
+        - sahara-tests-scenario:
+            vars:
+              sahara_scenario_tox_env: venv-py2
+        - sahara-tests-tempest
+        - sahara-grenade
+    experimental:
+      jobs:
+        - sahara-buildimages-ambari
+        - sahara-buildimages-cloudera
+        - sahara-buildimages-mapr
+        - sahara-tests-scenario-multinode-spark
+    post:
+      jobs:
+        - openstack-tox-cover
+
+- job:
+    name: sahara-grenade
+    parent: legacy-dsvm-base
+    run: playbooks/sahara-grenade/run.yaml
+    post-run: playbooks/sahara-grenade/post.yaml
+    timeout: 10800
+    required-projects:
+      - openstack/grenade
+      - openstack/devstack-gate
+      - openstack/sahara
+      - openstack/python-saharaclient
+      - openstack/heat
+      - openstack/heat-tempest-plugin
+      - openstack/python-heatclient
+      - openstack/sahara-tests
+    irrelevant-files:
+      - ^(test-|)requirements.txt$
+      - ^.*\.rst$
+      - ^doc/.*$
+      - ^sahara/locale/.*$
+      - ^sahara/tests/unit/.*$
+      - ^releasenotes/.*$
+      - ^tools/.*$
+      - ^tox.ini$
+
+- job:
+    name: sahara-buildimages-base
+    nodeset: centos-7
+    run: playbooks/buildimages/run.yaml
+    timeout: 7200
+
+- job:
+    name: sahara-buildimages-ambari
+    parent: sahara-buildimages-base
+    vars:
+      sahara_plugin: ambari
+
+- job:
+    name: sahara-buildimages-cloudera
+    parent: sahara-buildimages-base
+    vars:
+      sahara_plugin: cloudera
+
+- job:
+    name: sahara-buildimages-mapr
+    parent: sahara-buildimages-base
+    vars:
+      sahara_plugin: mapr
