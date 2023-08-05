@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hangar-pil
+Version: 0.1.0
+Summary: PIL plugin for hangar
+Home-page: https://github.com/hhsecond/hangar_pil
+Author: hhsecond
+Author-email: sherin@tensorwerk.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# hangar_pil
+Hangar PIL plugin
+
+
