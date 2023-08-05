@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: zilingo-airflow-utils-test
+Version: 1.0.0
+Summary: Python package which has utility methods for Airflow
+Home-page: https://github.com/Varnit-Zilingo/zilingo_airflow_utils_test
+Author: Varnit Khandelwal
+Author-email: varnit.khandelwal13@gmail.com
+License: UNKNOWN
+Description: This Python package provides the utility methods to access the data from drive, GCS, BigQuery, S3 and you can also upload the files on it. Triggering status email for your workflow
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

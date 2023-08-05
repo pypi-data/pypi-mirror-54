@@ -1,0 +1,8 @@
+README.md
+setup.py
+airflow_utils_test/__init__.py
+airflow_utils_test/trends_utils_test.py
+zilingo_airflow_utils_test.egg-info/PKG-INFO
+zilingo_airflow_utils_test.egg-info/SOURCES.txt
+zilingo_airflow_utils_test.egg-info/dependency_links.txt
+zilingo_airflow_utils_test.egg-info/top_level.txt
