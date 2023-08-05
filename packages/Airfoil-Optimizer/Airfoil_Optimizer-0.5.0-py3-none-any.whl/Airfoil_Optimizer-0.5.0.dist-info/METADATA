@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: Airfoil-Optimizer
+Version: 0.5.0
+Summary: Airfoil Optimization using OpenMDAO
+Home-page: https://github.com/daniel-de-vries/airfoil-optimizer
+Author: Daniel de Vries
+Author-email: danieldevries6@gmail.com
+License: MIT License
+Download-URL: https://github.com/daniel-de-vries/airfoil-optimizer/archive/v0.5.0.tar.gz
+Keywords: airfoil,optimization
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: openmdao (<2.10,>=2.8)
+Requires-Dist: h5py (<3,>=2.10.0)
+Requires-Dist: cst (==1.0.1)
+Requires-Dist: differential-evolution (==1.7.0)
+Requires-Dist: matplotlib (<4,>=3)
+
+UNKNOWN
+
+
