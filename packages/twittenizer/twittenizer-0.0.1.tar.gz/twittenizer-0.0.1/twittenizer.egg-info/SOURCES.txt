@@ -1,0 +1,10 @@
+README.md
+setup.py
+twittenizer/__init__.py
+twittenizer/converter.py
+twittenizer/mongo_mng.py
+twittenizer/tokenizer.py
+twittenizer.egg-info/PKG-INFO
+twittenizer.egg-info/SOURCES.txt
+twittenizer.egg-info/dependency_links.txt
+twittenizer.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: twittenizer
+Version: 0.0.1
+Summary: A tokenizer for Twitter
+Home-page: https://github.com/Kydlaw/twittenizer
+Author: Kydlaw
+Author-email: kydlaw@protonmail.com
+License: UNKNOWN
+Description: # Twittenizer: Convert stupid text in smart features.
+        
+        The goal of this tool is to provide an advanced tokenizer for tweets.
+        It is build on top of NLTK tokenizer.
+        
+        Inputs:
+        
+        - Tweets in .json format
+        - Raw tweets in .txt format
+        
+        Output:
+        
+        - Tokens ready to fit in a neural network
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
