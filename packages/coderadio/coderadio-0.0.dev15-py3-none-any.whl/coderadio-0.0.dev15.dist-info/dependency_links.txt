@@ -1,0 +1,1 @@
+http://github.com/andreztz/streamscrobbler-python/tarball/master#egg=streamscrobbler-0.0.2
