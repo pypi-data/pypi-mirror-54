@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: cathartidae
+Version: 1.0.1
+Summary: decorators for reducing nesting
+Home-page: https://github.com/MATTHEWFRAZER/cathartidae
+Author: Matthew Frazer
+Author-email: mfrazeriguess@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: code reuse nesting reduction
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
