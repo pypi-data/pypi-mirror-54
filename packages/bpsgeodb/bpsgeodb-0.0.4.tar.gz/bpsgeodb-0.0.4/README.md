@@ -1,0 +1,45 @@
+# bpsgeodb
+
+BPS Geodatabase - API Authorization and Access Python Modules
+----------------------------------------------------------------
+
+The objective of this module is to facilitate the authorization flow in our API.
+More information about the API you can find in the DEVELOPER DOCS section of the BPS Geodatabase.
+
+Installation
+------------
+
+``` pip install bspgeodb ```
+
+
+Code Example 
+------------
+
+```
+import bpsgeodb
+import pathlib
+import dotenv
+
+from pprint import pprint
+
+# Access to the API requires authorization.
+# You must set up all necessary environment variables for the Authorization
+# to work. Optionally you may read the environment variables from .env file.
+# ATTENTION: Make sure you do not add your API KEYS to any code repository.
+
+env_path = pathlib.Path('.') / '.env'
+dotenv.load_dotenv(dotenv_path=env_path)
+
+# create a BPS Geodb API Service instance
+api = bpsgeodb.ApiService()
+
+# Start authorization
+api.authorize()
+
+# Get all wells with Oil Geochemistry data
+data = api.getData("oil_geochemistry/wells")
+
+# Print API response
+pprint(data)
+
+```
