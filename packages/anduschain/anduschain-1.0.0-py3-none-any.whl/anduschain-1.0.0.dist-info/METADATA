@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: anduschain
+Version: 1.0.0
+Summary: anduschain-python SDK ( web3.py wrapped )
+Home-page: https://github.com/anduschain/anduschain-python
+Author: andus
+Author-email: kmha@andusdeb.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# anduschain-python
+
+
