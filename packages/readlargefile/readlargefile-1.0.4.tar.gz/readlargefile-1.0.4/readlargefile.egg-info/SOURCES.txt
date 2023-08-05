@@ -1,0 +1,8 @@
+README.md
+setup.py
+readlargefile/__init__.py
+readlargefile/line_reader.py
+readlargefile.egg-info/PKG-INFO
+readlargefile.egg-info/SOURCES.txt
+readlargefile.egg-info/dependency_links.txt
+readlargefile.egg-info/top_level.txt
