@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+haowu_probability/Binomialdistribution.py
+haowu_probability/Gaussiandistribution.py
+haowu_probability/Generaldistribution.py
+haowu_probability/__init__.py
+haowu_probability.egg-info/PKG-INFO
+haowu_probability.egg-info/SOURCES.txt
+haowu_probability.egg-info/dependency_links.txt
+haowu_probability.egg-info/not-zip-safe
+haowu_probability.egg-info/top_level.txt
