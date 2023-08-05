@@ -1,0 +1,7 @@
+README.md
+setup.py
+tensor-grid
+tensor_grid.egg-info/PKG-INFO
+tensor_grid.egg-info/SOURCES.txt
+tensor_grid.egg-info/dependency_links.txt
+tensor_grid.egg-info/top_level.txt

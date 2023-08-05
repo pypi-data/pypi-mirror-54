@@ -1,0 +1,1968 @@
+
+
+
+
+
+
+
+TensorBoard Travis build status Compat check PyPI
+TensorBoard is a suite of web applications for inspecting and understanding your TensorFlow runs and graphs.
+
+This README gives an overview of key concepts in TensorBoard, as well as how to interpret the visualizations TensorBoard provides. For an in-depth example of using TensorBoard, see the tutorial: TensorBoard: Visualizing Learning. For in-depth information on the Graph Visualizer, see this tutorial: TensorBoard: Graph Visualization.
+
+You may also want to watch this video tutorial that walks through setting up and using TensorBoard. There's an associated tutorial with an end-to-end example of training TensorFlow and using TensorBoard.
+
+Usage
+Before running TensorBoard, make sure you have generated summary data in a log directory by creating a summary writer:
+
+# sess.graph contains the graph definition; that enables the Graph Visualizer.
+
+file_writer = tf.summary.FileWriter('/path/to/logs', sess.graph)
+For more details, see the TensorBoard tutorial. Once you have event files, run TensorBoard and provide the log directory. If you're using a precompiled TensorFlow package (e.g. you installed via pip), run:
+
+tensorboard --logdir path/to/logs
+Or, if you are building from source:
+
+bazel build tensorboard:tensorboard
+./bazel-bin/tensorboard/tensorboard --logdir path/to/logs
+
+# or even more succinctly
+bazel run tensorboard -- --logdir path/to/logs
+This should print that TensorBoard has started. Next, connect to http://localhost:6006.
+
+TensorBoard requires a logdir to read logs from. For info on configuring TensorBoard, run tensorboard --help.
+
+TensorBoard can be used in Google Chrome or Firefox. Other browsers might work, but there may be bugs or performance issues.
+
+Key Concepts
+Summary Ops: How TensorBoard gets data from TensorFlow
+The first step in using TensorBoard is acquiring data from your TensorFlow run. For this, you need summary ops. Summary ops are ops, like tf.matmul or tf.nn.relu, which means they take in tensors, produce tensors, and are evaluated from within a TensorFlow graph. However, summary ops have a twist: the Tensors they produce contain serialized protobufs, which are written to disk and sent to TensorBoard. To visualize the summary data in TensorBoard, you should evaluate the summary op, retrieve the result, and then write that result to disk using a summary.FileWriter. A full explanation, with examples, is in the tutorial.
+
+The supported summary ops include:
+
+tf.summary.scalar
+tf.summary.image
+tf.summary.audio
+tf.summary.text
+tf.summary.histogram
+Tags: Giving names to data
+When you make a summary op, you will also give it a tag. The tag is basically a name for the data recorded by that op, and will be used to organize the data in the frontend. The scalar and histogram dashboards organize data by tag, and group the tags into folders according to a directory/like/hierarchy. If you have a lot of tags, we recommend grouping them with slashes.
+
+Event Files & LogDirs: How TensorBoard loads the data
+summary.FileWriters take summary data from TensorFlow, and then write them to a specified directory, known as the logdir. Specifically, the data is written to an append-only record dump that will have "tfevents" in the filename. TensorBoard reads data from a full directory, and organizes it into the history of a single TensorFlow execution.
+
+Why does it read the whole directory, rather than an individual file? You might have been using supervisor.py to run your model, in which case if TensorFlow crashes, the supervisor will restart it from a checkpoint. When it restarts, it will start writing to a new events file, and TensorBoard will stitch the various event files together to produce a consistent history of what happened.
+
+Runs: Comparing different executions of your model
+You may want to visually compare multiple executions of your model; for example, suppose you've changed the hyperparameters and want to see if it's converging faster. TensorBoard enables this through different "runs". When TensorBoard is passed a logdir at startup, it recursively walks the directory tree rooted at logdir looking for subdirectories that contain tfevents data. Every time it encounters such a subdirectory, it loads it as a new run, and the frontend will organize the data accordingly.
+
+For example, here is a well-organized TensorBoard log directory, with two runs, "run1" and "run2".
+
+/some/path/mnist_experiments/
+/some/path/mnist_experiments/run1/
+/some/path/mnist_experiments/run1/events.out.tfevents.1456525581.name
+/some/path/mnist_experiments/run1/events.out.tfevents.1456525585.name
+/some/path/mnist_experiments/run2/
+/some/path/mnist_experiments/run2/events.out.tfevents.1456525385.name
+/tensorboard --logdir /some/path/mnist_experiments
+You may also pass a comma separated list of log directories, and TensorBoard will watch each directory. You can also assign names to individual log directories by putting a colon between the name and the path, as in
+
+tensorboard --logdir name1:/path/to/logs/1,name2:/path/to/logs/2
+The Visualizations
+Scalar Dashboard
+TensorBoard's Scalar Dashboard visualizes scalar statistics that vary over time; for example, you might want to track the model's loss or learning rate. As described in Key Concepts, you can compare multiple runs, and the data is organized by tag. The line charts have the following interactions:
+
+Clicking on the small blue icon in the lower-left corner of each chart will expand the chart
+
+Dragging a rectangular region on the chart will zoom in
+
+Double clicking on the chart will zoom out
+
+Mousing over the chart will produce crosshairs, with data values recorded in the run-selector on the left.
+
+Additionally, you can create new folders to organize tags by writing regular expressions in the box in the top-left of the dashboard.
+
+Histogram Dashboard
+The HistogramDashboard displays how the statistical distribution of a Tensor has varied over time. It visualizes data recorded via tf.summary.histogram. Each chart shows temporal "slices" of data, where each slice is a histogram of the tensor at a given step. It's organized with the oldest timestep in the back, and the most recent timestep in front. By changing the Histogram Mode from "offset" to "overlay", the perspective will rotate so that every histogram slice is rendered as a line and overlaid with one another.
+
+Distribution Dashboard
+The Distribution Dashboard is another way of visualizing histogram data from tf.summary.histogram. It shows some high-level statistics on a distribution. Each line on the chart represents a percentile in the distribution over the data: for example, the bottom line shows how the minimum value has changed over time, and the line in the middle shows how the median has changed. Reading from top to bottom, the lines have the following meaning: [maximum, 93%, 84%, 69%, 50%, 31%, 16%, 7%, minimum]
+
+These percentiles can also be viewed as standard deviation boundaries on a normal distribution: [maximum, Î¼+1.5Ïƒ, Î¼+Ïƒ, Î¼+0.5Ïƒ, Î¼, Î¼-0.5Ïƒ, Î¼-Ïƒ, Î¼-1.5Ïƒ, minimum] so that the colored regions, read from inside to outside, have widths [Ïƒ, 2Ïƒ, 3Ïƒ] respectively.
+
+Image Dashboard
+The Image Dashboard can display pngs that were saved via a tf.summary.image. The dashboard is set up so that each row corresponds to a different tag, and each column corresponds to a run. Since the image dashboard supports arbitrary pngs, you can use this to embed custom visualizations (e.g. matplotlib scatterplots) into TensorBoard. This dashboard always shows you the latest image for each tag.
+
+Audio Dashboard
+The Audio Dashboard can embed playable audio widgets for audio saved via a tf.summary.audio. The dashboard is set up so that each row corresponds to a different tag, and each column corresponds to a run. This dashboard always embeds the latest audio for each tag.
+
+Graph Explorer
+The Graph Explorer can visualize a TensorBoard graph, enabling inspection of the TensorFlow model. To get best use of the graph visualizer, you should use name scopes to hierarchically group the ops in your graph - otherwise, the graph may be difficult to decipher. For more information, including examples, see the graph visualizer tutorial.
+
+Embedding Projector
+The Embedding Projector allows you to visualize high-dimensional data; for example, you may view your input data after it has been embedded in a high- dimensional space by your model. The embedding projector reads data from your model checkpoint file, and may be configured with additional metadata, like a vocabulary file or sprite images. For more details, see the embedding projector tutorial.
+
+Text Dashboard
+The Text Dashboard displays text snippets saved via tf.summary.text. Markdown features including hyperlinks, lists, and tables are all supported.
+
+Frequently Asked Questions
+My TensorBoard isn't showing any data! What's wrong?
+First, check that the directory passed to --logdir is correct. You can also verify this by navigating to the Scalars dashboard (under the "Inactive" menu) and looking for the log directory path at the bottom of the left sidebar.
+
+If you're loading from the proper path, make sure that event files are present. TensorBoard will recursively walk its logdir, it's fine if the data is nested under a subdirectory. Ensure the following shows at least one result:
+
+find DIRECTORY_PATH | grep tfevents
+
+You can also check that the event files actually have data by running tensorboard in inspect mode to inspect the contents of your event files.
+
+tensorboard --inspect --logdir DIRECTORY_PATH
+
+TensorBoard is showing only some of my data, or isn't properly updating!
+Update: the experimental --reload_multifile=true option can now be used to poll all "active" files in a directory for new data, rather than the most recent one as described below. A file is "active" as long as it received new data within --reload_multifile_inactive_secs seconds ago, defaulting to 4000.
+
+This issue usually comes about because of how TensorBoard iterates through the tfevents files: it progresses through the events file in timestamp order, and only reads one file at a time. Let's suppose we have files with timestamps a and b, where a<b. Once TensorBoard has read all the events in a, it will never return to it, because it assumes any new events are being written in the more recent file. This could cause an issue if, for example, you have two FileWriters simultaneously writing to the same directory. If you have multiple summary writers, each one should be writing to a separate directory.
+
+Does TensorBoard support multiple or distributed summary writers?
+Update: the experimental --reload_multifile=true option can now be used to poll all "active" files in a directory for new data, defined as any file that received new data within --reload_multifile_inactive_secs seconds ago, defaulting to 4000.
+
+No. TensorBoard expects that only one events file will be written to at a time, and multiple summary writers means multiple events files. If you are running a distributed TensorFlow instance, we encourage you to designate a single worker as the "chief" that is responsible for all summary processing. See supervisor.py for an example.
+
+I'm seeing data overlapped on itself! What gives?
+If you are seeing data that seems to travel backwards through time and overlap with itself, there are a few possible explanations.
+
+You may have multiple execution of TensorFlow that all wrote to the same log directory. Please have each TensorFlow run write to its own logdir.
+
+Update: the experimental --reload_multifile=true option can now be used to poll all "active" files in a directory for new data, defined as any file that received new data within --reload_multifile_inactive_secs seconds ago, defaulting to 4000.
+
+You may have a bug in your code where the global_step variable (passed to FileWriter.add_summary) is being maintained incorrectly.
+
+It may be that your TensorFlow job crashed, and was restarted from an earlier checkpoint. See How to handle TensorFlow restarts, below.
+
+As a workaround, try changing the x-axis display in TensorBoard from steps to wall_time. This will frequently clear up the issue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.2
+
+
+> sumSS <-0
+> library(graphics)
+> sample1=read.table("C:/Users/Dell/Downloads/Print/my_data.txt")
+> p <- lm(y ~ sample1$x1,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x1, data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x1  
+     2.7821       0.7196  
+
+> plot(sample1$y,sample1$y,main = "Regression model develop using X1")
+
+> abline(p,col="blue")
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+ 9.596326 11.028242  9.977691 10.042451  9.524370  9.351677 11.251304 10.618095 11.841340  9.574739 
+       11        12        13        14        15        16        17        18        19        20 
+11.071415 10.330273 11.006655 10.495771 10.905918  8.286735  9.545957  9.236548 10.495771  9.884148 
+       21        22        23        24        25        26        27        28        29        30 
+10.438206  9.402046 10.776398 10.359055  8.941530  9.603522 10.042451 11.107393 10.265513 10.409424 
+       31        32        33        34        35        36        37        38        39        40 
+ 9.589131  9.898539 11.575104  9.236548 10.783593 10.229535  9.905735 10.610900 10.474184  9.718651 
+       41        42        43        44        45        46        47        48        49        50 
+ 9.646695  9.840975  9.545957  9.351677  9.992082 10.229535 10.970678 10.567726  9.402046 10.186362 
+       51        52        53        54        55        56        57        58        59        60 
+ 9.833779  9.114224 10.395033 10.380642 10.330273 10.574922  9.265330  9.833779  9.855366  9.625108 
+       61        62        63        64        65        66        67        68        69        70 
+10.265513  9.783411  9.761824  9.344482 11.639864 10.726029 10.215144 10.812375  9.646695 10.690051 
+       71        72        73        74        75        76        77        78        79        80 
+10.308686  9.797802 11.150567  9.085441 10.100015 10.488575  9.308504  8.912748 10.056842 10.013668 
+       81        82        83        84        85        86        87        88        89        90 
+10.474184  8.999095  9.135810  9.150201 10.769202  9.884148 11.114589 10.056842 11.186544 10.323077 
+       91        92        93        94        95        96        97        98        99       100 
+11.035438  9.689868  9.402046 11.560713 10.344664  9.020681 10.035255  9.488393  9.948908  9.107028 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[1]<-sum(suqarederror)
+> # y as x2
+> p <- lm(y ~ sample1$x2,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x2, data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x2  
+      4.943        0.516  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+10.464726  9.520389 10.975598  9.561671 10.573093 10.247993 10.583414  9.891931  9.680358 10.800147 
+       11        12        13        14        15        16        17        18        19        20 
+10.552452  9.675198  9.969336 10.779506  9.571992 10.686620 10.284115  9.830008  9.928054 10.665979 
+       21        22        23        24        25        26        27        28        29        30 
+ 9.943535 10.175749 10.309917  9.964176 10.139627 10.516330  9.701000 10.315077  9.571992 10.309917 
+       31        32        33        34        35        36        37        38        39        40 
+10.893033 10.160268 10.113825 10.480207 10.794987  9.726801 10.980758  9.148846  8.880510 10.284115 
+       41        42        43        44        45        46        47        48        49        50 
+ 9.670038  9.515228  8.354157  9.989977 10.201550 10.139627 10.000298 10.433764 11.135567 10.573093 
+       51        52        53        54        55        56        57        58        59        60 
+10.051901  9.974496 10.629856 10.717582 10.702101  9.236571 10.129306 10.753704 10.774345  9.154006 
+       61        62        63        64        65        66        67        68        69        70 
+65428  9.597793 10.764025 
+       71        72        73        74        75        76        77        78        79        80 
+ 9.190128  9.448144 10.304757 10.315077  9.752603 10.155107  9.989977  9.639076 10.278955 10.738223 
+       81        82        83        84        85        86        87        88        89        90 
+10.469887  9.613274  9.525549  9.902252 10.155107  9.711320  9.680358 10.129306 10.304757 10.062222 
+       91        92        93        94        95        96        97        98        99       100 
+ 9.520389 11.491629 10.005458  9.391381 10.263474  9.649397  9.876450  9.613274  9.623595 10.449245 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[2]<-sum(suqarederror)
+> # y as x3
+> p <- lm(y ~ sample1$x3,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x3, data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x3  
+     8.8476       0.1241  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+10.155823 10.076387 10.251394  9.901379 10.291112 10.102452  9.948544  9.937373 10.235259 10.065216 
+       11        12        13        14        15        16        17        18        19        20 
+10.004398  9.783466 10.221606 10.114863  9.871590 10.196782 10.009362 10.132240 10.159546 10.210435 
+       21        22        23        24        25        26        27        28        29        30 
+ 9.991986 10.076387  9.888967 10.063975 10.113622 10.338277 10.271253  9.952268  9.969644 10.279942 
+       31        32        33        34        35        36        37        38        39        40 
+10.086316 10.050322  9.898897 10.324624  9.838078  9.964680 10.171958 10.099969 10.106175 10.031704 
+       41        42        43        44        45        46        47        48        49        50 
+10.061492 10.140928 10.068939 10.109899 10.077628 10.164511 10.026739 10.174440  9.984539 10.078869 
+       51        52        53        54        55        56        57        58        59        60 
+10.037910 10.103693 10.236500 10.246429 10.144652 10.095004 10.102452 10.179405  9.963438 10.298559 
+       61        62        63        64        65        66        67        68        69        70 
+10.107416 10.169476  9.973368 10.266288 10.005639 10.054045 10.132240 10.127275 10.112381 10.328348 
+       71        72        73        74        75        76        77        78        79        80 
+10.149617 10.273736  9.994468 10.129758 10.315936  9.999433 10.032945 10.018051  9.959715 10.065216 
+       81        82        83        84        85        86        87        88        89        90 
+ 9.828149  9.916273  9.898897 10.076387 10.073904  9.980815 10.024257 10.153340 10.052804 10.313454 
+       91        92        93        94        95        96        97        98        99       100 
+10.118587 10.106175  9.937373  9.921238 10.194299 10.042874 10.302283 10.248912 10.128516 10.191817 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[3]<-sum(suqarederror)
+> # y as x4
+> p <- lm(y ~ sample1$x4,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x4, data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x4  
+    9.36013      0.07193  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+10.008260 10.101775 10.035595 10.052860 10.206800  9.988838 10.089546 10.115443 10.131268 10.125514 
+       11        12        13        14        15        16        17        18        19        20 
+10.148533 10.175149 10.122636  9.997470 10.096020 10.057176  9.963661 10.066527 10.145655 10.123356 
+       21        22        23        24        25        26        27        28        29        30 
+10.188097 10.101056 10.122636 10.062211 10.123356  9.994593 10.080195 10.183781 10.113285 10.115443 
+       31        32        33        34        35        36        37        38        39        40 
+10.198887 10.077317 10.129830 10.129110  9.985960 10.185219 10.099617 10.065808 10.108969 10.044227 
+       41        42        43        44        45        46        47        48        49        50 
+10.153568  9.999628  9.922658 10.124075 10.032718 10.111846 10.004663 10.121917 10.075159  9.957906 
+       51        52        53        54        55        56        57        58        59        60 
+10.044227 10.058614 10.244206 10.121198 10.143497 10.085950 10.065808 10.019770 10.059334 10.044227 
+       61        62        63        64        65        66        67        68        69        70 
+10.075879 10.104653 10.058614 10.040631 10.123356 10.051421 10.121917 10.184500 10.069405 10.084511 
+       71        72        73        74        75        76        77        78        79        80 
+10.100337 10.136304 10.021208 10.111846 10.124075 10.003225 10.070843 10.000347 10.179465 10.247083 
+       81        82        83        84        85        86        87        88        89        90 
+10.093143 10.140620 10.191694  9.993873 10.131268 10.075159 10.137743 10.134146 10.138462 10.096020 
+       91        92        93        94        95        96        97        98        99       100 
+10.055737 10.148533 10.103214 10.069405 10.064369 10.052860 10.126233 10.145655 10.028402 10.121198 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[4]<-sum(suqarederror)
+> # y as x5
+> p <- lm(y ~ sample1$x5,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x5, data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x5  
+    9.35834      0.07327  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+10.098342 10.069768 10.008956  9.955471 10.141570 10.079293 10.084422 10.149629 10.189926 10.111530 
+       11        12        13        14        15        16        17        18        19        20 
+10.036798 10.058045 10.251471 10.128382 10.129847  9.919571 10.066105 10.101273 10.111530 10.037531 
+       21        22        23        24        25        26        27        28        29        30 
+10.042659 10.132045 10.179669 10.126184 10.092481 10.019947 10.053649 10.033867 10.169411 10.174540 
+       31        32        33        34        35        36        37        38        39        40 
+10.142303 10.131313 10.060976 10.061709 10.154758  9.995036 10.075630 10.052184 10.028006 10.113728 
+       41        42        43        44        45        46        47        48        49        50 
+10.172342 10.008956 10.151095 10.104936 10.117392  9.960600 10.239748 10.134243 10.062441 10.114461 
+       51        52        53        54        55        56        57        58        59        60 
+10.177471 10.004560 10.183332 10.199451 10.082956 10.099075 10.000164 10.145233 10.130580 10.159154 
+       61        62        63        64        65        66        67        68        69        70 
+10.069768 10.093946 10.110065 10.030204 10.110065 10.110065 10.160619 10.171609 10.102006 10.078560 
+       71        72        73        74        75        76        77        78        79        80 
+ 9.954006 10.088818 10.239748 10.008956 10.059511 10.173075 10.041927 10.071966 10.085887 10.099075 
+       81        82        83        84        85        86        87        88        89        90 
+ 9.995036 10.016283 10.033135 10.066105 10.140837 10.266124 10.002362 10.244877 10.136441 10.045590 
+       91        92        93        94        95        96        97        98        99       100 
+10.052184 10.046323 10.155491 10.009689  9.992105 10.110065 10.102006 10.055115 10.028006 10.034600 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[5 ]<-sum(suqarederror)
+> # y as x6
+> p <- lm(y ~ sample1$x6,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x6, data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x6  
+  10.192761    -0.009984  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+       1        2        3        4        5        6        7        8        9       10       11 
+10.08993 10.07975 10.09282 10.09302 10.08454 10.08993 10.08793 10.08404 10.09492 10.08823 10.10141 
+      12       13       14       15       16       17       18       19       20       21       22 
+10.09153 10.09153 10.10520 10.07436 10.11878 10.09941 10.08174 10.07815 10.09772 10.09312 10.08644 
+      23       24       25       26       27       28       29       30       31       32       33 
+10.09542 10.10101 10.08893 10.10421 10.08833 10.12308 10.09552 10.06856 10.07186 10.10750 10.08943 
+      34       35       36       37       38       39       40       41       42       43       44 
+10.09642 10.09782 10.06667 10.09642 10.09263 10.09123 10.08863 10.09402 10.10121 10.09382 10.08064 
+      45       46       47       48       49       50       51       52       53       54       55 
+10.06697 10.10481 10.08673 10.09023 10.08494 10.08773 10.08763 10.09612 10.06467 10.08394 10.10710 
+      56       57       58       59       60       61       62       63       64       65       66 
+10.07795 10.09522 10.10021 10.09692 10.09193 10.10870 10.10191 10.09822 10.08354 10.09233 10.08114 
+      67       68       69       70       71       72       73       74       75       76       77 
+10.08314 10.09422 10.09722 10.08194 10.08843 10.09602 10.09223 10.11129 10.08094 10.08873 10.10031 
+      78       79       80       81       82       83       84       85       86       87       88 
+10.09263 10.09422 10.10550 10.09572 10.09752 10.09682 10.11010 10.10610 10.08913 10.09712 10.08963 
+      89       90       91       92       93       94       95       96       97       98       99 
+10.08434 10.07605 10.09862 10.10620 10.10540 10.09153 10.08673 10.09602 10.07925 10.09652 10.09312 
+     100 
+10.08045 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[6]<-sum(suqarederror)
+> # y as x7
+> p <- lm(y ~ sample1$x7,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x7, data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x7  
+   10.05820      0.00335  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+       1        2        3        4        5        6        7        8        9       10       11 
+10.09124 10.09600 10.09030 10.09023 10.09600 10.09342 10.09154 10.09650 10.09023 10.09214 10.09050 
+      12       13       14       15       16       17       18       19       20       21       22 
+10.09435 10.09409 10.08940 10.09911 10.08192 10.09027 10.09579 10.09563 10.08940 10.09321 10.09147 
+      23       24       25       26       27       28       29       30       31       32       33 
+10.09318 10.08923 10.09298 10.08581 10.09254 10.08132 10.09027 10.09975 10.09757 10.08769 10.09372 
+      34       35       36       37       38       39       40       41       42       43       44 
+10.09144 10.09328 10.09703 10.09191 10.08996 10.09157 10.09492 10.08886 10.08873 10.09214 10.09566 
+      45       46       47       48       49       50       51       52       53       54       55 
+10.09928 10.08785 10.09566 10.09224 10.09419 10.09583 10.09556 10.08846 10.09754 10.09482 10.08836 
+      56       57       58       59       60       61       62       63       64       65       66 
+10.09526 10.08702 10.09137 10.09415 10.09315 10.08350 10.09050 10.09177 10.09007 10.09496 10.09663 
+      67       68       69       70       71       72       73       74       75       76       77 
+10.09553 10.09090 10.08953 10.09445 10.09013 10.08842 10.09476 10.08668 10.09321 10.09218 10.09017 
+      78       79       80       81       82       83       84       85       86       87       88 
+10.09429 10.09191 10.08829 10.09087 10.09000 10.09295 10.08886 10.08688 10.09462 10.09000 10.09469 
+      89       90       91       92       93       94       95       96       97       98       99 
+10.09610 10.09553 10.09134 10.09033 10.08903 10.09271 10.09275 10.09127 10.09586 10.08859 10.09218 
+     100 
+10.09455 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[7]<-sum(suqarederror)
+> ##y as x1+x2
+> p <- lm(y ~ sample1$x1+sample1$x2,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x1 + sample1$x2, data = sample1, x = T, 
+    y = T)
+
+Coefficients:
+(Intercept)   sample1$x1   sample1$x2  
+    -2.8421       0.7408       0.5420  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+ 9.973081 10.455380 10.902319  9.483832 10.012826  9.493553 11.801611 10.423379 11.460525 10.303175 
+       11        12        13        14        15        16        17        18        19        20 
+11.583887  9.899403 10.904721 11.229731 10.383645  8.857879  9.731514  8.935980 10.335384 10.480796 
+       21        22        23        24        25        26        27        28        29        30 
+10.292380  9.469526 11.025401 10.232572  8.957465 10.034692  9.630180 11.371594  9.724324 10.647588 
+       31        32        33        34        35        36        37        38        39        40 
+10.415557  9.964424 11.641729  9.618937 11.542316  9.849892 10.833658  9.635449  9.212840  9.909308 
+       41        42        43        44        45        46        47        48        49        50 
+ 9.190213  9.227623  7.704325  9.222539 10.104092 10.283516 10.900202 10.940653 10.477700 10.694371 
+       51        52        53        54        55        56        57        58        59        60 
+ 9.783925  8.961810 10.968830 11.046158 10.978041  9.690554  9.279989 10.521085 10.564990  8.625960 
+       61        62        63        64        65        66        67        68        69        70 
+11.377513  9.190039  9.314163  8.911594 11.702982 10.897660 10.371685 10.910673  9.114329 11.413489 
+       71        72        73        74        75        76        77        78        79        80 
+ 9.367671  9.112711 11.405202  9.289917  9.743648 10.566468  9.178090  8.402065 10.252069 10.690026 
+       81        82        83        84        85        86        87        88        89        90 
+10.882290  8.463860  8.512469  8.922967 10.855384  9.478043 10.712306 10.094881 11.442243 10.298517 
+       91        92        93        94        95        96        97        98        99       100 
+10.462788 11.148024  9.290656 10.868072 10.532132  8.524027  9.807062  8.967611  9.452571  9.453069 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[8]<-sum(suqarederror)
+> plot(predictedY,xlab="y as x1 & x2", col="blue")
+
+> points(sample1$y,pch=15, col="red")
+> ##y as x1+x2+x3
+> p <- lm(y ~ sample1$x1+sample1$x2+sample1$x3,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x1 + sample1$x2 + sample1$x3, data = sample1, 
+    x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x1   sample1$x2   sample1$x3  
+    -5.4363       0.7879       0.5231       0.2298  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+10.044930 10.508544 11.157376  9.146924 10.326450  9.458507 11.593803 10.178725 11.855209 10.193595 
+       11        12        13        14        15        16        17        18        19        20 
+11.468827  9.358906 11.208874 11.273151 10.047776  8.911643  9.535540  8.963839 10.492693 10.665234 
+       21        22        23        24        25        26        27        28        29        30 
+10.135153  9.392170 10.686202 10.202675  8.920198 10.442894  9.972904 11.171075  9.528027 11.008144 
+       31        32        33        34        35        36        37        38        39        40 
+10.342581  9.871906 11.380413  9.979146 11.091624  9.636380 10.936756  9.718533  9.308280  9.766007 
+       41        42        43        44        45        46        47        48        49        50 
+ 9.119824  9.322684  7.689295  9.210724 10.066741 10.424830 10.840116 11.111736 10.195174 10.658444 
+       51        52        53        54        55        56        57        58        59        60 
+ 9.668155  8.923519 11.236309 11.327866 11.068599  9.758878  9.243631 10.641567 10.286321  9.011919 
+       61        62        63        64        65        66        67        68        69        70 
+11.378650  9.333422  9.087985  9.199405 11.643704 10.863409 10.448726 11.020291  9.140792 11.865417 
+       71        72        73        74        75        76        77        78        79        80 
+ 9.521357  9.453260 11.286013  9.285525 10.170973 10.418583  9.020986  8.204308  9.997840 10.611466 
+       81        82        83        84        85        86        87        88        89        90 
+10.404848  8.084289  8.112896  8.839126 10.863748  9.272343 10.668764 10.204580 11.433405 10.724523 
+       91        92        93        94        95        96        97        98        99       100 
+10.594547 11.096498  8.962186 10.673620 10.731601  8.378918 10.200335  9.235892  9.527758  9.560067 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[9]<-sum(suqarederror)
+> plot(predictedY,xlab="y as x1 x2 and x3", col="blue")
+
+> points(sample1$y,pch=15, col="red")
+> ##y as x1+x2+x3+x4
+> p <- lm(y ~ sample1$x1+sample1$x2+sample1$x3+sample1$x4,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x1 + sample1$x2 + sample1$x3 + sample1$x4, 
+    data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x1   sample1$x2   sample1$x3   sample1$x4  
+    -4.2870       0.8125       0.5396       0.2349      -0.1586  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+10.227419 10.500284 11.312818  9.206974 10.077698  9.666370 11.648667 10.132401 11.821322 10.123689 
+       11        12        13        14        15        16        17        18        19        20 
+11.388801  9.157813 11.174186 11.518441 10.041189  8.950350  9.802846  8.984372 10.385927 10.612389 
+       21        22        23        24        25        26        27        28        29        30 
+ 9.926374  9.350894 10.640716 10.272457  8.814428 10.664976  9.992439 11.004824  9.465587 10.982211 
+       31        32        33        34        35        36        37        38        39        40 
+10.115185  9.898343 11.340474  9.890339 11.361133  9.418796 10.945426  9.764505  9.246119  9.862453 
+       41        42        43        44        45        46        47        48        49        50 
+ 8.954366  9.501706  7.988047  9.112439 10.197171 10.390486 11.057279 11.076495 10.237760 10.972368 
+       51        52        53        54        55        56        57        58        59        60 
+ 9.761392  8.960746 10.934306 11.299851 10.984976  9.761792  9.275026 10.816952 10.366895  9.080254 
+       61        62        63        64        65        66        67        68        69        70 
+11.454525  9.280708  9.132371  9.282178 11.624512 10.977800 10.393465 10.844880  9.160753 11.933737 
+       71        72        73        74        75        76        77        78        79        80 
+ 9.484246  9.332763 11.481180  9.216302 10.099197 10.626271  9.035432  8.348932  9.804431 10.286459 
+       81        82        83        84        85        86        87        88        89        90 
+10.416667  7.917470  7.834593  9.016924 10.801716  9.285872 10.587063 10.114376 11.373635 10.731981 
+       91        92        93        94        95        96        97        98        99       100 
+10.689812 11.003469  8.904966 10.744372 10.811064  8.412774 10.124968  9.088447  9.649941  9.477802 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[10]<-sum(suqarederror)
+> plot(predictedY,xlab="y as x1 x2 x3 and x4", col="blue")
+
+> points(sample1$y,pch=15, col="red")
+> ##y as x1+x2+x3+x4+x5
+> p <- lm(y ~ sample1$x1+sample1$x2+sample1$x3+sample1$x4+sample1$x5,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x1 + sample1$x2 + sample1$x3 + sample1$x4 + 
+    sample1$x5, data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x1   sample1$x2   sample1$x3   sample1$x4   sample1$x5  
+    -3.0771       0.8562       0.5510       0.2391      -0.1669      -0.1723  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+10.202615 10.595451 11.532778  9.511657  9.930979  9.667144 11.743494 10.016755 11.688821 10.057423 
+       11        12        13        14        15        16        17        18        19        20 
+11.579113  9.223222 10.853113 11.484476  9.982517  9.267034  9.847000  8.909296 10.357264 10.741152 
+       21        22        23        24        25        26        27        28        29        30 
+10.045997  9.215286 10.470813 10.208189  8.741768 10.833849 10.078628 11.193164  9.276256 10.816073 
+       31        32        33        34        35        36        37        38        39        40 
+ 9.971747  9.796150 11.493453  9.921958 11.274963  9.632363 10.994280  9.872386  9.391874  9.796591 
+       41        42        43        44        45        46        47        48        49        50 
+ 8.721154  9.681527  7.796435  9.031907 10.140365 10.709330 10.769266 11.013185 10.286920 10.951111 
+       51        52        53        54        55        56        57        58        59        60 
+ 9.547698  9.108825 10.737408 11.080584 11.030288  9.756657  9.445179 10.702154 10.276495  8.885922 
+       61        62        63        64        65        66        67        68        69        70 
+11.543234  9.246486  9.060685  9.385459 11.670208 10.980695 10.240937 10.693851  9.102760 12.025604 
+       71        72        73        74        75        76        77        78        79        80 
+ 9.803270  9.309418 11.207834  9.354569 10.172700 10.468418  9.103991  8.322642  9.806514 10.260823 
+       81        82        83        84        85        86        87        88        89        90 
+10.667494  8.007255  7.884662  9.027376 10.724529  8.853740 10.843645  9.750976 11.333922 10.861761 
+       91        92        93        94        95        96        97        98        99       100 
+10.833488 11.111559  8.705522 11.008848 11.072010  8.298469 10.096618  9.127290  9.790186  9.561051 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[11]<-sum(suqarederror)
+> plot(predictedY,xlab="y as x1 x2 x3 x4 and x5", col="blue")
+> points(sample1$y,pch=15, col="red")
+
+> ##y as x1+x2+x3+x4+x5+x6+x7
+> p <- lm(y ~ sample1$x1+sample1$x2+sample1$x3+sample1$x4+sample1$x5+sample1$x6,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x1 + sample1$x2 + sample1$x3 + sample1$x4 + 
+    sample1$x5 + sample1$x6, data = sample1, x = T, y = T)
+
+Coefficients:
+(Intercept)   sample1$x1   sample1$x2   sample1$x3   sample1$x4   sample1$x5   sample1$x6  
+   -2.86210      0.86154      0.54313      0.24825     -0.15916     -0.15911     -0.04896  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+10.179443 10.546297 11.512742  9.480965  9.918352  9.635997 11.711922  9.985629 11.754200 10.029026 
+       11        12        13        14        15        16        17        18        19        20 
+11.614672  9.208576 10.900465 11.539312  9.900366  9.348409  9.851306  8.858021 10.308550 10.760710 
+       21        22        23        24        25        26        27        28        29        30 
+10.049890  9.188157 10.492959 10.256653  8.722046 10.877797 10.070692 11.338272  9.309399 10.730894 
+       31        32        33        34        35        36        37        38        39        40 
+ 9.876759  9.871618 11.475194  9.946580 11.278584  9.497345 11.004332  9.883641  9.400087  9.768205 
+       41        42        43        44        45        46        47        48        49        50 
+ 8.752538  9.711747  7.817878  8.978888 10.011799 10.755690 10.763199 11.019210 10.215787 10.911685 
+       51        52        53        54        55        56        57        58        59        60 
+ 9.530734  9.104575 10.640441 11.067057 11.104128  9.704599  9.435180 10.738213 10.281962  8.917984 
+       61        62        63        64        65        66        67        68        69        70 
+11.605292  9.308141  9.085452  9.340017 11.682716 10.925479 10.214218 10.735344  9.132904 11.984146 
+       71        72        73        74        75        76        77        78        79        80 
+ 9.780787  9.353787 11.224813  9.427816 10.137251 10.452057  9.124347  8.304418  9.812380 10.332169 
+       81        82        83        84        85        86        87        88        89        90 
+10.645514  8.011641  7.895223  9.095139 10.808910  8.864768 10.865786  9.774621 11.310800 10.793553 
+       91        92        93        94        95        96        97        98        99       100 
+10.871903 11.155403  8.768227 10.997608 11.031472  8.311889 10.057378  9.162426  9.785520  9.491326 
+> error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[12]<-sum(suqarederror)
+> plot(predictedY,xlab="y as x1 x2 x3 x4 x5 and x6", col="blue")
+
+> points(sample1$y,pch=15, col="red")
+> plot(sumSS)
+
+> ##y as x1+x2+x3+x4+x5+x6+x7
+> p <- lm(y ~ sample1$x1+sample1$x2+sample1$x3+sample1$x4+sample1$x5+sample1$x6+sample1$x7,data=sample1, x=T, y=T)
+> print(p)
+
+Call:
+lm(formula = y ~ sample1$x1 + sample1$x2 + sample1$x3 + sample1$x4 + 
+    sample1$x5 + sample1$x6 + sample1$x7, data = sample1, x = T, 
+    y = T)
+
+Coefficients:
+(Intercept)   sample1$x1   sample1$x2   sample1$x3   sample1$x4   sample1$x5   sample1$x6   sample1$x7  
+   -2.76629      0.86253      0.54738      0.23415     -0.16479     -0.14076      0.01898     -0.08088  
+
+> predictedY<-predict(p,sample1)
+> print(predictedY)
+        1         2         3         4         5         6         7         8         9        10 
+10.218288 10.528352 11.523880  9.505843  9.859747  9.622963 11.774029  9.963542 11.784274 10.064728 
+       11        12        13        14        15        16        17        18        19        20 
+11.586748  9.174999 10.879485 11.535540  9.882899  9.362536  9.859564  8.835718 10.310566 10.762662 
+       21        22        23        24        25        26        27        28        29        30 
+10.006747  9.252676 10.489605 10.278735  8.716372 10.911667 10.053273 11.385064  9.357964 10.706133 
+       31        32        33        34        35        36        37        38        39        40 
+ 9.893203  9.889375 11.467741  9.898242 11.270731  9.531367 10.972840  9.915746  9.390351  9.740733 
+       41        42        43        44        45        46        47        48        49        50 
+ 8.832366  9.707002  7.820751  8.967719 10.022908 10.729616 10.765449 11.030818 10.227901 10.873089 
+       51        52        53        54        55        56        57        58        59        60 
+error<-abs(sample1$y-predictedY)
+> plot(error)
+
+> suqarederror<- error * error
+> plot(suqarederror)
+
+> sumSS[13]<-sum(suqarederror)
+> plot(predictedY,xlab="y as x1 x2 x3 x4 x5 x6 and x7", col="blue")
+
+> points(sample1$y,pch=15, col="red")
+> plot(sumSS,type = "l")
+
+> TrsumSS<-0
+> TssumSS<-0
+> TrMSE<-0
+> TsMSE<-0
+> p<-0
+> i<-1
+> dim(sample1)
+[1] 100  10
+> for ( i in 1:10)
++ {
++     p=10*i
++     TrainingData <- head(sample1,p)
++     #TrainingData
++     dim(TrainingData)
++     lmodel_trainig_data <- lm(y ~ x1 + x2+ x3 + x4 + x5 + x6 + x7, data=TrainingData, x=T, y=T)
++     predictedY<-predict(lmodel_trainig_data,TrainingData)
++     predictedY
++     TrainingData$y
++     TestData <- head(sample1,-p )
++     Trerror <- abs(TrainingData$y - predictedY)
++     #Trerror
++     Trsuqarederror<- Trerror * Trerror
++     TrsumSS[i]<-sum(Trsuqarederror)
++     #TrsumSS[i]
++     TrMSE[i]<-mean(Trsuqarederror)
++     predictedY<-predict(lmodel_trainig_data,TestData)
++     #predictedY
++     #TestData$y
++     Tserror <- abs(TestData$y - predictedY)
++     #Tserror
++     Tssuqarederror<- Tserror * Tserror
++     TssumSS[i]<-sum(Tssuqarederror)
++     #TssumSS[i]
++     TsMSE[i]<-mean(Tssuqarederror)
++     }
+> plot(TrsumSS, main="effect of size of training and test error")
+> lines(x=TrsumSS, y = NULL, type = "l", col="blue")
+
+> points(TssumSS,pch=10,col="red")
+> lines(x=TssumSS, y = NULL, type = "l", col="red")
+
+> plot(TrMSE, main="effect of size on training MSE(BLUE) and test MSE(RED)")
+> lines(x=TrMSE, y = NULL, type = "l", col="blue")
+> points(TsMSE,pch=10,col="red")
+> lines(x=TsMSE, y = NULL, type = "l", col="red")
+
+> library(DAAG)
+> library(ISLR)
+> sample1=read.table("C:/Users/Dell/Downloads/Print/my_data.txt")
+> val.daag <- CVlm(sample1, m=2,form.lm=formula(y ~ x1))
+Analysis of Variance Table
+
+Response: y
+          Df Sum Sq Mean Sq F value Pr(>F)    
+x1         1   48.7    48.7     117 <2e-16 ***
+Residuals 98   41.0     0.4                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+fold 1 
+Observations in test set: 50 
+                 1     2      4      7       9     10    15    17    19     20     21     23      24
+x1           9.470 11.46 10.090 11.770 12.5900  9.440 11.29 9.400 10.72  9.870 10.640 11.110 10.5300
+cvpred       9.649 11.02 10.076 11.233 11.7982  9.629 10.90 9.601 10.51  9.925 10.455 10.779 10.3794
+y           10.240 10.47  9.570 11.830 11.8300 10.080  9.81 9.870 10.36 10.630 10.020 10.530 10.4200
+CV residual  0.591 -0.55 -0.506  0.597  0.0318  0.451 -1.09 0.269 -0.15  0.705 -0.435 -0.249  0.0406
+                25    26     28    29     30    31     32      33    38     41    43     47     48     50
+x1           8.560  9.48 11.570 10.40 10.600 9.460 9.8900 12.2200 10.88  9.540  9.40 11.380 10.820 10.290
+cvpred       9.023  9.66 11.096 10.29 10.428 9.643 9.9387 11.5434 10.62  9.698  9.60 10.965 10.579 10.214
+y            8.650 10.82 11.430  9.38 10.690 9.990 9.9700 11.4600  9.91  8.790  7.88 10.610 10.910 10.840
+CV residual -0.373  1.16  0.334 -0.91  0.262 0.347 0.0313 -0.0834 -0.71 -0.908 -1.72 -0.355  0.331  0.626
+                52     55     58     59     64     67      68     69     71     72      75      76     78
+x1           8.800 10.490  9.800  9.830 9.1200 10.330 11.1600  9.540 10.460  9.750 10.1700 10.7100  8.520
+cvpred       9.188 10.352  9.877  9.897 9.4083 10.242 10.8133  9.698 10.331  9.842 10.1315 10.5034  8.995
+y            9.170 11.030 10.630 10.290 9.4600 10.360 10.7200  9.230  9.740  9.420 10.1000 10.6000  8.230
+CV residual -0.018  0.678  0.753  0.393 0.0517  0.118 -0.0933 -0.468 -0.591 -0.422 -0.0315  0.0966 -0.765
+                80    81    82     84     85     90      91     93     95    97
+x1          10.050 10.69  8.64  8.850 11.100 10.480 11.4700  9.200 10.510 10.08
+cvpred      10.049 10.49  9.08  9.222 10.772 10.345 11.0268  9.463 10.366 10.07
+y           10.350 10.71  7.91  8.980 10.860 10.730 10.9600  8.820 11.010  9.93
+CV residual  0.301  0.22 -1.17 -0.242  0.088  0.385 -0.0668 -0.643  0.644 -0.14
+
+Sum of squares = 16.2    Mean square = 0.32    n = 50 
+
+fold 2 
+Observations in test set: 50 
+                3     5    6     8    11    12     13     14   16     18     22     27    34     35
+x1          10.00 9.370 9.13 10.89 11.52 10.49 11.430 10.720 7.65  8.970  9.200 10.090 8.970 11.120
+cvpred       9.93 9.452 9.27 10.61 11.09 10.31 11.022 10.481 8.14  9.148  9.323 10.001 9.148 10.786
+y           11.61 9.900 9.65  9.95 11.70  9.12 10.850 11.470 9.30  8.880  9.150 10.180 9.900 11.170
+CV residual  1.68 0.448 0.38 -0.66  0.61 -1.19 -0.172  0.989 1.16 -0.268 -0.173  0.179 0.752  0.384
+                36    37    39    40     42    44     45     46     49    51     53     54     56    57
+x1          10.350  9.90 10.69 9.640  9.810  9.13 10.020 10.350  9.200  9.80 10.580 10.560 10.830 9.010
+cvpred      10.199  9.86 10.46 9.658  9.788  9.27  9.948 10.199  9.323  9.78 10.374 10.359 10.565 9.178
+y            9.380 11.00  9.36 9.790  9.680  9.14 10.060 10.840 10.240  9.53 10.750 11.020  9.850 9.510
+CV residual -0.819  1.14 -1.10 0.132 -0.108 -0.13  0.112  0.641  0.917 -0.25  0.376  0.661 -0.715 0.332
+                60    61     62     63      65     66    70      73    74     77     79    83     86
+x1           9.510 10.40  9.730  9.700 12.3100 11.040 10.99 11.6300 8.760 9.0700 10.110  8.83  9.870
+cvpred       9.559 10.24  9.727  9.704 11.6921 10.725 10.69 11.1741 8.988 9.2238 10.016  9.04  9.833
+y            8.860 11.59  9.180  8.970 11.7000 10.870 12.02 11.2200 9.420 9.3000  9.810  7.77  8.840
+CV residual -0.699  1.35 -0.547 -0.734  0.0079  0.145  1.33  0.0459 0.432 0.0762 -0.206 -1.27 -0.993
+                87     88      89    92     94     96     98     99   100
+x1          11.580 10.110 11.6800  9.60 12.200  8.670  9.320  9.960 8.790
+cvpred      11.136 10.016 11.2122  9.63 11.608  8.919  9.414  9.902 9.011
+y           10.770  9.750 11.1500 11.13 10.980  8.360  9.160  9.720 9.430
+CV residual -0.366 -0.266 -0.0622  1.50 -0.628 -0.559 -0.254 -0.182 0.419
+
+Sum of squares = 25.6    Mean square = 0.51    n = 50 
+
+Overall (Sum over all 50 folds) 
+   ms 
+0.417 
+> cverr1 = val.daag$y - val.daag$cvpred
+> val.daag <- CVlm(sample1, m=10, form.lm=formula(y ~ x1))
+Analysis of Variance Table
+
+Response: y
+          Df Sum Sq Mean Sq F value Pr(>F)    
+x1         1   48.7    48.7     117 <2e-16 ***
+Residuals 98   41.0     0.4                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+fold 1 
+Observations in test set: 10 
+                 1     20     29     32     38     52     69     72     81      91
+x1           9.470  9.870 10.400 9.8900 10.880 8.8000  9.540  9.750 10.690 11.4700
+cvpred       9.596  9.889 10.276 9.9031 10.627 9.1062  9.647  9.801 10.488 11.0584
+y           10.240 10.630  9.380 9.9700  9.910 9.1700  9.230  9.420 10.710 10.9600
+CV residual  0.644  0.741 -0.896 0.0669 -0.717 0.0638 -0.417 -0.381  0.222 -0.0984
+
+Sum of squares = 2.67    Mean square = 0.27    n = 10 
+
+fold 2 
+Observations in test set: 10 
+                3      8   16     18    39     42      45     62     63   100
+x1          10.00 10.890 7.65  8.970 10.69  9.810 10.0200  9.730  9.700 8.790
+cvpred       9.98 10.651 8.20  9.196 10.50  9.833  9.9918  9.772  9.749 9.059
+y           11.61  9.950 9.30  8.880  9.36  9.680 10.0600  9.180  8.970 9.430
+CV residual  1.63 -0.701 1.10 -0.316 -1.14 -0.153  0.0682 -0.592 -0.779 0.371
+
+Sum of squares = 6.9    Mean square = 0.69    n = 10 
+
+fold 3 
+Observations in test set: 10 
+                 4       9     10     19     30     47     55     78    82     93
+x1          10.090 12.5900  9.440 10.720 10.600 11.380 10.490  8.520  8.64  9.200
+cvpred      10.065 11.7761  9.621 10.496 10.414 10.948 10.339  8.991  9.07  9.456
+y            9.570 11.8300 10.080 10.360 10.690 10.610 11.030  8.230  7.91  8.820
+CV residual -0.495  0.0539  0.459 -0.136  0.276 -0.338  0.691 -0.761 -1.16 -0.636
+
+Sum of squares = 3.48    Mean square = 0.35    n = 10 
+
+fold 4 
+Observations in test set: 10 
+                35     54     56     73    74       77    87     88      89    99
+x1          11.120 10.560 10.830 11.630 8.760  9.07000 11.58 10.110 11.6800  9.96
+cvpred      10.795 10.387 10.583 11.166 9.076  9.30198 11.13 10.059 11.2024  9.95
+y           11.170 11.020  9.850 11.220 9.420  9.30000 10.77  9.750 11.1500  9.72
+CV residual  0.375  0.633 -0.733  0.054 0.344 -0.00198 -0.36 -0.309 -0.0524 -0.23
+
+Sum of squares = 1.48    Mean square = 0.15    n = 10 
+
+fold 5 
+Observations in test set: 10 
+                2     21      24    41     50    64     71       75    80     95
+x1          11.46 10.640 10.5300  9.54 10.290 9.120 10.460 10.17000 10.05 10.510
+cvpred      11.04 10.447 10.3671  9.65 10.193 9.346 10.316 10.10645 10.02 10.353
+y           10.47 10.020 10.4200  8.79 10.840 9.460  9.740 10.10000 10.35 11.010
+CV residual -0.57 -0.427  0.0529 -0.86  0.647 0.114 -0.576 -0.00645  0.33  0.657
+
+Sum of squares = 2.56    Mean square = 0.26    n = 10 
+
+fold 6 
+Observations in test set: 10 
+               12     14       40    57     60     66    83    86     96     98
+x1          10.49 10.720 9.640000 9.010  9.510 11.040  8.83  9.87  8.670  9.320
+cvpred      10.36 10.516 9.789067 9.365  9.702 10.731  9.24  9.94  9.137  9.574
+y            9.12 11.470 9.790000 9.510  8.860 10.870  7.77  8.84  8.360  9.160
+CV residual -1.24  0.954 0.000933 0.145 -0.842  0.139 -1.47 -1.10 -0.777 -0.414
+
+Sum of squares = 7.36    Mean square = 0.74    n = 10 
+
+fold 7 
+Observations in test set: 10 
+               15    17    23     28    31     33     48    58     59     90
+x1          11.29 9.400 11.11 11.570 9.460 12.220 10.820  9.80  9.830 10.480
+cvpred      10.91 9.513 10.78 11.121 9.558 11.602 10.565  9.81  9.832 10.313
+y            9.81 9.870 10.53 11.430 9.990 11.460 10.910 10.63 10.290 10.730
+CV residual -1.10 0.357 -0.25  0.309 0.432 -0.142  0.345  0.82  0.458  0.417
+
+Sum of squares = 2.88    Mean square = 0.29    n = 10 
+
+fold 8 
+Observations in test set: 10 
+                5     13     27     36     46     49    61    70    92     94
+x1          9.370 11.430 10.090 10.350 10.350  9.200 10.40 10.99  9.60 12.200
+cvpred      9.459 10.984  9.992 10.184 10.184  9.333 10.22 10.66  9.63 11.555
+y           9.900 10.850 10.180  9.380 10.840 10.240 11.59 12.02 11.13 10.980
+CV residual 0.441 -0.134  0.188 -0.804  0.656  0.907  1.37  1.36  1.50 -0.575
+
+Sum of squares = 8.46    Mean square = 0.85    n = 10 
+
+fold 9 
+Observations in test set: 10 
+                 7     25    26    43     67      68     76     84     85     97
+x1          11.770  8.560  9.48  9.40 10.330 11.1600 10.710  8.850 11.100 10.080
+cvpred      11.212  8.984  9.62  9.57 10.213 10.7889 10.477  9.186 10.747 10.039
+y           11.830  8.650 10.82  7.88 10.360 10.7200 10.600  8.980 10.860  9.930
+CV residual  0.618 -0.334  1.20 -1.69  0.147 -0.0689  0.123 -0.206  0.113 -0.109
+
+Sum of squares = 4.88    Mean square = 0.49    n = 10 
+
+fold 10 
+Observations in test set: 10 
+                6     11     22    34    37     44     51    53      65     79
+x1          9.130 11.520  9.200 8.970  9.90  9.130  9.800 10.58 12.3100 10.110
+cvpred      9.332 11.043  9.383 9.218  9.88  9.332  9.812 10.37 11.6086 10.034
+y           9.650 11.700  9.150 9.900 11.00  9.140  9.530 10.75 11.7000  9.810
+CV residual 0.318  0.657 -0.233 0.682  1.12 -0.192 -0.282  0.38  0.0914 -0.224
+
+Sum of squares = 2.62    Mean square = 0.26    n = 10 
+
+Overall (Sum over all 10 folds) 
+   ms 
+0.433 
+> plot(x = sample1$s.id, y = cverr1, type ='l')
+
+> cverr = val.daag$y - val.daag$cvpred
+>plot(x = sample1$s.id, y = cverr, type ='l')
+> points(cverr1,pch=15, col="red",type ='l')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assignment no. 3
+
+# Load the libraries
+library(arules)
+library(arulesViz)
+library(datasets)
+
+# Load the data set
+data(Groceries)
+
+#Lets explore the data before we make any rules:
+
+# Create an item frequency plot for the top 20 items
+itemFrequencyPlot(Groceries,topN=20,type="absolute")
+
+# Get the rules
+rules<- apriori(Groceries, parameter = list(supp = 0.001, conf = 0.8))
+
+# Show the top 5 rules, but only 2 digits
+options(digits=2)
+inspect(rules[1:5])
+
+rules<-sort(rules, by="confidence", decreasing=TRUE)
+rules<- apriori(Groceries, parameter = list(supp = 0.001, conf = 0.8,maxlen=3))
+
+
+subset.matrix<- is.subset(rules, rules)
+subset.matrix[lower.tri(subset.matrix, diag=T)] <- NA
+redundant<- colSums(subset.matrix, na.rm=T) >= 1
+rules.pruned<- rules[!redundant]
+rules<-rules.pruned
+
+
+rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.08), 
+appearance = list(default="lhs",rhs="whole milk"),
+control = list(verbose=F))
+rules<-sort(rules, decreasing=TRUE,by="confidence")
+inspect(rules[1:5])
+
+
+rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), 
+appearance = list(default="rhs",lhs="whole milk"),
+control = list(verbose=F))
+rules<-sort(rules, decreasing=TRUE,by="confidence")
+inspect(rules[1:5])
+
+
+library(arulesViz)
+plot(rules,method="graph",interactive=TRUE,shading=NA)
+********************Output******************************
+>install.packages("arulesViz")
+Installing package into ‘C:/Users/Dell/Documents/R/win-library/3.4’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘visNetwork’
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/visNetwork_2.0.4.zip'
+Content type 'application/zip' length 4400790 bytes (4.2 MB)
+downloaded 4.2 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/arulesViz_1.3-1.zip'
+Content type 'application/zip' length 655568 bytes (640 KB)
+downloaded 640 KB
+
+package ‘visNetwork’ successfully unpacked and MD5 sums checked
+package ‘arulesViz’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Dell\AppData\Local\Temp\RtmpQtnjH4\downloaded_packages
+> # Load the libraries
+> library(arules)
+Loading required package: Matrix
+
+Attaching package: ‘arules’
+
+The following objects are masked from ‘package:base’:
+
+    abbreviate, write
+
+Warning message:
+package ‘arules’ was built under R version 3.4.4 
+> library(arulesViz)
+Loading required package: grid
+Warning message:
+package ‘arulesViz’ was built under R version 3.4.4 
+> library("arulesViz", lib.loc="~/R/win-library/3.4")
+> library(datasets)
+> # Load the data set
+> data(Groceries)
+> # Create an item frequency plot for the top 20 items
+>itemFrequencyPlot(Groceries,topN=20,type="absolute")
+> # Get the rules
+> rules <- apriori(Groceries, parameter = list(supp = 0.001, conf = 0.8))
+Apriori
+
+Parameter specification:
+ confidence minvalsmaxaremavaloriginalSupportmaxtime support minlenmaxlen target   ext
+        0.8    0.1    1 none FALSE            TRUE       5   0.001      1     10  rules FALSE
+
+Algorithmic control:
+ filter tree heap memopt load sort verbose
+    0.1 TRUE TRUE  FALSE TRUE    2    TRUE
+
+Absolute minimum support count: 9 
+
+set item appearances ...[0 item(s)] done [0.00s].
+set transactions ...[169 item(s), 9835 transaction(s)] done [0.02s].
+sorting and recoding items ... [157 item(s)] done [0.00s].
+creating transaction tree ... done [0.01s].
+checking subsets of size 1 2 3 4 5 6 done [0.03s].
+writing ... [410 rule(s)] done [0.00s].
+creating S4 object  ... done [0.00s].
+> # Show the top 5 rules, but only 2 digits
+> options(digits=2)
+> inspect(rules[1:5])
+    lhs                        rhs            support confidence lift count
+[1] {liquor,red/blush wine} => {bottled beer} 0.0019  0.90       11.2 19   
+[2] {curd,cereals}          => {whole milk}   0.0010  0.91        3.6 10   
+[3] {yogurt,cereals}        => {whole milk}   0.0017  0.81        3.2 17   
+[4] {butter,jam}            => {whole milk}   0.0010  0.83        3.3 10   
+[5] {soups,bottled beer}    => {whole milk}   0.0011  0.92        3.6 11   
+> rules<-sort(rules, by="confidence", decreasing=TRUE)
+> rules <- apriori(Groceries, parameter = list(supp = 0.001, conf = 0.8,maxlen=3))
+Apriori
+
+Parameter specification:
+ confidence minvalsmaxaremavaloriginalSupportmaxtime support minlenmaxlen target   ext
+        0.8    0.1    1 none FALSE            TRUE       5   0.001      1      3  rules FALSE
+
+Algorithmic control:
+ filter tree heap memopt load sort verbose
+    0.1 TRUE TRUE  FALSE TRUE    2    TRUE
+
+Absolute minimum support count: 9 
+
+set item appearances ...[0 item(s)] done [0.00s].
+set transactions ...[169 item(s), 9835 transaction(s)] done [0.02s].
+sorting and recoding items ... [157 item(s)] done [0.00s].
+creating transaction tree ... done [0.00s].
+checking subsets of size 1 2 3 done [0.00s].
+writing ... [29 rule(s)] done [0.02s].
+creating S4 object  ... done [0.00s].
+Warning message:
+In apriori(Groceries, parameter = list(supp = 0.001, conf = 0.8,  :
+  Mining stopped (maxlen reached). Only patterns up to a length of 3 returned!
+>subset.matrix<- is.subset(rules, rules)
+>subset.matrix[lower.tri(subset.matrix, diag=T)] <- NA
+Warning message:
+In `[<-`(`*tmp*`, as.vector(i), value = NA) :
+x[.] <- val: x is “ngTMatrix”, val not in {TRUE, FALSE} is coerced; NA |--> TRUE.
+> redundant <- colSums(subset.matrix, na.rm=T) >= 1
+>rules.pruned<- rules[!redundant]
+> rules<-rules.pruned
+> rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.08), 
++                appearance = list(default="lhs",rhs="whole milk"),
++                control = list(verbose=F))
+> rules<-sort(rules, decreasing=TRUE,by="confidence")
+> inspect(rules[1:5])
+    lhs                                           rhs          support confidence lift count
+[1] {rice,sugar}                               => {whole milk} 0.0012  1          3.9  12   
+[2] {canned fish,hygiene articles}             => {whole milk} 0.0011  1          3.9  11   
+[3] {root vegetables,butter,rice}              => {whole milk} 0.0010  1          3.9  10   
+[4] {root vegetables,whipped/sour cream,flour} => {whole milk} 0.0017  1          3.9  17   
+[5] {butter,softcheese,domestic eggs}         => {whole milk} 0.0010  1          3.9  10   
+> rules<-apriori(data=Groceries, parameter=list(supp=0.001,conf = 0.15,minlen=2), 
++                appearance = list(default="rhs",lhs="whole milk"),
++                control = list(verbose=F))
+> rules<-sort(rules, decreasing=TRUE,by="confidence")
+> inspect(rules[1:5])
+    lhs             rhs                support confidence lift count
+[1] {whole milk} => {other vegetables} 0.075   0.29       1.5  736  
+[2] {whole milk} => {rolls/buns}       0.057   0.22       1.2  557  
+[3] {whole milk} => {yogurt}           0.056   0.22       1.6  551  
+[4] {whole milk} => {root vegetables}  0.049   0.19       1.8  481  
+[5] {whole milk} => {tropical fruit}   0.042   0.17       1.6  416  
+> library(arulesViz)
+> plot(rules,method="graph",interactive=TRUE,shading=NA)
+
+
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					Assignment No.4
+# clustering dataset
+fromsklearn.cluster import KMeans
+fromsklearn import metrics
+importnumpy as np
+importmatplotlib.pyplot as plt
+x1 = np.array([3, 1, 1, 2, 1, 6, 6, 3, 5, 4, 6, 7, 5, 9, 8, 9, 9, 8, 1, 2, 2, 4, 5, 2])
+x2 = np.array([5, 4, 6, 6, 5, 8, 6, 7, 6, 7, 2, 1, 2, 1, 2, 3, 2, 3, 2, 5, 2, 4, 8, 3])
+plt.scatter(x1, x2)
+plt.show()
+# create new plot and data
+plt.plot()
+X = np.array(list(zip(x1, x2))).reshape(len(x1), 2)
+colors = ['b', 'g', 'c', 'y']
+markers = ['o', 'v', 's','1']
+# KMeans algorithm 
+K = 4
+kmeans_model = KMeans(n_clusters=K).fit(X)
+print(kmeans_model.cluster_centers_)
+centers = np.array(kmeans_model.cluster_centers_)
+plt.plot()
+plt.title('k means centroids')
+for i, l in enumerate(kmeans_model.labels_):
+plt.plot(x1[i], x2[i], color=colors[l], marker=markers[l],ls='None')
+plt.xlim([0, 10])
+plt.ylim([0, 10])
+plt.scatter(centers[:,0], centers[:,1], marker="x", color='r')
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+Assignment 5
+
+# Linear SVM
+#import numpy as np
+fromsklearn import datasets
+#from sklearn.model_selection import train_test_split
+fromsklearn.metrics import classification_report, confusion_matrix
+fromsklearn import svm
+frommlxtend.plotting import plot_decision_regions
+importmatplotlib.pyplot as plot
+
+# Load Iris Dataset
+iris = datasets.load_iris()
+
+# Load Sepal Length and Width in variable x and target variable in y.
+X = iris.data[:, :2]
+y = iris.target
+
+# SVC with linear kernel
+svc = svm.SVC(kernel='linear').fit(X,y)
+
+# LinearSVC (linear kernel)
+lin_svc = svm.LinearSVC().fit(X, y)
+
+
+# Plotting the model
+# Linear Model1
+plot_decision_regions(X = X, y = y, clf = svc, legend = 2)
+plot.xlabel("Sepal Length", size = 14)
+plot.ylabel("Sepal Width", size = 14)
+plot.title('SVM(Linear Model)', size = 20)
+plot.show()
+
+# Linear Model2
+plot_decision_regions(X = X, y = y, clf = lin_svc, legend = 2)
+plot.xlabel("Sepal Length", size = 14)
+plot.ylabel("Sepal Width", size = 14)
+plot.title('Linear_SVM(Linear Model)', size = 20)
+plot.show()
+
+
+# Making Prediction
+XTest = X[106:, :]
+yTest = y[106:]
+
+# EvalutionOf Linear Model.
+
+l_Pred1 = svc.predict(XTest)
+l_Pred2 = svc.predict(X)
+
+l_cm1 = confusion_matrix(yTest,l_Pred1)
+l_cr1 = classification_report(yTest,l_Pred1)
+
+l_cm2 = confusion_matrix(y,l_Pred2)
+l_cr2 = classification_report(y,l_Pred2)
+
+print("\nEvaluation of Linear SVM on feature Data: \n")
+print(l_cm1)
+print(l_cr1)
+
+print("\nEvaluation of Linear SVM on Target Data: \n")
+print(l_cm2)
+print(l_cr2)
+
+
+Asignment 7
+importweka.core.Instances;
+importweka.classifiers.Evaluation;
+importweka.classifiers.bayes.NaiveBayes;
+importweka.classifiers.evaluation.*;//Evaluation;
+importjava.io.BufferedReader;
+importjava.io.FileReader;
+importjava.lang.Exception;
+
+publicclassprg2
+{
+	public prg2()
+	{
+		try
+		{
+			BufferedReadertrainReader = newBufferedReader(newFileReader("C:\\Users\\MLA\\Downloads\\MLA output print//IDSTr.arff"));//File with text examples
+			BufferedReaderclassifyReader = newBufferedReader(newFileReader("C:\\Users\\MLA\\Downloads\\MLA output print//IDSTest.arff"));//File with text to classify
+
+
+			Instances trainInsts = newInstances(trainReader);
+			Instances classifyInsts = newInstances(classifyReader);
+
+			trainInsts.setClassIndex(trainInsts.numAttributes() - 1);
+			classifyInsts.setClassIndex(classifyInsts.numAttributes() -1);
+
+			NaiveBayesmodel=newNaiveBayes();
+			model.buildClassifier(trainInsts);
+			//System.out.println(model);
+			Evaluation eTest = newEvaluation(classifyInsts);
+			eTest.evaluateModel(model, classifyInsts);
+			String[] cmarray = {"normal","anomaly"};
+			ConfusionMatrixcm = newConfusionMatrix(cmarray);
+			//System.out.println(cm.correct());
+
+			for (inti = 0; i<classifyInsts.numInstances(); i++)
+			{
+				classifyInsts.instance(i).setClassMissing();
+				doublecls = model.classifyInstance(classifyInsts.instance(i));
+				classifyInsts.instance(i).setClassValue(cls);
+			}
+			System.out.println("Error Rate: "+eTest.errorRate()*100);
+			System.out.println("Pct Correct: "+eTest.pctCorrect());
+			for (inti=0; i<trainInsts.numClasses(); i++){
+				System.out.println("Class "+ i);
+				System.out.println("	Precision " +eTest.precision(i));
+				System.out.println("	Recall "+eTest.recall(i));
+				System.out.println("	Area under ROC "+eTest.areaUnderROC(i));
+				System.out.println();
+			}
+			//System.out.println(classifyInsts);
+		}
+		catch (Exception o)
+		{
+			System.err.println(o.getMessage());
+		}
+	}
+	publicstaticvoid main(String[] args) {
+		prg2nb = newprg2();
+	}
+}
+
+************************Output*********************
+Error Rate: 11.538461538461538
+Pct Correct: 88.46153846153847
+Class 0
+	Precision 0.9
+	Recall 0.8181818181818182
+	Area under ROC 0.9757575757575757
+
+Class 1
+	Precision 0.875
+	Recall 0.9333333333333333
+	Area under ROC 0.9757575757575757
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assignment No.7
+mydata<-read.csv("C:/Users/Desktop/pca_gsp.csv")
+attach(mydata)
+names(mydata)
+
+#[1] "State"    "Ag"       "Mining"   "Constr"   "Manuf"    "Manuf_nd" "Transp"   "Comm"     "Energy"   "TradeW"  
+#[11] "TradeR"   "RE"       "Services" "Govt"  
+
+X <- cbind(Ag, Mining, Constr, Manuf, Manuf_nd, Transp, Comm, Energy, TradeW, TradeR, RE, Services, Govt)
+summary(X)
+
+#Ag             Mining           ConstrManufManuf_ndTranspComm
+#Min.   : 0.500   Min.   : 0.000   Min.   :2.900   Min.   : 0.800   Min.   : 1.700   Min.   : 1.500   Min.   :1.300
+#1st Qu.: 1.025   1st Qu.: 0.200   1st Qu.:3.825   1st Qu.: 6.250   1st Qu.: 4.500   1st Qu.: 2.650   1st Qu.:1.900  
+#Median : 1.800   Median : 0.450   Median :4.200   Median :10.400   Median : 7.150   Median : 3.200   Median :2.100  
+#Mean   : 2.480   Mean   : 2.624   Mean   :4.338   Mean   : 9.784   Mean   : 7.696   Mean   : 3.476   Mean   :2.398  
+#3rd Qu.: 2.525   3rd Qu.: 1.650   3rd Qu.:4.675   3rd Qu.:12.375   3rd Qu.:10.500   3rd Qu.: 3.875   3rd Qu.:2.875  
+#Max.   :10.600   Max.   :31.600   Max.   :8.400   Max.   :21.400   Max.   :16.700   Max.   :12.100   Max.   :5.700
+#Energy          TradeWTradeR             RE           Services          Govt
+#Min.   :1.000   Min.   :2.900   Min.   : 6.000   Min.   :10.40   Min.   : 9.60   Min.   : 9.00  
+#1st Qu.:2.500   1st Qu.:5.825   1st Qu.: 8.600   1st Qu.:13.15   1st Qu.:16.15   1st Qu.:10.90  
+#Median :2.950   Median :6.300   Median : 8.900   Median :16.20   Median :18.40   Median :12.25  
+#Mean   :3.112   Mean   :6.348   Mean   : 9.002   Mean   :17.09   Mean   :18.71   Mean   :12.93  
+#3rd Qu.:3.600   3rd Qu.:7.275   3rd Qu.: 9.850   3rd Qu.:19.15   3rd Qu.:20.77   3rd Qu.:14.55  
+#Max.   :7.500   Max.   :9.100   Max.   :11.500   Max.   :35.40   Max.   :32.30   Max.   :21.30
+
+cor(X)
+
+#Ag      Mining      ConstrManufManuf_ndTranspComm      Energy      TradeW
+#Ag        1.00000000 -0.06446456  0.08498040  0.03208436 -0.14533029  0.27917762 -0.18418380  0.04325752  0.24539204
+#Mining   -0.06446456  1.00000000 -0.02146761 -0.42367130 -0.13794386  0.61153483 -0.19271386  0.39044648 -0.55305518
+#Constr    0.08498040 -0.02146761  1.00000000 -0.12993364 -0.31780734  0.07516000 -0.02310018  0.01300031 -0.08691544
+#Manuf     0.03208436 -0.42367130 -0.12993364  1.00000000  0.20372851 -0.35693665 -0.31738049 -0.05083012  0.27073259
+#Manuf_nd -0.14533029 -0.13794386 -0.31780734  0.20372851  1.00000000 -0.17641840 -0.09988080  0.07091362  0.03900687
+#Transp0.27917762  0.61153483  0.07516000 -0.35693665 -0.17641840  1.00000000 -0.04911955 -0.05572106 -0.21353750
+#Comm     -0.18418380 -0.19271386 -0.02310018 -0.31738049 -0.09988080 -0.04911955  1.00000000 -0.16859364  0.33018068
+#Energy    0.04325752  0.39044648  0.01300031 -0.05083012  0.07091362 -0.05572106 -0.16859364  1.00000000 -0.26707721
+#TradeW    0.24539204 -0.55305518 -0.08691544  0.27073259  0.03900687 -0.21353750  0.33018068 -0.26707721  1.00000000
+#TradeR    0.09464267 -0.39599385  0.40113015  0.19462642 -0.12082255 -0.14778210  0.12467627  0.02953892  0.16636809
+#RE       -0.30129373 -0.40633100 -0.25294548 -0.18205552 -0.13333291 -0.50348731  0.11971090 -0.37884901  0.04049752
+#Services -0.32191590 -0.45971557  0.32364308 -0.15904326 -0.45771026 -0.42168031  0.30914590 -0.31383479  0.23908339
+#Govt0.11033873  0.23067866  0.18104989 -0.41051203 -0.23707649  0.42750613  0.19333215  0.04539830 -0.34283068
+#TradeR          RE   Services       Govt
+#Ag        0.09464267 -0.30129373 -0.3219159  0.1103387
+#Mining   -0.39599385 -0.40633100 -0.4597156  0.2306787
+#Constr    0.40113015 -0.25294548  0.3236431  0.1810499
+#Manuf     0.19462642 -0.18205552 -0.1590433 -0.4105120
+#Manuf_nd -0.12082255 -0.13333291 -0.4577103 -0.2370765
+#Transp   -0.14778210 -0.50348731 -0.4216803  0.4275061
+#Comm0.12467627  0.11971090  0.3091459  0.1933322
+#Energy    0.02953892 -0.37884901 -0.3138348  0.0453983
+#TradeW0.16636809  0.04049752  0.2390834 -0.3428307
+#TradeR    1.00000000 -0.30862993  0.2021658  0.2865884
+#RE       -0.30862993  1.00000000  0.5192887 -0.3506442
+#Services  0.20216576  0.51928874  1.0000000 -0.1795611
+#Govt      0.28658841 -0.35064424 -0.1795611  1.0000000
+
+pcal<-princomp(X, scores=TRUE, cor=TRUE)
+summary(pcal)
+
+#Importance of components:
+#  Comp.1    Comp.2    Comp.3    Comp.4     Comp.5     Comp.6     Comp.7     Comp.8    Comp.9
+#Standard deviation     1.7987525 1.4954801 1.3999420 1.1663403 1.07583525 0.93184458 0.85116719 0.78471605 0.5641253
+#Proportion of Variance 0.2488854 0.1720354 0.1507567 0.1046423 0.08903242 0.06679495 0.05572966 0.04736764 0.0244798
+#Cumulative Proportion  0.2488854 0.4209209 0.5716776 0.6763199 0.76535232 0.83214726 0.88787692 0.93524456 0.9597244
+#Comp.10    Comp.11    Comp.12      Comp.13
+#Standard deviation     0.4851322 0.38943836 0.36945813 8.279806e-03
+#Proportion of Variance 0.0181041 0.01166633 0.01049995 5.273476e-06
+#Cumulative Proportion  0.9778285 0.98949478 0.99999473 1.000000e+00
+
+loadings(pcal)
+
+#Loadings:
+#  Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7 Comp.8 Comp.9 Comp.10 Comp.11 Comp.12 Comp.13
+#Ag        0.135        -0.385 -0.373  0.411  0.245 -0.433 -0.277  0.152 -0.217          -0.286   0.206 
+#Mining    0.470         0.260                0.164  0.276  0.148        -0.116  -0.475  -0.282   0.500 
+#Constr           0.393 -0.257  0.350  0.196         0.370 -0.499  0.371         -0.141   0.256         
+#Manuf    -0.183 -0.376 -0.375  0.147  0.111 -0.198  0.151  0.500  0.387          0.138           0.406 
+#Manuf_nd        -0.459               -0.465 -0.217  0.102 -0.592 -0.102          0.142  -0.122   0.338 
+#Transp0.418  0.147        -0.365  0.143 -0.169  0.302        -0.264 -0.108   0.507   0.407   0.144 
+#Comm     -0.152  0.316        -0.343 -0.550  0.267  0.145  0.101  0.436 -0.383                         
+#Energy    0.247 -0.138         0.416 -0.202  0.689 -0.199                0.116   0.282   0.286         
+#TradeW   -0.315        -0.290 -0.442         0.353  0.254        -0.253  0.455  -0.322   0.210   0.112 
+#TradeR           0.261 -0.507  0.227 -0.252 -0.143 -0.146  0.100 -0.515 -0.432  -0.181           0.106 
+#RE       -0.363         0.447         0.173        -0.359 -0.106        -0.169  -0.127   0.496   0.451 
+#Services -0.380  0.384  0.127  0.183  0.125  0.101  0.133        -0.222  0.204   0.458  -0.460   0.320 
+#Govt0.289  0.369               -0.295 -0.306 -0.428  0.121  0.171  0.548                   0.238 
+
+#Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7 Comp.8 Comp.9 Comp.10 Comp.11 Comp.12 Comp.13
+#SS loadings     1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   1.000   1.000   1.000   1.000
+#Proportion Var  0.077  0.077  0.077  0.077  0.077  0.077  0.077  0.077  0.077   0.077   0.077   0.077   0.077
+#Cumulative Var  0.077  0.154  0.231  0.308  0.385  0.462  0.538  0.615  0.692   0.769   0.846   0.923   1.000
+plot(pcal)
+
+screeplot(pcal,type="line",main="Screen Plot")
+
+biplot(pcal)
+
+
+
+
+pcal$scores[1:10,]
+
+#Comp.1     Comp.2      Comp.3      Comp.4     Comp.5      Comp.6     Comp.7     Comp.8
+#[1,]  0.4896329 -0.2840153 -0.92052695  0.08785947 -1.7536053 -0.25729127 -0.3122104 -0.1332644
+#[2,]  6.6852235  1.5422261  2.72534093 -2.09383081  0.9621524 -2.42578094  1.2416981  0.8350926
+#[3,] -0.7517456  1.4884587 -0.86440944  1.23947821  0.7013320 -0.40238064  0.2571765  0.1730944
+#[4,]  1.0000343 -1.2527044 -1.79705334 -0.15952525 -0.6286758  0.31143230 -0.2804304 -0.2515513
+#[5,] -1.8143951  0.3083173  1.07282748 -0.62096975  0.5873437 -0.19317967 -0.3766092  0.6847873
+#[6,] -1.1231352  2.7966578  0.12662810 -0.83439457 -1.5916798  0.58129969  1.0428510  0.1619501
+#[7,] -2.4543289 -0.8838887  2.26111646 -0.17696795  1.0153673  0.09693667 -0.2158679  0.5350483
+#[8,] -0.9918322 -2.9538499  4.02639673  0.22036149  0.4781388 -1.24008960 -1.5630880 -2.3471516
+#[9,] -1.5476850  2.2030680 -0.14284640  0.17108744 -0.1473670  0.46797314 -0.1884953  0.0521831
+#[10,] -0.9920176  0.2998176 -0.05468377 -2.18146390 -1.8755534  0.87740143  0.9428300 -0.1629925
+#Comp.9     Comp.10     Comp.11     Comp.12       Comp.13
+#[1,]  0.16656810  0.12841084 -0.14054526 -0.11795741 -0.0022081279
+#[2,] -0.02638485 -0.03282346  0.60577408  0.42502678  0.0038008406
+#[3,]  0.13204988 -0.33229286 -0.67623158  0.53472823 -0.0060317043
+#[4,] -0.26955035 -0.91416815  0.62811995  0.03117104  0.0028593823
+#[5,] -0.60181782 -0.15025628 -0.05043902 -0.57785734 -0.0072707745
+#[6,]  1.59879806 -1.52538907 -0.02066718 -0.20311745 -0.0025178811
+#[7,]  0.06689563 -0.09648740 -0.09564494  0.11018733  0.0001849203
+#[8,]  0.38662079 -0.46928579 -0.24839536  0.84153331 -0.0004708541
+#[9,] -1.26973408 -0.64521367 -0.42080320  0.29586008 -0.0079586042
+#[10,]  0.11552867 -0.08515134 -0.14312824  0.31799226 -0.0020137002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assignment 6
+import tensorflow as tf
+from tensorflow import keras
+import numpy as np
+import matplotlib.pyplot as plt
+
+(x_train, y_train), (x_val, y_val) = keras.datasets.fashion_mnist.load_data()
+class_names = ['T-shirt', 'Trouser', 'Pullover', 'Dress', 'Coat',
+               'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+def preprocess(x, y):
+  x = tf.cast(x, tf.float32) / 255.0
+  y = tf.cast(y, tf.int64)
+
+  return x, y
+
+def create_dataset(xs, ys, n_classes=10):
+  ys = tf.one_hot(ys, depth=n_classes)
+  
+  return tf.data.Dataset \
+    .from_tensor_slices((xs, ys)) \
+    .map(preprocess) \
+    .batch(128)
+train_dataset = create_dataset(x_train, y_train)
+val_dataset = create_dataset(x_val, y_val)
+model = keras.Sequential([
+    keras.layers.Reshape(target_shape=(28 * 28,), input_shape=(28, 28)),
+    keras.layers.Dense(units=256, activation='relu'),
+    keras.layers.Dense(units=192, activation='relu'),
+    keras.layers.Dense(units=128, activation='relu'),
+    keras.layers.Dense(units=10, activation='softmax')
+])
+model.compile(optimizer='adam', 
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+
+history = model.fit(
+    train_dataset.repeat(), 
+    epochs=10, 
+    steps_per_epoch=500,
+    validation_data=val_dataset.repeat(), 
+    validation_steps=2
+)
+WARNING:tensorflow:Expected a shuffled dataset but input dataset `x` is not shuffled. Please invoke `shuffle()` on input dataset.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+Epoch 1/10
+500/500 [==============================] - 6s 12ms/step - loss: 0.0866 - acc: 0.9655 - val_loss: 0.0580 - val_acc: 0.9785
+Epoch 2/10
+500/500 [==============================] - 5s 10ms/step - loss: 0.0640 - acc: 0.9744 - val_loss: 0.0591 - val_acc: 0.9762
+Epoch 3/10
+500/500 [==============================] - 5s 10ms/step - loss: 0.0578 - acc: 0.9768 - val_loss: 0.0615 - val_acc: 0.9715
+Epoch 4/10
+500/500 [==============================] - 5s 10ms/step - loss: 0.0537 - acc: 0.9785 - val_loss: 0.0599 - val_acc: 0.9750
+Epoch 5/10
+500/500 [==============================] - 5s 11ms/step - loss: 0.0507 - acc: 0.9797 - val_loss: 0.0588 - val_acc: 0.9781
+Epoch 6/10
+500/500 [==============================] - 5s 10ms/step - loss: 0.0482 - acc: 0.9805 - val_loss: 0.0527 - val_acc: 0.9773
+Epoch 7/10
+500/500 [==============================] - 5s 10ms/step - loss: 0.0452 - acc: 0.9817 - val_loss: 0.0527 - val_acc: 0.9770
+Epoch 8/10
+500/500 [==============================] - 5s 10ms/step - loss: 0.0434 - acc: 0.9825 - val_loss: 0.0672 - val_acc: 0.9773
+Epoch 9/10
+500/500 [==============================] - 5s 10ms/step - loss: 0.0421 - acc: 0.9832 - val_loss: 0.0682 - val_acc: 0.9785
+Epoch 10/10
+500/500 [==============================] - 5s 10ms/step - loss: 0.0401 - acc: 0.9839 - val_loss: 0.0624 - val_acc: 0.9785
+predictions = model.predict(val_dataset)
+total_correct_prediction=0
+
+for i in range (0,10000):               #Total Number of Actual Data for Testing
+    print("Predication :",end=" ")
+    predicted=np.argmax(predictions[i])  #Indexed Values of Predicted
+    actual=y_val[i]                      #Indexed Values of Actual Values
+    if(predicted==actual):
+      total_correct_prediction+=1
+    print(class_names[predicted],"\t\t\tActual:",class_names[actual]) # Y_val :- Actual labelled Data Value
+
+print("Overall Accuracy of Model : ",total_correct_prediction/len(y_val)*100," %");  #Overall 
+Predication : Pullover 			Actual: Pullover
+Predication : Trouser 			Actual: Trouser
+Predication : Trouser 			Actual: Trouser
+Predication : Shirt 			Actual: Shirt
+Predication : Trouser 			Actual: Trouser
+Predication : Coat 			Actual: Coat
+Predication : Shirt 			Actual: Shirt
+Predication : Sandal 			Actual: Sandal
+Predication : Sneaker 			Actual: Sneaker
+Predication : Coat 			Actual: Coat
+Predication : Sandal 			Actual: Sandal
+Predication : Sneaker 			Actual: Sneaker
+Predication : Dress 			Actual: Dress
+Predication : Coat 			Actual: Coat
+Predication : Trouser 			Actual: Trouser
+Predication : Pullover 			Actual: Pullover
+Predication : Pullover 			Actual: Coat
+Predication : Bag 			Actual: Bag
+Predication : T-shirt 			Actual: T-shirt
+Predication : Pullover 			Actual: Pullover
+Predication : Sandal 			Actual: Sandal
+Predication : Sneaker 			Actual: Sneaker
+Predication : Sandal 			Actual: Ankle boot
+
+Overall Accuracy of Model :  87.77000000000001  %
+
+
+
+
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+# %matplotlib inline
+
+from google.colab import files
+uploaded = files.upload()
+
+import io
+bankdata = pd.read_csv(io.BytesIO(uploaded['bill_authentication.csv']))
+
+bankdata.shape
+
+bankdata.head()
+
+X = bankdata.drop('Class', axis=1)
+y = bankdata['Class']
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)
+
+from sklearn.svm import SVC
+svclassifier = SVC(kernel='sigmoid')  #Change Kernel to #Sigmoid : sigmoid   #Linear - linear #Polynomian - poly     #Gausian -- rbf
+svclassifier.fit(X_train, y_train)
+
+y_pred = svclassifier.predict(X_test)
+
+from sklearn.metrics import classification_report, confusion_matrix
+print(confusion_matrix(y_test,y_pred))
+print(classification_report(y_test,y_pred))
+
+
+
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
+
+public class rsa_new {
+
+    static long gcd(long a, long h) {
+        long temp;
+        while (true) {
+            temp = a % h;
+            if (temp == 0) {
+                return h;
+            }
+            a = h;
+            h = temp;
+        }
+    }
+
+    static long nextPrime(long n) {
+
+        BigInteger b = new BigInteger(String.valueOf(n));
+        return Long.parseLong(b.nextProbablePrime().toString());
+    }
+
+    static boolean checkPrime(long n) {
+
+        BigInteger b = new BigInteger(String.valueOf(n));
+
+        return b.isProbablePrime(1);
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter two Different Prime Numbers : ");
+
+        Random re = new Random();
+
+        int random_value = re.nextInt(1000);
+
+        long prime_one = nextPrime(random_value);
+
+        long prime_two = nextPrime(prime_one);
+
+        System.out.print("1st Prime : " + prime_one);
+        System.out.print("\n2st Prime : " + prime_two);
+
+        long n = (prime_one) * (prime_two);   //Public Key Part 1
+
+        long totient_n = (prime_one - 1) * (prime_two - 1);
+
+        //Initial e to 2 since 1 < e < Totient and gcd should be 1
+        int e = 2;
+
+        List<Integer> al = new ArrayList<Integer>();
+
+        while (e < totient_n) {
+
+            if (gcd(e, totient_n) == 1) {
+                if (checkPrime(e)) {
+                    al.add(e);
+                }
+
+                e++;
+            } else {
+                e++;
+            }
+
+        }
+
+         //Choose a Random e from the ArrayList
+        int index= re.nextInt(al.size()); //0 to size-1
+         e=al.get(index);
+        double temp_e = Math.pow(e, -1);
+
+        BigInteger phi = new BigInteger("" + totient_n);
+        BigInteger e_new = new BigInteger("" + e);
+
+       
+        BigInteger d = e_new.modInverse(phi);
+
+        System.out.println("\nEnter Message to Encrypted : ");
+        int msg = sc.nextInt();
+
+        BigInteger msg1 = new BigInteger("" + msg);
+        BigInteger e1 = new BigInteger("" + e);
+        BigInteger n1 = new BigInteger("" + n);
+
+        BigInteger c1 = msg1.modPow(e1, n1);
+
+        System.out.println("Encrypted Message : " + c1);
+
+        BigInteger m1 = c1.modPow(d, n1);
+
+        System.out.println("Decrypted Message :" + m1);
+
+    }
+}
+
+
+
+
+import java.math.BigInteger; 
+import java.security.MessageDigest; 
+import java.security.NoSuchAlgorithmException; 
+import java.util.Scanner;
+
+public class SHA_algo { 
+	public static String encryptThisString(String input) 
+	{ 
+		try { 
+			// getInstance() method is called with algorithm SHA-1 
+			MessageDigest md = MessageDigest.getInstance("SHA-1"); 
+
+			// digest() method is called 
+			// to calculate message digest of the input string 
+			// returned as array of byte 
+			byte[] messageDigest = md.digest(input.getBytes()); 
+
+			// Convert byte array into signum representation 
+			BigInteger no = new BigInteger(1, messageDigest); 
+
+			// Convert message digest into hex value 
+			String hashtext = no.toString(16); 
+
+			// Add preceding 0s to make it 32 bit 
+			while (hashtext.length() < 32) { 
+				hashtext = "0" + hashtext; 
+			} 
+
+			
+			return hashtext; 
+		} 
+
+		// For specifying wrong message digest algorithms 
+		catch (NoSuchAlgorithmException e) { 
+			throw new RuntimeException(e); 
+		} 
+	} 
+
+ 
+	public static void main(String args[]) 
+	{ 
+
+		System.out.println("HashCode Generated by SHA-1 for: "); 
+               Scanner sc=new Scanner(System.in);
+		String s1 = sc.next();
+		System.out.println("\n" + s1 + " : " + encryptThisString(s1)); 
+ 
+	} 
+} 
+
+
+
+import java.util.Scanner;
+
+public class CRT {
+
+    static int Inverse(int a, int mod) {
+        int b = a % mod;
+
+        for (int i = 0; i < mod; i++) {
+            if ((a * i) % mod == 1) {
+                return i;
+            }
+        }
+
+        return 1;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number for simultaneous congruences");
+        int total = sc.nextInt();
+
+        int[] a = new int[total];
+        int[] n = new int[total];
+
+        int M = 1;
+        for (int i = 0; i < total; i++) {
+
+            System.out.println("Enter value of a" + (i + 1) + "  n" + (i + 1));
+            a[i] = sc.nextInt();
+            n[i] = sc.nextInt();
+            M *= n[i];
+        }
+
+        int sum = 0;
+        for (int i = 0; i < total; i++) {
+            int M_check = M / n[i];
+
+            sum += a[i] * Inverse(M_check, n[i]) * M_check;
+
+        }
+
+        System.out.println("Value of X = " + (sum % M));
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
