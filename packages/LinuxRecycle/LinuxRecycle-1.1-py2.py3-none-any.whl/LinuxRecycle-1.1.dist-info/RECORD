@@ -1,0 +1,16 @@
+core/DB.py,sha256=y0kGW3bmT_dHARGsuY13ym-W-owqr3kIZ4qsIko8HEo,4766
+core/__init__.py,sha256=61urAeFPQE69x012ArmSaKPHcIZ3rfjXYStiz2wGr84,423
+core/argv.py,sha256=S1iQ43zVfXxC5hFrTzsoJD6iI5F5Q2YWY7Q13k1aUPo,591
+core/auto_clear.py,sha256=6zTMn-tBbBmrKrpELmSRq5_HCtuWGhFJHjnwFhcnV8Y,2399
+core/config.py,sha256=Z_JOszcoGDJFVVJcbWE2UafaG5-e5zYk7iEf0be4OEU,1402
+core/main.py,sha256=1t4XbkppUnFg4lGx3w2bnZBJdk33msGzFaI0fciU9AQ,1352
+core/oper.py,sha256=5PGPbra4JXHgA-TNmaVgLRQIInJB9hFuTBT29etig88,2744
+core/printDB.py,sha256=4pitECbMB0qaW6lcvTCeMXc50ypptN-1Rk3FPTOHLeQ,1281
+core/recover.py,sha256=1NU8XUBAtxyuLdJHvSgo4CoDJ_Rai2h5-09ygSkf25U,1199
+core/trashInfo.py,sha256=wO0mkTBb_V96yaS8xCwbbknbCuJ2HYsE7jVELVAoHAk,1728
+LinuxRecycle-1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+LinuxRecycle-1.1.dist-info/METADATA,sha256=3hmVESitdt311eB5Apc5j_nzMK7dzyONXBD3kKB88bE,241
+LinuxRecycle-1.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+LinuxRecycle-1.1.dist-info/entry_points.txt,sha256=koT5U9CYtxNIzBvEJlEh9Sw48JIUwOQxrRrMiFi-oCM,101
+LinuxRecycle-1.1.dist-info/top_level.txt,sha256=0ebp8k35dOTHVwbY3UcokRsjC7cWLN_iaJ70tIcmODU,5
+LinuxRecycle-1.1.dist-info/RECORD,,
