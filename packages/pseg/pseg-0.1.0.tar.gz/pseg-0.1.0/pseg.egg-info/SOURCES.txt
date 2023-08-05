@@ -1,0 +1,11 @@
+README.rst
+setup.py
+pseg/__init__.py
+pseg/meter.py
+pseg.egg-info/PKG-INFO
+pseg.egg-info/SOURCES.txt
+pseg.egg-info/dependency_links.txt
+pseg.egg-info/entry_points.txt
+pseg.egg-info/not-zip-safe
+pseg.egg-info/requires.txt
+pseg.egg-info/top_level.txt
