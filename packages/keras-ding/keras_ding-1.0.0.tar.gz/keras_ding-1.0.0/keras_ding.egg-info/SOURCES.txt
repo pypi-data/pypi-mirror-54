@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+keras_ding/__init__.py
+keras_ding/__version__.py
+keras_ding/ding.py
+keras_ding/ding.wav
+keras_ding.egg-info/PKG-INFO
+keras_ding.egg-info/SOURCES.txt
+keras_ding.egg-info/dependency_links.txt
+keras_ding.egg-info/requires.txt
+keras_ding.egg-info/top_level.txt
