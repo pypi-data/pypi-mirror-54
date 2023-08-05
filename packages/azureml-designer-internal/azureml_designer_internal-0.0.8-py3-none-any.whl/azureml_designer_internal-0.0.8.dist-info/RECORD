@@ -1,0 +1,17 @@
+azureml/__init__.py,sha256=gvJwU7jq3WNoN7SvW2x-rI8HDbq1azoKw6YJYScC5ak,246
+azureml/studio/__init__.py,sha256=gvJwU7jq3WNoN7SvW2x-rI8HDbq1azoKw6YJYScC5ak,246
+azureml/studio/internal/Exceptions.xml,sha256=85grKfRlw3SBgQPR6baJrJLMwWgq-RGZfS5pDKTVITg,62881
+azureml/studio/internal/__init__.py,sha256=gvJwU7jq3WNoN7SvW2x-rI8HDbq1azoKw6YJYScC5ak,246
+azureml/studio/internal/_version.py,sha256=YQY-i8MemQTvHljd9BqOGgeJEu3FrzurE3TEKDwAax4,22
+azureml/studio/internal/error.py,sha256=hkp5RLC6PiswCQIyOD44p0XEgypQRSkpeC7vywzVGI4,41959
+azureml/studio/internal/error_handler.py,sha256=rS6na8Z4swfiTwzX_vqMTRVOaaSyMPS6yDAl9zOnOAo,2896
+azureml/studio/internal/types.py,sha256=Sb5o5nuPSLxtAmgXlJUfXmwdoL364C0RlWb9dokdfbs,2314
+azureml/studio/internal/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azureml/studio/internal/io/rwbuffer_manager.py,sha256=uRE3KjolVmVASnBxHYQLUzFGs8GrNYNKd2ofocDKtLU,3719
+azureml/studio/internal/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azureml/studio/internal/utils/dependencies.py,sha256=qBXl9gsTPGvbdpm3Lsbw3Aavg171ourU-ygNH4hEHhE,6214
+azureml_designer_internal-0.0.8.dist-info/METADATA,sha256=JyzR_aH71a5cV0OiLo5ozHa0bI6geTqdjtylvi0Og9A,468
+azureml_designer_internal-0.0.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+azureml_designer_internal-0.0.8.dist-info/dependency_links.txt,sha256=v_cdJQBgbjDZ9v7h-6CV_vY79ofDQSRFbj-TmGA9O_c,67
+azureml_designer_internal-0.0.8.dist-info/top_level.txt,sha256=ZOeEa0TAXo6i5wOjwBoqfIGEuxOcKuscGgNSpizqREY,8
+azureml_designer_internal-0.0.8.dist-info/RECORD,,
