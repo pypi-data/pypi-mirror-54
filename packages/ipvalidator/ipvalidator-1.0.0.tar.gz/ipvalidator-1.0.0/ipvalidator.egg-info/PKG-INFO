@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: ipvalidator
+Version: 1.0.0
+Summary: IPvalidator is a python library that validates unicast IP addresses
+Home-page: https://github.com/helloworld1008/ipvalidator
+Author: helloworld1008
+Author-email: rsharma1818@outlook.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: This is the README file for ipvalidator library
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
