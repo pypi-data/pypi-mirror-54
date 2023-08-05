@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+import aws_monitoring.ec2
+
+aws_monitoring.ec2.print_ec2_info()
