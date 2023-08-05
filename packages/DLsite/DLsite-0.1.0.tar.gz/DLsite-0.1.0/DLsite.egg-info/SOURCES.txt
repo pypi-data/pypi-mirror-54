@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+DLsite.egg-info/PKG-INFO
+DLsite.egg-info/SOURCES.txt
+DLsite.egg-info/dependency_links.txt
+DLsite.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
