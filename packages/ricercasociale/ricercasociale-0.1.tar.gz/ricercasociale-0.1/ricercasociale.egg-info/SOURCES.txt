@@ -1,0 +1,10 @@
+README.md
+setup.py
+ricercasociale/__init__.py
+ricercasociale/monovariate.py
+ricercasociale.egg-info/PKG-INFO
+ricercasociale.egg-info/SOURCES.txt
+ricercasociale.egg-info/dependency_links.txt
+ricercasociale.egg-info/not-zip-safe
+ricercasociale.egg-info/requires.txt
+ricercasociale.egg-info/top_level.txt
