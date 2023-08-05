@@ -1,0 +1,17 @@
+aidockermon/__init__.py,sha256=V98Xpe1ZiDV--GNY2W_g_cR0PEFBloI6Jq7MxYamoc8,71
+aidockermon/aidockermon.py,sha256=sTNCANyzJPPJ8F97e8Fcrno5MXN6cXtzHposIXVPfUY,14567
+aidockermon/handlers.py,sha256=Mj2XmChWox9Omkjl-Ryx-K8AXdUr6YhdDKrncsg0Fo0,231
+aidockermon/settings.py,sha256=iU6I2idxd7yKIsz0MB_KoNip41dIT4QTg0gr5XMEWeI,2813
+aidockermon/utils.py,sha256=VZF3ukEokCcD6Wrfc5bbKO5MXENLXvtfEWtESET2U2I,1333
+etc/__init__.py,sha256=YCMgxIfJcuhMJmF1g9eXOmc3HQvYUcFPwZLlAyzrrDw,87
+etc/config.yml,sha256=M8BhPlvrXIfd77u1Ltr-KWq_GRXayo2yJCWy9yUL9TE,926
+etc/mappings.json,sha256=OcrfNOXTFpwDkRM8fUMIr2cnRospToeP6azuRxGyRKY,7746
+etc/cron.d/aidockermon,sha256=qSyroMGPgxsG2wtXqLa6xXkxjeVoVw7LnQxXlsfJqyg,448
+etc/grafana/grafana.json,sha256=Tk5lgMnCyi7IxEjY74Mha4bSTEsIxSGaIc4-3inVkO4,44973
+etc/syslog-ng/syslog-ng.conf,sha256=9sPNukZPpE_vJUVCNxGhKY_dMmMRTkInlyTEGRD3Ob4,1110
+aidockermon-0.10.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aidockermon-0.10.2.dist-info/METADATA,sha256=iNoTSxBGupzAOh6q5UDtp8CkriKOBMqWS-5ki2VCQcs,7760
+aidockermon-0.10.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+aidockermon-0.10.2.dist-info/entry_points.txt,sha256=-6VazyHDLkEeGwmzWqdUgRk8Y-f-bZdTBLXx1uTy6pM,62
+aidockermon-0.10.2.dist-info/top_level.txt,sha256=RZUKKtAj3Ilb7BcMVvUkxj85kJ5iRlXSk5S2IOHxyaI,16
+aidockermon-0.10.2.dist-info/RECORD,,
