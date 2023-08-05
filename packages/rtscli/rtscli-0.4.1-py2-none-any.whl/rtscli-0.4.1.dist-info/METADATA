@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rtscli
+Version: 0.4.1
+Summary: A realtime stocks ticker that runs in CLI
+Home-page: http://github.com/aranair/rtscli
+Author: Boa Ho Man
+Author-email: boa.homan@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: urwid
+Requires-Dist: HTMLParser
+Requires-Dist: simplejson
+
+UNKNOWN
+
+
