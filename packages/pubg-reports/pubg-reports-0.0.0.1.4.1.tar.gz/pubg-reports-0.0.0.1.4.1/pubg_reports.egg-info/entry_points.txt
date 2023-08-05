@@ -1,0 +1,6 @@
+[console_scripts]
+bot-config-all = pubgReports.config:configAll
+bot-config-channels = pubgReports.config:configChannels
+bot-config-tokens = pubgReports.config:configTokens
+bot-run = pubgReports.bot:main
+
