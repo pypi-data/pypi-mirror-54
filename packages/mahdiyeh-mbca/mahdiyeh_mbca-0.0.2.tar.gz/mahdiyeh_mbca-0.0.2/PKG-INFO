@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mahdiyeh_mbca
+Version: 0.0.2
+Summary: Azadeh Afzar - Mahdiyeh Mano Basic Computer Assembler
+Home-page: https://gitlab.com/Azadeh-Afzar/Computer-Science/Mahdiyeh-Mano-Basic-Computer-Assembler
+Author: Mohammad Mahdi Baghbani Pourvahid
+Author-email: MahdiBaghbani@protonmail.com
+License: AGPLv3
+Description: ## Under Development :)
+        Coming soon ...
+Platform: Posix; Windows; MacOS X
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Assemblers
+Classifier: Topic :: Software Development :: Disassemblers
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
