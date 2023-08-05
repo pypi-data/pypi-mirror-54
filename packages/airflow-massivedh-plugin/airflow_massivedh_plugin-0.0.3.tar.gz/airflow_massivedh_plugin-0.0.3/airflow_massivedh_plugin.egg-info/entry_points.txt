@@ -1,0 +1,3 @@
+[airflow.plugins]
+airflow_massivedh_plugin = airflow_massivedh_plugin:MassiveAirflowPlugin
+
