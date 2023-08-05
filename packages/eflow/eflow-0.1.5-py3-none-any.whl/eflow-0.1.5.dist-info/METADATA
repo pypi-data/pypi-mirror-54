@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: eflow
+Version: 0.1.5
+Summary: UNKNOWN
+Home-page: https://github.com/EricCacciavillani/eFlow
+Author: Eric Cacciavillani
+Author-email: eric.cacciavillani@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: jupyterlab
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: missingno
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: kneed
+Requires-Dist: Pillow
+Requires-Dist: tqdm
+Requires-Dist: python-dateutil
+Requires-Dist: scikit-plot
+Requires-Dist: scipy
+Requires-Dist: ipywidgets
+Requires-Dist: ipython-blocking
+
+UNKNOWN
+
+
