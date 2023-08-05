@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.cfg
+setup.py
+matialvarezs_handlers_easy.egg-info/PKG-INFO
+matialvarezs_handlers_easy.egg-info/SOURCES.txt
+matialvarezs_handlers_easy.egg-info/dependency_links.txt
+matialvarezs_handlers_easy.egg-info/requires.txt
+matialvarezs_handlers_easy.egg-info/top_level.txt
+matialvarezs_handlers_easy/management/__init__.py
+matialvarezs_handlers_easy/management/commands/__init__.py
+matialvarezs_handlers_easy/management/commands/matialvarezs_handlers_easy_test_command.py
