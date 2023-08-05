@@ -1,0 +1,3 @@
+include rabboni/_pytransform.dll
+include rabboni/license.lic
+include rabboni/pytransform.key
