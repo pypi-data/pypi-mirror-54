@@ -1,0 +1,15 @@
+zippyshare_generator/__init__.py,sha256=3vM2TUbRWHFzrlgqNZznAhmqmkVDtarPHgdHCy4qbFs,24
+zippyshare_generator/__main__.py,sha256=2NqY8fzGNkfwAzSRDR0QgQCoRmBWAhvupn4jP9XuTxg,75
+zippyshare_generator/__version__.py,sha256=tU4qhgVLP_VujA8zkn4zfC2ndH2_jzke0hWFI9JrT3A,14
+zippyshare_generator/zippyshare.ini,sha256=CtFnB5QJQwmVocMI071HAiaYDP8Cf-hCfDqLpEmmmbU,748
+zippyshare_generator/zippyshare.py,sha256=DSgIqeGaNU-3Vv5Eme16T13ePdHqjq4TB-vuwJDz0Ek,5315
+zippyshare_generator-0.12.data/data/LICENSE.rst,sha256=ZjMo4JKA3QcT8l7ftLOPIYpUVczrrDwMozq6UcrOKCk,1853
+zippyshare_generator-0.12.data/data/README.rst,sha256=oOsg6km2_t_fmkhLRjcePFAeYX10o2NXIgmhzKAjWBA,1468
+zippyshare_generator-0.12.data/data/__version__.py,sha256=tU4qhgVLP_VujA8zkn4zfC2ndH2_jzke0hWFI9JrT3A,14
+zippyshare_generator-0.12.data/data/zippyshare.ini,sha256=CtFnB5QJQwmVocMI071HAiaYDP8Cf-hCfDqLpEmmmbU,748
+zippyshare_generator-0.12.dist-info/LICENSE.rst,sha256=ZjMo4JKA3QcT8l7ftLOPIYpUVczrrDwMozq6UcrOKCk,1853
+zippyshare_generator-0.12.dist-info/METADATA,sha256=x87Ohg_Q_h-wuOy7MpaCAUjmcfThd_RSAtcmdw4FUTQ,2763
+zippyshare_generator-0.12.dist-info/WHEEL,sha256=05Ahrak1u2K61DpLp9CDNSbUImLTITCMom_cqTFk6pE,116
+zippyshare_generator-0.12.dist-info/entry_points.txt,sha256=2RG7FhXQgM2KndK7jc8Sp7nidYwQJ-7bBIgRidU2EKs,127
+zippyshare_generator-0.12.dist-info/top_level.txt,sha256=g6FHdDY6GdSp3wn5sLSkcunW0qx1wCcdslfiWgbfqVw,21
+zippyshare_generator-0.12.dist-info/RECORD,,
