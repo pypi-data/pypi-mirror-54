@@ -1,0 +1,9 @@
+requests
+PyYAML
+better_exceptions
+blessings
+colorama
+eliot
+six
+typeguard
+typing
