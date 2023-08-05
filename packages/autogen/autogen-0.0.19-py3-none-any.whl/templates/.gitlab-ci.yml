@@ -1,0 +1,30 @@
+image: python:3.7-slim-buster
+pages:
+  # build html documentation and publish on gitlab pages
+  stage: deploy
+  script:
+    # setup
+    - apt-get update
+    - apt-get install -y git pandoc
+    - pip install autogen
+
+    # convert docstrings to rst; create html pages
+    - autogen rst html
+
+    # publish using temporary folder to publish all pages at same time
+    - mkdir .public
+    - cp -r docs/_build/html/* .public
+    - mv .public public
+  artifacts:
+    paths:
+    - public
+  only:
+    refs:
+      # branches that trigger runner
+      - master
+     # uncomment to trigger runner on changes to specific files only. default is trigger every commit.
+#    changes:
+#      - master/**/*
+#      - worker/**/*
+#      - docs/**/*
+#      - .gitlab-ci.yml
