@@ -1,0 +1,9 @@
+notebook_parameterizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebook_parameterizer/cli.py,sha256=dZcyyywDbcplCRMUYiBGLRex6AofRH9n5a_cM0Auh9I,888
+notebook_parameterizer/run.py,sha256=p0uOKzDAaWAFNGNho2NfqSJFb7NZ6Fvmxo3suNKl5VI,2839
+notebook_parameterizer-0.0.1.dist-info/LICENSE,sha256=e0lhIfaHmcmTL6N0SNE9cEkjKpAJZ-mL7bsvSZH3pnA,1064
+notebook_parameterizer-0.0.1.dist-info/METADATA,sha256=JGpTzwmMjjeKZda6QNyntgAZtpWMTcsVzmpyO8NhD2E,944
+notebook_parameterizer-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+notebook_parameterizer-0.0.1.dist-info/entry_points.txt,sha256=L-Y00MlpK-mBCCtEYncYBbHNIiK7NXlhVr-vHiu4kXg,94
+notebook_parameterizer-0.0.1.dist-info/top_level.txt,sha256=HHyh1RKDKDg5Q5E852RgpW_sAGiqZfCNOZ4CJdaVbF8,23
+notebook_parameterizer-0.0.1.dist-info/RECORD,,
