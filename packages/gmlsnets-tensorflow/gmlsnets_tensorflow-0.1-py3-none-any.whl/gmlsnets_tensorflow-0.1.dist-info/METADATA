@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gmlsnets-tensorflow
+Version: 0.1
+Summary: GMLS-Nets Tensorflow implementation
+Home-page: http://github.com/rgp62/gmls-nets
+Author: Ravi G. Patel and Nathaniel Trask
+Author-email: rgpatel@sandia.gov
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: toolz
+Requires-Dist: tensorflow
+
+UNKNOWN
+
+
