@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: cubicweb-saml
+Version: 0.2.0
+Summary: SAML2 authentifier
+Home-page: https://www.cubicweb.org/project/cubicweb-saml
+Author: LOGILAB S.A. (Paris, FRANCE)
+Author-email: contact@logilab.fr
+License: LGPL
+Description: Summary
+        -------
+        SAML2 authentifier
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: CubicWeb
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: JavaScript
