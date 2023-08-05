@@ -1,0 +1,14 @@
+CHANGES
+=======
+
+v0.1.1
+------
+
+* Try to fix setup.cfg
+
+v0.1.0
+------
+
+* Adds some basic distribution functions.  Adds \_\_init\_\_.py.  Adds test
+* Initial commit
+* Initial commit

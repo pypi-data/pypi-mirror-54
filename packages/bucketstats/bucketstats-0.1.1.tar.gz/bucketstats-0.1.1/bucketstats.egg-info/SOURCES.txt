@@ -1,0 +1,17 @@
+AUTHORS
+ChangeLog
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+bucketstats/__init__.py
+bucketstats/basics.py
+bucketstats.egg-info/PKG-INFO
+bucketstats.egg-info/SOURCES.txt
+bucketstats.egg-info/dependency_links.txt
+bucketstats.egg-info/not-zip-safe
+bucketstats.egg-info/pbr.json
+bucketstats.egg-info/requires.txt
+bucketstats.egg-info/top_level.txt
+test/test_basics.py
