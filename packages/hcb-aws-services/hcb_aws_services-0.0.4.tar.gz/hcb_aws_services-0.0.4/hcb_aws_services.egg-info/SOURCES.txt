@@ -1,0 +1,6 @@
+README.md
+setup.py
+hcb_aws_services.egg-info/PKG-INFO
+hcb_aws_services.egg-info/SOURCES.txt
+hcb_aws_services.egg-info/dependency_links.txt
+hcb_aws_services.egg-info/top_level.txt

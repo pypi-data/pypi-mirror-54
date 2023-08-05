@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hcb-aws-services
+Version: 0.0.4
+Summary: A package containing functions to use aws boto3
+Home-page: https://gitlab.infutor.com/high-capacity-batch
+Author: Zachary R. Bannor
+Author-email: zachary.bannor@spr.com
+License: UNKNOWN
+Description: This is a package containing reusable functions to for Lambdas, Airflow, etc.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
