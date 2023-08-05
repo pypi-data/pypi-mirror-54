@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+xtream/__init__.py
+xtream/main.py
+xtream.egg-info/PKG-INFO
+xtream.egg-info/SOURCES.txt
+xtream.egg-info/dependency_links.txt
+xtream.egg-info/entry_points.txt
+xtream.egg-info/namespace_packages.txt
+xtream.egg-info/requires.txt
+xtream.egg-info/top_level.txt
