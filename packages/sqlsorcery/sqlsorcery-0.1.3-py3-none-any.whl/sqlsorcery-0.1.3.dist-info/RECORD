@@ -1,0 +1,9 @@
+sqlsorcery/__init__.py,sha256=4T1P02Gynb3hzUfqAwrgFKwICyfDpjd1WJ6i199BhtA,14408
+sqlsorcery/connection.py,sha256=d5RzrMvYSUzdd0nAMfUzQaSwXUvvem7Poe2SaR_gFXc,6806
+sqlsorcery/mssql.py,sha256=bSkHuPUAnvMdZZ9OP-Rrecg13ra2WKyieS2dm7nsS9k,1897
+sqlsorcery/postgres.py,sha256=0Hl0W1wVDytmjEcaTuRwp-V3OmOBbrc44UzCjow-fO0,1811
+sqlsorcery-0.1.3.dist-info/LICENSE,sha256=g5p7fjwBgWmbZTx3j64PmCtx5D_LFwO5vgwPZTbY8Qw,1066
+sqlsorcery-0.1.3.dist-info/METADATA,sha256=5yti8fShNOz-3Spdj3ARd_-VDQlvAnHKIIHmSwNvzb8,3808
+sqlsorcery-0.1.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+sqlsorcery-0.1.3.dist-info/top_level.txt,sha256=E7kWZ0HL1ZvZ339G1K_ieegN8gWbSMNI5t1zH6naNsU,11
+sqlsorcery-0.1.3.dist-info/RECORD,,
