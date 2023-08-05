@@ -1,0 +1,5 @@
+[console_scripts]
+mtscomp = mtscomp:mtscomp
+mtsdecomp = mtscomp:mtsdecomp
+mtsdesc = mtscomp:mtsdesc
+
