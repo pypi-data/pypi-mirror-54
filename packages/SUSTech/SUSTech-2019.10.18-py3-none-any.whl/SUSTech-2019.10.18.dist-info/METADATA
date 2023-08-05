@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: SUSTech
+Version: 2019.10.18
+Summary: SUSTech
+Home-page: https://github.com/Iydon/pypi
+Author: Iydon Liang
+Author-email: 11711217@mail.sustech.edu.cn
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# SUSTech
+Southern University of Science and Technology
+
+
