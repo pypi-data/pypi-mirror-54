@@ -1,0 +1,53 @@
+Metadata-Version: 1.1
+Name: pypiuma
+Version: 1.0.0
+Summary: Piuma Python library with Django support
+Home-page: UNKNOWN
+Author: Lotrèk
+Author-email: dimmitutto@lotrek.it
+License: MIT
+Description: pypiuma
+        =======
+        
+        A library to use Piuma with Python and Django
+        
+        Install
+        -------
+        
+        ::
+        
+            pip install pypiuma
+        
+        Usage
+        -----
+        
+        ::
+        
+            from pypiuma import piuma_url
+        
+            piuma_url("http://mypiumahost", "http://myimagehost/static/img/a.png", 200, 200, 80)
+        
+        Usage with Django
+        -----------------
+        
+        ::
+        
+            {% load pypiuma_tags %}
+        
+            <img src="{% piuma 'http://myimagehost/static/img/a.png' width=200 %}">
+            <img src="{% piuma_static 'img/mylogo.png' width=200 %}">
+        
+        Run tests
+        ---------
+        
+        ::
+        
+            pip install -r requirements-dev.txt
+            make test
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
