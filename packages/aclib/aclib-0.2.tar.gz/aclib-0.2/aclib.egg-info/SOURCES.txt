@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+aclib/__init__.py
+aclib.egg-info/PKG-INFO
+aclib.egg-info/SOURCES.txt
+aclib.egg-info/dependency_links.txt
+aclib.egg-info/not-zip-safe
+aclib.egg-info/requires.txt
+aclib.egg-info/top_level.txt
