@@ -1,0 +1,15 @@
+translate/__init__.py,sha256=f7_ann6dCmpII0JXq0fe5avQQSRlejV4s5ofLQZpNEM,134
+translate/abstratRequest.py,sha256=0sHcTcdzsGSthd1ZoW31l15m7hEYJgQGtW9qerorw3M,1112
+translate/requestFactory.py,sha256=VYTYaxBavrpgQGKxggwwIxcEf8I9t-e2bGeeabjHDeY,317
+translate/utils.py,sha256=kvGvBY2pl2M7Zt3r3-dTiyet2yCZN1WeLDlQG4IiXxc,789
+translate/youdaoRequest.py,sha256=uM2OPf38jG3P_qD4CNt-8A51_65x1uV5BtF4jWkqRos,4968
+xml2dict/__init__.py,sha256=MqVwmFabL0XeSqq-6cp3AYziz03mA_m7JHSOFIO3mdc,29
+xml2dict/xml2dict.py,sha256=fvsCDmxfCAn3D8vSaOMWUUrWZdNmf3LCEt8_a5W3b9c,2155
+youdao/__init__.py,sha256=QoYmdJ-ezpoxXUa3I_D_VWGOx4CWOkaf7pYNyrQz5lw,110
+youdao/translate.py,sha256=yN5_EJVaQpmeZ9F-kiksZBWkqdBFKP8BvB84gHcu7kA,4781
+youdao/utils.py,sha256=kvGvBY2pl2M7Zt3r3-dTiyet2yCZN1WeLDlQG4IiXxc,789
+cmd_fanyi_raojinlin-0.0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+cmd_fanyi_raojinlin-0.0.1.dist-info/METADATA,sha256=W4M6oZrQomSYm_0_sR0YkAa8v3hBCUC1g6D_f6dpruc,510
+cmd_fanyi_raojinlin-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+cmd_fanyi_raojinlin-0.0.1.dist-info/top_level.txt,sha256=A4D7y1Y5-sv8Qokz8_yh28n3vgUlnszhM7J8gHoXss8,19
+cmd_fanyi_raojinlin-0.0.1.dist-info/RECORD,,
