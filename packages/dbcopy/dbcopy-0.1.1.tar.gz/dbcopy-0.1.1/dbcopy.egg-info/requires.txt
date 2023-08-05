@@ -1,0 +1,11 @@
+sqlalchemy
+stringcase
+normality
+click
+tqdm
+
+[mssql]
+pyodbc
+
+[postgres]
+psycopg2-binary
