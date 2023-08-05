@@ -1,0 +1,10 @@
+include *.py
+include */*.py
+recursive-include cubicweb_nosylist *.py
+recursive-include cubicweb_nosylist/data *.gif *.png *.ico *.css *.js
+recursive-include cubicweb_nosylist/i18n *.po
+recursive-include cubicweb_nosylist/wdoc *
+recursive-include test/data bootstrap_cubes *.py
+include *.ini
+prune debian
+prune cubicweb-nosylist.spec
