@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: splunk-tracer
+Version: 0.1.0
+Summary: Splunk Python OpenTracing Implementation
+Home-page: UNKNOWN
+Author: SplunkDev
+Author-email: UNKNOWN
+License: MIT
+Keywords: opentracing,splunk,traceguide,tracing,microservices,distributed
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Requires-Dist: basictracer (>=3.0,<4)
+Requires-Dist: requests (>=2.19,<3.0)
+Requires-Dist: six
+
+UNKNOWN
+
+
