@@ -1,0 +1,6 @@
+arrow
+pgdumplib<3,>=2
+pglast
+ruamel.yaml
+stringcase
+toposort
