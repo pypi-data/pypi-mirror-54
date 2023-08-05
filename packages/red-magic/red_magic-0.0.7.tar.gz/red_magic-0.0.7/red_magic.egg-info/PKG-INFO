@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: red-magic
+Version: 0.0.7
+Summary: Generic analysis and processing tools for Manoir.
+Home-page: https://git.ipnl.in2p3.fr/manoir/red_magic
+Author: Dimitri Misiak
+Author-email: dimitrimisiak@gmail.com
+License: UNKNOWN
+Description: # red_magic
+        
+        red_magic is a python package containing handy scripts and functions.
+        It is quite generic so it can fulfill analysis, processing, and fun purposes !
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install red_magic.
+        
+        ```bash
+        pip install red-magic
+        ```
+        
+        ## Usage
+        
+        ```python
+        import red_magic as rmc
+        
+        rmc.psd(...)
+        rmc.Model_pulse(...)
+        rmc.explore_plot(...)
+        ```
+        
+        ## Contributing
+        Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+        
+        Please make sure to update tests as appropriate.
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
