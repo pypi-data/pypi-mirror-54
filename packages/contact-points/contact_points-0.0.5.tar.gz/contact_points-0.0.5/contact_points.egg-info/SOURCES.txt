@@ -1,0 +1,8 @@
+contact_points.cpp
+contact_points.hpp
+setup.py
+contact_points.egg-info/PKG-INFO
+contact_points.egg-info/SOURCES.txt
+contact_points.egg-info/dependency_links.txt
+contact_points.egg-info/requires.txt
+contact_points.egg-info/top_level.txt
