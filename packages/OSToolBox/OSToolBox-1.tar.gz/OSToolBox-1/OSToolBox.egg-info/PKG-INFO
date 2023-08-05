@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: OSToolBox
+Version: 1
+Summary: implement many basic function as tools for GDAL, numpy, etc...
+Home-page: http://github.com/storborg/funniest
+Author: Olivier Stocker
+Author-email: stocker.olivier@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
