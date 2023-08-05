@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/django_rest_framework_expandable.egg-info/PKG-INFO
+src/django_rest_framework_expandable.egg-info/SOURCES.txt
+src/django_rest_framework_expandable.egg-info/dependency_links.txt
+src/django_rest_framework_expandable.egg-info/top_level.txt
+src/rest_framework_expandable/__init__.py
+src/rest_framework_expandable/fields.py
+src/rest_framework_expandable/serializers.py
+src/rest_framework_expandable/utils.py
+src/rest_framework_expandable/mixins/__init__.py
+src/rest_framework_expandable/mixins/expandable.py
+src/rest_framework_expandable/mixins/expandable_model_serializer.py
+src/rest_framework_expandable/mixins/expandable_related_field.py
