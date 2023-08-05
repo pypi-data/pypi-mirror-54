@@ -1,0 +1,4 @@
+default_classifier: GradientBoostingClassifier
+default_regressor: GradientBoostingRegressor
+
+
