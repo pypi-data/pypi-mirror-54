@@ -1,0 +1,6 @@
+README.md
+setup.py
+SyferText.egg-info/PKG-INFO
+SyferText.egg-info/SOURCES.txt
+SyferText.egg-info/dependency_links.txt
+SyferText.egg-info/top_level.txt
