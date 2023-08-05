@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: metaform
+Version: 1.0.1
+Summary: A utility for defining metadata for data types and formats.
+Home-page: https://github.com/wefindx/metaform
+Author: Mindey
+Author-email: mindey@qq.com
+License: ASK FOR PERMISSIONS
+Description: metaform
+        ========
+        
+        Metaform is a package for hierarchical and nested data normalization.
+        
+        ``pip install metaform``
+        
+        .. code:: python
+        
+           import metaform
+        
+        Basic Usage
+        -----------
+        
+        Let’s say we have some data:
+        
+        .. code:: python
+        
+           data = {
+               'hello': 1.0,
+               'world': 2,
+               'how': ['is', {'are': {'you': 'doing'}}]
+           }
+        
+        We can get the template for defining schema, by ``metaform.template``:
+        
+        .. code:: python
+        
+           metaform.template(data)
+        
+        {‘*’: ’’, ’hello’: {’*’: ’‘}, ’how’: [{‘*’: ’’, ’are’: {’you’: {’*’:
+        ’’}}}], ‘world’: {’\*‘:’’}}
+        
+        This provides an opportunity to specify metadata for each key and the
+        object itself. For example:
+        
+        .. code:: python
+        
+           schema = {
+               '*': 'greeting',
+               'hello': {'*': 'length'},
+               'world': {'*': 'atoms'},
+               'how': [
+                    {'*': 'method',
+                     'are': {
+                         '*': 'yup',
+                         'you': {'*': 'me'}}
+                    }
+               ]}
+        
+           metaform.normalize(data, schema)
+        
+        {‘atoms’: 2, ‘length’: 1.0, ‘method’: [‘is’, {‘yup’: {‘me’: ‘doing’}}]}
+        
+        We recommend saving schemas you create for normalizations for data
+        analytics and `driver projects <https://github.com/drivernet>`__ in
+        dot-folders ``.schema``, in a JSON or YAML files in that folder.
+        
+        So, we have access to all keys, and can specify, what to do with them:
+        
+        .. code:: python
+        
+           schema = {
+               '*': 'greeting',
+               'hello': {'*': 'length|lambda x: x+5.'},
+               'world': {'*': 'atoms|lambda x: str(x)+"ABC"'},
+               'how': [
+                    {'*': 'method',
+                     'are': {
+                         '*': 'yup',
+                         'you': {'*': 'me|lambda x: "-".join(list(x))'}}
+                    }
+               ]}
+        
+           metaform.normalize(data, schema)
+        
+        {‘atoms’: ‘2ABC’, ‘length’: 6.0, ‘method’: [‘is’, {‘yup’: {‘me’:
+        ‘d-o-i-n-g’}}]}
+        
+        And suppose, we want to define a more complex function, inconvenient via
+        lambdas:
+        
+        .. code:: python
+        
+           from metaform import converters
+        
+           def some_func(x):
+               a = 123
+               b = 345
+               return (b-a)*x
+        
+           converters.func = some_func
+        
+           schema = {
+               '*': 'greeting',
+               'hello': {'*': 'length|converters.func'},
+               'world': {'*': 'atoms|lambda x: str(x)+"ABC"'},
+               'how': [
+                    {'*': 'method',
+                     'are': {
+                         '*': 'yup',
+                         'you': {'*': 'me|lambda x: "-".join(list(x))'}}
+                    }
+               ]}
+        
+           metaform.normalize(data, schema)
+        
+        {‘atoms’: ‘2ABC’, ‘length’: 222.0, ‘method’: [‘is’, {‘yup’: {‘me’:
+        ‘d-o-i-n-g’}}]}
+        
+        We just renamed the keys, and normalized values! What else could we
+        want?
+        
+Platform: UNKNOWN
+Provides-Extra: develop
