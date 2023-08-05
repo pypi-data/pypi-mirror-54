@@ -1,0 +1,7 @@
+README.md
+setup.py
+dbt_postgres.egg-info/PKG-INFO
+dbt_postgres.egg-info/SOURCES.txt
+dbt_postgres.egg-info/dependency_links.txt
+dbt_postgres.egg-info/requires.txt
+dbt_postgres.egg-info/top_level.txt
