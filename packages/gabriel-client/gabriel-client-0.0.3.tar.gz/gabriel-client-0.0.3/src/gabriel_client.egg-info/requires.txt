@@ -1,0 +1,7 @@
+gabriel-protocol==0.0.3
+
+[:python_version < "3.6"]
+websockets==7.0
+
+[:python_version >= "3.6"]
+websockets==8.0.2
