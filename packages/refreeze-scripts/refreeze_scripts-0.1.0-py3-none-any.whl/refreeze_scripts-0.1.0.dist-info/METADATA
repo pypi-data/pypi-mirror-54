@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: refreeze-scripts
+Version: 0.1.0
+Summary: 
+Author: lambdalisue
+Author-email: lambdalisue@fixpoint.co.jp
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: setuptools (>=41.4.0,<42.0.0)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0)
