@@ -1,0 +1,59 @@
+image: python:3.7
+
+stages:
+  - tests
+  - deploy
+
+cache:
+  key: pip
+  paths:
+    - .pip
+
+before_script:
+  - mkdir -p .pip
+  - pip install -U pip
+  - pip --cache-dir=.pip --quiet install -U tox twine
+  - python setup.py sdist
+
+
+python-3.7:
+  stage: tests
+  image: python:3.7
+  coverage: '/^TOTAL\s+\d+\s+\d+\s+(\d+\%)$/'
+  script:
+    - tox
+
+# https://medium.com/@pypripackages/using-gitlab-pipelines-to-deploy-python-packages-in-production-and-staging-environments-8ab7dc979274
+deploy_staging:
+  stage: deploy
+  variables:
+    TWINE_USERNAME: $STAGING_USERNAME
+    TWINE_PASSWORD: $STAGING_PASSWORD
+  script:
+    - twine upload --repository-url $STAGING_REPOSITORY_URL dist/*
+  except:
+    - tags
+
+deploy_production:
+  stage: deploy
+  variables:
+    TWINE_USERNAME: $PRODUCTION_USERNAME
+    TWINE_PASSWORD: $PRODUCTION_PASSWORD
+  script:
+    - twine upload --repository-url $PRODUCTION_REPOSITORY_URL dist/*
+  only:
+    - tags
+
+pages:
+ stage: deploy
+ script:
+   - pip install -r docs/requirements.txt
+   - cd docs
+   - sphinx-apidoc -e -f -o source/ ../GLXViewer/
+   - make html
+   - mv build/html/ ../public/
+ artifacts:
+   paths:
+     - public
+ except:
+   - tags
