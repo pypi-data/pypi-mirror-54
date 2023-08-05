@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: wagtail-content-import
+Version: 0.1.2
+Summary: A module for Wagtail that provides functionality for importing page content from third-party sources.
+Home-page: https://github.com/torchbox/wagtail-content-import
+Author: Samir Shah
+Author-email: samir.shah@torchbox.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Wagtail :: 2
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Description-Content-Type: text/markdown
+Provides-Extra: test
