@@ -1,0 +1,10 @@
+README.md
+setup.py
+markyp_rss/__init__.py
+markyp_rss/elements.py
+markyp_rss.egg-info/PKG-INFO
+markyp_rss.egg-info/SOURCES.txt
+markyp_rss.egg-info/dependency_links.txt
+markyp_rss.egg-info/requires.txt
+markyp_rss.egg-info/top_level.txt
+test/test_elements.py
