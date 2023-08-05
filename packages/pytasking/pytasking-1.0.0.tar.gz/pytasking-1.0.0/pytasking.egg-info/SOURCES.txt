@@ -1,0 +1,10 @@
+README.md
+setup.py
+pytasking/__init__.py
+pytasking/manager.py
+pytasking/utilities.py
+pytasking/wrappers.py
+pytasking.egg-info/PKG-INFO
+pytasking.egg-info/SOURCES.txt
+pytasking.egg-info/dependency_links.txt
+pytasking.egg-info/top_level.txt
