@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: kuws
+Version: 0.0.5
+Summary: A set of python scripts for common web tasks
+Home-page: https://github.com/Descent098/kuws
+Author: Kieran Wood
+Author-email: kieranw098@gmail.com
+License: UNKNOWN
+Description: # kuws
+        Kieran's useful web scripts
+        
+        install using:
+        __*comming soon to pypi*__
+        
+        or download the source with:
+        `git clone https://github.com/Descent098/kuws`
+        
+        There is inline documentation and ~~readthedocs~~ official documentation (comming soon)
+        
+        # Official Documentation
+        There is some readthedocs documentation with examples available at:
+        
+        __*comming soon*__
+        
+        # Source File & Folder Layout
+        
+        - Classes
+        - Scripts
+          - All 
+        - .whitesource
+          - Configuration for automated CVE scanning utility
+        - main.py
+        - setup.py# Changelog
+        
+        ## October 20th 2019
+        
+        Merged V0.0.5 to master
+            - Reorganized modules
+            - Reformatted docstrings to numpy docstrings
+            - Refactored primary entrypoint to docopt from argparse
+        
+        ## June 23rd 2019
+        
+        Merged v0.0.4 to master
+            - Added SSL argument to main parser
+            - refactored and updated inline documentation
+            - Added command line entrypoint to allow for direct calling
+            - Removed Youtube command for time being while pytube sorts out issues
+        
+        ## April 20th 2019
+        
+        Merged V0.0.3 to Master
+        Included:
+            - Better Packaging; Fixed Pip install pathing issues
+        
+        ## April 18th 2019
+        
+        Merged V0.0.2 to Master
+        Included:
+            - Better Packaging; can use functions via direct importing
+            i.e. from kuws import trace
+        Merged V0.0.1 To master
+        Included:
+            - Basic URL tracing
+            - Youtube video downloading
+        
+        ## January 7th 2019
+        
+        V0.0.1 initial commit on github
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

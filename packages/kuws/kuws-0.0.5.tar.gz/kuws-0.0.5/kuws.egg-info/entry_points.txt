@@ -1,0 +1,3 @@
+[console_scripts]
+kuws = kuws.command_line_utility:main
+
