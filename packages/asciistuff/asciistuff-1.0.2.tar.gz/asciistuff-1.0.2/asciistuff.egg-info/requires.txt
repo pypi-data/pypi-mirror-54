@@ -1,0 +1,6 @@
+colorama
+cowpy
+Pillow
+PyFiglet
+termcolor
+terminaltables
