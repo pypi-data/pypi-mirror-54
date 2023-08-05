@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: onetsdb
+Version: 1.0.1
+Summary: A Uniform Interface for Timeseries Database Python Library.
+Home-page: https://github.com/sintrb/onetsdb/
+Author: trb
+Author-email: sintrb@gmail.com
+License: UNKNOWN
+Description: # onetsdb
+        A Uniform Interface for Timeseries Database Python Library. Will Support MongoDB, InfluxDB, SQLITE3 etc.
+        
+        
+        
+        CHANGES
+        ===============
+        1.0.0
+        
+        - first version
+        
+Keywords: TSDB,MongoDB,Influx,NoSQL,Time Series Database
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
