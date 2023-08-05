@@ -1,0 +1,5 @@
+ChineseDB
+englisWords
+pinyin_utils
+tabdb
+translate
