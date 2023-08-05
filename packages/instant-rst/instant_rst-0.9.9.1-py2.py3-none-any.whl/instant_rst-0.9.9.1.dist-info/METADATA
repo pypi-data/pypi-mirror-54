@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: instant-rst
+Version: 0.9.9.1
+Summary: Preview Rst Document Instantly 
+Home-page: https://github.com/gu-fan/instant-rst.py
+Author: gu-fan
+Author-email: gu.fan@qq.com
+License: MIT
+Keywords: rst docutils preview
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: flask
+Requires-Dist: docutils
+Requires-Dist: pygments
+Requires-Dist: flask-socketio
+
+#################
+InstantRst Server
+#################
+
+:version: 0.9.9.1
+
+Only In Python 3, see in https://github.com/gu-fan/instant-rst.py
+
+

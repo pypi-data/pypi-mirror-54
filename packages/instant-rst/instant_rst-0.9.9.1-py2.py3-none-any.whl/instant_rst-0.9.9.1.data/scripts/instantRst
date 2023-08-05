@@ -1,0 +1,6 @@
+#!python
+# -*- coding: utf-8 -*-
+
+from instant_rst.main import run
+
+run()
