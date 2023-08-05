@@ -1,0 +1,9 @@
+wordpress2puput/__init__.py,sha256=rzq8QQKp6tfnBnCpemgFpOtbD1D7z4lXgWQMyVfm86Q,118
+wordpress2puput/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordpress2puput/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordpress2puput/management/commands/wp2puput.py,sha256=K34tW6ScinpzkRcbfYm82dt2F88qz1YpFE1SJnC9Hhk,13598
+wordpress_to_puput-0.4.dist-info/LICENSE,sha256=7Gxw3rHolRbzaPAmaZlH1Lp1nPibdZ3n1axtnbfR6-o,1072
+wordpress_to_puput-0.4.dist-info/METADATA,sha256=Ogm31ThKjjX6oaNg-Gdx3scTmUsv5u0zCrpElRVMLpE,1453
+wordpress_to_puput-0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+wordpress_to_puput-0.4.dist-info/top_level.txt,sha256=lgNPNqShEPSwpmudycvG1uYmfevYnsYXq4va6DOYRJU,16
+wordpress_to_puput-0.4.dist-info/RECORD,,
