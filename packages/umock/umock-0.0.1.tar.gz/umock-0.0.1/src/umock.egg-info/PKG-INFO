@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: umock
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/xsteadfastx/umock
+Author: Marvin Preuss
+Author-email: marvin@xsteadfastx.org
+License: MIT
+Description: umock
+        =====
+        
+        `umock` is a lightwight mocking tool.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
