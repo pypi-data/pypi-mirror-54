@@ -1,0 +1,16 @@
+cottoncandy/Encryption.py,sha256=mTsgw37CSMIPdi12kbwpbkBGMhRECe--a1u-Wme4BuY,19424
+cottoncandy/__init__.py,sha256=qLsShEP7IJtTSCEkHbkhuy62LSbZfsyQi8j8kRAIF08,6660
+cottoncandy/appdirs.py,sha256=PCUl8JK007s1x_XumDJO8igFbgFRLbWDM0owa6CjcNg,13792
+cottoncandy/backend.py,sha256=1spKQp3StIrHhnbdyWX9iHCAPT-RTYEx6-T0jfK5Ofw,5121
+cottoncandy/browser.py,sha256=0ALptS-c1MHQIMwVyMUrnoDk3-DL8JiKVob_QQfMgM8,8234
+cottoncandy/defaults.cfg,sha256=xJMghUC0ldcXpIpCqc8PbCEObfpoE838atX65JB8WgI,668
+cottoncandy/gdriveclient.py,sha256=0kqZN7SIpPikhp9NlXVq9spATRYwn2vzsY0Hf-kKngY,29771
+cottoncandy/interfaces.py,sha256=hlnA1Mf5__bcTWI75-dyrdR4xIyFEgBNj0IoaTNIB-E,47593
+cottoncandy/options.py,sha256=yP4ZmDj9mfowCh8hPvbCZ-gGMK-O3-gX1R5g_doSsKI,3672
+cottoncandy/s3client.py,sha256=-av4JtjQsjfiLh-XIhuWjmNruqRPMHKVAVBQMW3g-TQ,17059
+cottoncandy/utils.py,sha256=dnoHBbWmHwyc47WHaMxGdtJ0qnvCggmCQIhRV8wcSOk,15050
+cottoncandy-0.1.1.dist-info/LICENSE,sha256=Lf7iNL8XnPL9JnOKCCJD6mWKdL3jIPL91mj_-hjcESg,1293
+cottoncandy-0.1.1.dist-info/METADATA,sha256=cypI76rZyqM2Hpy0cYXYkHRDYU62_ErDVfD_rBAGnqE,662
+cottoncandy-0.1.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+cottoncandy-0.1.1.dist-info/top_level.txt,sha256=GRpRd4XWcdLr8QEA-8xlMC_0Fhh5SN0SlzhwxkK_vB0,12
+cottoncandy-0.1.1.dist-info/RECORD,,
