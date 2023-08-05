@@ -1,0 +1,52 @@
+{% set name = "jmopenorders" %}
+{% set version = "0.1.2" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: "e0dcc4ed8b63b37d561dfdf8d4f4a436e2b88988df18855b7e84c4ec7716efb8"
+
+build:
+  noarch: python
+  number: 0
+  script: pip install . --no-deps --ignore-installed
+  entry_points:
+    - jmopenorders = jmopenorders.cli:main
+
+# https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#export-runtime-requirements
+requirements:
+  build:
+    - pip
+    - python
+
+  run:
+    - openpyxl
+    - pexpect
+    - python
+    - python-slugify
+    - setuptools
+
+test:
+  imports:
+    - jmopenorders
+    - jmopenorders.openorders
+  commands:
+    - jmopenorders --help
+  requires:
+    - tox
+
+about:
+  home: https://jmopenorders.github.io/
+  license: EUPL-1.2
+  license_family: NONE
+  license_file: "LICENSE"
+  summary: 'jmopenorders is a generator to generate infos for the affected persons'
+  dev_url: https://github.com/jmuelbert/jmopenorders
+  doc_url: https://jmopenorders.readthedocs.io
+
+extra:
+  recipe-maintainers:
+    - jmuelbert

@@ -1,0 +1,39 @@
+include README.rst
+include LICENSE
+include LICENSE.DE
+include *.md
+include setup.cfg
+include pyproject.toml
+include *.sh
+include *.spec
+include *.txt
+include .isort.cfg
+include CONTRIBUTORS
+include Dockerfile
+include INSTALL
+
+include docs/docutils.conf
+
+exclude .coveragerc
+exclude .mailmap
+exclude .appveyor.yml
+exclude .travis.yml
+exclude .readthedocs.yml
+exclude .pre-commit-config.yaml
+exclude tox.ini
+
+recursive-include docs *.html *.rst *.txt *.bat *.py Makefile
+recursive-include recipe *.yaml
+recursive-include resources *.icns
+recursive-include resources *.ico
+recursive-include resources *.svg
+recursive-include src *.py
+
+prune .github
+prune build
+prune docs/_build
+prune docs/api
+prune tests
+prune *.yml
+
+global-exclude *.py[cod]

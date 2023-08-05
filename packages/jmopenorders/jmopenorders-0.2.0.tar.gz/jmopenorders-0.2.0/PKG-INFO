@@ -1,0 +1,114 @@
+Metadata-Version: 1.2
+Name: jmopenorders
+Version: 0.2.0
+Summary: A generator to generate infos for the affected persons.
+Home-page: https://github.com/jmuelbert/jmopenorders
+Author: Jürgen Mülbert
+Author-email: juergen.muelbert@gmail.com
+License: EUPL-1.2
+Download-URL: https://github.com/jmuelbert/jmopenorders/archiv/0.2.0.zip
+Project-URL: Source Code, https://github.com/jmuelbert/jmopenorders
+Project-URL: Bug Reports, https://github.com/jmuelbert/jmopenorders/issues
+Project-URL: Documentation, https://jmopenorders.readthedocs.io/en/latest/
+Description: jmopenorders
+        ============
+        
+        .. image:: https://img.shields.io/pypi/v/jmopenorders.svg
+                :target: https://pypi.python.org/pypi/jmopenorders/
+                :alt: PyPi
+        
+        .. image:: https://img.shields.io/pypi/wheel/jmopenorders.svg
+                :target: https://pypi.python.org/pypi/jmopenorders/
+                :alt: Wheel
+        
+        .. image:: https://img.shields.io/pypi/pyversions/jmopenorders.svg
+                :target: https://pypi.python.org/pypi/jmopenorders/
+                :alt: PyPi-Versions
+        
+        ..  image:: https://pyup.io/repos/github/jmuelbert/jmopenorders/shield.svg
+                :target: https://pyup.io/repos/github/jmuelbert/jmopenorders/
+                :alt: Updates
+        
+        ..  image:: https://pyup.io/repos/github/jmuelbert/jmopenorders/python-3-shield.svg
+                :target: https://pyup.io/repos/github/jmuelbert/jmopenorders/
+                :alt: Python 3
+        
+        ..  image:: https://img.shields.io/badge/license-EUPL-blue.svg
+                :target: https://joinup.ec.europa.eu/page/eupl-text-11-12
+                :alt: GitHub license
+        
+        ..  image:: https://travis-ci.org/jmuelbert/jmopenorders.svg?branch=master
+                :target: https://travis-ci.org/jmuelbert/jmopenorders
+                :alt: Build Status
+        
+        ..  image:: https://ci.appveyor.com/api/projects/status/fix0w1e14elb1hmg/branch/master?svg=true
+                :target: https://ci.appveyor.com/project/jmuelbert/jmopenorders/branch/master
+                :alt: Build status
+        
+        jmopenorders is a generator to generate infos for the affected persons.
+        
+        jmopenorders is written in `python <https://www.python.org>`_.
+        python does run on almosts known platforms.
+        
+        Sources
+        -------
+        
+        The master branch represents the latest pre-release code.
+        
+        - `Releases <https://github.com/jmuelbert/jmopenorders/releases>`_.
+        
+        - `Milestones <https://github.com/jmuelbert/jmopenorders/milestones>`_.
+        
+        Requests and Bug reports
+        ------------------------
+        
+        - `GitHub issues (preferred) <https://github.com/jmuelbert/jmopenorders/issues>`_.
+        
+        Questions or Comments
+        ---------------------
+        
+        Wiki
+        ----
+        
+        - `Main Page <https://github.com/jmuelbert/jmopenorders/wiki>`_.
+        - `User Manual <http://jmuelbert.github.io/jmopenorders/>`_.
+        
+        Installing
+        ----------
+        
+        An install script is preferred. You can you the latest release or build the newest version with the command:
+        
+            ``./setup.py sdist``
+        
+        or
+            ``python setup.py sdist``
+        
+        This build an python installer
+        
+        License
+        -------
+        
+        openorders is free software; you can redistribute ot and/or modify ir under the terms
+        of the `European Public License Version 1.2 <https://joinup.ec.europa.eu/page/eupl-text-11-12>`_.
+        Please read the `<https://github.com/jmuelbert/jmopenorders/blob/master/LICENSE>`_ for additional information.
+        
+        EUPL-1.2 © Jürgen Mülbert
+        
+Keywords: reporting excel
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Office/Business
+Requires-Python: >=3.5.*
