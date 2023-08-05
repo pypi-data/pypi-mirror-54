@@ -1,0 +1,5 @@
+daiquiri
+pygithub
+
+[test]
+fixtures
