@@ -1,0 +1,6 @@
+numpy>=1.15.0
+scipy>=1.0.0
+scikit-image>=0.15
+mahotas>=1.4.5
+networkx>=2.0
+tifffile>=2019.7.26
