@@ -1,0 +1,9 @@
+gitcommit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitcommit/__main__.py,sha256=gURE_hsMAyajdIJ6pAIWN1FmPdXTtpD42jGpbDM7tLI,95
+gitcommit/gitcommit.py,sha256=7KoiVT6IiC_uolagDn5xTf7AfwyhpYmdPoEsdsG9fEs,10677
+conventional_commit-0.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+conventional_commit-0.0.1.dist-info/METADATA,sha256=8bUIvd2TbNTT6NHyeffSTCC_WxaMYH2_WFnd5ZwtISA,1730
+conventional_commit-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+conventional_commit-0.0.1.dist-info/entry_points.txt,sha256=JuTzme4R6AFW5zd2h8GogClvF8KoAPYm016Ll4uYg-g,56
+conventional_commit-0.0.1.dist-info/top_level.txt,sha256=pNKXUzM5wjjASA5Tnw2XBXybDmx2y_R4ZG8zpLE1PXE,10
+conventional_commit-0.0.1.dist-info/RECORD,,
