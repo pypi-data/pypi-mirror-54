@@ -1,0 +1,4 @@
+[jupyter_serverproxy_servers]
+commenting-service = jupyterlab_commenting_service.service:fastapi
+comments = jupyterlab_commenting_service.service:start
+
