@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: dgPre
+Version: 0.1.1
+Summary: a tiny and smart cli player of douyutv,ximalayad,anmu based on Python
+Home-page: https://github.com/viton/doumu.fm
+Author: viton
+Author-email: viton@gmail.com
+License: MIT
+Description: just enjoy
+Keywords: python douyu danmu danmu.fm terminal
+Platform: UNKNOWN
