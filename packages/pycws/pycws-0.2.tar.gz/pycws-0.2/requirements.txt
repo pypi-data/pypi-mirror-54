@@ -1,0 +1,4 @@
+pytest
+requests
+six
+zeep

@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pycws/__init__.py
+pycws/utils.py
+pycws.egg-info/PKG-INFO
+pycws.egg-info/SOURCES.txt
+pycws.egg-info/dependency_links.txt
+pycws.egg-info/not-zip-safe
+pycws.egg-info/requires.txt
+pycws.egg-info/top_level.txt
+pycws/tests/__init__.py
+pycws/tests/test_json.py
