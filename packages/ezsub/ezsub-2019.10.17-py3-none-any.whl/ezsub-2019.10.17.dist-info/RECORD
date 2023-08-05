@@ -1,0 +1,11 @@
+ezsub/__init__.py,sha256=FCpz-4ImSuSA3FM57whHik2UbMVZzIIy_P-5n8QrBEw,62
+ezsub/cli.py,sha256=td7YDpTw9FUfFFdUvRuyQ8O9N28SMEDQIsEl81xA-6k,165
+ezsub/tools/__init__.py,sha256=THsUF0yOffWBeW7kZn85lpLSNrA0NaHlb4T0E59tb4Y,148
+ezsub/tools/changelog.py,sha256=2rWlkx_aR8JX4qy9RfXBW9wmPdHbp-6bZsJsXtMIKe0,241
+ezsub/tools/version.py,sha256=B4zIRoWwSRQSD3D_OuAFjkdPzoC4o1KW8EqaI51hhlA,134
+ezsub-2019.10.17.dist-info/LICENSE,sha256=SWRGAgTm07h3drzyPkO-5WpDoXOnSoaxv0mkxSNfFe0,1062
+ezsub-2019.10.17.dist-info/METADATA,sha256=CTm1qT95Bao2JUCvM6bZu1z-jGM3jTj1kEqu0V5QoUw,774
+ezsub-2019.10.17.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ezsub-2019.10.17.dist-info/entry_points.txt,sha256=1EL8jMvo-1sVRLH5JkVku3sPAQEvrvwBoIgPIDsWbkA,42
+ezsub-2019.10.17.dist-info/top_level.txt,sha256=qaze8yEp1HvDTIpFs24I02yFJqp4n_90mYqSLi2as2I,6
+ezsub-2019.10.17.dist-info/RECORD,,
