@@ -1,0 +1,35 @@
+ModelEK60
+=========
+
+.. currentmodule:: echopype.model
+
+.. autoclass:: ModelEK60
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~ModelEK60.piece
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ModelEK60.calc_range
+      ~ModelEK60.calc_sample_thickness
+      ~ModelEK60.calibrate
+      ~ModelEK60.get_biggest_piece
+      ~ModelEK60.get_piece
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: piece
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: calc_range
+   .. automethod:: calc_sample_thickness
+   .. automethod:: calibrate
+   .. automethod:: get_biggest_piece
+   .. automethod:: get_piece

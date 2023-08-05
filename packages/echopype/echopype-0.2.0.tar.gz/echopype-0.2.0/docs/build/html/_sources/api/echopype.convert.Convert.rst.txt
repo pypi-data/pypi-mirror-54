@@ -1,0 +1,7 @@
+Convert
+=======
+
+.. currentmodule:: echopype.convert
+
+.. autoclass:: Convert
+   :show-inheritance:

@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+matplotlib
+netCDF4
+xarray
+pytz
+pynmea2
+click
+arlpy
+sphinx-automodapi
+numpydoc

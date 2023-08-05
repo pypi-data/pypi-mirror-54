@@ -1,0 +1,45 @@
+ModelAZFP
+=========
+
+.. currentmodule:: echopype.model
+
+.. autoclass:: ModelAZFP
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~ModelAZFP.pressure
+      ~ModelAZFP.salinity
+      ~ModelAZFP.seawater_absorption
+      ~ModelAZFP.sound_speed
+      ~ModelAZFP.temperature
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ModelAZFP.calc_range
+      ~ModelAZFP.calc_sample_thickness
+      ~ModelAZFP.calc_seawater_absorption
+      ~ModelAZFP.calc_sound_speed
+      ~ModelAZFP.calibrate
+      ~ModelAZFP.calibrate_TS
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: pressure
+   .. autoattribute:: salinity
+   .. autoattribute:: seawater_absorption
+   .. autoattribute:: sound_speed
+   .. autoattribute:: temperature
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: calc_range
+   .. automethod:: calc_sample_thickness
+   .. automethod:: calc_seawater_absorption
+   .. automethod:: calc_sound_speed
+   .. automethod:: calibrate
+   .. automethod:: calibrate_TS

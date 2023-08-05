@@ -1,0 +1,41 @@
+ConvertAZFP
+===========
+
+.. currentmodule:: echopype.convert
+
+.. autoclass:: ConvertAZFP
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~ConvertAZFP.platform_code_ICES
+      ~ConvertAZFP.platform_name
+      ~ConvertAZFP.platform_type
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ConvertAZFP.check_uniqueness
+      ~ConvertAZFP.get_fields
+      ~ConvertAZFP.get_ping_time
+      ~ConvertAZFP.loadAZFPxml
+      ~ConvertAZFP.parse_raw
+      ~ConvertAZFP.raw2nc
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: platform_code_ICES
+   .. autoattribute:: platform_name
+   .. autoattribute:: platform_type
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: check_uniqueness
+   .. automethod:: get_fields
+   .. automethod:: get_ping_time
+   .. automethod:: loadAZFPxml
+   .. automethod:: parse_raw
+   .. automethod:: raw2nc

@@ -1,0 +1,37 @@
+ConvertEK60
+===========
+
+.. currentmodule:: echopype.convert
+
+.. autoclass:: ConvertEK60
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~ConvertEK60.filename
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~ConvertEK60.append_metadata
+      ~ConvertEK60.load_ek60_raw
+      ~ConvertEK60.load_ek60_raw_old
+      ~ConvertEK60.process_sample
+      ~ConvertEK60.raw2nc
+      ~ConvertEK60.read_header
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: filename
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: append_metadata
+   .. automethod:: load_ek60_raw
+   .. automethod:: load_ek60_raw_old
+   .. automethod:: process_sample
+   .. automethod:: raw2nc
+   .. automethod:: read_header

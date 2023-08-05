@@ -1,0 +1,7 @@
+EchoData
+========
+
+.. currentmodule:: echopype.model
+
+.. autoclass:: EchoData
+   :show-inheritance:
