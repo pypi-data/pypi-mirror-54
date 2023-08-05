@@ -1,0 +1,5 @@
+setuptools
+numpy
+Cython
+pytest
+mpi4py
