@@ -1,0 +1,14 @@
+python-binance
+redis
+celery
+marshmallow==2.20.5
+mongoengine
+requests
+switcheo
+click
+flask
+flask-socketio
+eventlet
+gunicorn
+mongodb-migrations
+requests
