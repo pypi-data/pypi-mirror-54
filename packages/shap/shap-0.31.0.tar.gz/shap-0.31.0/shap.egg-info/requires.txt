@@ -1,0 +1,17 @@
+numpy
+scipy
+scikit-learn
+pandas
+tqdm>4.25.0
+
+[all]
+matplotlib
+lime
+ipython
+
+[others]
+lime
+
+[plots]
+matplotlib
+ipython
