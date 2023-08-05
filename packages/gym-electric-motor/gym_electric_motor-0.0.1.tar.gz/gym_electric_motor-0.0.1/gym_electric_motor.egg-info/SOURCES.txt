@@ -1,0 +1,7 @@
+README.md
+setup.py
+gym_electric_motor.egg-info/PKG-INFO
+gym_electric_motor.egg-info/SOURCES.txt
+gym_electric_motor.egg-info/dependency_links.txt
+gym_electric_motor.egg-info/requires.txt
+gym_electric_motor.egg-info/top_level.txt
