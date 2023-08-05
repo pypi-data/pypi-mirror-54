@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aws-lambda-helper
+Version: 0.0.2
+Summary: A python library for AWS Lambda functions
+Home-page: https://github.com/Just4test/aws-lambda-helpers
+Author: Just4test
+Author-email: myservice@just4test.net
+License: wtfpl
+Keywords: aws,lambda
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: boto3
+
+UNKNOWN
+
+
