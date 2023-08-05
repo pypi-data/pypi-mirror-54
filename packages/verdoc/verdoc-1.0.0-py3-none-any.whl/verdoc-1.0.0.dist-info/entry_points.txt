@@ -1,0 +1,4 @@
+[console_scripts]
+verdoc = verdoc:cli
+verdoc-index = verdoc:cli_index
+
