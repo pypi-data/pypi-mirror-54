@@ -1,0 +1,9 @@
+aih_codegen/__init__.py,sha256=LcOBJuVReFLwvMbUcxZnSsApBEs5H0srgh1Dq6Eh9tU,37
+aih_codegen/generate.py,sha256=QQHDr1LxhvBg0m6BF92ZoOiWXQ6JtJHNFh0h1Driz-I,4900
+aih_codegen/templates/resolvers.js.jinja2,sha256=ZkjGAfdg-CnihsWJFKf3842_UCAl7Bu0ztebMs_3UpQ,1382
+aih_codegen/templates/schema.graphql.jinja2,sha256=IR2_AWVT2RwO-A66vQaIEuPE7S9igSSwd8gwEWSwjQc,1000
+aih_codegen-0.9.data/scripts/aih,sha256=B1sfLGlj8rER-cdS9Rx-vVMsobUGiBcRWtFQRNIt9Ko,59
+aih_codegen-0.9.dist-info/METADATA,sha256=ztFKDsz2Da5wyHyQVNOnEaUYYaCHxLwvaFGEaVKTuwI,310
+aih_codegen-0.9.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+aih_codegen-0.9.dist-info/top_level.txt,sha256=93AKGnyaPU_a5XdBQgppLYzHMwieEVcxVGNsuwoL5Mc,12
+aih_codegen-0.9.dist-info/RECORD,,
