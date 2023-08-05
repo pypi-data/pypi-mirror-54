@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "rumi"
+author = "Kamyar Ghasemlou"
+author-email = "rumi@kamy.me"
+home-page = "https://github.com/kamyar/rumi"
+
