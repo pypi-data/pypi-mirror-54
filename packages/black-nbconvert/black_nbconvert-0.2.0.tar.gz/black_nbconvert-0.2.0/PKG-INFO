@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: black_nbconvert
+Version: 0.2.0
+Summary: Apply black to ipynb files
+Home-page: https://github.com/dfm/black_nbconvert
+Author: Dan Foreman-Mackey
+Author-email: foreman.mackey@gmail.com
+License: MIT
+Description: # black + nbconvert
+        
+        Tired of having to *think* about formatting in Jupyter notebooks?
+        Look no further!
+        This script will correctly format your Jupyter notebooks for you using [black](https://black.readthedocs.io).
+        
+        **Warning: This project will overwrite your notebooks in place.
+        It shouldn't change anything except the format, but use at your own risk!**
+        
+        ## Installation & Usage
+        
+        To install:
+        
+        ```bash
+        pip install black_nbconvert
+        ```
+        
+        To check a notebook:
+        
+        ```bash
+        black_nbconvert --check /path/to/a/notebook.ipynb
+        ```
+        
+        To fix the formatting in a notebook (in place):
+        
+        ```bash
+        black_nbconvert /path/to/a/notebook.ipynb
+        ```
+        
+        If you pass a directory instead of a notebook file, notebooks will be found recursively below that directory.
+        For example:
+        
+        ```bash
+        black_nbconvert .
+        ```
+        
+        will fix the formatting for all notebooks in the current directory and (recursively) below.
+        
+        *Configuration:* Configuration for `black` in a `pyproject.toml` file above the target files will be respected.
+        
+        ## Version control integration
+        
+        Use [pre-commit](https://pre-commit.com/).
+        Once you [have it installed](https://pre-commit.com/#install), add this to the `.pre-commit-config.yaml` in your repository:
+        
+        ```yaml
+        repos:        
+        - repo: https://github.com/dfm/black_nbconvert
+          rev: stable
+          hooks:
+          - id: black_nbconvert
+        ```
+        
+        Then run `pre-commit install` and you're ready to go.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

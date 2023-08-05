@@ -1,0 +1,3 @@
+[console_scripts]
+black_nbconvert = black_nbconvert:main
+
