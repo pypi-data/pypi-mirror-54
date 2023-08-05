@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: eflow
+Version: 0.1.3
+Summary: UNKNOWN
+Home-page: https://github.com/EricCacciavillani/eFlow
+Author: Eric Cacciavillani
+Author-email: eric.cacciavillani@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: appnope (==0.1.0)
+Requires-Dist: attrs (==19.2.0)
+Requires-Dist: backcall (==0.1.0)
+Requires-Dist: bleach (==3.1.0)
+Requires-Dist: certifi (==2019.9.11)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: decorator (==4.4.0)
+Requires-Dist: defusedxml (==0.6.0)
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: idna (==2.8)
+Requires-Dist: ipykernel (==5.1.2)
+Requires-Dist: ipython (==7.8.0)
+Requires-Dist: ipython-blocking (==0.2.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: ipywidgets (==7.5.1)
+Requires-Dist: jedi (==0.15.1)
+Requires-Dist: Jinja2 (==2.10.3)
+Requires-Dist: joblib (==0.14.0)
+Requires-Dist: json5 (==0.8.5)
+Requires-Dist: jsonschema (==3.0.2)
+Requires-Dist: jupyter-client (==5.3.3)
+Requires-Dist: jupyter-core (==4.5.0)
+Requires-Dist: jupyterlab (==1.1.4)
+Requires-Dist: jupyterlab-server (==1.0.6)
+Requires-Dist: kiwisolver (==1.1.0)
+Requires-Dist: kneed (==0.5.0)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: matplotlib (==3.1.1)
+Requires-Dist: missingno (==0.4.2)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: nbconvert (==5.6.0)
+Requires-Dist: nbformat (==4.4.0)
+Requires-Dist: notebook (==6.0.1)
+Requires-Dist: numpy (==1.17.2)
+Requires-Dist: pandas (==0.25.1)
+Requires-Dist: pandocfilters (==1.4.2)
+Requires-Dist: parso (==0.5.1)
+Requires-Dist: pexpect (==4.7.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: Pillow (==6.2.0)
+Requires-Dist: pivottablejs (==0.9.0)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: powerline-status (==2.7)
+Requires-Dist: prometheus-client (==0.7.1)
+Requires-Dist: prompt-toolkit (==2.0.10)
+Requires-Dist: ptyprocess (==0.6.0)
+Requires-Dist: Pygments (==2.4.2)
+Requires-Dist: pyparsing (==2.4.2)
+Requires-Dist: pyrsistent (==0.15.4)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: pytz (==2019.2)
+Requires-Dist: pyzmq (==18.1.0)
+Requires-Dist: readme-renderer (==24.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: scikit-learn (==0.21.3)
+Requires-Dist: scikit-plot (==0.3.7)
+Requires-Dist: scipy (==1.3.1)
+Requires-Dist: seaborn (==0.9.0)
+Requires-Dist: Send2Trash (==1.5.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: terminado (==0.8.2)
+Requires-Dist: testpath (==0.4.2)
+Requires-Dist: tornado (==6.0.3)
+Requires-Dist: tqdm (==4.36.1)
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: twine (==2.0.0)
+Requires-Dist: urllib3 (==1.25.6)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: widgetsnbextension (==3.5.1)
+Requires-Dist: xgboost (==0.90)
+
+UNKNOWN
+
+
