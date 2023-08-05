@@ -1,0 +1,13 @@
+fairways/__init__.py,sha256=Pszi_bOLAWoNwdUVC5gFcTsqLB86rAxGqoMl_yfFtMc,144
+fairways/app.py,sha256=Mr7tYiV-HRX4WrA_NKqBY-P9ubjZhXMnPCB0I-sToms,3135
+fairways/chains.py,sha256=ezLzV2-LthK1gtYQQd3atvWv3ItqpuCqCO-6SHntf_E,6995
+fairways/conf.py,sha256=HcNj63CcYdY7Oi6SdkuQDNyHYJN8753_m3-4kW3WBP4,180
+fairways/dynload.py,sha256=RKJ8VxByXpY1iadrkEV0cJpBZWCsQoMtCE1WoRk4FtE,322
+fairways/funcflow.py,sha256=cu-g23lSq1OTgJ_B2DKnn8pbjPYEsOnwAE6nmycn49A,8493
+fairways/helpers.py,sha256=ouZqCOuKXSNbIRLDKmHJZwyQuLJUeIfFel6Y9bxmQls,1363
+fairways/log.py,sha256=PlM3hBQW5q3sHQPdCOyar_foSbLAkAhrnZKxVWxcnPE,1957
+fairways_py/main.py,sha256=PrkHZCQiYo4cUmLCiGQ4mPaasDdHoFydGY_40z-oj8w,10372
+fairways-0.8.dist-info/METADATA,sha256=LB5MLcR98THghF9LzyLJBzqoebAzTBVAZgJxSu5ihms,265
+fairways-0.8.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+fairways-0.8.dist-info/top_level.txt,sha256=uZ0reaKYRSeRaKfiIYb_ujGxbz59lkKcIxZIuRqLqJs,9
+fairways-0.8.dist-info/RECORD,,
