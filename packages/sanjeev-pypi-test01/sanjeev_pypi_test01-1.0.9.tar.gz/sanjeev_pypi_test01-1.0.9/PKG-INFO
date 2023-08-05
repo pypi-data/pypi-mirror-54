@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sanjeev_pypi_test01
+Version: 1.0.9
+Summary: Sanjeev pypi test01
+Home-page: https://github.com/Sanjeev139/python-hello-world
+Author: Kount
+Author-email: sanjeev1992jha@gmail.com
+License: Unknown
+Description: # python_test_cli
+        
+        
+Keywords: pypi,sanjeev pypi,sanjeev pypi test01
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev

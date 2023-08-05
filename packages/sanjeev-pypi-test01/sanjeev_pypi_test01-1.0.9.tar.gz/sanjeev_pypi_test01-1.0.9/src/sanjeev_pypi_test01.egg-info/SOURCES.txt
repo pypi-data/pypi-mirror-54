@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/sanjeev_pypi_test01.egg-info/PKG-INFO
+src/sanjeev_pypi_test01.egg-info/SOURCES.txt
+src/sanjeev_pypi_test01.egg-info/dependency_links.txt
+src/sanjeev_pypi_test01.egg-info/requires.txt
+src/sanjeev_pypi_test01.egg-info/top_level.txt
