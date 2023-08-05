@@ -1,0 +1,9 @@
+bumpversion
+
+[linting]
+isort
+black
+
+[testing]
+pytest
+pytest-cov
