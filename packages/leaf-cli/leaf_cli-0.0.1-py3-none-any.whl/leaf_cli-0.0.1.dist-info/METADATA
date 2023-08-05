@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: leaf-cli
+Version: 0.0.1
+Summary: A CLI tool for hiding the application's icon in the Dock. (MacOS Dock栏软件图标隐藏终端工具)
+Home-page: https://github.com/howie6879/leaf
+Author: Howie Hu
+Author-email: xiaozizayang@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: fire
+
+UNKNOWN
+
+
