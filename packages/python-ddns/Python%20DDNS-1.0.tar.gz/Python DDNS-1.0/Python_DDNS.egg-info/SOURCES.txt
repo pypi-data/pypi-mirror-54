@@ -1,0 +1,12 @@
+README.md
+setup.py
+Python_DDNS.egg-info/PKG-INFO
+Python_DDNS.egg-info/SOURCES.txt
+Python_DDNS.egg-info/dependency_links.txt
+Python_DDNS.egg-info/entry_points.txt
+Python_DDNS.egg-info/requires.txt
+Python_DDNS.egg-info/top_level.txt
+python_ddns/__init__.py
+python_ddns/__main__.py
+python_ddns/config.conf
+python_ddns/python_ddns.py
