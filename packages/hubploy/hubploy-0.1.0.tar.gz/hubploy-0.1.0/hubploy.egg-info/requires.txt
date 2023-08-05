@@ -1,0 +1,2 @@
+docker
+jupyter-repo2docker>=0.8
