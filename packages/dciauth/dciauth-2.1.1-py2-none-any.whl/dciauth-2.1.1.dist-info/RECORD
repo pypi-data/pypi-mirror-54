@@ -1,0 +1,9 @@
+dciauth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dciauth/request.py,sha256=ZMQHfuhTU8HAfhAUwl_CC0rXzYoP3ZzWLnSjApwuzks,3581
+dciauth/signature.py,sha256=juJy0UKKoQLOrFi_Lo3ZcsDjMDrVIOkdWo6XSMJzb-w,4597
+dciauth/version.py,sha256=xj3mf0c4UGNDgwxBF5GeEXDj01YpEKvyMqxL7iznM7w,643
+dciauth-2.1.1.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+dciauth-2.1.1.dist-info/METADATA,sha256=94gMDN_1t8P_MTRqB44EMJ0y0iSyCu0HZyVnrqSRWqQ,2787
+dciauth-2.1.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+dciauth-2.1.1.dist-info/top_level.txt,sha256=n0NqGEVnT67Bn8nTtzwsgj_yNEAebQgifGOfeEktkLA,8
+dciauth-2.1.1.dist-info/RECORD,,
