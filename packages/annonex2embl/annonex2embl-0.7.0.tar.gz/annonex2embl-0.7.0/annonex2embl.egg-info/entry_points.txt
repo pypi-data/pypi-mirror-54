@@ -1,0 +1,3 @@
+[console_scripts]
+annonex2embl = annonex2embl.CLIOps:start_annonex2embl
+
