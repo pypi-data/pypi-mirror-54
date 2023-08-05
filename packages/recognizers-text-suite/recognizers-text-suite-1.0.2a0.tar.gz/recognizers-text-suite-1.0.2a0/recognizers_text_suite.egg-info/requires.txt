@@ -1,0 +1,6 @@
+recognizers-text>=1.0.2.a0
+recognizers-text-number>=1.0.2.a0
+recognizers-text-number-with-unit>=1.0.2.a0
+recognizers-text-date-time>=1.0.2.a0
+recognizers-text-sequence>=1.0.2.a0
+recognizers-text-choice>=1.0.2.a0
