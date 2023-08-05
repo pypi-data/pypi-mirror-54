@@ -1,0 +1,8 @@
+README.md
+setup.py
+chirpy/__init__.py
+gw_chirpy.egg-info/PKG-INFO
+gw_chirpy.egg-info/SOURCES.txt
+gw_chirpy.egg-info/dependency_links.txt
+gw_chirpy.egg-info/requires.txt
+gw_chirpy.egg-info/top_level.txt
