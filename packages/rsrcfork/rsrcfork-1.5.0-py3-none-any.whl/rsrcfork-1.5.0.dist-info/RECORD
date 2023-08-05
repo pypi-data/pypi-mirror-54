@@ -1,0 +1,14 @@
+rsrcfork/__init__.py,sha256=56Bpma5kYmRehzA1dMkZsdjUiRwa1nwS6Y45B401Fio,1858
+rsrcfork/__main__.py,sha256=AJu6666TnfblorH3m7CsmWVTnpDFlue3gRYLtnWkoUQ,16537
+rsrcfork/api.py,sha256=ixYT6ZHTr62UKz9RocjXCVMKfd8SB7cFUs8Y199LUSY,20631
+rsrcfork/compress/__init__.py,sha256=GUSLrbsn112OTKoGvOczcMWzvp2I6SNoIOYyqWuWg-s,2290
+rsrcfork/compress/common.py,sha256=yOgRCRYlFUvCerEE0OqHtx_H9_oEzpbePWHLusPy92w,9231
+rsrcfork/compress/dcmp0.py,sha256=vGtVPuFSTNHqOMTevj5hLQP3W0IAM6eNMlt-t8qN7h8,11679
+rsrcfork/compress/dcmp1.py,sha256=3TrG7jKtHrhi92l-sPgeUPgNiTLvWtD58FZ0eXpFEaA,5886
+rsrcfork/compress/dcmp2.py,sha256=4CPw6c8YEsXWXnwAdS9lx9lz_FFUURDhtyEaMxr5wt0,7231
+rsrcfork-1.5.0.dist-info/LICENSE,sha256=cQuRmKLXSHN7Ozr3u-8z4HsurhnNmiujvnd9yYow0tg,1066
+rsrcfork-1.5.0.dist-info/METADATA,sha256=__HSsLQ40N-edtPPca0lO7d_Rcyz5yKI-xs-tnvOTfU,23664
+rsrcfork-1.5.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+rsrcfork-1.5.0.dist-info/entry_points.txt,sha256=rQ94NaWh7MKEaexDjR17SWM3_kVhIGAlB5HAOqKOB6Y,53
+rsrcfork-1.5.0.dist-info/top_level.txt,sha256=cs9PfqYxXOuGnHaCwAXUkhLouL_cE4mF_UQc4zkQ0vI,9
+rsrcfork-1.5.0.dist-info/RECORD,,
