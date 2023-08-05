@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: hidiocore
+Version: 0.1.0b2
+Summary: HID-IO Python Library
+Home-page: http://hid-io.com
+Author: Jacob Alexander
+Author-email: haata@kiibohd.com

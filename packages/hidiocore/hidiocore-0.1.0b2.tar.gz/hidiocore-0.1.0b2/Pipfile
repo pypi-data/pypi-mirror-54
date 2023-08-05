@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cython = "*"
+pycapnp-async = "==0.7"
+pytest = "*"
+
+[dev-packages]
+flit = "*"
+
+[requires]
+python_version = "3.7"

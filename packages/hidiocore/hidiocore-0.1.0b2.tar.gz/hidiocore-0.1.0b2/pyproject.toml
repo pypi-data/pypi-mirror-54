@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "hidiocore"
+author = "Jacob Alexander"
+author-email = "haata@kiibohd.com"
+home-page = "http://hid-io.com"
+classifiers = [
+    "Topic :: Software Development :: Libraries",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
+description-file = "README.md"
+requires = [
+    "cython>=0.29",
+    "pycapnp-async>=0.7",
+]
+requires-python = ">=3.7"
+
