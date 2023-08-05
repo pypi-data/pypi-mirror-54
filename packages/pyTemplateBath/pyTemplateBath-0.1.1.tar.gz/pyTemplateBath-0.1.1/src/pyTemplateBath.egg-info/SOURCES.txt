@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/pyTemplateBath/run.py
+src/pyTemplateBath.egg-info/PKG-INFO
+src/pyTemplateBath.egg-info/SOURCES.txt
+src/pyTemplateBath.egg-info/dependency_links.txt
+src/pyTemplateBath.egg-info/not-zip-safe
+src/pyTemplateBath.egg-info/top_level.txt
