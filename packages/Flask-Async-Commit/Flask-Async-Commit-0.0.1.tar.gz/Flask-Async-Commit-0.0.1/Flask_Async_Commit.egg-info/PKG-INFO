@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Flask-Async-Commit
+Version: 0.0.1
+Summary: 通过redis缓存和APS框架来异步提交数据库
+Home-page: UNKNOWN
+Author: 陈卓涵
+Author-email: chen_zhuohan@163.com
+License: UNKNOWN
+Description: # 介绍
+        
+        通过用redis缓存原生的SQL语句，通过APS定时异步批量提交数据。可配置最大包大小。
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
