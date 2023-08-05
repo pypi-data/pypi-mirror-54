@@ -1,0 +1,12 @@
+import_expression/__init__.py,sha256=z0hbJJCgl1ETE8e41lf2zNRA6wuxI2o_eY3zXVJcmt8,3810
+import_expression/_parser.py,sha256=P70mmdA0NCY_1jQqgTs8FwmEO4nz23UNFhDk9_Mdu1Q,7035
+import_expression/_syntax.py,sha256=kigfzonssiSiCkb3scn38os19wmJ4UFNzkxWnTtEY_c,4011
+import_expression/constants.py,sha256=Z3E7ikhk8iW0Z7KyJgb_Lh5xn-CeuzNmKySxAtrhQrk,1271
+import_expression/patch.py,sha256=K0pM-cVm3To85lqNqYz97qkaknk6FXOsAGQzwfOCpDw,2501
+import_expression/version.py,sha256=2eiWQI55fd-roDdkt4Hvl9WzrTJ4xQo33VzFud6D03U,22
+import_expression-0.4.0.dist-info/LICENSE,sha256=Ty1K83Xf-qYHxvojhW-EtSre1EyUor1o1zWSQCNy69I,1089
+import_expression-0.4.0.dist-info/LICENSE-header,sha256=ZIxwTFh2_AknM6zEDUHrfRpVTkER2kW8UK6Ytx4Mqv0,1140
+import_expression-0.4.0.dist-info/METADATA,sha256=reJSc9RuGEDK11hUDeEVzsaQ60MqWQagCux6MApVKvU,3229
+import_expression-0.4.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+import_expression-0.4.0.dist-info/top_level.txt,sha256=AI6eDm_S1VPIq-jpr3rGvTw7Fl3WYtADvzbwhEfsRFo,18
+import_expression-0.4.0.dist-info/RECORD,,
