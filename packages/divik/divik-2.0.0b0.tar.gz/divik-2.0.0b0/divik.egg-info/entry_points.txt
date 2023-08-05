@@ -1,0 +1,8 @@
+[console_scripts]
+divik = divik.__main__:main
+inspect = divik.inspect.__main__:main
+kmeans = divik.kmeans.__main__:main
+linkage = divik._linkage:main
+spectral = divik.spectral:main
+visualize = divik.visualize:main
+
