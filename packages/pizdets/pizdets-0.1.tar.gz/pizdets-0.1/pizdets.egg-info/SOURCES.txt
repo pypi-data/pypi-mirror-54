@@ -1,0 +1,9 @@
+setup.py
+pizdets/Experiment.py
+pizdets/ExperimentFiles.py
+pizdets/__init__.py
+pizdets.egg-info/PKG-INFO
+pizdets.egg-info/SOURCES.txt
+pizdets.egg-info/dependency_links.txt
+pizdets.egg-info/top_level.txt
+pizdets.egg-info/zip-safe
