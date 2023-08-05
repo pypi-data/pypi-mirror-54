@@ -1,0 +1,7 @@
+README.md
+setup.py
+pylid/__init__.py
+pylid.egg-info/PKG-INFO
+pylid.egg-info/SOURCES.txt
+pylid.egg-info/dependency_links.txt
+pylid.egg-info/top_level.txt
