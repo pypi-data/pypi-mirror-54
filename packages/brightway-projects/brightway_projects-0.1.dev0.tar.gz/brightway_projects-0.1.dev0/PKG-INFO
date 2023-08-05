@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: brightway_projects
+Version: 0.1.dev0
+Summary: Management of projects in the Brightway Life Cycle Asssessment framework
+Home-page: https://github.com/brightway-lca/brightway_projects
+Author: Chris Mutel
+Author-email: cmutel@gmail.com
+License: NewBSD 3-clause; LICENSE
+Description: # brightway_projects
+        
+        [![Build Status](https://travis-ci.org/brightway-lca/brightway_projects.svg?branch=master)](https://travis-ci.org/brightway-lca/brightway_projects) [![Build status](https://ci.appveyor.com/api/projects/status/vv25uu2sajkjm44s?svg=true)](https://ci.appveyor.com/project/cmutel/brightway-projects) [![Coverage Status](https://coveralls.io/repos/github/brightway-lca/brightway_projects/badge.svg?branch=master)](https://coveralls.io/github/brightway-lca/brightway_projects?branch=master)
+        
+        Project management and backend loader for Brightway LCA framework
+        
+        ## Warning
+        
+        This code is still in development. If you want a stable Life Cycle Assessment software, use [Brightway version 2](https://brightwaylca.org/) for now.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
