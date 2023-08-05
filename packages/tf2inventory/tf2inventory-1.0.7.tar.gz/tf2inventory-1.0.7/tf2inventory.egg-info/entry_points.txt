@@ -1,0 +1,3 @@
+[console_scripts]
+tf2inventory = tf2inventory:tool
+
