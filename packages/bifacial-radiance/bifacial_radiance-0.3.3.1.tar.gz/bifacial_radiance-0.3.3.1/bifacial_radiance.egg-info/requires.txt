@@ -1,0 +1,5 @@
+pvlib>=0.6.1
+pytest
+pytest-cov
+configparser
+requests
