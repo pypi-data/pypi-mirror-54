@@ -1,0 +1,9 @@
+README.md
+setup.py
+BDPefg.egg-info/PKG-INFO
+BDPefg.egg-info/SOURCES.txt
+BDPefg.egg-info/dependency_links.txt
+BDPefg.egg-info/requires.txt
+BDPefg.egg-info/top_level.txt
+example_pkg/__init__.py
+example_pkg/you.py
