@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CWLab</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-dark-grey.css">
+        <link rel="stylesheet" 
+            href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" 
+            integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" 
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/custom.css">
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone/babel.min.js"></script>
+        <script src="/static/general_use.js" type="text/babel"></script>
+        <script src="/static/import_cwl.js" type="text/babel"></script>
+        <script src="/static/create_job.js" type="text/babel"></script>
+        <script src="/static/job_exec.js" type="text/babel"></script>
+        <script src="/static/users.js" type="text/babel"></script>
+        <script src="/static/main.js" type="text/babel"></script>
+
+        <script > 
+            // global params feeded by back end
+            const routeCwlImport = "{{ url_for('import_cwl') }}"
+            const routeGetJobTemplList = "{{ url_for('get_job_templ_list') }}"
+            const routeGetJobTemplConfigInfo = "{{ url_for('get_job_templ_config_info') }}"
+            const routeGetParamValues = "{{ url_for('get_param_values') }}"
+            const routePrepareJobEnv = "{{ url_for('prepare_job_env') }}"
+            const routeGenParamFormSheet = "{{ url_for('generate_param_form_sheet') }}"
+            const routeSendFilledParamFormSheet = "{{ url_for('send_filled_param_form_sheet') }}"
+            const routeSendFilledParamValues = "{{ url_for('send_filled_param_values') }}"
+            const routeCreateJob = "{{ url_for('create_job') }}"
+            const routeGetJobList = "{{ url_for('get_job_list') }}"
+            const routeGetRunList = "{{ url_for('get_run_list') }}"
+            const routeStartExec = "{{ url_for('start_exec') }}"
+            const routeGetRunStatus = "{{ url_for('get_run_status') }}"
+            const routeGetRunDetails = "{{ url_for('get_run_details') }}"
+            const routeTerminateRuns = "{{ url_for('terminate_runs') }}"
+            const routeDeleteJob = "{{ url_for('delete_job') }}"
+            const routeLogin = "{{ url_for('login') }}"
+            const routeRegister = "{{ url_for('register') }}"
+            const routeGetGeneralUserInfo = "{{ url_for('get_general_user_info') }}"
+            const routeGetAllUsersInfo = "{{ url_for('get_all_users_info') }}"
+            const routeChangePassword = "{{ url_for('change_password') }}"
+            const routeDeleteAccount = "{{ url_for('delete_account') }}"
+            const routeLogout = "{{ url_for('logout') }}"
+            const routeModifyOrDeleteUsers = "{{ url_for('modify_or_delete_users') }}"
+            const routeBrowseDir = "{{ url_for('browse_dir') }}"
+            const routeUploadFile = "{{ url_for('upload_file') }}"
+            const routeDownload = "{{ url_for('download') }}"
+            const autoRefreshInterval = parseInt(parseFloat("{{ config.WEB_AUTO_REFRESH_INTERVAL }}")*1000)
+            const readMaxCharsFromFile = parseInt("{{ config.READ_MAX_CHARS_FROM_FILE }}")
+            const loginEnabled = "{{ config.ENABLE_USERS }}" === "True"
+            const loggedIn = "{{ logged_in }}" === "True"
+            const username = "{{ username }}"
+            const userLevel = "{{ user_level }}"
+            const loginInstruction = "{{ config.LOGIN_INSTRUCTION }}"
+            const registrationInstruction = "{{ config.REGISTRATION_INSTRUCTION }}"
+
+
+            // other global params:
+            const serverNotReachableError = "The server could not be reached."
+            const serverReachedWithError = "The server failed to work on your request."
+
+        </script>
+
+        <script type="text/babel">
+            ReactDOM.render(
+                <Root />,
+                document.getElementById('root')
+            );
+        </script>
+
+    </head>
+    <body class="w3-theme-d3 w3-medium">
+            <div id="root"></div>
+    </body>
+
+</html>
