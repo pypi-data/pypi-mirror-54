@@ -1,0 +1,11 @@
+cpu_count/__init__.py,sha256=QsOEsjssX5OvHSsIHsBPAwt8pqlt6ncGnfj8QSJxVFs,456
+cpu_count/cpu_count.py,sha256=leYeqRWZtQMO_9CAGfo2_N8mzIb6Hfb-EBdLcoj9BPQ,3113
+cpu_count/monkey_patch.py,sha256=RwfylMk49hzF52TikSYch8YhkBMaGNNZ0XW2WvXlpP4,1204
+cpu_count/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+cpu_count-1.0.0b2.dist-info/LICENSE,sha256=7n2HayjrCavOmm5Xl9F-UJT_IWBqEaFWqyKlqnIR6_o,1517
+cpu_count-1.0.0b2.dist-info/METADATA,sha256=ysa5XDMmwOMjRU-1m_44dN9WYgHM375pZLWc5O15-xo,1954
+cpu_count-1.0.0b2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cpu_count-1.0.0b2.dist-info/eager_resources.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cpu_count-1.0.0b2.dist-info/top_level.txt,sha256=F6Hf30WT2VeiJ1FIHoQcBV1n-48ftKXQkmIV63ueLE8,10
+cpu_count-1.0.0b2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cpu_count-1.0.0b2.dist-info/RECORD,,
