@@ -1,0 +1,11 @@
+README.md
+setup.py
+api/__init__.py
+api/user.py
+api/utils/__init__.py
+api/utils/request.py
+api/utils/xcsrf.py
+rbxthon.egg-info/PKG-INFO
+rbxthon.egg-info/SOURCES.txt
+rbxthon.egg-info/dependency_links.txt
+rbxthon.egg-info/top_level.txt
