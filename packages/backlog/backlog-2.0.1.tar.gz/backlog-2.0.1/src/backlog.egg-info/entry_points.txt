@@ -1,0 +1,3 @@
+[console_scripts]
+backlog = backlog.cli:main
+

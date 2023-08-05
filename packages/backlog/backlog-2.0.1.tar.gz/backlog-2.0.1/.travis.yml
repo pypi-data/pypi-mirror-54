@@ -1,0 +1,18 @@
+dist: xenial
+language: python
+python:
+- 3.7
+- 3.7-dev
+- 3.8-dev
+before_install: pip install 'pip ~= 19.1.1'
+install: pip install 'tox-travis ~= 0.12'
+script: tox
+deploy:
+  provider: pypi
+  user: dmtucker
+  password:
+    secure: nKYCEHMT4Ka5VjAoDSg7A75TJVYfYrRqJWg5CkfdZcU0R4+0AWsZRB0bazSMQYT0SgZVrrWTQr0fKRbgdgEbFB+jPEfSo3wD9Azv7EoB7yCI35vgEp/W+Ih7W8P/sbUw0XWWWB7DbzhiKEvIAvfYsTRt7gstX8U3VtYsnfXTiGrYhM5Vxs/KFY45lgExQ9ujDd3lwE+P81i62vk3LzaBDStd31dro3SgTN9SFFcRDvMR1c39+NY3/mmg+mnaST59nHbvFZrqtGqlf/GPdWnx/xeE1j8fqhLG+1fJjMQcBz0/FcAni/ShgvNbQBxkiOhBTAgvys1jDPapnVZcC4YKxtsTwmQuP3Ccq88ZD1CVz5vqZo3SijQ4CBNTZKOCZIuLuoNG7PY5BAspCstPjgyu331K77NYt3pRA1WF1DzIe48o+pJArIhPsX4ec75kW1bvNbVfwlITIMp0EtOWpLR6mA3yJ4LDaOUM4OWOtLh/29DwXSbjOp9IGmNW/KMoQNf7cP009ZyDR0elf9dFZwbznsbZYcJ9Uyse5BxSCmNWhvcCn5ofsrMb2znpbZ57XRdZE5SC8chfBlkAk+kB2jNaTsXwdTpTfqFTEpAA9C8dbsgHikD/lnDOqw9RRoBaYK+8Qma8ztYFvi3q6PcvEkJ+6aExTYoevUK4lMDxxyQUatk=
+  on:
+    repo: dmtucker/backlog
+    tags: true
+    python: '3.7'
