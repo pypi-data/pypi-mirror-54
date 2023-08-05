@@ -1,0 +1,14 @@
+registry/__init__.py,sha256=LzguRp_cdnGrH5cXBdGKg4LDnFeGQj-i6g3bNpmMhpI,78
+registry/admin.py,sha256=T0sCG0mgx5GHM3kBvpd65gRidQNK-PePT6mzq25UIbw,254
+registry/apps.py,sha256=u5vV0J0Vsqzpo-VM-qN8h0UqTMQ7oF3YVFuVoG1pgb4,128
+registry/helper.py,sha256=wdFdA0W6FYbNOeH_tklxMZGv9f8C2GOuc617OJGj_bI,1600
+registry/models.py,sha256=l8FHyjHFnRDw9T7db33qndahnpEFPb0YRLyheD--4R0,1175
+registry/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+registry/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+registry/migrations/0001_initial.py,sha256=kdNmIrq7RLscHLtpWsHZ6jr3urHRLkWaD4bCCD9NTzA,1046
+registry/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dj_registry-0.1.dev1.dist-info/LICENSE,sha256=QnIbeKQsdTBWgn0VqYU26RzY_Eve1n-F5HJHODk6Wic,1077
+dj_registry-0.1.dev1.dist-info/METADATA,sha256=mPgcYkAk3Iui6MIv5Tc0XT82Y3wclR0MSQP18vwc5Jo,3717
+dj_registry-0.1.dev1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dj_registry-0.1.dev1.dist-info/top_level.txt,sha256=ongqpvwBmIwWu2PHzYjWlHkNsY3XrhAZZ84Ri9fXAeQ,9
+dj_registry-0.1.dev1.dist-info/RECORD,,
