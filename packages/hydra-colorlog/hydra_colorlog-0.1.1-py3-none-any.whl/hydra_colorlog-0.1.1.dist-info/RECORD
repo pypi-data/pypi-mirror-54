@@ -1,0 +1,10 @@
+hydra_plugins/__init__.py,sha256=iPA4WAXjY_pL8e4BP_2Epk8CAGv_r6fkwg4xM8mqwAM,136
+hydra_plugins/hydra_colorlog/__init__.py,sha256=ulizsNVBaUecBE7vygSm7uOdT6CUHkvIglp2USy729Q,168
+hydra_plugins/hydra_colorlog/colorlog.py,sha256=uA6cIRJBVTyY0DPdTjV76H81ez0o8hQ-R4b4ufFeg48,512
+hydra_plugins/hydra_colorlog/conf/__init__.py,sha256=nlNcRa8JrCTvjVYxoVH3f-uv5yqSrWv-stlB8MSlTjU,71
+hydra_plugins/hydra_colorlog/conf/hydra/hydra_logging/color.yaml,sha256=Aw9YKjUHIVxO4e4PXx4xfk-MQ3ZLzcv4sCedFdXIzLk,491
+hydra_plugins/hydra_colorlog/conf/hydra/job_logging/color.yaml,sha256=cjP3DBjYB9iqxOP-ydpYsW8-6K9FwaaxRyed5Z_vmF0,883
+hydra_colorlog-0.1.1.dist-info/METADATA,sha256=LesRsQFTetiPCMcS_2Q-nQ2pUBcdP5VOPs3Yh49xFm4,883
+hydra_colorlog-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+hydra_colorlog-0.1.1.dist-info/top_level.txt,sha256=0-LcYpEmzatUy2K5F7jmqcMfBL2RdB7k9nM_8zGFzhI,14
+hydra_colorlog-0.1.1.dist-info/RECORD,,
