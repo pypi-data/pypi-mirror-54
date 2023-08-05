@@ -1,0 +1,9 @@
+README.md
+setup.py
+PythonJsonEditorWindow/PythonJsonEditorWindow.py
+PythonJsonEditorWindow/__init__.py
+PythonJsonEditorWindow.egg-info/PKG-INFO
+PythonJsonEditorWindow.egg-info/SOURCES.txt
+PythonJsonEditorWindow.egg-info/dependency_links.txt
+PythonJsonEditorWindow.egg-info/requires.txt
+PythonJsonEditorWindow.egg-info/top_level.txt
