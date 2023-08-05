@@ -1,0 +1,9 @@
+README.md
+setup.py
+constants_set/__init__.py
+constants_set/sets.py
+constants_set.egg-info/PKG-INFO
+constants_set.egg-info/SOURCES.txt
+constants_set.egg-info/dependency_links.txt
+constants_set.egg-info/not-zip-safe
+constants_set.egg-info/top_level.txt
