@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: forth
+Version: 1.0
+Summary: ID for practice
+Home-page: https://github.com/Kwon-Hyeok-sung/2019I-D.git
+Author: Hyeok Sung Kwon
+Author-email: 2019IDKWON@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Kwon-Hyeok-sung/2019I-D.git
+Keywords: eyefind
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
+Requires-Dist: tensorflow
+Requires-Dist: opencv-python
+Requires-Dist: keras
+Requires-Dist: numpy
+Requires-Dist: imutils
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
