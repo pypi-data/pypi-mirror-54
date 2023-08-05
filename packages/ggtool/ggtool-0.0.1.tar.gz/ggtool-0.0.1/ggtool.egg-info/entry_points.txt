@@ -1,0 +1,3 @@
+[console_scripts]
+ggtool = ggtool.main:main
+
