@@ -1,0 +1,9 @@
+absl-py
+future
+gin-config
+ortools
+six
+tensorflow-datasets
+
+[tensorflow]
+tensorflow>=1.15.0
