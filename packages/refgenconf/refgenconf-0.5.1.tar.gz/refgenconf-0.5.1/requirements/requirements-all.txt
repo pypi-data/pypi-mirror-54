@@ -1,0 +1,7 @@
+attmap>=0.12.5
+pyyaml
+requests
+tqdm
+ubiquerg>=0.5.0
+yacman>=0.6.2
+future
