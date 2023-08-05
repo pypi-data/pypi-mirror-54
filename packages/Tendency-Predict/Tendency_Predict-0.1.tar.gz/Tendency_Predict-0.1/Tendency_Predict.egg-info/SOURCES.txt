@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Tendency_Predict/__init__.py
+Tendency_Predict/__version__.py
+Tendency_Predict/core.py
+Tendency_Predict.egg-info/PKG-INFO
+Tendency_Predict.egg-info/SOURCES.txt
+Tendency_Predict.egg-info/dependency_links.txt
+Tendency_Predict.egg-info/top_level.txt
