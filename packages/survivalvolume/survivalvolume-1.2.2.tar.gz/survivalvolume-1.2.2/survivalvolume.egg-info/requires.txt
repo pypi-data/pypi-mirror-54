@@ -1,0 +1,8 @@
+setuptools
+lifelines>=0.22.8
+matplotlib
+mpld3
+numpy
+pandas>=0.25.1
+scipy
+xlrd
