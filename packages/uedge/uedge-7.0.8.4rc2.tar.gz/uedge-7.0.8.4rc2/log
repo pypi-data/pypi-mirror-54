@@ -1,0 +1,133 @@
+<Forthon.compilers.FCompiler instance at 0x7f97e4ac5ef0>
+running build
+(export PYTHONPATH=./pyscripts; python convertor)
+directory list = ['com', 'aph', 'api', 'bbb', 'dce', 'flx', 'grd', 'svr', 'wdf', 'pfb', 'idf', 'psi', 'std', 'dst']
+Output directory already exists; proceeding
+Entering directory com
+processing for file type  M2F
+processing directory com to directory ./com
+Entering directory aph
+processing for file type  M2F
+processing directory aph to directory ./aph
+Entering directory api
+processing for file type  M2F
+processing directory api to directory ./api
+Entering directory bbb
+processing for file type  M2F
+processing directory bbb to directory ./bbb
+Entering directory dce
+processing for file type  M2F
+processing directory dce to directory ./dce
+Entering directory flx
+processing for file type  M2F
+processing directory flx to directory ./flx
+Entering directory grd
+processing for file type  M2F
+processing directory grd to directory ./grd
+Entering directory svr
+processing for file type  M2F
+processing directory svr to directory ./svr
+Entering directory wdf
+processing for file type  M2F
+processing directory wdf to directory ./wdf
+Entering directory pfb
+processing for file type  M2F
+processing directory pfb to directory ./pfb
+Entering directory idf
+processing for file type  M2F
+processing directory idf to directory ./idf
+Entering directory psi
+processing for file type  M2F
+processing directory psi to directory ./psi
+Entering directory std
+processing for file type  M2F
+processing directory std to directory ./std
+Entering directory dst
+processing for file type  M2F
+processing directory dst to directory ./dst
+(cd com;Forthon --builddir ../build -a  -v --fargs "-Ofast -DFORTHON -cpp"  -f blasext.F com brent.F comutil.F misc.F mnbrak.F dsum.f dummy_py.f error.f getmsg.f ssum.f )
+/home/meyer8/ws/cvsstuff/pyUedge/uedge/com
+make[1]: Entering directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+gfortran -fPIC -ffixed-line-length-132 -DFPSIZE=8 -fdefault-real-8 -fdefault-double-8 -DISZ=8 -fdefault-integer-8 -fimplicit-none -fno-second-underscore -O3 -ftree-vectorize -ftree-vectorizer-verbose=0 -Ofast -DFORTHON -cpp -I/mfe/local/anaconda2_5.3.0/lib/python2.7/site-packages/numpy/core/include  -c /mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/com/error.f
+make[1]: Leaving directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+Building package com
+running build
+running build_ext
+building 'com.compy' extension
+gcc -pthread -B /mfe/local/anaconda2_5.3.0/compiler_compat -Wl,--sysroot=/ -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DFORTHON_PKGNAME="com" -I/mfe/local/anaconda2_5.3.0/lib/python2.7/site-packages/Forthon -I/mfe/local/anaconda2_5.3.0/lib/python2.7/site-packages/numpy/core/include -I/mfe/local/anaconda2_5.3.0/include/python2.7 -c ../build/compymodule.c -o ../build/compymodule.o
+In file included from ../build/compymodule.c:1:0:
+../build/Forthon.h:59:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   void (*setaction)();
+   ^
+../build/Forthon.h:60:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   void (*getaction)();
+   ^
+../build/Forthon.h:73:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   void (*setaction)();
+   ^
+../build/Forthon.h:74:3: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   void (*getaction)();
+   ^
+gcc -pthread -B /mfe/local/anaconda2_5.3.0/compiler_compat -Wl,--sysroot=/ -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DFORTHON_PKGNAME="com" -I/mfe/local/anaconda2_5.3.0/lib/python2.7/site-packages/Forthon -I/mfe/local/anaconda2_5.3.0/lib/python2.7/site-packages/numpy/core/include -I/mfe/local/anaconda2_5.3.0/include/python2.7 -c ../build/Forthon.c -o ../build/Forthon.o
+gcc -pthread -shared -B /mfe/local/anaconda2_5.3.0/compiler_compat -L/mfe/local/anaconda2_5.3.0/lib -Wl,-rpath=/mfe/local/anaconda2_5.3.0/lib -Wl,--no-as-needed -Wl,--sysroot=/ ../build/compymodule.o ../build/Forthon.o ../build/blasext.o ../build/com_p.o ../build/brent.o ../build/comutil.o ../build/misc.o ../build/mnbrak.o ../build/dsum.o ../build/dummy_py.o ../build/error.o ../build/getmsg.o ../build/ssum.o -L/mfe/local/anaconda2_5.3.0/lib -lgfortran -lpython2.7 -o build/lib.linux-x86_64-2.7/com/compy.so
+(cd aph;Forthon --builddir ../build  -a  -v --fargs "-Ofast -DFORTHON -cpp"  -f aphrates.F aph aphread.F)
+/home/meyer8/ws/cvsstuff/pyUedge/uedge/aph
+make[1]: Entering directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+make[1]: Nothing to be done for `dependencies'.
+make[1]: Leaving directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+Building package aph
+running build
+running build_ext
+(cd api;Forthon --builddir ../build  -a  -v --fargs "-Ofast -DFORTHON -cpp"  -d com -f apifcn.F api apip93.F apisorc.F fimp.F fmombal.F inelrates.F sputt.F)
+/home/meyer8/ws/cvsstuff/pyUedge/uedge/api
+make[1]: Entering directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+make[1]: Nothing to be done for `dependencies'.
+make[1]: Leaving directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+Building package api
+running build
+running build_ext
+(cd bbb;Forthon --builddir ../build  -a  -v --fargs "-Ofast -DFORTHON -cpp"  --macros ../com/com.v -d com -f boundary.F bbb convert.F geometry.F griddubl.F oderhs.F odesetup.F odesolve.F potencur.F turbulence.F ext_neutrals.F)
+/home/meyer8/ws/cvsstuff/pyUedge/uedge/bbb
+make[1]: Entering directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+make[1]: Nothing to be done for `dependencies'.
+make[1]: Leaving directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+Building package bbb
+running build
+running build_ext
+(cd flx;Forthon --builddir ../build  -a  -v --fargs "-Ofast -DFORTHON -cpp"  -d com -f flxcomp.F flx flxdriv.F flxread.F flxwrit.F)
+/home/meyer8/ws/cvsstuff/pyUedge/uedge/flx
+make[1]: Entering directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+make[1]: Nothing to be done for `dependencies'.
+make[1]: Leaving directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+Building package flx
+running build
+running build_ext
+(cd grd;Forthon --builddir ../build  -a  -v --fargs "-Ofast -DFORTHON -cpp"  -d com -f grdcomp.F grd grddriv.F grdinit.F grdread.F grdwrit.F)
+/home/meyer8/ws/cvsstuff/pyUedge/uedge/grd
+make[1]: Entering directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+make[1]: Nothing to be done for `dependencies'.
+make[1]: Leaving directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+Building package grd
+running build
+running build_ext
+(cd svr;Forthon --builddir ../build  -a  -v --fargs "-Ofast -DFORTHON -cpp"  -f daspk.F svr nksol.F svrut1.F svrut2.F svrut3.F svrut4.F vodpk.F uoa.F daux1.f )
+/home/meyer8/ws/cvsstuff/pyUedge/uedge/svr
+make[1]: Entering directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+make[1]: Nothing to be done for `dependencies'.
+make[1]: Leaving directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+Building package svr
+running build
+running build_ext
+(cd wdf;Forthon --builddir ../build  -a  -v --fargs "-Ofast -DFORTHON -cpp"  wdf)
+/home/meyer8/ws/cvsstuff/pyUedge/uedge/wdf
+make[1]: Entering directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+make[1]: Nothing to be done for `dependencies'.
+make[1]: Leaving directory `/mfe/workspace/meyer8/cvsstuff/pyUedge/uedge/build'
+Building package wdf
+running build
+running build_ext
+rm -f uedgeC.so
+buildit
+running build_py
+running build_ext
+running build_scripts
