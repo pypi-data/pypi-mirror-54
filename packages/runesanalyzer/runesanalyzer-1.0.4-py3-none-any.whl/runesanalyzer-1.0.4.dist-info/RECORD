@@ -1,0 +1,15 @@
+runesanalyzer/__init__.py,sha256=WdRLna4-8wuoCmsmi3qjY1cdDkNzoZEZ7LYP_j5ByZc,65
+runesanalyzer/data.py,sha256=ctFsKz7wHn8CxC3e-tu_2eIzaPrT6cwidv5wEQJSdRY,8622
+runesanalyzer/reader.py,sha256=3PcMaNT09q1OnkkDQKnwvlmb3_4YihOgwYLWMet71jw,1896
+runesanalyzer/runes.py,sha256=7XxBUDXbTOWze0fJWFr0_NLVZJxl5PFrtk1GW-C-te0,1818
+runesanalyzer/scraper.py,sha256=SanZBAsTUDj4kNS7EHweAImNjkgOttWVbvvNuukJvX4,2201
+runesanalyzer/sweden_runes.json,sha256=rb3PrKVTYt8N3Y1v1ojhCIT8h926_8pQrcj0BKB4vo8,680768
+runesanalyzer/tests.py,sha256=X2np7NKyrWlXW0ZZKQ0cncA1g66Xoc-6Itk0WaAs4iY,251
+runesanalyzer/utils.py,sha256=U2E1jk1AmabZdFJgX_zaFrcF-a-at4t2bN01KEpGrPg,196
+runesanalyzer/data_runes/RUNDATA.csv,sha256=hMa3dEwiS3Nbl6zpI759qOAOTESDK0U1empKJmAef3M,1828332
+runesanalyzer-1.0.4.dist-info/LICENSE,sha256=SRyftG01FWvnhVolZh05c6tXI35CFFZTBM1Ozp7iyGE,1099
+runesanalyzer-1.0.4.dist-info/METADATA,sha256=uH_wEgOWGfEVcYfGIl1iNwSS2MfzWi1gOC0UF6jMXvI,890
+runesanalyzer-1.0.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+runesanalyzer-1.0.4.dist-info/top_level.txt,sha256=YFl-jiwB23EfR60rQBVB-xfRP3LSqo0DkUEtuKiqnYE,14
+runesanalyzer-1.0.4.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+runesanalyzer-1.0.4.dist-info/RECORD,,
