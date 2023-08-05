@@ -1,0 +1,14 @@
+README.md
+setup.py
+dxf2x/__init__.py
+dxf2x/compiler.py
+dxf2x/dxf.py
+dxf2x/model_pb2.py
+dxf2x/proto.py
+dxf2x/svg.py
+dxf2x/tsv.py
+dxf2x.egg-info/PKG-INFO
+dxf2x.egg-info/SOURCES.txt
+dxf2x.egg-info/dependency_links.txt
+dxf2x.egg-info/entry_points.txt
+dxf2x.egg-info/top_level.txt

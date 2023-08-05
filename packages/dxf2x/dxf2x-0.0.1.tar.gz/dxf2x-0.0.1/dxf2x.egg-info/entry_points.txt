@@ -1,0 +1,3 @@
+[console_scripts]
+dxf2x = dxf2x:dxf2x
+

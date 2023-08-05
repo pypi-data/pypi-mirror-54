@@ -1,0 +1,47 @@
+# dxf2x
+
+Convert between DXF, TSV, SVG, PXF(Protobuf) formats.
+
+# install
+
+```sh
+$ pip3 install dxf2x
+$ dxf2x --version
+dxf2x 0.0.1
+```
+
+# Usage
+
+```sh
+dxf2x [-h] [-s FORMAT] -t FORMAT [-d DIR] [-q] [-v] FILE [FILE ...]
+```
+
+## positional arguments:
+
+* FILE: All the files are read and converted in turn.
+
+## optional arguments:
+
+* `-s FORMAT`, `--source FORMAT`: specifies the format of the input. Determined by FILE by default.
+* `-t FORMAT`, `--target FORMAT`: specifies the format of the output.
+* `-d DIR`, `--dir DIR`: specifies the directory for output files.
+* `-q`, `--quiet`: disable the progress.
+* `-h`, `--help`: show this help message and exit.
+* `-v`, `--version`: show program's version number and exit.
+
+Choose `FORMAT` from 'dxf', 'tsv', 'svg', 'pxf'.
+
+# Examples
+
+## Convert each dxf files to a svg files
+
+```sh
+dxf2x -t svg *.dxf
+```
+
+## Convert each tsv files to a protobuf files into patterns folder.
+
+```sh
+mkdir patterns
+dxf2x -t pxf -d patterns *.tsv
+```
