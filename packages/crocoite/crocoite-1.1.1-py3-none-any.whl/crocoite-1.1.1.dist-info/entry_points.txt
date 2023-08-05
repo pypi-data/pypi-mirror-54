@@ -1,0 +1,9 @@
+[console_scripts]
+crocoite = crocoite.cli:recursive
+crocoite-errata = crocoite.tools:errata
+crocoite-extract-screenshot = crocoite.tools:extractScreenshot
+crocoite-irc = crocoite.cli:irc
+crocoite-irc-dashboard = crocoite.cli:dashboard
+crocoite-merge-warc = crocoite.tools:mergeWarcCli
+crocoite-single = crocoite.cli:single
+
