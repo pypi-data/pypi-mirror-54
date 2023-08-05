@@ -1,0 +1,10 @@
+delinter/__init__.py,sha256=kk55hrO8pyywVi6FPfswgwhn688wvVv1Euay1SNXIRY,367
+delinter/main.py,sha256=Aa4nGgHf_QEjCuCV_emo_4AAg9sG1gi_i-1UmZ2r4-A,7573
+delinter/unused_imports.py,sha256=4YqZjasyL8JhFP_jjV5xUvknH9VBamuaZM3gcUGNldo,7870
+pydelinter-0.0.1.dist-info/AUTHORS.rst,sha256=STIlJ2q_rZNF_U-NHoCY1A6ZXiMMBeX2XakLfKZEsUA,68
+pydelinter-0.0.1.dist-info/LICENSE.txt,sha256=pjk6AJVpX3bPe6bk7dX5J5jePA4ES6eEeQaM9B8O0HI,1073
+pydelinter-0.0.1.dist-info/METADATA,sha256=PxD1lfY4coXZoA6OrVturr-02D-aIXUydKsvfQzteQs,4336
+pydelinter-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+pydelinter-0.0.1.dist-info/entry_points.txt,sha256=93mOnYanJSGPt0mgaEt8Hyw3AXfIlliDH_X0_jgq2u0,46
+pydelinter-0.0.1.dist-info/top_level.txt,sha256=KK4blMuj7gevDKgd_baWAfC5DfnfIJmgos4u_TrZXmI,9
+pydelinter-0.0.1.dist-info/RECORD,,
