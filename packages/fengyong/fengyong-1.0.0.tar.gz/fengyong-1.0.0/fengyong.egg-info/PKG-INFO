@@ -1,0 +1,49 @@
+Metadata-Version: 1.2
+Name: fengyong
+Version: 1.0.0
+Summary: Run MIPS with python!
+Home-page: https://github.com/CQU-AI/pymips
+Author: CQU-AI
+Author-email: peter@mail.loopy.tech
+Maintainer: loopyme
+Maintainer-email: peter@mail.loopy.tech
+License: MIT License
+Description: MIPS-Simulator
+        ==============
+        
+        Introduction
+        ------------
+        
+        MIPS-Simulator runs MIPS32 programs. Unlike real simulator, which
+        assembles the instructions into machine code and executes them,
+        MIPS-Simulator just parse the instructions and runs them using python
+        code. In other words, MIPS-simulator actually interprets mips
+        instructions.
+        
+        Note
+        ----
+        
+        -  This project is in its early stage, which means some functions may
+           not supported yet.
+        
+        Contributing
+        ------------
+        
+        Read
+        `CONTRIBUTING <https://github.com/CQU-AI/pymips/edit/master/CONTRIBUTING.md>`__
+        for more information.
+        
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
