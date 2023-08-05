@@ -1,0 +1,10 @@
+README.md
+setup.py
+iterator_chain/__init__.py
+iterator_chain/begin.py
+iterator_chain/intermediate.py
+iterator_chain/parallel_intermediate.py
+iterator_chain.egg-info/PKG-INFO
+iterator_chain.egg-info/SOURCES.txt
+iterator_chain.egg-info/dependency_links.txt
+iterator_chain.egg-info/top_level.txt
