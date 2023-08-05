@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: presidentsCTF-bot
+Version: 0.0.5
+Summary: Local scoreboard and bot to track the President's Cup.
+Home-page: https://gitlab.com/royragsdale/presidentsctf-bot
+Author: Roy Ragsdale
+License: UNKNOWN
+Project-URL: Bug Reports, https://gitlab.com/royragsdale/presidentsctf-bot/issues
+Project-URL: Source, https://gitlab.com/royragsdale/presidentsctf-bot/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tabulate
+Requires-Dist: slackclient
+Requires-Dist: tweepy
+
+# President's CTF Bot
+
+A local scoreboard and bot to track the [President's Cybersecurity Cup][p].
+
+[p]:https://www.cisa.gov/presidentscup
+
+## Quick Start
+
+```
+pip install presidentsCTF-bot
+wget https://gitlab.com/royragsdale/presidentsctf-bot/raw/master/config.json
+presidentsCTF
+```
+
+1. Install the tool.
+2. Get a baseline configuration with the existing events.
+3. Fetch the scoreboards.
+
+By default this will fetch all the events from the configuration and show any
+active teams on the scoreboard. If there are no active events you will not be
+shown anything.
+
+Consult the `--help` for the full set of options as well as the
+[Examples](#Examples) section below.
+
+## Features
+
+- Track solves over time.
+- Locally annotate known teams.
+- Highlight active teams.
+- Send updates to slack or [twitter][t].
+
+[t]:https://twitter.com/presidentsctf
+
+## Background
+
+The scoreboard data for each event (e.g. Team Round 1) is publicly available.
+This tool merely fetches the json data and does some local processing to provide
+a better experience.
+
+
+## Examples
+
+### Just One Event
+
+Often you only want to display the current event.
+
+You can  use a configuration file (e.g. `config.json` or with `--config`) that
+only specifies that event.
+
+```
+presidentsCTF --config solo-round-1.json
+```
+
+Or you can use the `--event` option to limit the display (`6e8a18` is the
+prefix of the Solo Round 1 leaderboard event_id).
+
+```
+presidentsCTF --event 6e8a18
+```
+
+### More Teams
+
+By default the scoreboard only shows active teams. If the event is not live
+there will be no results. The following flags change what is shown. These can be
+used in combination. 
+
+```
+--active         show active teams (default=True)
+--known          show known teams (default=False)
+--top TOP        show top N teams
+```
+
+```
+$ presidentsCTF --event 6e8a18 --top 3
+##############################################################
+Solo Round 1
+##############################################################
+|   Rank | Team           |   Score |   Solves | Remaining   |
+|--------|----------------|---------|----------|-------------|
+|      1 | DOD-Player-513 |    5500 |        9 | Final       |
+|      2 | DOD-Player-280 |    5500 |        9 | Final       |
+|      3 | DOD-Player-262 |    5500 |       10 | Final       |
+```
+
+### Log solves
+
+By running the fetch in a recurring fashion the tool can compute differences and
+infer challenge solves. This is easy to automate with a tool like `watch`. For
+example the following invocation will capture minute by minute updates as well
+as export the received json data for other use, and store the update messages to
+`log`.
+
+```
+$ watch -n 60 'presidentsCTF --event 6e8a18 --export | tee -a log'
+```
+
+### Known Teams
+
+By default the scoreboard only shows anonymous team names.  This makes it
+challenging to follow your friends and enemies. If you know who a team is you
+can add a custom mapping into your `config.json` under the `"teams"` section.
+
+## Notifications
+
+If you want the updates delivered live in real time, this tool can also post
+updates to slack or twitter. Check the example `config.json` for the information
+required to use this functionality.
+
+The `"watch"` field of the `"slack"` configuration maps a team name to a slack
+user id. This will `@mention` the user for any changes on that team.
+
+Caution using the known teams feature with the notification feature so as not to
+unintentionally expose who is on what team.
+
+Though the bot has twitter functionality, you should probably just follow the
+unofficial account <https://twitter.com/presidentsCTF>.
+
+## Thanks
+
+The President's Cup Cybersecurity Competition organizers for putting on the
+event. jchristman for pointing out that api endpoint. All bugs are mine.
+
+
