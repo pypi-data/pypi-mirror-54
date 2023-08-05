@@ -1,0 +1,9 @@
+terminal_pagination/__init__.py,sha256=yWSx-uGEkvOh-uRJLZRUtJeYwVBs2FOVNnDUF7BNJkc,44
+terminal_pagination/input.py,sha256=AArgY78avzhUHrDBRJCfQj4O3yUVHw1VpQTgQIii22w,153
+terminal_pagination/terminal_pagination.py,sha256=9zc62sc2uxAcHW2CHgyyf8tOkN81e8mUqfAJCpR8mjI,3004
+terminal_pagination/underline.py,sha256=i-4kQ6LonIFg3w5Ld0fOyDEVDI3aw5qRK7TTM3atiRI,199
+terminal_pagination-0.0.3.dist-info/LICENSE.txt,sha256=F8vCGJG1CSiXMwm0dYVaNxXcasrDyC5GD6bSO0h2gw4,1068
+terminal_pagination-0.0.3.dist-info/METADATA,sha256=6rk0O66i4zarPtJtFX01BUFqwTNkTVIGbVyQJZYlGls,1353
+terminal_pagination-0.0.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+terminal_pagination-0.0.3.dist-info/top_level.txt,sha256=0FDap4DnjCDjbhOg9xhSJwPtF3fIn5sNhbLcnlKjmpI,20
+terminal_pagination-0.0.3.dist-info/RECORD,,
