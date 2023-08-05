@@ -1,0 +1,50 @@
+# zipreport
+Very lightweight module for creating PDF reports with Python
+
+## Motivation
+
+This library is meant to be a drop-in replacement for report generation I was doing with Filemaker Pro and
+operates under about the same principles as print layout on Filemaker Pro. You, the client, have a list of
+ordered records, which can be any subscriptable thing but in my example are `dicts`, and these are fed into
+a `Document` object you create and customize which establishes how fields in each record are formatted and 
+laid out on the page, the formatting of page headers and footers, and summary headers and footers.
+
+## Example
+
+In the [example](test/test_functional.py) you can see how a basic report is customized. All formatting is 
+contained in a `Document` object, draws `Part` objects in various parts of the document based on certain 
+conditions. The `page_header` and `page_footer` parts are drawn at the top and bottom of each page.
+
+Each record to be printed is displayed in a `content_part`:
+
+```python
+content_part = Part(
+    elements=[Element(x=0.,
+                      y=0.,
+                      width=72.,
+                      height=18.,
+                      content=FormattedText("N:$name", font_family='Futura', font_size=9.)),
+
+              Element(x=96.,
+                      y=0,
+                      width=72.*4.,
+                      height=4.*72.,
+                      can_shrink=True,
+                      content=FormattedText("$comment", font_family='Futura', font_size=9.)),
+              Element(x=72. * 6, y=0., width=36, height=18,
+                      content=FormattedText("$rn", font_family='Futura', font_size=9.,
+                                            alignment='r'))],
+    minimum_height=72.
+)
+```
+
+A `Part` contains a list of `Element` objects which define a rectangle (positioned relative to the origin, 
+the upper-left corner of the parent `Part`), and each element has a corresponding `Content`. `Content` 
+objects contain specific style and content. The `FormattedText` content has a format string which can 
+substitute values from a content object. For example above, the first element reades the 'name' key from
+the content object and substitutes it into the format string.
+
+
+## Under Contruction
+
+This project is still under contruction but functions on a basic level.

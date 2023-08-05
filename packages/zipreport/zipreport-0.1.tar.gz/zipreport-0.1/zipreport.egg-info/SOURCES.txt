@@ -1,0 +1,9 @@
+README.md
+setup.py
+test/test_functional.py
+zipreport/__init__.py
+zipreport.egg-info/PKG-INFO
+zipreport.egg-info/SOURCES.txt
+zipreport.egg-info/dependency_links.txt
+zipreport.egg-info/requires.txt
+zipreport.egg-info/top_level.txt
