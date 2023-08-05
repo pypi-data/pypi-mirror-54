@@ -1,0 +1,4 @@
+biopython
+argparse
+requests
+unidecode
