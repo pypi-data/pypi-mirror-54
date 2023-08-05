@@ -1,0 +1,15 @@
+fs~=2.4.11
+pafy~=0.5.4
+youtube-dl>=2019.9.28
+
+[dev]
+docutils==0.15.2
+Pygments==2.4.2
+codecov==2.0.15
+
+[test]
+green==3.0.0
+coverage==4.5.4
+
+[test:python_version < "3.3"]
+mock==3.0.5
