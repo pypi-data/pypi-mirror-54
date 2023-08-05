@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: dax
+Version: 0.11.3
+Summary: Distributed Automation for XNAT
+Home-page: http://github.com/VUIIS/dax
+Author: VUIIS CCI
+Author-email: bdboyd42@gmail.com
+Maintainer: VUIIS CCI
+Maintainer-email: bdboyd42@gmail.com
+License: MIT
+Download-URL: http://github.com/VUIIS/dax
+Platform: MacOs
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 2 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Dist: Sphinx (>=1.4)
+Requires-Dist: nibabel (>=2.0.1)
+Requires-Dist: numpy (>=1.6.2)
+Requires-Dist: matplotlib (>=1.4.3)
+Requires-Dist: pycap
+Requires-Dist: pyxnat (==1.0.1.0)
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: lxml
+Requires-Dist: xlrd
+Requires-Dist: pillow
+Requires-Dist: pydicom (>=1.0.0)
+Requires-Dist: httplib2
+Requires-Dist: future
+Requires-Dist: configparser
+
+========================================================
+DAX: Distributed Automation for XNAT
+========================================================
+
+*DAX*, is  a python package developed at Vanderbilt University, Nashville, TN,
+USA. It's available on github at: https://github.com/VUIIS/dax.
+
+*DAX* allows you to:
+
+* extract information from XNAT via scripts (Xnat_tools)
+* store and view image analysis results on XNAT (data_types)
+* run pipelines on your data in XNAT
+
+
