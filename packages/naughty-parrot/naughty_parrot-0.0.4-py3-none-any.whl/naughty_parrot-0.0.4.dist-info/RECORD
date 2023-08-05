@@ -1,0 +1,12 @@
+naughty_parrot/__init__.py,sha256=_2cS4FtXAH7rPE2XjxdLlvct2FDOcaNzvHS08y9DcgI,102
+naughty_parrot/bodygram_preprocessor.py,sha256=ghaGAk2X0ql7kgSraUJrGgNBbFVFbWggEc5_bnIpD-A,455
+naughty_parrot/preprocessor.py,sha256=Psa93GOsv_YbztgMO_grwDIOKoKga2et9zzcgFZDwLU,6760
+naughty_parrot/calculation_recorder/__init__.py,sha256=Mo0R1Y_WP0YUYquqj3FJp5a5Jm9mkecPZX7tu28bUnA,36
+naughty_parrot/calculation_recorder/calculation_recorder.py,sha256=X0LKvmiwlvfiulXNYuFI252A8O4I8FBKB-qN0v8YEVQ,1123
+naughty_parrot/encoder_decoder/__init__.py,sha256=5IpxjaZ97csi6hWR4eVpKNDzyL5qB9aYYCWMKsstdQo,31
+naughty_parrot/encoder_decoder/encoder_decoder.py,sha256=Lt4TnA2ilErbUDh9MoauPPbsVuBOm1-OHt6iEpX-ZFg,2399
+naughty_parrot-0.0.4.dist-info/LICENSE.txt,sha256=_okISlgzo9Dg4wz5x25uEuvzGu1dSPBTlqBPsjBvXHc,1064
+naughty_parrot-0.0.4.dist-info/METADATA,sha256=nF9VHrCcp_x1PbNUHNfd5ss8J6E1ve3sqvAd3wKkfds,336
+naughty_parrot-0.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+naughty_parrot-0.0.4.dist-info/top_level.txt,sha256=gf_tLAteJEkshPzoTOsFL0SqJe5XcVcyO7HEFic_cXI,15
+naughty_parrot-0.0.4.dist-info/RECORD,,
