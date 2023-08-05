@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: brainflow
+Version: 2.0.4
+Summary: Library to get data from OpenBCI boards
+Home-page: https://github.com/Andrey1994/brainflow
+Author: Andrey Parfenov
+Author-email: a1994ndrey@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# Brainflow
+
+Brainflow is a library to read and process data from BCI boards.
+
+This library provides an uniform API to get data from huge amount of BCI devices and to perform signal processing
+
+Also it is available for other programming languages like:
+
+* C++
+* Java
+* C#
+* R
+* and so on
+
+## [BrainFlow Docs, Dev and User guides and other information](https://brainflow.readthedocs.io/en/latest/index.html)
+
+
