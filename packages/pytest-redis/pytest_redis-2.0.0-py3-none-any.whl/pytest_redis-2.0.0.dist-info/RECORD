@@ -1,0 +1,13 @@
+pytest_redis/__init__.py,sha256=OiIWKMJQcgvm9ZVEbhy2drgZF_LnhjoDZj8UdwBL4w4,861
+pytest_redis/executor.py,sha256=DEF0rpWQC9HU1_3bhkEO175ADtl1Dfn-yDGLdsmW1SI,6854
+pytest_redis/factories.py,sha256=5MO4zxxiFR8x9RZwW77t_uYAdfH-djaxLBFIP7es_1E,6699
+pytest_redis/plugin.py,sha256=voV6_nVRmT9HvlV-eOYzAOSaXF9p-5w5b4g7as1RlnA,4845
+pytest_redis/port.py,sha256=Jv0B6rH4LhG8NqKtSV0r4vR94yBY26ZK1EbovO915Ow,3046
+pytest_redis-2.0.0.dist-info/AUTHORS.rst,sha256=frJaBxFa09HPA8vYh9UXx9RMz4w8EoZ-ya2lSCduRMA,338
+pytest_redis-2.0.0.dist-info/COPYING,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+pytest_redis-2.0.0.dist-info/COPYING.lesser,sha256=6or154nLLU6bELzjh0mCreFjt0m2v72zLi3yHE0QbeE,7650
+pytest_redis-2.0.0.dist-info/METADATA,sha256=joTB2Ip98Xg35v1jQDtBWLVa39G9W6oxArlGj-hYIig,9509
+pytest_redis-2.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pytest_redis-2.0.0.dist-info/entry_points.txt,sha256=qwFRhysLeUo_Yb4iYllcKGmNU-UYLkt3oUJ1XCvLr4E,47
+pytest_redis-2.0.0.dist-info/top_level.txt,sha256=mCggwHELwSjbm-N7gO1ISWIhJLyLvg4A2pDFHfhg57w,13
+pytest_redis-2.0.0.dist-info/RECORD,,
