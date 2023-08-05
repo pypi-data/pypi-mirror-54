@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: s3watcher
+Version: 0.1.0
+Summary: Watch AWS S3 bucket contents
+Home-page: https://github.com/dbnicholson/s3watcher
+Author: Dan Nicholson
+Author-email: nicholson@endlessm.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: msgpack
+
+# S3Watcher
+
+A daemon to cache the object listings for [AWS
+S3](https://aws.amazon.com/s3/) buckets. If you have a very large
+bucket, then listing the entire bucket can take a long time. The daemon
+can also watch an [SQS](https://aws.amazon.com/sqs/) queue for changes
+in the bucket.
+
+
