@@ -1,0 +1,11 @@
+[console_scripts]
+wasiar = wasic.wasiar:run
+wasic = wasic.wasic:run
+wasic++ = wasic.wasicc:run
+wasicc = wasic.wasicc:run
+wasiconfigure = wasic.wasicc:run
+wasild = wasic.wasild:run
+wasimake = wasic.wasimake:run
+wasinm = wasic.wasinm:run
+wasiranlib = wasic.wasiranlib:run
+
