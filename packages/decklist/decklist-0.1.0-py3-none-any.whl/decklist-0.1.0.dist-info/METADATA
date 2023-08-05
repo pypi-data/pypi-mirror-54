@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: decklist
+Version: 0.1.0
+Summary: A library for parsing decklists
+Home-page: https://github.com/dstathis/decklist
+Author: Dylan Stephano-Shachter
+Author-email: dylan@theone.ninja
+License: GPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+
+# Decklist
+A library for parsing decklists
+
+
