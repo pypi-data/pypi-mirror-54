@@ -1,0 +1,3 @@
+[console_scripts]
+mktimeline=mktimeline.console.application:main
+
