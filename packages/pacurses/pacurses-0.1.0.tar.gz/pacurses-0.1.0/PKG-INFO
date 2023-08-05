@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pacurses
+Version: 0.1.0
+Summary: A curses graphical interface to the PulseAudio sound system for the terminal.
+Home-page: https://github.com/weilbith/pacurses
+Author: Thore Weilbier
+Author-email: thore@weilbier.net
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: urwid (>=2.0,<3.0)
+Project-URL: Repository, https://github.com/weilbith/pacurses
