@@ -1,0 +1,3 @@
+[console_scripts]
+releasely = releasely.__main__:main
+
