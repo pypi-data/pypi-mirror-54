@@ -1,0 +1,12 @@
+airflow_aws_cost_explorer/__init__.py,sha256=wneNTgA4o_n4sASSEyjf6WlyFm0FBfTHBbIENuRAwvQ,443
+airflow_aws_cost_explorer/plugin.py,sha256=4RP-NOOB-6R3qurEqJ8-HD-5sU547cO7vjG4ZNTMKro,1641
+airflow_aws_cost_explorer/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_aws_cost_explorer/operators/aws_bucket_size.py,sha256=-jYtbk6eM8jcfXXCLytEDFaICQVFkVRt46H23gspclo,7105
+airflow_aws_cost_explorer/operators/aws_cost_explorer.py,sha256=cFz9_38_lcSMkOL0IiaHFMqE0zjormr7QDW9zrr4AHM,7212
+airflow_aws_cost_explorer/operators/commons.py,sha256=GUa74TzmC4dU1IrvWjVISgUIpTpLPtReEVZp1EVbXGk,8115
+airflow_aws_cost_explorer-1.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+airflow_aws_cost_explorer-1.2.0.dist-info/METADATA,sha256=lEDw_zu1hE1fQbZQP7-lOeNwWqSjBMjeObZogm60xaY,6812
+airflow_aws_cost_explorer-1.2.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+airflow_aws_cost_explorer-1.2.0.dist-info/entry_points.txt,sha256=UEApg7SHoH3IH9JkqX-LKPflNeoOdmjliOwulY6N56M,102
+airflow_aws_cost_explorer-1.2.0.dist-info/top_level.txt,sha256=9zn6qq8Hig4ZD-lXHjSRZvtxWkidQzgGbGBqc8MGbGs,26
+airflow_aws_cost_explorer-1.2.0.dist-info/RECORD,,
