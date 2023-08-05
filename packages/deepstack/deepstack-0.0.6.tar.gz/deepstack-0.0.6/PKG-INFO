@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: deepstack
+Version: 0.0.6
+Summary: DeepStack: Ensembling Keras Deep Learning Models into the next Performance Level
+Home-page: https://github.com/jcborges/DeepStack
+Author: Julio Borges
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/jcborges/DeepStack/archive/v_0.0.6.tar.gz
+Description: DeepStack: Ensembling Keras Deep Learning Models into the next Performance Level
+Platform: UNKNOWN
