@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: squeaklib
+Version: 0.1.6
+Summary: Squeak library
+Home-page: UNKNOWN
+Author: Jonathan Zernik
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: squeak
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
