@@ -1,0 +1,6 @@
+README.md
+setup.py
+Blackboard.egg-info/PKG-INFO
+Blackboard.egg-info/SOURCES.txt
+Blackboard.egg-info/dependency_links.txt
+Blackboard.egg-info/top_level.txt
