@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hn-test-sum
+Version: 0.0.1
+Summary: Automatically register models in the admin interface in a smart way.
+Home-page: https://github.com/xuwei13253838782/hn_test_sum
+Author: wei.xu
+Author-email: 143482020@qq.com
+License: MIT
+Keywords: python django admin autoregister
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Provides-Extra: test
+
+UNKNOWN
+
+
