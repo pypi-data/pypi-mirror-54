@@ -1,0 +1,47 @@
+Metadata-Version: 1.2
+Name: scallop
+Version: 1.0.4
+Summary: Robustness of single-cell clustering solutions.
+Home-page: https://gitlab.com/alexmascension/robin
+Author: Alex M. Ascensión, Olga Ibañez-Solé
+Author-email: alexmascension@gmail.com, olga.ibanez@biodonostia.org
+License: BSD
+Description: # Scallop - quantitative evaluation of single-cell cluster memberships
+        
+        **Master badges**
+        [![pipeline status](https://img.shields.io/gitlab/pipeline/alexmascension/scallop/master)](https://gitlab.com/alexmascension/scallop/commits/master)
+        [![Coverage report master](https://codecov.io/gl/alexmascension/scallop/branch/master/graph/badge.svg)](https://codecov.io/gl/alexmascension/scallop/branch/master)
+        [![Documentation Status Master](https://readthedocs.org/projects/scallop/badge/?version=latest)](https://scallop.readthedocs.io/en/latest/?badge=latest)
+        [![Pypi version](https://img.shields.io/pypi/v/scallop)](https://img.shields.io/pypi/v/scallop)
+        
+        **dev badges**
+        [![pipeline status](https://img.shields.io/gitlab/pipeline/alexmascension/scallop/dev)](https://gitlab.com/alexmascension/scallop/commits/dev)
+        [![Coverage report dev](https://codecov.io/gl/alexmascension/scallop/branch/dev/graph/badge.svg)](https://codecov.io/gl/alexmascension/scallop/branch/dev)
+        [![Docs dev](https://readthedocs.org/projects/pip/badge/?version=dev)](https://scallop.readthedocs.io/en/dev/)
+        
+        
+        
+        Scallop is a module for the evaluation of single-cell clustering solutions. 
+        It allows users to assess the quality of clustering using different
+        algorithms and parameter choices. 
+        
+        Scallop provides users with a cell-wise robustness score based on bootstrap experiments, 
+        and a versatile plotting toolkit for visualization purposes. 
+        
+        Scallop is meant to be used 
+        with annData objects from Scanpy. 
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.6
