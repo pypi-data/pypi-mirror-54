@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+bits/__init__.py
+bits/swoogo/__init__.py
+bits_swoogo.egg-info/PKG-INFO
+bits_swoogo.egg-info/SOURCES.txt
+bits_swoogo.egg-info/dependency_links.txt
+bits_swoogo.egg-info/not-zip-safe
+bits_swoogo.egg-info/top_level.txt
