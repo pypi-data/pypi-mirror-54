@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: easy-py-server
+Version: 1.0.0
+Summary: A flexible web server plugin providing a robust HTTP service for your projects
+Home-page: https://github.com/scientificRat/easy_py_server.git
+Author: Zhengyue Huang
+Author-email: huangzhengyue.1996@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Requires-Dist: Pillow
+Requires-Dist: termcolor
+
+easy_py_server
+A flexible web server plugin providing a robust HTTP service for your projects.
+
