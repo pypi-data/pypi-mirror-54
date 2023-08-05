@@ -1,0 +1,9 @@
+crix/__init__.py,sha256=43l8PEH-9lOKIP2GJDr6iJh1jEF1m0EFU9-tQ7nfL_I,116
+crix/async_client.py,sha256=u_ViieJYo8W1ATlcVgkBJTvGYaIiSad0ZpWzmiJYABI,14111
+crix/client.py,sha256=rY5VUr8AxfVrI1ptsLrNnUyFH-Q_IGYM-BPiTImKMQ8,14935
+crix/models.py,sha256=7JIzexTblixwo_98DEnY03F8hLnzwuPmFCxU50d5-v0,11042
+crix-1.5.dist-info/LICENSE,sha256=UgHmwxYphqtFP7m-0fJ0Wd-7Xum2tc70nuZSG5ZaiEI,1052
+crix-1.5.dist-info/METADATA,sha256=0-DembtJflIBIzZuXlxCzMrkrembNePqcp2t_IWT8u4,2264
+crix-1.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+crix-1.5.dist-info/top_level.txt,sha256=FnrQwrRAf4V-WQ91t0ve0mO7Z5eVm8QJxJuivS19Swo,5
+crix-1.5.dist-info/RECORD,,
