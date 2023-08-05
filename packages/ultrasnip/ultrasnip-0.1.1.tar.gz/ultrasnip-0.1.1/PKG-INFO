@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ultrasnip
+Version: 0.1.1
+Summary: A desktop snipping tool written in Qt for Python.
+License: MIT
+Author: Dan Bradham
+Author-email: danielbradham@gmail.com
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Qt.py (>=1.2,<2.0)
