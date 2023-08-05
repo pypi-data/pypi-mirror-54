@@ -1,0 +1,6 @@
+README.md
+setup.py
+bulldog.egg-info/PKG-INFO
+bulldog.egg-info/SOURCES.txt
+bulldog.egg-info/dependency_links.txt
+bulldog.egg-info/top_level.txt
