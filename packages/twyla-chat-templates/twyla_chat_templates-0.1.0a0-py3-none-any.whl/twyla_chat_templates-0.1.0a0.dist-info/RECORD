@@ -1,0 +1,12 @@
+twyla/chat/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twyla/chat/templates/base.py,sha256=2zZ6gM2291jNKhJj6pZP9eZsow1J2GL4pVSQlOmMoUM,125
+twyla/chat/templates/buttons.py,sha256=jSQvA9VQq9ihwS4ajaXPCoE1Ol1tR_IBzaW-FSGg7nY,1425
+twyla/chat/templates/carousel.py,sha256=_-zE2jdhKS5WckMqX11nMAPBRuvnbfQ0tEIiCaREN90,155
+twyla/chat/templates/generic.py,sha256=CQXS9LBhnSlBlRkrMzKIdw5UWKKQC-LCgEaEOmW-bXQ,2475
+twyla/chat/templates/image.py,sha256=kdP2rPi1OytnBM6Z7nqwSEh3wBxDFk5LkSkGxrG7664,623
+twyla/chat/templates/quickreplies.py,sha256=2xdmF7s-qS5zOUqDfGGyVEw5ZwLfJBee1zSkEku50Zg,682
+twyla/chat/templates/text.py,sha256=ez_KkMBPah_3qWxmrOw_FkzQ7mA6KQbpL2lplnHzOgA,150
+twyla_chat_templates-0.1.0a0.dist-info/LICENSE,sha256=Cgn2xkcuDQ0YgjwBVpCqXJ-7G4RH0VxSyF7cfL44pmI,1062
+twyla_chat_templates-0.1.0a0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+twyla_chat_templates-0.1.0a0.dist-info/METADATA,sha256=uDa-b5UvUt-rXb8N_ub6LzmBmAg0aqzrc1anDtT_A1Q,2751
+twyla_chat_templates-0.1.0a0.dist-info/RECORD,,
