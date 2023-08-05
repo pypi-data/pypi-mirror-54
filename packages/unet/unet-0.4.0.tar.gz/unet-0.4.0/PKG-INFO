@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: unet
+Version: 0.4.0
+Summary: PyTorch implementation of UNet
+Home-page: https://github.com/fepegar/unet
+Author: Fernando Perez-Garcia
+Author-email: fernando.perezgarcia.17@ucl.ac.uk
+License: UNKNOWN
+Description: # unet
+        Implementation of 2D and 3D U-Net
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
