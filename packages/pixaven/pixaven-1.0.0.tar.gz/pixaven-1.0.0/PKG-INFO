@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: pixaven
+Version: 1.0.0
+Summary: Official Python integration for the Pixaven Image API
+Home-page: https://github.com/pixaven/pixaven-python
+Author: Pixaven UG
+Author-email: support@pixaven.com
+License: MIT
+Download-URL: https://github.com/pixaven/pixaven-python/archive/1.0.0.tar.gz
+Description: Pixaven is an enterprise-grade image processing SaaS running entirely on Apple® platform. Resize, scale, crop, mask, filter and enhance your images with blazing speed.
+Keywords: pixaven image processing resizing resizer cropping scaling masking watermarking filtering thumbnails pic picture photo face face detection visual watermark filter crop mask resize resizer thumbs thumbnail thumbnails jpg jpeg png gif svg bmp psd tiff
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
