@@ -1,0 +1,119 @@
+#!/usr/bin/env python3
+from gitz import config
+from gitz import env
+from gitz.program import PROGRAM
+from pathlib import Path
+
+SUMMARY = 'Print information about the gitz environment'
+
+HELP = """
+`git gitz` lists information about the gitz commands
+"""
+
+EXAMPLES = """
+git gitz
+git gitz commands defaults exec home_page library version
+git gitz c d e h l v
+      Prints:
+        * all the gitz commands
+        * the variable defaults (including protected branches and remotes)
+        * the gitz executable directory,
+        * the home page of the project
+        * the gitz library directory
+        * the version number
+
+git gitz version exec
+    Print just the version number and the git executable directory
+"""
+
+ALL = (
+    'commands',
+    'defaults',
+    'executable_directory',
+    'home_page',
+    'library_directory',
+    'version',
+)
+
+INDENT = '    '
+
+
+def git_gitz():
+    errors, items = [], []
+    for i in PROGRAM.args.items:
+        for c in ALL:
+            if c.startswith(i):
+                items.append(c)
+                break
+        else:
+            errors.append(i)
+            continue
+    if errors:
+        PROGRAM.exit('Do not understand:', *errors)
+
+    indent = INDENT if len(items) > 1 else ''
+    for i, item in enumerate(items):
+        if indent:
+            if i:
+                PROGRAM.message()
+            title = item.capitalize().replace('_', ' ')
+            PROGRAM.message(title + ':')
+        globals()['_' + item](indent)
+
+
+def add_arguments(parser):
+    parser.add_argument('items', nargs='*', default=ALL)
+
+
+SUMMARIES = {
+    'git-amp': 'AMend the last commit message and force-Push, somewhat safely',
+    'git-infer': 'Commit changes with an auto-generated message',
+    'git-st': 'Colorful, compact git status',
+    'git-when': 'When did each file change (date, commit, message)?',
+}
+SKIP_EVERY = 4
+
+
+def _commands(indent):
+    for i, c in enumerate(reversed(config.COMMANDS)):
+        try:
+            file = Path(__file__).parent / c
+            source = file.read_text()
+            compiled = compile(source, str(file), 'exec')
+            local = {}
+            exec(compiled, local)
+            msg = local['SUMMARY']
+
+        except Exception:
+            msg = SUMMARIES.get(c, '')
+
+        if i and not (i % SKIP_EVERY):
+            PROGRAM.message()
+
+        PROGRAM.message('%s%s:' % (indent, c))
+        PROGRAM.message('%s    %s' % (indent, msg))
+
+
+def _defaults(indent):
+    for e in sorted(env.ENV.DEFAULTS):
+        PROGRAM.message(indent + env.PREFIX + e, '=', env.ENV.get(e))
+
+
+def _executable_directory(indent):
+    PROGRAM.message(indent + str(config.EXECUTABLE_DIRECTORY))
+
+
+def _home_page(indent):
+    PROGRAM.message(indent + config.HOME_PAGE)
+
+
+def _library_directory(indent):
+    PROGRAM.message(indent + str(config.LIBRARY_DIRECTORY))
+
+
+def _version(indent):
+    PROGRAM.message(indent + config.VERSION)
+
+
+if __name__ == '__main__':
+    PROGRAM.start()

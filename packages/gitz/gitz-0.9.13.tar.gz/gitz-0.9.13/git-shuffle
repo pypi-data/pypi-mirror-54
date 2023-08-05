@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+from gitz import combine
+from gitz import git_functions
+from gitz import git_root
+from gitz.program import PROGRAM
+from gitz.runner import GIT
+
+SUMMARY = 'Reorder and delete commits in the current branch'
+
+DANGER = 'Rewrites history!'
+
+HELP = """
+Shuffles the commits in the current branch, perhaps deleting some.
+
+The single argument is a pattern where underscores mean commits to be
+deleted, and alphabetic characters mean commits to be shuffled.
+
+For example, ``git shuffle ba`` switches the first and second most
+recent commits, ``git shuffle cba`` swaps the first and third
+commits, ``git shuffle cab`` pops the third commit to be the most
+recent, top commit on the branch.
+
+``git shuffle _ba`` deletes the most recent commit and then swaps
+the next two; and ``git shuffle _a_b_c`` deletes the most recent, the
+third most recent and the fifth most recent commit from the branch.
+
+If omitted, the default pattern is ``ba``.  Only the order of the
+letters matter so ``cba``, ``ZYX`` and ``zma`` mean the same thing."""
+
+EXAMPLES = """
+git shuffle
+git shuffle ba
+git shuffle YX
+git shuffle 10
+git shuffle 21
+    Switches the first and second most recent commits
+
+git shuffle ab
+git shuffle abc
+git shuffle ADE
+git shuffle 01
+git shuffle 12
+    Do nothing
+
+git shuffle 312
+git shuffle cab
+git shuffle zxy
+    Cycles the three most recent commits so the third one is first
+
+git shuffle __cba_
+    Deletes the most recent two commeits, reverses the next three, and
+    deletes the sixth.
+
+git shuffle __cba_ -s "My message"
+git shuffle __cba_ --squash="My message"
+    Same as the previous command, but squashes the three commits into
+    one with the commit message "My message"
+"""
+
+
+def git_shuffle():
+    def commit_messages(names):
+        return [git_functions.commit_message(name) for name in names]
+
+    git_root.check_clean_workspace()
+    squash = PROGRAM.args.squash
+    shuffle, unchanged = combine.shuffle(PROGRAM.args.shuffle, squash)
+    if not shuffle:
+        PROGRAM.message('No change')
+        return
+
+    deleted = sorted(set(range(max(shuffle))) - set(shuffle))
+    deleted = commit_messages(deleted)
+    if squash:
+        squashed = commit_messages(shuffle[:-1])
+
+    base, *shuffle = git_functions.commit_ids(reversed(shuffle))
+    GIT.reset('--hard', base)
+    combine.combine(shuffle, PROGRAM.args.squash)
+
+    def report(name, items):
+        if items:
+            s = '' if len(items) == 1 else 's'
+            PROGRAM.message(len(items), 'commit%s %s' % (s, name))
+            for i in items:
+                PROGRAM.message(' ', i)
+
+    report('deleted', deleted)
+    if squash:
+        report('squashed', squashed)
+        if squashed:
+            PROGRAM.message('->')
+            PROGRAM.message(' ', git_functions.commit_message())
+    else:
+        shuffled = commit_messages(range(len(shuffle) - 1))
+        report('shuffled', shuffled)
+
+
+def add_arguments(parser):
+    add_arg = parser.add_argument
+    add_arg('shuffle', default='ba', nargs='?', help=_HELP_SHUFFLE)
+    combine.add_arguments(parser)
+
+
+_HELP_SHUFFLE = 'Pattern string to shuffle (defaults to "ba")'
+
+if __name__ == '__main__':
+    PROGRAM.start()

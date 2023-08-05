@@ -1,0 +1,120 @@
+#!/usr/bin/env python3
+from gitz import git_functions
+from gitz import git_root
+from gitz import reference_branch
+from gitz.env import ENV
+from gitz.program import PROGRAM
+from gitz.runner import GIT
+import os
+
+SUMMARY = 'Update branches from a reference branch'
+
+DANGER = 'Rewrites history!'
+
+HELP = """
+``git update`` goes to each branch in turn, then tries to update it
+the reference branch by pulling with --rebase.
+
+If the rebase fails with a conflict, then ``git update`` aborts the
+rebase and returns that branch to its previous condition.
+
+If the rebase succeeds, ``git update`` force-pushes the result.
+"""
+
+EXAMPLES = """
+git update
+    Updates all branches
+
+git update foo bar
+    Only updates branches foo and bar
+"""
+
+
+def git_update():
+    git_root.check_clean_workspace()
+    os.chdir(git_root.git_root())
+    # The current directory might not be there in a different branch! (#115)
+
+    args = PROGRAM.args
+    local_branches = git_functions.branches()
+    missing = set(args.branches).difference(local_branches)
+    if PROGRAM.error_if(missing, 'Missing'):
+        PROGRAM.exit()
+
+    protected_branches = ENV.protected_branches()
+    protected = set(args.branches).intersection(protected_branches)
+    if PROGRAM.error_if(protected, 'Protected'):
+        PROGRAM.exit()
+
+    branches = args.branches or local_branches
+    branches = [b for b in branches if b not in protected_branches]
+
+    if not branches:
+        PROGRAM.message('No branches to update')
+        return
+
+    starting_branch = git_functions.branch_name()
+    failed = False
+
+    ref_branch = reference_branch.reference_branch()
+    fetched = set()
+
+    for branch in branches:
+        try:
+            _update(branch, ref_branch, fetched)
+        except Exception:
+            PROGRAM.error('?', branch)
+            import traceback
+
+            traceback.print_exc()
+            failed = True
+
+    GIT.checkout(starting_branch, quiet=True)
+
+    if failed:
+        PROGRAM.exit()
+
+
+def _update(branch, ref_branch, fetched):
+    GIT.checkout(branch, quiet=True)
+    cid = git_functions.commit_id()
+    try:
+        GIT.pull('--rebase', *ref_branch, merged=True, quiet=True)
+    except Exception:
+        GIT.rebase('--abort', quiet=True)
+        raise
+
+    new_cid = git_functions.commit_id()
+    upstream = git_functions.upstream_remote()
+    if upstream not in fetched:
+        git_functions.fetch(upstream)
+        fetched.add(upstream)
+
+    ubranch = '%s/%s' % (upstream, branch)
+    upstream_cid = git_functions.commit_id(ubranch)
+
+    if new_cid == cid:
+        PROGRAM.message('.', branch)
+    else:
+        PROGRAM.message('* %s..%s %s' % (cid, new_cid, branch))
+
+    if upstream_cid == new_cid:
+        PROGRAM.message('.', ubranch)
+    else:
+        GIT.push('--force-with-lease', quiet=True)
+        PROGRAM.message('* %s..%s %s' % (upstream_cid, new_cid, ubranch))
+
+
+def add_arguments(parser):
+    parser.add_argument('branches', nargs='?', default='', help=_HELP_BRANCHES)
+    parser.add_argument('-f', '--force', action='store_true', help=_HELP_FORCE)
+    reference_branch.add_arguments(parser)
+
+
+_ERROR_PUSH = 'Skipping {branch} which differed from {upstream}'
+_HELP_FORCE = 'Force push over non-matching remote branches'
+_HELP_BRANCHES = 'A list of branches to update - default is all branches'
+
+
+if __name__ == '__main__':
+    PROGRAM.start()
