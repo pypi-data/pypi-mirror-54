@@ -1,0 +1,9 @@
+twittenizer/__init__.py,sha256=92levo0Dov3f4eqbw_awTyy7Sa9Juz9Is1OTDlIVKrk,21
+twittenizer/converter.py,sha256=44dOO274xoHOEucODV9IyJudIN71WEqoiWqvnYqUaMA,6110
+twittenizer/mongo_mng.py,sha256=AJEDN3yloGkDmiuiQ6Gnl0m_yUtmz_DcRLogksPhhTY,1838
+twittenizer/tokenizer.py,sha256=IzAUZv7834QZIi4ctW8zX8m2zUau62Psw3o2SjiDBl0,4100
+twittenizer-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+twittenizer-0.0.1.dist-info/METADATA,sha256=yaRf8ZqDM5AVdZybKnSDfo26sdiTts0wAXzebplTEf4,713
+twittenizer-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+twittenizer-0.0.1.dist-info/top_level.txt,sha256=4P1MwQ6ogA1eF6w5kD59Ax9DhH5vvgg2tTVwwIv2BiU,12
+twittenizer-0.0.1.dist-info/RECORD,,
