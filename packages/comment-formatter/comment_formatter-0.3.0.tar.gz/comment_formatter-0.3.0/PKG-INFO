@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: comment-formatter
+Version: 0.3.0
+Summary: Formats comment blocks
+Home-page: https://github.com/AlexPadron/comment_formatter
+Author: AlexPadron
+Author-email: alexander.f.padron@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
