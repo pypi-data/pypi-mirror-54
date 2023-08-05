@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ioos-tools
+Version: 1.4.0
+Summary: Misc functions for IOOS notebooks
+Home-page: https://github.com/pyoceans/ioos_tools/
+Author: ['Rich Signell', 'Filipe Fernandes']
+Author-email: ocefpaf@gmail.com
+License: BSD-3-Clause
+Description: # IOOS/SECOORA utilities functions
+        
+        [![PyPI](https://img.shields.io/pypi/v/ioos_tools.svg?style=plastic)](https://pypi.python.org/pypi/ioos_tools) [![Build Status](https://travis-ci.com/pyoceans/ioos_tools.svg?branch=master)](https://travis-ci.com/pyoceans/ioos_tools) [![DOI](https://zenodo.org/badge/100956238.svg)](https://zenodo.org/badge/latestdoi/100956238)
+        
+        
+        A collection of misc functions used in IOOS Data Demo Center [notebooks examples](https://ioos.github.io/notebooks_demos/).
+Keywords: oceanography,data analysis,IOOS
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: testing
