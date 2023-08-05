@@ -1,0 +1,16 @@
+tdub/__init__.py,sha256=ybYbEp6FRGifKKUiQxcYflWdN3Msdh6CLIWNgpfqI-I,695
+tdub/__main__.py,sha256=lPccx7k8ON1DQ2BnLkWIplNqra6NUb-v7n9AgjaJ2m8,140
+tdub/_app.py,sha256=Dj8I-tNfwz41rNTq4gYF2tp2M_l2TJwvUwh4RsA_b28,6883
+tdub/_art.py,sha256=34qFV8EjAIQ2jZ4DEF5go2Okf909vGOB9_6ftp-fSbE,4750
+tdub/apply.py,sha256=MbOTKQsne-Q5g1ekA5rzoxSKC9GfVJTULngU3gaJyoQ,7659
+tdub/frames.py,sha256=6u1W56px9owNUFAIsERSwmJIDnsqUTVC8RNReAzLr5w,20430
+tdub/raw_art.py,sha256=CizUN3jFH-CuQH7wU50wshmoUKCQAKvPYF0S4LxzHmQ,7166
+tdub/rex_art.py,sha256=YbhJDn8X8gLXAMvOSogjB8txYjSrBHGz0LfsM9LQTBk,19909
+tdub/train.py,sha256=bOvTieIky5pxnbVgy6XhUf3jvzbQrfOI05zTfAT7Z68,22227
+tdub/utils.py,sha256=2qmN_HAzCXzqaVrC97Qd04fLzi6S95n-qO8QQVycZts,14976
+tdub-0.0.1.dev9.dist-info/LICENSE,sha256=VBEtZbuNT6EHwsOwJn0cxCZp2uX-ibTA85p1s6GodeA,1518
+tdub-0.0.1.dev9.dist-info/METADATA,sha256=HP6qr06TSIx5NDL4x8eGdnW3s9BJaPcsbAanpR8eTpE,2324
+tdub-0.0.1.dev9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tdub-0.0.1.dev9.dist-info/entry_points.txt,sha256=e9qiIYohV58p4kaqKMGbrM3zYPJ-hfhH2jQB3R_csdQ,40
+tdub-0.0.1.dev9.dist-info/top_level.txt,sha256=-N43Imx-kPq7FrrzZj2BalQ9wFxvO7Ijjf8LaHaxU2w,5
+tdub-0.0.1.dev9.dist-info/RECORD,,
