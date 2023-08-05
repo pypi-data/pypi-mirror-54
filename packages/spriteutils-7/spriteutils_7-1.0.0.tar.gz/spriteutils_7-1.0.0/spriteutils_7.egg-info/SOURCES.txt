@@ -1,0 +1,9 @@
+README.md
+setup.py
+spriteutils_7/__init__.py
+spriteutils_7/spriteutil.py
+spriteutils_7.egg-info/PKG-INFO
+spriteutils_7.egg-info/SOURCES.txt
+spriteutils_7.egg-info/dependency_links.txt
+spriteutils_7.egg-info/requires.txt
+spriteutils_7.egg-info/top_level.txt
