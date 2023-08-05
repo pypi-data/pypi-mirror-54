@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <title>NearBeach Login Screen</title>
+
+    <!--
+    Bootstrap and jquery are utilised throughout ALL of NearBeach
+    -->
+    {% load staticfiles %}
+    <script src="{% static 'NearBeach/widgets/jquery/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'NearBeach/widgets/bootstrap/js/bootstrap.bundle.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'NearBeach/widgets/bootstrap/css/bootstrap.css' %}" />
+    <link rel="stylesheet" href="{% static 'NearBeach/css/NearBeach_CSS.css' %}" />
+    <style>
+        .bg-image {
+            background-image: url('{% static background_image %}');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        }
+
+        .align-center {
+            align-self: center;
+        }
+
+        .login-heading {
+            font-weight: 300;
+            color: white;
+            text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        }
+
+        label {
+            color: white;
+            text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        }
+
+        a {
+            color: white;
+            text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        }
+    </style>
+
+    <script>
+        function on_page_load() {
+            if (!!window.MSInputMethodContext && !!document.documentMode) {
+                var elem = document.getElementById("unsupported_browser");
+                elem.innerHTML = '<div class="alert alert-danger"><h1>BROWSER NOT SUPPORTED!!</h1>' +
+                    '<p>We are sorry, but we can not support the Internet Explorer browser. We recommend using the following browsers' +
+                    '<ul><li>Mozilla Firefox</li>' +
+                    '<li>Google Chrome</li>' +
+                    '<li>Safari</li></ul>' +
+                    'Some of the effects are will not work - for example the missing background image for this page</p>' +
+                    '</div>';
+
+            }
+        }
+    </script>
+</head>
+<body onload="on_page_load()">
+<div class="container-fluid">
+    <div class="row no-gutter bg-image">
+        <div class="col-md-8  col-lg-6 align-center" id="unsupported_browser"></div>
+        <div class="col-md-8 col-lg-6 align-center">
+            <h3 class="login-heading">NearBeach</h3>
+            <form action="{%  url 'login' %}" method="post" id="login-form">
+                {% csrf_token %}
+
+                <!--If there are any login errors. Show them here-->
+                {% if login_form.non_field_errors %}
+                    {% for error in login_form.non_field_errors %}
+                        <div class="alert alert-danger" role="alert">
+                            {{ error }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+
+                <!-- LOGIN form -->
+                <div class="form-label-group">
+                    <label for="id_username">Username</label>
+                    {{ login_form.username }}
+                </div>
+
+                <div class="form-label-group">
+                    <label for="id_password">Password</label>
+                    {{ login_form.password }}
+                </div>
+
+                {% if not RECAPTCHA_SITE_KEY == '' %}
+                    <div class="form-label-group">
+                        <script src="https://www.google.com/recaptcha/api.js" &render=explicit async defer></script>
+                        <div class="g-recaptcha" data-sitekey="{{ RECAPTCHA_PUBLIC_KEY }}"></div>
+                    </div>
+                {% endif %}
+
+                <button class="btn btn-lg btn-primary btn-block btn-login mt-4" type="submit">Login</button>
+
+                <div class="text-center">
+                    <a href="{% url 'password_reset' %}">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
