@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dbsplitsql
+Version: 0.0.6
+Summary: It will split all the table and views of a schema in a file, into its respective files
+Home-page: https://github.com/balagdivya/dbsplitsql
+Author: Divya Goteti
+Author-email: balagdivya@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: argparse
+
+UNKNOWN
+
+
