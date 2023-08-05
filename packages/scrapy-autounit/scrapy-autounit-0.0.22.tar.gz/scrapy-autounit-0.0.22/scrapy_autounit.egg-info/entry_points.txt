@@ -1,0 +1,3 @@
+[console_scripts]
+autounit-inspect = scrapy_autounit.inspect:main
+
