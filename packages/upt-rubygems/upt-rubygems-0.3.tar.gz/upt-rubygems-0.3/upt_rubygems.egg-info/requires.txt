@@ -1,0 +1,6 @@
+requests
+semver
+upt>=0.8
+
+[test]
+requests_mock

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: upt-rubygems
+Version: 0.3
+Summary: RubyGems frontend for upt
+Home-page: https://framagit.org/upt/upt-rubygems
+Author: Cyril Roelandt
+Author-email: tipecaml@gmail.com
+License: UNKNOWN
+Description: # Universal Packaging Tool: RubyGems frontend
+        This is a [RubyGems](https://rubygems.org/) frontend for [upt](https://pypi.python.org/pypi/upt).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test

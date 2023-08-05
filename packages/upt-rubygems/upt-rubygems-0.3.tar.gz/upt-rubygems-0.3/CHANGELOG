@@ -1,0 +1,23 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+Based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
+
+## [0.3] - 2019-10-22
+### Added
+- Add support for parsing a specific version of a package
+
+## [0.2] - 2019-06-15
+### Added
+- The gem file is now returned as part of the archives
+
+## [0.1.1] - 2018-03-09
+### Fixed
+- Fix typo in README.md
+
+## [0.1] - 2018-03-09
+### Added
+- Initial RubyGems frontend
+- Handle runtime/test requirements
+- Handle the twiddle-wakka operator (~>) in requirements specifiers
+- Depend on semver
