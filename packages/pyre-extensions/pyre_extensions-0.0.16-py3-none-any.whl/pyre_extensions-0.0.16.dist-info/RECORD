@@ -1,0 +1,10 @@
+pyre_extensions/__init__.py,sha256=gUxw3OlUUsc3IaOqorPAld8p4GTH8HYdeFlbEOYbY24,2678
+pyre_extensions/safe_json.py,sha256=ERDPX91A-8MNAjIUVOwAS8weX8km98tqEDlaPXDvMUM,2713
+pyre_extensions/type_variable_operators.py,sha256=h4w2HPgncstlK8c24GFbJbaGnfVxXpkAV1oo5aSztk0,327
+pyre_extensions/tests/__init__.py,sha256=_Q0l67dHfTpeAjHAXFfcMTrwmzwZfYw4zrm1c26jQAo,40
+pyre_extensions/tests/simple_tests.py,sha256=yviDFcZVhKdh8iNY-UeWfNys2oVQOlSFXPyx8Tziy6c,2379
+pyre_extensions-0.0.16.dist-info/LICENSE,sha256=9lf5nT-5ZH25JijpYAequ0bl8E8z5JmZB1qrjiUMp84,1080
+pyre_extensions-0.0.16.dist-info/METADATA,sha256=0Q9gSfC9D5DSPukPI6FQCzhKCu07BeMqu8VrFUkkDUA,2332
+pyre_extensions-0.0.16.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyre_extensions-0.0.16.dist-info/top_level.txt,sha256=0uoqHb2Kcyjnqdyz9R9fbixc5wtIIepi8ZecAfyjtww,16
+pyre_extensions-0.0.16.dist-info/RECORD,,
