@@ -1,0 +1,6 @@
+prompt-toolkit==2.0.5
+python-vlc==3.0.102
+pyradios==0.0.17
+notify-send==0.0.13
+pygments==2.4.2
+streamscrobbler3==0.0.4
