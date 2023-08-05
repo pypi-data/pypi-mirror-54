@@ -1,0 +1,10 @@
+digitalarchive/__init__.py,sha256=qjhQgrPSwREuqQbVd8Hm5pRk65pRoSwjIwf9g1b3WMo,410
+digitalarchive/api.py,sha256=_Y_o1g5RMS72QbhaqjkjYOfy5c0jbsZV9gIrIrIU2og,3700
+digitalarchive/exceptions.py,sha256=UIAYk0HknY7yXQJcznVC_-UChaAeuOgIRBgZvVY6r2A,369
+digitalarchive/matching.py,sha256=_gtKDEkwtA209IDGpP5khbv9Zx60fQu1wBCWWdW_L4I,3428
+digitalarchive/models.py,sha256=b4BJTfhJPulgrkCIeC2XrsOUDwmxq_Dt2UggGdYLrtI,9107
+digitalarchive-0.1.0.dist-info/LICENSE,sha256=NJDGSZ1kk1YgmqXCJ96dcgotTLJGS66xiA_edHbYCBs,1070
+digitalarchive-0.1.0.dist-info/METADATA,sha256=vCpFZsQg0uIdnSoJc-RXm6a2H5u9ho0VCLFuauExWFI,2730
+digitalarchive-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+digitalarchive-0.1.0.dist-info/top_level.txt,sha256=NNX7sLYW3xAoIxhHP7Q3vsQsv8W2lUxQnF1TABOyqx8,15
+digitalarchive-0.1.0.dist-info/RECORD,,
