@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: wasienv
+Version: 0.1.6
+Summary: wasienv is a C/C++ Compiler toolchain for WASI
+Home-page: https://github.com/wasienv-core/wasienv
+Author: Syrus Akbary
+Author-email: syrus@wasmer.io
+License: MIT
+Description: UNKNOWN
+Keywords: webassembly wasi wasienv wasmer
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
