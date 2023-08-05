@@ -1,0 +1,12 @@
+async_django_session/aiohttp.py,sha256=g03T7gsnKuxrgcrg7fqGjc69lfrxfeM38x8_eHG6dms,520
+async_django_session/asyncpg.py,sha256=hP3G96IHCnvIn4NlyyA0BYDcaPdrIqv1RtEHdaJj1B8,1504
+async_django_session/base_backend.py,sha256=bNENLzXzaXlJLSUFzgIQlPkQLjWnFAN0ElNe-vbihmM,623
+async_django_session/databases.py,sha256=0sxwmdJ_OkKF-zmhgNZADBGuohU4eVtU-Sqonq9WGsM,1530
+async_django_session/fastapi.py,sha256=C0Bzgkh4RI0McwHncJ0PRUEUe5TKBY8CcdsGZS3BuBo,127
+async_django_session/session.py,sha256=-_-BcUch89dIxc34sWcfnGn85Y-iLGiXX22S2duZ9fA,2207
+async_django_session/starlette.py,sha256=wSCR2rtyAWSzK31y8CEwsGrNeo6FJvKFuDLmj4C58eo,490
+async_django_session/utils.py,sha256=pkPQbr8V3NZZJBKvt9zGs4P1DK0if3hX1KK7YDOsdKc,389
+async_django_session-0.3.1.dist-info/METADATA,sha256=I92wQZb7cHdAiQ3gRdUXHZWMeyZK5Wr4cw-GUdZgaw0,5470
+async_django_session-0.3.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+async_django_session-0.3.1.dist-info/top_level.txt,sha256=bAX5g-4PywYG3r3S2ob6JQzwIU_gZaefw3yTHuMu2zk,21
+async_django_session-0.3.1.dist-info/RECORD,,
