@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: salscraper
+Version: 0.1.0
+Summary: A scarping tool
+Home-page: https://github.com/Saledddar/salscraper
+Author: saledddar
+Author-email: saledddar@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: scrape crawl
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
