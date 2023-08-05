@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: cert-session
+Version: 0.0.2
+Summary: 'requests' session that appends custom certificate authority
+Home-page: https://github.com/lsiden/cert_session
+Author: Lawrence Siden
+Author-email: lsiden@gmail.com
+License: UNKNOWN
+Description: # Cert Session
+        
+        ## Background
+        
+        http://westside-consulting.blogspot.com/2019/10/certsession.html
+        
+        ## Summary
+        
+        This package provides an object, **CertSession**,
+        based on [requests](https://github.com/psf/requests/blob/master/requests/sessions.py).session
+        that takes an alternate issuer certificate
+        or issuer certificates collection as its single argument.
+        Subsequent http requests made with this object will use both the given issuer certificate collection
+        as well as the certificate collection provided by **certifi**.
+        
+        ## Installation
+        
+            pip install cert_session
+        
+        ## Usage
+        
+            from certsession import Session
+            session = Session('/path/to/my-root-certificates.pem')
+            response = session.get('https://my-web-service/...')
+            assert response.status_code == 200
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

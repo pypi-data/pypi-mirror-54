@@ -1,0 +1,12 @@
+README.md
+setup.py
+cert_session/__init__.py
+cert_session.egg-info/PKG-INFO
+cert_session.egg-info/SOURCES.txt
+cert_session.egg-info/dependency_links.txt
+cert_session.egg-info/requires.txt
+cert_session.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_cert_session.py
+tests/test_conf.py
