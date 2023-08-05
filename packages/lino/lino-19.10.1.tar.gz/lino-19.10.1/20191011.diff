@@ -1,0 +1,141 @@
+diff --git a/lino/modlib/comments/fixtures/demo2.py b/lino/modlib/comments/fixtures/demo2.py
+index 0f61315bc..520f09407 100644
+--- a/lino/modlib/comments/fixtures/demo2.py
++++ b/lino/modlib/comments/fixtures/demo2.py
+@@ -11,6 +11,7 @@ from lino.utils import Cycler
+ from lino.api import rt, dd
+ from django.conf import settings
+ from django.utils.timezone import make_aware
++from lino.modlib.comments.mixins import Commentable
+ 
+ styled = """<h1 style="color: #5e9ca0;">Styled comment <span style="color: #2b2301;">pasted from word!</span> </h1>"""
+ table = """<table class="editorDemoTable"><thead>
+@@ -29,32 +30,30 @@ plain2 = "Two paragraphs of plain text.\n\nThe second paragraph."
+ 
+ 
+ def objects():
+-    TXT = Cycler([styled, table, lorem, short_lorem, breaking, cond_comment,
+-                  plain1, plain2])
+-
+-    if not dd.is_installed('tickets'):
+-        return
+-    OWNERS = Cycler(rt.models.tickets.Ticket.objects.all())
+-    if len(OWNERS) == 0:
+-        return
+     Comment = rt.models.comments.Comment
+     User = rt.models.users.User
+-
+     Comment.auto_touch = False
+-    now = datetime.datetime.combine(dd.today(-30), i2t(822))
+-    if settings.USE_TZ:
+-        now = make_aware(now)
+-    DELTA = datetime.timedelta(minutes=34)
+-
+-    for i in range(12):
+-        for u in User.objects.all():
+-            owner = OWNERS.pop()
+-            if owner.private:
+-                txt = "<p>Very confidential comment</p>"
+-            else:
+-                txt = TXT.pop()# txt = "Hackerish comment"
+-            obj = Comment(user=u, owner=owner, body=txt)
+-            obj.before_ui_save(None)
+-            obj.modified = now
+-            yield obj
+-            now += DELTA
++    TXT = Cycler([styled, table, lorem, short_lorem, breaking, cond_comment,
++                  plain1, plain2])
++    for model in rt.models_by_base(Commentable):
++        OWNERS = Cycler(model.objects.all())
++        if len(OWNERS) == 0:
++            return
++
++        now = datetime.datetime.combine(dd.today(-30), i2t(822))
++        if settings.USE_TZ:
++            now = make_aware(now)
++        DELTA = datetime.timedelta(minutes=34)
++
++        for i in range(12):
++            for u in User.objects.all():
++                owner = OWNERS.pop()
++                if owner.private:
++                    txt = "<p>Very confidential comment</p>"
++                else:
++                    txt = TXT.pop()# txt = "Hackerish comment"
++                obj = Comment(user=u, owner=owner, body=txt)
++                obj.before_ui_save(None)
++                obj.modified = now
++                yield obj
++                now += DELTA
+diff --git a/lino/modlib/comments/mixins.py b/lino/modlib/comments/mixins.py
+index 6bb5fc9e4..9e48e09dd 100644
+--- a/lino/modlib/comments/mixins.py
++++ b/lino/modlib/comments/mixins.py
+@@ -1,5 +1,5 @@
+ # -*- coding: UTF-8 -*-
+-# Copyright 2015-2018 Rumma & Ko Ltd
++# Copyright 2015-2019 Rumma & Ko Ltd
+ # License: BSD (see file COPYING for details)
+ 
+ from builtins import object
+@@ -14,11 +14,12 @@ class Commentable(dd.Model):
+         abstract = True
+ 
+     private = models.BooleanField(_("Private"), default=False)
+-    
++
+     def on_commented(self, comment, ar, cw):
+         pass
+-    
++
+     def get_rfc_description(self, ar):
+         return ''
+ 
+-        
++    def get_comment_group(self):
++        return None
+diff --git a/lino/modlib/comments/ui.py b/lino/modlib/comments/ui.py
+index 8d23f5414..c62346530 100644
+--- a/lino/modlib/comments/ui.py
++++ b/lino/modlib/comments/ui.py
+@@ -171,7 +171,7 @@ class RecentComments(Comments):
+         return kw
+ 
+     @classmethod
+-    def get_table_summary(cls, obj, ar):
++    def unused_get_table_summary(cls, obj, ar):
+         sar = cls.request_from(
+             ar, master_instance=obj, limit=cls.preview_limit)
+ 
+@@ -195,7 +195,7 @@ class RecentComments(Comments):
+ 
+     @classmethod
+     def get_table_summary(cls, obj, ar):
+-        print("20190926 get_table_summary", ar.request)
++        # print("20190926 get_table_summary", ar.request)
+         sar = cls.request_from(
+             ar, master_instance=obj, limit=cls.preview_limit)
+ 
+@@ -212,17 +212,18 @@ class RecentComments(Comments):
+                 t = _("Modified " + o.modified.strftime('%Y-%m-%d %H:%M') )
+ 
+             items = [ar.obj2html(o, naturaltime(o.created), title=t)]
+-
++            items += [" by ", ar.obj2html(o.user, o.user.username)]
+             if o.owner_id:
+-                items += [" by ", ar.obj2html(o.user, o.user.username)]
+-                items += ["@", ar.obj2html(o.owner.site, o.owner.site.ref)]
++                group = o.owner.get_comment_group()
++                if group is not None:
++                    items += ["@", ar.obj2html(group, group.ref)]
+                 # items += [" about ", ar.obj2html(o.owner)]
+                 items += [" about ", o.owner.obj2href(ar)]
+             try:
+                 # el = etree.fromstring(o.short_preview, parser=html_parser)
+                 el = lxml.html.fragments_fromstring(o.short_preview) #, parser=cls.html_parser)
+                 # el = etree.fromstring("<div>{}</div>".format(o.full_preview), parser=cls.html_parser)
+-                print(20190926, tostring(el))
++                # print(20190926, tostring(el))
+             except Exception as e:
+                 el = [o.short_preview]
+                 # print(20190926, o.full_preview)
