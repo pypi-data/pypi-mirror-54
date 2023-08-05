@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: funcgen
+Version: 0.0.1
+Summary: A small module for generating sets of function signatures and corresponding function objects.
+Home-page: UNKNOWN
+Author: Conrad Bailey
+Author-email: conrad@cbailey.tech
+License: MIT
+Project-URL: Documentation, https://funcgen.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/ConradBailey/funcgen
+Description: Funcgen
+        =======
+        
+        A small module for generating sets of function signatures and
+        corresponding function objects.
+        
+        * `Documentation <https://funcgen.readthedocs.io/en/latest/>`_
+        * `Source <https://github.com/ConradBailey/funcgen>`_
+        * `PyPi Package <https://pypi.org/project/funcgen/>`_
+        
+        Installation
+        ------------
+        ``funcgen`` requires ``Python >= 3.6`` because it relies on modern type annotations.
+        ::
+        
+           pip install funcgen
+        
+        Example
+        -------
+        
+        >>> import funcgen
+        >>>
+        >>> def wrapper(present):
+        ...     log(f'Wrapped {present.__name__}')
+        ...     return present
+        ...
+        >>> def test_wrapper():
+        ...     for funcs in funcgen.all_valid_functions():
+        ...         assert all(wrapper(f) == f for f in funcs)
+        ...
+        >>> test_wrapper()
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: docs

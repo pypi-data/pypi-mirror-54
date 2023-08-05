@@ -1,0 +1,10 @@
+README.rst
+setup.py
+funcgen/__init__.py
+funcgen/__version__.py
+funcgen/main.py
+funcgen.egg-info/PKG-INFO
+funcgen.egg-info/SOURCES.txt
+funcgen.egg-info/dependency_links.txt
+funcgen.egg-info/requires.txt
+funcgen.egg-info/top_level.txt

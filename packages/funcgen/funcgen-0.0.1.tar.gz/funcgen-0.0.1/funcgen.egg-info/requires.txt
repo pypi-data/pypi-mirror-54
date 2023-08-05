@@ -1,0 +1,6 @@
+
+[dev]
+twine==2.0.0
+
+[docs]
+sphinx==2.2.0
