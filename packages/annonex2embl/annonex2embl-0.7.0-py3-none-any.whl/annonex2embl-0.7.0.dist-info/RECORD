@@ -1,0 +1,17 @@
+annonex2embl/Annonex2emblMain.py,sha256=BQCj83s_zllqe8n063UCqt-KGrIQR09CDsLoZLeiTfo,18118
+annonex2embl/CLIOps.py,sha256=bZghNVGjmbQ5GDmyPLHdt6dzqMFayOZ_w0CYkdrYpzo,7921
+annonex2embl/CheckingOps.py,sha256=3E2_jS0NaiTCYlH-svR2rAL-tqT1WKh_T4E_33ZEgrU,13926
+annonex2embl/DegappingOps.py,sha256=V6xikENxdtXy0PZvH1wZBhFdPAvGTCO_BW8x2TYWnUo,6549
+annonex2embl/GenerationOps.py,sha256=tupJKOtRkf1uThfG95uasKBpHOB2AMvD9Jczroub_m0,14356
+annonex2embl/GlobalVariables.py,sha256=xTOBoq1U-GQ8-bBGVpGVDm4JSdFh3tnXeoMcALpN1do,5148
+annonex2embl/IOOps.py,sha256=CYRdunJ1jx90N5G8RfdzNiF8qpKltd95E0X5TgVSP2w,5439
+annonex2embl/ParsingOps.py,sha256=-03QLyD8r03-lir_VRq0kAwq1Q_C8aHTSOseJtYi2FU,17509
+annonex2embl/__init__.py,sha256=vRFJ8Ywv32mDjIONqtt9KXvZ_TyaZf12RTT9Ncl7KOo,153
+annonex2embl-0.7.0.data/scripts/annonex2embl_launcher_CLI.py,sha256=Qxi0GInwMB4UPPtWLHFhoHK_yec7CPtv1SL9N7VMbmM,230
+annonex2embl-0.7.0.dist-info/AUTHORS,sha256=-Q7REgyligjDLoEVaGZUSgOdrEGQqlPjj-WeB6n2WqA,56
+annonex2embl-0.7.0.dist-info/LICENSE,sha256=XYOdOlPkxAW4NTWomFNX7VthJrQ53MK12YvETEMZFhM,1487
+annonex2embl-0.7.0.dist-info/METADATA,sha256=ZUKVE5OwQy-RaMRG2bbXjxMGNsR7OH4cMQ17FG9NBiY,5317
+annonex2embl-0.7.0.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+annonex2embl-0.7.0.dist-info/entry_points.txt,sha256=5qiUhVQSNQA8i2EsRc18LTusnkpIVoetw6AN_7duVcU,73
+annonex2embl-0.7.0.dist-info/top_level.txt,sha256=IU4v_OCVNxUrnSpsLVJyfsbohtonVLn2gABktDE5oxU,13
+annonex2embl-0.7.0.dist-info/RECORD,,
