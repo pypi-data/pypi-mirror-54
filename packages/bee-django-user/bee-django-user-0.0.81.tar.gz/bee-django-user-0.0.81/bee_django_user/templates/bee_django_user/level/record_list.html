@@ -1,0 +1,73 @@
+{% extends "bee_django_user/base.html" %}
+{% load bee_django_user_filter %}
+{% block nav %}
+    {% include 'bee_django_user/logo.html' %}
+    {% include 'bee_django_user/nav.html' %}
+{% endblock %}
+{% block content %}
+    <div class="text-center"><h3>
+        {% if user %}{{ user }}的{% endif %}升级列表
+    </h3>
+    </div>
+    {% if not user %}
+        {% include 'bee_django_user/level/record_search.html' %}
+    {% else %}
+        {% if not user.is_pause %}
+            {% if perms.bee_django_user.add_userleveluprecord %}
+                <div>
+                    <a href="{% url 'bee_django_user:level_record_add' user.id %}" class="btn btn-danger">添加</a>
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endif %}
+    <table class="table">
+        <thead>
+        <tr>
+            <th>学生姓名</th>
+            <th>添加时间</th>
+            <th>标题</th>
+            <th>状态</th>
+            <th></th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for record in record_list %}
+            <tr>
+                <td><a href="{% url 'bee_django_user:user_list' %}?id={{ record.user.id }}">{{ record.user }}</a>
+                    {#                    {% if record.user.id|get_icon %}#}
+                    {#                        <img src="{{ record.user.id|get_icon }}" alt="" style="height: 20px;">#}
+                    {#                    {% endif %}#}
+                </td>
+                <td>{{ record.created_at|date:"Y-m-d H:i" }}</td>
+                <td>{{ record.level.title }}</td>
+                <td>{{ record.get_status_str }}
+                    {% if record.status == -1 or record.status == 2 %}
+                        <a href="{% url 'bee_django_user:custom_level_record_apply' record.id %}" target="_blank">申请链接</a>
+                    {% endif %}
+                </td>
+                <td>
+                    <a href="{% url 'bee_django_user:level_record_detail' record.id %}"
+                       class="btn btn-default">详情</a>
+                    {% if not user.is_pause %}
+                        {% if perms.bee_django_user.change_userleveluprecord %}
+                            <a href="{% url 'bee_django_user:level_record_update' record.id %}"
+                               class="btn btn-default">操作</a>
+                        {% endif %}
+                    {% endif %}
+
+                </td>
+
+            </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+    {% include 'bee_django_user/paginator.html' %}
+{% endblock %}
+{% block scripts %}
+    <script>
+
+
+    </script>
+{% endblock %}
