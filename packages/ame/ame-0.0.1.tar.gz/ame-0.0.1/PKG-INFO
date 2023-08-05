@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ame
+Version: 0.0.1
+Summary: Biblioteca para análise matricial de estruturas planas pelo método dos deslocamentos.
+Home-page: https://github.com/lorranfoliveira/ame
+Author: Lorran Ferreira Oliveira
+Author-email: lorranfoliveira@gmail.com
+License: MIT
+Description: ame
+        ===
+        
+        Programa para anÃ¡lise matricial de estruturas baseado no mÃ©dodo dos deslocamentos.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
