@@ -1,0 +1,10 @@
+README.md
+setup.py
+func_argparse/__init__.py
+func_argparse/func_argparse_test.py
+func_argparse/py.typed
+func_argparse.egg-info/PKG-INFO
+func_argparse.egg-info/SOURCES.txt
+func_argparse.egg-info/dependency_links.txt
+func_argparse.egg-info/not-zip-safe
+func_argparse.egg-info/top_level.txt
