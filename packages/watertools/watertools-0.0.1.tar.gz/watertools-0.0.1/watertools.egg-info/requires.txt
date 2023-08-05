@@ -1,0 +1,4 @@
+numpy==1.17.2Pillow>=5.2.0
+httplib2>=0.11.3
+lxml>=4.2.4
+oauth2client>=4.1.2asn1crypto==1.2.0bcrypt==3.1.7beautifulsoup4==4.8.1certifi==2019.9.11cffi==1.13.0cftime==1.0.3.4chardet==3.0.4cryptography==2.7GDAL==3.0.1h5py==2.10.0idna==2.8joblib==0.14.0mkl-service==2.3.0netCDF4==1.5.1.2pandas==0.25.1paramiko==2.6.0pycparser==2.19pycurl==7.43.0.3PyNaCl==1.3.0pyOpenSSL==19.0.0pyproj==2.4.0pyreadline==2.1pyshp==2.1.0PySocks==1.7.1python-dateutil==2.8.0pytz==2019.3requests==2.22.0scipy==1.3.1six==1.12.0soupsieve==1.9.4urllib3==1.25.6win-inet-pton==1.1.0wincertstore==0.2
