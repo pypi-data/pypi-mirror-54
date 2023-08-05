@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: notmuch
+Version: 0.29.1
+Summary: Python binding of the notmuch mail search and indexing library.
+Home-page: https://github.com/weilbith/notmuch-bindings.git
+License: GPL-3.0
+Author: Sebastian Spaeth
+Author-email: Sebastian@SSpaeth.de
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Project-URL: Repository, https://github.com/weilbith/notmuch-bindings.git
