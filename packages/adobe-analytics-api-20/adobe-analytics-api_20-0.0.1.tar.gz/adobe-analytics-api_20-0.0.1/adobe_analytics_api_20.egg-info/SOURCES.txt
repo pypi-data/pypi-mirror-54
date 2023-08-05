@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+adobe_analytics.py
+authentication.py
+readme.md
+setup.cfg
+setup.py
+adobe_analytics_api_20.egg-info/PKG-INFO
+adobe_analytics_api_20.egg-info/SOURCES.txt
+adobe_analytics_api_20.egg-info/dependency_links.txt
+adobe_analytics_api_20.egg-info/top_level.txt
+lib/__init__.py
+lib/api_20.py
+lib/__pycache__/__init__.cpython-37.pyc
+lib/__pycache__/api_20.cpython-37.pyc
