@@ -1,0 +1,10 @@
+python_humble_utils/__init__.py,sha256=5kdEQX_FVNFtTFt_xSNaVKvRkoeq-gJFJHaFl9dkcRU,94
+python_humble_utils/classes.py,sha256=bUyK2dcVoJr1uzEO9yHZ1OTXlHQPKzWnRjfQafnYT2g,504
+python_humble_utils/filesystem.py,sha256=xAKpXkBizXUhqeU50tzr58HG1iDbQK5_2k-n1bdT00I,2812
+python_humble_utils/strings.py,sha256=epIO5GH85n7wqPfb_UZnf1WkApt0nZhyOvRgYFxL7xA,851
+python_humble_utils-3.0.1.dist-info/AUTHORS.rst,sha256=xXZerqc8aH4Ovb3POvlo-axadiq5qw89V0XXpG3MBVI,155
+python_humble_utils-3.0.1.dist-info/LICENSE,sha256=6FfD0y2f_MdiUhAzypod4XzPiV2TqvPeitZuwgY0bLE,1080
+python_humble_utils-3.0.1.dist-info/METADATA,sha256=D31UtIyE-6vNlmcxhX7yoya7FDQZmTKo5pHevQEP2N0,10100
+python_humble_utils-3.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+python_humble_utils-3.0.1.dist-info/top_level.txt,sha256=DYyFxpa_lHpMP7kc7mUR8u6u4egnuEelJIZ2bdHDwlg,20
+python_humble_utils-3.0.1.dist-info/RECORD,,
