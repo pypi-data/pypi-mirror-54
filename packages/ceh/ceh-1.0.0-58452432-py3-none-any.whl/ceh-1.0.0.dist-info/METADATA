@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ceh
+Version: 1.0.0
+Summary: ceh base package
+Home-page: https://pypi.org/project/ceh/
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# CEH
+
+
+
