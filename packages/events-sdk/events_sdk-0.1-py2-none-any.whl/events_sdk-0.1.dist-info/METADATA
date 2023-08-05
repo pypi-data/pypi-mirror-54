@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: events-sdk
+Version: 0.1
+Summary: This is a package with event pipeline and unittest setup
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto3 (==1.7.49)
+Requires-Dist: requests (==2.19.1)
+Requires-Dist: pytest (==3.6.0)
+Requires-Dist: pytest-timeout (==1.3.3)
+
+abc
+
+
