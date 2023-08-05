@@ -1,0 +1,6 @@
+[console_scripts]
+openEPhys_Configuration = openEPhys_DACQ.package_configuration:main
+openEPhys_CreateAxonaData = openEPhys_DACQ.createAxonaData:main
+openEPhys_Processing = openEPhys_DACQ.Processing:main
+openEPhys_RecordingManager = openEPhys_DACQ.RecordingManager:main
+
