@@ -1,0 +1,9 @@
+README.md
+pythonpy_clone.py
+setup.py
+pythonpy_clone.egg-info/PKG-INFO
+pythonpy_clone.egg-info/SOURCES.txt
+pythonpy_clone.egg-info/dependency_links.txt
+pythonpy_clone.egg-info/entry_points.txt
+pythonpy_clone.egg-info/requires.txt
+pythonpy_clone.egg-info/top_level.txt
