@@ -1,0 +1,4 @@
+[Project]
+CreatedFrom=qcp-staticlib.pro
+Manager=KDevQMakeManager
+Name=QCustomPlot2
