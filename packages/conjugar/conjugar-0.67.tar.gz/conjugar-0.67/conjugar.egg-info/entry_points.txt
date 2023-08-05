@@ -1,0 +1,4 @@
+[console_scripts]
+esconju = conjugar.bin.es_word_conjugar:main
+esverb = conjugar.bin.es_verb_list:main
+
