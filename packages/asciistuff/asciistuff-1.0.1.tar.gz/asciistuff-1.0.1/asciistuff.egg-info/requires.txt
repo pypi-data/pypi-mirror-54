@@ -1,0 +1,5 @@
+cowpy
+Pillow
+PyFiglet
+termcolor
+terminaltables
