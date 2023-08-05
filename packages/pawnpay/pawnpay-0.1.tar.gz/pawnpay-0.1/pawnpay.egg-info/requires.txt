@@ -1,0 +1,11 @@
+sentry_sdk
+loguru
+requests
+ratelimit
+sqlalchemy
+Cython
+pymssql
+pyodbc
+fuzzywuzzy
+python-Levenshtein-wheels
+yaspin
