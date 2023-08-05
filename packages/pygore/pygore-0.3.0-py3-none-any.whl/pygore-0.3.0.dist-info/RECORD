@@ -1,0 +1,13 @@
+pygore/__init__.py,sha256=hbOI4Os4Cp0Hfs-sPGIfotRQ8BZ1KMLnqOEmOBs1zKE,259
+pygore/internal.py,sha256=UjgNlT8rzap_FXgefsOX3t8zeKSp-_dVzO97l8_ywrQ,4283
+pygore/lib.py,sha256=_f53Iv0iOwN0qJXe1nCX0ffj7QD13zpTiVKUr4N5WjQ,13519
+pygore/libgore.dll,sha256=_lRv0ajtqxwmWlFAGLEVjDygZRwDPHIjXHQkhHRAzX8,2731008
+pygore/libgore.dylib,sha256=-5H6k1xpUvfbQNey8gdWR0lJnSKE1MStE7Jk-JxmbzU,2704520
+pygore/libgore.so,sha256=AtUTRo_5viTVdHDOlf6j6Tp56KpxOOVrD2xKP2RX-Gg,3274784
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_suite.py,sha256=JBRAxwCivR7EIVsGolknCRxJRtCC55qGyG-l8_qPeBo,1666
+pygore-0.3.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pygore-0.3.0.dist-info/METADATA,sha256=GY6fu3GnnQ0qsOSDGzxY66adsavE_OecWC5G9VQYTI4,1782
+pygore-0.3.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pygore-0.3.0.dist-info/top_level.txt,sha256=9bf6-EPBnJLqEP8j98efRKEQh9DL6WfKyDnca-ZnJqY,12
+pygore-0.3.0.dist-info/RECORD,,
