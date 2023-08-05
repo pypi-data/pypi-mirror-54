@@ -1,0 +1,11 @@
+.idea/*
+
+# pytest coverage
+.coverage
+htmlcov
+
+__pycache__
+/out/*
+dist/*
+build/*
+*egg-info/*
