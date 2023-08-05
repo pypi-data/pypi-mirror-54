@@ -1,0 +1,9 @@
+README.md
+setup.py
+88orm_service_connector.egg-info/PKG-INFO
+88orm_service_connector.egg-info/SOURCES.txt
+88orm_service_connector.egg-info/dependency_links.txt
+88orm_service_connector.egg-info/requires.txt
+88orm_service_connector.egg-info/top_level.txt
+orm_service_connector88/__init__.py
+orm_service_connector88/connector.py
