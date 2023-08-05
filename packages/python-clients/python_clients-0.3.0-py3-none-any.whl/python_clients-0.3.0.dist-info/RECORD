@@ -1,0 +1,7 @@
+clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clients/http.py,sha256=xU_fUvMW2MjOeieFtHZt_CL8rC7cV36BCtsoHKoqTxw,3346
+clients/mongo.py,sha256=L8AGhFYXJKjbVM3w6rz6wB1NI9UGQix0QTRjYX6bu10,3150
+python_clients-0.3.0.dist-info/METADATA,sha256=KsJxCAoXkojGgjb53oXpUYeMun48g9OOelym8I0oSss,846
+python_clients-0.3.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+python_clients-0.3.0.dist-info/top_level.txt,sha256=cjE5wDB-2IjyJUYjTOD2MoW7-wAEkGlLrAnAFy_RFOQ,8
+python_clients-0.3.0.dist-info/RECORD,,
