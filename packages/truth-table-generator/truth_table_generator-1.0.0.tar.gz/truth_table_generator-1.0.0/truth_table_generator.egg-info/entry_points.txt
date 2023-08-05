@@ -1,0 +1,3 @@
+[console_scripts]
+ttg_cli.py = truth_table.ttg_cli:clielement
+

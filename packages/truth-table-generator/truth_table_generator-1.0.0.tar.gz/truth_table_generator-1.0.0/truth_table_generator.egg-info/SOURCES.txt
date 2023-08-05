@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+truth_table_generator.egg-info/PKG-INFO
+truth_table_generator.egg-info/SOURCES.txt
+truth_table_generator.egg-info/dependency_links.txt
+truth_table_generator.egg-info/entry_points.txt
+truth_table_generator.egg-info/requires.txt
+truth_table_generator.egg-info/top_level.txt
+ttg/__init__.py
+ttg/ttg.py
+ttg/ttg_cli.py

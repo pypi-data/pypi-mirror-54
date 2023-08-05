@@ -1,0 +1,6 @@
+numpy
+pandas
+PTable
+pyparsing
+tabulate
+jinja2
