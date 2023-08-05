@@ -1,0 +1,7 @@
+digi-xbee
+ordered-set
+
+[dev]
+pytest>=5
+pylint
+autopep8
