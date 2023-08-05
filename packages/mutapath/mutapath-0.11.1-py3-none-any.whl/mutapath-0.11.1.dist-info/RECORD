@@ -1,0 +1,16 @@
+mutapath/__init__.py,sha256=flNytH79HmLEVCNu-vYkpdbYfXGUcXh1AOYm_FCsbGs,76
+mutapath/decorator.py,sha256=Z1TL9GD2CKqbX9qEZ-N3NTai-GlGWfLZeE8JcviqdG4,4829
+mutapath/exceptions.py,sha256=5K2yVrpCpwdwxiSefX58BRvgixY3ct-VKr4fWccdiho,139
+mutapath/immutapath.py,sha256=xlZiKT8eskluywSUgnkx54OshzHGldV2dG2cQHykFCY,17129
+mutapath/lock_dummy.py,sha256=BKIXUngSQ98rdtXZa_HSSftyZYSekk_Anj0Y8DaQUU0,329
+mutapath/mutapath.py,sha256=Fa5Q-ho-C6t1nYG7NsaNj7x2dfTKNjJ8TSpiuRCZvfU,1251
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/helper.py,sha256=TYhqYNdaTCwPYuzdFVg-WSWBzB5hXJ7_uHkYzOdgEI0,1849
+tests/test_immutapath.py,sha256=TfwQcTDijA3CKiLz_UQnlk0JFQ2capuUZ7hjBp_OdGY,9402
+tests/test_mutapath.py,sha256=DVUrJdysGgzu8XUrJ3KCGQ9urD4-2VQUg8sRszChCDE,6011
+tests/test_with_path.py,sha256=uJyfJcvKfRb1_6b_2Z8bUPjQmf4dmMnV2Ifj-VoT1Mc,7516
+mutapath-0.11.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+mutapath-0.11.1.dist-info/METADATA,sha256=rF8eN9O6BzhmwVXTrcRtWLkYBTbEoiY47uA8iAjYoVI,4380
+mutapath-0.11.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mutapath-0.11.1.dist-info/top_level.txt,sha256=CRSy5efOTT548LRLNB23pu859RnGd2IysN0ZdcRzqaA,15
+mutapath-0.11.1.dist-info/RECORD,,
