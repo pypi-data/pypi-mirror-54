@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gem5art-run
+Version: 0.1.1
+Summary: A collection of utilities for running gem5
+Home-page: https://github.com/darchr/gem5art
+Author: Davis Architecture Research Group (DArchR)
+Author-email: jlowepower@ucdavis.edu
+License: BSD
+Project-URL: Bug Reports, https://github.com/darchr/gem5art/issues
+Project-URL: Source, https://github.com/darchr/gem5art
+Project-URL: Documentation, https://gem5art.readthedocs.io/en/latest/
+Description: # gem5art: An artifact, reproducibility, and testing library for gem5
+        
+        
+        ## Directory structure
+        
+        The directory structure is a little strange so we can distribute each Python package separately.
+        However, they are all part of the gem5art namespace.
+        See the [Python namespace documentation](https://packaging.python.org/guides/packaging-namespace-packages/) for more details.
+        
+Keywords: simulation architecture gem5
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: System :: Hardware
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
