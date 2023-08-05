@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: guillotina-evolution
+Version: 1.0.0
+Summary:  
+Home-page: https://github.com/vinissimus/guillotina_evolution
+Author: Jordi Masip
+Author-email: jmasip@vinissimus.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test
