@@ -1,0 +1,7 @@
+pyqtgraph>=0.10.0
+numpy>1.6.0
+pyzmq
+scipy
+h5py
+pytz
+requests
