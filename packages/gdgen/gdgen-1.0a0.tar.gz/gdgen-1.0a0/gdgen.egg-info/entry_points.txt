@@ -1,0 +1,3 @@
+[console_scripts]
+gdgen = gdgen.cli:main
+
