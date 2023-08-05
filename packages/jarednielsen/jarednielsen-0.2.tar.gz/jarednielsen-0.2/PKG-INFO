@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: jarednielsen
+Version: 0.2
+Summary: Uploading my first package to PyPi
+Home-page: https://jaredtn.com
+Author: Jared Nielsen
+Author-email: jaredtnielsen@gmail.com
+License: MIT
+Download-URL: https://jaredtn.com
+Description: UNKNOWN
+Keywords: SOME,MEANINGFUL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
