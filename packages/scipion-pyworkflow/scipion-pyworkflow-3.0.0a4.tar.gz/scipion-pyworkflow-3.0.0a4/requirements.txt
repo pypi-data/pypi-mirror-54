@@ -1,0 +1,9 @@
+numpy
+psutil==2.1.1
+matplotlib
+pillow
+bibtexparser
+requests
+configparser
+python3-tk
+
