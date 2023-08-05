@@ -1,0 +1,14 @@
+README.md
+setup.py
+naughty_parrot/__init__.py
+naughty_parrot/bodygram_preprocessor.py
+naughty_parrot/preprocessor.py
+naughty_parrot.egg-info/PKG-INFO
+naughty_parrot.egg-info/SOURCES.txt
+naughty_parrot.egg-info/dependency_links.txt
+naughty_parrot.egg-info/requires.txt
+naughty_parrot.egg-info/top_level.txt
+naughty_parrot/calculation_recorder/__init__.py
+naughty_parrot/calculation_recorder/calculation_recorder.py
+naughty_parrot/encoder_decoder/__init__.py
+naughty_parrot/encoder_decoder/encoder_decoder.py
