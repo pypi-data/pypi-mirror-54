@@ -1,0 +1,5 @@
+aiohttp==3.5.4
+argparse
+tqdm
+browsercookie
+pycookiecheat
