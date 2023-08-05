@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.py
+treet/__init__.py
+treet/parse.py
+treet/reduce.py
+treet/traverse.py
+treet.egg-info/PKG-INFO
+treet.egg-info/SOURCES.txt
+treet.egg-info/dependency_links.txt
+treet.egg-info/requires.txt
+treet.egg-info/top_level.txt
