@@ -1,0 +1,13 @@
+OpenHowNet/Download.py,sha256=LVzx0lOBDccWet4CAoYrIlSLXkkejbKdWGyH8iVrQRo,1418
+OpenHowNet/SememeTreeParser.py,sha256=7PkQeHqaCHZ8ZxiaMgMar3FPe3jx3pY1uF8iEyKhu3M,2849
+OpenHowNet/Standards.py,sha256=Z0r0JdmAk87etT7XrZgJSzuanqtbVa1FiFTPvFE8am8,17105
+OpenHowNet/__init__.py,sha256=pSLb2JsH70IoxsZuYG0vo-iHh-LanGCks-0nN-P9BVY,173
+OpenHowNet/pack/__init__.py,sha256=cEXIjJtDhEf8lDRPYOaWLKEkwf0qaWdR-_Elb4SySRU,29
+OpenHowNet/pack/submit_user/__init__.py,sha256=rX67sruu-F2V7Rfu3M-OSQ0Lz5npqGK1QnqwjjoBjEs,42
+OpenHowNet/pack/submit_user/main.py,sha256=LUM6dwqcV_OZ7jw9Y_jMPLB4l-AyFcx3RvcXjzTnRII,9796
+OpenHowNet/pack/submit_user/util.py,sha256=DM8OAwGo98Z-jK-vpjAso7HCxSN2rLXBfHNr0jgpqGw,3074
+OpenHowNet-0.0.1a0.dist-info/LICENSE,sha256=5Lq1BHwaNs-XjtH7VkUxpzg8SyihTm2ifHc8X86MtJw,1063
+OpenHowNet-0.0.1a0.dist-info/METADATA,sha256=w0W9p6HyT2Ip-n5yXEIEQ9ePI8b-SzGhp8ulrG3Dvuc,19010
+OpenHowNet-0.0.1a0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+OpenHowNet-0.0.1a0.dist-info/top_level.txt,sha256=PyBJYzRipWPhTtbc369W4yw1bAxsRar8X5ikfjMlOnA,11
+OpenHowNet-0.0.1a0.dist-info/RECORD,,
