@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: falcontyping
+Version: 0.2.8
+Summary: Add type hints support to Falcon with Pydantic and Marshmallow integration
+Home-page: https://github.com/abdelrahman-t/falcontyping
+Author: Abdurrahman Talaat <abdurrahman.talaat@gmail.com>
+Author-email: abdurrahman.talaat@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/abdelrahman-t/falcontyping
+Description: # Falcon typing
+        
+        ### Use type hints to specify request parameters with Marshmallow and Pydantic support.
+        Uses [typedjson](https://github.com/mitsuse/typedjson-python)
+        
+        ### Example
+        ```
+        """API."""
+        from typing import Union
+        
+        from marshmallow import Schema as MarhmallowSchema
+        from marshmallow import fields
+        from pydantic import BaseModel as PydanticModel
+        
+        # Create API
+        from falcontyping import TypedAPI, TypedResource
+        API = TypedAPI()
+        
+        
+        class UserV1(MarhmallowSchema):
+        
+            username = fields.String()
+        
+        
+        class UserV2(PydanticModel):
+        
+            username: str
+        
+        
+        class UserResource(TypedResource):
+        
+            def on_post(self, request, response, user: Union[UserV1, UserV2]) -> Union[UserV1, UserV2]:
+                if isinstance(user, UserV1):
+                    return UserV1().load({'username': user.username})
+        
+                else:
+                    return UserV2(username=user.username)
+        
+        
+        class UserDetailsResource(TypedResource):
+        
+            def on_get(self, request, response, user_id: int) -> UserV2:
+                return UserV2(username='user')
+        
+        
+        API.add_route('/users', UserResource())
+        API.add_route('/users/{user_id}', UserDetailsResource())
+        ```
+        
+        ### How to install
+        `pip install falcontyping`
+        
+Keywords: falcon,typing,hints,mypy,pydantic,marshmallow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
