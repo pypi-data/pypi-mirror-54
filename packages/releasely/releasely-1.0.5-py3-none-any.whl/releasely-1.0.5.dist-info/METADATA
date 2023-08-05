@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: releasely
+Version: 1.0.5
+Summary: A one stop shop for python library release management.
+Home-page: https://github.com/huntcsg/releasely
+Author: Hunter Senft-Grupp
+Author-email: huntcsg@gmail.com
+License: MIT
+Keywords: releasemanagement continuousdelivery cd release git branch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: linting
+Requires-Dist: bumpversion
+Provides-Extra: linting
+Requires-Dist: isort; extra == 'linting'
+Requires-Dist: black; extra == 'linting'
+Provides-Extra: testing
+Requires-Dist: pytest; extra == 'testing'
+Requires-Dist: pytest-cov; extra == 'testing'
+
+# Welcome to Releasely
+
+#### A one stop shop for python library release management
+
+## Usage:
+
+Use this command to create a release specification file in the root of the repo. 
+```shell script
+releasely release-notes
+```
+
+Use this command to actually create and push branches
+```shell script
+releasely prepare-release
+```
+
+
