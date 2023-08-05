@@ -1,0 +1,13 @@
+PythonJsonEditorWindow/JsonEditorWindow.py,sha256=JBYWL8SjWGl4RQ9Op4y7L_GsyyuG9vzxICR_oACirZA,5486
+PythonJsonEditorWindow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PythonJsonEditorWindow/custom_event_handler.py,sha256=szh_5SPa-h3rDMqxpPeTQYYp2uvMWLnesN1EnLNXIQM,528
+PythonJsonEditorWindow/event_params.py,sha256=Vyb5w_zMu67qSvQZWeK8lGQVzuGdKorxN7Hqw8hcwdc,121
+PythonJsonEditorWindow/event_response.py,sha256=ekPI1AgB-pvLuiqFF6-93zGfPckmzRsRO_WAb6kk6pU,203
+PythonJsonEditorWindow/json_editor_window.py,sha256=8KPClDrKdSe0XdAqluuHBYknJ9zyFcVJHU6Br3v1TdA,3402
+PythonJsonEditorWindow/layout_addendum.py,sha256=q-5BKqEeasMFrQiCjr3wD7hlfR_2PAEurXa5ZW2wMtY,1441
+PythonJsonEditorWindow/utility.py,sha256=VZSmo3zqaX6Ik4a34q_ISB1ec97POnq1DLHKqYCq9PQ,123
+PythonJsonEditorWindow-0.0.4.dist-info/LICENSE,sha256=f0iPlxvheMfePRK5z8JdNyMJBRKAAwkdmInblyqo3io,1127
+PythonJsonEditorWindow-0.0.4.dist-info/METADATA,sha256=yBx92s0L2BP-tiSI98QhAfSed2sIHRLNcU7rO4xWw4Y,780
+PythonJsonEditorWindow-0.0.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+PythonJsonEditorWindow-0.0.4.dist-info/top_level.txt,sha256=IVp2QTalnv1EPpXWIpsC0v3CN-prF7M0k0TqCRodmDA,23
+PythonJsonEditorWindow-0.0.4.dist-info/RECORD,,
