@@ -1,0 +1,15 @@
+cloudview/__init__.py,sha256=w-xqf9JzfddtILRSoMVY_rTZQ2WT60bRfPN4qgS_qHY,86
+cloudview/amazon.py,sha256=CZ53a44wLw17LPUGPPuURewXZ-WNLVZtS5AkflpVsuI,2280
+cloudview/az.py,sha256=wDsCjkv6CDBW2tKbrok5L757FqlFHGDe_MUs7uDH8sY,5142
+cloudview/cloudview.py,sha256=3SL4rdfe8HPpTv0IdaY7qxwUbTP6BsyhA1-WVOSga3c,16375
+cloudview/exceptions.py,sha256=gQ-B8GtvgtHJNuJJM5cvFR461xt3jppPa9-ZGHSp8v4,1006
+cloudview/gcp.py,sha256=MMVuxCF0jnxp05lmEXsJnprn3fl5NNtoKqhUGpDxBh8,5847
+cloudview/openstack.py,sha256=UVnYuS8Q_ZbykXejQNnMSobKOmPiUxOPF69dRtGGuW4,2903
+cloudview/output.py,sha256=WX8ABr_-lyNMAhk6kd4Bgt6tY1vaHg_l2d-6DC0Ma1w,3470
+cloudview/singleton.py,sha256=YMIfHKnYfZ1ZQziQCYWWRa9skeseZ_99KqklRlpiD4Y,844
+cloudview-0.3.2.data/scripts/cloudview,sha256=0e1HNMSoKDnRSJWWzZtfhPlrlLgdmKIWCj_9aqw1yMc,216
+cloudview-0.3.2.dist-info/LICENSE,sha256=KpH14nTFtYph1rbWL2I7_MVkwGPOvlh7fiLUX9n_xJY,1071
+cloudview-0.3.2.dist-info/METADATA,sha256=rXkrDubgaCUM7SPuawfKfUhJCRMLi1w5-jeAACAJhSM,11154
+cloudview-0.3.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+cloudview-0.3.2.dist-info/top_level.txt,sha256=2vqlAOcia2E36cOdcA9ILgmCEfzWCYVb4-Fp4WKMU_g,10
+cloudview-0.3.2.dist-info/RECORD,,
