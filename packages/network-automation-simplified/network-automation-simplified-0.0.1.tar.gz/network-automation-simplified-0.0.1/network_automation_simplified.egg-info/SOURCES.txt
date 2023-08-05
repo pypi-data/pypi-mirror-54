@@ -1,0 +1,11 @@
+README.md
+setup.py
+network_automation_simplified.egg-info/PKG-INFO
+network_automation_simplified.egg-info/SOURCES.txt
+network_automation_simplified.egg-info/dependency_links.txt
+network_automation_simplified.egg-info/requires.txt
+network_automation_simplified.egg-info/top_level.txt
+src/nams/__init__.py
+src/nams/arguments.py
+src/nams/core.py
+src/nams/interface.py
