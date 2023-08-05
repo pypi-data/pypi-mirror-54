@@ -1,0 +1,8 @@
+README.md
+TwitterSync.py
+setup.py
+twitter_sync.egg-info/PKG-INFO
+twitter_sync.egg-info/SOURCES.txt
+twitter_sync.egg-info/dependency_links.txt
+twitter_sync.egg-info/requires.txt
+twitter_sync.egg-info/top_level.txt
