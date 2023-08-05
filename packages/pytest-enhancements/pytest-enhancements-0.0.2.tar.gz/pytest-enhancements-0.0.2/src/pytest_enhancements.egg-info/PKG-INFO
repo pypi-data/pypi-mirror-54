@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pytest-enhancements
+Version: 0.0.2
+Summary: Improvements for pytest (rejected upstream)
+Home-page: https://github.com/blueyed/pytest-enhancements
+Author: Daniel Hahler
+Maintainer: Daniel Hahler
+License: UNKNOWN
+Description: # pytest-enhancements
+        
+        Enhancements to pytest that were rejected upstream.
+        Might involve monkey-patching pytest directly.. :/
+        
+        ## Features
+        
+        - Supports passing dictionaries to [@pytest.mark.parametrize](https://docs.pytest.org/en/latest/reference.html#pytest-mark-parametrize-ref):
+        
+          ```python
+          @pytest.mark.parametrize('arg1,arg2,expected_id', {
+              "myid_12": [1, 2, "[myid_12]"],
+              "replaced_id": pytest.param(3, 4, "[replaced_id]", id="myid_34"),
+              "myid_56": pytest.param(5, 6, "[myid_56]"),
+          })
+          def test_parametrize_dict(request, arg1, arg2, expected_id):
+              if expected_id is None:
+                  expected_id = "[%d-%d-None]" % (arg1, arg2)
+              assert request.node.nodeid.endswith(expected_id)
+          ```
+          (rejected in https://github.com/pytest-dev/pytest/pull/5850)
+        
+        ## Installation
+        
+            $ pip install pytest-enhancements
+        
+        ## License
+        
+        Distributed under the terms of the
+        [GNU GPL v3.0](http://www.gnu.org/licenses/gpl-3.0.txt) license.
+Keywords: pytest plugin enhancements
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
