@@ -1,0 +1,6 @@
+email-validator
+fastapi
+pickledbod
+pyzfs
+setuptools
+uvicorn
