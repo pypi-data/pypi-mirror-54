@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: memoprop
+Version: 0.2.0
+Summary: Basic memoized properties for Python.
+Home-page: https://lewisacidic.github.io/memoprop
+Author: Rich Lewis
+Author-email: opensource@richlew.is
+License: MIT license
+Download-URL: https://github.com/lewisacidic/memoprop/releases
+Project-URL: Trackers, https://github.com/lewisacidic/memoprop/issues
+Project-URL: Source, https://github.com/lewisacidic/memoprop
+Project-URL: Documentation, https://lewisacidic.github.io/memoprop/docs
+Keywords: decorator,property,memoized
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: rope ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-black ; extra == 'dev'
+Requires-Dist: flake8-bandit ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: flake8-builtins ; extra == 'dev'
+Requires-Dist: flake8-mutable ; extra == 'dev'
+Requires-Dist: flake8-print ; extra == 'dev'
+Requires-Dist: pep8-naming ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: flake8-black ; extra == 'lint'
+Requires-Dist: flake8-bandit ; extra == 'lint'
+Requires-Dist: flake8-bugbear ; extra == 'lint'
+Requires-Dist: flake8-builtins ; extra == 'lint'
+Requires-Dist: flake8-mutable ; extra == 'lint'
+Requires-Dist: flake8-print ; extra == 'lint'
+Requires-Dist: pep8-naming ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# memoprop
+
+Basic memoized properties (properties which cache the result of their getter) for *Python*.
+
+## Quickstart/Installation
+
+```shell
+pip install memoprop
+```
+
+
+## Developing
+
+Create the conda environment:
+
+```shell
+conda env create -f envs/dev.yml
+conda activate memoprop-dev
+```
+
+
+Format code by running the pre-commit tasks:
+
+```shell
+pre-commit run --all
+```
+
+Run the tests with pytest:
+
+```shell
+pytest
+```
+
+
