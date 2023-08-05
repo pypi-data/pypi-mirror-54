@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: objutils
+Version: 0.1.1
+Summary: Objectfile library for Python
+Home-page: http://github.com/christoph2/objutils
+Author: Christoph Schueler
+Author-email: cpu12.gems@googlemail.com
+License: GPLv2
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides: objutils
+Provides-Extra: docs
+Provides-Extra: develop
