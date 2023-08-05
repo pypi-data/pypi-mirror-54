@@ -1,0 +1,16 @@
+publishing_boy/__init__.py,sha256=ua3ka_4RnWijSFMOUYqMsQ0EkqA21qx-aL5EU648sQ0,394
+publishing_boy/cli.py,sha256=liu4ssC4SOzAbezhYGfGtRDamNV6UEpA6Ug6wZJG3oE,561
+publishing_boy/plugins.py,sha256=oFq13ZmQxhnJi23p769f9qLYC2uUwGoChI91QXgBxgY,2297
+publishing_boy/process.py,sha256=yMU2dh1AH2j1qU8p6LJ8ZHvP8j85dKhot9xfP2ReiDQ,1289
+publishing_boy/publishing_boy.py,sha256=t2rf6klNoxWQhSDEmE27UJUc0fIRNMjkQFw4zV1k8n0,850
+publishing_boy/template.py,sha256=bgCSSD_ygJrc-MAfkrHWfLMNYzI_zid4mflhZ4M1A6k,236
+publishing_boy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+publishing_boy/tests/test_register_plugins.py,sha256=fYB0mJZwCXKxftPrv2_98LBMUBs-9fhHOWf7cxdiPcY,325
+publishing_boy/tests/utils.py,sha256=ms80E_2bUDNOBB2NPZZtJ871FGGqIgZneMWg5NkCm0s,688
+publishing_boy-0.1.4.dist-info/AUTHORS.rst,sha256=ulRz-6EjI4PCUSShW6pcSIbcqvpl-ekKx0CcI8-QWuQ,153
+publishing_boy-0.1.4.dist-info/LICENSE,sha256=mL1dlcLsC-1AZmN0ZG-IWsnkc4z6J2silFY2W_RxEq4,1062
+publishing_boy-0.1.4.dist-info/METADATA,sha256=vOLe4zsZ0sfQntAHf1FRWhhC4yEh9e9ae5sh6-KWnpM,2095
+publishing_boy-0.1.4.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+publishing_boy-0.1.4.dist-info/entry_points.txt,sha256=jERRyuNOyJvkaCMh_Be_GwdPRiPlBqf6XtRViEce_-k,60
+publishing_boy-0.1.4.dist-info/top_level.txt,sha256=wDEVAF2y24LC4hdUgFlWQg8KDB_P--8mQul-UYm8WqY,15
+publishing_boy-0.1.4.dist-info/RECORD,,
