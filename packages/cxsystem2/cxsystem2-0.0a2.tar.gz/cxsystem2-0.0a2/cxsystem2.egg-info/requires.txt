@@ -1,0 +1,10 @@
+brian2
+brian2genn
+django
+matplotlib
+pandas
+pytest
+paramiko
+numpy
+scipy
+scp
