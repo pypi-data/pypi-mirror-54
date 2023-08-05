@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+pygdb/__init__.py
+pygdb/_breakpoint.c
+pygdb/breakpoint.py
+pygdb.egg-info/PKG-INFO
+pygdb.egg-info/SOURCES.txt
+pygdb.egg-info/dependency_links.txt
+pygdb.egg-info/top_level.txt
+pygdb/console/__init__.py
+pygdb/console/commands.py
+pygdb/console/core.py
+pygdb/console/extensions.py

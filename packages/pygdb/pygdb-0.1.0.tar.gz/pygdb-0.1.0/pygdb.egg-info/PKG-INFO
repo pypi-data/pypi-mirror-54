@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: pygdb
+Version: 0.1.0
+Summary: Python extension for the GNU project debugger (GDB)
+Home-page: https://github.com/ucphhpc/pygdb
+Author: The pygdb Project lead by Brian Vinter
+Author-email: pygdb@erda.dk
+Maintainer: The pygdb maintainers
+Maintainer-email: pygdb@erda.dk
+License: GNU GPL v2
+Download-URL: https://github.com/ucphhpc/pygdb/releases
+Description: Python extension for the GNU project debugger (GDB):
+        https://www.gnu.org/software/gdb/
+        
+        Documentation: https://github.com/ucphhpc/pygdb
+        
+Keywords: Python,Python C extensions,Debugger
+Platform: All
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Debuggers
