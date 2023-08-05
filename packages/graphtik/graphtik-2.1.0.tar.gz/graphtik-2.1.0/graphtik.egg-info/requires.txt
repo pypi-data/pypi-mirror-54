@@ -1,0 +1,18 @@
+boltons
+
+[:python_version < "3.5"]
+networkx==2.2
+
+[:python_version >= "3.5"]
+networkx
+
+[plot]
+matplotlib
+pydot
+
+[test]
+matplotlib
+pydot
+pytest
+pytest-cov
+pytest-sphinx
