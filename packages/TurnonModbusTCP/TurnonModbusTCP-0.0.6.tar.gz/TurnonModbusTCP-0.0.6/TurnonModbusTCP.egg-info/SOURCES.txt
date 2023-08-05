@@ -1,0 +1,8 @@
+README.md
+setup.py
+TurnonModbusTCP/__init__.py
+TurnonModbusTCP.egg-info/PKG-INFO
+TurnonModbusTCP.egg-info/SOURCES.txt
+TurnonModbusTCP.egg-info/dependency_links.txt
+TurnonModbusTCP.egg-info/requires.txt
+TurnonModbusTCP.egg-info/top_level.txt
