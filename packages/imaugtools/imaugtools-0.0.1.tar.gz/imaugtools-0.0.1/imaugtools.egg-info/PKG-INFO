@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: imaugtools
+Version: 0.0.1
+Summary: imaugtools contains tools used for image augmentation: translate, rotate, crop. This library is for you if you do NOT want to stretch or skew, or pad pixels when doing any of these operations.
+Home-page: https://github.com/saravanabalagi/imaugtools
+Author: Saravanabalagi Ramachandran
+Author-email: saravanabalagi@hotmail.com
+License: MIT
+Description: # imaugtools
+        
+        imaugtools contains tools used for image augmentation: translate, rotate, crop. This library is for you if you do NOT want to stretch or skew, or pad pixels that would make your images look strange when doing any of these operations.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
