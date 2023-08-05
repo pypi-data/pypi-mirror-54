@@ -1,0 +1,14 @@
+gecos/__init__.py,sha256=vli04BzA54dYk-AiPSJkShC0nPvld1i_g8glWBGSoHg,297
+gecos/cli.py,sha256=EA13ZO6gNjAA3PYlLQaxGrLuff8XKDzo1ZHTw32ColE,18040
+gecos/colors.py,sha256=A9vosDyrS-OSKwnMJ_SDopoS3f0AbZwZiUJPZ1S_Dhs,2144
+gecos/example_alignment.fasta,sha256=J5uj13cxM_rUu387ANpoXvLgzq-BrJgjvpbPCcA1APM,839
+gecos/file.py,sha256=gFBR2LzUTWwMYVZ6dmya-PVxKT6N3ZdWYGAY0qUYkdM,1005
+gecos/optimizer.py,sha256=UtcZ9KeZl0NCGTkisUTCrw2y9MQG2twLZLaavtGphdQ,16100
+gecos/space.npy,sha256=dEaqKvp1PITRxNJIr0tr4mj7PyCbqQ3zNPFshGFsw3g,6553728
+gecos/space.py,sha256=UUGpwlrtnce4ixUHeiw87A9sJVRMJ1FZCJHNb0Gac98,4005
+gecos-1.1.0.dist-info/LICENSE.rst,sha256=XHdnKwhdnCL0M5yS40uvpksH5BTeAqU0O63JNviQXZE,1542
+gecos-1.1.0.dist-info/METADATA,sha256=mR7GxiwVCMfoaT2owshi5N3mxUefYnIQo7fAWXvDPJE,1912
+gecos-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+gecos-1.1.0.dist-info/entry_points.txt,sha256=2VsEJZAAIQcGMhpxohJP1gu_3qbxlJKWlQcVnQPgYCw,42
+gecos-1.1.0.dist-info/top_level.txt,sha256=ERLQjj1vUUbNRE-_ka0ZJe-1GGl5Rnl6K-z7_azfBCc,6
+gecos-1.1.0.dist-info/RECORD,,
