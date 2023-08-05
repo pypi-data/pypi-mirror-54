@@ -1,0 +1,13 @@
+AUTHORS
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.rst
+acs_extract_student_assignments.py
+setup.py
+acs_extract_student_assignments.egg-info/PKG-INFO
+acs_extract_student_assignments.egg-info/SOURCES.txt
+acs_extract_student_assignments.egg-info/dependency_links.txt
+acs_extract_student_assignments.egg-info/entry_points.txt
+acs_extract_student_assignments.egg-info/requires.txt
+acs_extract_student_assignments.egg-info/top_level.txt

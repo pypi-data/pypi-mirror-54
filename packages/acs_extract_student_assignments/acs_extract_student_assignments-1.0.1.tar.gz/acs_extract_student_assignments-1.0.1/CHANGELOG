@@ -1,0 +1,13 @@
+acs_extract_student_assignments 1.0.1 (October 22, 2019)
+========================================================
+
+Bugfixes
+--------
+
+    * Fixed a directory creation issue when a student has saved multiple
+      assignments.
+
+acs_extract_student_assignments 1.0.0 (October 18, 2019)
+========================================================
+
+    * Initial release.
