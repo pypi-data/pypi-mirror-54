@@ -1,0 +1,10 @@
+setup.py
+nevin_distributions/Binomialdistribution.py
+nevin_distributions/Gaussiandistribution.py
+nevin_distributions/Generaldistribution.py
+nevin_distributions/__init__.py
+nevin_distributions.egg-info/PKG-INFO
+nevin_distributions.egg-info/SOURCES.txt
+nevin_distributions.egg-info/dependency_links.txt
+nevin_distributions.egg-info/not-zip-safe
+nevin_distributions.egg-info/top_level.txt
