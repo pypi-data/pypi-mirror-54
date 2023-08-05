@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: kontol
+Version: 1.0.2
+Summary: kont0l
+Home-page: https://github.com/riszkymf/kontol-cli
+Author: tytyd
+Author-email: tytydsiapainiiiiii@gmail.com
+License: SEBARKAN
+Keywords: kontol_cli
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: setuptools
+Requires-Dist: docopt
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-ordering ; extra == 'test'
+Requires-Dist: testfixtures ; extra == 'test'
+
+# KONTOL-CLI
+
+## Install
+`pip install kontol-cli`
+
+## Fungsi
+`kontol masukin`
+
+
