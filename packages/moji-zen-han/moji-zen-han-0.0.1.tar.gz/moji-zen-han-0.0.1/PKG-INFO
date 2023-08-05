@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: moji-zen-han
+Version: 0.0.1
+Summary: A Japanese zenkaku and hankaku converter
+Home-page: https://github.com/BrambleXu/moji-zen-han
+Author: Xu LIANG
+Author-email: liangxu006@gmail.com
+License: UNKNOWN
+Description: # moji-zen-han
+        
+        A native Python based converter between Japanese zenkaku and hankaku characters.
+        
+        ```
+        pip install moji-zen-han
+        ```
+        
+        # Usage
+        
+        Convert zenkaku to hangaku
+        ```
+        >>> import moji
+        >>> print(moji.zen_to_han('株式会社ＫＡＤＯＫＡＷＡ　Ｆｕｔｕｒｅ　Ｐｕｂｌｉｓｈｉｎｇ'))
+        株式会社KADOKAWA Future Publishing
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
