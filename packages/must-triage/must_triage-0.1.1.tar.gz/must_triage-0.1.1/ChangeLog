@@ -1,0 +1,21 @@
+CHANGES
+=======
+
+v0.1.1
+------
+
+* Fix long description MIME type
+
+v0.1.0
+------
+
+* Update README
+* Add -o flag (default json, yaml available)
+* Add progress bar
+* Handle datetime objects in JSON output
+* Deal with pods that have no containerStatuses
+* Handle pods that completed successfully
+* Add a check for empty files
+* Handle PodList objects
+* Add OCS inspector
+* Initial commit
