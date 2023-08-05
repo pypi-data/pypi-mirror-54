@@ -1,0 +1,8 @@
+__pycache__/
+dist/
+build/
+simple_plotter.egg-info/
+doc/build/
+.idea/
+*.csv
+*.ods

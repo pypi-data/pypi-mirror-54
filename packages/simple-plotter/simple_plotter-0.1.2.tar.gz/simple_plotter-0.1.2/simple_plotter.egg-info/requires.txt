@@ -1,0 +1,5 @@
+jsonpickle>=1
+numpy
+matplotlib>=2
+PyQt5
+setuptools_scm

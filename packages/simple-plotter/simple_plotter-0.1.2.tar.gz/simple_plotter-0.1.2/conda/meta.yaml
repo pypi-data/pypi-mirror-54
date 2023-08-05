@@ -1,0 +1,46 @@
+{% set data = load_setup_py_data(setup_file='../setup.py', from_recipe_dir=True) %}
+
+package:
+  name: {{ data.get('name') }}
+  version: {{ environ.get('SP_PKG_VERSION', '') }}
+
+source:
+  path: ..
+
+build:
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  build:
+    - python >=3
+    - setuptools
+    - setuptools_scm
+    - jinja2
+
+  run:
+    - python{{ data.get('python_requires') }}
+{% for req in data.get('install_requires') %}
+  {% if req == 'PyQt5' %}
+    - pyqt>=5
+  {% else %}
+    - {{ req }}
+  {% endif %}
+{% endfor %}
+
+test:
+  imports:
+    - {{ data.get('name') }}
+
+app:
+  entry: python -m {{ data.get('name') }}
+  summary:  {{ data.get('description') }}
+
+about:
+  home: {{ data.get('url') }}
+  license: {{ data.get('license') }}
+  license_file: LICENSE
+  summary: {{ data.get('description') }}
+  description: {{ data.get('description') }}
+  dev_url: {{ data.get('project_urls').get('Source Code') }}
+  doc_url: {{ data.get('project_urls').get('Documentation') }}
+  doc_source_url: {{ data.get('project_urls').get('Source Code') }}doc/
