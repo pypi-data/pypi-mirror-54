@@ -1,0 +1,11 @@
+ypackage/__init__.py,sha256=o-Uq_AM6kTE7UNiHP59S8lr0XQlOfZYGeWOWYt8Y_ZI,151
+ypackage/common.py,sha256=Nq58NOpI_r3HjlTEtpzQnlx3RGWdceTaE3dj1UQjG6c,962
+ypackage/filesystem.py,sha256=Qk9r3UyjxI4k2o772sgYnyJNhw1SPcILa2nFM3mig0Q,2789
+ypackage/gitbook.py,sha256=EprqEfCNafezVG-ZJ1ZPJj4SzK4_gQAS1QJx8E_aTyk,8570
+ypackage/markdown.py,sha256=GmOo2Xv92mOvHRAd_kT-frxigvo9Tol9OIm5YjGjuxk,5221
+ypackage/regex.py,sha256=mn0o0h0rpExvK3jHbsycteyUBffjNXJzkujeBtxOhH4,201
+ypackage-1.1.dist-info/LICENSE,sha256=7Qkxd_bKIV8-6o_8_J4ibRiprA_SrcXnlcaqcmUp528,1088
+ypackage-1.1.dist-info/METADATA,sha256=_5T3Ipu4y8VgWRhhzCrVvoqfoVtf4fRo5Dq_vDSLN1I,2389
+ypackage-1.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+ypackage-1.1.dist-info/top_level.txt,sha256=i4g0BuJ6-aJ0arNijgWZdolZ1hQ1HcrjD6uDAhTh5co,9
+ypackage-1.1.dist-info/RECORD,,
