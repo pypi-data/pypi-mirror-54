@@ -1,0 +1,3 @@
+[console_scripts]
+quilt3_distribute_dataset = quilt3distribute.bin.quilt3_distribute_dataset:main
+
