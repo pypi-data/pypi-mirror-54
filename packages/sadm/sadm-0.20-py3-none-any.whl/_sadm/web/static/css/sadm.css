@@ -1,0 +1,39 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #111;
+	font-family: monospace;
+	font-size: 1em;
+}
+hr {
+	border: 0.5px solid #333;
+}
+.w3-btn {
+	color: #000;
+	background-color: #999;
+}
+.w3-btn:hover {
+	color: #999;
+	background-color: #000;
+}
+.sadm-color {
+	color: #ccc;
+}
+.sadm-bgcolor {
+	background-color: #111;
+}
+.syslog-default {
+	color: #0cc;
+}
+.syslog-error {
+	color: #c00;
+}
+.syslog-warn {
+	color: #cc0;
+}
+.syslog-info {
+	color: #00c;
+}
+.syslog-msg {
+	color: #0c0;
+}
