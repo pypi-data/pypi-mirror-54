@@ -1,0 +1,15 @@
+boost_histogram/__init__.py,sha256=e8owIBWY9uwu2fnnWrWA1dKNc42wtdluixQ6FvX2iw8,298
+boost_histogram/_hist.py,sha256=cf3dPU6dewG6pF9f-tJ5n4sjo4yEjOVpG51gwR47CHs,6130
+boost_histogram/accumulators.py,sha256=enbmGfEv085atofmQMCdwReOl05U9a47Kim7jHtlv4w,183
+boost_histogram/algorithm.py,sha256=DdG8z6WJshgaEtBb_TyRmRuxUf2sz4Vk39jTbBDtlbE,437
+boost_histogram/axis.py,sha256=_YyL-0hK48PVH25fSaGwLSUevnzZEVv5k6lA-R6PDX8,4904
+boost_histogram/core.cpython-37m-darwin.so,sha256=EQYoXdj1LBoBvhfmpBCBD9p2-MPHTcJFt8pcTR0e7Qs,13374752
+boost_histogram/numpy.py,sha256=yXafpusVyqw-5oUQR45LV5TsYhsyP_xIW1hwo5wa4y0,3247
+boost_histogram/storage.py,sha256=FMh6O9DwI80xAGyRuTwFdDZ4HXQdp87oLgLAatUwIC0,236
+boost_histogram/utils.py,sha256=k5wnRAR8WEfdlRE_OFHMK_x6Q3u_ZHdfMbOq5TyENEc,1521
+boost_histogram/version.py,sha256=eZ1bOun1DDVV0YLOBW4wj2FP1ajReLjbIrGmzN7ASBw,22
+boost_histogram-0.5.1.dist-info/LICENSE,sha256=4CRt_mR5EqSLFTBub_ZxJ1A6aiTJMnMrUHiAJWNg8xc,1539
+boost_histogram-0.5.1.dist-info/METADATA,sha256=3c7tE55xRtSgTeMyX6humhOuosKZYFROkPQuqRUqy_g,11528
+boost_histogram-0.5.1.dist-info/WHEEL,sha256=PJpvlWYoaC6URR0LWg8CW_GxFlQ7xrZNRTDuqcfncbQ,110
+boost_histogram-0.5.1.dist-info/top_level.txt,sha256=579QoqRGNl906tvR9rXRmL7MejoQEbCbaFW9wc_7Y70,16
+boost_histogram-0.5.1.dist-info/RECORD,,
