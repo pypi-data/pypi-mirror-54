@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: enolib
+Version: 0.8.1
+Summary: The eno standard library
+Home-page: https://eno-lang.org/enolib/
+Author: Simon Repp
+Author-email: simon@fdpl.io
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+# enolib
+
+The eno standard library.
+
+## Installation
+
+```
+pip install enolib
+```
+
+## Getting started
+
+A minimal example to read an eno document directly from a string with `enolib`:
+
+```python
+>>> import enolib
+>>> document = enolib.parse('Greeting: Hello World!')
+>>> document.field('Greeting').required_string_value()
+'Hello World!'
+```
+
+## Documentation
+
+Available at [eno-lang.org/enolib](https://eno-lang.org/enolib/).
+
+
