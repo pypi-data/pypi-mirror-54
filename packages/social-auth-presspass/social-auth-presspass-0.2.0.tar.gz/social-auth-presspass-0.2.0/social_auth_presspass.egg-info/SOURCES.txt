@@ -1,0 +1,9 @@
+README.md
+setup.py
+social_auth_presspass/__init__.py
+social_auth_presspass/backends.py
+social_auth_presspass/pipelines.py
+social_auth_presspass.egg-info/PKG-INFO
+social_auth_presspass.egg-info/SOURCES.txt
+social_auth_presspass.egg-info/dependency_links.txt
+social_auth_presspass.egg-info/top_level.txt
