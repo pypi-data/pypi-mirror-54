@@ -1,0 +1,4 @@
+smoke_test~=1.0
+
+[dev]
+pylint~=1.9

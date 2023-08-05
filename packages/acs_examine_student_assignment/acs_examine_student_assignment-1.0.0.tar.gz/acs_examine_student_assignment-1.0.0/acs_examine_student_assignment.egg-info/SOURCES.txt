@@ -1,0 +1,13 @@
+AUTHORS
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.rst
+acs_examine_student_assignment.py
+setup.py
+acs_examine_student_assignment.egg-info/PKG-INFO
+acs_examine_student_assignment.egg-info/SOURCES.txt
+acs_examine_student_assignment.egg-info/dependency_links.txt
+acs_examine_student_assignment.egg-info/entry_points.txt
+acs_examine_student_assignment.egg-info/requires.txt
+acs_examine_student_assignment.egg-info/top_level.txt
