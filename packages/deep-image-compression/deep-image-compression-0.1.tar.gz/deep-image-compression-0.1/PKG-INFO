@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: deep-image-compression
+Version: 0.1
+Summary: A tool to build, train and analyze deep learning models for image compression
+Home-page: https://github.com/LichengXiao2017/deep-image-compression
+Author: Licheng Xiao
+Author-email: david.xiao.2008@gmail.com
+License: MIT
+Download-URL: https://github.com/LichengXiao2017/deep-image-compression/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: image,compression,deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
