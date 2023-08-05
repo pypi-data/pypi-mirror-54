@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: slowmo
+Version: 0.1.0
+Summary: 
+Author: Pedro Cattori
+Author-email: pcattori@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: blessed (>=1.15,<2.0)
+Requires-Dist: spinners (>=0.0.23,<0.0.24)
