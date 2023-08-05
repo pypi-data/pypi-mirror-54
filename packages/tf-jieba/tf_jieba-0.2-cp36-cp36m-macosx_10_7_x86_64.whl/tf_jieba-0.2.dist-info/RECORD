@@ -1,0 +1,10 @@
+tf_jieba/__init__.py,sha256=Aoc-Td53ns2gkB96DnMIwrN5fXzEaOZMtw_zoF5x90E,95
+tf_jieba/jieba_op.py,sha256=xm01AgZY0EdDCMpq8YM3QBxfETA_9JBXR53akJZV4ec,1880
+tf_jieba/jieba_op_test.py,sha256=KL1DvhreF-6VHqd62ih-MDtZ-TjA0uV2ILKrdsQ1s2c,5235
+tf_jieba/x_ops.cpython-36m-darwin.so,sha256=r7WMLLunIHco6HTEHqHmGgzhSrzIycQSioptAfb7l0U,231508
+tf_jieba/cc/jieba_op.cc,sha256=7nweW4x36rDz-wv8UNgTHM4qc4c4a1dDoHwg-Cr5NTQ,3395
+tf_jieba/cc/x_ops.cc,sha256=RWmzO8Sv6JhE_3a1QJh9gzPgQmh5LN8EtjFVaAy3Eb8,1242
+tf_jieba-0.2.dist-info/METADATA,sha256=pPf5Xvp7j_Wst-O0yDner9YOHNGlnCXXQH2NHOH_urs,1798
+tf_jieba-0.2.dist-info/WHEEL,sha256=Pa6FUp-RRZ23T7yBFiOWnFl7TpPRTvKpdqnMztOabYo,110
+tf_jieba-0.2.dist-info/top_level.txt,sha256=Ep4eKKD-WtShublYZSDT_lnAK2uE1lkdeeDVQkxI7zY,9
+tf_jieba-0.2.dist-info/RECORD,,
