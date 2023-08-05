@@ -1,0 +1,17 @@
+overboard/__init__.py,sha256=R6XFns-REtl-JcpCRp2jnZt1n4ICosTH-MN1JZ1PLcQ,192
+overboard/__main__.py,sha256=ueoKzlCT-jrJyjFDhykrZdTfdf5KnFEhOPasDYtY0-0,87
+overboard/experiments.py,sha256=KGQfAB78_2mEwBqnbEydKLUp8foHjjnCKZ0nHC-aO2A,5436
+overboard/fastslider.py,sha256=GkzhOJVUkiRmc52JC-e6k9qEFXpzr61rwJevYYGs9R8,1566
+overboard/flowlayout.py,sha256=HC16VuG8pWi_o8ljq-OxDmAAB6BH9vYMV5DlGhXlfi0,3414
+overboard/logger.py,sha256=3HgsJs9bErqb6nKEubvU1SRm4bH70MsZAYvv9hQ1xUY,10562
+overboard/overboard_gui.py,sha256=f-czBDLZTa0yhMUBYAcltZDli9SYzKU40yMaqheo-Jc,4030
+overboard/plots.py,sha256=QIUasYW2Ok7AoCNmIIOc6kNwXqN6e0cya6I0BLYuRs8,7467
+overboard/plotwidget.py,sha256=02xX3Psssxr-cfQBT0ca3r5T6BO8Jsyz2x2_l8MkrIQ,2026
+overboard/style.qss,sha256=m5JaWa_QpkQ0ar-TjO5y1_CZWmLRL0JtPadiAyHI7Qs,1759
+overboard/visualizations.py,sha256=DpnmX88_ucJTlu3omfNvWh-UpvlmoMTCFxZX5uQH070,12846
+overboard/window.py,sha256=QU54zLmxORHN8R5HVhw-66yUvyqtaAYNp3wn6xpgMA4,12649
+overboard-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+overboard-0.1.4.dist-info/METADATA,sha256=j2uC8wyqtkAuGwjisCTWybQrQFZC8vxcBVUMOfHOKL0,2761
+overboard-0.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+overboard-0.1.4.dist-info/top_level.txt,sha256=p4dbsosvtprlg5jmHUOZ_v9ZO0ssMI_y0zBg9oT-Yk0,10
+overboard-0.1.4.dist-info/RECORD,,
