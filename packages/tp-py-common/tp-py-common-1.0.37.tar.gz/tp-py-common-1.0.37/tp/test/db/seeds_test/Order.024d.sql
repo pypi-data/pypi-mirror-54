@@ -1,0 +1,3 @@
+INSERT INTO `orders` (`id`, `prescription_id`, `delivery_address`, `status`, `created_at`, `updated_at`, `url_token`, `wildcard`, `api_request_id`, `customer_id`, `customer_name`, `rx_matched_by`, `otc_price`, `rx_price`, `packaging_price`, `dispensing_price`, `patient_first_name`, `patient_last_name`, `medication_name`, `location_id`, `recommended_rx_name`, `recommended_rx`, `recommended_score`, `order_status_id`, `dosage`, `unit`, `patient_id`, `patient_token`) 
+VALUES 
+('1','10000005',NULL,'01','2019-10-10 23:40:56','2019-10-10 23:40:56','84c0b5',NULL,'10000004','1',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'finasteride',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'10000003',NULL)
