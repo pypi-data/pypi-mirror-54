@@ -1,0 +1,12 @@
+README.md
+setup.py
+dns_spoofer.egg-info/PKG-INFO
+dns_spoofer.egg-info/SOURCES.txt
+dns_spoofer.egg-info/dependency_links.txt
+dns_spoofer.egg-info/entry_points.txt
+dns_spoofer.egg-info/requires.txt
+dns_spoofer.egg-info/top_level.txt
+spoofer/__init__.py
+spoofer/listen.py
+spoofer/spoofer.py
+spoofer/utils.py

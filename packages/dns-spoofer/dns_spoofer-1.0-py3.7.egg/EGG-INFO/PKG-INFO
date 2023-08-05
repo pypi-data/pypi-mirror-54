@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dns-spoofer
+Version: 1.0
+Summary: Spoof DNS queries over UDP
+Home-page: https://github.com/kimbo/dns-spoofer
+Author: Kimball Leavitt
+Author-email: kimballleavitt@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
