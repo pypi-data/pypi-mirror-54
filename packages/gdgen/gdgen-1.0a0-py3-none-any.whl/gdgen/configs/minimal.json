@@ -1,0 +1,18 @@
+{
+    "name": "",
+    "internal_name": "",
+    "author": "",
+    
+    "engine_version": "latest",
+    "cpp_version": "c++11",
+    
+    "docs_path": "",
+    "icons_path": "",
+    "thirdparty_path": "",
+    
+    "readme": false,
+    "license": "",
+    
+    "version_control": "",
+    "to_be_included_inside_project": false
+}
