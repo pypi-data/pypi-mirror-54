@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: multimodule
+Version: 0.6
+Summary: Possible windows only tool to convert packages of .pyx and .py files into single Cython extensions.
+Home-page: http://www.noplacelikehere.net
+License: UNKNOWN
+Author: Keith <keithwipf1@gmail.com>
+Author-email: keithwipf1@gmail.com
+Classifier: License :: OSI Approved :: MIT License
