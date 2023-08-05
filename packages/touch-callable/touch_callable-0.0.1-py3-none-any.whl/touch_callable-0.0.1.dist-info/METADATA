@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: touch-callable
+Version: 0.0.1
+Summary: The web framework for less serious application.
+Home-page: https://github.com/pengwk/touch-callable
+Author: Peng Weikang
+Author-email: pengwk@pengwk.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Flask
+
+# Touch-Callable
+
+The web framework for less serious application.
+
+Auto generat Web UI for Python Functions.
+
+# Installing
+
+Only support Python 3.6!
+
+`pip install -U touch-callable`
+
+# Example
+
+```python
+# examply.py
+from enum import Enum
+
+
+class 开关(Enum):
+  开 = '开'
+  关 = '关'
+
+
+def 饮水机(口令: str, 制热: 开关=None, 制冷: 开关=开关('开')):
+  """这是 20618 的！"""
+  if 口令 != '多喝热水':
+    raise ValueError('你是谁，我不认识你')
+
+  # 省略具体逻辑
+```
+
+`$ touch-callable example.py`
+
+![demo](./demo.png)
+
+
+
+
