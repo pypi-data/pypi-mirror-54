@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "Schema for the protocol configuration file.",
+    "additionalProperties": false,
+    "type": "object",
+    "required": [
+        "name",
+        "authors",
+        "version",
+        "license",
+        "url"
+    ],
+    "properties": {
+        "name": {"$ref": "definitions.json#/definitions/resource_name"},
+        "authors": {"type": "string"},
+        "version": {"type": "string"},
+        "license": {"type": "string"},
+        "url": {"type": "string"},
+        "dependencies": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "$ref": "definitions.json#/definitions/requirement" }
+        },
+        "description": {"type": "string"}
+    }
+}
