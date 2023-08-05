@@ -1,0 +1,47 @@
+aiida-core>=1.0.0<2.0.0
+fsc.export
+aiida-tools>=0.2.0
+future
+numpy
+scipy
+decorator
+pyyaml
+
+[:python_version < "3"]
+chainmap
+
+[dev]
+sphinx
+sphinx-rtd-theme
+pytest>=3.6
+pytest-cov
+aiida-pytest
+yapf==0.28
+pre-commit
+prospector==1.1.7
+
+[dev:python_version < "3.0"]
+pylint==1.9.4
+
+[dev:python_version >= "3.0"]
+pylint==2.3.1
+
+[dev_precommit]
+yapf==0.28
+pre-commit
+prospector==1.1.7
+
+[dev_precommit:python_version < "3.0"]
+pylint==1.9.4
+
+[dev_precommit:python_version >= "3.0"]
+pylint==2.3.1
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[testing]
+pytest>=3.6
+pytest-cov
+aiida-pytest
