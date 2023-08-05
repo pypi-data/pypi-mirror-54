@@ -1,0 +1,7 @@
+README.rst
+setup.py
+reegis.egg-info/PKG-INFO
+reegis.egg-info/SOURCES.txt
+reegis.egg-info/dependency_links.txt
+reegis.egg-info/requires.txt
+reegis.egg-info/top_level.txt
