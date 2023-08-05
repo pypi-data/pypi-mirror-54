@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cf-loggers
+Version: 0.0.0
+Summary: Logging module that logs data into elasticsearch. Supports async too.
+Home-page: https://github.com/crawlerflow/cf-loggers
+Author: Ravi Raja Merugu
+Author-email: ravi@invanalabs.ai
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
