@@ -1,0 +1,9 @@
+pytest>=4.6
+
+[dev]
+tox
+coverage
+pre-commit
+pydocstyle
+flake8
+black
