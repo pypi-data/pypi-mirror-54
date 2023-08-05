@@ -1,0 +1,12 @@
+mediatimestamp>=1.2.0
+six>=1.10.0
+frozendict>=1.2
+
+[:python_version < "3.4"]
+enum34>=1.1.6
+
+[:python_version < "3.6"]
+numpy
+
+[:python_version >= "3.6"]
+numpy>=1.17.2
