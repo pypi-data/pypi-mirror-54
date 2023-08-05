@@ -1,0 +1,9 @@
+intake_esm/__init__.py,sha256=U9rCS43qMGpo5ORoswD78HXaWZqNxE6C0aD_tpBp-18,397
+intake_esm/core.py,sha256=HdaP3Y6ZNcsXH8jzUV1DLJ8zBdXz98TArQPYsfBRtNo,19067
+intake_esm/merge_util.py,sha256=agAZxnJZ-JtRy1J5Hv9T5kiCZ2b23q_bIL-o7zyDC6M,4426
+intake_esm-2019.10.15.dist-info/LICENSE,sha256=ZB2I9_mFOoLjmq6cppIKelzqUvckDeRPFXiSdooTKCY,11390
+intake_esm-2019.10.15.dist-info/METADATA,sha256=n0xuRA86IqppfcRUMuoAObZ87GXp3r9g26cljgGmihA,5423
+intake_esm-2019.10.15.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+intake_esm-2019.10.15.dist-info/entry_points.txt,sha256=W2M0Ot-ZNP_LuK6JYuQox8xLur1Np9TJxlztgUoKCMQ,64
+intake_esm-2019.10.15.dist-info/top_level.txt,sha256=haj0porlWv9IQvdcQTucWx4ckWFO9D0suiqUZVfA1pA,11
+intake_esm-2019.10.15.dist-info/RECORD,,
