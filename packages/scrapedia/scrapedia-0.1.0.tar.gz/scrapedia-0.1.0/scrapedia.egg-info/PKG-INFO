@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: scrapedia
+Version: 0.1.0
+Summary: A scraper used for the extraction of brazilizan soccer historic data from the webpage futpedia.globo.com
+Home-page: https://github.com/LucasRGoes/scrapedia
+Author: Lucas Góes
+Author-email: lucas.rd.goes@gmail.com
+License: MIT License
+
+Copyright (c) 2019 Lucas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Download-URL: https://github.com/LucasRGoes/scrapedia/archive/0.1.0.tar.gz
+Description: # Scrapedia: A web scraper of Futpédia
+        
+        [![CircleCI](https://circleci.com/gh/LucasRGoes/scrapedia/tree/master.svg?style=svg)](https://circleci.com/gh/LucasRGoes/scrapedia/tree/master)
+        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+        
+        __Scrapedia__ is a scraper specifically designed to extract Brazilian soccer data from [Futpédia](http://futpedia.globo.com/)'s webpage.
+        
+        This project was motivated by the small amount of open data sources concerning Brazilian soccer and the yearning for learning.
+        
+        __|__ [Documentation](./docs/en-us/usage.ipynb) __|__ [Architecture](./resources/images/architecture.png) __|__
+        
+        ## Installation
+        To install via pip:
+        
+        ```
+        pip install scrapedia
+        ```
+        
+        The package can be installed from the source:
+        ```
+        git clone git@github.com/LucasRGoes/scrapedia.git
+        cd scrapedia
+        git checkout master
+        pip install .
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
