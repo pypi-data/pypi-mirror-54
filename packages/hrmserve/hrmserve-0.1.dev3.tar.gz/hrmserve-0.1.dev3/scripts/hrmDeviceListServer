@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+import dash
+from hrmtools.devices.cls import Devices
+from hrmserve.devices_dashboard import make_callbacks, layout
+
+import argparse
+
+parser = argparse.ArgumentParser(prog='hrmDeviceListServer', usage='%(prog)s [options]')
+#arser.add_argument('--foo', nargs='?', help='foo help')
+parser.add_argument('a', nargs='+', help='process cmd [json_string_args] [int_timeout]')
+#parser.add_argument('--uri', dest='uri', default='ws://localhost:8765', help='uri websocket server address e.i. ws://localhost:8765')
+
+
+
+if __name__== "__main__":
+    cargs = parser.parse_args()
+    external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+    
+    
+    a = cargs.a    
+    N = len(a)
+    if N!=1:
+        raise Exception('hrmDeviceListServer takes only one argument, the path to xls file') 
+    
+    devices = Devices.from_xls(a[0])
+    app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+    app.title = "HRM Devices"
+    app.layout = layout(devices)
+    make_callbacks(app, devices)
+    app.run_server(debug=True)
+    
+    
