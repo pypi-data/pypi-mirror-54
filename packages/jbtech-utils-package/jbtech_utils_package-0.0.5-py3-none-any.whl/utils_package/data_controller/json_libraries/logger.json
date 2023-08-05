@@ -1,0 +1,6 @@
+{
+  "logger": {
+    "file" : "default",
+    "level" : "DEBUG"
+  }
+}
