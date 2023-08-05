@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pseg
+Version: 0.1.1
+Summary: Python client for PSE&G gas Mmters
+Home-page: https://github.com/bvlaicu/pseg/
+Author: Bogdan Vlaicu
+Author-email: bogdanvlaicu@yahoo.com
+License: Apache Software License
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Dist: requests
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+
+This is a utility package to interact with a PSE&G gas meter
+
+Pseg calls the API of the PSE&G gas meter to return the current energy usage.
+
+It requires the meter's energize id and a session id.
+You can find this information as cookies after logging into your PSE&G customer account at https://pseg.com/.
+
+Example usage:
+
+    from pseg import Meter
+
+    meter = Meter("17baf96d8fdc0abcded2cf428b74d3151", "bRWWRMk6PCka1MQ%2BabcedpaZxxMafUhDSQoaRDvDC1Aw%3D%3D")
+    gas_consumption_therms = meter.last_gas_consumption_read()
+
+
