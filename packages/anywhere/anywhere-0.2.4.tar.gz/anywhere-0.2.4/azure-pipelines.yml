@@ -1,0 +1,39 @@
+trigger:
+  branches:
+    include: ['*']
+  tags:
+    include: ['*']
+
+jobs:
+- job: RunTests
+  pool:
+    vmImage: 'ubuntu-latest'
+  strategy:
+    matrix:
+      Python37:
+        python.version: '3.7'
+#        Python38:
+#          python.version: '3.8'
+  steps:
+  - template: ci-templates/run-tests.yml
+
+- job: CheckRelease
+  dependsOn: RunTests
+  steps:
+  - task: UsePythonVersion@0
+    continueOnError: false
+    inputs:
+      versionSpec: '3.7'
+      architecture: 'x64'
+    displayName: 'Use Python 3.7'
+  - bash: |
+      echo $(python setup.py isrelease | tail -n 1)
+      IS_RELEASE=$(python setup.py isrelease | tail -n 1)
+      echo "##vso[task.setvariable variable=isRelease;isOutput=true]$IS_RELEASE"
+    name: DetermineRelease
+
+- job: Release
+  dependsOn: CheckRelease
+  condition: eq(dependencies.CheckRelease.outputs['DetermineRelease.isRelease'], 'YES')
+  steps:
+  - template: ci-templates/release.yml

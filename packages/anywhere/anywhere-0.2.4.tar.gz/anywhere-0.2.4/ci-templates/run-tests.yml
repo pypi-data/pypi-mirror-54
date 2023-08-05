@@ -1,0 +1,31 @@
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '$(python.version)'
+    architecture: 'x64'
+  displayName: 'Use Python $(python.version)'
+
+- script: pip install -e .[develop,sqlalchemy,protobuf,graphene]
+  continueOnError: false
+  displayName: 'Install project and dependencies'
+
+- script: python setup.py pytest
+  displayName: 'Run tests (pytest)'
+
+- script: python setup.py pylint
+  displayName: 'Run linter (pylint)'
+
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
+  inputs:
+    testResultsFiles: 'report.xml'
+    testRunTitle: 'Publish test results for Python $(python.version)'
+  displayName: 'Publish test results'
+
+- task: PublishCodeCoverageResults@1
+  condition: succeededOrFailed()
+  inputs:
+    codeCoverageTool: Cobertura
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/coverage.xml'
+    reportDirectory: '$(System.DefaultWorkingDirectory)/**/htmlcov'
+  displayName: 'Publish code coverage'

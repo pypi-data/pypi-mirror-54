@@ -1,0 +1,21 @@
+steps:
+- task: UsePythonVersion@0
+  continueOnError: false
+  inputs:
+    versionSpec: '3.7'
+    architecture: 'x64'
+  displayName: 'Use Python 3.7'
+
+- script: pip install twine wheel && python setup.py sdist bdist_wheel
+  continueOnError: false
+  displayName: 'Build'
+
+- task: TwineAuthenticate@1
+  continueOnError: false
+  displayName: 'Twine Authenticate'
+  inputs:
+    pythonUploadServiceConnection: PYPIanywhere
+
+- script: twine upload -r "anywhere" --config-file $(PYPIRC_PATH) dist/*
+  continueOnError: false
+  displayName: 'Twine Upload'
