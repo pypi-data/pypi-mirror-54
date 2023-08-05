@@ -1,0 +1,8 @@
+AVFoundation/_AVFoundation.so,sha256=FSvww2K7RXAQfmoyDTox4YMvj6rUYIAbaEOt-TM4F4g,57116
+AVFoundation/__init__.py,sha256=wiQEp4vo9Ng1wPWCTlNv0N43CGf46efPCKXa5MRmK9c,811
+AVFoundation/_inlines.so,sha256=nyIzrx8r7l06TEhGkdK-7CHUp8CgBqGogcc_LGTKGS0,30656
+AVFoundation/_metadata.py,sha256=knUOMxnPHhuoXBnv6kKjSWoz-VlwFl9Jf3KSJkN50es,137998
+pyobjc_framework_AVFoundation-5.3.dist-info/METADATA,sha256=49VSpCRPBET6NMDZw2qtVESJplNCkiHhvmjBgX9C47g,2203
+pyobjc_framework_AVFoundation-5.3.dist-info/WHEEL,sha256=EDR0C9b6ad0FGokyn7DrBYwUNSTEcaX4WukRFKYAdj4,109
+pyobjc_framework_AVFoundation-5.3.dist-info/top_level.txt,sha256=YbV2KFCPDIX3Xp23u1Vp0XUErBiGdM0sxUVZNrQDaKU,13
+pyobjc_framework_AVFoundation-5.3.dist-info/RECORD,,
