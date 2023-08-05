@@ -1,0 +1,12 @@
+albumentations
+Augmentor
+imgaug
+keras
+numpy
+opencv-python
+pandas
+pillow
+solt
+tensorflow # required for keras
+torchvision
+tqdm
