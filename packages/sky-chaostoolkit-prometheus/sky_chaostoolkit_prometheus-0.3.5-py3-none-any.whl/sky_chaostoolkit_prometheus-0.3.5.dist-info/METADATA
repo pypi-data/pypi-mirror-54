@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sky-chaostoolkit-prometheus
+Version: 0.3.5
+Summary: Chaos Toolkit Prometheus support by SKY
+Home-page: http://chaostoolkit.org
+Author: Leslie Lintott
+Author-email: leslie.lintott@sky.uk
+License: Apache License Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freely Distributable
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.5.*
+Requires-Dist: chaostoolkit-lib (>=0.8.0)
+Requires-Dist: logzero
+Requires-Dist: requests
+Requires-Dist: dateparser
+Requires-Dist: maya
+Requires-Dist: jsonpath
+
+UNKNOWN
+
+
