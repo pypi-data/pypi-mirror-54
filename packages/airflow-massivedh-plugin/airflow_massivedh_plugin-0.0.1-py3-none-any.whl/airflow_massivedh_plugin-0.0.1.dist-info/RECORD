@@ -1,0 +1,6 @@
+airflow_massivedh_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_massivedh_plugin/massive_plugin.py,sha256=8T-Mn3OXZKZnizRGdNa-cmpWP7eQirFlG6B1tY5eC1k,1889
+airflow_massivedh_plugin-0.0.1.dist-info/METADATA,sha256=IZQ4mmLrSbz79pOxu4_EDZ0jGUbqwsfq5wAkfWz206o,468
+airflow_massivedh_plugin-0.0.1.dist-info/WHEEL,sha256=UpB-bp5SQQdekLv3_zfFAhrQBtaQjJZABvUiavkhjZ0,97
+airflow_massivedh_plugin-0.0.1.dist-info/top_level.txt,sha256=6HoEA7XKYCtBeOpz0fv3aBQF-iR3Xqk7osjBNAJdw_g,25
+airflow_massivedh_plugin-0.0.1.dist-info/RECORD,,
