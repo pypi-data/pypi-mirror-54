@@ -1,0 +1,37 @@
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+combine_as_imports = true
+line_length = 88
+
+[tool.poetry]
+name = "refreeze-scripts"
+version = "0.1.0"
+description = ""
+authors = [
+    "lambdalisue <lambdalisue@fixpoint.co.jp>",
+    "Fixpoint <developer@fixpoint.co.jp>"
+]
+
+[tool.poetry.scripts]
+"refreeze-scripts" = "refreeze_scripts.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+setuptools = "^41.4.0"
+typing-extensions = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+isort = "^4.3"
+mypy = "^0.730.0"
+pytest = "^5.2"
+pytest-asyncio = "^0.10.0"
+pytest-cov = "^2.8"
+pytest-mock = "^1.11"
+pytest-xdist = "^1.30"
+black = {version = "^18.3-alpha.0", allows-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
