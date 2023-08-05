@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+nflwin/__init__.py
+nflwin/_version.py
+nflwin/model.py
+nflwin/preprocessing.py
+nflwin/utilities.py
+nflwin.egg-info/PKG-INFO
+nflwin.egg-info/SOURCES.txt
+nflwin.egg-info/dependency_links.txt
+nflwin.egg-info/requires.txt
+nflwin.egg-info/top_level.txt
