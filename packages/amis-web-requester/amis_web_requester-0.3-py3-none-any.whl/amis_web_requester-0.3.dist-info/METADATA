@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: amis-web-requester
+Version: 0.3
+Summary: A web requester utility package
+Home-page: https://github.com/igortereshchenko/amis-web-requester
+Author: Igor Tereshchenko
+Author-email: tereshchenko.igor@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (>=4.8.1)
+Requires-Dist: selenium (>=3.141.0)
+Requires-Dist: soupsieve (>=1.9.4)
+Requires-Dist: urllib3 (>=1.25.6)
+
+A web requester utility package
+
+
