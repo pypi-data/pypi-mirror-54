@@ -1,0 +1,8 @@
+README.md
+setup.py
+keras_augm_layer/__init__.py
+keras_augm_layer.egg-info/PKG-INFO
+keras_augm_layer.egg-info/SOURCES.txt
+keras_augm_layer.egg-info/dependency_links.txt
+keras_augm_layer.egg-info/requires.txt
+keras_augm_layer.egg-info/top_level.txt
