@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Title</title>
+</head>
+
+
+<style type="text/css">
+    #lstBox1, #calcolo{
+  height:300px;
+  width:200px;
+}
+
+.set_input{
+  display:flex;
+  justify-content:center;
+}
+
+.transferBtns {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.transferBtns{
+  float:left;
+  align-self:center;
+}
+</style>
+<div id="app">
+<div class="set_input">
+<div class="newItems">
+
+    <b>variabili disponibili</b><br/>
+            <select v-model="selected" multiple id='lstBox1'>
+              <option value="ajax">Ajax</option>
+              <option value="jquery">jQuery</option>
+              <option value="javascript">JavaScript</option>
+              <option value="mootool">MooTools</option>
+              <option value="prototype">Prototype</option>
+              <option value="dojo">Dojo</option>
+        </select>
+        <span>Selected: {{ selected }}</span>
+    </div>
+
+
+    <div class="newItems">
+    <b>operazioni</b><br/>
+           <select multiple="multiple" id='output_option'>
+              <option value="+">+</option>
+              <option value="-">-</option>
+              <option value="/">/</option>
+              <option value="*">*</option>
+              <option value="**">**</option>
+               <option value="(">(</option>
+               <option value=")">)</option>
+
+        </select>
+    </div>
+
+    <b>costante</b>
+    <input id="costante">
+
+<div class="transferBtns">
+
+  <input type='button' id='btnRight' value ='  >  ' v-on:click="move_right"/>
+  <br/><input type='button' id='btnLeft' value ='  <  '/>
+  <div class="submitContainer">
+  <input type="submit" />
+  </div>
+</div>
+<div class="approvedItems">
+        <b>variabili nel modello </b><br/>
+        <select multiple="multiple" id='calcolo'>
+        </select>
+</div>
+</div>
+    </div>
+</body>
+
+<script>
+new Vue({
+    el: '#app',
+    data: {selected: ''},
+    methods: {
+        move_right: function (event) {
+            // `this` inside methods point to the Vue instance
+            alert('Hello ' + this.name + '!')
+            // `event` is the native DOM event
+            alert(event.target.tagName)
+        }
+
+    }
+    }
+)
+
+</script>
+
+</html>
