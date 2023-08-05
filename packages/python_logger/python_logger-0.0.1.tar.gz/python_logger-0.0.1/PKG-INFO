@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python_logger
+Version: 0.0.1
+Summary: Wrapper around standard python logging implementing additional features.
+Home-page: https://git.dtone.xyz/data/python_logger
+Author: Adam Cincura
+Author-email: cz.data@dtone.com
+License: UNKNOWN
+Description: # python_logger
+        
+        Logger for python language.
+        
+        # Usage
+        
+        
+Keywords: python logger mdc
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
