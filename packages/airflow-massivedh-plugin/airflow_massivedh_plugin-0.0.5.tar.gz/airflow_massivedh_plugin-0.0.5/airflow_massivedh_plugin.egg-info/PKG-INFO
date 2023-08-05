@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: airflow-massivedh-plugin
+Version: 0.0.5
+Summary: Apache-AirFlow items to support automation at Massive Data Heights
+Home-page: http://packages.python.org/airflow_massivedh_plugin
+Author: Paolo Coletta
+Author-email: paolo.coletta@massivedh.com
+License: BSD
+Description: UNKNOWN
+Keywords: api automation
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
