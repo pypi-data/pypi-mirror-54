@@ -1,0 +1,15 @@
+yaxil/__init__.py,sha256=u0Ra7OoVyF3qvqPMW5niDabW-qZgYfKrGhmpw5Y1HEA,33264
+yaxil/__version__.py,sha256=a8cugvkoccwFsnxz3DiuFLoa5_5_YhtTFwfj_c_rQwk,232
+yaxil/bids/__init__.py,sha256=uHavVqnk1tnP0xPnoM19AnCqnTFNtR8bq5ZnE0FR1Fw,9418
+yaxil/commons/__init__.py,sha256=xhNerFCCmkkvybbjXg0fAu1-cl8p3l0u937y4zo4C_M,2674
+yaxil/dicom/__init__.py,sha256=hsrcXBZDMBJDrDtaGuVG-T8Btb-EDBSAf5PJbs-qht0,1656
+yaxil/exceptions/__init__.py,sha256=6oxSBla0GZq1qIYpgU8GAz4coAzORxA52KVG_ZbnqFs,575
+yaxil/functools/__init__.py,sha256=P5yiAU1yotWAFPTi0_rs9SpKTxj1EH9NeBjVMHG3lGs,783
+yaxil/session/__init__.py,sha256=Ot1wQ0poJjf_OBrQxiKxNJhJU6UOo6-7m01YMpDTDVI,928
+yaxil-0.2.2.data/scripts/ArcGet.py,sha256=thzvU6qhIjSE_M3Dv78WEMl2ThugzBR-oEHDYbug_rU,8450
+yaxil-0.2.2.data/scripts/xnat_auth,sha256=lLXqRKgio3SBv5WZAC-ZrqyWiCvbyzP2kbffQn-DFqI,4101
+yaxil-0.2.2.dist-info/LICENSE,sha256=OeJg-nLVJUolsCpYxcm6T-P7HHtfoO7kwAC1IoZfjzA,1541
+yaxil-0.2.2.dist-info/METADATA,sha256=Wnynx0Vz5a8d1qKx7k7H01__NNkAEaQ6LlnkcDWKzDE,366
+yaxil-0.2.2.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+yaxil-0.2.2.dist-info/top_level.txt,sha256=fJsV0xAAilNjfeNRzE2uEHQF-aNZy0K0CH9F6qhCXbU,6
+yaxil-0.2.2.dist-info/RECORD,,
