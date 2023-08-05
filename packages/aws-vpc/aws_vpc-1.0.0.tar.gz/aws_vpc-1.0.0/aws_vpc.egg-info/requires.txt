@@ -1,0 +1,6 @@
+boto3
+botocore
+awscli
+aws-cdk.core
+aws-cdk.aws-ec2
+troposphere

@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+aws_vpc/__init__.py
+aws_vpc.egg-info/PKG-INFO
+aws_vpc.egg-info/SOURCES.txt
+aws_vpc.egg-info/dependency_links.txt
+aws_vpc.egg-info/requires.txt
+aws_vpc.egg-info/top_level.txt
+aws_vpc/aws_cdk/__init__.py
+aws_vpc/aws_cdk/vpc_template.py
+aws_vpc/troposphere/__init__.py
+aws_vpc/troposphere/vpc_template.py

@@ -1,0 +1,6 @@
+include *.txt
+include *.in
+
+recursive-include aws_vpc *.py
+recursive-include aws_vpc *.sh
+recursive-include aws_vpc *.example
