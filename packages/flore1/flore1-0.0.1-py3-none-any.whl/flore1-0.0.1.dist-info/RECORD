@@ -1,0 +1,15 @@
+flore1/__init__.py,sha256=yCdEyCcnSsIGD-QuY6CeuRYrZvE9NcoOCKm-njPZK2A,209
+flore1/ansiRGB.py,sha256=ZBD0i-Rgl_9F0qYhkmqAYxSUtDb-dGOpiA4mLik9wF8,3889
+flore1/flore1.py,sha256=FnRN79uQNgoT7aHCAWe-k-Q4Sv5aMA1R2gPadGG6lnE,9560
+flore1/util.py,sha256=ImEztc1RU8B7II2up5da3NGP8fYEVlkKIPMQo4FdEOU,1075
+flore1/TEXTASSET/__init__.py,sha256=AQ7juQUyajmVjpw985u0W_CUpTHrY6x6vM-oUcvHpjo,205
+flore1/TEXTASSET/textAsset.py,sha256=2QAqqmDfvlbJmmJISz7pC00D3HSLJmBigUYl8SbUL_g,4848
+flore1/TEXTASSET/TEXTSPRITE/__init__.py,sha256=0MZM0JmwEoBiHPTrxfq2avcmCEjhlTAtEHR2_vggpjY,217
+flore1/TEXTASSET/TEXTSPRITE/textSprite.py,sha256=dOxkCb0YizFRUoxaD8JOxpHFNI6DKz5ifUUhX6UY4Ao,1289
+flore1/VIRTUALSCENE/__init__.py,sha256=ZASzwKmG27EUncoDKIi8U_tXrt8DjXkezyMDOtmsgbw,211
+flore1/VIRTUALSCENE/virtualScene.py,sha256=lAPecNrapFa1v5y7MTGF4e-JQvzm7j4Ux16p7ZbG0zY,6527
+flore1-0.0.1.dist-info/LICENSE,sha256=_MioeSAhQGe0-fgazux51Fk-cBhMJf6B8OiAqzA0eFY,20558
+flore1-0.0.1.dist-info/METADATA,sha256=Fu_XV-6KsRiQMe_nA5uVwtJEvdjtU6jMt-A64Vjskz4,527
+flore1-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+flore1-0.0.1.dist-info/top_level.txt,sha256=hHB_3G67xTO8ZdiViETVJEaqXVL3oTgEZW7S_2H81H0,7
+flore1-0.0.1.dist-info/RECORD,,
