@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: moyo
+Version: 0.0.3
+Summary: A high performance API server, support REST style
+Home-page: https://www.baidu.com
+Author: bxy
+Author-email: chdhyc@foxmail.com
+License: BSD License
+Description: A high performance API server, support REST style
+Platform: any
