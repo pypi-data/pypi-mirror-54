@@ -1,0 +1,18 @@
+Metadata-Version: 1.0
+Name: kube-merge
+Version: 1.0.1
+Summary: kube_merge
+Home-page: UNKNOWN
+Author: Bogdan Mustiata
+Author-email: bogdan.mustiata@gmail.com
+License: BSD
+Description: kube\_merge program.
+        
+        Installation
+        ============
+        
+        .. code:: sh
+        
+            pip install kube_merge
+        
+Platform: UNKNOWN

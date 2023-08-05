@@ -1,0 +1,10 @@
+README.rst
+setup.py
+kube_merge/__init__.py
+kube_merge/mainapp.py
+kube_merge.egg-info/PKG-INFO
+kube_merge.egg-info/SOURCES.txt
+kube_merge.egg-info/dependency_links.txt
+kube_merge.egg-info/entry_points.txt
+kube_merge.egg-info/requires.txt
+kube_merge.egg-info/top_level.txt

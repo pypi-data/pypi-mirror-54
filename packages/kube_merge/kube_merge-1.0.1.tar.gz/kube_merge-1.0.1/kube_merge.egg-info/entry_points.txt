@@ -1,0 +1,3 @@
+[console_scripts]
+kube-merge = kube_merge.mainapp:main
+
