@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: lingvo
+Version: 0.5.4
+Summary: Lingvo libraries.
+Home-page: UNKNOWN
+Author: Lingvo Authors
+Author-email: lingvo-bot@google.com
+License: Apache 2.0
+Keywords: Machine learning framework
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Requires-Dist: ipykernel
+Requires-Dist: jupyter
+Requires-Dist: jupyter-http-over-ws
+Requires-Dist: matplotlib
+Requires-Dist: model-pruning-google-research
+Requires-Dist: Pillow
+Requires-Dist: protobuf (<4,>=3.7)
+Requires-Dist: sklearn
+Requires-Dist: sympy
+Requires-Dist: tensorflow-gpu
+Requires-Dist: waymo-od-tf2-0
+
+UNKNOWN
+
+
