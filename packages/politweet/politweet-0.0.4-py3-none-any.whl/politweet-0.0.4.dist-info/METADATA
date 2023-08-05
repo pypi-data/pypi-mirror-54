@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: politweet
+Version: 0.0.4
+Summary: library for processing italian political tweets
+Home-page: UNKNOWN
+Author: Danail Krzhalovski
+Author-email: dkrzhalovski@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: astroid (==2.3.2)
+Requires-Dist: cachetools (==3.1.1)
+Requires-Dist: certifi (==2019.9.11)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: emoji (==0.5.4)
+Requires-Dist: google-api-core (==1.14.3)
+Requires-Dist: google-auth (==1.6.3)
+Requires-Dist: google-cloud (==0.34.0)
+Requires-Dist: google-cloud-core (==1.0.3)
+Requires-Dist: google-cloud-translate (==1.7.0)
+Requires-Dist: googleapis-common-protos (==1.6.0)
+Requires-Dist: grpcio (==1.24.1)
+Requires-Dist: idna (==2.8)
+Requires-Dist: isort (==4.3.21)
+Requires-Dist: lazy-object-proxy (==1.4.2)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: numpy (==1.17.3)
+Requires-Dist: oauthlib (==3.1.0)
+Requires-Dist: pandas (==0.25.2)
+Requires-Dist: protobuf (==3.10.0)
+Requires-Dist: pyasn1 (==0.4.7)
+Requires-Dist: pyasn1-modules (==0.2.7)
+Requires-Dist: pylint (==2.4.3)
+Requires-Dist: PySocks (==1.7.1)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: regex (==2019.8.19)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: requests-oauthlib (==1.2.0)
+Requires-Dist: rsa (==4.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: tweepy (==3.8.0)
+Requires-Dist: typed-ast (==1.4.0)
+Requires-Dist: urllib3 (==1.25.6)
+Requires-Dist: wrapt (==1.11.2)
+
+UNKNOWN
+
+
