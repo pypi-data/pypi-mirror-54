@@ -1,0 +1,9 @@
+twks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twks/client/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+twks/client/twks_client.py,sha256=QoejRkbcPgNKqVutxQooLWffsNQp4ru05wgocKPavOU,3724
+twks/nanopub/__init__.py,sha256=_yDo8A6RFJ4vUvQkFV_w5fLxbyw2EnGaWd4mSfc-Wr8,45
+twks/nanopub/nanopublication.py,sha256=Hzo6I0zxbPO9ZdlvxrOIUB9lw7Wog88GtsbxNIQ7ZhI,6493
+twks_client-1.0.1.dist-info/METADATA,sha256=zV4LoyvyDKmKSowtTaWfZkGdh_fNbRm9iUU6W1xM9pA,538
+twks_client-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+twks_client-1.0.1.dist-info/top_level.txt,sha256=SqSBVL4upGKgjEYZw1x9uRy6khcGNt7y6Q2exJ3ksKw,5
+twks_client-1.0.1.dist-info/RECORD,,
