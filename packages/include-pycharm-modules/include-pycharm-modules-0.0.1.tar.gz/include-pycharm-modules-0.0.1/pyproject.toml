@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "include_pycharm_modules"
+dist-name = "include-pycharm-modules"
+author = "KIC"
+author-email = ""
+home-page = "https://github.com/KIC/include-pycharm-modules"
+description-file = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License", "Development Status :: 2 - Pre-Alpha"]
+requires-python = ">= 3.7"
+requires = [
+    "beautifulsoup4"
+]
