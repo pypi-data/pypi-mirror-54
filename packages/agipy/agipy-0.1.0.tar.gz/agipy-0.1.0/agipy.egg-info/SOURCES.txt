@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+agipy/__init__.py
+agipy/agipy.py
+agipy/test_agipy.py
+agipy.egg-info/PKG-INFO
+agipy.egg-info/SOURCES.txt
+agipy.egg-info/dependency_links.txt
+agipy.egg-info/entry_points.txt
+agipy.egg-info/requires.txt
+agipy.egg-info/top_level.txt

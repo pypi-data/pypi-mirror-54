@@ -1,0 +1,44 @@
+Metadata-Version: 1.2
+Name: agipy
+Version: 0.1.0
+Summary: destroy cloud infrastructure in a hurry
+Home-page: https://github.com/shimst3r/agipy
+Author: Nils P. Müller
+Author-email: shimst3r@gmail.com
+License: GPL
+Download-URL: https://github.com/shimst3r/agipy/archive/0.1.0.tar.gz
+Description: 
+        agipy
+        =====
+        
+        
+        .. image:: https://travis-ci.org/shimst3r/agipy.svg?branch=master
+           :target: https://travis-ci.org/shimst3r/agipy
+           :alt: Build Status
+        
+        
+        ..
+        
+           /əˈdʒɪˈpaɪ/, portmanteau of AgI (chemical formula of silver iodide) and Python
+        
+        
+        ``agipy`` enables you to destroy cloud infrastructure in a hurry. Whether you want to destroy a demo
+        environment you no longer need or want to purge artifacts a colleague left behind, ``agipy`` is here
+        to help you dissolving your cloud problems.
+        
+        About the name
+        --------------
+        
+        ``agipy`` is a portmanteau of the chemical formula AgI for silver iodide and the word Python. Silver
+        iodide is a chemical used for `cloud seeding <https://en.wikipedia.org/wiki/Cloud_seeding#Methodology>`_
+        and `Python <https://www.python.org/>`_ is the language ``agipy`` is implemented in.
+        
+Keywords: azure,cli,cloud,devops,sysadmin,tool
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
