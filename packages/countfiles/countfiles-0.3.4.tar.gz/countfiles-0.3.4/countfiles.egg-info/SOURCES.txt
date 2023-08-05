@@ -1,0 +1,10 @@
+README.md
+setup.py
+countfiles/__init__.py
+countfiles/__main__.py
+countfiles/core.py
+countfiles/data.py
+countfiles.egg-info/PKG-INFO
+countfiles.egg-info/SOURCES.txt
+countfiles.egg-info/dependency_links.txt
+countfiles.egg-info/top_level.txt
