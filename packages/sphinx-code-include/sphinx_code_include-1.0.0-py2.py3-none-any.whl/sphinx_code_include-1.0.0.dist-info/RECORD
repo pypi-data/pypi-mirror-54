@@ -1,0 +1,12 @@
+code_include/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_include/error_classes.py,sha256=WiuhfJ-RkXZJNJoHITV-wWNKj1lWA_vBgixDAI2s10s,1111
+code_include/extension.py,sha256=ULsR5ZWF1bxJknQWOiAEynDsRS16g_SeTlhiFsaOuSQ,5205
+code_include/formatter.py,sha256=Kc-3Uup61NqxaSEw2st7avNpqyzJzOwgFcWfSWe50aU,3514
+code_include/helper.py,sha256=LLuO_jWNzpDKQbxyIhoi8XFef_XkFcKr0z5T21DMouU,1039
+code_include/source_code.py,sha256=FhA-XATBGARY-SS3S135Tq50nSWqeEjVI0JoFT_r2L8,12055
+sphinx_code_include-1.0.0.dist-info/AUTHORS.rst,sha256=V86ztTehhDQCy_C-2h7-Eb4Ytsyr_1Iv1sZ9PBAK7Ls,49
+sphinx_code_include-1.0.0.dist-info/LICENSE,sha256=UaVGeIDlZU3EZ51zx2jvPy0xb_7j0E8EPHEc4PPFdQ4,1322
+sphinx_code_include-1.0.0.dist-info/METADATA,sha256=BHfqUmVLQ2l9YXlmbtYFNh3RV1fB6Z3nn-o4bsKwedI,2519
+sphinx_code_include-1.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+sphinx_code_include-1.0.0.dist-info/top_level.txt,sha256=m61eOf_abDdzqasomGGtjqg_Hm8pxhYCAykJKymXz9Y,13
+sphinx_code_include-1.0.0.dist-info/RECORD,,
