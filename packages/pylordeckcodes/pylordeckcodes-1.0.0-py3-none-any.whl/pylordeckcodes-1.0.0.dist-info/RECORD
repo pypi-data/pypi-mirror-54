@@ -1,0 +1,9 @@
+pylordeckcodes/__init__.py,sha256=kkeS46GpVfn0rIS7f5dOgzOFmMs1isUakPWkNpAJtZk,146
+pylordeckcodes/card_code_and_count.py,sha256=iOf42zIXKI2-dQmSiIxaex9coPZbpmqskJqmyC86SW4,132
+pylordeckcodes/lor_deck_encoder.py,sha256=cl1RRk6WzAUHwbne4Z7ZV8R-M5PG_3mVABYvHQnqaIM,9243
+pylordeckcodes/varint_translator.py,sha256=QgBsNUMzKHFdqmhkUT3wg77Ky94dRlTg689tEL0on-0,881
+pylordeckcodes-1.0.0.dist-info/LICENSE,sha256=MV6Tgh58DVYxSQN0t_W7ip57Nw_shC8N3uVRs3jKdVM,560
+pylordeckcodes-1.0.0.dist-info/METADATA,sha256=Rm3PSq_7QW-94A4EcMVJ3RMu3vnX19PXgV_DCoI72x0,1813
+pylordeckcodes-1.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+pylordeckcodes-1.0.0.dist-info/top_level.txt,sha256=JbcXIr_BQFxwv2r6Og4I7M78hnu0SmTk7SEASYOTqHg,15
+pylordeckcodes-1.0.0.dist-info/RECORD,,
