@@ -1,0 +1,4 @@
+jupyter-server-proxy
+fastapi[all]
+datasette
+sqlite_utils
