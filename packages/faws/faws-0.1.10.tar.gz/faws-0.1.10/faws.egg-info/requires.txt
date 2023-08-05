@@ -1,0 +1,7 @@
+
+[boto3]
+boto3>=1.9.15
+botocore>=1.12.15
+
+[cli]
+Click>=6.0
