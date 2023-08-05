@@ -1,0 +1,77 @@
+language: python
+
+# needed for python>=3.7
+dist: xenial
+
+python:
+  - 3.6
+  - 3.7
+
+env:
+  global:
+    # personal github API access token of crepererum (Marco Neumann)
+    - GITHUB_CLIENT_ID=32eb43d9e96045689676
+    # GITHUB_CLIENT_SECRET=...
+    - secure: "mTYbu6tXSXVTf1Lda3UfW+LBk/gGyREfZeioJ5BAEVYvatMyebHQ6I/kQdqYSYXy+fmeQGswjo3aqlq+VYYP6D7O5wSbmN8UeEgySKI/n2Btj5R0svtiLaKcQRZBhpvI2J36nm582iLhTeo4XYhX0lo9C8cPy5ydAR91NJlbp8pf3tDeO7zlaQLry94VDbh10WGkw6O3tkUxLP6RYrmYhobefEByJH/QfMkCPokkpM48pqW2MVmYob2RV3USs1NZp3pyvdTpGkKOIAbz0GBF/p/NYrsVbjy/7F2xmGm2FFqmE5b63NpkKtrEQwhxKqcNhw1HAilg+qahj6s0BJyzYv88N3Vy7dp0B5srJtxmCWf1jWicdtrP++89hTf4Jg5vEbWLTMLvhtyFKe8m0WAasZM+M5YZKrN3Z2Zkw+vhhVWfiTM2lGMTUybhhsfMq0ZxDrYXS1QyinLlpm2cvzpLNlF6ki+p8W1Tg9wthJnHNuxx7ipvkytyxGAQlWaxwWPHb3qAdl7gu1eZ5wxgJEQXeTaNUzvEhFul+TDRuWMAlIwyf+TNKmWwYGoRvMTMDHw87AIbfnWHiC9vU1HXGMqwdLpdNp5ZeB+aGhyplh+CEEHwKp8khNNO5Pxpdh9vXfHOsn/YaBiiCNIIx5kzrJAi7wGcLWdib+c5pudEHGe6A6A="
+
+  matrix:
+    # required builds
+    - PIP_COMPILE_ARGS="-P pyarrow==0.13.0"
+    - PIP_COMPILE_ARGS="-P pyarrow==0.14.1"
+    - PIP_COMPILE_ARGS="-P pyarrow==0.15.0"
+
+    # optional builds
+    - PIP_COMPILE_ARGS="-P pyarrow==0.15.0" NUMFOCUS_NIGHTLY=1
+    - ARROW_NIGHTLY=1
+
+before_install:
+  - ./ci/before_install.sh
+
+install:
+  - pip install -r test-requirements-pinned.txt
+  - pip install --no-deps dist/*
+
+# If docs break or formatting, linting is off, I'd like to know immediately
+before_script:
+  - pip freeze
+  - pip install pre-commit && pre-commit run -a
+  - python setup.py docs
+
+script:
+  - pytest --cov kartothek --cov-report xml --cov-report html
+
+after_success:
+  - pip install codecov
+  - codecov
+
+matrix:
+  # When marking the build as finished, do not wait for allowed failures to complete
+  fast_finish: true
+  allow_failures:
+    - env: ARROW_NIGHTLY=1
+    - env: PIP_COMPILE_ARGS="-P pyarrow==0.13.0" NUMFOCUS_NIGHTLY=1
+  include:
+    - name: "osx + builtin python3"
+      os: osx
+      language: sh
+      env:
+        - PIP_COMPILE_ARGS="-P pyarrow==0.13.0"
+      before_install:
+        - python3 -m pip install --upgrade virtualenv
+        - virtualenv -p python3 "$HOME/ktk_venv"
+        - source "$HOME/ktk_venv/bin/activate"
+        - ./ci/before_install.sh
+
+deploy:
+  provider: pypi
+  user: __token__
+  # API token used in env var PYPI_PASSWORD, set in Travis CI
+  on:
+    tags: true
+  distributions: "sdist bdist_wheel"
+  skip_existing: true
+
+notifications:
+  email:
+    recipients:
+      secure: b8XbdD4NjikoskgCKrAmKYLj86cA7lfMllvjKCYqntYhVZ30x8JQE9Eaqq3LRayILk1gxmHxhiCfEhKiUpiwG5gKU87u7484CyfZfCKJeoaFASJpmpKgkHpEMlXQrhikEzMsHlUNqJPXWjcm/PVz41FYAUzTkJVn5i2S4flWRwtLpRWHTayfMGrA5fEaDGpAqKOIAj3iXfxIS785G4ZYjE+KgjFhsel07P1suEgNihm8Oy+wy28DlCKU5Oo+oxCCI8CHV4GHoMmPB6HD3hokimGx2pGUCFdnPAqIebhQV/P7TllEcBzUbz2rECL0ysp1Uwi6MDvig++o8YFHeslm7EkpVM8DK30aOBdcy8bS5UsUt4kPHeWQiPiGDo2hrx4V8xsqLFhwJMNiqEe4J6abD6XDlpu4cq0wMUPmv9LUrJkvh242E2YVZFU22PUZ7uSSQsJQKxv7gSqIxo9PLraStkUdTA0jRY2QAnRvX/8XREhE+AE1Mray8Jc7L2oC3+QXEHVHa6SWJ3ASD6ZEJG00Q4I94zGwA2ME6qU0UYGSLvEPUfC/Mvmu0YovgYkxOlmOS2pyPF6HYjNB9unptGeldxWAsPDecQymViUmMKfJ1CnZhDOVTtPxnP/z6JJl0q+NKfLWcyEf9uG1/HQ9AT2YjIos4EYQCxd7l6r0O76qLj0=
