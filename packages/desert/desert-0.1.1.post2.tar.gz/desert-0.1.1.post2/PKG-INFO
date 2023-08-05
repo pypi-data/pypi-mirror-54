@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: desert
+Version: 0.1.1.post2
+Summary: Deserialize to objects while staying DRY
+Home-page: https://github.com/python-desert/desert
+Author: Adam Boche
+Author-email: python-desert@users.noreply.github.com
+License: UNKNOWN
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        Deserialize to objects while staying DRY.
+        
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install desert
+        
+        Documentation
+        =============
+        
+        
+        https://desert.readthedocs.io/
+        
+        Changelog
+        =========
+        
+        0.1.0 (2019-06-22)
+        ------------------
+        
+        Changes
+        ^^^^^^^
+        
+        - First release on PyPI.
+        
+        ---
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Provides-Extra: dev
