@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: log-enricher
+Version: 0.1.0
+Summary: Library to enrich structured logs
+License: MIT
+Author: Arni Inaba Kjartansson
+Author-email: arni@grid.is
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
