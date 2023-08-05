@@ -1,0 +1,11 @@
+{
+    "dbpath": "/zpool/shared/etc",
+    "pool": "zpool",
+    "rootfs": "zpool/shared",
+    "resetkey": "toto",
+    "homes": "home",
+    "homedir": "hf-1",
+    "uowner": "www-data",
+    "admin": "root",
+    "adminpwd": "toto"
+}
