@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: deep_orderbook
+Version: 0.1.4
+Summary: Transforms orders books in temporally and spatially local-correlated images.
+Home-page: https://github.com/gQuantCoder/deep_orderbook
+Author: gQuantCoder
+Author-email: gquantcoder@gmail.com
+License: UNKNOWN
+Description: # deep_orderbook
+        Orderbooks contain so much more organic informations than moving averages... 
+        
+        
+        (Work in progress on my free time)
+        
+        
+        ![books](https://raw.githubusercontent.com/gQuantCoder/deep_orderbook/master/images/01.png?raw=true "Orderbooks and alpha")
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6.3
+Description-Content-Type: text/markdown
