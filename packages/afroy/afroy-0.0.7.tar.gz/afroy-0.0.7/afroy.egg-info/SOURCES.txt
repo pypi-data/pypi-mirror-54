@@ -1,0 +1,9 @@
+README.md
+setup.py
+afro/__init__.py
+afro/__main__.py
+afroy.egg-info/PKG-INFO
+afroy.egg-info/SOURCES.txt
+afroy.egg-info/dependency_links.txt
+afroy.egg-info/requires.txt
+afroy.egg-info/top_level.txt
