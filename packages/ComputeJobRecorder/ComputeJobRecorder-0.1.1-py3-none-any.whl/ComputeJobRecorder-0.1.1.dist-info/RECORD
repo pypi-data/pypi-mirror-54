@@ -1,0 +1,11 @@
+ComputeJobRecorder-0.1.1.data/scripts/cjr_query.py,sha256=OGfoqL7PAL0jWxbEqWQktGWTyCpD1KW9d_haZvZRiOE,3929
+ComputeJobRecorder-0.1.1.data/scripts/cjr_record.py,sha256=FquCIuIvQGfNc5Wbh7JOoYkBZsvzilYY3Et953ubYi0,3045
+cjrlib/__init__.py,sha256=63Bu1bfVWiM3rG4n-dQsGCLyfmTZ-v4MVZwZoAAyeAQ,1451
+cjrlib/cjr_db_connection.py,sha256=Cc3gQtglHFoWaQ0AtT3wQdi4lUjcTjThEsf6pK2-A90,6419
+cjrlib/cjr_queries.py,sha256=6ptZyXs52ekLSEEKgVR6H4Df2zeGGp6YUkPD_wdqzUw,6315
+cjrlib/cjr_recorder.py,sha256=dJVDnQw-4GS1ITeqR3TsZlKP-jPQ9IMjDye17btyqAw,7830
+ComputeJobRecorder-0.1.1.dist-info/LICENSE.txt,sha256=1CLh-3jnxXyEVqYdQoI3v8mx96QbkcMy09XHlu4eKlw,11360
+ComputeJobRecorder-0.1.1.dist-info/METADATA,sha256=bVgKB-14jjamaUNyzOrbc-42EaOOhgrAx3L9QBbSUc8,570
+ComputeJobRecorder-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ComputeJobRecorder-0.1.1.dist-info/top_level.txt,sha256=SGaMDsPGpUQEpW7dxF6yI_5tokeB7lqcA-h8dedNoAc,7
+ComputeJobRecorder-0.1.1.dist-info/RECORD,,
