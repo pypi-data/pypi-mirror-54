@@ -1,0 +1,6 @@
+pyyaml
+Flask
+waitress
+setproctitle
+docopt
+inflection

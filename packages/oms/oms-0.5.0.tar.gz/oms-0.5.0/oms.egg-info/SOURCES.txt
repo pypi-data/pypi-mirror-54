@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+logme.ini
+oms.py
+setup.py
+oms.egg-info/PKG-INFO
+oms.egg-info/SOURCES.txt
+oms.egg-info/dependency_links.txt
+oms.egg-info/entry_points.txt
+oms.egg-info/requires.txt
+oms.egg-info/top_level.txt
