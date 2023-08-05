@@ -1,0 +1,12 @@
+chemdata/__init__.py,sha256=lCZHc778gClu7GYPKNJlQpwB-38DXCZrV3scwhQpLaM,146
+chemdata/atom.json,sha256=tMaCROdGIkckePTH3ySAuS86aLz0sSF9LCZYCC3CX6k,34614
+chemdata/basic.py,sha256=UrOGs6vBQbhIlx-nglTVl4W35WnXcuMJ-8zMdOHbVJA,3429
+chemdata/genelement.py,sha256=Z7CgCkJEmZwy88XV_RTu0zmnVZ1iZEdAIF0Pbr31Qdg,722
+chemdata/nist.py,sha256=LB3dLufYySuV5VLcY2TaDSGErFNYCk7ahoiHEece5kA,2511
+chemdata/nist_spectrum.json,sha256=iOY0tsWsr8g6i1RqDSqbSkNYf61VVYkNwNr1g-Krgb0,1797361
+chemdata-1.5.4.dist-info/LICENSE,sha256=Rkw0XFAkqnSrUZOqN3vXOjLAqiL4kGSs1ijbajK5SKI,1063
+chemdata-1.5.4.dist-info/METADATA,sha256=65wdXzgF2Su8kwuFZbgqPDxV9v6x6SbMUKZkC7Yaf_8,1707
+chemdata-1.5.4.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+chemdata-1.5.4.dist-info/entry_points.txt,sha256=crJbDlw7WlMbTkoVRa83AwtnODdQVL16gdxPkyMwBuc,60
+chemdata-1.5.4.dist-info/top_level.txt,sha256=7sOuShqPwLmUqgcWK3Pzl5LTqOPhcDz04H8hYw5d-Qs,9
+chemdata-1.5.4.dist-info/RECORD,,
