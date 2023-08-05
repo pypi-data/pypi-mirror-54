@@ -1,0 +1,7 @@
+README.md
+setup.py
+kielbasa/__init__.py
+kielbasa.egg-info/PKG-INFO
+kielbasa.egg-info/SOURCES.txt
+kielbasa.egg-info/dependency_links.txt
+kielbasa.egg-info/top_level.txt
