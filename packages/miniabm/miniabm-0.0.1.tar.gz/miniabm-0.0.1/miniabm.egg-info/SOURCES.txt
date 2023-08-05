@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+miniabm/__init__.py
+miniabm/miniabm.py
+miniabm.egg-info/PKG-INFO
+miniabm.egg-info/SOURCES.txt
+miniabm.egg-info/dependency_links.txt
+miniabm.egg-info/top_level.txt
