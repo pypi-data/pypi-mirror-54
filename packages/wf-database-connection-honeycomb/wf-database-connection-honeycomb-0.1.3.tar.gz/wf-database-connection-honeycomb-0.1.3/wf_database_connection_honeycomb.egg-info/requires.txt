@@ -1,0 +1,3 @@
+wf-database-connection>=0.1.1
+wildflower-honeycomb-sdk>=0.7.3
+python-dateutil>=2.8.0
