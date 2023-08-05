@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: monolithe
+Version: 1.5.2
+Summary: Monolithe is a sdk generator
+Home-page: https://github.com/nuagenetworks/monolithe
+Author: Nuage Networks
+Author-email: opensource@nuagnetworks.net
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: future
+Requires-Dist: configparser
+Requires-Dist: jinja2
+Requires-Dist: colorama
+Requires-Dist: unittest2
+Requires-Dist: PyGithub
+Requires-Dist: pdoc
+Requires-Dist: gitpython
+
+UNKNOWN
+
+
