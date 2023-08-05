@@ -1,0 +1,8 @@
+README.md
+setup.py
+fastprocess/__init__.py
+fastprocess/fastprocess.py
+fastprocess.egg-info/PKG-INFO
+fastprocess.egg-info/SOURCES.txt
+fastprocess.egg-info/dependency_links.txt
+fastprocess.egg-info/top_level.txt
