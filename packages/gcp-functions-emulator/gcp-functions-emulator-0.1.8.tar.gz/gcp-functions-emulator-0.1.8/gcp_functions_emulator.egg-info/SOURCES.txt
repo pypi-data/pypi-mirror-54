@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+gcp_functions_emulator.egg-info/PKG-INFO
+gcp_functions_emulator.egg-info/SOURCES.txt
+gcp_functions_emulator.egg-info/dependency_links.txt
+gcp_functions_emulator.egg-info/entry_points.txt
+gcp_functions_emulator.egg-info/requires.txt
+gcp_functions_emulator.egg-info/top_level.txt
+gcpfemu/__init__.py
+gcpfemu/serve.py
