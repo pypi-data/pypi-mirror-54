@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: sqltask
+Version: 0.2.2
+Summary: ETL tool based on SqlAlchemy for building robust ETL pipelies with high emphasis on high data quality
+Home-page: https://github.com/villebro/sqltask
+Author: Ville Brofeldt
+Author-email: villebro@apache.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Requires-Dist: sqlalchemy
+Provides-Extra: bigquery
+Requires-Dist: pybigquery (>=0.4.11) ; extra == 'bigquery'
+Provides-Extra: mssql
+Requires-Dist: pymssql (>=2.1.4) ; extra == 'mssql'
+Provides-Extra: postgres
+Requires-Dist: psycopg2 (>=2.8.3) ; extra == 'postgres'
+Provides-Extra: snowflake
+Requires-Dist: snowflake-sqlalchemy (>=1.1.14) ; extra == 'snowflake'
+
+[![PyPI version](https://img.shields.io/pypi/v/sqltask.svg)](https://badge.fury.io/py/sqltask)
+[![PyPI](https://img.shields.io/pypi/pyversions/sqltask.svg)](https://www.python.org/downloads/)
+[![PyPI license](https://img.shields.io/pypi/l/sqltask.svg)](https://opensource.org/licenses/MIT)
+# Sqltask
+Sqltask is an extensible ETL library based on [SqlAlchemy](https://www.sqlalchemy.org/)
+with the intent of enabling building robust ETL pipelines with high emphasis on 
+data quality.
+
+Main features of Sqltask:
+- Create well documented data models that support iterative
+development of both schema and data transformation logic.
+- Combine data quality checking with transformation logic with automatic 
+creation of visualization-friendly data quality tables.
+- Make use of SQL where practical, especially expensive and complex data
+filtering and aggregation during data extraction.
+- Row-by-row data transformation using Python where SQL isn't feasible,
+e.g. calling third party libraries or storing state from previous rows.
+- Encourage use of modern version control tools and processed, especially GIT.
+- Performant data loading using bulk-loading where supported.
+- Easy integration with modern ETL orchestration tools, especially
+[Apache Airflow](https://airflow.apache.org/).
+
+# Supported databases
+
+Sqltask supports all databases with a
+[Sqlalchemy dialect](https://docs.sqlalchemy.org/en/13/dialects/), with
+performant bulk-loading for the following engines:
+- Google BigQuery (experimental)
+- MS SQL Server (experimental)
+- Postgres
+- Sqlite
+- Snowflake
+
+Engines not listed above will fall back to using regular inserts.
+
+# Installation instructions
+
+To install Sqltask without any dependencies, simply run
+
+```bash
+pip install sqltask
+```
+
+To automatically install all supported third party modules type
+```bash
+pip install sqltask[bigquery,mssql,snowflake,postgres]
+```
+
+
