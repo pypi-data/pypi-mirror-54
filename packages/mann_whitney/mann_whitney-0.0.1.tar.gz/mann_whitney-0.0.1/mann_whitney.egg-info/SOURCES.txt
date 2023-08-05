@@ -1,0 +1,6 @@
+setup.py
+mann_whitney/__init__.py
+mann_whitney.egg-info/PKG-INFO
+mann_whitney.egg-info/SOURCES.txt
+mann_whitney.egg-info/dependency_links.txt
+mann_whitney.egg-info/top_level.txt

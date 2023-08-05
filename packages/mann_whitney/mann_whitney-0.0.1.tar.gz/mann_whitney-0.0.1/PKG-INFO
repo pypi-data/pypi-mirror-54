@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: mann_whitney
+Version: 0.0.1
+Summary: A implementation of Mann-Whitney test in Python
+Home-page: https://github.com/Mengyuliu0520?tab=repositories
+Author: Mengyu_Liu
+Author-email: mengyu0520@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
