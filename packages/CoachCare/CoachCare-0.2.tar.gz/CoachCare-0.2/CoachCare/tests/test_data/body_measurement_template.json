@@ -1,0 +1,19 @@
+{
+	"account":%%PID.PID_3%%, 
+	"recordedAt":%%MSH.MSH_7::format_date%%,
+	"device": 11, 
+	"height":%%OBX.1.OBX_5&OBX.1.OBX_6::format_meters_to_cm%%, 
+	"weight":%%OBX.0.OBX_5&OBX.0.OBX_6::convert_to_grams%%,
+	"bodyFat": %%OBX.9.OBX_5::format_percentage%%,
+	"fatMassWeight":%%OBX.3.OBX_5&OBX.3.OBX_6::convert_to_grams%%,
+  "fatFreeMass": %%OBX.4.OBX_5&OBX.4.OBX_6::convert_to_grams%%,
+  "totalBodyWater": %%OBX.6.OBX_5&OBX.6.OBX_6::convert_to_milliliters%%,
+  "extracellularWaterToBodyWater":  %%OBX.8.OBX_5::format_percentage%%,
+  "leftArmMass": %%OBX.10.OBX_5&OBX.10.OBX_6::convert_to_grams%%,
+  "rightArmMass":  %%OBX.11.OBX_5&OBX.11.OBX_6::convert_to_grams%%,
+  "leftLegMass":  %%OBX.12.OBX_5&OBX.12.OBX_6::convert_to_grams%%,
+  "rightLegMass":  %%OBX.13.OBX_5&OBX.13.OBX_6::convert_to_grams%%,
+  "torsoMass": %%OBX.14.OBX_5&OBX.14.OBX_6::convert_to_grams%%,
+  "phaseAngle":  %%OBX.15.OBX_5&OBX.15.OBX_6::convert_to_grams%%,
+  "visceralFatMass":%%OBX.16.OBX_5&OBX.16.OBX_6::liters_to_grams%%
+}

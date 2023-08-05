@@ -1,0 +1,28 @@
+{
+  "data": [
+            {
+              "id": "123",
+              "firstName": "John",
+              "lastName": "Doe",
+              "email": "jdoe@coachcare.com",
+              "accountType": {
+                "id": "3",
+                "title": "Client"
+              },
+              "organizations": [
+                {
+                  "id": "1",
+                  "name": "orgName",
+                  "accessType": "association"
+                },
+                {
+                  "id": "1",
+                  "name": "orgName",
+                  "accessType": "assignment"
+                }
+              ]
+            }
+          ],
+  "pagination": { "next": 33 } 
+
+}
