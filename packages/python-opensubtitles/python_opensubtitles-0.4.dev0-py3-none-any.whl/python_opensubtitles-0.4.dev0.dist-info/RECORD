@@ -1,0 +1,11 @@
+pythonopensubtitles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pythonopensubtitles/opensubtitles.py,sha256=QvqiDXlsZdQzJTdU8POyEfCjltrxJmi0B2WcUmaCwVo,11859
+pythonopensubtitles/settings.py,sha256=GaDjbBNwxKpbKjf2NZUUWymEB3XaVcJ4RI44M2xMKVg,148
+pythonopensubtitles/test_opensubtitles.py,sha256=IJfd7czJNyNAQ88wqMMFlmujZ_0XijFvQirS4_1sOQ4,6113
+pythonopensubtitles/test_utils.py,sha256=uyJ-hqspApcCA-PQBopuPQIITEBpeZF-VMk7cs48_Nk,639
+pythonopensubtitles/utils.py,sha256=B9NaOpIy1kmRGmxzAlpMd5GOg5TiQwZnjqA8allM9mA,2719
+python_opensubtitles-0.4.dev0.dist-info/LICENSE,sha256=DFZnCCJJZu7R8h8S3t7n8GSe8zAohUBTB3K8bv5UDys,749
+python_opensubtitles-0.4.dev0.dist-info/METADATA,sha256=VvidAGoHrjJpE7wh0hUvMezEQug6E4S3ZLEbPm-QNP8,474
+python_opensubtitles-0.4.dev0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+python_opensubtitles-0.4.dev0.dist-info/top_level.txt,sha256=SNwzTIHopwz4NFuR6O-Lm3hua6ps0jUHvLTa9TcVK3k,20
+python_opensubtitles-0.4.dev0.dist-info/RECORD,,
