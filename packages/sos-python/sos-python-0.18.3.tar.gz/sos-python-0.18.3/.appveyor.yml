@@ -1,0 +1,74 @@
+version: 1.0.{build}
+
+# docker support
+#image: Visual Studio 2017
+
+#init:
+#  - ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+
+
+branches:
+    only:
+        - master
+
+skip_tags: true
+
+max_jobs: 100
+
+build: none
+
+clone_folder: c:\projects\sos
+clone_depth: 50
+shallow_clone: false
+
+environment:
+    matrix:
+        - PYTHON: "C:\\Miniconda36-x64"
+          PYTHON_VERSION: 3.6
+
+install:
+    - set PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%
+    - conda config --set always_yes yes --set changeps1 no
+    - conda update -q conda
+    # Useful for debugging any issues with conda
+    - conda info -a
+
+    # install Python 2 kernel
+    - conda create -n ipykernel_py2 python=2 ipykernel
+    - activate ipykernel_py2
+    - python -m ipykernel install --user
+    - conda deactivate
+
+    # python 3 env
+    - conda create -n sos_test python=3.6
+    - activate sos_test
+
+    # packages required by SoS
+    - pip install pyyaml psutil tqdm nose selenium
+    - pip install fasteners pygments networkx pydot pydotplus
+    - pip install entrypoints jupyter coverage codacy-coverage pytest pytest-cov python-coveralls
+    - conda install pandas numpy
+
+    # SoS Notebook
+    - pip install jedi notebook nbconvert nbformat pyyaml psutil tqdm scipy
+    - pip install pygments ipython wand graphviz sos sos-notebook
+    - python -m sos_notebook.install
+
+    # install sos-r
+    - pip install . -U
+
+    # we also need to set up path to python2 bin etc
+    - set PATH=C:\Miniconda36-x64\envs\ipykernel_py2\;C:\Miniconda36-x64\envs\ipykernel_py2\Library\bin;%PATH%
+    - set PATH=C:\Miniconda36-x64\envs\sos_test\;C:\Miniconda36-x64\envs\sos_test\Library\bin;%PATH%
+
+test_script:
+    - cd test
+    - pytest -x -v
+
+notifications:
+    - provider: Email
+      to:
+        - ben.bob@gmail.com
+      on_build_status_changed: true
+
+
