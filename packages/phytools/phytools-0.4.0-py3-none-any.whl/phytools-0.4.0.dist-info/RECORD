@@ -1,0 +1,13 @@
+phytools/__init__.py,sha256=u3PXjDdtj4eQdERpSeq2Zp0iyt_R5zRINB4rJoNRQYk,113
+phytools/constants.py,sha256=KINbpX3YheOO2C-8ZZaENywh9W-rgNYhmyUdUQJFJeQ,49
+phytools/functions.py,sha256=VjhaKzyp2jYVboV9kVAyCuj-VsYqfhhMrWGGJZ42tag,5957
+phytools/misc.py,sha256=Ny15mJlN2qN_A_0Tx1Dz1uGYD-7BgxMZOYFb4tySGL8,153
+phytools/optics.py,sha256=v8NYDpXDTWacL5xvYvWM3xFtYI_GxDk4hyJxi_vY_cw,3111
+phytools/signalproc.py,sha256=VP2Qg8VpOvlXh6WEms3oBjp7TEPKtggt-o31FDiD0i4,3400
+phytools-0.4.0.dist-info/AUTHORS,sha256=BGCvfDoMIf18etUJk9AXfWM9UiIdo1MLhVtJ7HV1Ogc,85
+phytools-0.4.0.dist-info/LICENSE,sha256=nqQTip_RmHSex2fXj06KmfAClhAxDeOqbYoksBKRr5k,1062
+phytools-0.4.0.dist-info/METADATA,sha256=q8x9Yj9aDfR5SXn3WFa7ReHCeK7Z0iL6VXh0o9y7GCY,716
+phytools-0.4.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+phytools-0.4.0.dist-info/pbr.json,sha256=gJR5ujySLdu6dKNlF-yjJvDW4kTHwm2Qp21NwZxK6xE,47
+phytools-0.4.0.dist-info/top_level.txt,sha256=NQlFuQ5AjhFalifPMluG8KWeQ1Ck9GOfY5-kSVOQIY8,9
+phytools-0.4.0.dist-info/RECORD,,
