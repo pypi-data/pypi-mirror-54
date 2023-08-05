@@ -1,0 +1,8 @@
+README.md
+setup.py
+WaporAPI/Collect.py
+WaporAPI/__init__.py
+WaporAPI.egg-info/PKG-INFO
+WaporAPI.egg-info/SOURCES.txt
+WaporAPI.egg-info/dependency_links.txt
+WaporAPI.egg-info/top_level.txt

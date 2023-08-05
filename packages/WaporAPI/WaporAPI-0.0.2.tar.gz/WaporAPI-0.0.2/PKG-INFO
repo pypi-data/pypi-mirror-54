@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: WaporAPI
+Version: 0.0.2
+Summary: Tool for collecting WaPOR dataset automatically through python.
+Home-page: https://github.com/TimHessels/WaporAPI
+Author: Tim Hessels
+Author-email: timhessels@hotmail.com
+License: UNKNOWN
+Description: # WaporAPI
+        
+        Python module for collecting WaPOR data automatically through python
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
