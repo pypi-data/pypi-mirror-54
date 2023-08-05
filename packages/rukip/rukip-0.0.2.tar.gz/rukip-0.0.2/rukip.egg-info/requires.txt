@@ -1,0 +1,5 @@
+rasa~=1.4.0
+ckiptagger[tensorflow]~=0.0.19
+
+[test]
+pytest==5.2.1
