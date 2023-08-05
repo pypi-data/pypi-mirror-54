@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+lilcom/__init__.py
+lilcom/lilcom.c
+lilcom/lilcom.h
+lilcom/lilcom_c_extension.c
+lilcom/lilcom_interface.py
+lilcom.egg-info/PKG-INFO
+lilcom.egg-info/SOURCES.txt
+lilcom.egg-info/dependency_links.txt
+lilcom.egg-info/top_level.txt
+test/__init__.py
+test/test_interface.py
+test/test_speed.py
