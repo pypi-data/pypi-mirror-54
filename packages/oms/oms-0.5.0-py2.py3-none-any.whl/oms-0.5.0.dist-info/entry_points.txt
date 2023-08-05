@@ -1,0 +1,3 @@
+[console_scripts]
+oms-generate = oms:cli
+
