@@ -1,0 +1,15 @@
+point_annotator-2.0.0-py3.7-nspkg.pth,sha256=E0--osnSdW8MkKAa8pN2rGY4EpKJfWg0rKT6HEx5oQs,579
+pointannotator/annotate_samples.py,sha256=HLYm19EyXKygEAHOI04zkQNc-KfDUtqI-20rJEmvp88,18433
+pointannotator/plotting.py,sha256=_LKdRN0LQFDv6FJ5S8fud-jdaUrdGWa1Ep7V3a-D1gU,5168
+pointannotator/utils.py,sha256=CNBk9YFO6lc81dV-n0f3Vj4-y-A6gutXDM7XMPZVOgU,1881
+pointannotator/examples/dendrtic_cells_annotation.ipynb,sha256=AhFcOjySm23h9SYpoCThesKkRBMlcYIlCHAdVk6LUic,308536
+pointannotator/examples/human_pancreas_annotation.ipynb,sha256=TlLZwtDD-DS1RAWeh7GamQTs7fTgvejwBPQTTqZys3o,514701
+pointannotator/examples/mouse_pancreas_annotation.ipynb,sha256=lIpaLJxvq8Yc6AmEgmMo3es722T1BXnVkAohN40w6-A,383110
+pointannotator/tests/__init__.py,sha256=jySerkcjQ1L_hKYkDrbOBBa7ass6vxQRgWm69XSGLZg,358
+pointannotator/tests/test_annotate_samples.py,sha256=Dj9H4Anyy_Uz2vtyPu3eSvwwNFf1ejnsyw0hrCA3nFY,10162
+point_annotator-2.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+point_annotator-2.0.0.dist-info/METADATA,sha256=bo0d9ixweyhvNSsrRtal1LoFUsm0V9NtImfMPEfc_-A,2458
+point_annotator-2.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+point_annotator-2.0.0.dist-info/namespace_packages.txt,sha256=yaN-DV6DZ2iOg6OSiur3ArzOl-2v0xoS0_VZD46QBro,15
+point_annotator-2.0.0.dist-info/top_level.txt,sha256=yaN-DV6DZ2iOg6OSiur3ArzOl-2v0xoS0_VZD46QBro,15
+point_annotator-2.0.0.dist-info/RECORD,,
