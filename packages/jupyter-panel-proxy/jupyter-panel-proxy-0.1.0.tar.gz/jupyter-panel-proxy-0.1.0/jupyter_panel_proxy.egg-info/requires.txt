@@ -1,0 +1,9 @@
+jupyter-server-proxy
+panel
+
+[build]
+param>=1.7.0
+setuptools
+
+[tests]
+flake8

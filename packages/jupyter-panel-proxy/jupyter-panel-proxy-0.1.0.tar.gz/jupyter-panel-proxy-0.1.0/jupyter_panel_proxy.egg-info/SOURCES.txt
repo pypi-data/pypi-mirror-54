@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+jupyter_panel_proxy.egg-info/PKG-INFO
+jupyter_panel_proxy.egg-info/SOURCES.txt
+jupyter_panel_proxy.egg-info/dependency_links.txt
+jupyter_panel_proxy.egg-info/entry_points.txt
+jupyter_panel_proxy.egg-info/requires.txt
+jupyter_panel_proxy.egg-info/top_level.txt
+panel_server/.version
+panel_server/__init__.py
