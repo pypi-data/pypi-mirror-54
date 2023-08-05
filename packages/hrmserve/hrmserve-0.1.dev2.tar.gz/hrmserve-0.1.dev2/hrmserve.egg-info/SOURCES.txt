@@ -1,0 +1,10 @@
+README.md
+setup.py
+hrmserve/__init__.py
+hrmserve/devices_dashboard.py
+hrmserve.egg-info/PKG-INFO
+hrmserve.egg-info/SOURCES.txt
+hrmserve.egg-info/dependency_links.txt
+hrmserve.egg-info/requires.txt
+hrmserve.egg-info/top_level.txt
+scripts/hrmDeviceListServer
