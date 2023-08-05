@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: real_summary
+Version: 0.0.1
+Summary: Python package to do basic EDA for any given csc/excel data
+Home-page: https://github.com/PraveenKumarGarlapati/real_summary
+Author: Praveen
+Author-email: prvn012@gmail.com
+License: MIT
+Description: real_summary
+        ============
+        
+        .. image:: https://img.shields.io/pypi/v/real_summary.svg
+            :target: https://pypi.python.org/pypi/real_summary
+            :alt: Latest PyPI version
+        
+        .. image:: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal.png
+           :target: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal
+           :alt: Latest Travis CI build status
+        
+        Python package to do basic EDA for any given csc/excel data
+        
+        Usage
+        -----
+        
+        Installation
+        ------------
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        `real_summary` was written by `Praveen <prvn012@gmail.com>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

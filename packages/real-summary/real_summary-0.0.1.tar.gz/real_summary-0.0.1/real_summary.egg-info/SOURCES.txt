@@ -1,0 +1,10 @@
+README.rst
+setup.py
+real_summary/__init__.py
+real_summary/__main__.py
+real_summary/real_summary.py
+real_summary.egg-info/PKG-INFO
+real_summary.egg-info/SOURCES.txt
+real_summary.egg-info/dependency_links.txt
+real_summary.egg-info/requires.txt
+real_summary.egg-info/top_level.txt
