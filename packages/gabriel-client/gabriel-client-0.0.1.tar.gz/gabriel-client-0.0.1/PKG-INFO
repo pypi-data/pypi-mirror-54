@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: gabriel-client
+Version: 0.0.1
+Summary: Client for Wearable Cognitive Assistance Applications
+Home-page: http://gabriel.cs.cmu.edu
+Author: Roger Iyengar
+Author-email: ri@rogeriyengar.com
+License: Apache
+Description: # Gabriel Client
+        
+        Stream data back and forth between Gabriel Server
+        
+        ## Installation
+        Requires Python >= 3.6
+        
+        Run `pip install gabriel-client`
+        
+        ## Publishing Changes to PyPi
+        
+        Update the version number in setup.py. Then follow [these instructions](https://packaging.python.org/tutorials/packaging-projects/#generating-distribution-archives).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
