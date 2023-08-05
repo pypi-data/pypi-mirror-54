@@ -1,0 +1,8 @@
+numpy
+crossrefapi
+time
+multiprocessing
+requests
+fuzzywuzzy
+re
+codecs
