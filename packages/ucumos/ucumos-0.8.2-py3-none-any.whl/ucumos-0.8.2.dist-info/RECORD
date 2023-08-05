@@ -1,0 +1,14 @@
+ucumos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ucumos/logging.py,sha256=4jbW7ZkRrsbEoCv03yeqOsvxRRshdNOpSGZBzKskgY0,1394
+ucumos/metadata.py,sha256=eMzs_eFVIpZ6zmiXoT5HxFWMicfEotpIAg9-le6oNv4,7268
+ucumos/modeling.py,sha256=mO1wIBE6EJYqF6puMbT7xxT6qsvuYJYh9oG4JB-fuJM,8695
+ucumos/pickler.py,sha256=00gt0aq7-tz_qkcaEouW5JCX4VaAb_5dVvxKDEJ-Uwo,9980
+ucumos/protogen.py,sha256=aQ8W6FLwA8RqOE14oGKGjr6_9HrxSW-mbWzlOfcUuE8,9388
+ucumos/session.py,sha256=0rDzhJhchqCZLwWgjHHaCi-eZffyZhx0sZcOUXd-64k,9424
+ucumos/utils.py,sha256=Clb8hq3It3S7_YM-ph6yo8CALSfQHBwpoygGQaxrQPw,2454
+ucumos/wrapped.py,sha256=joGVyHb0f5YzOub1G2NC2aA0-hoO0AWqf6LXEKB40_w,8861
+ucumos-0.8.2.dist-info/LICENSE.txt,sha256=4IFlIkCJpgOaXuc1bdFirWMfNDDV23YYxc9YSaMPIMg,1631
+ucumos-0.8.2.dist-info/METADATA,sha256=P2QHuGcY6PTtVy1izOZ2nHiTrad1yKoZwa76vmL8tWI,977
+ucumos-0.8.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ucumos-0.8.2.dist-info/top_level.txt,sha256=L7JX5rp5LQUvZGwCNfY8MFnedFD6CIwqFtPMMW5Wp4s,7
+ucumos-0.8.2.dist-info/RECORD,,
