@@ -1,0 +1,3 @@
+[console_scripts]
+octopy-graph = octopy_graph.__main__:main
+
