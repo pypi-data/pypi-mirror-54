@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: particle_tracker_one_d
+Version: 0.1.6
+Summary: Particle tracking in Kymographs
+Home-page: UNKNOWN
+Author: Johan Tenghamn
+Author-email: tenghamn@chalmers.se
+License: MIT
+Description: # 1D particle tracking
+        
+        Particle tracking in one dimension. 
+        
+        ## Installation
+        
+        `pip install git+https://gitlab.com/langhammerlab/1d-particle-tracking.git`
+        
+Keywords: particle tracking nanochannel
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
