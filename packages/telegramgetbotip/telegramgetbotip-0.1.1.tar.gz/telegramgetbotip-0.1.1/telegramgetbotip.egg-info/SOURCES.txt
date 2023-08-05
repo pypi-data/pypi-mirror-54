@@ -1,0 +1,11 @@
+README.md
+setup.py
+telegramgetbotip/__init__.py
+telegramgetbotip/__main__.py
+telegramgetbotip/telegramgetbotip.py
+telegramgetbotip.egg-info/PKG-INFO
+telegramgetbotip.egg-info/SOURCES.txt
+telegramgetbotip.egg-info/dependency_links.txt
+telegramgetbotip.egg-info/entry_points.txt
+telegramgetbotip.egg-info/requires.txt
+telegramgetbotip.egg-info/top_level.txt

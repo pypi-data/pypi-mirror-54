@@ -1,0 +1,3 @@
+[console_scripts]
+telegramgetbotip = telegramgetbotip.__main__:main
+
