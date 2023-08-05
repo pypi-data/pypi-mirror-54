@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aibox
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Junyi Li
+Author-email: cheneyjunyi@gmail.com
+Maintainer: Junyi Li
+Maintainer-email: cheneyjunyi@gmail.com
+License: RUC AI Box License
+Platform: any
+Requires-Dist: requests
+Requires-Dist: re
+Requires-Dist: nltk
+Requires-Dist: string
+
+ai code library for rucaibox group
+
+
