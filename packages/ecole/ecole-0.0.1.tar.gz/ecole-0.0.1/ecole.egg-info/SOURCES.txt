@@ -1,0 +1,5 @@
+setup.py
+ecole.egg-info/PKG-INFO
+ecole.egg-info/SOURCES.txt
+ecole.egg-info/dependency_links.txt
+ecole.egg-info/top_level.txt
