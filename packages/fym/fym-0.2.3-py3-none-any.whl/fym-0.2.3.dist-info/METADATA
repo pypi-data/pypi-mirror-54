@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fym
+Version: 0.2.3
+Summary: SNU FDCL Fym: A gym for flight dynamics
+Home-page: https://github.com/fdcl-nrf/fym
+Author: SNU FDCL
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: gym
+Requires-Dist: matplotlib
+Requires-Dist: numdifftools
+
+UNKNOWN
+
+
