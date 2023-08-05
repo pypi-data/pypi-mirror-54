@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: not-much-fire
+Version: 0.1.1
+Summary: A simple Notmuch notification tool
+Home-page: https://github.com/weilbith/not-much-fire
+Author: Thore Weilbier
+Author-email: thore@weilbier.net
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: appdirs (>=1.4,<2.0)
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: dbus-python (>=1.2,<2.0)
+Requires-Dist: notify2 (>=0.3.1,<0.4.0)
+Requires-Dist: notmuch (>=0.29.1,<0.30.0)
+Project-URL: Repository, https://github.com/weilbith/not-much-fire
