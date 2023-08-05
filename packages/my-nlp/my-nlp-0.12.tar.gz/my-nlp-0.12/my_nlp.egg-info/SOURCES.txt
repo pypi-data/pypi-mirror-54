@@ -1,0 +1,16 @@
+README.md
+setup.py
+my_nlp.egg-info/PKG-INFO
+my_nlp.egg-info/SOURCES.txt
+my_nlp.egg-info/dependency_links.txt
+my_nlp.egg-info/requires.txt
+my_nlp.egg-info/top_level.txt
+mynlp/__init__.py
+mynlp/settings.py
+mynlp/data/test.dat
+mynlp/features/__init__.py
+mynlp/features/document.py
+mynlp/preprocess/__init__.py
+mynlp/preprocess/chineseprocess.py
+mynlp/preprocess/englishprocess.py
+mynlp/utils/__init__.py
