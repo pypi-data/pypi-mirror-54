@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aiohypixel
+Version: 0.0.1
+Summary: An asynchronous Hypixel API Wrapper written in Python
+Home-page: UNKNOWN
+License: LGPL-3.0
+Author: Tmpod
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: aiohttp (>=3.5,<4.0)
+Requires-Dist: dataclasses (>=0.6.0,<0.7.0)
+Description-Content-Type: text/markdown
+
+# `aiohypixel` - An asynchronous Hypixel API Wrapper written in Python
+
+This module is still being made, but how will it work?
+- The base for every operation is going to be a session. Through it you'll be able to make every request you want (player or guild stuff).
+- Then there will be dataclasses for each type of request (player or guild). In the case of player requests there will actually be two dataclasses. 
+    - One for a full player model (all those random bits of info + stats) and a partial player model (just the random info without the stats). You'll also be able to request just the stats.
+    - The stats will also be dataclasses, with each main gamemode having a specific dataclass and the less played ones just using the base one (at least for the first releases)
+- For guild stuff there will be just a dataclass that hold everything as it's usually a smaller data piece.
+
+It should be noted that this can (and will probably) change in the future.
+
+Keep an eye on this page, as it will be updated when major progress is done :wink:
+
+
