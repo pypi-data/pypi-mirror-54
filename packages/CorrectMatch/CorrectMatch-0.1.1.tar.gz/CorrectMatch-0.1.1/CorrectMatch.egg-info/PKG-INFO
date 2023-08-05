@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: CorrectMatch
+Version: 0.1.1
+Summary: Python wrapper for the Julia package CorrectMatch.jl
+Home-page: https://github.com/computationalprivacy/pycorrectmatch
+Author: Luc Rocher
+Author-email: luc@rocher.lc
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
