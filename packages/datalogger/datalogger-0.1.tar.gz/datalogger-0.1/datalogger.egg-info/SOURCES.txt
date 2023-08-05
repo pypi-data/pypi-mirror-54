@@ -1,0 +1,9 @@
+README.md
+setup.py
+datalogger/__init__.py
+datalogger/logger.py
+datalogger.egg-info/PKG-INFO
+datalogger.egg-info/SOURCES.txt
+datalogger.egg-info/dependency_links.txt
+datalogger.egg-info/not-zip-safe
+datalogger.egg-info/top_level.txt
