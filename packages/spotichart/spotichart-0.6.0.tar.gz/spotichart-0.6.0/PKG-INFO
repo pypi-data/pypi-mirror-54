@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: spotichart
+Version: 0.6.0
+Summary: Collector Module for Spotify National Trending Analysis
+Home-page: https://github.com/Manolomon/spotichart
+Author: Manolomon
+Author-email: contacto@manolomon.com
+Maintainer: Manolomon
+Maintainer-email: contacto@manolomon.com
+License: License :: OSI Approved :: MIT License
+Description: # Spotichart
+        
+        ![Badge](https://github.com/Manolomon/spotichart/workflows/spotichart/badge.svg) [![Documentation Status](https://readthedocs.org/projects/spotichart/badge/?version=latest)](https://spotichart.readthedocs.io/en/latest/?badge=latest) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/28b8089c9d9a4ea6ab4acb9c7407d54c)](https://www.codacy.com/manual/Manolomon/spotichart?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Manolomon/spotichart&amp;utm_campaign=Badge_Grade)
+        
+        Collector Module for Spotify National Trending Analysis
+        
+        ## Introduction
+        
+        The Spotichart module makes it easy for data scientist and programmers get the features from the trending songs on Spotify. You can define period of time and a region and get the main characteristics of the top songs.
+        
+        ## Documentation
+        
+        The oficial documentations is available on: [Read The Docs](https://spotichart.readthedocs.io/en/latest/)
+        
+        ## Installation
+        
+        TODO: Not Yet Published
+        
+        ```bash
+        $ pip install spotichart
+        ```
+        
+        ## Requirements
+        
+          - **Python** >= 3.6
+          - **Spotify Web API Access Token**, you can request yours [here](https://developer.spotify.com/console/get-audio-features-track/) and click on `GET TOKEN`. Then copy the token on the `OAuth Token` field.
+          - (Optional) **Genius Web API Access Token**. From [the official docs page](https://docs.genius.com/#/search-h2) you can just select `Authenticate wih the Docs App To Try`, and copy the `Authorization Bearer` provided after logging in.
+        
+        ## Synopsis
+        
+        ### Usage
+        
+        Just to get the audio features, given a date (or period) and a region
+        
+        ```python
+        import spotichart
+        
+        spotify_token = 'YOUR-ACCESS-TOKEN-FROM-THE-WEB-API'
+        
+        chart = spotichart.generate_top_chart(spotify_token, start='2019-01-01', end='2019-10-13', region='mx')
+        
+        ```
+        
+        To additionally retrieve each song's lyrics, Genius ID an auto-detect the language, you can do as well:
+        
+        ```python
+        import spotichart
+        
+        spotify_token = 'YOUR-SPOTIFY-ACCESS-TOKEN-FROM-THE-WEB-API'
+        genius_token = 'YOUR-GENIUS-ACCESS-TOKEN-FROM-THE-WEB-API'
+        
+        chart = spotichart.generate_top_chart(spotify_token, start='2019-01-01',
+                                              end='2019-10-13', region='mx', sleep=0.5)
+        
+        chart_with_lyrics = spotichart.get_lyrics_from_chart(genius_token, chart, sleep=0.1)
+        ```
+        
+        **Note:** Since these functions imply web requests to get the data, the `sleep` parameter is meant to make the algorithm rest and avoid the server to refuse the requests. By default `sleep` is set to 1 second.
+        
+        ### The DataFrame
+        
+        A `pandas.DataFrame` will be generated with the data of interest:
+        
+        ```python
+        >>> chart
+               Position                                      Track Name           Artist  Streams  ... speechiness    tempo time_signature  valence
+        0             1                                   Calma - Remix       Pedro CapÃ³   737894  ...      0.0524  126.899              4    0.761
+        1             2                                      Adan y Eva     Paulo Londra   415066  ...      0.3360  171.993              4    0.720
+        2             3  Taki Taki (with Selena Gomez, Ozuna & Cardi B)         DJ Snake   409061  ...      0.2290   95.948              4    0.591
+        3             4                               MIA (feat. Drake)        Bad Bunny   377855  ...      0.0621   97.062              4    0.158
+        4             5                               A TravÃ©s Del Vaso    Grupo Arranke   346975  ...      0.0297  143.851              3    0.920
+        ...         ...                                             ...              ...      ...  ...         ...      ...            ...      ...
+        14295        46                                       Con Calma     Daddy Yankee   141397  ...      0.0593   93.989              4    0.656
+        14296        47                          La Escuela No Me GustÃ³    Adriel Favela   139350  ...      0.0371  112.548              4    0.844
+        14297        48                          De Los Besos Que Te Di  Christian Nodal   139294  ...      0.0422  195.593              4    0.709
+        14298        49                                   Pa MÃ­ - Remix            Dalex   137812  ...      0.2200  170.018              4    0.727
+        14299        50                                         Circles      Post Malone   131109  ...      0.0395  120.042              4    0.5
+        
+        [14300 rows x 20 columns]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
