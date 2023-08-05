@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: smartcity
+Version: 0.2.13
+Summary: A Smart City Env designed for Reinforcement Learning
+Home-page: https://github.com/Ricocotam/SmartCity-simulator
+Author: Adrien Pouyet (Ricocotam)
+Author-email: ricocotam@gmail.Com
+License: UNKNOWN
+Description: # SmartCity-simulator
+        Smart City Simulator designed for hackathons !
+        
+        
+        Quelques idéees :
+        Matrice d'interraction pour people-lights & people-heaters & people-neighborhood ...
+        Comme ça on peut faire les cochons et en 3 multiplications on a défini qui appartenait où et on peut aller vite
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
