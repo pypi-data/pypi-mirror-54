@@ -1,0 +1,5 @@
+[console_scripts]
+focus-detection = focus_detection:print_help
+focus-detection-image = focus_detection.focus_detection_image:main
+focus-detection-video = focus_detection.focus_detection_video:main
+
