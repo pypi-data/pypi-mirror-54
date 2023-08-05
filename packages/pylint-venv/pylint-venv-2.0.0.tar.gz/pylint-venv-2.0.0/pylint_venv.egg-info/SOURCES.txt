@@ -1,0 +1,8 @@
+MANIFEST.in
+README.rst
+pylint_venv.py
+setup.py
+pylint_venv.egg-info/PKG-INFO
+pylint_venv.egg-info/SOURCES.txt
+pylint_venv.egg-info/dependency_links.txt
+pylint_venv.egg-info/top_level.txt
