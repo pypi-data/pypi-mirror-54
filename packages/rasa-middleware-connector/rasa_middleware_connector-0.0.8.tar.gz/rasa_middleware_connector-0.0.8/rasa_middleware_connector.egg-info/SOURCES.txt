@@ -1,0 +1,17 @@
+.gitignore
+LICENSE.txt
+README.md
+requirements.txt
+setup.cfg
+setup.py
+examples/socket_connector/connector.py
+examples/socket_connector/custom_middlewares/message_collector.py
+examples/socket_connector/custom_middlewares/text_cleaner.py
+rasa_middleware_connector/__init__.py
+rasa_middleware_connector/connector.py
+rasa_middleware_connector/middleware.py
+rasa_middleware_connector.egg-info/PKG-INFO
+rasa_middleware_connector.egg-info/SOURCES.txt
+rasa_middleware_connector.egg-info/dependency_links.txt
+rasa_middleware_connector.egg-info/requires.txt
+rasa_middleware_connector.egg-info/top_level.txt
