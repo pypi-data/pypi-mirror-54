@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: thoth-test
+Version: 0.0.1
+Summary: A test package for Thoth.
+Home-page: UNKNOWN
+Author: Fridolin Pokorny
+Author-email: fridolin@redhat.com
+License: GPLv3+
+Description: A test package for Thoth.
+Platform: UNKNOWN

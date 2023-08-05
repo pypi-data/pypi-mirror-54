@@ -1,0 +1,7 @@
+setup.py
+thoth_test.egg-info/PKG-INFO
+thoth_test.egg-info/SOURCES.txt
+thoth_test.egg-info/dependency_links.txt
+thoth_test.egg-info/not-zip-safe
+thoth_test.egg-info/requires.txt
+thoth_test.egg-info/top_level.txt
