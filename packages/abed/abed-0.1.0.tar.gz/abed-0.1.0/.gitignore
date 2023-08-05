@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+src/abed.egg-info
+build/
+dist/

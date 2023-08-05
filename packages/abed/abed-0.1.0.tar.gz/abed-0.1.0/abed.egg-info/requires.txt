@@ -1,0 +1,9 @@
+Fabric3==1.14.post1
+mpi4py
+tabulate
+bz2file
+progressbar
+dominate
+tqdm
+backports.lzma
+gitpython
