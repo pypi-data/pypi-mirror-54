@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyndodax/api_request.py
+pyndodax.egg-info/PKG-INFO
+pyndodax.egg-info/SOURCES.txt
+pyndodax.egg-info/dependency_links.txt
+pyndodax.egg-info/requires.txt
+pyndodax.egg-info/top_level.txt
