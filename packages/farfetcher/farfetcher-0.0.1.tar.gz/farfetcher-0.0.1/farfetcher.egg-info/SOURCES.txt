@@ -1,0 +1,11 @@
+README.md
+setup.py
+farfetcher/__init__.py
+farfetcher/api.py
+farfetcher/cli.py
+farfetcher.egg-info/PKG-INFO
+farfetcher.egg-info/SOURCES.txt
+farfetcher.egg-info/dependency_links.txt
+farfetcher.egg-info/entry_points.txt
+farfetcher.egg-info/requires.txt
+farfetcher.egg-info/top_level.txt
