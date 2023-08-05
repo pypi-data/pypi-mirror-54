@@ -1,0 +1,3 @@
+[console_scripts]
+octosql_py = octosql_py.cli:main
+
