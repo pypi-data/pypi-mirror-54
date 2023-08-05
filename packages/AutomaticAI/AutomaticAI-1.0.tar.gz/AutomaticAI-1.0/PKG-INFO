@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: AutomaticAI
+Version: 1.0
+Summary: A Hybrid Approach for Automatic Artificial Intelligence Algorithm Selection and Hyperparameter Tuning
+Home-page: https://github.com/CzakoZoltan08/AutomaticAI
+Author: Czako Zoltan
+Author-email: czakozoltan08@gmail.com
+License: MIT
+Download-URL: https://github.com/CzakoZoltan08/AutomaticAI/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: AI,Arificial Intelligence,Particle Swarm Optimization,Simulated Annealing,Automatic Algorithm Selection,Automatic parameter optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
