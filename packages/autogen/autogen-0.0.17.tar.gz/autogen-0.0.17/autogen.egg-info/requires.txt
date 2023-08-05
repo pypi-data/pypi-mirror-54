@@ -1,0 +1,7 @@
+pipreqs
+nbsphinx
+sphinx
+sphinx-rtd-theme
+
+[:platform_system == "Windows"]
+pywin32
