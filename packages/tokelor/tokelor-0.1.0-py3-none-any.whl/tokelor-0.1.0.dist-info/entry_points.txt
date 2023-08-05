@@ -1,0 +1,3 @@
+[console_scripts]
+tokelor=tokelor.main:main
+

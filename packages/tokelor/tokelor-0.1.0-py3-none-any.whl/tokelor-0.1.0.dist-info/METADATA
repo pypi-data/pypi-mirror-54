@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tokelor
+Version: 0.1.0
+Summary: Visualize Python token stream produced by tokenize module.
+Author: Kirill Borisov
+Author-email: lensvol@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: colorama (>=0.4.1,<0.5.0)
