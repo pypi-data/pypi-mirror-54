@@ -1,0 +1,3 @@
+[console_scripts]
+bprof = bprof.cli:main
+
