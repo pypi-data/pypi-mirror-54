@@ -1,0 +1,14 @@
+chemio/__init__.py,sha256=bQzQ-TacxpOmQ0OQYgg1i1rsfjQ8ZycePI4M2dvJgjU,190
+chemio/config.conf,sha256=FC32IbZWimeP3hEsTGUyZjXpxTax6MHwenk-tNi7cK0,625
+chemio/main.py,sha256=ROGyCA9dEjwUUd_xq45uwiWcp_sKqCqXVff6Ix5zVyE,8800
+chemio/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemio/cli/convert.py,sha256=bv9l55PIXLRTtcDcnkXvRyffQYbOvoAdehbq-s11NU4,2973
+chemio/cli/info.py,sha256=kb_VVlGUas67AzO0xnaNkiFf5ADCz3cy0m0-pHTwhzM,2265
+chemio/cli/main.py,sha256=QFIvLe9ntJOqSOjEDRSHn8wKp4pDCzM7K0b7e-CCtNI,5308
+chemio/cli/utils.py,sha256=Qo0PBWUgLrDCdjmzSsQCxVmaVKe6HnB8UhsAbsJMdAQ,423
+chemio-1.6.3.dist-info/LICENSE,sha256=Rkw0XFAkqnSrUZOqN3vXOjLAqiL4kGSs1ijbajK5SKI,1063
+chemio-1.6.3.dist-info/METADATA,sha256=zTZFaqmk29-gneG6DSmkpNvIsGLeDYSZFWnxZHEavKw,4108
+chemio-1.6.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+chemio-1.6.3.dist-info/entry_points.txt,sha256=QwKUbMCTUtZIwIIhW_OxpegSwuB1HkTdoAa6FQNK6Nk,49
+chemio-1.6.3.dist-info/top_level.txt,sha256=sxxA9SxNOSWF9qSNWRN1Wdp4jRrsBLt6QuBraNX2m_A,7
+chemio-1.6.3.dist-info/RECORD,,
