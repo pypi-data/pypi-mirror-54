@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: timekeep
+Version: 0.1
+Summary: Defensive timeseries analytics
+Home-page: https://github.com/TTitcombe/timekeep
+Author: Tom Titcombe
+Author-email: t.j.titcombe@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: timeseries time series analysis data science
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
