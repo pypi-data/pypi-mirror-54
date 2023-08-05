@@ -1,0 +1,12 @@
+README.md
+setup.py
+burpsuite/__init__.py
+burpsuite/client.py
+burpsuite/definitions.py
+burpsuite/exceptions.py
+burpsuite/get_definition.py
+burpsuite.egg-info/PKG-INFO
+burpsuite.egg-info/SOURCES.txt
+burpsuite.egg-info/dependency_links.txt
+burpsuite.egg-info/requires.txt
+burpsuite.egg-info/top_level.txt
