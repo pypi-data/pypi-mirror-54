@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+mtscomp.egg-info/PKG-INFO
+mtscomp.egg-info/SOURCES.txt
+mtscomp.egg-info/dependency_links.txt
+mtscomp.egg-info/entry_points.txt
+mtscomp.egg-info/top_level.txt
