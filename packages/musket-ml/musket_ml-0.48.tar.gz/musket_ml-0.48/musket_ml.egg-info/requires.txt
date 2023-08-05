@@ -1,0 +1,4 @@
+musket_text>=0.42
+musket_core>=0.42
+classification_pipeline>=0.42
+segmentation_pipeline>=0.42
