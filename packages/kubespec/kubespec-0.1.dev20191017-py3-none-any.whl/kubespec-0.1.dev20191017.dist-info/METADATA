@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: kubespec
+Version: 0.1.dev20191017
+Summary: kubespec is a set of foundational libraries for expressing Kubernetes resources as code.
+Home-page: https://github.com/machinezone/kubespec
+Author: Andy Bursavich
+Author-email: abursavich@mz.com
+License: BSD 3
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pytz (>=2019.2)
+Requires-Dist: typeguard (>=2.5.1)
+
+# kubespec
+
+kubespec is a set of foundational Python libraries for expressing Kubernetes resources as code.
+
+Stop wrangling YAML and start using programming tools and techniques to define configuration as objects, enforce consistency, share logic, etc.
+
+
