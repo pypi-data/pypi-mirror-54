@@ -1,0 +1,35 @@
+
+
+.ace-editor ::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+.ace-editor ::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+.ace-editor ::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+.ace-editor ::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+.ace-editor ::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+.ace-editor ::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+.ace-editor ::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+.ace-editor ::-webkit-scrollbar-track:active {
+  background: #666666;
+}
+.ace-editor ::-webkit-scrollbar-corner {
+  background: transparent;
+}

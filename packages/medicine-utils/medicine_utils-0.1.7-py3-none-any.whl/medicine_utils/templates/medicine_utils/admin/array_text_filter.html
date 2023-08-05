@@ -1,0 +1,33 @@
+
+<h3>{{ title }}</h3>
+
+{% with name=choices.0.system_name %}
+<style>
+#{{ name }}-form textarea {
+    width: 206px;
+    height: 20px;
+    max-height: 150px;
+}
+#{{ name }}-form label {
+    display: none;
+}
+#{{ name }}-form input {
+    margin-left: 10px;
+}
+#{{ name }}-form input[type="submit"] {
+    padding: 5px 10px;
+}
+#{{ name }}-form .errorlist {
+    display: none;
+}
+</style>
+
+<form method="GET" action="." id="{{ name }}-form" novalidate>
+    {{ spec.form.as_p }}
+    <input type="submit" value="Найти"/>
+</form>
+
+<script>
+autosize(document.querySelector('#id_{{ name }}'));
+</script>
+{% endwith %}
