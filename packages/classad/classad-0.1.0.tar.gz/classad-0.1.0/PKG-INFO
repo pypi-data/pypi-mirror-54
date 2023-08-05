@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: classad
+Version: 0.1.0
+Summary: Python package to parse and interpret HTCondor classads
+Home-page: None
+Author: Eileen Kuehn, Max Fischer
+Author-email: mainekuehn@gmail.com
