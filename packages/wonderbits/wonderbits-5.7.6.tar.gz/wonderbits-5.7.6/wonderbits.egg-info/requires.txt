@@ -1,0 +1,5 @@
+requests
+pyserial
+Click
+wonderbits-ampy
+esptool
