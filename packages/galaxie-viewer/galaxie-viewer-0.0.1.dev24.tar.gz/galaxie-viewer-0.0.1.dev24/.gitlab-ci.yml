@@ -1,0 +1,53 @@
+image: python:3.7
+
+stages:
+  - tests
+  - pages
+  # - deploy
+
+cache:
+  key: pip
+  paths:
+    - .pip
+
+before_script:
+  - mkdir -p .pip
+  - pip install -U pip
+  - pip --cache-dir=.pip --quiet install tox twine wheel setuptools
+
+
+python-3.7:
+  stage: tests
+  image: python:3.7
+  coverage: '/^TOTAL\s+\d+\s+\d+\s+(\d+\%)$/'
+  script:
+    - tox
+
+#pypi:
+#  stage: deploy
+#  only:
+#    - /^(v|V)?(\d+)(\.\d+)+?$/
+#  variables:
+#    TWINE_USERNAME: $PYPI_USERNAME
+#    TWINE_PASSWORD: $PYPI_PASSWORD
+#    TWINE_REPOSITORY_URL: $PYPI_URL
+#    PBR_VERSION: $CI_COMMIT_REF_NAME
+#  script:
+#    - '[[ -z $TWINE_USERNAME ]] && (echo "\$PYPI_USERNAME is not set" ; exit 1)'
+#    - '[[ -z $TWINE_PASSWORD ]] && (echo "\$PYPI_PASSWORD is not set" ; exit 1)'
+#    - python setup.py -q sdist bdist_wheel
+#  - twine upload dist/*
+
+pages:
+  stage: pages
+  script:
+    - pip install -r docs/requirements.txt
+    - cd docs
+    - sphinx-apidoc -e -f -o source/ ../GLXViewer/
+    - make html
+    - mv build/html/ ../public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

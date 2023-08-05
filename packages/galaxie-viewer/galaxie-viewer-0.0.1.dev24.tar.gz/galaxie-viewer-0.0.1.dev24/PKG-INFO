@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: galaxie-viewer
+Version: 0.0.1.dev24
+Summary: Python package to display text over text templates
+Home-page: https://gitlab.com/Tuuux/galaxie-viewer
+Author: Tuxa
+Author-email: tuxa@rtnp.org
+License: LGPLv3+
+Description: [![pipeline status](https://gitlab.com/Tuuux/galaxie-viewer/badges/master/pipeline.svg)](https://gitlab.com/Tuuux/galaxie-viewer/commits/master) [![coverage report](https://gitlab.com/Tuuux/galaxie-viewer/badges/master/coverage.svg)](https://gitlab.com/Tuuux/galaxie-viewer/commits/master)
+        
+        Galaxie Viewer
+        ==============
+        A small terminal viewer, use by Galaxie Tools for display something to the terminal.
+        <div style="text-align:center"><img src ="https://gitlab.com/Tuuux/galaxie-viewer/raw/master/docs/source/images/logo_galaxie.png" /></div>
+        
+        The Mission
+        -----------
+        Provide a Text Based line viewer, it use a template.
+        It existe many template for high level language, but nothing for text one.
+        
+        Our mission is to provide useful display template for terminal. Actually every Galaxie tool use it; where print() is not use any more...
+        
+        Screenshots
+        -----------
+        v0.2
+        <p align="center">
+        <img src="https://gitlab.com/Tuuux/galaxie-viewer/raw/master/docs/source/images/screen_01.png">
+        </p>
+        
+        Example
+        -------
+        
+        ```python
+        #!/usr/bin/env python3
+        # -*- coding: utf-8 -*-
+        
+        # It script it publish under GNU GENERAL PUBLIC LICENSE
+        # http://www.gnu.org/licenses/gpl-3.0.en.html
+        # Author: the Galaxie Viewer Team, all rights reserved
+        import sys
+        import os
+        import time
+        # Require when you haven't GLXViewer as default Package
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        sys.path.append(os.path.dirname(current_dir))
+        from GLXViewer.viewer import flush_infos
+        from GLXViewer.viewer import flush_a_new_line
+        
+        
+        def main():
+            start_time = time.time()
+            flush_infos(
+                column_1=__file__,
+                column_2='Yes that is possible'
+            )
+            flush_infos(
+                column_1=__file__,
+                column_2='it have no difficulty to make it',
+                column_3='what ?'
+            )
+            flush_infos(
+                column_1='Use you keyboard with Ctrl + c for stop the demo',
+                status_text='INFO',
+                status_text_color='YELLOW',
+                status_symbol='!',
+            )
+            while True:
+        
+                flush_infos(
+                    column_1=__file__,
+                    column_2=str(time.time() - start_time),
+                    status_text='REC',
+                    status_text_color='RED',
+                    status_symbol='<',
+                    prompt=True
+                )
+        
+        
+        if __name__ == '__main__':
+            try:
+                main()
+            except KeyboardInterrupt:
+                flush_a_new_line()
+                sys.exit()
+        ```
+        
+        Installation
+        ------------
+        ```bash
+        python setyp.py install
+        ```
+        
+        
+Keywords: gitlab
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: General
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
