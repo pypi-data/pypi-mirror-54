@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: urbansim-defaults
+Version: 0.2
+Summary: Installs and runs the urbansim defaults.
+Home-page: https://github.com/udst/urbansim_defaults
+Author: UrbanSim, Inc.
+Author-email: info@urbansim.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: numpy
+Requires-Dist: orca
+Requires-Dist: pandana
+Requires-Dist: pandas
+Requires-Dist: urbansim
+
+UNKNOWN
+
+
