@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: filedown
+Version: 0.1.2
+Summary: filedown = Multi Thread to Download
+Home-page: https://windard.com
+Author: Windard Yang
+Author-email: windard@qq.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: requests
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
