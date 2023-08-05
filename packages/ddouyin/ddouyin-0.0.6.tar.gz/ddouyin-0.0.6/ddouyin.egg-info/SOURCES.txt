@@ -1,0 +1,8 @@
+README.md
+setup.py
+ddouyin/__init__.py
+ddouyin/ddouyin.py
+ddouyin.egg-info/PKG-INFO
+ddouyin.egg-info/SOURCES.txt
+ddouyin.egg-info/dependency_links.txt
+ddouyin.egg-info/top_level.txt
