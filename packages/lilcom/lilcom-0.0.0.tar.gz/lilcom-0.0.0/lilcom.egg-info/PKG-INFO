@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: lilcom
+Version: 0.0.0
+Summary: Small compression utility for sequence data in NumPy
+Home-page: https://github.com/danpovey/lilcom
+Author: Daniel Povey, Soroush Zargar, Mahsa Yarmohammadi
+Author-email: dpovey@gmail.com
+License: BSD
+Description: # lilcom
+        
+        
+        Package for compression and decompression of sequence data (specially audio files). This package includes:
+        * Compression from 16-bit integer stream to 8-bit integer stream
+        * Compression from floating point stream to 8-bit integer stream
+        * Decompression from 8-bit integer stream to 16-bit integer stream
+        =======
+        This package requires Python 3 and is not compatible with Python 2.
+        
+        ## Installation
+        
+        ### Using Github Repository
+        To install lilcom first clone the repository;
+        ```
+        
+        git clone git@github.com:danpovey/lilcom.git
+        ```
+        
+        then run setup with `install` argument.
+        ```
+        python3 setup.py install
+        ```
+        
+        and then for test, cd to `test` and run:
+        
+        ```
+        python3 routine1-one-dimensional-integer.py
+        python3 routine2-one-dimensional-float.py
+        python3 test_interface.py
+        ```
+        
+        
+Keywords: compression numpy
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
