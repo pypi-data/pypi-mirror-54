@@ -1,0 +1,5 @@
+locustio
+psycogreen
+psycopg2
+websocket-client
+python-dateutil
