@@ -1,0 +1,8 @@
+README.txt
+setup.py
+taxuxiang/__init__.py
+taxuxiang/hello.py
+taxuxiang.egg-info/PKG-INFO
+taxuxiang.egg-info/SOURCES.txt
+taxuxiang.egg-info/dependency_links.txt
+taxuxiang.egg-info/top_level.txt
