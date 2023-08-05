@@ -1,0 +1,379 @@
+================
+α.maltose
+================
+nicotinic acid
+================
+nicotinic acid d.ribonucleotide
+nicotinic acid.adenine dinucleotide phosphate
+================
+nicotinic acid
+nicotinic acid.adenine
+================
++ use_stopwords=1
++ remove_fullstops=0
++ min_firstword=3
++ stopwords=stopwords.txt
++ OIFS=' 	
+'
+++ echo -en ''
++ IFS=
+++ tr '\n\r' ' '
++ declare 'original_text=α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
++ declare data_source=lexicon
++ [[ -z α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide  ]]
++ [[ -z lexicon ]]
+++ tr '[:upper:]' '[:lower:]'
++ declare 'text=α-maltose and nicotinic acid was found, but not nicotinic acid d-ribonucleotide '
+++ sed 's/[^[:alnum:][:space:]()]/./g'
++ text='α.maltose and nicotinic acid was found. but not nicotinic acid d.ribonucleotide '
+++ sed -e 's/[[:space:]()@]\+/ /g'
++ text='α.maltose and nicotinic acid was found. but not nicotinic acid d.ribonucleotide '
++ '[' 0 -eq 1 ']'
++ '[' 1 -eq 1 ']'
+++ tr ' ' '\n'
+++ grep -v -w -f stopwords.txt
+++ tr '\n' ' '
++ text='α.maltose nicotinic acid found. nicotinic acid d.ribonucleotide  '
+++ sed -e 's/^ *//' -e 's/ *$//'
++ text='α.maltose nicotinic acid found. nicotinic acid d.ribonucleotide'
++ declare piped_text
+++ sed -e 's/ \+/|/g'
++ piped_text='α.maltose|nicotinic|acid|found.|nicotinic|acid|d.ribonucleotide'
++ declare piped_pair_text1
+++ sed -e 's/\([^ ]\+ \+[^ ]\+\) /\1|/g'
+++ sed 's/|[^|]*$//'
++ piped_pair_text1='α.maltose nicotinic|acid found.|nicotinic acid'
++ declare piped_pair_text2
+++ sed -e 's/\([^ ]\+ \+[^ ]\+\) /\1|/g'
+++ sed 's/^[^|]*|//'
+++ sed 's/|[^|]*$//'
++ piped_pair_text2='nicotinic acid|found. nicotinic|acid d.ribonucleotide'
++ declare 'piped_pair_text=α.maltose nicotinic|acid found.|nicotinic acid|nicotinic acid|found. nicotinic|acid d.ribonucleotide'
++ declare get_matches_positions_result=
++ declare get_entities_source_word1_result=
++ declare get_entities_source_word2_result=
++ declare get_entities_source_words_result=
++ declare get_entities_source_words_result=
++ get_entities_source lexicon
++ local source=lexicon
++ cd data/
++ local result1
++ local result2
++ local result3
+++ get_entities_source_word1 lexicon_word1.txt
+++ local labels=lexicon_word1.txt
+++ get_entities_source_word1_result=
+++ '[' 63 -ge 2 ']'
+++ local matches
++++ egrep '^(α.maltose|nicotinic|acid|found.|nicotinic|acid|d.ribonucleotide)$' lexicon_word1.txt
++++ tr '\n' '|'
++++ sed 's/|[[:space:]]*$//'
+++ matches=α.maltose
+++ '[' 9 -ge 2 ']'
+++ get_matches_positions α.maltose
+++ local matches=α.maltose
+++ local results=
+++ local 'matching_text= '
+++ local 'new_matching_text=α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
++++ sed -e 's/ / +/g'
+++ matches=α.maltose
+++ '[' 'α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide ' '!=' ' ' ']'
++++ sed 's/\./\[^ \]/g'
+++ matches='α[^ ]maltose'
+++ matching_text='α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
+++ local result
++++ awk 'BEGIN {IGNORECASE = 1}
+			match($0,/α[^ ]maltose/){
+				if (substr($0, RSTART-1, 1) ~ "[^[:alnum:]@-]" && substr($0, RSTART+RLENGTH, 1) ~ "[^[:alnum:]@-]")
+						print RSTART-2 "\t" RSTART-2+RLENGTH "\t" substr($0, RSTART, RLENGTH)}'
+++ result='0	9	α-maltose'
+++ local match_hidden
++++ awk 'BEGIN {IGNORECASE = 1}
+					   match($0,/α[^ ]maltose/){print substr($0, RSTART, RLENGTH)}'
++++ tr '[:alnum:]' @
+++ match_hidden=α-@@@@@@@
++++ awk 'BEGIN {IGNORECASE = 1} {sub(/α[^ ]maltose/,"α-@@@@@@@",$0)}1'
+++ new_matching_text='α-@@@@@@@ and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
+++ '[' 13 -ge 2 ']'
+++ results='
+0	9	α-maltose'
+++ '[' 'α-@@@@@@@ and nicotinic acid was found, but not nicotinic acid D-ribonucleotide ' '!=' 'α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide ' ']'
++++ sed 's/\./\[^ \]/g'
+++ matches='α[^ ]maltose'
+++ matching_text='α-@@@@@@@ and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
+++ local result
++++ awk 'BEGIN {IGNORECASE = 1}
+			match($0,/α[^ ]maltose/){
+				if (substr($0, RSTART-1, 1) ~ "[^[:alnum:]@-]" && substr($0, RSTART+RLENGTH, 1) ~ "[^[:alnum:]@-]")
+						print RSTART-2 "\t" RSTART-2+RLENGTH "\t" substr($0, RSTART, RLENGTH)}'
+++ result=
+++ local match_hidden
++++ awk 'BEGIN {IGNORECASE = 1}
+					   match($0,/α[^ ]maltose/){print substr($0, RSTART, RLENGTH)}'
++++ tr '[:alnum:]' @
+++ match_hidden=
++++ awk 'BEGIN {IGNORECASE = 1} {sub(/α[^ ]maltose/,"",$0)}1'
+++ new_matching_text='α-@@@@@@@ and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
+++ '[' 0 -ge 2 ']'
+++ '[' 'α-@@@@@@@ and nicotinic acid was found, but not nicotinic acid D-ribonucleotide ' '!=' 'α-@@@@@@@ and nicotinic acid was found, but not nicotinic acid D-ribonucleotide ' ']'
+++ get_matches_positions_result='
+0	9	α-maltose'
+++ get_entities_source_word1_result='
+0	9	α-maltose'
+++ echo '
+0	9	α-maltose'
++ result1='
+0	9	α-maltose'
+++ get_entities_source_word2 lexicon_word2.txt
+++ local labels=lexicon_word2.txt
+++ get_entities_source_word2_result=
+++ '[' 100 -ge 2 ']'
+++ local matches
++++ egrep '^(α.maltose nicotinic|acid found.|nicotinic acid|nicotinic acid|found. nicotinic|acid d.ribonucleotide)$' lexicon_word2.txt
++++ tr '\n' '|'
++++ sed 's/|[[:space:]]*$//'
+++ matches='nicotinic acid'
+++ '[' 14 -ge 2 ']'
+++ get_matches_positions 'nicotinic acid'
+++ local 'matches=nicotinic acid'
+++ local results=
+++ local 'matching_text= '
+++ local 'new_matching_text=α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
++++ sed -e 's/ / +/g'
+++ matches='nicotinic +acid'
+++ '[' 'α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide ' '!=' ' ' ']'
++++ sed 's/\./\[^ \]/g'
+++ matches='nicotinic +acid'
+++ matching_text='α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
+++ local result
++++ awk 'BEGIN {IGNORECASE = 1}
+			match($0,/nicotinic +acid/){
+				if (substr($0, RSTART-1, 1) ~ "[^[:alnum:]@-]" && substr($0, RSTART+RLENGTH, 1) ~ "[^[:alnum:]@-]")
+						print RSTART-2 "\t" RSTART-2+RLENGTH "\t" substr($0, RSTART, RLENGTH)}'
+++ result='14	28	nicotinic acid'
+++ local match_hidden
++++ awk 'BEGIN {IGNORECASE = 1}
+					   match($0,/nicotinic +acid/){print substr($0, RSTART, RLENGTH)}'
++++ tr '[:alnum:]' @
+++ match_hidden='@@@@@@@@@ @@@@'
++++ awk 'BEGIN {IGNORECASE = 1} {sub(/nicotinic +acid/,"@@@@@@@@@ @@@@",$0)}1'
+++ new_matching_text='α-maltose and @@@@@@@@@ @@@@ was found, but not nicotinic acid D-ribonucleotide '
+++ '[' 20 -ge 2 ']'
+++ results='
+14	28	nicotinic acid'
+++ '[' 'α-maltose and @@@@@@@@@ @@@@ was found, but not nicotinic acid D-ribonucleotide ' '!=' 'α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide ' ']'
++++ sed 's/\./\[^ \]/g'
+++ matches='nicotinic +acid'
+++ matching_text='α-maltose and @@@@@@@@@ @@@@ was found, but not nicotinic acid D-ribonucleotide '
+++ local result
++++ awk 'BEGIN {IGNORECASE = 1}
+			match($0,/nicotinic +acid/){
+				if (substr($0, RSTART-1, 1) ~ "[^[:alnum:]@-]" && substr($0, RSTART+RLENGTH, 1) ~ "[^[:alnum:]@-]")
+						print RSTART-2 "\t" RSTART-2+RLENGTH "\t" substr($0, RSTART, RLENGTH)}'
+++ result='48	62	nicotinic acid'
+++ local match_hidden
++++ awk 'BEGIN {IGNORECASE = 1}
+					   match($0,/nicotinic +acid/){print substr($0, RSTART, RLENGTH)}'
++++ tr '[:alnum:]' @
+++ match_hidden='@@@@@@@@@ @@@@'
++++ awk 'BEGIN {IGNORECASE = 1} {sub(/nicotinic +acid/,"@@@@@@@@@ @@@@",$0)}1'
+++ new_matching_text='α-maltose and @@@@@@@@@ @@@@ was found, but not @@@@@@@@@ @@@@ D-ribonucleotide '
+++ '[' 20 -ge 2 ']'
+++ results='
+14	28	nicotinic acid
+48	62	nicotinic acid'
+++ '[' 'α-maltose and @@@@@@@@@ @@@@ was found, but not @@@@@@@@@ @@@@ D-ribonucleotide ' '!=' 'α-maltose and @@@@@@@@@ @@@@ was found, but not nicotinic acid D-ribonucleotide ' ']'
++++ sed 's/\./\[^ \]/g'
+++ matches='nicotinic +acid'
+++ matching_text='α-maltose and @@@@@@@@@ @@@@ was found, but not @@@@@@@@@ @@@@ D-ribonucleotide '
+++ local result
++++ awk 'BEGIN {IGNORECASE = 1}
+			match($0,/nicotinic +acid/){
+				if (substr($0, RSTART-1, 1) ~ "[^[:alnum:]@-]" && substr($0, RSTART+RLENGTH, 1) ~ "[^[:alnum:]@-]")
+						print RSTART-2 "\t" RSTART-2+RLENGTH "\t" substr($0, RSTART, RLENGTH)}'
+++ result=
+++ local match_hidden
++++ awk 'BEGIN {IGNORECASE = 1}
+					   match($0,/nicotinic +acid/){print substr($0, RSTART, RLENGTH)}'
++++ tr '[:alnum:]' @
+++ match_hidden=
++++ awk 'BEGIN {IGNORECASE = 1} {sub(/nicotinic +acid/,"",$0)}1'
+++ new_matching_text='α-maltose and @@@@@@@@@ @@@@ was found, but not @@@@@@@@@ @@@@ D-ribonucleotide '
+++ '[' 0 -ge 2 ']'
+++ '[' 'α-maltose and @@@@@@@@@ @@@@ was found, but not @@@@@@@@@ @@@@ D-ribonucleotide ' '!=' 'α-maltose and @@@@@@@@@ @@@@ was found, but not @@@@@@@@@ @@@@ D-ribonucleotide ' ']'
+++ get_matches_positions_result='
+14	28	nicotinic acid
+48	62	nicotinic acid'
+++ get_entities_source_word2_result='
+14	28	nicotinic acid
+48	62	nicotinic acid'
+++ echo '
+14	28	nicotinic acid
+48	62	nicotinic acid'
++ result2='
+14	28	nicotinic acid
+48	62	nicotinic acid'
+++ get_entities_source_words lexicon_words2.txt lexicon_words.txt
+++ local labels2=lexicon_words2.txt
+++ local labels=lexicon_words.txt
+++ get_entities_source_words_result=
+++ '[' 100 -ge 2 ']'
+++ local matches
++++ egrep '^(α.maltose nicotinic|acid found.|nicotinic acid|nicotinic acid|found. nicotinic|acid d.ribonucleotide)$' lexicon_words2.txt
++++ egrep '[[:alpha:]]{3,}'
++++ sed 's/|[[:space:]]*$//'
++++ tr '\n' '|'
+++ matches='nicotinic acid'
+++ '[' 14 -ge 2 ']'
+++ local fullmatches
++++ egrep '^(nicotinic acid)' lexicon_words.txt
++++ sed 's/|[[:space:]]*$//'
++++ tr '\n' '|'
+++ fullmatches='nicotinic acid d.ribonucleotide|nicotinic acid.adenine dinucleotide phosphate'
+++ get_matches_positions 'nicotinic acid d.ribonucleotide|nicotinic acid.adenine dinucleotide phosphate'
+++ local 'matches=nicotinic acid d.ribonucleotide|nicotinic acid.adenine dinucleotide phosphate'
+++ local results=
+++ local 'matching_text= '
+++ local 'new_matching_text=α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
++++ sed -e 's/ / +/g'
+++ matches='nicotinic +acid +d.ribonucleotide|nicotinic +acid.adenine +dinucleotide +phosphate'
+++ '[' 'α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide ' '!=' ' ' ']'
++++ sed 's/\./\[^ \]/g'
+++ matches='nicotinic +acid +d[^ ]ribonucleotide|nicotinic +acid[^ ]adenine +dinucleotide +phosphate'
+++ matching_text='α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide '
+++ local result
++++ awk 'BEGIN {IGNORECASE = 1}
+			match($0,/nicotinic +acid +d[^ ]ribonucleotide|nicotinic +acid[^ ]adenine +dinucleotide +phosphate/){
+				if (substr($0, RSTART-1, 1) ~ "[^[:alnum:]@-]" && substr($0, RSTART+RLENGTH, 1) ~ "[^[:alnum:]@-]")
+						print RSTART-2 "\t" RSTART-2+RLENGTH "\t" substr($0, RSTART, RLENGTH)}'
+++ result='48	79	nicotinic acid D-ribonucleotide'
+++ local match_hidden
++++ awk 'BEGIN {IGNORECASE = 1}
+					   match($0,/nicotinic +acid +d[^ ]ribonucleotide|nicotinic +acid[^ ]adenine +dinucleotide +phosphate/){print substr($0, RSTART, RLENGTH)}'
++++ tr '[:alnum:]' @
+++ match_hidden='@@@@@@@@@ @@@@ @-@@@@@@@@@@@@@@'
++++ awk 'BEGIN {IGNORECASE = 1} {sub(/nicotinic +acid +d[^ ]ribonucleotide|nicotinic +acid[^ ]adenine +dinucleotide +phosphate/,"@@@@@@@@@ @@@@ @-@@@@@@@@@@@@@@",$0)}1'
+++ new_matching_text='α-maltose and nicotinic acid was found, but not @@@@@@@@@ @@@@ @-@@@@@@@@@@@@@@ '
+++ '[' 37 -ge 2 ']'
+++ results='
+48	79	nicotinic acid D-ribonucleotide'
+++ '[' 'α-maltose and nicotinic acid was found, but not @@@@@@@@@ @@@@ @-@@@@@@@@@@@@@@ ' '!=' 'α-maltose and nicotinic acid was found, but not nicotinic acid D-ribonucleotide ' ']'
++++ sed 's/\./\[^ \]/g'
+++ matches='nicotinic +acid +d[^ ]ribonucleotide|nicotinic +acid[^ ]adenine +dinucleotide +phosphate'
+++ matching_text='α-maltose and nicotinic acid was found, but not @@@@@@@@@ @@@@ @-@@@@@@@@@@@@@@ '
+++ local result
++++ awk 'BEGIN {IGNORECASE = 1}
+			match($0,/nicotinic +acid +d[^ ]ribonucleotide|nicotinic +acid[^ ]adenine +dinucleotide +phosphate/){
+				if (substr($0, RSTART-1, 1) ~ "[^[:alnum:]@-]" && substr($0, RSTART+RLENGTH, 1) ~ "[^[:alnum:]@-]")
+						print RSTART-2 "\t" RSTART-2+RLENGTH "\t" substr($0, RSTART, RLENGTH)}'
+++ result=
+++ local match_hidden
++++ awk 'BEGIN {IGNORECASE = 1}
+					   match($0,/nicotinic +acid +d[^ ]ribonucleotide|nicotinic +acid[^ ]adenine +dinucleotide +phosphate/){print substr($0, RSTART, RLENGTH)}'
++++ tr '[:alnum:]' @
+++ match_hidden=
++++ awk 'BEGIN {IGNORECASE = 1} {sub(/nicotinic +acid +d[^ ]ribonucleotide|nicotinic +acid[^ ]adenine +dinucleotide +phosphate/,"",$0)}1'
+++ new_matching_text='α-maltose and nicotinic acid was found, but not @@@@@@@@@ @@@@ @-@@@@@@@@@@@@@@ '
+++ '[' 0 -ge 2 ']'
+++ '[' 'α-maltose and nicotinic acid was found, but not @@@@@@@@@ @@@@ @-@@@@@@@@@@@@@@ ' '!=' 'α-maltose and nicotinic acid was found, but not @@@@@@@@@ @@@@ @-@@@@@@@@@@@@@@ ' ']'
+++ get_matches_positions_result='
+48	79	nicotinic acid D-ribonucleotide'
+++ get_entities_source_words_result='
+48	79	nicotinic acid D-ribonucleotide'
+++ echo '
+48	79	nicotinic acid D-ribonucleotide'
++ result3='
+48	79	nicotinic acid D-ribonucleotide'
++ wait
++ [[ -z 
+0	9	α-maltose ]]
++ local 'result=
+0	9	α-maltose
+
+14	28	nicotinic acid
+48	62	nicotinic acid
+
+48	79	nicotinic acid D-ribonucleotide'
+++ sed '{/^$/d}'
++ result='0	9	α-maltose
+14	28	nicotinic acid
+48	62	nicotinic acid
+48	79	nicotinic acid D-ribonucleotide'
++ '[' -e lexicon_links.tsv ']'
++ read line
+++ cut '-d	' -f3-
++ declare label=α-maltose
+++ sed 's/[^[:alnum:][:space:]()]/./g'
++ declare text=α.maltose
+++ sed -e 's/[[:space:]()@]\+/ /g'
++ text=α.maltose
+++ sed -e 's/\.$//' -e 's/\. / /g'
++ text=α.maltose
+++ tr '[:upper:]' '[:lower:]'
++ text=α.maltose
+++ sed -e 's/^ *//' -e 's/ *$//'
++ text=α.maltose
+++ egrep -m 1 '^α.maltose	' lexicon_links.tsv
+++ cut -f2
++ link=http://purl.obolibrary.org/obo/CHEBI_18167
++ echo -e '0	9	α-maltose\thttp://purl.obolibrary.org/obo/CHEBI_18167'
++ read line
+++ cut '-d	' -f3-
++ declare 'label=nicotinic acid'
+++ sed 's/[^[:alnum:][:space:]()]/./g'
++ declare 'text=nicotinic acid'
+++ sed -e 's/[[:space:]()@]\+/ /g'
++ text='nicotinic acid'
+++ sed -e 's/\.$//' -e 's/\. / /g'
++ text='nicotinic acid'
+++ tr '[:upper:]' '[:lower:]'
++ text='nicotinic acid'
+++ sed -e 's/^ *//' -e 's/ *$//'
++ text='nicotinic acid'
+++ egrep -m 1 '^nicotinic acid	' lexicon_links.tsv
+++ cut -f2
++ link=http://purl.obolibrary.org/obo/CHEBI_15940
++ echo -e '14	28	nicotinic acid\thttp://purl.obolibrary.org/obo/CHEBI_15940'
++ read line
+++ cut '-d	' -f3-
++ declare 'label=nicotinic acid'
+++ sed 's/[^[:alnum:][:space:]()]/./g'
++ declare 'text=nicotinic acid'
+++ sed -e 's/[[:space:]()@]\+/ /g'
++ text='nicotinic acid'
+++ sed -e 's/\.$//' -e 's/\. / /g'
++ text='nicotinic acid'
+++ tr '[:upper:]' '[:lower:]'
++ text='nicotinic acid'
+++ sed -e 's/^ *//' -e 's/ *$//'
++ text='nicotinic acid'
+++ egrep -m 1 '^nicotinic acid	' lexicon_links.tsv
+++ cut -f2
++ link=http://purl.obolibrary.org/obo/CHEBI_15940
++ echo -e '48	62	nicotinic acid\thttp://purl.obolibrary.org/obo/CHEBI_15940'
++ read line
+++ cut '-d	' -f3-
++ declare 'label=nicotinic acid D-ribonucleotide'
+++ sed 's/[^[:alnum:][:space:]()]/./g'
++ declare 'text=nicotinic acid D.ribonucleotide'
+++ sed -e 's/[[:space:]()@]\+/ /g'
++ text='nicotinic acid D.ribonucleotide'
+++ sed -e 's/\.$//' -e 's/\. / /g'
++ text='nicotinic acid D.ribonucleotide'
+++ tr '[:upper:]' '[:lower:]'
++ text='nicotinic acid d.ribonucleotide'
+++ sed -e 's/^ *//' -e 's/ *$//'
++ text='nicotinic acid d.ribonucleotide'
+++ egrep -m 1 '^nicotinic acid d.ribonucleotide	' lexicon_links.tsv
+++ cut -f2
++ link=http://purl.obolibrary.org/obo/CHEBI_15763
++ echo -e '48	79	nicotinic acid D-ribonucleotide\thttp://purl.obolibrary.org/obo/CHEBI_15763'
++ read line
++ cd ..
++ IFS=' 	
+'
+0	9	α-maltose	http://purl.obolibrary.org/ob	0	9	α-maltose	http://purl.obolibrary.org/ob
+14	28	nicotinic acid	http://purl.obolibrary.org/ob	14	28	nicotinic acid	http://purl.obolibrary.org/ob
+48	62	nicotinic acid	http://purl.obolibrary.org/ob	48	62	nicotinic acid	http://purl.obolibrary.org/ob
+48	79	nicotinic acid D-ribonucleotide	http://purl.o	48	79	nicotinic acid D-ribonucleotide	http://purl.o
+Great you are ready to go!
