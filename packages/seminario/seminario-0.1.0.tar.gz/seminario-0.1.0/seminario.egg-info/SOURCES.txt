@@ -1,0 +1,13 @@
+README.md
+setup.py
+seminario/__init__.py
+seminario/_io.py
+seminario/config.py
+seminario/interactive.py
+seminario/seminar.py
+seminario/seminardataframe.py
+seminario.egg-info/PKG-INFO
+seminario.egg-info/SOURCES.txt
+seminario.egg-info/dependency_links.txt
+seminario.egg-info/requires.txt
+seminario.egg-info/top_level.txt
