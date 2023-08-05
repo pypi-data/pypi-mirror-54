@@ -1,0 +1,15 @@
+johnnydep/__init__.py,sha256=Tv4MYjvRg4edJgJdfWlLrWScuLeEH9KzN5SdGKgS3T8,74
+johnnydep/__main__.py,sha256=jcU5QaL05q5FsyM-Fb12OjcDdWs18sbJ8zrSVZ6y6HM,70
+johnnydep/cli.py,sha256=Rb0zTIFdzQASz3dwW11JR_3N8Te8PuDLb1AdrXkzAfA,2688
+johnnydep/compat.py,sha256=z_8WF7RJs6TFlsFIAAxUQgDXLW7ziVL41vDYILcbmJQ,541
+johnnydep/env_check.py,sha256=XVFLsDgmAPVtxubDsfxe2cYdj7HcWxAIMtZqz0hLFGo,2078
+johnnydep/lib.py,sha256=RBPA4dzF0UreH8Ck0-VTuttZqXVC8xY2YWYlSEuCoNE,15434
+johnnydep/logs.py,sha256=XpqD0zWEVscNr2kgKVORsejMmQSVXg3o2yBH_aKCRXY,2426
+johnnydep/pipper.py,sha256=_3JvMGkeP__fL1wd8QsgC3VQ6idKiqcUS-o7xvWZx1w,6972
+johnnydep/util.py,sha256=jU7owO8Typm1TgmjBTUsszqeVvXUjj1mPCEhg83O6Go,594
+johnnydep-1.0.dist-info/LICENSE,sha256=MalZz6TEmjhx_yjF7lg9yLiGCTFMaVMgOBM9MKmXiUA,1066
+johnnydep-1.0.dist-info/METADATA,sha256=0UoD5bCwUmXXfXAI6n6t4VqlN9URIxSorB3O07qaA84,4227
+johnnydep-1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+johnnydep-1.0.dist-info/entry_points.txt,sha256=TY3qRAE0Fm24cr2WVDbvzYIh_JjaIsVdqXQNfmi1UZs,81
+johnnydep-1.0.dist-info/top_level.txt,sha256=NjCbbD-V0z0QOCIn9k1__rOhm0Xms_R0KF2hWZL2O6M,10
+johnnydep-1.0.dist-info/RECORD,,
