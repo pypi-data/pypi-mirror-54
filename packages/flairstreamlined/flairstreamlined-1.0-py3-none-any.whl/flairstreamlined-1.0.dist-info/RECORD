@@ -1,0 +1,15 @@
+flair/__init__.py,sha256=-jt99f5g6lf6pTlloMWgrLsfCk--7d3ySmoVWxOqvls,1008
+flair/data.py,sha256=nlMGccOI6InPhyIkSkLp7zLpT1cPNK563SkZ_6jGayM,31113
+flair/embeddings.py,sha256=1zy53gkGCXKIxdAo_KWEqZ_FaIoMyNlxwpgjLIHgkKc,10590
+flair/file_utils.py,sha256=wAlYwogN9O-aGgIH6vzVGYISUyvqKKiirzicYxQhti8,4743
+flair/nn.py,sha256=f7eAUb4ICPEIRylGgcXBafK3KJ2nRrU84vSnDhUYhWA,1154
+flair/setup.py,sha256=t9d0cKWUhgRINd-wjosMzHvy2G0RLLKchhNViHOp0Cs,1239
+flair/training_utils.py,sha256=146FfQRLF-_cn5Nr5Epc25Lvu1J4CLqJ4ronbtwE29Y,934
+flair/models/__init__.py,sha256=Na53Tqtr0-EIS5bqgACeFZ8W28FEkXrj1gHCkk6Qvhg,54
+flair/models/language_model.py,sha256=cbMZX8Ibt9GgyNzwJKL_x_iuTf743zw4lKFg5FNnQJw,2447
+flair/models/text_classification_model.py,sha256=NPqSlXySCuOtPM5I2UFlCqkihgsG3sRGIDX280IE9P4,6987
+flairstreamlined-1.0.dist-info/LICENSE,sha256=JNAYJSRphJtIAKcCNxwVWi2XEAAU4OjUANpmRkYmE6A,1069
+flairstreamlined-1.0.dist-info/METADATA,sha256=1sVBcSnYM3X8rkg5P2YfwufY6er9PI37-omwAELDk-4,459
+flairstreamlined-1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+flairstreamlined-1.0.dist-info/top_level.txt,sha256=9E4wiXHD-7xGGFK704X2HNlDEcwpvili7-0MDYV6hMw,6
+flairstreamlined-1.0.dist-info/RECORD,,
