@@ -1,0 +1,11 @@
+README.rst
+setup.py
+sphinxcontrib/__init__.py
+sphinxcontrib/bitfield.py
+sphinxcontrib_bitfield.egg-info/PKG-INFO
+sphinxcontrib_bitfield.egg-info/SOURCES.txt
+sphinxcontrib_bitfield.egg-info/dependency_links.txt
+sphinxcontrib_bitfield.egg-info/namespace_packages.txt
+sphinxcontrib_bitfield.egg-info/not-zip-safe
+sphinxcontrib_bitfield.egg-info/requires.txt
+sphinxcontrib_bitfield.egg-info/top_level.txt

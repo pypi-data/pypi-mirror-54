@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: sphinxcontrib-bitfield
+Version: 0.2.0
+Summary: Sphinx "bitfield" extension
+Home-page: https://github.com/Arth-ur/sphinxcontrib-bitfield
+Author: Arthur Gay
+Author-email: UNKNOWN
+License: BSD
+Download-URL: http://pypi.python.org/pypi/sphinxcontrib-bitfield
+Description: 
+        This package contains the bitfield Sphinx extension.
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
