@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+E2Yaml/E2Yaml.py
+E2Yaml/__init__.py
+E2Yaml/utilities.py
+E2Yaml.egg-info/PKG-INFO
+E2Yaml.egg-info/SOURCES.txt
+E2Yaml.egg-info/dependency_links.txt
+E2Yaml.egg-info/top_level.txt
