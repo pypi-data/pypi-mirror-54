@@ -1,0 +1,180 @@
+Metadata-Version: 1.1
+Name: urouter
+Version: 0.1.1
+Summary: Router Configurator for you project.
+Home-page: https://github.com/bruziev/urouter
+Author: Bakhtiyor Ruziev
+Author-email: bakhtiyor.ruziev@yandex.ru
+License: MIT
+Description: uRouter
+        ========
+        .. image:: https://img.shields.io/travis/com/theruziev/urouter.svg?style=flat-square
+                :target: https://travis-ci.com/theruziev/urouter
+        .. image:: https://img.shields.io/codecov/c/github/theruziev/urouter.svg?style=flat-square
+                :target: https://codecov.io/gh/theruziev/urouter
+        
+        
+        
+        Installation
+        ------------
+        
+        .. code-block:: bash
+        
+            pip install urouter
+        
+        Supported web frameworks
+        ------------------------
+        
+        * `aiohttp <https://github.com/theruziev/urouter/blob/master/tests/exporters/test_aiohttp_exporter.py>`_
+        * `Starlette <https://github.com/theruziev/urouter/blob/master/tests/exporters/test_starlette_exporter.py>`_
+        
+        Quickstart
+        ----------
+        
+        **Define handler in router**
+        
+        .. code-block:: python
+        
+            from aiohttp import web
+            from urouter.exporters.aiohttp_exporter import AioHttpRouter
+            app = web.Application()
+        
+             async def handler(request):
+                return web.Response(text="Hello World")
+        
+            router = AioHttpRouter(app)
+        
+            router.get("/home", handler)
+        
+            # At this point aiohttp is ready to register all routes
+            router.export()
+        
+        
+        **Define global middleware for all routes**
+        
+        .. code-block:: python
+        
+            from aiohttp import web
+            from urouter.exporters.aiohttp_exporter import AioHttpRouter
+            app = web.Application()
+        
+            @web.middleware
+            async def info_middleware(request, handler):
+                # some operation before handle request
+                response = await handler(request)
+                return response
+        
+             async def handler(request):
+                return web.Response(text="Hello World")
+        
+            router = (AioHttpRouter(app)
+                        .use(info_middleware))
+        
+            # Register handler
+            router.get("/home", handler)
+        
+            # At this point aiohttp is ready to register all routes
+            router.export()
+        
+        
+        **Define inline middleware (run only for specific handler)**
+        
+        .. code-block:: python
+        
+            from aiohttp import web
+            from urouter.exporters.aiohttp_exporter import AioHttpRouter
+            app = web.Application()
+        
+            @web.middleware
+            async def info_middleware(request, handler):
+                # some operation before handle request
+                response = await handler(request)
+                return response
+        
+             async def handler(request):
+                return web.Response(text="Hello World")
+        
+            router = AioHttpRouter(app)
+            
+            # Middleware registered only for `/home` route
+            router.include(info_middleware).get("/home", handler)
+        
+            # At this point aiohttp is ready to register all routes
+            router.export()
+        
+        **Define subrouter**
+        
+        .. code-block:: python
+        
+            from aiohttp import web
+            from urouter.exporters.aiohttp_exporter import AioHttpRouter
+            app = web.Application()
+        
+            @web.middleware
+            async def info_middleware(request, handler):
+                # some operation before handle request
+                response = await handler(request)
+                return response
+        
+             async def handler(request):
+                return web.Response(text="Hello World")
+        
+             async def sub_handler(request):
+                return web.Response(text="Hello World")
+        
+        
+            router = AioHttpRouter(app)
+        
+            router.include(info_middleware).get("/home", handler)
+            
+            # Create new router
+            subrouter = router.make_router()
+            subrouter.get("/hello", sub_handler)
+        
+            # All registered router become starts with prefix `/sub/` 
+            # `/hello` becomes `/sub/hello`
+            router.mount("/sub", subrouter)
+        
+            # At this point aiohttp is ready to register all routes
+            router.export()
+        
+        **Private/Public router**
+        
+        .. code-block:: python
+        
+            from aiohttp import web
+            from urouter.exporters.aiohttp_exporter import AioHttpRouter
+            app = web.Application()
+        
+            async def auth_middleware(request, handler):
+        
+                return web.HTTPForbidden()
+        
+            async def public(request):
+                return web.Response(text="Hello World")
+        
+            async def private(request):
+                return web.Response(text="Private Zone")
+        
+            router = AioHttpRouter(app)
+            private_route = router.make_router().use(auth_middleware)
+        
+            # Adding public handler
+            router.get("/home", public)
+            
+            # Adding public handler
+            private_route.get("/private", private)
+            
+            # Mount private router to main router
+            router.mount("/", private_route)
+        
+            # At this point aiohttp is ready to register all routes
+            router.export()
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
