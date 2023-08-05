@@ -1,0 +1,8 @@
+loglite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loglite/log/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loglite/log/logclient.py,sha256=wYLFTrEpvRrjgqeSHxp2GLDcfu5YZZ_cgkzX3KYKwJg,32840
+loglite/log/version.py,sha256=TrbGZNCRD84bLKH1fNMrcGpXy2TkBX_TOh4QXElddJs,353
+aliyun_lite_log_python_sdk-0.1.3.dist-info/METADATA,sha256=HNkxsTEjUDOzOdwBICuHUcdWsvBIiNVOCwJLrf1loz0,834
+aliyun_lite_log_python_sdk-0.1.3.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+aliyun_lite_log_python_sdk-0.1.3.dist-info/top_level.txt,sha256=CHvYm2iWdEpaY2X2C-SzTO_8_zh19KouhLPEL6K12tA,8
+aliyun_lite_log_python_sdk-0.1.3.dist-info/RECORD,,
