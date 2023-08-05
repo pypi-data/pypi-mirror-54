@@ -1,0 +1,3 @@
+[console_scripts]
+asyncio_fast_portscanner = asyncio_fast_portscanner.cli:main
+
