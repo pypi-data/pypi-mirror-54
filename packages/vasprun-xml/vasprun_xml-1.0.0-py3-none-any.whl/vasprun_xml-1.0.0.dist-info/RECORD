@@ -1,0 +1,9 @@
+vasprun/IR.py,sha256=QbqBG613u9IgIlXkRx51NCCx-p6WL1I4zDtc1cSF78s,2816
+vasprun/__init__.py,sha256=0Oo38BItfNrRy77EjO8Vq8JBOFM93CzNARIYgk8hgiQ,36617
+vasprun/vasprun.py,sha256=o3WVpsiuNZMAiesLQUCmknHplkN-hPGrdhWPKIvReck,38344
+vasprun/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+vasprun_xml-1.0.0.data/scripts/vasprun,sha256=uoS1hvzRYNk1B2Y51AR74Pm3eSyGFxWz1LoVAyxTKi8,6967
+vasprun_xml-1.0.0.dist-info/METADATA,sha256=4hKVnQweogXPWiAVU74zeXnqenU3To3HRS8QbuBrWQA,1174
+vasprun_xml-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+vasprun_xml-1.0.0.dist-info/top_level.txt,sha256=o--u1FrrkX726qR86RZ1zZZAg1j9-2lJ26w4GJqCTEk,8
+vasprun_xml-1.0.0.dist-info/RECORD,,
