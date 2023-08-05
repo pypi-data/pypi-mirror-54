@@ -1,0 +1,9 @@
+README.rst
+setup.py
+django_model_admin_autocomplete.egg-info/PKG-INFO
+django_model_admin_autocomplete.egg-info/SOURCES.txt
+django_model_admin_autocomplete.egg-info/dependency_links.txt
+django_model_admin_autocomplete.egg-info/top_level.txt
+model_admin_autocomplete/__init__.py
+model_admin_autocomplete/mixins.py
+model_admin_autocomplete/views.py
