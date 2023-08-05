@@ -1,0 +1,16 @@
+pandas<0.25,>=0.21.0
+demandlib
+tables
+shapely
+pvlib<0.7
+geopandas<0.5
+requests
+numpy<1.16
+workalendar
+pyproj
+pytz
+windpowerlib<0.3
+python-dateutil
+cython
+Rtree
+xlrd
