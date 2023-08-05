@@ -1,0 +1,14 @@
+dndice/__init__.py,sha256=TRkJtRGl1EY5Kt0Pv3x4FncPyZmHCYjRPj52W11Iuv4,580
+dndice/core.py,sha256=zb-SO6EzHKKqhG05ALXvOfLsd5ljTR47R8QKroD5hms,6930
+dndice/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dndice/lib/evaltree.py,sha256=IJ1P0umhgThuQdLlODe0iVT0I7Cn33QQtSqP9tjtRGk,15799
+dndice/lib/exceptions.py,sha256=sGMws_nc7z5D4kcItNyJgZ-hhqLEsjxWRItlDDOHNMc,2233
+dndice/lib/helpers.py,sha256=XHXnXiMi29MiGXElnHUiHA-qmFYmbfVOiDJwF7AX-4I,2442
+dndice/lib/operators.py,sha256=vV2KSPVHgP098i1-dOEGVRANfs2WC_OICchr0GQo3rk,23560
+dndice/lib/tokenizer.py,sha256=vrCtjihEozoaWH6XBuh4Ci1fEqekl07_53q0Ao2Q5cc,7257
+dndice/roller.py,sha256=oXyd8Kuy41uVGudFHwBTh22i-zfSbHOlRLXJFiAllSA,2496
+dndice-2.2.0.dist-info/entry_points.txt,sha256=3lro4Dt9yY7JLWC08MYP1CX8Iszn4LjlCozEH-EG0SI,43
+dndice-2.2.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+dndice-2.2.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+dndice-2.2.0.dist-info/METADATA,sha256=6JNM7ldiVOF7OT1C5eb_3mqdyQAoDdAp9-3snaanfDo,6783
+dndice-2.2.0.dist-info/RECORD,,
