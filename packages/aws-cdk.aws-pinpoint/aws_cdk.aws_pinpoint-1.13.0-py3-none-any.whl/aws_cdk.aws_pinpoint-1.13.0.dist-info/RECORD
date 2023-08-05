@@ -1,0 +1,8 @@
+aws_cdk/aws_pinpoint/__init__.py,sha256=nNcks5CXDQsk-73bf_E-msJBhji_8pHmOb5SGXiUEcg,242460
+aws_cdk/aws_pinpoint/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_pinpoint/_jsii/__init__.py,sha256=HYe19HfCWrirGkrqrUGvtl106_J-W58jjF_KCBu5J0w,200
+aws_cdk/aws_pinpoint/_jsii/aws-pinpoint@1.13.0.jsii.tgz,sha256=u5r-o2CwbxTX-TzbBPN4UjRiOdnXd1f5bNnmCttEcZs,73101
+aws_cdk.aws_pinpoint-1.13.0.dist-info/METADATA,sha256=PdzPB0vqR34oAkDFvVzc6AUStYVVAJd1B2xHCXMD5mw,1273
+aws_cdk.aws_pinpoint-1.13.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+aws_cdk.aws_pinpoint-1.13.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_pinpoint-1.13.0.dist-info/RECORD,,
