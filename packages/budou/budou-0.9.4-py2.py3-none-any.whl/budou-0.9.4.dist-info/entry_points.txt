@@ -1,0 +1,3 @@
+[console_scripts]
+budou = budou.budou:main
+
