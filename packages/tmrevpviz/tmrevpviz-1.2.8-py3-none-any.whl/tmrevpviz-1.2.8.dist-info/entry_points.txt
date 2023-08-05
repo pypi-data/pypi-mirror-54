@@ -1,0 +1,4 @@
+[console_scripts]
+tmrevpviz-generate = generate:run
+tmrevpviz-run = tmrevpviz:run
+
