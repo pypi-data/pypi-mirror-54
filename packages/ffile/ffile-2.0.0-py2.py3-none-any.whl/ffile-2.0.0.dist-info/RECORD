@@ -1,0 +1,11 @@
+ffile/__init__.py,sha256=oNrzTd-A14qld5HgQTC6SZuBuIRbqXUYMIUSSXaA9a0,25
+ffile/ffile.py,sha256=8lCFUwWtAfM28xFu0N4jzxPFWAE-UHrWmjF7kSJ1ZY0,3241
+ffile/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ffile/tests/test_Ffile.py,sha256=CcMCPKdZ8CwkSAwM1qhdMHZxuq39cAc5mmhdGjFHmTU,1943
+ffile/tests/test_cli.py,sha256=6XWaEqqPxQ6C930qUI97aXTqloL5ngSdNSZ9G4HqwVo,3844
+ffile-2.0.0.dist-info/LICENSE,sha256=hWUT7PwMbRB7bZ4lhsV-ZAIM7GH_w8-w6vLaV9F0XLM,1073
+ffile-2.0.0.dist-info/METADATA,sha256=X5WUoqPXV9I8uuWoNhpDGdN0lO2MWdQHHFhFGS-nDf8,318
+ffile-2.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+ffile-2.0.0.dist-info/entry_points.txt,sha256=BKqT6vnjpCAH7DfVv3yh9FJfbGtGPg0vgHBWVZxyP64,43
+ffile-2.0.0.dist-info/top_level.txt,sha256=VSxF_ZeeN8faC1jlTP4lcL2_3tkQestvAqpn8lZq148,6
+ffile-2.0.0.dist-info/RECORD,,
