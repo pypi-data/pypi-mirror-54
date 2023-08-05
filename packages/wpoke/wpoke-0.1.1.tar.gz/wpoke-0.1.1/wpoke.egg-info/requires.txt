@@ -1,0 +1,12 @@
+serpy
+lxml
+ipaddress
+aiohttp
+dynaconf
+aiodns
+
+[dev]
+pytest
+tox
+
+[docs]
