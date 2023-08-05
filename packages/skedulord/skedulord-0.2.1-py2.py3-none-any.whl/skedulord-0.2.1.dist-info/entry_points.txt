@@ -1,0 +1,3 @@
+[console_scripts]
+lord = skedulord.cli:main
+
