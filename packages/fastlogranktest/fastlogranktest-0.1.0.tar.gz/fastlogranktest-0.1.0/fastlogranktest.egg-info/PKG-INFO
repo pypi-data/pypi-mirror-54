@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: fastlogranktest
+Version: 0.1.0
+Summary: Perform the Log-Rank-Test very fast
+Home-page: https://github.com/ga63nep/fastlogranktest
+Author: Andreas Stelzer
+Author-email: ga63nep@mytum.de
+License: BSD
+Description: ===============================
+        fastlogranktest
+        ===============================
+        
+        .. image:: https://img.shields.io/travis/ga63nep/fastlogranktest.svg
+                :target: https://travis-ci.org/ga63nep/fastlogranktest
+        
+        .. image:: https://coveralls.io/repos/ga63nep/fastlogranktest/badge.svg?branch=master
+           :target: https://coveralls.io/r/ga63nep/fastlogranktest?branch=master 
+        
+        .. image:: https://ci.appveyor.com/api/projects/status/fuu825yp9ep83tgq/branch/master?svg=true
+           :target: https://ci.appveyor.com/api/projects/status/fuu825yp9ep83tgq
+        
+        
+        Perform the Log-Rank-Test very fast
+        
+        * Free software: BSD license
+        * Documentation: https://fastlogranktest.readthedocs.org.
+        
+        Features
+        --------
+        
+        Call funtions:
+        
+        cpplogrank.logrank_test(SAME_INPUT_AS_LOGRANK_FUNCTION_OF_LIFELINES_STATISTICS_PACKAGE)
+        
+        cpplogrank.multi_logrank_test():
+        Arguments same order as logrank_test() but list of lists of numbers for each instead of just a list of numbers.
+        
+        Optional parameter: threadnumber
+        Can set the number of threads manual
+        For example: cpplogrank.multi_logrank_test(..... , threadnumber = 12)
+        
+        
+        
+        
+        
+        History
+        -------
+        
+        0.1.0 (2019-10-21)
+        ---------------------
+        
+        * First release on PyPI.
+        
+Keywords: fastlogranktest
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
