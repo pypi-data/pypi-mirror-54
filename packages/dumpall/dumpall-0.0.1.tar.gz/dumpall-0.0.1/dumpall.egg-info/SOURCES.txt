@@ -1,0 +1,9 @@
+README.md
+setup.py
+dumpall/__init__.py
+dumpall/__version__.py
+dumpall.egg-info/PKG-INFO
+dumpall.egg-info/SOURCES.txt
+dumpall.egg-info/dependency_links.txt
+dumpall.egg-info/entry_points.txt
+dumpall.egg-info/top_level.txt

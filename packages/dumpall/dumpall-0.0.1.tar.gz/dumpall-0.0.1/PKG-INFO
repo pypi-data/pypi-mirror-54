@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: dumpall
+Version: 0.0.1
+Summary: 信息泄漏利用工具，适用于.git/.svn/.DS_Store
+Home-page: https://github.com/0xHJK/dumpall
+Author: HJK
+Author-email: HJKdev@gmail.com
+License: MIT License
+Description: # Dump all
+        
+        一个信息泄漏聚合下载工具，适用于以下场景：
+        
+        - `.git`信息泄漏
+        - `.svn`信息泄漏
+        - `.DS_Store`信息泄漏
+        
+        > Python 3.6+ Only.
+        
+        ## Quickstart
+        
+        ```bash
+        # 安装
+        pip install dumpall
+        
+        # 下载文件
+        dumpall <url>
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
