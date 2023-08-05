@@ -1,0 +1,3 @@
+[console_scripts]
+pacco = pacco.cli.entry_point:run
+
