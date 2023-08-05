@@ -1,0 +1,7 @@
+guillotina<6.0,>=5.0
+
+[test]
+pytest
+pytest-asyncio
+pytest-cov
+coverage
