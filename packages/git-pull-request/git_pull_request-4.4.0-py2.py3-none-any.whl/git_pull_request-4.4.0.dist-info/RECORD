@@ -1,0 +1,10 @@
+git_pull_request/__init__.py,sha256=SkfpUugxmF-Uu4pZEGo8ey6PzfiT2q0ERt48iu6ES6E,25797
+git_pull_request/pagure.py,sha256=ej_q4zIE08vlPqWvqoGOwUYSvzib3T-XUpsQK_1In6U,7009
+git_pull_request/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_pull_request/tests/test_gpr.py,sha256=5HpghwUdgV9SU-osSCjfhOAQjgjjAvOXx8Ev4pSm6dQ,12553
+git_pull_request-4.4.0.dist-info/LICENSE,sha256=A5Us1Px42BYFaGmOeyCWvJ-nnclrl1gn_onKr6FcvDo,11348
+git_pull_request-4.4.0.dist-info/METADATA,sha256=dL-J5Gifm51U2mVazZDYBqBot6fWHxYJlqFvKL0Fla0,5051
+git_pull_request-4.4.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+git_pull_request-4.4.0.dist-info/entry_points.txt,sha256=VMK20t2OveGHJXecUZ_nzna7XrF9Fo5o--mqvXZtFeU,60
+git_pull_request-4.4.0.dist-info/top_level.txt,sha256=LdfXEWZSE07yzac9hc_NnsBv0w1a7S3ZH4JK8SXh6ew,17
+git_pull_request-4.4.0.dist-info/RECORD,,
