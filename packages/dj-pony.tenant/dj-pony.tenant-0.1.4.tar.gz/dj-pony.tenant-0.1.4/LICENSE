@@ -1,0 +1,54 @@
+The Prosperity Public License 2.0.0
+
+Contributor: Samuel Bishop
+
+Source Code: https://github.com/dj-pony/dj-pony-tenant
+
+This license lets you use and share this software for free,
+with a trial-length time limit on commercial use. Specifically:
+
+If you follow the rules below, you may do everything with this
+software that would otherwise infringe either the contributor's
+copyright in it, any patent claim the contributor can license
+that covers this software as of the contributor's latest
+contribution, or both.
+
+1. You must limit use of this software in any manner primarily
+   intended for or directed toward commercial advantage or
+   private monetary compensation to a trial period of 32
+   consecutive calendar days. This limit does not apply to use in
+   developing feedback, modifications, or extensions that you
+   contribute back to those giving this license.
+
+2. Ensure everyone who gets a copy of this software from you, in
+   source code or any other form, gets the text of this license
+   and the contributor and source code lines above.
+
+3. Do not make any legal claim against anyone for infringing any
+   patent claim they would infringe by using this software alone,
+   accusing this software, with or without changes, alone or as
+   part of a larger application.
+
+You are excused for unknowingly breaking rule 1 if you stop
+doing anything requiring this license within 30 days of
+learning you broke the rule.
+
+**This software comes as is, without any warranty at all. As far
+as the law allows, the contributor will not be liable for any
+damages related to this software or this license, for any kind of
+legal claim.**
+
+
+---
+
+Licensor Signature (Ed25519):
+
+15c984e3acc779e8cbe0f69bb3ad1baef0e1a32c76effe314a4ca60fa4440644
+78b5b87b8d6f8706b71b7c1bf28edb4ac9b69e3030e15429cc8f13ac88261905
+
+---
+
+Agent Signature (Ed25519):
+
+b862dc207e81069998fb109e57f64ffa0ed43e0e482eb98d7c476def7d059aa2
+379cdd5a376f4dc46c1b6757d47be733ccbd3dd3adb485b8c40f820501db4d0c
