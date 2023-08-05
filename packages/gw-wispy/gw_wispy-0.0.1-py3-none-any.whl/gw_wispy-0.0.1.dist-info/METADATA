@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gw-wispy
+Version: 0.0.1
+Summary: A package to work with gravitational waveforms from compact binary systems
+Home-page: https://gitlab.com/SpaceTimeKhantinuum/wispy
+Author: Sebastian Khan
+Author-email: KhanS22@Cardiff.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# wispy
+
+A package to work with gravitational waveforms from compact binary systems
+
