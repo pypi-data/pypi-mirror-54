@@ -1,0 +1,12 @@
+README.md
+setup.py
+jmap_client/__init__.py
+jmap_client/client.py
+jmap_client/exceptions.py
+jmap_client/response.py
+jmap_client/result.py
+jmap_client.egg-info/PKG-INFO
+jmap_client.egg-info/SOURCES.txt
+jmap_client.egg-info/dependency_links.txt
+jmap_client.egg-info/requires.txt
+jmap_client.egg-info/top_level.txt

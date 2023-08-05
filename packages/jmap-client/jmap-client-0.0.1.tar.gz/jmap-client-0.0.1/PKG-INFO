@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jmap-client
+Version: 0.0.1
+Summary: A client for speaking JMAP
+Home-page: https://github.com/mmcclimon/python-jmap-client
+Author: Michael McClimon
+Author-email: michael@mcclimon.org
+License: UNKNOWN
+Description: # JMAP Tester
+        
+        This is (more or less) a port of
+        [JMAP::Tester](https://metacpan.org/pod/JMAP::Tester) to Python.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6.3
+Description-Content-Type: text/markdown
