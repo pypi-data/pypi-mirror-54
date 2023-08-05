@@ -1,0 +1,10 @@
+doctable/__init__.py,sha256=r0TSPxgelq1tW1LRz7z_jqb3pHaJ4swDYttWfmDLbDk,200
+doctable/coltypes.py,sha256=1rdOovJUqloG9BjpVhU0mEF9WzvC6aez9ZrdpzAdWWA,3066
+doctable/doctable.py,sha256=RMvuuZ3_Sg61CO_-Je--EZutgNXd8RqxFy0UUhm2y40,13056
+doctable/doctable2.py,sha256=gdtR--NIrKQ1JYVdmiVSsscdMcGfKffu1oGVcUkTsMo,27370
+doctable/migration.py,sha256=wW9tK0Y6S8n2JLY214snhsh6kqoAgfj87-D9pg-MFzc,1633
+doctable-0.4.4.dist-info/LICENSE.txt,sha256=d0XFstPNGzFSjBTg7VIst27yKWuwrmn63tYdzlAvQk0,1056
+doctable-0.4.4.dist-info/METADATA,sha256=79ahSsX9t9JuefpnutPSvWduvnknH_nsXtLKqkMOnXc,5910
+doctable-0.4.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+doctable-0.4.4.dist-info/top_level.txt,sha256=BNPzR989OV81oywSTp0LoJrPAQZ2sE95qbbMg9-ECfQ,9
+doctable-0.4.4.dist-info/RECORD,,
