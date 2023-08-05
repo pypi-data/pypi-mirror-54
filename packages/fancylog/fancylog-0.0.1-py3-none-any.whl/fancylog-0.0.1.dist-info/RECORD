@@ -1,0 +1,9 @@
+fancylog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fancylog/fancylog.py,sha256=gzpnYM7BYEiZsOlECd11XMjB7nvrF9uLI4lisv8OEJ8,8275
+fancylog/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fancylog/tools/git.py,sha256=iA35IYfcmk19Lapr3JgpUnDogL2s6l0IIpRgMulBBkw,1600
+fancylog-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fancylog-0.0.1.dist-info/METADATA,sha256=WvozlEL8F_LBWN1hPkl8Dofm_469C1mtoS_Dvt9urT0,720
+fancylog-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+fancylog-0.0.1.dist-info/top_level.txt,sha256=8CL6eh6U6uVJMZyErohUIRpIndztgwjMY90RabCaGKc,9
+fancylog-0.0.1.dist-info/RECORD,,
