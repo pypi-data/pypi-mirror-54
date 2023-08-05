@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+streamscrobbler/__init__.py
+streamscrobbler/streamscrobbler.py
+streamscrobbler3.egg-info/PKG-INFO
+streamscrobbler3.egg-info/SOURCES.txt
+streamscrobbler3.egg-info/dependency_links.txt
+streamscrobbler3.egg-info/top_level.txt
