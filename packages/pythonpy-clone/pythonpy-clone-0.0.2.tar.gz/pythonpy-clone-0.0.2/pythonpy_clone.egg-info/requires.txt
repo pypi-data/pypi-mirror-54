@@ -1,0 +1,2 @@
+import-expression<1.0.0,>=0.5.0
+more-itertools<8.0.0,>=7.2.0
