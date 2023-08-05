@@ -1,0 +1,9 @@
+price_parser/__init__.py,sha256=4ekbviofAWL-qGUODGn64ZgR69d-zkVIOhA1L5RMjTY,62
+price_parser/_currencies.py,sha256=fNM9Y6hXe8jAwFWP7ruzistHMv1gDVdh6oArlXsGvqo,35511
+price_parser/parser.py,sha256=CCNJtnqeNeYf2Rw1QeqSJg7CUhMZ57zn57oNXiGWQ_s,10143
+price_parser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+price_parser-0.3.1.dist-info/LICENSE,sha256=OwF91yZTgMQUkBEqH_5wV5MAzisd6zo3ATth7OmQNsU,1513
+price_parser-0.3.1.dist-info/METADATA,sha256=T9kp51syKq8Vh9982DZ1DaDs3wd_MIhnPJPmBLGzE28,6941
+price_parser-0.3.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+price_parser-0.3.1.dist-info/top_level.txt,sha256=OWGC9zrJwSA7ouYtR-lP2YRWOpghGgfiJ6iyx0xZ65s,13
+price_parser-0.3.1.dist-info/RECORD,,
