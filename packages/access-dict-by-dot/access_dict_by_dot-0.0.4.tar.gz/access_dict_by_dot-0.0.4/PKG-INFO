@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: access_dict_by_dot
+Version: 0.0.4
+Summary: Using this packages we can access dictionary values using dot operator
+Home-page: https://github.com/ismaan1998/access_dict_by_dot/
+Author: Indrajeet Singh
+Author-email: indrajeetsinghmaan@gmail.com
+License: MIT
+Download-URL: https://github.com/ismaan1998/access_dict_by_dot/releases/tag/0.0.1
+Description: # access_dict_by_dot
+        Using this package, we can access the items in a dictionary using dot operator instead of writiting dict_name["key"].
+        
+        ## for example
+        
+        ```python
+        
+        from access_dict_by_dot import AccessDictByDot
+        
+        dictionary = {
+            'key1':'value1',
+            'key2':'value2',
+            'key3':{
+                        'subkey1':'subvalue1',
+                        'subkey2':'subvalue2'
+                    }
+        }
+        
+        
+        d = AccessDictByDot.load(dictionary)
+        print(d.key1)
+        print(d.key3.subkey1)
+        
+        
+        
+        
+        
+        
+        
+Keywords: dictionary,dot,access
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

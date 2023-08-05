@@ -1,0 +1,8 @@
+README.md
+setup.py
+access_dict_by_dot/AccessDictByDot.py
+access_dict_by_dot/__init__.py
+access_dict_by_dot.egg-info/PKG-INFO
+access_dict_by_dot.egg-info/SOURCES.txt
+access_dict_by_dot.egg-info/dependency_links.txt
+access_dict_by_dot.egg-info/top_level.txt
