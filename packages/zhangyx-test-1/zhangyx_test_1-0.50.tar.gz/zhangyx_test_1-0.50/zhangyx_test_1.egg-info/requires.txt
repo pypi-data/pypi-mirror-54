@@ -1,0 +1,2 @@
+setuptools>=16.0
+turtle>=0.0.2

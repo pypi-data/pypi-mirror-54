@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: zhangyx-test-1
+Version: 0.50
+Summary: My test module
+Home-page: http://www.csdn.net
+Author: Zhang Yexing
+Author-email: 1207979407@qq.com
+License: MIT Licence
+Description: My test module for Jupyter notebook call external python file
+Keywords: test,zhangyx_test_1
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
