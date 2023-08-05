@@ -1,0 +1,1 @@
+include tp/test/db/seeds_test/*.sql
