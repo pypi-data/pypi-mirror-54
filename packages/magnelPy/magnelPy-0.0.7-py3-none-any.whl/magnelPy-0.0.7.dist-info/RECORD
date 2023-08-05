@@ -1,0 +1,13 @@
+magnelPy/LHS.py,sha256=u4Op8kUr1PDGyqAsHBVCKXE_Kvy-G_VAMWR8VX4VrWA,3288
+magnelPy/__init__.py,sha256=WXHntKouPwCQwUESWakYZ3NMdFgkL-4ReWMux9uR30k,973
+magnelPy/admin.py,sha256=iSjZHtmRIuFnbosI8IVEj1_JCfdnFtruv7Ro5p0Tl9A,6488
+magnelPy/sampling.py,sha256=iPI-EYHZ4NYCNdUsOiV98ebdKP-_TbGM3ux5BjGe2gY,17591
+magnelPy/statFunc.py,sha256=rjPI4EhC_b19MQ-Z2KomkmOnMVb4imo67AToepwiJzw,21076
+magnelPy/stochVar.py,sha256=HXA8CNp6pzBnNw1qqoDDv9RNbiiTKjlHn6byiPdYkcE,1862
+magnelPy/SFE/FireCurve.py,sha256=3h97OpeQ-Q-d_DYI6wvzcSkC3_crKA16NIo2Ejab9nI,1127
+magnelPy/SFE/__init__.py,sha256=EXvMYYMfeGs1oJuvCQTzBJsT2uAsRnR-YOh714DKZ-k,507
+magnelPy-0.0.7.dist-info/LICENSE,sha256=o7BfMcjhQfZSFthFoBN18-vXFgk5tD4Euonm2xha_4w,1086
+magnelPy-0.0.7.dist-info/METADATA,sha256=Dol7Ywz86wL3YBhVC32EUAqu9h6JHbk4G3iVtZyM_rc,2823
+magnelPy-0.0.7.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+magnelPy-0.0.7.dist-info/top_level.txt,sha256=kBn9d_3PSqIxftwdEg6CxY2T_oDUIFdrhAYLUXm_0es,9
+magnelPy-0.0.7.dist-info/RECORD,,
