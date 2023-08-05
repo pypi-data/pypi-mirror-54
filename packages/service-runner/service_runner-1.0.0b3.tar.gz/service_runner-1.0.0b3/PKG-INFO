@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: service_runner
+Version: 1.0.0b3
+Summary: service manager
+Home-page: https://github.com/wuyue92tree/service_runner
+Author: wuyue
+Author-email: wuyue92tree@163.com
+Maintainer: wuyue
+Maintainer-email: wuyue92tree@163.com
+License: Apache License 2.0
+Description: service_runner
+        ==============
+        
+        service runner
+        
+Platform: UNKNOWN
