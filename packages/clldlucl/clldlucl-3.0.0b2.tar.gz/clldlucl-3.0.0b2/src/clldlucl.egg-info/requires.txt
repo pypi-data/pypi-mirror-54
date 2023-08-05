@@ -1,0 +1,16 @@
+clld
+purl
+clldutils
+
+[dev]
+tox
+flake8
+wheel
+twine
+
+[test]
+mock>=2.0
+pytest-clld
+pytest-mock
+coverage>=4.2
+pytest-cov
