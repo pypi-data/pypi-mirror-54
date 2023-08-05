@@ -1,0 +1,8 @@
+setuptools
+Products.GenericSetup
+Products.MimetypesRegistry
+
+[tests]
+Plone
+zope.testing
+plone.app.testing
