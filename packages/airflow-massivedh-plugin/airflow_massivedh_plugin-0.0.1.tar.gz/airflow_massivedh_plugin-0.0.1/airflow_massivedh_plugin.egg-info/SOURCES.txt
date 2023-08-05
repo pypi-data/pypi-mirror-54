@@ -1,0 +1,8 @@
+README
+setup.py
+airflow_massivedh_plugin/__init__.py
+airflow_massivedh_plugin/massive_plugin.py
+airflow_massivedh_plugin.egg-info/PKG-INFO
+airflow_massivedh_plugin.egg-info/SOURCES.txt
+airflow_massivedh_plugin.egg-info/dependency_links.txt
+airflow_massivedh_plugin.egg-info/top_level.txt
