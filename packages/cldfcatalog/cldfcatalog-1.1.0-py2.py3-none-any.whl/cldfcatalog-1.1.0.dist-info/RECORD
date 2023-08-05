@@ -1,0 +1,8 @@
+cldfcatalog/__init__.py,sha256=cQ_ayUbAtN5PflLq3mkoaTqV05QN4unQd7LJMKfC9MI,136
+cldfcatalog/catalog.py,sha256=vT-WZkOEHhNQUs1lKIAaveykl-yKY3Vn7f7CRsRKe_8,2360
+cldfcatalog/repository.py,sha256=biRzQv37REchxpXyZCkaKgBY8ALIcf-OgkUq6dJnA94,4221
+cldfcatalog-1.1.0.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cldfcatalog-1.1.0.dist-info/METADATA,sha256=9oDyPkvEjWaU168EI_2fiSN1T2J8Z7YYVWp2kAXuz90,3107
+cldfcatalog-1.1.0.dist-info/RECORD,,
+cldfcatalog-1.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+cldfcatalog-1.1.0.dist-info/top_level.txt,sha256=8HDrRMKnOYEgueiT62f3KkkgiwOi-NlwaMa_IbMWdSI,12
