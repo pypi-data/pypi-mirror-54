@@ -1,0 +1,10 @@
+hdf5plugin-2.0.0.data/platlib/hdf5plugin/__init__.py,sha256=GbdWd6xD_1PVqEIfM-3TV-bXn_6V7uSDrLBzQN5PONs,7394
+hdf5plugin-2.0.0.data/platlib/hdf5plugin/_version.py,sha256=ZMqFbr3HcMpEBRKVLGigipEP4UxKkspI-YWGIuSp7vo,4459
+hdf5plugin-2.0.0.data/platlib/hdf5plugin/test.py,sha256=wlht-oy1Io4U8FibLKo-bXFtIpRrC_w9LFfVmJ7Cz_Y,5076
+hdf5plugin-2.0.0.data/platlib/hdf5plugin/plugins/libh5blosc.dylib,sha256=ErgtQ6vSJR7tnQYO-v1CunA6zNZBLwvAkSzqGfsJcns,1340452
+hdf5plugin-2.0.0.data/platlib/hdf5plugin/plugins/libh5bshuf.dylib,sha256=YRU6bTtoWijMLhR1bPgorD3ucucNDHVg50V7bjuSpEs,99500
+hdf5plugin-2.0.0.data/platlib/hdf5plugin/plugins/libh5lz4.dylib,sha256=cbXp6_AmHrCgpdcHccneBzh7efTsWXHhqnIE9gVzyW0,149340
+hdf5plugin-2.0.0.dist-info/METADATA,sha256=IdsPnaEn8ONget_70HatzxQIps_3OJEpwWNpyNSKwvc,6860
+hdf5plugin-2.0.0.dist-info/WHEEL,sha256=owDBEeZT-T4_PYqpRNdtqxxhRnNY4xp-0Wg9o4Nn8hc,140
+hdf5plugin-2.0.0.dist-info/top_level.txt,sha256=jAEIrQv1oLDBJ_KZTG5Ah8w4TcQahNlN52faR_PcG24,11
+hdf5plugin-2.0.0.dist-info/RECORD,,
