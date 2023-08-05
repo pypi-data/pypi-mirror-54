@@ -1,0 +1,8 @@
+colcon_cd/__init__.py,sha256=ufOKz4wFF2jEZ9eZuO2QPpLiRozHYjxi81xJ71XASNs,227
+colcon_cd-0.1.0.data/data/share/colcon_cd/function/colcon_cd.sh,sha256=eROk3-QnqGJK2BDRHTXzn0Kv38rqJRrpBnzpYAYBMsw,4341
+colcon_cd-0.1.0.dist-info/METADATA,sha256=wbNp1GTE4UlUtA0_17z-jUI8m-4ATtMl77Gad-9KtbU,1113
+colcon_cd-0.1.0.dist-info/RECORD,,
+colcon_cd-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+colcon_cd-0.1.0.dist-info/entry_points.txt,sha256=zt8WxQsMzFawRvbtZ1W77lf1EBJ774EI-W4-WLT8GV0,82
+colcon_cd-0.1.0.dist-info/top_level.txt,sha256=HX669pIYJ3htpBt_I8Butc78Tw1msF794L09rrupWzY,10
+colcon_cd-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
