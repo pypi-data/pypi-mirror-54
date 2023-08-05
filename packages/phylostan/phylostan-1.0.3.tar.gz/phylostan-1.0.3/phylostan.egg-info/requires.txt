@@ -1,0 +1,3 @@
+pystan>=2.19
+DendroPy
+numpy>=1.7

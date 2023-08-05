@@ -1,0 +1,12 @@
+README.md
+setup.py
+phylostan/__init__.py
+phylostan/generate_script.py
+phylostan/phylostan.py
+phylostan/utils.py
+phylostan.egg-info/PKG-INFO
+phylostan.egg-info/SOURCES.txt
+phylostan.egg-info/dependency_links.txt
+phylostan.egg-info/entry_points.txt
+phylostan.egg-info/requires.txt
+phylostan.egg-info/top_level.txt

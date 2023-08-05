@@ -1,0 +1,3 @@
+[console_scripts]
+phylostan = phylostan.phylostan:main
+
