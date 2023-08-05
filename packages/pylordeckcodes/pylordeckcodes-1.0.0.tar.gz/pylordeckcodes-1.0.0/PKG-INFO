@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pylordeckcodes
+Version: 1.0.0
+Summary: A python implementation for the Legends of Runeterra deck encoder/decoder, originally written in C# by Riot Games.
+Home-page: https://github.com/Bamiji/PyLoRDeckCodes
+Author: Bamiji
+Author-email: banji@banjislab.com
+License: UNKNOWN
+Description: PyLoRDeckCodes
+        ============
+        A python implementation for the Legends of Runeterra deck encoder/decoder, [originally written in C# by Riot Games](https://github.com/RiotGames/LoRDeckCodes).
+        
+        
+        ## Installation
+        ```
+        pip install pylordeckcodes
+        ```
+        
+        ## Usage
+        ```
+        from pylordeckcodes import CardCodeAndCount, get_deck_from_code, get_code_from_deck
+        ```
+        
+        `CardCodeAndCount` objects simply have 2 fields: `card_code` and `count`, in that order.
+        
+        ### Decoding
+        `get_deck_from_code(code_string, return_type="objects")`
+        
+        The return type defaults to a list of `CardCodeAndCount` objects.
+        
+        Other possible options are:
+        
+        `"strings"`: returns a list of strings in the form `"c:00XX000"`, where `"c"` is the count and `"00XX000"` represents the card code.
+        `"string"`: returns a single string of formatted counts and codes, separated by new lines. For example, `"3:01DE002\n3:01PZ040\n2:01NX042"`
+        
+        ### Encoding
+        `get_code_from_deck(deck)`
+        
+        Returns a regular deck code string, without Base32 padding and such.
+        
+        `deck` can either be:
+        * A list of `CardCodeAndCount` objects
+        * A list of strings in the form `"c:00XX000"`, where `"c"` is the count and `"00XX000"` represents the card code.
+        * A multi-line string of formatted counts and codes. For example,
+        ```
+        '''3:01DE002
+        3:01PZ040
+        2:01NX042'''
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
