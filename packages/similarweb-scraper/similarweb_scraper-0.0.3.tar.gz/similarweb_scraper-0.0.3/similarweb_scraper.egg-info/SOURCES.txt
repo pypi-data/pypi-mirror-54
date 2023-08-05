@@ -1,0 +1,7 @@
+setup.py
+similarweb_scraper/__init__.py
+similarweb_scraper/similarweb_scraper.py
+similarweb_scraper.egg-info/PKG-INFO
+similarweb_scraper.egg-info/SOURCES.txt
+similarweb_scraper.egg-info/dependency_links.txt
+similarweb_scraper.egg-info/top_level.txt
