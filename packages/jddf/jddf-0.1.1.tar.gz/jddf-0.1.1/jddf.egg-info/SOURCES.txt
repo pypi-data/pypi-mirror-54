@@ -1,0 +1,13 @@
+README.md
+setup.py
+jddf/__init__.py
+jddf/schema.py
+jddf/validator.py
+jddf.egg-info/PKG-INFO
+jddf.egg-info/SOURCES.txt
+jddf.egg-info/dependency_links.txt
+jddf.egg-info/requires.txt
+jddf.egg-info/top_level.txt
+jddf/tests/__init__.py
+jddf/tests/test_schema.py
+jddf/tests/test_validator.py
