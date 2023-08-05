@@ -1,0 +1,13 @@
+
+[docs]
+tensorflow==2.0.0
+tensorflow-probability==0.8.0
+sphinx-tabs
+
+[tests]
+tensorflow==2.0.0
+tensorflow-probability==0.8.0
+torch>=1.2.0
+pytest>=5.1.2
+pytest-cov>=2.7.1
+pylint>=2.3.1
