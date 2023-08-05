@@ -1,0 +1,17 @@
+pyalect/__init__.py,sha256=Xuqs1uXp-X-08hlMvtT2zGWp-ZXpMqoQUjbgINcX9Kk,330
+pyalect/config.py,sha256=cr64JiWy-TPATCWyJPXhoxvVJZaGhbDlHUXerzdTKLc,3255
+pyalect/console.py,sha256=6m2aSwsmcPaKUgfyNGNVn5rhb742pPXOwlPKg_xxSfo,4160
+pyalect/dialect.py,sha256=OZPLgnPei6NTXF6FCVSRzxLwJEnBrx3NOKFbqYu9UqA,7807
+pyalect/errors.py,sha256=ws05SG3NAH2WUyjJBV__JdkTLil1wcthd12j2z9MHNc,363
+pyalect/importer.py,sha256=OidAMutRIUqNyRICbOcXjif_YqWERItN_ZGhPWBZpNU,3790
+pyalect/patterns.py,sha256=vDu5gY74A3tMO3UrYxvTJrn9PkDh64Ff0cUjQ46FNdI,161
+pyalect/pth.embed,sha256=XzaD043MMpGMF_S6I-1xB48HY-LhNTrB1AaS9ETcQkk,345
+pyalect/py.typed,sha256=8PjyZ1aVoQpRVvt71muvuq5qE-jTFZkK-GLHkhdebmc,26
+pyalect/shims.py,sha256=WXpK2Q7pC4AjTy7cPer9pQcy6J3BJ6xcSIW2JOWczg0,2981
+pyalect/utils.py,sha256=P3S3D320z0a5hMWEA4f3iWlNT6osoucm6tV3S-sMLtY,1496
+pyalect-0.1.0.dev6.dist-info/LICENSE,sha256=2g6gYokLtgiM_s7J3Jv41vRMaEfQ_GgkvQ718EqXxdQ,1083
+pyalect-0.1.0.dev6.dist-info/METADATA,sha256=8A9SnDmv-YK77pSwOv0gCYw0rGLkJPfHr6tgVL12zxw,598
+pyalect-0.1.0.dev6.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+pyalect-0.1.0.dev6.dist-info/entry_points.txt,sha256=b6LU7OwIqtdL1oRAztB3mMBa_DTNb_WxVE56sJf7tDI,50
+pyalect-0.1.0.dev6.dist-info/top_level.txt,sha256=qNLK7j996-E4tJna5nmCQ6UPwD-xDz_weTjzQZq-N5M,8
+pyalect-0.1.0.dev6.dist-info/RECORD,,
