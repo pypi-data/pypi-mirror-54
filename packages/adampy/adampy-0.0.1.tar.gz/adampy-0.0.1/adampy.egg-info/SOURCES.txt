@@ -1,0 +1,9 @@
+README.md
+setup.py
+adampy/__init__.py
+adampy/adampy.py
+adampy.egg-info/PKG-INFO
+adampy.egg-info/SOURCES.txt
+adampy.egg-info/dependency_links.txt
+adampy.egg-info/requires.txt
+adampy.egg-info/top_level.txt
