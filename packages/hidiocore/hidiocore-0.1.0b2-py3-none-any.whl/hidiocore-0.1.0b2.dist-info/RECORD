@@ -1,0 +1,12 @@
+hidiocore/__init__.py,sha256=d7y4fR2207Df4A-cMoGFyPZYmdmuapGaaHWDIofjS-4,1155
+hidiocore/client/__init__.py,sha256=0mjEE6FCifHkS8Y9pTip9fx1aG5wxY5FUj5Inmg5W4s,12337
+hidiocore/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hidiocore/schema/common.capnp,sha256=MrDRLfmdGJsEtKsJxYWh-nrWLEHL7fcYpJrBonD-HWE,2905
+hidiocore/schema/devicefunction.capnp,sha256=baPiSIZkxj2sMgjsal76uJHKRVqUqsxtC0wBwxOf5rE,878
+hidiocore/schema/hidio.capnp,sha256=_0S_SxWx7ps73XDdQWcPxFlY6oGwYQD80hhRkUMfmug,3656
+hidiocore/schema/hidiowatcher.capnp,sha256=k233-AItyUenJBxfBPFQTUbk8emwuqA0H1G-_191T7w,1062
+hidiocore/schema/hostmacro.capnp,sha256=XfF5U5sC8nm4R00Er9Wd8OLlmsVPoI9Lblf3uXDvJaU,1098
+hidiocore/schema/usbkeyboard.capnp,sha256=9aDH_v9JYFB6PP_YF5kt6Lz-r2PqzfiESJCKAkMmDqc,1698
+hidiocore-0.1.0b2.dist-info/WHEEL,sha256=FiUeJaDw4XYhaBV_yhW-XPenLpAB74w_Lsov4o5LaT8,79
+hidiocore-0.1.0b2.dist-info/METADATA,sha256=bEgXcxrEnCNFzgt2QuDkDwW45FeZQUFgml-wCyClMvY,2759
+hidiocore-0.1.0b2.dist-info/RECORD,,
