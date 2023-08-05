@@ -1,0 +1,6 @@
+PyYAML
+ipywidgets>=7.5.0
+ipyevents
+sage-combinat-widgets
+sage-package
+sphinx

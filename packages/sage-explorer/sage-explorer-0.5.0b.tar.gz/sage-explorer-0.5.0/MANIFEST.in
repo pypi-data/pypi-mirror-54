@@ -1,0 +1,34 @@
+include LICENSE
+include README.rst
+
+#include setupbase.py
+#include sage_combinat_widgets/labextension/*.tgz
+
+# Documentation
+graft docs
+exclude docs/\#*
+prune docs/build
+prune docs/dist
+prune docs/presentation
+prune docs/video
+
+# Tests
+prune tests
+prune demos
+
+# Javascript files
+#graft sage_explorer/nbextension
+#include js/package.json
+#include js/webpack.config.js
+#include js/src/sage-combinat-widgets.css
+
+# Patterns to exclude from any directory
+global-exclude *~
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.aux
+global-exclude *.log
+global-exclude .git
+global-exclude *checkpoint*
+global-exclude *Untitled*
+global-exclude *NOTES*

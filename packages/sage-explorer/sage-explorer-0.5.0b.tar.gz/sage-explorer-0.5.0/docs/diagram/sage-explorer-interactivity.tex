@@ -1,0 +1,145 @@
+\documentclass[a4paper,11pt, svgnames]{article}
+
+\usepackage{geometry}
+\geometry{a4paper, margin=.5in}
+
+\usepackage{tikz-uml}
+%\usetikzlibrary{positioning}
+
+\begin{document}
+
+%\begin{center}
+\begin{tikzpicture}
+
+\umlclass[x=-1.5,y=0.5]{ExplorerTitle}{
+  value: object \\
+  content: string
+}{}
+\umlclass[x=-1.5,y=-2]{ExplorerDescription}{
+  value: object \\
+  content: string
+}{}
+
+
+\umlclass[x=0,y=-5,fill=purple!10,anchor=east]{ExplorerHistory}{
+  value: object \\
+  \_history: ExplorableHistory \\
+  \_history\_len: int \\
+  \_history\_index: int \\
+}{}
+\umlclass[x=0,y=-7.8,fill=gray!10,anchor=east]{ExplorableHistory(deque)}{
+    initial\_name: string 
+  }{}
+
+\umlclass[x=-1,y=-12,fill=orange!20,anchor=east]{ExplorerOutput}{
+  value: object \\
+}{}
+\umlclass[x=-1,y=-14.2,anchor=east]{ExplorableCell1}{
+  explorable: object \\
+  new\_val: object \\
+}{}
+\umlclass[x=-1,y=-16.5,anchor=east]{ExplorableValue1}{
+  explorable: object \\
+  new\_val: object \\
+}{}
+
+\umlclass[x=6,y=1.5,fill=orange!20,anchor=east]{ExplorerProperties}{
+  value: object \\
+
+}{}
+\umlclass[x=6,y=-1,anchor=east]{ExplorableCell}{
+  explorable: object \\
+  new\_val: object \\
+}{}
+\umlclass[x=6,y=-3.4,anchor=east]{ExplorableValue}{
+  explorable: object \\
+  new\_val: object \\
+}{}
+
+\umlclass[x=3.9,y=-8,fill=blue!15]{SageExplorer}{
+  value: object \\
+  \_history: ExplorableHistory \\
+  \_history\_len: int \\
+  \_history\_index: int
+}{}
+
+\umlclass[x=3,y=-14]{ExplorerHelp}{
+  value: object \\
+  content: string \\
+  explored: ExploredMember
+}{}
+
+\umlclass[x=2.4,y=-17,fill=green!15]{ExplorerCodeCell}{
+  value: object \\
+  content: string \\
+  new\_val: object
+}{}
+
+\umlclass[x=9,y=0,fill=orange!20]{ExplorerVisual}{
+  value: object \\
+  new\_val: object \\
+
+}{}
+
+\umlclass[x=9,y=-5.4]{ExplorerMethodSearch}{
+  value: object \\
+  explored: ExploredMember
+}{}
+
+\umlclass[x=9,y=-11]{ExplorerArgs}{
+  value: object \\
+  content: string \\
+  explored: ExploredMember
+  %no\_args: bool \\
+}{}
+
+%\umluniassoc [ geometry =−|−, a r g1=x ,
+%mult 1=1 , pos 1=1.9 , a r g2=y , mult 2=∗ ,
+%pos 2=0.2 ] {ExplorerMethodSearch}{ExplorerArgs}
+\umluniassoc[geometry=-|-,arm1=0.2cm,anchor1=-9,anchor2=-14]{ExplorerMethodSearch}{ExplorerArgs}
+\umluniassoc[geometry=|-,anchor1=-32,anchor2=185,arg2=?]{ExplorerDescription}{ExplorerHelp}
+\umluniassoc[geometry=|-,anchor1=-145,anchor2=-5,arg2=?]{ExplorerMethodSearch}{ExplorerHelp}
+
+\umluniassoc[pos=0.6,recursive=178|192|1.5cm,arg2=click]{ExplorableValue}{ExplorableValue}
+\umluniassoc[geometry=-|-,arm1=-1cm,arm2=0.1cm,weight=0.1,anchor1=192,anchor2=194]{ExplorableValue}{ExplorableCell}
+\umluniassoc[geometry=-|-,arm1=-1cm,arm2=0.1cm,weight=0.3,anchor1=190,anchor2=185]{ExplorableCell}{ExplorerProperties}
+\umluniassoc[geometry=-|-,arm1=-3cm,arm2=0.1cm,weight=0.6]{ExplorerProperties}{SageExplorer}
+
+\umluniassoc[pos=0.6,recursive=178|192|1.5cm,arg2=click]{ExplorableValue1}{ExplorableValue1}
+\umluniassoc[geometry=-|-,arm1=-1cm,arm2=0.1cm,weight=0.1,anchor1=192,anchor2=194]{ExplorableValue1}{ExplorableCell1}
+\umluniassoc[geometry=-|-,arm1=-1cm,arm2=0.1cm,weight=0.3,anchor1=190,anchor2=185]{ExplorableCell1}{ExplorerOutput}
+\umlassoc[geometry=-|-,arm1=0.4cm,anchor1=-20,anchor2=199]{ExplorerHistory}{SageExplorer}
+\umluniassoc[geometry=-|-,anchor1=190,anchor2=-10]{SageExplorer}{ExplorerHistory}
+\umluniassoc[geometry=-|,anchor1=-4]{ExplorerOutput}{SageExplorer}
+\umluniassoc{ExplorerVisual}{SageExplorer}
+\umluniassoc[pos=0.6,recursive=-20|11|1cm]{SageExplorer}{SageExplorer}
+\umluniassoc[pos=0.6,recursive=198|170|1cm]{ExplorerHistory}{ExplorerHistory}
+
+\end{tikzpicture}
+%\end{center}
+
+\vspace{1cm}
+
+
+%\begin{tikzpicture}
+
+%  \umlclass{ExplorableHistory(deque)}{
+%    length: int \\
+%    current\_index: int \\
+%    initial\_name: string 
+%  }{
+%    push(object) \\
+%    pop(int=1) \\
+%    truncate()
+%  }
+
+%  \umlclass[x=7, y=0, name=ExplorableValue]{ExplorableValue}{
+%    explorable: object \\
+%    new\_val: object
+%  }{}
+
+%  \umluniassoc{ExplorableValue}{ExplorableValue}
+  
+%\end{tikzpicture}
+  
+\end{document}
