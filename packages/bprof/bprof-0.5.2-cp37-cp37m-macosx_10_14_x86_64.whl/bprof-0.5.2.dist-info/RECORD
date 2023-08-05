@@ -1,0 +1,11 @@
+bprof/__init__.py,sha256=EGykbCvIY-CmMNYZewYpPwthEevEJjXB1blaO3LLNO8,194
+bprof/_bprof.cpython-37m-darwin.so,sha256=KKcbdIuqBLYwksb5EcpIVW3CGdDsXf82RJ3AwZ30i2Q,58128
+bprof/cli.py,sha256=erOcKADFLIV6ZFQ4iYObyOl8dY46EpGl82PXSUeZGwQ,455
+bprof/profile.py,sha256=MznKqq7wbvEpEecfU08Hp_TZUjto8x3NdVbYpFDxGAM,2305
+bprof-0.5.2.dist-info/AUTHORS.rst,sha256=bOfHhdXeSh6wkCEoj4wI-3Y8xQ6zFFTTEYvz80C2kgw,163
+bprof-0.5.2.dist-info/LICENSE,sha256=9lxyGR4SA5j9alGQ64LN3iF81MgcrotNNmGATbHWHp0,1073
+bprof-0.5.2.dist-info/METADATA,sha256=7JbCQhhvJq6pmAswJBTPQDOI6Fi-7D6wrvvZ1h-MtdQ,2145
+bprof-0.5.2.dist-info/WHEEL,sha256=AsDKYnwMhDXeRx9zSFsoIjlddGrG0a9PpZNg0EZnigQ,111
+bprof-0.5.2.dist-info/entry_points.txt,sha256=19Kyo6v2UvCoIBpd9EbuvIGS_DlYycL5DUnH24LQS7k,42
+bprof-0.5.2.dist-info/top_level.txt,sha256=PrFIdsTuSIfrBeYvwfOvQfm5wuJZK7OCb8X51eZIt9M,6
+bprof-0.5.2.dist-info/RECORD,,
