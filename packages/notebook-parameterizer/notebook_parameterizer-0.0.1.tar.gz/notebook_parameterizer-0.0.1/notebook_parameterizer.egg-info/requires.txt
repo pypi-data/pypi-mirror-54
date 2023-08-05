@@ -1,0 +1,13 @@
+nbformat
+papermill
+click
+
+[dev]
+docutils
+pytest
+flake8
+
+[test]
+docutils
+pytest
+flake8

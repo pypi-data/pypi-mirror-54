@@ -1,0 +1,3 @@
+[console_scripts]
+notebook_parameterizer = notebook_parameterizer.cli:notebook_parameterizer
+
