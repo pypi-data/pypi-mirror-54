@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ansatz.egg-info/PKG-INFO
+ansatz.egg-info/SOURCES.txt
+ansatz.egg-info/dependency_links.txt
+ansatz.egg-info/requires.txt
+ansatz.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+
+[complete]
+pre-commit
+pytest
+twine
+
+[complete:python_version >= "3.6"]
+black
+
+[develop]
+pre-commit
+pytest
+twine
+
+[develop:python_version >= "3.6"]
+black

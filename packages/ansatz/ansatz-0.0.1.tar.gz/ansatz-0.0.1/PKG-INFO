@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ansatz
+Version: 0.0.1
+Summary: A physics Python library
+Home-page: https://github.com/matthewfeickert/ansatz
+Author: Matthew Feickert
+Author-email: matthew.feickert@cern.ch
+License: Apache
+Description: # ansatz
+        A physics Python library
+        
+Keywords: physics
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: develop
+Provides-Extra: complete
