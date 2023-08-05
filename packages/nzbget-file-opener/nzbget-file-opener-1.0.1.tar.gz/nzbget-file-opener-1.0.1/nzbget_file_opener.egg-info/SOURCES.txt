@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+nzbget_file_opener/__init__.py
+nzbget_file_opener/app.py
+nzbget_file_opener/args.py
+nzbget_file_opener/config.py
+nzbget_file_opener/nzbget.py
+nzbget_file_opener/upload.py
+nzbget_file_opener.egg-info/PKG-INFO
+nzbget_file_opener.egg-info/SOURCES.txt
+nzbget_file_opener.egg-info/dependency_links.txt
+nzbget_file_opener.egg-info/entry_points.txt
+nzbget_file_opener.egg-info/not-zip-safe
+nzbget_file_opener.egg-info/requires.txt
+nzbget_file_opener.egg-info/top_level.txt
