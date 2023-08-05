@@ -1,0 +1,4 @@
+[console_scripts]
+iupdate = iupdate.iupdate:IUpdate.system
+update-sys = iupdate.iupdate:IUpdate.system
+

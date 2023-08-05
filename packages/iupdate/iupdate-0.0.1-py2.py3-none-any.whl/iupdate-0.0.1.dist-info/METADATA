@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: iupdate
+Version: 0.0.1
+Summary: Update linux system and development environment.
+Home-page: https://github.com/williamcanin/iupdate
+Author: William da Costa Canin
+Author-email: william.costa.canin@gmail.com
+Maintainer: William da Costa Canin
+License: MIT Licences
+Keywords: iupdate update packaging package
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+
+# iUpdate
+
+
+`iUpdate` update linux system and development environment.
+
+## UNDER CONSTRUCTION!
+
+

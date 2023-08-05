@@ -1,0 +1,10 @@
+iupdate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iupdate/iupdate.py,sha256=z5SmhwgPbU6lFVNX9ihtcrMVAnS1ApUhBBNXSJXNNvk,366
+iupdate/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iupdate/lib/ansi_code.py,sha256=00CGxSI2ABeJ4m2Bj4vWlolUCSHYxAUOVFUSCVaMH2A,709
+iupdate-0.0.1.dist-info/LICENSE,sha256=4b4sgBXu1__s1fPJ9uTJLykhX8mJIMAv5zbNZTkaD2c,1070
+iupdate-0.0.1.dist-info/METADATA,sha256=-HAuSZmUVPvuiGqvj_fSo-04VaiKb-Cz3MwU9jHZqgM,753
+iupdate-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+iupdate-0.0.1.dist-info/entry_points.txt,sha256=xeMAaskai7XOXjebqHPo2XeBr-G66V1-V8lao8gujmY,104
+iupdate-0.0.1.dist-info/top_level.txt,sha256=UygwmB8iNSLpCJ9ZsZEH_jXgoDi34kS2Z4-essmv3Bs,8
+iupdate-0.0.1.dist-info/RECORD,,
