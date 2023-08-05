@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: edelweiss-data
+Version: 0.1.0
+Summary: Python client for EdelweissData
+Author: Edelweiss Connect
+Author-email: info@edelweissconnect.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pandas (>=0.23.0,<1.0)
+Requires-Dist: pyjwt (>=1.5.3,<2.0.0)
+Requires-Dist: requests (>=2.18.4,<3.0.0)
