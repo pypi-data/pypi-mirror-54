@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: openseespymac
+Version: 10.15.2019
+Summary: The OSX version of OpenSeesPy
+Home-page: UNKNOWN
+Author: Stevan Gavrilovic
+Author-email: steva44@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+OpenSeesPyMac
+
+
+Pip package for OpenSeesPy for the Mac OS X operating system. Supports OSX 10.12 and up.
+
+Mac version maintained by:
+
+Stevan Gavrilovic <steva44@hotmail.com>
+PhD Candidate;
+Structural and Earthquake Engineering;
+University of British Columbia
+
+
+OpenSeesPy Developer:
+
+Minjie Zhu <zhum@oregonstate.edu>
+
+Faculty Research Assistant;
+Civil and Construction Engineering;
+Oregon State University
+
+`OpenSeesPy Documentation <https://openseespydoc.readthedocs.io/en/latest/index.html>`
+
+
+
