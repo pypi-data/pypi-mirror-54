@@ -1,0 +1,10 @@
+system: '../pele_platform/Examples/water/hit1_complex_processed.pdb'
+chain: 'L'
+resname: 'LIG'
+restart: false
+seed: 12345
+test: true
+water_lig:
+- M:1
+
+
