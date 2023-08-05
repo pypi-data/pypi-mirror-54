@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: lastfmcache
+Version: 1.0.7
+Summary: Python interface to the Last.FM API/website with caching support
+Home-page: https://github.com/spiritualized/lastfmcache
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Download-URL: https://github.com/spiritualized/lastfmcache/archive/v1.0.7.tar.gz
+Description: UNKNOWN
+Keywords: lastfm,python,cache,api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
