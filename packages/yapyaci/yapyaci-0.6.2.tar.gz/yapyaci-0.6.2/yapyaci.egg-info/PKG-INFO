@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: yapyaci
+Version: 0.6.2
+Summary: Yet Another Python ACI Module
+Home-page: https://github.com/ohynderi/YaPiAci
+Author: Olivier Hynderick
+Author-email: ohynderi@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
