@@ -1,0 +1,10 @@
+keat_scripts/echo.sh,sha256=450eGMWQZ5n-GGV1R6RMVEA_1YaKy2mspgUzA0YVufg,37
+keat_scripts/release.sh,sha256=j6pzRxc3qt4lhkQ6Coq7LpN66dUEBEDZkQuUTOJiWx8,2860
+keats/__init__.py,sha256=AsyUXZBDORQTQQjH2RbcIpXjMHOXVSFL7PBpp11XCas,12292
+keats/__version__.py,sha256=2PHFKSlFNRAp9kOIbCBMPsPRAZO0wJFjikSinB7zVg4,347
+keats/changelog_utils.py,sha256=FD2jExKfMtO3VeXrY7Qq7NAy3AX3rlHTVDYXinHFZ2k,4997
+keats/find_utils.py,sha256=0EypsDnuSGCVaSMAaQtqCF5r9PNPQW69yiXYiYYnvHo,2799
+keats-0.2.27.dist-info/entry_points.txt,sha256=8oBaVY5fi2RweFgWDPRgrh3csJ3ag8ckU-oHgLgsDVU,36
+keats-0.2.27.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+keats-0.2.27.dist-info/METADATA,sha256=A165tnVQFhKHkSKcfwbv7lAzLL0l7EDR9RXTVBYJ4W4,3742
+keats-0.2.27.dist-info/RECORD,,
