@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tf2inventory
+Version: 1.0.1
+Summary: Ansible inventory generator from a terraform
+Home-page: UNKNOWN
+Author: Omar Diaz
+Author-email: zcool2005@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: Jinja2
+
+UNKNOWN
+
+
