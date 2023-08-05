@@ -1,0 +1,6 @@
+name: scplot
+dependencies:
+  - pip
+  - pip:
+      - scplot
+
