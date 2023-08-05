@@ -1,0 +1,11 @@
+wdl_lsp/__init__.py,sha256=lMZC-rLprL4e3XxDvySryn-T2h4jmtWWJk94Ecp6zqA,1232
+wdl_lsp/__main__.py,sha256=gKv1XaZKKFj_srZ3cU8e0rjUnc9E3N6IFWi5-IyGOIc,2261
+wdl_lsp/server.py,sha256=1PKLTeBhf4Omsx2WiNjj7a82GLoTpNk4YYvwD_FQKDg,17173
+wdl_lsp/tests/__init__.py,sha256=lMZC-rLprL4e3XxDvySryn-T2h4jmtWWJk94Ecp6zqA,1232
+wdl_lsp/tests/unit/__init__.py,sha256=lMZC-rLprL4e3XxDvySryn-T2h4jmtWWJk94Ecp6zqA,1232
+wdl_lsp/tests/unit/test_features.py,sha256=S-EwVcbJRjwa8S74TJl55bcupiB-QJ_1XggV9GKHdpE,3425
+wdl_lsp-0.0.69.dist-info/METADATA,sha256=oHmsM7lmt6wk5jajnqpYdYGCHyopB94wjGnxEMe7Aug,849
+wdl_lsp-0.0.69.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+wdl_lsp-0.0.69.dist-info/entry_points.txt,sha256=n6j653BdaWE1Y6Xz0ZNnkei9UgBRea_jBfun6cWSiO8,51
+wdl_lsp-0.0.69.dist-info/top_level.txt,sha256=VysaomJqq_3fE9v1Yup93pbHMPzph0p4WoQ8JdYHIdI,8
+wdl_lsp-0.0.69.dist-info/RECORD,,
