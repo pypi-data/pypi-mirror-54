@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: grade
+Version: 0.5
+Summary: An package for easy autograding.
+Home-page: https://github.com/thoward27/grade
+Author: Tom Howard
+Author-email: info@tomhoward.codes
+License: AGPL
+Platform: UNKNOWN
+Requires-Python: >=3.8
+
+# Grade: Get Readymade Autograding Done Efficiently
+
+A utility for programming assignment grading.
+
+## Motivation
+
+Autograding is a challenge when the language doesn't support proper unit testing, or when you need to test binary files, grade solves these problems.
+
+## Overview
+
+### Decorators
+
+### Executables
+
+### Mixins
+
+### Runners
+
+
