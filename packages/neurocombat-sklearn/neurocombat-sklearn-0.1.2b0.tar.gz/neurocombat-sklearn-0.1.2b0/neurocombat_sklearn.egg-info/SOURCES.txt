@@ -1,0 +1,13 @@
+README.md
+neurocombat_sklearn
+setup.py
+neurocombat_sklearn/__init__.py
+neurocombat_sklearn/_version.py
+neurocombat_sklearn/neurocombat_sklearn.py
+neurocombat_sklearn.egg-info/PKG-INFO
+neurocombat_sklearn.egg-info/SOURCES.txt
+neurocombat_sklearn.egg-info/dependency_links.txt
+neurocombat_sklearn.egg-info/requires.txt
+neurocombat_sklearn.egg-info/top_level.txt
+neurocombat_sklearn/tests/__init__.py
+neurocombat_sklearn/tests/test_common.py
