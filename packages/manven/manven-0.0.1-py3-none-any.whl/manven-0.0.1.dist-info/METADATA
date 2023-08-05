@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: manven
+Version: 0.0.1
+Summary: Small CLI for managing virtual python environments
+Home-page: https://gitlab.com/AckslD/venv-manager
+Author: Axel Dahlberg
+Author-email: axel.dahlberg12@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# manven (0.0.1)
+
+Welcome to manven's README.
+
+``manven`` is a small CLI wrapping the functionality of ``virtualenv`` to make **man**\ aging **v**\ irtual **env**\ ironments easier.
+Functionalities include creating, activating, removing and listing virtual environments, together with simply ways to quickly create and prune temporary environments.
+Follow the documentation below for how to install and how to get started.
+
+Happy venv-ing!
+
+## Installation
+
+See [installation]().
+
+## Getting started
+
+See [getting started]().
+
+
