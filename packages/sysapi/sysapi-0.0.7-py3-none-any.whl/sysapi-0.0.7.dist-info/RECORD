@@ -1,0 +1,11 @@
+sysapi/__init__.py,sha256=naX7qQe1n08r7K3sTLnk0nq21k7IpVUZVhSuNSFXri4,21
+sysapi/backend.py,sha256=JOmk-IBt5b-G_VHpZ_ALpwAJEzFnGs6OZRg-KgvjY5c,4010
+sysapi/file.py,sha256=KG5HFMJUKtEcRU39BwtvAzMgpfcwlxicZLfoTPuIV9k,1394
+sysapi/main.py,sha256=4vK30WmyWpLzJTZMqfB_jurwk90H8XPTDArKSHoRSdc,6455
+sysapi/snapshot.py,sha256=wvM-rVdmx6CNZdPtUCayS3UAy2E5RgpWAhhkK19T-1Y,878
+sysapi/user.py,sha256=s1MdkM37XjrtT60YrKUJohXogYzgFLs-4uezWxf3L2k,1482
+sysapi/zfilesystem.py,sha256=RSCu3pGgDjkBH0T0PLOj1AVJXFHzRxnBXI0c1zFr8hY,1188
+sysapi-0.0.7.dist-info/METADATA,sha256=L_pyRfSfshZhL15IlEpWH4l6LqMPK4sQzRi53AhkQy8,4366
+sysapi-0.0.7.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+sysapi-0.0.7.dist-info/top_level.txt,sha256=WAl3H77V4IZ9i8nQjTdGtDr0AasGfI9A8-RxDcaG_zM,7
+sysapi-0.0.7.dist-info/RECORD,,
