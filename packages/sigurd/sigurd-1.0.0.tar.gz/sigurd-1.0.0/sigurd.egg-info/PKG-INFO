@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sigurd
+Version: 1.0.0
+Summary: Code for presentation at Graz, 6th November 2019
+Home-page: https://github.com/clemsciences/comparison_sigurdr_siegfried
+Author: Clément Besnier
+Author-email: clemsciences@aol.com
+License: License :: OSI Approved :: MIT License
+Description: # comparison_sigurdr_siegfried
+        
+        Comparison *Nibelungenlied* and *Völsunga saga*
+        
+        The name of the package is **sigurd**.
+        
+        ## Download and Installation
+        
+        ```bash
+        $ pip install sigurd
+        ```
+        
+        
+        ```python
+        
+        ```
+        
+        # Origins of the data
+        * 
+        
+        # Aim
+        
+        # Presentation
+        
+Keywords: old-norse,middle-high-german,siegfried,sigurdr
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup :: XML
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
