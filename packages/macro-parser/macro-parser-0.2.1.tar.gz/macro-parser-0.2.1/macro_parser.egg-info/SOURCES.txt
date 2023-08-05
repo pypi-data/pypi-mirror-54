@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+macro_parser/__init__.py
+macro_parser/config.py
+macro_parser/models.py
+macro_parser/utils.py
+macro_parser.egg-info/PKG-INFO
+macro_parser.egg-info/SOURCES.txt
+macro_parser.egg-info/dependency_links.txt
+macro_parser.egg-info/top_level.txt
