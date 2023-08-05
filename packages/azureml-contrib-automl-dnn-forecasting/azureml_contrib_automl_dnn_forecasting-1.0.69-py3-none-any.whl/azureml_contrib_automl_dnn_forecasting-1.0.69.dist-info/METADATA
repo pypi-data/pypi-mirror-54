@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: azureml-contrib-automl-dnn-forecasting
+Version: 1.0.69
+Summary: AutoML DNN Forecasting Models
+Home-page: https://docs.microsoft.com/en-us/azure/machine-learning/service/
+Author: Microsoft Corp
+License: Proprietary https://aka.ms/azureml-preview-sdk-license 
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: azureml-dataprep[fuse] (<1.2.0a,>=1.1.20a)
+Requires-Dist: azureml-automl-core
+Requires-Dist: azureml-train-automl
+Requires-Dist: torch (>=1.0.0)
+Requires-Dist: pyarrow
+Requires-Dist: dill (>=0.2.8)
+Requires-Dist: pandas (<=0.23.4,>=0.21.0)
+
+Azure ML CLI extension common package. Common across azure-cli-ml and azure-cli-ml-preview.
+
+
+
