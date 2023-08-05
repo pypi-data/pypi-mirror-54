@@ -1,0 +1,8 @@
+README.md
+setup.py
+aughra/__init__.py
+aughra.egg-info/PKG-INFO
+aughra.egg-info/SOURCES.txt
+aughra.egg-info/dependency_links.txt
+aughra.egg-info/requires.txt
+aughra.egg-info/top_level.txt
