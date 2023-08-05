@@ -1,0 +1,3 @@
+[console_scripts]
+optracker = optracker.optracker:run
+
