@@ -1,0 +1,7 @@
+README.md
+setup.py
+escape/__init__.py
+pyescape.egg-info/PKG-INFO
+pyescape.egg-info/SOURCES.txt
+pyescape.egg-info/dependency_links.txt
+pyescape.egg-info/top_level.txt
