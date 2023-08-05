@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pyhiome/__init__.py
+pyhiome/conn.py
+pyhiome/data.py
+pyhiome.egg-info/PKG-INFO
+pyhiome.egg-info/SOURCES.txt
+pyhiome.egg-info/dependency_links.txt
+pyhiome.egg-info/entry_points.txt
+pyhiome.egg-info/requires.txt
+pyhiome.egg-info/top_level.txt
