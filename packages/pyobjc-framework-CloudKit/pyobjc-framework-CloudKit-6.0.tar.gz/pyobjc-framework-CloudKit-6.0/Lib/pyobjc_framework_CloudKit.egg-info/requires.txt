@@ -1,0 +1,5 @@
+pyobjc-core>=6.0
+pyobjc-framework-Cocoa>=6.0
+pyobjc-framework-CoreLocation>=6.0
+pyobjc-framework-CoreData>=6.0
+pyobjc-framework-Accounts>=6.0
