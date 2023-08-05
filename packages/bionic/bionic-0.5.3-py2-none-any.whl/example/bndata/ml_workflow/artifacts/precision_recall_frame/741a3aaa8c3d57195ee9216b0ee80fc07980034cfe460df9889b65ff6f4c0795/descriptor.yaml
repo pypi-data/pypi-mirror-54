@@ -1,0 +1,25 @@
+entity: precision_recall_frame
+filename: value.pq
+provenance:
+  cache_schema_version: 2
+  case_key:
+    feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+    hyperparams_dict: !!python/unicode 8fe242c631
+    random_seed: !!python/unicode 0
+    test_split_fraction: !!python/unicode 0.3
+  code_id: orig_flow=None code_version=None
+  dependencies:
+  - case_key:
+      feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+      hyperparams_dict: !!python/unicode 8fe242c631
+      random_seed: !!python/unicode 0
+      test_split_fraction: !!python/unicode 0.3
+    entity: model
+    provenance: !!python/unicode 6c791a83c78a9fdb927139d0e7aeee09a067788047e16bed6756cae909e6c972
+  - case_key:
+      feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+      random_seed: !!python/unicode 0
+      test_split_fraction: !!python/unicode 0.3
+    entity: test_frame
+    provenance: !!python/unicode c0e5fc4a7631d86cf70b7cad167dc1d781cb7424e54dc13c8dfc3122a58a7872
+  python_major_version: 2
