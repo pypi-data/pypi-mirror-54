@@ -1,0 +1,11 @@
+README.md
+setup.py
+pollinghub/__init__.py
+pollinghub/pollinghub.py
+pollinghub.egg-info/PKG-INFO
+pollinghub.egg-info/SOURCES.txt
+pollinghub.egg-info/dependency_links.txt
+pollinghub.egg-info/not-zip-safe
+pollinghub.egg-info/top_level.txt
+pollinghub/tests/__init__.py
+pollinghub/tests/test_pollinghub.py
