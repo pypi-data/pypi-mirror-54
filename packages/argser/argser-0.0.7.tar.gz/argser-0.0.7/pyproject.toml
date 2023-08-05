@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "argser"
+version = "0.0.7"
+description = "Arguments parsing without boilerplate."
+authors = ["Bachynin Ivan <bachynin.i@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/vaniakosmos/argser"
+repository = "https://github.com/vaniakosmos/argser"
+documentation = "https://argser.readthedocs.io/en/latest"
+keywords = ['flags', 'argparse']
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'Topic :: Utilities',
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tabulate = {version = "^0.8.5", optional = true}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.8"
+sphinx = "^2.2"
+sphinx-rtd-theme = "^0.4.3"
+sphinxcontrib-apidoc = "^0.3.0"
+m2r = "^0.2.1"
+
+[tool.poetry.extras]
+tabulate = ["tabulate"]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
