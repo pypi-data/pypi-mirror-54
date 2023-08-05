@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sid-summation-module
+Version: 0.1
+Summary: module for summation of two numbers
+Home-page: UNKNOWN
+Author: siddharth garg
+Author-email: sidd.garg786@gmail.com
+License: UNKNOWN
+Description: # Python_training
+        
+        This module is made to evaluate the sum of two numbers.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
