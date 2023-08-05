@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.py
+python_make_deb/__init__.py
+python_make_deb.egg-info/PKG-INFO
+python_make_deb.egg-info/SOURCES.txt
+python_make_deb.egg-info/dependency_links.txt
+python_make_deb.egg-info/entry_points.txt
+python_make_deb.egg-info/not-zip-safe
+python_make_deb.egg-info/requires.txt
+python_make_deb.egg-info/top_level.txt
+python_make_deb/resources/debian/changelog.j2
+python_make_deb/resources/debian/compat.j2
+python_make_deb/resources/debian/control.j2
+python_make_deb/resources/debian/rules.j2
+python_make_deb/resources/debian/triggers.j2

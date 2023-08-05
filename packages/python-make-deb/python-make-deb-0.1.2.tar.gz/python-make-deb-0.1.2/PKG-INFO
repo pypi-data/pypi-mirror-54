@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: python-make-deb
+Version: 0.1.2
+Summary: Generates Debian configuration based on your setup.py
+Home-page: UNKNOWN
+Author: Hugues Morisset
+Author-email: morisset.hugues@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

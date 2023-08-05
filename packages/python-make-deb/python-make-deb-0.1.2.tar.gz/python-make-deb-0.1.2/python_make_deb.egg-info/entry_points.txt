@@ -1,0 +1,3 @@
+[console_scripts]
+python-make-deb = python_make_deb:main
+

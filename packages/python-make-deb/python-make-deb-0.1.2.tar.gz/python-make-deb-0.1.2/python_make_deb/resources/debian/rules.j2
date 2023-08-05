@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+export DH_VIRTUALENV_INSTALL_ROOT={{ dh_virtualenv_install_root }}
+
+.PHONY: override_dh_virtualenv override_dh_strip override_dh_shlibdeps
+
+%:
+	dh $@ --with python-virtualenv
+
+override_dh_virtualenv:
+	dh_virtualenv --python {{ python_version }}
+
+override_dh_strip:
+	dh_strip --exclude=cffi
+
+override_dh_shlibdeps:
+	dh_shlibdeps {{ shlibdeps }}

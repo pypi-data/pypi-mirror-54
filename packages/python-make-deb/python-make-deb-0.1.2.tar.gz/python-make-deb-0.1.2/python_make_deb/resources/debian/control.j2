@@ -1,0 +1,13 @@
+Source: {{ name }}
+Section: python
+Priority: extra
+Maintainer: {{ maintainer }} <{{ maintainer_email }}>
+Build-Depends: debhelper (>= 9), {{ python_version }}, dh-virtualenv (>= 0.7)
+Standards-Version: 3.9.5
+
+Package: {{ name }}
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1), {{ python_package }}, ${misc:Pre-Depends}
+Depends: ${python:Depends}, ${misc:Depends}
+Description: {{ description }}
+ {{ description }}
