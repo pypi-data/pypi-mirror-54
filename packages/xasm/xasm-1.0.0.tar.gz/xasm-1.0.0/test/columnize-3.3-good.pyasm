@@ -1,0 +1,1710 @@
+# pydisasm version 3.5.1
+# Python bytecode 3.3 (3230)
+# Disassembled from Python 3.3.6 (default, Nov  6 2016, 06:19:31)
+# [GCC 5.4.0 20160609]
+# Timestamp in code: 1500633148 (2017-07-21 06:32:28)
+# Source code size mod 2**32: 10416 bytes
+# Method Name:       <module>
+# Filename:          exec
+# Argument count:    0
+# Kw-only arguments: 0
+# Number of locals:  0
+# Stack size:        27
+# Flags:             0x00000040 (NOFREE)
+# First Line:        5
+# Constants:
+#    0: 'Return compact set of columns as a string with newlines for an\narray of strings.\n\nAdapted from the routine of the same name inside cmd.py'
+#    1: 0
+#    2: None
+#    3: <code object computed_displaywidth at 0x7f7c9dbdbf60, file "exec", line 10>
+#    4: 'computed_displaywidth'
+#    5: 'arrange_array'
+#    6: 'arrange_vertical'
+#    7: ''
+#    8: 'array_prefix'
+#    9: 'array_suffix'
+#   10: 'colfmt'
+#   11: '  '
+#   12: 'colsep'
+#   13: 'displaywidth'
+#   14: 'lineprefix'
+#   15: '\n'
+#   16: 'linesuffix'
+#   17: 'ljust'
+#   18: 'term_adjust'
+#   19: <code object get_option at 0x7f7c9dbc3ed0, file "exec", line 37>
+#   20: 'get_option'
+#   21: 80
+#   22: <code object columnize at 0x7f7c9db82270, file "exec", line 41>
+#   23: 'columnize'
+#   24: '__main__'
+#   25: 12
+#   26: 'opts'
+#   27: 6
+#   28: 10
+#   29: 4
+#   30: 7
+#   31: 100
+#   32: 1
+#   33: <code object <listcomp> at 0x7f7c9db82300, file "exec", line 254>
+#   34: '<listcomp>'
+#   35: 'horizontal'
+#   36: 'vertical'
+#   37: 'Width: %d, direction: %s'
+#   38: 'a'
+#   39: '2'
+#   40: 'c'
+#   41: ', '
+#   42: 'oneitem'
+#   43: 'one'
+#   44: 'two'
+#   45: 'three'
+#   46: 'for'
+#   47: 'five'
+#   48: 'six'
+#   49: 'seven'
+#   50: 'eight'
+#   51: 'nine'
+#   52: 'ten'
+#   53: 'eleven'
+#   54: 'twelve'
+#   55: 'thirteen'
+#   56: 'fourteen'
+#   57: 'fifteen'
+#   58: 'sixteen'
+#   59: 'seventeen'
+#   60: 'eightteen'
+#   61: 'nineteen'
+#   62: 'twenty'
+#   63: 'twentyone'
+#   64: 'twentytwo'
+#   65: 'twentythree'
+#   66: 'twentyfour'
+#   67: 'twentyfive'
+#   68: 'twentysix'
+#   69: 'twentyseven'
+#   70: <code object <listcomp> at 0x7f7c9db82390, file "exec", line 279>
+#   71: 55
+#   72: 39
+#   73: '    '
+#   74: 5
+#   75: False
+#   76: True
+#   77: (4, 4)
+#   78: (4, 7)
+#   79: (100, 80)
+#   80: ((4, 4), (4, 7), (100, 80))
+#   81: (False, 'horizontal')
+#   82: (True, 'vertical')
+#   83: ((False, 'horizontal'), (True, 'vertical'))
+#   84: ('one', 'two', 'three')
+#   85: ('one', 'two', 'three', 'for', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eightteen', 'nineteen', 'twenty', 'twentyone', 'twentytwo', 'twentythree', 'twentyfour', 'twentyfive', 'twentysix', 'twentyseven')
+# Names:
+#    0: __doc__
+#    1: os
+#    2: computed_displaywidth
+#    3: False
+#    4: True
+#    5: None
+#    6: default_opts
+#    7: get_option
+#    8: columnize
+#    9: __name__
+#   10: print
+#   11: list
+#   12: range
+#   13: t
+#   14: width
+#   15: data
+#   16: options
+#   17: t2
+#   18: sys
+#   19: TypeError
+#   20: exc_info
+#   21: _
+#   22: err
+  5:           0 LOAD_CONST                0 ('Return compact set of columns as a string with newlines for an\narray of strings.\n\nAdapted from the routine of the same name inside cmd.py')
+               3 STORE_NAME                0 (__doc__)
+
+  7:           6 LOAD_CONST                1 (0)
+               9 LOAD_CONST                2 (None)
+              12 IMPORT_NAME               1 (os)
+              15 STORE_NAME                1 (os)
+
+ 10:          18 LOAD_CONST                3 (<code object computed_displaywidth at 0x7f7c9dbdbf60, file "exec", line 10>)
+              21 LOAD_CONST                4 ('computed_displaywidth')
+              24 MAKE_FUNCTION             0 (0 positional, 0 name and default, 0 annotations)
+              27 STORE_NAME                2 (computed_displaywidth)
+
+ 22:          30 BUILD_MAP                11
+
+ 23:          33 LOAD_CONST               75 (False)
+              36 LOAD_CONST                5 ('arrange_array')
+              39 STORE_MAP
+
+ 24:          40 LOAD_CONST               76 (True)
+              43 LOAD_CONST                6 ('arrange_vertical')
+              46 STORE_MAP
+
+ 25:          47 LOAD_CONST                7 ('')
+              50 LOAD_CONST                8 ('array_prefix')
+              53 STORE_MAP
+
+ 26:          54 LOAD_CONST                7 ('')
+              57 LOAD_CONST                9 ('array_suffix')
+              60 STORE_MAP
+
+ 27:          61 LOAD_CONST                2 (None)
+              64 LOAD_CONST               10 ('colfmt')
+              67 STORE_MAP
+
+ 28:          68 LOAD_CONST               11 ('  ')
+              71 LOAD_CONST               12 ('colsep')
+              74 STORE_MAP
+
+ 29:          75 LOAD_NAME                 2 (computed_displaywidth)
+              78 CALL_FUNCTION             0 (0 positional, 0 keyword pair)
+              81 LOAD_CONST               13 ('displaywidth')
+              84 STORE_MAP
+
+ 30:          85 LOAD_CONST                7 ('')
+              88 LOAD_CONST               14 ('lineprefix')
+              91 STORE_MAP
+
+ 31:          92 LOAD_CONST               15 ('\n')
+              95 LOAD_CONST               16 ('linesuffix')
+              98 STORE_MAP
+
+ 32:          99 LOAD_CONST                2 (None)
+             102 LOAD_CONST               17 ('ljust')
+             105 STORE_MAP
+
+ 33:         106 LOAD_CONST               75 (False)
+             109 LOAD_CONST               18 ('term_adjust')
+             112 STORE_MAP
+             113 STORE_NAME                6 (default_opts)
+
+ 37:         116 LOAD_CONST               19 (<code object get_option at 0x7f7c9dbc3ed0, file "exec", line 37>)
+             119 LOAD_CONST               20 ('get_option')
+             122 MAKE_FUNCTION             0 (0 positional, 0 name and default, 0 annotations)
+             125 STORE_NAME                7 (get_option)
+
+ 41:         128 LOAD_CONST               21 (80)
+             131 LOAD_CONST               11 ('  ')
+
+ 42:         134 LOAD_CONST               76 (True)
+             137 LOAD_CONST               76 (True)
+             140 LOAD_CONST                7 ('')
+
+ 43:         143 BUILD_MAP                 0
+             146 LOAD_CONST               22 (<code object columnize at 0x7f7c9db82270, file "exec", line 41>)
+             149 LOAD_CONST               23 ('columnize')
+             152 MAKE_FUNCTION             6 (6 positional, 0 name and default, 0 annotations)
+             155 STORE_NAME                8 (columnize)
+
+245:         158 LOAD_NAME                 9 (__name__)
+             161 LOAD_CONST               24 ('__main__')
+             164 COMPARE_OP                2 (==)
+             167 POP_JUMP_IF_FALSE       843 (to 843)
+
+248:         170 LOAD_NAME                10 (print)
+             173 LOAD_NAME                 8 (columnize)
+             176 LOAD_NAME                11 (list)
+             179 LOAD_NAME                12 (range)
+             182 LOAD_CONST               25 (12)
+             185 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             188 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             191 LOAD_CONST               26 ('opts')
+
+249:         194 BUILD_MAP                 2
+             197 LOAD_CONST               27 (6)
+             200 LOAD_CONST               13 ('displaywidth')
+             203 STORE_MAP
+             204 LOAD_CONST               76 (True)
+             207 LOAD_CONST                5 ('arrange_array')
+             210 STORE_MAP
+             211 CALL_FUNCTION           257 (1 positional, 1 keyword pair)
+             214 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             217 POP_TOP
+
+250:         218 LOAD_NAME                10 (print)
+             221 LOAD_NAME                 8 (columnize)
+             224 LOAD_NAME                11 (list)
+             227 LOAD_NAME                12 (range)
+             230 LOAD_CONST               25 (12)
+             233 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             236 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             239 LOAD_CONST               26 ('opts')
+
+251:         242 BUILD_MAP                 2
+             245 LOAD_CONST               28 (10)
+             248 LOAD_CONST               13 ('displaywidth')
+             251 STORE_MAP
+             252 LOAD_CONST               76 (True)
+             255 LOAD_CONST                5 ('arrange_array')
+             258 STORE_MAP
+             259 CALL_FUNCTION           257 (1 positional, 1 keyword pair)
+             262 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             265 POP_TOP
+
+252:         266 SETUP_LOOP              146 (to 415)
+             269 LOAD_CONST               80 (((4, 4), (4, 7), (100, 80)))
+             272 GET_ITER
+         >>  273 FOR_ITER                138 (to 414)
+             276 STORE_NAME               13 (t)
+
+253:         279 LOAD_NAME                13 (t)
+             282 LOAD_CONST               32 (1)
+             285 BINARY_SUBSCR
+             286 STORE_NAME               14 (width)
+
+254:         289 LOAD_CONST               33 (<code object <listcomp> at 0x7f7c9db82300, file "exec", line 254>)
+             292 LOAD_CONST               34 ('<listcomp>')
+             295 MAKE_FUNCTION             0 (0 positional, 0 name and default, 0 annotations)
+             298 LOAD_NAME                12 (range)
+             301 LOAD_NAME                13 (t)
+             304 LOAD_CONST                1 (0)
+             307 BINARY_SUBSCR
+             308 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             311 GET_ITER
+             312 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             315 STORE_NAME               15 (data)
+
+255:         318 BUILD_MAP                 0
+             321 STORE_NAME               16 (options)
+
+256:         324 SETUP_LOOP               84 (to 411)
+             327 LOAD_CONST               83 (((False, 'horizontal'), (True, 'vertical')))
+             330 GET_ITER
+         >>  331 FOR_ITER                 76 (to 410)
+             334 STORE_NAME               17 (t2)
+
+257:         337 LOAD_NAME                10 (print)
+             340 LOAD_CONST               37 ('Width: %d, direction: %s')
+             343 LOAD_NAME                14 (width)
+             346 LOAD_NAME                17 (t2)
+             349 LOAD_CONST               32 (1)
+             352 BINARY_SUBSCR
+             353 BUILD_TUPLE               2
+             356 BINARY_MODULO
+             357 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             360 POP_TOP
+
+258:         361 LOAD_NAME                14 (width)
+             364 LOAD_NAME                16 (options)
+             367 LOAD_CONST               13 ('displaywidth')
+             370 STORE_SUBSCR
+
+259:         371 LOAD_NAME                17 (t2)
+             374 LOAD_CONST                1 (0)
+             377 BINARY_SUBSCR
+             378 LOAD_NAME                16 (options)
+             381 LOAD_CONST                6 ('arrange_vertical')
+             384 STORE_SUBSCR
+
+260:         385 LOAD_NAME                10 (print)
+             388 LOAD_NAME                 8 (columnize)
+             391 LOAD_NAME                15 (data)
+             394 LOAD_CONST               26 ('opts')
+             397 LOAD_NAME                16 (options)
+             400 CALL_FUNCTION           257 (1 positional, 1 keyword pair)
+             403 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             406 POP_TOP
+
+261:         407 JUMP_ABSOLUTE           331 (to 331)
+         >>  410 POP_BLOCK
+
+262:     >>  411 JUMP_ABSOLUTE           273 (to 273)
+         >>  414 POP_BLOCK
+
+263:     >>  415 LOAD_NAME                10 (print)
+             418 LOAD_NAME                 8 (columnize)
+             421 BUILD_LIST                0
+             424 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             427 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             430 POP_TOP
+
+264:         431 LOAD_NAME                10 (print)
+             434 LOAD_NAME                 8 (columnize)
+             437 LOAD_CONST               38 ('a')
+             440 LOAD_CONST               39 ('2')
+             443 LOAD_CONST               40 ('c')
+             446 BUILD_LIST                3
+             449 LOAD_CONST               28 (10)
+             452 LOAD_CONST               41 (', ')
+             455 CALL_FUNCTION             3 (3 positional, 0 keyword pair)
+             458 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             461 POP_TOP
+
+265:         462 LOAD_NAME                10 (print)
+             465 LOAD_NAME                 8 (columnize)
+             468 LOAD_CONST               42 ('oneitem')
+             471 BUILD_LIST                1
+             474 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             477 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             480 POP_TOP
+
+266:         481 LOAD_NAME                10 (print)
+             484 LOAD_NAME                 8 (columnize)
+             487 LOAD_CONST               84 (('one', 'two', 'three'))
+             490 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             493 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             496 POP_TOP
+
+276:         497 LOAD_CONST               85 (('one', 'two', 'three', 'for', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eightteen', 'nineteen', 'twenty', 'twentyone', 'twentytwo', 'twentythree', 'twentyfour', 'twentyfive', 'twentysix', 'twentyseven'))
+             500 STORE_NAME               15 (data)
+
+277:         503 LOAD_NAME                10 (print)
+             506 LOAD_NAME                 8 (columnize)
+             509 LOAD_NAME                15 (data)
+             512 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             515 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             518 POP_TOP
+
+278:         519 LOAD_NAME                10 (print)
+             522 LOAD_NAME                 8 (columnize)
+             525 LOAD_NAME                15 (data)
+             528 LOAD_CONST                6 ('arrange_vertical')
+             531 LOAD_CONST               75 (False)
+             534 CALL_FUNCTION           257 (1 positional, 1 keyword pair)
+             537 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             540 POP_TOP
+
+279:         541 LOAD_CONST               70 (<code object <listcomp> at 0x7f7c9db82390, file "exec", line 279>)
+             544 LOAD_CONST               34 ('<listcomp>')
+             547 MAKE_FUNCTION             0 (0 positional, 0 name and default, 0 annotations)
+             550 LOAD_NAME                12 (range)
+             553 LOAD_CONST               71 (55)
+             556 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             559 GET_ITER
+             560 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             563 STORE_NAME               15 (data)
+
+280:         566 LOAD_NAME                10 (print)
+             569 LOAD_NAME                 8 (columnize)
+             572 LOAD_NAME                15 (data)
+             575 LOAD_CONST               26 ('opts')
+             578 BUILD_MAP                 2
+             581 LOAD_CONST               72 (39)
+             584 LOAD_CONST               13 ('displaywidth')
+             587 STORE_MAP
+             588 LOAD_CONST               76 (True)
+             591 LOAD_CONST                5 ('arrange_array')
+             594 STORE_MAP
+             595 CALL_FUNCTION           257 (1 positional, 1 keyword pair)
+             598 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             601 POP_TOP
+
+281:         602 LOAD_NAME                10 (print)
+             605 LOAD_NAME                 8 (columnize)
+             608 LOAD_NAME                15 (data)
+             611 LOAD_CONST               13 ('displaywidth')
+             614 LOAD_CONST               72 (39)
+             617 LOAD_CONST               17 ('ljust')
+             620 LOAD_CONST               75 (False)
+             623 LOAD_CONST               12 ('colsep')
+
+282:         626 LOAD_CONST               41 (', ')
+             629 LOAD_CONST               14 ('lineprefix')
+             632 LOAD_CONST               73 ('    ')
+             635 CALL_FUNCTION          1025 (1 positional, 4 keyword pair)
+             638 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             641 POP_TOP
+
+283:         642 LOAD_NAME                10 (print)
+             645 LOAD_NAME                 8 (columnize)
+             648 LOAD_NAME                15 (data)
+             651 LOAD_CONST               13 ('displaywidth')
+             654 LOAD_CONST               72 (39)
+             657 LOAD_CONST               17 ('ljust')
+             660 LOAD_CONST               75 (False)
+             663 LOAD_CONST                6 ('arrange_vertical')
+
+284:         666 LOAD_CONST               75 (False)
+             669 LOAD_CONST               12 ('colsep')
+
+285:         672 LOAD_CONST               41 (', ')
+             675 CALL_FUNCTION          1025 (1 positional, 4 keyword pair)
+             678 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             681 POP_TOP
+
+287:         682 LOAD_NAME                10 (print)
+             685 LOAD_NAME                 8 (columnize)
+             688 LOAD_NAME                15 (data)
+             691 LOAD_CONST               13 ('displaywidth')
+             694 LOAD_CONST               72 (39)
+             697 LOAD_CONST               17 ('ljust')
+             700 LOAD_CONST               75 (False)
+             703 LOAD_CONST                6 ('arrange_vertical')
+
+288:         706 LOAD_CONST               75 (False)
+             709 LOAD_CONST               12 ('colsep')
+
+289:         712 LOAD_CONST               41 (', ')
+             715 LOAD_CONST               14 ('lineprefix')
+             718 LOAD_CONST               73 ('    ')
+             721 CALL_FUNCTION          1281 (1 positional, 5 keyword pair)
+             724 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             727 POP_TOP
+
+291:         728 LOAD_CONST                1 (0)
+             731 LOAD_CONST                2 (None)
+             734 IMPORT_NAME              18 (sys)
+             737 STORE_NAME               18 (sys)
+
+292:         740 SETUP_EXCEPT             20 (to 763)
+
+293:         743 LOAD_NAME                10 (print)
+             746 LOAD_NAME                 8 (columnize)
+             749 LOAD_CONST               74 (5)
+             752 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             755 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             758 POP_TOP
+             759 POP_BLOCK
+             760 JUMP_FORWARD             49 (to 812)
+
+294:     >>  763 DUP_TOP
+             764 LOAD_NAME                19 (TypeError)
+             767 COMPARE_OP               10 (exception-match)
+             770 POP_JUMP_IF_FALSE       811 (to 811)
+             773 POP_TOP
+             774 POP_TOP
+             775 POP_TOP
+
+295:         776 LOAD_NAME                18 (sys)
+             779 LOAD_ATTR                20 (exc_info)
+             782 CALL_FUNCTION             0 (0 positional, 0 keyword pair)
+             785 UNPACK_SEQUENCE           3
+             788 STORE_NAME               21 (_)
+             791 STORE_NAME               22 (err)
+             794 STORE_NAME               21 (_)
+
+296:         797 LOAD_NAME                10 (print)
+             800 LOAD_NAME                22 (err)
+             803 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             806 POP_TOP
+
+297:         807 POP_EXCEPT
+             808 JUMP_FORWARD              1 (to 812)
+         >>  811 END_FINALLY
+
+299:     >>  812 LOAD_NAME                10 (print)
+             815 LOAD_NAME                 8 (columnize)
+             818 LOAD_NAME                11 (list)
+             821 LOAD_NAME                12 (range)
+             824 LOAD_CONST               29 (4)
+             827 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             830 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             833 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             836 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             839 POP_TOP
+             840 JUMP_FORWARD              0 (to 843)
+         >>  843 LOAD_CONST                2 (None)
+             846 RETURN_VALUE
+
+
+# Method Name:       computed_displaywidth
+# Filename:          exec
+# Argument count:    0
+# Kw-only arguments: 0
+# Number of locals:  1
+# Stack size:        12
+# Flags:             0x00000043 (NOFREE | NEWLOCALS | OPTIMIZED)
+# First Line:        10
+# Constants:
+#    0: "Figure out a reasonable default with. Use os.environ['COLUMNS'] if possible,\n    and failing that use 80.\n    "
+#    1: 'COLUMNS'
+#    2: 80
+# Names:
+#    0: int
+#    1: os
+#    2: environ
+#    3: KeyError
+#    4: ValueError
+# Varnames:
+#	width
+# Local variables:
+#    0: width
+ 14:           0 SETUP_EXCEPT             23 (to 26)
+
+ 15:           3 LOAD_GLOBAL               0 (int)
+               6 LOAD_GLOBAL               1 (os)
+               9 LOAD_ATTR                 2 (environ)
+              12 LOAD_CONST                1 ('COLUMNS')
+              15 BINARY_SUBSCR
+              16 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+              19 STORE_FAST                0 (width)
+              22 POP_BLOCK
+              23 JUMP_FORWARD             30 (to 56)
+
+ 16:     >>   26 DUP_TOP
+              27 LOAD_GLOBAL               3 (KeyError)
+              30 LOAD_GLOBAL               4 (ValueError)
+              33 BUILD_TUPLE               2
+              36 COMPARE_OP               10 (exception-match)
+              39 POP_JUMP_IF_FALSE        55 (to 55)
+              42 POP_TOP
+              43 POP_TOP
+              44 POP_TOP
+
+ 17:          45 LOAD_CONST                2 (80)
+              48 STORE_FAST                0 (width)
+              51 POP_EXCEPT
+              52 JUMP_FORWARD              1 (to 56)
+         >>   55 END_FINALLY
+
+ 19:     >>   56 LOAD_FAST                 0 (width)
+              59 JUMP_IF_TRUE_OR_POP      65 (to 65)
+              62 LOAD_CONST                2 (80)
+         >>   65 RETURN_VALUE
+
+
+# Method Name:       get_option
+# Filename:          exec
+# Argument count:    2
+# Kw-only arguments: 0
+# Number of locals:  2
+# Stack size:        4
+# Flags:             0x00000043 (NOFREE | NEWLOCALS | OPTIMIZED)
+# First Line:        37
+# Constants:
+#    0: None
+# Names:
+#    0: get
+#    1: default_opts
+# Varnames:
+#	key, options
+# Positional arguments:
+#	key, options
+ 38:           0 LOAD_FAST                 1 (options)
+               3 LOAD_ATTR                 0 (get)
+               6 LOAD_FAST                 0 (key)
+               9 LOAD_GLOBAL               1 (default_opts)
+              12 LOAD_ATTR                 0 (get)
+              15 LOAD_FAST                 0 (key)
+              18 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+              21 CALL_FUNCTION             2 (2 positional, 0 keyword pair)
+              24 RETURN_VALUE
+
+
+# Method Name:       columnize
+# Filename:          exec
+# Argument count:    7
+# Kw-only arguments: 0
+# Number of locals:  25
+# Stack size:        8
+# Flags:             0x00000003 (NEWLOCALS | OPTIMIZED)
+# First Line:        41
+# Constants:
+#    0: 'Return a list of strings as a compact set of columns arranged\n    horizontally or vertically.\n\n    For example, for a line width of 4 characters (arranged vertically):\n        [\'1\', \'2,\', \'3\', \'4\'] => \'1  3\n2  4\n\'\n\n    or arranged horizontally:\n        [\'1\', \'2,\', \'3\', \'4\'] => \'1  2\n3  4\n\'\n\n    Each column is only as wide as necessary.  By default, columns are\n    separated by two spaces - one was not legible enough. Set "colsep"\n    to adjust the string separate columns. Set `displaywidth\' to set\n    the line width.\n\n    Normally, consecutive items go down from the top to bottom from\n    the left-most column to the right-most. If "arrange_vertical" is\n    set false, consecutive items will go across, left to right, top to\n    bottom.'
+#    1: 'array needs to be an instance of a list or a tuple'
+#    2: 0
+#    3: 'arrange_array'
+#    4: '['
+#    5: 'array_prefix'
+#    6: ' '
+#    7: 'lineprefix'
+#    8: ',\n'
+#    9: 'linesuffix'
+#   10: ']\n'
+#   11: 'array_suffix'
+#   12: ', '
+#   13: 'colsep'
+#   14: 'arrange_vertical'
+#   15: 'displaywidth'
+#   16: 'ljust'
+#   17: 'colfmt'
+#   18: <code object <listcomp> at 0x7f7c9dc70e40, file "exec", line 94>
+#   19: 'columnize.<locals>.<listcomp>'
+#   20: <code object <listcomp> at 0x7f7c9db821e0, file "exec", line 96>
+#   21: '<empty>\n'
+#   22: 1
+#   23: '%s%s%s\n'
+#   24: 4
+#   25: <code object <lambda> at 0x7f7c9db82150, file "exec", line 109>
+#   26: 'columnize.<locals>.<lambda>'
+#   27: ''
+#   28: '%s%s%s'
+#   29: <code object <lambda> at 0x7f7c9db82030, file "exec", line 160>
+#   30: None
+#   31: '\n'
+#   32: False
+#   33: -1
+#   34: -1
+#   35: -1
+# Names:
+#    0: isinstance
+#    1: list
+#    2: tuple
+#    3: TypeError
+#    4: len
+#    5: keys
+#    6: default_opts
+#    7: get_option
+#    8: False
+#    9: copy
+#   10: str
+#   11: max
+#   12: range
+#   13: append
+#   14: ljust
+#   15: rjust
+#   16: join
+#   17: rstrip
+# Varnames:
+#	array, displaywidth, colsep, arrange_vertical, ljust, lineprefix, opts, key, size, array_index, nrows, ncols, colwidths, totwidth, col, colwidth, row, i, x, s, texts, min_rows, rounded_size, prefix, colsep_pos
+# Positional arguments:
+#	array, displaywidth, colsep, arrange_vertical, ljust, lineprefix, opts
+# Local variables:
+#    7: key
+#    8: size
+#    9: array_index
+#   10: nrows
+#   11: ncols
+#   12: colwidths
+#   13: totwidth
+#   14: col
+#   15: colwidth
+#   16: row
+#   17: i
+#   18: x
+#   19: s
+#   20: texts
+#   21: min_rows
+#   22: rounded_size
+#   23: prefix
+#   24: colsep_pos
+# Cell variables:
+#    0: o
+ 62:           0 LOAD_GLOBAL               0 (isinstance)
+               3 LOAD_FAST                 0 (array)
+               6 LOAD_GLOBAL               1 (list)
+               9 LOAD_GLOBAL               2 (tuple)
+              12 BUILD_TUPLE               2
+              15 CALL_FUNCTION             2 (2 positional, 0 keyword pair)
+              18 POP_JUMP_IF_TRUE         36 (to 36)
+
+ 63:          21 LOAD_GLOBAL               3 (TypeError)
+
+ 64:          24 LOAD_CONST                1 ('array needs to be an instance of a list or a tuple')
+              27 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+              30 RAISE_VARARGS             1
+              33 JUMP_FORWARD              0 (to 36)
+
+ 66:     >>   36 BUILD_MAP                 0
+              39 STORE_DEREF               0 (o)
+
+ 67:          42 LOAD_GLOBAL               4 (len)
+              45 LOAD_FAST                 6 (opts)
+              48 LOAD_ATTR                 5 (keys)
+              51 CALL_FUNCTION             0 (0 positional, 0 keyword pair)
+              54 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+              57 LOAD_CONST                2 (0)
+              60 COMPARE_OP                4 (>)
+              63 POP_JUMP_IF_FALSE       184 (to 184)
+
+ 68:          66 SETUP_LOOP               39 (to 108)
+              69 LOAD_GLOBAL               6 (default_opts)
+              72 LOAD_ATTR                 5 (keys)
+              75 CALL_FUNCTION             0 (0 positional, 0 keyword pair)
+              78 GET_ITER
+         >>   79 FOR_ITER                 25 (to 107)
+              82 STORE_FAST                7 (key)
+
+ 69:          85 LOAD_GLOBAL               7 (get_option)
+              88 LOAD_FAST                 7 (key)
+              91 LOAD_FAST                 6 (opts)
+              94 CALL_FUNCTION             2 (2 positional, 0 keyword pair)
+              97 LOAD_DEREF                0 (o)
+             100 LOAD_FAST                 7 (key)
+             103 STORE_SUBSCR
+
+ 70:         104 JUMP_ABSOLUTE            79 (to 79)
+         >>  107 POP_BLOCK
+
+ 71:     >>  108 LOAD_DEREF                0 (o)
+             111 LOAD_CONST                3 ('arrange_array')
+             114 BINARY_SUBSCR
+             115 POP_JUMP_IF_FALSE       246 (to 246)
+
+ 72:         118 LOAD_CONST                4 ('[')
+             121 LOAD_DEREF                0 (o)
+             124 LOAD_CONST                5 ('array_prefix')
+             127 STORE_SUBSCR
+
+ 73:         128 LOAD_CONST                6 (' ')
+             131 LOAD_DEREF                0 (o)
+             134 LOAD_CONST                7 ('lineprefix')
+             137 STORE_SUBSCR
+
+ 74:         138 LOAD_CONST                8 (',\n')
+             141 LOAD_DEREF                0 (o)
+             144 LOAD_CONST                9 ('linesuffix')
+             147 STORE_SUBSCR
+
+ 75:         148 LOAD_CONST               10 (']\n')
+             151 LOAD_DEREF                0 (o)
+             154 LOAD_CONST               11 ('array_suffix')
+             157 STORE_SUBSCR
+
+ 76:         158 LOAD_CONST               12 (', ')
+             161 LOAD_DEREF                0 (o)
+             164 LOAD_CONST               13 ('colsep')
+             167 STORE_SUBSCR
+
+ 77:         168 LOAD_CONST               32 (False)
+             171 LOAD_DEREF                0 (o)
+             174 LOAD_CONST               14 ('arrange_vertical')
+             177 STORE_SUBSCR
+
+ 78:         178 JUMP_ABSOLUTE           246 (to 246)
+             181 JUMP_FORWARD             62 (to 246)
+
+ 81:     >>  184 LOAD_GLOBAL               6 (default_opts)
+             187 LOAD_ATTR                 9 (copy)
+             190 CALL_FUNCTION             0 (0 positional, 0 keyword pair)
+             193 STORE_DEREF               0 (o)
+
+ 82:         196 LOAD_FAST                 1 (displaywidth)
+             199 LOAD_DEREF                0 (o)
+             202 LOAD_CONST               15 ('displaywidth')
+             205 STORE_SUBSCR
+
+ 83:         206 LOAD_FAST                 2 (colsep)
+             209 LOAD_DEREF                0 (o)
+             212 LOAD_CONST               13 ('colsep')
+             215 STORE_SUBSCR
+
+ 84:         216 LOAD_FAST                 3 (arrange_vertical)
+             219 LOAD_DEREF                0 (o)
+             222 LOAD_CONST               14 ('arrange_vertical')
+             225 STORE_SUBSCR
+
+ 85:         226 LOAD_FAST                 4 (ljust)
+             229 LOAD_DEREF                0 (o)
+             232 LOAD_CONST               16 ('ljust')
+             235 STORE_SUBSCR
+
+ 86:         236 LOAD_FAST                 5 (lineprefix)
+             239 LOAD_DEREF                0 (o)
+             242 LOAD_CONST                7 ('lineprefix')
+             245 STORE_SUBSCR
+
+ 93:     >>  246 LOAD_DEREF                0 (o)
+             249 LOAD_CONST               17 ('colfmt')
+             252 BINARY_SUBSCR
+             253 POP_JUMP_IF_FALSE       284 (to 284)
+
+ 94:         256 LOAD_CLOSURE              0 (o)
+             259 BUILD_TUPLE               1
+             262 LOAD_CONST               18 (<code object <listcomp> at 0x7f7c9dc70e40, file "exec", line 94>)
+             265 LOAD_CONST               19 ('columnize.<locals>.<listcomp>')
+             268 MAKE_CLOSURE              0
+             271 LOAD_FAST                 0 (array)
+             274 GET_ITER
+             275 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             278 STORE_FAST                0 (array)
+             281 JUMP_FORWARD             19 (to 303)
+
+ 96:     >>  284 LOAD_CONST               20 (<code object <listcomp> at 0x7f7c9db821e0, file "exec", line 96>)
+             287 LOAD_CONST               19 ('columnize.<locals>.<listcomp>')
+             290 MAKE_FUNCTION             0 (0 positional, 0 name and default, 0 annotations)
+             293 LOAD_FAST                 0 (array)
+             296 GET_ITER
+             297 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             300 STORE_FAST                0 (array)
+
+100:     >>  303 LOAD_GLOBAL               4 (len)
+             306 LOAD_FAST                 0 (array)
+             309 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             312 STORE_FAST                8 (size)
+
+101:         315 LOAD_CONST                2 (0)
+             318 LOAD_FAST                 8 (size)
+             321 COMPARE_OP                2 (==)
+             324 POP_JUMP_IF_FALSE       331 (to 331)
+
+102:         327 LOAD_CONST               21 ('<empty>\n')
+             330 RETURN_VALUE
+
+103:     >>  331 LOAD_FAST                 8 (size)
+             334 LOAD_CONST               22 (1)
+             337 COMPARE_OP                2 (==)
+             340 POP_JUMP_IF_FALSE       378 (to 378)
+
+104:         343 LOAD_CONST               23 ('%s%s%s\n')
+             346 LOAD_DEREF                0 (o)
+             349 LOAD_CONST                5 ('array_prefix')
+             352 BINARY_SUBSCR
+             353 LOAD_GLOBAL              10 (str)
+             356 LOAD_FAST                 0 (array)
+             359 LOAD_CONST                2 (0)
+             362 BINARY_SUBSCR
+             363 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+
+105:         366 LOAD_DEREF                0 (o)
+             369 LOAD_CONST               11 ('array_suffix')
+             372 BINARY_SUBSCR
+             373 BUILD_TUPLE               3
+             376 BINARY_MODULO
+             377 RETURN_VALUE
+
+107:     >>  378 LOAD_GLOBAL              11 (max)
+             381 LOAD_CONST               24 (4)
+             384 LOAD_DEREF                0 (o)
+             387 LOAD_CONST               15 ('displaywidth')
+             390 BINARY_SUBSCR
+             391 LOAD_GLOBAL               4 (len)
+             394 LOAD_DEREF                0 (o)
+             397 LOAD_CONST                7 ('lineprefix')
+             400 BINARY_SUBSCR
+             401 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             404 BINARY_SUBTRACT
+             405 CALL_FUNCTION             2 (2 positional, 0 keyword pair)
+             408 LOAD_DEREF                0 (o)
+             411 LOAD_CONST               15 ('displaywidth')
+             414 STORE_SUBSCR
+
+108:         415 LOAD_DEREF                0 (o)
+             418 LOAD_CONST               14 ('arrange_vertical')
+             421 BINARY_SUBSCR
+             422 POP_JUMP_IF_FALSE       999 (to 999)
+
+109:         425 LOAD_CONST               25 (<code object <lambda> at 0x7f7c9db82150, file "exec", line 109>)
+             428 LOAD_CONST               26 ('columnize.<locals>.<lambda>')
+             431 MAKE_FUNCTION             0 (0 positional, 0 name and default, 0 annotations)
+             434 STORE_FAST                9 (array_index)
+
+111:         437 SETUP_LOOP              262 (to 702)
+             440 LOAD_GLOBAL              12 (range)
+             443 LOAD_CONST               22 (1)
+             446 LOAD_FAST                 8 (size)
+             449 LOAD_CONST               22 (1)
+             452 BINARY_ADD
+             453 CALL_FUNCTION             2 (2 positional, 0 keyword pair)
+             456 GET_ITER
+         >>  457 FOR_ITER                241 (to 701)
+             460 STORE_FAST               10 (nrows)
+
+112:         463 LOAD_FAST                 8 (size)
+             466 LOAD_FAST                10 (nrows)
+             469 BINARY_ADD
+             470 LOAD_CONST               22 (1)
+             473 BINARY_SUBTRACT
+             474 LOAD_FAST                10 (nrows)
+             477 BINARY_FLOOR_DIVIDE
+             478 STORE_FAST               11 (ncols)
+
+113:         481 BUILD_LIST                0
+             484 STORE_FAST               12 (colwidths)
+
+114:         487 LOAD_GLOBAL               4 (len)
+             490 LOAD_DEREF                0 (o)
+             493 LOAD_CONST               13 ('colsep')
+             496 BINARY_SUBSCR
+             497 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             500 UNARY_NEGATIVE
+             501 STORE_FAST               13 (totwidth)
+
+115:         504 SETUP_LOOP              171 (to 678)
+             507 LOAD_GLOBAL              12 (range)
+             510 LOAD_FAST                11 (ncols)
+             513 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             516 GET_ITER
+         >>  517 FOR_ITER                157 (to 677)
+             520 STORE_FAST               14 (col)
+
+117:         523 LOAD_CONST                2 (0)
+             526 STORE_FAST               15 (colwidth)
+
+118:         529 SETUP_LOOP               85 (to 617)
+             532 LOAD_GLOBAL              12 (range)
+             535 LOAD_FAST                10 (nrows)
+             538 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             541 GET_ITER
+         >>  542 FOR_ITER                 71 (to 616)
+             545 STORE_FAST               16 (row)
+
+119:         548 LOAD_FAST                 9 (array_index)
+             551 LOAD_FAST                10 (nrows)
+             554 LOAD_FAST                16 (row)
+             557 LOAD_FAST                14 (col)
+             560 CALL_FUNCTION             3 (3 positional, 0 keyword pair)
+             563 STORE_FAST               17 (i)
+
+120:         566 LOAD_FAST                17 (i)
+             569 LOAD_FAST                 8 (size)
+             572 COMPARE_OP                5 (>=)
+             575 POP_JUMP_IF_FALSE       582 (to 582)
+
+120:         578 BREAK_LOOP
+             579 JUMP_FORWARD              0 (to 582)
+
+121:     >>  582 LOAD_FAST                 0 (array)
+             585 LOAD_FAST                17 (i)
+             588 BINARY_SUBSCR
+             589 STORE_FAST               18 (x)
+
+122:         592 LOAD_GLOBAL              11 (max)
+             595 LOAD_FAST                15 (colwidth)
+             598 LOAD_GLOBAL               4 (len)
+             601 LOAD_FAST                18 (x)
+             604 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             607 CALL_FUNCTION             2 (2 positional, 0 keyword pair)
+             610 STORE_FAST               15 (colwidth)
+
+123:         613 JUMP_ABSOLUTE           542 (to 542)
+         >>  616 POP_BLOCK
+
+124:     >>  617 LOAD_FAST                12 (colwidths)
+             620 LOAD_ATTR                13 (append)
+             623 LOAD_FAST                15 (colwidth)
+             626 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             629 POP_TOP
+
+125:         630 LOAD_FAST                13 (totwidth)
+             633 LOAD_FAST                15 (colwidth)
+             636 LOAD_GLOBAL               4 (len)
+             639 LOAD_DEREF                0 (o)
+             642 LOAD_CONST               13 ('colsep')
+             645 BINARY_SUBSCR
+             646 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             649 BINARY_ADD
+             650 INPLACE_ADD
+             651 STORE_FAST               13 (totwidth)
+
+126:         654 LOAD_FAST                13 (totwidth)
+             657 LOAD_DEREF                0 (o)
+             660 LOAD_CONST               15 ('displaywidth')
+             663 BINARY_SUBSCR
+             664 COMPARE_OP                4 (>)
+             667 POP_JUMP_IF_FALSE       517 (to 517)
+
+127:         670 BREAK_LOOP
+             671 JUMP_ABSOLUTE           517 (to 517)
+
+128:         674 JUMP_ABSOLUTE           517 (to 517)
+         >>  677 POP_BLOCK
+
+129:     >>  678 LOAD_FAST                13 (totwidth)
+             681 LOAD_DEREF                0 (o)
+             684 LOAD_CONST               15 ('displaywidth')
+             687 BINARY_SUBSCR
+             688 COMPARE_OP                1 (<=)
+             691 POP_JUMP_IF_FALSE       457 (to 457)
+
+130:         694 BREAK_LOOP
+             695 JUMP_ABSOLUTE           457 (to 457)
+
+131:         698 JUMP_ABSOLUTE           457 (to 457)
+         >>  701 POP_BLOCK
+
+136:     >>  702 LOAD_CONST               27 ('')
+             705 STORE_FAST               19 (s)
+
+137:         708 SETUP_LOOP              284 (to 995)
+             711 LOAD_GLOBAL              12 (range)
+             714 LOAD_FAST                10 (nrows)
+             717 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             720 GET_ITER
+         >>  721 FOR_ITER                270 (to 994)
+             724 STORE_FAST               16 (row)
+
+138:         727 BUILD_LIST                0
+             730 STORE_FAST               20 (texts)
+
+139:         733 SETUP_LOOP               78 (to 814)
+             736 LOAD_GLOBAL              12 (range)
+             739 LOAD_FAST                11 (ncols)
+             742 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             745 GET_ITER
+         >>  746 FOR_ITER                 64 (to 813)
+             749 STORE_FAST               14 (col)
+
+140:         752 LOAD_FAST                16 (row)
+             755 LOAD_FAST                10 (nrows)
+             758 LOAD_FAST                14 (col)
+             761 BINARY_MULTIPLY
+             762 BINARY_ADD
+             763 STORE_FAST               17 (i)
+
+141:         766 LOAD_FAST                17 (i)
+             769 LOAD_FAST                 8 (size)
+             772 COMPARE_OP                5 (>=)
+             775 POP_JUMP_IF_FALSE       787 (to 787)
+
+142:         778 LOAD_CONST               27 ('')
+             781 STORE_FAST               18 (x)
+             784 JUMP_FORWARD             10 (to 797)
+
+144:     >>  787 LOAD_FAST                 0 (array)
+             790 LOAD_FAST                17 (i)
+             793 BINARY_SUBSCR
+             794 STORE_FAST               18 (x)
+
+145:     >>  797 LOAD_FAST                20 (texts)
+             800 LOAD_ATTR                13 (append)
+             803 LOAD_FAST                18 (x)
+             806 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             809 POP_TOP
+             810 JUMP_ABSOLUTE           746 (to 746)
+         >>  813 POP_BLOCK
+
+146:     >>  814 SETUP_LOOP               28 (to 845)
+         >>  817 LOAD_FAST                20 (texts)
+             820 POP_JUMP_IF_FALSE       844 (to 844)
+             823 LOAD_FAST                20 (texts)
+             826 LOAD_CONST               33 (-1)
+             829 BINARY_SUBSCR
+             830 UNARY_NOT
+             831 POP_JUMP_IF_FALSE       844 (to 844)
+
+147:         834 LOAD_FAST                20 (texts)
+             837 LOAD_CONST               34 (-1)
+             840 DELETE_SUBSCR
+             841 JUMP_ABSOLUTE           817 (to 817)
+         >>  844 POP_BLOCK
+
+148:     >>  845 SETUP_LOOP               93 (to 941)
+             848 LOAD_GLOBAL              12 (range)
+             851 LOAD_GLOBAL               4 (len)
+             854 LOAD_FAST                20 (texts)
+             857 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             860 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             863 GET_ITER
+         >>  864 FOR_ITER                 73 (to 940)
+             867 STORE_FAST               14 (col)
+
+149:         870 LOAD_DEREF                0 (o)
+             873 LOAD_CONST               16 ('ljust')
+             876 BINARY_SUBSCR
+             877 POP_JUMP_IF_FALSE       910 (to 910)
+
+150:         880 LOAD_FAST                20 (texts)
+             883 LOAD_FAST                14 (col)
+             886 BINARY_SUBSCR
+             887 LOAD_ATTR                14 (ljust)
+             890 LOAD_FAST                12 (colwidths)
+             893 LOAD_FAST                14 (col)
+             896 BINARY_SUBSCR
+             897 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             900 LOAD_FAST                20 (texts)
+             903 LOAD_FAST                14 (col)
+             906 STORE_SUBSCR
+             907 JUMP_ABSOLUTE           864 (to 864)
+
+152:     >>  910 LOAD_FAST                20 (texts)
+             913 LOAD_FAST                14 (col)
+             916 BINARY_SUBSCR
+             917 LOAD_ATTR                15 (rjust)
+             920 LOAD_FAST                12 (colwidths)
+             923 LOAD_FAST                14 (col)
+             926 BINARY_SUBSCR
+             927 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             930 LOAD_FAST                20 (texts)
+             933 LOAD_FAST                14 (col)
+             936 STORE_SUBSCR
+
+154:         937 JUMP_ABSOLUTE           864 (to 864)
+         >>  940 POP_BLOCK
+
+155:     >>  941 LOAD_FAST                19 (s)
+             944 LOAD_CONST               28 ('%s%s%s')
+             947 LOAD_DEREF                0 (o)
+             950 LOAD_CONST                7 ('lineprefix')
+             953 BINARY_SUBSCR
+             954 LOAD_GLOBAL              10 (str)
+             957 LOAD_DEREF                0 (o)
+             960 LOAD_CONST               13 ('colsep')
+             963 BINARY_SUBSCR
+             964 LOAD_ATTR                16 (join)
+             967 LOAD_FAST                20 (texts)
+             970 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+             973 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+
+156:         976 LOAD_DEREF                0 (o)
+             979 LOAD_CONST                9 ('linesuffix')
+             982 BINARY_SUBSCR
+             983 BUILD_TUPLE               3
+             986 BINARY_MODULO
+             987 INPLACE_ADD
+             988 STORE_FAST               19 (s)
+
+157:         991 JUMP_ABSOLUTE           721 (to 721)
+         >>  994 POP_BLOCK
+
+158:     >>  995 LOAD_FAST                19 (s)
+             998 RETURN_VALUE
+
+160:     >>  999 LOAD_CONST               29 (<code object <lambda> at 0x7f7c9db82030, file "exec", line 160>)
+            1002 LOAD_CONST               26 ('columnize.<locals>.<lambda>')
+            1005 MAKE_FUNCTION             0 (0 positional, 0 name and default, 0 annotations)
+            1008 STORE_FAST                9 (array_index)
+
+162:        1011 BUILD_LIST                0
+            1014 STORE_FAST               12 (colwidths)
+
+163:        1017 SETUP_LOOP              410 (to 1430)
+            1020 LOAD_GLOBAL              12 (range)
+            1023 LOAD_FAST                 8 (size)
+            1026 LOAD_CONST                2 (0)
+            1029 LOAD_CONST               35 (-1)
+            1032 CALL_FUNCTION             3 (3 positional, 0 keyword pair)
+            1035 GET_ITER
+         >> 1036 FOR_ITER                390 (to 1429)
+            1039 STORE_FAST               11 (ncols)
+
+165:        1042 LOAD_FAST                 8 (size)
+            1045 LOAD_FAST                11 (ncols)
+            1048 BINARY_ADD
+            1049 LOAD_CONST               22 (1)
+            1052 BINARY_SUBTRACT
+            1053 LOAD_FAST                11 (ncols)
+            1056 BINARY_FLOOR_DIVIDE
+            1057 STORE_FAST               21 (min_rows)
+
+166:        1060 LOAD_FAST                21 (min_rows)
+            1063 LOAD_CONST               22 (1)
+            1066 BINARY_SUBTRACT
+            1067 STORE_FAST               10 (nrows)
+
+167:        1070 SETUP_LOOP              317 (to 1390)
+         >> 1073 LOAD_FAST                10 (nrows)
+            1076 LOAD_FAST                 8 (size)
+            1079 COMPARE_OP                0 (<)
+            1082 POP_JUMP_IF_FALSE      1389 (to 1389)
+
+168:        1085 LOAD_FAST                10 (nrows)
+            1088 LOAD_CONST               22 (1)
+            1091 INPLACE_ADD
+            1092 STORE_FAST               10 (nrows)
+
+169:        1095 LOAD_FAST                10 (nrows)
+            1098 LOAD_FAST                11 (ncols)
+            1101 BINARY_MULTIPLY
+            1102 STORE_FAST               22 (rounded_size)
+
+170:        1105 BUILD_LIST                0
+            1108 STORE_FAST               12 (colwidths)
+
+171:        1111 LOAD_GLOBAL               4 (len)
+            1114 LOAD_DEREF                0 (o)
+            1117 LOAD_CONST               13 ('colsep')
+            1120 BINARY_SUBSCR
+            1121 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1124 UNARY_NEGATIVE
+            1125 STORE_FAST               13 (totwidth)
+
+172:        1128 SETUP_LOOP              193 (to 1324)
+            1131 LOAD_GLOBAL              12 (range)
+            1134 LOAD_FAST                11 (ncols)
+            1137 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1140 GET_ITER
+         >> 1141 FOR_ITER                179 (to 1323)
+            1144 STORE_FAST               14 (col)
+
+174:        1147 LOAD_CONST                2 (0)
+            1150 STORE_FAST               15 (colwidth)
+
+175:        1153 SETUP_LOOP              107 (to 1263)
+            1156 LOAD_GLOBAL              12 (range)
+            1159 LOAD_CONST               22 (1)
+            1162 LOAD_FAST                10 (nrows)
+            1165 LOAD_CONST               22 (1)
+            1168 BINARY_ADD
+            1169 CALL_FUNCTION             2 (2 positional, 0 keyword pair)
+            1172 GET_ITER
+         >> 1173 FOR_ITER                 86 (to 1262)
+            1176 STORE_FAST               16 (row)
+
+176:        1179 LOAD_FAST                 9 (array_index)
+            1182 LOAD_FAST                11 (ncols)
+            1185 LOAD_FAST                16 (row)
+            1188 LOAD_FAST                14 (col)
+            1191 CALL_FUNCTION             3 (3 positional, 0 keyword pair)
+            1194 STORE_FAST               17 (i)
+
+177:        1197 LOAD_FAST                17 (i)
+            1200 LOAD_FAST                22 (rounded_size)
+            1203 COMPARE_OP                5 (>=)
+            1206 POP_JUMP_IF_FALSE      1213 (to 1213)
+
+177:        1209 BREAK_LOOP
+            1210 JUMP_ABSOLUTE          1173 (to 1173)
+
+178:     >> 1213 LOAD_FAST                17 (i)
+            1216 LOAD_FAST                 8 (size)
+            1219 COMPARE_OP                0 (<)
+            1222 POP_JUMP_IF_FALSE      1173 (to 1173)
+
+179:        1225 LOAD_FAST                 0 (array)
+            1228 LOAD_FAST                17 (i)
+            1231 BINARY_SUBSCR
+            1232 STORE_FAST               18 (x)
+
+180:        1235 LOAD_GLOBAL              11 (max)
+            1238 LOAD_FAST                15 (colwidth)
+            1241 LOAD_GLOBAL               4 (len)
+            1244 LOAD_FAST                18 (x)
+            1247 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1250 CALL_FUNCTION             2 (2 positional, 0 keyword pair)
+            1253 STORE_FAST               15 (colwidth)
+
+181:        1256 JUMP_ABSOLUTE          1173 (to 1173)
+
+182:        1259 JUMP_ABSOLUTE          1173 (to 1173)
+         >> 1262 POP_BLOCK
+
+183:     >> 1263 LOAD_FAST                12 (colwidths)
+            1266 LOAD_ATTR                13 (append)
+            1269 LOAD_FAST                15 (colwidth)
+            1272 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1275 POP_TOP
+
+184:        1276 LOAD_FAST                13 (totwidth)
+            1279 LOAD_FAST                15 (colwidth)
+            1282 LOAD_GLOBAL               4 (len)
+            1285 LOAD_DEREF                0 (o)
+            1288 LOAD_CONST               13 ('colsep')
+            1291 BINARY_SUBSCR
+            1292 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1295 BINARY_ADD
+            1296 INPLACE_ADD
+            1297 STORE_FAST               13 (totwidth)
+
+185:        1300 LOAD_FAST                13 (totwidth)
+            1303 LOAD_DEREF                0 (o)
+            1306 LOAD_CONST               15 ('displaywidth')
+            1309 BINARY_SUBSCR
+            1310 COMPARE_OP                5 (>=)
+            1313 POP_JUMP_IF_FALSE      1141 (to 1141)
+
+186:        1316 BREAK_LOOP
+            1317 JUMP_ABSOLUTE          1141 (to 1141)
+
+187:        1320 JUMP_ABSOLUTE          1141 (to 1141)
+         >> 1323 POP_BLOCK
+
+188:     >> 1324 LOAD_FAST                13 (totwidth)
+            1327 LOAD_DEREF                0 (o)
+            1330 LOAD_CONST               15 ('displaywidth')
+            1333 BINARY_SUBSCR
+            1334 COMPARE_OP                1 (<=)
+            1337 POP_JUMP_IF_FALSE      1366 (to 1366)
+            1340 LOAD_FAST                17 (i)
+            1343 LOAD_FAST                22 (rounded_size)
+            1346 LOAD_CONST               22 (1)
+            1349 BINARY_SUBTRACT
+            1350 COMPARE_OP                5 (>=)
+            1353 POP_JUMP_IF_FALSE      1366 (to 1366)
+
+191:        1356 LOAD_FAST                16 (row)
+            1359 STORE_FAST               10 (nrows)
+
+192:        1362 BREAK_LOOP
+            1363 JUMP_ABSOLUTE          1073 (to 1073)
+
+193:     >> 1366 LOAD_FAST                13 (totwidth)
+            1369 LOAD_DEREF                0 (o)
+            1372 LOAD_CONST               15 ('displaywidth')
+            1375 BINARY_SUBSCR
+            1376 COMPARE_OP                5 (>=)
+            1379 POP_JUMP_IF_FALSE      1073 (to 1073)
+
+196:        1382 BREAK_LOOP
+            1383 JUMP_ABSOLUTE          1073 (to 1073)
+
+197:        1386 JUMP_ABSOLUTE          1073 (to 1073)
+         >> 1389 POP_BLOCK
+
+198:     >> 1390 LOAD_FAST                13 (totwidth)
+            1393 LOAD_DEREF                0 (o)
+            1396 LOAD_CONST               15 ('displaywidth')
+            1399 BINARY_SUBSCR
+            1400 COMPARE_OP                1 (<=)
+            1403 POP_JUMP_IF_FALSE      1036 (to 1036)
+            1406 LOAD_FAST                17 (i)
+            1409 LOAD_FAST                22 (rounded_size)
+            1412 LOAD_CONST               22 (1)
+            1415 BINARY_SUBTRACT
+            1416 COMPARE_OP                5 (>=)
+            1419 POP_JUMP_IF_FALSE      1036 (to 1036)
+
+199:        1422 BREAK_LOOP
+            1423 JUMP_ABSOLUTE          1036 (to 1036)
+
+200:        1426 JUMP_ABSOLUTE          1036 (to 1036)
+         >> 1429 POP_BLOCK
+
+205:     >> 1430 LOAD_CONST               27 ('')
+            1433 STORE_FAST               19 (s)
+
+206:        1436 LOAD_GLOBAL               4 (len)
+            1439 LOAD_DEREF                0 (o)
+            1442 LOAD_CONST                5 ('array_prefix')
+            1445 BINARY_SUBSCR
+            1446 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1449 LOAD_CONST                2 (0)
+            1452 COMPARE_OP                3 (!=)
+            1455 POP_JUMP_IF_FALSE      1471 (to 1471)
+
+207:        1458 LOAD_DEREF                0 (o)
+            1461 LOAD_CONST                5 ('array_prefix')
+            1464 BINARY_SUBSCR
+            1465 STORE_FAST               23 (prefix)
+            1468 JUMP_FORWARD             10 (to 1481)
+
+209:     >> 1471 LOAD_DEREF                0 (o)
+            1474 LOAD_CONST                7 ('lineprefix')
+            1477 BINARY_SUBSCR
+            1478 STORE_FAST               23 (prefix)
+
+211:     >> 1481 SETUP_LOOP              265 (to 1749)
+            1484 LOAD_GLOBAL              12 (range)
+            1487 LOAD_CONST               22 (1)
+            1490 LOAD_FAST                10 (nrows)
+            1493 LOAD_CONST               22 (1)
+            1496 BINARY_ADD
+            1497 CALL_FUNCTION             2 (2 positional, 0 keyword pair)
+            1500 GET_ITER
+         >> 1501 FOR_ITER                244 (to 1748)
+            1504 STORE_FAST               16 (row)
+
+212:        1507 BUILD_LIST                0
+            1510 STORE_FAST               20 (texts)
+
+213:        1513 SETUP_LOOP               77 (to 1593)
+            1516 LOAD_GLOBAL              12 (range)
+            1519 LOAD_FAST                11 (ncols)
+            1522 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1525 GET_ITER
+         >> 1526 FOR_ITER                 63 (to 1592)
+            1529 STORE_FAST               14 (col)
+
+214:        1532 LOAD_FAST                 9 (array_index)
+            1535 LOAD_FAST                11 (ncols)
+            1538 LOAD_FAST                16 (row)
+            1541 LOAD_FAST                14 (col)
+            1544 CALL_FUNCTION             3 (3 positional, 0 keyword pair)
+            1547 STORE_FAST               17 (i)
+
+215:        1550 LOAD_FAST                17 (i)
+            1553 LOAD_FAST                 8 (size)
+            1556 COMPARE_OP                5 (>=)
+            1559 POP_JUMP_IF_FALSE      1566 (to 1566)
+
+216:        1562 BREAK_LOOP
+            1563 JUMP_FORWARD             10 (to 1576)
+
+217:     >> 1566 LOAD_FAST                 0 (array)
+            1569 LOAD_FAST                17 (i)
+            1572 BINARY_SUBSCR
+            1573 STORE_FAST               18 (x)
+
+218:     >> 1576 LOAD_FAST                20 (texts)
+            1579 LOAD_ATTR                13 (append)
+            1582 LOAD_FAST                18 (x)
+            1585 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1588 POP_TOP
+
+219:        1589 JUMP_ABSOLUTE          1526 (to 1526)
+         >> 1592 POP_BLOCK
+
+220:     >> 1593 SETUP_LOOP               93 (to 1689)
+            1596 LOAD_GLOBAL              12 (range)
+            1599 LOAD_GLOBAL               4 (len)
+            1602 LOAD_FAST                20 (texts)
+            1605 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1608 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1611 GET_ITER
+         >> 1612 FOR_ITER                 73 (to 1688)
+            1615 STORE_FAST               14 (col)
+
+221:        1618 LOAD_DEREF                0 (o)
+            1621 LOAD_CONST               16 ('ljust')
+            1624 BINARY_SUBSCR
+            1625 POP_JUMP_IF_FALSE      1658 (to 1658)
+
+222:        1628 LOAD_FAST                20 (texts)
+            1631 LOAD_FAST                14 (col)
+            1634 BINARY_SUBSCR
+            1635 LOAD_ATTR                14 (ljust)
+            1638 LOAD_FAST                12 (colwidths)
+            1641 LOAD_FAST                14 (col)
+            1644 BINARY_SUBSCR
+            1645 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1648 LOAD_FAST                20 (texts)
+            1651 LOAD_FAST                14 (col)
+            1654 STORE_SUBSCR
+            1655 JUMP_ABSOLUTE          1612 (to 1612)
+
+224:     >> 1658 LOAD_FAST                20 (texts)
+            1661 LOAD_FAST                14 (col)
+            1664 BINARY_SUBSCR
+            1665 LOAD_ATTR                15 (rjust)
+            1668 LOAD_FAST                12 (colwidths)
+            1671 LOAD_FAST                14 (col)
+            1674 BINARY_SUBSCR
+            1675 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1678 LOAD_FAST                20 (texts)
+            1681 LOAD_FAST                14 (col)
+            1684 STORE_SUBSCR
+
+226:        1685 JUMP_ABSOLUTE          1612 (to 1612)
+         >> 1688 POP_BLOCK
+
+227:     >> 1689 LOAD_FAST                19 (s)
+            1692 LOAD_CONST               28 ('%s%s%s')
+            1695 LOAD_FAST                23 (prefix)
+            1698 LOAD_GLOBAL              10 (str)
+            1701 LOAD_DEREF                0 (o)
+            1704 LOAD_CONST               13 ('colsep')
+            1707 BINARY_SUBSCR
+            1708 LOAD_ATTR                16 (join)
+            1711 LOAD_FAST                20 (texts)
+            1714 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1717 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+
+228:        1720 LOAD_DEREF                0 (o)
+            1723 LOAD_CONST                9 ('linesuffix')
+            1726 BINARY_SUBSCR
+            1727 BUILD_TUPLE               3
+            1730 BINARY_MODULO
+            1731 INPLACE_ADD
+            1732 STORE_FAST               19 (s)
+
+229:        1735 LOAD_DEREF                0 (o)
+            1738 LOAD_CONST                7 ('lineprefix')
+            1741 BINARY_SUBSCR
+            1742 STORE_FAST               23 (prefix)
+
+230:        1745 JUMP_ABSOLUTE          1501 (to 1501)
+         >> 1748 POP_BLOCK
+
+231:     >> 1749 LOAD_DEREF                0 (o)
+            1752 LOAD_CONST                3 ('arrange_array')
+            1755 BINARY_SUBSCR
+            1756 POP_JUMP_IF_FALSE      1852 (to 1852)
+
+232:        1759 LOAD_DEREF                0 (o)
+            1762 LOAD_CONST               13 ('colsep')
+            1765 BINARY_SUBSCR
+            1766 LOAD_ATTR                17 (rstrip)
+            1769 CALL_FUNCTION             0 (0 positional, 0 keyword pair)
+            1772 STORE_FAST                2 (colsep)
+
+233:        1775 LOAD_GLOBAL               4 (len)
+            1778 LOAD_FAST                 2 (colsep)
+            1781 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+            1784 LOAD_CONST               22 (1)
+            1787 BINARY_ADD
+            1788 UNARY_NEGATIVE
+            1789 STORE_FAST               24 (colsep_pos)
+
+234:        1792 LOAD_FAST                19 (s)
+            1795 LOAD_FAST                24 (colsep_pos)
+            1798 LOAD_CONST               30 (None)
+            1801 BUILD_SLICE               2
+            1804 BINARY_SUBSCR
+            1805 LOAD_FAST                 2 (colsep)
+            1808 LOAD_CONST               31 ('\n')
+            1811 BINARY_ADD
+            1812 COMPARE_OP                2 (==)
+            1815 POP_JUMP_IF_FALSE      1866 (to 1866)
+
+235:        1818 LOAD_FAST                19 (s)
+            1821 LOAD_CONST               30 (None)
+            1824 LOAD_FAST                24 (colsep_pos)
+            1827 BUILD_SLICE               2
+            1830 BINARY_SUBSCR
+            1831 LOAD_DEREF                0 (o)
+            1834 LOAD_CONST               11 ('array_suffix')
+            1837 BINARY_SUBSCR
+            1838 BINARY_ADD
+            1839 LOAD_CONST               31 ('\n')
+            1842 BINARY_ADD
+            1843 STORE_FAST               19 (s)
+
+236:        1846 JUMP_ABSOLUTE          1866 (to 1866)
+
+237:        1849 JUMP_FORWARD             14 (to 1866)
+
+239:     >> 1852 LOAD_FAST                19 (s)
+            1855 LOAD_DEREF                0 (o)
+            1858 LOAD_CONST               11 ('array_suffix')
+            1861 BINARY_SUBSCR
+            1862 INPLACE_ADD
+            1863 STORE_FAST               19 (s)
+
+241:     >> 1866 LOAD_FAST                19 (s)
+            1869 RETURN_VALUE
+
+242:        1870 LOAD_CONST               30 (None)
+            1873 RETURN_VALUE
+
+
+# Method Name:       <listcomp>
+# Filename:          exec
+# Argument count:    1
+# Kw-only arguments: 0
+# Number of locals:  2
+# Stack size:        4
+# Flags:             0x00000043 (NOFREE | NEWLOCALS | OPTIMIZED)
+# First Line:        254
+# Names:
+#    0: str
+# Varnames:
+#	.0, i
+# Positional arguments:
+#	.0
+# Local variables:
+#    1: i
+254:           0 BUILD_LIST                0
+               3 LOAD_FAST                 0 (.0)
+         >>    6 FOR_ITER                 18 (to 27)
+
+254:           9 STORE_FAST                1 (i)
+              12 LOAD_GLOBAL               0 (str)
+              15 LOAD_FAST                 1 (i)
+              18 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+              21 LIST_APPEND               2
+              24 JUMP_ABSOLUTE             6 (to 6)
+         >>   27 RETURN_VALUE
+
+
+# Method Name:       <listcomp>
+# Filename:          exec
+# Argument count:    1
+# Kw-only arguments: 0
+# Number of locals:  2
+# Stack size:        4
+# Flags:             0x00000043 (NOFREE | NEWLOCALS | OPTIMIZED)
+# First Line:        279
+# Names:
+#    0: str
+# Varnames:
+#	.0, i
+# Positional arguments:
+#	.0
+# Local variables:
+#    1: i
+279:           0 BUILD_LIST                0
+               3 LOAD_FAST                 0 (.0)
+         >>    6 FOR_ITER                 18 (to 27)
+
+279:           9 STORE_FAST                1 (i)
+              12 LOAD_GLOBAL               0 (str)
+              15 LOAD_FAST                 1 (i)
+              18 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+              21 LIST_APPEND               2
+              24 JUMP_ABSOLUTE             6 (to 6)
+         >>   27 RETURN_VALUE
+
+
+# Method Name:       <listcomp>
+# Filename:          exec
+# Argument count:    1
+# Kw-only arguments: 0
+# Number of locals:  2
+# Stack size:        4
+# Flags:             0x00000013 (NESTED | NEWLOCALS | OPTIMIZED)
+# First Line:        94
+# Constants:
+#    0: 'colfmt'
+# Varnames:
+#	.0, i
+# Positional arguments:
+#	.0
+# Local variables:
+#    1: i
+# Free variables:
+#    0: o
+ 94:           0 BUILD_LIST                0
+               3 LOAD_FAST                 0 (.0)
+         >>    6 FOR_ITER                 20 (to 29)
+
+ 94:           9 STORE_FAST                1 (i)
+              12 LOAD_DEREF                0 (o)
+              15 LOAD_CONST                0 ('colfmt')
+              18 BINARY_SUBSCR
+              19 LOAD_FAST                 1 (i)
+              22 BINARY_MODULO
+              23 LIST_APPEND               2
+              26 JUMP_ABSOLUTE             6 (to 6)
+         >>   29 RETURN_VALUE
+
+
+# Method Name:       <listcomp>
+# Filename:          exec
+# Argument count:    1
+# Kw-only arguments: 0
+# Number of locals:  2
+# Stack size:        4
+# Flags:             0x00000053 (NOFREE | NESTED | NEWLOCALS | OPTIMIZED)
+# First Line:        96
+# Names:
+#    0: str
+# Varnames:
+#	.0, i
+# Positional arguments:
+#	.0
+# Local variables:
+#    1: i
+ 96:           0 BUILD_LIST                0
+               3 LOAD_FAST                 0 (.0)
+         >>    6 FOR_ITER                 18 (to 27)
+
+ 96:           9 STORE_FAST                1 (i)
+              12 LOAD_GLOBAL               0 (str)
+              15 LOAD_FAST                 1 (i)
+              18 CALL_FUNCTION             1 (1 positional, 0 keyword pair)
+              21 LIST_APPEND               2
+              24 JUMP_ABSOLUTE             6 (to 6)
+         >>   27 RETURN_VALUE
+
+
+# Method Name:       <lambda>
+# Filename:          exec
+# Argument count:    3
+# Kw-only arguments: 0
+# Number of locals:  3
+# Stack size:        2
+# Flags:             0x00000053 (NOFREE | NESTED | NEWLOCALS | OPTIMIZED)
+# First Line:        109
+# Constants:
+#    0: None
+# Varnames:
+#	nrows, row, col
+# Positional arguments:
+#	nrows, row, col
+109:           0 LOAD_FAST                 0 (nrows)
+               3 LOAD_FAST                 2 (col)
+               6 BINARY_MULTIPLY
+               7 LOAD_FAST                 1 (row)
+              10 BINARY_ADD
+              11 RETURN_VALUE
+
+
+# Method Name:       <lambda>
+# Filename:          exec
+# Argument count:    3
+# Kw-only arguments: 0
+# Number of locals:  3
+# Stack size:        3
+# Flags:             0x00000053 (NOFREE | NESTED | NEWLOCALS | OPTIMIZED)
+# First Line:        160
+# Constants:
+#    0: None
+#    1: 1
+# Varnames:
+#	ncols, row, col
+# Positional arguments:
+#	ncols, row, col
+160:           0 LOAD_FAST                 0 (ncols)
+               3 LOAD_FAST                 1 (row)
+               6 LOAD_CONST                1 (1)
+               9 BINARY_SUBTRACT
+              10 BINARY_MULTIPLY
+              11 LOAD_FAST                 2 (col)
+              14 BINARY_ADD
+              15 RETURN_VALUE
