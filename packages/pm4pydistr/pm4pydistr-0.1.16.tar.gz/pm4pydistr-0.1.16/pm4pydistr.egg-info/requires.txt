@@ -1,0 +1,5 @@
+pm4py
+requests
+Flask
+flask-cors
+psutil
