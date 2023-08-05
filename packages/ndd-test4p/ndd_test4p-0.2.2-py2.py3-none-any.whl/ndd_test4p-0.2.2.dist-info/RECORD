@@ -1,0 +1,13 @@
+ndd_test4p/__init__.py,sha256=J7SGrGd_USaOmtlVGEtqZ-HJy6wdOoKmJ_0WPL6yxCY,415
+ndd_test4p/comparators.py,sha256=mPP7iwQjkZsRXcP61spt2Y9ujSyizOcJtuuA75mlVyA,8041
+ndd_test4p/differences_viewers.py,sha256=KH54L-HJCfycA8FHe_-8Gdeaq8igSCbLGfvob1_KFUk,15627
+ndd_test4p/test_cases.py,sha256=-Bu-UyURKoiP27ALsxs4b6ZO4E9DH0k9chPNOjfZu-w,8783
+ndd_test4p/expects/__init__.py,sha256=6vmIUOdpZ_s_PPErxZEGZtVfL5xKTZfImc9mkSpk4H4,84
+ndd_test4p/expects/content_matchers.py,sha256=tPHoL6TUy-tPkk1muHuu65C8ell3i_Cy5Yr6MZKaCfA,4419
+ndd_test4p/expects/numeric_matchers.py,sha256=mkS-kphB0zTQsgBAvGDARXrxZ08Q6RSI7vuejMXNhzw,3516
+ndd_test4p-0.2.2.dist-info/AUTHORS.rst,sha256=_Sg8cAxVPuH77UkzGEZYGamOHnH7OxJxAvZH1Jlm-Nk,77
+ndd_test4p-0.2.2.dist-info/LICENSE.txt,sha256=JO-cmrxQjjG5Vgh9Q2K6GAQVyRhB1YbSCSkyBkIBMKI,1079
+ndd_test4p-0.2.2.dist-info/METADATA,sha256=sbKvPxzdDp0zgojpw1U3Tz_hKHk8xmXdQkvxcE64YqU,3788
+ndd_test4p-0.2.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+ndd_test4p-0.2.2.dist-info/top_level.txt,sha256=wYmeyy0mK--7u7EBgo9L-S86gQxO6ZGX5wfjyEWwk0g,11
+ndd_test4p-0.2.2.dist-info/RECORD,,
