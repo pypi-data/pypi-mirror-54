@@ -1,0 +1,16 @@
+setup.py
+Airfoil_Optimizer.egg-info/PKG-INFO
+Airfoil_Optimizer.egg-info/SOURCES.txt
+Airfoil_Optimizer.egg-info/dependency_links.txt
+Airfoil_Optimizer.egg-info/requires.txt
+Airfoil_Optimizer.egg-info/top_level.txt
+af_opt/__init__.py
+af_opt/model.py
+af_opt/problem.py
+af_opt/recorders.py
+af_opt/util.py
+af_opt/version.py
+af_opt/components/__init__.py
+af_opt/components/airfoil_component.py
+af_opt/components/geom_component.py
+af_opt/components/xfoil_component.py
