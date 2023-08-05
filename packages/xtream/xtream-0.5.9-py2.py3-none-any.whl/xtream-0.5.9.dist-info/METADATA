@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: xtream
+Version: 0.5.9
+Summary: nstream streaming platform
+Home-page: https://github.com/xtream/xtream
+Author: Vladmir Impala
+Author-email: your@email.com
+License: MIT
+Download-URL: https://pypi.org/project/xtream/
+Keywords: NStream,IPTV Platform,Streaming Platform
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: django
+Requires-Dist: py-cpuinfo
+Requires-Dist: celery
+Requires-Dist: redis
+Requires-Dist: dj-static
+Requires-Dist: static3
+Requires-Dist: django-ratelimit
+Requires-Dist: django-crispy-forms
+Requires-Dist: iso8601
+
+READ ME
+
+HISTORY
+
