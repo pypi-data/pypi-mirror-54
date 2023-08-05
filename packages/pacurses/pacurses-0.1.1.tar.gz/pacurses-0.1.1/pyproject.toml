@@ -1,0 +1,39 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "pacurses"
+version = "0.1.1"
+description = "A curses graphical interface to the PulseAudio sound system for the terminal."
+authors = ["Thore Weilbier <thore@weilbier.net>"]
+repository = "https://github.com/weilbith/pacurses"
+readme = "README.md"
+packages = [
+    { include = "pacurses" },
+]
+
+[tool.poetry.scripts]
+pacurses = "pacurses.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+urwid = "^2.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7"
+mypy = "^0.740.0"
+pre-commit = "^1.18"
+isort = "^4.3"
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+line-length = 79
+known-first-party = ["pacurses"]
+# compatibility for black
+multi-line-output = 3
+include-trailing-comma = true
+force-grid-wrap = 0
+use-parentheses = true
