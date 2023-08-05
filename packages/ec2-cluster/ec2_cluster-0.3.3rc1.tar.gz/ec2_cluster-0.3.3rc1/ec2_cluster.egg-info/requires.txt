@@ -1,0 +1,5 @@
+paramiko==2.5.1
+fabric2
+boto3
+pyyaml
+tabulate
