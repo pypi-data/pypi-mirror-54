@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: macro-parser
+Version: 0.1.5
+Summary: Macro parser
+Home-page: https://github.com/Iydon/macro-parser
+Author: Iydon Liang
+Author-email: 11711217@mail.sustech.edu.cn
+License: MIT License
+Description: [![PyPI Version](https://img.shields.io/pypi/v/macro-parser.svg)](https://pypi.org/project/macro-parser/)
+        [![License](https://img.shields.io/pypi/l/macro-parser.svg)](https://pypi.org/project/macro-parser/)
+        [![Python Version](https://img.shields.io/pypi/pyversions/macro-parser.svg)](https://pypi.org/project/macro-parser/)
+        
+        *Macro-parser* is a Python package that provides a macro parser.
+        
+        # Basic Usage
+        ## Installation
+        Install with pip:
+        ```shell
+        pip install macro-parser
+        ```
+        
+        ## Get Started
+        If you save the following text as `test.txt`:
+        ```
+        # This is comment
+        # There are `new_macro` and `renew_macro`
+        # Its syntax is like Python:
+        # \new_macro(
+        # 	\func_name(func_args){
+        # 		func_body
+        # 	}
+        # )
+        \new_macro(
+        	\hello(*args){
+        		for arg in args:
+        			print('hello', arg)
+        	}
+        	\bye(*args){
+        		for arg in args:
+        			print('bye', arg)
+        	}
+        )#
+        
+        # Verbatim environment
+        \verb(\new_macro)
+        \verb_(\new_macro(\hello(*args){print(args)}))
+        
+        # Use the personal defined macros
+        \hello('world', 'iydon', 'vian')
+        \bye('world', 'iydon', 'vian')
+        
+        # See what the built-in macors are
+        Built-in macros: \builtins().
+        ```
+        
+        Then you can parse the macros by:
+        ```Python
+        from macro_parser import parse_macro_in
+        
+        file = 'test.txt'
+        print(parse_macro_in(file))
+        ```
+        
+        Finally, the result is:
+        ```
+        
+        \new_macro
+        \new_macro(\hello(*args){print(args)})
+        
+        hello world
+        hello iydon
+        hello vian
+        
+        bye world
+        bye iydon
+        bye vian
+        
+        
+        Built-in macros: ('builtins', 'input', 'new_macro', 'parse', 'renew_macro', 'verb', 'verb_').
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
