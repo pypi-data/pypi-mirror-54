@@ -1,0 +1,12 @@
+pystickynote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystickynote/__main__.py,sha256=mawW1SKeW7PS1Lj2t9FOSABCFF7aY54dknkFRERQ7qM,670
+pystickynote/config.py,sha256=G2ORkIO4dkZPgsZsh9t9JN82pMYz1IwTbnF_DiYBMQY,1131
+pystickynote/create_note.py,sha256=BGSAphZaHXhK02_BDwWf-VhKB0YjxBIvl1mH-LM5vcE,1424
+pystickynote/open_note.py,sha256=PbeB4SuwUB_TfI9YA9Gat9A7GzcP45WKc1LquSi7kxA,2626
+pystickynote/paths.py,sha256=9SP7d2jOq-3vTvp02vyV6MFd7yuvLc-kEHxCCO5KedA,280
+pystickynote-1.2.1.dist-info/METADATA,sha256=CN7O05lQd5GSh8ksLE4Gd7UyFVghC117I4F5WTgSfPU,1458
+pystickynote-1.2.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pystickynote-1.2.1.dist-info/entry_points.txt,sha256=iqjry_b-f1C_AfmKLQu7F7CptVCSBuA5n72bAajn44Q,61
+pystickynote-1.2.1.dist-info/top_level.txt,sha256=Q3-llZoCP1CsyAVo13JKMRdvpkBT3F2jgU_L-cMq3lQ,13
+pystickynote-1.2.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pystickynote-1.2.1.dist-info/RECORD,,
