@@ -1,0 +1,14 @@
+pandas
+sqlalchemy
+
+[mssql]
+pyodbc
+
+[mysql]
+PyMySQL
+
+[oracle]
+cx_Oracle
+
+[postgres]
+psycopg2-binary
