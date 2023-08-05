@@ -1,0 +1,5 @@
+mpmath
+nltk
+numpy
+pandas
+scipy
