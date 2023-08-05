@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: flask-2-ui5-py
+Version: 0.0.1
+Summary: Utility methods for flask_restful to ui5 messaging 
+Home-page: https://github.com/stopwhispering/flask_2_ui5_py
+Author: Johannes Heller
+Author-email: strangenewkid@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# msg_flask_2_ui5_py
+
+Utility methods for flask_restful to ui5 messaging.
+
