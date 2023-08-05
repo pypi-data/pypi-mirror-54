@@ -1,0 +1,11 @@
+python_selve-1.2.0.dist-info/DESCRIPTION.rst,sha256=BVTvmD3qafENem1f8DXHA0WYYi7l6_Cgh5ERSDnMGLs,1520
+python_selve-1.2.0.dist-info/METADATA,sha256=rj-NTXwwX24V6PN2cFPUMNRbAsQA9Om6YR_WuzD90Co,2364
+python_selve-1.2.0.dist-info/RECORD,,
+python_selve-1.2.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+python_selve-1.2.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+python_selve-1.2.0.dist-info/metadata.json,sha256=ckvSColhU8KkbrNhnif09PHI-p9OLGKwhL7RF99zkj0,1076
+python_selve-1.2.0.dist-info/top_level.txt,sha256=m_yBFArxyuUVkxDL2KdluM0RxeyuONstSSR1KsfvMQM,6
+selve/__init__.py,sha256=NYg6_n_8GBv_X5RB2-4SLWFiFC0yCCom-TToIOYd-xE,5819
+selve/iveo.py,sha256=I7LcgyQCY9x-uqD9620FxrY0DJ1hqDygRn0ra4nzbxs,5714
+selve/protocol.py,sha256=DdErO90_Btw5wdTj-Z8ZGsdLaCoauCPt7we_EoM3ni4,3887
+selve/utils.py,sha256=0OTBtrwMApCZtjE3o4H5-w8hRD3msfdDgeh9pg5x4eA,1845
