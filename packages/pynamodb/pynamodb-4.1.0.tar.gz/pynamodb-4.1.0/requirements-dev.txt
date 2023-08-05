@@ -1,0 +1,7 @@
+mock
+pytest
+pytest-mock
+# only used in .travis.yml
+coveralls
+mypy==0.710;python_version>="3.7"
+pytest-cov
