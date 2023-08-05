@@ -1,0 +1,17 @@
+fuzzymatcher/__init__.py,sha256=PrNhSr0kMCgS8t-0HB_cL_TMNa4Q4zQbnzoomrPu4TU,1034
+fuzzymatcher/data_getter_abc.py,sha256=TZ1nXQickk_hsVaHXGHzaJTgiFNX6wXNbiw1JeEyGdA,954
+fuzzymatcher/data_getter_cartesian.py,sha256=BBIg_7njV8coJu-PZCPWLJNxo443Tnom6HO-LPYvdW0,1398
+fuzzymatcher/data_getter_sqlite.py,sha256=eeCslJM-SZbEPqriddcEd7LwC0Am9aPUMEYeys-Lffw,8301
+fuzzymatcher/data_preprocessor_abc.py,sha256=JMw0p42YRMCBsUM-3G0WGbxDcd6Lq6Q5Hk1eq5hOayE,1391
+fuzzymatcher/data_preprocessor_default.py,sha256=8ypwWpYwLI0F-1H7dqVSP2sfp7cv0WMFtlZhIpu75fc,1356
+fuzzymatcher/matcher.py,sha256=PnchQlqU4mvJ6cvq6j2GSXXV-zxoFltCxX1x0StjS44,7044
+fuzzymatcher/record.py,sha256=lm737RwYWpYoek26q8WgqPk8YC4LBX5H2D-KhcAJlu4,3443
+fuzzymatcher/scorer_abc.py,sha256=O0Be33TCirqFOfN46sBb8zhePGWwaqKMdciAiNEbw7U,627
+fuzzymatcher/scorer_default.py,sha256=of1pAFYSicPybOuBYoCDEXlUkZdX0M6Vz9g9Cg7Xbrk,6291
+fuzzymatcher/tokencomparison.py,sha256=5czszbCxYx5z8oiR4POWDy4SN2bKvXwD6meobViSYlc,1627
+fuzzymatcher/utils.py,sha256=sX748f3BurB18V_sNoAbl-YITnmp6jOlUCQJgmj_CxE,1221
+fuzzymatcher-0.0.5.dist-info/LICENSE,sha256=4YaYb1dKaWD95gCeH1hjsL5-K5Dr6M9m-DGb_Gxu6HU,1070
+fuzzymatcher-0.0.5.dist-info/METADATA,sha256=2g-2JeJlWOjl5KIgFi902CdO5vUv8SzNZ5HtARuaSN4,567
+fuzzymatcher-0.0.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+fuzzymatcher-0.0.5.dist-info/top_level.txt,sha256=UUu_XF5eXU4_ZS_Cx2PyThpb0M5M-EUZUj9qUL6ax0k,13
+fuzzymatcher-0.0.5.dist-info/RECORD,,
