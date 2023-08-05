@@ -1,0 +1,12 @@
+
+[:python_version < "3"]
+typing
+
+[test]
+coverage
+pycodestyle
+pytest<5
+
+[test:python_version >= "3"]
+mypy
+pylint
