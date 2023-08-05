@@ -1,0 +1,15 @@
+bork/__init__.py,sha256=GLZA9ATgTFhr97-QDmcSyAn8wh5Qg7Xf0EMY4gaMEjE,2413
+bork/asset_manager.py,sha256=ozWq26FmjQ9yMGi7KFcftjm7xQRFo0ebzJaXvhHl0fI,601
+bork/builder.py,sha256=XgFhUCMrd5nRqP-RFl4GGJLlKrdARBICfv5Mo4CyPjk,3002
+bork/cli.py,sha256=vw-LtChk7mSEasP0vJPRc7ASXZOS2tRdteOF9YL6ECc,2447
+bork/filesystem.py,sha256=I8CgCsCM-NtFn11eX4azvJ04q6g1DSYN6Jt8NeG1ui0,516
+bork/github.py,sha256=ttpaGtOhzfKeuCpSkTjsD-xYWChnNkiFOzB0OBzPyf0,2306
+bork/log.py,sha256=g1so9jz68rxuPPax2DRowDqluJIgUhhZAu8fFDYGRiw,1649
+bork/pypi.py,sha256=InFqOSVOOK2_2fTW1fe6VXAB6sZiSRDqTcOKt5o1O9c,1268
+bork/pypi_api.py,sha256=duqrIoGHFyiQFq_KiwPP8YnWWakcLL0mf4-nipzPRHI,2409
+bork-1.0.0.dist-info/LICENSE.txt,sha256=RXEOZS2JR_7_MjNKEWGjq_9wqQ6gv_KtgnmGK36Tc_Q,1083
+bork-1.0.0.dist-info/METADATA,sha256=GyZ791Mn4tK0qVcmkVLztr_cD4I5W8khzUoMnuVFx24,3537
+bork-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bork-1.0.0.dist-info/entry_points.txt,sha256=MG3rowYQ65VUdGCJRpp2HwvUgx61GsY0qW0nLvSKAcw,40
+bork-1.0.0.dist-info/top_level.txt,sha256=l7Yy0ANz0WRZThGTX9MKpsMDMxtmzDgIgxx0xSi2dkU,5
+bork-1.0.0.dist-info/RECORD,,

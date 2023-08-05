@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: bork
+Version: 1.0.0
+Summary: bork bork bork
+Home-page: https://github.com/duckinator/bork
+Author: Ellen Marie Dash
+Author-email: me@duckie.co
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: toml (~=0.10.0)
+Requires-Dist: pep517 (==0.7.0)
+Requires-Dist: twine (==2.0.0)
+Requires-Dist: click (~=7.0)
+Requires-Dist: coloredlogs (~=10.0)
+Provides-Extra: linting
+Requires-Dist: flake8 (==3.7.8) ; extra == 'linting'
+Requires-Dist: flake8-bugbear (==19.8.0) ; extra == 'linting'
+Requires-Dist: flake8-commas (==2.0.0) ; extra == 'linting'
+Requires-Dist: flake8-docstrings (==1.5.0) ; extra == 'linting'
+Requires-Dist: flake8-import-order (==0.18.1) ; extra == 'linting'
+Requires-Dist: pep8-naming (==0.8.2) ; extra == 'linting'
+Requires-Dist: pylint (==2.4.3) ; extra == 'linting'
+Provides-Extra: testing
+Requires-Dist: pytest (==5.2.1) ; extra == 'testing'
+Requires-Dist: pytest-flake8 (==1.0.4) ; extra == 'testing'
+Requires-Dist: pytest-pylint (==0.14.1) ; extra == 'testing'
+
+# bork [![Build Status][build-status-link]][build-status-img]
+
+A frontend for building and releasing [PEP 517](https://www.python.org/dev/peps/pep-0517/) compliant projects, including support for generating a [ZipApp](https://docs.python.org/3/library/zipapp.html).
+
+
+[build-status-link]: https://api.cirrus-ci.com/github/duckinator/bork.svg
+[build-status-img]: https://cirrus-ci.com/github/duckinator/bork
+
+## Installation
+
+```
+$ pip3 install bork
+```
+
+## Usage
+
+### Downloading Existing Builds
+
+
+To download a release from GitHub:
+
+```
+$ bork download gh:duckinator/emanate # download latest .pyz for Emanate
+$ bork download gh:duckinator/emanate --directory bin/ # put files in ./bin
+$ bork download gh:ppb/pursuedpybear --files '*.tar.gz' # download latest .tar.gz file
+```
+
+To download a wheel from a PyPi release:
+
+```
+$ bork download pypi:emanate 6.0.0 --files '*.whl'
+```
+
+
+To download a wheel from a release on PyPi's test instance:
+
+```
+$ bork download pypi-test:whaledo 1.0.1 --files '*.whl'
+```
+
+### Building and Releasing
+
+Assuming a project is PEP 517 compliant, you can just do:
+
+```
+$ bork clean # Remove anything in build/, dist/, *.egg-info/
+$ bork build # Build the project
+$ bork release # Release to PyPI
+```
+
+### ZipApp Support
+
+If you want to build a ZipApp, add this to your setup.cfg:
+
+```
+[bork]
+zipapp_main = <entrypoint>
+```
+
+Where `<entrypoint>` is of the form "module.submodule:function", and
+will likely be equivalent to the primary `console_script` entrypoint
+elsewhere in setup.cfg.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/duckinator/bork. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+## Code of Conduct
+
+Everyone interacting in the bork project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/duckinator/bork/blob/master/CODE_OF_CONDUCT.md).
+
+
