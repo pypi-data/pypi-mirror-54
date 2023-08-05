@@ -1,0 +1,16 @@
+merpy/__init__.py,sha256=WzaDgRh_WequVCSiqMqIFoaEUGDQ6yBHuno_H8HUXKI,551
+merpy/merpy.py,sha256=jOCWHNlHfLX4U9ZbKeJIkg-sEsJCu248ygUmHCYC-aw,11277
+merpy/MER/NOTICE.txt,sha256=Qt9spDtKrevxbAshz58UBulBAqxCpwajR4X_t-Y09Y4,1760
+merpy/MER/README.md,sha256=iWJAuNd_r5R_3KyA7zvfZKrSXWqJ68ew8LFLPmI8e_4,10199
+merpy/MER/benchmark.py,sha256=BiiCMcGSCARj2L0xqiVzhWSBlE5ChdNIM7QgZlzq1_g,9319
+merpy/MER/get_entities.sh,sha256=8t5C1TjZ4vo_o0JsS0wGS0Kt417Fe4YCTZkyPS0F7O0,8575
+merpy/MER/get_similarity.sh,sha256=g0CWGTOJYjht6ocKvVUxJqJgsffkazz1tjZv_QGH1-A,3053
+merpy/MER/produce_data_files.sh,sha256=4UpVaPNQjqCX4kMP2vkJEFepFy-DkuHJe2PxAAVds7w,4084
+merpy/MER/stopwords.txt,sha256=z1PJwkbcenreJC_twc3tVxtvP_H-P3JWxwal4QEJ0_c,1200
+merpy/MER/test.sh,sha256=yOqOJHZ2JqOHQaMahMd0CTe9zHR1y5RHB5tsp10KcP8,621
+merpy/MER/data/gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+merpy-1.1.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+merpy-1.1.0.dist-info/METADATA,sha256=Id2w1BWOSF_HXlIbsIIVzaxyOzp6phwY-RXRvdPOSBU,3660
+merpy-1.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+merpy-1.1.0.dist-info/top_level.txt,sha256=pP_Z5_cU-6tHhpVAnF-e-EsRsYjA5xka0qf0v8BEamY,6
+merpy-1.1.0.dist-info/RECORD,,
