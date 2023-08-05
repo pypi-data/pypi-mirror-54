@@ -1,0 +1,7 @@
+README.md
+setup.py
+eldar/__init__.c
+eldar.egg-info/PKG-INFO
+eldar.egg-info/SOURCES.txt
+eldar.egg-info/dependency_links.txt
+eldar.egg-info/top_level.txt
