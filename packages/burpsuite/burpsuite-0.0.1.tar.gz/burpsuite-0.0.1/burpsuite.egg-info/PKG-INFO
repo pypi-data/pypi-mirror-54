@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: burpsuite
+Version: 0.0.1
+Summary: A small library for working with the Burp Suite API
+Home-page: https://github.com/Julian-Nash/burpsuite
+Author: Julian Nash
+Author-email: julian.nash@venturidm.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License

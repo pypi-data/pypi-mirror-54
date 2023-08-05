@@ -1,0 +1,40 @@
+### Burp Suite Professional & Enterprise API client (Unofficial)
+
+A small Python library for working with the Burp Suite API.
+
+Note - Requires Burp Suite Professional or Enterprise - https://portswigger.net/
+
+Example usage:
+
+```py3
+import burpsuite
+import os
+
+# This example uses the DVWA web application running on localhost as the target app to scan.
+# https://hub.docker.com/r/vulnerables/web-dvwa/
+
+# It's recommended to use an API key when working with the Burp Suite API. It can be set in the 'User Options' menu
+
+SERVER_URL = os.getenv("BURP_SERVER_URL", None)
+API_KEY = os.getenv("BURP_API_KEY", None)
+
+burp_api_client = burpsuite.BurpSuiteApi(server_url=SERVER_URL, api_key=API_KEY)
+
+# Each scan request requires a scan options object. You can learn more about these options via the Burp Suite REST API
+# documentation along with the values required
+options = {
+    "urls": ["http://localhost/login.php"],
+    "application_logins": [{"username": "admin", "password": "example"}],
+    "scan_callback": {"url": "https://mycallback.com/callbacks/burp/c540ce68-eb7f-469b-914e-b21a903bc152"}
+}
+
+# Initiate a scan
+task_id = burp_api_client.initiate_scan(options=options)
+print("Burp Suite scan initiated! task_id: {}".format(task_id))
+
+# Get the scan progress of a task
+progress = burp_api_client.get_scan(task_id=task_id)
+print(progress)
+
+
+```
