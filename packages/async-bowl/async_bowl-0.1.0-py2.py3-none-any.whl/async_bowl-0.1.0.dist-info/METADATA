@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: async-bowl
+Version: 0.1.0
+Summary: An Async Distributed Crawling Framework.
+Home-page: https://github.com/Jiramew/async_bowl
+Author: Jiramew
+Author-email: hanbingflying@sina.com
+License: BSD License
+Description-Content-Type: UNKNOWN
+Platform: all
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: pika (>=1.0.1)
+Requires-Dist: mugen (>=0.4.3)
+Requires-Dist: redis (>=2.10.5)
+Requires-Dist: redis-py-cluster (>=1.3.6)
+
+UNKNOWN
+
+
