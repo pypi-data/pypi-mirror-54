@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: win10toast-persist
+Version: 0.10
+Summary: An easy-to-use Python library for displaying Windows 10 Toast Notifications with support for persisting notifications.
+Home-page: https://github.com/tnthieding/Windows-10-Toast-Notifications
+Author: Jithu R. Jacob and Tyler N. Thieding
+Author-email: python@thieding.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: Operating System :: Microsoft
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pypiwin32
+Requires-Dist: setuptools
+
+##############################
+Windows 10 Toast Notifications
+##############################
+
+Fork of https://github.com/jithurjacob/Windows-10-Toast-Notifications.
+
+An easy-to-use Python library for displaying Windows 10 Toast Notifications with support for notifications that persist
+in the notification center.
+
+Update original package's interface to support persistent notifications by passing ``duration=None``.
+
+************
+Installation
+************
+
+``pip install win10toast-persist``
+
+
