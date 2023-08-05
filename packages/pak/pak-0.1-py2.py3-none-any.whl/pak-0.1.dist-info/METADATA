@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pak
+Version: 0.1
+Summary: Python pAckage maKer
+Home-page: https://github.com/s1113950/pak.git
+Author: Steven Robertson
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: tox
+
+# pak -- Python pAckage maKer
+
+
