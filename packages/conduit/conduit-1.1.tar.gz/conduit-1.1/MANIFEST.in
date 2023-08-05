@@ -1,0 +1,25 @@
+include *.md
+include *.rst
+include *.txt
+include *.yml
+include *.cfg
+include Makefile
+include MANIFEST.in
+
+include notebooks/*.ipynb
+include notebooks/*.md
+
+graft docs
+prune docs/_build
+
+graft tests
+prune tests/fixtures
+
+graft conduit
+
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .ipynb_checkpoints
+global-exclude .DS_Store
+global-exclude .env
+global-exclude .coverage.*

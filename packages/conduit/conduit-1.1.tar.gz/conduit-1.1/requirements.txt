@@ -1,0 +1,28 @@
+## Dependencies
+btrdb>=5.4
+joblib>=0.13.2
+numpy>=1.16
+pandas>=0.22
+scipy>=1.2
+tabulate>=0.8.3
+
+## Optional Dependencies
+#networkx>=2.3
+#matplotlib>=3.1
+
+## Optional Testing Dependencies (pip install -r tests/requirements.txt)
+# pytest>=4.2.0
+# pytest-cov>=2.6.1
+# pytest-flakes>=4.0.0
+# coverage>=4.5.2
+
+## Optional Documentation Dependencies (pip install -r docs/requirements.txt)
+# Sphinx>=1.8.3
+# sphinx-rtd-theme>=0.4.2
+# numpydoc>=0.8.0
+
+## Build dependencies (uncomment for deployment)
+# pip>=19.0.3
+# setuptools>=41.0.1
+# twine>=1.13.0
+# wheel>=0.33.1
