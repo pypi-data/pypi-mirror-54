@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: datamart-isi
+Version: 2.1.1
+Summary: USC ISI implementation of D3M Datamart API
+Home-page: https://github.com/usc-isi-i2/datamart-userend/tree/d3m
+Author: USC ISI
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: d3m (>=2019.4.4)
+Requires-Dist: jsonlines (>=1.2.0)
+Requires-Dist: psycopg2-binary (>=2.7.5)
+Requires-Dist: python-dateutil (>=2.7.3)
+Requires-Dist: rltk (==2.0.0a13)
+Requires-Dist: date-extractor (==3.9.1)
+Requires-Dist: tablextract (==1.2.5)
+Requires-Dist: termcolor (>=1.1.0)
+Requires-Dist: urllib3 (>=1.23)
+Requires-Dist: wikipedia-API (==0.4.4)
+Requires-Dist: wget (>=3.2)
+Requires-Dist: nbconvert (>=5.4.0)
+Requires-Dist: SPARQLWrapper (>=1.8.4)
+Requires-Dist: requests
+Requires-Dist: datasketch
+Requires-Dist: pandas
+Requires-Dist: python-memcached
+
+UNKNOWN
+
+
