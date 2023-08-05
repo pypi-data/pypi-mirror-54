@@ -1,0 +1,11 @@
+paperpython/__init__.py,sha256=cha9fIk_grn7gdpYkkzSAplkB1hXN_sG8ihinIfWkQU,24
+paperpython/__main__.py,sha256=sKW1zg4ghtwd5gTPsmyaYSur73FaKLMCvz-ReL3qdlg,108
+paperpython/communication.py,sha256=vhm8O6vbC2RutF9uYifLRs8AbWWxeYR4fxZ1QAD7s2s,4842
+paperpython/wsgi.py,sha256=mZcF8WzumiwY1R0WwzOluvyahG6--n5Vyx92DVaXMC0,3360
+paperpython/wsgiImporter.py,sha256=cWVJ21wxQm-7LduL6-62TOa3yOOnTfqRXYXoLgOos5E,837
+paperpython/wsgi_pb2.py,sha256=ZhKtSHhywLesgjb-b7JdQo3Qb8TwPsWrivxD95qjAN4,22006
+paperpython-0.0.3.dist-info/LICENCE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+paperpython-0.0.3.dist-info/METADATA,sha256=jLgGz9myioAUb4MFskFlMXEkG3bHNMtm-N7B2xq7h70,536
+paperpython-0.0.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+paperpython-0.0.3.dist-info/top_level.txt,sha256=VubGFznWdWOPZmTK16khIBz7Vt8zgxY21GbXPfCl6Ak,12
+paperpython-0.0.3.dist-info/RECORD,,
