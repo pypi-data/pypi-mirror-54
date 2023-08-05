@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wxdc
+Version: 0.1.5
+Summary: wx data crypt
+Home-page: https://github.com/panji2015/WXBizDataCrypt
+Author: panji
+Author-email: 484511231@qq.com
+License: MIT Licence
+Keywords: pip,wxdc
+Platform: any
+Requires-Dist: pycryptodome
+
+微信加密数据解密
+
+
