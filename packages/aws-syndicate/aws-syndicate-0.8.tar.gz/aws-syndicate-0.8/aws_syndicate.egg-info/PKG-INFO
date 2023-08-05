@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: aws-syndicate
+Version: 0.8
+Summary: aws-syndicate is an Amazon Web Services deployment framework written in Python, which allows to easily deploy serverless applications using resource descriptions
+Home-page: https://github.com/epam/aws-syndicate
+Author: EPAM Systems
+Author-email: support@syndicate.team
+License: UNKNOWN
+Download-URL: https://github.com/epam/aws-syndicate/archive/0.8.tar.gz
+Description: UNKNOWN
+Keywords: AWS,SERVERLESS,CLOUD,LAMBDA,DEPLOY
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.7
