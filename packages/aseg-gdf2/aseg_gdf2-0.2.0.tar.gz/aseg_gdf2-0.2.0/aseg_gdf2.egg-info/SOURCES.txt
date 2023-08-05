@@ -1,0 +1,9 @@
+README.md
+setup.py
+aseg_gdf2/__init__.py
+aseg_gdf2/gdf2.py
+aseg_gdf2.egg-info/PKG-INFO
+aseg_gdf2.egg-info/SOURCES.txt
+aseg_gdf2.egg-info/dependency_links.txt
+aseg_gdf2.egg-info/requires.txt
+aseg_gdf2.egg-info/top_level.txt
