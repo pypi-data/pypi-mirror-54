@@ -1,0 +1,14 @@
+README.md
+setup.py
+tfignite/__init__.py
+tfignite/callbacks.py
+tfignite/dataset.py
+tfignite/engine.py
+tfignite/model.py
+tfignite/parser.py
+tfignite/util.py
+tfignite.egg-info/PKG-INFO
+tfignite.egg-info/SOURCES.txt
+tfignite.egg-info/dependency_links.txt
+tfignite.egg-info/requires.txt
+tfignite.egg-info/top_level.txt
