@@ -1,0 +1,5 @@
+setup.py
+volatility3.egg-info/PKG-INFO
+volatility3.egg-info/SOURCES.txt
+volatility3.egg-info/dependency_links.txt
+volatility3.egg-info/top_level.txt

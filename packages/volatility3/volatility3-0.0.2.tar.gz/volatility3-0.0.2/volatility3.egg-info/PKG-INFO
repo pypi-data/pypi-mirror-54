@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: volatility3
+Version: 0.0.2
+Summary: Volatility 3: The volatile memory extraction framework. DUMMY PACKAGE. DO NOT USE.
+Home-page: https://github.com/volatilityfoundation/volatility3
+Author: volatilityfoundation
+Author-email: info@volatilityfoundation.org
+License: UNKNOWN
+Description: This is a dummy package. The official project website is available at https://github.com/volatilityfoundation/volatility3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5.3
