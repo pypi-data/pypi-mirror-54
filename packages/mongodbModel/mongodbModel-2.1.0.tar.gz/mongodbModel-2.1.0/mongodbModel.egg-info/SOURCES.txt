@@ -1,0 +1,8 @@
+setup.py
+mongodbModel.egg-info/PKG-INFO
+mongodbModel.egg-info/SOURCES.txt
+mongodbModel.egg-info/dependency_links.txt
+mongodbModel.egg-info/requires.txt
+mongodbModel.egg-info/top_level.txt
+mongodb_model/__init__.py
+mongodb_model/myMongodb.py
