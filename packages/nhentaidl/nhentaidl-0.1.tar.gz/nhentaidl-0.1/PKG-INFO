@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: nhentaidl
+Version: 0.1
+Summary: Download nhentai images
+Home-page: https://github.com/ManishKarki1997/nhentaidl
+Author: Manish Karki
+Author-email: 9tyninelives@gmail.com
+License: MIT
+Download-URL: https://github.com/ManishKarki1997/nhentaidl/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: hentai,manga,manga download
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
