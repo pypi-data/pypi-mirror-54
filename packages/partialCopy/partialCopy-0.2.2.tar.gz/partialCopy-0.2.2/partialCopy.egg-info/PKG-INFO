@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: partialCopy
+Version: 0.2.2
+Summary: A tool to copy big data to multiple smaller disks 
+Home-page: https://github.com/mkalioby/partialCopy
+Author: Mohamed El-Kalioby
+Author-email: mkalioby@mkalioby.com
+License: UNKNOWN
+Description: # partialCopy
+        A tool to copy big data to multiple smaller disks
+        
+        ## Motivation
+        
+        As the storage becomes larger in big projects, we need to a tool to break large folders (100 TBs) to smaller chunks to be allow to migrate to another location or storing it on tapes.
+        
+        ## Installation
+        
+        ```sudo pip install partialCopy```
+        
+        ## Usage
+        ```
+        pcp [-h] [-lg LOG] [-ls LST] [-ns NO_SCAN] [-rs RSYNC] src dest
+        
+        positional arguments:
+          src                   Source Directory
+          dest                  Dest Mountpoint
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -lg LOG, --log LOG    Log File to use
+          -ls LST, --lst LST    List File to use
+          -ns, --no-scan        Don't rescan the folder, this needs a previous run
+          -rs RSYNC, --rsync RSYNC         Extra rsync parameters
+        ```
+        
+        ## Notes
+        
+        * A log file will be written as $src/.pcp_log (by default)
+        * A list file will be written as $src/.pcp_lst (by default)
+        * The conf file is /etc/pcp.cfg
+        * A user can has his own config as ~/.pcp.cfg
+        * When the dest is full, the exit code is -125
+        
+        # Contributors
+        * [Zeeshan Ali Shah](https://github.com/zeeshanali)
+        
+Keywords: admin,utils,notification
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Description-Content-Type: text/markdown
