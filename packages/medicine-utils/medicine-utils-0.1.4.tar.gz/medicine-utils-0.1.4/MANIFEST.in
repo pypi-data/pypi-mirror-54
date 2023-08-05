@@ -1,0 +1,2 @@
+recursive-include medicine_utils/static *
+recursive-include medicine_utils/templates *
