@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyesg
+Version: 0.1
+Summary: Economic Scenario Generator in Python
+Home-page: https://github.com/jason-ash/pyesg
+Author: Jason Ash
+Author-email: jason@ashanalytics.com
+License: UNKNOWN
+Description: # pyESG
+        
+        Economic Scenario Generator for Python.
+        
+        
+        
+        ## License
+        Licensed under MIT, Copyright (c) 2019 Jason Ash
+        
+Platform: UNKNOWN
+Provides-Extra: dev

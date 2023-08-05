@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pyesg/__init__.py
+pyesg.egg-info/PKG-INFO
+pyesg.egg-info/SOURCES.txt
+pyesg.egg-info/dependency_links.txt
+pyesg.egg-info/not-zip-safe
+pyesg.egg-info/requires.txt
+pyesg.egg-info/top_level.txt
+tests/__init__.py
