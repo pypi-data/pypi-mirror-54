@@ -1,0 +1,8 @@
+README.md
+setup.py
+test/__init__.py
+test/test_parser.py
+ts_interface_parser.egg-info/PKG-INFO
+ts_interface_parser.egg-info/SOURCES.txt
+ts_interface_parser.egg-info/dependency_links.txt
+ts_interface_parser.egg-info/top_level.txt
