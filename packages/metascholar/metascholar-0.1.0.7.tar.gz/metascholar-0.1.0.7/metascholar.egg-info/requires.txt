@@ -1,0 +1,4 @@
+numpy
+crossrefapi
+requests
+fuzzywuzzy
