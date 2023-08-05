@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: royalherald
+Version: 5.1b2
+Summary: A websocket communication protocol
+Home-page: https://github.com/Steffo99/royalherald
+Author: Stefano Pigozzi
+Author-email: ste.pigozzi@gmail.com
+License: UNKNOWN
+Description: # `royalherald` [![PyPI](https://img.shields.io/pypi/v/royalherald.svg)](https://pypi.org/project/royalherald/)
+        
+        
+        A websocket communication protocol for [`royalnet`](https://github.com/Steffo99/royalnet)!
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
