@@ -1,0 +1,17 @@
+.gitignore
+.travis.yml
+CONTRIBUTORS
+COPYING
+MANIFEST.in
+README.md
+dev-requirements.txt
+setup.py
+tests.py
+tox.ini
+urbandicli
+urbandict.py
+fixtures/test_data.html
+urbandict.egg-info/PKG-INFO
+urbandict.egg-info/SOURCES.txt
+urbandict.egg-info/dependency_links.txt
+urbandict.egg-info/top_level.txt
