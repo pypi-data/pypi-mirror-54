@@ -1,0 +1,39 @@
+Dates:
+  start: '2019-10-01'
+  end: '2020-09-01'
+Cash:
+  amount: 200
+  frequency: '2019-10-01'
+Salary:
+  amount: 1500
+  frequency: every Month starting 2019-10-08
+Rent:
+  amount: -450
+  frequency: every Month starting 2019-10-15
+Phone Bill:
+  amount: -25
+  frequency: every Month starting 2019-10-09
+Electricity Bill:
+  amount: -60
+  frequency: every Month starting 2019-10-27
+Water Bill:
+  amount: -30
+  frequency: every Month starting 2019-10-17
+Tobacco:
+  amount: -10
+  frequency: every Week
+Transportation:
+  amount: -3
+  frequency: every WeekDay
+Food:
+  amount: -15
+  frequency: every Day
+Random snacks:
+  amount: -10
+  frequency: every 3 Days
+Nights-out:
+  amount: -20
+  frequency: every Friday and Saturday
+Visit Rome:
+  amount: -500
+  frequency: '2020-03-23'

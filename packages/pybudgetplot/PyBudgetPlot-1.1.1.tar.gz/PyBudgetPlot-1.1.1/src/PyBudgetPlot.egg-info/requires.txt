@@ -1,0 +1,11 @@
+pandas
+matplotlib
+python-dateutil
+recurrent
+pyyaml
+tabulate
+
+[testing]
+pytest
+pytest-cov
+flake8

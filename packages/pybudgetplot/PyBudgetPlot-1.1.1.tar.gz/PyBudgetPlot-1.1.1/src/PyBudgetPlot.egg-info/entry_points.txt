@@ -1,0 +1,4 @@
+[console_scripts]
+init-budget = pbp.cli.init_budget:run
+plot-budget = pbp.cli.plot_budget:run
+
