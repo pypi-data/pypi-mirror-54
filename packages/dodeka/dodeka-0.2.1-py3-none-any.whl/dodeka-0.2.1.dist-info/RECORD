@@ -1,0 +1,11 @@
+dodeka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dodeka/factors.py,sha256=tyi8Q9jT1YkjjPh-JcvhM_G5J5jFy9Y7dweWlxIvWFo,2395
+dodeka/interface.py,sha256=RAjqadAs2qve3LBVrwFNchMzfUxFnDAiv8aPTFrbYjo,571
+dodeka/test_factors.py,sha256=fSEFy3ZQGbQ7humNqGukCHoNmdrGRIE0Q4pteP3qRY8,2477
+dodeka/test_interface.py,sha256=V92d0EV6280CjRiOF2bX3Z2PE6rBqHJwMpLQV98w6K8,927
+dodeka-0.2.1.dist-info/LICENSE,sha256=KjBCu0MtCDbTa30wQ0OVNJEes6WOmZ6XzjiXa0rifFE,1069
+dodeka-0.2.1.dist-info/METADATA,sha256=7tkvgvywQIIz8vOs9myeyU9x9RGx7nBefzMl8wMiokY,5857
+dodeka-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dodeka-0.2.1.dist-info/entry_points.txt,sha256=FO2MRpL0RBQpTnrdhaXL8MeuvFj8N5dHUQMsvTJ8-vc,52
+dodeka-0.2.1.dist-info/top_level.txt,sha256=7CvlNu7BbpQVyIQArkFkwbyg19TH_g0nfFrHWjl9LMM,7
+dodeka-0.2.1.dist-info/RECORD,,
