@@ -1,0 +1,12 @@
+argser/__init__.py,sha256=E_j4CzyMaUuFuebdyRENEjFKM2R-BN4yfUNIVJpVwcg,185
+argser/__main__.py,sha256=5HxI-1rgES0r09uavrNvmKPrBExGOsGF49c7l3UqMKU,1071
+argser/consts.py,sha256=pO7JgVuVXx2HIPvKnVmfMpBIyJ_ET3NmV9kDiHJScE4,303
+argser/display.py,sha256=RkgdCfPhUEKinaJ_UYeUaVwrpbNAWvkJw4gmJt-MubE,2916
+argser/fields.py,sha256=RRunMHH9o6Y9DgI-KRWXQrmcpi3ag0-ZNwma8kvIklM,4405
+argser/logging.py,sha256=zEWWZDuI7l6i0u_p9G8ZtZc4nc1_tifHgiEbLF0QHIM,177
+argser/parser.py,sha256=LYBfaLpH-svMDHzGZ_70AEcbupThKM8vafg7bhp81Pg,9041
+argser/utils.py,sha256=bWgUHdze-CynKO1jNmiVvCzYu30KYFHYhPEMbAD_KIY,3728
+argser-0.0.8.dist-info/entry_points.txt,sha256=_2ULNkJC690dcHoNKI1kY9EjOQmpD1McGk1SBM61-Ok,47
+argser-0.0.8.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+argser-0.0.8.dist-info/METADATA,sha256=SYUFzjFaDQDtSdf3HwlyKDafqI661jFEToM7Wj1ry8g,5106
+argser-0.0.8.dist-info/RECORD,,
