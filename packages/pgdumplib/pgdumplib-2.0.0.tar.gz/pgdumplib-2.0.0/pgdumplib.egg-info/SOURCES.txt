@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pgdumplib/__init__.py
+pgdumplib/constants.py
+pgdumplib/converters.py
+pgdumplib/dump.py
+pgdumplib/exceptions.py
+pgdumplib.egg-info/PKG-INFO
+pgdumplib.egg-info/SOURCES.txt
+pgdumplib.egg-info/dependency_links.txt
+pgdumplib.egg-info/requires.txt
+pgdumplib.egg-info/top_level.txt
+pgdumplib.egg-info/zip-safe
