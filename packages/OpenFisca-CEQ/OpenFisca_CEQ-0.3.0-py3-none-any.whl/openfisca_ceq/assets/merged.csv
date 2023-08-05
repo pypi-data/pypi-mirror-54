@@ -1,0 +1,183 @@
+,label_division,label_groupe,label_classe,label_sous_classe,label_poste,code_coicop,CIV,SEN,MLI
+110,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Pain et céréales,Pain,Pain,1.1.1.1.1,['Pain'],['Autres pains' 'Pain de ble'],['Pain']
+109,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Pain et céréales,"Gâteaux, pâtisserie de conservation",Biscuits et gâteaux,1.1.1.3.2,['Biscuit et patisserie'],,
+105,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Pain et céréales,Céréales,"Farines, semoules, céréales",1.1.1.4.1,"['Mil en grain' 'Farine de manioc' 'Attieke' ""Farine d'ignale""
+ 'Fonio en grain' 'Farine de sorgho' 'Sorgho en grain' 'Farine de mil'
+ 'Farine de mais' 'Pâte de manioc' 'Mais e, grain' 'Mais en epis'
+ 'Amandes de karite' 'Ble' 'farine de ble' 'Soja' 'Gari' 'Coprah'
+ 'Gombo sec' 'Farine de banane' 'Arachide decortiquee' ""Pâte d'arachide""
+ 'Pistache' 'Pâte de pistache' 'Nois de palme' 'Noix de cajou']","['Mais' 'Frais mouture cereales' 'Fonio' 'Sorgho'
+ 'S/prod. mil/mais/sorgho' 'Niebe sec']",['Mil' 'Sorgho' 'Mais en grain crus']
+107,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Pain et céréales,Céréales,Pâtes alimentaires,1.1.1.4.2,['Pate alimentaire'],"[""Pate d'arachide"" 'Concentre de tomates']",
+108,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Pain et céréales,Céréales,Riz,1.1.1.4.3,['Riz importe de luxe' 'Riz local' 'Riz importe denicachia'],['Riz entier importe' 'Riz local (paddy)' 'Riz brise importe'],['Riz']
+106,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Pain et céréales,Céréales,Plats cuisinés à base de céréales,1.1.1.4.4,,['Mil'],
+122,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Viande,Viande de bœuf,Bœuf à rôtir,1.1.2.1.1,,['Viande de boeuf' 'Autoc. prod. elev.'],['Viande de boeuf fraîche']
+123,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Viande,"Viande de mouton, de cheval",Agneau,1.1.2.3.1,['Viande de mouton'],['Mouton sur pied'],['Viande de mouton ou de chèvre fraîche']
+124,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Viande,"Viande de mouton, de cheval",Cheval,1.1.2.3.2,,['Aut. animaux sur pied'],
+126,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Viande,Viande de porc et charcuteries,Saucisson,1.1.2.4.4,['Saucission'],,
+125,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Viande,Viande de porc et charcuteries,Autres charcuteries et conserves de viande,1.1.2.4.6,,['Autres viandes'],
+127,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Viande,Volaille,Poulet,1.1.2.5.1,,['Volaille'],
+121,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Viande,Autres viandes et plats cuisinés à base de viande,Triperie,1.1.2.6.2,['Abats'],,
+120,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Viande,Autres viandes et plats cuisinés à base de viande,Plats cuisinés à base de viande,1.1.2.6.3,['Conserve de viande'],,
+112,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Poissons et crustacés,Poissons et crustacés frais,Poissons frais,1.1.3.1.1,"['poisson frais Appolo' 'Poisson frais carpe rouge' 'Poisson frais sosso'
+ 'Poisson frais capitaine']",['Poissons frais' 'Autoc. prod. peche'],['Poisson frais']
+111,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Poissons et crustacés,Poissons et crustacés frais,Crustacés et mollusques frais,1.1.3.1.2,['Crabes' 'Escargot' 'Crevettes'],,
+113,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Poissons et crustacés,"Poissons et crustacés préparés, en conserves et surgelés","Poissons en conserves, surgelés, séchés, fumés",1.1.3.2.1,"['Machoiron fume' 'Maquereau fume' 'Boite de sardine'
+ 'Poisson fume Hareng']",['Poissons seches' 'Poissons fumes'],"['Poisson fume, seches, sales']"
+100,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Lait, fromage et œufs",Lait et crème,Laits,1.1.4.1.1,['Lait frais' 'Lait en poudre' 'Lait infantile'],['Lait (concentre ou frais)' 'Autres prod. laitiers' 'Lait poudre en vrac'],['Lait en poudre' 'Lait frais local']
+99,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Lait, fromage et œufs",Lait et crème,Crèmes fraîches,1.1.4.1.2,['Lait conc. Non sucre'],,
+101,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Lait, fromage et œufs",Yaourts et desserts lactés,Yaourts,1.1.4.2.1,['Yogourt'],['Lait caille en vrac'],
+102,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Lait, fromage et œufs",Œufs,Œufs,1.1.4.4.1,['Œuf'],,
+96,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Huiles et graisses,Beurres,Beurres,1.1.5.1.1,['Beurre de karite'],,
+97,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Huiles et graisses,Huiles et margarines,Huiles alimentaires,1.1.5.2.1,['Huile de palm trad.' 'Huile raffinee'],['Huiles arachide' 'Huiles vegetales' 'Huiles de palme' 'Autres huiles'],"[""Huile d'arachide""]"
+98,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Huiles et graisses,Huiles et margarines,Margarine végétale et autres graisses,1.1.5.2.2,['Margarine'],,['Beurre de karite']
+94,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Fruits,Fruits frais,Fruits frais,1.1.6.1.1,"['Mangue importee' 'Banane plantain' 'Ananas' 'Banane douce' 'Mandarine'
+ 'Orange' 'Avocat' 'Mangue' 'Papaye' 'Gombo sec en poudre'
+ 'Fruit de la passion' 'Gingembre' 'Citron' 'Pamplemousse']",['Fruits'],
+95,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Fruits,"Fruits surgelés, appertisés ou secs","Fruits surgelés, appertisés ou secs",1.1.6.2.1,['Conserve de fruit'],,
+103,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Légumes,Légumes frais,Légumes frais,1.1.7.1.1,"['Dah' 'Pomme de terre' 'Citrouille' 'Gombo frais' 'Carotte'
+ 'Tomate fraiche' 'Aubergine locale' 'Aubergine violet' 'Chou'
+ 'Patate douce' 'Igname' 'Concombre' 'Autres feuilles' 'Kloila'
+ 'Feuille de palme' 'Epinard' 'feuille de manios' 'Taro' 'Haricot vert'
+ 'Piment' 'Manioc fraix' 'Salades divers' 'Poivron' 'Courgette' 'Oignon']","['Manioc frais' 'Oignons' 'Choux' 'Autres legumes' 'Arachide decortiquee'
+ 'Autres s/p arachide' 'Petites tomates']",['Tubercules et plantain' 'Oignon frais' 'Arachide decortiquee']
+104,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,Légumes,"Légumes préparés, surgelés et en conserve","Légumes surgelés, secs et en conserve",1.1.7.2.1,['Haricot sec' 'Champignon'],,['Haricots secs']
+119,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Sucre, confitures, chocolat, confiserie et produits glacés",Produits à base de sucre,Sucre,1.1.8.1.1,['Sucre'],['Sucre granule' 'Sucre en morceaux'],['Sucre']
+118,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Sucre, confitures, chocolat, confiserie et produits glacés",Produits à base de sucre,"Confitures, compotes et miel",1.1.8.1.2,['Lait conc. Sucre' 'Miel'],,
+117,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Sucre, confitures, chocolat, confiserie et produits glacés",Produits à base de chocolat,Chocolat en tablettes,1.1.8.2.1,['Chocolat a croquer'],,
+116,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Sel, épices, sauces et produits alimentaires n.d.a.",Condiments et assaisonnements,"Sels, épices, condiments, vinaigres et sauces",1.1.9.1.1,['Bouillon cube' 'Persil' 'Pate de tomate' 'Sel'],['Bouillon' 'Aut. condiments'],"['Cube(Maggi, Jumbo, etc.)']"
+114,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Sel, épices, sauces et produits alimentaires n.d.a.",Aliments préparés pour enfants et produits diététiques,Aliments préparés pour bébés,1.1.9.2.1,['Aliment pour bebe'],,
+115,Produits alimentaires et boissons non alcoolisées,Produits alimentaires,"Sel, épices, sauces et produits alimentaires n.d.a.",Autres produits alimentaires n.d.a.,Desserts et produits pour pâtisserie,1.1.9.3.2,,['Gateaux/biscuits'],
+92,Produits alimentaires et boissons non alcoolisées,Boissons non alcoolisées,"Café, thé et cacao",Produits chocolatés,Chocolat en poudre,1.2.1.1.1,['Cacao en poudre sucree'],,
+91,Produits alimentaires et boissons non alcoolisées,Boissons non alcoolisées,"Café, thé et cacao",Cafés,Cafés en grains ou moulu,1.2.1.2.1,['Cafe soluble ou moulu'],['Cafe moulu' 'Cafe en grains'],
+93,Produits alimentaires et boissons non alcoolisées,Boissons non alcoolisées,"Café, thé et cacao",Thés et infusions,Thés et infusions,1.2.1.3.1,['The (sachet)'],['Autres thes/quinqueliba' 'The vert'],['The']
+90,Produits alimentaires et boissons non alcoolisées,Boissons non alcoolisées,Autres boissons non alcoolisées,Eaux minérales et de source,Eaux minérales et de source,1.2.2.1.1,['Eau minerale'],,
+89,Produits alimentaires et boissons non alcoolisées,Boissons non alcoolisées,Autres boissons non alcoolisées,"Boissons gazeuses, jus et sirops",Jus de fruits et de légumes,1.2.2.2.1,,['Jus fruits locaux'],
+88,Produits alimentaires et boissons non alcoolisées,Boissons non alcoolisées,Autres boissons non alcoolisées,"Boissons gazeuses, jus et sirops","Boissons aux fruits non gazeuses, sodas, limonades",1.2.2.2.2,,['Boissons non alcoolisees'],
+39,Boissons alcoolisées et tabac,Boissons alcoolisées,Alcools,Apéritifs,Whisky,2.1.1.1.2,,['Boissons alcoolisees'],
+40,Boissons alcoolisées et tabac,Boissons alcoolisées,Alcools,Eaux de vie et liqueurs,Eaux de vie,2.1.1.2.1,['Boisson alc. Tradition'],,
+41,Boissons alcoolisées et tabac,Boissons alcoolisées,Bières,Bières,Bières,2.1.3.1.1,['Biere'],,
+42,Boissons alcoolisées et tabac,Tabac,Tabac,Tabac,Tabac,2.2.1.1.1,['Tabac' 'Tabac brut'],['Cigarette-tabac'],['Boissons alcoolisees et tabac']
+49,Habillement et chaussures,Habillement,Tissus d'habillement,Tissus d'habillement,Tissus d'habillement,3.1.1.1.1,,['Tissus'],
+52,Habillement et chaussures,Habillement,Vêtements,Vêtements de dessus pour hommes,Vêtements de travail,3.1.2.1.5,,['Vetements'],['Habillement']
+51,Habillement et chaussures,Habillement,Vêtements,Vêtements de dessus pour femmes,Tailleurs et ensembles pour femmes,3.1.2.2.2,,['Confection'],
+50,Habillement et chaussures,Habillement,Vêtements,Vêtements de dessus pour enfants,"Jupes, robes et ensembles pour enfants",3.1.2.3.3,,['Uniformes 09/10'],
+47,Habillement et chaussures,Habillement,Autres articles vestimentaires et accessoires d'habillement,Autres articles vestimentaires et accessoires d'habillement,Accessoires du vêtement et vêtements de travail,3.1.3.1.1,['Parapluie'],,
+48,Habillement et chaussures,Habillement,"Nettoyage, réparation et location de vêtements",Nettoyage et réparation de vêtements,Réparations de vêtements,3.1.4.1.2,"['Frais de couture hommes, dames et enfants']",,
+46,Habillement et chaussures,Chaussures y.c. réparation,Chaussures y.c. réparation,Chaussures de ville,Chaussures de ville pour hommes,3.2.1.1.1,,['Chaussures'],['Chaussures et reparation']
+61,"Logement, eau, gaz, électricité et autres combustibles",Loyers d'habitation effectifs,Loyers effectifs,Loyers des résidences principales,Loyers des résidences principales,4.1.1.1.1,,['Loyer impute' 'Loyer'],['Loyer impute' 'Loyer']
+56,"Logement, eau, gaz, électricité et autres combustibles",Entretien et réparation courante du logement,Produits pour l'entretien et la réparation courante du logement,Produits pour l'entretien et la réparation courante du logement,"Art. de quincaillerie, fournitures pour bricolage",4.3.1.1.2,['Scie non electrique'],"['filet a tourner' 'hache, houe' 'semoir']",
+57,"Logement, eau, gaz, électricité et autres combustibles",Entretien et réparation courante du logement,Produits pour l'entretien et la réparation courante du logement,Produits pour l'entretien et la réparation courante du logement,Articles en bois,4.3.1.1.3,,['Bois'],
+58,"Logement, eau, gaz, électricité et autres combustibles",Entretien et réparation courante du logement,Services pour l'entretien et la réparation courante du logement,Autres services d'entretien du logement,Services d'entretien du logement,4.3.2.2.1,,['Grosses reparation maison' 'Rep/entret./modif. logement'],"['Autres services et coûts domestiques (excl. Interêts et assurance)'
+ 'Entretien de la maison (excl. Renovation incl. Services materiels)']"
+59,"Logement, eau, gaz, électricité et autres combustibles",Fourniture d'eau et autres services lies au logement,Fourniture d'eau et autres services liés au logement,Distribution d'eau,Distribution d'eau,4.4.1.1.1,"[""eau provenant d'autres sources"" 'eau via le reseau publique']",['Eau robinet public' 'Eau sur facture' 'Eau chez voisin'],['Approvisionnement en eau']
+60,"Logement, eau, gaz, électricité et autres combustibles",Fourniture d'eau et autres services lies au logement,Fourniture d'eau et autres services liés au logement,Enlèvement des ordures ménagères,Enlèvement des ordures ménagères,4.4.1.2.1,['Enlevement des ordures'],['Depense ordures'],"[""Ramassage d'ordure et evacuation des eaux usees""]"
+66,"Logement, eau, gaz, électricité et autres combustibles","Électricité, gaz et autres combustibles",Électricité,Électricité,Électricité,4.5.1.1.1,"['electricite pour le chauffage' ""electricite pour l'eclairage""]","['Electricite facture' 'panneau solaire' 'Electricite voisin'
+ 'groupe electro.']",['Electricite']
+65,"Logement, eau, gaz, électricité et autres combustibles","Électricité, gaz et autres combustibles",Gaz,Gaz de ville,Gaz de ville,4.5.2.1.1,['gaz pour le chauffage'],,
+64,"Logement, eau, gaz, électricité et autres combustibles","Électricité, gaz et autres combustibles",Gaz, gaz liquéfiés,Gaz liquéfiés,4.5.2.2.1,,['Gaz'],['Gaz']
+62,"Logement, eau, gaz, électricité et autres combustibles","Électricité, gaz et autres combustibles",Combustibles liquides,Combustibles liquides,Fiouls domestiques,4.5.3.1.1,"['petrole pour le chauffage' ""petrole pour l'eclairage""
+ ""huile pour l'eclairage""]",['Petrole'],"['Combustibles liquides (carburant, etc.)']"
+63,"Logement, eau, gaz, électricité et autres combustibles","Électricité, gaz et autres combustibles",Combustibles solides,Combustibles solides,Autres combustibles solides,4.5.4.1.1,"['depense pour le chauffage - autre' 'bois pour le chauffage'
+ 'charbon pour le chauffage']",['Charbon de bois'],"['Combustibles solides (charbon, bois, etc.)']"
+11,"Ameublement, équipement ménager et entretien courant de la maison","Meubles, articles d'ameublement, tapis et autres revêt. de sol y.c.réparation",Meubles et articles d'ameublement,Mobilier de chambre,Sommiers,5.1.1.1.3,['Matelas' 'Lit'],['chambre coucher' 'lit'],
+13,"Ameublement, équipement ménager et entretien courant de la maison","Meubles, articles d'ameublement, tapis et autres revêt. de sol y.c.réparation",Meubles et articles d'ameublement,Mobilier de séjour,"Buffets, livings, bahuts, bibliothèques",5.1.1.2.2,,['bibliotheque salon' 'Biens durables' 'armoire'],['Meubles et revêtement de sol (y compris reparations)']
+14,"Ameublement, équipement ménager et entretien courant de la maison","Meubles, articles d'ameublement, tapis et autres revêt. de sol y.c.réparation",Meubles et articles d'ameublement,Mobilier de séjour,Tables et chaises de salle à manger,5.1.1.2.3,['Chaise' 'Table' 'Salle a manger'],['chaise' 'table'],
+12,"Ameublement, équipement ménager et entretien courant de la maison","Meubles, articles d'ameublement, tapis et autres revêt. de sol y.c.réparation",Meubles et articles d'ameublement,Mobilier de cuisine et salle de bains,Mobilier de cuisine et de salle de bains,5.1.1.3.1,['Cuisinière'],"['bouteille gaz 2,7kg' 'bouteille gaz 12kg']",
+10,"Ameublement, équipement ménager et entretien courant de la maison","Meubles, articles d'ameublement, tapis et autres revêt. de sol y.c.réparation",Meubles et articles d'ameublement,Fauteuils et canapés,Fauteuils et canapés,5.1.1.4.1,['Salon ordinaire' 'Fautteuil a mousse (salon'],['salon' 'fauteuil/canape'],
+15,"Ameublement, équipement ménager et entretien courant de la maison","Meubles, articles d'ameublement, tapis et autres revêt. de sol y.c.réparation",Tapis et autres revêtements de sol,Tapis et autres revêtements de sol,Tapis et autres revêtements de sol,5.1.2.1.1,['Natte'],['tapis' 'moquette'],
+5,"Ameublement, équipement ménager et entretien courant de la maison",Articles de ménage en textile,Articles de ménage en textile,Articles pour literie,Literie,5.2.1.1.3,['Drap et couverture'],['matelas ressort' 'matelas eponge'],
+6,"Ameublement, équipement ménager et entretien courant de la maison",Articles de ménage en textile,Articles de ménage en textile,Autres articles textiles,"Linge de toilette et de table, torchons",5.2.1.2.2,,,"['Textiles domestiques (rideaux, torchons, serviettes)']"
+0,"Ameublement, équipement ménager et entretien courant de la maison",Appareils ménagers,Gros appareils ménagers électriques ou non,Appareils de cuisson,Appareils de cuisson,5.3.1.2.1,,['cuisiniere moderne'],"['Gazinières, cuisinières electriques']"
+3,"Ameublement, équipement ménager et entretien courant de la maison",Appareils ménagers,Gros appareils ménagers électriques ou non,"Réfrigérateurs, congélateurs","Réfrigérateurs, congélateurs",5.3.1.3.1,['Refrigerateur' 'Congelateur'],['refrigerateur/Congel'],['Refrigerateurs et congelateurs']
+2,"Ameublement, équipement ménager et entretien courant de la maison",Appareils ménagers,Gros appareils ménagers électriques ou non,Autres appareils,Aspirateurs et autres gros appareils ménagers,5.3.1.4.1,['Machine a coudre'],['machine a coudre' 'machine a laver' 'climatiseur'],"['Lave vaisselles' 'Machines à laver et à secher'
+ 'Aspirateurs et autre equipement de menage'
+ 'Machines à coudre et à tricoter']"
+1,"Ameublement, équipement ménager et entretien courant de la maison",Appareils ménagers,Gros appareils ménagers électriques ou non,Autres appareils,Appareils de chauffage,5.3.1.4.2,,['chauffe-eau' 'fer electrique'],"['Gros appareils menagers (appareils de chauffage, etc.)'
+ 'Fours micro-ondes' 'Fer à repasser']"
+4,"Ameublement, équipement ménager et entretien courant de la maison",Appareils ménagers,Petits appareils électroménagers,Petits appareils électroménagers, petits appareils électroménagers,5.3.2.1.1,"['Climatiseur' 'Ventilateur' 'Fer a repasser' 'Vaporisateur'
+ 'Tondeuse electrique']",['bouteille gaz 6kg' 'robot multi-usage' 'ventilateur' 'onduleur'],['Autres petits appareils electromenagers' 'Mixeurs de tout genre']
+23,"Ameublement, équipement ménager et entretien courant de la maison","Verrerie, vaisselle et ustensiles de ménage","Verrerie, vaisselle et ustensiles de ménage","Verrerie, faïence et porcelaine",Verrerie,5.4.1.1.2,,,"['Verrerie, vaisselle et ustensiles de cuisine']"
+22,"Ameublement, équipement ménager et entretien courant de la maison","Verrerie, vaisselle et ustensiles de ménage","Verrerie, vaisselle et ustensiles de ménage",Ustensiles de ménage en métal,Couverts et autres ustensiles de cuisine en métal,5.4.1.2.1,['Machette'],,
+21,"Ameublement, équipement ménager et entretien courant de la maison","Verrerie, vaisselle et ustensiles de ménage","Verrerie, vaisselle et ustensiles de ménage",Autres articles de ménage,Autres ustensiles de ménage,5.4.1.3.1,,['fourneau malgache' 'fourneau ameliore'],
+19,"Ameublement, équipement ménager et entretien courant de la maison",Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,Outillage à moteur,5.5.1.1.1,['Tondeuse a gazon'],['tracteur' 'decortiqueuse'],['Gros outillages et materiel pour la maintenance']
+20,"Ameublement, équipement ménager et entretien courant de la maison",Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,Piles,5.5.1.1.2,['Pile'],,
+17,"Ameublement, équipement ménager et entretien courant de la maison",Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,Lampes et autres petits matériels électriques,5.5.1.1.3,['Ampoule ordinaire et neon' 'Torche' 'Antenne parabolique'],['lampe torche'],
+18,"Ameublement, équipement ménager et entretien courant de la maison",Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,"Outillage à main, ustensiles de jardin",5.5.1.1.4,['Charette' 'Brouette' 'Charrue' 'Sceau en plastique' 'Pilon et mortier'],"['charrue' 'charette' 'pulverisateur' ""fut d'eau""]",['Petits outillages et accessoires divers']
+16,"Ameublement, équipement ménager et entretien courant de la maison",Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,Outillage et autres matériels pour la maison et le jardin,Autres petits matériels pour la maison,5.5.1.1.5,,"['malle' 'Bougie' 'Petit equip. de maison' 'brouette'
+ 'reservoir eau/Barge']",
+7,"Ameublement, équipement ménager et entretien courant de la maison",Biens et services pour l'entretien courant de l'habitation,Articles de ménage non durables,Petits articles pour l'entretien du logement,Petits articles de quincaillerie et de couture,5.6.1.1.2,['Allumette'],,
+8,"Ameublement, équipement ménager et entretien courant de la maison",Biens et services pour l'entretien courant de l'habitation,Articles de ménage non durables,Savons de ménage et produits d'entretien,Savons de ménage et détergents,5.6.1.2.1,,['Savon/produits entretien'],
+9,"Ameublement, équipement ménager et entretien courant de la maison",Biens et services pour l'entretien courant de l'habitation,Services domestiques et autres services pour l'habitation,Services domestiques,Employé de maison,5.6.2.1.1,['Domestique'],['Domestique'],['Services domestiques']
+135,Santé,"Médicaments et autres prod. pharmaceutiques, appareils et mat. thérapeutiques",Préparations et produits pharmaceutiques,Produits pharmaceutiques,Produits pharmaceutiques,6.1.1.1.1,['Produits pharmaceutiques'],['Medicaments/Pharm. men'],['Medicament et produits et equipement therapeutiques']
+134,Santé,"Médicaments et autres prod. pharmaceutiques, appareils et mat. thérapeutiques",Préparations et produits pharmaceutiques,Parapharmacie,Parapharmacie,6.1.1.2.1,['Medicaments traditionnels'],,
+133,Santé,"Médicaments et autres prod. pharmaceutiques, appareils et mat. thérapeutiques",Préparations et produits pharmaceutiques,Appareils et matériels thérapeutiques,Optique médicale,6.1.1.3.1,,['Lunettes/proth. men.'],['Instruments optiques']
+132,Santé,"Médicaments et autres prod. pharmaceutiques, appareils et mat. thérapeutiques",Préparations et produits pharmaceutiques,Appareils et matériels thérapeutiques,Appareils orthopédiques et prothèses,6.1.1.3.2,,['Materiel trait. men.'],
+129,Santé,Médecine non hospitalière et services paramédicaux (services ambulatoires),Service des médecins,Médecins,Médecins,6.2.1.1.1,,"['Consultation menage' 'Soins medic. men.' 'Autr. sante men.'
+ 'Hospitalisation men.']",['Soins medicaux']
+128,Santé,Médecine non hospitalière et services paramédicaux (services ambulatoires),Service des dentistes,Dentistes,Dentistes,6.2.2.1.1,,,['Soins dentaires']
+130,Santé,Médecine non hospitalière et services paramédicaux (services ambulatoires),Services paramédicaux,Services paramédicaux,Analyses de laboratoire,6.2.3.1.1,,['Examens med. men.'],
+131,Santé,Médecine non hospitalière et services paramédicaux (services ambulatoires),Services paramédicaux,Services paramédicaux,Transports sanitaires,6.2.3.1.3,,['Transp. sante men.'],
+137,Transport,Achats de véhicules,Automobiles neuves et d'occasion,Automobiles neuves,Automobiles neuves,7.1.1.1.1,,['voiture' 'Achat moyen transport' 'camion'],"['Nouvelle voiture, moto et minibus']"
+136,Transport,Achats de véhicules,Automobiles neuves et d'occasion,Automobiles d'occasion,Automobiles d'occasion,7.1.1.2.1,,,['Nouvelles voitures de seconde main']
+139,Transport,Achats de véhicules,"Motos, cycles",Motos et cycles,Motocycles,7.1.2.1.1,['Velomoteur'],['motocyclette'],['Cycles et motocycles']
+138,Transport,Achats de véhicules,"Motos, cycles",Motos et cycles,Cycles,7.1.2.1.2,['Velo pour enfant' 'Bicyclette'],['bicyclette'],['Autre equipement de transport (pas pour le business ou agric.)']
+142,Transport,Utilisation de véhicules personnels,Carburants et lubrifiants,Carburants,Supercarburants,7.2.2.1.1,,['Carburant'],"['Essence, autres combustibles (pour le transport) et lubrifiants']"
+143,Transport,Utilisation de véhicules personnels,Entretien et réparation de véhicules personnels,Entretien de véhicules personnels,Entretien de véhicules personnels,7.2.3.1.1,,['Aut. dep. entret. vehicules' 'Depense vidange'],
+144,Transport,Utilisation de véhicules personnels,Entretien et réparation de véhicules personnels,Réparation de véhicules personnels,Réparation de véhicules personnels (heure de m.o.),7.2.3.2.1,,,"['Maintenance et reparation des vehicules,']"
+141,Transport,Services de transport,Transports routiers de voyageurs,Transports routiers de voyageurs,Transports routiers urbains et suburbains de voyageurs,7.3.2.1.2,,['Transp. scolaire 09/10' 'Frais de transport'],['Autre couts lies au transport (sans les voyages internationaux)']
+140,Transport,Services de transport,Transports routiers de voyageurs,Taxis,Taxis,7.3.2.2.1,,,['Bus et taxi (tous les membres du menage)']
+43,Communications,Communications,Services postaux,Services postaux,Services postaux,8.1.1.1.1,['Depenses de timbres et courriers divers'],,['Poste']
+45,Communications,Communications,Équipement et services de téléphone et de télécopie,Équipement de téléphone et de télécopie,Poste téléphonique,8.1.2.1.1,"['Telephone portable' 'Telephone fixe'
+ 'Cabines telephoniques (fixe ou mobile)']",['telephone fixe' 'telephone portable'],"['Telephones portables (y compris les reparations)'
+ 'Autres equipements de telephones et fax']"
+44,Communications,Communications,Équipement et services de téléphone et de télécopie,Service de télécommunications,Services de télécommunications,8.1.2.2.1,"['Autres depenses de telephonie (citelcarte, Kibaro)'
+ 'Depenses de communication non encore citees ou exceptionnelles'
+ 'Cybercafe ou connexion domestiques a Internet'
+ 'Cartes prepayees ou abonnement telephone fixe ou mobile']","['Tel. mobile tigo' 'Tel. mobile expresso' 'Depenses cybercafe'
+ 'Tel. mobile orange' 'Internet facture']","[""Services d'appel telephonique (portable)""
+ 'Autres services telephoniques /fax']"
+85,Loisirs et culture,"Équipements   audio-visuels, photographiques  et informatiques",Équipements audio-visuels,Équipements audio-visuels,Téléviseurs,9.1.1.1.2,['Television' 'Abonnement aux chaines de television etrangeres'],['television'],"[""Tele, y compris l'antenne, video""]"
+84,Loisirs et culture,"Équipements   audio-visuels, photographiques  et informatiques",Équipements audio-visuels,Équipements audio-visuels,Autres appareils électro-acoustiques,9.1.1.1.3,['Chaine HIFI' 'Radio'],['Radio' 'lecteur multimedia'],"[""Autre materiel du son et de l'image (haut parleurs, CD/DVD, casques,""
+ 'Radio ou autre equipement audio']"
+86,Loisirs et culture,"Équipements   audio-visuels, photographiques  et informatiques","Équipements photo et cinéma, instruments d'optique",Équipements photo et cinéma,"Appareils de photo, inst. d'optique, d'observation",9.1.2.1.1,['Appareil photo numerique'],,"['Appareils photos, cameras et equipement photographique']"
+87,Loisirs et culture,"Équipements   audio-visuels, photographiques  et informatiques","Équipements photo et cinéma, instruments d'optique",Équipements photo et cinéma,Caméscope,9.1.2.1.2,['Camera'],,
+81,Loisirs et culture,"Équipements   audio-visuels, photographiques  et informatiques",Matériels de traitement de l'information y.c. micro-ordinateurs,Matériels de traitement de l'information y.c. micro-ordinateurs,Matériel de traitement de l'info. yc micro-ordinateurs,9.1.3.1.1,['Tablette' 'Ordinateur' 'Lecteur VCD/DVD'],['ordinateur'],['Ordinateurs personnels et autre equipement similaire']
+83,Loisirs et culture,"Équipements   audio-visuels, photographiques  et informatiques",Supports d'enregistrements de l'image et du son,Supports d'enregistrements de l'image et du son,Disques et cassettes enregistrés,9.1.4.1.1,,,"['CD, Video et DVD (loue ou achete)']"
+82,Loisirs et culture,"Équipements   audio-visuels, photographiques  et informatiques","Réparation de matériel audiovisuel, photographique et de traitement de l'information","Réparation de matériel audiovisuel, photographique et de traitement de l'information",Réparation d'appareils et d'accessoires récréatifs,9.1.5.1.1,,,"['Reparation de materiel audiovisuel, photographique, etc.']"
+71,Loisirs et culture,Autres biens durables importants pour les loisirs et la culture y.c. réparation,Autres biens durables importants pour les loisirs et la culture y.c. réparation,Autres biens durables importants pour les loisirs et la culture y.c. réparation,Bateaux et accessoires,9.2.1.1.2,['Pirogue' 'Bateau de plaisance' 'Bateau de peche'],,
+72,Loisirs et culture,Autres biens durables importants pour les loisirs et la culture y.c. réparation,Autres biens durables importants pour les loisirs et la culture y.c. réparation,Autres biens durables importants pour les loisirs et la culture y.c. réparation,Instruments de musique et autres articles pour les loisirs,9.2.1.1.3,,,['Instruments de musique']
+69,Loisirs et culture,"Autres articles et équipements de loisirs, fleurs et animaux d'agrément",Jeux et jouets,Jeux et jouets,Jeux et jouets,9.3.1.1.1,,,['Jeux de chance' 'Jeux et hobby']
+70,Loisirs et culture,"Autres articles et équipements de loisirs, fleurs et animaux d'agrément","Équipement de sport, de camping et de loisirs de plein air","Équipement de sport, de camping et de loisirs de plein air","Articles de sport, armes et munitions",9.3.2.1.1,,,"['Equipement de sport, camping et recreation en plein air']"
+68,Loisirs et culture,"Autres articles et équipements de loisirs, fleurs et animaux d'agrément",Horticulture,Fleurs et plantes,Fleurs et plantes,9.3.3.1.1,,,"['Jardins, plantes et fleurs (pas pour l’agriculture)']"
+67,Loisirs et culture,"Autres articles et équipements de loisirs, fleurs et animaux d'agrément",Animaux d'agrément y c. services vétérinaires et autres services,Animaux d'agrément y c. services,Achats d'animaux,9.3.4.1.2,,,['Animaux domestiques et les couts (incl. Nourriture des animaux)']
+79,Loisirs et culture,Services récréatifs et culturels,Services récréatifs,Services récréatifs,Pratique d'un sport,9.4.1.1.1,,,"['Frais pour le sport, cinema, musee, etc.']"
+78,Loisirs et culture,Services récréatifs et culturels,Services récréatifs,Services récréatifs,Enseignement artistique et autres services récréatifs,9.4.1.1.3,,,['Autres services de loisirs']
+76,Loisirs et culture,Services récréatifs et culturels,Services culturels,Autres spectacles culturels et musées,"Théâtres, concerts et music-halls",9.4.2.2.1,,['Loisirs'],['Loisir et la culture']
+77,Loisirs et culture,Services récréatifs et culturels,Services culturels,Redevance et abonnements télévision,Redevance et abonnements télévision,9.4.2.3.1,,['Cable facture' 'parabole'],"['Frais pour la TV, radio, etc (incl. L’ equipement loue)']"
+75,Loisirs et culture,"Presse, livres et papeterie",Livres,Livres,"Livres scolaires et parascolaires, dict., encyclo.",9.5.1.1.1,"['Livres scolaires, cahiers et autres fournitures scolaires']",['Livres 09/10'],"[""Livres, papiers et d'autre fournitures""]"
+74,Loisirs et culture,"Presse, livres et papeterie",Journaux et périodiques,Journaux,Journaux,9.5.2.1.1,['Achats de journaux ou autre presse'],,['Journaux']
+73,Loisirs et culture,"Presse, livres et papeterie","Imprimés divers, articles de papeterie et de dessin",Autres articles de bureau,Autres fournitures scolaires et de bureau,9.5.3.2.2,,['Autre education 09/10'],
+80,Loisirs et culture,Voyages touristiques tout compris,Voyages touristiques tout compris,Voyages touristiques tout compris,Voyages organisés,9.6.1.1.1,,,['Vacances organisees' 'Voyages internationaux']
+145,Éducation,Services d'éducation,Services d'éducation,Services d'éducation,Secondaires à financement  privé,10.1.1.1.1,,['Insc./scolarite 09/10'],['Frais de scolarite et de prise en charge de l’enfant']
+54,"Hôtellerie, cafés, restauration",Restauration et cafés,Restauration et cafés,Restauration,Repas traditionnel dans un restaurant,11.1.1.1.1,,['Repas hors domicile'],
+53,"Hôtellerie, cafés, restauration",Restauration et cafés,Cantines,Repas dans un restaurant scolaire ou universitaire,Repas dans un restaurant scolaire ou universitaire,11.1.2.1.1,"['Nourriture, cantine, internat, pensionat et tuteur']",,
+55,"Hôtellerie, cafés, restauration",Services d'hébergement,Services d'hébergement,Hôtellerie y.c. pension,Locations de chambres d'hôtel,11.2.1.1.1,,,['Hotel et services de logement']
+38,Autres biens et services,Soins personnels,Salons de coiffure et esthétique corporelle,Coiffure,Coiffeurs pour femmes,12.1.1.1.2,,,['Salon de coiffure']
+36,Autres biens et services,Soins personnels,"Appareils, autres articles et produits pour soins personnels",Parfumerie et produits de beauté,Produits de maquillage et de soin de la peau,12.1.3.1.2,,['Produits cosmetiques'],
+37,Autres biens et services,Soins personnels,"Appareils, autres articles et produits pour soins personnels",Produits de l'hygiène corporelle,Shampooings et produits capillaires divers,12.1.3.2.2,,['Hygiene/soin corporel'],
+35,Autres biens et services,Soins personnels,"Appareils, autres articles et produits pour soins personnels",Appareils et autres articles de toilette,Appareils de toilette électriques,12.1.3.3.3,['Rasoir'],,
+32,Autres biens et services,Effets personnels n.d.a.,"Horlogerie, bijouterie, joaillerie","Horlogerie, bijouterie, joaillerie",Horlogerie,12.3.1.1.1,,['montre/reveil'],
+31,Autres biens et services,Effets personnels n.d.a.,"Horlogerie, bijouterie, joaillerie","Horlogerie, bijouterie, joaillerie","Bijouterie, joaillerie",12.3.1.1.2,,['Bijoux'],"['Bijoux, horloges et montres']"
+30,Autres biens et services,Effets personnels n.d.a.,Autres effets personnels,Maroquinerie et articles de voyages,Maroquinerie et articles de voyage,12.3.2.1.1,,,['Voyage et autres articles personnels (figurant pas dans le 1)']
+33,Autres biens et services,Protection sociale,Services de protection sociale,"Crèches, assistantes maternelles","Crèches, assistantes maternelles",12.4.1.1.1,,,"['Services de protection sociale, garderies']"
+25,Autres biens et services,Assurances,Assurance habitation,Assurance habitation,Assurance habitation,12.5.2.1.1,,,['Assurance maison']
+26,Autres biens et services,Assurances,Assurance santé,Assurance santé complémentaire,Assurance santé complémentaire,12.5.3.1.1,"[""Depense d'assurance maladie""]",,['Assurance maladie']
+24,Autres biens et services,Assurances,Assurance automobile,Assurance automobile,Assurance automobile,12.5.4.1.1,,,"[""Autres assurances sans l'assurance vie""]"
+34,Autres biens et services,Services financiers,Services financiers n.d.a.,Services financiers,Services financiers,12.6.1.1.1,,,['Frais bancaires et autres services financiers']
+29,Autres biens et services,Autres services,Autres services,Services funéraires,Services funéraires,12.7.1.1.1,['Depenses aux funerailles ou autres ceremonies'],['Fetes'],['Funerailles et autres services' 'Frais funerailles et autres services n']
+28,Autres biens et services,Autres services,Autres services,Prestations administratives et privées diverses,Formalités administratives,12.7.1.2.1,,['Impots/amendes'],
+27,Autres biens et services,Autres services,Autres services,Prestations administratives et privées diverses,Autres services aux ménages,12.7.1.2.3,"['Depenses pour les mariages et les baptemes'
+ 'Aides et soutiens non encore citees'
+ ""Valeur des envois d'autres produits aux parents et autres personnes""
+ ""Envois d'argent aux epouses"" ""Envois d'argent aux parents et autres""]",['Ceremonies'],['Assurance voyage et incendie']
