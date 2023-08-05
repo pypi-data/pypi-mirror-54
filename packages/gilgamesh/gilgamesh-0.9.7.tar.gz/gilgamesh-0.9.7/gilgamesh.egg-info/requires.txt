@@ -1,0 +1,8 @@
+pyzmq
+aiohttp
+
+[mqtt]
+paho-mqtt
+
+[timescaledb]
+psycopg2
