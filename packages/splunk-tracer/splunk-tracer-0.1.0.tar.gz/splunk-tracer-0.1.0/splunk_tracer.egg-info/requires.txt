@@ -1,0 +1,3 @@
+six
+basictracer>=3.0,<4
+requests>=2.19,<3.0
