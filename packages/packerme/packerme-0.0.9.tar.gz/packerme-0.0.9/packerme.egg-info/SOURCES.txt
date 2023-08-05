@@ -1,0 +1,11 @@
+LISENCE
+MANIFEST.in
+README.md
+setup.py
+packerme/__init__.py
+packerme/packer.py
+packerme.egg-info/PKG-INFO
+packerme.egg-info/SOURCES.txt
+packerme.egg-info/dependency_links.txt
+packerme.egg-info/requires.txt
+packerme.egg-info/top_level.txt
