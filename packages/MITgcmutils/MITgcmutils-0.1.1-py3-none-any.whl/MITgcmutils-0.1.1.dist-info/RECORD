@@ -1,0 +1,17 @@
+MITgcmutils/__init__.py,sha256=0fNcYCZKVQG1HORHkeR3AgoHf3eceAHPrxOMDURjJqI,298
+MITgcmutils/diagnostics.py,sha256=mUXXCv1g-OBI_h9C7JDDgfdGIgCOAtOOj2obPSsqIBY,2456
+MITgcmutils/jmd95.py,sha256=6MDo0juw3o0QT4p9fNUr54YF8Gxjk1po3c_Z1RalSIk,5763
+MITgcmutils/llc.py,sha256=gmT6fiR5PC_dLnUMIl0lGm6Q1tFNyoQhIAdX0s6a69Q,16733
+MITgcmutils/mdjwf.py,sha256=ZZ9P2KDP5G7_7cscooTrkLjRHR_dRWu_3HYOU1J6gHE,3164
+MITgcmutils/mds.py,sha256=i8wsiRZgwAWrWWGlrx7z9uLE327I_TyeNTDOQRuN5Ts,21136
+MITgcmutils/mnc.py,sha256=SP_352yuNXBvS-UXfcPUTrK83yDUKinF8jX-v0qkZHU,14484
+MITgcmutils/netcdf.py,sha256=Os-K1k5n8fxXTrAwRQp2K54B1MR6LERnBUlvkWGwvwY,32174
+MITgcmutils/ptracers.py,sha256=5LJ6z5YFtlf7sGRyAbaYx_BzZ5u9sNvg4SlF4de5jPk,1365
+MITgcmutils/cs/__init__.py,sha256=afW7bwUeiIFS19HBOq443d4lE_-RaKkXmYQsLSgT9B0,44
+MITgcmutils/cs/pcol.py,sha256=VNre-RJo-TGsLb8A4GiKF1i4W9_rFFXnc8tVL9qWEes,7157
+MITgcmutils-0.1.1.data/scripts/gluemncbig,sha256=N_ej4tX_jl1b5cEh8k4ZrR0Shd1FGk8Pw-By997OqAE,57853
+MITgcmutils-0.1.1.dist-info/LICENSE.txt,sha256=7lCgucwDx0NMhzzkhGzbNSs0sOm0AsOdgYKCLuNJQbo,1078
+MITgcmutils-0.1.1.dist-info/METADATA,sha256=Ip0kkRs7IpogGlojssbZBS6Mo5D3ALlnXWg2QQs0-ko,853
+MITgcmutils-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+MITgcmutils-0.1.1.dist-info/top_level.txt,sha256=Dn-26X1rEVP5yo2cPBHEVx0EVs-EAxDjR_0aogXppjQ,12
+MITgcmutils-0.1.1.dist-info/RECORD,,
