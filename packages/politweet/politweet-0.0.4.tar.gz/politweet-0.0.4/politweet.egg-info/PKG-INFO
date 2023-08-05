@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: politweet
+Version: 0.0.4
+Summary: library for processing italian political tweets
+Home-page: UNKNOWN
+Author: Danail Krzhalovski
+Author-email: dkrzhalovski@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
