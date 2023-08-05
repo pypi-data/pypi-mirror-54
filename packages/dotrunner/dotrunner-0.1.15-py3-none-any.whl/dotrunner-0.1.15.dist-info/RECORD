@@ -1,0 +1,14 @@
+dotrunner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotrunner/dotrunner.py,sha256=ssW6SIKGyH60y1hLEGJ6C1jvxd0sidrcIK-Lfys8qBo,3095
+dotrunner/version.py,sha256=zsEX1zAhqVNEzv03Xx2uSAAZJPIf7IWyVBvi5yK3eXg,18
+dotrunner-0.1.15.data/data/LICENSE,sha256=ZsybHesHc11PC2FGLxV9VN2urJedlEL3gDtU5qL6m_I,1284
+dotrunner-0.1.15.data/data/README.md,sha256=xkUjmSMMYh3jcPTpCaslkPt6R3TWIRtuYLDjJWYwo8g,2814
+dotrunner-0.1.15.data/data/README.rst,sha256=pd3sobv0_3FrwxSlQYu0MrOqZ-PfQShxgvbI4K7OavQ,3102
+tests/snapshots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/snapshots/snap_dotrunner_test.py,sha256=dUII2UAJj_uYNpXYn8WNwIshdK0Jh3fJYshGrvPJc3g,883
+dotrunner-0.1.15.dist-info/LICENSE,sha256=ZsybHesHc11PC2FGLxV9VN2urJedlEL3gDtU5qL6m_I,1284
+dotrunner-0.1.15.dist-info/METADATA,sha256=hIiSF1pjvex0k1aTs-bilNi-TuswvDjavvbtPoAEsOY,1674
+dotrunner-0.1.15.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dotrunner-0.1.15.dist-info/entry_points.txt,sha256=8sHBhY_Xvm0o-PcdID6ZwyvLXf-l_A2ZARy8xrwYP-g,74
+dotrunner-0.1.15.dist-info/top_level.txt,sha256=-1bFZW1d-19qccPByCVQMfBJ4LIHsTddS4-ObAYAwAE,16
+dotrunner-0.1.15.dist-info/RECORD,,
