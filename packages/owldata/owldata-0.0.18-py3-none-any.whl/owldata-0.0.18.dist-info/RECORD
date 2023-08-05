@@ -1,0 +1,11 @@
+owldata/__init__.py,sha256=l2cbS8w2pLEHPG03x6M75N0nqhdcIerxUGhChYgtg0A,1295
+owldata/__version__.py,sha256=9t0WCsVQENAcEHnZy2a-HFvlBUmi6SWETcQjk2a8UpM,22
+owldata/_owlerror.py,sha256=98uIKjCcSFp_rbzeGUoScmS6lkob2Klu9Z8csw9ShCU,6305
+owldata/_owltime.py,sha256=XN3s2YaZKb6P9sz1LtxJ0Yn9buhmEhXUeBpG0gfs1lY,5745
+owldata/api.py,sha256=s0TCsgD7YhnhhwqIbvn6aosEtDJoeamSl4usRX6d3ys,37184
+owldata/config.py,sha256=qI-8Ho899yb6ENoAalLXB9B846ODuWu-_mJQwXT5Mt0,7302
+owldata-0.0.18.dist-info/LICENSE,sha256=UzNqPfHYe9V3FGNgBKaej47fh5LtAcNtdny1jh5scfQ,1116
+owldata-0.0.18.dist-info/METADATA,sha256=WdGhsNeAkv8AVv9uZmXdvbBgTuAV_eUeHsdStZFN1NM,57613
+owldata-0.0.18.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+owldata-0.0.18.dist-info/top_level.txt,sha256=WyS28Yi8Vg9oLS2T8KTgw2fFNK8i2qpiPIhMVtdFJ1Y,8
+owldata-0.0.18.dist-info/RECORD,,
