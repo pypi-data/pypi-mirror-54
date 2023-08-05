@@ -1,0 +1,3 @@
+[console_scripts]
+refreeze-scripts=refreeze_scripts.cli:main
+
