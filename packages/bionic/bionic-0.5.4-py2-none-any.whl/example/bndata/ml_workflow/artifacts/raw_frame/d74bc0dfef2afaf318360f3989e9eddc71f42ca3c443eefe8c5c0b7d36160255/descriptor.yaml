@@ -1,0 +1,8 @@
+entity: raw_frame
+filename: value.pq
+provenance:
+  cache_schema_version: 2
+  case_key: {}
+  code_id: orig_flow=None code_version=None
+  dependencies: []
+  python_major_version: 2

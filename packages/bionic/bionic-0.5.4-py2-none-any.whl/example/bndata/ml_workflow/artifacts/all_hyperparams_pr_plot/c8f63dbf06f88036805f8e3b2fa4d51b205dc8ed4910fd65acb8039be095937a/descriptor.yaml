@@ -1,0 +1,22 @@
+entity: all_hyperparams_pr_plot
+filename: value.png
+provenance:
+  cache_schema_version: 2
+  case_key:
+    feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+    random_seed: !!python/unicode 0
+    test_split_fraction: !!python/unicode 0.3
+  code_id: orig_flow=None code_version=None
+  dependencies:
+  - case_key:
+      hyperparams_dict: !!python/unicode 8fe242c631
+    entity: hyperparams_dict
+    provenance: !!python/unicode 830d93a652c2efda294c6942bd4f23dbb1f6d3ff4f444071ad5a0506631b3d4a
+  - case_key:
+      feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+      hyperparams_dict: !!python/unicode 8fe242c631
+      random_seed: !!python/unicode 0
+      test_split_fraction: !!python/unicode 0.3
+    entity: precision_recall_frame
+    provenance: !!python/unicode 741a3aaa8c3d57195ee9216b0ee80fc07980034cfe460df9889b65ff6f4c0795
+  python_major_version: 2

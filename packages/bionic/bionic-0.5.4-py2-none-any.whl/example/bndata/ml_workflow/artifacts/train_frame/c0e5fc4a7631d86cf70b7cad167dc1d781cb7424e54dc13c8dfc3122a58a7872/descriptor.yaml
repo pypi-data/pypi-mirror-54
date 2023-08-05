@@ -1,0 +1,23 @@
+entity: train_frame
+filename: value.pq
+provenance:
+  cache_schema_version: 2
+  case_key:
+    feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+    random_seed: !!python/unicode 0
+    test_split_fraction: !!python/unicode 0.3
+  code_id: orig_flow=None code_version=None
+  dependencies:
+  - case_key:
+      feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+    entity: features_frame
+    provenance: !!python/unicode 58cd3c6ff899f5be29a55809b624c39ba45f422e30ef1c8268b3a4ac36c6dffa
+  - case_key:
+      random_seed: !!python/unicode 0
+    entity: random_seed
+    provenance: !!python/unicode b73887d49aa950a4427432888fe714024ac0ba7b602645482bbe4e7526c5b7d4
+  - case_key:
+      test_split_fraction: !!python/unicode 0.3
+    entity: test_split_fraction
+    provenance: !!python/unicode 0802c39add3ad87a57d2d30a31adef9b016a8b73002876efc3cdabcff0c0fab1
+  python_major_version: 2
