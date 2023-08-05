@@ -1,0 +1,10 @@
+imaugtools/__init__.py,sha256=XBD6prGS7pEJjvjsHlxVgyu8KfJfcacSNBNKHjKiNcc,299
+imaugtools/crop_functions.py,sha256=yMo6pCKxs_1XQ4BJQemap7JcOl-6ymX5dlxZgIOIUdA,1172
+imaugtools/helper_functions.py,sha256=lbccsjLKdUQVG-NLDr9ANbBAGIkrlpmISubil6c1VPU,1194
+imaugtools/rotate_functions.py,sha256=zD180VlkJfU07i3aO0w4iRmpSwFEic_5az1tvxejnTU,2555
+imaugtools/translate_functions.py,sha256=4mt8gxQ-iAz10e7cw6MpvCm-ltxz-2nsUAQyvK9X7TA,1972
+imaugtools-0.0.1.dist-info/LICENSE,sha256=DLj6mfEGxxmetup3KfQavmnmr5QDKw9JyoNQw9muAIk,1084
+imaugtools-0.0.1.dist-info/METADATA,sha256=bcfJZ9g3CDUWMFZAZwN0Qh8u2aNQOwUXADa82mPIt9I,1059
+imaugtools-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+imaugtools-0.0.1.dist-info/top_level.txt,sha256=CXQO6S-tlel1ScjDcgg5B04uJDBtwGGUzmBeJFAmYCs,11
+imaugtools-0.0.1.dist-info/RECORD,,
