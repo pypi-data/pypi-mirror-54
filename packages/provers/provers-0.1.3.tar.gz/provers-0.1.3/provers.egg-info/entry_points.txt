@@ -1,0 +1,3 @@
+[console_scripts]
+provers = provers.__main__:run
+
