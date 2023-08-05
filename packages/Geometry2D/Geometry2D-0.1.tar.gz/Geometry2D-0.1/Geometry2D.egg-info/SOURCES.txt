@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+Geometry2D/Geometry2D.py
+Geometry2D/__init__.py
+Geometry2D.egg-info/PKG-INFO
+Geometry2D.egg-info/SOURCES.txt
+Geometry2D.egg-info/dependency_links.txt
+Geometry2D.egg-info/top_level.txt
