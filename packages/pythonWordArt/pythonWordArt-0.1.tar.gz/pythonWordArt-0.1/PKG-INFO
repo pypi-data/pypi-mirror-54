@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pythonWordArt
+Version: 0.1
+Summary: Make WordArt, like the ones in MS Office, using Python3
+Home-page: https://github.com/zorbaproject/pythonWordArt
+Author: Luca Tringali
+Author-email: TRINGALINVENT@libero.it
+License: gpl-3.0
+Download-URL: https://github.com/zorbaproject/pythonWordArt/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: wordart,html2png,office
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
