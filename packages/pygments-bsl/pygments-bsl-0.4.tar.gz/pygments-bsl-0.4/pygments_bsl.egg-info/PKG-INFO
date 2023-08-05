@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pygments-bsl
+Version: 0.4
+Summary: Pygments 1C (BSL) lexer
+Home-page: https://github.com/zeegin/pygments-bsl
+Author: Ingvar Vilkman
+Author-email: zeegin@zeegin.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
