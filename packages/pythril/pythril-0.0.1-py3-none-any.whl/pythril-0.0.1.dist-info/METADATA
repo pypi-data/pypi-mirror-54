@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pythril
+Version: 0.0.1
+Summary: Python data science tools for large data sets.
+Home-page: https://github.com/pubds/pythril
+Author: Shawn M. O'Hare
+Author-email: shawn@shawnohare.com
+Maintainer: Shawn M. O'Hare
+Maintainer-email: shawn@shawnohare.com
+License: MIT License
+Keywords: data science
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pip (>=19)
+Requires-Dist: setuptools (>=41)
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Provides-Extra: dist
+Requires-Dist: twine ; extra == 'dist'
+
+# pythril
+Python data science tools for large data sets. 
+
+The name is a play on mithril, a precious ore in Middle-earth, and data mining.
+
+## Example
+
+Extensions of the builtin `collections.counters` for counting faceted data.
+
+```python
+from pythril.counters import DictCounter
+
+counter = Dictcounter(header=['x', 'y'])
+counter.add(dict(x=1, y=2, z=3))
+counter[(1, 2)] == 1  # True
+```
+
+MIT License
+
+Copyright (c) 2019 Public Data Science
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
