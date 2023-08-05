@@ -1,0 +1,10 @@
+neurocombat_sklearn/__init__.py,sha256=fbyrY3Hb4K7IfSDv1ojWXDvuo-QKbvz4mckkJW2MkM8,121
+neurocombat_sklearn/_version.py,sha256=g6tXn3wnFbYzgATgrKvQuSxuM6c526hOiC4FJYwpsCA,22
+neurocombat_sklearn/neurocombat_sklearn.py,sha256=NvqwPXpuv54iZthHvA0HSLVuhta_7Dulz1VZsdaeZyk,15621
+neurocombat_sklearn/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neurocombat_sklearn/tests/test_common.py,sha256=6Ts-qskWXgIomil3NMmYxskRgJ-SNhzClEw5Bcjc2oE,239
+neurocombat_sklearn-0.1.2b0.dist-info/LICENSE,sha256=t0J5BCrQbtRGdYm4U0wUMx38Au7wVcISNw6G0_oM1Jc,1081
+neurocombat_sklearn-0.1.2b0.dist-info/METADATA,sha256=yPyh7J9GmdORu211SQbj-joDvNT8fWNFFYzuWFsMrS4,2837
+neurocombat_sklearn-0.1.2b0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+neurocombat_sklearn-0.1.2b0.dist-info/top_level.txt,sha256=RcictoAdb2WqtU7X1zfmohM9AeEcz1T5LiYOxKekDKM,20
+neurocombat_sklearn-0.1.2b0.dist-info/RECORD,,
