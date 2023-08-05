@@ -1,0 +1,11 @@
+{
+    "dbpath": "/srv/etc",
+    "pool": "zpool",
+    "rootfs": "zpool/shared",
+    "unionpath": "/srv/safer",
+    "resetkey": "toto",
+    "homes": "home",
+    "uowner": "www-data",
+    "admin": "root",
+    "adminpwd": "toto"
+}
