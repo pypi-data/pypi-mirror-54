@@ -1,0 +1,10 @@
+README.md
+setup.py
+pacco/__init__.py
+pacco/classes_file_based.py
+pacco/classes_interface.py
+pacco/clients.py
+pacco.egg-info/PKG-INFO
+pacco.egg-info/SOURCES.txt
+pacco.egg-info/dependency_links.txt
+pacco.egg-info/top_level.txt
