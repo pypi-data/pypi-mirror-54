@@ -1,0 +1,11 @@
+numpy>=1.14.0
+matplotlib
+seaborn
+scikit-learn
+keras<2.3.0
+tensorflow<2.0
+h5py
+logging_exceptions
+Pillow
+forgi
+fastcluster
