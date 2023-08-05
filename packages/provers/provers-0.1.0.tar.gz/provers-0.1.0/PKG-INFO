@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: provers
+Version: 0.1.0
+Summary: Library to access different different theorem provers
+Home-page: https://github.com/mmaroti/provers
+Author: Miklos Maroti
+Author-email: mmaroti@gmail.com
+License: GPL 3
+Description: Provers
+        =======
+        
+        Just a simple python library to access multiple theorem provers through a 
+        common interface.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
