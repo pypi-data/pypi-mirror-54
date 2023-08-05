@@ -1,0 +1,12 @@
+earthengine-api
+oauth2client
+geetools
+geebap
+ipywidgets
+ipygee
+
+[dev]
+
+[docs]
+
+[testing]
