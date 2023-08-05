@@ -1,0 +1,12 @@
+amundsenatlastypes/__init__.py,sha256=CfPNGA_610lCt3S4QBIYEBFFNFL8GkLuFjLayY6Avw0,3468
+amundsenatlastypes/types.py,sha256=bVhN139Lo87WLhoIseqKG6W84zZbIWVX_KxKjexO3CI,493
+amundsenatlastypes/schema/01_table_schema.json,sha256=uYjazi6pdVlNVmCx9lNNfIkm9ndqO9xFsznFlOzmSEM,108
+amundsenatlastypes/schema/02_user.json,sha256=R1FVPuA-cjK6CiUJDtKiRCv_aJ_Q6fHccgNwOw6D1rk,237
+amundsenatlastypes/schema/03_reader.json,sha256=wT7iGKBS0ih58ldFHphJsl8HcwFfmW78jtOa2KMijcQ,727
+amundsenatlastypes/schema/04_user_reader_relation.json,sha256=WXeqRk6Ips_KZl3QG9941NTFTL07QXvdzV4OcOoyYp0,573
+amundsenatlastypes/schema/05_metadata.json,sha256=MnJqQ1hLLmHlxGer-6gHBeGaZs9kZnxA9dIXpa1En1o,1658
+amundsenatlastypes/schema/06_metadata_dataset_relation.json,sha256=Fesu-aciG4AtVPfSCNgb9m1jg7fglUETAGG1CuLwRXw,593
+amundsenatlastypes-0.0.5.dist-info/METADATA,sha256=PoA4w754Va8c53OfUayXrm9F0_0VQG447LTPY_bWDaE,1340
+amundsenatlastypes-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+amundsenatlastypes-0.0.5.dist-info/top_level.txt,sha256=Xwn-aURWtbDhySc6N9YsoHewqXWcKv8x1dYmHgJP-Ns,19
+amundsenatlastypes-0.0.5.dist-info/RECORD,,
