@@ -1,0 +1,70 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2019-10-14T19:53:44",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "application/json"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "XBL3.0 x=<UHS>;<JWT>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "User-Agent": [
+            "python-requests/2.22.0"
+          ],
+          "x-xbl-contract-version": [
+            "3"
+          ]
+        },
+        "method": "GET",
+        "uri": "https://userpresence.xboxlive.com/users/xuid(2669321029139235)?level=user"
+      },
+      "response": {
+        "body": {
+          "encoding": null,
+          "string": "{\"xuid\":\"2669321029139235\",\"state\":\"Offline\",\"lastSeen\":{\"deviceType\":\"XboxOne\",\"titleId\":\"750323071\",\"titleName\":\"\",\"timestamp\":\"2019-10-14T11:01:52.9804224Z\"}}"
+        },
+        "headers": {
+          "Cache-Control": [
+            "private, max-age=15"
+          ],
+          "Content-Length": [
+            "161"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Date": [
+            "Mon, 14 Oct 2019 19:53:42 GMT"
+          ],
+          "MS-CV": [
+            "VOt4BiC+fEaAa2nlN3CpFw.0"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-ServerName": [
+            "xxxxxxxxxxxxxxx"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://userpresence.xboxlive.com/users/xuid(2669321029139235)?level=user"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}
