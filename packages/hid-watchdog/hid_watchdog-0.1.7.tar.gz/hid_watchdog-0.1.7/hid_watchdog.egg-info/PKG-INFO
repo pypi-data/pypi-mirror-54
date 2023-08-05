@@ -1,0 +1,60 @@
+Metadata-Version: 1.2
+Name: hid-watchdog
+Version: 0.1.7
+Summary: Service to talk to cheap USB-HID Watchdog Timers
+Home-page: https://github.com/technotaff/hid_watchdog
+Author: Steve Randall
+Author-email: steve@mylastname.cc
+License: GNU General Public License v3
+Description: # hid-watchdog
+        
+        This is a simple service to communicate with cheap USB WatchDog timers that create a USB-HID device:
+        
+        ![USB HID "v5" Watchdog Timer](docs/usb-hid-watchdog-v5.jpg)
+        
+        Please use with caution as it's not well tested!
+        
+        ## Install
+        
+        ### Installation on Ubuntu
+        
+        Create your VirtualEnv, activate it.
+        
+        ```
+        $ pip install -r requirements.txt
+        ```
+        
+        You will need to install a library on your operating system to interface with the USB-HID device:
+        
+        ```
+        apt install libhidapi-hidraw0
+        ```
+        
+        Alternatively you may be able to use "libhidapi-libusb0" but I didn't have any success with this.
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-10-20)
+        ------------------
+        
+        * First release on PyPI.
+        
+        0.1.1 (2019-10-20)
+        ------------------
+        
+        * Deployment fix.
+        
+Keywords: hid_watchdog
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ~=3.6

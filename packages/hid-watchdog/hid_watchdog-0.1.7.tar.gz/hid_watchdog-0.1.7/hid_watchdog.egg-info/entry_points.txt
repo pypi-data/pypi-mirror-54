@@ -1,0 +1,3 @@
+[console_scripts]
+hid_watchdog = hid_watchdog.cli:main
+
