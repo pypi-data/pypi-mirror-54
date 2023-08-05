@@ -1,0 +1,6 @@
+README.md
+setup.py
+flara_nightly.egg-info/PKG-INFO
+flara_nightly.egg-info/SOURCES.txt
+flara_nightly.egg-info/dependency_links.txt
+flara_nightly.egg-info/top_level.txt
