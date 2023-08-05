@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+gcloud/__init__.py
+gcloud/rest/__init__.py
+gcloud_rest.egg-info/PKG-INFO
+gcloud_rest.egg-info/SOURCES.txt
+gcloud_rest.egg-info/dependency_links.txt
+gcloud_rest.egg-info/namespace_packages.txt
+gcloud_rest.egg-info/not-zip-safe
+gcloud_rest.egg-info/top_level.txt
