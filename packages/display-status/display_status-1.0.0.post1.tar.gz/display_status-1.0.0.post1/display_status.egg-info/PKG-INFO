@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: display-status
+Version: 1.0.0.post1
+Summary: Displays the status of links
+Home-page: https://github.com/KingAkeem/display_status
+Author: Akeem King
+Author-email: akeemtlking@gmail.com
+License: GNU GPLv3
+Description: Displays status of links based on status code response
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
