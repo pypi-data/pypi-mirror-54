@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: voltools
+Version: 0.1.0
+Summary: CUDA-accelerated 3D volume tools for Python
+Home-page: https://github.com/the-lay/voltools
+Author: the-lay
+Author-email: ilja.gubin@gmail.com
+License: UNKNOWN
+Description: # voltools
+        
+        TODO
+Platform: any
+Description-Content-Type: text/markdown
