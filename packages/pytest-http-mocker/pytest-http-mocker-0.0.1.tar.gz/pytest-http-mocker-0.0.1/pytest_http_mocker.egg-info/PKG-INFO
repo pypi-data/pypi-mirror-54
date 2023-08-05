@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pytest-http-mocker
+Version: 0.0.1
+Summary: Pytest plugin for http mocking (via https://github.com/vilus/mocker)
+Home-page: https://github.com/vilus/pytest-http-mocker
+Author: Shevchenko Vladimir
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

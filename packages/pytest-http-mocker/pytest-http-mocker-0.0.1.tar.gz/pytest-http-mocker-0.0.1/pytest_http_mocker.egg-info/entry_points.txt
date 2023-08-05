@@ -1,0 +1,3 @@
+[pytest11]
+http-mocker = pytest_http_mocker
+
