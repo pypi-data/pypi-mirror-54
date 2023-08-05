@@ -1,0 +1,3 @@
+[console_scripts]
+simjb = simjb.shell:run
+
