@@ -1,0 +1,14 @@
+README.md
+setup.py
+nanonets/__init__.py
+nanonets/classification.py
+nanonets/model.py
+nanonets/multilabel_classification.py
+nanonets/object_detection.py
+nanonets/ocr.py
+nanonets/utils.py
+nanonets.egg-info/PKG-INFO
+nanonets.egg-info/SOURCES.txt
+nanonets.egg-info/dependency_links.txt
+nanonets.egg-info/requires.txt
+nanonets.egg-info/top_level.txt
