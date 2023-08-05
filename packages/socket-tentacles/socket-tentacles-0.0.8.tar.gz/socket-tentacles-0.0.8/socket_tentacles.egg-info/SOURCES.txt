@@ -1,0 +1,7 @@
+README.md
+setup.py
+socket_tentacles/__init__.py
+socket_tentacles.egg-info/PKG-INFO
+socket_tentacles.egg-info/SOURCES.txt
+socket_tentacles.egg-info/dependency_links.txt
+socket_tentacles.egg-info/top_level.txt
