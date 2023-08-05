@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: yotuyu
+Version: 0.0.0.dev0
+Summary: 
+Author: funwarioisii
+Author-email: mottirioisii@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy (>=1.17,<2.0)
+Requires-Dist: optuna (>=0.17.1,<0.18.0)
+Requires-Dist: pandas (>=0.25.2,<0.26.0)
+Requires-Dist: scikit-learn (>=0.21.3,<0.22.0)
