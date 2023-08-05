@@ -1,0 +1,11 @@
+foo.py
+setup.py
+zhangyx_test_1/__init__.py
+zhangyx_test_1/mytest.py
+zhangyx_test_1/test.py
+zhangyx_test_1.egg-info/PKG-INFO
+zhangyx_test_1.egg-info/SOURCES.txt
+zhangyx_test_1.egg-info/dependency_links.txt
+zhangyx_test_1.egg-info/top_level.txt
+zhangyx_test_1/example_pkg/__init__.py
+zhangyx_test_1/example_pkg/example_py.py
