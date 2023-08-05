@@ -1,0 +1,13 @@
+markyp_html/__init__.py,sha256=GMe4q4EeqSa62iPwNbgKSzXUevxGl1FpJey-dm89zxE,7420
+markyp_html/block.py,sha256=MEpwFbTgm83evxouyCeHjN-SaUuqYUSUIIt30Bi9WcU,3401
+markyp_html/entities.py,sha256=3c-t7yEhOFaqREOhXC7zmsFh4nqY8_4hks5qVESMaiQ,1326
+markyp_html/forms.py,sha256=lBPWks3XW6k6hM3riDsNa_LOKzdiNnPpNgREP9AeWKk,7192
+markyp_html/inline.py,sha256=jOUTK7dh67yl8uU3d6emdYFowqWZqG9uDGoNwPOcFtU,5951
+markyp_html/lists.py,sha256=rIOje2Lu5iF4qKkhLmHgya0EOMTTQ1qrrM_-Kp8PXgY,1146
+markyp_html/tables.py,sha256=A3Ng6HGijVTqhWh-uvto3OPVzmB2rLASsVh6gfikMac,1555
+markyp_html/text.py,sha256=VbuRnkT7nfJdCCSK9xfT6C3v1NirEmfs3e16GqH0y9s,5792
+markyp_html-0.1910.0.dist-info/LICENSE,sha256=neQ4nXgAk-GIcJ0YWGJqckj179XyPjOSJMwopPlL0aA,1067
+markyp_html-0.1910.0.dist-info/METADATA,sha256=BA-D8-ArM5yT0LI5mXOz9Masj3DbOK7SXfGTNFnMipA,6173
+markyp_html-0.1910.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+markyp_html-0.1910.0.dist-info/top_level.txt,sha256=BJQZc1vFndU2OSRtH_yTYGWp7It4Z1-51Ch30jWO3_E,12
+markyp_html-0.1910.0.dist-info/RECORD,,
