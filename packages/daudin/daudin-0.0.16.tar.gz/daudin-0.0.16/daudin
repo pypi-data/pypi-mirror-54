@@ -1,0 +1,81 @@
+#!/usr/bin/env python
+
+import sys
+from os import environ, isatty
+import argparse
+import shlex
+
+from daudinlib.readline import setupReadline
+from daudinlib.interaction import REPL, Batch
+from daudinlib.pipeline import Pipeline
+
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser(
+        description='A Python shell.')
+
+    parser.add_argument(
+        'scriptFiles', nargs='*', metavar='FILE',
+        help=('A file of commands to run non-interactively. Use "-" to '
+              'indicate reading from standard input.'))
+
+    parser.add_argument(
+        '--ps1', default=REPL.DEFAULT_PS1,
+        help=("The primary shell prompt. Note that this value will be "
+              "ignored if the user's init file (if any) sets sys.ps1."))
+
+    parser.add_argument(
+        '--ps2', default=REPL.DEFAULT_PS2,
+        help=("The secondary shell prompt. Note that this value will be "
+              "ignored if the user's init file (if any) sets sys.ps2."))
+
+    parser.add_argument(
+        '--shell',
+        help=('The shell executable (and its initial argument(s)) that should '
+              'be used to execute UNIX commands. Default is "$DAUDIN_SHELL" '
+              'if DAUDIN_SHELL is set in your environment, else "$SHELL -c" '
+              'if SHELL is set in your environment, else "/bin/sh -c".'))
+
+    parser.add_argument(
+        '--noInit', action='store_false', default=True, dest='loadInitFile',
+        help='Do not load the ~/.daudin.py start-up file.')
+
+    parser.add_argument(
+        '--noPtys', action='store_false', default=True, dest='usePtys',
+        help='Do not run any shell commands in pseudo-ttys.')
+
+    parser.add_argument(
+        '--debug', action='store_true', default=False,
+        help='Start in debug mode.')
+
+    parser.add_argument(
+        '--tracebacks', action='store_true', default=False,
+        help='Print exception tracebacks (implies --debug).')
+
+    args = parser.parse_args()
+
+    if args.shell:
+        shell = shlex.split(args.shell)
+    else:
+        try:
+            shell = shlex.split(environ['DAUDIN_SHELL'])
+        except KeyError:
+            shell = [environ.get('SHELL', '/bin/sh'), '-c']
+
+    pipeline = Pipeline(
+        debug=args.debug, printTracebacks=args.tracebacks,
+        loadInitFile=args.loadInitFile, shell=shell, usePtys=args.usePtys)
+
+    if args.scriptFiles:
+        for scriptFile in args.scriptFiles:
+            if scriptFile == '-':
+                REPL(pipeline=pipeline, ps1=args.ps1, ps2=args.ps2).run()
+            else:
+                with open(scriptFile) as fp:
+                    Batch(pipeline).run(fp)
+    else:
+        if isatty(0):
+            setupReadline(pipeline.local)
+            REPL(pipeline=pipeline, ps1=args.ps1, ps2=args.ps2).run()
+        else:
+            Batch(pipeline).run(sys.stdin)
