@@ -1,0 +1,10 @@
+linkedin_scrapper/__init__.py,sha256=6J5WkKQiGycFCHSP6KVMgfpq1q1FZTQYv5Z6bX2Nl4U,301
+linkedin_scrapper/account.py,sha256=8EkNA1MUxb_KunyT__5gtzVflSFEP6FSyP6J47A7eLM,5325
+linkedin_scrapper/functions.py,sha256=yASEjQSbBfe5IsQ6DM9-sSEsQBFl8mDDcHDd1yTEt-Y,2444
+linkedin_scrapper/person.py,sha256=UFotNNA0nOv5YTkR_BoMzyYjpujFDBhLymWJJlgKf6w,8949
+linkedin_scrapper-1.0.dist-info/DESCRIPTION.rst,sha256=iVZraWdgvuxMSB0iJc0B81vOfHeoh1o9x727msJ_qbE,2993
+linkedin_scrapper-1.0.dist-info/METADATA,sha256=6V7JjJyjH56p-nEWCrsGV8d9mmKAiP-Ny5B0YM58eyI,3606
+linkedin_scrapper-1.0.dist-info/RECORD,,
+linkedin_scrapper-1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+linkedin_scrapper-1.0.dist-info/metadata.json,sha256=qQYlgWwVAOGKSB-s2ZL5V_uEeipz6T7321iQWxrJLso,814
+linkedin_scrapper-1.0.dist-info/top_level.txt,sha256=DS0XRKaQNI-5FnrVsSyWm51CESYgFL_1K2bUar6lIQ8,18
