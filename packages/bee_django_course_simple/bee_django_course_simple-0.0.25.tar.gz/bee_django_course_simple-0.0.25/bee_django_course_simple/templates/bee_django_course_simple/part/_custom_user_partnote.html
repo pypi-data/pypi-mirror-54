@@ -1,0 +1,23 @@
+{% load bootstrap3 %}
+
+<div class="user_part_notes">
+    <form method="post">
+        {% csrf_token %}
+        {% bootstrap_form note_form %}
+        {% bootstrap_button '提交' %}
+    </form>
+
+    <ul class="nav nav-tabs" id="section_notes">
+        <li class="active"><a href="#other_notes" data-toggle="tab">全部笔记</a></li>
+        <li><a href="#my_note" data-toggle="tab">我的笔记</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="other_notes" class="tab-pane active">
+            {% include "bee_django_course_simple/part/_part_notes.html" with notes=public_notes %}
+        </div>
+        <div id="my_note" class="tab-pane">
+            {% include "bee_django_course_simple/part/_part_notes.html" with notes=my_notes %}
+        </div>
+    </div>
+</div>
