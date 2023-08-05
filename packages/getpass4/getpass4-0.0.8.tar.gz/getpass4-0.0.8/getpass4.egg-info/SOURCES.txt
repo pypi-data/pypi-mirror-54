@@ -1,0 +1,13 @@
+README.md
+setup.py
+getpass4/__getpass4__.py
+getpass4/__init__.py
+getpass4/__output__.py
+getpass4/__pass__.py
+getpass4/gp4_help.py
+getpass4/kaka.py
+getpass4.egg-info/PKG-INFO
+getpass4.egg-info/SOURCES.txt
+getpass4.egg-info/dependency_links.txt
+getpass4.egg-info/requires.txt
+getpass4.egg-info/top_level.txt
