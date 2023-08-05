@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+dodeka/__init__.py
+dodeka/factors.py
+dodeka/interface.py
+dodeka/test_factors.py
+dodeka/test_interface.py
+dodeka.egg-info/PKG-INFO
+dodeka.egg-info/SOURCES.txt
+dodeka.egg-info/dependency_links.txt
+dodeka.egg-info/entry_points.txt
+dodeka.egg-info/requires.txt
+dodeka.egg-info/top_level.txt
