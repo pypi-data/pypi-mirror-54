@@ -1,0 +1,8 @@
+lambdas/__init__.py,sha256=EzUtqTsaczUguOuLFq-i36-niYaW6S5PfDG3MIkOntQ,4498
+lambdas/contrib/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+lambdas/contrib/mypy/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+lambdas/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lambdas-0.1.0.dist-info/LICENSE,sha256=qsPWtb3rXfTqJl62HvIxWdKk6bPRdJyc8iYeiKnPm-c,1289
+lambdas-0.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+lambdas-0.1.0.dist-info/METADATA,sha256=yD07P1BhHgtCkb6uEhNN0GS1-2qu4dutgg9O90uuX0M,3485
+lambdas-0.1.0.dist-info/RECORD,,
