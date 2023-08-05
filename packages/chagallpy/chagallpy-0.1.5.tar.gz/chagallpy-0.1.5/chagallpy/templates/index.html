@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ gallery.title }}</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      .gallery-page .gallery-frame a.thumb { width: {{ thumbnail_size }}px; height: {{ thumbnail_size }}px; }
+      .up-link { color: #888; }
+    </style>
+</head>
+
+<body class="gallery-page">
+    <h1><a class="up-link" href=".." title="Up">↑</a> {{ gallery.title }}</h1>
+    <div class="gallery-frame">
+        {% for image in images %}
+            <a href="{{ image.basename }}.html" title="{{ image.title }}" class="thumb"><img src="{{ image.basename }}.thumb.jpg" width="{{ thumbnail_size }}" height="{{ thumbnail_size }}" /></a>
+        {% endfor %}
+    </div>
+</body>
+</html>

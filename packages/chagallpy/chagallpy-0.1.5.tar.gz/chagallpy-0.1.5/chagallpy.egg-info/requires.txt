@@ -1,0 +1,5 @@
+wowp
+pillow
+jinja2
+pyyaml
+click
