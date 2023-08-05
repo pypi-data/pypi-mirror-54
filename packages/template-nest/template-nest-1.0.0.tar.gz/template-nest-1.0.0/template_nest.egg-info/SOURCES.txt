@@ -1,0 +1,8 @@
+README.md
+setup.py
+template_nest/nest.py
+template_nest.egg-info/PKG-INFO
+template_nest.egg-info/SOURCES.txt
+template_nest.egg-info/dependency_links.txt
+template_nest.egg-info/requires.txt
+template_nest.egg-info/top_level.txt
