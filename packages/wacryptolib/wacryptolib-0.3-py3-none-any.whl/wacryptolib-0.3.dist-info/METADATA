@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: wacryptolib
+Version: 0.3
+Summary: Witness Angel Cryptolib
+Home-page: https://github.com/WitnessAngel/witness-angel-cryptolib
+License: MIT
+Author: Pascal Chambon
+Requires-Python: >=3.6
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: decorator (>=4.4,<5.0)
+Requires-Dist: jsonrpc-requests (>=0.4.0,<0.5.0)
+Requires-Dist: pycryptodome (>=3.9,<4.0)
+Requires-Dist: pymongo (>=3.9,<4.0)
+Requires-Dist: schema (>=0.7.0,<0.8.0)
+Description-Content-Type: text/x-rst
+
+Witness Angel Cryptolib
+#############################
+
+.. image:: https://travis-ci.com/WitnessAngel/witness-angel-cryptolib.svg?branch=master
+    :target: https://travis-ci.com/WitnessAngel/witness-angel-cryptolib
+
+This lib gathers utilities to generate keys, and encrypt/decrypt/sign container data, for the
+Witness Angel system.
+
+It also provides utilities for webservices and their error handling.
+
+
+
