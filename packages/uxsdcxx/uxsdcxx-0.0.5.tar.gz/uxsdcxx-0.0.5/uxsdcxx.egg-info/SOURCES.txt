@@ -1,0 +1,17 @@
+README.md
+setup.py
+uxsdcap.py
+uxsdcxx.py
+uxsdcxx/__init__.py
+uxsdcxx/capnp.py
+uxsdcxx/capnp_templates.py
+uxsdcxx/cpp.py
+uxsdcxx/cpp_templates.py
+uxsdcxx/dfa.py
+uxsdcxx/schema.py
+uxsdcxx/utils.py
+uxsdcxx.egg-info/PKG-INFO
+uxsdcxx.egg-info/SOURCES.txt
+uxsdcxx.egg-info/dependency_links.txt
+uxsdcxx.egg-info/requires.txt
+uxsdcxx.egg-info/top_level.txt
