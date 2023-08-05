@@ -1,0 +1,5 @@
+pyyaml
+coreapi
+ipython
+gitpython
+docker
