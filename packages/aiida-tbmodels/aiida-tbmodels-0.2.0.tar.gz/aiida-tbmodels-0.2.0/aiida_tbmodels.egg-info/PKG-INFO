@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aiida-tbmodels
+Version: 0.2.0
+Summary: AiiDA Plugin for running TBmodels
+Home-page: https://aiida-tbmodels.readthedocs.io
+Author: Dominik Gresch
+Author-email: greschd@gmx.ch
+License: Apache 2.0
+Description: ## aiida-tbmodels
+        
+        A plugin for [AiiDA](www.aiida.net) to run calculations with the [TBmodels](http://z2pack.ethz.ch/tbmodels) code.
+        
+        Documentation: https://aiida-tbmodels.readthedocs.io
+        
+Keywords: tbmodels,aiida,workflows
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Framework :: AiiDA
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: docs
+Provides-Extra: dev_precommit
+Provides-Extra: dev

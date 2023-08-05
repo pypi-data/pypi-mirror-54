@@ -1,0 +1,9 @@
+[aiida.calculations]
+tbmodels.eigenvals = aiida_tbmodels.calculations.eigenvals:EigenvalsCalculation
+tbmodels.parse = aiida_tbmodels.calculations.parse:ParseCalculation
+tbmodels.slice = aiida_tbmodels.calculations.slice:SliceCalculation
+tbmodels.symmetrize = aiida_tbmodels.calculations.symmetrize:SymmetrizeCalculation
+
+[aiida.parsers]
+tbmodels.model = aiida_tbmodels.parsers.model:ModelParser
+
