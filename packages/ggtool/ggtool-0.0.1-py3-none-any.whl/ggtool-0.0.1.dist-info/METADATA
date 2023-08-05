@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ggtool
+Version: 0.0.1
+Summary: a command line tool which helpful
+Home-page: UNKNOWN
+Author: Peng Shiyu
+Author-email: pengshiyuyx@gmail.com
+License: MIT
+Keywords: ggtool
+Platform: UNKNOWN
+Requires-Dist: fire (>=0.2.1)
+
+a command line tool which helpful
+
+
