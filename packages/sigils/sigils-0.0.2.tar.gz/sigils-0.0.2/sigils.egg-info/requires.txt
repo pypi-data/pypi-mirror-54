@@ -1,0 +1,10 @@
+lark-parser
+
+[dev]
+pytest
+black
+pytest-cov
+Sphinx
+
+[django]
+django
