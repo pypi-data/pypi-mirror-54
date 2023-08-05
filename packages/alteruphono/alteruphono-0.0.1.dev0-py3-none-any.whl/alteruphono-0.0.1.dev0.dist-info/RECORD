@@ -1,0 +1,12 @@
+alteruphono/__init__.py,sha256=-0PH-G8DSLsc2W7fGjVxytamUx73M88EPLWdeRrTDgY,243
+alteruphono/__main__.py,sha256=Dt6vXr3NmGYOHjRe-GA4MtJ-OPrrSgHs7UzgZxTUgUs,1070
+alteruphono/sound_changer.py,sha256=Un20z2C7MTrQxzeNdQcPXSmzft0Cfmss0fXgO9DesnI,10063
+alteruphono/utils.py,sha256=CGYaC3QQjYLV0VM3OpeBU_Q_6T9tKYjjCVs30Ho3-mo,6178
+alteruphono-0.0.1.dev0.dist-info/METADATA,sha256=kacP0ztCcK0T--3rGe2pwMAACE19VrxEJHXJb1Ynd1g,3622
+alteruphono-0.0.1.dev0.dist-info/RECORD,,
+alteruphono-0.0.1.dev0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+alteruphono-0.0.1.dev0.dist-info/entry_points.txt,sha256=NvgokV-_Hpn3yrfQFysofyXC2EVhZJlfPrLDThl8GkQ,59
+alteruphono-0.0.1.dev0.dist-info/top_level.txt,sha256=hUGh5BXO3UfgF396UxVvqs7NuHvyd5FzfrepihVQUew,22
+resources/features_bipa.tsv,sha256=O9HA6qMVOBiQp-dWQlWuhDLRPuQc_0yvrD4r09bKKkM,2525
+resources/sound_changes.tsv,sha256=tv2M60M5QaQQSaXmoWQHaFuTPRtcazlugs0-GXXMufU,39595
+resources/sound_classes.tsv,sha256=BQdHSNQEIfMQDYeBK-b99xUlSsGhCgudo_jJqRGe-Qo,309
