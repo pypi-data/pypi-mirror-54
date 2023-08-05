@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: wsgi_listener
+Version: 0.1
+Summary: WSGI listener middleware for WSGI Web Applications inspired by the
+Home-page: https://github.com/JonnyWaffles/wsgi-listener
+Author: Jonny Fuller
+Author-email: mr.waffles@gmail.com
