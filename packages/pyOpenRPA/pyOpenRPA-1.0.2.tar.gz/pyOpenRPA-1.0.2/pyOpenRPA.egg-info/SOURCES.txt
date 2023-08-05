@@ -1,0 +1,7 @@
+setup.py
+pyOpenRPA.egg-info/PKG-INFO
+pyOpenRPA.egg-info/SOURCES.txt
+pyOpenRPA.egg-info/dependency_links.txt
+pyOpenRPA.egg-info/not-zip-safe
+pyOpenRPA.egg-info/requires.txt
+pyOpenRPA.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pyOpenRPA
+Version: 1.0.2
+Summary: First open source RPA platform for business
+Home-page: https://gitlab.com/UnicodeLabs/OpenRPA
+Author: Ivan Maslov
+Author-email: Ivan.Maslov@unicodelabs.ru
+License: MIT
+Description: Long description
+Keywords: OpenRPA RPA Robot Automation Robotization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
