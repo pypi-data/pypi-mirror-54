@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: bucketstats
+Version: 0.2.2
+Summary: Data analysis for bucketed data or histograms.
+Home-page: https://github.com/mprelee/bucketstats
+Author: Matthew Prelee
+Author-email: mprelee@gmail.com
+License: GPLv3.0
+Project-URL: Bug Tracker, https://github.com/mprelee/bucketstats/issues
+Project-URL: Documentation, https://github.com/mprelee/bucketstats
+Project-URL: Source Code, https://github.com/mprelee/bucketstats
+Description: # bucketstats
+        Data science tools for analyzing bucketed series, such as histograms.  Useful when a dataset is too large to load into memory, but a histogram is available.
+        
+        
+Platform: UNKNOWN
