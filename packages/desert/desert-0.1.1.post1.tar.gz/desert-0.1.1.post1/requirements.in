@@ -1,0 +1,5 @@
+marshmallow
+attrs
+typing_inspect
+marshmallow_enum
+dataclasses
