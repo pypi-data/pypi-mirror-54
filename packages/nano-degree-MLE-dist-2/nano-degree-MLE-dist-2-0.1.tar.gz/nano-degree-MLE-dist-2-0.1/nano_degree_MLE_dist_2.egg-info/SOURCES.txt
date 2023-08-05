@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistributions.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+nano_degree_MLE_dist_2.egg-info/PKG-INFO
+nano_degree_MLE_dist_2.egg-info/SOURCES.txt
+nano_degree_MLE_dist_2.egg-info/dependency_links.txt
+nano_degree_MLE_dist_2.egg-info/not-zip-safe
+nano_degree_MLE_dist_2.egg-info/top_level.txt
