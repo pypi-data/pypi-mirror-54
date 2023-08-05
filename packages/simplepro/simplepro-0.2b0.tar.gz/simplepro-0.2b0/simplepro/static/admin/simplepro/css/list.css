@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: #f1f4f6;
+  font-size: 13px;
+}
+[v-cloak] {
+  display: none;
+}
+th {
+  font-weight: 500;
+}
+table {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  color: rgba(0, 0, 0, 0.65);
+}
+.el-table thead {
+  color: rgba(0, 0, 0, 0.85);
+}
+#app {
+  padding: 20px;
+}
+#app .el-form-item {
+  margin-bottom: 5px;
+}
+.el-breadcrumb {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.panel {
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel .panel-body {
+  padding: 20px;
+}
+.paginator {
+  text-align: center;
+  margin: 10px auto;
+}
+.toolbar {
+  padding-bottom: 10px;
+}
+.toolbar .left {
+  margin-top: 10px;
+  float: left;
+}
+.toolbar .right {
+  margin-top: 10px;
+  float: right;
+}
+.toolbar:after {
+  display: block;
+  content: "";
+  float: none;
+  clear: both;
+}
+.toolbar .el-button .el-dropdown {
+  font-size: inherit;
+}
+.search-input {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  width: auto;
+}
+.default-header th {
+  background-color: #f5f7fa;
+}
+.table-tips {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=list.css.map */

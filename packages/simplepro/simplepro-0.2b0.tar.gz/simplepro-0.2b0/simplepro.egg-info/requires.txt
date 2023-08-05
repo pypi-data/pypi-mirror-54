@@ -1,0 +1,4 @@
+django-simpleui>=3.1
+django-import-export
+requests
+rsa
