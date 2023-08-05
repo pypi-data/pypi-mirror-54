@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: RTFMaker
+Version: 0.1.9
+Summary: simple RTF document generation package
+Home-page: https://github.com/chenliangomc/RTFMaker
+Author: Liang Chen
+Author-email: liangchenomc@gmail.com
+License: https://www.gnu.org/licenses/agpl-3.0
+Keywords: RTF,Rich Text,Rich Text Format
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Requires-Python: >=2.7
+Requires-Dist: PyRTF3
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
+
