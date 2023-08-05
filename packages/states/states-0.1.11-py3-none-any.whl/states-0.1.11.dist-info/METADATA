@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: states
+Version: 0.1.11
+Summary: state machine for python classes
+Home-page: UNKNOWN
+Author: Lars van Gemerden
+Author-email: gemerden@gmail.com
+License: MIT License
+Keywords: access data structure getter setter deleter iterator utility tool
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Python: >=2.7, <3
+
+see <https://github.com/gemerden/statemachine>
+
+
