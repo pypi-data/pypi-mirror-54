@@ -1,0 +1,118 @@
+<title>Crea nuova colonna</title>
+
+<style>
+</style>
+<!-- development version, includes helpful console warnings -->
+
+<head>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+{% extends "base.html" %}
+
+<html>
+
+{% block page_content %}
+
+    <div id="app">
+        [[ message ]]
+    </div>
+        <p>upload = {{ upload }} </p>
+
+
+    <form action = "http://127.0.01:80/info" method = "POST">
+        <select name="select", id="select">
+        {% for variable in variable_name_type %}
+            <option value= "{{variable}}" name="select0" >{{ variable }} :  {{variable_name_type[ variable ]}} </option>
+        {% endfor %}
+        </select>
+
+        <select name="select1", id="select">
+        {% for variable in operation %}
+            <option value= "{{variable}}" name="select1" >{{ variable }} :  {{operation[ variable ]}} </option>
+        {% endfor %}
+        </select>
+
+        <select name="select2", id="select">
+        {% for variable in variable_name_type %}
+            <option value= "{{variable}}" name="select2" >{{ variable }} :  {{variable_name_type[ variable ]}} </option>
+        {% endfor %}
+        </select>
+
+        <select name="select3", id="select">
+        {% for variable in operation %}
+            <option value= "{{variable}}" name="select3" >{{ variable }} :  {{operation[ variable ]}} </option>
+        {% endfor %}
+        </select>
+
+        <select name="select4", id="select">
+        {% for variable in variable_name_type %}
+            <option value= "{{variable}}" name="select4" >{{ variable }} :  {{variable_name_type[ variable ]}} </option>
+        {% endfor %}
+        </select>
+    <input type="submit">
+
+    </form>
+    <button v-on:click=="addConsole">Ciao</button>
+
+
+<div id="example-1">
+
+<table class="table">
+  <tr scope="rows">
+    <th v-on:click="counter += 1">+</th>
+    <th v-on:click="counter += 1">-</th>
+    <th v-on:click="counter += 1">/</th>
+    <th v-on:click="counter += 1">*</th>
+  </tr>
+</table>
+
+
+  <button v-on:click="counter += 1">Add 1</button>
+  <p>The button above has been clicked [[ counter ]] times.</p>
+</div>
+
+
+
+
+
+<script>
+
+var example1 = new Vue({
+  el: '#example-1',
+  data: {
+    counter: 0
+  },
+  delimiters: ['[[',']]']
+})
+
+var app2 = new Vue({
+  el: '#app-2',
+  data: {
+    message: 'You loaded this page on ' + new Date().toLocaleString()
+  },
+  delimiters: ['[[',']]']
+})
+
+
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: "ciao ciao ciao"
+  }, methods: {
+    addConsole: function () {
+      var ripeti = document.getElementById("select");
+      this.message = ripeti;
+      }},
+  delimiters: ['[[',']]']
+})
+</script>
+
+{% endblock %}
+
+</html>
+
+
+
+
