@@ -1,0 +1,12 @@
+histdata_downloader/__init__.py,sha256=EVeXsS2XYc6To0BXMPDpiXL4wrtHGckHRI-suPwNX-o,182
+histdata_downloader/cli.py,sha256=yydo2b-P-_sCCk6GT6A-yfCkKOjUa6jaJivijabBkrw,1444
+histdata_downloader/histdata_downloader.py,sha256=H8SM_jPjnWY9IS6IpDsCRth-NOVOZEAJ00Vaav7lDew,10006
+histdata_downloader/logger.py,sha256=PNUJ-viggLhekmk2Ek0MjvEWYETUpw3lX3-LzoWMayg,2185
+histdata_downloader/tui.py,sha256=OfSpuWKtkSUBPH5zGLjmcj12IwMBRHx0RDAwbYvrOlY,5314
+histdata_downloader-0.5.1.dist-info/AUTHORS.rst,sha256=lyrCkBzsEJhqm0mv_TdHqe60tN7Nb1qJ5o5MoVY301Y,176
+histdata_downloader-0.5.1.dist-info/LICENSE,sha256=u6jXGHk8fvAce8wOMyMRQFBH9JjKLrg7ut8c8xzYD1k,1077
+histdata_downloader-0.5.1.dist-info/METADATA,sha256=uDFrSasnKZ8iCif9Qbn1rE_i0r9rDIS2QKcFZJCDHrg,2160
+histdata_downloader-0.5.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+histdata_downloader-0.5.1.dist-info/entry_points.txt,sha256=WgKAPuReZOKHodXuU30QJ8JYcTfj3Lr1UPvjePTph_8,70
+histdata_downloader-0.5.1.dist-info/top_level.txt,sha256=r-Kdf52QwcKE8oKafFcjQY4XRs_fya7YA2-QMuexwyU,20
+histdata_downloader-0.5.1.dist-info/RECORD,,
