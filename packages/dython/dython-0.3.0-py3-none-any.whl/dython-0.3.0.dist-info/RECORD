@@ -1,0 +1,10 @@
+dython/__init__.py,sha256=15faCrmsceAqac5c5ieYM3-i2KHFFQP81RjNf-mN2xA,519
+dython/_private.py,sha256=5yBKqbI0inoRD8yFNCZ7RZQaYIlNFX0pr07tbkzrYqg,1642
+dython/examples.py,sha256=r5KR8tZyVtOZfSCwI5Afi7fo040gFM77fhSKn8BnOcs,1489
+dython/model_utils.py,sha256=Zac3f4GNYL8qHAp5Ld2yFZs_7W8dvvvhpCwTwH3DWtc,6616
+dython/nominal.py,sha256=2DC8TFWcSnxvLDHvdvu1eBKoF4ieYJmB591N1VK7tB4,15747
+dython/sampling.py,sha256=v4wiXe2-_ItaF2HillL74h9VbP2R3OdfNgHD77eOjjY,1586
+dython-0.3.0.dist-info/METADATA,sha256=DQHeouTdYY0H8RlhAD5tOPg7qAcOJrjIlDZeii3Ctyg,1736
+dython-0.3.0.dist-info/RECORD,,
+dython-0.3.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+dython-0.3.0.dist-info/top_level.txt,sha256=N4yzfr30knKHZ4PMeCIe9l4EFMEU-dsHN10S0N_3AsY,7
