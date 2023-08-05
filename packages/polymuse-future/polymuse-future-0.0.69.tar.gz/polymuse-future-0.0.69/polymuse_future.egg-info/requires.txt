@@ -1,0 +1,6 @@
+numpy
+magenta
+keras
+pyfiglet
+midi2audio
+googledrivedownloader
