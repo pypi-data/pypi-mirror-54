@@ -1,0 +1,14 @@
+awaitwhat/.clang-format,sha256=8zQHPIaMQ3o0ldz_KcPEuO9Oc6hkzQCZFjYNjijoCak,409
+awaitwhat/__init__.py,sha256=9WSsZF3RzaztxT2sFmHjISl2DhDNRQ-xDemNOcmcKms,1557
+awaitwhat/blocker.py,sha256=O_j84ggqpeeTAoWDtfF4O5w3c_hI48r1FPDnGU6hGMI,693
+awaitwhat/dot.py,sha256=QMZRxIZL3Nl1dTJY-U0Rz0UOhhjj_c4xFOYQBGvJRjY,799
+awaitwhat/gather.py,sha256=IZElaKRsqKB_mZimNk_Kxi3abt1k_ohZtRZZCxj9Qlg,853
+awaitwhat/helpers.py,sha256=aAY22gBFffr69mNxFJ8euDqLEHbhHpwwTMcpaXN9Lpk,257
+awaitwhat/node.py,sha256=QGOISYgok5PjNNaNAO4KK-2FYczjwQc_GKkgw2RK4Pg,1616
+awaitwhat/stack.py,sha256=SGgZShjCWurY2UX-qUAbY937sIr6sNCp4t08gkwEZB8,1585
+awaitwhat/utils.py,sha256=igFW5qjxPu_ehF9J3Rqv2431mwHUbhGxEzaFTy6y51U,537
+awaitwhat/what.c,sha256=B_lOlixd9cLCmQWa9uVnvZwmf3fSBEdwIbPRUmBCAb0,1882
+awaitwhat/_what.cpython-38-darwin.so,sha256=UgtKUpQ8sbfj6zs2DSdOcGq053EIbK6zD8Hfn2DEsjo,9512
+awaitwhat-19.1a5.dist-info/WHEEL,sha256=uQEhuliXuTeHNXCyiQnRAnpngQ540G_l-_DOOFXrHJ8,102
+awaitwhat-19.1a5.dist-info/METADATA,sha256=7lvpNshsbNCk-IcCz8yswhTNKb9iN9yoPrPP5q0JFcg,6041
+awaitwhat-19.1a5.dist-info/RECORD,,
