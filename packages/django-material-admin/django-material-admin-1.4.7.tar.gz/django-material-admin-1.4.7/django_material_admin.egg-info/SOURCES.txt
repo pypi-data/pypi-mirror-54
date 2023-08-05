@@ -1,0 +1,7 @@
+MANIFEST.in
+README.rst
+setup.py
+django_material_admin.egg-info/PKG-INFO
+django_material_admin.egg-info/SOURCES.txt
+django_material_admin.egg-info/dependency_links.txt
+django_material_admin.egg-info/top_level.txt
