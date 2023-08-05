@@ -1,0 +1,10 @@
+PyYAML
+docopt
+pipreqs
+git
+nbsphinx
+sphinx
+sphinx-rtd-theme
+
+[:platform_system == "Windows"]
+pywin32
