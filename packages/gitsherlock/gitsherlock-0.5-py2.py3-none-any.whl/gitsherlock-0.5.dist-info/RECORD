@@ -1,0 +1,10 @@
+gitsherlock/__init__.py,sha256=pbplP12dIOnPXptE4wxrcAzNmOwnVyY9GyhCrNHBwKY,118
+gitsherlock/__main__.py,sha256=oyzw632u6CsA_luOTb4-l7MeQr6G7KUancnSJl6dUP8,2301
+gitsherlock/bitbucket.py,sha256=HvhNTszC8Oy0LWCrVgWzYpBPnAkgAi2eN7Hvcw3ZvUU,2246
+gitsherlock/github.py,sha256=fIWVKoD3vnUmbXWEIYpKZkLaU9d4jpLFHOD_cpriMdI,2909
+gitsherlock-0.5.dist-info/LICENSE,sha256=rTHAe5R6-TIpIHnaADMkc6mQBlpyovkj8Xj3GWiTbL0,1070
+gitsherlock-0.5.dist-info/METADATA,sha256=5zjbIqENc8DRw29gkByKViIrTrt1wuW12Godu8kE6_w,875
+gitsherlock-0.5.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+gitsherlock-0.5.dist-info/entry_points.txt,sha256=G_dhEchlWYIQc90aaTioc2cd0rQz7wl5J0lMqdjs-go,59
+gitsherlock-0.5.dist-info/top_level.txt,sha256=AdMFdrtvrPILI9fqk4e52mmaaXy1vMxiSEc4sEf7_Ds,12
+gitsherlock-0.5.dist-info/RECORD,,
