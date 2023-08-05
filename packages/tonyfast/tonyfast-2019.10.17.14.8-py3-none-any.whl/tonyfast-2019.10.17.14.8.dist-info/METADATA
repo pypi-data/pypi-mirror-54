@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: tonyfast
+Version: 2019.10.17.14.8
+Summary: UNKNOWN
+Home-page: https://github.com/tonyfast/gists
+Author: tonyfast
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+Requires-Dist: graphviz
+Requires-Dist: ipywidgets
+Requires-Dist: rfc3986
+Requires-Dist: toolz
+Requires-Dist: webcolors
+Requires-Dist: pandas
+Requires-Dist: requests-cache
+Requires-Dist: IPython
+Requires-Dist: networkx
+Requires-Dist: nbconvert
+Requires-Dist: GitPython
+Requires-Dist: rdflib
+Requires-Dist: nest-asyncio
+Requires-Dist: htmlmin
+Requires-Dist: matplotlib
+Requires-Dist: email-validator
+Requires-Dist: jsonpointer
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: jupyter-client
+Requires-Dist: idna
+Requires-Dist: qrcode
+Requires-Dist: strict-rfc3339
+Requires-Dist: wheel
+Requires-Dist: fastapi
+Requires-Dist: importnb
+Requires-Dist: pyld
+Requires-Dist: rfc3987
+Requires-Dist: hypothesis
+Requires-Dist: pydantic-cli
+Requires-Dist: rdflib-jsonld
+Requires-Dist: jsonschema
+Requires-Dist: pydantic
+Requires-Dist: notebook
+Requires-Dist: xonsh
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tonyfast/gists/master)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tonyfast)
+
+
+```python
+%reload_ext tonyfast
+```
+
+
+```python
+from tonyfast import jschema, articles; import pandas, requests
+```
+
+
