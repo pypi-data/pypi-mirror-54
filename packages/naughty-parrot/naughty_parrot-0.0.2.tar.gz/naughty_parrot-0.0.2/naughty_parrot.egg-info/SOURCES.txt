@@ -1,0 +1,7 @@
+README.md
+setup.py
+naughty_parrot.egg-info/PKG-INFO
+naughty_parrot.egg-info/SOURCES.txt
+naughty_parrot.egg-info/dependency_links.txt
+naughty_parrot.egg-info/requires.txt
+naughty_parrot.egg-info/top_level.txt
