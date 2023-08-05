@@ -1,0 +1,11 @@
+README.md
+setup.py
+colorifier/__init__.py
+colorifier/model.pkl
+colorifier/predict.py
+colorifier/train.py
+colorifier/util.py
+colorifier.egg-info/PKG-INFO
+colorifier.egg-info/SOURCES.txt
+colorifier.egg-info/dependency_links.txt
+colorifier.egg-info/top_level.txt
