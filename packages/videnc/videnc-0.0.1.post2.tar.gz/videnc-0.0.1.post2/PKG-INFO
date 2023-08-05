@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: videnc
+Version: 0.0.1.post2
+Summary: A FFMpeg wrapper written in python.
+Home-page: https://github.com/awkawb/videnc
+Author: Andrew Bryant
+Author-email: abryant288@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

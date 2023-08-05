@@ -1,0 +1,10 @@
+README.md
+setup.py
+videnc/__init__.py
+videnc/__main__.py
+videnc/video.py
+videnc.egg-info/PKG-INFO
+videnc.egg-info/SOURCES.txt
+videnc.egg-info/dependency_links.txt
+videnc.egg-info/requires.txt
+videnc.egg-info/top_level.txt
