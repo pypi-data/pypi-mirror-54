@@ -1,0 +1,16 @@
+entity: features_frame
+filename: value.pq
+provenance:
+  cache_schema_version: 2
+  case_key:
+    feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+  code_id: orig_flow=None code_version=None
+  dependencies:
+  - case_key:
+      feature_inclusion_regex: !!python/unicode _.._12aca9f6a2
+    entity: feature_inclusion_regex
+    provenance: !!python/unicode ec3381f5dcb770e1ed7cc1a04dd648ee36e436251884165879502e3c4a73bc0b
+  - case_key: {}
+    entity: raw_frame
+    provenance: !!python/unicode d74bc0dfef2afaf318360f3989e9eddc71f42ca3c443eefe8c5c0b7d36160255
+  python_major_version: 2
