@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: micro5125a
+Version: 0.1.0
+Summary: Handle Microsemi (former Symmetricom, former Timing Solutions) 5125a/5120a/5115a/5110a Phase Noise Test Set device (driver + cli script)
+Home-page: http://femto-engineering.fr
+Author: Benoit Dubois
+Author-email: benoit.dubois@femto-st.fr
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering

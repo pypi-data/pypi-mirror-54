@@ -1,0 +1,37 @@
+README FILE
+
+micro5125a
+Benoit Dubois
+October 16th, 2019
+
+CONTENTS OF THIS FILE
+---------------------
+* Introduction
+* Requirements
+* Installation
+
+INTRODUCTION
+------------
+micro5125a provides driver and cli script to handle Microsemi (former
+Symmetricom, former Timing Solutions) 5125a/5120a/5115a/5110a Phase Noise
+Test Set device.
+
+REQUIREMENTS
+------------
+Preferably a Linux system with a Debian distribution (not tested with others OS
+nor others distributions).
+The program requires the folowing packages:
+ * Python 3
+ * telnetlib
+
+INSTALLATION
+------------
+
+Install ddsctrl:
+  * PyPi
+          $ python3 -m pip install --user micro5125a
+  * From source
+          $ python3 -m pip install --user micro5125ax.x.tar.gz
+
+Now you can start script from anywhere in your directory arborescence:
+          $ micro-5125a -h

@@ -1,0 +1,11 @@
+MANIFEST.in
+README
+setup.py
+bin/micro-5125a
+micro5125a/__init__.py
+micro5125a/micro5125a.py
+micro5125a/version.py
+micro5125a.egg-info/PKG-INFO
+micro5125a.egg-info/SOURCES.txt
+micro5125a.egg-info/dependency_links.txt
+micro5125a.egg-info/top_level.txt

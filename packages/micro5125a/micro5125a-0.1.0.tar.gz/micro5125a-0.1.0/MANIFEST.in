@@ -1,0 +1,3 @@
+include README
+include bin/micro-5125a
+recursive-include micro5125a *.py
