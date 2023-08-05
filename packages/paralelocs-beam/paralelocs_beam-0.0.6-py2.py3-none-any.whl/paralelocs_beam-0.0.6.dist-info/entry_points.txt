@@ -1,0 +1,3 @@
+[console_scripts]
+paralelocs-beam = paralelocs_beam.cli:main
+
