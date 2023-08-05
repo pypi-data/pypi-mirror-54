@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: wasic
+Version: 0.1.6
+Summary: Wasic is a C/C++ Compiler toolchain for WASI
+Home-page: https://github.com/wasic-core/wasic
+Author: Syrus Akbary
+Author-email: syrus@wasmer.io
+License: MIT
+Description: UNKNOWN
+Keywords: webassembly wasi wasic wasmer
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
