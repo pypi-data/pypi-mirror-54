@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hrmserve
+Version: 0.1.dev4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Sylvain Guieu
+Author-email: sylvain.guieu@univ-grenoble-alpes.fr
+License: Creative Commons Attribution-Noncommercial-Share Alike license
+Description: # hrmserve
+        
+        Bring some service to hrmtools. This is a separate packages because it contain some eavy dependencies (dash)
+        
+        # install 
+        
+        ```
+        > pip install hrmserve
+        ```
+        
+        from sources
+        ```
+        > git clone git@gricad-gitlab.univ-grenoble-alpes.fr:guieus/hrmserve.git
+        > cd hrmserve
+        > python setup.py install 
+        ```
+        
+        
+        # use
+        
+        ```
+        > hrmDeviceListServer HRM-00485_HCS_deviceList-3.xlsx
+        ```
+        
+        And then open the web page http://127.0.0.1:8050/
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

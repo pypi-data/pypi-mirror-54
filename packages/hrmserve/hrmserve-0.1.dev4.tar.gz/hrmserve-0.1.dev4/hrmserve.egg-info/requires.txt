@@ -1,0 +1,3 @@
+dash>=0.39
+dash-daq>=0.2.2
+hrmtools==0.1.dev5
