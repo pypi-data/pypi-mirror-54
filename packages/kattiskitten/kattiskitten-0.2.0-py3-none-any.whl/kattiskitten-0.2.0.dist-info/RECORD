@@ -1,0 +1,11 @@
+kattiskitten/__init__.py,sha256=8n_9rV8SYC13rOlc7fFi4PPX2b8r0-Ve-1LEO00iemE,2943
+kattiskitten/languages/java/config.py,sha256=giMlL-7po5Ws71qLa03dP0fNoiQNN6vtftM-dZIWKXQ,725
+kattiskitten/languages/languages.py,sha256=ycdXW4q8yAI5vZgWFYeIMuURwF79rpq-iSz8MgsENq4,1157
+kattiskitten/languages/python3/config.py,sha256=SPUuI7hjhcRpE8BansMD5w1_2XxJfgm4Q3ttk4coZ0E,437
+kattiskitten/scraper.py,sha256=XHaQd7jFyWZEruWOerl2xo-yTW9TdAIq4M4Ck33iXss,397
+kattiskitten/submitter.py,sha256=nSWedZFHI5VRIl8AwkBX3V7uyRPZ9IjO7HTNgSXG3O0,2462
+kattiskitten/tester.py,sha256=vT0V6zQJKmGcvdY8-UbSWDqhQP9f9K8tY_VyJ-5tSh0,1656
+kattiskitten-0.2.0.dist-info/entry_points.txt,sha256=4Gk-F5aPyGk8TP-ziMchPhk_VDhCBCkkmM4bAWWYBHM,40
+kattiskitten-0.2.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+kattiskitten-0.2.0.dist-info/METADATA,sha256=c776xA20DWajvUcWxDuuS86g9T8J7IC9DvUV5O9k4Ww,497
+kattiskitten-0.2.0.dist-info/RECORD,,
