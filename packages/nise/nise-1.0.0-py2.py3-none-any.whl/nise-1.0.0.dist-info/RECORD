@@ -1,0 +1,14 @@
+nise/VERSION,sha256=VVzU6E_NAYrQdzwevT0K8cBQUofYJbEEt3uYLlkBQpk,9
+nise/__init__.py,sha256=45w154t1CfMxC3G41V8CbpezdfSlUCZvg_ZesAzT1AU,3074
+nise/_converters.py,sha256=cESSAsk1FuRoCu1eZNL-r-iLf9yIYgqyS2EiiyVJP48,25232
+nise/_library.py,sha256=Fft4-MkzGwALI59vZuZHT9urO4q2izDeKP2dnBllLEQ,8278
+nise/_library_singleton.py,sha256=otWHVR9ntiiABb_bXRKm_tDMxsIJySg5QwYs_5f8X5g,1563
+nise/_visatype.py,sha256=pJcFTRa2I5Zz4AAR3M_opmQltZ_BKQe96S3NRNRSd-0,662
+nise/enums.py,sha256=GmVgTTnFRvNHmQfc7uJWwS5BRzo2GDzdPxxxIQGr17E,1240
+nise/errors.py,sha256=NpPxA3tjzblmZ5tniCrl3whNg3WjDeS7Q2Z0vXzADQc,3327
+nise/session.py,sha256=w2TJHwzRdDImthsDFRmxLVfZagmQmh0B-yH2kNZVY4c,46996
+nise-1.0.0.dist-info/METADATA,sha256=dRLYOsRikaJWHH38jm5Z3RLM9MRQkY6MiO1uhxXHFYo,8868
+nise-1.0.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+nise-1.0.0.dist-info/top_level.txt,sha256=PC4HS7J9wukuWUkhnYDFR9FTa0wMcYzlpvaaRY90sTs,5
+nise-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nise-1.0.0.dist-info/RECORD,,
