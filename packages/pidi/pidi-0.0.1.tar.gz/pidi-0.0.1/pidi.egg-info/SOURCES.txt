@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+pidi/__init__.py
+pidi/__main__.py
+pidi/brainz.py
+pidi/client.py
+pidi/display.py
+pidi/util.py
+pidi.egg-info/PKG-INFO
+pidi.egg-info/SOURCES.txt
+pidi.egg-info/dependency_links.txt
+pidi.egg-info/entry_points.txt
+pidi.egg-info/requires.txt
+pidi.egg-info/top_level.txt
