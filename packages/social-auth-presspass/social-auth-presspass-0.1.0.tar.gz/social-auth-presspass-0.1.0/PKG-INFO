@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: social-auth-presspass
+Version: 0.1.0
+Summary: PressPass backend and pipelines for the popular Python Social Auth libraries
+Home-page: https://github.com/news-catalyst/social-auth-presspass
+Author: PressPass Developers
+Author-email: tyler@newscatalyst.org
+License: UNKNOWN
+Description: # social-auth-presspass
+        Python Social Auth backend for PressPass
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
