@@ -1,0 +1,11 @@
+MANIFEST.in
+Makefile
+setup.cfg
+setup.py
+todo.md
+.github/README.md
+PyPluginMgr/__init__.py
+PyPluginMgr.egg-info/PKG-INFO
+PyPluginMgr.egg-info/SOURCES.txt
+PyPluginMgr.egg-info/dependency_links.txt
+PyPluginMgr.egg-info/top_level.txt
