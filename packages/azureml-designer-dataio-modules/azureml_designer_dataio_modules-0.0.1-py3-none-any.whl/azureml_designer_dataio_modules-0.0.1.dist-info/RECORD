@@ -1,0 +1,15 @@
+alghostDataioImport/__init__.py,sha256=h-QyvMVzDNpT3jyVskcSbUVFXxGCRxieFPrvTveZG9k,64
+alghostDataioImport/__main__.py,sha256=vRmFVOWF3nvFQ_s1xuRLD6Yz-C8Dkv3qnLpwuJgUVxc,115
+alghostDataioImport/azureml/__init__.py,sha256=F0UD44DuZCpVvI1PX5rW4FcKQ004ORdqeOhf4JsheIY,66
+alghostDataioImport/azureml/common/__init__.py,sha256=h-QyvMVzDNpT3jyVskcSbUVFXxGCRxieFPrvTveZG9k,64
+alghostDataioImport/azureml/common/workspaceutil.py,sha256=OTzKaFqB8cZEjZHNZLjdAYQZNR6dkCGCXV6kj1aNvG8,726
+alghostDataioImport/azureml/export_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alghostDataioImport/azureml/export_module/__main__.py,sha256=HZ1WkyL2nsOVOPMXBMylIY2YlVdZPOUtkW86NBod2Kc,7104
+alghostDataioImport/azureml/import_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alghostDataioImport/azureml/import_module/__main__.py,sha256=v7oQ1rSAxh6mNcP2DM1L3GAx_AKZOwRS7BPZWFetUiw,13700
+azureml_designer_dataio_modules-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+azureml_designer_dataio_modules-0.0.1.dist-info/METADATA,sha256=VcOp0gFRA0E6WuZqIJQiPM2vctE8xdCVpnU19VSxKRQ,347
+azureml_designer_dataio_modules-0.0.1.dist-info/RECORD,,
+azureml_designer_dataio_modules-0.0.1.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+azureml_designer_dataio_modules-0.0.1.dist-info/metadata.json,sha256=itBSjd_P9p3OZ0el8KBo7_D3CT8EZ6DTQne67D7iCak,461
+azureml_designer_dataio_modules-0.0.1.dist-info/top_level.txt,sha256=ylkvy4PtPr_7VdeQWhbq7YXllUKAM9BiuBTdhnTOtZc,20
