@@ -1,0 +1,9 @@
+ocgan/__init__.py,sha256=oOOAtKIZQ8pir6TdYSXraQxSH5lfNP-3-67OMPM7bfc,25
+ocgan/dataset.py,sha256=6TkdGRx2ZwBEYUjRjhavemmFNQmAuajm_Y1Yd87HHPw,509
+ocgan/models.py,sha256=4y7iP0NfWMmhUYL5ByjyrrG-M7YnL7bx7mqaWXl7pLk,3802
+ocgan/ocgan.py,sha256=ealDp_C5ZiiuTXZI4208gulm_PxvpI2_fB0iCNtoxi8,9193
+ocgan/utils.py,sha256=_ZIZGO4ldNpDt63V0ZMiY1OIb8HOOZ8KqDHvXSWOI3I,4444
+ocgan-1.0.dist-info/METADATA,sha256=yGSEZ1AxHD9nLk3XQKiWCOHGFvTJb0Pi62umJLg4wF0,1256
+ocgan-1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+ocgan-1.0.dist-info/top_level.txt,sha256=JNM2BhYqbvMfCAjCkxVAOBwCkNsxFX9g__DNgNuxAHY,6
+ocgan-1.0.dist-info/RECORD,,
