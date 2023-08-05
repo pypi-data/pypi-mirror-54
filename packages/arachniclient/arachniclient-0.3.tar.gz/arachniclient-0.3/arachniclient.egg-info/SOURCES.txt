@@ -1,0 +1,9 @@
+README.md
+arachni-client
+setup.py
+arachniclient/__init__.py
+arachniclient.egg-info/PKG-INFO
+arachniclient.egg-info/SOURCES.txt
+arachniclient.egg-info/dependency_links.txt
+arachniclient.egg-info/requires.txt
+arachniclient.egg-info/top_level.txt

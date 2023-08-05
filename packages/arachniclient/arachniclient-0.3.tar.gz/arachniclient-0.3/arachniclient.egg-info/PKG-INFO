@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: arachniclient
+Version: 0.3
+Summary: REST API client for arachni.
+Home-page: https://github.com/catatonicprime/arachniclient
+Author: catatonicprime
+Author-email: catatonicprime@gmail.com
+License: UNKNOWN
+Description: # arachniclient
+        
+        Arachni REST client to control arachni vulnerability scanners.
+        
+        ## Usage
+        
+        Command Line Interface (CLI) options may be listed:
+        
+        ```sh
+        arachni-client --help
+        ```
+        
+        ## Examples
+        
+        Adding a scan:
+        
+        ```sh
+        arachni-client --url "https://[target server]/"
+        ```
+        
+        Listing currently running scans:
+        
+        ```sh
+        arachni-client --fetch
+        ```
+        
+        Fetching a report from a running or completed scan in a zipped HTML format:
+        
+        ```sh
+        arachni-client --report [scan id] --format html.zip
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
