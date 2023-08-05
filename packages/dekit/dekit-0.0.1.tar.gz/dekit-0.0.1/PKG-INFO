@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dekit
+Version: 0.0.1
+Summary: A collection of useful Python decorators
+Home-page: https://github.com/algobot76/dekit
+Author: Kaitian Xie
+Author-email: xkaitian@gmail.com
+License: MIT
+Description: Dekit
+        =====
+        
+        A collection of useful Python decorators. Decorator + Kit = Dekit
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
