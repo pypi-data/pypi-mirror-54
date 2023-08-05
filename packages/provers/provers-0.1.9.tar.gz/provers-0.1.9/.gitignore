@@ -1,0 +1,7 @@
+.vscode
+__pycache__
+*.egg-info/
+dist/
+build/
+provers/bin/*
+!provers/bin/Makefile
