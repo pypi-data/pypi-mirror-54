@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jupytools
+Version: 0.1.3
+Summary: A set of utilities making Jupyter development a bit easier
+Home-page: https://github.com/devforfu/jupytools
+Maintainer: devforfu
+License: UNKNOWN
+Download-URL: https://github.com/devforfu/jupytools/archive/v0.1.0.tar.gz
+Description: Jupytools
+        =========
+        
+        Convenience tools to simplify Jupyter development.
+        
+        Features
+        --------
+        
+        * Exporting Jupyter notebook cells annotated with `#export` commentary
+        * Automatically choose the implementation of `set_trace` function depending where the script is running
+        * Extend interpreter search path to include directories with additional utilities to import in notebook
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
