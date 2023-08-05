@@ -1,0 +1,10 @@
+scrapy_autoextract/VERSION,sha256=FL5LRfGODYxntPcZtRRO7ohJfkE3CdEdhbCW2OI0YxA,3
+scrapy_autoextract/__init__.py,sha256=LWvNVRU79WHgYf6iZjGjWUvP4nWk8Rw_9Wa4AuMFKP0,61
+scrapy_autoextract/middlewares.py,sha256=FhyIkbpXkzU0SDFq-Ouha-UqHuvlCt45sjV1cbt3fNU,9277
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_autoextract.py,sha256=JDfS-aQqmp013F0dEfLqUvDX-b6pVgmjO6yFGBhmJpw,3304
+scrapy_autoextract-0.1.dist-info/LICENSE,sha256=1rQaDTIAH4Fw8OfZswPpoouXh5n6OulxhfYveVFfqPg,1537
+scrapy_autoextract-0.1.dist-info/METADATA,sha256=XSVmnqk-amVOcdd4flobdE4vDXSO80Y3ZNGts-wFd7Q,3879
+scrapy_autoextract-0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+scrapy_autoextract-0.1.dist-info/top_level.txt,sha256=Y2Ohua4mc4znZRU0Cnk_Fmmp-EAv_0Bj9woh6Ff53ms,24
+scrapy_autoextract-0.1.dist-info/RECORD,,
