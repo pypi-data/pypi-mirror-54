@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: firethorn-utils
+Version: 0.1.0
+Summary: A python suite for utility functions for firethorn
+Home-page: http://wfau.metagrid.co.uk/code/firethorn
+Author: Stelios Voutsinas
+Author-email: stv@roe.ac.uk
+License: BSD
+Keywords: firethorn vo
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Free For Home Use
+Classifier: Programming Language :: Python
+
+# firethorn-utils
+Utility Python Module containing functionality to help setup, configure and validate Firethorn services
+
+
