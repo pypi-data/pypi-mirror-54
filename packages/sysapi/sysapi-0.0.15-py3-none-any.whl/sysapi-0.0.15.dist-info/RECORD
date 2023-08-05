@@ -1,0 +1,15 @@
+sysapi/__init__.py,sha256=naX7qQe1n08r7K3sTLnk0nq21k7IpVUZVhSuNSFXri4,21
+sysapi/backend.py,sha256=53Pl0j4GDLwDlEkWLYLt8mFV2lgOZJsTxIzphXMX-w0,9269
+sysapi/env.py,sha256=mqzb2WJ6-KKFyChAlrMfPVQkCo3cXVG1sVr6A7X3G0Y,296
+sysapi/file.py,sha256=hT4LWBOI-r_thCZrIf8U_87M8uT8RKdv1EWFcsfTi60,2203
+sysapi/main.py,sha256=OGHReDixfGEN2yCRvIcdcoLGo0ldjAeO8K76Pw2ftxc,7330
+sysapi/snapshot.py,sha256=1oL7wEs557dR7BwFcA2LBj395lpNfe45toOjY7ql-Bo,2364
+sysapi/user.py,sha256=s1MdkM37XjrtT60YrKUJohXogYzgFLs-4uezWxf3L2k,1482
+sysapi/zfilesystem.py,sha256=lmKp7zXBSL2MxSehyPz4zMn5sbJGgiS-UwPUH8PuIIk,71
+sysapi-0.0.15.data/data/config.json,sha256=f-r7RahKCzPUtVr5NHZnER4g8vvvSmw5rMrPx0gRvNM,4475
+sysapi-0.0.15.data/data/params.json,sha256=U15zvaQB_v74hRqueYpfjYUjg476UccVWrQWUAR1OtU,226
+sysapi-0.0.15.data/scripts/cleanup.sh,sha256=90RpgVkqJYbcSr5DDXZM_--KhSxFHJb2Jow3Mq1oB5o,459
+sysapi-0.0.15.dist-info/METADATA,sha256=PBS18kN3H7lvRgnSEJ9NA6eyHHrqRt82-z0TKDlR9XM,4409
+sysapi-0.0.15.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+sysapi-0.0.15.dist-info/top_level.txt,sha256=WAl3H77V4IZ9i8nQjTdGtDr0AasGfI9A8-RxDcaG_zM,7
+sysapi-0.0.15.dist-info/RECORD,,
