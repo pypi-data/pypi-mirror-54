@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: snakypy
+Version: 0.0.1
+Summary: Update linux system and development environment.
+Home-page: https://github.com/williamcanin/snakypy
+Author: William da Costa Canin
+Author-email: william.costa.canin@gmail.com
+Maintainer: William da Costa Canin
+License: MIT Licences
+Keywords: snakypy update packaging package
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pip (>=19.3)
+Requires-Dist: distro (>=1.4.0)
+Requires-Dist: requests (>=2.22.0)
+Provides-Extra: dev
+Requires-Dist: twine (>=2.0.0) ; extra == 'dev'
+Requires-Dist: wheel (>=0.33.6) ; extra == 'dev'
+
+# Snakypy - UNDER CONSTRUCTION!
+
+It will be a terminal theme based on Zsh and the Oh My ZSH framework.
+
+

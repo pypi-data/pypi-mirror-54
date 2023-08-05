@@ -1,0 +1,15 @@
+snakypy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snakypy/snakypy.py,sha256=LElPRboFFQEVogPgiAWPGaxkP4zMHLFiXVe4-IROfSQ,251
+snakypy/config/config.json,sha256=tYs8EMoyz_g_47d9J6EsynBnql6Ghi_G6Ybt1SQOiBM,1128
+snakypy/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snakypy/lib/base.py,sha256=PSlO8ZTO_DtSWRL1de4ohVUN4J9sbECeBxvHsdM64IM,143
+snakypy/lib/cmdclass.py,sha256=tE2MoCFCrA9TMl8nwnRdOPL8BZn-hePnjcntQv8KyuU,485
+snakypy/lib/colorful.py,sha256=SkOb35fDsmyFwY378laa9_epqkH-Qe6txmKEL06el5A,1396
+snakypy/lib/flags.py,sha256=gW2oPWr_IrGHloJnBFJOxkJ4OR4nUhWQ7visodZtTwY,23
+snakypy/lib/utils.py,sha256=P8o2guz4e9UscvMiLxgXv-GajubkX2YcQMOKOUaUwuM,745
+snakypy-0.0.1.dist-info/LICENSE,sha256=4b4sgBXu1__s1fPJ9uTJLykhX8mJIMAv5zbNZTkaD2c,1070
+snakypy-0.0.1.dist-info/METADATA,sha256=OKhL6hXlFF6Ivxxfbkf6Z-oq1Ls67pNZh-neXQv1vms,915
+snakypy-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+snakypy-0.0.1.dist-info/entry_points.txt,sha256=kxrggUbzZjXxMMhkFU3ouRAPPQfs104SczsN6sHy4Uw,53
+snakypy-0.0.1.dist-info/top_level.txt,sha256=S4_Ew5lyE4Q7SlNdAsfTAGygG6YW5AOoSu0WfbfJ4m0,8
+snakypy-0.0.1.dist-info/RECORD,,

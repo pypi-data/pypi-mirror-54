@@ -1,0 +1,32 @@
+{
+    "setup":{
+        "appname": "Snakypy",
+        "appscript": "snakypy.py",
+        "appconfig": "snakypy.json",
+        "appversion": "0.0.1",
+        "applicense": "MIT Licences",
+        "appdescription": "Update linux system and development environment.",
+        "appurl": "https://github.com/williamcanin/snakypy",
+        "author": {
+            "name": "William da Costa Canin",
+            "email": "william.costa.canin@gmail.com",
+            "website": "https://williamcanin.me",
+            "github": "https://github.com/williamcanin"
+        },
+        "package_dir": "src",
+        "appclassifiers": ["Programming Language :: Python :: 3",
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: POSIX",
+            "Operating System :: POSIX :: Linux"
+        ],
+        "python_requires": ">= 3.7",
+        "platforms": "any",
+        "console_scripts": [
+            "snakypy = snakypy.snakypy:Snakypy"
+            ],
+        "package_data": {
+            "snakypy": ["config/config.json"],
+            "": ["LICENSE", "requirements-dev.txt", "CHANGES.rst"]
+        }
+    }
+}
