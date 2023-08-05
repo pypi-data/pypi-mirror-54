@@ -1,0 +1,11 @@
+lib_clickbot/__init__.py,sha256=qmj0JYHhT7xA_N2IJq49VbpSc1Q-KmCvDTJZ2S62c7M,323
+lib_clickbot/__main__.py,sha256=JB0bti8e_q1OO8yN4RpjDh7SYJJy8RAkb88kX72k_Rc,140
+lib_clickbot/clickbot.py,sha256=2slQStY9kCTXt40wnGJHG8N11qipYclGAV3zFJq0hps,5370
+lib_clickbot/events.py,sha256=wlHwR2YRQQAAfXlj7ruLGj48YfteAH6Mw8swL0GRjSc,3067
+lib_clickbot/logger.py,sha256=XufZtDF991cg74ik9d8tcafN6to_qpUrlVx5f-kVylo,5991
+lib_clickbot-0.1.0.dist-info/AUTHORS,sha256=jXMzcSdt8kziTZxrnOaPnLzHSAXDtb-WFq7EYg0MaHY,16
+lib_clickbot-0.1.0.dist-info/METADATA,sha256=I5IB0oO1eT8Exp-iTwAdcJXDW6DFTHjg1j-xZt-ErzI,681
+lib_clickbot-0.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+lib_clickbot-0.1.0.dist-info/entry_points.txt,sha256=lHx4fwyNZsN-4SeEn_VypHNkXiLv9Wp6qjRPS9Gm1ns,57
+lib_clickbot-0.1.0.dist-info/top_level.txt,sha256=42KLl4kxRemgDgNngiuXh-EAYShU4giaN0NLFpID5Eg,13
+lib_clickbot-0.1.0.dist-info/RECORD,,
