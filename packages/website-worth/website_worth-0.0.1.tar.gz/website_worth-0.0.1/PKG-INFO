@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: website_worth
+Version: 0.0.1
+Summary: Worth of websites calculator
+Home-page: https://github.com/maledorak/website-worth
+Author: Mariusz Korzekwa
+Author-email: maledorak@gmail.com
+License: MIT license
+Description: website-worth
+        =============
+        
+        Install
+        -------
+        
+        ### From pip
+        This app works from Python 3.5 and the best choice is installation using pip
+        
+        ```
+        pip install --user website-worth
+        ```
+        
+        How to use
+        ----------
+        
+        Run:
+        ```
+        website_worth run https://example.com
+        ```
+        
+        
+        Changelog
+        =========
+        
+        Unreleased
+        ----------
+        
+        0.0.1 (2019-10-17)
+        ------------------
+        
+        * First release on PyPI.
+        * Add https://www.webuka.com support.
+        
+Keywords: website_worth
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

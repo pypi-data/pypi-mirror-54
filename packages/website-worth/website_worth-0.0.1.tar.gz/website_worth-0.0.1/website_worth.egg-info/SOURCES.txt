@@ -1,0 +1,16 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+website_worth/__init__.py
+website_worth/calcs.py
+website_worth/cli.py
+website_worth/constants.py
+website_worth.egg-info/PKG-INFO
+website_worth.egg-info/SOURCES.txt
+website_worth.egg-info/dependency_links.txt
+website_worth.egg-info/entry_points.txt
+website_worth.egg-info/not-zip-safe
+website_worth.egg-info/requires.txt
+website_worth.egg-info/top_level.txt
