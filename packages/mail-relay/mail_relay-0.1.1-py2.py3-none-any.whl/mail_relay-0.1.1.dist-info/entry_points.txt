@@ -1,0 +1,3 @@
+[console_scripts]
+relay = mail_relay.cli:driver
+

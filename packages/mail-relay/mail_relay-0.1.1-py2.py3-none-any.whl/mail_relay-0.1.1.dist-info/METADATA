@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: mail-relay
+Version: 0.1.1
+Summary: Just a tool to relay incoming emails over to other mail servers
+Home-page: https://github.com/samantehrani/mail-relay
+Author: Saman Tehrani
+Author-email: samanrtehrani@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: ==2.7
+Description-Content-Type: text/markdown
+
+# Mail Relay [![CircleCI](https://circleci.com/gh/samantehrani/mail-relay.svg?style=svg&circle-token=3af48550b9a47883ad9f13b1060ddf6a3fa1ac41)](https://circleci.com/gh/samantehrani/mail-relay)
+
+Mail Relay is a python tool that
+*   uses **Export Group** of an organization to **decrypt** PreVeil encrypted emails
+*   and **relays** them to a configurable IMAP or SMTP destination.
+
+
+## Install
+
+Currently py27 is the only supported python version. It is recommended that you install this tool within a fresh virtual environment. More info on https://virtualenv.pypa.io/en/stable/userguide/.
+
+
+
+```shell
+> cd ${repo_root}
+> ${envpip} install -r requirements.txt -r requirements_${osx/linux}.txt
+> ${envpip} install .
+```
+
+
+
+## Usage
+
+Mail relay exposes a command line interface relay, with which you can configure and initialize the relay process.
+
+```shell
+> relay [OPTIONS] COMMAND [ARGS]
+> relay --help # inspect full list of options/commands/arguments
+```
+
+
+
+## Testing
+
+We use [tox](https://tox.readthedocs.io/en/latest/index.html) as the project's test runner. Make sure you have **tox >= 3.5.3** installed in your python environment.
+
+
+
+#### Run all tests
+
+```shell
+> cd ${repo_core}
+>	tox
+```
+
+
+
+#### Unit tests
+
+```shell
+>	tox -e unit-${osx/linux}
+```
+
+
+
+#### Integration tests
+
+```shell
+> tox -e integration-${osx/linux}
+```
+
+
+
+## Linting
+
+We use [flake8](http://flake8.pycqa.org/en/latest/) as project's linter. Enforcement via:
+
+```shell
+>	tox -e flake8
+```
+
+
