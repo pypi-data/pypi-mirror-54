@@ -1,0 +1,12 @@
+copra/__init__.py,sha256=_TPgyydlWgH608A346x5QlHFYYOcyXNKwxJQr6VX9nc,184
+copra/rest/__init__.py,sha256=f4w1IpK_Am-mpiUDG4HOj4mo71MtTsH2PQcJe5Cs2Pc,71
+copra/rest/client.py,sha256=tYZx_hAITVZcOko5iGdgJ7GImD4hH3ESGe4Rnp-qzCU,88874
+copra/websocket/__init__.py,sha256=GhFpZAgbkOCgld-GRA-sYw4soalrDFcAOPh8RRzWmW4,113
+copra/websocket/channel.py,sha256=maNNs5GaGi0sYRAhPN48xm3RkcF2tSLoo1tA7gS1asA,2555
+copra/websocket/client.py,sha256=3WTH0THorCo4aQv-tYYI1GbE11yA0dPCXO6_a6yWc5I,11695
+copra-1.2.9.dist-info/AUTHORS.rst,sha256=Af8NOqsvKMPekfnMxuy7FqO6aM5gthQh-pkC9vJSLm0,156
+copra-1.2.9.dist-info/LICENSE,sha256=z_llTYFlXX7IJQyBQzxV0eU3hgxTDtko8_XGtEpQAn4,1072
+copra-1.2.9.dist-info/METADATA,sha256=WlfU0Fim-3pLcrrFwWItKU-6H9GcEDBSLeVax0ginnA,11115
+copra-1.2.9.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+copra-1.2.9.dist-info/top_level.txt,sha256=byEGGBwWRcMmROXgF9DxosdM-Nebr62L8pZbbr0DYEo,6
+copra-1.2.9.dist-info/RECORD,,
