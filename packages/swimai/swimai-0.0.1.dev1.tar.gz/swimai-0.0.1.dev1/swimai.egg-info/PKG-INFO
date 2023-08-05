@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: swimai
+Version: 0.0.1.dev1
+Summary: Standalone Python framework for building massively real-time streaming WARP clients.
+Home-page: https://github.com/DobromirM/swim-system-python
+Author: Dobromir Marinov
+Author-email: dobromir@swim.it
+License: UNKNOWN
+Description: # Swim System Python
+        [![Build Status](https://travis-ci.com/DobromirM/swim-system-python.svg?token=qE25UxFHBoKkK362pme4&branch=master)](https://travis-ci.com/DobromirM/swim-system-python)
+        
+        <a href="https://www.swimos.org"><img src="https://docs.swimos.org/readme/marlin-blue.svg" align="left"></a>
+        
+        The **Swim System** Python implementation provides a standalone set of
+        frameworks for building massively real-time streaming WARP clients.
+        <br>
+        ## Installation
+        ## Usage
+        
+        ## Development
+        
+        ### Setup
+        `pip install -r requirements.txt`
+        ### Running tests
+        `python -m unittest`
+        ### Build package
+        1) Building the package: `python setup.py sdist bdist_wheel`
+        2) Uploading to PyPi: `python -m twine upload  dist/*`
+        3) Uploading new versions: `twine upload --skip-existing dist/*`
+Keywords: swim client
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
