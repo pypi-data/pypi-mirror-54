@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+src/bedrock/__init__.py
+src/bedrock/blueprint.py
+src/bedrock/cli.py
+src/bedrock/manifest.py
+src/bedrock/role.py
+src/bedrock/utils.py
+src/bedrockcli.egg-info/PKG-INFO
+src/bedrockcli.egg-info/SOURCES.txt
+src/bedrockcli.egg-info/dependency_links.txt
+src/bedrockcli.egg-info/entry_points.txt
+src/bedrockcli.egg-info/requires.txt
+src/bedrockcli.egg-info/top_level.txt
