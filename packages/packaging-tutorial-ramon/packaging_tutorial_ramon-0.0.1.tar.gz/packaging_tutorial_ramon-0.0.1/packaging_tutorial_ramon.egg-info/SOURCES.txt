@@ -1,0 +1,7 @@
+README.md
+setup.py
+example_pkg/__init__.py
+packaging_tutorial_ramon.egg-info/PKG-INFO
+packaging_tutorial_ramon.egg-info/SOURCES.txt
+packaging_tutorial_ramon.egg-info/dependency_links.txt
+packaging_tutorial_ramon.egg-info/top_level.txt
