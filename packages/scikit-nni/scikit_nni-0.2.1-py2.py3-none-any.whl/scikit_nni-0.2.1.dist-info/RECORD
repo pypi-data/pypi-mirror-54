@@ -1,0 +1,14 @@
+sknni/__init__.py,sha256=OOAnUErGPxEDwXFZidysZZDXAqnqWDMb9mdVH86eD6Q,156
+sknni/cli.py,sha256=aAJQ2AVV0RU-m9GucDePeytNwCGGsSAyL3bxyZYb3Xg,2815
+sknni/datasource/__init__.py,sha256=kWO_lUfzLm8BBjoSno1u87HSJGgJ7H5AltiZ0-uJLlU,58
+sknni/datasource/_npz_classification.py,sha256=02cPURnjf1iWgUvNbEtw9oTfrjA4BKrUbygg8BxslEU,1991
+sknni/internals/__init__.py,sha256=eO37QHE5A0RFpPmkaWWJG1TPjr9S6b95FVNSZ5kMh5Y,145
+sknni/internals/_nni_config_generator.py,sha256=ctZoVa2OOySW5SX-b8QyQ5Cht99G5E0j1SeFtU4lIpA,1663
+sknni/internals/_pipeline_builder.py,sha256=MJ3nl3KsdZaSzIhPx99s0oJG0wF4lDhR0OC_4Uw2weA,1663
+sknni/internals/_utils.py,sha256=Ni1n4EpYgV2DUxS6i6oKnX9sLmi8zGgUBzJhALT6uAE,473
+scikit_nni-0.2.1.dist-info/LICENSE,sha256=29ZOk8TZasC3PEmH4F_MpRpgR9M0bSehQMO3AkAR_Rg,586
+scikit_nni-0.2.1.dist-info/METADATA,sha256=HZI5d2alA49VSvdTpIlzfNnyymQZcIUwyD6b8gF2ZW4,12240
+scikit_nni-0.2.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+scikit_nni-0.2.1.dist-info/entry_points.txt,sha256=POCT_vbC5JsmZoKGB2h8mhu6Az6T7HCtLUT1s5bUMAk,41
+scikit_nni-0.2.1.dist-info/top_level.txt,sha256=LwvEOAZBEtZVi4YTZC-Y4LcmjXKya3UPOVnT4ueY2ts,6
+scikit_nni-0.2.1.dist-info/RECORD,,
