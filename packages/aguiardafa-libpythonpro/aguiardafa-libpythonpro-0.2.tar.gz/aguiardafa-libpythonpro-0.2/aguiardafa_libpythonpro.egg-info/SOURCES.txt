@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+aguiardafa_libpythonpro.egg-info/PKG-INFO
+aguiardafa_libpythonpro.egg-info/SOURCES.txt
+aguiardafa_libpythonpro.egg-info/dependency_links.txt
+aguiardafa_libpythonpro.egg-info/not-zip-safe
+aguiardafa_libpythonpro.egg-info/requires.txt
+aguiardafa_libpythonpro.egg-info/top_level.txt
+libpythonpro/__init__.py
+libpythonpro/githubapi.py
