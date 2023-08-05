@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mathlang
+Version: 0.0.1
+Summary: *Mathlang* is a Python module that will change the world, but as for the approach, it is still a secret.
+Home-page: https://github.com/mathlang-org
+Author: Iydon Liang
+Author-email: liangiydon@gmail.com
+License: GPLv3 License
+Description: *Mathlang* is a Python module that will change the world, but as for the approach, it is still a secret.
+        
+        # Basic Usage
+        ## Installation
+        Install with pip:
+        ```shell
+        pip install mathlang
+        ```
+        
+        ## Get Started
+        ```Python
+        import mathlang
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
