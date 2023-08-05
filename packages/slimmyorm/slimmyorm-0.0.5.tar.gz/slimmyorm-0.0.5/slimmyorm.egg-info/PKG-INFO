@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: slimmyorm
+Version: 0.0.5
+Summary: Lightweight wrapper for mysql.connector
+Home-page: https://https://github.com/eddie-knight/slimmyorm
+Author: Eddie Knight
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: This package slims down the complexities of mysql into a few key options that are necessary for simple application logic.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

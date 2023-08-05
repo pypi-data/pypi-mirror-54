@@ -1,0 +1,11 @@
+setup.py
+slimmyorm/__init__.py
+slimmyorm/base_data.py
+slimmyorm/mysql_connection.py
+slimmyorm/search.py
+slimmyorm/select.py
+slimmyorm.egg-info/PKG-INFO
+slimmyorm.egg-info/SOURCES.txt
+slimmyorm.egg-info/dependency_links.txt
+slimmyorm.egg-info/requires.txt
+slimmyorm.egg-info/top_level.txt
