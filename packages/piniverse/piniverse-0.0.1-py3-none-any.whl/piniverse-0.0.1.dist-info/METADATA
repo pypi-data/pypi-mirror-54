@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: piniverse
+Version: 0.0.1
+Summary: Pin your functions!
+Home-page: https://github.com/hzhao19/piniverse
+Author: Henry Zhao
+Author-email: hzhao1016@gmail.com
+License: MIT
+Keywords: pin,pinned,dag
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: matplotlib (==3.1.1)
+Requires-Dist: networkx (==2.4)
+Requires-Dist: pytest (==5.2.1)
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+
+UNKNOWN
+
+
