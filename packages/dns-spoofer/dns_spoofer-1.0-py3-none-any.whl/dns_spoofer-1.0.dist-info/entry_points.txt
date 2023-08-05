@@ -1,0 +1,4 @@
+[console_scripts]
+dns-listen = spoofer.listen:main
+dns-spoof = spoofer.spoofer:main
+
