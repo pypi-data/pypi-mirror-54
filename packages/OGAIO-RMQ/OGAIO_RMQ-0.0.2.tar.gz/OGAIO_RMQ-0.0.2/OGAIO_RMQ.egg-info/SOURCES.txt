@@ -1,0 +1,10 @@
+README.md
+setup.py
+OGAIO_RMQ.egg-info/PKG-INFO
+OGAIO_RMQ.egg-info/SOURCES.txt
+OGAIO_RMQ.egg-info/dependency_links.txt
+OGAIO_RMQ.egg-info/requires.txt
+OGAIO_RMQ.egg-info/top_level.txt
+aiorpc/__init__.py
+aiorpc/rmq.py
+aiorpc/utils.py

@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: OGAIO-RMQ
+Version: 0.0.2
+Summary: OnGrid Aio json-rpc over RMQ lib for microservices
+Home-page: https://github.com/OnGridSystems/aiorpc_rmq
+Author: Nimond
+Author-email: a.zhiltsov@ongrid.pro
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.7
