@@ -1,0 +1,3 @@
+[console_scripts]
+sp-reloader = spreloader.command_line:main
+
