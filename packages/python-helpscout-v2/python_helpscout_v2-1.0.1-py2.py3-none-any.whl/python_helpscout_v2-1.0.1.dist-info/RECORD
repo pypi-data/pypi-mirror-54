@@ -1,0 +1,10 @@
+helpscout/__init__.py,sha256=W686CRjlarR3kucasHr8yFypVhLlMK23yxafRf3oQSE,71
+helpscout/client.py,sha256=VItqUa_nKK4YgsOqntCH_KtnKwTZfNW8nCtBMO-XM3k,15625
+helpscout/exceptions.py,sha256=KSHoIyPBNC-b0c9imd0fgDY9mkh1k90ApWCpHpZxJMA,383
+helpscout/model.py,sha256=oE__BiUWX4o-fGpJAwQRHXkvIsqs9xvwqv6lRE0ZTwc,5380
+helpscout/prueba.py,sha256=ogs2iM-8aT9GZSaV443JkvOtPmbtKb1DvKbjpz13-BE,403
+python_helpscout_v2-1.0.1.dist-info/LICENSE.md,sha256=KWb5yB04PAftsncmbvgYTMVFnVcvhTCBAwYGD2yUgsU,1065
+python_helpscout_v2-1.0.1.dist-info/METADATA,sha256=mj6TBiIITfJOPt0l_KZFxjqiGsvMlMT40whxHZhffcQ,8042
+python_helpscout_v2-1.0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+python_helpscout_v2-1.0.1.dist-info/top_level.txt,sha256=pXgnEhsh-lIDuLUyC63NTQh9_w59XFJTqpaZz4-r6es,10
+python_helpscout_v2-1.0.1.dist-info/RECORD,,
