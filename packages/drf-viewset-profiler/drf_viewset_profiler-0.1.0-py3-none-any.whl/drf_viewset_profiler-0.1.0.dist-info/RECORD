@@ -1,0 +1,12 @@
+CHANGES.rst,sha256=mvodGIwVqipAZysOZvuAVpMmDUzUQ81AwQMWmeeBjRw,120
+README.md,sha256=voPse_48RWr8XFc2N7oS0sy3s0rnxx06UxkU0ykrswE,5776
+drf_viewset_profiler/__init__.py,sha256=LSfaDxHAKMQ_5BSp6gA2ZCgT_PIXwkGm9jkGJSjIUQs,82
+drf_viewset_profiler/decorators.py,sha256=mM2nLwHF6V-DOaNRHStzvE0mp6F87tZPxm6Ga5IcXt8,1079
+drf_viewset_profiler/middleware.py,sha256=kHlD05-SN0mAmh5oDadYW4xHLXL46H5DiuvmaQfxsd0,662
+drf_viewset_profiler/output.py,sha256=OyIW2IoWoLq8skVP6kaL7KRglo6orMUUXpX1cEtioMQ,1301
+drf_viewset_profiler/utils.py,sha256=fu27hWFL8FZ_4NnfIpbNBVQJ4TXZOjK0YuPxciypOyk,419
+setup.py,sha256=vGFvBq5--L4eOwQEfTKqclc7s2inWSvUZXRH-DaXZ-4,752
+drf_viewset_profiler-0.1.0.dist-info/LICENSE,sha256=hfnaSuHKUMcAV0T8TnHZgPLisOugjZjWY0UhRI-Ff4A,1074
+drf_viewset_profiler-0.1.0.dist-info/WHEEL,sha256=uvv1AQW2KofoDi40QrELRF14CCscf7j9E3GsqyAEk-s,85
+drf_viewset_profiler-0.1.0.dist-info/METADATA,sha256=6AdjxWAeT0N663XavUeuZwTwTpBeo75TXIpXScbe984,1042
+drf_viewset_profiler-0.1.0.dist-info/RECORD,,
