@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: whampy
+Version: 0.1.0a4
+Summary: Python Package to Interact with, Visualize, and Analyze the Wisconsin H-Alpha Mapper - Sky Survey
+Home-page: https://github.com/Deech08/whampy
+Author: DK (Dhanesh Krishnarao)
+Author-email: krishnarao@astro.wisc.edu
+License: BSD 3-Clause
+Description: http://www.astro.wisc.edu/wham
+Platform: UNKNOWN
+Requires-Python: >=3.6
