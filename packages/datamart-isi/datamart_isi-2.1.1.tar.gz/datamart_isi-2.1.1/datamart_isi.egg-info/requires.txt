@@ -1,0 +1,17 @@
+d3m>=2019.4.4
+jsonlines>=1.2.0
+psycopg2-binary>=2.7.5
+python-dateutil>=2.7.3
+rltk==2.0.0a13
+date-extractor==3.9.1
+tablextract==1.2.5
+termcolor>=1.1.0
+urllib3>=1.23
+wikipedia-API==0.4.4
+wget>=3.2
+nbconvert>=5.4.0
+SPARQLWrapper>=1.8.4
+requests
+datasketch
+pandas
+python-memcached
