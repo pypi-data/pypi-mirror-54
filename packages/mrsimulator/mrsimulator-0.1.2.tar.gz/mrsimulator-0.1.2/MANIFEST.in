@@ -1,0 +1,5 @@
+include README.md
+
+recursive-include src/mrsimulator/examples *
+include src/mrsimulator/isotope_data.json
+include src/mrsimulator/app/resource/mrsimulator-dark-featured.png
