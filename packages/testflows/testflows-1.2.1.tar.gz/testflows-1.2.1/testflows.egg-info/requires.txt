@@ -1,0 +1,6 @@
+testflows.core>=1.2.191016.122959
+testflows.asserts>=5.2.191016.1221916
+testflows.uexpect>=1.2.191016.1222050
+testflows.connect>=1.2.191016.1222213
+
+[dev]
