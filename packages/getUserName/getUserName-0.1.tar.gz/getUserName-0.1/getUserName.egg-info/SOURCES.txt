@@ -1,0 +1,8 @@
+setup.py
+getUserName/__init__.py
+getUserName/getUname.py
+getUserName.egg-info/PKG-INFO
+getUserName.egg-info/SOURCES.txt
+getUserName.egg-info/dependency_links.txt
+getUserName.egg-info/not-zip-safe
+getUserName.egg-info/top_level.txt
