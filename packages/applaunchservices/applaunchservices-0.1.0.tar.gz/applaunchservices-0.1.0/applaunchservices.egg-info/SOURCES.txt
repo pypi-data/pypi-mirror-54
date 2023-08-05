@@ -1,0 +1,6 @@
+README.md
+setup.py
+applaunchservices.egg-info/PKG-INFO
+applaunchservices.egg-info/SOURCES.txt
+applaunchservices.egg-info/dependency_links.txt
+applaunchservices.egg-info/top_level.txt
