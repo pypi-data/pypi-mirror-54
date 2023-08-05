@@ -1,0 +1,3 @@
+[console_scripts]
+mips-shell = fengyong:Simulator.run_shell
+
