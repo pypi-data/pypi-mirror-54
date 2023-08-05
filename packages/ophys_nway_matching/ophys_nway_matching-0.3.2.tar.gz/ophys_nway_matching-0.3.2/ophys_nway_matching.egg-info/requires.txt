@@ -1,0 +1,8 @@
+marshmallow<3.0
+argschema<2.0
+numpy
+pillow
+scikit-image
+matplotlib
+opencv-python
+pandas
