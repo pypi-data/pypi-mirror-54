@@ -1,0 +1,12 @@
+flask_pyoidc/__init__.py,sha256=IlfEFoaGc82nTV54NpjX0RoCdAidtojc02G7F-14tj0,45
+flask_pyoidc/auth_response_handler.py,sha256=ZnfyusOrae4pzUZc_FHCz9EHKrl1B0pCKIaam9qE5Fs,4060
+flask_pyoidc/flask_pyoidc.py,sha256=qXEuEcUdpCBgvGyz8E32mBkvleJHo4zTf0HtmXASRLc,10542
+flask_pyoidc/provider_configuration.py,sha256=17LkjDrej_J6_x4jDoZRH-BD4ci59Woqp-4w3JQA9eA,6720
+flask_pyoidc/pyoidc_facade.py,sha256=PfX3rDCVMmLI7nyRxFqDMYSP7uXmYdW5tOJx5TETELU,7694
+flask_pyoidc/user_session.py,sha256=-8nmMSrw0X72rfARQuvtrkNgHT_63CoW8-3cALM5iBU,3121
+flask_pyoidc/files/parse_fragment.html,sha256=3zyoeoGV0L3NY9ftu_JgacsA5tAr7XS_BJQO2IppaPc,501
+Flask_pyoidc-3.0.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+Flask_pyoidc-3.0.0.dist-info/METADATA,sha256=qZOKNQCONtrlBLq_5mOwPAxYP66OiLtRkHXb5ultXUk,1403
+Flask_pyoidc-3.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+Flask_pyoidc-3.0.0.dist-info/top_level.txt,sha256=gcaUKy4F97xZ8HublXZi3bjZdYyj4-5p2FJy-jvjE4o,13
+Flask_pyoidc-3.0.0.dist-info/RECORD,,
