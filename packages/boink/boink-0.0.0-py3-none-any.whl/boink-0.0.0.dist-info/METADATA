@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: boink
+Version: 0.0.0
+Summary: boink: streaming de Bruijn graph compaction and sketching.
+Home-page: UNKNOWN
+Author: Camille Scott
+Author-email: cswel@ucdavis.edu
+License: UNKNOWN
+Platform: any
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Requires-Dist: plotille
+Requires-Dist: cppyy (>=1.5.5)
+Requires-Dist: clang
+Requires-Dist: py-cpuinfo
+Requires-Dist: screed
+Requires-Dist: blessings
+Requires-Dist: pyfiglet
+Requires-Dist: numpy
+
+
+.. image:: https://travis-ci.org/camillescott/boink.svg?branch=master
+    :target: https://travis-ci.org/camillescott/boink
+
+boink
+-----
+
+Installation
+============
+
+For this repository with anaconda::
+
+    git clone https://github.com/camillescott/boink && cd boink
+    git submodule update --init --recursive
+
+    conda create -y -n libboink -c conda-forge python=3 cmake cxx-compiler c-compiler clangdev libcxx libstdcxx-ng libgcc-ng pytest numpy scipy openmp python-clang screed blessings pytest-benchmark pyfiglet py-cpuinfo
+    conda activate libboink
+    pip install -r requirements.txt
+
+    mkdir build; cd build
+    cmake ..
+    make
+    make install
+
+
+

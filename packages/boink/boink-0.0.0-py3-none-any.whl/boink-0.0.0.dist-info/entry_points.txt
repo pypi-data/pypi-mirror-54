@@ -1,0 +1,4 @@
+[console_scripts]
+boink = boink.__main__:main
+draff = boink.draff:run_draff
+
