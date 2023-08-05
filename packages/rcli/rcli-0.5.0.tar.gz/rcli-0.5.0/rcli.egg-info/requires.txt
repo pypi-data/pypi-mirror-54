@@ -1,0 +1,6 @@
+typet<0.5,>=0.4
+backports.shutil_get_terminal_size
+colorama<1,>=0.3.6
+tqdm<5,>=4.9.0
+docopt<1,>=0.6.2
+six>=1.10.0
