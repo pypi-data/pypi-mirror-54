@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: loudds
+Version: 0.0.3
+Summary: Simply send prediction results to HTTP(s) endpoint
+Home-page: https://github.com/jareks/loudds
+Author: Jarosław Skrzypek
+Author-email: skrzypek.jarek@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+
+UNKNOWN
+
+
