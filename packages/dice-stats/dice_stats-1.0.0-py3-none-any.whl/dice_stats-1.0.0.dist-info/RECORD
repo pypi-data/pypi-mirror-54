@@ -1,0 +1,16 @@
+dice_stats/__init__.py,sha256=IrEVLPCWfhM8yT_Y9iGIB-YNbrpPKJ5K_E8o7Oq_S6E,247
+dice_stats/_types.py,sha256=ufyirhPZ--H88FnkNcEXCTBV9LO_VhlzhS_gvoiDZzc,853
+dice_stats/dice.py,sha256=sRdMWpAdR4cEBRvitwXJIsgLcnTbWvuRMDQQK2sVsT4,18947
+dice_stats/display.py,sha256=1i8m3tGS5Y8Zy9Vt9ANsBqoE0QzbUG4FG_fLr_rYMhk,1902
+dice_stats/py.typed,sha256=-iPtxftU8G1qwXw8jhb2RRoV38oTBriahST6CMXv_qY,60
+dice_stats/range.py,sha256=-3XdEnFQX6bvdEBeFIIHApQK6kVZrdTt8Jshe_egy0o,3640
+dice_stats/_magic/__init__.py,sha256=0acZtMyxG3v6_zQe_YRjIknGDlJa8THEE6ibwHjA6hE,424
+dice_stats/_magic/base_dice.py,sha256=vYsJ1ZUtR0-5wriRN0qTxakXGGtxjEkhwln--bqlLXs,5007
+dice_stats/_magic/basic.py,sha256=2e6g2QWjxXpSs2U_f7t0rZxs7Z-bxwMZvRMJY3Lv7WM,2277
+dice_stats/_magic/mapping.py,sha256=6uU-EGPxWMhoqsAcZ4Wed6rbHjMvLzk567aCMttUCq8,1040
+dice_stats/_magic/numeric.py,sha256=uoGmCcs_a6i_UNIo44b-TcLhDEB9Nvod-JTOPhiYNHs,10229
+dice_stats-1.0.0.dist-info/LICENSE,sha256=xkI6xVFWA2fKUeYMqEhC6p248rOUFcwKtyYz_ljooMY,1088
+dice_stats-1.0.0.dist-info/METADATA,sha256=UR_HcFzQoOAyzVGMYsjj3D5jcdeEfxUD3fY1O00_2AM,1123
+dice_stats-1.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+dice_stats-1.0.0.dist-info/top_level.txt,sha256=K1EYHJ_oAPlb6h2sC3SOEWyomM4DkNYbFmKxdURo-Jw,11
+dice_stats-1.0.0.dist-info/RECORD,,
