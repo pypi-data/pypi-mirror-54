@@ -1,0 +1,10 @@
+README.md
+setup.py
+markdownmermaid/__init__.py
+markdownmermaid/plugin.py
+mkdocs_plugin_mermaid.egg-info/PKG-INFO
+mkdocs_plugin_mermaid.egg-info/SOURCES.txt
+mkdocs_plugin_mermaid.egg-info/dependency_links.txt
+mkdocs_plugin_mermaid.egg-info/entry_points.txt
+mkdocs_plugin_mermaid.egg-info/requires.txt
+mkdocs_plugin_mermaid.egg-info/top_level.txt
