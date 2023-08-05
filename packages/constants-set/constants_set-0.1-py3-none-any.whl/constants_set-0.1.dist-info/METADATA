@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: constants-set
+Version: 0.1
+Summary: Simple constants sets for Python
+Home-page: https://github.com/raphael-leger/constants-set
+Author: Raphaël Léger
+Author-email: raphael+pypi@nodixo.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Constants-set
+Simple constants sets for Python
+
+
