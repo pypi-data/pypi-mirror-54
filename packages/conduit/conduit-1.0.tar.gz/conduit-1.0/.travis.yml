@@ -1,0 +1,24 @@
+dist: xenial
+language: python
+
+python:
+- '3.6'
+- '3.7'
+
+before_install:
+- sudo apt-get update
+- sudo apt-get build-dep python-scipy
+
+install:
+- pip install -r requirements.txt
+- pip install -r tests/requirements.txt
+- pip install codecov
+
+script: make test
+
+after_success: codecov
+
+notifications:
+  slack:
+    secure: cEtgd8y8kTBKbST1I3/qw/I5oq8it01arAEB3YTfdqCx7Dq7AkDIiGqTontD7w4ajaSMaYZtQhIV7M5Cu/JV2faBK9hUhR66pqVTTx7OPXRWxwAlDIdyULw2E+FVyPeh8MB/NfFrbCSZdP36F8+taasWAdR2xw7IyqNT55GRwJxo9q1K7KcN7FLV/oRB7cfA4BunJ+vJ6m+ResWcwPyGYoaA2gC3Imzmk+NqB9PwRIGro9ijkmtszTXUogusuIb7Xx3ayNhr3b3y+n/QEimUwb4u7qA4/YW9unNK/+GW7AMrchQdKZo3fLdHlizzHMbFk4psAWX3WFmdlADVSs9B0B6I6RZ0SepbExny4aVClLFbWw+yjBvv0NQeDt89j1qAU09NKSoZyWiUVdu1STP10KJaHGkBtjGgQ6aL8K/QPJVg6plHKEo1Ly1K9S0I8GumKSDJl/MZdtmKJzRcqs6MF7I7zkbfLfgMfIio27rJSHcSKA61LS+CUNG2BO/e1I/dnXnOEV6cs7X0Y/FddnoGSjh2epOt0DKK4ukFEsPc9BNaqf4PlJeJ0Wj4Ea7OM6YmOHMLM+d2JbLas2OideAEu+MEkWLRvU6cWpVtL57gv2JgxDCKbnzjsRz2ZVWhYht7kbKPdYhTZxQPl9DchWIy3sKfOs6ocnO1lUlgHdm5Bfo=
+
