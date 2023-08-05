@@ -1,0 +1,10 @@
+README.md
+setup.py
+drf_firebase/__init__.py
+drf_firebase/apps.py
+drf_firebase/authentication.py
+drf_firebase_authentication.egg-info/PKG-INFO
+drf_firebase_authentication.egg-info/SOURCES.txt
+drf_firebase_authentication.egg-info/dependency_links.txt
+drf_firebase_authentication.egg-info/requires.txt
+drf_firebase_authentication.egg-info/top_level.txt
