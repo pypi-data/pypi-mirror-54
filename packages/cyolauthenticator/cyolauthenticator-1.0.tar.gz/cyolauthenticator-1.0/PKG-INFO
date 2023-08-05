@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cyolauthenticator
+Version: 1.0
+Summary: A Jupyterhub Authenticator that allows users to pick a name and password if they know a code
+Home-page: http://cct.lsu.edu/~sbrandt/
+Author: Steven R. Brandt
+Author-email: steven@stevenrbrandt.com
+License: LGPL
+Description: A Jupyterhub Authenticator that allows users to pick a name and password if they know a code
+Platform: UNKNOWN
