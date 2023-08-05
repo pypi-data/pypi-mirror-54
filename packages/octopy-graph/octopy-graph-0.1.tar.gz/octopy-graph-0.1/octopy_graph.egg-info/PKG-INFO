@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: octopy-graph
+Version: 0.1
+Summary: A tool for graphing data from the Octopus Energy API
+Home-page: https://gitlab.com/broster/octopy-graph
+Author: Samuel Broster
+Author-email: s.h.broster@gmail.com
+License: MIT
+Description: # Octopy Graph
+        
+        A tool for graphing data from the [Octopus Energy API](https://gitlab.com/broster/octopy-api)
+        
+        ## Getting Started
+        
+        ### Installing
+        
+        Either clone directly from the repo or install using pip
+        ```bash
+        pip install octopy-graphs
+        ```
+        
+        ## Running
+        
+        The tool is run using `python3.7\6`. For help text use:
+        ```bash
+        python3.7 -m octopy_graph.__main__ -h
+        ```
+        
+        You will need the following information:
+        * `apikey` - If you are an Octopus Energy customer, you can get an API key from your 
+          [online dashboard](https://octopus.energy/dashboard/developer/).
+        * `gasserial` - The gas meters serial number. Printed on your gas meter and on your bill. 
+          Looks like _G3P69380371200_.
+        * `mprn` - The MPRN for your gas meter. On your bill as _Meter Point Reference_,
+          looks like 3429439001.
+        * `electricserial` - The electricity meters serial number. Printed on your meter
+          and on your bill. Looks like _12P1022008_.
+        * `mpan` - The MPAN for you electricity meter. On your bill as _Supply Number_, 
+          looks like 2019820081223
+        
+        ## Examples
+        
+        The tool uses plotly to graph data. Here are some examples.
+        
+        ### Daily
+        
+        A graph showing gas and electricity usage on a specific date.
+        
+        ![](graphs/daily.png)
+        
+        ### Weekly
+        
+        A graph showing gas and electricity usage for a specific week.
+        
+        ![](graphs/weekly.png)
+        
+        ### Average Hourly
+        
+        A graph showing the average energy usage at specific times during the day.
+        
+        ![](graphs/average_hourly.png)
+        
+        ### Average Daily
+        
+        A graph showing the average energy usage on specific days of the week.
+        
+        ![](graphs/average_daily.png)
+        
+        ### Average Weekly
+        
+        A graph showing the average energy usage on weeks throughout the year.
+        
+        ![](graphs/average_weekly.png)
+        
+Keywords: Octopus Energy,plotly,graph
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
