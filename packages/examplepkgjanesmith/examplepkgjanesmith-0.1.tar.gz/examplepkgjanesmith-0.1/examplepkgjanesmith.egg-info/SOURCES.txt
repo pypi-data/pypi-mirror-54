@@ -1,0 +1,7 @@
+setup.py
+examplepkgjanesmith/__init__.py
+examplepkgjanesmith.egg-info/PKG-INFO
+examplepkgjanesmith.egg-info/SOURCES.txt
+examplepkgjanesmith.egg-info/dependency_links.txt
+examplepkgjanesmith.egg-info/not-zip-safe
+examplepkgjanesmith.egg-info/top_level.txt
