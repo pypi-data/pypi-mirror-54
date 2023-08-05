@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pic2tweet
+Version: 1.0.0
+Summary: Tweets the image files of the current directory and then deletes them.
+Home-page: https://github.com/tallesl/py-pic2tweet
+Author: Talles Lasmar
+Author-email: talleslasmar@gmail.com
+License: UNKNOWN
+Description: # pic2tweet
+        
+        [![](https://badge.fury.io/py/pic2tweet.svg)](https://pypi.org/project/pic2tweet)
+        
+        
+        Tweets the image files of the current directory and then deletes them.
+        
+        ```
+        $ pic2tweet [api key] [api secret key] [access token] [access token secret]
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
