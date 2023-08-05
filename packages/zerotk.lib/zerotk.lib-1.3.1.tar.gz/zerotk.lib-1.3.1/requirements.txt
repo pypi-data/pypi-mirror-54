@@ -1,0 +1,8 @@
+ruamel.yaml
+semantic_version
+pathspec
+pytest
+datadiff
+pytest-datadir
+pytest-cov
+codecov
