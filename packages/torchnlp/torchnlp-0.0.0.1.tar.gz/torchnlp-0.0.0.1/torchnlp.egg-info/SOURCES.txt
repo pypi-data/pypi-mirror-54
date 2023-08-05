@@ -1,0 +1,8 @@
+README.md
+setup.py
+torchnlp/__init__.py
+torchnlp.egg-info/PKG-INFO
+torchnlp.egg-info/SOURCES.txt
+torchnlp.egg-info/dependency_links.txt
+torchnlp.egg-info/requires.txt
+torchnlp.egg-info/top_level.txt

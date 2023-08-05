@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: torchnlp
+Version: 0.0.0.1
+Summary: NLP framework implemented with pytorch
+Home-page: https://github.com/smilelight/torchnlp
+Author: lightsmile
+Author-email: iamlightsmile@gmail.com
+License: Apache-2.0
+Description: # torchnlp
+        NLP framework implemented with pytorch
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
