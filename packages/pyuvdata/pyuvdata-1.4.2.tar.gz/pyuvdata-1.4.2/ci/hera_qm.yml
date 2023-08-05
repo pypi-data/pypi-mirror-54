@@ -1,0 +1,16 @@
+name: hera_qm
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - aipy
+  - astropy
+  - pyephem
+  - h5py
+  - healpy
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - scipy
+  - six
+  - pytest
