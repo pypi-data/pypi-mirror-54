@@ -1,0 +1,14 @@
+.gitignore
+AUTHORS
+LICENSE
+README.md
+setup.py
+test_xactor/test_simple.py
+xactor/__init__.py
+xactor/mpi_acomm.py
+xactor/mpi_actor.py
+xactor.egg-info/PKG-INFO
+xactor.egg-info/SOURCES.txt
+xactor.egg-info/dependency_links.txt
+xactor.egg-info/requires.txt
+xactor.egg-info/top_level.txt
