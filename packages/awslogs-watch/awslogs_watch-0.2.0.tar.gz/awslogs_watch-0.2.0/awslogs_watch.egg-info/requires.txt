@@ -1,0 +1,8 @@
+prompt_toolkit==2.0.9
+awslogs
+
+[develop]
+pytest
+pytest-sugar
+pytest-mock
+black
