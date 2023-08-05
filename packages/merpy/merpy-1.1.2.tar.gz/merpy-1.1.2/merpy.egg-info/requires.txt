@@ -1,0 +1,5 @@
+p_tqdm
+requests
+
+[dev]
+setuptools-changelog
