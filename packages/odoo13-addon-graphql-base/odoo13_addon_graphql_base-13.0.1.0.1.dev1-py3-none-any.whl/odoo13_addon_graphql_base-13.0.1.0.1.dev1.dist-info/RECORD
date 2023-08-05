@@ -1,0 +1,16 @@
+odoo/addons/graphql_base/README.rst,sha256=WgStpIIwMs9gdHlb6YXlQtQs-PJVb8W-jwN0JLuDXf8,5785
+odoo/addons/graphql_base/__init__.py,sha256=uUOQXTQvA4C9AA8kanVZXRistyt_fArjwUTiDeOcjH8,177
+odoo/addons/graphql_base/__manifest__.py,sha256=7ZcbKaPPVN4haEHMnzRYKgOuBVZyIP_vOYWvkCj7c94,594
+odoo/addons/graphql_base/types.py,sha256=nQS9BSls-vUTVRu7ukorpYoKjNPO1-fHkk2sL5iV8fo,1473
+odoo/addons/graphql_base/controllers/__init__.py,sha256=ZIN2C-VS61o2gBqtJeXdyKgrRdr9YMrUJ0bTaLLqjcU,41
+odoo/addons/graphql_base/controllers/main.py,sha256=sdeRfHHWYFImPkmCLLRf_F_0icfaQtYVlgDub5abKjE,3783
+odoo/addons/graphql_base/i18n/graphql_base.pot,sha256=v46U1klAW8kOK9Oz13Ew5wGVxrtUxR5igvQYitnuUCg,346
+odoo/addons/graphql_base/readme/DESCRIPTION.rst,sha256=ZAgsQ6AkDnCQThZDt8afZ7FErSItUXZ4Pq8vBAnXOB0,330
+odoo/addons/graphql_base/readme/USAGE.rst,sha256=RGxMgeCxywtGHNuiz5RCJvlSAuFDGFa1u0C-WhmrNjE,2714
+odoo/addons/graphql_base/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/graphql_base/static/description/index.html,sha256=0NWPRQ2SX3HkwE7PBE_sKsbjTiHydBJxyBOpKwNfmGw,17702
+odoo/addons/graphql_base/views/graphiql.xml,sha256=UsWcziG72Iz_QHMfZYkX1UKnUDol6b5mVk-BXfbLFY4,6466
+odoo13_addon_graphql_base-13.0.1.0.1.dev1.dist-info/METADATA,sha256=3d1Pe4knkKrxBFbw-HPMdYgCjRxeulAmNbvGT7af_nQ,6409
+odoo13_addon_graphql_base-13.0.1.0.1.dev1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+odoo13_addon_graphql_base-13.0.1.0.1.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_graphql_base-13.0.1.0.1.dev1.dist-info/RECORD,,
