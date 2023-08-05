@@ -1,0 +1,16 @@
+README.md
+setup.py
+pystickynote/__init__.py
+pystickynote/__main__.py
+pystickynote/config.py
+pystickynote/core.py
+pystickynote/paths.py
+pystickynote.egg-info/PKG-INFO
+pystickynote.egg-info/SOURCES.txt
+pystickynote.egg-info/dependency_links.txt
+pystickynote.egg-info/entry_points.txt
+pystickynote.egg-info/requires.txt
+pystickynote.egg-info/top_level.txt
+pystickynote.egg-info/zip-safe
+pystickynote/lib/PySimpleGUIQt.py
+pystickynote/lib/__init__.py
