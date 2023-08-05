@@ -1,0 +1,3 @@
+[console_scripts]
+parsewhen = parsewhen.__main__:main
+
