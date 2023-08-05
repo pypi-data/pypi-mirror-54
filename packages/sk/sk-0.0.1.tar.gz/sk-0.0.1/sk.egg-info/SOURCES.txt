@@ -1,0 +1,8 @@
+README.md
+setup.py
+sk/__init__.py
+sk.egg-info/PKG-INFO
+sk.egg-info/SOURCES.txt
+sk.egg-info/dependency_links.txt
+sk.egg-info/not-zip-safe
+sk.egg-info/top_level.txt
