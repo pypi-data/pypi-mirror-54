@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: thesoulshell
+Version: 0.0.2
+Summary: add a little soul to your python
+Home-page: https://github.com/mrmechko/soul
+Author: Rik Bose
+Author-email: rbose@cs.rochester.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Welcome to **thesoulshell**
+
+## Warning
+
+**soul** is an entirely unnecessary library consisting largely of functions I think will be useful to me.
+I may be very wrong.  **soul** comes with no warranty.
+
+
+
