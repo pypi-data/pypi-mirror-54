@@ -1,0 +1,4 @@
+[console_scripts]
+msl = mussels.__main__:cli
+mussels = mussels.__main__:cli
+
