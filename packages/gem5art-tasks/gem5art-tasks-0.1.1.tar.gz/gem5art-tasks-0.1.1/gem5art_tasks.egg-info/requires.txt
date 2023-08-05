@@ -1,0 +1,5 @@
+pymongo
+celery
+
+[flower]
+flower
