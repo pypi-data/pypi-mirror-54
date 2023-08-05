@@ -1,0 +1,10 @@
+deployment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deployment/github_requester.py,sha256=S6rvw6oROJcITSh12s3pYgrGKVfrfsZrn72C-QwvKq4,435
+deployment/json_loader.py,sha256=2KGA8cS_Qhki3dp2kckMXcxfbB0vUBMz75Pawqw9mI0,1814
+deployment/main.py,sha256=oppvCMvtuRs9tmIE-UC-oTanA3uNoTQl2GBQWpai5jU,2647
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+githubdeployment-1.0.1.dist-info/LICENSE,sha256=SV9ZOVvQLVCMaTmTQQpsEhH-7T9HIAtkM2aLRA23cr8,1096
+githubdeployment-1.0.1.dist-info/METADATA,sha256=S_IMWMhe_1FZAyiprW5s006wsErzjPWU1mI6C9hznUw,1710
+githubdeployment-1.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+githubdeployment-1.0.1.dist-info/top_level.txt,sha256=SbSz43VWZ3H0ySt5gDnQ6q3KNezYD57fGMSafmZZae8,17
+githubdeployment-1.0.1.dist-info/RECORD,,
