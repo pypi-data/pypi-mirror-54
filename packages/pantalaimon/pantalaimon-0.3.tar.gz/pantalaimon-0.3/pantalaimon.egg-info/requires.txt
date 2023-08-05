@@ -1,0 +1,22 @@
+attrs
+aiohttp
+appdirs
+click
+keyring
+logbook
+peewee
+janus
+prompt_toolkit
+matrix-nio[e2e]>=0.4.1
+
+[:python_version < "3.5"]
+typing
+
+[e2e_search]
+tantivy
+
+[ui]
+dbus-python
+PyGObject
+pydbus
+notify2
