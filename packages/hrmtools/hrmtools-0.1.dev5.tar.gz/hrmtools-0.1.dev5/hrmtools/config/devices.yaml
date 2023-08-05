@@ -1,0 +1,123 @@
+## Loockup table that give information on device properties
+## So far this is just a loockup for column names in xls sheet 
+## DO NOT edit so far it is used to transform xls column name to python compatible names 
+## 
+level2: 
+    xls_col_name: Level 2
+    ftype: 'str_choice'
+level3: 
+    xls_col_name: Level 3
+    ftype: 'str_choice'
+unique_letter: 
+    xls_col_name: Unique letter
+    ftype: 'str_choice'
+elec_name: 
+    xls_col_name: Elec name in IF map
+    ftype: 'str_choice'
+id: 
+    xls_col_name: 'Unique name (ID), max 10 characters'
+other_id: 
+    xls_col_name: Other proposal
+pbs_code: 
+    xls_col_name: PBS code
+    ftype: 'str'
+device_name: 
+    xls_col_name: Device name
+also_called: 
+    xls_col_name: "Also called\u2026"
+device_type: 
+    xls_col_name: HW device type
+    ftype: 'str_choice'
+quantity: 
+    xls_col_name: '#'
+    ftype: 'int'
+quantity_comment: 
+    xls_col_name: Comment (nb of devices)
+motor_type: 
+    xls_col_name: Motor type (if motor)
+    ftype: 'str_choice'
+use_case: 
+    xls_col_name: Use case
+part: 
+    xls_col_name: Part
+    ftype: 'str_choice'
+operations_per_day: 
+    xls_col_name: Operations per day
+interlock: 
+    xls_col_name: Interlock
+external_sync: 
+    xls_col_name: External sync
+signal_frame_rate: 
+    xls_col_name: Signal/frame rate (Hz)
+thermal_domain: 
+    xls_col_name: Thermal domain
+rot_domain: 
+    xls_col_name: Rot. domain
+range: 
+    xls_col_name: Range
+accuracy:
+    xls_col_name: Accuracy
+repeatability: 
+    xls_col_name: Precision or repeatability
+plc: 
+    xls_col_name: PLC
+    ftype: 'str_choice'   
+physical_network: 
+    xls_col_name: Physical network
+    ftype: 'str_choice'
+wp_responsible:
+    xls_col_name: WP responsible for low-level SW control
+    ftype: 'str_choice'
+additional_analog_sensor:
+    xls_col_name: Additional analog sensors
+additional_analog_sensor_quantity: 
+    xls_col_name: '#2'
+additional_analog_sensor_quantity_comment: 
+    xls_col_name: Comments (#)
+controller: 
+    xls_col_name: Controller
+fcs_detail: 
+    xls_col_name: Detail on FCS device if any
+fcs_device_quantity: 
+    xls_col_name: Nb of SW FCS devices
+fits_category: 
+    xls_col_name: FITS category
+fits_kw: 
+    xls_col_name: FITS KW
+fits_name: 
+    xls_col_name: FITS NAME. Prefix the name with a 4 letter mnemonic  followed
+                  by some optical characteristics (max 30 characters)
+fits_sub_system: 
+    xls_col_name: FITS sub-system
+
+
+model_comment: 
+    xls_col_name: Comments (model)
+
+
+
+pbs_code: 
+    xls_col_name: PBS code
+
+
+power: 
+    xls_col_name: Power
+
+
+
+
+
+sensor_grouping: 
+    xls_col_name: Sensor grouping
+
+sw_control_master: 
+    xls_col_name: SW control master
+sw_device: 
+    xls_col_name: SW device on instrument SW (WP31)
+    ftype: 'str_choice'
+sw_supervision: 
+    xls_col_name: Supervision SW
+
+
+
+
