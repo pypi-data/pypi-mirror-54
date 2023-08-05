@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: nsglib
+Version: 1.0.0.0
+Summary: NSG Common Python Library
+Home-page: https://gitlab.com/GitLabRGI/nsg/nsg-tile-cache/nsg-common-library
+Author: Richard Kim & Jenifer Cochran
+Author-email: developer.publishers@rgi-corp.com
+License: MIT
+Description: # NSG Common Library
+        
+        NSG common library.
+        
+        A Python 3 library that contains the basic objects and schemas that NSG tile
+        caches, or NSG components would need to adhere to.
+        
+        # Motivation
+        
+        We wanted a library to contain common geospatial objects and commonly used
+         functions to be used acrossed NSG python geospatial libraries and tools.
+        
+        ## Build status
+        [![pipeline status](https://gitlab.com/%{project_path}/badges/%{default_branch}/pipeline.svg)](https://gitlab.com/%{project_path}/commits/%{default_branch})
+        [![pipeline status](https://gitlab.com/GitLabRGI/nsg/nsg-tile-cache/nsg-common-library/badges/master/pipeline.svg)](https://gitlab.com/GitLabRGI/nsg/nsg-tile-cache/nsg-common-library/commits/master})
+        
+        ## Sample Code
+        
+        Example of calculating resolution width and height:
+        
+        ```python
+        from nsg.rgi.common.spatial_reference_system import SpatialReferenceSystem
+        from nsg.rgi.tile_cache.tile_scheme import calc_resolutions
+        
+        resolution_width, resolution_height = calc_resolutions(bounding_box=SpatialReferenceSystem.NSG_WORLD_GEODETIC.world_bounding_box,
+                                                               tile_size=(256, 256),
+                                                               zoom_level=1,
+                                                               tile_scheme=SpatialReferenceSystem.NSG_WORLD_GEODETIC.tile_scheme)
+        ```
+        
+        ## Installation
+        pip install nsglib
+        
+        ## Common NSG objects
+        
+        Some examples of NSG objects include (but not limited to):
+        * SpatialReferenceSystem
+        * BoundingBox
+        * Coordinate
+        
+        The most common *Spatial Reference Systems* that are defined are
+        **EPSG:4326, EPSG:3395**, and **EPSG:3857**.
+        These Spatial Reference Systems can be easily accessed by using the Python Enum:
+         `SpatialReferenceSystem.NSG_WORLD_GEODETIC`,
+         `SpatialReferenceSystem.NSG_WORLD_MERCATOR`, `SpatialReferenceSystem.WEB_MERCATOR`
+        
+        The *bounding box* defines an object that holds the extent information in a
+        particular Coordinate Reference System.
+        
+        A *Coordinate* is an geographical location on a map. They can be used for
+        Coordinate Reference System coordinates or tile coordinates.
+        
+        ## Tile Cache NSG Objects
+        
+        Some examples of Tile Cache objects include(but not limited to):
+        * Tile
+        * TileScheme
+        * AbstractTileCache
+        
+        A *Tile* has a coordinate location (row, colum, zoom level) and a source.
+        The coordinate location describes where to place the tile.
+        The source is the tile data in bytes (the jpeg, png, or vector-tile data).
+        
+        A *Tile Scheme* is how the world is divided up into tiles based on zoom level.
+        There is also an implementation included called `ZoomTimesTwo` which is a tile
+        scheme implementation of a common convention where a tile set's tile matrix
+        doubles width and height between successive zoom levels.
+        
+        *Tile Scheme* class also includes functions for calculating the resolution and
+        scale denominator.
+        
+        An *AbstractTileCache* are the basic functions that a tile cache should include.
+        Some example tile caches are [Compact Cache V2](https://gitlab.com/GitLabRGI/nsg/nsg-tile-cache/compact-cache-python),
+        [GeoPackage](add_url_2_gpkg), and [File based Cache](https://gitlab.com/GitLabRGI/nsg/nsg-tile-cache/file-tile-cache-python).
+        
+        ## License
+        
+        MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
