@@ -1,0 +1,14 @@
+requests
+ecdsa
+msgpack
+base58
+lark-parser
+semver
+
+[dev]
+check-manifest
+pydot
+
+[test]
+coverage
+pytest
