@@ -1,0 +1,4 @@
+#!/bin/bash
+curl -g "https://api.pubg.com/shards/pc/players?filter[playerNames]=stx0" \
+-H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0MjRkY2YwMC02ZmVkLTAxMzctZmMwZC0wNmRjMWRmNzRmNjMiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTYwNDE4ODUyLCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6InRoZXN0eDk2LWdtYWlsIn0.Kticp3diu8KUTpCbC1nwHqgKBLF51pUkjg6_amaLaw0" \
+-H "Accept: application/vnd.api+json"
