@@ -1,0 +1,39 @@
+Metadata-Version: 1.2
+Name: dax
+Version: 0.11.4
+Summary: Distributed Automation for XNAT
+Home-page: http://github.com/VUIIS/dax
+Author: VUIIS CCI
+Author-email: bdboyd42@gmail.com
+Maintainer: VUIIS CCI
+Maintainer-email: bdboyd42@gmail.com
+License: MIT
+Download-URL: http://github.com/VUIIS/dax
+Description: 
+        ========================================================
+        DAX: Distributed Automation for XNAT
+        ========================================================
+        
+        *DAX*, is  a python package developed at Vanderbilt University, Nashville, TN,
+        USA. It's available on github at: https://github.com/VUIIS/dax.
+        
+        *DAX* allows you to:
+        
+        * extract information from XNAT via scripts (Xnat_tools)
+        * store and view image analysis results on XNAT (data_types)
+        * run pipelines on your data in XNAT
+        
+Platform: MacOs
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 2 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
