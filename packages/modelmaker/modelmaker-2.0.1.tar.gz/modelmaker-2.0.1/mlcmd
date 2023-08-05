@@ -1,0 +1,123 @@
+#!/usr/bin/python
+## -*-coding:utf-8-*-
+import sys
+import os
+import json
+import argparse
+import readline
+from sys import version_info
+from collections import OrderedDict
+from os.path import expanduser
+
+if os.path.exists(expanduser("~/.modelmaker")):
+	pass
+else:
+	os.mkdir(expanduser("~/.modelmaker"))
+
+config_file = os.path.join(expanduser("~/.modelmaker"), "config.json")
+
+def output(message):
+	#sys.stdout.write(message + '\n')
+	#sys.stdout.flush()
+	print(message)
+
+class config(object):
+	username=''
+	password=''
+	host_base='https://mmr.wangsucloud.com:9948/mmr'
+	region='js01'
+	versify_ssl=True
+	s3_protocol='http'
+	bucket=''
+	_instance=None
+	def __new__(cls, *args,**kwargs):
+		if cls._instance == None:
+			cls._instance = object.__new__(cls)
+		return cls._instance
+	def __init__(self):
+		pass
+		#print('init')
+	def save(self,file_path):
+		item_dict = OrderedDict()
+		item_dict['username'] = self.username
+		item_dict['password'] = self.password
+		item_dict['host_base'] = self.host_base
+		item_dict['region'] = self.region
+		item_dict['versify_ssl'] = self.versify_ssl
+		item_dict['s3_protocol'] = self.s3_protocol
+		item_dict['bucket'] = self.bucket
+		config_dict = {
+			"iam_config":item_dict
+		}
+		json_str = json.dumps(config_dict,indent=4)
+		with open(file_path,'w') as json_file:
+			json_file.write(json_str)	
+
+def user_input(input_str):
+	if version_info.major == 2:
+		val = raw_input(input_str)
+	else:
+		val = input(input_str)
+	return val
+
+def run_configure(file_path):
+	cfg = config()
+	options = [
+		("username", "User name"),
+		("password", "Passord"),
+		("host_base", "Host_base", "Api interface"),
+		("region", "Region"),
+		("versify_ssl", "Versify_ssl","Whether or not versify ssl"),
+		("s3_protocol", "S3_protocol","S3 interface protocol"),
+		("bucket", "Bucket","S3 bucket name")
+	]
+	try:
+		while True:
+			output(u"Enter new values or accept defaults in brackets with Enter")
+			output(u"Refer to user manual for detailed description of all options")
+			for option in options:
+				prompt = option[1]
+				try:
+
+					val = getattr(cfg, option[0])
+					if type(val) is bool:
+						val = val and "Yes" or "No"
+					if val not in (None, ""):
+						prompt += " [%s]" % val
+				except AttributeError:
+						pass
+
+				if len(option) >= 3:
+					output(u"\n%s" % option[2])
+				val = user_input(prompt + ": ")
+				if val != "":
+					if type(getattr(cfg, option[0])) is bool:
+						val = val.lower().startswith('y')
+					setattr(cfg, option[0], val)
+			output(u"\nNew settings:")
+			for option in options:
+				output(u"  %s: %s" % (option[0], getattr(cfg, option[0])))
+			val = user_input("\nSave settings? [y/N] ")
+			if val.lower().startswith("y"):
+				cfg.save(file_path)
+				break
+			val = user_input("Retry configuration? [Y/n] ")
+			if val.lower().startswith("n"):
+				raise EOFError()
+	except (EOFError, KeyboardInterrupt):
+		#output(u"\nConfiguration aborted. Changes were NOT saved.")
+		output(u"\nConfiguration aborted. Changes were NOT saved.")
+		return
+	except IOError as e:
+		output(u"\nConfiguration aborted. Changes were NOT saved.")
+		#print(u"Writing config file failed: %s: %s" % (config_file, e.strerror))
+		sys.exit()
+
+PARSER = argparse.ArgumentParser()
+# Input Arguments
+PARSER.add_argument('--configure',dest='runconfig',help='GCS file or local paths to training data',nargs='+',default=config_file)
+ARGUMENTS, _ = PARSER.parse_known_args()
+if ARGUMENTS.runconfig:
+	run_configure(ARGUMENTS.runconfig)
+	sys.exit()
+
