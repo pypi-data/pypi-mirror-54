@@ -1,0 +1,16 @@
+.requirements.txt
+MANIFEST.in
+README.md
+setup.py
+sciexp2/exprun/__init__.py
+sciexp2/exprun/cpu.py
+sciexp2/exprun/files.py
+sciexp2/exprun/kernel.py
+sciexp2/exprun/process.py
+sciexp2/exprun/spur.py
+sciexp2/exprun/util.py
+sciexp2/exprun/wait.py
+sciexp2_exprun.egg-info/PKG-INFO
+sciexp2_exprun.egg-info/SOURCES.txt
+sciexp2_exprun.egg-info/dependency_links.txt
+sciexp2_exprun.egg-info/top_level.txt
