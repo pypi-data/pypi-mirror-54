@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/InteractiveProcess/__init__.py
+src/InteractiveProcess/error.py
+src/InteractiveProcess/methodsprocess.py
+src/InteractiveProcess/version.py
+src/robotframework_interactiveprocess.egg-info/PKG-INFO
+src/robotframework_interactiveprocess.egg-info/SOURCES.txt
+src/robotframework_interactiveprocess.egg-info/dependency_links.txt
+src/robotframework_interactiveprocess.egg-info/not-zip-safe
+src/robotframework_interactiveprocess.egg-info/top_level.txt
