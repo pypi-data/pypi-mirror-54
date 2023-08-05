@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+lxml = "*"
+xxhash = "*"
+click = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+test = "py.test --cov-report=xml --cov=ocopy -v"
