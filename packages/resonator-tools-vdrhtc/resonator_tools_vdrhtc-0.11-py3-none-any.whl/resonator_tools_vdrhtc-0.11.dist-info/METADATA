@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: resonator-tools-vdrhtc
+Version: 0.11
+Summary: resonator_tools fork from vdrhtc
+Home-page: https://github.com/vdrhtc/resonator_tools
+Author: Sebastian Probst
+Author-email: seb.probst@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/vdrhtc/resonator_tools
+Platform: UNKNOWN
+Requires-Dist: nose
+
+UNKNOWN
+
+
