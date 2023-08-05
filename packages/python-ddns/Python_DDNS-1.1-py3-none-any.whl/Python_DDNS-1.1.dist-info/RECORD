@@ -1,0 +1,11 @@
+python_ddns/__init__.py,sha256=ynCivmYzcb55c72mckZocxLEeuvmHcipY3nS9JrTVcY,32
+python_ddns/__main__.py,sha256=zD2ceqvK7-tvMMDn2ErlRXfVaDSwkf6cdjq_mNUJ5ik,76
+python_ddns/cloudflare.py,sha256=txK7OLORR7T7lOmoZLCfvTKVOs3EZvYQEKGgTjClRqU,2354
+python_ddns/config.conf,sha256=R6obJNcTtxb5oDDzHJa1HIie1x3TmEdJz9eVmoPidJI,744
+python_ddns/python_ddns.py,sha256=9eYllxZONqNaPlqfED4pX60feuFUG_6_Na8dFsLjEzo,802
+Python_DDNS-1.1.dist-info/LICENSE.md,sha256=FqnB9x20ctgBVMoX1UefInWV79tyekWDyZJ_2McJZ1Q,35823
+Python_DDNS-1.1.dist-info/METADATA,sha256=gKvwy2RHxnpjz13T091hjmdVjxtzZCVA5fJ6_W2gMx0,2351
+Python_DDNS-1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+Python_DDNS-1.1.dist-info/entry_points.txt,sha256=SxJTm_oq3wBm_EXXo2U5mdtGM3QuViDgzMf4uW-yGbU,62
+Python_DDNS-1.1.dist-info/top_level.txt,sha256=r11vbenzXKDk1g-3FxPvYQ9O7r8zsGBSOJWb5Ol_MnQ,12
+Python_DDNS-1.1.dist-info/RECORD,,

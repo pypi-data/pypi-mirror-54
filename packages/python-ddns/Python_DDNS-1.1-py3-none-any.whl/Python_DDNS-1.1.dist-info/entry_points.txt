@@ -1,0 +1,3 @@
+[console_scripts]
+python-ddns = python_ddns.python_ddns:main
+
