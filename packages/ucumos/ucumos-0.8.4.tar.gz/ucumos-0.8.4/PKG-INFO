@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ucumos
+Version: 0.8.4
+Summary: CubeAI模型打包客户端
+Home-page: https://github.com/cube-ai/cubeai-python-client.git
+Author: cubeai
+Author-email: cubeai@163.com
+License: Apache License 2.0
+Description: # cubeai-python-client
+        
+        CubeAI模型打包客户端。
+        
+        基于acumos-python-client改编。
+        
+        
+Keywords: CubeAI machine learning model modeling artificial intelligence ml ai
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.5, <=3.7
+Description-Content-Type: text/markdown

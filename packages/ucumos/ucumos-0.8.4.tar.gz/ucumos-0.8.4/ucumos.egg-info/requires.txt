@@ -1,0 +1,6 @@
+protobuf
+requests
+numpy
+dill
+appdirs
+filelock
