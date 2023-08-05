@@ -1,0 +1,7 @@
+setup.py
+permutations/__init__.py
+permutations/email_permutations.py
+test_pratik_devil_dani.egg-info/PKG-INFO
+test_pratik_devil_dani.egg-info/SOURCES.txt
+test_pratik_devil_dani.egg-info/dependency_links.txt
+test_pratik_devil_dani.egg-info/top_level.txt
