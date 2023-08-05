@@ -1,0 +1,9 @@
+setup.py
+BDPapi.egg-info/PKG-INFO
+BDPapi.egg-info/SOURCES.txt
+BDPapi.egg-info/dependency_links.txt
+BDPapi.egg-info/requires.txt
+BDPapi.egg-info/top_level.txt
+bdp/__init__.py
+bdp/api.py
+bdp/test.py
