@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: anywhere
+Version: 0.2.5
+Summary: Turn logical sentences into serializable, executable queries.
+Home-page: https://github.com/mlga/anywhere
+Author: mlga
+Author-email: github@mlga.io
+License: MIT
+Description: # anywhere
+        Turn logical sentences into serializable, executable queries.
+        
+Keywords: filtering sqlalchemy query graphene protobuf
+Platform: any
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: develop
+Provides-Extra: sqlalchemy
+Provides-Extra: protobuf
+Provides-Extra: graphene

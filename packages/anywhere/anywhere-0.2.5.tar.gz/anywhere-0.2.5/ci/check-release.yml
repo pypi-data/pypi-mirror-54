@@ -1,0 +1,14 @@
+steps:
+- task: UsePythonVersion@0
+  continueOnError: false
+  inputs:
+    versionSpec: '3.7'
+    architecture: 'x64'
+  displayName: 'Use Python 3.7'
+- script: pip install setuptools_scm
+  continueOnError: false
+- bash: |
+    IS_RELEASE=$(python ci/is_release.py)
+    echo "Is release: $IS_RELEASE"
+    echo "##vso[task.setvariable variable=isRelease;isOutput=true]$IS_RELEASE"
+  name: DetermineRelease
