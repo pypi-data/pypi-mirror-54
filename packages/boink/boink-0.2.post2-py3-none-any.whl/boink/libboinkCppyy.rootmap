@@ -1,0 +1,375 @@
+{ decls }
+namespace std {  }
+namespace boink { namespace storage {  } }
+namespace boink { namespace storage { template <typename ValueType> class Storage; } }
+namespace boink { namespace storage { class NibbleStorage; } }
+namespace boink { namespace storage { template <typename Storage> class is_probabilistic; } }
+namespace boink { namespace storage { template <typename Storage> class is_counting; } }
+namespace boink { namespace storage { class BitStorage; } }
+namespace boink { namespace storage { class QFStorage; } }
+namespace boink { namespace storage { class ByteStorage; } }
+namespace spp {  }
+namespace spp { template <typename T> class spp_hash; }
+namespace spp { template <typename T> class libc_allocator; }
+namespace spp { template <typename Value, typename HashFcn, typename EqualKey, typename Alloc> class sparse_hash_set; }
+namespace boink { namespace storage { class SparseppSetStorage; } }
+namespace boink { namespace hashing {  } }
+namespace boink { namespace parsing {  } }
+namespace boink { namespace metrics {  } }
+namespace boink { namespace metrics { template <typename T> class ReservoirSample; } }
+namespace boink {  }
+namespace boink { namespace hashing { class RollingHashShifter; } }
+namespace boink { template <typename StorageType, typename HashShifter> class dBG; }
+namespace boink { namespace signatures { class SourmashSignature; } }
+namespace boink { namespace cdbg { template <typename CompactorType, typename SignatureType> class SaturatingCompactor; } }
+namespace boink { namespace parsing { class FastxParser; } }
+namespace boink { template <typename Derived, typename ParserType> class FileProcessor; }
+namespace boink { template <typename ShifterType> class WKMinimizer; }
+namespace boink { namespace cdbg {  } }
+namespace boink { namespace signatures {  } }
+namespace boink { namespace parsing { template <typename SeqIO> class SequenceReader; } }
+namespace boink { namespace parsing { template <typename ParserType> class SplitPairedReader; } }
+namespace boink { namespace hashing { template <typename ShifterType> class KmerIterator; } }
+namespace boink { namespace hashing { class UKHS; } }
+namespace boink { template <typename GraphType> class Traverse; }
+namespace boink { template <typename BaseStorageType> class PdBG; }
+namespace boink { namespace cdbg { template <typename GraphType> class cDBG; } }
+namespace spp { template <typename Key, typename T, typename HashFcn, typename EqualKey, typename Alloc> class sparse_hash_map; }
+namespace boink { namespace cdbg { template <typename StorageType> class uDBG; } }
+namespace boink { namespace cdbg { template <typename GraphType> class StreamingCompactor; } }
+namespace boink { namespace signatures { template <typename StorageType> class UnikmerSignature; } }
+namespace boink { template <typename T> class InteriorMinimizer; }
+
+[ libboinkCppyy.so ]
+# List of selected classes
+class boink::DEFAULT_INTERVALS
+class boink::FileProcessor<boink::WKMinimizer<boink::hashing::RollingHashShifter>::Processor,boink::parsing::FastxParser>
+class boink::FileProcessor<boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor,boink::parsing::FastxParser>
+class boink::FileProcessor<boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor,boink::parsing::FastxParser>
+class boink::FileProcessor<boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor,boink::parsing::FastxParser>
+class boink::FileProcessor<boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor,boink::parsing::FastxParser>
+class boink::FileProcessor<boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor,boink::parsing::FastxParser>
+class boink::InteriorMinimizer<unsigned long>
+class boink::PdBG<boink::storage::BitStorage>
+class boink::PdBG<boink::storage::ByteStorage>
+class boink::PdBG<boink::storage::NibbleStorage>
+class boink::PdBG<boink::storage::QFStorage>
+class boink::PdBG<boink::storage::SparseppSetStorage>
+class boink::Traverse<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::BitStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::Traverse<boink::dBG<boink::storage::BitStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::Traverse<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::ByteStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::Traverse<boink::dBG<boink::storage::ByteStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::Traverse<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::NibbleStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::Traverse<boink::dBG<boink::storage::NibbleStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::Traverse<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::QFStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::Traverse<boink::dBG<boink::storage::QFStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::Traverse<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >
+class boink::Traverse<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::Traverse<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::UKHS::LazyShifter> >
+class boink::WKMinimizer<boink::hashing::RollingHashShifter>
+class boink::WKMinimizer<boink::hashing::RollingHashShifter>::Processor
+class boink::cdbg::HistoryClipEvent
+class boink::cdbg::HistoryDeleteEvent
+class boink::cdbg::HistoryExtendEvent
+class boink::cdbg::HistoryMergeEvent
+class boink::cdbg::HistoryNewEvent
+class boink::cdbg::HistorySplitCircularEvent
+class boink::cdbg::HistorySplitEvent
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>
+class boink::cdbg::SaturatingCompactor<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter>,boink::signatures::SourmashSignature::Signature>::Processor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::Compactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::Report
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::Reporter
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::SolidCompactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::compact_segment
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::Compactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::Report
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::Reporter
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::SolidCompactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::compact_segment
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::Compactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::Report
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::Reporter
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::SolidCompactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::compact_segment
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::Compactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::Report
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::Reporter
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::SolidCompactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::compact_segment
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::Compactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::Report
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::Reporter
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::SolidCompactor
+class boink::cdbg::StreamingCompactor<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::compact_segment
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::CompactNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::ComponentReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::ComponentReporter::Metrics
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::DecisionNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::Graph
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::HistoryReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::Writer
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::CompactNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::ComponentReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::ComponentReporter::Metrics
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::DecisionNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::Graph
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::HistoryReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::Writer
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::CompactNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::ComponentReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::ComponentReporter::Metrics
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::DecisionNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::Graph
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::HistoryReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::Writer
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::CompactNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::ComponentReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::ComponentReporter::Metrics
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::DecisionNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::Graph
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::HistoryReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::Writer
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::CompactNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::ComponentReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::ComponentReporter::Metrics
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::DecisionNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::Graph
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::HistoryReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigNode
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigReporter
+class boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::Writer
+class boink::cdbg::cDBGMetrics
+class boink::cdbg::uDBG<boink::storage::BitStorage>
+class boink::cdbg::uDBG<boink::storage::BitStorage>::Graph
+class boink::cdbg::uDBG<boink::storage::BitStorage>::Tag
+class boink::cdbg::uDBG<boink::storage::BitStorage>::UnitigTip
+class boink::cdbg::uDBG<boink::storage::ByteStorage>
+class boink::cdbg::uDBG<boink::storage::ByteStorage>::Graph
+class boink::cdbg::uDBG<boink::storage::ByteStorage>::Tag
+class boink::cdbg::uDBG<boink::storage::ByteStorage>::UnitigTip
+class boink::cdbg::uDBG<boink::storage::NibbleStorage>
+class boink::cdbg::uDBG<boink::storage::NibbleStorage>::Graph
+class boink::cdbg::uDBG<boink::storage::NibbleStorage>::Tag
+class boink::cdbg::uDBG<boink::storage::NibbleStorage>::UnitigTip
+class boink::cdbg::uDBG<boink::storage::QFStorage>
+class boink::cdbg::uDBG<boink::storage::QFStorage>::Graph
+class boink::cdbg::uDBG<boink::storage::QFStorage>::Tag
+class boink::cdbg::uDBG<boink::storage::QFStorage>::UnitigTip
+class boink::cdbg::uDBG<boink::storage::SparseppSetStorage>
+class boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::Graph
+class boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::Tag
+class boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::UnitigTip
+class boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter>
+class boink::dBG<boink::storage::BitStorage,boink::hashing::UKHS::LazyShifter>
+class boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter>
+class boink::dBG<boink::storage::ByteStorage,boink::hashing::UKHS::LazyShifter>
+class boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter>
+class boink::dBG<boink::storage::NibbleStorage,boink::hashing::UKHS::LazyShifter>
+class boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter>
+class boink::dBG<boink::storage::QFStorage,boink::hashing::UKHS::LazyShifter>
+class boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter>
+class boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::UKHS::LazyShifter>
+class boink::hashing::InvalidCharacterException
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::BitStorage,boink::hashing::UKHS::LazyShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::ByteStorage,boink::hashing::UKHS::LazyShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::NibbleStorage,boink::hashing::UKHS::LazyShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::QFStorage,boink::hashing::UKHS::LazyShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::Traverse<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::UKHS::LazyShifter> >::dBG>
+class boink::hashing::KmerIterator<boink::hashing::RollingHashShifter>
+class boink::hashing::KmerIterator<boink::hashing::UKHS::LazyShifter>
+class boink::hashing::RollingHashShifter
+class boink::hashing::SequenceLengthException
+class boink::hashing::UKHS
+class boink::hashing::UKHS::BinnedKmer
+class boink::hashing::UKHS::LazyShifter
+class boink::hashing::UKHS::Map
+class boink::hashing::UKHS::Unikmer
+class boink::metrics::Gauge
+class boink::metrics::ReservoirSample<unsigned long>
+class boink::parsing::FastxParser
+class boink::parsing::InvalidRead
+class boink::parsing::InvalidReadPair
+class boink::parsing::NoMoreReadsAvailable
+class boink::parsing::Record
+class boink::parsing::RecordPair
+class boink::parsing::SequenceReader<boink::parsing::FastxParser>
+class boink::parsing::SplitPairedReader<boink::parsing::FastxParser>
+class boink::signatures::IncompatibleSignature
+class boink::signatures::SourmashSignature
+class boink::signatures::SourmashSignature::Signature
+class boink::signatures::UnikmerSignature<boink::storage::BitStorage>
+class boink::signatures::UnikmerSignature<boink::storage::BitStorage>::Reporter
+class boink::signatures::UnikmerSignature<boink::storage::BitStorage>::Signature
+class boink::signatures::UnikmerSignature<boink::storage::ByteStorage>
+class boink::signatures::UnikmerSignature<boink::storage::ByteStorage>::Reporter
+class boink::signatures::UnikmerSignature<boink::storage::ByteStorage>::Signature
+class boink::signatures::UnikmerSignature<boink::storage::NibbleStorage>
+class boink::signatures::UnikmerSignature<boink::storage::NibbleStorage>::Reporter
+class boink::signatures::UnikmerSignature<boink::storage::NibbleStorage>::Signature
+class boink::signatures::UnikmerSignature<boink::storage::QFStorage>
+class boink::signatures::UnikmerSignature<boink::storage::QFStorage>::Reporter
+class boink::signatures::UnikmerSignature<boink::storage::QFStorage>::Signature
+class boink::signatures::UnikmerSignature<boink::storage::SparseppSetStorage>
+class boink::signatures::UnikmerSignature<boink::storage::SparseppSetStorage>::Reporter
+class boink::signatures::UnikmerSignature<boink::storage::SparseppSetStorage>::Signature
+class boink::storage::BitStorage
+class boink::storage::ByteStorage
+class boink::storage::ByteStorageFile
+class boink::storage::ByteStorageFileReader
+class boink::storage::ByteStorageFileWriter
+class boink::storage::ByteStorageGzFileReader
+class boink::storage::ByteStorageGzFileWriter
+class boink::storage::NibbleStorage
+class boink::storage::QFStorage
+class boink::storage::SparseppSetStorage
+class boink::storage::Storage<unsigned long>
+class boink::storage::is_counting<boink::storage::BitStorage>
+class boink::storage::is_counting<boink::storage::ByteStorage>
+class boink::storage::is_counting<boink::storage::NibbleStorage>
+class boink::storage::is_counting<boink::storage::QFStorage>
+class boink::storage::is_counting<boink::storage::SparseppSetStorage>
+class boink::storage::is_probabilistic<boink::storage::BitStorage>
+class boink::storage::is_probabilistic<boink::storage::ByteStorage>
+class boink::storage::is_probabilistic<boink::storage::NibbleStorage>
+class boink::storage::is_probabilistic<boink::storage::QFStorage>
+class boink::storage::is_probabilistic<boink::storage::SparseppSetStorage>
+class lock_guard<mutex>
+class pair<_Rb_tree_node_base*,_Rb_tree_node_base*>
+class pair<bool,int>
+class pair<bool,unsigned long>
+class pair<const string,string>
+class pair<const unsigned long,unsigned short>
+class pair<unsigned long,long>
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::BitStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::BitStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::BitStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::BitStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::BitStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::BitStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::BitStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::BitStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::ByteStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::ByteStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::ByteStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::ByteStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::ByteStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::ByteStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::ByteStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::ByteStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::NibbleStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::NibbleStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::NibbleStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::NibbleStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::NibbleStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::NibbleStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::NibbleStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::NibbleStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::QFStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::QFStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::QFStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::QFStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::QFStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::QFStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::QFStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::QFStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::Tag,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::Tag> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::UnitigTip*,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,boink::cdbg::uDBG<boink::storage::SparseppSetStorage>::UnitigTip*> > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::BitStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::ByteStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::NibbleStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::QFStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::DecisionNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::DecisionNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::DecisionNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<const unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_map<unsigned long,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigNode> >,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<pair<unsigned long const,unique_ptr<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigNode,default_delete<boink::cdbg::cDBG<boink::dBG<boink::storage::SparseppSetStorage,boink::hashing::RollingHashShifter> >::UnitigNode> > > > >
+class spp::sparse_hash_set<unsigned long,spp::spp_hash<unsigned long>,equal_to<unsigned long>,spp::libc_allocator<unsigned long> >
+class std::lock_guard<mutex>
+class std::pair<_Rb_tree_node_base*,_Rb_tree_node_base*>
+class std::pair<bool,int>
+class std::pair<bool,unsigned long>
+class std::pair<const basic_string<char,char_traits<char>,allocator<char> >,basic_string<char,char_traits<char>,allocator<char> > >
+class std::pair<unsigned long const,unsigned short>
+class std::pair<unsigned long,long>
+class std::unordered_map<unsigned long,unsigned short>
+class std::vector<basic_string<char,char_traits<char>,allocator<char> > >
+class std::vector<boink::hashing::HashShifter<boink::hashing::RollingHashShifter,unsigned long>::shift_type>
+class std::vector<boink::hashing::HashShifter<boink::hashing::UKHS::LazyShifter,boink::hashing::UKHS::BinnedKmer>::kmer_type>
+class std::vector<boink::hashing::HashShifter<boink::hashing::UKHS::LazyShifter,boink::hashing::UKHS::BinnedKmer>::shift_type>
+class std::vector<boink::hashing::UKHS::BinnedKmer>
+class std::vector<double>
+class std::vector<pair<basic_string<char,char_traits<char>,allocator<char> >,long> >
+class std::vector<pair<unsigned long,long> >
+class std::vector<pair<unsigned long,unsigned long> >
+class std::vector<unsigned int>
+class std::vector<unsigned long>
+class std::vector<unsigned short>
+class unordered_map<unsigned long,unsigned short>
+class vector<boink::hashing::HashShifter<boink::hashing::RollingHashShifter,unsigned long>::shift_type>
+class vector<boink::hashing::HashShifter<boink::hashing::UKHS::LazyShifter,boink::hashing::UKHS::BinnedKmer>::kmer_type>
+class vector<boink::hashing::HashShifter<boink::hashing::UKHS::LazyShifter,boink::hashing::UKHS::BinnedKmer>::shift_type>
+class vector<boink::hashing::UKHS::BinnedKmer>
+class vector<double>
+class vector<pair<string,long> >
+class vector<pair<unsigned long,long> >
+class vector<pair<unsigned long,unsigned long> >
+class vector<string>
+class vector<unsigned int>
+class vector<unsigned long>
+class vector<unsigned short>
+header boink/processors.hh
+header boink/cdbg/cdbg_types.hh
+header boink/cdbg/metrics.hh
+header boink/hashing/exceptions.hh
+header boink/hashing/rollinghashshifter.hh
+header boink/hashing/ukhs.hh
+header boink/metrics.hh
+header boink/parsing/readers.hh
+header boink/parsing/parsing.hh
+header boink/signatures/ukhs_signature.hh
+header boink/signatures/sourmash_signature.hh
+header boink/storage/bitstorage.hh
+header boink/storage/bytestorage.hh
+header boink/storage/nibblestorage.hh
+header boink/storage/qfstorage.hh
+header boink/storage/sparseppstorage.hh
+# List of selected typedefs and outer classes
+typedef boink::storage::MuxGuard
