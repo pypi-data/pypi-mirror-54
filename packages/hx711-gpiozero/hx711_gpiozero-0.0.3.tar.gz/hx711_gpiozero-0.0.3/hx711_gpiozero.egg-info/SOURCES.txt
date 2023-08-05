@@ -1,0 +1,7 @@
+README.md
+setup.py
+hx711_gpiozero/__init__.py
+hx711_gpiozero.egg-info/PKG-INFO
+hx711_gpiozero.egg-info/SOURCES.txt
+hx711_gpiozero.egg-info/dependency_links.txt
+hx711_gpiozero.egg-info/top_level.txt
