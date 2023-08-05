@@ -1,0 +1,8 @@
+setup.py
+lca_sweng/LCAImplementation.py
+lca_sweng/LCATest.py
+lca_sweng/__init__.py
+lca_sweng.egg-info/PKG-INFO
+lca_sweng.egg-info/SOURCES.txt
+lca_sweng.egg-info/dependency_links.txt
+lca_sweng.egg-info/top_level.txt
