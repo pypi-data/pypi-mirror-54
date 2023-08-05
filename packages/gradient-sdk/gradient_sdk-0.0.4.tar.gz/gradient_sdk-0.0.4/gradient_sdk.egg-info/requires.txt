@@ -1,0 +1,6 @@
+wheel
+hyperopt<0.2
+pymongo
+
+[dev]
+tox
