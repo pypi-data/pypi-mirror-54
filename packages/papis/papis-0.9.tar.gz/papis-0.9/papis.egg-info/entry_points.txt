@@ -1,0 +1,76 @@
+[console_scripts]
+papis = papis.commands.default:run
+
+[papis.command]
+add = papis.commands.add:cli
+addto = papis.commands.addto:cli
+bibtex = papis.commands.bibtex:cli
+browse = papis.commands.browse:cli
+config = papis.commands.config:cli
+edit = papis.commands.edit:cli
+explore = papis.commands.explore:cli
+export = papis.commands.export:cli
+git = papis.commands.git:cli
+list = papis.commands.list:cli
+mv = papis.commands.mv:cli
+open = papis.commands.open:cli
+rename = papis.commands.rename:cli
+rm = papis.commands.rm:cli
+run = papis.commands.run:cli
+update = papis.commands.update:cli
+
+[papis.downloader]
+acs = papis.downloaders.acs:Downloader
+annualreviews = papis.downloaders.annualreviews:Downloader
+aps = papis.downloaders.aps:Downloader
+arxiv = papis.arxiv:Downloader
+doi = papis.crossref:Downloader
+fallback = papis.downloaders.fallback:Downloader
+frontiersin = papis.downloaders.frontiersin:Downloader
+get = papis.downloaders.get:Downloader
+hal = papis.downloaders.hal:Downloader
+ieee = papis.downloaders.ieee:Downloader
+iopscience = papis.downloaders.iopscience:Downloader
+sciencedirect = papis.downloaders.sciencedirect:Downloader
+scitationaip = papis.downloaders.scitationaip:Downloader
+springer = papis.downloaders.springer:Downloader
+tandfonline = papis.downloaders.tandfonline:Downloader
+thesesfr = papis.downloaders.thesesfr:Downloader
+worldscientific = papis.downloaders.worldscientific:Downloader
+
+[papis.explorer]
+arxiv = papis.arxiv:explorer
+base = papis.base:explorer
+bibtex = papis.bibtex:explorer
+citations = papis.commands.explore:citations
+cmd = papis.commands.explore:cmd
+crossref = papis.crossref:explorer
+dissemin = papis.dissemin:explorer
+export = papis.commands.export:explorer
+isbn = papis.isbn:explorer
+isbnplus = papis.isbnplus:explorer
+json = papis.json:explorer
+lib = papis.commands.explore:lib
+pick = papis.commands.explore:pick
+yaml = papis.yaml:explorer
+
+[papis.exporter]
+bibtex = papis.commands.export:export_to_bibtex
+json = papis.commands.export:export_to_json
+yaml = papis.commands.export:export_to_yaml
+
+[papis.importer]
+arxiv = papis.arxiv:Importer
+bibtex = papis.bibtex:Importer
+crossref = papis.crossref:FromCrossrefImporter
+doi = papis.crossref:Importer
+folder = papis.commands.add:FromFolderImporter
+lib = papis.commands.add:FromLibImporter
+pdf2arxivid = papis.arxiv:ArxividFromPdfImporter
+pdf2doi = papis.crossref:DoiFromPdfImporter
+pmid = papis.pubmed:Importer
+yaml = papis.yaml:Importer
+
+[papis.picker]
+papis = papis.pick:papis_pick
+
