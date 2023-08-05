@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: cainiao
+Version: 0.1.0
+Summary: Cainiao Waybill SDK.
+Home-page: https://github.com/shengurun/cainiao
+Author: shengurun
+Author-email: shengurun@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
