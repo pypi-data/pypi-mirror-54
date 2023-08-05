@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+PyTrinamicTools/__init__.py
+PyTrinamicTools/version.py
+PyTrinamicTools.egg-info/PKG-INFO
+PyTrinamicTools.egg-info/SOURCES.txt
+PyTrinamicTools.egg-info/dependency_links.txt
+PyTrinamicTools.egg-info/not-zip-safe
+PyTrinamicTools.egg-info/requires.txt
+PyTrinamicTools.egg-info/top_level.txt
+PyTrinamicTools/helpers/Microsteps.py
+PyTrinamicTools/tools/MicrostepCalculator.py

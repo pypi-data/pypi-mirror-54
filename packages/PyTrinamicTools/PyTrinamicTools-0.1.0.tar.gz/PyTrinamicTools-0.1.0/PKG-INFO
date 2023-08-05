@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyTrinamicTools
+Version: 0.1.0
+Summary: TRINAMIC's Python tools collection.
+Home-page: https://github.com/trinamic/PyTrinamicTools
+Author: ED, LK, LH, ..
+Author-email: tmc_info@trinamic.com
+License: MIT
+Description: # PyTrinamicTools
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
