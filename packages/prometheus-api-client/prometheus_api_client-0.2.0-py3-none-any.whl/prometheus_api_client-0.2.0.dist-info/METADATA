@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: prometheus-api-client
+Version: 0.2.0
+Summary: A small python api to collect data from prometheus
+Home-page: https://github.com/AICoE/prometheus-api-client-python
+Author: Anand Sanmukhani
+Author-email: asanmukh@redhat.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: retrying
+Requires-Dist: requests
+Requires-Dist: dateparser
+Requires-Dist: pandas
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7d838be9b51e4daaa20be1772f5c9ad2)](https://www.codacy.com/manual/4n4nd/prometheus-api-client-python?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AICoE/prometheus-api-client-python&amp;utm_campaign=Badge_Grade)
+# prometheus-api-client
+
+A python wrapper for the prometheus http api and some tools for metrics processing.
+
+## Installation
+To install the latest release: 
+
+`pip install prometheus-api-client`
+
+To install directly from this branch:
+
+`pip install https://github.com/AICoE/prometheus-api-client-python/zipball/master`
+
+## Documentation
+
+Docs: [https://prometheus-api-client-python.readthedocs.io/source/prometheus_api_client.html]
+
+
