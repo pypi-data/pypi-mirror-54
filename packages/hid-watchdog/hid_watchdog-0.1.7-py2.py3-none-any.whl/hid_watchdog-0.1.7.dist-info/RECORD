@@ -1,0 +1,10 @@
+hid_watchdog/__init__.py,sha256=mTdfGBzED9wucsONKstGCs1rbJxv7XisSej-M73Ffrw,191
+hid_watchdog/cli.py,sha256=o4VOp0mbeGeykf5aqsYlS-bOjg-SLZ0o-JGqRbA4gRo,2912
+hid_watchdog/hid_watchdog.py,sha256=nEBLws-S8CeSKjzu7hgSPy_CHecqeK-872xQrv9DosY,1772
+hid_watchdog-0.1.7.dist-info/AUTHORS.rst,sha256=Iph8Y0hZnfwTwasNRBp7V1kP91Ig60JXogvzdImRlpQ,158
+hid_watchdog-0.1.7.dist-info/LICENSE,sha256=GFXozDyp0bWCNxImtaNnhRRW9-xiI-tEgN5tFj5JkMk,1564
+hid_watchdog-0.1.7.dist-info/METADATA,sha256=JTqz01y0_yP0vZTaQCfbhZyhgCzrEdRAvZ5Fa0ujXDY,1492
+hid_watchdog-0.1.7.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+hid_watchdog-0.1.7.dist-info/entry_points.txt,sha256=wqVi4WYH6XTZUQ4A3Ny_5e4YE38tRGGcZ-BHGFAN3c4,56
+hid_watchdog-0.1.7.dist-info/top_level.txt,sha256=AGAiMeXvogcYqccSbIb_vyvjyiORcakJjC2bsZ6PkH0,13
+hid_watchdog-0.1.7.dist-info/RECORD,,
