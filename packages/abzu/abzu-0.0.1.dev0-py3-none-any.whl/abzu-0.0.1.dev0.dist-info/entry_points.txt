@@ -1,0 +1,3 @@
+[console_scripts]
+abzu = abzu.__main__:main
+

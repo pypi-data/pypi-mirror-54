@@ -1,0 +1,16 @@
+abzu/__init__.py,sha256=yeVqbCxzGYfm_B3TYOhdv0Z4l8kNrRVbVF0ZqezlTMg,224
+abzu/__main__.py,sha256=sU627V0I-g1B9HpG0EgzWk8S45mwX3GJG_KVMMKDdeY,3794
+abzu/kiss.py,sha256=0xGoY5eGvaz1Ehipt04RI6QS40fCPg1epf_MMeRQzqM,12853
+abzu/textgen.py,sha256=zqTZrPxh72USLbTuk_9wmJhJ9eFCzmn_YfIvSKR7HWw,7938
+abzu-0.0.1.dev0.dist-info/METADATA,sha256=zvaKP2WCVZltq20qnTX50KVMkqguueHtHpAlxPSIJwE,3390
+abzu-0.0.1.dev0.dist-info/RECORD,,
+abzu-0.0.1.dev0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+abzu-0.0.1.dev0.dist-info/entry_points.txt,sha256=r2IbRxs1sinFalgdmqtM-Jo1mIHy5inB_fQ8fW1VrfQ,45
+abzu-0.0.1.dev0.dist-info/top_level.txt,sha256=6yLxY2ROU_zZmx8XzsRH8QzN2vH8s0ROD7ytRabqa5Q,15
+resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resources/colexifications.tsv,sha256=i3LeGVplVuDteDIbLjEsLe83EZMjjvHGQxowr7_K51I,92067
+resources/consonant_inventories.tsv,sha256=Pp96rxkbrLbAHEkYg1fXRTuURX4EeBbG73FQq51Z3bA,38355
+resources/glosses.tsv,sha256=Wev4X0flZIhdYoOduBOFrv2RgXl3vkozVs078Izg9fQ,19028
+resources/phoneme_frequency.tsv,sha256=bdxNzt7LpqmLkMimzMNAosnVueRhvtQzXXMyOFntl1g,37890
+resources/syllable_patterns.tsv,sha256=Ufzce_8eB9LGaRvPMkE_QMbZqa8cy3rA1H6jdfLwUdk,120
+resources/vowel_inventories.tsv,sha256=fl4o2dUye0HPHwLP3yATSzKLymnTSWgcyg_glfnmc2U,4094
