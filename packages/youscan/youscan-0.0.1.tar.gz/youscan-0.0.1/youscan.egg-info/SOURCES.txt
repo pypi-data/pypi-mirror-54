@@ -1,0 +1,10 @@
+README.md
+setup.py
+youscan/__init__.py
+youscan/exceptions.py
+youscan/youscan.py
+youscan.egg-info/PKG-INFO
+youscan.egg-info/SOURCES.txt
+youscan.egg-info/dependency_links.txt
+youscan.egg-info/requires.txt
+youscan.egg-info/top_level.txt
