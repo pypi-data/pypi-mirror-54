@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: fastprocess
+Version: 1.0.0
+Summary: A fast subprocess library
+Home-page: https://github.com/dstathis/fastprocess
+Author: Dylan Stephano-Shachter
+Author-email: dstephanoshachter@gmail.com
+License: LGPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+WARNING: This library requires python 3.8
+
+# Fastprocess
+A fast subprocess library
+
+## Usage
+Spawning a process with fastprocess is very easy
+```
+In [1]: from fastprocess import FastProcess
+
+In [2]: pid = FastProcess(['echo', 'hello', 'world'])
+
+hello world
+In [3]: pid.wait()
+Out[3]: 0
+
+```
+You can redirect io using the stdin, stdout, and stderr options
+```
+In [4]: null = open('/dev/null', 'w')
+
+In [5]: pid = FastProcess(['yes'], stdout=null)
+
+In [6]: pid.terminate()
+```
+
+## FastProcess methods
+terminate():  
+Sends SIGTERM to the process
+
+kill(sig):  
+Sends signal 'sig' to the process
+
+wait():  
+Waits for the process to exit then returns the exit code
+
+## Performance
+Here are the results of running ./benchmark/bench
+```
+---------------------------------------
+10000 spawns with fork and exec...
+
+real	0m2.214s
+user	0m0.083s
+sys	0m2.123s
+---------------------------------------
+10000 spawns with fastprocess...
+
+real	0m3.163s
+user	0m0.383s
+sys	0m2.772s
+---------------------------------------
+10000 spawns with subprocess...
+
+real	0m11.110s
+user	0m6.773s
+sys	0m7.772s
+---------------------------------------
+```
+
+
