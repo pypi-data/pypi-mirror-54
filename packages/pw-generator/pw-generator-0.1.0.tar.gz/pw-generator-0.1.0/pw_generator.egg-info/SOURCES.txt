@@ -1,0 +1,10 @@
+README.md
+setup.py
+pw_generator.egg-info/PKG-INFO
+pw_generator.egg-info/SOURCES.txt
+pw_generator.egg-info/dependency_links.txt
+pw_generator.egg-info/top_level.txt
+pwgen/__init__.py
+pwgen/charlists.py
+pwgen/wordlist_4k.py
+pwgen/exception/__init__.py
