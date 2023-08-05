@@ -1,0 +1,1402 @@
+skolverket_skolnamn,school_unit,skolverket_kommunnamn,skolverket_kommun,huvudman,skolverket_huvudman_namn,skolverket_huvudman_kod,skolverket_sv_antal_m_betyg_tcv1,skolverket_sv_andel_sankt_tcv1,skolverket_sv_andel_lika_tcv1,skolverket_sv_andel_hojt_tcv1,skolverket_ma_antal_m_betyg_tcv1,skolverket_ma_andel_sankt_tcv1,skolverket_ma_andel_lika_tcv1,skolverket_ma_andel_hojt_tcv1,skolverket_en_antal_m_betyg_tcv1,skolverket_en_andel_sankt_tcv1,skolverket_en_andel_lika_tcv1,skolverket_en_andel_hojt_tcv1,skolverket_sva_antal_m_betyg_tcv1,skolverket_sva_andel_sankt_tcv1,skolverket_sva_andel_lika_tcv1,skolverket_sva_andel_hojt_tcv1,year
+Ahlafors Fria skola,71387206,Ale,1440,Enskild,Ahlafors Fria Skola Ekonomisk förening,7696142343,.,.,.,.,.,.,.,.,45,"15,6","82,2","2,2",.,.,.,.,2018
+Aroseniusskolan,48529699,Ale,1440,Kommunal,Ale,2120001439,.,.,.,.,.,.,.,.,128,"5,5","68,8","25,8",.,.,.,.,2018
+Bohusskolan,11043800,Ale,1440,Kommunal,Ale,2120001439,52,"17,3","42,3","40,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Da Vinciskolan,61084420,Ale,1440,Kommunal,Ale,2120001439,101,"20,8","54,5","24,8",.,.,.,.,117,"16,2","68,4","15,4",.,.,.,.,2018
+Gustav Adolfsskolan,74064638,Alingsås,1489,Kommunal,Alingsås,2120001553,82,"18,3","65,9","15,9",.,.,.,.,81,"21,0","70,4","8,6",.,.,.,.,2018
+Nolhagaskolan,84581048,Alingsås,1489,Kommunal,Alingsås,2120001553,96,"5,2","70,8","24,0",.,.,.,.,109,"16,5","71,6","11,9",.,.,.,.,2018
+Sollebrunns skola F-9,76908037,Alingsås,1489,Kommunal,Alingsås,2120001553,17,"5,9","70,6","23,5",.,.,.,.,31,"9,7","80,6","9,7",.,.,.,.,2018
+Vittra Gerdsken,98272016,Alingsås,1489,Enskild,Vittraskolorna AB,5564586716,44,"9,1","81,8","9,1",.,.,.,.,45,"37,8","55,6","6,7",.,.,.,.,2018
+Östlyckeskolan 7-9,63399058,Alingsås,1489,Kommunal,Alingsås,2120001553,95,"14,7","66,3","18,9",.,.,.,.,106,"10,4","74,5","15,1",.,.,.,.,2018
+Hagaskolan,67183147,Alvesta,0764,Kommunal,Alvesta,2120000639,78,"11,5","52,6","35,9",.,.,.,.,108,"14,8","78,7","6,5",26,.,"80,8","19,2",2018
+Mohedaskolan,69699568,Alvesta,0764,Kommunal,Alvesta,2120000639,38,"2,6","78,9","18,4",.,.,.,.,45,"8,9","75,6","15,6",.,.,.,.,2018
+Vislandaskolan,88176175,Alvesta,0764,Kommunal,Alvesta,2120000639,64,"9,4","79,7","10,9",.,.,.,.,70,"17,1","72,9","10,0",.,.,.,.,2018
+Furulidskolan,88669294,Aneby,0604,Kommunal,Aneby,2120000498,.,.,.,.,.,.,.,.,70,"20,0","70,0","10,0",.,.,.,.,2018
+Gäddgårdsskolan 5-9,65483259,Arboga,1984,Kommunal,Arboga,2120002122,66,"12,1","60,6","27,3",.,.,.,.,71,"12,7","67,6","19,7",.,.,.,.,2018
+Stureskolan,13854755,Arboga,1984,Kommunal,Arboga,2120002122,65,"6,2","47,7","46,2",.,.,.,.,71,"2,8","67,6","29,6",.,.,.,.,2018
+Kyrkholmsskolan,96277636,Arjeplog,2506,Kommunal,Arjeplog,2120002668,27,.,"92,6","7,4",.,.,.,.,25,"24,0","68,0","8,0",.,.,.,.,2018
+Fridhemsskolan,48373752,Arvidsjaur,2505,Kommunal,Arvidsjaur,2120002650,50,"4,0","62,0","34,0",.,.,.,.,50,"8,0","76,0","16,0",.,.,.,.,2018
+Centralskolan,60318692,Arvika,1784,Kommunal,Arvika,2120001892,111,"9,0","64,0","27,0",.,.,.,.,124,"24,2","66,9","8,9",16,"6,3","68,8","25,0",2018
+"Estetiska skolan, högstadiet",99375199,Arvika,1784,Enskild,Estetiska Skolan Arvika,8740020212,46,"17,4","47,8","34,8",.,.,.,.,47,"19,1","76,6","4,3",.,.,.,.,2018
+Kyrkebyskolan 7-9,64771195,Arvika,1784,Kommunal,Arvika,2120001892,67,"6,0","67,2","26,9",.,.,.,.,77,"5,2","81,8","13,0",.,.,.,.,2018
+Sjöängsskolan,15766661,Askersund,1882,Kommunal,Askersund,2120001983,79,"7,6","60,8","31,6",.,.,.,.,87,"21,8","67,8","10,3",.,.,.,.,2018
+Domarhagsskolan,87516620,Avesta,2084,Kommunal,Avesta,2120002262,19,"5,3","47,4","47,4",.,.,.,.,97,"14,4","77,3","8,2",.,.,.,.,2018
+Johan Olovsskolan,48240990,Avesta,2084,Kommunal,Avesta,2120002262,20,"40,0","45,0","15,0",.,.,.,.,21,"28,6","61,9","9,5",.,.,.,.,2018
+Åvestadalskolan,30454178,Avesta,2084,Kommunal,Avesta,2120002262,59,"22,0","71,2","6,8",.,.,.,.,74,"32,4","64,9","2,7",.,.,.,.,2018
+Bengtsgården,28484259,Bengtsfors,1460,Kommunal,Bengtsfors,2120001470,70,"5,7","67,1","27,1",.,.,.,.,75,"6,7","86,7","6,7",.,.,.,.,2018
+Myrvikens skola,56709330,Berg,2326,Kommunal,Berg,2120002502,32,"15,6","53,1","31,3",.,.,.,.,33,"3,0","81,8","15,2",.,.,.,.,2018
+Castorskolan,81730469,Bjurholm,2403,Kommunal,Bjurholm,2120002833,24,"25,0","70,8","4,2",.,.,.,.,26,.,"100,0",.,.,.,.,.,2018
+Ekeby skola åk 4-9,61795800,Bjuv,1260,Kommunal,Bjuv,2120001041,41,"4,9","43,9","51,2",.,.,.,.,49,"8,2","46,9","44,9",.,.,.,.,2018
+Jens Billeskolan  7 - 9,63778499,Bjuv,1260,Kommunal,Bjuv,2120001041,28,"10,7","53,6","35,7",.,.,.,.,40,"5,0","72,5","22,5",.,.,.,.,2018
+Varagårdsskolan Bjuv Östra   7 - 9,45883916,Bjuv,1260,Kommunal,Bjuv,2120001041,64,"15,6","57,8","26,6",.,.,.,.,69,"10,1","82,6","7,2",.,.,.,.,2018
+Brönjaskolan,60633912,Boden,2582,Kommunal,Boden,2120002767,73,"9,6","54,8","35,6",.,.,.,.,81,"7,4","66,7","25,9",.,.,.,.,2018
+Fria Emilia,98998541,Boden,2582,Enskild,Friskola Fria Emilia Boden ekonomisk förening,7696083455,.,.,.,.,.,.,.,.,28,"32,1","57,1","10,7",.,.,.,.,2018
+Norrskenet Boden,40708452,Boden,2582,Enskild,Norrskenets Friskola Boden AB,5590455050,48,"4,2","64,6","31,3",.,.,.,.,46,"4,3","93,5","2,2",.,.,.,.,2018
+Stureskolan,83862028,Boden,2582,Kommunal,Boden,2120002767,107,"16,8","54,2","29,0",.,.,.,.,121,"7,4","68,6","24,0",18,.,"72,2","27,8",2018
+Bollebygdskolan 7-9,60372258,Bollebygd,1443,Kommunal,Bollebygd,2120002973,94,"6,4","72,3","21,3",.,.,.,.,95,"23,2","54,7","22,1",.,.,.,.,2018
+Alirskolan 7-9,65024773,Bollnäs,2183,Kommunal,Bollnäs,2120002361,55,"12,7","67,3","20,0",.,.,.,.,82,"19,5","65,9","14,6",31,.,"67,7","32,3",2018
+Arbråskolan F-9,75662206,Bollnäs,2183,Kommunal,Bollnäs,2120002361,27,.,"51,9","48,1",.,.,.,.,37,.,"100,0",.,.,.,.,.,2018
+Friskolan Lust & Lära,91187921,Bollnäs,2183,Enskild,Friskolan Lust & Lära i Bollnäs AB,5567748149,117,"3,4","51,3","45,3",.,.,.,.,127,"9,4","63,0","27,6",.,.,.,.,2018
+Kilafors skola F-9,41793797,Bollnäs,2183,Kommunal,Bollnäs,2120002361,31,"9,7","71,0","19,4",.,.,.,.,32,"9,4","75,0","15,6",.,.,.,.,2018
+Slottsskolan,80852248,Borgholm,0885,Kommunal,Borgholm,2120000795,53,"15,1","62,3","22,6",.,.,.,.,66,"4,5","83,3","12,1",.,.,.,.,2018
+Åkerboskolan,82520504,Borgholm,0885,Kommunal,Borgholm,2120000795,18,.,"77,8","22,2",.,.,.,.,19,.,"100,0",.,.,.,.,.,2018
+Domnarvets skola,91219337,Borlänge,2081,Kommunal,Borlänge,2120002239,56,"17,9","57,1","25,0",.,.,.,.,.,.,.,.,18,.,"50,0","50,0",2018
+Forssaklackskolan,84601215,Borlänge,2081,Kommunal,Borlänge,2120002239,116,"12,9","44,0","43,1",.,.,.,.,147,"15,6","73,5","10,9",28,"14,3","60,7","25,0",2018
+Gylle skola 7-9,11406792,Borlänge,2081,Kommunal,Borlänge,2120002239,97,"4,1","79,4","16,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Kunskapsskolan Borlänge,70510891,Borlänge,2081,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,70,"12,9","60,0","27,1",.,.,.,.,73,"23,3","75,3","1,4",.,.,.,.,2018
+Maserskolan,56442130,Borlänge,2081,Kommunal,Borlänge,2120002239,76,"7,9","65,8","26,3",.,.,.,.,.,.,.,.,35,"5,7","94,3",.,2018
+Ornäs skola,33944118,Borlänge,2081,Kommunal,Borlänge,2120002239,40,"15,0","62,5","22,5",.,.,.,.,54,"5,6","77,8","16,7",.,.,.,.,2018
+Bodaskolan 7-9,67454907,Borås,1490,Kommunal,Borås,2120001561,101,"6,9","50,5","42,6",.,.,.,.,129,"8,5","81,4","10,1",26,.,"84,6","15,4",2018
+Borås Kristna skola,64720166,Borås,1490,Enskild,Stiftelsen Anden O Ordet,8645015697,.,.,.,.,.,.,.,.,16,"25,0","75,0",.,.,.,.,.,2018
+Dalsjöskolan 7-9,60557814,Borås,1490,Kommunal,Borås,2120001561,97,"12,4","67,0","20,6",.,.,.,.,105,"9,5","79,0","11,4",.,.,.,.,2018
+Daltorpskolan 7-9,97706771,Borås,1490,Kommunal,Borås,2120001561,.,.,.,.,.,.,.,.,150,"12,7","68,7","18,7",.,.,.,.,2018
+Engelbrektskolan 7-9,86215855,Borås,1490,Kommunal,Borås,2120001561,93,"23,7","57,0","19,4",.,.,.,.,93,"9,7","69,9","20,4",.,.,.,.,2018
+Fristadskolan 7-9,86708639,Borås,1490,Kommunal,Borås,2120001561,105,"7,6","69,5","22,9",.,.,.,.,113,"4,4","84,1","11,5",.,.,.,.,2018
+Internationella Engelska Skolan Borås,58354320,Borås,1490,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,.,.,.,.,.,.,.,.,62,.,"96,8","3,2",.,.,.,.,2018
+Kunskapsskolan Borås,10257640,Borås,1490,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,116,"11,2","67,2","21,6",.,.,.,.,116,"19,8","73,3","6,9",.,.,.,.,2018
+Malmen Montessori,10132939,Borås,1490,Enskild,Malmen Montessori,8645012132,24,"4,2","66,7","29,2",.,.,.,.,25,"20,0","64,0","16,0",.,.,.,.,2018
+Sandgärdskolan,98081621,Borås,1490,Kommunal,Borås,2120001561,106,"10,4","45,3","44,3",.,.,.,.,112,"14,3","75,0","10,7",.,.,.,.,2018
+Särlaskolan 7-9,23108037,Borås,1490,Kommunal,Borås,2120001561,50,"2,0","62,0","36,0",.,.,.,.,45,"11,1","75,6","13,3",.,.,.,.,2018
+Viskaforsskolan 7-9,50756758,Borås,1490,Kommunal,Borås,2120001561,55,"27,3","65,5","7,3",.,.,.,.,66,"30,3","69,7",.,.,.,.,.,2018
+Björkhaga Skola,43238662,Botkyrka,0127,Kommunal,Botkyrka,2120002882,40,"7,5","75,0","17,5",.,.,.,.,44,"22,7","65,9","11,4",.,.,.,.,2018
+Botkyrka Friskola F-9,80378022,Botkyrka,0127,Enskild,JPK Education AB,5564944063,.,.,.,.,.,.,.,.,33,"3,0","87,9","9,1",.,.,.,.,2018
+Broängsskolan,38661388,Botkyrka,0127,Kommunal,Botkyrka,2120002882,77,"1,3","72,7","26,0",.,.,.,.,79,"25,3","60,8","13,9",.,.,.,.,2018
+Brunnaskolan,53426548,Botkyrka,0127,Kommunal,Botkyrka,2120002882,18,.,"61,1","38,9",.,.,.,.,46,.,"52,2","47,8",27,"7,4","51,9","40,7",2018
+Falkbergsskolan,85558618,Botkyrka,0127,Kommunal,Botkyrka,2120002882,82,"1,2","32,9","65,9",.,.,.,.,89,"5,6","64,0","30,3",.,.,.,.,2018
+Fittjaskolan Botkyrka Norra,40631085,Botkyrka,0127,Kommunal,Botkyrka,2120002882,.,.,.,.,.,.,.,.,55,"25,5","65,5","9,1",53,"3,8","60,4","35,8",2018
+Grindtorpsskolan,57228484,Botkyrka,0127,Kommunal,Botkyrka,2120002882,.,.,.,.,.,.,.,.,37,"2,7","62,2","35,1",29,"6,9","75,9","17,2",2018
+Hammerstaskolan,25918983,Botkyrka,0127,Kommunal,Botkyrka,2120002882,.,.,.,.,.,.,.,.,33,"27,3","69,7","3,0",23,"4,3","43,5","52,2",2018
+Karsby International School,67742754,Botkyrka,0127,Kommunal,Botkyrka,2120002882,21,.,"33,3","66,7",.,.,.,.,52,"7,7","84,6","7,7",28,"3,6","60,7","35,7",2018
+Kunskapsskolan Tumba,84411355,Botkyrka,0127,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,47,"6,4","68,1","25,5",.,.,.,.,55,"1,8","89,1","9,1",.,.,.,.,2018
+Kvarnhagsskolan,56417100,Botkyrka,0127,Kommunal,Botkyrka,2120002882,.,.,.,.,.,.,.,.,.,.,.,.,27,"3,7","29,6","66,7",2018
+Malmsjö skola,86985859,Botkyrka,0127,Kommunal,Botkyrka,2120002882,48,"10,4","54,2","35,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Storvretskolan,18534178,Botkyrka,0127,Kommunal,Botkyrka,2120002882,.,.,.,.,.,.,.,.,33,"36,4","54,5","9,1",28,"3,6","64,3","32,1",2018
+Stenbockskolan MH,71843145,Boxholm,0560,Kommunal,Boxholm,2120000407,40,"20,0","75,0","5,0",.,.,.,.,40,"15,0","70,0","15,0",.,.,.,.,2018
+Dalaskolan Södra,79707757,Bromölla,1272,Kommunal,Bromölla,2120000894,32,"6,3","53,1","40,6",.,.,.,.,38,.,"60,5","39,5",.,.,.,.,2018
+Humleskolan,18195751,Bromölla,1272,Kommunal,Bromölla,2120000894,86,"8,1","64,0","27,9",.,.,.,.,91,"7,7","76,9","15,4",.,.,.,.,2018
+Bräcke skola,63287550,Bräcke,2305,Kommunal,Bräcke,2120002460,21,"4,8","57,1","38,1",.,.,.,.,26,"7,7","88,5","3,8",.,.,.,.,2018
+Gällö skola,34671510,Bräcke,2305,Kommunal,Bräcke,2120002460,29,"13,8","72,4","13,8",.,.,.,.,32,"31,3","62,5","6,3",.,.,.,.,2018
+Dalslundskolan 7-9,58712142,Burlöv,1231,Kommunal,Burlöv,2120001025,75,"32,0","48,0","20,0",.,.,.,.,86,"9,3","87,2","3,5",.,.,.,.,2018
+Vårboskolan,95748172,Burlöv,1231,Kommunal,Burlöv,2120001025,26,"11,5","57,7","30,8",.,.,.,.,67,"23,9","50,7","25,4",45,"6,7","55,6","37,8",2018
+Förslövs skola 7-9,94453321,Båstad,1278,Kommunal,Båstad,2120000944,46,"26,1","56,5","17,4",.,.,.,.,53,"13,2","73,6","13,2",.,.,.,.,2018
+Strandängsskolan 7-9,16148785,Båstad,1278,Kommunal,Båstad,2120000944,69,"18,8","69,6","11,6",.,.,.,.,74,"23,0","64,9","12,2",.,.,.,.,2018
+Hagaskolan,93081338,Dals-Ed,1438,Kommunal,Dals-Ed,2120001413,50,"10,0","60,0","30,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Viktor Rydbergs Samskola,13493243,Danderyd,0162,Enskild,Stiftelsen Viktor Rydbergs Skola,8120005650,.,.,.,.,.,.,.,.,165,"15,2","77,6","7,3",.,.,.,.,2018
+Stora Vallaskolan,96969231,Degerfors,1862,Kommunal,Degerfors,2120001934,80,"8,8","62,5","28,8",.,.,.,.,66,"12,1","69,7","18,2",.,.,.,.,2018
+Strandenskolan 4-9,17181067,Dorotea,2425,Kommunal,Dorotea,2120002809,20,"5,0","60,0","35,0",.,.,.,.,23,"8,7","69,6","21,7",.,.,.,.,2018
+Gunnarsbyskolan F-9,69352527,Eda,1730,Kommunal,Eda,2120001769,39,"5,1","76,9","17,9",.,.,.,.,42,"9,5","81,0","9,5",.,.,.,.,2018
+Hierneskolan F-9,55674136,Eda,1730,Kommunal,Eda,2120001769,26,"7,7","57,7","34,6",.,.,.,.,30,"6,7","80,0","13,3",.,.,.,.,2018
+Birkaskolan,27595656,Ekerö,0125,Enskild,"Mälaröarnas Montessori, Ek. För.",7696032353,30,.,"56,7","43,3",.,.,.,.,30,.,"76,7","23,3",.,.,.,.,2018
+Tappströmsskolan,52217632,Ekerö,0125,Kommunal,Ekerö,2120000050,154,"6,5","45,5","48,1",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Träkvista skola,66475520,Ekerö,0125,Kommunal,Ekerö,2120000050,53,"1,9","71,7","26,4",.,.,.,.,49,"12,2","83,7","4,1",.,.,.,.,2018
+Uppgårdskolan,95057356,Ekerö,0125,Kommunal,Ekerö,2120000050,99,"32,3","46,5","21,2",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Furulundsskolan,48108874,Eksjö,0686,Kommunal,Eksjö,2120000589,32,"12,5","50,0","37,5",.,.,.,.,31,.,"71,0","29,0",.,.,.,.,2018
+Prästängsskolan A,48457931,Eksjö,0686,Kommunal,Eksjö,2120000589,69,"8,7","47,8","43,5",.,.,.,.,71,"14,1","67,6","18,3",.,.,.,.,2018
+Prästängsskolan B,98124174,Eksjö,0686,Kommunal,Eksjö,2120000589,62,"8,1","48,4","43,5",.,.,.,.,71,"7,0","84,5","8,5",.,.,.,.,2018
+Bjurbäcksskolan 7-9,37716305,Emmaboda,0862,Kommunal,Emmaboda,2120000738,83,"12,0","72,3","15,7",.,.,.,.,91,"20,9","73,6","5,5",.,.,.,.,2018
+Bergvretenskolan,56521117,Enköping,0381,Kommunal,Enköping,2120000282,50,"22,0","64,0","14,0",.,.,.,.,42,"2,4","78,6","19,0",.,.,.,.,2018
+Entréskolan Enköping,97000303,Enköping,0381,Enskild,AmiSgo AB,5568148117,38,"5,3","47,4","47,4",.,.,.,.,37,"2,7","45,9","51,4",.,.,.,.,2018
+Fjärdhundraskolan,94821900,Enköping,0381,Kommunal,Enköping,2120000282,20,.,"55,0","45,0",.,.,.,.,24,"12,5","79,2","8,3",.,.,.,.,2018
+Korsängsskolan,96757645,Enköping,0381,Kommunal,Enköping,2120000282,46,"10,9","65,2","23,9",.,.,.,.,55,"9,1","70,9","20,0",.,.,.,.,2018
+Kunskapsskolan Enköping,67723630,Enköping,0381,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,81,"7,4","65,4","27,2",.,.,.,.,85,"18,8","60,0","21,2",.,.,.,.,2018
+Robinson Vårfru,83519502,Enköping,0381,Enskild,Aktiebolaget Fria Skolor i Enköping,5568086085,19,"15,8","73,7","10,5",.,.,.,.,22,"27,3","59,1","13,6",.,.,.,.,2018
+S:t Iliansskolan,34699165,Enköping,0381,Kommunal,Enköping,2120000282,100,"10,0","69,0","21,0",.,.,.,.,127,"16,5","68,5","15,0",26,"3,8","46,2","50,0",2018
+Örsundsbroskolan,98587494,Enköping,0381,Kommunal,Enköping,2120000282,39,"15,4","71,8","12,8",.,.,.,.,42,"11,9","73,8","14,3",.,.,.,.,2018
+"British Junior Secondary, Eskilstuna",50048111,Eskilstuna,0484,Enskild,British Schools AB,5567516389,34,"5,9","79,4","14,7",.,.,.,.,43,"18,6","74,4","7,0",.,.,.,.,2018
+Djurgårdsskolan 4-9,54605092,Eskilstuna,0484,Kommunal,Eskilstuna,2120000357,100,"5,0","57,0","38,0",.,.,.,.,106,"8,5","70,8","20,8",.,.,.,.,2018
+"Entréskolan, Eskilstuna",10443922,Eskilstuna,0484,Enskild,AmiSgo AB,5568148117,34,"8,8","52,9","38,2",.,.,.,.,32,"9,4","75,0","15,6",.,.,.,.,2018
+Faktoriet 7-9,64275635,Eskilstuna,0484,Kommunal,Eskilstuna,2120000357,82,"12,2","47,6","40,2",.,.,.,.,89,"23,6","71,9","4,5",.,.,.,.,2018
+Gökstensskolan 7-9,40577236,Eskilstuna,0484,Kommunal,Eskilstuna,2120000357,134,"15,7","50,0","34,3",.,.,.,.,140,"10,7","82,1","7,1",.,.,.,.,2018
+Internationella Engelska Skolan Eskilstuna,36759013,Eskilstuna,0484,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,150,"8,0","45,3","46,7",.,.,.,.,182,"8,8","64,8","26,4",.,.,.,.,2018
+Skiftingehus F-9,65025285,Eskilstuna,0484,Kommunal,Eskilstuna,2120000357,36,"11,1","44,4","44,4",.,.,.,.,72,"9,7","75,0","15,3",36,.,"83,3","16,7",2018
+Skogstorpsskolan F-9,30622727,Eskilstuna,0484,Kommunal,Eskilstuna,2120000357,116,"21,6","49,1","29,3",.,.,.,.,122,"14,8","70,5","14,8",.,.,.,.,2018
+Stålforsskolan 7-9,14327803,Eskilstuna,0484,Kommunal,Eskilstuna,2120000357,121,"13,2","43,0","43,8",.,.,.,.,191,"23,6","64,9","11,5",72,"4,2","58,3","37,5",2018
+Tegelviken F-9,78673553,Eskilstuna,0484,Kommunal,Eskilstuna,2120000357,50,"20,0","68,0","12,0",.,.,.,.,50,"12,0","74,0","14,0",.,.,.,.,2018
+Årbyskolan F-9,63315515,Eskilstuna,0484,Kommunal,Eskilstuna,2120000357,55,"27,3","45,5","27,3",.,.,.,.,88,"28,4","62,5","9,1",36,.,"69,4","30,6",2018
+Ekenässkolan,83526311,Eslöv,1285,Kommunal,Eslöv,2120001173,96,"10,4","68,8","20,8",.,.,.,.,109,"13,8","80,7","5,5",18,"5,6","61,1","33,3",2018
+Källebergsskolan,26645758,Eslöv,1285,Kommunal,Eslöv,2120001173,58,"15,5","58,6","25,9",.,.,.,.,76,"21,1","57,9","21,1",22,"27,3","40,9","31,8",2018
+Norrevångsskolan 7-9,37995642,Eslöv,1285,Kommunal,Eslöv,2120001173,65,"7,7","76,9","15,4",.,.,.,.,91,"12,1","76,9","11,0",23,"4,3","87,0","8,7",2018
+Ölyckeskolan,96788188,Eslöv,1285,Kommunal,Eslöv,2120001173,63,"7,9","77,8","14,3",.,.,.,.,57,"8,8","63,2","28,1",.,.,.,.,2018
+Nossebro skola år 6-9,26531220,Essunga,1445,Kommunal,Essunga,2120002916,.,.,.,.,.,.,.,.,57,"14,0","82,5","3,5",.,.,.,.,2018
+Lindgårdsskolan 7-9,95382478,Fagersta,1982,Enskild,Västanfors-Västervåla Församling,2520040524,.,.,.,.,.,.,.,.,16,"43,8","50,0","6,3",.,.,.,.,2018
+Risbroskolan,88657987,Fagersta,1982,Kommunal,Fagersta,2120002106,97,"29,9","34,0","36,1",.,.,.,.,132,"20,5","50,8","28,8",18,"16,7","44,4","38,9",2018
+Apelskolan 2,58501067,Falkenberg,1382,Kommunal,Falkenberg,2120001231,43,"11,6","69,8","18,6",.,.,.,.,45,"2,2","91,1","6,7",.,.,.,.,2018
+Falkenbergs Montessoriskola,78647439,Falkenberg,1382,Kommunal,Falkenberg,2120001231,16,.,"62,5","37,5",.,.,.,.,17,"17,6","82,4",.,.,.,.,.,2018
+Skogstorpsskolan 1,34104887,Falkenberg,1382,Kommunal,Falkenberg,2120001231,57,"22,8","54,4","22,8",.,.,.,.,71,"2,8","77,5","19,7",.,.,.,.,2018
+Söderskolan,59144575,Falkenberg,1382,Kommunal,Falkenberg,2120001231,56,"8,9","64,3","26,8",.,.,.,.,63,"20,6","76,2","3,2",.,.,.,.,2018
+Tullbroskolan 1,56615270,Falkenberg,1382,Kommunal,Falkenberg,2120001231,21,.,"42,9","57,1",.,.,.,.,23,.,"69,6","30,4",.,.,.,.,2018
+Tullbroskolan 2,59799831,Falkenberg,1382,Kommunal,Falkenberg,2120001231,61,"6,6","49,2","44,3",.,.,.,.,83,"9,6","78,3","12,0",24,"16,7","45,8","37,5",2018
+Tångaskolan 6-9,98733120,Falkenberg,1382,Kommunal,Falkenberg,2120001231,50,"24,0","62,0","14,0",.,.,.,.,71,"22,5","74,6","2,8",28,"14,3","67,9","17,9",2018
+Vesterhavsskolan,35136963,Falkenberg,1382,Enskild,Vesterhavet AB,5567870398,62,"1,6","59,7","38,7",.,.,.,.,62,"9,7","64,5","25,8",.,.,.,.,2018
+Centralskolan 6-9,17911537,Falköping,1499,Kommunal,Falköping,2120001744,66,"24,2","59,1","16,7",.,.,.,.,78,"24,4","70,5","5,1",.,.,.,.,2018
+Flobyskolan 7-9,54765026,Falköping,1499,Kommunal,Falköping,2120001744,34,"2,9","29,4","67,6",.,.,.,.,40,"10,0","62,5","27,5",.,.,.,.,2018
+Gudhemsskolan,48695990,Falköping,1499,Kommunal,Falköping,2120001744,18,"11,1","55,6","33,3",.,.,.,.,23,"21,7","78,3",.,.,.,.,.,2018
+Kinnarpsskolan,15357005,Falköping,1499,Kommunal,Falköping,2120001744,32,"3,1","75,0","21,9",.,.,.,.,37,"8,1","78,4","13,5",.,.,.,.,2018
+Kyrkerörsskolan AC,39777812,Falköping,1499,Kommunal,Falköping,2120001744,31,"22,6","71,0","6,5",.,.,.,.,41,"9,8","90,2",.,.,.,.,.,2018
+Kyrkerörsskolan BD,39933770,Falköping,1499,Kommunal,Falköping,2120001744,32,"15,6","62,5","21,9",.,.,.,.,46,"17,4","78,3","4,3",.,.,.,.,2018
+Stenstorpsskolan B,43269172,Falköping,1499,Kommunal,Falköping,2120001744,44,"25,0","59,1","15,9",.,.,.,.,50,"20,0","78,0","2,0",.,.,.,.,2018
+Thoren Framtid i Falköping,48252217,Falköping,1499,Enskild,Thoren Framtid AB,5567497051,15,"20,0","46,7","33,3",.,.,.,.,18,.,"88,9","11,1",.,.,.,.,2018
+Vartoftaskolan,93035626,Falköping,1499,Kommunal,Falköping,2120001744,28,"42,9","42,9","14,3",.,.,.,.,28,"35,7","53,6","10,7",.,.,.,.,2018
+Bjursåsskolan 7-9,55126250,Falun,2080,Kommunal,Falun,2120002221,47,"2,1","80,9","17,0",.,.,.,.,47,"6,4","85,1","8,5",.,.,.,.,2018
+Britsarvsskolan,17033155,Falun,2080,Kommunal,Falun,2120002221,55,"3,6","69,1","27,3",.,.,.,.,61,"19,7","68,9","11,5",.,.,.,.,2018
+Erlaskolan Falun,41444691,Falun,2080,Enskild,Lärande i Sverige AB,5565715892,38,"13,2","55,3","31,6",.,.,.,.,38,"10,5","42,1","47,4",.,.,.,.,2018
+Friskolan Mosaik,65494903,Falun,2080,Enskild,Friskolan Mosaik i Falun ekonomisk förening,7696149751,20,"15,0","65,0","20,0",.,.,.,.,21,.,"81,0","19,0",.,.,.,.,2018
+Hälsinggårdsskolan 7-9,28599917,Falun,2080,Kommunal,Falun,2120002221,115,"14,8","54,8","30,4",.,.,.,.,115,"19,1","75,7","5,2",.,.,.,.,2018
+Internationella Engelska Skolan Falun,34401115,Falun,2080,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,42,"21,4","50,0","28,6",.,.,.,.,48,"12,5","77,1","10,4",.,.,.,.,2018
+Montessoriskolan i Falun,57444890,Falun,2080,Kommunal,Falun,2120002221,20,.,"70,0","30,0",.,.,.,.,20,"40,0","50,0","10,0",.,.,.,.,2018
+Svärdsjöskolan 7-9,27506076,Falun,2080,Kommunal,Falun,2120002221,73,"6,8","43,8","49,3",.,.,.,.,71,"11,3","66,2","22,5",.,.,.,.,2018
+Söderbaumska skolan,72625090,Falun,2080,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,52,"5,8","67,3","26,9",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Ferlinskolan,76981284,Filipstad,1782,Kommunal,Filipstad,2120001876,68,"7,4","76,5","16,2",.,.,.,.,78,.,"78,2","21,8",.,.,.,.,2018
+Stålvallaskolan,37648787,Filipstad,1782,Kommunal,Filipstad,2120001876,16,"6,3","62,5","31,3",.,.,.,.,17,"5,9","76,5","17,6",.,.,.,.,2018
+Grosvadskolan Syd,40732962,Finspång,0562,Kommunal,Finspång,2120000423,.,.,.,.,.,.,.,.,95,"8,4","63,2","28,4",.,.,.,.,2018
+Nyhemsskolan 7-9,65487720,Finspång,0562,Kommunal,Finspång,2120000423,88,"39,8","48,9","11,4",.,.,.,.,100,"34,0","60,0","6,0",.,.,.,.,2018
+Europaskolan Malma,38215460,Flen,0482,Enskild,Europaskolan Grundskola AB,5567480511,31,"3,2","41,9","54,8",.,.,.,.,29,"6,9","72,4","20,7",.,.,.,.,2018
+Stenhammarskolan 7-9,81546814,Flen,0482,Kommunal,Flen,2120000332,63,"1,6","46,0","52,4",.,.,.,.,95,"24,2","55,8","20,0",34,"8,8","38,2","52,9",2018
+Dejeskolan H-stadiet,48228294,Forshaga,1763,Kommunal,Forshaga,2120001819,33,"15,2","54,5","30,3",.,.,.,.,33,"15,2","81,8","3,0",.,.,.,.,2018
+Forshaga lärcenter H-stadiet,68533503,Forshaga,1763,Kommunal,Forshaga,2120001819,88,"3,4","64,8","31,8",.,.,.,.,93,"16,1","73,1","10,8",.,.,.,.,2018
+Valboskolan 7-9,17089857,Färgelanda,1439,Kommunal,Färgelanda,2120001421,54,"14,8","68,5","16,7",.,.,.,.,58,"24,1","70,7","5,2",.,.,.,.,2018
+Djuråsskolan F-9,36819574,Gagnef,2026,Kommunal,Gagnef,2120002155,46,"30,4","63,0","6,5",.,.,.,.,46,"26,1","71,7","2,2",.,.,.,.,2018
+Mockfjärdsskolan,95610127,Gagnef,2026,Kommunal,Gagnef,2120002155,33,"15,2","66,7","18,2",.,.,.,.,40,"2,5","85,0","12,5",.,.,.,.,2018
+Lundåkerskolan,47236914,Gislaved,0662,Kommunal,Gislaved,2120000514,83,"18,1","54,2","27,7",.,.,.,.,.,.,.,.,40,"2,5","50,0","47,5",2018
+Nordinskolan,40991541,Gislaved,0662,Kommunal,Gislaved,2120000514,69,"15,9","59,4","24,6",.,.,.,.,81,"28,4","63,0","8,6",.,.,.,.,2018
+Åsenskolan,70954223,Gislaved,0662,Kommunal,Gislaved,2120000514,67,"20,9","47,8","31,3",.,.,.,.,78,"17,9","78,2","3,8",20,"10,0","60,0","30,0",2018
+Ölmestadskolan,85013151,Gislaved,0662,Kommunal,Gislaved,2120000514,30,"10,0","70,0","20,0",.,.,.,.,34,"20,6","55,9","23,5",.,.,.,.,2018
+Frejaskolan 7-9,71986467,Gnesta,0461,Kommunal,Gnesta,2120002965,95,"8,4","73,7","17,9",.,.,.,.,90,"6,7","74,4","18,9",.,.,.,.,2018
+Bäckaskolan 7-9,43172419,Gnosjö,0617,Kommunal,Gnosjö,2120000506,53,"30,2","37,7","32,1",.,.,.,.,72,"20,8","72,2","6,9",21,"9,5","71,4","19,0",2018
+Hillerstorpsskolan 7-9,33877675,Gnosjö,0617,Kommunal,Gnosjö,2120000506,31,"9,7","67,7","22,6",.,.,.,.,39,"23,1","76,9",.,.,.,.,.,2018
+Atheneskolan,52229866,Gotland,0980,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,35,"14,3","54,3","31,4",.,.,.,.,39,"15,4","79,5","5,1",.,.,.,.,2018
+Fårösundsskolan,68188627,Gotland,0980,Kommunal,Gotland,2120000803,19,.,"78,9","21,1",.,.,.,.,26,.,"80,8","19,2",.,.,.,.,2018
+"Guteskolan, grundskola",42518434,Gotland,0980,Enskild,Guteskolan AB,5567044267,24,"12,5","66,7","20,8",.,.,.,.,23,"4,3","82,6","13,0",.,.,.,.,2018
+Högbyskolan,94163432,Gotland,0980,Kommunal,Gotland,2120000803,56,"26,8","50,0","23,2",.,.,.,.,60,"13,3","78,3","8,3",.,.,.,.,2018
+Klinteskolan,24429776,Gotland,0980,Kommunal,Gotland,2120000803,27,.,"74,1","25,9",.,.,.,.,27,"22,2","66,7","11,1",.,.,.,.,2018
+Romaskolan,60700608,Gotland,0980,Kommunal,Gotland,2120000803,39,"17,9","61,5","20,5",.,.,.,.,40,"2,5","92,5","5,0",.,.,.,.,2018
+Solbergaskolan,96609581,Gotland,0980,Kommunal,Gotland,2120000803,172,"5,8","75,6","18,6",.,.,.,.,184,"13,0","84,8","2,2",.,.,.,.,2018
+Solklintsskolan,10979668,Gotland,0980,Kommunal,Gotland,2120000803,32,"18,8","53,1","28,1",.,.,.,.,34,"2,9","61,8","35,3",.,.,.,.,2018
+Södervärnsskolan,80013231,Gotland,0980,Kommunal,Gotland,2120000803,119,"5,0","54,6","40,3",.,.,.,.,125,"9,6","76,8","13,6",.,.,.,.,2018
+Jättestenskolan,16891307,Grums,1764,Kommunal,Grums,2120001827,58,"12,1","62,1","25,9",.,.,.,.,65,"15,4","75,4","9,2",.,.,.,.,2018
+Centralskolan 4-9,31381375,Grästorp,1444,Kommunal,Grästorp,2120001595,46,"6,5","69,6","23,9",.,.,.,.,50,"4,0","88,0","8,0",.,.,.,.,2018
+Gullstensskolan åk 7-9,89624871,Gullspång,1447,Kommunal,Gullspång,2120001637,39,"12,8","74,4","12,8",.,.,.,.,48,"27,1","68,8","4,2",.,.,.,.,2018
+Hedskolan LMH,13185131,Gällivare,2523,Kommunal,Gällivare,2120002726,27,"7,4","81,5","11,1",.,.,.,.,25,"28,0","72,0",.,.,.,.,.,2018
+Malmens friskola,37140962,Gällivare,2523,Enskild,Malmens Friskola AB,5565528022,20,.,"90,0","10,0",.,.,.,.,20,.,"85,0","15,0",.,.,.,.,2018
+Sjöparksskolan LMH,24426745,Gällivare,2523,Kommunal,Gällivare,2120002726,47,"8,5","63,8","27,7",.,.,.,.,44,"4,5","63,6","31,8",.,.,.,.,2018
+Tallbackaskolan MH,68699648,Gällivare,2523,Kommunal,Gällivare,2120002726,32,"6,3","65,6","28,1",.,.,.,.,32,"21,9","65,6","12,5",.,.,.,.,2018
+Internationella Engelska Skolan Gävle,53952728,Gävle,2180,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,130,"12,3","50,0","37,7",.,.,.,.,169,"17,2","65,1","17,8",.,.,.,.,2018
+Kunskapsskolan Gävle,21423670,Gävle,2180,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,50,"8,0","54,0","38,0",.,.,.,.,58,"17,2","67,2","15,5",.,.,.,.,2018
+Nynässkolan 7-9,40944032,Gävle,2180,Kommunal,Gävle,2120002338,105,"11,4","49,5","39,0",.,.,.,.,124,"14,5","70,2","15,3",28,"3,6","78,6","17,9",2018
+"Prolympia, Gävle",57578095,Gävle,2180,Enskild,Ulno AB,5566577705,94,"9,6","64,9","25,5",.,.,.,.,102,"14,7","81,4","3,9",.,.,.,.,2018
+Sofiedalskolan,80177526,Gävle,2180,Kommunal,Gävle,2120002338,27,"7,4","59,3","33,3",.,.,.,.,153,"14,4","71,9","13,7",.,.,.,.,2018
+Stigslunds skola,91652716,Gävle,2180,Kommunal,Gävle,2120002338,104,"21,2","67,3","11,5",.,.,.,.,99,"9,1","78,8","12,1",.,.,.,.,2018
+Stora Sätraskolan,49779956,Gävle,2180,Kommunal,Gävle,2120002338,37,"2,7","78,4","18,9",.,.,.,.,62,"6,5","79,0","14,5",25,.,"80,0","20,0",2018
+Vallbacksskolan,54990077,Gävle,2180,Kommunal,Gävle,2120002338,70,"21,4","54,3","24,3",.,.,.,.,110,"12,7","70,9","16,4",40,"10,0","72,5","17,5",2018
+Assaredsskolan,25852980,Göteborg,1480,Enskild,Assareds Skolkooperativ Ek För.,7164451390,.,.,.,.,.,.,.,.,21,"42,9","57,1",.,.,.,.,.,2018
+Bergsgårdsskolan 4-9,67687325,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,21,"23,8","66,7","9,5",26,"15,4","42,3","42,3",2018
+Bergsjöskolan 7-9,35416997,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,35,"11,4","85,7","2,9",30,"10,0","53,3","36,7",2018
+Bergums skola 4-9,98771543,Göteborg,1480,Kommunal,Göteborg,2120001355,65,"9,2","76,9","13,8",.,.,.,.,76,"1,3","96,1","2,6",.,.,.,.,2018
+Brandströmska skolan Nylöse,11295861,Göteborg,1480,Enskild,Stiftelsen För Kristen Skolverksamhet,8572054065,.,.,.,.,.,.,.,.,33,"3,0","63,6","33,3",31,"22,6","48,4","29,0",2018
+Böskolans friskola,83071620,Göteborg,1480,Enskild,Böskolans Friskola Ek.För.,7164451473,42,"19,0","45,2","35,7",.,.,.,.,42,"38,1","57,1","4,8",.,.,.,.,2018
+Centrina Kviberg,17517182,Göteborg,1480,Enskild,Vindseglet AB,5567572234,74,"2,7","66,2","31,1",.,.,.,.,71,"11,3","87,3","1,4",.,.,.,.,2018
+Centrina Lindholmen,79866556,Göteborg,1480,Enskild,Vindseglet AB,5567572234,69,"10,1","72,5","17,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Drakbergsskolan,60526603,Göteborg,1480,Enskild,Kannebäcks Friskoleförening,8572069568,24,"4,2","62,5","33,3",.,.,.,.,24,"12,5","79,2","8,3",.,.,.,.,2018
+Fenestra Centrum,87139814,Göteborg,1480,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,.,.,.,.,.,.,.,.,63,"6,3","69,8","23,8",.,.,.,.,2018
+Fenestra Nya Hovås,21497343,Göteborg,1480,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,.,.,.,.,.,.,.,.,108,"21,3","74,1","4,6",.,.,.,.,2018
+Fenestra S:t Jörgen,27265374,Göteborg,1480,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,44,"31,8","52,3","15,9",.,.,.,.,60,"11,7","81,7","6,7",.,.,.,.,2018
+Fiskebäcksskolan 6-9,99641533,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,49,"14,3","42,9","42,9",.,.,.,.,2018
+Franska skolan Göteborg 6-9,51565567,Göteborg,1480,Enskild,Medborgarskolan Region Väst,8494001913,19,"31,6","63,2","5,3",.,.,.,.,22,"13,6","77,3","9,1",.,.,.,.,2018
+Freinetskolan Bild & Form,31872640,Göteborg,1480,Enskild,Bild och Form i Göteborg Aktiebolag,5566666102,18,"27,8","66,7","5,6",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Frejaskolan 7-9,51782099,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,41,"9,8","46,3","43,9",.,.,.,.,2018
+Fridaskolan Kvillebäcken,56328727,Göteborg,1480,Enskild,Fridaskolorna AB,5564515988,72,"16,7","68,1","15,3",.,.,.,.,71,"15,5","76,1","8,5",.,.,.,.,2018
+Frölundaskolan 7-9,97820269,Göteborg,1480,Kommunal,Göteborg,2120001355,42,"4,8","31,0","64,3",.,.,.,.,66,"19,7","63,6","16,7",.,.,.,.,2018
+Gamlestadsskolan H,90710178,Göteborg,1480,Kommunal,Göteborg,2120001355,35,"17,1","45,7","37,1",.,.,.,.,62,"24,2","66,1","9,7",33,"21,2","57,6","21,2",2018
+Glöstorpsskolan 7-9,85656343,Göteborg,1480,Kommunal,Göteborg,2120001355,42,"11,9","28,6","59,5",.,.,.,.,56,"8,9","67,9","23,2",17,"5,9","58,8","35,3",2018
+Guldhedsskolan 7-9,98423378,Göteborg,1480,Kommunal,Göteborg,2120001355,22,"13,6","45,5","40,9",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Gårdstensskolan 4-9,55886598,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,.,.,.,.,38,"15,8","31,6","52,6",2018
+Göteborgs Högre Samskola gr.,52538248,Göteborg,1480,Enskild,Stiftelsen Göteborgs Högre Samskola,8572059197,142,"12,0","69,7","18,3",.,.,.,.,146,"16,4","81,5","2,1",.,.,.,.,2018
+Hjällboskolan 6-9,63925456,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,43,"7,0","74,4","18,6",34,.,"79,4","20,6",2018
+Hovåsskolan 7-9,32603156,Göteborg,1480,Kommunal,Göteborg,2120001355,69,"7,2","76,8","15,9",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Internationella Engelska Skolan Johanneberg,41921747,Göteborg,1480,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,.,.,.,.,.,.,.,.,175,"33,1","54,3","12,6",.,.,.,.,2018
+ISGR/Swedish-English,80498460,Göteborg,1480,Enskild,Göteborgsregionens Internationella Skola AB,5565275657,50,"12,0","50,0","38,0",.,.,.,.,52,"13,5","67,3","19,2",.,.,.,.,2018
+JENSEN grundskola Göteborg,62764006,Göteborg,1480,Enskild,Jensen Education College AB,5566358759,38,"5,3","52,6","42,1",.,.,.,.,55,"12,7","63,6","23,6",18,.,"77,8","22,2",2018
+Jättestensskolan 2 F-9,55124975,Göteborg,1480,Kommunal,Göteborg,2120001355,33,"9,1","48,5","42,4",.,.,.,.,45,"2,2","86,7","11,1",.,.,.,.,2018
+Katolska skolan av Notre Dame,45045293,Göteborg,1480,Enskild,Stiftelsen Katolska Skolan Av Notre Dame,8572042581,.,.,.,.,.,.,.,.,40,"17,5","67,5","15,0",35,"20,0","71,4","8,6",2018
+Klarebergsskolan 7-9,20429308,Göteborg,1480,Kommunal,Göteborg,2120001355,91,.,"68,1","31,9",.,.,.,.,97,"11,3","75,3","13,4",.,.,.,.,2018
+Kristinaskolan,46512685,Göteborg,1480,Enskild,Stiftelsen För Kristna Skolor i Angeredområdet,8572042193,.,.,.,.,.,.,.,.,18,.,"66,7","33,3",16,"6,3","56,3","37,5",2018
+Kunskapsskolan Krokslätt,83045482,Göteborg,1480,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,50,"6,0","64,0","30,0",.,.,.,.,54,"24,1","70,4","5,6",.,.,.,.,2018
+Kålltorpsskolan 4-9,16954837,Göteborg,1480,Kommunal,Göteborg,2120001355,92,"3,3","80,4","16,3",.,.,.,.,104,"7,7","82,7","9,6",.,.,.,.,2018
+Kärralundsskolan F-9,14037390,Göteborg,1480,Kommunal,Göteborg,2120001355,75,"9,3","70,7","20,0",.,.,.,.,73,"17,8","72,6","9,6",.,.,.,.,2018
+Kärraskolan 4-9 och grundsärskola åk 1-9,85930744,Göteborg,1480,Kommunal,Göteborg,2120001355,55,"7,3","60,0","32,7",.,.,.,.,66,"69,7","30,3",.,.,.,.,.,2018
+Lindåsskolan 4-9,61845870,Göteborg,1480,Kommunal,Göteborg,2120001355,48,"4,2","83,3","12,5",.,.,.,.,50,"34,0","44,0","22,0",.,.,.,.,2018
+Lundenskolan F-9,37379026,Göteborg,1480,Kommunal,Göteborg,2120001355,57,"5,3","54,4","40,4",.,.,.,.,57,"31,6","66,7","1,8",.,.,.,.,2018
+Lövgärdesskolan 4-9,31928894,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,36,"11,1","80,6","8,3",.,.,.,.,2018
+Montessoriskolan Casa,76938537,Göteborg,1480,Enskild,Stiftelsen Casa Dei Bambini,8520004261,27,"3,7","77,8","18,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Montessoriskolan Centrum,73995321,Göteborg,1480,Enskild,Stiftelsen Montessoriskolan Centrum,8572066309,26,"3,8","76,9","19,2",.,.,.,.,27,"11,1","85,2","3,7",.,.,.,.,2018
+Montessoriskolan Elyseum,46489893,Göteborg,1480,Kommunal,Göteborg,2120001355,15,.,"80,0","20,0",.,.,.,.,15,"20,0","80,0",.,.,.,.,.,2018
+Montessoriskolan Skäret,25894254,Göteborg,1480,Enskild,Skäret Skolkooperativ Ek.För.,7164452323,32,"12,5","78,1","9,4",.,.,.,.,32,"12,5","87,5",.,.,.,.,.,2018
+Nordhemsskolan 2,32380381,Göteborg,1480,Kommunal,Göteborg,2120001355,158,"14,6","58,9","26,6",.,.,.,.,171,"24,0","63,2","12,9",.,.,.,.,2018
+Nygårdsskolan 4-9,65651613,Göteborg,1480,Kommunal,Göteborg,2120001355,38,"10,5","55,3","34,2",.,.,.,.,35,.,"65,7","34,3",.,.,.,.,2018
+Prolympia Göteborg,54367867,Göteborg,1480,Enskild,Gothenburg Association AB,5567295851,75,"9,3","49,3","41,3",.,.,.,.,19,"31,6","63,2","5,3",.,.,.,.,2018
+Påvelundsskolan 7-9 A,33511119,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,64,"23,4","70,3","6,3",.,.,.,.,2018
+Påvelundsskolan 7-9 B,43441529,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,105,"20,0","68,6","11,4",.,.,.,.,2018
+Rudolf Steinerskolan Göteborg,42817980,Göteborg,1480,Enskild,Stiftelsen Rudolf Steinerskolan,8572019142,19,"15,8","52,6","31,6",.,.,.,.,18,"16,7","77,8","5,6",.,.,.,.,2018
+Ryaskolan 4-9,28890717,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,33,"15,2","45,5","39,4",29,"3,4","51,7","44,8",2018
+Römosseskolan,72408586,Göteborg,1480,Enskild,Föreningen Islamiska Skolan i Göteborg,8551021952,.,.,.,.,.,.,.,.,40,.,"95,0","5,0",41,.,"85,4","14,6",2018
+Sandeklevsskolan 2,91683255,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,29,"10,3","62,1","27,6",29,.,"44,8","55,2",2018
+Sannaskolan 2,42792002,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,83,"27,7","62,7","9,6",.,.,.,.,2018
+Sjumilaskolan 7-9,70791331,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,25,"20,0","48,0","32,0",.,.,.,.,2018
+Skälltorpsskolan 7-9,21231498,Göteborg,1480,Kommunal,Göteborg,2120001355,65,"26,2","60,0","13,8",.,.,.,.,82,"34,1","54,9","11,0",20,.,"85,0","15,0",2018
+Svartedalsskolan B,98179004,Göteborg,1480,Kommunal,Göteborg,2120001355,17,"11,8","70,6","17,6",.,.,.,.,54,"9,3","77,8","13,0",40,"17,5","67,5","15,0",2018
+The English School Gothenburg,66890810,Göteborg,1480,Enskild,Stiftelsen English School In Gothenburg,8551009148,.,.,.,.,.,.,.,.,27,"11,1","85,2","3,7",16,"18,8","81,3",.,2018
+Toleredsskolan 7-9,27774991,Göteborg,1480,Kommunal,Göteborg,2120001355,75,"12,0","57,3","30,7",.,.,.,.,22,"13,6","81,8","4,5",.,.,.,.,2018
+Torslandaskolan 6-9 spår B,88371868,Göteborg,1480,Kommunal,Göteborg,2120001355,165,"18,8","61,2","20,0",.,.,.,.,172,"9,9","68,6","21,5",.,.,.,.,2018
+Trulsegårdsskolan B,26152423,Göteborg,1480,Kommunal,Göteborg,2120001355,116,"16,4","62,1","21,6",.,.,.,.,122,"28,7","57,4","13,9",.,.,.,.,2018
+Utmarksskolan,39000072,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,53,"15,1","81,1","3,8",42,"4,8","76,2","19,0",2018
+Vasaskolan,56168083,Göteborg,1480,Enskild,Stiftelsen För Kristna Skolor,8572027434,43,"14,0","69,8","16,3",.,.,.,.,43,"14,0","83,7","2,3",.,.,.,.,2018
+Vetenskapsskolan,71259819,Göteborg,1480,Enskild,Vetenskapsskolan i Göteborg AB,5567716583,23,.,"60,9","39,1",.,.,.,.,23,"8,7","73,9","17,4",.,.,.,.,2018
+Victoriaskolan,80678068,Göteborg,1480,Enskild,Tyska Skolan Göteborg Ek. För.,7696043608,44,"22,7","56,8","20,5",.,.,.,.,46,.,"89,1","10,9",.,.,.,.,2018
+Vittra Kronhusparken,67543412,Göteborg,1480,Enskild,Vittraskolorna AB,5564586716,34,"23,5","52,9","23,5",.,.,.,.,39,"23,1","71,8","5,1",.,.,.,.,2018
+Vättleskolan 4-9,27760036,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,58,"8,6","87,9","3,4",48,"14,6","62,5","22,9",2018
+Änglagårdskolan,87427999,Göteborg,1480,Enskild,Gothenburg Association AB,5567295851,59,"5,1","62,7","32,2",.,.,.,.,62,"17,7","67,7","14,5",.,.,.,.,2018
+Önneredsskolan 7-9,26855170,Göteborg,1480,Kommunal,Göteborg,2120001355,.,.,.,.,.,.,.,.,98,"22,4","70,4","7,1",.,.,.,.,2018
+Liljestensskolan 2,16790280,Götene,1471,Kommunal,Götene,2120001652,132,"9,1","34,8","56,1",.,.,.,.,139,"9,4","69,8","20,9",.,.,.,.,2018
+Hagabodaskolan,38553494,Habo,0643,Kommunal,Habo,2120001611,121,"14,0","65,3","20,7",.,.,.,.,126,"19,0","69,8","11,1",.,.,.,.,2018
+Kyrkhedens skola 4-9,86113785,Hagfors,1783,Kommunal,Hagfors,2120001884,41,"7,3","68,3","24,4",.,.,.,.,42,.,"85,7","14,3",.,.,.,.,2018
+Älvstranden bildn.centrum 7-9,18315553,Hagfors,1783,Kommunal,Hagfors,2120001884,57,"7,0","61,4","31,6",.,.,.,.,58,"6,9","69,0","24,1",.,.,.,.,2018
+Folkasboskolan,99707554,Hallsberg,1861,Kommunal,Hallsberg,2120001926,33,.,"66,7","33,3",.,.,.,.,35,"14,3","71,4","14,3",.,.,.,.,2018
+Transtenskolan,63503591,Hallsberg,1861,Kommunal,Hallsberg,2120001926,104,"24,0","51,0","25,0",.,.,.,.,102,"4,9","67,6","27,5",.,.,.,.,2018
+Parkskolan,91030682,Hallstahammar,1961,Kommunal,Hallstahammar,2120002064,84,"3,6","69,0","27,4",.,.,.,.,112,"10,7","75,9","13,4",26,.,"38,5","61,5",2018
+Tunboskolan,32758035,Hallstahammar,1961,Kommunal,Hallstahammar,2120002064,33,"9,1","33,3","57,6",.,.,.,.,36,"8,3","72,2","19,4",.,.,.,.,2018
+Brunnsåkersskolan 3,61539121,Halmstad,1380,Kommunal,Halmstad,2120001215,61,"19,7","41,0","39,3",.,.,.,.,77,"15,6","71,4","13,0",16,"6,3","75,0","18,8",2018
+Eketånga Montessoriskola,28459364,Halmstad,1380,Enskild,Ideella Föreningen Eketånga Montessoriskola,8492017143,23,"8,7","60,9","30,4",.,.,.,.,23,"8,7","69,6","21,7",.,.,.,.,2018
+Engelska Skolan i Halmstad,78323330,Halmstad,1380,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,77,"6,5","44,2","49,4",.,.,.,.,82,"11,0","74,4","14,6",.,.,.,.,2018
+Furulundsskolan 1,84189577,Halmstad,1380,Kommunal,Halmstad,2120001215,76,"13,2","69,7","17,1",.,.,.,.,74,"18,9","78,4","2,7",.,.,.,.,2018
+Fyllingeskolan 1,65388353,Halmstad,1380,Kommunal,Halmstad,2120001215,22,.,"54,5","45,5",.,.,.,.,34,.,"85,3","14,7",.,.,.,.,2018
+Getingeskolan 2,28451136,Halmstad,1380,Kommunal,Halmstad,2120001215,63,"22,2","61,9","15,9",.,.,.,.,67,"17,9","61,2","20,9",.,.,.,.,2018
+Gullbrandstorpsskolan 1,74772092,Halmstad,1380,Kommunal,Halmstad,2120001215,45,.,"48,9","51,1",.,.,.,.,47,"17,0","72,3","10,6",.,.,.,.,2018
+Stenstorpsskolan 1,52347444,Halmstad,1380,Kommunal,Halmstad,2120001215,33,"3,0","84,8","12,1",.,.,.,.,33,"9,1","81,8","9,1",.,.,.,.,2018
+Söndrumskolan 1,18751410,Halmstad,1380,Kommunal,Halmstad,2120001215,66,"3,0","77,3","19,7",.,.,.,.,67,.,"98,5","1,5",.,.,.,.,2018
+Söndrumskolan 2,67995611,Halmstad,1380,Kommunal,Halmstad,2120001215,68,"1,5","73,5","25,0",.,.,.,.,72,"5,6","91,7","2,8",.,.,.,.,2018
+Trönningeskolan 1,86573921,Halmstad,1380,Kommunal,Halmstad,2120001215,61,"9,8","49,2","41,0",.,.,.,.,59,"6,8","72,9","20,3",.,.,.,.,2018
+Vallåsskolan 3,45539695,Halmstad,1380,Kommunal,Halmstad,2120001215,34,"8,8","64,7","26,5",.,.,.,.,37,"5,4","81,1","13,5",.,.,.,.,2018
+Vallåsskolan 4,31012040,Halmstad,1380,Kommunal,Halmstad,2120001215,18,"5,6","61,1","33,3",.,.,.,.,19,"10,5","63,2","26,3",.,.,.,.,2018
+Wallbergsskolan,42422737,Halmstad,1380,Enskild,Wallbergsskolans Ideella Förening,8492023802,21,"9,5","85,7","4,8",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Östergårdsskolan 1,74243509,Halmstad,1380,Kommunal,Halmstad,2120001215,32,.,"68,8","31,3",.,.,.,.,47,"2,1","74,5","23,4",18,"5,6","72,2","22,2",2018
+Östergårdsskolan 3,63902508,Halmstad,1380,Kommunal,Halmstad,2120001215,36,"5,6","52,8","41,7",.,.,.,.,73,"12,3","74,0","13,7",34,.,"70,6","29,4",2018
+Österledskolan 1,92337813,Halmstad,1380,Kommunal,Halmstad,2120001215,48,"4,2","64,6","31,3",.,.,.,.,50,"6,0","90,0","4,0",.,.,.,.,2018
+Österledskolan 2,14732915,Halmstad,1380,Kommunal,Halmstad,2120001215,49,"6,1","69,4","24,5",.,.,.,.,49,"8,2","75,5","16,3",.,.,.,.,2018
+Hammarlundens skola 7-9,95243847,Hammarö,1761,Kommunal,Hammarö,2120001793,98,"10,2","70,4","19,4",.,.,.,.,98,"3,1","93,9","3,1",.,.,.,.,2018
+Brandbergsskolan,73184968,Haninge,0136,Kommunal,Haninge,2120000084,40,"10,0","45,0","45,0",.,.,.,.,48,.,"64,6","35,4",15,.,"40,0","60,0",2018
+Dalarö skola,47640376,Haninge,0136,Kommunal,Haninge,2120000084,.,.,.,.,.,.,.,.,21,"42,9","52,4","4,8",.,.,.,.,2018
+Deltaskolan,73926940,Haninge,0136,Enskild,Deltaskolan AB,5568658545,.,.,.,.,.,.,.,.,54,"5,6","70,4","24,1",.,.,.,.,2018
+HagaLyckebyskolan,81680693,Haninge,0136,Kommunal,Haninge,2120000084,125,"10,4","62,4","27,2",.,.,.,.,126,"4,8","65,9","29,4",.,.,.,.,2018
+Rudanskolan,17957898,Haninge,0136,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,83,"3,6","79,5","16,9",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Söderbymalmsskolan,10035236,Haninge,0136,Kommunal,Haninge,2120000084,94,"6,4","64,9","28,7",.,.,.,.,120,"13,3","80,0","6,7",17,.,"47,1","52,9",2018
+Tungelsta skola,38975788,Haninge,0136,Kommunal,Haninge,2120000084,72,"9,7","59,7","30,6",.,.,.,.,73,"19,2","69,9","11,0",.,.,.,.,2018
+Vendelsömalmsskolan,72266104,Haninge,0136,Kommunal,Haninge,2120000084,67,"14,9","61,2","23,9",.,.,.,.,76,.,"88,2","11,8",.,.,.,.,2018
+Gränsskolan,29991096,Haparanda,2583,Kommunal,Haparanda,2120002775,36,"2,8","66,7","30,6",.,.,.,.,52,"13,5","75,0","11,5",19,"5,3","52,6","42,1",2018
+Marielundsskolan,13768276,Haparanda,2583,Kommunal,Haparanda,2120002775,.,.,.,.,.,.,.,.,16,"31,3","56,3","12,5",15,"13,3","73,3","13,3",2018
+Språkskolan,98675845,Haparanda,2583,Kommunal,Haparanda,2120002775,19,"5,3","84,2","10,5",.,.,.,.,19,"10,5","73,7","15,8",.,.,.,.,2018
+Heby skola 7-9,36374693,Heby,0331,Kommunal,Heby,2120002049,60,"3,3","68,3","28,3",.,.,.,.,64,"1,6","87,5","10,9",.,.,.,.,2018
+Östervåla skola 7-9,88091927,Heby,0331,Kommunal,Heby,2120002049,52,"1,9","86,5","11,5",.,.,.,.,55,.,"96,4","3,6",.,.,.,.,2018
+Olympica,87686617,Hedemora,2083,Enskild,Olympica AB,5565938700,33,"27,3","54,5","18,2",.,.,.,.,35,.,"82,9","17,1",.,.,.,.,2018
+Vasaskolan 7-9,35494110,Hedemora,2083,Kommunal,Hedemora,2120002254,98,"1,0","62,2","36,7",.,.,.,.,124,"3,2","91,1","5,6",28,.,"67,9","32,1",2018
+Dalhemsskolan,86764194,Helsingborg,1283,Kommunal,Helsingborg,2120001157,.,.,.,.,.,.,.,.,27,"11,1","66,7","22,2",20,"25,0","55,0","20,0",2018
+Elinebergsskolan,41811292,Helsingborg,1283,Kommunal,Helsingborg,2120001157,149,"6,7","72,5","20,8",.,.,.,.,173,"26,0","70,5","3,5",24,.,"70,8","29,2",2018
+Gantofta skola,28424574,Helsingborg,1283,Kommunal,Helsingborg,2120001157,28,"3,6","17,9","78,6",.,.,.,.,30,"6,7","53,3","40,0",.,.,.,.,2018
+Gläntanskolan,67721487,Helsingborg,1283,Kommunal,Helsingborg,2120001157,.,.,.,.,.,.,.,.,27,"3,7","63,0","33,3",.,.,.,.,2018
+Holstagårdsskolan,28754789,Helsingborg,1283,Kommunal,Helsingborg,2120001157,51,"2,0","78,4","19,6",.,.,.,.,50,"22,0","70,0","8,0",.,.,.,.,2018
+Högastensskolan,13175575,Helsingborg,1283,Kommunal,Helsingborg,2120001157,75,"12,0","49,3","38,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Kubikskolan,82943624,Helsingborg,1283,Enskild,Kubikskolan Aktiebolag,5565858619,46,"8,7","87,0","4,3",.,.,.,.,.,.,.,.,31,"6,5","87,1","6,5",2018
+Kunskapsskolan Helsingborg,48798589,Helsingborg,1283,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,112,"7,1","88,4","4,5",.,.,.,.,116,"1,7","91,4","6,9",.,.,.,.,2018
+Maria Parkskolan,42164778,Helsingborg,1283,Kommunal,Helsingborg,2120001157,77,"5,2","64,9","29,9",.,.,.,.,81,"3,7","86,4","9,9",.,.,.,.,2018
+Musikgrundskolan Synkopen,55200547,Helsingborg,1283,Kommunal,Helsingborg,2120001157,19,"10,5","73,7","15,8",.,.,.,.,20,.,"70,0","30,0",.,.,.,.,2018
+PeterSvenskolan 1,16688128,Helsingborg,1283,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,35,"5,7","37,1","57,1",.,.,.,.,40,"15,0","55,0","30,0",.,.,.,.,2018
+PeterSvenskolan 2,49050798,Helsingborg,1283,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,77,"7,8","55,8","36,4",.,.,.,.,76,"7,9","69,7","22,4",.,.,.,.,2018
+Påarps skola,66351593,Helsingborg,1283,Kommunal,Helsingborg,2120001157,70,"7,1","55,7","37,1",.,.,.,.,78,"25,6","66,7","7,7",.,.,.,.,2018
+Rydebäckskolan,40385157,Helsingborg,1283,Kommunal,Helsingborg,2120001157,61,"27,9","50,8","21,3",.,.,.,.,59,"8,5","81,4","10,2",.,.,.,.,2018
+Sally Bauerskolans Högstadium,53515359,Helsingborg,1283,Enskild,Sally Bauer Skolans Högstadium,8430033152,21,.,"61,9","38,1",.,.,.,.,38,"13,2","81,6","5,3",.,.,.,.,2018
+Svensgårdsskolan,89693828,Helsingborg,1283,Kommunal,Helsingborg,2120001157,29,"10,3","75,9","13,8",.,.,.,.,34,.,"100,0",.,.,.,.,.,2018
+Tågaborgsskolan,87948789,Helsingborg,1283,Kommunal,Helsingborg,2120001157,.,.,.,.,.,.,.,.,80,"26,3","62,5","11,3",.,.,.,.,2018
+Vittra Adolfsberg,71069736,Helsingborg,1283,Enskild,Vittraskolorna AB,5564586716,.,.,.,.,.,.,.,.,19,.,"47,4","52,6",.,.,.,.,2018
+Vittra Landborgen,90080902,Helsingborg,1283,Enskild,Vittraskolorna AB,5564586716,.,.,.,.,.,.,.,.,15,"13,3","73,3","13,3",.,.,.,.,2018
+Västra Allé,57590681,Helsingborg,1283,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,38,"10,5","71,1","18,4",.,.,.,.,39,"12,8","74,4","12,8",.,.,.,.,2018
+Västra Berga skola,28060171,Helsingborg,1283,Kommunal,Helsingborg,2120001157,16,"12,5","75,0","12,5",.,.,.,.,23,"21,7","78,3",.,.,.,.,.,2018
+Wieselgrensskolan,51014228,Helsingborg,1283,Kommunal,Helsingborg,2120001157,15,.,"93,3","6,7",.,.,.,.,70,"25,7","65,7","8,6",49,"8,2","69,4","22,4",2018
+Ättekullaskolan,64728140,Helsingborg,1283,Kommunal,Helsingborg,2120001157,19,.,"57,9","42,1",.,.,.,.,25,"28,0","52,0","20,0",.,.,.,.,2018
+Altorpskolan,24142437,Herrljunga,1466,Kommunal,Herrljunga,2120001520,92,"9,8","46,7","43,5",.,.,.,.,97,"14,4","63,9","21,6",.,.,.,.,2018
+Guldkroksskolan 7-9,81342093,Hjo,1497,Kommunal,Hjo,2120001728,83,"10,8","51,8","37,3",.,.,.,.,87,"18,4","74,7","6,9",.,.,.,.,2018
+Petreskolan 7-9,25716177,Hofors,2104,Kommunal,Hofors,2120002296,57,.,"54,4","45,6",.,.,.,.,64,"18,8","75,0","6,3",.,.,.,.,2018
+Annerstaskolan,79012683,Huddinge,0126,Kommunal,Huddinge,2120000068,.,.,.,.,.,.,.,.,45,.,"84,4","15,6",.,.,.,.,2018
+Balingsnässkolan,13654969,Huddinge,0126,Kommunal,Huddinge,2120000068,54,"5,6","83,3","11,1",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Edboskolan,98477278,Huddinge,0126,Kommunal,Huddinge,2120000068,58,"10,3","77,6","12,1",.,.,.,.,62,"4,8","90,3","4,8",.,.,.,.,2018
+Internationella Engelska Skolan Huddinge,97942210,Huddinge,0126,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,107,"10,3","54,2","35,5",.,.,.,.,142,"4,2","90,1","5,6",30,"6,7","26,7","66,7",2018
+Kungsklippeskolan,89510449,Huddinge,0126,Kommunal,Huddinge,2120000068,53,"5,7","79,2","15,1",.,.,.,.,54,"13,0","85,2","1,9",.,.,.,.,2018
+Kvarnbergsskolan,54516737,Huddinge,0126,Kommunal,Huddinge,2120000068,.,.,.,.,.,.,.,.,198,"12,6","79,3","8,1",.,.,.,.,2018
+Källbrinksskolan,41213404,Huddinge,0126,Kommunal,Huddinge,2120000068,108,"12,0","61,1","26,9",.,.,.,.,110,"30,0","66,4","3,6",.,.,.,.,2018
+Södertörns friskola,22019000,Huddinge,0126,Enskild,Södertörns Friskola Ekonomisk Förening,7696004238,96,"12,5","79,2","8,3",.,.,.,.,95,"22,1","76,8","1,1",.,.,.,.,2018
+Trångsundsskolan,42601396,Huddinge,0126,Kommunal,Huddinge,2120000068,62,"9,7","75,8","14,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Vistaskolan,50783450,Huddinge,0126,Kommunal,Huddinge,2120000068,52,"7,7","63,5","28,8",.,.,.,.,70,"14,3","60,0","25,7",25,"12,0","52,0","36,0",2018
+Vårbyskolan,64949601,Huddinge,0126,Kommunal,Huddinge,2120000068,.,.,.,.,.,.,.,.,37,"16,2","73,0","10,8",31,"6,5","51,6","41,9",2018
+Östra grundskolan,39229061,Huddinge,0126,Kommunal,Huddinge,2120000068,83,"7,2","67,5","25,3",.,.,.,.,99,"3,0","84,8","12,1",.,.,.,.,2018
+Ede skola,83627088,Hudiksvall,2184,Kommunal,Hudiksvall,2120002379,56,"10,7","73,2","16,1",.,.,.,.,57,"15,8","75,4","8,8",.,.,.,.,2018
+Hudikskolan 7-9,77537602,Hudiksvall,2184,Enskild,Hudik Friskoleutbildning AB,5566174438,58,.,"41,4","58,6",.,.,.,.,58,"10,3","63,8","25,9",.,.,.,.,2018
+Iggesunds skola,80631297,Hudiksvall,2184,Kommunal,Hudiksvall,2120002379,45,.,"62,2","37,8",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Läroverket,23786565,Hudiksvall,2184,Kommunal,Hudiksvall,2120002379,129,"7,0","51,9","41,1",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Östra skolan,50190330,Hudiksvall,2184,Kommunal,Hudiksvall,2120002379,94,"8,5","66,0","25,5",.,.,.,.,107,"4,7","86,0","9,3",.,.,.,.,2018
+Albäcksskolan 2,84230115,Hultsfred,0860,Kommunal,Hultsfred,2120000712,93,"6,5","51,6","41,9",.,.,.,.,126,"16,7","70,6","12,7",34,"5,9","64,7","29,4",2018
+Prolympia Virserum,12289594,Hultsfred,0860,Enskild,Nya Centralskolan i Virserum AB,5568088743,23,"4,3","52,2","43,5",.,.,.,.,23,.,"78,3","21,7",.,.,.,.,2018
+Örnaskolan 3,80477825,Hylte,1315,Kommunal,Hylte,2120001207,84,"6,0","51,2","42,9",.,.,.,.,121,"6,6","68,6","24,8",32,.,"43,8","56,3",2018
+Futurum,61956762,Håbo,0305,Kommunal,Håbo,2120000241,75,"12,0","54,7","33,3",.,.,.,.,84,"8,3","58,3","33,3",.,.,.,.,2018
+Gransäterskolan,90826660,Håbo,0305,Kommunal,Håbo,2120000241,48,"12,5","62,5","25,0",.,.,.,.,47,"10,6","70,2","19,1",.,.,.,.,2018
+Läraskolan,28306495,Håbo,0305,Enskild,Läraskolan i Bålsta AB,5567275663,21,.,"85,7","14,3",.,.,.,.,21,"9,5","66,7","23,8",.,.,.,.,2018
+Potentia Education,15081255,Håbo,0305,Enskild,Potentia education AB,5567521553,28,"25,0","42,9","32,1",.,.,.,.,27,"11,1","66,7","22,2",.,.,.,.,2018
+Västerängsskolan,29299366,Håbo,0305,Kommunal,Håbo,2120000241,.,.,.,.,.,.,.,.,50,"16,0","76,0","8,0",.,.,.,.,2018
+Klockarhagsskolan åk 7-9,72295739,Hällefors,1863,Kommunal,Hällefors,2120001942,47,"8,5","40,4","51,1",.,.,.,.,67,"14,9","80,6","4,5",.,.,.,.,2018
+Funäsdalens skola,72295998,Härjedalen,2361,Kommunal,Härjedalen,2120002510,23,"4,3","73,9","21,7",.,.,.,.,25,"20,0","80,0",.,.,.,.,.,2018
+Sonfjällsskolan,85325551,Härjedalen,2361,Kommunal,Härjedalen,2120002510,26,"26,9","61,5","11,5",.,.,.,.,26,"3,8","80,8","15,4",.,.,.,.,2018
+Södra Skolan,79022806,Härjedalen,2361,Kommunal,Härjedalen,2120002510,42,"4,8","54,8","40,5",.,.,.,.,42,"7,1","61,9","31,0",.,.,.,.,2018
+Hedda Wisingskolan,16490220,Härnösand,2280,Kommunal,Härnösand,2120002403,109,"14,7","65,1","20,2",.,.,.,.,121,"11,6","71,9","16,5",.,.,.,.,2018
+Båtsmansskolan,37772170,Härryda,1401,Kommunal,Härryda,2120001264,57,"12,3","52,6","35,1",.,.,.,.,61,"16,4","63,9","19,7",.,.,.,.,2018
+Djupedalskolan,91978548,Härryda,1401,Kommunal,Härryda,2120001264,61,"21,3","42,6","36,1",.,.,.,.,59,"22,0","71,2","6,8",.,.,.,.,2018
+Ekdalaskolan,17730768,Härryda,1401,Kommunal,Härryda,2120001264,69,"5,8","62,3","31,9",.,.,.,.,80,"6,3","77,5","16,3",.,.,.,.,2018
+"Fridaskolan, Härryda",27274628,Härryda,1401,Enskild,Fridaskolorna AB,5564515988,67,"10,4","62,7","26,9",.,.,.,.,69,"7,2","75,4","17,4",.,.,.,.,2018
+Landvetterskolan 1,98934110,Härryda,1401,Kommunal,Härryda,2120001264,58,"12,1","63,8","24,1",.,.,.,.,58,"5,2","89,7","5,2",.,.,.,.,2018
+Rävlandaskolan,34127854,Härryda,1401,Kommunal,Härryda,2120001264,44,"15,9","43,2","40,9",.,.,.,.,43,"25,6","69,8","4,7",.,.,.,.,2018
+Önnerödsskolan,28698437,Härryda,1401,Kommunal,Härryda,2120001264,76,"14,5","73,7","11,8",.,.,.,.,73,"4,1","82,2","13,7",.,.,.,.,2018
+Bjärnums skola F-9,65212509,Hässleholm,1293,Kommunal,Hässleholm,2120000985,41,"19,5","65,9","14,6",.,.,.,.,55,"7,3","61,8","30,9",.,.,.,.,2018
+Furutorpskolan 7-9,78602001,Hässleholm,1293,Kommunal,Hässleholm,2120000985,58,"13,8","63,8","22,4",.,.,.,.,54,"25,9","66,7","7,4",.,.,.,.,2018
+Hästveda skola F-9,56398338,Hässleholm,1293,Kommunal,Hässleholm,2120000985,33,"6,1","57,6","36,4",.,.,.,.,36,.,"75,0","25,0",.,.,.,.,2018
+Internationella Engelska Skolan Hässleholm,79716826,Hässleholm,1293,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,57,"7,0","59,6","33,3",.,.,.,.,62,"19,4","64,5","16,1",.,.,.,.,2018
+Läredaskolan 7-9,29689372,Hässleholm,1293,Kommunal,Hässleholm,2120000985,15,"6,7","46,7","46,7",.,.,.,.,.,.,.,.,29,"3,4","51,7","44,8",2018
+T4-skolan Montessori F-9,28804882,Hässleholm,1293,Kommunal,Hässleholm,2120000985,24,.,"87,5","12,5",.,.,.,.,25,"20,0","80,0",.,.,.,.,.,2018
+Thoren Framtid i Hässleholm,79864142,Hässleholm,1293,Enskild,Thoren Framtid AB,5567497051,18,"5,6","66,7","27,8",.,.,.,.,22,"4,5","59,1","36,4",.,.,.,.,2018
+Tyringe skola F-9,98058756,Hässleholm,1293,Kommunal,Hässleholm,2120000985,49,"14,3","73,5","12,2",.,.,.,.,55,"27,3","72,7",.,.,.,.,.,2018
+Vannarödsskolan 6-9,93845278,Hässleholm,1293,Kommunal,Hässleholm,2120000985,40,"22,5","60,0","17,5",.,.,.,.,42,"57,1","42,9",.,.,.,.,.,2018
+Västerskolan 7-9,91571086,Hässleholm,1293,Kommunal,Hässleholm,2120000985,87,"14,9","60,9","24,1",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Bruksskolan 7-9,58312480,Höganäs,1284,Kommunal,Höganäs,2120001165,35,"17,1","62,9","20,0",.,.,.,.,36,"25,0","69,4","5,6",.,.,.,.,2018
+Jonstorpsskolan 7-9,66888504,Höganäs,1284,Kommunal,Höganäs,2120001165,59,"15,3","71,2","13,6",.,.,.,.,58,"15,5","79,3","5,2",.,.,.,.,2018
+Lerbergsskolan 7-9,11721378,Höganäs,1284,Kommunal,Höganäs,2120001165,54,"13,0","61,1","25,9",.,.,.,.,53,"20,8","67,9","11,3",.,.,.,.,2018
+Nyhamnsskolan 7-9,18031893,Höganäs,1284,Kommunal,Höganäs,2120001165,30,"13,3","63,3","23,3",.,.,.,.,30,"6,7","63,3","30,0",.,.,.,.,2018
+Tonlyckeskolan 7-9,36274763,Höganäs,1284,Kommunal,Höganäs,2120001165,22,"9,1","45,5","45,5",.,.,.,.,35,"8,6","57,1","34,3",.,.,.,.,2018
+Vikenskolan 7-9,18383147,Höganäs,1284,Kommunal,Höganäs,2120001165,51,"7,8","58,8","33,3",.,.,.,.,53,"5,7","86,8","7,5",.,.,.,.,2018
+Fröviskolan 7-9,78308250,Högsby,0821,Kommunal,Högsby,2120000688,43,"2,3","39,5","58,1",.,.,.,.,54,"5,6","79,6","14,8",.,.,.,.,2018
+Frostaskolan 7-9,38299211,Hörby,1266,Kommunal,Hörby,2120001108,73,"19,2","47,9","32,9",.,.,.,.,77,"6,5","57,1","36,4",.,.,.,.,2018
+Georgshillsskolan 4-9,90834434,Hörby,1266,Kommunal,Hörby,2120001108,54,"16,7","46,3","37,0",.,.,.,.,58,.,"81,0","19,0",.,.,.,.,2018
+Ludvigsborgs friskola,52665905,Hörby,1266,Enskild,"Ludvigsborgs Fristående Skola, Ek. Förening",7164396918,20,.,"90,0","10,0",.,.,.,.,19,.,"100,0",.,.,.,.,.,2018
+Emiliaskolan Höörs waldorfsk.,63846783,Höör,1267,Enskild,Föreningen Emiliaskolan,8420007984,18,"11,1","77,8","11,1",.,.,.,.,18,"16,7","72,2","11,1",.,.,.,.,2018
+Ringsjöskolan,82942801,Höör,1267,Kommunal,Höör,2120001116,76,"9,2","42,1","48,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Sätoftaskolan,35670754,Höör,1267,Kommunal,Höör,2120001116,53,"13,2","49,1","37,7",.,.,.,.,50,"4,0","82,0","14,0",.,.,.,.,2018
+Östra skolan,86851817,Jokkmokk,2510,Kommunal,Jokkmokk,2120002676,35,"22,9","65,7","11,4",.,.,.,.,36,"2,8","83,3","13,9",.,.,.,.,2018
+Björkebyskolan,40847752,Järfälla,0123,Kommunal,Järfälla,2120000043,40,"5,0","47,5","47,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Fjällenskolan,15080815,Järfälla,0123,Kommunal,Järfälla,2120000043,92,"14,1","60,9","25,0",.,.,.,.,99,"7,1","68,7","24,2",.,.,.,.,2018
+Internationella Engelska Skolan  Järfälla,79093755,Järfälla,0123,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,115,"9,6","53,9","36,5",.,.,.,.,121,"4,1","81,8","14,0",.,.,.,.,2018
+Källtorpskolan,17287315,Järfälla,0123,Kommunal,Järfälla,2120000043,26,"11,5","57,7","30,8",.,.,.,.,95,"18,9","77,9","3,2",.,.,.,.,2018
+Tallbohovskolan,97777849,Järfälla,0123,Kommunal,Järfälla,2120000043,16,"12,5","81,3","6,3",.,.,.,.,36,"13,9","77,8","8,3",24,"4,2","45,8","50,0",2018
+Viksjöskolan,98925408,Järfälla,0123,Kommunal,Järfälla,2120000043,162,"7,4","48,8","43,8",.,.,.,.,153,"10,5","64,1","25,5",.,.,.,.,2018
+Vittra Jakobsberg,66634449,Järfälla,0123,Enskild,Vittraskolorna AB,5564586716,.,.,.,.,.,.,.,.,42,.,"69,0","31,0",.,.,.,.,2018
+Alfred Dalinskolan,85416841,Jönköping,0680,Kommunal,Jönköping,2120000530,89,"7,9","62,9","29,2",.,.,.,.,118,"14,4","69,5","16,1",34,"8,8","64,7","26,5",2018
+Attarpsskolan 7-9,40546319,Jönköping,0680,Kommunal,Jönköping,2120000530,123,"7,3","57,7","35,0",.,.,.,.,126,"17,5","68,3","14,3",.,.,.,.,2018
+Flahultsskolan,28849109,Jönköping,0680,Kommunal,Jönköping,2120000530,112,"17,0","55,4","27,7",.,.,.,.,117,"14,5","45,3","40,2",.,.,.,.,2018
+Internationella Engelska Skolan Jönköping,86499334,Jönköping,0680,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,90,"8,9","70,0","21,1",.,.,.,.,111,"7,2","91,9","0,9",22,"27,3","54,5","18,2",2018
+Junedalsskolan,20696736,Jönköping,0680,Kommunal,Jönköping,2120000530,.,.,.,.,.,.,.,.,248,"12,9","65,3","21,8",.,.,.,.,2018
+Kunskapsskolan Jönköping,86562542,Jönköping,0680,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,67,"1,5","88,1","10,4",.,.,.,.,81,.,"92,6","7,4",19,"5,3","89,5","5,3",2018
+Ljungarumsskolan 7-9,84917564,Jönköping,0680,Kommunal,Jönköping,2120000530,103,"17,5","53,4","29,1",.,.,.,.,100,"10,0","75,0","15,0",.,.,.,.,2018
+"Prolympia, Jönköping",95673344,Jönköping,0680,Enskild,Prolympia AB,5567026454,76,"3,9","71,1","25,0",.,.,.,.,74,"6,8","60,8","32,4",.,.,.,.,2018
+Ribbaskolan,83919671,Jönköping,0680,Kommunal,Jönköping,2120000530,103,"1,9","59,2","38,8",.,.,.,.,105,"2,9","85,7","11,4",.,.,.,.,2018
+Rosenlundsskolan 7-9,96558008,Jönköping,0680,Kommunal,Jönköping,2120000530,91,"15,4","53,8","30,8",.,.,.,.,112,"19,6","59,8","20,5",21,"9,5","71,4","19,0",2018
+Sanda idrottshögstadium,98088982,Jönköping,0680,Kommunal,Jönköping,2120000530,69,"8,7","79,7","11,6",.,.,.,.,71,"33,8","60,6","5,6",.,.,.,.,2018
+Stadsgårdsskolan,12759583,Jönköping,0680,Kommunal,Jönköping,2120000530,45,"13,3","55,6","31,1",.,.,.,.,86,"3,5","80,2","16,3",41,"17,1","70,7","12,2",2018
+Strandskolan,23250615,Jönköping,0680,Enskild,Jönköpings Kristna Skolförening,8260017648,22,"50,0","40,9","9,1",.,.,.,.,23,"4,3","69,6","26,1",.,.,.,.,2018
+Manhemsskolan,10617819,Kalix,2514,Kommunal,Kalix,2120002692,126,"4,8","46,8","48,4",.,.,.,.,130,"6,2","83,1","10,8",.,.,.,.,2018
+Barkestorpsskolan,58215076,Kalmar,0880,Kommunal,Kalmar,2120000746,37,"8,1","78,4","13,5",.,.,.,.,56,"16,1","75,0","8,9",17,.,"76,5","23,5",2018
+Falkenbergsskolan,99856371,Kalmar,0880,Kommunal,Kalmar,2120000746,77,"16,9","59,7","23,4",.,.,.,.,74,"16,2","81,1","2,7",.,.,.,.,2018
+Funkaboskolan,21736926,Kalmar,0880,Kommunal,Kalmar,2120000746,80,"8,8","82,5","8,8",.,.,.,.,90,"5,6","88,9","5,6",.,.,.,.,2018
+Kalmarsundsskolan,24092221,Kalmar,0880,Kommunal,Kalmar,2120000746,36,"8,3","41,7","50,0",.,.,.,.,67,"23,9","61,2","14,9",30,"10,0","60,0","30,0",2018
+Lindsdalsskolorna,51848797,Kalmar,0880,Kommunal,Kalmar,2120000746,89,"10,1","52,8","37,1",.,.,.,.,92,"19,6","70,7","9,8",.,.,.,.,2018
+Södermöreskolan,79012102,Kalmar,0880,Kommunal,Kalmar,2120000746,76,"9,2","71,1","19,7",.,.,.,.,74,"20,3","74,3","5,4",.,.,.,.,2018
+Södra skolan,13936858,Kalmar,0880,Enskild,Södra skolan i Kalmar AB,5566966031,72,"8,3","51,4","40,3",.,.,.,.,72,"13,9","80,6","5,6",.,.,.,.,2018
+Vasaskolan,18784702,Kalmar,0880,Kommunal,Kalmar,2120000746,45,"2,2","62,2","35,6",.,.,.,.,50,"12,0","80,0","8,0",.,.,.,.,2018
+Västra Skolan Kalmar,94235119,Kalmar,0880,Enskild,CIS Kalmar AB,5565896213,36,.,"86,1","13,9",.,.,.,.,39,"5,1","84,6","10,3",.,.,.,.,2018
+Carl Johanskolan,34231336,Karlsborg,1446,Kommunal,Karlsborg,2120001629,59,"5,1","69,5","25,4",.,.,.,.,66,"10,6","77,3","12,1",.,.,.,.,2018
+Norrevångskolan,89878714,Karlshamn,1082,Kommunal,Karlshamn,2120000845,45,"2,2","51,1","46,7",.,.,.,.,46,"2,2","69,6","28,3",.,.,.,.,2018
+Stenbackaskolan,16767324,Karlshamn,1082,Kommunal,Karlshamn,2120000845,90,"5,6","46,7","47,8",.,.,.,.,90,"27,8","53,3","18,9",.,.,.,.,2018
+Thoren Framtid i Karlshamn,16249641,Karlshamn,1082,Enskild,Thoren Framtid AB,5567497051,.,.,.,.,.,.,.,.,32,"18,8","65,6","15,6",.,.,.,.,2018
+Österslättsskolan,43859477,Karlshamn,1082,Kommunal,Karlshamn,2120000845,79,"11,4","51,9","36,7",.,.,.,.,98,"7,1","88,8","4,1",21,"4,8","57,1","38,1",2018
+Bregårdsskolan åk 7-9,71762216,Karlskoga,1883,Kommunal,Karlskoga,2120001991,99,"4,0","66,7","29,3",.,.,.,.,105,"21,0","68,6","10,5",.,.,.,.,2018
+Skrantaskolan,65654358,Karlskoga,1883,Kommunal,Karlskoga,2120001991,91,"13,2","60,4","26,4",.,.,.,.,113,"8,0","87,6","4,4",23,"13,0","78,3","8,7",2018
+Österledskolan,34767418,Karlskoga,1883,Kommunal,Karlskoga,2120001991,79,"8,9","64,6","26,6",.,.,.,.,83,"3,6","81,9","14,5",.,.,.,.,2018
+Friskolan Svettpärlan,93964634,Karlskrona,1080,Enskild,Friskolan Svettpärlan AB,5565570446,26,"3,8","69,2","26,9",.,.,.,.,26,"3,8","76,9","19,2",.,.,.,.,2018
+Galären Rosenholm,10662754,Karlskrona,1080,Enskild,AcadeMedia fria grundskolor AB,5569320699,44,"2,3","86,4","11,4",.,.,.,.,42,"16,7","73,8","9,5",.,.,.,.,2018
+Galären Trossö,64959079,Karlskrona,1080,Enskild,AcadeMedia fria grundskolor AB,5569320699,39,"7,7","84,6","7,7",.,.,.,.,38,"26,3","68,4","5,3",.,.,.,.,2018
+Jändelskolan 7-9,20104552,Karlskrona,1080,Kommunal,Karlskrona,2120000829,99,"3,0","77,8","19,2",.,.,.,.,98,"5,1","89,8","5,1",.,.,.,.,2018
+Karlskrona Montessorifriskola,67509465,Karlskrona,1080,Enskild,Karlskrona Montessorifriskola AB,5565030599,19,"15,8","57,9","26,3",.,.,.,.,20,"15,0","85,0",.,.,.,.,.,2018
+Lyckeby kunskapscentrum F-9,55709634,Karlskrona,1080,Kommunal,Karlskrona,2120000829,80,"5,0","82,5","12,5",.,.,.,.,92,"7,6","85,9","6,5",.,.,.,.,2018
+Musikugglan,93919365,Karlskrona,1080,Enskild,Tant Grön AB,5564127099,50,"12,0","68,0","20,0",.,.,.,.,50,"2,0","96,0","2,0",.,.,.,.,2018
+Nättraby kunskapscentrum 7-9,26209081,Karlskrona,1080,Kommunal,Karlskrona,2120000829,.,.,.,.,.,.,.,.,77,"13,0","83,1","3,9",.,.,.,.,2018
+Piggelinen,99469094,Karlskrona,1080,Enskild,Friskolan PANEA AB,5567260954,23,"4,3","82,6","13,0",.,.,.,.,23,"17,4","69,6","13,0",.,.,.,.,2018
+Rosenholmskolan Sport College 7-9,89523926,Karlskrona,1080,Kommunal,Karlskrona,2120000829,48,"2,1","58,3","39,6",.,.,.,.,50,"8,0","68,0","24,0",.,.,.,.,2018
+Rödebyskolan F-9,32421136,Karlskrona,1080,Kommunal,Karlskrona,2120000829,86,"17,4","60,5","22,1",.,.,.,.,87,"17,2","79,3","3,4",.,.,.,.,2018
+Sunnadalskolan F-9,21608206,Karlskrona,1080,Kommunal,Karlskrona,2120000829,.,.,.,.,.,.,.,.,22,"22,7","77,3",.,26,"3,8","80,8","15,4",2018
+Wämöskolan 7-9,63323984,Karlskrona,1080,Kommunal,Karlskrona,2120000829,60,"8,3","66,7","25,0",.,.,.,.,80,"8,8","82,5","8,8",18,"5,6","83,3","11,1",2018
+Frödingskolan,22049068,Karlstad,1780,Kommunal,Karlstad,2120001850,15,"6,7","86,7","6,7",.,.,.,.,33,"18,2","78,8","3,0",17,"23,5","58,8","17,6",2018
+Hultsbergsskolan 7-9,99406709,Karlstad,1780,Kommunal,Karlstad,2120001850,46,"2,2","56,5","41,3",.,.,.,.,44,"9,1","84,1","6,8",.,.,.,.,2018
+Ilandaskolan,27418903,Karlstad,1780,Kommunal,Karlstad,2120001850,110,"5,5","68,2","26,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Internationella Engelska Skolan Karlstad,93730568,Karlstad,1780,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,104,"10,6","26,9","62,5",.,.,.,.,109,"7,3","72,5","20,2",.,.,.,.,2018
+Mariebergsskolan,81424988,Karlstad,1780,Kommunal,Karlstad,2120001850,68,"7,4","45,6","47,1",.,.,.,.,74,"23,0","71,6","5,4",.,.,.,.,2018
+Norrstrandsskolan Terra Ignis,83999935,Karlstad,1780,Kommunal,Karlstad,2120001850,61,"14,8","50,8","34,4",.,.,.,.,66,"25,8","71,2","3,0",.,.,.,.,2018
+Norrstrandsskolan Ventus Aqua,57635312,Karlstad,1780,Kommunal,Karlstad,2120001850,73,"11,0","65,8","23,3",.,.,.,.,73,"21,9","76,7","1,4",.,.,.,.,2018
+Nyeds skola,41081474,Karlstad,1780,Kommunal,Karlstad,2120001850,33,"6,1","72,7","21,2",.,.,.,.,33,.,"87,9","12,1",.,.,.,.,2018
+Rudsskolan,23345056,Karlstad,1780,Kommunal,Karlstad,2120001850,121,"8,3","57,9","33,9",.,.,.,.,135,"16,3","70,4","13,3",17,.,"58,8","41,2",2018
+Vålbergsskolan 4-9,80659104,Karlstad,1780,Kommunal,Karlstad,2120001850,40,.,"57,5","42,5",.,.,.,.,39,"2,6","89,7","7,7",.,.,.,.,2018
+Järvenskolan Södra,99117726,Katrineholm,0483,Kommunal,Katrineholm,2120000340,141,"36,2","47,5","16,3",.,.,.,.,156,"22,4","71,2","6,4",32,"3,1","50,0","46,9",2018
+Järvenskolan Tallås,99013754,Katrineholm,0483,Kommunal,Katrineholm,2120000340,132,"9,1","66,7","24,2",.,.,.,.,.,.,.,.,15,.,"86,7","13,3",2018
+Kunskapsskolan Katrineholm,16603772,Katrineholm,0483,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,63,"4,8","71,4","23,8",.,.,.,.,70,"2,9","84,3","12,9",.,.,.,.,2018
+Sannerudsskolan 8-9,83291761,Kil,1715,Kommunal,Kil,2120001751,80,"10,0","67,5","22,5",.,.,.,.,82,"13,4","69,5","17,1",.,.,.,.,2018
+Värgårdsskolan 7-9,75296593,Kinda,0513,Kommunal,Kinda,2120000399,87,"11,5","65,5","23,0",.,.,.,.,97,"20,6","66,0","13,4",.,.,.,.,2018
+Friluftsskolan Vargen,73281949,Kiruna,2584,Enskild,Vargen i Kiruna AB,5568215999,22,"36,4","50,0","13,6",.,.,.,.,22,"13,6","81,8","4,5",.,.,.,.,2018
+Högalidskolan 7-9,80693905,Kiruna,2584,Kommunal,Kiruna,2120002783,93,"15,1","64,5","20,4",.,.,.,.,90,"18,9","65,6","15,6",.,.,.,.,2018
+Nya Raketskolan 6-9,43351950,Kiruna,2584,Kommunal,Kiruna,2120002783,60,"5,0","36,7","58,3",.,.,.,.,61,"6,6","77,0","16,4",.,.,.,.,2018
+Triangelskolan,14938538,Kiruna,2584,Kommunal,Kiruna,2120002783,19,"5,3","68,4","26,3",.,.,.,.,19,.,"52,6","47,4",.,.,.,.,2018
+Vittangi skola,76314428,Kiruna,2584,Kommunal,Kiruna,2120002783,.,.,.,.,.,.,.,.,18,"5,6","55,6","38,9",.,.,.,.,2018
+Klippans friskola,39391255,Klippan,1276,Enskild,Klippans friskola Ekonomisk förening,7696315089,21,"23,8","42,9","33,3",.,.,.,.,20,"5,0","65,0","30,0",.,.,.,.,2018
+Ljungbyhedsskolan,75091646,Klippan,1276,Kommunal,Klippan,2120000928,25,.,"40,0","60,0",.,.,.,.,26,"3,8","76,9","19,2",.,.,.,.,2018
+Snyggatorpsskolan 1,10822811,Klippan,1276,Kommunal,Klippan,2120000928,79,"20,3","39,2","40,5",.,.,.,.,90,"17,8","54,4","27,8",.,.,.,.,2018
+Alsike skola,49742321,Knivsta,0330,Kommunal,Knivsta,2120003013,64,"9,4","65,6","25,0",.,.,.,.,63,"17,5","71,4","11,1",.,.,.,.,2018
+Margarethaskolan,51867275,Knivsta,0330,Enskild,Knivsta Friskola Ekonomisk Förening,7696042618,18,"11,1","61,1","27,8",.,.,.,.,17,.,"94,1","5,9",.,.,.,.,2018
+Thunmanskolan,92364234,Knivsta,0330,Kommunal,Knivsta,2120003013,108,"14,8","60,2","25,0",.,.,.,.,106,"47,2","50,0","2,8",.,.,.,.,2018
+Gudmundråskolan,11159060,Kramfors,2282,Kommunal,Kramfors,2120002429,60,"20,0","56,7","23,3",.,.,.,.,63,"4,8","84,1","11,1",.,.,.,.,2018
+Högakustenskolan,75515918,Kramfors,2282,Kommunal,Kramfors,2120002429,47,"2,1","78,7","19,1",.,.,.,.,45,"17,8","60,0","22,2",.,.,.,.,2018
+Ytterlännässkolan,30403490,Kramfors,2282,Kommunal,Kramfors,2120002429,39,"12,8","71,8","15,4",.,.,.,.,40,"10,0","72,5","17,5",.,.,.,.,2018
+Antonskolan Blekedamm,14555807,Kristianstad,1290,Enskild,Anton Utbildning AB,5566024906,19,"5,3","78,9","15,8",.,.,.,.,21,"47,6","47,6","4,8",.,.,.,.,2018
+Antonskolan Österäng,57538739,Kristianstad,1290,Enskild,Anton Utbildning AB,5566024906,.,.,.,.,.,.,.,.,22,"40,9","50,0","9,1",.,.,.,.,2018
+Degebergaskolan MH,58419840,Kristianstad,1290,Kommunal,Kristianstad,2120000951,35,"2,9","80,0","17,1",.,.,.,.,38,"18,4","81,6",.,.,.,.,.,2018
+Fjälkinge skola MH,13867770,Kristianstad,1290,Kommunal,Kristianstad,2120000951,40,"10,0","57,5","32,5",.,.,.,.,42,"2,4","69,0","28,6",.,.,.,.,2018
+Fröknegårdskolan H2,97438636,Kristianstad,1290,Kommunal,Kristianstad,2120000951,48,"2,1","43,8","54,2",.,.,.,.,92,"7,6","77,2","15,2",44,"15,9","52,3","31,8",2018
+Kristianstads Montessoriskola,72491525,Kristianstad,1290,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,28,"21,4","60,7","17,9",.,.,.,.,31,"16,1","80,6","3,2",.,.,.,.,2018
+Norretullskolan,59782586,Kristianstad,1290,Kommunal,Kristianstad,2120000951,20,"5,0","55,0","40,0",.,.,.,.,47,"14,9","80,9","4,3",23,"8,7","78,3","13,0",2018
+Nosabyskolan Bild o form,97295152,Kristianstad,1290,Kommunal,Kristianstad,2120000951,20,"10,0","65,0","25,0",.,.,.,.,27,.,"81,5","18,5",.,.,.,.,2018
+Nosabyskolan H,98284563,Kristianstad,1290,Kommunal,Kristianstad,2120000951,79,"7,6","70,9","21,5",.,.,.,.,98,"23,5","71,4","5,1",17,"5,9","70,6","23,5",2018
+Rönnowskolan MH,13756290,Kristianstad,1290,Kommunal,Kristianstad,2120000951,56,"3,6","80,4","16,1",.,.,.,.,61,"21,3","57,4","21,3",.,.,.,.,2018
+Slättängsskolan H,63356940,Kristianstad,1290,Kommunal,Kristianstad,2120000951,51,"9,8","66,7","23,5",.,.,.,.,67,"7,5","70,1","22,4",32,"12,5","62,5","25,0",2018
+Spängerskolan MH,63749463,Kristianstad,1290,Kommunal,Kristianstad,2120000951,25,"12,0","80,0","8,0",.,.,.,.,30,"13,3","73,3","13,3",.,.,.,.,2018
+Sånnaskolan H,85853304,Kristianstad,1290,Kommunal,Kristianstad,2120000951,60,"20,0","65,0","15,0",.,.,.,.,63,"44,4","54,0","1,6",.,.,.,.,2018
+Tollarps skola MH,45430802,Kristianstad,1290,Kommunal,Kristianstad,2120000951,36,"2,8","61,1","36,1",.,.,.,.,41,"7,3","92,7",.,.,.,.,.,2018
+Väskolan MH,75922665,Kristianstad,1290,Kommunal,Kristianstad,2120000951,46,"6,5","71,7","21,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Öllsjöskolan MH,46211392,Kristianstad,1290,Kommunal,Kristianstad,2120000951,28,"21,4","35,7","42,9",.,.,.,.,30,.,"86,7","13,3",.,.,.,.,2018
+Önnestads skola MH,18636287,Kristianstad,1290,Kommunal,Kristianstad,2120000951,36,"11,1","50,0","38,9",.,.,.,.,38,"31,6","68,4",.,.,.,.,.,2018
+Djurgårdsskolan F-9,55509192,Kristinehamn,1781,Kommunal,Kristinehamn,2120001868,72,"12,5","59,7","27,8",.,.,.,.,74,"18,9","63,5","17,6",.,.,.,.,2018
+Stenstalidskolan F-9,14885908,Kristinehamn,1781,Kommunal,Kristinehamn,2120001868,78,"11,5","61,5","26,9",.,.,.,.,82,"8,5","73,2","18,3",.,.,.,.,2018
+Södermalmsskolan F-9,27777261,Kristinehamn,1781,Kommunal,Kristinehamn,2120001868,52,"1,9","55,8","42,3",.,.,.,.,63,"6,3","76,2","17,5",.,.,.,.,2018
+Nyhedens skola,40025257,Krokom,2309,Kommunal,Krokom,2120002478,79,"8,9","54,4","36,7",.,.,.,.,81,"7,4","85,2","7,4",.,.,.,.,2018
+Ås skola 4-9,54952732,Krokom,2309,Kommunal,Krokom,2120002478,47,"10,6","51,1","38,3",.,.,.,.,48,"18,8","75,0","6,3",.,.,.,.,2018
+Änge skola 4-9,25036714,Krokom,2309,Kommunal,Krokom,2120002478,40,"10,0","67,5","22,5",.,.,.,.,39,.,"94,9","5,1",.,.,.,.,2018
+Kumlaby skola 7-9,75692870,Kumla,1881,Kommunal,Kumla,2120001975,62,"4,8","64,5","30,6",.,.,.,.,68,"5,9","76,5","17,6",.,.,.,.,2018
+Skogstorpsskolan 7-9,44243725,Kumla,1881,Kommunal,Kumla,2120001975,90,"13,3","61,1","25,6",.,.,.,.,96,"10,4","68,8","20,8",.,.,.,.,2018
+Vialundskolan,99992013,Kumla,1881,Kommunal,Kumla,2120001975,41,"7,3","65,9","26,8",.,.,.,.,46,"26,1","60,9","13,0",.,.,.,.,2018
+Frillesåsskolan 4-9,10927868,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,42,"28,6","59,5","11,9",.,.,.,.,42,"21,4","71,4","7,1",.,.,.,.,2018
+Fullriggaren Malevik 4-9,33170625,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,45,"6,7","53,3","40,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Hedeskolan 4-9,11231816,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,.,.,.,.,.,.,.,.,46,"15,2","71,7","13,0",.,.,.,.,2018
+Hålabäcksskolan 6-9,99688470,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,57,"12,3","70,2","17,5",.,.,.,.,62,"35,5","61,3","3,2",.,.,.,.,2018
+Kapareskolan A-D,28803215,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,68,"11,8","70,6","17,6",.,.,.,.,66,"13,6","78,8","7,6",.,.,.,.,2018
+Kapareskolan E-H,84111198,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,58,"12,1","39,7","48,3",.,.,.,.,60,"38,3","55,0","6,7",.,.,.,.,2018
+Kollaskolan 6-9,47579620,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,60,"5,0","65,0","30,0",.,.,.,.,62,"16,1","77,4","6,5",.,.,.,.,2018
+Kullaviksskolan 7-9,75835202,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,85,"4,7","48,2","47,1",.,.,.,.,84,"2,4","96,4","1,2",.,.,.,.,2018
+Nova Montessoriskola,47832100,Kungsbacka,1384,Enskild,Montenova Montessoriskola Ekonomisk Förening,7696022248,25,"16,0","52,0","32,0",.,.,.,.,27,"25,9","70,4","3,7",.,.,.,.,2018
+Onsala Montessoriskola,90784555,Kungsbacka,1384,Enskild,Montessoriskolan i Onsala Ekonomisk Förening,7696013361,18,.,"66,7","33,3",.,.,.,.,16,.,"93,8","6,3",.,.,.,.,2018
+Smedingeskolan A,68861484,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,45,"4,4","46,7","48,9",.,.,.,.,43,"2,3","46,5","51,2",.,.,.,.,2018
+Smedingeskolan B,29293076,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,40,"17,5","42,5","40,0",.,.,.,.,38,"21,1","71,1","7,9",.,.,.,.,2018
+Särö skola 4-9,72090315,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,51,"3,9","54,9","41,2",.,.,.,.,56,"21,4","60,7","17,9",.,.,.,.,2018
+Toråsskolan 4-9,14101582,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,64,"9,4","70,3","20,3",.,.,.,.,65,"7,7","86,2","6,2",.,.,.,.,2018
+Varlaskolan norra,37101902,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,62,"8,1","61,3","30,6",.,.,.,.,44,"29,5","59,1","11,4",.,.,.,.,2018
+Varlaskolan södra,70143574,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,71,"23,9","50,7","25,4",.,.,.,.,76,"10,5","71,1","18,4",.,.,.,.,2018
+Vittra Forsgläntan,42568760,Kungsbacka,1384,Enskild,Vittraskolorna AB,5564586716,42,"4,8","52,4","42,9",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Åsa Gårdsskola 4-9,16824824,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,27,"33,3","59,3","7,4",.,.,.,.,27,"14,8","81,5","3,7",.,.,.,.,2018
+Åsaskolan 6-9,18035112,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,52,"5,8","51,9","42,3",.,.,.,.,56,"35,7","62,5","1,8",.,.,.,.,2018
+Älvsåkersskolan 4-9,74587667,Kungsbacka,1384,Kommunal,Kungsbacka,2120001256,32,"6,3","68,8","25,0",.,.,.,.,28,"3,6","89,3","7,1",.,.,.,.,2018
+Kung Karl 79,46834580,Kungsör,1960,Kommunal,Kungsör,2120002056,54,"38,9","27,8","33,3",.,.,.,.,67,"53,7","11,9","34,3",.,.,.,.,2018
+"Fredkullaskolan ,waldorfskola,",38353942,Kungälv,1482,Enskild,Föreningen För Waldorfpedagogik i Kungälv,8533007038,17,"5,9","41,2","52,9",.,.,.,.,18,.,"83,3","16,7",.,.,.,.,2018
+Friskolan i Kärna,25790317,Kungälv,1482,Enskild,Mona Hurtig Skol AB,5565204129,28,"17,9","75,0","7,1",.,.,.,.,30,.,"90,0","10,0",.,.,.,.,2018
+Montessoriskolan Älvkullen,49323438,Kungälv,1482,Enskild,Stiftelsen Montessori För Alla Barn,8533010537,15,"33,3","53,3","13,3",.,.,.,.,15,.,"53,3","46,7",.,.,.,.,2018
+Munkegärdeskolan,51596946,Kungälv,1482,Kommunal,Kungälv,2120001371,95,"12,6","50,5","36,8",.,.,.,.,100,"36,0","48,0","16,0",.,.,.,.,2018
+Strandskolan,21917957,Kungälv,1482,Enskild,"Strandskolan, Montessoriföreningen i Kungälv",8533007004,27,"11,1","70,4","18,5",.,.,.,.,27,.,"74,1","25,9",.,.,.,.,2018
+Thorildskolan,73505986,Kungälv,1482,Kommunal,Kungälv,2120001371,23,"4,3","43,5","52,2",.,.,.,.,120,"3,3","82,5","14,2",.,.,.,.,2018
+Ytterbyskolan 1,63621283,Kungälv,1482,Kommunal,Kungälv,2120001371,131,"9,2","55,0","35,9",.,.,.,.,135,"11,9","75,6","12,6",.,.,.,.,2018
+Barsebäcks Montessoriskola,22957852,Kävlinge,1261,Enskild,Barsebäcks Montessori Ekonomisk Förening,7696006191,23,"8,7","56,5","34,8",.,.,.,.,23,"4,3","95,7",.,.,.,.,.,2018
+Björkenässkolan,19504051,Kävlinge,1261,Enskild,AcadeMedia fria grundskolor AB,5569320699,45,.,"60,0","40,0",.,.,.,.,45,"2,2","93,3","4,4",.,.,.,.,2018
+Korsbackaskolan,46107605,Kävlinge,1261,Kommunal,Kävlinge,2120001058,140,"15,0","52,9","32,1",.,.,.,.,145,"9,0","68,3","22,8",.,.,.,.,2018
+Tolvåkerskolan,13578112,Kävlinge,1261,Kommunal,Kävlinge,2120001058,164,"6,7","73,2","20,1",.,.,.,.,164,"4,3","89,0","6,7",.,.,.,.,2018
+Karlbergsskolan,31319179,Köping,1983,Kommunal,Köping,2120002114,92,"6,5","67,4","26,1",.,.,.,.,.,.,.,.,16,"6,3","75,0","18,8",2018
+Malmaskolan 3-9,49665496,Köping,1983,Kommunal,Köping,2120002114,49,"12,2","53,1","34,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Scheeleskolan,24379201,Köping,1983,Kommunal,Köping,2120002114,66,"9,1","48,5","42,4",.,.,.,.,79,"10,1","72,2","17,7",15,.,"26,7","73,3",2018
+Lagaholmsskolan,50150550,Laholm,1381,Kommunal,Laholm,2120001223,90,"2,2","57,8","40,0",.,.,.,.,104,"20,2","73,1","6,7",.,.,.,.,2018
+Veingeskolan 7-9,95134514,Laholm,1381,Kommunal,Laholm,2120001223,84,"9,5","73,8","16,7",.,.,.,.,93,"5,4","90,3","4,3",15,.,"100,0",.,2018
+Våxtorpsskolan,35795213,Laholm,1381,Kommunal,Laholm,2120001223,70,"21,4","62,9","15,7",.,.,.,.,73,"9,6","82,2","8,2",.,.,.,.,2018
+Asmundtorps skola,70803452,Landskrona,1282,Kommunal,Landskrona,2120001140,.,.,.,.,.,.,.,.,48,"14,6","58,3","27,1",.,.,.,.,2018
+Glumslövs skola,30917121,Landskrona,1282,Kommunal,Landskrona,2120001140,42,"23,8","54,8","21,4",.,.,.,.,46,"10,9","84,8","4,3",.,.,.,.,2018
+Kunskapsskolan Landskrona,60956248,Landskrona,1282,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,48,"10,4","79,2","10,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Landskrona School of Sports AB,70072964,Landskrona,1282,Enskild,Landskrona School of Sports AB,5567206239,27,"3,7","70,4","25,9",.,.,.,.,30,.,"83,3","16,7",.,.,.,.,2018
+Sandåkerskolan,77747055,Landskrona,1282,Kommunal,Landskrona,2120001140,.,.,.,.,.,.,.,.,74,"6,8","71,6","21,6",.,.,.,.,2018
+Seminarieskolan,41641029,Landskrona,1282,Kommunal,Landskrona,2120001140,20,"15,0","40,0","45,0",.,.,.,.,59,"8,5","67,8","23,7",51,"11,8","49,0","39,2",2018
+Säbyholms Montessoriskola,42908219,Landskrona,1282,Enskild,Landskrona Montessoriförening Ek.Förening,7696002794,.,.,.,.,.,.,.,.,25,"4,0","56,0","40,0",.,.,.,.,2018
+Västervångskolan,29541747,Landskrona,1282,Kommunal,Landskrona,2120001140,.,.,.,.,.,.,.,.,106,"21,7","55,7","22,6",.,.,.,.,2018
+Centralskolan,24748604,Laxå,1860,Kommunal,Laxå,2120001918,55,"7,3","70,9","21,8",.,.,.,.,54,"11,1","85,2","3,7",.,.,.,.,2018
+Lekebergsskolan 7-9,97648883,Lekeberg,1814,Kommunal,Lekeberg,2120002981,80,"16,3","47,5","36,3",.,.,.,.,76,"15,8","60,5","23,7",.,.,.,.,2018
+Sammilsdalskolan F-9,61834375,Leksand,2029,Kommunal,Leksand,2120002163,68,"7,4","54,4","38,2",.,.,.,.,72,"19,4","72,2","8,3",.,.,.,.,2018
+Åkerö skola F-9,69345097,Leksand,2029,Kommunal,Leksand,2120002163,47,"34,0","59,6","6,4",.,.,.,.,54,"37,0","59,3","3,7",.,.,.,.,2018
+Alléskolan skolenhet Ask,51403955,Lerum,1441,Kommunal,Lerum,2120001447,42,"11,9","59,5","28,6",.,.,.,.,43,"27,9","72,1",.,.,.,.,.,2018
+Alléskolan skolenhet Bok,57470446,Lerum,1441,Kommunal,Lerum,2120001447,66,"21,2","59,1","19,7",.,.,.,.,70,"30,0","68,6","1,4",.,.,.,.,2018
+Lekstorpsskolan,10867785,Lerum,1441,Kommunal,Lerum,2120001447,18,"22,2","55,6","22,2",.,.,.,.,17,"23,5","58,8","17,6",.,.,.,.,2018
+Ljungviksskolan skolenhet B,31733366,Lerum,1441,Kommunal,Lerum,2120001447,47,"23,4","59,6","17,0",.,.,.,.,44,"38,6","54,5","6,8",.,.,.,.,2018
+Montessoriskolan Floda säteri,82651095,Lerum,1441,Enskild,Montessoriskolan Floda Säteri,8635006680,26,"19,2","76,9","3,8",.,.,.,.,28,"10,7","67,9","21,4",.,.,.,.,2018
+Rydsbergsskolan grundskola,24103764,Lerum,1441,Kommunal,Lerum,2120001447,86,"3,5","45,3","51,2",.,.,.,.,90,"15,6","70,0","14,4",.,.,.,.,2018
+Röselidsskolan skolenhet B,38539206,Lerum,1441,Kommunal,Lerum,2120001447,32,"12,5","59,4","28,1",.,.,.,.,30,"6,7","53,3","40,0",.,.,.,.,2018
+Stenkulan 4-9,49419497,Lerum,1441,Kommunal,Lerum,2120001447,49,"4,1","69,4","26,5",.,.,.,.,50,"14,0","80,0","6,0",.,.,.,.,2018
+Torpskolan skolenhet 1,21176313,Lerum,1441,Kommunal,Lerum,2120001447,76,"11,8","61,8","26,3",.,.,.,.,75,"17,3","68,0","14,7",.,.,.,.,2018
+Torpskolan skolenhet 2,20361674,Lerum,1441,Kommunal,Lerum,2120001447,50,"8,0","62,0","30,0",.,.,.,.,50,"18,0","68,0","14,0",.,.,.,.,2018
+Bikupan,74218950,Lessebo,0761,Kommunal,Lessebo,2120000613,73,"2,7","65,8","31,5",.,.,.,.,90,"2,2","83,3","14,4",18,"5,6","83,3","11,1",2018
+Christinaskolan,46097781,Lidingö,0186,Enskild,Lidingö Skola AB,5568681810,50,"4,0","66,0","30,0",.,.,.,.,50,"32,0","64,0","4,0",.,.,.,.,2018
+Futuraskolan International Kottla,36276828,Lidingö,0186,Enskild,Futuraskolan AB,5566095047,72,"9,7","87,5","2,8",.,.,.,.,74,"2,7","81,1","16,2",.,.,.,.,2018
+Högsätra skola,49631077,Lidingö,0186,Kommunal,Lidingö,2120000191,69,"8,7","63,8","27,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Källängens skola,69329486,Lidingö,0186,Kommunal,Lidingö,2120000191,140,"7,9","57,9","34,3",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Käppala skola,20137688,Lidingö,0186,Kommunal,Lidingö,2120000191,67,"20,9","53,7","25,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Broholmskolan,98083121,Lidköping,1494,Enskild,Broholmskolans ekonomiska förening,7696081319,34,"8,8","67,6","23,5",.,.,.,.,34,"8,8","70,6","20,6",.,.,.,.,2018
+Dalängskolan,37707717,Lidköping,1494,Kommunal,Lidköping,2120001694,113,"11,5","38,1","50,4",.,.,.,.,126,"12,7","61,1","26,2",.,.,.,.,2018
+Fredriksdalskolan,25486432,Lidköping,1494,Kommunal,Lidköping,2120001694,.,.,.,.,.,.,.,.,102,"22,5","61,8","15,7",.,.,.,.,2018
+Rudenschöldskolan,52152242,Lidköping,1494,Kommunal,Lidköping,2120001694,22,"4,5","45,5","50,0",.,.,.,.,113,"14,2","70,8","15,0",.,.,.,.,2018
+Fuxernaskolan 7-9,22512947,Lilla Edet,1462,Kommunal,Lilla Edet,2120001496,78,"12,8","42,3","44,9",.,.,.,.,91,"11,0","42,9","46,2",.,.,.,.,2018
+Fröviskolan,58663719,Lindesberg,1885,Kommunal,Lindesberg,2120002015,59,"6,8","57,6","35,6",.,.,.,.,65,"7,7","80,0","12,3",.,.,.,.,2018
+Stadsskogsskolan,16882306,Lindesberg,1885,Kommunal,Lindesberg,2120002015,.,.,.,.,.,.,.,.,112,"16,1","75,9","8,0",.,.,.,.,2018
+Storåskolan,88486410,Lindesberg,1885,Kommunal,Lindesberg,2120002015,29,"13,8","55,2","31,0",.,.,.,.,27,"7,4","74,1","18,5",.,.,.,.,2018
+Arenaskolan,46165416,Linköping,0580,Kommunal,Linköping,2120000449,114,"7,0","57,0","36,0",.,.,.,.,116,"8,6","60,3","31,0",.,.,.,.,2018
+Berzeliusskolan 4,59327275,Linköping,0580,Kommunal,Linköping,2120000449,188,"10,6","68,6","20,7",.,.,.,.,203,"31,5","67,0","1,5",15,.,"53,3","46,7",2018
+Björkö friskola,78992223,Linköping,0580,Enskild,Stiftelsen Waldorfpedagogik i Vreta Kloster,8220027596,21,"28,6","71,4",.,.,.,.,.,18,"11,1","88,9",.,.,.,.,.,2018
+Ekholmsskolan,96360048,Linköping,0580,Kommunal,Linköping,2120000449,96,"2,1","53,1","44,8",.,.,.,.,106,"9,4","78,3","12,3",.,.,.,.,2018
+Elsa Brändströms skola,95720059,Linköping,0580,Kommunal,Linköping,2120000449,51,"2,0","80,4","17,6",.,.,.,.,83,"8,4","85,5","6,0",41,"14,6","70,7","14,6",2018
+Folkungaskolan grundskola 7-9,65857121,Linköping,0580,Kommunal,Linköping,2120000449,94,"10,6","63,8","25,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Internationella Engelska Skolan Linköping,82086591,Linköping,0580,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,78,"11,5","46,2","42,3",.,.,.,.,112,"9,8","72,3","17,9",27,"25,9","33,3","40,7",2018
+Kunskapsskolan Linköping,67505597,Linköping,0580,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,40,.,"52,5","47,5",.,.,.,.,49,.,"69,4","30,6",.,.,.,.,2018
+Linghemsskolan,93274980,Linköping,0580,Kommunal,Linköping,2120000449,55,"1,8","52,7","45,5",.,.,.,.,55,"14,5","80,0","5,5",.,.,.,.,2018
+Ljungsbro skola 7-9,85992138,Linköping,0580,Kommunal,Linköping,2120000449,73,"5,5","61,6","32,9",.,.,.,.,79,"6,3","73,4","20,3",.,.,.,.,2018
+Malmslättsskolan - Tokarp,68326694,Linköping,0580,Kommunal,Linköping,2120000449,95,"8,4","73,7","17,9",.,.,.,.,97,"8,2","77,3","14,4",.,.,.,.,2018
+Nya Munken,76521863,Linköping,0580,Enskild,Nya Munken Aktiebolag,5563475028,167,"4,2","53,3","42,5",.,.,.,.,174,"26,4","69,0","4,6",.,.,.,.,2018
+Skäggetorpskolan,46577157,Linköping,0580,Kommunal,Linköping,2120000449,22,"13,6","36,4","50,0",.,.,.,.,63,"7,9","61,9","30,2",49,"12,2","67,3","20,4",2018
+Thea Privata Grundskola Linköping,31658010,Linköping,0580,Enskild,Theducation AB,5565697082,69,"8,7","65,2","26,1",.,.,.,.,72,"4,2","81,9","13,9",.,.,.,.,2018
+Tornhagsskolan 6-9,75688028,Linköping,0580,Kommunal,Linköping,2120000449,76,"18,4","59,2","22,4",.,.,.,.,93,"21,5","66,7","11,8",.,.,.,.,2018
+Vittra Lambohov,26255239,Linköping,0580,Enskild,Vittraskolorna AB,5564586716,18,"5,6","61,1","33,3",.,.,.,.,19,.,"84,2","15,8",.,.,.,.,2018
+Ånestadsskolan,59548402,Linköping,0580,Kommunal,Linköping,2120000449,.,.,.,.,.,.,.,.,26,.,"76,9","23,1",.,.,.,.,2018
+Astradskolan 2,90628474,Ljungby,0781,Kommunal,Ljungby,2120000670,84,"16,7","70,2","13,1",.,.,.,.,100,"11,0","69,0","20,0",27,.,"77,8","22,2",2018
+Kungshögsskolan 2,87262274,Ljungby,0781,Kommunal,Ljungby,2120000670,36,"5,6","69,4","25,0",.,.,.,.,43,"18,6","65,1","16,3",.,.,.,.,2018
+Kungshögsskolan 3,96958960,Ljungby,0781,Kommunal,Ljungby,2120000670,55,"12,7","50,9","36,4",.,.,.,.,69,"13,0","69,6","17,4",15,.,"66,7","33,3",2018
+Thoren Framtid i Ljungby,59021648,Ljungby,0781,Enskild,Thoren Framtid AB,5567497051,.,.,.,.,.,.,.,.,18,"16,7","83,3",.,.,.,.,.,2018
+Åbyskolan 2,75853223,Ljungby,0781,Kommunal,Ljungby,2120000670,61,"13,1","57,4","29,5",.,.,.,.,65,"9,2","73,8","16,9",.,.,.,.,2018
+Friskolan Vintergatan,62270371,Ljusdal,2161,Enskild,Friskolan Vintergatan Ekonomisk Förening,7696065718,33,"15,2","72,7","12,1",.,.,.,.,32,"9,4","71,9","18,8",.,.,.,.,2018
+Färila skola,36425969,Ljusdal,2161,Kommunal,Ljusdal,2120002320,25,"12,0","56,0","32,0",.,.,.,.,30,"16,7","83,3",.,.,.,.,.,2018
+Stenhamreskolan,38870809,Ljusdal,2161,Kommunal,Ljusdal,2120002320,80,"6,3","35,0","58,8",.,.,.,.,84,"6,0","66,7","27,4",.,.,.,.,2018
+Öjeskolan,47378558,Ljusdal,2161,Kommunal,Ljusdal,2120002320,41,"9,8","51,2","39,0",.,.,.,.,42,"11,9","73,8","14,3",.,.,.,.,2018
+Kyrkbacksskolan,82038420,Ljusnarsberg,1864,Kommunal,Ljusnarsberg,2120001959,35,"5,7","65,7","28,6",.,.,.,.,35,"17,1","77,1","5,7",.,.,.,.,2018
+Bjärehovskolan,41254600,Lomma,1262,Kommunal,Lomma,2120001066,86,"2,3","75,6","22,1",.,.,.,.,85,"10,6","82,4","7,1",.,.,.,.,2018
+Karstorpskolan Södra,92463760,Lomma,1262,Kommunal,Lomma,2120001066,54,"9,3","57,4","33,3",.,.,.,.,57,"8,8","71,9","19,3",.,.,.,.,2018
+Montessoriskolan i Bjärred,52025747,Lomma,1262,Enskild,Montessori-Bjerred Ekonomisk Förening,7696026983,17,"5,9","76,5","17,6",.,.,.,.,16,"50,0","50,0",.,.,.,.,.,2018
+Pilängskolan,15610637,Lomma,1262,Kommunal,Lomma,2120001066,61,"18,0","65,6","16,4",.,.,.,.,69,"30,4","69,6",.,.,.,.,.,2018
+Rutsborgskolan,19570704,Lomma,1262,Kommunal,Lomma,2120001066,57,"10,5","63,2","26,3",.,.,.,.,59,"6,8","89,8","3,4",.,.,.,.,2018
+Kyrkskolan 7-9,28230949,Ludvika,2085,Kommunal,Ludvika,2120002270,112,"1,8","52,7","45,5",.,.,.,.,129,"1,6","70,5","27,9",27,.,"74,1","25,9",2018
+Lorensbergaskolan 7-9,47736072,Ludvika,2085,Kommunal,Ludvika,2120002270,98,"27,6","55,1","17,3",.,.,.,.,120,.,"86,7","13,3",.,.,.,.,2018
+Bergskolan,72942852,Luleå,2580,Kommunal,Luleå,2120002742,91,"9,9","75,8","14,3",.,.,.,.,87,"32,2","60,9","6,9",.,.,.,.,2018
+Björkskataskolan,89477984,Luleå,2580,Kommunal,Luleå,2120002742,100,"5,0","82,0","13,0",.,.,.,.,102,"7,8","74,5","17,6",.,.,.,.,2018
+Hertsöskolan 7-9,15579589,Luleå,2580,Kommunal,Luleå,2120002742,51,"3,9","76,5","19,6",.,.,.,.,55,"25,5","61,8","12,7",.,.,.,.,2018
+Kråkbergsskolan,46323920,Luleå,2580,Kommunal,Luleå,2120002742,.,.,.,.,.,.,.,.,51,"7,8","86,3","5,9",.,.,.,.,2018
+Montessoriskolan,35085794,Luleå,2580,Kommunal,Luleå,2120002742,22,"9,1","72,7","18,2",.,.,.,.,24,"16,7","70,8","12,5",.,.,.,.,2018
+Norrskenet Luleå,55520065,Luleå,2580,Enskild,Norrskenets Friskola Luleå AB,5590455076,22,"45,5","50,0","4,5",.,.,.,.,25,.,"88,0","12,0",.,.,.,.,2018
+Nya Läroverket,82183259,Luleå,2580,Enskild,Nya läroverket Luleå AB,5566677927,43,"11,6","44,2","44,2",.,.,.,.,38,"10,5","76,3","13,2",.,.,.,.,2018
+Nya Läroverket Bergnäset,52734580,Luleå,2580,Enskild,Nya läroverket Luleå AB,5566677927,34,"5,9","61,8","32,4",.,.,.,.,35,"8,6","85,7","5,7",.,.,.,.,2018
+Residensskolan 7-9,73462793,Luleå,2580,Kommunal,Luleå,2120002742,74,"2,7","75,7","21,6",.,.,.,.,73,"15,1","74,0","11,0",.,.,.,.,2018
+Råneskolan 7-9,22462490,Luleå,2580,Kommunal,Luleå,2120002742,37,"13,5","75,7","10,8",.,.,.,.,38,"23,7","73,7","2,6",.,.,.,.,2018
+Stadsöskolan 7-9,95536453,Luleå,2580,Kommunal,Luleå,2120002742,74,"8,1","64,9","27,0",.,.,.,.,73,"9,6","72,6","17,8",.,.,.,.,2018
+Tunaskolan 7-9,43539193,Luleå,2580,Kommunal,Luleå,2120002742,30,"3,3","86,7","10,0",.,.,.,.,33,"12,1","78,8","9,1",.,.,.,.,2018
+Örnässkolan 7-9,20104143,Luleå,2580,Kommunal,Luleå,2120002742,38,"23,7","63,2","13,2",.,.,.,.,40,"25,0","72,5","2,5",.,.,.,.,2018
+Freinetskolan i Lund,60492534,Lund,1281,Enskild,"Freinetskolan i Lund,Ideell Förening",8450030203,19,"5,3","68,4","26,3",.,.,.,.,18,.,"66,7","33,3",.,.,.,.,2018
+Fågelskolan 4-9,64936034,Lund,1281,Kommunal,Lund,2120001132,43,"16,3","58,1","25,6",.,.,.,.,64,"20,3","68,8","10,9",20,.,"85,0","15,0",2018
+Fäladsgården,54391347,Lund,1281,Kommunal,Lund,2120001132,96,"26,0","56,3","17,7",.,.,.,.,105,"37,1","59,0","3,8",.,.,.,.,2018
+Genarps skola,83803124,Lund,1281,Kommunal,Lund,2120001132,48,"4,2","58,3","37,5",.,.,.,.,45,"17,8","77,8","4,4",.,.,.,.,2018
+Gunnesboskolan 7-9,85762828,Lund,1281,Kommunal,Lund,2120001132,53,"22,6","39,6","37,7",.,.,.,.,57,"12,3","86,0","1,8",.,.,.,.,2018
+Internationella Engelska Skolan Lund,63826797,Lund,1281,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,97,"29,9","54,6","15,5",.,.,.,.,114,"13,2","84,2","2,6",.,.,.,.,2018
+Järnåkraskolan 4-9,39307298,Lund,1281,Kommunal,Lund,2120001132,101,"10,9","62,4","26,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Killebäckskolan 7-9,42754004,Lund,1281,Kommunal,Lund,2120001132,97,"5,2","74,2","20,6",.,.,.,.,95,"16,8","77,9","5,3",.,.,.,.,2018
+Kunskapsskolan Lund,52037312,Lund,1281,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,87,.,"47,1","52,9",.,.,.,.,94,.,"78,7","21,3",.,.,.,.,2018
+Lerbäckskolan 7-9,90340546,Lund,1281,Kommunal,Lund,2120001132,87,"9,2","62,1","28,7",.,.,.,.,85,"21,2","74,1","4,7",.,.,.,.,2018
+Lunds Montessorigrundskola,70044059,Lund,1281,Enskild,Föreningen Lunds Montessorigrundskola,8450021459,21,"9,5","52,4","38,1",.,.,.,.,22,"4,5","90,9","4,5",.,.,.,.,2018
+Maria Montessori-skolan,40248457,Lund,1281,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,21,.,"81,0","19,0",.,.,.,.,21,"4,8","90,5","4,8",.,.,.,.,2018
+Nyvångskolan 7-9,70811599,Lund,1281,Kommunal,Lund,2120001132,87,"8,0","63,2","28,7",.,.,.,.,81,"32,1","64,2","3,7",.,.,.,.,2018
+Sankt Thomas Skola,28753548,Lund,1281,Enskild,Stiftelsen s:t Thomas Skola,8450030435,16,"6,3","56,3","37,5",.,.,.,.,18,"22,2","61,1","16,7",.,.,.,.,2018
+Stiftelsen BMSL,75154610,Lund,1281,Enskild,Stiftelsen Bmsl,8024781158,28,"7,1","64,3","28,6",.,.,.,.,28,"3,6","96,4",.,.,.,.,.,2018
+Svaleboskolan 7-9,27508103,Lund,1281,Kommunal,Lund,2120001132,70,"17,1","68,6","14,3",.,.,.,.,68,"2,9","86,8","10,3",.,.,.,.,2018
+Svaneskolan,67020135,Lund,1281,Kommunal,Lund,2120001132,124,"2,4","65,3","32,3",.,.,.,.,132,"7,6","81,8","10,6",.,.,.,.,2018
+Tunaskolan 7-9,76684064,Lund,1281,Kommunal,Lund,2120001132,.,.,.,.,.,.,.,.,85,"8,2","77,6","14,1",.,.,.,.,2018
+Vikingaskolan,68201054,Lund,1281,Kommunal,Lund,2120001132,18,.,"33,3","66,7",.,.,.,.,30,"3,3","83,3","13,3",.,.,.,.,2018
+Östratornskolan,58622330,Lund,1281,Kommunal,Lund,2120001132,22,"4,5","86,4","9,1",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Finnbacksskolan,35637430,Lycksele,2481,Kommunal,Lycksele,2120002635,112,"10,7","58,9","30,4",.,.,.,.,119,"18,5","70,6","10,9",.,.,.,.,2018
+Gullmarsskolan 7-9,12247315,Lysekil,1484,Kommunal,Lysekil,2120001389,105,"8,6","47,6","43,8",.,.,.,.,92,"7,6","84,8","7,6",.,.,.,.,2018
+Al-Salamahskolan,75399786,Malmö,1280,Enskild,Kulturella Föreningen F Välgörande Ändamål,8460052155,.,.,.,.,.,.,.,.,22,"22,7","50,0","27,3",22,"4,5","54,5","40,9",2018
+Augustenborgsskolan,89876778,Malmö,1280,Kommunal,Malmö,2120001124,32,.,"43,8","56,3",.,.,.,.,.,.,.,.,47,"2,1","55,3","42,6",2018
+Backaskolan,55040455,Malmö,1280,Enskild,Föreningen Backaskolan,8465001777,23,"13,0","69,6","17,4",.,.,.,.,26,"3,8","96,2",.,.,.,.,.,2018
+Bergaskolan,40035084,Malmö,1280,Kommunal,Malmö,2120001124,131,"7,6","67,2","25,2",.,.,.,.,140,"10,0","87,1","2,9",.,.,.,.,2018
+Bladins grundskola,57534630,Malmö,1280,Enskild,"Bladins Skola, Stiftelsen",8460010948,45,"8,9","64,4","26,7",.,.,.,.,49,"20,4","69,4","10,2",.,.,.,.,2018
+Bäckagårdsskolan,12636945,Malmö,1280,Kommunal,Malmö,2120001124,52,"7,7","61,5","30,8",.,.,.,.,54,"5,6","79,6","14,8",.,.,.,.,2018
+Dammfriskolan,48874671,Malmö,1280,Kommunal,Malmö,2120001124,48,"8,3","58,3","33,3",.,.,.,.,.,.,.,.,26,"7,7","69,2","23,1",2018
+Europaportens grundskola,24339301,Malmö,1280,Enskild,Europaportens Skolor AB,5568350572,24,"4,2","54,2","41,7",.,.,.,.,23,.,"82,6","17,4",.,.,.,.,2018
+Gottorpskolan,56363473,Malmö,1280,Kommunal,Malmö,2120001124,83,"4,8","67,5","27,7",.,.,.,.,92,"9,8","80,4","9,8",.,.,.,.,2018
+Hermodsdalsskolan,56666435,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,43,"11,6","53,5","34,9",36,"2,8","69,4","27,8",2018
+Höjaskolan,99835038,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,50,"16,0","74,0","10,0",44,"6,8","63,6","29,5",2018
+Johannesskolan,82797662,Malmö,1280,Kommunal,Malmö,2120001124,30,"3,3","20,0","76,7",.,.,.,.,.,.,.,.,29,"20,7","51,7","27,6",2018
+Kastanjeskolan,19024032,Malmö,1280,Enskild,Föreningen Kastanjeskolan,8465016791,15,"6,7","53,3","40,0",.,.,.,.,23,"30,4","56,5","13,0",.,.,.,.,2018
+Kilowattskolan i Malmö,61317595,Malmö,1280,Enskild,Kilowatt AB,5568865801,.,.,.,.,.,.,.,.,16,.,"75,0","25,0",.,.,.,.,2018
+Kirsebergsskolan,25054799,Malmö,1280,Kommunal,Malmö,2120001124,28,"7,1","78,6","14,3",.,.,.,.,47,"6,4","72,3","21,3",22,.,"63,6","36,4",2018
+Kroksbäcksskolan,98745015,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,51,"2,0","88,2","9,8",48,.,"79,2","20,8",2018
+Kryddgårdsskolan,66836744,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,15,.,"53,3","46,7",.,.,.,.,2018
+Lindeborgsskolan,22509001,Malmö,1280,Kommunal,Malmö,2120001124,87,"1,1","62,1","36,8",.,.,.,.,84,"15,5","71,4","13,1",.,.,.,.,2018
+Lindängeskolan,75875503,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,58,"3,4","55,2","41,4",41,"2,4","51,2","46,3",2018
+Linnéskolan,63951601,Malmö,1280,Kommunal,Malmö,2120001124,73,"1,4","68,5","30,1",.,.,.,.,80,"17,5","77,5","5,0",.,.,.,.,2018
+Malmö Idrottsgrundskola,71454628,Malmö,1280,Kommunal,Malmö,2120001124,72,"8,3","69,4","22,2",.,.,.,.,82,"13,4","81,7","4,9",.,.,.,.,2018
+Malmö International School,56446897,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,34,"26,5","64,7","8,8",18,"5,6","66,7","27,8",2018
+Malmö Montessoriskola,13299659,Malmö,1280,Enskild,"Hemgårdar i Malmö, Föreningen",8460009460,.,.,.,.,.,.,.,.,31,"9,7","90,3",.,.,.,.,.,2018
+Mariaskolan,67272295,Malmö,1280,Enskild,Kristna Skolföreningen i Malmö,8460026654,19,"5,3","89,5","5,3",.,.,.,.,22,"18,2","81,8",.,.,.,.,.,2018
+Montessorigrundskolan Maria,45776214,Malmö,1280,Enskild,Åkerman Education AB,5565418455,.,.,.,.,.,.,.,.,16,"68,8","31,3",.,.,.,.,.,2018
+Munkhätteskolan,74972690,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,30,"23,3","76,7",.,34,"11,8","64,7","23,5",2018
+Möllevångsskolan,88590084,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,2018
+Oxievångsskolan,64402572,Malmö,1280,Kommunal,Malmö,2120001124,103,"6,8","52,4","40,8",.,.,.,.,119,"10,9","66,4","22,7",24,"4,2","50,0","45,8",2018
+Pilbäckskolan,85007077,Malmö,1280,Kommunal,Malmö,2120001124,47,"6,4","76,6","17,0",.,.,.,.,50,"8,0","86,0","6,0",.,.,.,.,2018
+Runstyckets skola,57386343,Malmö,1280,Enskild,Runstyckets Förskola Aktiebolag,5564518081,19,"21,1","57,9","21,1",.,.,.,.,20,"10,0","75,0","15,0",.,.,.,.,2018
+Rönnenskolan,93599910,Malmö,1280,Kommunal,Malmö,2120001124,54,"3,7","59,3","37,0",.,.,.,.,63,"17,5","77,8","4,8",18,"11,1","44,4","44,4",2018
+"Rörsjöskolan 2, Zenith",83861471,Malmö,1280,Kommunal,Malmö,2120001124,17,"11,8","41,2","47,1",.,.,.,.,19,"10,5","47,4","42,1",25,"12,0","48,0","40,0",2018
+Slottsstadens skola,92862757,Malmö,1280,Kommunal,Malmö,2120001124,120,"3,3","61,7","35,0",.,.,.,.,145,"16,6","71,0","12,4",42,"9,5","78,6","11,9",2018
+Sofielundsskolan,65836771,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,28,.,"96,4","3,6",20,.,"85,0","15,0",2018
+Sorgenfriskolan,67130748,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,20,.,"75,0","25,0",.,.,.,.,2018
+Stenkulaskolan,85082785,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,47,"6,4","76,6","17,0",42,"9,5","50,0","40,5",2018
+Strandskolan,61199979,Malmö,1280,Kommunal,Malmö,2120001124,51,.,"86,3","13,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Sveaskolan,54725950,Malmö,1280,Enskild,Sveaskolan AB,5567282859,76,.,"88,2","11,8",.,.,.,.,76,"1,3","89,5","9,2",.,.,.,.,2018
+Söderkullaskolan,66656783,Malmö,1280,Kommunal,Malmö,2120001124,80,"15,0","52,5","32,5",.,.,.,.,.,.,.,.,19,"26,3","63,2","10,5",2018
+Videdals privatskolor,31996111,Malmö,1280,Enskild,Aktiebolaget Videdals Privatskolor,5564518750,15,.,"86,7","13,3",.,.,.,.,15,"6,7","60,0","33,3",.,.,.,.,2018
+Videdalsskolan,37324136,Malmö,1280,Kommunal,Malmö,2120001124,56,"16,1","55,4","28,6",.,.,.,.,.,.,.,.,41,"2,4","73,2","24,4",2018
+Vittra Västra hamnen,13495830,Malmö,1280,Enskild,Vittraskolorna AB,5564586716,29,.,"55,2","44,8",.,.,.,.,41,.,"82,9","17,1",.,.,.,.,2018
+Värner Rydénskolan,65099615,Malmö,1280,Kommunal,Malmö,2120001124,.,.,.,.,.,.,.,.,26,"19,2","76,9","3,8",36,"11,1","47,2","41,7",2018
+Västra Hamnens skola,28640213,Malmö,1280,Kommunal,Malmö,2120001124,53,"3,8","54,7","41,5",.,.,.,.,57,"12,3","71,9","15,8",.,.,.,.,2018
+Ängsdals skola,34314029,Malmö,1280,Enskild,Ängsdals skolor AB,5564800836,26,"19,2","69,2","11,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Östra Skolan,40470449,Malmö,1280,Enskild,Östra Skolan AB,5568250632,39,"12,8","66,7","20,5",.,.,.,.,41,"17,1","75,6","7,3",.,.,.,.,2018
+Centralskolan,83084730,Malung-Sälen,2023,Kommunal,Malung-Sälen,2120002148,52,"5,8","75,0","19,2",.,.,.,.,63,"7,9","74,6","17,5",.,.,.,.,2018
+Ungärde skola,17208837,Malung-Sälen,2023,Kommunal,Malung-Sälen,2120002148,24,"12,5","75,0","12,5",.,.,.,.,26,.,"100,0",.,.,.,.,.,2018
+Nilaskolan 7-9,28454424,Malå,2418,Kommunal,Malå,2120002866,34,"14,7","61,8","23,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Ekhamraskolan,29289355,Mariestad,1493,Enskild,Friskolan i Mariestad AB,5568020852,56,.,"100,0",.,.,.,.,.,52,"13,5","69,2","17,3",.,.,.,.,2018
+Högelidsskolan 7-9,62694008,Mariestad,1493,Kommunal,Mariestad,2120001686,91,"12,1","70,3","17,6",.,.,.,.,87,"23,0","70,1","6,9",.,.,.,.,2018
+Tunaholmsskolan,48016437,Mariestad,1493,Kommunal,Mariestad,2120001686,102,"11,8","45,1","43,1",.,.,.,.,105,"11,4","69,5","19,0",.,.,.,.,2018
+Fritslaskolan,33369644,Mark,1463,Kommunal,Mark,2120001504,30,"10,0","70,0","20,0",.,.,.,.,31,"9,7","67,7","22,6",.,.,.,.,2018
+Lyckeskolan,10428442,Mark,1463,Kommunal,Mark,2120001504,57,"7,0","73,7","19,3",.,.,.,.,64,"7,8","89,1","3,1",.,.,.,.,2018
+Sätilaskolan,90586918,Mark,1463,Kommunal,Mark,2120001504,56,"3,6","75,0","21,4",.,.,.,.,56,"14,3","76,8","8,9",.,.,.,.,2018
+Ängskolan,13666864,Mark,1463,Kommunal,Mark,2120001504,97,"7,2","60,8","32,0",.,.,.,.,113,"15,0","68,1","16,8",.,.,.,.,2018
+Örbyskolan,53091837,Mark,1463,Kommunal,Mark,2120001504,56,"16,1","57,1","26,8",.,.,.,.,19,"5,3","73,7","21,1",.,.,.,.,2018
+Markaryds skola 7-9,88784456,Markaryd,0767,Kommunal,Markaryd,2120000654,50,"14,0","62,0","24,0",.,.,.,.,54,"9,3","85,2","5,6",.,.,.,.,2018
+Strömsnässkolan 7-9,59001324,Markaryd,0767,Kommunal,Markaryd,2120000654,25,"8,0","48,0","44,0",.,.,.,.,32,"25,0","65,6","9,4",.,.,.,.,2018
+Rådaskolan,53764779,Mellerud,1461,Kommunal,Mellerud,2120001488,80,"3,8","55,0","41,3",.,.,.,.,87,.,"49,4","50,6",.,.,.,.,2018
+Lagmansskolan Beta MH,10609045,Mjölby,0586,Kommunal,Mjölby,2120000480,95,"13,7","65,3","21,1",.,.,.,.,103,"15,5","75,7","8,7",.,.,.,.,2018
+Trojenborgsskolan MH,37310404,Mjölby,0586,Kommunal,Mjölby,2120000480,46,"4,3","50,0","45,7",.,.,.,.,47,"14,9","61,7","23,4",.,.,.,.,2018
+Vifolkaskolan 7-9,16727370,Mjölby,0586,Kommunal,Mjölby,2120000480,73,"21,9","47,9","30,1",.,.,.,.,77,"31,2","67,5","1,3",.,.,.,.,2018
+Morkarlbyhöjdens skola 7-9,95649680,Mora,2062,Kommunal,Mora,2120002213,93,"9,7","47,3","43,0",.,.,.,.,97,"20,6","74,2","5,2",.,.,.,.,2018
+Noretsskolan 7-9,68663553,Mora,2062,Kommunal,Mora,2120002213,72,.,"52,8","47,2",.,.,.,.,73,"9,6","69,9","20,5",.,.,.,.,2018
+Fria InterMilia skolan,11700203,Motala,0583,Enskild,Fria Intermilia Skolan,8240008709,15,.,"80,0","20,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Hällaskolan,87963970,Motala,0583,Kommunal,Motala,2120002817,73,"17,8","68,5","13,7",.,.,.,.,73,"32,9","64,4","2,7",.,.,.,.,2018
+Karin Boye-skolan,11664326,Motala,0583,Enskild,AcadeMedia fria grundskolor AB,5569320699,72,"6,9","62,5","30,6",.,.,.,.,68,"27,9","66,2","5,9",.,.,.,.,2018
+Mariebergsskolan,87531665,Motala,0583,Kommunal,Motala,2120002817,55,"1,8","67,3","30,9",.,.,.,.,55,"1,8","81,8","16,4",.,.,.,.,2018
+Skolgårda skola 7-9,82224915,Motala,0583,Kommunal,Motala,2120002817,72,"2,8","56,9","40,3",.,.,.,.,77,"11,7","81,8","6,5",.,.,.,.,2018
+Södra skolan 4-9,69769596,Motala,0583,Kommunal,Motala,2120002817,59,"1,7","66,1","32,2",.,.,.,.,66,"19,7","71,2","9,1",16,"6,3","31,3","62,5",2018
+Zederslundsskolan,98031467,Motala,0583,Kommunal,Motala,2120002817,98,"3,1","67,3","29,6",.,.,.,.,115,"7,8","83,5","8,7",.,.,.,.,2018
+Trollehöjdskolan,28156767,Mullsjö,0642,Kommunal,Mullsjö,2120001603,81,"1,2","53,1","45,7",.,.,.,.,84,"8,3","72,6","19,0",.,.,.,.,2018
+Kungsmarksskolan,44650086,Munkedal,1430,Kommunal,Munkedal,2120001330,82,"17,1","54,9","28,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Forsnässkolan 4-9,73206377,Munkfors,1762,Kommunal,Munkfors,2120001801,26,"11,5","69,2","19,2",.,.,.,.,31,"19,4","67,7","12,9",.,.,.,.,2018
+Montessoriskolan Kvarnhjulet,64490264,Mölndal,1481,Enskild,"Montessoriskolan Kvarnhjulet, ekonomisk förening",7164452166,22,"4,5","50,0","45,5",.,.,.,.,24,"16,7","62,5","20,8",.,.,.,.,2018
+Växthuset,42908622,Mölndal,1481,Enskild,AcadeMedia fria grundskolor AB,5569320699,48,"10,4","75,0","14,6",.,.,.,.,40,"10,0","70,0","20,0",.,.,.,.,2018
+Krungårdsskolan 7-9,40299433,Mönsterås,0861,Kommunal,Mönsterås,2120000720,48,"31,3","47,9","20,8",.,.,.,.,49,"34,7","65,3",.,.,.,.,.,2018
+Parkskolan,84285512,Mönsterås,0861,Kommunal,Mönsterås,2120000720,55,"30,9","50,9","18,2",.,.,.,.,67,"19,4","55,2","25,4",18,"33,3","66,7",.,2018
+Skansenskolan,36651204,Mörbylånga,0840,Kommunal,Mörbylånga,2120000704,97,"7,2","63,9","28,9",.,.,.,.,100,.,"97,0","3,0",.,.,.,.,2018
+Ölands Friskola,28562125,Mörbylånga,0840,Enskild,Friskolan Öland AB,5590250949,56,"35,7","30,4","33,9",.,.,.,.,55,"41,8","36,4","21,8",.,.,.,.,2018
+Björknässkolan,75834458,Nacka,0182,Kommunal,Nacka,2120000167,140,"9,3","62,9","27,9",.,.,.,.,142,"4,9","90,8","4,2",.,.,.,.,2018
+Castello Järla sjö,34135484,Nacka,0182,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,30,"3,3","66,7","30,0",.,.,.,.,30,"6,7","83,3","10,0",.,.,.,.,2018
+Eklidens skola,47243834,Nacka,0182,Kommunal,Nacka,2120000167,238,"9,7","58,8","31,5",.,.,.,.,244,"17,2","73,8","9,0",.,.,.,.,2018
+Internationella Engelska Skolan  Nacka,74358019,Nacka,0182,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,136,"32,4","41,2","26,5",.,.,.,.,143,"22,4","71,3","6,3",.,.,.,.,2018
+Johannes Petri skola,32965692,Nacka,0182,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,47,"31,9","34,0","34,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Kunskapsskolan Nacka,87425546,Nacka,0182,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,87,"12,6","77,0","10,3",.,.,.,.,92,"22,8","72,8","4,3",.,.,.,.,2018
+Kunskapsskolan Saltsjöbaden,11496096,Nacka,0182,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,61,"18,0","65,6","16,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Maestroskolan Nacka,64065898,Nacka,0182,Enskild,Maestro Svindersvik Aktiebolag,5566100136,15,.,"46,7","53,3",.,.,.,.,20,"10,0","85,0","5,0",.,.,.,.,2018
+Myrsjöskolan,84884375,Nacka,0182,Kommunal,Nacka,2120000167,199,"9,5","64,8","25,6",.,.,.,.,205,"15,6","79,0","5,4",.,.,.,.,2018
+Saltsjöbadens samskola,11777750,Nacka,0182,Kommunal,Nacka,2120000167,.,.,.,.,.,.,.,.,85,"9,4","84,7","5,9",.,.,.,.,2018
+Skuru skola,85321366,Nacka,0182,Kommunal,Nacka,2120000167,109,"22,9","61,5","15,6",.,.,.,.,119,"16,0","63,0","21,0",.,.,.,.,2018
+Stavsborgsskolan,14040970,Nacka,0182,Kommunal,Nacka,2120000167,90,"8,9","53,3","37,8",.,.,.,.,95,"20,0","76,8","3,2",.,.,.,.,2018
+Karlsängsskolan,40684137,Nora,1884,Kommunal,Nora,2120002007,97,"5,2","62,9","32,0",.,.,.,.,97,"17,5","71,1","11,3",.,.,.,.,2018
+Centralskolan,22347371,Norberg,1962,Kommunal,Norberg,2120002072,46,"2,2","60,9","37,0",.,.,.,.,52,"5,8","75,0","19,2",.,.,.,.,2018
+Bergsjö Centralskola år 7-9,95045408,Nordanstig,2132,Kommunal,Nordanstig,2120002312,56,"1,8","55,4","42,9",.,.,.,.,60,.,"86,7","13,3",.,.,.,.,2018
+Artediskolan åk 6-9,58185455,Nordmaling,2401,Kommunal,Nordmaling,2120002536,59,"10,2","72,9","16,9",.,.,.,.,68,"8,8","80,9","10,3",.,.,.,.,2018
+Borgsmoskolan 2,42813460,Norrköping,0581,Kommunal,Norrköping,2120000456,60,"11,7","70,0","18,3",.,.,.,.,74,"6,8","59,5","33,8",21,"4,8","57,1","38,1",2018
+Djäkneparksskolan 2,15063173,Norrköping,0581,Kommunal,Norrköping,2120000456,98,"12,2","51,0","36,7",.,.,.,.,125,"4,0","80,0","16,0",34,"5,9","52,9","41,2",2018
+Ektorpsskolan 2,37133485,Norrköping,0581,Kommunal,Norrköping,2120000456,78,"7,7","44,9","47,4",.,.,.,.,94,"5,3","50,0","44,7",20,.,"30,0","70,0",2018
+Enebyskolan 1,24625357,Norrköping,0581,Kommunal,Norrköping,2120000456,71,.,"54,9","45,1",.,.,.,.,74,"14,9","71,6","13,5",.,.,.,.,2018
+Enebyskolan 2,35609364,Norrköping,0581,Kommunal,Norrköping,2120000456,55,.,"61,8","38,2",.,.,.,.,56,"10,7","73,2","16,1",.,.,.,.,2018
+Erlaskolan Norrköping Södra,72526185,Norrköping,0581,Enskild,Lärande i Sverige AB,5565715892,30,"16,7","76,7","6,7",.,.,.,.,42,"26,2","73,8",.,.,.,.,.,2018
+Erlaskolan Norrköping Östra,90838156,Norrköping,0581,Enskild,Lärande i Sverige AB,5565715892,42,"11,9","78,6","9,5",.,.,.,.,45,"6,7","77,8","15,6",.,.,.,.,2018
+Hagaskolan 1,17315625,Norrköping,0581,Kommunal,Norrköping,2120000456,66,"28,8","59,1","12,1",.,.,.,.,92,"20,7","64,1","15,2",29,"13,8","55,2","31,0",2018
+Hultdalsskolan,40393888,Norrköping,0581,Kommunal,Norrköping,2120000456,90,"3,3","51,1","45,6",.,.,.,.,93,"17,2","64,5","18,3",.,.,.,.,2018
+Johannesskolan Norrkpg Kr Sk,57529996,Norrköping,0581,Enskild,Stiftelsen Församlingen Agape,8190009996,.,.,.,.,.,.,.,.,19,"5,3","68,4","26,3",.,.,.,.,2018
+Jönsbergska Idrottsskolan,61454000,Norrköping,0581,Enskild,Jönsbergska Idrottsskolan Norrköping AB,5566765920,52,"11,5","59,6","28,8",.,.,.,.,52,.,"82,7","17,3",.,.,.,.,2018
+Klingsborgsskolan 1,24979620,Norrköping,0581,Kommunal,Norrköping,2120000456,.,.,.,.,.,.,.,.,73,"30,1","63,0","6,8",61,.,"88,5","11,5",2018
+Kunskapsskolan Norrköping,77437748,Norrköping,0581,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,99,"13,1","64,6","22,2",.,.,.,.,103,"9,7","77,7","12,6",.,.,.,.,2018
+Mosstorpskolan 2,67224193,Norrköping,0581,Kommunal,Norrköping,2120000456,51,"7,8","51,0","41,2",.,.,.,.,50,"16,0","62,0","22,0",.,.,.,.,2018
+Navestadsskolan 3,41960783,Norrköping,0581,Kommunal,Norrköping,2120000456,73,"11,0","63,0","26,0",.,.,.,.,96,"3,1","65,6","31,3",30,"6,7","53,3","40,0",2018
+"Prolympia, Norrköping",16013826,Norrköping,0581,Enskild,Prolympia AB,5567026454,109,"23,9","50,5","25,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+"Rudolf Steinerskolan, gr",33530590,Norrköping,0581,Enskild,Rudolf Steinerskolan,8250013037,17,.,"70,6","29,4",.,.,.,.,18,"5,6","55,6","38,9",.,.,.,.,2018
+Råsslaskolan 1,80621158,Norrköping,0581,Kommunal,Norrköping,2120000456,47,.,"42,6","57,4",.,.,.,.,47,"12,8","66,0","21,3",.,.,.,.,2018
+Vikbolandsskolan 1,86323840,Norrköping,0581,Kommunal,Norrköping,2120000456,37,"10,8","29,7","59,5",.,.,.,.,38,"5,3","84,2","10,5",.,.,.,.,2018
+Vittra Röda stan,38936292,Norrköping,0581,Enskild,Vittraskolorna AB,5564586716,24,.,"87,5","12,5",.,.,.,.,23,"17,4","78,3","4,3",.,.,.,.,2018
+"Ekebyholmsskolan, gr",98239828,Norrtälje,0188,Enskild,Ekebyholmsskolan Aktiebolag,5562512425,25,"24,0","64,0","12,0",.,.,.,.,24,"4,2","91,7","4,2",.,.,.,.,2018
+Freinetskolan Hugin,89692072,Norrtälje,0188,Enskild,Freinetskolan Hugin Ekonomisk förening,7696188189,21,"9,5","71,4","19,0",.,.,.,.,23,.,"91,3","8,7",.,.,.,.,2018
+Freinetskolan Mimer,45133950,Norrtälje,0188,Enskild,Freinetskolan Mimer ekonomisk förening,7696021117,23,"8,7","69,6","21,7",.,.,.,.,21,"4,8","81,0","14,3",.,.,.,.,2018
+Grindskolan,29416145,Norrtälje,0188,Kommunal,Norrtälje,2120000217,47,"12,8","72,3","14,9",.,.,.,.,47,"17,0","72,3","10,6",.,.,.,.,2018
+Hallsta skola,24146389,Norrtälje,0188,Kommunal,Norrtälje,2120000217,60,"10,0","63,3","26,7",.,.,.,.,61,"13,1","85,2","1,6",.,.,.,.,2018
+Långsjöskolan,99749462,Norrtälje,0188,Kommunal,Norrtälje,2120000217,65,"3,1","38,5","58,5",.,.,.,.,80,"18,8","68,8","12,5",.,.,.,.,2018
+Länna skola,72471883,Norrtälje,0188,Kommunal,Norrtälje,2120000217,27,"22,2","59,3","18,5",.,.,.,.,25,"4,0","96,0",.,.,.,.,.,2018
+Montessoriskolan - Gustafslund,26281697,Norrtälje,0188,Enskild,Montessori i Norrtälje AB,5562855410,24,"16,7","58,3","25,0",.,.,.,.,23,"13,0","73,9","13,0",.,.,.,.,2018
+Norrsundsskolan,39351914,Norrtälje,0188,Kommunal,Norrtälje,2120000217,21,.,"95,2","4,8",.,.,.,.,25,"12,0","76,0","12,0",.,.,.,.,2018
+Roslagsskolan,31851256,Norrtälje,0188,Kommunal,Norrtälje,2120000217,171,"2,3","72,5","25,1",.,.,.,.,182,"4,9","67,0","28,0",.,.,.,.,2018
+Svanbergaskolan,59975651,Norrtälje,0188,Kommunal,Norrtälje,2120000217,52,"19,2","55,8","25,0",.,.,.,.,55,"29,1","63,6","7,3",.,.,.,.,2018
+Viby friskola,54806839,Norrtälje,0188,Enskild,Ogenholts Friskola AB,5565533873,16,.,"93,8","6,3",.,.,.,.,16,.,"100,0",.,.,.,.,.,2018
+Norsjöskolan F-9,10421130,Norsjö,2417,Kommunal,Norsjö,2120002858,36,"11,1","66,7","22,2",.,.,.,.,45,"13,3","55,6","31,1",.,.,.,.,2018
+Madesjöskolan Ma02,38198417,Nybro,0881,Kommunal,Nybro,2120000753,55,"16,4","58,2","25,5",.,.,.,.,59,"23,7","71,2","5,1",.,.,.,.,2018
+Paradisskolan Pa02,79650118,Nybro,0881,Kommunal,Nybro,2120000753,106,"7,5","76,4","16,0",.,.,.,.,115,"5,2","77,4","17,4",.,.,.,.,2018
+Lillhagaskolan,99640618,Nykvarn,0140,Kommunal,Nykvarn,2120002999,141,"7,8","49,6","42,6",.,.,.,.,144,"9,7","62,5","27,8",.,.,.,.,2018
+Fokusskolan,18915192,Nyköping,0480,Enskild,Nyfo AB,5567812291,17,"17,6","35,3","47,1",.,.,.,.,16,"12,5","87,5",.,.,.,.,.,2018
+Kunskapsskolan Nyköping,88046003,Nyköping,0480,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,88,"18,2","46,6","35,2",.,.,.,.,89,"14,6","82,0","3,4",.,.,.,.,2018
+Nyköpings Friskola Östra Kyrkogatan,90949432,Nyköping,0480,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,19,"26,3","57,9","15,8",.,.,.,.,24,"25,0","75,0",.,.,.,.,.,2018
+Nyköpings högstadium,99757444,Nyköping,0480,Kommunal,Nyköping,2120002940,299,"6,7","60,5","32,8",.,.,.,.,349,"15,5","67,6","16,9",62,"4,8","51,6","43,5",2018
+Vittra Kungshagen,50698424,Nyköping,0480,Enskild,Vittraskolorna AB,5564586716,31,.,"45,2","54,8",.,.,.,.,30,"13,3","70,0","16,7",.,.,.,.,2018
+Gröndalsskolan F-9,65717061,Nynäshamn,0192,Kommunal,Nynäshamn,2120000233,62,"6,5","46,8","46,8",.,.,.,.,71,"7,0","78,9","14,1",.,.,.,.,2018
+Sunnerbyskolan 4-9,78703073,Nynäshamn,0192,Kommunal,Nynäshamn,2120000233,53,.,"73,6","26,4",.,.,.,.,49,"4,1","77,6","18,4",.,.,.,.,2018
+Vanstaskolan 4-9,73184416,Nynäshamn,0192,Kommunal,Nynäshamn,2120000233,57,"1,8","73,7","24,6",.,.,.,.,62,.,"85,5","14,5",.,.,.,.,2018
+Viaskolan 6-9,34814578,Nynäshamn,0192,Kommunal,Nynäshamn,2120000233,49,.,"75,5","24,5",.,.,.,.,55,"18,2","70,9","10,9",.,.,.,.,2018
+Brinells högstadium,27489659,Nässjö,0682,Kommunal,Nässjö,2120000548,74,"8,1","67,6","24,3",.,.,.,.,89,"14,6","83,1","2,2",16,.,"81,3","18,8",2018
+Norråsaskolan,19118399,Nässjö,0682,Kommunal,Nässjö,2120000548,129,"13,2","64,3","22,5",.,.,.,.,143,"17,5","68,5","14,0",23,.,"52,2","47,8",2018
+Parkskolan 7-9,97882848,Nässjö,0682,Kommunal,Nässjö,2120000548,52,"3,8","67,3","28,8",.,.,.,.,58,"22,4","75,9","1,7",.,.,.,.,2018
+Rosenholmsskolan 4-9,66394964,Nässjö,0682,Kommunal,Nässjö,2120000548,26,"3,8","42,3","53,8",.,.,.,.,24,.,"79,2","20,8",.,.,.,.,2018
+Perslundaskolan,40000547,Ockelbo,2101,Kommunal,Ockelbo,2120002288,36,"8,3","58,3","33,3",.,.,.,.,35,"11,4","71,4","17,1",.,.,.,.,2018
+Högavångsskolan,53603984,Olofström,1060,Kommunal,Olofström,2120000811,100,"1,0","65,0","34,0",.,.,.,.,120,"6,7","80,0","13,3",16,.,"50,0","50,0",2018
+Orsaskolan,19694910,Orsa,2034,Kommunal,Orsa,2120002189,65,"4,6","72,3","23,1",.,.,.,.,63,"1,6","90,5","7,9",.,.,.,.,2018
+Henåns skola 7-9,76943513,Orust,1421,Kommunal,Orust,2120001314,68,"7,4","51,5","41,2",.,.,.,.,70,"28,6","70,0","1,4",.,.,.,.,2018
+Ängås skola 7-9,34557677,Orust,1421,Kommunal,Orust,2120001314,64,"20,3","67,2","12,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Hasslarödsskolan 7-9,13184976,Osby,1273,Kommunal,Osby,2120000902,53,"1,9","75,5","22,6",.,.,.,.,59,"27,1","71,2","1,7",.,.,.,.,2018
+Parkskolan 4-9,61939706,Osby,1273,Kommunal,Osby,2120000902,33,"12,1","63,6","24,2",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Örkenedskolan F-9,21002578,Osby,1273,Kommunal,Osby,2120000902,26,"7,7","61,5","30,8",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Kristinebergskolan 7-9,73392316,Oskarshamn,0882,Kommunal,Oskarshamn,2120000761,104,"15,4","72,1","12,5",.,.,.,.,107,"5,6","84,1","10,3",.,.,.,.,2018
+Rödsleskolan 7-9,40041600,Oskarshamn,0882,Kommunal,Oskarshamn,2120000761,110,"13,6","70,9","15,5",.,.,.,.,114,"12,3","74,6","13,2",.,.,.,.,2018
+Vallhallaskolan 7-9,46592871,Oskarshamn,0882,Kommunal,Oskarshamn,2120000761,89,"3,4","74,2","22,5",.,.,.,.,106,"40,6","55,7","3,8",.,.,.,.,2018
+Alftaskolan 7-9,92304123,Ovanåker,2121,Kommunal,Ovanåker,2120002304,.,.,.,.,.,.,.,.,37,.,"81,1","18,9",.,.,.,.,2018
+Celsiusskolan 7-9,43362307,Ovanåker,2121,Kommunal,Ovanåker,2120002304,62,"1,6","75,8","22,6",.,.,.,.,65,"10,8","78,5","10,8",.,.,.,.,2018
+Breviksskolan åk 6-9,34893654,Oxelösund,0481,Kommunal,Oxelösund,2120000324,67,"1,5","34,3","64,2",.,.,.,.,72,"2,8","73,6","23,6",.,.,.,.,2018
+Pajala Centralskola,12443258,Pajala,2521,Kommunal,Pajala,2120002718,44,.,"63,6","36,4",.,.,.,.,43,"14,0","72,1","14,0",.,.,.,.,2018
+Björndammens skola 5-9,98209377,Partille,1402,Kommunal,Partille,2120001272,26,"23,1","46,2","30,8",.,.,.,.,31,"19,4","71,0","9,7",.,.,.,.,2018
+Casa Montessori,68358072,Partille,1402,Enskild,Montessoristiftelsen i Partille,8572054610,20,"10,0","70,0","20,0",.,.,.,.,19,"5,3","68,4","26,3",.,.,.,.,2018
+Furulunds skola 6-9,89146220,Partille,1402,Kommunal,Partille,2120001272,61,"1,6","63,9","34,4",.,.,.,.,62,"4,8","69,4","25,8",.,.,.,.,2018
+Lexby skola 6-9,51610240,Partille,1402,Kommunal,Partille,2120001272,98,"1,0","62,2","36,7",.,.,.,.,92,"1,1","81,5","17,4",.,.,.,.,2018
+Ugglums skola 6-9,78100490,Partille,1402,Kommunal,Partille,2120001272,78,"16,7","55,1","28,2",.,.,.,.,78,"6,4","87,2","6,4",.,.,.,.,2018
+Vallhamra skola 7-9,92848832,Partille,1402,Kommunal,Partille,2120001272,92,"19,6","62,0","18,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Öjersjö Brunn skola 4-9,49402521,Partille,1402,Kommunal,Partille,2120001272,42,"9,5","61,9","28,6",.,.,.,.,41,"2,4","82,9","14,6",.,.,.,.,2018
+Centralskolan 7-9,45023939,Perstorp,1275,Kommunal,Perstorp,2120000910,64,"15,6","56,3","28,1",.,.,.,.,76,"14,5","81,6","3,9",.,.,.,.,2018
+Christinaskolan,94591900,Piteå,2581,Kommunal,Piteå,2120002759,80,"10,0","81,3","8,8",.,.,.,.,84,"28,6","69,0","2,4",.,.,.,.,2018
+Hortlax skola,10185533,Piteå,2581,Kommunal,Piteå,2120002759,97,"7,2","69,1","23,7",.,.,.,.,99,"25,3","69,7","5,1",.,.,.,.,2018
+Pitholmsskolan 7-9,18339846,Piteå,2581,Kommunal,Piteå,2120002759,76,"9,2","63,2","27,6",.,.,.,.,76,"17,1","67,1","15,8",.,.,.,.,2018
+Porsnässkolan,18748381,Piteå,2581,Kommunal,Piteå,2120002759,56,"5,4","76,8","17,9",.,.,.,.,54,"24,1","63,0","13,0",.,.,.,.,2018
+Sjulnässkolan,42296356,Piteå,2581,Kommunal,Piteå,2120002759,60,"6,7","48,3","45,0",.,.,.,.,60,"3,3","91,7","5,0",.,.,.,.,2018
+Solanderskolan,69993304,Piteå,2581,Kommunal,Piteå,2120002759,42,"23,8","69,0","7,1",.,.,.,.,50,"18,0","78,0","4,0",.,.,.,.,2018
+Anders-Olofskolan,78545687,Ragunda,2303,Kommunal,Ragunda,2120002452,43,"11,6","48,8","39,5",.,.,.,.,48,.,"87,5","12,5",.,.,.,.,2018
+Tundalsskolan åk 7-9,74131494,Robertsfors,2409,Kommunal,Robertsfors,2120002551,62,"16,1","67,7","16,1",.,.,.,.,46,"19,6","78,3","2,2",.,.,.,.,2018
+Kallingeskolan 7-9,53155267,Ronneby,1081,Kommunal,Ronneby,2120000837,91,"5,5","65,9","28,6",.,.,.,.,99,"9,1","74,7","16,2",.,.,.,.,2018
+Snäckebacksskolan,73745566,Ronneby,1081,Kommunal,Ronneby,2120000837,127,"6,3","59,8","33,9",.,.,.,.,153,"9,8","71,2","19,0",25,"4,0","84,0","12,0",2018
+Thoren Framtid i Ronneby,38449858,Ronneby,1081,Enskild,Thoren Framtid AB,5567497051,38,"10,5","60,5","28,9",.,.,.,.,34,"5,9","64,7","29,4",.,.,.,.,2018
+Furudals centralskola,30917018,Rättvik,2031,Kommunal,Rättvik,2120002171,18,"5,6","94,4",.,.,.,.,.,21,"4,8","66,7","28,6",.,.,.,.,2018
+Rättviksskolan,73451967,Rättvik,2031,Kommunal,Rättvik,2120002171,91,"3,3","54,9","41,8",.,.,.,.,90,"5,6","72,2","22,2",.,.,.,.,2018
+Ekebyskolan,36193586,Sala,1981,Kommunal,Sala,2120002098,85,"7,1","49,4","43,5",.,.,.,.,86,"11,6","53,5","34,9",.,.,.,.,2018
+Vallaskolan 7-9,64954528,Sala,1981,Kommunal,Sala,2120002098,93,"10,8","61,3","28,0",.,.,.,.,108,"15,7","71,3","13,0",17,"5,9","52,9","41,2",2018
+Nytorpsskolan,36262199,Salem,0128,Kommunal,Salem,2120002874,28,"14,3","57,1","28,6",.,.,.,.,29,"31,0","69,0",.,.,.,.,.,2018
+Skogsängsskolan,58385274,Salem,0128,Kommunal,Salem,2120002874,35,"11,4","62,9","25,7",.,.,.,.,45,"17,8","75,6","6,7",.,.,.,.,2018
+Säbyskolan,92406445,Salem,0128,Kommunal,Salem,2120002874,25,"12,0","68,0","20,0",.,.,.,.,36,"11,1","75,0","13,9",.,.,.,.,2018
+Söderby friskola,56858061,Salem,0128,Enskild,Söderby Friskola Ekonomisk Förening,7696016117,26,.,"88,5","11,5",.,.,.,.,26,"3,8","76,9","19,2",.,.,.,.,2018
+Björksätraskolan F-9,53803818,Sandviken,2181,Kommunal,Sandviken,2120002346,82,"4,9","65,9","29,3",.,.,.,.,100,"17,0","76,0","7,0",20,"10,0","85,0","5,0",2018
+Hedängskolan 7-9,23876630,Sandviken,2181,Kommunal,Sandviken,2120002346,54,"5,6","44,4","50,0",.,.,.,.,54,"5,6","72,2","22,2",.,.,.,.,2018
+Jernvallsskolan 7-9,30006957,Sandviken,2181,Kommunal,Sandviken,2120002346,.,.,.,.,.,.,.,.,48,"16,7","75,0","8,3",.,.,.,.,2018
+Murgårdsskolan,78907748,Sandviken,2181,Kommunal,Sandviken,2120002346,58,"5,2","43,1","51,7",.,.,.,.,77,"5,2","63,6","31,2",25,.,"56,0","44,0",2018
+Norrsätraskolan,80131736,Sandviken,2181,Kommunal,Sandviken,2120002346,25,"12,0","40,0","48,0",.,.,.,.,64,"14,1","78,1","7,8",26,"3,8","50,0","46,2",2018
+Sandvikens Montessoriskola,17233525,Sandviken,2181,Enskild,Sandvikens Friskola AB,5590474481,21,"4,8","76,2","19,0",.,.,.,.,19,"21,1","78,9",.,.,.,.,.,2018
+Ekillaskolan,14261356,Sigtuna,0191,Kommunal,Sigtuna,2120000225,103,"12,6","68,9","18,4",.,.,.,.,140,"15,0","65,7","19,3",36,"5,6","72,2","22,2",2018
+"Josefinaskolan, grundskola",55508705,Sigtuna,0191,Enskild,Stiftelsen Josefinaskolan,8148007258,18,"11,1","72,2","16,7",.,.,.,.,18,"5,6","94,4",.,.,.,.,.,2018
+"Sigtunaskolan hum. läroverket, gr",70883860,Sigtuna,0191,Enskild,Sigtuna Skolstiftelse,8148002879,50,"6,0","78,0","16,0",.,.,.,.,50,"8,0","82,0","10,0",.,.,.,.,2018
+Skolan Bergius,35008423,Sigtuna,0191,Enskild,Sigtuna Friskola AB,5567482707,.,.,.,.,.,.,.,.,56,"7,1","80,4","12,5",.,.,.,.,2018
+S:t Olofs skola,13579948,Sigtuna,0191,Kommunal,Sigtuna,2120000225,102,"2,9","46,1","51,0",.,.,.,.,117,"5,1","77,8","17,1",.,.,.,.,2018
+Valstaskolan 7-9,61234191,Sigtuna,0191,Kommunal,Sigtuna,2120000225,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,2018
+Korsavadsskolan,66350640,Simrishamn,1291,Kommunal,Simrishamn,2120000969,112,"6,3","54,5","39,3",.,.,.,.,119,"3,4","78,2","18,5",20,.,"65,0","35,0",2018
+Nils Holgerssonskolan,24445412,Simrishamn,1291,Enskild,Föräldrakooperativet Nils Holgerssonskolan Ek Fö,7696014666,23,.,"69,6","30,4",.,.,.,.,24,.,"95,8","4,2",.,.,.,.,2018
+Sophiaskolan,59958745,Simrishamn,1291,Enskild,"Stift Sophiaskolan, Österlens Waldorfskola",8388005517,22,"4,5","95,5",.,.,.,.,.,22,.,"90,9","9,1",.,.,.,.,2018
+Emanuelskolan,37998000,Sjöbo,1265,Kommunal,Sjöbo,2120001090,51,"2,0","33,3","64,7",.,.,.,.,51,"29,4","60,8","9,8",.,.,.,.,2018
+"Färsingaskolan, åk 5-9",17176734,Sjöbo,1265,Kommunal,Sjöbo,2120001090,52,"13,5","65,4","21,2",.,.,.,.,59,"11,9","78,0","10,2",.,.,.,.,2018
+Storkskolan,55675413,Sjöbo,1265,Kommunal,Sjöbo,2120001090,39,.,"74,4","25,6",.,.,.,.,39,.,"89,7","10,3",.,.,.,.,2018
+Friskolan Metis,46013569,Skara,1495,Enskild,Lärocentrum i Skara Ekonomisk Förening,7696068381,32,"12,5","46,9","40,6",.,.,.,.,34,"38,2","50,0","11,8",.,.,.,.,2018
+Viktoriaskolan 1,14808086,Skara,1495,Kommunal,Skara,2120001702,75,"12,0","50,7","37,3",.,.,.,.,84,"3,6","83,3","13,1",.,.,.,.,2018
+Viktoriaskolan 2,15007645,Skara,1495,Kommunal,Skara,2120001702,62,"6,5","59,7","33,9",.,.,.,.,67,"13,4","70,1","16,4",.,.,.,.,2018
+Björkskolan,65417636,Skellefteå,2482,Enskild,Skolföreningen Växa,8947021443,24,"12,5","25,0","62,5",.,.,.,.,24,.,"91,7","8,3",.,.,.,.,2018
+Björnåkersskolan,15720147,Skellefteå,2482,Kommunal,Skellefteå,2120002643,30,"6,7","56,7","36,7",.,.,.,.,34,.,"85,3","14,7",.,.,.,.,2018
+Bolidenskolan 7-9,69217837,Skellefteå,2482,Kommunal,Skellefteå,2120002643,22,"18,2","81,8",.,.,.,.,.,28,"21,4","67,9","10,7",.,.,.,.,2018
+Bureskolan 6-9,62125265,Skellefteå,2482,Kommunal,Skellefteå,2120002643,29,"24,1","55,2","20,7",.,.,.,.,35,"25,7","74,3",.,.,.,.,.,2018
+Byskeskolan 6-9,97534677,Skellefteå,2482,Kommunal,Skellefteå,2120002643,53,"17,0","50,9","32,1",.,.,.,.,51,"33,3","51,0","15,7",.,.,.,.,2018
+Kanalskolan,94485755,Skellefteå,2482,Kommunal,Skellefteå,2120002643,95,"23,2","54,7","22,1",.,.,.,.,94,"31,9","66,0","2,1",.,.,.,.,2018
+Kågeskolan 6-9,66412077,Skellefteå,2482,Kommunal,Skellefteå,2120002643,69,"17,4","59,4","23,2",.,.,.,.,69,"10,1","78,3","11,6",.,.,.,.,2018
+Lejonströmsskolan 7-9,56208924,Skellefteå,2482,Kommunal,Skellefteå,2120002643,84,"16,7","57,1","26,2",.,.,.,.,86,"27,9","64,0","8,1",.,.,.,.,2018
+Lövångersskolan,87194036,Skellefteå,2482,Kommunal,Skellefteå,2120002643,.,.,.,.,.,.,.,.,17,"11,8","82,4","5,9",.,.,.,.,2018
+Norrhammarskolan 6-9,40166272,Skellefteå,2482,Kommunal,Skellefteå,2120002643,100,"18,0","50,0","32,0",.,.,.,.,118,"11,0","74,6","14,4",.,.,.,.,2018
+Sörböleskolan Öst,83796196,Skellefteå,2482,Kommunal,Skellefteå,2120002643,81,"27,2","66,7","6,2",.,.,.,.,88,"33,0","64,8","2,3",.,.,.,.,2018
+Ursviksskolan 6-9,37579892,Skellefteå,2482,Kommunal,Skellefteå,2120002643,44,"2,3","77,3","20,5",.,.,.,.,50,"12,0","84,0","4,0",.,.,.,.,2018
+Örjansskolan 6-9,99512173,Skellefteå,2482,Kommunal,Skellefteå,2120002643,48,"16,7","64,6","18,8",.,.,.,.,51,"35,3","60,8","3,9",.,.,.,.,2018
+Klockarbergsskolan,62958817,Skinnskatteberg,1904,Kommunal,Skinnskatteberg,2120002023,22,"9,1","50,0","40,9",.,.,.,.,22,"9,1","90,9",.,.,.,.,.,2018
+Alléskolan,60217642,Skurup,1264,Kommunal,Skurup,2120001082,.,.,.,.,.,.,.,.,23,"4,3","82,6","13,0",.,.,.,.,2018
+Mackleanskolan,21999433,Skurup,1264,Kommunal,Skurup,2120001082,.,.,.,.,.,.,.,.,136,"2,2","72,8","25,0",.,.,.,.,2018
+Eriksdalskolan 863,97361837,Skövde,1496,Kommunal,Skövde,2120001710,78,"15,4","69,2","15,4",.,.,.,.,91,"9,9","73,6","16,5",.,.,.,.,2018
+Helenaskolan 857,33092776,Skövde,1496,Kommunal,Skövde,2120001710,87,"11,5","63,2","25,3",.,.,.,.,123,"22,8","69,9","7,3",15,"6,7","60,0","33,3",2018
+Helenaskolan 858,54790414,Skövde,1496,Kommunal,Skövde,2120001710,37,"24,3","43,2","32,4",.,.,.,.,45,"15,6","80,0","4,4",.,.,.,.,2018
+Stöpenskolan,89477299,Skövde,1496,Kommunal,Skövde,2120001710,104,"5,8","61,5","32,7",.,.,.,.,107,"12,1","74,8","13,1",.,.,.,.,2018
+Vasaskolan 859,16057411,Skövde,1496,Kommunal,Skövde,2120001710,67,"4,5","74,6","20,9",.,.,.,.,72,"15,3","84,7",.,.,.,.,.,2018
+Vasaskolan 869,83894630,Skövde,1496,Kommunal,Skövde,2120001710,95,"13,7","69,5","16,8",.,.,.,.,98,"12,2","69,4","18,4",.,.,.,.,2018
+Bergaskolan,81136807,Smedjebacken,2061,Kommunal,Smedjebacken,2120002205,58,"6,9","70,7","22,4",.,.,.,.,64,"15,6","82,8","1,6",.,.,.,.,2018
+Kyrkskolan,68814096,Smedjebacken,2061,Kommunal,Smedjebacken,2120002205,19,"10,5","36,8","52,6",.,.,.,.,22,"18,2","54,5","27,3",.,.,.,.,2018
+Junsele skola,49748045,Sollefteå,2283,Kommunal,Sollefteå,2120002437,19,.,"73,7","26,3",.,.,.,.,19,"5,3","89,5","5,3",.,.,.,.,2018
+Ramsele skola,20197159,Sollefteå,2283,Kommunal,Sollefteå,2120002437,18,.,"61,1","38,9",.,.,.,.,19,"10,5","52,6","36,8",.,.,.,.,2018
+Vallaskolan 7-9,70478601,Sollefteå,2283,Kommunal,Sollefteå,2120002437,110,"4,5","55,5","40,0",.,.,.,.,114,"24,6","65,8","9,6",19,"10,5","73,7","15,8",2018
+Edsbergsskolan,18595907,Sollentuna,0163,Kommunal,Sollentuna,2120000134,148,"16,2","35,8","48,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Futuraskolan International Hertig Karl,40467992,Sollentuna,0163,Enskild,Futuraskolan AB,5566095047,24,"16,7","62,5","20,8",.,.,.,.,26,"7,7","80,8","11,5",.,.,.,.,2018
+Futuraskolan International Rådan,47986219,Sollentuna,0163,Enskild,Futuraskolan AB,5566095047,15,"6,7","80,0","13,3",.,.,.,.,16,"12,5","81,3","6,3",.,.,.,.,2018
+Helenelundsskolan,62862066,Sollentuna,0163,Kommunal,Sollentuna,2120000134,.,.,.,.,.,.,.,.,115,"4,3","93,9","1,7",.,.,.,.,2018
+Norrvikens skola,47462120,Sollentuna,0163,Enskild,Norrviken Utbildning AB,5567289391,52,"17,3","46,2","36,5",.,.,.,.,53,"11,3","83,0","5,7",.,.,.,.,2018
+Runbacka skolor,15339442,Sollentuna,0163,Kommunal,Sollentuna,2120000134,51,"19,6","64,7","15,7",.,.,.,.,15,"20,0","60,0","20,0",.,.,.,.,2018
+Rälsen AB åk 4-9,43375546,Sollentuna,0163,Enskild,Rälsen Aktiebolag,5564524220,25,.,"88,0","12,0",.,.,.,.,28,"17,9","75,0","7,1",.,.,.,.,2018
+Sofielundsskolan,39907811,Sollentuna,0163,Kommunal,Sollentuna,2120000134,33,"9,1","60,6","30,3",.,.,.,.,55,"7,3","78,2","14,5",23,.,"52,2","47,8",2018
+Sollentuna International School,52404061,Sollentuna,0163,Kommunal,Sollentuna,2120000134,15,.,"60,0","40,0",.,.,.,.,18,.,"94,4","5,6",.,.,.,.,2018
+Sollentuna musikklasser,21871265,Sollentuna,0163,Kommunal,Sollentuna,2120000134,.,.,.,.,.,.,.,.,56,.,"82,1","17,9",.,.,.,.,2018
+Utbildning Rotebro/Gillboskola,51927021,Sollentuna,0163,Kommunal,Sollentuna,2120000134,60,"5,0","60,0","35,0",.,.,.,.,63,"9,5","85,7","4,8",.,.,.,.,2018
+Utbildning Silverdal,69195602,Sollentuna,0163,Kommunal,Sollentuna,2120000134,.,.,.,.,.,.,.,.,58,"25,9","62,1","12,1",.,.,.,.,2018
+Vibyskolan,15547680,Sollentuna,0163,Enskild,Vibyskolan Ekonomisk Förening,7696034201,26,"11,5","76,9","11,5",.,.,.,.,26,"7,7","88,5","3,8",.,.,.,.,2018
+Vittra Sollentuna,58102266,Sollentuna,0163,Enskild,Vittraskolorna AB,5564586716,17,.,"64,7","35,3",.,.,.,.,42,"4,8","90,5","4,8",19,.,"52,6","47,4",2018
+Bergshamraskolan,43133926,Solna,0184,Kommunal,Solna,2120000183,26,.,"65,4","34,6",.,.,.,.,27,.,"92,6","7,4",.,.,.,.,2018
+"Ingridskolan, grundskola",53259263,Solna,0184,Enskild,Ingridskolan AB,5566222013,16,.,"87,5","12,5",.,.,.,.,15,"6,7","86,7","6,7",.,.,.,.,2018
+Råsundaskolan,12768012,Solna,0184,Kommunal,Solna,2120000183,99,"9,1","41,4","49,5",.,.,.,.,96,"4,2","88,5","7,3",.,.,.,.,2018
+Skytteholmsskolan,75017455,Solna,0184,Kommunal,Solna,2120000183,42,"33,3","26,2","40,5",.,.,.,.,42,"38,1","47,6","14,3",.,.,.,.,2018
+Tallbackaskolan,73581523,Solna,0184,Kommunal,Solna,2120000183,39,"7,7","79,5","12,8",.,.,.,.,40,"27,5","60,0","12,5",.,.,.,.,2018
+Ulriksdalsskolan,46706680,Solna,0184,Kommunal,Solna,2120000183,37,"2,7","48,6","48,6",.,.,.,.,47,.,"83,0","17,0",.,.,.,.,2018
+Vittra Frösunda,48760074,Solna,0184,Enskild,Vittraskolorna AB,5564586716,30,"16,7","60,0","23,3",.,.,.,.,32,"15,6","59,4","25,0",.,.,.,.,2018
+Ängkärrskolan i Solna,98515782,Solna,0184,Enskild,Stiftelsen Nya Ängkärrsskolan,8020174069,27,"22,2","63,0","14,8",.,.,.,.,27,"18,5","51,9","29,6",.,.,.,.,2018
+Sotenässkolan,78294346,Sotenäs,1427,Kommunal,Sotenäs,2120001322,64,"29,7","62,5","7,8",.,.,.,.,67,"4,5","89,6","6,0",.,.,.,.,2018
+Baldersskolan,86546038,Staffanstorp,1230,Kommunal,Staffanstorp,2120001017,58,"24,1","56,9","19,0",.,.,.,.,61,"23,0","60,7","16,4",.,.,.,.,2018
+Hagalidskolan,28784410,Staffanstorp,1230,Kommunal,Staffanstorp,2120001017,130,"7,7","68,5","23,8",.,.,.,.,131,"29,8","64,9","5,3",.,.,.,.,2018
+Hjärupslundsskolan,46191968,Staffanstorp,1230,Kommunal,Staffanstorp,2120001017,92,"6,5","60,9","32,6",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Kristinedalskolan 7-9,18275028,Stenungsund,1415,Kommunal,Stenungsund,2120001298,58,"25,9","56,9","17,2",.,.,.,.,61,"19,7","75,4","4,9",.,.,.,.,2018
+Stenungskolan,30707344,Stenungsund,1415,Kommunal,Stenungsund,2120001298,83,"16,9","53,0","30,1",.,.,.,.,82,"35,4","51,2","13,4",.,.,.,.,2018
+Stenungsunds Montessoriskola,38786895,Stenungsund,1415,Enskild,Stenungsunds Montessori Ekonomiska Förening,7696038103,.,.,.,.,.,.,.,.,18,"5,6","88,9","5,6",.,.,.,.,2018
+Stora Högaskolan 7-9,21617136,Stenungsund,1415,Kommunal,Stenungsund,2120001298,118,"6,8","61,9","31,4",.,.,.,.,115,"13,0","72,2","14,8",.,.,.,.,2018
+Adolf Fredriks musikklasser,99648792,Stockholm,0180,Kommunal,Stockholm,2120000142,160,"5,0","65,0","30,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Akalla grundskola F-9,37796564,Stockholm,0180,Kommunal,Stockholm,2120000142,19,"10,5","78,9","10,5",.,.,.,.,36,"27,8","63,9","8,3",.,.,.,.,2018
+Al-Azharskolan,90711097,Stockholm,0180,Enskild,Al-Azhar Stiftelsen,8024044888,.,.,.,.,.,.,.,.,66,"7,6","83,3","9,1",53,"18,9","71,7","9,4",2018
+Almaskolan,14945659,Stockholm,0180,Enskild,Almaskolan AB,5569224610,46,"28,3","54,3","17,4",.,.,.,.,47,"25,5","70,2","4,3",.,.,.,.,2018
+Alviksskolan,72627865,Stockholm,0180,Kommunal,Stockholm,2120000142,77,"22,1","59,7","18,2",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Alzahraa Akademi,77656740,Stockholm,0180,Enskild,Al-Zahraa Akademi AB,5565536678,.,.,.,.,.,.,.,.,17,"23,5","64,7","11,8",.,.,.,.,2018
+Aspuddens skola,72672270,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,2018
+Bagarmossens skola,13679897,Stockholm,0180,Kommunal,Stockholm,2120000142,43,"9,3","83,7","7,0",.,.,.,.,67,"13,4","86,6",.,24,.,"75,0","25,0",2018
+Björkhagens skola,43088454,Stockholm,0180,Kommunal,Stockholm,2120000142,64,"12,5","54,7","32,8",.,.,.,.,71,"21,1","62,0","16,9",.,.,.,.,2018
+Blommensbergsskolan,82140090,Stockholm,0180,Kommunal,Stockholm,2120000142,102,"2,9","47,1","50,0",.,.,.,.,56,"8,9","87,5","3,6",.,.,.,.,2018
+Bredängsskolan,14121892,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,42,"2,4","78,6","19,0",30,"6,7","46,7","46,7",2018
+Bäckahagens skola,20683111,Stockholm,0180,Kommunal,Stockholm,2120000142,43,"2,3","76,7","20,9",.,.,.,.,71,"5,6","74,6","19,7",28,"7,1","85,7","7,1",2018
+Cordoba International School,43134105,Stockholm,0180,Enskild,ALM Education AB,5566344270,.,.,.,.,.,.,.,.,16,"6,3","25,0","68,8",.,.,.,.,2018
+Djurgårdens Waldorfskola,84585645,Stockholm,0180,Enskild,Djurgårdens Waldorfskoleförening,8024222641,24,"8,3","70,8","20,8",.,.,.,.,24,.,"87,5","12,5",.,.,.,.,2018
+Ellen Key skolan,16394249,Stockholm,0180,Enskild,Stiftelsen Ellen Key Skolan,8152007970,22,.,"100,0",.,.,.,.,.,24,.,"100,0",.,.,.,.,.,2018
+Enbacksskolan,43632318,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,35,"5,7","71,4","22,9",21,"19,0","66,7","14,3",2018
+Engelbrektsskolan,87521048,Stockholm,0180,Kommunal,Stockholm,2120000142,133,"9,8","63,2","27,1",.,.,.,.,131,"13,7","77,1","9,2",.,.,.,.,2018
+Engelska Skolan Norr,29725531,Stockholm,0180,Enskild,Engelska Skolan Norr AB,5565699302,39,"5,1","64,1","30,8",.,.,.,.,48,"2,1","89,6","8,3",.,.,.,.,2018
+Enskede skola,72248694,Stockholm,0180,Kommunal,Stockholm,2120000142,105,"16,2","61,9","21,9",.,.,.,.,103,"25,2","62,1","12,6",.,.,.,.,2018
+"Enskilda gymnasiet, gr",92750123,Stockholm,0180,Enskild,Enskilda Gymnasiet,8020126531,87,"3,4","59,8","36,8",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Eriksdalsskolan,59249600,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,146,"24,7","67,8","7,5",.,.,.,.,2018
+Estniska Skolan i Stockholm,34540901,Stockholm,0180,Enskild,Estniska Skolan i Stockholm,8020058908,.,.,.,.,.,.,.,.,20,"25,0","65,0","10,0",.,.,.,.,2018
+Europaskolan Södermalm,79969356,Stockholm,0180,Enskild,AB Parts & Paomees,5567025696,44,"11,4","52,3","36,4",.,.,.,.,43,"7,0","88,4","4,7",.,.,.,.,2018
+Farsta grundskola,38758770,Stockholm,0180,Kommunal,Stockholm,2120000142,23,"21,7","43,5","34,8",.,.,.,.,47,"10,6","78,7","10,6",29,.,"75,9","24,1",2018
+Framstegsskolan i Stockholm,72684556,Stockholm,0180,Enskild,Stiftelsen Islamiska Skolan,8020161926,.,.,.,.,.,.,.,.,15,.,"100,0",.,15,"6,7","86,7","6,7",2018
+Franska Skolan/Ecole francaise,42328518,Stockholm,0180,Enskild,Stiftelsen Franska Skolan,8020061530,.,.,.,.,.,.,.,.,86,"14,0","77,9","8,1",.,.,.,.,2018
+Fredrikshovs slotts skola,64065082,Stockholm,0180,Enskild,Stiftelsen Carpe Diem,8020178060,30,"13,3","60,0","26,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Fruängens skola,19353396,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,27,"14,8","85,2",.,.,.,.,.,2018
+Fryshuset Grundskola Västra,69004747,Stockholm,0180,Enskild,Stiftelsen Fryshuset,8020111582,.,.,.,.,.,.,.,.,17,"41,2","58,8",.,.,.,.,.,2018
+"Fryshusets grundskola, Sthlm",19657993,Stockholm,0180,Enskild,Stiftelsen Fryshuset,8020111582,71,"12,7","56,3","31,0",.,.,.,.,67,"11,9","74,6","13,4",.,.,.,.,2018
+Futuraskolan International Stockholm,65487837,Stockholm,0180,Enskild,Futuraskolan AB,5566095047,.,.,.,.,.,.,.,.,19,"31,6","68,4",.,.,.,.,.,2018
+Grimstaskolan,51341279,Stockholm,0180,Kommunal,Stockholm,2120000142,25,.,"64,0","36,0",.,.,.,.,.,.,.,.,17,"23,5","64,7","11,8",2018
+Grundskolan Metapontum,90850620,Stockholm,0180,Enskild,Metapontum AB,5566641691,27,.,"63,0","37,0",.,.,.,.,34,"35,3","61,8","2,9",.,.,.,.,2018
+Gubbängsskolan,93412255,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,40,"22,5","62,5","15,0",.,.,.,.,2018
+Gärdesskolan,41176931,Stockholm,0180,Kommunal,Stockholm,2120000142,89,"9,0","73,0","18,0",.,.,.,.,97,"4,1","90,7","5,2",.,.,.,.,2018
+Hagsätraskolan,82110758,Stockholm,0180,Kommunal,Stockholm,2120000142,34,"11,8","41,2","47,1",.,.,.,.,46,"19,6","69,6","10,9",16,"6,3","68,8","25,0",2018
+Hammarbyskolan,64167206,Stockholm,0180,Kommunal,Stockholm,2120000142,37,.,"45,9","54,1",.,.,.,.,40,.,"82,5","17,5",.,.,.,.,2018
+Hjulsta grundskola F-9,69266159,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,38,"10,5","71,1","18,4",36,"2,8","69,4","27,8",2018
+Husbygårdsskolan F-9,42149666,Stockholm,0180,Kommunal,Stockholm,2120000142,25,"16,0","76,0","8,0",.,.,.,.,35,"14,3","80,0","5,7",15,"13,3","73,3","13,3",2018
+Hässelby Villastads skola,86597125,Stockholm,0180,Kommunal,Stockholm,2120000142,103,"6,8","56,3","36,9",.,.,.,.,104,"1,9","62,5","35,6",.,.,.,.,2018
+Hässelbygårdsskolan,87838841,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,82,"6,1","81,7","12,2",.,.,.,.,2018
+Högalidsskolan,24716970,Stockholm,0180,Kommunal,Stockholm,2120000142,97,"4,1","46,4","49,5",.,.,.,.,107,"5,6","84,1","10,3",.,.,.,.,2018
+Hökarängsskolan,57184925,Stockholm,0180,Kommunal,Stockholm,2120000142,52,"5,8","63,5","30,8",.,.,.,.,60,"8,3","80,0","11,7",.,.,.,.,2018
+Internationella Engelska Skolan Bromma,90732940,Stockholm,0180,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,.,.,.,.,.,.,.,.,148,"18,2","79,1","2,7",.,.,.,.,2018
+Internationella Engelska Skolan Enskede,38935587,Stockholm,0180,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,134,"27,6","43,3","29,1",.,.,.,.,151,"15,9","76,2","7,9",.,.,.,.,2018
+Internationella Engelska Skolan Kista,82982309,Stockholm,0180,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,29,"17,2","37,9","44,8",.,.,.,.,93,"7,5","64,5","28,0",69,"7,2","27,5","65,2",2018
+Internationella Engelska Skolan Liljeholmen,72624886,Stockholm,0180,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,.,.,.,.,.,.,.,.,143,"8,4","82,5","9,1",.,.,.,.,2018
+Internationella Engelska Skolan Skärholmen,72066571,Stockholm,0180,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,46,"21,7","47,8","30,4",.,.,.,.,98,"5,1","91,8","3,1",23,"8,7","52,2","39,1",2018
+JENSEN grundskola Långholmen,57317316,Stockholm,0180,Enskild,Jensen Education College AB,5566358759,58,"17,2","63,8","19,0",.,.,.,.,59,"23,7","71,2","5,1",.,.,.,.,2018
+Järvaskolan,13582062,Stockholm,0180,Enskild,Järvaskolan AB,5569572315,44,"15,9","56,8","27,3",.,.,.,.,44,"15,9","72,7","11,4",.,.,.,.,2018
+Katarina Norra skola,23617768,Stockholm,0180,Kommunal,Stockholm,2120000142,69,"17,4","66,7","15,9",.,.,.,.,70,"27,1","68,6","4,3",.,.,.,.,2018
+Kista grundskola,22513261,Stockholm,0180,Kommunal,Stockholm,2120000142,22,"13,6","45,5","40,9",.,.,.,.,80,"11,3","66,3","22,5",55,"9,1","56,4","34,5",2018
+Kista International School,37556682,Stockholm,0180,Enskild,Al-Kowneyn Utbildning Centrum,8024097555,.,.,.,.,.,.,.,.,29,"58,6","41,4",.,26,.,"69,2","30,8",2018
+"Kristofferskolan, gr",98760751,Stockholm,0180,Enskild,Stiftelsen Kristofferskolan,8020018720,52,"11,5","65,4","23,1",.,.,.,.,55,"9,1","87,3","3,6",.,.,.,.,2018
+Kulturama gr. Hammarby Sjöstad,23066257,Stockholm,0180,Enskild,Medborgarskolan Stockholmsregionen,8020060524,85,"5,9","74,1","20,0",.,.,.,.,112,"4,5","75,0","20,5",.,.,.,.,2018
+Kulturskolan Raketen,24172067,Stockholm,0180,Enskild,Kulturskolan Raketen AB,5565484796,24,"4,2","87,5","8,3",.,.,.,.,24,"4,2","91,7","4,2",.,.,.,.,2018
+Kungsholmens grundskola,29410344,Stockholm,0180,Kommunal,Stockholm,2120000142,94,"9,6","63,8","26,6",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Kunskapsskolan Enskede,16426165,Stockholm,0180,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,114,"17,5","50,9","31,6",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Kunskapsskolan Fruängen,63954028,Stockholm,0180,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,86,"4,7","81,4","14,0",.,.,.,.,96,"6,3","89,6","4,2",.,.,.,.,2018
+Kunskapsskolan Spånga,46796995,Stockholm,0180,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,95,"14,7","58,9","26,3",.,.,.,.,92,"18,5","73,9","7,6",.,.,.,.,2018
+Kunskapsskolan Tyresö,81266343,Stockholm,0180,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,115,.,"75,7","24,3",.,.,.,.,109,"6,4","78,9","14,7",.,.,.,.,2018
+Lillholmsskolan,46581319,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,60,"21,7","70,0","8,3",51,"5,9","62,7","31,4",2018
+Lunaskolan Bromma,72509254,Stockholm,0180,Enskild,Utvecklingspedagogik Sverige Aktiebolag,5564715729,15,"13,3","60,0","26,7",.,.,.,.,16,"6,3","75,0","18,8",.,.,.,.,2018
+Lunaskolan Södra,67731691,Stockholm,0180,Enskild,Utvecklingspedagogik Sverige Aktiebolag,5564715729,16,.,"68,8","31,3",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Maria Elementarskola,73893187,Stockholm,0180,Enskild,Stiftelsen Maria Elementarskola,8020060458,28,"3,6","96,4",.,.,.,.,.,29,"27,6","62,1","10,3",.,.,.,.,2018
+Mariaskolan,69895255,Stockholm,0180,Kommunal,Stockholm,2120000142,85,"14,1","67,1","18,8",.,.,.,.,88,"37,5","59,1","3,4",.,.,.,.,2018
+Martinskolan Söders waldorfsk,82854505,Stockholm,0180,Enskild,Stiftelsen Martinskolan Söders Waldorfskola,8020072644,25,"36,0","56,0","8,0",.,.,.,.,25,.,"92,0","8,0",.,.,.,.,2018
+Matteusskolan,16348406,Stockholm,0180,Kommunal,Stockholm,2120000142,45,"4,4","66,7","28,9",.,.,.,.,38,.,"86,8","13,2",.,.,.,.,2018
+Musikskolan Lilla Akademien,36066067,Stockholm,0180,Enskild,Musikskolan Lilla Akademien AB,5565510756,28,"3,6","89,3","7,1",.,.,.,.,26,"7,7","84,6","7,7",.,.,.,.,2018
+Mälarhöjdens skola,46165232,Stockholm,0180,Kommunal,Stockholm,2120000142,112,"3,6","69,6","26,8",.,.,.,.,120,"2,5","76,7","20,8",.,.,.,.,2018
+Pops Academy,11018018,Stockholm,0180,Enskild,Johan Sjölin Education AB,5569583197,22,"4,5","72,7","22,7",.,.,.,.,25,.,"92,0","8,0",.,.,.,.,2018
+Primaskolan Farsta,26568390,Stockholm,0180,Enskild,Primaskolan i Sverige AB,5565570958,21,"9,5","85,7","4,8",.,.,.,.,25,"8,0","84,0","8,0",.,.,.,.,2018
+Profilskolan,10360193,Stockholm,0180,Enskild,Profilskolan AB,5569247264,16,"12,5","68,8","18,8",.,.,.,.,17,"5,9","94,1",.,.,.,.,.,2018
+Rinkebyskolan,37416253,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,57,"12,3","42,1","45,6",56,"5,4","28,6","66,1",2018
+Rålambshovsskolan,61686233,Stockholm,0180,Kommunal,Stockholm,2120000142,133,"9,0","64,7","26,3",.,.,.,.,136,"25,0","71,3","3,7",.,.,.,.,2018
+Rödabergsskolan,97686250,Stockholm,0180,Kommunal,Stockholm,2120000142,47,"4,3","72,3","23,4",.,.,.,.,65,"15,4","83,1","1,5",.,.,.,.,2018
+Sjöstadsskolan,15331669,Stockholm,0180,Kommunal,Stockholm,2120000142,96,"6,3","80,2","13,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Sjöängsskolan,13124830,Stockholm,0180,Kommunal,Stockholm,2120000142,56,"1,8","67,9","30,4",.,.,.,.,73,"31,5","57,5","11,0",.,.,.,.,2018
+Skarpatorpsskolan,82075850,Stockholm,0180,Kommunal,Stockholm,2120000142,23,"8,7","43,5","47,8",.,.,.,.,27,.,"81,5","18,5",.,.,.,.,2018
+Skarpnäcks skola,53075005,Stockholm,0180,Kommunal,Stockholm,2120000142,59,"11,9","62,7","25,4",.,.,.,.,64,"26,6","67,2","6,3",.,.,.,.,2018
+Skolgrunden,23414344,Stockholm,0180,Enskild,Skolgrunden Aktiebolag,5565588166,15,"20,0","53,3","26,7",.,.,.,.,18,"16,7","83,3",.,.,.,.,.,2018
+Slättgårdsskolan,59468219,Stockholm,0180,Kommunal,Stockholm,2120000142,34,"14,7","50,0","35,3",.,.,.,.,35,"5,7","85,7","8,6",.,.,.,.,2018
+Smedshagsskolan,50060022,Stockholm,0180,Kommunal,Stockholm,2120000142,17,"5,9","52,9","41,2",.,.,.,.,29,"17,2","82,8",.,15,"6,7","86,7","6,7",2018
+Snitz Grundskola Odenplan,57510246,Stockholm,0180,Enskild,PPS Power Planning System Aktiebolag,5565042255,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,2018
+Sofia skola,45436515,Stockholm,0180,Kommunal,Stockholm,2120000142,71,"4,2","42,3","53,5",.,.,.,.,82,"1,2","79,3","19,5",.,.,.,.,2018
+Spånga grundskola,17640364,Stockholm,0180,Kommunal,Stockholm,2120000142,137,"10,2","48,9","40,9",.,.,.,.,150,"18,0","68,7","13,3",.,.,.,.,2018
+S:t Eriks Katolska Skola,94943347,Stockholm,0180,Enskild,Stiftelsen s:t Eriks Katolska Skola,8572015595,.,.,.,.,.,.,.,.,22,"18,2","68,2","13,6",.,.,.,.,2018
+Sthlms Int. Montessoriskola,45553352,Stockholm,0180,Enskild,International Montessori School Sweden AB,5567640205,53,"15,1","56,6","28,3",.,.,.,.,53,"13,2","84,9","1,9",.,.,.,.,2018
+Stockholm International Academy Hägersten,11442396,Stockholm,0180,Enskild,Mubarak Utbildning AB,5568571748,.,.,.,.,.,.,.,.,20,.,"65,0","35,0",.,.,.,.,2018
+Sturebyskolan,91816093,Stockholm,0180,Kommunal,Stockholm,2120000142,100,.,"68,0","32,0",.,.,.,.,112,"2,7","88,4","8,9",.,.,.,.,2018
+Sundbyskolan,44046131,Stockholm,0180,Kommunal,Stockholm,2120000142,71,"5,6","70,4","23,9",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Sverigefinska skolan Sthlm,78508835,Stockholm,0180,Enskild,Sverigefinska skolan i Stockholm AB,5564823937,18,"5,6","50,0","44,4",.,.,.,.,27,"11,1","74,1","14,8",.,.,.,.,2018
+Sätraskolan,21724208,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,47,"4,3","74,5","21,3",36,"8,3","75,0","16,7",2018
+Södermalmskyrkans Kristna sk.,14472068,Stockholm,0180,Enskild,Södermalmskyrkan,8020033687,27,"7,4","88,9","3,7",.,.,.,.,29,.,"93,1","6,9",.,.,.,.,2018
+Södermalmsskolan,75614609,Stockholm,0180,Kommunal,Stockholm,2120000142,73,"16,4","65,8","17,8",.,.,.,.,74,"25,7","70,3","4,1",.,.,.,.,2018
+Södra Ängby skola,88795871,Stockholm,0180,Kommunal,Stockholm,2120000142,112,"10,7","77,7","11,6",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Thea Privata Grundskola Bromma,87999453,Stockholm,0180,Enskild,Theducation AB,5565697082,20,"5,0","75,0","20,0",.,.,.,.,20,"10,0","70,0","20,0",.,.,.,.,2018
+Thea Privata Grundskola Södermalm,53398338,Stockholm,0180,Enskild,Theducation AB,5565697082,.,.,.,.,.,.,.,.,21,"19,0","81,0",.,.,.,.,.,2018
+Trollbodaskolan,89605548,Stockholm,0180,Kommunal,Stockholm,2120000142,83,"18,1","51,8","30,1",.,.,.,.,63,"19,0","65,1","15,9",.,.,.,.,2018
+Vasa International School of Stockholm,52965560,Stockholm,0180,Enskild,AB Parts & Paomees,5567025696,19,.,"100,0",.,.,.,.,.,19,.,"89,5","10,5",.,.,.,.,2018
+Vasa Real,52863414,Stockholm,0180,Kommunal,Stockholm,2120000142,151,"2,0","55,0","43,0",.,.,.,.,159,"6,9","78,6","14,5",.,.,.,.,2018
+Viktor Rydbergs skola Vasastan,86758230,Stockholm,0180,Enskild,Stiftelsen Viktor Rydbergs Skola,8120005650,.,.,.,.,.,.,.,.,131,"9,2","70,2","20,6",.,.,.,.,2018
+Vinsta grundskola västra,97400863,Stockholm,0180,Kommunal,Stockholm,2120000142,66,"12,1","65,2","22,7",.,.,.,.,82,.,"82,9","17,1",.,.,.,.,2018
+Vittra Sjöstaden,28778917,Stockholm,0180,Enskild,Vittraskolorna AB,5564586716,.,.,.,.,.,.,.,.,20,.,"85,0","15,0",.,.,.,.,2018
+Vittra Södermalm,59900714,Stockholm,0180,Enskild,Vittraskolorna AB,5564586716,24,"12,5","45,8","41,7",.,.,.,.,27,"11,1","55,6","33,3",.,.,.,.,2018
+Vittra Telefonplan,67662754,Stockholm,0180,Enskild,Vittraskolorna AB,5564586716,19,"10,5","63,2","26,3",.,.,.,.,24,.,"79,2","20,8",.,.,.,.,2018
+Vällingbyskolan,36031993,Stockholm,0180,Kommunal,Stockholm,2120000142,54,"1,9","72,2","25,9",.,.,.,.,65,"10,8","83,1","6,2",.,.,.,.,2018
+Västbergaskolan,64736967,Stockholm,0180,Enskild,Västbergaskolan AB,5565977609,64,"14,1","62,5","23,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Årstaskolan,48328583,Stockholm,0180,Kommunal,Stockholm,2120000142,58,"6,9","50,0","43,1",.,.,.,.,70,"2,9","71,4","25,7",.,.,.,.,2018
+Åsö grundskola,94864296,Stockholm,0180,Kommunal,Stockholm,2120000142,159,"15,1","59,7","25,2",.,.,.,.,162,"16,0","76,5","7,4",.,.,.,.,2018
+Äppelviksskolan,15594566,Stockholm,0180,Kommunal,Stockholm,2120000142,.,.,.,.,.,.,.,.,49,"6,1","85,7","8,2",.,.,.,.,2018
+Örbyskolan,39171821,Stockholm,0180,Kommunal,Stockholm,2120000142,39,"12,8","48,7","38,5",.,.,.,.,41,"12,2","78,0","9,8",.,.,.,.,2018
+Lundsbergs grundskola,26377128,Storfors,1760,Enskild,Stiftelsen Lundsbergs Skola,8740019362,18,"5,6","61,1","33,3",.,.,.,.,19,"15,8","84,2",.,.,.,.,.,2018
+Vargbroskolan,24306424,Storfors,1760,Kommunal,Storfors,2120001785,41,.,"39,0","61,0",.,.,.,.,48,.,"70,8","29,2",.,.,.,.,2018
+Röbroskolan,87510386,Storuman,2421,Kommunal,Storuman,2120002577,32,"3,1","59,4","37,5",.,.,.,.,36,.,"80,6","19,4",.,.,.,.,2018
+Europaskolan Rogge,31980822,Strängnäs,0486,Enskild,Europaskolan Grundskola AB,5567480511,63,"30,2","44,4","25,4",.,.,.,.,60,"35,0","63,3","1,7",.,.,.,.,2018
+Friskolan Asken,63423770,Strängnäs,0486,Enskild,Friskolan Asken Aktiebolag,5567481071,46,"6,5","60,9","32,6",.,.,.,.,46,"15,2","54,3","30,4",.,.,.,.,2018
+Gripsholmsskolan,65507647,Strängnäs,0486,Enskild,Gripsholmsskolan AB,5567335616,22,"9,1","45,5","45,5",.,.,.,.,22,"13,6","77,3","9,1",.,.,.,.,2018
+Karinslundsskolan,14184478,Strängnäs,0486,Kommunal,Strängnäs,2120000365,30,.,"46,7","53,3",.,.,.,.,31,"12,9","38,7","48,4",.,.,.,.,2018
+Paulinska skolan,21086074,Strängnäs,0486,Kommunal,Strängnäs,2120000365,48,"20,8","58,3","20,8",.,.,.,.,61,.,"82,0","18,0",.,.,.,.,2018
+Stallarholmsskolan,42957784,Strängnäs,0486,Kommunal,Strängnäs,2120000365,37,"27,0","37,8","35,1",.,.,.,.,36,"27,8","44,4","27,8",.,.,.,.,2018
+Strängnäs Montessoriskola,30181143,Strängnäs,0486,Enskild,Strängnäs Montessoriskola Ekonomisk Förening,7696027619,36,.,"69,4","30,6",.,.,.,.,36,"38,9","58,3","2,8",.,.,.,.,2018
+Åkerskolan,74265915,Strängnäs,0486,Kommunal,Strängnäs,2120000365,30,"3,3","63,3","33,3",.,.,.,.,30,.,"90,0","10,0",.,.,.,.,2018
+Strömstiernaskolan,47464666,Strömstad,1486,Kommunal,Strömstad,2120001405,96,"11,5","58,3","30,2",.,.,.,.,124,"0,8","94,4","4,8",29,"6,9","62,1","31,0",2018
+Grevåkerskolan Hammerdal,54719506,Strömsund,2313,Kommunal,Strömsund,2120002486,23,"17,4","56,5","26,1",.,.,.,.,25,"8,0","76,0","16,0",.,.,.,.,2018
+Vattudalsskolan,71396086,Strömsund,2313,Kommunal,Strömsund,2120002486,46,"10,9","45,7","43,5",.,.,.,.,47,"2,1","80,9","17,0",.,.,.,.,2018
+Grönkullaskolan,93968806,Sundbyberg,0183,Kommunal,Sundbyberg,2120000175,28,"25,0","39,3","35,7",.,.,.,.,.,.,.,.,35,"2,9","62,9","34,3",2018
+Kulturama Grundsk. Sundbyberg,37112288,Sundbyberg,0183,Enskild,Medborgarskolan Stockholmsregionen,8020060524,62,"14,5","45,2","40,3",.,.,.,.,57,"5,3","78,9","15,8",.,.,.,.,2018
+Vittra Brotorp,43138370,Sundbyberg,0183,Enskild,Vittraskolorna AB,5564586716,.,.,.,.,.,.,.,.,24,.,"70,8","29,2",.,.,.,.,2018
+Älvkvarnsskolan,67788311,Sundbyberg,0183,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,45,"28,9","46,7","24,4",.,.,.,.,49,"18,4","65,3","16,3",.,.,.,.,2018
+Ängskolan 7-9,65775192,Sundbyberg,0183,Kommunal,Sundbyberg,2120000175,.,.,.,.,.,.,.,.,127,"24,4","66,1","9,4",.,.,.,.,2018
+Bergsåkers skola,90847895,Sundsvall,2281,Kommunal,Sundsvall,2120002411,128,"4,7","66,4","28,9",.,.,.,.,130,"23,1","72,3","4,6",.,.,.,.,2018
+Hagaskolan,55343483,Sundsvall,2281,Kommunal,Sundsvall,2120002411,77,"28,6","50,6","20,8",.,.,.,.,87,"26,4","63,2","10,3",16,"18,8","56,3","25,0",2018
+Heliås Lärcentrum AB,21250086,Sundsvall,2281,Enskild,Heliås Lärcentrum AB,5567314595,46,.,"65,2","34,8",.,.,.,.,44,"4,5","63,6","31,8",.,.,.,.,2018
+Höglundaskolan,51877656,Sundsvall,2281,Kommunal,Sundsvall,2120002411,94,"3,2","63,8","33,0",.,.,.,.,118,"5,1","73,7","21,2",33,"3,0","69,7","27,3",2018
+Internationella Engelska Skolan Sundsvall,54802332,Sundsvall,2281,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,116,"15,5","67,2","17,2",.,.,.,.,122,"23,8","73,8","2,5",.,.,.,.,2018
+Kunskapsakademin,57722644,Sundsvall,2281,Enskild,Utbildningsföretaget Scandiacus AB,5567834444,39,"10,3","53,8","35,9",.,.,.,.,41,.,"82,9","17,1",.,.,.,.,2018
+Lidens skola,64029211,Sundsvall,2281,Kommunal,Sundsvall,2120002411,22,.,"86,4","13,6",.,.,.,.,23,"21,7","52,2","26,1",.,.,.,.,2018
+Matfors skola,37299127,Sundsvall,2281,Kommunal,Sundsvall,2120002411,87,"3,4","78,2","18,4",.,.,.,.,87,"12,6","82,8","4,6",.,.,.,.,2018
+Mimerskolan,10023937,Sundsvall,2281,Enskild,Föreningen Mimers Brunn,8892027965,59,"6,8","67,8","25,4",.,.,.,.,56,"12,5","78,6","8,9",.,.,.,.,2018
+Nivrenaskolan,55740795,Sundsvall,2281,Kommunal,Sundsvall,2120002411,99,"7,1","74,7","18,2",.,.,.,.,108,"13,0","79,6","7,4",.,.,.,.,2018
+Njurunda Friskola,65125762,Sundsvall,2281,Enskild,Njurunda friskola AB,5568542210,18,"11,1","72,2","16,7",.,.,.,.,16,"37,5","50,0","12,5",.,.,.,.,2018
+"Prolympia, Sundsvall",18952472,Sundsvall,2281,Enskild,Ulno AB,5566577705,46,.,"30,4","69,6",.,.,.,.,43,"7,0","83,7","9,3",.,.,.,.,2018
+Stöde skola,11181258,Sundsvall,2281,Kommunal,Sundsvall,2120002411,27,"18,5","51,9","29,6",.,.,.,.,28,"14,3","50,0","35,7",.,.,.,.,2018
+Sundsvalls Montessoriskola,78495763,Sundsvall,2281,Kommunal,Sundsvall,2120002411,27,"11,1","70,4","18,5",.,.,.,.,27,.,"96,3","3,7",.,.,.,.,2018
+Vibackeskolan,10170655,Sundsvall,2281,Kommunal,Sundsvall,2120002411,95,"8,4","77,9","13,7",.,.,.,.,98,"24,5","73,5","2,0",.,.,.,.,2018
+Fryxellska skolan,25636648,Sunne,1766,Kommunal,Sunne,2120001843,93,"7,5","47,3","45,2",.,.,.,.,96,"18,8","69,8","11,5",.,.,.,.,2018
+Hammarskolan,74582871,Surahammar,1907,Kommunal,Surahammar,2120002031,90,"7,8","62,2","30,0",.,.,.,.,101,"12,9","71,3","15,8",.,.,.,.,2018
+Linåkerskolan,44263951,Svalöv,1214,Kommunal,Svalöv,2120000993,108,"12,0","54,6","33,3",.,.,.,.,118,"15,3","67,8","16,9",.,.,.,.,2018
+Svalövs Montessoriskola,58981647,Svalöv,1214,Enskild,Svalövs Montessori Ekonomisk förening,7696009328,.,.,.,.,.,.,.,.,15,.,"100,0",.,.,.,.,.,2018
+Klågerupskolan 6-9,51392146,Svedala,1263,Kommunal,Svedala,2120001074,.,.,.,.,.,.,.,.,44,"18,2","77,3","4,5",.,.,.,.,2018
+Naverlönnskolan 1-2,65569784,Svedala,1263,Kommunal,Svedala,2120001074,103,"4,9","59,2","35,9",.,.,.,.,108,"7,4","75,9","16,7",.,.,.,.,2018
+Naverlönnskolan 3-5,40067679,Svedala,1263,Kommunal,Svedala,2120001074,41,.,"56,1","43,9",.,.,.,.,45,"8,9","73,3","17,8",.,.,.,.,2018
+Spångholmsskolan,83516023,Svedala,1263,Kommunal,Svedala,2120001074,38,"15,8","65,8","18,4",.,.,.,.,40,"10,0","82,5","7,5",.,.,.,.,2018
+"Mogaskolan, 7-9",35242545,Svenljunga,1465,Kommunal,Svenljunga,2120001512,103,"9,7","64,1","26,2",.,.,.,.,111,"11,7","76,6","11,7",17,"11,8","70,6","17,6",2018
+Tegnérskolan,40517936,Säffle,1785,Kommunal,Säffle,2120001900,155,"6,5","74,8","18,7",.,.,.,.,165,"5,5","83,6","10,9",18,.,"55,6","44,4",2018
+Klockarskolan,60111640,Säter,2082,Kommunal,Säter,2120002247,71,"18,3","66,2","15,5",.,.,.,.,69,"10,1","79,7","10,1",.,.,.,.,2018
+Hofgårdsskolan,59983229,Sävsjö,0684,Kommunal,Sävsjö,2120000563,80,"13,8","66,3","20,0",.,.,.,.,95,"4,2","83,2","12,6",16,"6,3","81,3","12,5",2018
+Rörviks skola,74170440,Sävsjö,0684,Kommunal,Sävsjö,2120000563,34,"5,9","55,9","38,2",.,.,.,.,35,"2,9","85,7","11,4",.,.,.,.,2018
+Sävsjö kristna skola,28504550,Sävsjö,0684,Enskild,Stiftelsen Guds Kraft,8275007857,16,.,"62,5","37,5",.,.,.,.,18,.,"94,4","5,6",.,.,.,.,2018
+Bergvikskolan,32721673,Söderhamn,2182,Kommunal,Söderhamn,2120002353,46,"10,9","67,4","21,7",.,.,.,.,54,"13,0","74,1","13,0",.,.,.,.,2018
+Norrtullskolan C,35139330,Söderhamn,2182,Kommunal,Söderhamn,2120002353,85,"17,6","54,1","28,2",.,.,.,.,108,"11,1","73,1","15,7",23,"17,4","73,9","8,7",2018
+Stenbergaskolan,26147333,Söderhamn,2182,Kommunal,Söderhamn,2120002353,39,"2,6","59,0","38,5",.,.,.,.,41,"12,2","58,5","29,3",.,.,.,.,2018
+Vågbroskolan B,42162288,Söderhamn,2182,Kommunal,Söderhamn,2120002353,35,"8,6","37,1","54,3",.,.,.,.,41,"2,4","58,5","39,0",.,.,.,.,2018
+Ramunderskolan,99361107,Söderköping,0582,Kommunal,Söderköping,2120000464,159,"7,5","62,9","29,6",.,.,.,.,162,"17,9","67,3","14,8",.,.,.,.,2018
+Söderköpings Waldorfskola,70789823,Söderköping,0582,Enskild,Stiftelsen Söderköpings Waldorfskola,8250017939,15,"13,3","80,0","6,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Blombackaskolan,34148887,Södertälje,0181,Kommunal,Södertälje,2120000159,41,"12,2","43,9","43,9",.,.,.,.,77,"23,4","46,8","29,9",36,"22,2","52,8","25,0",2018
+Brunnsängskolan,60570294,Södertälje,0181,Kommunal,Södertälje,2120000159,.,.,.,.,.,.,.,.,64,"43,8","51,6","4,7",.,.,.,.,2018
+Eneskolan,97655739,Södertälje,0181,Kommunal,Södertälje,2120000159,.,.,.,.,.,.,.,.,73,.,"72,6","27,4",.,.,.,.,2018
+Hovsjöskolan,82137009,Södertälje,0181,Kommunal,Södertälje,2120000159,.,.,.,.,.,.,.,.,41,"9,8","75,6","14,6",35,"5,7","68,6","25,7",2018
+Hölöskolan,79466321,Södertälje,0181,Kommunal,Södertälje,2120000159,43,"11,6","60,5","27,9",.,.,.,.,43,"41,9","51,2","7,0",.,.,.,.,2018
+Igelsta grundskola,75505688,Södertälje,0181,Kommunal,Södertälje,2120000159,.,.,.,.,.,.,.,.,35,"17,1","71,4","11,4",25,.,"72,0","28,0",2018
+Järna friskola,41584790,Södertälje,0181,Enskild,Järna Friskola Aktiebolag,5565713210,23,"17,4","56,5","26,1",.,.,.,.,24,.,"58,3","41,7",.,.,.,.,2018
+Kringlaskolan,74489639,Södertälje,0181,Enskild,Kringlaskolan AB,5567734065,48,"39,6","50,0","10,4",.,.,.,.,52,"32,7","55,8","11,5",.,.,.,.,2018
+Lina grundskola,62288230,Södertälje,0181,Kommunal,Södertälje,2120000159,.,.,.,.,.,.,.,.,24,"4,2","83,3","12,5",19,"5,3","63,2","31,6",2018
+Nyckelskolan,16068461,Södertälje,0181,Enskild,Nyckelknippan Förskole Aktiebolag,5564787397,25,"4,0","52,0","44,0",.,.,.,.,25,.,"52,0","48,0",.,.,.,.,2018
+Oxbacksskolan,99842607,Södertälje,0181,Kommunal,Södertälje,2120000159,47,"27,7","59,6","12,8",.,.,.,.,49,"34,7","61,2","4,1",.,.,.,.,2018
+Pershagenskolan,38653015,Södertälje,0181,Kommunal,Södertälje,2120000159,.,.,.,.,.,.,.,.,47,"25,5","70,2","4,3",.,.,.,.,2018
+Rosenborgskolan,11914814,Södertälje,0181,Kommunal,Södertälje,2120000159,87,"10,3","55,2","34,5",.,.,.,.,113,"18,6","61,1","20,4",29,"13,8","58,6","27,6",2018
+Soldalaskolan,40175889,Södertälje,0181,Kommunal,Södertälje,2120000159,.,.,.,.,.,.,.,.,55,"30,9","67,3","1,8",.,.,.,.,2018
+Vittra Östertälje,12757193,Södertälje,0181,Enskild,Vittraskolorna AB,5564586716,40,"15,0","45,0","40,0",.,.,.,.,50,"8,0","56,0","36,0",.,.,.,.,2018
+Wasaskolan,56568612,Södertälje,0181,Kommunal,Södertälje,2120000159,.,.,.,.,.,.,.,.,63,"7,9","61,9","30,2",59,"15,3","61,0","23,7",2018
+Örjanskolan grund,10661388,Södertälje,0181,Enskild,Föreningen Örjanskolan,8156005103,20,"10,0","75,0","15,0",.,.,.,.,19,.,"73,7","26,3",.,.,.,.,2018
+Bokelundsskolan H,94309839,Sölvesborg,1083,Kommunal,Sölvesborg,2120000852,95,"9,5","61,1","29,5",.,.,.,.,108,"7,4","90,7","1,9",.,.,.,.,2018
+Mjällby skola H,24822447,Sölvesborg,1083,Kommunal,Sölvesborg,2120000852,59,.,"91,5","8,5",.,.,.,.,65,"6,2","87,7","6,2",.,.,.,.,2018
+Hamburgsundskolan 6-9,81072495,Tanum,1435,Kommunal,Tanum,2120001348,34,"14,7","67,6","17,6",.,.,.,.,43,"16,3","72,1","11,6",.,.,.,.,2018
+Tanumskolan 7-9,74079446,Tanum,1435,Kommunal,Tanum,2120001348,66,"7,6","47,0","45,5",.,.,.,.,73,"11,0","80,8","8,2",.,.,.,.,2018
+"Nyboskolan, grundskola",97306690,Tibro,1472,Kommunal,Tibro,2120001660,101,"10,9","63,4","25,7",.,.,.,.,112,"18,8","72,3","8,9",.,.,.,.,2018
+Forsens grundskola 7-9,40717964,Tidaholm,1498,Kommunal,Tidaholm,2120001736,47,"4,3","57,4","38,3",.,.,.,.,48,"6,3","56,3","37,5",.,.,.,.,2018
+Hökensås grundskola 7-9,42899954,Tidaholm,1498,Kommunal,Tidaholm,2120001736,67,"28,4","56,7","14,9",.,.,.,.,66,"6,1","65,2","28,8",.,.,.,.,2018
+Aspenskolan,15416514,Tierp,0360,Kommunal,Tierp,2120000266,50,"6,0","62,0","32,0",.,.,.,.,60,"21,7","66,7","11,7",.,.,.,.,2018
+Centralskolan,17240817,Tierp,0360,Kommunal,Tierp,2120000266,48,"2,1","77,1","20,8",.,.,.,.,46,"4,3","89,1","6,5",.,.,.,.,2018
+Ol Andersskolan,65153737,Tierp,0360,Kommunal,Tierp,2120000266,30,"10,0","70,0","20,0",.,.,.,.,29,.,"86,2","13,8",.,.,.,.,2018
+Örbyhus skola,69241995,Tierp,0360,Kommunal,Tierp,2120000266,44,"20,5","63,6","15,9",.,.,.,.,46,"19,6","73,9","6,5",.,.,.,.,2018
+Ala skola,59092675,Timrå,2262,Kommunal,Timrå,2120002395,47,"10,6","70,2","19,1",.,.,.,.,48,"18,8","62,5","18,8",.,.,.,.,2018
+Arenaskolan,81784662,Timrå,2262,Kommunal,Timrå,2120002395,96,"4,2","60,4","35,4",.,.,.,.,100,"10,0","72,0","18,0",.,.,.,.,2018
+Dackeskolan 7-9,56361478,Tingsryd,0763,Kommunal,Tingsryd,2120000621,72,"8,3","75,0","16,7",.,.,.,.,85,"10,6","74,1","15,3",21,"23,8","66,7","9,5",2018
+Idekulla skola,66342347,Tingsryd,0763,Enskild,Idekulla Skola Handelsbolag,9696416842,37,.,"86,5","13,5",.,.,.,.,37,"5,4","89,2","5,4",.,.,.,.,2018
+Bleketskolan,16656370,Tjörn,1419,Kommunal,Tjörn,2120001306,59,"3,4","49,2","47,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Häggvallskolan,23228302,Tjörn,1419,Kommunal,Tjörn,2120001306,77,"6,5","74,0","19,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Kastanjeskolan,90360196,Tomelilla,1270,Kommunal,Tomelilla,2120000886,103,"9,7","62,1","28,2",.,.,.,.,110,"9,1","76,4","14,5",.,.,.,.,2018
+Frykenskolan,21568934,Torsby,1737,Kommunal,Torsby,2120001777,77,"24,7","51,9","23,4",.,.,.,.,88,"9,1","55,7","35,2",.,.,.,.,2018
+Kvistbergsskolan,83025413,Torsby,1737,Kommunal,Torsby,2120001777,.,.,.,.,.,.,.,.,15,"13,3","86,7",.,.,.,.,.,2018
+Torskolan H,99636909,Torsås,0834,Kommunal,Torsås,2120000696,58,"6,9","51,7","41,4",.,.,.,.,63,"7,9","71,4","20,6",.,.,.,.,2018
+Tranängskolan 7-9,33759766,Tranemo,1452,Kommunal,Tranemo,2120001462,125,"12,0","52,0","36,0",.,.,.,.,131,"20,6","67,9","11,5",.,.,.,.,2018
+Junkaremålsskolan 7-9,18476537,Tranås,0687,Kommunal,Tranås,2120000597,117,"11,1","65,8","23,1",.,.,.,.,131,"13,7","71,8","14,5",.,.,.,.,2018
+Ängarydsskolan,10155751,Tranås,0687,Kommunal,Tranås,2120000597,72,"9,7","62,5","27,8",.,.,.,.,77,"6,5","53,2","40,3",.,.,.,.,2018
+Fågelbäcksskolan 6-9,94965726,Trelleborg,1287,Kommunal,Trelleborg,2120001199,49,"6,1","53,1","40,8",.,.,.,.,63,"7,9","77,8","14,3",.,.,.,.,2018
+Kunskapsskolan Trelleborg,65892623,Trelleborg,1287,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,44,"4,5","29,5","65,9",.,.,.,.,45,"2,2","75,6","22,2",.,.,.,.,2018
+Liljeborgsskolan 7-9,42096980,Trelleborg,1287,Kommunal,Trelleborg,2120001199,136,"5,9","50,0","44,1",.,.,.,.,137,"16,8","64,2","19,0",.,.,.,.,2018
+Pilevallskolan F-9,24947938,Trelleborg,1287,Kommunal,Trelleborg,2120001199,.,.,.,.,.,.,.,.,25,"4,0","88,0","8,0",20,"5,0","65,0","30,0",2018
+Vannhögskolan 6-9,92281801,Trelleborg,1287,Kommunal,Trelleborg,2120001199,100,.,"46,0","54,0",.,.,.,.,104,"1,0","93,3","5,8",.,.,.,.,2018
+Väståkraskolan F-9,16081769,Trelleborg,1287,Kommunal,Trelleborg,2120001199,56,"8,9","75,0","16,1",.,.,.,.,56,"14,3","76,8","8,9",.,.,.,.,2018
+"Fridaskolan, Trollhättan",56884611,Trollhättan,1488,Enskild,Fridaskolorna AB,5564515988,73,.,"87,7","12,3",.,.,.,.,73,.,"95,9","4,1",.,.,.,.,2018
+Hjortmosseskolan 5-9,84590859,Trollhättan,1488,Kommunal,Trollhättan,2120001546,36,"5,6","38,9","55,6",.,.,.,.,46,"6,5","63,0","30,4",.,.,.,.,2018
+Kronan 7-9,63750711,Trollhättan,1488,Kommunal,Trollhättan,2120001546,.,.,.,.,.,.,.,.,.,.,.,.,43,"9,3","72,1","18,6",2018
+Lyrfågelskolan 7-9,81052393,Trollhättan,1488,Kommunal,Trollhättan,2120001546,89,"13,5","61,8","24,7",.,.,.,.,92,"4,3","65,2","30,4",.,.,.,.,2018
+"Nya Skolan, Trollhättan",11588924,Trollhättan,1488,Enskild,Nya Skolan Trollhättan Aktiebolag,5566127600,.,.,.,.,.,.,.,.,33,"36,4","42,4","21,2",.,.,.,.,2018
+Paradisskolan 7-9,38786603,Trollhättan,1488,Kommunal,Trollhättan,2120001546,63,"11,1","54,0","34,9",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Sjuntorpskolan 4-9,39396701,Trollhättan,1488,Kommunal,Trollhättan,2120001546,47,"6,4","66,0","27,7",.,.,.,.,47,"4,3","68,1","27,7",.,.,.,.,2018
+Skogshöjdens skola 4-9,17106266,Trollhättan,1488,Kommunal,Trollhättan,2120001546,36,"13,9","58,3","27,8",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Stavreskolan 4-9,49525819,Trollhättan,1488,Kommunal,Trollhättan,2120001546,39,"20,5","59,0","20,5",.,.,.,.,39,"5,1","92,3","2,6",.,.,.,.,2018
+Strömslundsskolan 7-9,96091081,Trollhättan,1488,Kommunal,Trollhättan,2120001546,48,"22,9","60,4","16,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Sylteskolan 7-9,66414430,Trollhättan,1488,Kommunal,Trollhättan,2120001546,46,"4,3","76,1","19,6",.,.,.,.,87,"14,9","66,7","18,4",50,"4,0","70,0","26,0",2018
+Hedebyskolan,45500152,Trosa,0488,Kommunal,Trosa,2120002957,46,"2,2","50,0","47,8",.,.,.,.,50,"6,0","78,0","16,0",.,.,.,.,2018
+Tomtaklintskolan,51044218,Trosa,0488,Kommunal,Trosa,2120002957,107,"3,7","69,2","27,1",.,.,.,.,104,"11,5","83,7","4,8",.,.,.,.,2018
+Dalskolan,56130729,Tyresö,0138,Kommunal,Tyresö,2120000092,64,"23,4","59,4","17,2",.,.,.,.,68,"29,4","67,6","2,9",.,.,.,.,2018
+Internationella Engelska Skolan Tyresö,60904587,Tyresö,0138,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,110,"3,6","43,6","52,7",.,.,.,.,122,"13,1","59,8","27,0",.,.,.,.,2018
+Kumla skola,37147254,Tyresö,0138,Kommunal,Tyresö,2120000092,114,"22,8","43,9","33,3",.,.,.,.,116,"12,1","69,0","19,0",.,.,.,.,2018
+Nyboda skola,31281674,Tyresö,0138,Kommunal,Tyresö,2120000092,89,"10,1","66,3","23,6",.,.,.,.,104,"14,4","76,0","9,6",15,.,"66,7","33,3",2018
+Strandskolan,87665835,Tyresö,0138,Kommunal,Tyresö,2120000092,56,"21,4","55,4","23,2",.,.,.,.,51,"33,3","60,8","5,9",.,.,.,.,2018
+Tyresö skola,83020784,Tyresö,0138,Kommunal,Tyresö,2120000092,90,"15,6","71,1","13,3",.,.,.,.,90,"23,3","73,3","3,3",.,.,.,.,2018
+Byängsskolan,65839656,Täby,0160,Enskild,Byängsskolan AB,5567563316,92,"2,2","72,8","25,0",.,.,.,.,88,"11,4","77,3","11,4",.,.,.,.,2018
+Futuraskolan International Bergtorp,24142153,Täby,0160,Enskild,Futuraskolan AB,5566095047,152,"11,8","63,2","25,0",.,.,.,.,146,"13,7","76,0","10,3",.,.,.,.,2018
+Helleborusskolan,45984740,Täby,0160,Enskild,Helleborusskolan Täby AB,5567508386,22,"9,1","63,6","27,3",.,.,.,.,22,"31,8","45,5","22,7",.,.,.,.,2018
+Internationella Engelska Skolan Täby,12332278,Täby,0160,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,162,"11,7","48,8","39,5",.,.,.,.,178,"15,2","77,5","7,3",.,.,.,.,2018
+Kunskapsskolan Täby,25309669,Täby,0160,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,.,.,.,.,.,.,.,.,56,"21,4","73,2","5,4",.,.,.,.,2018
+Mellansjö skola,54332921,Täby,0160,Enskild,Nytida Enigma AB,5564870771,15,"13,3","66,7","20,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Milstensskolan,23312767,Täby,0160,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,20,"20,0","50,0","30,0",.,.,.,.,20,"5,0","70,0","25,0",.,.,.,.,2018
+Näsbydalskolan,22807677,Täby,0160,Kommunal,Täby,2120000118,122,"8,2","75,4","16,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Näsbyparksskolan,96330648,Täby,0160,Kommunal,Täby,2120000118,63,"19,0","61,9","19,0",.,.,.,.,61,"13,1","85,2","1,6",.,.,.,.,2018
+Skarpängsskolan,83454509,Täby,0160,Kommunal,Täby,2120000118,113,"3,5","67,3","29,2",.,.,.,.,112,"8,0","80,4","11,6",.,.,.,.,2018
+Skolhagenskolan,69088221,Täby,0160,Kommunal,Täby,2120000118,114,"7,9","56,1","36,0",.,.,.,.,115,"14,8","80,0","5,2",.,.,.,.,2018
+Spirande lärande i Täby AB,89424201,Täby,0160,Enskild,Spirande lärande i Täby AB,5565917993,29,.,"100,0",.,.,.,.,.,29,.,"93,1","6,9",.,.,.,.,2018
+Täby Friskola-Enhagen,32231541,Täby,0160,Enskild,Täby Friskola Aktiebolag,5565998860,80,"1,3","76,3","22,5",.,.,.,.,82,"12,2","73,2","14,6",.,.,.,.,2018
+Vallatorpsskolan,57206066,Täby,0160,Kommunal,Täby,2120000118,40,"2,5","57,5","40,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Töreboda Centralskola,94707451,Töreboda,1473,Kommunal,Töreboda,2120001678,68,"19,1","66,2","14,7",.,.,.,.,72,"12,5","73,6","13,9",.,.,.,.,2018
+"Fridaskolan, Uddevalla",27489448,Uddevalla,1485,Enskild,Fridaskolorna AB,5564515988,64,"20,3","59,4","20,3",.,.,.,.,65,"33,8","58,5","7,7",.,.,.,.,2018
+Linnéaskolan,92086024,Uddevalla,1485,Kommunal,Uddevalla,2120001397,41,"14,6","65,9","19,5",.,.,.,.,41,"22,0","73,2","4,9",.,.,.,.,2018
+Norgårdenskolan 7-9,10405686,Uddevalla,1485,Kommunal,Uddevalla,2120001397,106,"4,7","34,9","60,4",.,.,.,.,107,"4,7","76,6","18,7",.,.,.,.,2018
+Ramnerödsskolan,83416307,Uddevalla,1485,Kommunal,Uddevalla,2120001397,18,"5,6","50,0","44,4",.,.,.,.,53,"9,4","86,8","3,8",35,.,"62,9","37,1",2018
+Sommarhemsskolan 7-9,45535775,Uddevalla,1485,Kommunal,Uddevalla,2120001397,95,"8,4","53,7","37,9",.,.,.,.,102,"9,8","77,5","12,7",.,.,.,.,2018
+Stenbackeskolan,77005811,Uddevalla,1485,Enskild,Stiftelsen Uddevalla Kristna Skola,8585011904,.,.,.,.,.,.,.,.,16,"6,3","68,8","25,0",.,.,.,.,2018
+Västerskolan 8-9,94258829,Uddevalla,1485,Kommunal,Uddevalla,2120001397,109,"15,6","49,5","34,9",.,.,.,.,122,"16,4","68,0","15,6",16,"25,0","50,0","25,0",2018
+Stenbocksskolan,39517088,Ulricehamn,1491,Kommunal,Ulricehamn,2120001579,168,"5,4","58,3","36,3",.,.,.,.,170,"7,1","84,1","8,8",18,"5,6","61,1","33,3",2018
+Ätradalsskolan,28080863,Ulricehamn,1491,Kommunal,Ulricehamn,2120001579,72,"2,8","68,1","29,2",.,.,.,.,82,"9,8","65,9","24,4",.,.,.,.,2018
+Bräntbergsskolan 1,44391304,Umeå,2480,Kommunal,Umeå,2120002627,16,.,"100,0",.,.,.,.,.,18,"11,1","88,9",.,.,.,.,.,2018
+Bräntbergsskolan 2,51963791,Umeå,2480,Kommunal,Umeå,2120002627,38,"10,5","50,0","39,5",.,.,.,.,40,"15,0","72,5","12,5",.,.,.,.,2018
+Carlshöjdsskolan 2,42259280,Umeå,2480,Kommunal,Umeå,2120002627,27,"3,7","44,4","51,9",.,.,.,.,28,"39,3","50,0","10,7",.,.,.,.,2018
+Ersängsskolan 7-9,96783420,Umeå,2480,Kommunal,Umeå,2120002627,32,"15,6","59,4","25,0",.,.,.,.,40,"5,0","90,0","5,0",.,.,.,.,2018
+Grubbeskolan 1,21768043,Umeå,2480,Kommunal,Umeå,2120002627,70,"8,6","60,0","31,4",.,.,.,.,70,"17,1","68,6","14,3",.,.,.,.,2018
+Grubbeskolan 2,89248713,Umeå,2480,Kommunal,Umeå,2120002627,52,"19,2","57,7","23,1",.,.,.,.,45,"8,9","86,7","4,4",.,.,.,.,2018
+Hagaskolan 7-9,81936022,Umeå,2480,Kommunal,Umeå,2120002627,78,"11,5","70,5","17,9",.,.,.,.,84,"34,5","60,7","4,8",.,.,.,.,2018
+Hörnefors Centralskola 7-9,85438284,Umeå,2480,Kommunal,Umeå,2120002627,27,"18,5","74,1","7,4",.,.,.,.,29,"3,4","93,1","3,4",.,.,.,.,2018
+Linneaskolan,39117429,Umeå,2480,Kommunal,Umeå,2120002627,40,"7,5","60,0","32,5",.,.,.,.,33,"15,2","66,7","18,2",.,.,.,.,2018
+Obbola skola 4-9,31716818,Umeå,2480,Kommunal,Umeå,2120002627,23,"13,0","73,9","13,0",.,.,.,.,23,"8,7","69,6","21,7",.,.,.,.,2018
+"Prolympia, Umeå",28958120,Umeå,2480,Enskild,Ulno AB,5566577705,73,"21,9","60,3","17,8",.,.,.,.,70,"25,7","67,1","7,1",.,.,.,.,2018
+Sjöfruskolan 3,76392400,Umeå,2480,Kommunal,Umeå,2120002627,52,.,"80,8","19,2",.,.,.,.,55,"7,3","85,5","7,3",.,.,.,.,2018
+Storsjöskolan 2,10954341,Umeå,2480,Kommunal,Umeå,2120002627,61,"14,8","72,1","13,1",.,.,.,.,60,"23,3","71,7","5,0",.,.,.,.,2018
+Sävar skola 1 (åk 7-9),90639590,Umeå,2480,Kommunal,Umeå,2120002627,63,"14,3","71,4","14,3",.,.,.,.,64,"20,3","64,1","15,6",.,.,.,.,2018
+Tegs centralskola 1,96517991,Umeå,2480,Kommunal,Umeå,2120002627,47,"2,1","78,7","19,1",.,.,.,.,50,"40,0","60,0",.,.,.,.,.,2018
+Tegs centralskola 2,74820849,Umeå,2480,Kommunal,Umeå,2120002627,59,"16,9","66,1","16,9",.,.,.,.,71,"18,3","80,3","1,4",.,.,.,.,2018
+Västangårds skola 6-9,36171517,Umeå,2480,Kommunal,Umeå,2120002627,27,"7,4","88,9","3,7",.,.,.,.,29,.,"89,7","10,3",.,.,.,.,2018
+Ålidhemsskolan 6-9,42752416,Umeå,2480,Kommunal,Umeå,2120002627,31,"6,5","87,1","6,5",.,.,.,.,42,"2,4","92,9","4,8",.,.,.,.,2018
+Grimsta skola,44227469,Upplands Väsby,0114,Kommunal,Upplands Väsby,2120000019,87,"11,5","43,7","44,8",.,.,.,.,97,"14,4","77,3","8,2",.,.,.,.,2018
+Runby skola,77624936,Upplands Väsby,0114,Kommunal,Upplands Väsby,2120000019,46,"23,9","71,7","4,3",.,.,.,.,55,"23,6","67,3","9,1",.,.,.,.,2018
+Sandbergska Competens,97762139,Upplands Väsby,0114,Enskild,Sandbergska Competens AB,5567796387,21,.,"61,9","38,1",.,.,.,.,21,"9,5","81,0","9,5",.,.,.,.,2018
+Södervikskolan,49021135,Upplands Väsby,0114,Enskild,Södervikskolan AB,5567220347,101,"8,9","62,4","28,7",.,.,.,.,106,"0,9","80,2","18,9",.,.,.,.,2018
+Vittra Väsby,24374886,Upplands Väsby,0114,Enskild,Vittraskolorna AB,5564586716,.,.,.,.,.,.,.,.,26,"15,4","73,1","11,5",.,.,.,.,2018
+Väsby skola,31018677,Upplands Väsby,0114,Kommunal,Upplands Väsby,2120000019,41,"14,6","36,6","48,8",.,.,.,.,68,"35,3","45,6","19,1",29,"6,9","41,4","51,7",2018
+Broskolan,16983719,Upplands-Bro,0139,Kommunal,Upplands-Bro,2120000100,79,"2,5","40,5","57,0",.,.,.,.,93,"1,1","86,0","12,9",.,.,.,.,2018
+Ekhammarskolan,92284588,Upplands-Bro,0139,Kommunal,Upplands-Bro,2120000100,87,"12,6","73,6","13,8",.,.,.,.,67,"10,4","76,1","13,4",.,.,.,.,2018
+Hagnässkolan,16969143,Upplands-Bro,0139,Kommunal,Upplands-Bro,2120000100,68,"10,3","60,3","29,4",.,.,.,.,74,"6,8","79,7","13,5",.,.,.,.,2018
+Källskolan Ekhammar,85796724,Upplands-Bro,0139,Enskild,Föreningen För Kristen Skola i Upplands-Bro,8132004659,16,"25,0","56,3","18,8",.,.,.,.,18,"27,8","66,7","5,6",.,.,.,.,2018
+Almunge skola,99056007,Uppsala,0380,Kommunal,Uppsala,2120003005,58,"6,9","67,2","25,9",.,.,.,.,56,"30,4","62,5","7,1",.,.,.,.,2018
+Björkvallsskolan,89112467,Uppsala,0380,Kommunal,Uppsala,2120003005,77,"7,8","70,1","22,1",.,.,.,.,77,"1,3","89,6","9,1",.,.,.,.,2018
+Eriksbergsskolan,18733789,Uppsala,0380,Kommunal,Uppsala,2120003005,82,"7,3","73,2","19,5",.,.,.,.,89,"32,6","62,9","4,5",.,.,.,.,2018
+Gluntens Montessoriskola,57484572,Uppsala,0380,Enskild,Gluntens Montessoriskola Ek För,7164225521,41,"4,9","53,7","41,5",.,.,.,.,43,"7,0","81,4","11,6",.,.,.,.,2018
+Gottsundaskolan,93042073,Uppsala,0380,Kommunal,Uppsala,2120003005,85,"7,1","57,6","35,3",.,.,.,.,89,"5,6","76,4","18,0",.,.,.,.,2018
+Gränbyskolan,60782519,Uppsala,0380,Kommunal,Uppsala,2120003005,76,"3,9","52,6","43,4",.,.,.,.,23,"17,4","73,9","8,7",30,"10,0","53,3","36,7",2018
+Gåvsta skola,12275851,Uppsala,0380,Kommunal,Uppsala,2120003005,19,"10,5","73,7","15,8",.,.,.,.,23,"17,4","65,2","17,4",.,.,.,.,2018
+Internationella Engelska skolan Uppsala,83401016,Uppsala,0380,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,93,"38,7","51,6","9,7",.,.,.,.,113,"15,9","78,8","5,3",16,"12,5","68,8","18,8",2018
+JENSEN grundskola Uppsala,25730446,Uppsala,0380,Enskild,Jensen Education College AB,5566358759,24,"16,7","41,7","41,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Katarinaskolan,71951060,Uppsala,0380,Enskild,Heliga Katarinas Skolstiftelse,8176030867,86,"14,0","57,0","29,1",.,.,.,.,86,"22,1","66,3","11,6",.,.,.,.,2018
+Kunskapsskolan Uppsala,73947432,Uppsala,0380,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,131,"10,7","62,6","26,7",.,.,.,.,129,"15,5","74,4","10,1",.,.,.,.,2018
+Kunskapsskolan Uppsala Norra,73806643,Uppsala,0380,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,68,"5,9","75,0","19,1",.,.,.,.,64,"7,8","78,1","14,1",.,.,.,.,2018
+Kvarngärdesskolan,61003071,Uppsala,0380,Kommunal,Uppsala,2120003005,17,"5,9","29,4","64,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+LOKS                   Kyrkskolan 7-9,35561766,Uppsala,0380,Enskild,LOKS AB,5565835146,69,"4,3","85,5","10,1",.,.,.,.,73,.,"100,0",.,.,.,.,.,2018
+Palmbladsskolan,40275917,Uppsala,0380,Kommunal,Uppsala,2120003005,69,"13,0","63,8","23,2",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Raoul Wallenbergskolan Uppsala,56867001,Uppsala,0380,Enskild,Raoul Wallenbergskolorna AB,5566740113,33,"15,2","63,6","21,2",.,.,.,.,43,"9,3","67,4","23,3",.,.,.,.,2018
+Stordammen,95132430,Uppsala,0380,Kommunal,Uppsala,2120003005,23,"8,7","69,6","21,7",.,.,.,.,29,"6,9","69,0","24,1",.,.,.,.,2018
+Tiundaskolan,53847396,Uppsala,0380,Kommunal,Uppsala,2120003005,105,"8,6","63,8","27,6",.,.,.,.,99,"19,2","68,7","12,1",.,.,.,.,2018
+Tunabergsskolan,54742485,Uppsala,0380,Kommunal,Uppsala,2120003005,128,"0,8","92,2","7,0",.,.,.,.,126,"1,6","96,8","1,6",.,.,.,.,2018
+Uppsala Musikklasser,89387408,Uppsala,0380,Enskild,Stiftelsen Uppsala Musikklasser,8176054917,53,"28,3","49,1","22,6",.,.,.,.,80,"28,8","65,0","6,3",.,.,.,.,2018
+Vaksalaskolan,28006480,Uppsala,0380,Kommunal,Uppsala,2120003005,83,"10,8","53,0","36,1",.,.,.,.,87,"13,8","70,1","16,1",.,.,.,.,2018
+Valsätraskolan,56446888,Uppsala,0380,Kommunal,Uppsala,2120003005,112,"10,7","58,9","30,4",.,.,.,.,106,"19,8","73,6","6,6",.,.,.,.,2018
+von Bahrs skola,17250578,Uppsala,0380,Kommunal,Uppsala,2120003005,47,"4,3","53,2","42,6",.,.,.,.,51,"15,7","66,7","17,6",.,.,.,.,2018
+Västra Stenhagenskolan,48134074,Uppsala,0380,Kommunal,Uppsala,2120003005,49,"6,1","55,1","38,8",.,.,.,.,56,"14,3","66,1","19,6",.,.,.,.,2018
+Ärentunaskolan,64800741,Uppsala,0380,Kommunal,Uppsala,2120003005,108,"2,8","63,9","33,3",.,.,.,.,118,"20,3","67,8","11,9",.,.,.,.,2018
+Åsedaskolan 7-9,75658239,Uppvidinge,0760,Kommunal,Uppvidinge,2120000605,41,"9,8","56,1","34,1",.,.,.,.,52,"9,6","80,8","9,6",.,.,.,.,2018
+Älghultskolan,73077490,Uppvidinge,0760,Kommunal,Uppvidinge,2120000605,51,"7,8","76,5","15,7",.,.,.,.,54,"20,4","72,2","7,4",.,.,.,.,2018
+Petrus Magni skola H,21550555,Vadstena,0584,Kommunal,Vadstena,2120002825,67,"9,0","59,7","31,3",.,.,.,.,63,"17,5","68,3","14,3",.,.,.,.,2018
+Fågelforsskolan Hög,38944084,Vaggeryd,0665,Kommunal,Vaggeryd,2120000522,49,"10,2","73,5","16,3",.,.,.,.,66,"3,0","93,9","3,0",19,"15,8","73,7","10,5",2018
+Hjortsjöskolan Hög,95197505,Vaggeryd,0665,Kommunal,Vaggeryd,2120000522,84,"15,5","63,1","21,4",.,.,.,.,84,"31,0","50,0","19,0",.,.,.,.,2018
+Vammarskolan 4-9,53620708,Valdemarsvik,0563,Kommunal,Valdemarsvik,2120000431,.,.,.,.,.,.,.,.,71,"4,2","88,7","7,0",.,.,.,.,2018
+Bällstabergsskolan,52293921,Vallentuna,0115,Kommunal,Vallentuna,2120000027,26,"3,8","61,5","34,6",.,.,.,.,25,"16,0","80,0","4,0",.,.,.,.,2018
+Ekebyskolan,78821726,Vallentuna,0115,Kommunal,Vallentuna,2120000027,23,.,"47,8","52,2",.,.,.,.,25,.,"76,0","24,0",.,.,.,.,2018
+Hammarbacksskolan,31772387,Vallentuna,0115,Kommunal,Vallentuna,2120000027,49,"10,2","38,8","51,0",.,.,.,.,50,"26,0","54,0","20,0",.,.,.,.,2018
+Hjälmstaskolan,16855764,Vallentuna,0115,Kommunal,Vallentuna,2120000027,75,"1,3","64,0","34,7",.,.,.,.,78,"3,8","74,4","21,8",.,.,.,.,2018
+Karbyskolan,57370453,Vallentuna,0115,Kommunal,Vallentuna,2120000027,17,"5,9","70,6","23,5",.,.,.,.,18,"5,6","83,3","11,1",.,.,.,.,2018
+Lovisedalsskolan,29278599,Vallentuna,0115,Kommunal,Vallentuna,2120000027,64,"10,9","73,4","15,6",.,.,.,.,64,"26,6","67,2","6,3",.,.,.,.,2018
+Vallentuna Friskola,72378947,Vallentuna,0115,Enskild,Vallentuna Friskola AB,5565736187,48,"6,3","87,5","6,3",.,.,.,.,50,"22,0","72,0","6,0",.,.,.,.,2018
+Vittra Vallentuna,46206050,Vallentuna,0115,Enskild,Vittraskolorna AB,5564586716,23,"8,7","52,2","39,1",.,.,.,.,24,"25,0","75,0",.,.,.,.,.,2018
+Smedbergsskolan 4-9,20545871,Vansbro,2021,Kommunal,Vansbro,2120002130,50,"22,0","52,0","26,0",.,.,.,.,60,"5,0","60,0","35,0",.,.,.,.,2018
+Alléskolan,45270097,Vara,1470,Kommunal,Vara,2120002924,108,"11,1","67,6","21,3",.,.,.,.,114,"24,6","68,4","7,0",.,.,.,.,2018
+Nästegårdsskolan,88862132,Vara,1470,Kommunal,Vara,2120002924,42,"16,7","61,9","21,4",.,.,.,.,41,"34,1","48,8","17,1",.,.,.,.,2018
+Almers skola 7-9 och grundsärskolan äldre elever,72527414,Varberg,1383,Kommunal,Varberg,2120001249,61,"9,8","57,4","32,8",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Ankarskolan 4-9,68653982,Varberg,1383,Kommunal,Varberg,2120001249,64,"12,5","81,3","6,3",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Bosgårdsskolan 6-9,92184735,Varberg,1383,Kommunal,Varberg,2120001249,61,"11,5","55,7","32,8",.,.,.,.,65,"10,8","84,6","4,6",.,.,.,.,2018
+Hagaskolan 4-9,26579492,Varberg,1383,Kommunal,Varberg,2120001249,43,"4,7","74,4","20,9",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Håstensskolan 6 och 9,75684823,Varberg,1383,Kommunal,Varberg,2120001249,110,"3,6","48,2","48,2",.,.,.,.,114,"8,8","85,1","6,1",.,.,.,.,2018
+Kunskapsskolan Varberg,52846430,Varberg,1383,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,15,.,"73,3","26,7",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Lindberg skola 4-9,23521056,Varberg,1383,Kommunal,Varberg,2120001249,19,.,"68,4","31,6",.,.,.,.,19,.,"89,5","10,5",.,.,.,.,2018
+Påskbergsskolan 4-9,50675351,Varberg,1383,Kommunal,Varberg,2120001249,42,"2,4","64,3","33,3",.,.,.,.,47,"25,5","70,2","4,3",.,.,.,.,2018
+"Rolfstorps skola F-3, 7-9 och fritidshem",46202890,Varberg,1383,Kommunal,Varberg,2120001249,43,"9,3","88,4","2,3",.,.,.,.,42,"9,5","85,7","4,8",.,.,.,.,2018
+Trönninge skola 4-9,71449540,Varberg,1383,Kommunal,Varberg,2120001249,46,"8,7","58,7","32,6",.,.,.,.,47,"25,5","70,2","4,3",.,.,.,.,2018
+Vidhögeskolan 6-9,70460569,Varberg,1383,Kommunal,Varberg,2120001249,42,"2,4","69,0","28,6",.,.,.,.,44,"20,5","77,3","2,3",.,.,.,.,2018
+"Väröbackaskolan F-3, 7-9 och fritidshem",68613823,Varberg,1383,Kommunal,Varberg,2120001249,41,"7,3","70,7","22,0",.,.,.,.,24,.,"79,2","20,8",.,.,.,.,2018
+Kronängsskolan,48724676,Vaxholm,0187,Kommunal,Vaxholm,2120002908,115,"11,3","53,0","35,7",.,.,.,.,125,"26,4","70,4","3,2",.,.,.,.,2018
+Framtidskomp. V Ingelstad sk,44979671,Vellinge,1233,Enskild,Framtidskompassen AB,5567865943,42,"9,5","76,2","14,3",.,.,.,.,41,"26,8","70,7","2,4",.,.,.,.,2018
+Framtidskompassen i Vellinge,15068529,Vellinge,1233,Enskild,Framtidskompassen AB,5567865943,33,"6,1","57,6","36,4",.,.,.,.,33,"6,1","78,8","15,2",.,.,.,.,2018
+Herrestorpskolan,16650439,Vellinge,1233,Kommunal,Vellinge,2120001033,26,"11,5","46,2","42,3",.,.,.,.,27,"29,6","63,0","7,4",.,.,.,.,2018
+Ljungenskolan,41197162,Vellinge,1233,Kommunal,Vellinge,2120001033,53,"1,9","64,2","34,0",.,.,.,.,35,"2,9","88,6","8,6",.,.,.,.,2018
+Sandeplanskolan,71367825,Vellinge,1233,Kommunal,Vellinge,2120001033,54,"5,6","50,0","44,4",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Skanör Falsterbo Montessorisk.,46725455,Vellinge,1233,Enskild,Skanör Falsterbo Montessoriskola AB,5566270095,19,"26,3","36,8","36,8",.,.,.,.,19,"26,3","63,2","10,5",.,.,.,.,2018
+Skanörs skola,46945514,Vellinge,1233,Kommunal,Vellinge,2120001033,36,"8,3","69,4","22,2",.,.,.,.,38,"10,5","63,2","26,3",.,.,.,.,2018
+Stora Hammars skola,24181728,Vellinge,1233,Kommunal,Vellinge,2120001033,52,"3,8","78,8","17,3",.,.,.,.,51,"21,6","64,7","13,7",.,.,.,.,2018
+Södervångskolan,28023150,Vellinge,1233,Kommunal,Vellinge,2120001033,47,"29,8","66,0","4,3",.,.,.,.,43,"30,2","67,4","2,3",.,.,.,.,2018
+Tångvallaskolan,58994715,Vellinge,1233,Kommunal,Vellinge,2120001033,36,"2,8","47,2","50,0",.,.,.,.,36,"25,0","72,2","2,8",.,.,.,.,2018
+Ängdalaskolan,11885832,Vellinge,1233,Enskild,Ängdala Skolor AB,5565279931,50,"4,0","84,0","12,0",.,.,.,.,49,"16,3","77,6","6,1",.,.,.,.,2018
+Landsbro skola 7-9,69564434,Vetlanda,0685,Kommunal,Vetlanda,2120000571,92,"13,0","60,9","26,1",.,.,.,.,103,"12,6","77,7","9,7",.,.,.,.,2018
+Mogärdeskolan 7-9,28429330,Vetlanda,0685,Kommunal,Vetlanda,2120000571,.,.,.,.,.,.,.,.,58,"12,1","75,9","12,1",.,.,.,.,2018
+Hembergsskolan 7-9,59758107,Vilhelmina,2462,Kommunal,Vilhelmina,2120002601,54,"14,8","68,5","16,7",.,.,.,.,57,"14,0","70,2","15,8",.,.,.,.,2018
+Astrid Lindgrens skola 7-9,92620495,Vimmerby,0884,Kommunal,Vimmerby,2120000787,61,"16,4","57,4","26,2",.,.,.,.,67,"14,9","68,7","16,4",.,.,.,.,2018
+Vimarskolan 7-9,39345593,Vimmerby,0884,Kommunal,Vimmerby,2120000787,71,"32,4","52,1","15,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Renforsskolan,74352559,Vindeln,2404,Kommunal,Vindeln,2120002544,53,"3,8","73,6","22,6",.,.,.,.,54,"9,3","51,9","38,9",.,.,.,.,2018
+Slottsskolan 7-9,52426554,Vingåker,0428,Kommunal,Vingåker,2120000308,64,"4,7","79,7","15,6",.,.,.,.,84,"13,1","78,6","8,3",20,"5,0","80,0","15,0",2018
+Gullhögskolan,84179524,Vårgårda,1442,Kommunal,Vårgårda,2120001454,86,"5,8","65,1","29,1",.,.,.,.,111,"12,6","65,8","21,6",17,"5,9","47,1","47,1",2018
+Dalboskolan,93140467,Vänersborg,1487,Kommunal,Vänersborg,2120001538,38,"26,3","60,5","13,2",.,.,.,.,44,"22,7","65,9","11,4",.,.,.,.,2018
+"Fridaskolan, Vänersborg",10982633,Vänersborg,1487,Enskild,Fridaskolorna AB,5564515988,62,"1,6","67,7","30,6",.,.,.,.,54,"14,8","61,1","24,1",.,.,.,.,2018
+Silvertärnan,56817466,Vänersborg,1487,Kommunal,Vänersborg,2120001538,67,"4,5","71,6","23,9",.,.,.,.,76,"15,8","77,6","6,6",.,.,.,.,2018
+Torpaskolan,56373070,Vänersborg,1487,Kommunal,Vänersborg,2120001538,93,"12,9","65,6","21,5",.,.,.,.,120,"9,2","77,5","13,3",32,.,"84,4","15,6",2018
+Vänerparkens skola,59193729,Vänersborg,1487,Kommunal,Vänersborg,2120001538,65,"13,8","75,4","10,8",.,.,.,.,68,"13,2","82,4","4,4",.,.,.,.,2018
+Hammarskolan AB,94348319,Vännäs,2460,Kommunal,Vännäs,2120002841,50,.,"58,0","42,0",.,.,.,.,57,"10,5","80,7","8,8",.,.,.,.,2018
+Hammarskolan CD,90298777,Vännäs,2460,Kommunal,Vännäs,2120002841,50,"2,0","70,0","28,0",.,.,.,.,55,"25,5","72,7","1,8",.,.,.,.,2018
+Brunns skola,42434583,Värmdö,0120,Kommunal,Värmdö,2120000035,76,"3,9","30,3","65,8",.,.,.,.,79,"5,1","34,2","60,8",.,.,.,.,2018
+Farstavikens skola,60624757,Värmdö,0120,Kommunal,Värmdö,2120000035,67,"19,4","53,7","26,9",.,.,.,.,69,"27,5","71,0","1,4",.,.,.,.,2018
+Hemmestaskolan,24561769,Värmdö,0120,Kommunal,Värmdö,2120000035,137,"9,5","57,7","32,8",.,.,.,.,136,"16,9","79,4","3,7",.,.,.,.,2018
+Lemshaga Akademi,11364996,Värmdö,0120,Enskild,Lemshagastiftelsen,8024007075,.,.,.,.,.,.,.,.,49,"6,1","63,3","30,6",.,.,.,.,2018
+Värmdö Skärgårdsskola,77630712,Värmdö,0120,Kommunal,Värmdö,2120000035,38,"5,3","28,9","65,8",.,.,.,.,37,.,"54,1","45,9",.,.,.,.,2018
+Ösbyskolan,88283203,Värmdö,0120,Kommunal,Värmdö,2120000035,69,"4,3","52,2","43,5",.,.,.,.,67,"26,9","67,2","6,0",.,.,.,.,2018
+Apladalsskolan,40576389,Värnamo,0683,Kommunal,Värnamo,2120000555,.,.,.,.,.,.,.,.,125,"32,0","59,2","8,8",.,.,.,.,2018
+Bors skola,68702432,Värnamo,0683,Kommunal,Värnamo,2120000555,52,"23,1","61,5","15,4",.,.,.,.,59,"20,3","71,2","8,5",.,.,.,.,2018
+Forshedaskolan,23192281,Värnamo,0683,Kommunal,Värnamo,2120000555,71,"28,2","59,2","12,7",.,.,.,.,77,"29,9","68,8","1,3",.,.,.,.,2018
+Gröndalsskolan,41729877,Värnamo,0683,Kommunal,Värnamo,2120000555,128,"10,2","55,5","34,4",.,.,.,.,146,"19,9","78,1","2,1",19,.,"36,8","63,2",2018
+Alphaskolan,25749057,Västervik,0883,Enskild,Kunskapsnavet AB,5565121570,46,"6,5","52,2","41,3",.,.,.,.,46,"15,2","58,7","26,1",.,.,.,.,2018
+Ankarsrums skola 7-9,72904597,Västervik,0883,Kommunal,Västervik,2120000779,25,"12,0","68,0","20,0",.,.,.,.,25,.,"72,0","28,0",.,.,.,.,2018
+Ellen Keyskolan RO1,95812326,Västervik,0883,Kommunal,Västervik,2120000779,47,"4,3","61,7","34,0",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Ellen Keyskolan RO2,93189549,Västervik,0883,Kommunal,Västervik,2120000779,57,"19,3","52,6","28,1",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Ludvigsborgsskolan,16547623,Västervik,0883,Kommunal,Västervik,2120000779,73,"16,4","60,3","23,3",.,.,.,.,59,"6,8","79,7","13,6",.,.,.,.,2018
+Östra Ringskolan,18058977,Västervik,0883,Kommunal,Västervik,2120000779,70,"2,9","61,4","35,7",.,.,.,.,75,"2,7","88,0","9,3",.,.,.,.,2018
+Apalbyskolan,89379865,Västerås,1980,Kommunal,Västerås,2120002080,34,"11,8","58,8","29,4",.,.,.,.,37,.,"86,5","13,5",.,.,.,.,2018
+Centuriaskolan,83896681,Västerås,1980,Enskild,021 Skol AB,5568373228,22,"27,3","68,2","4,5",.,.,.,.,22,"4,5","90,9","4,5",.,.,.,.,2018
+Entréskolan Västerås,77743622,Västerås,1980,Enskild,AmiSgo AB,5568148117,15,.,"66,7","33,3",.,.,.,.,16,"6,3","68,8","25,0",.,.,.,.,2018
+Fryxellska skolan,73093445,Västerås,1980,Enskild,Stiftelsen Fryx,8780016211,138,"11,6","49,3","39,1",.,.,.,.,132,"9,8","70,5","19,7",.,.,.,.,2018
+Internationella Engelska Skolan Västerås,46042136,Västerås,1980,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,107,"12,1","50,5","37,4",.,.,.,.,123,"15,4","65,0","19,5",17,.,"41,2","58,8",2018
+Irstaskolan,61002601,Västerås,1980,Kommunal,Västerås,2120002080,76,"1,3","71,1","27,6",.,.,.,.,80,"2,5","85,0","12,5",.,.,.,.,2018
+JENSEN grundskola Västerås,44284183,Västerås,1980,Enskild,Jensen Education College AB,5566358759,59,"18,6","61,0","20,3",.,.,.,.,60,"5,0","86,7","8,3",.,.,.,.,2018
+Kristiansborgsskolan,65736810,Västerås,1980,Kommunal,Västerås,2120002080,116,"27,6","40,5","31,9",.,.,.,.,120,"26,7","65,8","7,5",.,.,.,.,2018
+Kunskapsskolan Västerås,30576881,Västerås,1980,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,63,"4,8","68,3","27,0",.,.,.,.,65,"21,5","67,7","10,8",.,.,.,.,2018
+Nybyggeskolan,69664897,Västerås,1980,Kommunal,Västerås,2120002080,116,"4,3","47,4","48,3",.,.,.,.,152,"7,9","75,7","16,4",43,"4,7","58,1","37,2",2018
+Persboskolan,10453232,Västerås,1980,Kommunal,Västerås,2120002080,45,.,"66,7","33,3",.,.,.,.,50,"4,0","80,0","16,0",.,.,.,.,2018
+Pettersbergsskolan,66142210,Västerås,1980,Kommunal,Västerås,2120002080,25,"4,0","64,0","32,0",.,.,.,.,50,"22,0","72,0","6,0",26,"3,8","53,8","42,3",2018
+Pilträdsskolan,81265119,Västerås,1980,Enskild,Stiftelsen Källan,8780019090,17,"11,8","29,4","58,8",.,.,.,.,21,"9,5","90,5",.,.,.,.,.,2018
+Rotundaskolan,80009811,Västerås,1980,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,41,"2,4","34,1","63,4",.,.,.,.,47,"12,8","55,3","31,9",.,.,.,.,2018
+Rönnbyskolan,99408329,Västerås,1980,Kommunal,Västerås,2120002080,46,.,"80,4","19,6",.,.,.,.,45,.,"2,2","97,8",.,.,.,.,2018
+Skiljeboskolan,77449846,Västerås,1980,Kommunal,Västerås,2120002080,.,.,.,.,.,.,.,.,.,.,.,.,25,.,"16,0","84,0",2018
+Skälbyskolan,50095535,Västerås,1980,Enskild,CK Utbildning AB,5569081150,45,"4,4","53,3","42,2",.,.,.,.,47,"8,5","76,6","14,9",.,.,.,.,2018
+Tillbergaskolan,33439128,Västerås,1980,Kommunal,Västerås,2120002080,57,"19,3","64,9","15,8",.,.,.,.,60,"23,3","71,7","5,0",.,.,.,.,2018
+Viksängsskolan,35110948,Västerås,1980,Kommunal,Västerås,2120002080,154,"15,6","55,2","29,2",.,.,.,.,165,"8,5","72,1","19,4",.,.,.,.,2018
+Önstaskolan,84998800,Västerås,1980,Kommunal,Västerås,2120002080,85,"16,5","35,3","48,2",.,.,.,.,85,"16,5","68,2","15,3",.,.,.,.,2018
+Braås skola,40283052,Växjö,0780,Kommunal,Växjö,2120000662,39,"12,8","43,6","43,6",.,.,.,.,39,"20,5","76,9","2,6",.,.,.,.,2018
+Fagrabäckskolan,29751275,Växjö,0780,Kommunal,Växjö,2120000662,199,"15,6","60,8","23,6",.,.,.,.,223,"16,1","75,3","8,5",27,"14,8","66,7","18,5",2018
+Kronoberg Skola,44785862,Växjö,0780,Enskild,Kronoberg Skola Aktiebolag,5566102033,92,"14,1","63,0","22,8",.,.,.,.,93,"18,3","78,5","3,2",.,.,.,.,2018
+Lammhults skola,57569623,Växjö,0780,Kommunal,Växjö,2120000662,36,"16,7","69,4","13,9",.,.,.,.,45,"35,6","57,8","6,7",.,.,.,.,2018
+Norregårdskolan,12286029,Växjö,0780,Kommunal,Växjö,2120000662,138,"4,3","56,5","39,1",.,.,.,.,170,"24,1","67,6","8,2",31,"9,7","74,2","16,1",2018
+Pär Lagerkvistskolan 7-9,18116804,Växjö,0780,Kommunal,Växjö,2120000662,118,"11,9","47,5","40,7",.,.,.,.,125,"20,0","71,2","8,8",.,.,.,.,2018
+Ringsbergsskolan,65161034,Växjö,0780,Kommunal,Växjö,2120000662,20,"45,0","45,0","10,0",.,.,.,.,19,"42,1","57,9",.,.,.,.,.,2018
+Teleborg Centrum,72833305,Växjö,0780,Kommunal,Växjö,2120000662,138,"15,9","66,7","17,4",.,.,.,.,151,"11,3","78,8","9,9",.,.,.,.,2018
+Thoren Framtid i Växjö,69600902,Växjö,0780,Enskild,Thoren Framtid AB,5567497051,.,.,.,.,.,.,.,.,92,"19,6","72,8","7,6",.,.,.,.,2018
+Växjö Internationella Grundskola 7-9,20002379,Växjö,0780,Enskild,Lacko Internationella Grundskola AB,5568111123,22,"45,5","45,5","9,1",.,.,.,.,23,"43,5","43,5","13,0",.,.,.,.,2018
+Ydreskolan 2,61662490,Ydre,0512,Kommunal,Ydre,2120000381,36,.,"86,1","13,9",.,.,.,.,37,.,"97,3","2,7",.,.,.,.,2018
+Kunskapsskolan Ystad,58980145,Ystad,1286,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,73,"12,3","53,4","34,2",.,.,.,.,81,"22,2","75,3","2,5",.,.,.,.,2018
+Norreportskolan,89680009,Ystad,1286,Kommunal,Ystad,2120001181,134,"19,4","64,9","15,7",.,.,.,.,145,"20,7","79,3",.,15,"6,7","53,3","40,0",2018
+Änga/Västervångskolan,48813389,Ystad,1286,Kommunal,Ystad,2120001181,111,"9,0","66,7","24,3",.,.,.,.,117,"14,5","70,9","14,5",.,.,.,.,2018
+Kristinebergskolan 1,57530972,Åmål,1492,Kommunal,Åmål,2120001587,44,"6,8","54,5","38,6",.,.,.,.,47,"14,9","61,7","23,4",.,.,.,.,2018
+Kristinebergskolan 2,60891289,Åmål,1492,Kommunal,Åmål,2120001587,87,"2,3","57,5","40,2",.,.,.,.,100,.,"78,0","22,0",.,.,.,.,2018
+Fränstaskolan,17514337,Ånge,2260,Kommunal,Ånge,2120002387,34,"8,8","58,8","32,4",.,.,.,.,34,.,"85,3","14,7",.,.,.,.,2018
+Minervaskolan,43954518,Ånge,2260,Kommunal,Ånge,2120002387,45,"17,8","51,1","31,1",.,.,.,.,52,"11,5","69,2","19,2",.,.,.,.,2018
+Duveds skola F-9,53536862,Åre,2321,Kommunal,Åre,2120002494,38,"13,2","50,0","36,8",.,.,.,.,41,"58,5","41,5",.,.,.,.,.,2018
+Mörsils skola F-9,99830430,Åre,2321,Kommunal,Åre,2120002494,52,"7,7","69,2","23,1",.,.,.,.,64,"28,1","54,7","17,2",.,.,.,.,2018
+Nordmarkens skola H,55304171,Årjäng,1765,Kommunal,Årjäng,2120001835,98,"8,2","48,0","43,9",.,.,.,.,110,"8,2","70,0","21,8",.,.,.,.,2018
+Åsele Centralskola åk 1 - 9,43833784,Åsele,2463,Kommunal,Åsele,2120002791,27,"11,1","81,5","7,4",.,.,.,.,26,"3,8","96,2",.,.,.,.,.,2018
+Björnekullaskolan,97128428,Åstorp,1277,Kommunal,Åstorp,2120000936,.,.,.,.,.,.,.,.,118,"7,6","76,3","16,1",.,.,.,.,2018
+Hyllinge skola,11662899,Åstorp,1277,Kommunal,Åstorp,2120000936,41,"9,8","56,1","34,1",.,.,.,.,48,"12,5","62,5","25,0",.,.,.,.,2018
+Alléskolan  7-9,56528690,Åtvidaberg,0561,Kommunal,Åtvidaberg,2120000415,103,"18,4","60,2","21,4",.,.,.,.,112,"18,8","81,3",.,.,.,.,.,2018
+Linnéskolan 1,53191534,Älmhult,0765,Kommunal,Älmhult,2120000647,47,.,"68,1","31,9",.,.,.,.,.,.,.,.,16,.,"75,0","25,0",2018
+Linnéskolan 2,66184918,Älmhult,0765,Kommunal,Älmhult,2120000647,52,"11,5","53,8","34,6",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Thoren Framtid i Älmhult,84756527,Älmhult,0765,Enskild,Thoren Framtid AB,5567497051,22,"13,6","27,3","59,1",.,.,.,.,24,.,"75,0","25,0",.,.,.,.,2018
+Strandskolan,81918902,Älvdalen,2039,Kommunal,Älvdalen,2120002197,.,.,.,.,.,.,.,.,17,"11,8","64,7","23,5",.,.,.,.,2018
+Älvdalsskolan,88076955,Älvdalen,2039,Kommunal,Älvdalen,2120002197,58,"12,1","43,1","44,8",.,.,.,.,57,"12,3","57,9","29,8",.,.,.,.,2018
+Rotskärsskolan 6-9,96982474,Älvkarleby,0319,Kommunal,Älvkarleby,2120000258,57,"8,8","64,9","26,3",.,.,.,.,62,"14,5","61,3","24,2",.,.,.,.,2018
+Älvboda friskola,74070812,Älvkarleby,0319,Enskild,Friskolan i Skutskär Ekonomisk Förening,7696039135,35,"2,9","85,7","11,4",.,.,.,.,38,"2,6","63,2","34,2",.,.,.,.,2018
+Älvåkraskolan,32970785,Älvsbyn,2560,Kommunal,Älvsbyn,2120002734,39,"15,4","48,7","35,9",.,.,.,.,18,"33,3","55,6","11,1",.,.,.,.,2018
+Kungsgårdsskolan Ro 1,51900988,Ängelholm,1292,Kommunal,Ängelholm,2120000977,102,"11,8","75,5","12,7",.,.,.,.,122,"33,6","64,8","1,6",17,"17,6","35,3","47,1",2018
+Magnarps skola Ro 1,49455969,Ängelholm,1292,Kommunal,Ängelholm,2120000977,32,"15,6","56,3","28,1",.,.,.,.,32,"25,0","68,8","6,3",.,.,.,.,2018
+Nyhemsskolan Ro 1,49730992,Ängelholm,1292,Kommunal,Ängelholm,2120000977,110,"17,3","60,9","21,8",.,.,.,.,120,"53,3","45,8","0,8",.,.,.,.,2018
+Strövelstorps skola Ro 1,34909954,Ängelholm,1292,Kommunal,Ängelholm,2120000977,39,"2,6","61,5","35,9",.,.,.,.,40,"10,0","80,0","10,0",.,.,.,.,2018
+Söndrebalgs skola,53600648,Ängelholm,1292,Kommunal,Ängelholm,2120000977,29,"6,9","82,8","10,3",.,.,.,.,33,"3,0","84,8","12,1",.,.,.,.,2018
+Toftaskolan,51497405,Ängelholm,1292,Kommunal,Ängelholm,2120000977,74,"8,1","39,2","52,7",.,.,.,.,75,"10,7","78,7","10,7",.,.,.,.,2018
+Betelskolan,65677988,Öckerö,1407,Enskild,Betelförsamlingens Skolstiftelse,8024250972,17,.,"17,6","82,4",.,.,.,.,17,"5,9","64,7","29,4",.,.,.,.,2018
+Brattebergsskolan,85862849,Öckerö,1407,Kommunal,Öckerö,2120001280,66,.,"78,8","21,2",.,.,.,.,66,.,"83,3","16,7",.,.,.,.,2018
+Hedens skola 7-9,92940771,Öckerö,1407,Kommunal,Öckerö,2120001280,63,"7,9","79,4","12,7",.,.,.,.,66,"3,0","83,3","13,6",.,.,.,.,2018
+Lysingskolan,34255565,Ödeshög,0509,Kommunal,Ödeshög,2120000373,44,"20,5","63,6","15,9",.,.,.,.,52,"11,5","78,8","9,6",.,.,.,.,2018
+Adolfsbergsskolan 7-9,47684564,Örebro,1880,Kommunal,Örebro,2120001967,125,"12,8","72,0","15,2",.,.,.,.,128,"17,2","75,8","7,0",.,.,.,.,2018
+Almby skola 7-9,22049573,Örebro,1880,Kommunal,Örebro,2120001967,56,"10,7","62,5","26,8",.,.,.,.,88,"6,8","77,3","15,9",33,"15,2","66,7","18,2",2018
+Alsalam,99730324,Örebro,1880,Enskild,Al-Risalah Skandinaviska Stiftelse,8750037080,.,.,.,.,.,.,.,.,18,"11,1","66,7","22,2",.,.,.,.,2018
+Engelbrektsskolan,82807694,Örebro,1880,Kommunal,Örebro,2120001967,140,"6,4","65,7","27,9",.,.,.,.,145,"13,8","80,7","5,5",.,.,.,.,2018
+Grenadjärskolan,36409468,Örebro,1880,Enskild,Stiftelsen Grenadjärskolan,8750024062,.,.,.,.,.,.,.,.,16,.,"100,0",.,.,.,.,.,2018
+Gumaeliusskolan,74902204,Örebro,1880,Kommunal,Örebro,2120001967,141,"19,1","61,7","19,1",.,.,.,.,.,.,.,.,25,"8,0","76,0","16,0",2018
+Hannaskolan,13390547,Örebro,1880,Enskild,Stiftelsen Hannaskolan,8750023650,27,"3,7","55,6","40,7",.,.,.,.,27,"18,5","59,3","22,2",.,.,.,.,2018
+Internationella Engelska Skolan Örebro,23908629,Örebro,1880,Enskild,Internationella Engelska Skolan i Sverige AB,5564624368,102,"12,7","50,0","37,3",.,.,.,.,123,"8,9","82,1","8,9",.,.,.,.,2018
+JENSEN grundskola Örebro,94248837,Örebro,1880,Enskild,Jensen Education College AB,5566358759,.,.,.,.,.,.,.,.,50,"12,0","44,0","44,0",.,.,.,.,2018
+Johannaskolan Örebro Waldorfskola,11909268,Örebro,1880,Enskild,Stiftelsen Johannaskolan Örebro Waldorfskola,8750013859,21,"9,5","85,7","4,8",.,.,.,.,21,"4,8","81,0","14,3",.,.,.,.,2018
+Kunskapsskolan Örebro,76018506,Örebro,1880,Enskild,Kunskapsskolan i Sverige Aktiebolag,5565661815,98,"3,1","82,7","14,3",.,.,.,.,103,"10,7","82,5","6,8",.,.,.,.,2018
+Lillåns skola 7-9,84774734,Örebro,1880,Kommunal,Örebro,2120001967,116,"37,9","47,4","14,7",.,.,.,.,117,"51,3","47,9","0,9",.,.,.,.,2018
+Mellringeskolan 7-9,26290434,Örebro,1880,Kommunal,Örebro,2120001967,90,"14,4","55,6","30,0",.,.,.,.,105,"26,7","67,6","5,7",.,.,.,.,2018
+Navet,12248380,Örebro,1880,Kommunal,Örebro,2120001967,22,"9,1","36,4","54,5",.,.,.,.,42,"16,7","78,6","4,8",.,.,.,.,2018
+Odenskolan,66382532,Örebro,1880,Kommunal,Örebro,2120001967,52,"5,8","80,8","13,5",.,.,.,.,56,"12,5","80,4","7,1",.,.,.,.,2018
+Olaus Petriskolan 7-9,94395043,Örebro,1880,Kommunal,Örebro,2120001967,54,"13,0","38,9","48,1",.,.,.,.,58,"22,4","74,1","3,4",.,.,.,.,2018
+Viktoriaskolan,19742982,Örebro,1880,Enskild,Brickebergskyrkans Skolstiftelse,8750034491,19,"5,3","52,6","42,1",.,.,.,.,18,"44,4","55,6",.,.,.,.,.,2018
+Vivallaskolan 7-9,57981090,Örebro,1880,Kommunal,Örebro,2120001967,.,.,.,.,.,.,.,.,60,"26,7","55,0","18,3",60,"13,3","68,3","18,3",2018
+Västra Engelbrektsskolan,57966953,Örebro,1880,Kommunal,Örebro,2120001967,15,"6,7","60,0","33,3",.,.,.,.,36,"19,4","63,9","16,7",21,"4,8","76,2","19,0",2018
+Kungsskolan,45558673,Örkelljunga,1257,Kommunal,Örkelljunga,2120000878,86,"5,8","68,6","25,6",.,.,.,.,96,"9,4","80,2","10,4",.,.,.,.,2018
+Alneskolan 5-9,38278821,Örnsköldsvik,2284,Kommunal,Örnsköldsvik,2120002445,39,"7,7","71,8","20,5",.,.,.,.,39,"10,3","87,2","2,6",.,.,.,.,2018
+Bjästaskolan 7-9,56331671,Örnsköldsvik,2284,Kommunal,Örnsköldsvik,2120002445,71,"11,3","69,0","19,7",.,.,.,.,72,"8,3","69,4","22,2",.,.,.,.,2018
+Björnaskolan,24396451,Örnsköldsvik,2284,Kommunal,Örnsköldsvik,2120002445,.,.,.,.,.,.,.,.,27,"7,4","77,8","14,8",.,.,.,.,2018
+Bredbynskolan,51597705,Örnsköldsvik,2284,Kommunal,Örnsköldsvik,2120002445,39,"23,1","64,1","12,8",.,.,.,.,43,"20,9","74,4","4,7",.,.,.,.,2018
+Broskolan Ö-viks Kristna skola,32866578,Örnsköldsvik,2284,Enskild,Broskolan AB,5567091391,17,"47,1","41,2","11,8",.,.,.,.,17,"11,8","70,6","17,6",.,.,.,.,2018
+Geneskolan,87606101,Örnsköldsvik,2284,Kommunal,Örnsköldsvik,2120002445,111,"12,6","69,4","18,0",.,.,.,.,114,"8,8","78,1","13,2",.,.,.,.,2018
+Husumskolan,33732345,Örnsköldsvik,2284,Kommunal,Örnsköldsvik,2120002445,35,.,"71,4","28,6",.,.,.,.,39,"2,6","74,4","23,1",.,.,.,.,2018
+Höglandskolan 4-9,32227381,Örnsköldsvik,2284,Kommunal,Örnsköldsvik,2120002445,48,"8,3","66,7","25,0",.,.,.,.,48,"31,3","58,3","10,4",.,.,.,.,2018
+Själevadskolan 7-9,49933363,Örnsköldsvik,2284,Kommunal,Örnsköldsvik,2120002445,65,"16,9","64,6","18,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Sörlidenskolan 7-9,46859731,Örnsköldsvik,2284,Kommunal,Örnsköldsvik,2120002445,15,"26,7","46,7","26,7",.,.,.,.,.,.,.,.,17,"5,9","64,7","29,4",2018
+Friggaskolan,58922041,Östersund,2380,Enskild,Pysslingen Förskolor och Skolor AB,5560354309,41,"17,1","70,7","12,2",.,.,.,.,43,"14,0","74,4","11,6",.,.,.,.,2018
+Kastalskolan,34895088,Östersund,2380,Kommunal,Östersund,2120002528,61,"13,1","50,8","36,1",.,.,.,.,62,"12,9","82,3","4,8",.,.,.,.,2018
+Lugnviksskolan,69758750,Östersund,2380,Kommunal,Östersund,2120002528,22,.,"72,7","27,3",.,.,.,.,21,.,"95,2","4,8",.,.,.,.,2018
+Parkskolan 2,68826164,Östersund,2380,Kommunal,Östersund,2120002528,54,"9,3","63,0","27,8",.,.,.,.,61,"14,8","68,9","16,4",20,"10,0","55,0","35,0",2018
+"Prolympia, Östersund",16858929,Östersund,2380,Enskild,Ulno AB,5566577705,65,"16,9","70,8","12,3",.,.,.,.,63,"1,6","93,7","4,8",.,.,.,.,2018
+Storsjöskolan,95233985,Östersund,2380,Kommunal,Östersund,2120002528,72,"1,4","69,4","29,2",.,.,.,.,72,"6,9","80,6","12,5",.,.,.,.,2018
+Torvallaskolan,56710032,Östersund,2380,Kommunal,Östersund,2120002528,36,"5,6","72,2","22,2",.,.,.,.,55,"7,3","74,5","18,2",16,.,"68,8","31,3",2018
+Treälvsskolan 7-9,76664723,Östersund,2380,Kommunal,Östersund,2120002528,37,"8,1","40,5","51,4",.,.,.,.,39,"10,3","69,2","20,5",.,.,.,.,2018
+Vallaskolan 7-9,85145566,Östersund,2380,Kommunal,Östersund,2120002528,52,"13,5","67,3","19,2",.,.,.,.,50,"14,0","80,0","6,0",.,.,.,.,2018
+Östbergsskolan 6-9,74981470,Östersund,2380,Kommunal,Östersund,2120002528,58,"27,6","62,1","10,3",.,.,.,.,59,"13,6","76,3","10,2",.,.,.,.,2018
+Akers friskola F-9,10715898,Österåker,0117,Enskild,Österåkers Friskola AB,5565895777,25,"32,0","68,0",.,.,.,.,.,25,"16,0","72,0","12,0",.,.,.,.,2018
+Fredsborgskolan,43869172,Österåker,0117,Enskild,Lära i Österåker AB,5567317416,74,"14,9","64,9","20,3",.,.,.,.,75,"6,7","84,0","9,3",.,.,.,.,2018
+Röllingbyskolan,12407147,Österåker,0117,Kommunal,Österåker,2120002890,50,"2,0","54,0","44,0",.,.,.,.,52,"5,8","88,5","5,8",.,.,.,.,2018
+Skärgårdsstadsskolan,73272488,Österåker,0117,Kommunal,Österåker,2120002890,45,.,"91,1","8,9",.,.,.,.,47,"6,4","93,6",.,.,.,.,.,2018
+Solskiftesskolan,82624830,Österåker,0117,Kommunal,Österåker,2120002890,54,"5,6","31,5","63,0",.,.,.,.,65,"16,9","81,5","1,5",.,.,.,.,2018
+Söraskolan,88712672,Österåker,0117,Kommunal,Österåker,2120002890,70,"1,4","48,6","50,0",.,.,.,.,73,.,"53,4","46,6",.,.,.,.,2018
+Tråsättraskolan,51305351,Österåker,0117,Kommunal,Österåker,2120002890,86,"1,2","59,3","39,5",.,.,.,.,96,"1,0","85,4","13,5",.,.,.,.,2018
+Frösåkersskolan,98029852,Östhammar,0382,Kommunal,Östhammar,2120000290,65,"9,2","60,0","30,8",.,.,.,.,66,"12,1","69,7","18,2",.,.,.,.,2018
+Olandsskolan F-9,90876801,Östhammar,0382,Kommunal,Östhammar,2120000290,50,"14,0","58,0","28,0",.,.,.,.,51,"15,7","76,5","7,8",.,.,.,.,2018
+Vallonskolan,31047050,Östhammar,0382,Kommunal,Östhammar,2120000290,.,.,.,.,.,.,.,.,46,.,"67,4","32,6",.,.,.,.,2018
+Österbyskolan,57548666,Östhammar,0382,Kommunal,Östhammar,2120000290,19,"26,3","57,9","15,8",.,.,.,.,20,"35,0","60,0","5,0",.,.,.,.,2018
+Färe Montessoriskola,26599013,Östra Göinge,1256,Enskild,Skolföreningen Växthuset Ekonomisk Förening,7696004154,16,"6,3","56,3","37,5",.,.,.,.,.,.,.,.,.,.,.,.,2018
+Göingeskolan,84902434,Östra Göinge,1256,Kommunal,Östra Göinge,2120000860,60,"3,3","65,0","31,7",.,.,.,.,83,"6,0","80,7","13,3",28,"3,6","92,9","3,6",2018
+Snapphaneskolan,81683738,Östra Göinge,1256,Kommunal,Östra Göinge,2120000860,44,"22,7","56,8","20,5",.,.,.,.,57,"7,0","80,7","12,3",15,"6,7","80,0","13,3",2018
+Strandskolan,50308658,Överkalix,2513,Kommunal,Överkalix,2120002684,23,.,"100,0",.,.,.,.,.,34,.,"73,5","26,5",.,.,.,.,2018
+Svarträvens skola 4-9,18991431,Övertorneå,2518,Kommunal,Övertorneå,2120002700,20,"5,0","50,0","45,0",.,.,.,.,26,.,"100,0",.,.,.,.,.,2018
