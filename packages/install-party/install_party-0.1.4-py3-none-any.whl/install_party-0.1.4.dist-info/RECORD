@@ -1,0 +1,10 @@
+install_party/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+install_party/__main__.py,sha256=_UN0yOad_pQzDJM-grInhuTLG5sC-9O8ATfnZtdnlAQ,597
+install_party/creator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+install_party/creator/create.py,sha256=M1ECg6eLJGFH2vtt-LJJFt-gAyQaVtZm1p87FyFPmwE,5410
+install_party-0.1.4.data/data/scripts/post_create.sh,sha256=g7VD_Rm5IioaDNyopGsqEQMtbOd1X2yUMfr_-uV9xhI,1358
+install_party-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+install_party-0.1.4.dist-info/METADATA,sha256=6SwfqkA0gF5E7BpFmwiFtd6SpKr8ZSTDkQ7zpuK1cds,3668
+install_party-0.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+install_party-0.1.4.dist-info/top_level.txt,sha256=GUpDn9xVGIQtA1U9saRBO97TYsfOii8QtRHDpAWm8E0,14
+install_party-0.1.4.dist-info/RECORD,,
