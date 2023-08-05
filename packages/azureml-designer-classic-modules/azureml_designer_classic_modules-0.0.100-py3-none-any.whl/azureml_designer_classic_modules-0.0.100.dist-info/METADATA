@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: azureml-designer-classic-modules
+Version: 0.0.100
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Microsoft Crop
+License: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: scikit-learn (==0.20.3)
+Requires-Dist: pandas (==0.24.1)
+Requires-Dist: numpy (==1.16.2)
+Requires-Dist: jsonschema (==3.0.1)
+Requires-Dist: scipy (==1.2.1)
+Requires-Dist: pyarrow (==0.12.1)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: distro (==1.4.0)
+Requires-Dist: azure-storage-blob (==1.5.0)
+Requires-Dist: pycryptodomex (==3.7.3)
+Requires-Dist: lightgbm (==2.2.3)
+Requires-Dist: more-itertools (==6.0.0)
+Requires-Dist: nimbusml (==1.2.0)
+Requires-Dist: imbalanced-learn (==0.4.3)
+Requires-Dist: ruamel.yaml (==0.15.89)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: azureml-designer-internal (==0.0.6.*)
+
+UNKNOWN
+
+
