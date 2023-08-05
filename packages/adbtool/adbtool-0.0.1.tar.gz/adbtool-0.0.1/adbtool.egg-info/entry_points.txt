@@ -1,0 +1,3 @@
+[console_scripts]
+adbt = adbtool.adbtool:main
+
