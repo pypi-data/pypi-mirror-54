@@ -1,0 +1,14 @@
+sysapi/__init__.py,sha256=naX7qQe1n08r7K3sTLnk0nq21k7IpVUZVhSuNSFXri4,21
+sysapi/backend.py,sha256=LWCfmt3WT5PpyjcV5c6IRcfhtqLN9a6JczI1sTsnG5E,7771
+sysapi/file.py,sha256=_KK5RorFENkBpKuzTTW5f6B-5dAbDvvg82FOZptwEpM,777
+sysapi/main.py,sha256=PqBJNIZfw4bLU-XH-wOzdgKpoN0XU2Wg66iECTxpoHo,7135
+sysapi/snapshot.py,sha256=6PA8aKbEMBRXrNPBSL1Sijp2MQhBW7L0SR7qCe_spYc,841
+sysapi/user.py,sha256=s1MdkM37XjrtT60YrKUJohXogYzgFLs-4uezWxf3L2k,1482
+sysapi/zfilesystem.py,sha256=lmKp7zXBSL2MxSehyPz4zMn5sbJGgiS-UwPUH8PuIIk,71
+sysapi-0.0.10.data/data/config.json,sha256=JZOurmOPyTZ2bq0SlIWTbHCs9Dk3_Bd34OYk-pHFALk,4820
+sysapi-0.0.10.data/data/params.json,sha256=t8BxlIBjwXSmYrTar4yN8-gH3tMq-IWcgzFWGOZHJek,112
+sysapi-0.0.10.data/scripts/cleanup.sh,sha256=iCH37eo1cDudJZr0EBMRXRclzi14pZU9PuHdSPcz_s4,472
+sysapi-0.0.10.dist-info/METADATA,sha256=AV1LxgbN0okLyPNYMzc_B5TSLGPhyJJl-xRILSqEaNU,4409
+sysapi-0.0.10.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sysapi-0.0.10.dist-info/top_level.txt,sha256=WAl3H77V4IZ9i8nQjTdGtDr0AasGfI9A8-RxDcaG_zM,7
+sysapi-0.0.10.dist-info/RECORD,,
