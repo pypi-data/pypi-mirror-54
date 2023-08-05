@@ -1,0 +1,9 @@
+README.md
+setup.py
+vivid/root/__init__.py
+vivid_root.egg-info/PKG-INFO
+vivid_root.egg-info/SOURCES.txt
+vivid_root.egg-info/dependency_links.txt
+vivid_root.egg-info/requires.txt
+vivid_root.egg-info/top_level.txt
+vivid_root.egg-info/zip-safe
