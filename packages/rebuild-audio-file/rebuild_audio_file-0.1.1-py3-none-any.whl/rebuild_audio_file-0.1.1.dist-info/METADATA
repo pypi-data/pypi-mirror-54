@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: rebuild-audio-file
+Version: 0.1.1
+Summary: Losslessly rebuild audio files.
+Home-page: https://github.com/mvasilkov/python-rebuild-audio-file
+Author: Mark Vasilkov
+Author-email: mvasilkov@gmail.com
+License: MIT
+Keywords: ffmpeg flac lame lossless mp3
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Sound/Audio
+Description-Content-Type: text/markdown
+Requires-Dist: colorama (>=0.4.0)
+Requires-Dist: compare-mp3 (>=0.1.1)
+Requires-Dist: get-video-properties (>=0.1.1)
+Requires-Dist: mutagen (>=1.41.1)
+
+python-rebuild-audio-file
+===
+
+Losslessly rebuild audio files.
+
+Installation
+---
+
+```sh
+pip install -U rebuild-audio-file
+```
+
+Command-line usage
+---
+
+```sh
+raf existing.mp3 new.mp3
+raf existing.flac new.flac
+```
+
+Programmatic usage
+---
+
+```python
+from raf import rebuild_audio_file
+
+rebuild_audio_file('existing.mp3', 'new.mp3')
+rebuild_audio_file('existing.flac', 'new.flac')
+```
+
+
