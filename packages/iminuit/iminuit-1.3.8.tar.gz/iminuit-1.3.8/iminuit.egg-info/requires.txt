@@ -1,0 +1,7 @@
+numpy>=1.11.3
+
+[tests]
+pytest
+cython
+matplotlib
+scipy
