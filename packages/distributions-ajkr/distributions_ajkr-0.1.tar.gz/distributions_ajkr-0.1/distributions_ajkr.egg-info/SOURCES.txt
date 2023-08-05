@@ -1,0 +1,10 @@
+setup.py
+distributions_ajkr/Binomialdistribution.py
+distributions_ajkr/Gaussiandistribution.py
+distributions_ajkr/Generaldistribution.py
+distributions_ajkr/__init__.py
+distributions_ajkr.egg-info/PKG-INFO
+distributions_ajkr.egg-info/SOURCES.txt
+distributions_ajkr.egg-info/dependency_links.txt
+distributions_ajkr.egg-info/not-zip-safe
+distributions_ajkr.egg-info/top_level.txt
