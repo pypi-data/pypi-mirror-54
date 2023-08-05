@@ -1,0 +1,12 @@
+_awscrt.cp36-win32.pyd,sha256=g6PjHFTcmJInAc2LQZtUQMknczJsl7P62gfvziOVGkk,296960
+awscrt/__init__.py,sha256=IY3CpE9OTJSa7zWalBjs5WE3vJZsUVfkihy13FxKLmQ,1720
+awscrt/crypto.py,sha256=Zj7LEFs1By1PMN_m5ifg1EFp5AWc-xvALcqfcCijq74,1874
+awscrt/http.py,sha256=NQ7-FGZs5AmdgJvRlmFhsjcMbW_5eYOGXZ7T99YwPF8,10258
+awscrt/io.py,sha256=IbSIpcmV9f8Fq7Gpd5wWayfxVTFLs7S9Ed14oVhZ8AI,8194
+awscrt/mqtt.py,sha256=QlmaOUV57cts7Ty1e-G5mxyRmieAi7JB7NLh76lER2o,8987
+awscrt-0.3.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+awscrt-0.3.3.dist-info/METADATA,sha256=2WUbr718AczX9jRzUVZ1Sy3JjuUAOKm1vQO0vDCAcaQ,581
+awscrt-0.3.3.dist-info/NOTICE,sha256=MU2PoA9x6zCEtq8K2kZX52rxKUReK4Uxy5Z1pB8Uxn8,88
+awscrt-0.3.3.dist-info/WHEEL,sha256=25mKKGB1dKNtGpu-tcNwna84t79j4VoKRg-yfwe_z7M,102
+awscrt-0.3.3.dist-info/top_level.txt,sha256=OKWPyhBzx4Zp9ir_HPhQxhetfytyyQ24G3k6LlrLjEY,15
+awscrt-0.3.3.dist-info/RECORD,,
