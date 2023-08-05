@@ -1,0 +1,73 @@
+Metadata-Version: 1.2
+Name: graphdatamodel
+Version: 0.1.0
+Summary: Tool for modeling real world entities and relationships
+Home-page: https://github.com/AdvancedAndrewlytics/graphdatamodel
+Author: Andrew Damon-Smith
+Author-email: advancedandrewlytics@gmail.com
+License: MIT license
+Description: ==============
+        graphdatamodel
+        ==============
+        
+        
+        .. image:: https://img.shields.io/pypi/v/graphdatamodel.svg
+                :target: https://pypi.python.org/pypi/graphdatamodel
+        
+        .. image:: https://img.shields.io/travis/AdvancedAndrewlytics/graphdatamodel.svg
+                :target: https://travis-ci.org/AdvancedAndrewlytics/graphdatamodel
+        
+        .. image:: https://readthedocs.org/projects/graphdatamodel/badge/?version=latest
+                :target: https://graphdatamodel.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        .. image:: https://pyup.io/repos/github/AdvancedAndrewlytics/graphdatamodel/shield.svg
+             :target: https://pyup.io/repos/github/AdvancedAndrewlytics/graphdatamodel/
+             :alt: Updates
+        
+        
+        
+        Tool for modeling real world entities and relationships
+        
+        
+        * Free software: MIT license
+        * Documentation: https://graphdatamodel.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-10-20)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: graphdatamodel
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
