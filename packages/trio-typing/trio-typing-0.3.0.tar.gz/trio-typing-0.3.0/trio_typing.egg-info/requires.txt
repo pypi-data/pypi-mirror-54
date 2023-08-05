@@ -1,0 +1,6 @@
+trio>=0.12.1
+typing_extensions>=3.7.4
+mypy_extensions>=0.4.2
+
+[:implementation_name == "cpython"]
+mypy>=0.740
