@@ -1,0 +1,13 @@
+pandas
+geopandas
+rtree
+geofeather
+requests
+
+[dev]
+black
+pylint
+
+[test]
+pytest
+pytest-cov
