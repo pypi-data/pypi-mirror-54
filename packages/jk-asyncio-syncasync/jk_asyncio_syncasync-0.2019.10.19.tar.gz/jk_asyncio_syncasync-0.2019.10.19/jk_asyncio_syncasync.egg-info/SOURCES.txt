@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+jk_asyncio_syncasync/__init__.py
+jk_asyncio_syncasync/asyncio_sync.py
+jk_asyncio_syncasync.egg-info/PKG-INFO
+jk_asyncio_syncasync.egg-info/SOURCES.txt
+jk_asyncio_syncasync.egg-info/dependency_links.txt
+jk_asyncio_syncasync.egg-info/not-zip-safe
+jk_asyncio_syncasync.egg-info/top_level.txt
