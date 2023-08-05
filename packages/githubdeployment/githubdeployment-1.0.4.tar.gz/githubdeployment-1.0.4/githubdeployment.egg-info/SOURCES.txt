@@ -1,0 +1,12 @@
+README.md
+setup.py
+deployment/__init__.py
+deployment/github_requester.py
+deployment/json_loader.py
+deployment/main.py
+githubdeployment.egg-info/PKG-INFO
+githubdeployment.egg-info/SOURCES.txt
+githubdeployment.egg-info/dependency_links.txt
+githubdeployment.egg-info/requires.txt
+githubdeployment.egg-info/top_level.txt
+tests/__init__.py
