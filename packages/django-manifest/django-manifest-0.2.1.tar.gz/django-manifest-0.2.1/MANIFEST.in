@@ -1,0 +1,5 @@
+include README.md
+include LICENCE
+include docs/*
+include tests/*
+recursive-include manifest *
