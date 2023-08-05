@@ -1,0 +1,14 @@
+README.md
+setup.py
+dcdf/__init__.py
+dcdf/cli.py
+dcdf/data.py
+dcdf/measure.py
+dcdf/parallel-shared_memory.py
+dcdf/parallel.py
+dcdf.egg-info/PKG-INFO
+dcdf.egg-info/SOURCES.txt
+dcdf.egg-info/dependency_links.txt
+dcdf.egg-info/entry_points.txt
+dcdf.egg-info/requires.txt
+dcdf.egg-info/top_level.txt
