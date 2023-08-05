@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+zonda/pyzonda.egg-info/PKG-INFO
+zonda/pyzonda.egg-info/SOURCES.txt
+zonda/pyzonda.egg-info/dependency_links.txt
+zonda/pyzonda.egg-info/not-zip-safe
+zonda/pyzonda.egg-info/requires.txt
+zonda/pyzonda.egg-info/top_level.txt
