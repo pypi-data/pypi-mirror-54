@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: pandora-online
+Version: 0.1
+Summary: The Pandora Online Class Helper
+Home-page: http://github.com/vladimir1marchenko/pandora_oline
+Author: Vladimir Marchenko
+Author-email: vladimir1marchenko@gmail.com
+License: MIT
+Keywords: pandora pandect
+Platform: UNKNOWN
+Requires-Dist: json
+Requires-Dist: markdown
+Requires-Dist: requests
+
+Really, this class help for pro.p-on.ru requests.
+
+
