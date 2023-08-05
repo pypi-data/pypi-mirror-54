@@ -1,0 +1,8 @@
+[console_scripts]
+hr_little_api_action_callbacks = hr_little_api_examples.action_callbacks:main
+hr_little_api_actions = hr_little_api_examples.actions:main
+hr_little_api_custom_animations = hr_little_api_examples.custom_animations:main
+hr_little_api_functional_api = hr_little_api_examples.functional_api:main
+hr_little_api_functional_api_callbacks = hr_little_api_examples.functional_api_callbacks:main
+hr_little_api_sensors = hr_little_api_examples.sensors:main
+

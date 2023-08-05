@@ -1,0 +1,24 @@
+Metadata-Version: 1.2
+Name: hr_little_api
+Version: 19.10.1
+Summary: The Python API for controlling Hanson Robotics consumer robots
+Home-page: https://github.com/hansonrobotics/hr-little-api
+Author: Hanson Robotics Limited
+Author-email: info@hansonrobotics.com
+License: Apache License Version 2.0
+Download-URL: https://github.com/hansonrobotics/hr-little-api/v19.10.1.tar.gz
+Description: 
+        hr-little-api is the Python API for controlling Hanson Robotics consumer robots:
+        you can make your robot speak, walk and animate!
+        
+        Read the documentation here: https://github.com/hansonrobotics/hr-little-api
+        
+        hr-little-api is compatible with Python 3.6 and above and is distributed with 
+        the Apache 2.0 License.
+        
+Keywords: robotics,einstein,sophia,robot,AI
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
