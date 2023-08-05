@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: streamscrobbler3
+Version: 0.0.4
+Summary: A python class used on Dirble.com to get titles and bitrates on shoutcast and icecast streams
+Home-page: https://github.com/andreztz/streamscrobbler-python
+Author: Håkan Nylén
+Author-email: confacted@gmail.com
+License: UNKNOWN
+Keywords: shoutcast,icecast,stream,ICY
+Platform: UNKNOWN
+
+UNKNOWN
+
+
