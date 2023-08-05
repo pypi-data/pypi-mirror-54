@@ -1,0 +1,9 @@
+pdf_annot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf_annot/annotation.py,sha256=MWolD43IGoEGPTJr1VOXFFjqT1W9zvS19Z9Uh4GlXhg,1226
+pdf_annot/attach.py,sha256=2ez2WM4nmZ_ItsuvJh0b6TjJ-Boutq__ruZ9kOQ8oPI,2359
+pdf_annot/extract.py,sha256=kGi7EfbHZPAh2FRlgBEnpFh0BhHhTvCuYqqY-Kgp_Xs,1213
+pdf_annot-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pdf_annot-0.1.0.dist-info/METADATA,sha256=cTtil3PgS6Gfwb-DzKSXKXmOKun8iVGfgmO-gkASiU8,1681
+pdf_annot-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pdf_annot-0.1.0.dist-info/top_level.txt,sha256=CC08Y1pkgd-dQxU2ZNZB5C-5AVWU8E2a5XLprpJh6-c,10
+pdf_annot-0.1.0.dist-info/RECORD,,
