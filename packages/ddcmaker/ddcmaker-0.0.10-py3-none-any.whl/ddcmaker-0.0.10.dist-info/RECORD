@@ -1,0 +1,13 @@
+ddcmaker/CarMotor.py,sha256=hcNPuj8PFAcsT76EZrxwd9JbbZqZufDOPz7_sbu9c5I,1882
+ddcmaker/LSC_Client.py,sha256=nag1GTETur6JpD9VOZk2ePKc44wu0veQbtd6f2HpJBY,3104
+ddcmaker/__init__.py,sha256=h7L23UW0GQB1Z7madm5vOqVL52R5xo_JickC3F35NcU,6387
+ddcmaker/car.py,sha256=puPaXxC6naM783nlgxCREk_FV7YaJ8NDWuKbIWgykwU,895
+ddcmaker/getip_address.py,sha256=gsEIgt5N4r4tfy9emPtFPVOU5GWabO2hWokbQ8AMjZQ,2333
+ddcmaker/robot.py,sha256=EZ_YbxQMQF1aiT3S39OK8RgaYCYoBdkpI1hQeZa1QBY,4343
+ddcmaker/showlib.py,sha256=UZB2U-FJ1EGsa1Eq2EF56SzdYkzjir85gecRB4yJWXc,1117
+ddcmaker/voice.py,sha256=teWxBMbvbyHysCsAdHhDAvVCBN2ubpP0Mpnww76HA0I,533
+ddcmaker-0.0.10.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+ddcmaker-0.0.10.dist-info/METADATA,sha256=97qEL56WXSWPq5A_FoT7E4vnME2AKeoOU7s8bywkb34,770
+ddcmaker-0.0.10.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+ddcmaker-0.0.10.dist-info/top_level.txt,sha256=kicZEV2M5mzMaeyT4w8ClNoDTNkDJV6jPWwo1sbOf6o,9
+ddcmaker-0.0.10.dist-info/RECORD,,
