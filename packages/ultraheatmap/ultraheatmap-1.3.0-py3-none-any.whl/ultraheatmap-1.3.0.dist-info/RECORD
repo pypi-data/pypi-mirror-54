@@ -1,0 +1,17 @@
+ultraheatmap/__init__.py,sha256=zi_LaUT_OsChAtsPXbOeRpQkCohSsOyeXfavQPM0GoE,22
+ultraheatmap/addFeatureToMatrix.py,sha256=B3nIizrvJRj2v_2AKj54Q8iee5AfPwdMxVJ7V8C-jSM,5575
+ultraheatmap/computeMatrix.py,sha256=aPZuzs1v54W8cXViqF4rGO_HIgQri7icnUW-NqWnnNk,6595
+ultraheatmap/computeOrderedMatrix.py,sha256=OwEP8LmLi6772gdDo9bAysKSeKW2Uj_TuvDw_5C8b7E,10029
+ultraheatmap/mapClosestGenes.py,sha256=0DjKCFh0HzshCdRm-O8BUAZrLSfrfbgKvNyJ7ZlRSro,1243
+ultraheatmap/parseTables.py,sha256=WcyMHJ4Q79Wk2QPWucouZ1eUBy8NvoR29JVATUeNIU8,7638
+ultraheatmap/plotHeatMap.py,sha256=qonYsoDWrm9gPy_FQHDd9Jb3Omsi8cLFtECEBNSByHw,1577
+ultraheatmap/ultraheatmap_tools_list.py,sha256=m_lXtf4iaq0smWP3_yPRoKIukxsZLQKhgoqYhgWZkvM,661
+ultraheatmap/configs/computeOrderedMatrix.yaml,sha256=lezz33r9527Iw0rZcSmP6en5VXuwOx7qa2-9mL5cSuo,1186
+ultraheatmap-1.3.0.data/scripts/addFeatureToMatrix,sha256=EXldKe-sUUTxj_zvM_bakCouUCIFmjH72qc-L-9IYMQ,118
+ultraheatmap-1.3.0.data/scripts/computeOrderedMatrix,sha256=xS_gB7lcbqAwfJjL0G9ZV7f0AUIavow2ui7AOh024B8,121
+ultraheatmap-1.3.0.data/scripts/ultraheatmap,sha256=XFshWvNk9Zo-qnxNqcS7YBJI2YUsHu_VA5-gkOmipYo,123
+ultraheatmap-1.3.0.dist-info/LICENSE,sha256=nzpoRX8hU1L4T71HcZ1K3AyQD8OYj-f_OuoYQjRruoo,1110
+ultraheatmap-1.3.0.dist-info/METADATA,sha256=beaN9sBoA_oEKnbeka-aPilqEix7p4jixm_alqvGiMk,10671
+ultraheatmap-1.3.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ultraheatmap-1.3.0.dist-info/top_level.txt,sha256=BRVdvxXzQKatzN7gbiKD4LU5EnilYLKBOGwXgaI5jkc,13
+ultraheatmap-1.3.0.dist-info/RECORD,,
