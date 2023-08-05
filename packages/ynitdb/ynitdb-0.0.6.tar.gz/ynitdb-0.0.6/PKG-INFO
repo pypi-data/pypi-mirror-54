@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ynitdb
+Version: 0.0.6
+Summary: A tiny non-volatile dictionary handler for python
+Home-page: https://thevoxel.net/projects/ynitdb
+Author: Vorap
+Author-email: vorap@thevoxel.net
+License: GNU GPLv3
+Description: # ynitdb
+        [![Build Status](https://travis-ci.org/ParanoidVoxel/ynitdb.svg?branch=master)](https://travis-ci.org/ParanoidVoxel/ynitdb)
+        A tiny non-volatile dictionary handler for python
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
