@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: cognite-extractor-utils
+Version: 0.4.0
+Summary: Utilities for easier development of extractors for CDF
+Home-page: UNKNOWN
+Author: Mathias Lohne
+Author-email: mathias.lohne@cognite.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
