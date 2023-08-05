@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: k8t
+Version: 0.1.0
+Summary: Kubernetes templating engine based on Jinja2
+Home-page: https://github.com/ClarkSource/k8t
+Author: Aljosha Friemann
+Author-email: aljosha.friemann@clark.de
+License: UNKNOWN
+Keywords: kubernetes,jinja,multi-cluster,templating
+Platform: linux
+Classifier: Topic :: System :: Logging
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: Jinja2
+Requires-Dist: PyYAML
+Requires-Dist: simple-tools
+Requires-Dist: boto3
+Requires-Dist: coloredlogs
+Requires-Dist: termcolor
+
+UNKNOWN
+
+
