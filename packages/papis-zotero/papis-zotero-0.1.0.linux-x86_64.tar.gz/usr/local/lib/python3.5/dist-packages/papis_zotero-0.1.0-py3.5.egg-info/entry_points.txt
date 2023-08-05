@@ -1,0 +1,3 @@
+[papis.command]
+zotero = papis_zotero:main
+
