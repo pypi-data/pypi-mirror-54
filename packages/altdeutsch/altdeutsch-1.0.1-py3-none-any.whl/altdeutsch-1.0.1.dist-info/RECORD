@@ -1,0 +1,11 @@
+altdeutsch/__init__.py,sha256=WdRLna4-8wuoCmsmi3qjY1cdDkNzoZEZ7LYP_j5ByZc,65
+altdeutsch/reader.py,sha256=4QHyIQt0beTNE_44U9w9ICgzwmO8QD3VO6vv3aeR8V4,558
+altdeutsch/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+altdeutsch/tests/test_reader.py,sha256=6rfefLFUB3EWA5jqPXZx2jN06FJ8BfKc47Z-FrG6JMQ,778
+altdeutsch/tests/data/hildebrandslied.txt,sha256=rC1yJlMscRbMmailStrMgZxXEclXXcLs6aRcnoq1ig8,90427
+altdeutsch-1.0.1.dist-info/LICENSE,sha256=otSHM_SRLMw8yB8BKskIke_pfWOufTztD51fmQTQPeQ,1092
+altdeutsch-1.0.1.dist-info/METADATA,sha256=B4_VSPH-pm6KAnRthLRB39nLzSBlgJ4IuLSwemzzMM0,1486
+altdeutsch-1.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+altdeutsch-1.0.1.dist-info/top_level.txt,sha256=1MnprHHOSdT9UlV1ZOAs4q8dZksz0RkA_tugsj235JA,11
+altdeutsch-1.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+altdeutsch-1.0.1.dist-info/RECORD,,
