@@ -1,0 +1,30 @@
+exclude *.pyc *~ *.so .DS_Store
+
+include .bumpversion.cfg
+include .editorconfig
+include .gitignore
+include .landscape.yml
+include .travis.yml
+include appveyor.yml
+
+include ABOUT.md
+include CODE_OF_CONDUCT.md
+include COPYING.md
+include LICENSE.txt
+include README.md
+
+include Makefile
+include mypy.ini
+include pyproject.toml
+include pytype.cfg
+include setup.cfg
+include setup.py
+include tox.ini
+
+recursive-include clu *
+recursive-include requirements *.txt
+recursive-include tests *.py *.jpg *.png *.toml *.json
+
+recursive-exclude clu *.pyc *~ *.so .DS_Store
+recursive-exclude requirements *.pyc *~ *.so .DS_Store
+recursive-exclude tests *.pyc *~ *.so .DS_Store
