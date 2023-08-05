@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: gmlsnets-tensorflow
+Version: 0.1
+Summary: GMLS-Nets Tensorflow implementation
+Home-page: http://github.com/rgp62/gmls-nets
+Author: Ravi G. Patel and Nathaniel Trask
+Author-email: rgpatel@sandia.gov
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5

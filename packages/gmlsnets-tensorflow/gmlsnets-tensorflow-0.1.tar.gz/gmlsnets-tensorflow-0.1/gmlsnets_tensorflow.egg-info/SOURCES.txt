@@ -1,0 +1,10 @@
+README.md
+setup.py
+gmlsnets_tensorflow/__init__.py
+gmlsnets_tensorflow/bases.py
+gmlsnets_tensorflow/weightfuncs.py
+gmlsnets_tensorflow.egg-info/PKG-INFO
+gmlsnets_tensorflow.egg-info/SOURCES.txt
+gmlsnets_tensorflow.egg-info/dependency_links.txt
+gmlsnets_tensorflow.egg-info/requires.txt
+gmlsnets_tensorflow.egg-info/top_level.txt
