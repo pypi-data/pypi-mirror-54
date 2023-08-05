@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: bitpanda-secp256k1-hd-utils
+Version: 0.0.4
+Summary: Python tool for for tezos hd generation
+Home-page: https://github.com/bitpanda-labs/secp256k1-hd-utils
+Author: Oskar Hladky
+Author-email: oskyks1@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
