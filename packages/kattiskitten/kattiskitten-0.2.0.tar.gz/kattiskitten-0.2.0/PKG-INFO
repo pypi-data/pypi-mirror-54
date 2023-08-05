@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kattiskitten
+Version: 0.2.0
+Summary: Kattis CLI - Easily download, test and submit kattis problems
+Author: Felix Qvist
+Author-email: felix.qvist@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: beautifulsoup4 (==4.8.1)
+Requires-Dist: click (==7.0)
+Requires-Dist: colorful (==0.5.4)
+Requires-Dist: requests (==2.22.0)
