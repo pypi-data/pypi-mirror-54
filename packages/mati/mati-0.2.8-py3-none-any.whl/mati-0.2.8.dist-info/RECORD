@@ -1,0 +1,17 @@
+mati/__init__.py,sha256=RadCdheytfCO4e3dfo48Lfe92vQ5uvdmdvfRE1WIbk8,49
+mati/auth.py,sha256=abVHYQ95nZoj74mT3n-Pr3l_Pg9JeaXVOTCPZHzF7O8,279
+mati/client.py,sha256=pS9UenkmnLDttmYdhTBuVGp-U0sWPqmalHwObqHNlMk,2460
+mati/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mati/types.py,sha256=B3odKOC3BLG7Qdz8P12NFid-shvSsuOzeK1cUHqhlm0,1348
+mati/version.py,sha256=QWIWirBOt45pgsj6dnLblCL0rkl8uKveIK99R-aZMOY,42
+mati/resources/__init__.py,sha256=BMobPlNtW9_dF3Z2DrY8wqb-1VVqpR4Dea4hWFobrS4,306
+mati/resources/access_tokens.py,sha256=Xb0mFTaIaaW6dB2ffcy89ZuhdeqUsgvM9eksels16E8,1597
+mati/resources/base.py,sha256=ONRUoxTkNw-m67lgVn-gKzygpHZi_1OV43golxUK738,394
+mati/resources/identities.py,sha256=082O6Lf2hHgjYuOTP8ADqZb0fZPHBqMnqQevXMCmRks,1518
+mati/resources/user_verification_data.py,sha256=wK4B3JkcCpZSua-mdGB_4BbllmJDx58YVYqxMKYaHmE,2163
+mati/resources/verifications.py,sha256=aXCKYaoigIsMedniNEbOSyKqkSvAD0eHruqT7W_YkRc,1100
+mati-0.2.8.dist-info/LICENSE,sha256=9GQPE7kl6j7TtaughgZn1IypobZPB0y6CajRzcZQx2U,1063
+mati-0.2.8.dist-info/METADATA,sha256=GwJqIdtCln-pAB9hmPOIYwxVA-tv3IEMjFpm7N0EmFI,1779
+mati-0.2.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mati-0.2.8.dist-info/top_level.txt,sha256=hOL7O6TgJjUyxoykFaPvhbA6vEi_1VocQ3FL6MrLNRg,5
+mati-0.2.8.dist-info/RECORD,,
