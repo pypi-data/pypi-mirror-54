@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: wildflower-honeycomb-sdk
+Version: 0.7.2
+Summary: SDK for use with the Wildflower Honeycomb API
+Home-page: https://github.com/Wildflowerschools/py-honeycomb-sdk
+Author: optimuspaul
+Author-email: paul.decoursey@wildflowerschools.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto3 (==1.9.213)
+Requires-Dist: click (==7.0)
+Requires-Dist: gql (==0.1.0)
+Requires-Dist: Jinja2 (==2.10)
+Requires-Dist: PyYAML (==3.13)
+Requires-Dist: requests (==2.21.0)
+Requires-Dist: gqlpycgen (>=0.5.5)
+
+Provides uniform access to all aspects of the honeycomb API as well as a direct GraphQL interface for more complex queries.
+
+
