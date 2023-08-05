@@ -1,0 +1,10 @@
+_pybgpstream.so,sha256=Gsrf4bF-Wbz-HniHauyFK87ZAWk98BQ6XLir-pV3NMc,27168
+pybgpstream/__init__.py,sha256=5yB4V0imd7fbPJKgTbMjLeWCRT5xe_eSKWQB27ofDkw,1384
+pybgpstream/pybgpstream.py,sha256=BmiWRiQdVK_MqnDmXR-w7J5fbzYJSeDwr0CjEzJYYgk,5324
+pybgpstream-2.0.0.dist-info/AUTHORS,sha256=2N-8YJHU5eSIV7oJpznZz485fAcGFCZap0TW8Zx65Xg,957
+pybgpstream-2.0.0.dist-info/AUTHORS.md,sha256=2N-8YJHU5eSIV7oJpznZz485fAcGFCZap0TW8Zx65Xg,957
+pybgpstream-2.0.0.dist-info/LICENSE,sha256=ufG8AXRS0IG-fiK-knWloj_DVSHj7Z09yFgPMwbqjgE,1310
+pybgpstream-2.0.0.dist-info/METADATA,sha256=8dXsHssMTWl9LbjY0rdb49xEihqNnd1VmKTQ8dKs81Q,924
+pybgpstream-2.0.0.dist-info/WHEEL,sha256=mCY0eFWz_-Hmr8IMS2R9cHRNHogctRPa1XxyIMR5Q1c,111
+pybgpstream-2.0.0.dist-info/top_level.txt,sha256=Me24wNxmFO2dj0T2KzyB_PaJ0IUGC26PK-aF5YQ8HIE,25
+pybgpstream-2.0.0.dist-info/RECORD,,
