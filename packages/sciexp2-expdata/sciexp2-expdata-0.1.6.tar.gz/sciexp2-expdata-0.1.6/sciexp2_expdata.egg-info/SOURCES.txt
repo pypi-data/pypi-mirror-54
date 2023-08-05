@@ -1,0 +1,11 @@
+.requirements.txt
+MANIFEST.in
+README.md
+setup.py
+sciexp2/expdata/__init__.py
+sciexp2/expdata/pandas.py
+sciexp2_expdata.egg-info/PKG-INFO
+sciexp2_expdata.egg-info/SOURCES.txt
+sciexp2_expdata.egg-info/dependency_links.txt
+sciexp2_expdata.egg-info/requires.txt
+sciexp2_expdata.egg-info/top_level.txt

@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: sciexp2-expdata
+Version: 0.1.6
+Summary: Experiment data analysis framework for SciExp²
+Home-page: https://sciexp2-expdata.readthedocs.io/
+Author: Lluís Vilanova
+Author-email: llvilanovag@gmail.com
+License: GNU General Public License (GPL) version 3 or later
+Description: SciExp²-ExpData provides helper functions for easing the workflow of analyzing
+        the many data output files produced by experiments. The helper functions simply
+        aggregate the many per-experiment files into a single data structure that
+        contains all the experiment results with appropriate metadata to identify each
+        of the experiment results (e.g., using a pandas data frame).
+        
+        It works best in combination with SciExp²-ExpDef, which can be used to define
+        many experiments based on parameter permutations.
+        
+        You can find the documentation in:
+        
+          https://sciexp2-expdata.readthedocs.io
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
