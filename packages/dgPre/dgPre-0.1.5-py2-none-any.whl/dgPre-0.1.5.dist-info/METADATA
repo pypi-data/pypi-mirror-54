@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dgPre
+Version: 0.1.5
+Summary: a tiny test based on Python
+Home-page: https://github.com/viton/test
+Author: viton
+Author-email: viton@gmail.com
+License: MIT
+Keywords: python douyu danmu danmu.fm terminal
+Platform: UNKNOWN
+Requires-Dist: click
+
+just enjoy
+
+
