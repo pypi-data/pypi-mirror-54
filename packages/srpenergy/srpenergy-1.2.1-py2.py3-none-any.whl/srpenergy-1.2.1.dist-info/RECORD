@@ -1,0 +1,10 @@
+srpenergy/__init__.py,sha256=FgAhJJ5y-MfZssRSg8PHaTAykbBq2mfChILeYKGUFtw,56
+srpenergy/client.py,sha256=vsZOHhGFsVAolncAqkhbho3G3NK59dulMOf65SkSdng,6580
+srpenergy-1.2.1.dist-info/DESCRIPTION.rst,sha256=dsH1RH9f6Zs2mL8tYRcLHopxn7qY4oVvLkmQJjncSeY,2968
+srpenergy-1.2.1.dist-info/METADATA,sha256=LljLKrVsObygMgqw-N7K6SOkNA8xmJTwKMGvjJawAFA,3858
+srpenergy-1.2.1.dist-info/RECORD,,
+srpenergy-1.2.1.dist-info/WHEEL,sha256=BTHHj6QhsHpWhRUrxioIvCAgjx81u-a8gkPTO6bi_A0,116
+srpenergy-1.2.1.dist-info/metadata.json,sha256=a74gdXq9sNSHcI1imdKeeDhAX04RXZ_iTORGKa4hjzk,1003
+srpenergy-1.2.1.dist-info/top_level.txt,sha256=W_e0cJ4OqSJYNaBZy-Y_SYqjnxjU513V6b5_mE2EWyI,15
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_client.py,sha256=FwjDcN4hVgoYM1mWaVD4tgUW8RAPjCqWeZynJ255nJs,10107
