@@ -1,0 +1,15 @@
+ii/__init__.py,sha256=xafZmaNhedWomAy_YTyNK7DqMwFSuiD2dBztScNs_qk,80
+ii/main.py,sha256=vePtoq7mHfw8fK_YQV3_JQyjR0wqmFvd4QyAtGqzCiY,2469
+ii/nasm-2.14.02-win32.zip,sha256=JQ-bXushEejHtJSpd0kJhbhgT-dRim9QQc3jfMcnoGc,557565
+ii/nasm-2.14.02-win64.zip,sha256=GJGKyQbilBe5NkZueiUXBoIGyNuMBLl2KlvvoYv-pfA,602701
+ii/tcc-0.9.27-win32-bin.zip,sha256=AuK_6MJypUmxXkv6RQe9fgUwRpKvF2HbbB6OiK9nVlE,483247
+ii/tcc-0.9.27-win64-bin.zip,sha256=NKchlJolg_3_clMS2gkvoPXx8oS3Aub4EcaVRxT6q7I,489586
+ii/upx-3.95-32.zip,sha256=tU6l2NoB85xZWTjzcJ_qw9lf-n6hNIhuBfDrBbibP2k,402189
+ii/upx-3.95-64.zip,sha256=nDA3DiKgdlRo0w4tjIiVokJdK8gCjcXJXPulxRUn0tY,404064
+ii/winapi-full-for-0.9.27.zip,sha256=iRXU6p5-MlKg5UoV51TsUkxMOXRpSNXzn60Qwj-qMao,3932802
+ii-0.0.3.dist-info/LICENSE,sha256=hhhyVmJgDjgq-iRG774ehmKbasnup5HLHxcjExgyDKI,1084
+ii-0.0.3.dist-info/METADATA,sha256=rZgMogLoCGn5l8Gfn-xBePE-ORQiOpRty88HqoYpeos,350
+ii-0.0.3.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+ii-0.0.3.dist-info/entry_points.txt,sha256=xj1Egzbo1EzuY2fBQekk2ghaqRCJ-z1UJ0uYUxxZl7A,40
+ii-0.0.3.dist-info/top_level.txt,sha256=V3AhifnNjpeQ0W3mLPnSZMCrWPOH5uX-NtruzWIFhYA,3
+ii-0.0.3.dist-info/RECORD,,
