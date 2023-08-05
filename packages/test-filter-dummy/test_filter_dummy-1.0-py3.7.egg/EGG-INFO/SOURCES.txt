@@ -1,0 +1,8 @@
+setup.py
+test_filter_dummy/__init__.py
+test_filter_dummy/__main__.py
+test_filter_dummy/filter.py
+test_filter_dummy.egg-info/PKG-INFO
+test_filter_dummy.egg-info/SOURCES.txt
+test_filter_dummy.egg-info/dependency_links.txt
+test_filter_dummy.egg-info/top_level.txt
