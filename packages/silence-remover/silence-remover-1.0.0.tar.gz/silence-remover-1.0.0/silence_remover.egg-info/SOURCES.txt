@@ -1,0 +1,15 @@
+README.md
+setup.py
+silence_remover/__init__.py
+silence_remover/silence_remover.py
+silence_remover.egg-info/PKG-INFO
+silence_remover.egg-info/SOURCES.txt
+silence_remover.egg-info/dependency_links.txt
+silence_remover.egg-info/top_level.txt
+silence_remover/filter_generator/__init__.py
+silence_remover/filter_generator/filter_generator.py
+silence_remover/media_editor/__init__.py
+silence_remover/media_editor/media_editor.py
+silence_remover/silence_detector/__init__.py
+silence_remover/silence_detector/interval_parser.py
+silence_remover/silence_detector/silence_detector.py
