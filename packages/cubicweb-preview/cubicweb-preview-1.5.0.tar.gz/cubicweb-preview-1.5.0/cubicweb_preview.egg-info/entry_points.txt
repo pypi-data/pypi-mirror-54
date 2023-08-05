@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+preview = cubicweb_preview
+

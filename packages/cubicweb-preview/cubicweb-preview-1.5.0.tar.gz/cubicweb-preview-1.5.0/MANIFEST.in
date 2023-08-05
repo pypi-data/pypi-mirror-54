@@ -1,0 +1,7 @@
+include setup.py
+include README
+recursive-include cubicweb_preview *
+recursive-include cubicweb_preview/data *.gif *.png *.ico *.css *.js
+recursive-include cubicweb_preview/i18n *.po
+recursive-include cubicweb_preview/wdoc Changelog* *.rst *.png *.jpg *.xml
+recursive-include cubicweb_preview/schema *.sql
