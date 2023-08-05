@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyannotations.egg-info/PKG-INFO
+pyannotations.egg-info/SOURCES.txt
+pyannotations.egg-info/dependency_links.txt
+pyannotations.egg-info/top_level.txt
