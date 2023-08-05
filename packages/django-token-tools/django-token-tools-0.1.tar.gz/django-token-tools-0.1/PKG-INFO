@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: django-token-tools
+Version: 0.1
+Summary: Suite of Django tools around token authentication.
+Home-page: https://github.com/Terralego/django-token-tools.git
+Author: Makina Corpus
+Author-email: terralego-pypi@makina-corpus.com
+License: UNKNOWN
+Description: # django-token-tools
+        Suite of Django tools around token authentication
+        
+        
+        0.1 (2019-10-15)
+        -------------------
+        
+        * First release
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
