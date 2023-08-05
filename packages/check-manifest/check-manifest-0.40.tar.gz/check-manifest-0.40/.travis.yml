@@ -1,0 +1,28 @@
+language: python
+sudo: required
+dist: xenial
+cache: pip
+python:
+    - 2.7
+    - 3.5
+    - 3.6
+    - 3.7
+    - 3.8
+    - pypy
+    - pypy3
+env:
+    - FORCE_TEST_VCS=bzr
+    - FORCE_TEST_VCS=git
+    - FORCE_TEST_VCS=hg
+    - FORCE_TEST_VCS=svn
+install:
+    - pip install coverage coveralls mock flake8 toml
+script:
+    - SKIP_NO_TESTS=1 coverage run setup.py test -q
+    - coverage report -m
+    - python check_manifest.py
+    - flake8 *.py
+after_script:
+    - coveralls
+notifications:
+    email: false
