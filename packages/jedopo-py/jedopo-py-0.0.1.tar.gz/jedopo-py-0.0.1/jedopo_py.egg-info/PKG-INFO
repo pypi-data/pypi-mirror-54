@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jedopo-py
+Version: 0.0.1
+Summary: A poc package
+Home-page: https://github.com/wheremiah
+Author: Jeremiah Porten
+Author-email: jeremiah@gmail.com
+License: UNKNOWN
+Description: # Jedopo Py
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

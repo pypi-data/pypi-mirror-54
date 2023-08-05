@@ -1,0 +1,8 @@
+README.md
+setup.py
+jedopo/__init__.py
+jedopo/poc.py
+jedopo_py.egg-info/PKG-INFO
+jedopo_py.egg-info/SOURCES.txt
+jedopo_py.egg-info/dependency_links.txt
+jedopo_py.egg-info/top_level.txt
