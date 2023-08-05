@@ -1,0 +1,5 @@
+Click
+robobrowser
+bs4
+tabulate
+keyring
