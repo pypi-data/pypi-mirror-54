@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+za_id_number/__init__.py
+za_id_number/test_validation.py
+za_id_number/za_identity_number.py
+za_id_number.egg-info/PKG-INFO
+za_id_number.egg-info/SOURCES.txt
+za_id_number.egg-info/dependency_links.txt
+za_id_number.egg-info/top_level.txt
