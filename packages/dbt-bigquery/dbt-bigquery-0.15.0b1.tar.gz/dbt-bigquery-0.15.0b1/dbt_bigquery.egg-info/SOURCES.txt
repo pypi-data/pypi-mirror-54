@@ -1,0 +1,7 @@
+README.md
+setup.py
+dbt_bigquery.egg-info/PKG-INFO
+dbt_bigquery.egg-info/SOURCES.txt
+dbt_bigquery.egg-info/dependency_links.txt
+dbt_bigquery.egg-info/requires.txt
+dbt_bigquery.egg-info/top_level.txt
