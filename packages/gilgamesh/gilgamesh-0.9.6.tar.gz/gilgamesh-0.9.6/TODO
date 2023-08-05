@@ -1,0 +1,6 @@
+# important todo
+* benchmark/refactor storage drivers
+* merge client/lib code
+* test mqtt
+* test nostorage drivers
+* write doc
