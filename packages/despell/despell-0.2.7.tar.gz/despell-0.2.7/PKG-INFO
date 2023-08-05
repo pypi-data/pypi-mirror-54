@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: despell
+Version: 0.2.7
+Summary: despell is a package that introduces spelling errors into text strings. Works with Python 3.
+Home-page: https://github.com/phosgene89/despell
+Author: Greg Feldmann
+Author-email: felga001@mymail.unisa.edu.au
+License: MIT
+Download-URL: https://github.com/phosgene89/despell/archive/v0.2.7.tar.gz
+Description: UNKNOWN
+Keywords: spelling,typo
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
