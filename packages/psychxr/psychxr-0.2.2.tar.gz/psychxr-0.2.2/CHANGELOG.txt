@@ -1,0 +1,214 @@
+This file contains changes introduced to PsychXR for each version. Breaking
+changes may be incompatible with your current code.
+
+Version 0.2.2 - 2019/10/16
+--------------------------
+
+Overview:
+
+    Bugfix release.
+
+New Features:
+
+    - None
+
+Bug Fixes:
+
+    - Fixed `LibOVRPerfStats` setting up incorrect pointers to
+      `LibOVRPerfStatsPerCompositorFrame` objects.
+    - Fixed TOUCH_* module level constants not being exposed by __all__.
+
+Breaking Changes:
+
+    - None
+
+
+Version 0.2.1 - 2019/09/25
+--------------------------
+
+Overview:
+
+    This release adds improved haptics support, bounding boxes, visibility
+    culling, and more features to `LibOVRPose`. There are a few minor API
+    breaking changes, however in the future API changes will raise deprecation
+    warnings and be phased out gradually over several releases.
+
+New Features:
+
+    - Support for haptic buffers for use with Touch controllers. A haptics
+      buffer contains an array of samples which specify Touch controller
+      vibration amplitudes. Buffers can be passed to the haptics engine for
+      playback, permitting custom vibration profiles.
+    - Added `mirrorOptions` to `createMirrorTexture` to customize how mirrors
+      are presented (eg. pre-distortion, rectilinear, one eye only, etc.)
+    - Added `getViewMatrix` to `LibOVRPose` which creates view matrices, which
+      transforms points into the space of the pose. This allows you to use rigid
+      body poses to define eye locations for rendering. You can do crazy things
+      like calculating eye poses using touch controller poses (make sure
+      head-locking is enabled!)
+    - Added `getAzimuthElevation` and `getAngleTo` methods to `LibOVRPose`, for
+      computing Euler angles of targets within the reference frame of a poses.
+    - Nearly all `LibOVRPose` transformation methods can write values to
+      pre-allocated output arrays.
+    - Added an optional `originPose` to `calcEyePoses`.
+    - Added a bounding box attribute to poses. You can create an axis-aligned
+      bounding box object (`LibOVRBounds`) and assign them to poses.
+      `LibOVRBounds` has a `fit` method to compute boundaries for a 3D model if
+      supplied a list of vertices.
+    - New `cullPose` function allows you to cull meshes associated with poses if
+      they are not visible during rendering by testing if their bounding boxes
+      fall outside of the view frustum. This reduces CPU/GPU workload when
+      complex drawing scenes.
+    - Added logging callbacks. You can register a Python function as a callback
+      for when LibOVR returns a message. Spits out lots of information, maybe
+      you'll find some of it useful?
+    - `endFrame` returns the absolute system time it was called.
+    - ASW stats are also returned with `LibOVRPerfStatsPerCompositorFrame`.
+
+Bug Fixes:
+
+    - Fixed head-locking. Head-locking prevents compositor ASW from acting upon
+      the layer. This fix restores the behaviour seen in the alpha releases
+      of PsychXR.
+
+Breaking Changes:
+
+    - `getTrackingState` now returns a `LibOVRTrackingState` instance. This was
+      changed given the previous system returned a data structure that was
+      not intuitive to work with. This returns to the behaviour of the 0.1
+      series of PsychXR and will stay this way.
+    - `endFrame` now returns two values.
+    - `resetFrameStats` is now `resetPerfStats` for naming consistency.
+
+Known Issues:
+
+    - None
+
+
+Version 0.1.5 - 2019-09-25
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hotfix release for version 0.1.4 which fixes an input bug where the range of
+thumbstick values is improperly clipped.
+
+Bug Fixes:
+
+    - Fixed thumbstick values being clipped to 1.0 regardless of the input.
+
+
+Version 0.2.0 - 2019/07/06
+--------------------------
+
+Overview:
+
+    This release bring considerable changes to PsychXR to address issues and
+    feedback from the initial public release (0.1.4). This version will break
+    compatibility with software running any previous version, see the reference
+    code in the demo directory for a minimal example using the new API.
+
+    One of the biggest changes is NumPy integration, which exposes vector and
+    matrix types as arrays instead of custom extension types. This allows you
+    to take advantage of the scientific software ecosystem built around NumPy
+    when working with data from HMDs. As a result, NumPy is now a requirement
+    to build PsychXR.
+
+    Several new extension types have been added, notably the LibOVRPose and
+    LibOVRPoseState classes which store and manipulate rigid body pose data.
+    There are plenty of class methods available to transform (e.g. invert) and
+    convert (to a 4x4 matrix) poses, apply transformations, and do things like
+    raypicking, interpolation, and time integration.
+
+    Lastly, documentation has been greatly improved, providing lots of examples
+    and details associated with each function and class.
+
+New Features:
+
+    - Added LibOVRPose, LibOVRPoseState, LibOVRSessionStatus, LibOVRHmdInfo,
+    etc.
+    - Library now exposes vectors, quaternions, and matrices as Numpy arrays.
+    - LibOVR version bump to 1.37.
+    - Functions which call the LibOVR API return error/success codes, making it
+    easier to write custom error handlers.
+    - More arguments for 'initialize()', such as 'focusAware'.
+    - LibOVRPose handles rigid body pose data like 'ovr.math.Posef' did.
+    - Added swap chain names 'LIBOVR_TEXTURE_SWAP_CHAIN*' so you don't need to
+    define them yourself.
+    - Added 'setControllerVibration' for haptic feedback.
+    - Added 'getDevicePose' to get the absolute poses of tracked objects.
+    - Functions can copy data into existing arrays rather than creating new
+    ones.
+    - Added functions to compute viewing parameters, such as horizontal FOV and
+    aspect ratio.
+    - LibOVRPoseState objects can be time integrated.
+    - Controller states functions return time stamps and states in a single
+    call.
+    - Tracker/sensor information is now available.
+    - Many more ...
+
+Bug Fixes:
+
+    - Cleaned up old and unused code from 'psychxr.libovr'.
+    - Fixed crash when shutdown is called after a texture swap chain is created.
+
+Breaking Changes:
+
+    - Many API functions have been removed or renamed, some functions take
+      different arguments all together.
+    - Removed 'ovr.math' module, use LibOVRPose for rigid body transforms.
+    - Removed 'ovr.capi', import 'psychxr.libovr' instead.
+    - Reduced number of possible swap chains to 8 for now.
+    - You must now manage getting the next available swap chain index.
+
+Known Issues:
+
+    - None so far ...
+
+Version 0.1.5 - 2019/09/25
+--------------------------
+
+Hotfix release to fix an issue where thumbstick values are improperly clipped.
+
+New Features:
+
+    - None
+
+Bug Fixes:
+
+    - Updated licensing information.
+
+Breaking:
+
+    - None
+
+
+Version 0.1.4 - 2019/02/11
+--------------------------
+
+New Features:
+
+    - None
+
+Bug Fixes:
+
+    - Updated licensing information.
+
+Breaking:
+
+    - None
+
+
+Version 0.1.3 - 2018/07/04
+--------------------------
+
+New Features:
+
+    - Added "getPitchYawRoll" method to ovrQuatf object.
+    - Changed "ovrSessionStatus" getter functions to properties.
+
+Bug Fixes:
+
+    - No bug fixes this release.
+
+Breaking:
+
+    - "ovrSessionStatus" getter functions are now properties.
