@@ -1,0 +1,6 @@
+README.md
+setup.py
+goWSGI.egg-info/PKG-INFO
+goWSGI.egg-info/SOURCES.txt
+goWSGI.egg-info/dependency_links.txt
+goWSGI.egg-info/top_level.txt
