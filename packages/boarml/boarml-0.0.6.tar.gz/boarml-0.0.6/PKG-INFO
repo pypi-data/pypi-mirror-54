@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: boarml
+Version: 0.0.6
+Summary: Package for building abstract ML models that can then be compiled using popular ML platforms.
+Home-page: https://github.com/DobromirM/BoarML
+Author: Dobromir Marinov
+Author-email: mr.d.marinov@gmail.com
+License: UNKNOWN
+Description: # Boar ML
+        
+        [![Build Status](https://travis-ci.org/DobromirM/BoarML.svg?branch=master)](https://travis-ci.org/DobromirM/BoarML)
+        
+        BOAR (Build Once And Run) ML is a library that allows you to build abstract machine
+        learning models and then compile them with popular ML platforms.
+        
+        The library also implements additional modules for applying mutations to an architecture, support  for  writing  
+        architectures to a file and reading architectures from a file in a user readable format.
+        
+        https://pypi.org/project/boarml/
+        
+        ## Installation
+        
+        `pip install boarml`
+        
+        
+        ## Building instructions
+        
+        1) Building the package: `python setup.py sdist bdist_wheel`
+        2) Uploading to PyPi: `python -m twine upload  dist/*`
+        3) Uploading new versions: `twine upload --skip-existing dist/*`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
