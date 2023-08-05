@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: fastapi-serviceutils
+Version: 0.2.0
+Summary: Utils for fastapi based services.
+Project-URL: Repository, https://github.com/skallfass/fastapi_serviceutils
+Author: Simon Kallfass
+Author-email: skallfass@ouroboros.info
+Requires-Python: ==3.*,>=3.7.0
+Requires-Dist: aiofiles==0.*,>=0.4.0
+Requires-Dist: autoflake==1.*,>=1.3.0; extra == "dev" or extra == "devs"
+Requires-Dist: cookiecutter==1.*,>=1.6.0
+Requires-Dist: coverage==4.*,>=4.5.0; extra == "dev" or extra == "devs"
+Requires-Dist: coverage-badge==1.*,>=1.0.0; extra == "dev" or extra == "devs"
+Requires-Dist: email-validator==1.*,>=1.0.4
+Requires-Dist: fastapi==0.*,>=0.42.0
+Requires-Dist: flake8==3.*,>=3.7.0; extra == "dev" or extra == "devs"
+Requires-Dist: ipython==7.*,>=7.8.0; extra == "dev" or extra == "devs"
+Requires-Dist: isort==4.*,>=4.3.0; extra == "dev" or extra == "devs"
+Requires-Dist: jedi==0.*,>=0.14.0; extra == "dev" or extra == "devs"
+Requires-Dist: loguru==0.*,>=0.3.0
+Requires-Dist: neovim==0.*,>=0.3.1; extra == "dev" or extra == "devs"
+Requires-Dist: pre-commit>=1.18.3; extra == "dev" or extra == "devs"
+Requires-Dist: pudb==2019.*,>=2019.1.0; extra == "dev" or extra == "devs"
+Requires-Dist: pygments==2.*,>=2.4.0; extra == "dev" or extra == "devs"
+Requires-Dist: pytest==5.*,>=5.0.0; extra == "dev" or extra == "devs"
+Requires-Dist: pytest-asyncio>=0.10; extra == "dev" or extra == "devs"
+Requires-Dist: pytest-cov>=2; extra == "dev" or extra == "devs"
+Requires-Dist: pytest-xdist==1.*,>=1.30.0; extra == "dev" or extra == "devs"
+Requires-Dist: pyyaml==5.*,>=5.1.0
+Requires-Dist: requests==2.*,>=2.22.0
+Requires-Dist: sphinx>=2; extra == "dev" or extra == "devs"
+Requires-Dist: sphinx-autodoc-typehints>=1.6; extra == "dev" or extra == "devs"
+Requires-Dist: sphinx-rtd-theme>=0.4.3; extra == "dev" or extra == "devs"
+Requires-Dist: starlette-prometheus==0.*,>=0.3.0
+Requires-Dist: toolz==0.*,>=0.10.0
+Requires-Dist: ujson==1.*,>=1.35.0
+Requires-Dist: uvicorn==0.*,>=0.9.0
+Requires-Dist: yapf==0.*,>=0.27.0; extra == "dev" or extra == "devs"
+Provides-Extra: dev
+Provides-Extra: devs
+
+
+
+.. image:: doc/_static/coverage.svg
+   :target: doc/_static/coverage.svg
+   :alt: coverage
+
+
+Installation
+------------
+
+Development
+-----------
+
+Initialize project
+^^^^^^^^^^^^^^^^^^
+
+After cloning the repository, you can initialize your development environment using
+
+.. code-block:: bash
+
+       make init
+
+This will create the dev environment exampleservice/dev. Activate it using:
+
+.. code-block:: bash
+
+       dephell venv shell --env devs
+
+Start development
+-----------------
+
+**Note:**
+
+Make sure to always activate the environment when you start working on the
+project in a new terminal using
+
+.. code-block:: bash
+
+       dephell venv shell --env devs
+
+Updating dependencies
+---------------------
+
+After each change in dependencies defined at ``pyproject.toml`` run the
+following to ensure the environment-definition and lock-file are up to date:
+
+.. code-block:: bash
+
+       make update
+
+Checking with linters and checkers
+----------------------------------
+
+To run all pre-commit-hooks manually run:
+
+.. code-block:: bash
+
+       make check
+
+Info about project-state
+------------------------
+
+To show summary about project run:
+
+.. code-block:: bash
+
+       make info
+
+Documentation
+-------------
+
+The project's developer documentation is written using Sphinx.
+
+The documentation sources can be found in the docs subdirectory.
+They are written using restructuredText.
+
+The API-documentation is auto-generated from the docstrings of modules,
+classes, and functions.
+We're using the Google docstring standard.
+
+To generate the documentation, run
+
+.. code-block:: bash
+
+       make docs
+
+The generated HTML files will be in the ``docs/_build`` directory.
+
+There is also a swagger-documentation to be used for users of the service.
+
+The apidoc can be found at ``/apidoc/index.html``.
+
+Tests
+-----
+
+For testing we use ``pytest``\ , for details see
+`Pytest Docs <http://doc.pytest.org/en/latest/>`_.
+To run all tests:
+
+.. code-block:: bash
+
+       make tests
