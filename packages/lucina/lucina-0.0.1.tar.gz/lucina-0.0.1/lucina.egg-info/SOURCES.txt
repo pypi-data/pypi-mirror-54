@@ -1,0 +1,5 @@
+setup.py
+lucina.egg-info/PKG-INFO
+lucina.egg-info/SOURCES.txt
+lucina.egg-info/dependency_links.txt
+lucina.egg-info/top_level.txt

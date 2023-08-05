@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: lucina
+Version: 0.0.1
+Summary: From markdown to Jupyter notebook
+Home-page: https://pypi.org/project/lucina/
+Author: entwanne
+Author-email: antoine.rozo@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
