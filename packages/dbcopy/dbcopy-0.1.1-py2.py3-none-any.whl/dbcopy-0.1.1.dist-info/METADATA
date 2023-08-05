@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dbcopy
+Version: 0.1.1
+Summary: Copy contents of a SQL database to another
+Home-page: https://github.com/pudo/dbcopy
+Author: OCCRP
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: sqlalchemy
+Requires-Dist: stringcase
+Requires-Dist: normality
+Requires-Dist: click
+Requires-Dist: tqdm
+Provides-Extra: mssql
+Requires-Dist: pyodbc ; extra == 'mssql'
+Provides-Extra: postgres
+Requires-Dist: psycopg2-binary ; extra == 'postgres'
+
+UNKNOWN
+
+
