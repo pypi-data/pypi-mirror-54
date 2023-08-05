@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dcdf
+Version: 0.1
+Summary: Package to compute DCDF for nifti formatted MRI data.
+Home-page: https://github.com/ForrestCKoch/DCDF
+Author: Forrest Koch
+Author-email: forrest.koch@unsw.edu.au
+Maintainer: Forrest Koch
+Maintainer-email: forrest.koch@unsw.edu.au
+License: UNKNOWN
+Description: # DCDF
+Keywords: MRI nifti dti neuroimaging dcdf
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
