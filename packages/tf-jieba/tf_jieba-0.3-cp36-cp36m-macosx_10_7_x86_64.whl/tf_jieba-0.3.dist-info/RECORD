@@ -1,0 +1,13 @@
+tf_jieba/__init__.py,sha256=Aoc-Td53ns2gkB96DnMIwrN5fXzEaOZMtw_zoF5x90E,95
+tf_jieba/jieba_op.py,sha256=bipUUWwr88RpSvpAJyVdwOUjKqSUbvG9LaRVcLZERcI,2107
+tf_jieba/jieba_op_test.py,sha256=Ie7iWmUe9CoI4GRFSBHyeQo_gvbFQllVOtLoKf98jnw,5243
+tf_jieba/x_ops.cpython-36m-darwin.so,sha256=VMMQf1oMKKkbDhMgeGrwkZmhcgnKgdCpbHWTbM2gFDg,231508
+tf_jieba/cppjieba_dict/hmm_model.utf8,sha256=8XeQWGrIbdBIyK3_7QUsS9KyjtBoKXLBJ15ZBAwFiac,519739
+tf_jieba/cppjieba_dict/idf.utf8,sha256=29HgPXKyJjzI2EpDBO13Z37tnn3q9DoaUTO7upcztTU,5998717
+tf_jieba/cppjieba_dict/jieba.dict.utf8,sha256=MEO3cGjgnJkE8nytgvErbr6dvbWu_zsl5Fq3-cESK1U,5071204
+tf_jieba/cppjieba_dict/stop_words.utf8,sha256=t4i4qTnS4v4Hmr1XnqmPEvn7hDcL_Q3d2Bu5OB96tCw,8974
+tf_jieba/cppjieba_dict/user.dict.utf8,sha256=SVu_SScECKEjRpDh5qlzKPMKSCp6cqp2nooS6HFLDGI,49
+tf_jieba-0.3.dist-info/METADATA,sha256=y-Z-E9lG4ZPM5_-58i7xKPNNC4_dcpsTIFE2M-rpHLU,1822
+tf_jieba-0.3.dist-info/WHEEL,sha256=Pa6FUp-RRZ23T7yBFiOWnFl7TpPRTvKpdqnMztOabYo,110
+tf_jieba-0.3.dist-info/top_level.txt,sha256=Ep4eKKD-WtShublYZSDT_lnAK2uE1lkdeeDVQkxI7zY,9
+tf_jieba-0.3.dist-info/RECORD,,
