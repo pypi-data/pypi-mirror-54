@@ -1,0 +1,10 @@
+Click >= 7.0
+grpcio >= 1.10
+Jinja2 >= 2.10
+pluginbase
+protobuf >= 3.6
+psutil
+ruamel.yaml >= 0.16
+setuptools
+pyroaring
+ujson
