@@ -1,0 +1,4 @@
+[console_scripts]
+client = lumapps.api.cli:main
+lac = lumapps.api.cli:main
+
