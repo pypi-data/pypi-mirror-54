@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kaldi-python-io
+Version: 1.0.0
+Summary: A pure python IO interface for data accessing in kaldi
+Home-page: https://github.com/funcwj/kaldi-python-io
+Author: Jian Wu
+Author-email: funcwj@foxmail.com
+License: Apache V2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.14)
+
+UNKNOWN
+
+
