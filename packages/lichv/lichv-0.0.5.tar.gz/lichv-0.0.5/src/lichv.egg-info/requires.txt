@@ -1,0 +1,16 @@
+certifi>=2019.9.11
+chardet>=3.0.4
+configparser>=4.0.2
+APScheduler>=3.6.0
+idna>=2.8
+pycryptodome>=3.9.0
+pymongo>=3.9.0
+pymysql>=0.9.3
+pyyaml>=5.1.2
+redis>=3.3.11
+bcrypt>=3.1.6
+beautifulsoup4>=4.7.1
+requests>=2.22.0
+tornado>=6.0.3
+urllib3>=1.25.6
+selenium>=4.0.0a3
