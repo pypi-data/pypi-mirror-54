@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: gitbuilding
+Version: 0.2.2
+Summary: For documenting and open source hardware project with minimal effort, so you can stop writing and git building.
+Home-page: https://gitlab.com/bath_open_instrumentation_group/git-building
+Author: Julian Stirling
+Author-email: julian@julianstirling.co.uk
+License: UNKNOWN
+Keywords: Documentation,Hardware
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: argparse
+Requires-Dist: regex
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: markdown
+Requires-Dist: colorama
+
+# Git-Building
+
+For documenting and open source hardware project with minimal effort, so you can stop writing and git building.
+
+**While we work out the best syntax major things might change!** If you have syntax suggestions please raise an issue!
+
+## How to install Git-Building
+
+To install (for Python 3.6+)
+
+    pip install gitbuilding
+
+However if you wish to contribute to development of Git-Building you may need to build the javascript editor from source please see the [dedicated building/contributing page](BuildContribute.md)
+
+## Goal
+
+The goal of Git-Building is to give you the freedom to write instructions in the form and structure that you want using markdown. Some extra syntax is added to generate the difficult things like bills of materials. The idea is that you are free to layout your instructions, the Git-Building is automates the tedious counting of parts.
+
+In Git-Building you are able to
+
+* Write the instructions as you go along in markdown
+* Tag links in the code with simple in-line YAML to add meta data such as how many will be used
+* Simple way to list off the shelf parts including the part numbers for multiple suppliers
+* Simple syntax for adding in bill of materials, or naming a link with the title of the linked page
+* A single script that generates new markdown or html with link names, bills of materials etc
+
+An [example is available](https://gitlab.com/bath_open_instrumentation_group/git-building-example).
+
+
+## Running Git-Building
+
+### Starting a new empty project
+
+Open your terminal in an empty folder you want to use for your documentation and run
+
+    gitbuilding new
+
+empty documentation files will be added to the directory.
+
+### Building the documentation
+
+Open your terminal and run
+
+    gitbuilding build
+
+this will build your the documentation in your folder assuming you have a valid `buildconf.yaml` file (see below).
+
+### Previewing the documentation or use the live editor
+
+Open your terminal and run
+
+    gitbuilding serve
+
+and then open a browser and navigate to `http://localhost:6178/`. This will show the documentation in a browseable form. You can also edit the documentation directly from your browser.
+
+### Build a static-html site
+
+Once you have built the documentation with `gitbuilding build` you can convert this into html with
+
+    gitbuilding build-html
+
+### Getting help
+
+You can get more detail on the command line options by running
+
+    gitbuilding help
+
+You can get help for a specific command with
+
+    gitbuilding help <command>
+
+## Git-Building Syntax
+
+Git-Building largely follows markdown syntax with some YAML configuration. [Full details are available on the Git-Building syntax page.](Syntax.md)
+
