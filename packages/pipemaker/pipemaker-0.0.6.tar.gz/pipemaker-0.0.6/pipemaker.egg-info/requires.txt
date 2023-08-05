@@ -1,0 +1,22 @@
+PyYAML
+dill
+fs
+graphviz
+ipython
+ipywidgets
+matplotlib
+multiprocess
+numpy
+pandas
+pika
+pipreqs
+pydal
+pyfs
+pyftpdlib
+pytest
+python_json_logger
+requests
+fs1-s3fs
+
+[:platform_system == "Windows"]
+pywin32
