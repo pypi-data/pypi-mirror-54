@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+urban_footprinter/__init__.py
+urban_footprinter.egg-info/PKG-INFO
+urban_footprinter.egg-info/SOURCES.txt
+urban_footprinter.egg-info/dependency_links.txt
+urban_footprinter.egg-info/requires.txt
+urban_footprinter.egg-info/top_level.txt
