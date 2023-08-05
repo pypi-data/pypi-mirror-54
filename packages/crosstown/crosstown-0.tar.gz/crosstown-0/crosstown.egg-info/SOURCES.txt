@@ -1,0 +1,5 @@
+setup.py
+crosstown.egg-info/PKG-INFO
+crosstown.egg-info/SOURCES.txt
+crosstown.egg-info/dependency_links.txt
+crosstown.egg-info/top_level.txt
