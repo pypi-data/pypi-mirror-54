@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: qingjie
+Version: 0.0.1
+Summary: test
+Home-page: https://pypi.org/manage/projects
+Author: cookiery
+Author-email: 2061803022@qq.com
+License: MIT
+Description: test test
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
