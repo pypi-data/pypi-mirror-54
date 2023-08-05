@@ -1,0 +1,9 @@
+README.md
+setup.py
+uEagle/__init__.py
+uEagle/uEagle.py
+uEagle.egg-info/PKG-INFO
+uEagle.egg-info/SOURCES.txt
+uEagle.egg-info/dependency_links.txt
+uEagle.egg-info/requires.txt
+uEagle.egg-info/top_level.txt
