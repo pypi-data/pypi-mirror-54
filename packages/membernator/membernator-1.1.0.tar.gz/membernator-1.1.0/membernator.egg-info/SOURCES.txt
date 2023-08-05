@@ -1,0 +1,9 @@
+README.md
+membernator.py
+setup.py
+membernator.egg-info/PKG-INFO
+membernator.egg-info/SOURCES.txt
+membernator.egg-info/dependency_links.txt
+membernator.egg-info/entry_points.txt
+membernator.egg-info/requires.txt
+membernator.egg-info/top_level.txt
