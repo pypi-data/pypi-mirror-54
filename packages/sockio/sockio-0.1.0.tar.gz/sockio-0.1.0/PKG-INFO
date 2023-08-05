@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: sockio
+Version: 0.1.0
+Summary: Concurrency agnostic socket API
+Home-page: https://github.com/tiagocoutinho/sockio
+Author: Jose Tiago Macara Coutinho
+Author-email: coutinhotiago@gmail.com
+License: MIT license
+Description: Concurrency agnostic socket API
+Keywords: socket,asyncio
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
