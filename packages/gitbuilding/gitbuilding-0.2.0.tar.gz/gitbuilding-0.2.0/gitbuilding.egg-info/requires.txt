@@ -1,0 +1,7 @@
+argparse
+regex
+pyyaml>=5.1
+flask
+requests
+markdown
+colorama
