@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+recognizers_suite/__init__.py
+recognizers_text_suite.egg-info/PKG-INFO
+recognizers_text_suite.egg-info/SOURCES.txt
+recognizers_text_suite.egg-info/dependency_links.txt
+recognizers_text_suite.egg-info/requires.txt
+recognizers_text_suite.egg-info/top_level.txt
