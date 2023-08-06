@@ -1,0 +1,3 @@
+[console_scripts]
+opsAgent = opsAgent.bin.cli:main
+

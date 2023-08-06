@@ -1,0 +1,4 @@
+APScheduler==3.6.1
+pycurl==7.43.0.3
+requests==2.22.0
+urllib3==1.25.6
