@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rgjc-syy
+Version: 0.0.1
+Summary: A python programm for rgjcsy data processing
+Home-page: https://github.com/AlbertWulf
+Author: Albert_Wu
+Author-email: wulf16@mails.tsinghua.edu.cn
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

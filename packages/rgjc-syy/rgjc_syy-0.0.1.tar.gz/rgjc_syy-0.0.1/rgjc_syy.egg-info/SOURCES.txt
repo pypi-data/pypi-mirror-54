@@ -1,0 +1,6 @@
+README.md
+setup.py
+rgjc_syy.egg-info/PKG-INFO
+rgjc_syy.egg-info/SOURCES.txt
+rgjc_syy.egg-info/dependency_links.txt
+rgjc_syy.egg-info/top_level.txt
