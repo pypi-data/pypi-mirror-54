@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zuora-aqua-client-cli
+Version: 0.1.5
+Summary: Run ZOQL queries through AQuA from the command line
+Author: Janos Molnar
+Author-email: janosmolnar1001@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: flake8 (>=3.7,<4.0)
+Requires-Dist: requests (>=2.22,<3.0)
