@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: w600tool
+Version: 0.1.0
+Summary: A Firmware upload tool for Winner Micro W600 & W601 WiFim
+Home-page: https://github.com/wemos/w600tool
+Author: wemos
+Author-email: support@wemos.cc
+License: UNKNOWN
+Description: 
+        ============
+        w600tool.py
+        ============
+        
+        A Python-based firmware upload tool for Winner Micro W600 & W601 WiFi Chips.
+        
+        Usage
+        --------
+        
+        Please see the `Usage section of the README.md file <https://github.com/wemos/w600tool#usage>`_.
+        
+        You can also get help information by running `w600tool.py --help`.
+        
+        
+Keywords: w600,w600tool
+Platform: any

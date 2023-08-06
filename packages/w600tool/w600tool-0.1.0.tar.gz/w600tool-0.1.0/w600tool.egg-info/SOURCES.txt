@@ -1,0 +1,9 @@
+README.md
+setup.py
+w600tool.py
+w600tool.egg-info/PKG-INFO
+w600tool.egg-info/SOURCES.txt
+w600tool.egg-info/dependency_links.txt
+w600tool.egg-info/entry_points.txt
+w600tool.egg-info/requires.txt
+w600tool.egg-info/top_level.txt
