@@ -1,0 +1,16 @@
+README.md
+setup.py
+embeddingsprep/__init__.py
+embeddingsprep.egg-info/PKG-INFO
+embeddingsprep.egg-info/SOURCES.txt
+embeddingsprep.egg-info/dependency_links.txt
+embeddingsprep.egg-info/requires.txt
+embeddingsprep.egg-info/top_level.txt
+embeddingsprep/models/__init__.py
+embeddingsprep/models/utils.py
+embeddingsprep/models/word2vec.py
+embeddingsprep/preprocessing/__init__.py
+embeddingsprep/preprocessing/preprocessor.py
+embeddingsprep/preprocessing/utils/__init__.py
+embeddingsprep/preprocessing/utils/readers.py
+embeddingsprep/preprocessing/utils/structure.py
