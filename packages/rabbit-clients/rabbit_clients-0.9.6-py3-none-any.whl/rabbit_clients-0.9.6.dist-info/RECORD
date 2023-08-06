@@ -1,0 +1,10 @@
+rabbit_clients/__init__.py,sha256=8J0CUR6RhLFnRfBoVpbzgAxoUfZm5RJeeYzKFzxVakA,114
+rabbit_clients/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rabbit_clients/clients/base.py,sha256=uaW_J_4uzMeejZDx_3vfQ3bC4ywZBq5VI8DQMYCEA3c,6047
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_base.py,sha256=aBvJjGnLA05_STnjt0vJxUv76yjQEuHC6HC3nC07JlM,1822
+rabbit_clients-0.9.6.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rabbit_clients-0.9.6.dist-info/METADATA,sha256=KHYSANGcmrB8aG_z7FJQYtu01J2BFyBwVihwpNb65CY,454
+rabbit_clients-0.9.6.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+rabbit_clients-0.9.6.dist-info/top_level.txt,sha256=auqGMoGT1OyALKzRJTpGN7R-S8V9jpeW4579w5xeBnM,21
+rabbit_clients-0.9.6.dist-info/RECORD,,
