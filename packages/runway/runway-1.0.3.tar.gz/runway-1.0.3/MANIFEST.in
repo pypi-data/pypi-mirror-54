@@ -1,0 +1,11 @@
+exclude .gitignore
+exclude .coverage
+exclude .travis.yml
+include README.rst
+include setup.cfg
+include src/__init__.py
+prune .cache
+prune .git
+prune build
+prune dist
+recursive-include src/runway/templates *
