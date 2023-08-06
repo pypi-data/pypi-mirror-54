@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bauh
+Version: 0.7.1
+Summary: Graphical interface to manage Flatpak, Snap, AppImage and AUR packages
+Home-page: https://github.com/vinifmor/bauh
+Author: Vinicius Moreira
+Author-email: vinicius_fmoreira@hotmail.com
+License: zlib/libpng
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Requires-Dist: pyqt5 (>=5.12)
+Requires-Dist: requests (>=2.22)
+Requires-Dist: colorama (>=0.4.1)
+
+Graphical interface to manage Flatpak, Snap, AppImage and AUR packages
+
+
