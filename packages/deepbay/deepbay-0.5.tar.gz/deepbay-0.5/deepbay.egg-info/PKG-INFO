@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: deepbay
+Version: 0.5
+Summary: Tensorflow/Keras Plug-N-Play Deep Learning Models Compilation
+Home-page: https://github.com/ElPapi42/DeepBay
+Author: Whitman Bohorquez
+Author-email: whitman-2@hotmail.com
+License: UNKNOWN
+Download-URL: https://github.com/ElPapi42/DeepBay/archive/v0.5.tar.gz
+Description: # DeepBay
+        
+        The purpose of the repo is to compile Deep Learning Architectures created using Tensorflow or Keras. The architectures must be provided as a ready-to-use Plug-and-Play module that can be easily integrated into any existing project or architecture design.
+        
+        ## Installation
+        
+        You can use pip for install this from PyPi just use:
+        
+        !pip install deepbay
+        
+        https://pypi.org/project/deepbay/
+        
+Keywords: Keras,Model,Plug And Play,Tensorflow
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
