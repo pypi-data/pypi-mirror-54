@@ -1,0 +1,3 @@
+[console_scripts]
+spanner-cli = spannercli:main.main
+
