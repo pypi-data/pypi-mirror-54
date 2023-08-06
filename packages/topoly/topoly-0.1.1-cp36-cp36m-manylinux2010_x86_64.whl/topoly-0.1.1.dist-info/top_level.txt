@@ -1,0 +1,11 @@
+test
+topoly
+topoly/format_parser
+topoly/graph
+topoly/polygongen
+topoly/polynomial
+topoly_homfly
+topoly_knot
+topoly_lmpoly
+topoly_preprocess
+topoly_surfaces
