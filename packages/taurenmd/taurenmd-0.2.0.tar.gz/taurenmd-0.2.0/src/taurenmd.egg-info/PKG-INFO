@@ -1,0 +1,100 @@
+Metadata-Version: 1.2
+Name: taurenmd
+Version: 0.2.0
+Summary: Command-line and library interface for analysis routines in Molecular Dynamics
+Home-page: https://github.com/joaomcteixeira/taurenmd
+Author: Joao MC Teixeira
+Author-email: joaomcteixeira@gmail.com
+License: GNU GPLv2
+Project-URL: Documentation, https://taurenmd.readthedocs.io/
+Project-URL: Changelog, https://taurenmd.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/joaomcteixeira/taurenmd/issues
+Description: taurenmd
+        ========
+        
+        
+        
+        **Command-line and library interface for analysis routines in Molecular Dynamics.**
+        *This is an experimental project.*
+        
+        Documentation
+        =============
+        
+        Read the documentation: https://taurenmd.readthedocs.io
+        
+        Dependencies
+        ============
+        
+        :code:`taurenmd` wraps around high performance Molecular Dynamics analysis libraries, such as: `MDTraj`_, `MDAnalysis`_, `OpenMM`_ (and implementing others...); and it contains its own routines for data representation and export, such as curated plotting templates through `matplotlib`_.
+        
+        
+        Citing
+        ======
+        
+        When using and citing :code:`taurenmd`, you **SHOULD** by all means cite the Molecular Dynamics (MD) analysis libraries upon which :code:`taurenmd` wraps. Please read through each project's documentation to understand how to cite them; these projects are linked in the `Dependencies` header.
+        
+        Acknowledges
+        ============
+        
+        The concept of this project is largely inspired in the `pdb-tools`_ *one script one action* idea.
+        Thanks to `JoaoRodrigues`_ for all the mentoring on MD! CI in this repository provided by `cookiecutter-pylibrary`_ with final setup by me.
+        
+        .. _pdb-tools: https://github.com/haddocking/pdb-tools
+        .. _JoaoRodrigues: https://github.com/JoaoRodrigues
+        .. _MDTraj: https://github.com/mdtraj/mdtraj
+        .. _MDAnalysis: https://www.mdanalysis.org/
+        .. _OpenMM: https://github.com/openmm/openmm
+        .. _matplotlib: https://matplotlib.org/
+        .. _cookiecutter-pylibrary: https://github.com/ionelmc/cookiecutter-pylibrary
+        
+        
+        Changelog
+        =========
+        
+        0.2.0 (2019-10-26)
+        ------------------
+        
+        - added ``cli_report``
+        
+        0.1.1 (2019-10-26)
+        ------------------
+        
+        - corrected libio
+        - trajectory loads based on MDAnalysis now read and concatenate multiple trajectories.
+        
+        0.1.0 (2019-10-26)
+        ------------------
+        
+        - added interfaces:
+          - ``trajedit``
+          - ``noSol``
+          - ``imagemol``
+          - ``rmsd``
+          - ``cli template``
+        
+        0.0.0 (2019-10-15)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
