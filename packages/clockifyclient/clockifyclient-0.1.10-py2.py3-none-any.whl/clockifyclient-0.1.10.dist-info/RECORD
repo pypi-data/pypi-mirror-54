@@ -1,0 +1,12 @@
+clockifyclient/__init__.py,sha256=cSrJfA2A57yBlrBVlfCSODC4AtTdLepxNtsQEPAaCgM,173
+clockifyclient/api.py,sha256=7V0E1ENH8UXU40qcRN370m1wDBPSitlcPMbxFCMNEg4,7542
+clockifyclient/client.py,sha256=2CgEvtTvbuMj8XL1aTZ20JMsIlvvLq6a52GttZqpFCw,7265
+clockifyclient/decorators.py,sha256=VnZjbteuVy1JTwzwxcT77kfD8opfye4pepjS9dQlJ58,528
+clockifyclient/exceptions.py,sha256=b6-KylGU7Z_i2NmnuuzKTUE7DAwPjmun0JyZB6my7w0,132
+clockifyclient/models.py,sha256=Ct7dv27AT2VPg5jIlsaxQryeEpGuVXbRj3aNJNE10WU,8236
+clockifyclient-0.1.10.dist-info/AUTHORS.rst,sha256=DfoIKFKiYqZVARXSno2JbJAXa0TnNidrN1IE2QORwyI,159
+clockifyclient-0.1.10.dist-info/LICENSE,sha256=iNwhqDc5wNeZWj7mz1JtrMORlgglr_HuQk_Ki6dcm_w,1556
+clockifyclient-0.1.10.dist-info/METADATA,sha256=LlwfAa__MSjsshvzVAWGV7bjCHReBdjinEGSJ5fAO48,1991
+clockifyclient-0.1.10.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+clockifyclient-0.1.10.dist-info/top_level.txt,sha256=-ICn7UJA6J-uUPDhiEuX5MW8hA09W1a1SO5rPcij_NA,15
+clockifyclient-0.1.10.dist-info/RECORD,,
