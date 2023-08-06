@@ -1,0 +1,13 @@
+extractcode_libarchive/__init__.py,sha256=7Adv9Law7U791c7-hZQGQ3WwlALA1bjoyWJx_TndUKs,2000
+extractcode_libarchive/lib/libarchive.ABOUT,sha256=Z7FSipFSQI8eb_w_33ub-7Tj3bhzzU7eJhlaYnc-B78,503
+extractcode_libarchive/lib/libarchive.NOTICE,sha256=BnxbBc-Lw40DYCVBSDp49EN7yCxKLMhq-bOtPzOcZJU,6997
+extractcode_libarchive/lib/libarchive.dylib,sha256=oLRxPZB1ATcyF0uxc1knspbEOdn_s3s_dgs7mlw5YuE,774044
+extractcode_libarchive/lib/liblzma.5.dylib,sha256=aSkscWnB6dLDb-2dM1wjyx6SJQpdNWEd0NamNOKg2pk,198420
+extractcode_libarchive/lib/liblzma.ABOUT,sha256=mkLoR-X5XSKKcfDv3fRFMYg9lsWVhdzWOOUpv0uM6dA,177
+extractcode_libarchive/lib/liblzma.COPYING,sha256=xPjhT6_kWNhICKTNi2n5RnPr4r-PyZIpFimmmsEiGPg,2774
+extractcode_libarchive-3.1.4.dist-info/LICENSE.txt,sha256=DcblYsEZU-uw0wyyxkuo0kLvRo37pJDW4TmvMrJ9V88,7216
+extractcode_libarchive-3.1.4.dist-info/METADATA,sha256=dsca8uDcfunNVgTNuMUfonnPJJwg7wDaVzyIelHPBfM,710
+extractcode_libarchive-3.1.4.dist-info/WHEEL,sha256=mXXgPoQTKQqoCsL4_vX22zEecfhe5QxfsSDxPvLoiz0,138
+extractcode_libarchive-3.1.4.dist-info/entry_points.txt,sha256=zcp9FH5-R4OxV4fVsus5QVSJiesjXNuBIqFZ0oRi-5U,94
+extractcode_libarchive-3.1.4.dist-info/top_level.txt,sha256=4iS_Ivc3tbQoefNBIMW_ijmZqgWeNO7iIfFV-GKf_Wk,23
+extractcode_libarchive-3.1.4.dist-info/RECORD,,
