@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+afroy/__init__.py
+afroy/afro.py
+afroy/pyaccounts.py
+afroy.egg-info/PKG-INFO
+afroy.egg-info/SOURCES.txt
+afroy.egg-info/dependency_links.txt
+afroy.egg-info/requires.txt
+afroy.egg-info/top_level.txt
