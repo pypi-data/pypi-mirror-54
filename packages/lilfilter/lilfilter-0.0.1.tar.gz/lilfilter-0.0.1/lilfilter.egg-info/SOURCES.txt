@@ -1,0 +1,14 @@
+README.md
+setup.py
+lilfilter/__init__.py
+lilfilter/filter_function.py
+lilfilter/filters.py
+lilfilter/local_amplitude.py
+lilfilter/multistreamer.py
+lilfilter/resampler.py
+lilfilter/torch_filter.py
+lilfilter.egg-info/PKG-INFO
+lilfilter.egg-info/SOURCES.txt
+lilfilter.egg-info/dependency_links.txt
+lilfilter.egg-info/requires.txt
+lilfilter.egg-info/top_level.txt
