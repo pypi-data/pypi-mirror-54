@@ -1,0 +1,5 @@
+toml
+beautifulsoup4
+bs4
+lxml
+requests

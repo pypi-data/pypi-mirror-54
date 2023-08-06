@@ -1,0 +1,14 @@
+MANIFEST.in
+Pipfile
+README.md
+setup.py
+CubaCrawler/Cubadebate.py
+CubaCrawler/Granma.py
+CubaCrawler/ScrapBase.py
+CubaCrawler/__init__.py
+CubaCrawler/crawler.py
+CubaCrawler.egg-info/PKG-INFO
+CubaCrawler.egg-info/SOURCES.txt
+CubaCrawler.egg-info/dependency_links.txt
+CubaCrawler.egg-info/requires.txt
+CubaCrawler.egg-info/top_level.txt
