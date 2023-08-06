@@ -1,0 +1,10 @@
+jieba_calcu/__init__.py,sha256=aShBG1VVhhn9NG-f2Eve_RxVaxqXu-DDsBPRV4hOVRI,3134
+jieba_calcu/mywrapper.py,sha256=A9Cl7WeHybbI_28eKaMm-UWgFlDxj_NLkiMF9yO2orc,706
+jieba_calcu/viterbi.py,sha256=9FqWXhQQbHX0QW7ZRivYXeLQif7piraz9CGOntZXmLg,4661
+jieba_calcu/word_discovery.py,sha256=Se2sY6e-5_2XLOV2BQ_dsg9jEDrAjMeGkPu8X7qccSA,11199
+jieba_calcu-1.0.2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+jieba_calcu-1.0.2.dist-info/METADATA,sha256=b6AGAkSz9OM48Yt0amKxmEVBlFwLdu2qQMcoD8p0ko8,349
+jieba_calcu-1.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+jieba_calcu-1.0.2.dist-info/entry_points.txt,sha256=-zZlHZSoTg_7iIq_D3FD3esoHT5pcuA-JqZui1Tqbz0,148
+jieba_calcu-1.0.2.dist-info/top_level.txt,sha256=6UrDV2mLD8cgv4s_hMxji-RLlevXExT6aMOrlBsEhD8,12
+jieba_calcu-1.0.2.dist-info/RECORD,,
