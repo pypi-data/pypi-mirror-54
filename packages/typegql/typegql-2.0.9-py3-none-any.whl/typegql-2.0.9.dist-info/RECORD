@@ -1,0 +1,17 @@
+typegql/__init__.py,sha256=2Cm12RlzIeLHx5sUxlfIhEt2nCu5iYaiXmQgo-JAxDU,867
+typegql/client/__init__.py,sha256=cWE0oc2qlvpo6M50keAN0dAXQSDTna5xm9kEThQNTKg,51
+typegql/client/client.py,sha256=b-BXnS7Yx53iaP8W7cGvG0zXxXYsOY5neayUGyKNzik,2523
+typegql/client/dsl.py,sha256=eLuVKCTNKsp2HFuhxQTwxA_Nvlmvzbb8onTF5L9kUwM,6282
+typegql/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typegql/core/arguments.py,sha256=H0auToudV1RugfrvXiHiA-J_LfzkCtptJEGWeHMlPwg,1980
+typegql/core/builder.py,sha256=pJioPO9FocRfX9XbugnCYp_NcFvJ2Fh3OjTyVYy8vS4,8792
+typegql/core/connection.py,sha256=eASjLVPtw2u3cA9_jZz1MKYpymwSbR9N27yOjNHPff0,1407
+typegql/core/execution.py,sha256=-y4IOtFZ8fLPpnv9unVM43UEPKZM6zuZ9nQ0pXptIY4,1908
+typegql/core/fields.py,sha256=m8WH-IgEmo5jN6_Ie_R3INGtygmH_lDmqHpGfLsGzTU,1054
+typegql/core/graph.py,sha256=UioOgXpjZMFqL19VcT6S8HkIeEkfViwFjM1O-eglhnA,301
+typegql/core/schema.py,sha256=jkERean3yWUphzXsUsL5IPwPGS6PJ5PNb0qJ7SZh48I,3774
+typegql/core/types.py,sha256=tqOvRgIQPvMuy25fSLBxMQ2sOjGWHy8Aw7NnkpB7Jqs,2249
+typegql/core/utils.py,sha256=cmptgutFY9XnUm59bSMQzCDhClbZTtZ9w4uwcAzAtCw,712
+typegql-2.0.9.dist-info/WHEEL,sha256=2cuNvJXfe2HLnOJxNBVnVfpJIOzFSTsZ7ZQ2qj1jFGs,85
+typegql-2.0.9.dist-info/METADATA,sha256=LOBj8JIpiQUbMtDbtpHGXdQtKjpIXF6gajRmOj3i20M,7887
+typegql-2.0.9.dist-info/RECORD,,
