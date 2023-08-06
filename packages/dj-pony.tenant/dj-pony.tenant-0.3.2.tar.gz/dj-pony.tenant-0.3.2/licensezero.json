@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "licensezero": [
+    {
+      "agentSignature": "80a9d71c63d0f893ce6c4682087130ef7cc8558c14c21895fc857fd22d22f9480bb5d74f5f6f3548f7e517c14f2d37febb01fbeac91cc1c4fa1434d63d95b507",
+      "license": {
+        "homepage": "https://github.com/dj-pony/dj-pony-tenant",
+        "jurisdiction": "AU-WA",
+        "name": "Samuel Bishop",
+        "projectID": "0c5191cb-67a6-453d-94f2-c9a04e988d0d",
+        "publicKey": "c8b67a3ec434a416655595034f05a3b8fafb9156046484060586f8b6cbceeae8",
+        "terms": "prosperity",
+        "version": "2.0.0"
+      },
+      "licensorSignature": "8f0b897c3d6eca2b28b4b027d592e9f4e86f34ec2b719a4111a9ac681883fc3d53398331d30be1705ffb7667e1612c6069b987cb6f378938963af02c1925030e"
+    }
+  ]
+}
