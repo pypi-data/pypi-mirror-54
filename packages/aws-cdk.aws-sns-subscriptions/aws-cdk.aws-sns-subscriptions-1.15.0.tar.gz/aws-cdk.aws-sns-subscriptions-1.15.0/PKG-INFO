@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aws-cdk.aws-sns-subscriptions
+Version: 1.15.0
+Summary: CDK Subscription Constructs for AWS SNS
+Home-page: https://github.com/aws/aws-cdk
+Author: Amazon Web Services
+License: UNKNOWN
+Project-URL: Source, https://github.com/aws/aws-cdk.git
+Description: # CDK Construct Libray for AWS XXX
+        
+        <html></html>---
+        
+        
+        ![Stability: Stable](https://img.shields.io/badge/stability-Stable-success.svg?style=for-the-badge)
+        
+        ---
+        <html></html>
+        
+        A short description here.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
