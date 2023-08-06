@@ -1,0 +1,12 @@
+setup.py
+bin/niicat
+niicat/__init__.py
+niicat.egg-info/PKG-INFO
+niicat.egg-info/SOURCES.txt
+niicat.egg-info/dependency_links.txt
+niicat.egg-info/not-zip-safe
+niicat.egg-info/requires.txt
+niicat.egg-info/top_level.txt
+niicat/resources/__init__.py
+niicat/resources/imgcat.sh
+niicat/resources/niipre.py
