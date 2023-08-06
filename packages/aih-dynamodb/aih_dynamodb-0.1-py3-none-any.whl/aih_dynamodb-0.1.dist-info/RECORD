@@ -1,0 +1,7 @@
+aih-dynamodb/__init__.py,sha256=rr38XfbvDX7LYH8HyLcpe24i-R4VJSaRHA4kiADHWlA,28
+aih-dynamodb/database.py,sha256=DilpDslQ6vPSPMkSnjpP1ud-vX8Q6TZJr2AHIkY-fis,961
+aih-dynamodb/table.py,sha256=mWozHw7UU0AkcUbTAG_ektYZ55-qK9EPBIL5jNNdo9o,5516
+aih_dynamodb-0.1.dist-info/METADATA,sha256=B_s8D55mDo_yg2462z7FddM-8R05wGVKSVtrdMdpnEs,310
+aih_dynamodb-0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+aih_dynamodb-0.1.dist-info/top_level.txt,sha256=NKiM1gFBt2idLRM-TKcblassrEiNb9ipjNhdW9elLY0,13
+aih_dynamodb-0.1.dist-info/RECORD,,
