@@ -1,0 +1,6 @@
+{
+    "project_name": "ccm_widgets",
+    "type": "Tabs",
+    "description": "Tabs",
+    "defaultProps": {}
+}

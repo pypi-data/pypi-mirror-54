@@ -1,0 +1,4 @@
+include ccm_widgets/dist/bundle.js
+include ccm_widgets/host_widget/dist/bundle.js
+recursive-include ccm_widgets/electron *
+recursive-include ccm_widgets/widgets *
