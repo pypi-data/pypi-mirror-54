@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: aih_codegen
+Version: 0.13
+Summary: Generate graphql code
+Home-page: https://github.com/quyencao/aih_codegen
+Author: aih
+Author-email: quyen.cm@example.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
