@@ -1,0 +1,3 @@
+[console_scripts]
+reditor=rimteam_editor.__main__:main
+
