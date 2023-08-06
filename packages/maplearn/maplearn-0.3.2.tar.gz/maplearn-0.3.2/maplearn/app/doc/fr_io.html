@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Mapping Learning</title>
+<link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+<h1><img src="../gui/Icon/io_icon.png" class="icon_big"> Entrées/Sorties</h1>
+
+<h3>Echantillons/Données</h3>
+
+Dans votre jeu de données, <i>maplearn</i> distingue :
+
+<ul>
+<li>les <strong>échantillons</strong>, pour lesquels vous disposez d'une 
+connaissance totale
+<li>les autres <strong>données</strong>, sur lesquelles vous recherchez à
+obtenir une information (prédiction)
+</ul>
+
+
+<h4>Formats</h4>
+
+<i>maplearn</i> peut utiliser des données :
+
+<ul>
+<li><strong>Tabulaires</strong> : fichiers au format csv, xls et xlsx</li>
+<li><strong>Images</strong> : fichiers au format Tiff</li>
+<li><strong>Vectorielles</strong> : fichiers de forme (shapefile)</li>
+</ul>
+
+<h3>Attributs</h3>
+
+Les attributs correspondent classiquement aux colonnes de vos données 
+tabulaires et vectorielles (ou aux bandes si il s'agit d'images). En
+machine learning, on distingue les <strong>features</strong> (ou variables
+prédictives) des <strong>labels</strong> (ou variable à prédire).
+
+<i>maplearn</i> permet de préciser :
+
+<ul>
+<li><strong>label_id</strong> : nom de la colonne correspondant aux labels, 
+sous forme de <strong>code numérique</strong></li>
+<li><strong>label_id</strong> : nom de la colonne correspondant aux labels, 
+sous forme de <strong>texte</strong></li>
+<li><strong>features</strong> : liste des features (séparée par des ";") à
+utiliser pour la prédiction. <i>Toutes les colonnes restantes seront utilisées
+si vous n'indiquez rien</i></li>
+</ul>
+
+<h3>Sortie</h3>
+
+Lors de son exécution, <i>maplearn</i> générera un rapport standardisé 
+décrivant les taches réalisées et les statistiques obtenues. Ce rapport sera
+disponible dans le dossier que vous aurez indiqué.
+</body>
