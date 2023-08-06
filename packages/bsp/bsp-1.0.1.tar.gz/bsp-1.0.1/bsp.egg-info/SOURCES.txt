@@ -1,0 +1,9 @@
+README.md
+setup.py
+bsp/__init__.py
+bsp/bsp.py
+bsp/json.py
+bsp.egg-info/PKG-INFO
+bsp.egg-info/SOURCES.txt
+bsp.egg-info/dependency_links.txt
+bsp.egg-info/top_level.txt
