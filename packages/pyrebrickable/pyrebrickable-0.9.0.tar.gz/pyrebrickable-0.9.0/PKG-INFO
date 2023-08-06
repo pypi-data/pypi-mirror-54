@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyrebrickable
+Version: 0.9.0
+Summary: UNKNOWN
+Home-page: https://rienafairefr.github.io/pyrebrickable/
+Author: rienafairefr
+Author-email: rienafairefr@gmail.com
+License: UNKNOWN
+Description: This is pyrebrickable, tools for the www.rebrickable.com website and data
+            
+        It provides:
+        * an auto-generated rebrickable API (in rebrickable.api)
+        * a CLI wrapper around that API (in rerickable.cli)
+        * a SQLalchemy wrapper around the monthly database dumps (in rebrickable.data)
+        
+        It uses the monthly data dumps (http://www.rebrickable.com/downloads) and provides
+        SQLAlchemy models to query the data inside. Data is stored in a local SQLite file
+        in your user directory (inside %APPDATA% on Windows, ~/.local/share on Linux, ~/Library/Application Support/ on MacOS)
+        
+        Once installed, you gain access to the rebrickable-data cli :
+        
+        `rebrickable-data download` to download csv files from rebrickable
+        `rebrickable-data import` to import them in a database
+        `rebrickable-data reset-db` to reset the in a database
+        #EXPERIMENTAL# `rebrickable-data download-extra` to download data from rebrickable that are not in the dumps (e.g. MOCs data)
+        
+        see examples in examples folder
+        
+        
+Keywords: rebrickable
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
