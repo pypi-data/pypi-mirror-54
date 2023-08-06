@@ -1,0 +1,7 @@
+README.md
+setup.py
+jt_ops/__init__.py
+jt_ops.egg-info/PKG-INFO
+jt_ops.egg-info/SOURCES.txt
+jt_ops.egg-info/dependency_links.txt
+jt_ops.egg-info/top_level.txt
