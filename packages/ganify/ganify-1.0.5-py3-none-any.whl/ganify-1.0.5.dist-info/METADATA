@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ganify
+Version: 1.0.5
+Summary: An Easy way to use GANs for data augmentation
+Home-page: https://github.com/arnonbruno/ganify
+Author: Arnon Bruno
+Author-email: asantos.quantum@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (>=2.0.0)
+Requires-Dist: pandas (>=0.25)
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: scikit-learn (>=0.21)
+Requires-Dist: matplotlib (>=3.1)
+Requires-Dist: tqdm (>=4.15)
+
+# ganify
+Project to ease the implementation of GAN and WGAN for data augmentation!
+
+
