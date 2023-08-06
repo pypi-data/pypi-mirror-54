@@ -1,0 +1,9 @@
+MANIFEST.in
+readme.md
+setup.py
+clicolor/__init__.py
+clicolor/cli.py
+clicolor.egg-info/PKG-INFO
+clicolor.egg-info/SOURCES.txt
+clicolor.egg-info/dependency_links.txt
+clicolor.egg-info/top_level.txt
