@@ -1,0 +1,3 @@
+[console_scripts]
+hm-render-landez = hm_render_landez.hm_render_landez:main
+
