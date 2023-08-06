@@ -1,0 +1,3 @@
+[console_scripts]
+peewee-erd=peewee_erd:main
+
