@@ -1,0 +1,11 @@
+othelloai/__init__.py,sha256=S6YWtVD7SwqgTISecswwx47Z0lRlDk7FfGWhOKB_QLs,232
+othelloai/__main__.py,sha256=e4rcBfITTQPoNx1k0_CMhyujfM8s93pf2aWXKOPwjU0,282
+othelloai/ai.py,sha256=IN_cy5KbtxNC69PcC5Xg9rK5tilN3QUXfDanCZEHGME,426
+othelloai/bitboard.py,sha256=ZgeQPjlyR50vDszZVH7wBKaMpNb0fvE-kt6XBpdg6n4,2263
+othelloai/game.py,sha256=H20nO5_5_8qLPIeBWMHe9DWWsGzkEHKnQVT1IOWarB8,7403
+othelloai/player.py,sha256=otIhSvTXJXlG0fINnEetYD9HLCsDRPg4_ZDm8Dmf_jA,1645
+othelloai/ui.py,sha256=-2L7akCHIaB6QhBK8naPv2bU7cT6o8JsxXzw9oFOcSs,7580
+othello_ai-0.1.0.dist-info/LICENSE,sha256=i6nCoiS_yLLnF06aVvW9unVE9rEvh9Ptcp1yaXTaEm0,1070
+othello_ai-0.1.0.dist-info/WHEEL,sha256=uvv1AQW2KofoDi40QrELRF14CCscf7j9E3GsqyAEk-s,85
+othello_ai-0.1.0.dist-info/METADATA,sha256=XkVA7gc3Q868oijlgTurtGtbYa8fjc2ksbJOKWaf6d4,803
+othello_ai-0.1.0.dist-info/RECORD,,
