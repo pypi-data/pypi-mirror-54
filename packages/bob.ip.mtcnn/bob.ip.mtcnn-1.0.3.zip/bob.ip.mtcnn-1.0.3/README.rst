@@ -1,0 +1,54 @@
+.. vim: set fileencoding=utf-8 :
+.. Tiago de Freitas Pereira <tiago.pereira@idiap.ch>
+.. Fri 17 Jul 02:49:53 2016 CEST
+
+.. image:: http://img.shields.io/badge/docs-v1.0.3-yellow.svg
+   :target: https://www.idiap.ch/software/bob/docs/bob/bob.ip.mtcnn/v1.0.3/index.html
+.. image:: http://img.shields.io/badge/docs-latest-orange.svg
+   :target: https://www.idiap.ch/software/bob/docs/bob/bob.ip.mtcnn/master/index.html
+.. image:: https://gitlab.idiap.ch/bob/bob.ip.mtcnn/badges/v1.0.3/build.svg
+   :target: https://gitlab.idiap.ch/bob/bob.ip.mtcnn/commits/v1.0.3
+.. image:: https://gitlab.idiap.ch/bob/bob.ip.mtcnn/badges/v1.0.3/coverage.svg
+   :target: https://gitlab.idiap.ch/bob/bob.ip.mtcnn/commits/v1.0.3
+.. image:: https://img.shields.io/badge/gitlab-project-0000c0.svg
+   :target: https://gitlab.idiap.ch/bob/bob.ip.mtcnn
+.. image:: http://img.shields.io/pypi/v/bob.ip.mtcnn.svg
+   :target: https://pypi.python.org/pypi/bob.ip.mtcnn
+
+
+=====================================================
+ Bob interface for MTCNN face and landmark detection
+=====================================================
+
+This package wraps the MTCNN face and landmark detection from the paper
+
+    @ARTICLE{7553523, 
+        author={K. Zhang and Z. Zhang and Z. Li and Y. Qiao}, 
+        journal={IEEE Signal Processing Letters}, 
+        title={Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks}, 
+        year={2016}, 
+        volume={23}, 
+        number={10}, 
+        pages={1499-1503}, 
+        keywords={Benchmark testing;Computer architecture;Convolution;Detectors;Face;Face detection;Training;Cascaded convolutional neural network (CNN);face alignment;face detection}, 
+        doi={10.1109/LSP.2016.2603342}, 
+        ISSN={1070-9908}, 
+        month={Oct},}
+
+
+Installation
+------------
+
+Complete Bob's `installation`_ instructions. Then, to install this package,
+run::
+
+  $ conda install bob.ip.mtcnn
+
+
+Documentation
+-------------
+For further documentation on this package, please read the `Latest Version <https://www.idiap.ch/software/bob/docs/bioidiap/bob.ip.mtcnn/master/index.html>`_ of the documentation.
+
+
+
+.. _bob: https://www.idiap.ch/software/bob
