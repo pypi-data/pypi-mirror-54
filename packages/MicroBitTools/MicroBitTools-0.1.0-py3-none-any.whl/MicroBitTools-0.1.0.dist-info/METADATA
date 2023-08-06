@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: MicroBitTools
+Version: 0.1.0
+Summary: Library used for helping developing for the BBC microbit easier.
+Home-page: https://github.com/BigCowKing/MicroBitTools
+Author: Simon Lindgren
+Author-email: babbilant@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Description-Content-Type: text/markdown
+
+# MicroBitTools
+MicroBitTools is a package for making BBC Microbit development easier.
+
+# Installation
+Run the following line in the terminal/command promt to install:
+
+```pip install MicroBitTools```
+
+# Examples
+This one is used to export to the microbit
+```
+from MicroBitTools import export
+export("PythonFilePathHere", "MicroBitDirectoryHere")
+```
+
