@@ -1,0 +1,9 @@
+policykit/__init__.py,sha256=2Zmd7s8u49N_BGS-jnNovwToqaYKqB8f9Tuqb7G5G50,39
+policykit/cli.py,sha256=iR_6sVEfpzixHBj5xnwkvroh_j-QikO9h20u-vP18SE,2210
+policykit/models.py,sha256=1Qkv1w5lmmXvgdWQr9ihBD8n2P90E2PTtsUlOcCWo4s,1667
+policykit/test_models.py,sha256=UmyYZ2YtIrvVBgnQhy2gIiIyHfJU-xwbcPSPsMRvvhA,1782
+policykit-0.1.1.dist-info/entry_points.txt,sha256=ysD0-041km0Yz4j3DiaEUsdQkCowJxSlDfH72OINdyA,97
+policykit-0.1.1.dist-info/LICENSE,sha256=Oy-zphwjpff0Tpu0zxlh2rFYO1ooR1XS5xShM7BDkoc,558
+policykit-0.1.1.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+policykit-0.1.1.dist-info/METADATA,sha256=Yb2K1g5w4wZI1ABuvfksLjNjRIX5lUt8eGA1i9d2KH0,3333
+policykit-0.1.1.dist-info/RECORD,,
