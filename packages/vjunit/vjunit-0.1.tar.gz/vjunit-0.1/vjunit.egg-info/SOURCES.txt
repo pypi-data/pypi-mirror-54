@@ -1,0 +1,11 @@
+README.md
+setup.py
+vjunit/__init__.py
+vjunit/__main__.py
+vjunit/vjunit.py
+vjunit.egg-info/PKG-INFO
+vjunit.egg-info/SOURCES.txt
+vjunit.egg-info/dependency_links.txt
+vjunit.egg-info/entry_points.txt
+vjunit.egg-info/requires.txt
+vjunit.egg-info/top_level.txt

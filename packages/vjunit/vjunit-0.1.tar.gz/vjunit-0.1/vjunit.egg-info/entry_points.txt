@@ -1,0 +1,3 @@
+[console_scripts]
+vjunit = vjunit.__main__:main
+
