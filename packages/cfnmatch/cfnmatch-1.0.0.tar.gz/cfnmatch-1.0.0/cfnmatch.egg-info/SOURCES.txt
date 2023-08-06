@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+cfnmatch.c
+cfnmatch.pyx
+fnmatch.pxd
+requirements.txt
+setup.py
+cfnmatch.egg-info/PKG-INFO
+cfnmatch.egg-info/SOURCES.txt
+cfnmatch.egg-info/dependency_links.txt
+cfnmatch.egg-info/top_level.txt

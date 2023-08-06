@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: cfnmatch
+Version: 1.0.0
+Summary: Replace python fnmatch with GNU C fnmatch
+Home-page: https://github.com/an-death/cfnmatch
+Author: asimuskov
+Author-email: asimuskov@intermedia.net, opiumofthepeople@yandex.ru
+License: UNKNOWN
+Description: Replace python fnmatch with GNU C fnmatch
+Platform: *nix
+Requires: Cython
+Requires-Python: >=3.5
