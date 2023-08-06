@@ -1,0 +1,5 @@
+include setup.py
+
+recursive-include coverart/ui      *.ui
+recursive-include coverart/icons   *.svg
+recursive-include coverart/sources *.py

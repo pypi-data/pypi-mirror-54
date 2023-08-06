@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: coverart
+Version: 0.7.5
+Summary: Cover art downloader.
+Home-page: UNKNOWN
+Author: Jeremy Cantrell
+Author-email: jmcantrell@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia :: Sound/Audio

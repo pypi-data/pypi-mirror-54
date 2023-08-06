@@ -1,0 +1,13 @@
+Installation
+------------
+
+If you have setuptools installed, you can install CoverArt with:
+
+    easy_install coverart
+
+Otherwise, you'll have to download the package and run:
+
+    python setup.py install
+
+If you install it this way then you will also have to install all necessary
+dependencies manually.
