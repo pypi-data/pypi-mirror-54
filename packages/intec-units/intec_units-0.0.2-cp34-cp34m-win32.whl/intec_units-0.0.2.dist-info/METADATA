@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: intec-units
+Version: 0.0.2
+Summary: Physical units library
+Home-page: https://bitbucket.org/zmic/intec-units
+Author: Michael Vanslembrouck
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.4
+
+=================
+What is it?
+=================
+
+Yet another Python library for physical units
+
+* written in C++ for optimum performance
+
+How do I set it up?
+-------------------------------
+
+* pip install intec-units
+
+Example
+-------------------------------
+
+::
+
+    from intec.units import MILLIWATT, NANOMETER
+
+    def example1():
+
+    def example2():
+
+
+
+    if __name__ == '__main__':
+        example1()
+        example2()
+
+
+
