@@ -1,0 +1,7 @@
+search_tools.egg-info/
+*.csv
+*.ipynb
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+dist/
