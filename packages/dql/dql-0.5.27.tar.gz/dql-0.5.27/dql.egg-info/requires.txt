@@ -1,0 +1,17 @@
+dynamo3>=0.4.7
+future>=0.15.0
+pyparsing==2.1.4
+python-dateutil<2.7.0
+
+[doc]
+numpydoc
+sphinx
+sphinx_rtd_theme
+
+[lint]
+black
+pylint==2.3.1
+
+[test]
+mock
+nose
