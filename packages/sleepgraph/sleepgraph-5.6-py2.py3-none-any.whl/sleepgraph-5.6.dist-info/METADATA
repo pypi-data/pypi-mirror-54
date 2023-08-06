@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sleepgraph
+Version: 5.6
+Summary: Suspend/Resume timing and analysis tool
+Home-page: https://github.com/intel/pm-graph/
+Author: Todd E Brandt
+Author-email: todd.e.brandt@linux.intel.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+
+This tool is designed to assist kernel and OS developers in optimizing
+their linux stack's suspend/resume time. Using a kernel image built
+with a few extra options enabled, the tool will execute a suspend and
+capture dmesg and ftrace data until resume is complete. This data is
+transformed into a device timeline and an optional callgraph to give
+a detailed view of which devices/subsystems are taking the most
+time in suspend/resume.
+
