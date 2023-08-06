@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: desert
+Version: 0.1.6
+Summary: Deserialize to objects while staying DRY
+Home-page: https://github.com/python-desert/desert
+Author: Desert contributors
+Author-email: python-desert@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Dist: marshmallow (>=3.0)
+Requires-Dist: attrs
+Requires-Dist: typing-inspect
+Requires-Dist: dataclasses
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: cuvner ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: versioneer ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pex ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: docutils ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: readme-renderer ; extra == 'dev'
+Requires-Dist: pygments ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest-sphinx ; extra == 'dev'
+Requires-Dist: towncrier ; extra == 'dev'
+Requires-Dist: marshmallow-union ; extra == 'dev'
+Requires-Dist: marshmallow-enum ; extra == 'dev'
+
+===============================
+Desert: DRY deserialization
+===============================
+
+
+
+
+Desert generates serialization schemas for ``dataclasses`` and ``attrs`` classes. Writing
+code that's DRY ("don't repeat yourself") helps avoid bugs and improve readability. Desert
+helps you write code that's DRY.
+
+
+
+
+
+
+
+Installation
+============
+
+::
+
+    pip install desert
+
+or with `Poetry`_
+
+::
+
+   poetry add desert
+
+
+Usage
+=========
+
+..
+    start-basic-usage
+
+A simple example models two ``Person`` objects in a ``Car``.
+
+.. code-block:: python
+
+
+
+        from dataclasses import dataclass
+
+        # Or using attrs
+        # from attr import dataclass
+
+        from typing import List
+
+	import desert
+
+        @dataclass
+        class Person:
+            name: str
+            age: int
+
+        @dataclass
+        class Car:
+            passengers: List[Person]
+
+        # Load some simple data types.
+        data = {'passengers': [{'name': 'Alice', 'age': 21}, {'name': 'Bob', 'age': 22}]}
+
+
+        # Create a schema for the Car class.
+        schema = desert.schema(Car)
+
+        # Load the data.
+        car = schema.load(data)
+        assert car == Car(passengers=[Person(name='Alice', age=21), Person(name='Bob', age=22)])
+
+
+..
+    end-basic-usage
+
+Documentation
+=============
+
+
+https://desert.readthedocs.io/
+
+
+Limitations
+============
+
+String annotations and forward references inside of functions are not supported.
+
+
+.. _Poetry: https://poetry.eustace.io
+
+Changelog
+=========
+
+0.1.0 (2019-06-22)
+------------------
+
+Changes
+^^^^^^^
+
+- First release on PyPI.
+
+---
+
+
