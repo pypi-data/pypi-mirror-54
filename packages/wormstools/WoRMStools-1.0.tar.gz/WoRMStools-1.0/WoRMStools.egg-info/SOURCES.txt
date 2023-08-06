@@ -1,0 +1,8 @@
+README.md
+setup.py
+WoRMStools.egg-info/PKG-INFO
+WoRMStools.egg-info/SOURCES.txt
+WoRMStools.egg-info/dependency_links.txt
+WoRMStools.egg-info/top_level.txt
+src/__init__.py
+src/worms.py
