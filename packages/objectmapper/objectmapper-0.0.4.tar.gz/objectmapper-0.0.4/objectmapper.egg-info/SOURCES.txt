@@ -1,0 +1,11 @@
+README.rst
+setup.py
+objectmapper/__init__.py
+objectmapper/__version__.py
+objectmapper/exceptions.py
+objectmapper/objectmapper.py
+objectmapper.egg-info/PKG-INFO
+objectmapper.egg-info/SOURCES.txt
+objectmapper.egg-info/dependency_links.txt
+objectmapper.egg-info/requires.txt
+objectmapper.egg-info/top_level.txt
