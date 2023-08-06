@@ -1,0 +1,15 @@
+README.md
+setup.py
+DataToTable.egg-info/PKG-INFO
+DataToTable.egg-info/SOURCES.txt
+DataToTable.egg-info/dependency_links.txt
+DataToTable.egg-info/top_level.txt
+datatotable/__init__.py
+datatotable/data.py
+datatotable/database.py
+datatotable/typecheck.py
+datatotable.egg-info/PKG-INFO
+datatotable.egg-info/SOURCES.txt
+datatotable.egg-info/dependency_links.txt
+datatotable.egg-info/requires.txt
+datatotable.egg-info/top_level.txt

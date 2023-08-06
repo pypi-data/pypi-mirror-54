@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: datatotable
+Version: 0.2.dev1
+Summary: Create SQLite database tables automatically from data
+Home-page: https://github.com/Spencer-Weston/DatatoTable
+Author: Spencer Weston
+Author-email: Spencerweston3214@gmail.com
+License: MIT
+Description: # DatatoTable
+        Generate SQLite tables automatically from input data
+        
+Keywords: data SQL sql SQLalchemy web-scraping data-management
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
