@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: 12factor-configclasses
+Version: 0.1.3
+Summary: Like dataclasses but for config.
+License: MIT
+Author: Pablo Cabezas
+Author-email: pabcabsal@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: dotenv
+Provides-Extra: full
+Provides-Extra: toml
+Provides-Extra: yaml
+Requires-Dist: python-dotenv[dotenv] (>=0.10.3,<0.11.0); extra == "dotenv" or extra == "full"
+Requires-Dist: pyyaml[yaml] (>=5.1,<6.0); extra == "yaml" or extra == "full"
+Requires-Dist: tomlkit[toml] (>=0.5.8,<0.6.0); extra == "toml" or extra == "full"
