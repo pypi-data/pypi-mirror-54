@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: uvpool
+Version: 0.1.1
+Summary: A pool of network utilities based on uvloop
+Home-page: https://gitlab.com/uda/uvpool.git
+License: MIT
+Author: Yehuda Deutsch
+Author-email: yeh@uda.co.il
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: uvloop (>=0.13,<0.14)
+Project-URL: Repository, https://gitlab.com/uda/uvpool.git
+Description-Content-Type: text/markdown
+
+# UVPool
+
+A pool of network utilities based on uvloop
+
+## Roadmap
+
+* Web - based on sanic
+* DNS - Full implementation of DNS
+* Mail - Implements SMTP, IMAP and POP3 + support middleware for filtering and rules
+
+### Planned sub-projects
+
+* Web:
+    * WebDAV - CardDAV, CalDAV
+    * RSS feed aggregator
+    * Notes app
+    * Blog
+* DNS:
+    * DDNS (Web interface + DNS Server)
+* Mail:
+    * Webmail - with integration into other apps
+
+
