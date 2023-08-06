@@ -1,0 +1,9 @@
+setup.py
+aih_dynamodb/database.py
+aih_dynamodb/table.py
+aih_dynamodb.egg-info/PKG-INFO
+aih_dynamodb.egg-info/SOURCES.txt
+aih_dynamodb.egg-info/dependency_links.txt
+aih_dynamodb.egg-info/not-zip-safe
+aih_dynamodb.egg-info/requires.txt
+aih_dynamodb.egg-info/top_level.txt
