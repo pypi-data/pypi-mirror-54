@@ -1,0 +1,9 @@
+sketchfab/__init__.py,sha256=Q3Of0a24w2dNbT--eiUN58qDBl2iRgAiCTPIhA6B5v0,221
+sketchfab/api.py,sha256=nvj1j4BOyW0NwNtbdo5HA9sCk34ZJL2vORSUorY7HAU,9431
+sketchfab/clt.py,sha256=Ik7nEQ7Blnx8B1HD34uS6hiZ5iHK4L5rYoGV3hGJvTI,2660
+sketchfab/models.py,sha256=wDHUcKoS8Hyw77oodggHLWOI0oP9v3PaGrNrswJxBcs,4929
+sketchfab-0.0.8.data/scripts/sketchfab,sha256=0eC7AMMh2gYcGHAliEPreKMM7UR9vBEPnm6WszIDE4Y,2816
+sketchfab-0.0.8.dist-info/METADATA,sha256=cWB4hocSXuYcxMscMEgO_K63mJb4bow9I7JrPRsb4ag,5133
+sketchfab-0.0.8.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+sketchfab-0.0.8.dist-info/top_level.txt,sha256=0WdmnMX65u59ZgPquJfgXQ7dlgNevGfYA32KBLKXFmQ,10
+sketchfab-0.0.8.dist-info/RECORD,,
