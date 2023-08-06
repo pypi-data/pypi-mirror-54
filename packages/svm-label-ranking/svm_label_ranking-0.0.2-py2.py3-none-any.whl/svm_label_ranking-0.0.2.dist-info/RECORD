@@ -1,0 +1,13 @@
+svm_label_ranking/__init__.py,sha256=Sia8SK2Fz4PTb8Z3SMGph46ubJsMaNi38t9TbuYrWz0,39
+svm_label_ranking/arff.py,sha256=yw5Po32qKyDJmea5zTzjKv_rtlqdi8R7e1rn4aRktrg,28554
+svm_label_ranking/create_H_matrix_disk_memory.py,sha256=hw8UfzooqbZZjXAhnuPIPzmlSjtNJdTDuCbC5twQwj8,4862
+svm_label_ranking/crossvalidation_svmlr.py,sha256=Bz6NSY_zPAjdJjcJ4dsBspoGn2XzJ5xIRFzECbXZQ0o,9222
+svm_label_ranking/model.py,sha256=_KfYBXnFM_dcGvBHCFmf8U9ghFBPbOFOxQldcGYZLVA,9773
+svm_label_ranking/svmlr_frankwolfe.py,sha256=kwh2AeTMs8SHKcQer7uCDmITYkX8hY5C2Wsf--v43sE,9918
+svm_label_ranking/svmlr_qp.py,sha256=u2r0NZfrWxW2mjKy4XJmN7b_VQ3AHzXqDLf1dP-sz2c,6725
+svm_label_ranking/tools.py,sha256=5VE-RHkTk82s701jk6PsXuDNPoGAWCXUpV98DaVsAwM,5450
+svm_label_ranking-0.0.2.dist-info/LICENSE.md,sha256=mAoCcNrwSw5q93SzXOoaG5PNx0Dabd2x1pI-uyTDwkQ,1090
+svm_label_ranking-0.0.2.dist-info/METADATA,sha256=mpLmlV2tS3385dr38_aR7_gVQu7sunK7FB_7po244kw,1926
+svm_label_ranking-0.0.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+svm_label_ranking-0.0.2.dist-info/top_level.txt,sha256=n1CtS8k3j934c9a3_QS10OVpbEtyrkTTAiDqcKQXmPo,18
+svm_label_ranking-0.0.2.dist-info/RECORD,,
