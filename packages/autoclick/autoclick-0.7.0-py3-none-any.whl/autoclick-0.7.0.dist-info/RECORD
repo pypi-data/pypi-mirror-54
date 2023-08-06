@@ -1,0 +1,17 @@
+CHANGES.md,sha256=VeHdCl2hHMgPLYCCu17ePbYDYcthuZxhp1kAqqC8c1w,1919
+autoclick/__init__.py,sha256=u_b9i2mWRa4z1MVQZZ9RTYgwgsFluqwmQgFnbEeHlMQ,743
+autoclick/commands.py,sha256=uDEB8ZFui5BNayTizxj1a3JKCwzZEwzt76Tp9wanUaE,21012
+autoclick/composites/__init__.py,sha256=Oz7YtvRCtbJ8V1FeewxoSPSYJvaSpkTN1cGH_FYuIuY,14724
+autoclick/composites/library.py,sha256=QPnAFaNvVXAT3eQae9P2669eyLt8giHs_6wenHiBwG0,623
+autoclick/core.py,sha256=iY_uT0nCg8OiyDiX8YtPSHDXxAzWKsRUVy3OFGbB2NQ,15038
+autoclick/parameters.py,sha256=MucL03CpEOiwWPH6vhv1Ef4-GgwHcVaJjKtqPQTnbqo,3063
+autoclick/types/__init__.py,sha256=xtdDWfc8c6Q3-LYS8Igy-cmhNUjrRuYlEJVCVeOBvdQ,5709
+autoclick/types/library.py,sha256=5_YpbkDucZOJ1Z0LxPWf2tFs1cCCtSw1LQIgGO8_nIs,8252
+autoclick/utils.py,sha256=Z-5sB8cImiPo6sCZVHcWtEzz0iftAfGHub-Oo5usgAA,1901
+autoclick/validations/__init__.py,sha256=rslmoQJsAmpRylXIZAn2ZGFBKrzf5LWtji1AjuxhQdA,2796
+autoclick/validations/library.py,sha256=PVTXbdSWSCsqXMunOS1DPGLOAHl--EHpJQ8b6J73fME,4766
+autoclick-0.7.0.dist-info/entry_points.txt,sha256=i8B0hr5iUM-VznkE_5U24pDo8h3nrGXwNcc0sbErFTE,79
+autoclick-0.7.0.dist-info/LICENSE,sha256=sAbA5ydJIS3pS0ev8RdazUB93w_N1JOA9ATsYhB82CI,1074
+autoclick-0.7.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+autoclick-0.7.0.dist-info/METADATA,sha256=1wHu8y-fTZXPG2Hay260Dgwzq4OmkdmklqSMn-2fSt4,11049
+autoclick-0.7.0.dist-info/RECORD,,
