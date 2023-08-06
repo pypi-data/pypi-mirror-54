@@ -1,0 +1,11 @@
+grade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grade/decorators.py,sha256=sxxrG5NysnF8MnDk3gVTNRTcibRVi9OLwBcfBZ2rcq4,2488
+grade/mixins.py,sha256=MIChDyWdFxjHPxdRcqMuu57yVVaZmY1_3rW5bQ9ojlY,3625
+grade/pipeline.py,sha256=BY4AvZl6FO7E7Y2n_dhexZJzuXnximGbsWB6d9j9J0Y,10079
+grade/result.py,sha256=XLi66hdYBgFEJ8f7r8LTTYf93PmaWkWGxEamEdIU3_A,3288
+grade/runners.py,sha256=h-N5mEUsyDN8cxV3ylkIDeIJ1nZgoDIEENLpmy-BPtA,1032
+grade-0.8.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+grade-0.8.0.dist-info/METADATA,sha256=eBzIA375fkUMD_Dbjfg4pYz9fdpCNKFTT6B5zsGdahg,2691
+grade-0.8.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+grade-0.8.0.dist-info/top_level.txt,sha256=qOR1VrxJvM2FGvE5VcfqgLkHAS2AaI7BMOv0w-BRDuk,6
+grade-0.8.0.dist-info/RECORD,,
