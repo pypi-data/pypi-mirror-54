@@ -1,0 +1,3 @@
+[console_scripts]
+mandate_docs_bulk_uploader = mandate_docs_bulk_uploader:tool
+

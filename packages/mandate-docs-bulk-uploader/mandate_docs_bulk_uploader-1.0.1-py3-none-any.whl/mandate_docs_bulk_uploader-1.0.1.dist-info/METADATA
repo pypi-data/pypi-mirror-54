@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mandate-docs-bulk-uploader
+Version: 1.0.1
+Summary: Mandate docs bulk uploader
+Home-page: UNKNOWN
+Author: Omar Diaz
+Author-email: omar.diaz@crosslend.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: requests
+
+UNKNOWN
+
+
