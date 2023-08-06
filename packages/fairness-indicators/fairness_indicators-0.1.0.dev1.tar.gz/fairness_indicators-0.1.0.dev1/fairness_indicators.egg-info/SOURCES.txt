@@ -1,0 +1,7 @@
+README.md
+setup.py
+fairness_indicators.egg-info/PKG-INFO
+fairness_indicators.egg-info/SOURCES.txt
+fairness_indicators.egg-info/dependency_links.txt
+fairness_indicators.egg-info/requires.txt
+fairness_indicators.egg-info/top_level.txt
