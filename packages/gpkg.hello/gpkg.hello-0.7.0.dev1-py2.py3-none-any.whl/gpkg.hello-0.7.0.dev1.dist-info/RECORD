@@ -1,0 +1,11 @@
+gpkg.hello-0.7.0.dev1-py2.7-nspkg.pth,sha256=3xb90dBivDFXdtzoeCL9KXHrd-f6F3608fOH6f5Ond0,529
+gpkg/hello/guild.yml,sha256=CsoByLMsc0Wrb-bzMtSxnQ0cxv5Gw1wqglC4PQzev00,3944
+gpkg/hello/msg.txt,sha256=C8lrT0dXqAwKP5ubwU3nieXrHXVlmQTeaCQc_HAw594,35
+gpkg/hello/say.py,sha256=Ck_N0_q0KLlfnnWsdFnfa_fH-vUnZA7IK6s3hQl07TY,678
+gpkg.hello-0.7.0.dev1.dist-info/METADATA,sha256=02q_fpciTuOAEPftR34jceExq-E9OSs3jLFVza_2Yww,1590
+gpkg.hello-0.7.0.dev1.dist-info/PACKAGE,sha256=GRGKycdulx02SgyWEoyOVdRsUveVnXr9WL623x1oork,246
+gpkg.hello-0.7.0.dev1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+gpkg.hello-0.7.0.dev1.dist-info/entry_points.txt,sha256=8HqA-MEmbdh18mNIo_54559YvXTO37jSR44jp0t9q-o,207
+gpkg.hello-0.7.0.dev1.dist-info/namespace_packages.txt,sha256=VrTSvcvxGXQd3LAVUBekNvO1L5FXEzrCdpdy7XtwqRc,5
+gpkg.hello-0.7.0.dev1.dist-info/top_level.txt,sha256=VrTSvcvxGXQd3LAVUBekNvO1L5FXEzrCdpdy7XtwqRc,5
+gpkg.hello-0.7.0.dev1.dist-info/RECORD,,
