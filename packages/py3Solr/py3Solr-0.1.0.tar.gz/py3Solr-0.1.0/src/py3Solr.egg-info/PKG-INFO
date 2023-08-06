@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: py3Solr
+Version: 0.1.0
+Summary: Python3 client for Apache Solr
+Home-page: https://github.com/wbq813/py3Solr/
+Author: wbq813
+Author-email: wbq813@foxmail.com
+License: MIT
+Project-URL: blog, http://codeyourlife.cn
+Description: # pySolr
+        [Solr](http://lucene.apache.org/solr/) Client for Python3.
+        
+        ## Features
+        + Basic operations: eg. selecting, updating & deleting.
+        + Index optimization.
+        + Timeout support.
+        + SolrCloud.
+        
+        ## Support
+        The author have tested the functions of this tools on these solr version:
+        + solr 7.7.1
+        
+        ## Requirements
+        + Python 3.3+
+        + Requests 2.9.1 +
+        + [kazoo](https://github.com/python-zk/kazoo) for SolrCloud(Zookeeper)
+        
+        ## Install
+        ```bash
+        pip install py3Solr
+        ```
+        or:
+        ```bash
+        python setup.py install
+        ```
+        ## Quick Start
+        [test/test.py](test/test.py)
+        
+        ## TODO
+        + global log
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.3
+Provides-Extra: solrCloud

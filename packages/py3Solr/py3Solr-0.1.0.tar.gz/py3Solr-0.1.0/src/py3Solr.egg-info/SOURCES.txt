@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/py3Solr/__init__.py
+src/py3Solr/results.py
+src/py3Solr/solr.py
+src/py3Solr/solr_cloud.py
+src/py3Solr/solr_core_admin.py
+src/py3Solr/solr_error.py
+src/py3Solr/util.py
+src/py3Solr/zk.py
+src/py3Solr.egg-info/PKG-INFO
+src/py3Solr.egg-info/SOURCES.txt
+src/py3Solr.egg-info/dependency_links.txt
+src/py3Solr.egg-info/requires.txt
+src/py3Solr.egg-info/top_level.txt
+test/test.py
