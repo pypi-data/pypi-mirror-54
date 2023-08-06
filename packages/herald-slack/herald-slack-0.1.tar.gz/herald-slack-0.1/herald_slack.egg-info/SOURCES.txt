@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+herald_slack/__init__.py
+herald_slack/base.py
+herald_slack/client.py
+herald_slack/settings.py
+herald_slack.egg-info/PKG-INFO
+herald_slack.egg-info/SOURCES.txt
+herald_slack.egg-info/dependency_links.txt
+herald_slack.egg-info/not-zip-safe
+herald_slack.egg-info/top_level.txt

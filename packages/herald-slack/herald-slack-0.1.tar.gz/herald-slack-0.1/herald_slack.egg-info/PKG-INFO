@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: herald-slack
+Version: 0.1
+Summary: attr: herald_slack.__doc__
+Home-page: UNKNOWN
+Author: attr: herald_slack.__author__
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: notifications,slack
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Archiving :: Packaging
