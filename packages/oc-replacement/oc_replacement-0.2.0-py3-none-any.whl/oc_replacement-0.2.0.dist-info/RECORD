@@ -1,0 +1,12 @@
+oc_auth/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+oc_auth/http.py,sha256=JbhKWXaTFNyKhStdhcM8zaOgOPlD0hUWcbiq6JyKXE0,1657
+oc_auth/kube_config.py,sha256=FK7ZE2POJ_wT_Fg0uDUDHt9KCUY7Z8lRx9LHNgQpgV8,3035
+oc_auth/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oc_auth/cli/_base.py,sha256=R70vARiPuZM1xy0ZpX-UixCb-k-pETRFtOetmsCgcfA,581
+oc_auth/cli/main.py,sha256=y4i7VvIXJdWeZlYEOI0dZfMGpn3Hilt_usOTAwoYrb0,5070
+oc_replacement-0.2.0.dist-info/METADATA,sha256=6n_Z0Ree-cPcQGKCmVte5YR62ZgXfabAJTCjMIYRhkY,752
+oc_replacement-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+oc_replacement-0.2.0.dist-info/entry_points.txt,sha256=d1h1c0ERuC-gR-UK_4VU-C-hZhE93mg9Lmwj3SfrExk,51
+oc_replacement-0.2.0.dist-info/top_level.txt,sha256=_cIRTDrYEKuWq2TT8-CYfGvFVOdwyn3Qgh6bp25WpKY,8
+oc_replacement-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+oc_replacement-0.2.0.dist-info/RECORD,,
