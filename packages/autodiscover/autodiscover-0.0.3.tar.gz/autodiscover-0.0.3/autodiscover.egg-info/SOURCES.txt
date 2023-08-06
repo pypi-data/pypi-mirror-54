@@ -1,0 +1,10 @@
+README.md
+setup.py
+autodiscover/__init__.py
+autodiscover/autodiscover.py
+autodiscover.egg-info/PKG-INFO
+autodiscover.egg-info/SOURCES.txt
+autodiscover.egg-info/dependency_links.txt
+autodiscover.egg-info/top_level.txt
+tests/__init__.py
+tests/test_autodiscover.py
