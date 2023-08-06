@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: navo
+Version: 0.0.dev5
+Summary: Collection of utilities to facilitate Virtual Observatory access
+Home-page: https://github.com/NASA-NAVO/navo
+Author: NAVO Developers
+Author-email: UNKNOWN
+License: BSD 3-Clause
+Description: This package is a collection of utilities to facilitate access to Virtual Observatory services., largely built on top on the PyVO package.  These utilities are written as a part of the NASA Astronomical Virtual Observatories (NAVO).
+Platform: UNKNOWN
