@@ -1,0 +1,15 @@
+MANIFEST.in
+NEWS.txt
+README.rst
+setup.cfg
+setup.py
+ak_macholibre.egg-info/PKG-INFO
+ak_macholibre.egg-info/SOURCES.txt
+ak_macholibre.egg-info/dependency_links.txt
+ak_macholibre.egg-info/entry_points.txt
+ak_macholibre.egg-info/not-zip-safe
+ak_macholibre.egg-info/requires.txt
+ak_macholibre.egg-info/top_level.txt
+macholibre/__init__.py
+macholibre/dictionary.py
+macholibre/parser.py
