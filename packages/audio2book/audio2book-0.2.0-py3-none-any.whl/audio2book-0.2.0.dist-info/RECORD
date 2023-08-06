@@ -1,0 +1,11 @@
+audio2book-0.2.0.dist-info/DESCRIPTION.rst,sha256=r4evCC9u_6XU9-bV516J4SV74_R-Lsjk5CCgCzL4LiU,1197
+audio2book-0.2.0.dist-info/METADATA,sha256=7TTBdcvvz2BzuZOazACv4KiEAwublAvCRWxhDZctUSw,1739
+audio2book-0.2.0.dist-info/RECORD,,
+audio2book-0.2.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+audio2book-0.2.0.dist-info/entry_points.txt,sha256=iKQmW3ELSJFlRCxjCJWLRocPubUJltBHhQsoa4nzXAA,51
+audio2book-0.2.0.dist-info/metadata.json,sha256=tt8kXwdysqDsp6Qg9RJzbfgx0-n7h2agZymd9XY6TgM,830
+audio2book-0.2.0.dist-info/top_level.txt,sha256=PE2_-e7alBCguetCNHKYHbiZfWZjiLTNJCRwDDl01ks,5
+book/__init__.py,sha256=oSVQzLO617O81C7mIwFl-jXc4h51vn9v10eYDS0tgbM,20
+book/__main__.py,sha256=kyic3nWyl3-L6qf7X_WJaBXXj60In7TrSAsqhUbWzUA,330
+book/cli.py,sha256=3O1rmKXsIghftL-AMsNm_PDtRMo4Hzbzas_1rKveqcE,301
+book/convert.py,sha256=NG9AJXU_uh0Oh1dKsvIzcx1faM1y0hAe4OeFTm2ZHLo,687
