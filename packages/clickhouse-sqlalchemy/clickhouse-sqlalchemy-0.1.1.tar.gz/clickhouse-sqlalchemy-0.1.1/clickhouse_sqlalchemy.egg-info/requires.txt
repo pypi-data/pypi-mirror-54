@@ -1,0 +1,6 @@
+sqlalchemy>=1.2
+requests
+clickhouse-driver>=0.1.2
+
+[:python_version < "3.4"]
+ipaddress
