@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+test/__init__.py
+test/test_thermo_decode_max.py
+test/test_thermo_encode_8.py
+thermoencoder/__init__.py
+thermoencoder/thermo_decode.py
+thermoencoder/thermo_encode.py
+thermoencoder/thermoencoder_class.py
+thermoencoder.egg-info/PKG-INFO
+thermoencoder.egg-info/SOURCES.txt
+thermoencoder.egg-info/dependency_links.txt
+thermoencoder.egg-info/not-zip-safe
+thermoencoder.egg-info/requires.txt
+thermoencoder.egg-info/top_level.txt
