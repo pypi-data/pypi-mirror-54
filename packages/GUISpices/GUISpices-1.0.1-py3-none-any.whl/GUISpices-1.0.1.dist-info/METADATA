@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: GUISpices
+Version: 1.0.1
+Summary: A wrapper module for various GUI usages
+Home-page: http://doihaveinternet.com
+Author: Leon Wiesen
+Author-email: wiesen.leon@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: PySide2
+
+# Weasel's GUI Spices
+This is the one and only GUI module you really need. It features:
+
+- Tray icons
+- Custom Menus
+- Windows Messages
+- Qt Windows
+- Borderless *and* draggable windows
+- Windows Explorer extensions
+- Easy custom CSS Styling
+
+and many more features with example code. Ready for Copy-Paste... ;)
+.. image::  https://raw.githubusercontent.com/greyli/flask-share/master/images/demo.png
+
+
