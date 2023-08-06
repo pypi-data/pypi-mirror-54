@@ -1,0 +1,13 @@
+
+:orphan:
+
+.. _sphx_glr_auto_examples_sg_execution_times:
+
+Computation times
+=================
+**00:35.515** total execution time for **auto_examples** files:
+
+- **00:20.996**: :ref:`sphx_glr_auto_examples_viz_roi_contour.py` (``viz_roi_contour.py``)
+- **00:08.415**: :ref:`sphx_glr_auto_examples_viz_bundles.py` (``viz_bundles.py``)
+- **00:05.240**: :ref:`sphx_glr_auto_examples_viz_advanced.py` (``viz_advanced.py``)
+- **00:00.864**: :ref:`sphx_glr_auto_examples_viz_surfaces.py` (``viz_surfaces.py``)
