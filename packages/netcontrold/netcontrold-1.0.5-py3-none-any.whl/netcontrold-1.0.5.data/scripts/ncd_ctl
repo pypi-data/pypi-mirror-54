@@ -1,0 +1,60 @@
+#!python
+import argparse
+import sys
+import os
+
+ncd_root = os.path.dirname(os.path.abspath(sys.argv[0]))
+ncd_pkg = os.path.join(ncd_root, 'netcontrold')
+sys.path.insert(0, ncd_pkg)
+
+from netcontrold.app import ncd
+from netcontrold.lib import util
+
+USAGE = "usage: ncd_ctl CMD\n" \
+        "\n" \
+        "CMD in one of the below:\n" \
+        "  start\n" \
+        "  stop\n" \
+        "  restart\n" \
+        "  status\n" \
+        "  rebalance-on\n" \
+        "  rebalance-off\n" \
+        "  debug-on\n" \
+        "  debug-off\n" \
+        "  version\n" \
+        ""
+
+if ((len(sys.argv) != 2) or
+        (sys.argv[1] not in ('start', 'stop', 'restart', 'status', 
+                             'rebalance-on', 'rebalance-off',
+                             'debug-on', 'debug-off',
+                             'version',
+                             ))):
+    sys.stderr.write(USAGE)
+    sys.exit(1)
+
+main_srv = util.Service(ncd.ncd_main,
+                        ['-s', '10', '-q'],
+                        '/var/run/ncd.pid')
+
+if sys.argv[1] == 'start':
+    main_srv.start()
+elif sys.argv[1] == 'restart':
+    main_srv.restart()
+elif sys.argv[1] == 'stop':
+    main_srv.stop()
+elif sys.argv[1] == 'status':
+    main_srv.status()
+elif sys.argv[1] == 'rebalance-on':
+    main_srv.rebalance(True)
+elif sys.argv[1] == 'rebalance-off':
+    main_srv.rebalance(False)
+elif sys.argv[1] == 'debug-on':
+    main_srv.debug(True)
+elif sys.argv[1] == 'debug-off':
+    main_srv.debug(False)
+elif sys.argv[1] == 'version':
+    main_srv.version()
+
+sys.exit(0)
+
