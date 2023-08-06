@@ -1,0 +1,12 @@
+README.md
+setup.py
+friendlylog/__init__.py
+friendlylog/colored_logger.py
+friendlylog/constants.py
+friendlylog/simple_logger.py
+friendlylog/utils.py
+friendlylog.egg-info/PKG-INFO
+friendlylog.egg-info/SOURCES.txt
+friendlylog.egg-info/dependency_links.txt
+friendlylog.egg-info/requires.txt
+friendlylog.egg-info/top_level.txt
