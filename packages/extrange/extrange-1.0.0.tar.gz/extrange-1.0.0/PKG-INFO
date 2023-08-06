@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: extrange
+Version: 1.0.0
+Summary: Extra range library
+Home-page: https://github.com/zakuro9715/extrange
+Author: z@kuro
+Author-email: z@kuro.red
+License: MIT
+Description: # Extrange
+        
+        Extra range library for Python.
+        
+        ## Feature
+        
+        - extrange.TimeRange
+        
+        ## Acknowledgements
+        
+        Original TimeRange was written for software of [Iot-Wana](https://camp-fire.jp/products/view/52816) at [Hematite Inc](https://fe2o3.jp).
+        
+Keywords: range datetime time
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development 
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
