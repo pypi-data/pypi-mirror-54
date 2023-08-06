@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyforever
+Version: 0.1.0
+Summary: Automatically execute a Python script whenever changes are made to it
+Home-page: https://github.com/blu3r4y/pyforever
+Author: Mario Kahlhofer
+Author-email: mario.kahlhofer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+Requires-Dist: watchgod
+
+
+# pyforever
+
+Automatically execute a Python script whenever changes are made to it.
+
+## Installation
+
+    pip install pyforever
+
+## Usage
+
+Replace all calls to
+
+    python myscript.py --myargs
+
+with
+
+    pyforever myscript.py --myargs
+
+
