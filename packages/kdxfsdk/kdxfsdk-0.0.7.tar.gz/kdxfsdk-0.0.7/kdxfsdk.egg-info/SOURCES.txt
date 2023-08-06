@@ -1,0 +1,10 @@
+setup.py
+kdxfsdk/__init__.py
+kdxfsdk/ali_iat.py
+kdxfsdk/ali_qa.py
+kdxfsdk/ali_tts.py
+kdxfsdk.egg-info/PKG-INFO
+kdxfsdk.egg-info/SOURCES.txt
+kdxfsdk.egg-info/dependency_links.txt
+kdxfsdk.egg-info/requires.txt
+kdxfsdk.egg-info/top_level.txt
