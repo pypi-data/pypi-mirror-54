@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: velplot
+Version: 1.2.2
+Summary: Velocity plots of quasar absorption systems
+Home-page: https://vincentdumont.gitlab.io/velplot/
+Author: Vincent Dumont
+Author-email: vincentdumont11@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: numpy
+Requires: matplotlib
+Requires: scipy
+Requires: astropy
