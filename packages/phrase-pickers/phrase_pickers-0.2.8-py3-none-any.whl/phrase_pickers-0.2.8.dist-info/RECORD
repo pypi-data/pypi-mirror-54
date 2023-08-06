@@ -1,0 +1,11 @@
+phrase_pickers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phrase_pickers/np_picker.py,sha256=Jvqfmdt4ii1U6SXUJa4ts0VL1zrHbRG7Sn3wH7b8HO0,6476
+phrase_pickers/vp_picker.py,sha256=QszqmO89_bq9HivO7ke5_qGRqIzEHG2QbdvMvDJpqmc,2494
+phrase_pickers/res/morpho_semantic_words.csv.gz,sha256=VKftCSegeleHQ5UnE6eIDXcchHVnsh9qZ4aL0GIt7Uc,147561
+phrase_pickers/res/stopwords.txt.gz,sha256=E4m5rSGIc7BrcscCePKSpGEmi5IT34MJ0Wd4UCqw018,446
+phrase_pickers/res/undesirable_words.json.gz,sha256=DB7TssLMozXevZfHDbMBF8hbdjUon9vi2gGGKCaVWZg,1393
+phrase_pickers-0.2.8.dist-info/LICENSE.txt,sha256=ojd_W_cVbdgY0VDArLaDvIkDyedUQtqCuKFF5_cvjLc,472
+phrase_pickers-0.2.8.dist-info/METADATA,sha256=eKFNVHzOCYgX_12PGgeOi-ZHHb1nllfp5xeM7w-8PvE,2062
+phrase_pickers-0.2.8.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+phrase_pickers-0.2.8.dist-info/top_level.txt,sha256=hAjYFC7zYnbkt3sIVl4Hz7q2amOOeYiuHEDPYnWRDIM,15
+phrase_pickers-0.2.8.dist-info/RECORD,,
