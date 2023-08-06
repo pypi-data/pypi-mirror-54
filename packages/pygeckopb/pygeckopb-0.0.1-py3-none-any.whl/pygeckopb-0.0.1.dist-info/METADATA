@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pygeckopb
+Version: 0.0.1
+Summary: pygecko messaging with protobuf
+Home-page: http://github.com/gecko-robotics/pygeckopb
+Author: Kevin Walchko
+Author-email: walchko@users.noreply.github.com
+License: MIT
+Keywords: ros,protobuf,protocol buffer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Description-Content-Type: text/markdown
+Requires-Dist: build-utils
+
+UNKNOWN
+
+
