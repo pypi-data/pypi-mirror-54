@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: jfb-str2dict
+Version: 1.0.0
+Summary: String to dictionary tool
+Home-page: https://github.com/jiangfubang/jfb_str2dict
+Author: Jiang Fubang
+Author-email: luckybang@163.com
+License: MIT Licence
+Description: This tool converts a dictionary for a string
+Keywords: str,jfb_str2dict,dict
+Platform: any

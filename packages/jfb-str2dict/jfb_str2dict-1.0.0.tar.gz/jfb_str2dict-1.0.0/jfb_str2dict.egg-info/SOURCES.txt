@@ -1,0 +1,6 @@
+setup.py
+jfb_str2dict/__init__.py
+jfb_str2dict.egg-info/PKG-INFO
+jfb_str2dict.egg-info/SOURCES.txt
+jfb_str2dict.egg-info/dependency_links.txt
+jfb_str2dict.egg-info/top_level.txt
