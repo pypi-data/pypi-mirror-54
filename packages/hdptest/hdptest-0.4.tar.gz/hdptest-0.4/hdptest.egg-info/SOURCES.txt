@@ -1,0 +1,8 @@
+setup.py
+hdptest/__init__.py
+hdptest/hdptest.py
+hdptest.egg-info/PKG-INFO
+hdptest.egg-info/SOURCES.txt
+hdptest.egg-info/dependency_links.txt
+hdptest.egg-info/requires.txt
+hdptest.egg-info/top_level.txt
