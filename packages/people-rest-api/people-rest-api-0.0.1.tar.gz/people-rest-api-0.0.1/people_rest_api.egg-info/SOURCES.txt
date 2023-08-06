@@ -1,0 +1,9 @@
+README.md
+setup.py
+people_rest_api/__init__.py
+people_rest_api/people.py
+people_rest_api.egg-info/PKG-INFO
+people_rest_api.egg-info/SOURCES.txt
+people_rest_api.egg-info/dependency_links.txt
+people_rest_api.egg-info/not-zip-safe
+people_rest_api.egg-info/top_level.txt
