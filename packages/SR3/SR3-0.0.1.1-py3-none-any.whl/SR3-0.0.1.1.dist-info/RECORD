@@ -1,0 +1,14 @@
+SR3/SR3.py,sha256=c5dNHLV0PU435AVF6IWdzVkGb1O4-jbaVuPac2W1ABU,8739
+SR3/__init__.py,sha256=8Y5GSMg0Hda5_2L797Uk2daLwqPWrZ_UVrgGoHQhDl0,88
+SR3/utils.py,sha256=EJgEWVR9reqFYyj8Urk0yEvxyB0kj0wFL902Fw-8-vc,3310
+SR3/version.py,sha256=69545t6jHiRXth3xjjky-QtbnsTVtU7z0Aes6p9wWKA,23
+SR3/math/__init__.py,sha256=r0RC-W9x4YSpiiSljcie7fsDpO2DAWPj0qpj6wQVaAY,47
+SR3/math/linalg.py,sha256=WmcKIdoTKqyYiAXor8dCgnz-7sw1j2EWrKBL-8MjejM,3012
+SR3/math/optimization.py,sha256=SmX8evPQab3GMdFlBusJCmIxFW0LB7-EPlNq6rudRPA,5238
+SR3/math/solvers.py,sha256=vw0uVcKmLd9P_DpyiRYp5JTlwQ0Z-mWQvYlaDWeHY3Y,8270
+SR3/math/tensors.py,sha256=RvtLODE7wLjlMfIzWlNkn-bE5B6Canqx_NNZfaPooOU,1554
+SR3-0.0.1.1.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+SR3-0.0.1.1.dist-info/METADATA,sha256=4aHWeyHLiUD7FYiru6v4SxYtAdVt_AZHn4Qqxxyu2Yc,1441
+SR3-0.0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+SR3-0.0.1.1.dist-info/top_level.txt,sha256=G29Pp-Yx2zWPGWe_uSl3ip628SOyaSJn_HFI1xMJfyE,4
+SR3-0.0.1.1.dist-info/RECORD,,
