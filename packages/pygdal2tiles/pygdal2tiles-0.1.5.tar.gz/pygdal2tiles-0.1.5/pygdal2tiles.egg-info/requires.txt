@@ -1,0 +1,4 @@
+pygdal==3.0.1
+
+[billiard]
+billiard
