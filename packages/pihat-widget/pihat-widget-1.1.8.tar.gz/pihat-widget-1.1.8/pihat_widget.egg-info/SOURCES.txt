@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+pihat_widget/__init__.py
+pihat_widget/board.py
+pihat_widget/image.py
+pihat_widget/light.py
+pihat_widget/segment.py
+pihat_widget.egg-info/PKG-INFO
+pihat_widget.egg-info/SOURCES.txt
+pihat_widget.egg-info/dependency_links.txt
+pihat_widget.egg-info/top_level.txt
