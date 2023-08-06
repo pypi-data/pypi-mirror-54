@@ -1,0 +1,11 @@
+shrub/__init__.py,sha256=v6Kpj06F9lmabK12X92uCbd1A1hXz51BND_Y6s-6bSA,57
+shrub/nn.py,sha256=9ipqmjjUnvfmI3xlp82HV3HQ5k8hPdL1FG3ucD15K_I,7474
+shrub/tflite.py,sha256=p0fLYg8rpHSFh4UXe82RC35JGqCgwL9CibCN99-OKKc,1379
+shrub/tvm.py,sha256=rWovgKT0e3ZGNXih2unZzw1gMZ-Flr8t2Fl7YgrUi3w,6898
+shrub/util.py,sha256=p9ZQ9543mfuJ-4HkgaGILxIE_IydcY-A-mc6fQPx_zc,1097
+shrub-0.0.1a0.dist-info/DESCRIPTION.rst,sha256=cntZg9H_ujDWTb19yfHaOfuRstVWAdzTElwxAehVqxw,75
+shrub-0.0.1a0.dist-info/METADATA,sha256=-fV2ggngS9ZymVBO58GDdrbmFYGgxQ5-f15tvDZYkX0,1142
+shrub-0.0.1a0.dist-info/RECORD,,
+shrub-0.0.1a0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+shrub-0.0.1a0.dist-info/metadata.json,sha256=-sTlCuHQuH82e65K6Ahrt4NHJu6BjAbwMIDxvs2DOmU,1170
+shrub-0.0.1a0.dist-info/top_level.txt,sha256=LLgoQ9lJC_yj-DMJtqFMuKgOWmKd2Q8TcS6oc0Fz7nc,6
