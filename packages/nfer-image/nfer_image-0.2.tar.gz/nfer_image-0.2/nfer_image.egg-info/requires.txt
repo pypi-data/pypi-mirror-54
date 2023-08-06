@@ -1,0 +1,10 @@
+matplotlib
+numpy
+opencv-python
+boto3
+tqdm
+pathlib
+scikit-image
+sklearn
+pandas
+tensorflow
