@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: creamas
+Version: 0.4.0
+Summary: A library for creative MAS build on top of aiomas.
+Home-page: https://creamas.readthedocs.io/
+Author: Simo Linkola
+Author-email: simo.linkola@gmail.com
+License: GNU General Public License v2 (GPLv2)
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: aiomas (==2.0.1)
+Requires-Dist: msgpack-python (>=0.4.6)
+Requires-Dist: numpy (>=1.17.3)
+
+See https://creamas.readthedocs.io/
+
+
