@@ -1,0 +1,245 @@
+Metadata-Version: 2.1
+Name: intec-units
+Version: 0.0.4
+Summary: Physical units library
+Home-page: https://bitbucket.org/zmic/intec-units
+Author: Michael Vanslembrouck
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+#### Standard physical units are imported from ``intec.units.si``
+
+
+```python
+from intec.units.si import METER, MILLIMETER, NANOMETER, AMPERE, VOLT, OHM
+```
+
+#### A ```Quantity``` is created by multiplying a number (the magnitude) and a ``Unit``
+
+
+```python
+d = 1550*NANOMETER
+print(d)
+```
+
+    1550.000000 nm
+
+
+
+```python
+d
+```
+
+
+
+
+    LengthQuantity( 1.5500000000e+03, nm )
+
+
+
+#### Quantities of the same physical dimension can be added or substracted
+
+
+```python
+1*METER + 5*MILLIMETER
+```
+
+
+
+
+    LengthQuantity( 1.0050000000e+00, m )
+
+
+
+#### The resulting quantity gets the unit of the first term.
+
+
+```python
+print(5*MILLIMETER + 1*METER)
+```
+
+    1005.000000 mm
+
+
+
+```python
+1*METER + 1*AMPERE
+```
+
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-6-26114287a935> in <module>
+    ----> 1 1*METER + 1*AMPERE
+
+
+    TypeError: Cannot convert unit [A] to unit [m]
+
+
+#### Quantities of the same physical dimension can be compared
+
+
+```python
+p = 1*VOLT*2*AMPERE
+print(p)
+```
+
+    2.000000 V.A
+
+
+
+```python
+from intec.units.si import WATT, MILLIWATT, DBM
+p == 2*WATT
+```
+
+
+
+
+    True
+
+
+
+
+```python
+3*VOLT/AMPERE > 2*OHM
+```
+
+
+
+
+    True
+
+
+
+#### Use the ``to`` member function to convert a quantity to a related unit.
+
+
+```python
+print(p.to(MILLIWATT))
+print(p.to(DBM))
+```
+
+    2000.000000 mW
+    33.010300 dBm
+
+
+
+```python
+from intec.units.si import METER, KILOMETER, SECOND
+from intec.units.extra import HOUR
+speed = 10*METER/SECOND
+print(speed.to(KILOMETER/HOUR))
+```
+
+    36.000000 km/h
+
+
+#### Use the member ```magnitude``` or ```m``` to retrieve the numerical value of a quantity
+
+
+```python
+speed.magnitude
+```
+
+
+
+
+    10.0
+
+
+
+
+```python
+speed.m
+```
+
+
+
+
+    10.0
+
+
+
+#### Use the member ```unit``` or ```u``` to retrieve the unit of a quantity
+
+
+```python
+speed.unit
+```
+
+
+
+
+    Unit( 'm/s' [m/s] )
+
+
+
+
+```python
+speed.u
+```
+
+
+
+
+    Unit( 'm/s' [m/s] )
+
+
+
+#### For (wave)lengths there is a convenience function to convert to frequency.
+
+
+```python
+from intec.units.si import NANOMETER,HERTZ
+λ = 1550*NANOMETER
+λ.to_frequency()
+```
+
+
+
+
+    FrequencyQuantity( 1.9341448903e+02, THz )
+
+
+
+
+```python
+λ.to_frequency(HERTZ)
+```
+
+
+
+
+    FrequencyQuantity( 1.9341448903e+14, Hz )
+
+
+
+#### For photonic experiments, use ```intec.units.photonic``` to import all common units in one fell swoop
+
+
+```python
+from intec.units.photonic import *
+```
+
+```
+from .si import METER, MILLIMETER, MICROMETER, NANOMETER, PICOMETER, FEMTOMETER
+from .si import WATT, MILLIWATT, MICROWATT, DBM
+from .si import VOLT, MILLIVOLT, MICROVOLT
+from .si import AMPERE, MILLIAMPERE, MICROAMPERE
+from .si import HERTZ, KILOHERTZ, MEGAHERTZ, GIGAHERTZ, TERAHERTZ
+from .si import SECOND, MILLISECOND, MICROSECOND
+from .si import KELVIN, CELCIUS
+```
+
+
+```python
+
+```
+
+
