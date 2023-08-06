@@ -1,0 +1,14 @@
+pdb2sql/StructureSimilarity.py,sha256=Zgpq_NLzkW0VOBp0SXWRA0iXhHlJnOUSk66GsW-JPK0,41691
+pdb2sql/__init__.py,sha256=JNGCpwMIw1d-xoFm0hscL5qKfkClV5d3getCJlB48e4,142
+pdb2sql/__version__.py,sha256=PmcQ2PI2oP8irnLtJLJby2YfW6sBvLAmL-VpABzTqwc,22
+pdb2sql/interface.py,sha256=IuqaTxIsd-_VISqxBInAaInWYfGz3zyDWPISCFUuXuM,8790
+pdb2sql/pdb2sqlAlchemy.py,sha256=pr3Kcc3DG8sU82PH_5SW4BJ-wr485hap6OuUTa4km5w,11125
+pdb2sql/pdb2sql_base.py,sha256=ZZ7ehAQythOYjowBSt9EZef405-5hr3ImXwl6FnNXuc,7157
+pdb2sql/pdb2sqlcore.py,sha256=RnbEtRcUvQtFGSl6RPbYZiULF4dV-38d9u2jbHl0W3g,20365
+pdb2sql/transform.py,sha256=5vnVbt_AdyRSBdjkd_SGwoqRAsu-RwDGtFzsM6A8zuI,5677
+pdb2sql-0.2.1.dist-info/LICENSE,sha256=OPzV6bHGPCXFylyiCR3GYAK-EP8seLDbcbgO87DYM1o,11359
+pdb2sql-0.2.1.dist-info/METADATA,sha256=oarjWqXtxGHJLeuFr-kue6fNPQuwvMg3LI_jZuxQekA,8079
+pdb2sql-0.2.1.dist-info/NOTICE,sha256=AKBlNTSFNmtqyTNGiG1I4EeL9wI3c1iMCf0T7GiX7E0,55
+pdb2sql-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pdb2sql-0.2.1.dist-info/top_level.txt,sha256=brmaHrje6NzRA0raTe5fvyzzXJVTQkIcP4AgHbfnl4I,8
+pdb2sql-0.2.1.dist-info/RECORD,,
