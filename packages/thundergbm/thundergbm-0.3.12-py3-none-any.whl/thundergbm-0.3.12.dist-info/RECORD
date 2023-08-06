@@ -1,0 +1,9 @@
+thundergbm/__init__.py,sha256=KQGEzbp9IQyPoEsFTMIagXERunj5hxFbJ04jyT193-g,216
+thundergbm/libthundergbm.so,sha256=2Gl_7mkMqBuMQWlAuC_HM8-01U454v83Ll1sPqW029Q,9410648
+thundergbm/test.py,sha256=IAHDLrKFqVoqey6Fz0Fyb9pfsW3Gaw5nzW_wGPvUxLE,927
+thundergbm/thundergbm.py,sha256=rhLxXEqLryx853NCYBzbAaWM8jmFkCexk0YrTUBxLRQ,17853
+thundergbm-0.3.12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+thundergbm-0.3.12.dist-info/METADATA,sha256=t1WRpaRl6LgfRonEuURKL2ibhrafhmApxShGPrw0iaQ,701
+thundergbm-0.3.12.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+thundergbm-0.3.12.dist-info/top_level.txt,sha256=GwsCMdj4YIjV5stDEGQ33GnmZdoeNsJzDKXqXmdZY3o,11
+thundergbm-0.3.12.dist-info/RECORD,,
