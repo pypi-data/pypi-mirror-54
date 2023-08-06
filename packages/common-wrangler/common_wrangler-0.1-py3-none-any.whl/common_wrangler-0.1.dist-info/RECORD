@@ -1,0 +1,11 @@
+common_wrangler/__init__.py,sha256=3R3Pp7jjxMCNQnB5y_WM0Bnh-loMvKZRSdwLXU9CYaM,18601
+common_wrangler/_version.py,sha256=pQuuNPIiYIuF_xdUmQ3Y32wXuoPpND7EH-hpGx3F8uU,495
+common_wrangler/common.py,sha256=PjnBxcaLyIhk-k5ysCivOmQHZ8nAG7f0dWEibzUM2E8,57242
+common_wrangler/fill_tpl.py,sha256=m0GCVpI6Gek6tZyVT5MyAOLLC6b9XGk5llUu3EYBhgQ,11571
+common_wrangler/rename_files.py,sha256=5jBHjpMZMNXg2xE0tiR6c9AFqAP3VxC8qY9vBnCME3c,4135
+common_wrangler-0.1.dist-info/LICENSE,sha256=iazapdXUeYu60pmFMxYkZrWrUOhYXy3Hc4qwB1_pMcw,1064
+common_wrangler-0.1.dist-info/METADATA,sha256=VNcqY6M29rp0vwVsgl1_2gx3428Aq6D_qwdaprQ_hCA,381
+common_wrangler-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+common_wrangler-0.1.dist-info/entry_points.txt,sha256=lvkKcgee9jaUbfp8FuetSbA3P40c3FL9IxlgVXAHM-0,146
+common_wrangler-0.1.dist-info/top_level.txt,sha256=Hj9jdq0IDLmQvku3Z51VVh4hv6msijsWsJZU1iSKbgU,16
+common_wrangler-0.1.dist-info/RECORD,,

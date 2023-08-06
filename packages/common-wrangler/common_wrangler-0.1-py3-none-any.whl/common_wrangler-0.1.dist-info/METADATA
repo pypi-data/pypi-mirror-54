@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: common-wrangler
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Heather B Mayes
+Author-email: hmayes@hmayes.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: six
+Requires-Dist: matplotlib
+
+Scripts for file and data manipulation, as well as common scripts used in this project as well as
+gaussian_wrangler and md_wrangler
+
+

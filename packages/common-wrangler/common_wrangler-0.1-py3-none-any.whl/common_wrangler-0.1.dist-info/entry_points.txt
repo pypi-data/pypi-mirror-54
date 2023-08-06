@@ -1,0 +1,5 @@
+[console_scripts]
+common = common_wrangler.common:main
+fill_tpl = common_wrangler.fill_tpl:main
+rename_files = common_wrangler.rename_files:main
+
