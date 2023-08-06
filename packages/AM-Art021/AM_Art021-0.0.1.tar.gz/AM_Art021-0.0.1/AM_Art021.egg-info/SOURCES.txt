@@ -1,0 +1,9 @@
+README.md
+setup.py
+AM_Art021.egg-info/PKG-INFO
+AM_Art021.egg-info/SOURCES.txt
+AM_Art021.egg-info/dependency_links.txt
+AM_Art021.egg-info/requires.txt
+AM_Art021.egg-info/top_level.txt
+lambdata_AM_art/__init__.py
+lambdata_AM_art/df_utils.py
