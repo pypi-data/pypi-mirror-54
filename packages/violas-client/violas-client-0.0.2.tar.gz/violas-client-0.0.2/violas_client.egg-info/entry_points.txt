@@ -1,0 +1,4 @@
+[console_scripts]
+violas = libra.cli.main:main
+violas_shell = libra.shell.libra_shell:main
+
