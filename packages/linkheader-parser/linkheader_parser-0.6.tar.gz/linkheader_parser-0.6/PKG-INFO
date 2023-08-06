@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: linkheader_parser
+Version: 0.6
+Summary: Python parser for LinkHeader
+Home-page: https://github.com/FlorianLouvetRN/linkheader_parser
+Author: Florian Louvet
+License: Apache License 2.0
+Description: # linkheader_parser
+        
+        This is a parser for HTTP link header. This package does not cover 100% of the RFC definition of LinkHeaders, but should work in 99% of common cases.
+        
+        Please report any issue on github.
+        
+        ## Install package:
+        ```
+        pip install linkheader_parser
+        ```
+        
+        ## Usage:
+        
+        ```python
+        from linkheader_parser import parse
+        
+        link_header = (
+            '<https://api.github.com/user/9287/repos?client_id=1&client_secret=2&page=2&per_page=100>; rel="next", <https://api.github.com/user/9287/repos?client_id=1&client_secret=2&page=3&per_page=100>; rel="last"'
+        )
+        
+        result = parse(link_header)
+        ```
+        
+        **Result:**
+        
+        ```
+        
+        ```
+        
+Keywords: link header parser python linkheader
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/markdown
