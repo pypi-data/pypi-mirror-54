@@ -1,0 +1,9 @@
+RW_S3/S3Reader.py,sha256=NIXcA57CJxK3vlbPBO9iyAwFCtwhrcB7OUtH4Q2aynk,4871
+RW_S3/S3Writer.py,sha256=QkhhfOwamHIaaKmHHPmkPBiJDF9LfN1O7Rjmx3s4c90,4467
+RW_S3/__init__.py,sha256=ZsiUWZTLRgo3HIasci9j5EpxiGzfY1cFn0ebRYnu48U,141
+RW_S3/read_s3.py,sha256=X90BRlZKftWmjom05bBT-VQwljPCSuNQE8dKFYHHMwg,4875
+RW_S3/write_s3.py,sha256=aYHm9sixaSk0DOtclFDriAgsW5OiC4VUaiJ61HEI1vQ,3815
+RW_S3-0.0.7.dist-info/METADATA,sha256=sPOSi0xgFjjeikMZCnCq6KUDOtxN_IiSLMqUSHLYinU,291
+RW_S3-0.0.7.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+RW_S3-0.0.7.dist-info/top_level.txt,sha256=Xxcm9pzYBsjB7a3bQLVV6_ahwYOYtDVFn2lIVLnkZFg,6
+RW_S3-0.0.7.dist-info/RECORD,,
