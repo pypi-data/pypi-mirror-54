@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+yandex_images_download/__init__.py
+yandex_images_download/__main__.py
+yandex_images_download/downloader.py
+yandex_images_download/parse.py
+yandex_images_download/yandex_images_download.py
+yandex_images_download.egg-info/PKG-INFO
+yandex_images_download.egg-info/SOURCES.txt
+yandex_images_download.egg-info/dependency_links.txt
+yandex_images_download.egg-info/entry_points.txt
+yandex_images_download.egg-info/requires.txt
+yandex_images_download.egg-info/top_level.txt
