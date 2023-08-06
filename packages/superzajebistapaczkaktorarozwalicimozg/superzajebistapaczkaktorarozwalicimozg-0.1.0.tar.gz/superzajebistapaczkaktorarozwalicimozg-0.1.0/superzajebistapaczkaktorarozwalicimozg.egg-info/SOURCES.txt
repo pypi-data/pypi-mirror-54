@@ -1,0 +1,7 @@
+README.md
+setup.py
+package/__init__.py
+superzajebistapaczkaktorarozwalicimozg.egg-info/PKG-INFO
+superzajebistapaczkaktorarozwalicimozg.egg-info/SOURCES.txt
+superzajebistapaczkaktorarozwalicimozg.egg-info/dependency_links.txt
+superzajebistapaczkaktorarozwalicimozg.egg-info/top_level.txt
