@@ -1,0 +1,11 @@
+rasa_cli_completion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rasa_cli_completion/rasa-complete.sh,sha256=lVqOnu4xrRYyLLmHUDe3QeYmoon6LD7nWRjc_wGEl8g,499
+rasa_cli_completion/rasa_complete.py,sha256=qqZoz96-T4VmLOhogdmAGKKWX8QgbRaKx4S9Op1pBC0,3257
+rasa_cli_completion/show_config.py,sha256=UFLXZC3r0HCy6TEBVAr53swgXHHaDuCvzAyhD8ETx-M,314
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_rasa_complete.py,sha256=dKFxOo_OSVT4ws14AO6BTzkkGZYUVNPFdsJ-o1dZQuw,3114
+rasa_cli_completion-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rasa_cli_completion-0.1.dist-info/METADATA,sha256=b9wCYkaj5BN9QI4hkayy4NGYFQWW-USjLr0Zulvc9eI,1805
+rasa_cli_completion-0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+rasa_cli_completion-0.1.dist-info/top_level.txt,sha256=ZN3v7GK699pHxxEjOc95t_ySHvDA24SbFRnowFjQnYQ,26
+rasa_cli_completion-0.1.dist-info/RECORD,,

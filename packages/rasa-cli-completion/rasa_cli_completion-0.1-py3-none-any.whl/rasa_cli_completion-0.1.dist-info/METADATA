@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: rasa-cli-completion
+Version: 0.1
+Summary: Bash / Zsh autocomplete script for Rasa
+Home-page: UNKNOWN
+Maintainer: Tobias Wochinger
+Maintainer-email: tobias.wochinger@gmail.com
+License: Apache 2.0
+Project-URL: Bug Reports, https://github.com/wochinge/rasa-cli-completion/issues
+Project-URL: Source, https://github.com/wochinge/rasa-cli-completion
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Requires-Dist: rasa (~=1.3)
+
+# rasa-cli-completion
+
+Simple implementation of a bash / zsh autocomplete script for [Rasa](https://github.com/rasahq/rasa).
+
+## Requirements
+- Installed [rasa](https://github.com/rasahq/rasa) library
+- A unix system
+
+![rasa-cli-completion gif](https://media.giphy.com/media/l1IZ379sMbT1WjulKr/giphy.gif)
+
+## Installation
+
+### Using pip
+
+1. Run `pip install rasa-cli-completion`
+2. Run `pip install .` in the cloned directory
+3. Add the output of the following command to your `.bashrc` / `.zshrc`
+
+    ```bash
+    python -m rasa_cli_completion.show_config
+    ```
+
+### Using this repository
+
+1. Clone this repository
+2. Run `pip install .` in the cloned directory
+3. Add the output of the following command to your `.bashrc` / `.zshrc`
+
+    ```bash
+    python -m rasa_cli_completion.show_config
+    ```
+
+## Notes
+- The completion is a bit slow at the beginning. However, the completion results are cached in `~/.rasa-autocomplete.json` (you can turn caching off by setting `RASA_AUTOCOMPLETE_CACHING_OFF=true`)
+
+
