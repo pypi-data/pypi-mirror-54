@@ -1,0 +1,9 @@
+setup.py
+./programWK/__init__.py
+./programWK/programWK.py
+programWK/__init__.py
+programWK/programWK.py
+programWK.egg-info/PKG-INFO
+programWK.egg-info/SOURCES.txt
+programWK.egg-info/dependency_links.txt
+programWK.egg-info/top_level.txt
