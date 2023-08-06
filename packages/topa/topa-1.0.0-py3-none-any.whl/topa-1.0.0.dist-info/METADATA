@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: topa
+Version: 1.0.0
+Summary: A Top Output Python Analyzer
+Home-page: https://github.com/jwenjian/topa
+Author: JIANG Wenjian
+Author-email: wenjian.jiang@foxmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# topa
+
+topa - Top Output Python Analyzer
+
+A command line app to analyze linux top command output.
+
+It will shows you below information for each pid you specified:
+
+- Total record count 
+- Max Cpu
+- Min Cpu
+- Average Cpu
+- Max Mem
+- Min Mem
+- Average Mem
+
+## Install
+
+```bash
+pip install topa
+```
+
+## Usage
+
+```bash
+topa -h(--help)
+```
+
+```
+Usage: topa [OPTIONS] FILENAME
+
+  TOPA - Top Output Python Analyzer
+
+  A python cli application to analyze standard linux top output
+
+Options:
+  -p, --pid INTEGER       The pid list to be analyzed  [required]
+  -o, --out [STD|MD|PDF]  The analyze report file format  [default: STD]
+  -h, --help              Show this message and exit.
+
+```
+
+> `MD` and `PDF` are not supported yet. 
+
+
