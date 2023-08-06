@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+recommend.py
+setup.py
+test_recommend.py
+recommend.egg-info/PKG-INFO
+recommend.egg-info/SOURCES.txt
+recommend.egg-info/dependency_links.txt
+recommend.egg-info/requires.txt
+recommend.egg-info/top_level.txt
