@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: show-time
+Version: 0.0.1
+Summary: A spider that crawls the time of various shows.
+Home-page: https://github.com/barrierye/showtime
+Author: barriery
+Author-email: barriery@qq.com
+Maintainer: barriery
+Maintainer-email: barriery@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: show play spider
+Platform: UNKNOWN
+Requires-Python: >=3.5
