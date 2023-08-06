@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+aioworkers_aiohttp/plugin.ini
+aioworkers_aiohttp.egg-info/PKG-INFO
+aioworkers_aiohttp.egg-info/SOURCES.txt
+aioworkers_aiohttp.egg-info/dependency_links.txt
+aioworkers_aiohttp.egg-info/requires.txt
+aioworkers_aiohttp.egg-info/top_level.txt
