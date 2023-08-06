@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: volume-manifest-tool
+Version: 1.0a2
+Summary: Creates manifests for syncd works.
+Home-page: https://github.com/buda-base/volume-manifest-tool/
+Author: jimk
+Author-email: jimk@tbrc.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto3
+Requires-Dist: requests
+Requires-Dist: lxml
+Requires-Dist: pillow
+Requires-Dist: s3transfer
+Requires-Dist: botocore
+Requires-Dist: boto
+
+UNKNOWN
+
+
