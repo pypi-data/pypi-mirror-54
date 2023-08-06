@@ -1,0 +1,11 @@
+ocrd_calamari/__init__.py,sha256=dyDSXE-wnEgRCqcbHk2SJ7xvRPVuy5jXYjcEbPSEyVo,41
+ocrd_calamari/cli.py,sha256=5WMVWoyM0CGgzQ55Fs_jAs7BB7j0to6FiYwVsjENIkA,292
+ocrd_calamari/config.py,sha256=dKPFt-4SZq59B1RLs1iqJsmwOGMSai4BlBHdCocL5hQ,181
+ocrd_calamari/ocrd-tool.json,sha256=sJx9PJZDQRWXP5x604GleDZl4Pp3ZzjLM1gSW_haJwM,689
+ocrd_calamari/recognize.py,sha256=VZblpfcYk6D48h_FwK4fjc2-YHenEk13SybuJWRmQsI,5470
+ocrd_calamari-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ocrd_calamari-0.0.1.dist-info/METADATA,sha256=yuK2Jij4DrpMFUSISfED7TWpqP_dAGU9hikRYmq3nxc,1328
+ocrd_calamari-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ocrd_calamari-0.0.1.dist-info/entry_points.txt,sha256=sNhxwmQM6c_OFuRJSojOYOKSzGLqJUdp6FDdHm3-hvE,87
+ocrd_calamari-0.0.1.dist-info/top_level.txt,sha256=5bFtKMk_6uTE9x_ymaDpMcKEoRDChYMGE34qbt0iynI,14
+ocrd_calamari-0.0.1.dist-info/RECORD,,
