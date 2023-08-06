@@ -1,0 +1,7 @@
+xmlstarlet/__init__.py,sha256=W-p5E5pHk9BtIayf9Po5LkJ08oetA0Z9X7tK6rFTYPI,14516
+xmlstarlet/_xmlstarlet.abi3.so,sha256=KsAnS7z-UAdXiLujJMFMEFK_Nesu7ONWVkAnQWgqje0,117688
+xmlstarlet/xmlstarlet_build.py,sha256=SFQzG-k0WScdnWCuoFg9BvGsCdopZ6bJDsvVz8j-67Y,2871
+xmlstarlet-1.6.3.dist-info/METADATA,sha256=Gzv2C6Axq40MunrVVk_I5APMqwdwDHZDBYHBvNEf3BY,3238
+xmlstarlet-1.6.3.dist-info/RECORD,,
+xmlstarlet-1.6.3.dist-info/WHEEL,sha256=K8AoctbzeOzltRa9h9QefL11SjmSkKx_TszCnc1-DJw,111
+xmlstarlet-1.6.3.dist-info/top_level.txt,sha256=NpO-asCnznkh3j-3mtSdGc-vmrhybnWCh7Bwd_k4GDI,11
