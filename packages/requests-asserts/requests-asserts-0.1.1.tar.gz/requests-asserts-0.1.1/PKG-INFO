@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: requests-asserts
+Version: 0.1.1
+Summary: The library to help test your HTTP requests using unittests
+Home-page: https://github.com/ADR-007/requests-asserts
+License: MIT
+Keywords: mock,requests,unittests,tests,http
+Author: Adrian Dankiv
+Author-email: adr-007@ukr.net
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Mocking
+Classifier: Topic :: Software Development :: Testing :: Unit
+Requires-Dist: requests (>=2.22,<3.0)
+Requires-Dist: responses (>=0.10.6,<0.11.0)
+Project-URL: Repository, https://github.com/ADR-007/requests-asserts
+Description-Content-Type: text/markdown
+
+Used to mock response and validate that the requests happened in the right order with right data
+
+Usage example:
+```py
+import requests
+from unittests import TestCase 
+
+def get_likes_on_post(username, password, post_id):
+    access_token = requests.post('http://my.site/login',
+                                 json={'username': username, 'password': password}).json()['access_token']
+
+    likes = requests.get(f'http://my.site/posts/{post_id}',
+                         headers={'Accept': 'application/json',
+                                  'Authorization': f'Bearer {access_token}'}).json()['likes']
+
+    return likes
+
+class TestGetLikesOnPost(TestCase):
+    @RequestMock.assert_requests([
+        RequestMock(
+            request_url='http://my.site/login',
+            request_json={'username': 'the name', 'password': 'the password'},
+            request_method=RequestMock.Method.POST,
+            response_json={"access_token": 'the-token'}
+        ),
+        RequestMock(
+            request_url='http://my.site/posts/3',
+            request_headers_contains={'Authorization': 'Bearer the-token'},
+            response_json={'name': 'The cool story', 'likes': 42}
+        )
+    ])
+    def test_get_likes_on_post(self):
+        self.assertEqual(42, get_likes_on_post('the name', 'the password', 3))
+
+```
+
