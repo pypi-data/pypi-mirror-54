@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kfpubsub
+Version: 0.1.1
+Summary: Base redis pubsub implementation
+Home-page: https://gitlab.com/kas-factory/packages/pubsub
+Author: Antonio @ KF
+Author-email: antonio@kasfactory.net
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
