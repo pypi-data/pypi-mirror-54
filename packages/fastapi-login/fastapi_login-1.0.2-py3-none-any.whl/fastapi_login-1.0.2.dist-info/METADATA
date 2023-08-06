@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: fastapi-login
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/MushroomMaula/fastapi_login
+Author: Max Rausch-Dupont
+Author-email: maxrd79@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: aiofiles (==0.4.0)
+Requires-Dist: aniso8601 (==7.0.0)
+Requires-Dist: async-asgi-testclient (==1.1.2)
+Requires-Dist: async-exit-stack (==1.0.1)
+Requires-Dist: async-generator (==1.10)
+Requires-Dist: atomicwrites (==1.3.0)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: bcrypt (==3.1.7)
+Requires-Dist: certifi (==2019.9.11)
+Requires-Dist: cffi (==1.13.1)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: colorama (==0.4.1)
+Requires-Dist: dnspython (==1.16.0)
+Requires-Dist: email-validator (==1.0.5)
+Requires-Dist: fastapi (==0.42.0)
+Requires-Dist: graphene (==2.1.8)
+Requires-Dist: graphql-core (==2.2.1)
+Requires-Dist: graphql-relay (==2.0.0)
+Requires-Dist: h11 (==0.8.1)
+Requires-Dist: idna (==2.8)
+Requires-Dist: importlib-metadata (==0.23)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.10.3)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: more-itertools (==7.2.0)
+Requires-Dist: multidict (==4.5.2)
+Requires-Dist: packaging (==19.2)
+Requires-Dist: passlib (==1.7.1)
+Requires-Dist: pluggy (==0.13.0)
+Requires-Dist: promise (==2.2.1)
+Requires-Dist: py (==1.8.0)
+Requires-Dist: pycparser (==2.19)
+Requires-Dist: pydantic (==0.32.2)
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: pyparsing (==2.4.2)
+Requires-Dist: pytest (==5.2.1)
+Requires-Dist: pytest-asyncio (==0.10.0)
+Requires-Dist: python-multipart (==0.0.5)
+Requires-Dist: PyYAML (==5.1.2)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: Rx (==1.6.1)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: starlette (==0.12.9)
+Requires-Dist: ujson (==1.35)
+Requires-Dist: urllib3 (==1.25.6)
+Requires-Dist: uvicorn (==0.9.1)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: websockets (==8.0.2)
+Requires-Dist: zipp (==0.6.0)
+
+# FastAPI-Login
+
+FastAPI-Login tries to provide similar functionality as [Flask-Login](https://github.com/maxcountryman/flask-login) does.
+
+## Installation
+
+```shell script
+$ pip install fastapi-login
+```
+
+## Usage
+
+To begin we have to setup our FastAPI app:
+
+````python
+from fastapi import FastAPI
+
+app = FastAPI()
+app.config = {'secret': 'super-secret'}
+````
+The config should be a ``Mapping`` or implement the ``__getitem__`` method.
+
+Now we can import and setup the LoginManager, which will handle the process of
+encoding and decoding our Json Web Tokens.
+
+````python
+from fastapi_login import LoginManager
+manager = LoginManager(app)
+````
+For the example we will use a dictionary to represent our user database. In your
+application this could also be a real database like sqlite or Postgres. It does not
+matter as you have to provide the function which retrieves the user.
+
+````python
+fake_db = {'johndoe@e.mail': {'password': 'hunter2'}}
+````
+
+Now we have to provide the ``LoginManager`` with a way to load our user. The 
+`user_loader` callback should either return your user object or ``None``
+
+````python
+@manager.user_loader
+def load_user(email: str):  # could also be an asynchronous function
+    user = fake_db.get(email)
+    return user
+````
+
+Now we have to define a way to let the user login in our app. Therefore we will create
+a new route:
+
+````python
+from fastapi import Depends
+from fastapi.security import OAuth2PasswordRequestForm
+from fastapi_login.exceptions import InvalidCredentialsException
+
+@app.post('/auth/token')
+def login(data: OAuth2PasswordRequestForm = Depends()):
+    email = data.username
+    password = data.password
+
+    user = load_user(email)  # we are using the same function to retrieve the user
+    if not user:
+        raise InvalidCredentialsException  # you can also use your own HTTPException
+    elif password != user['password']:
+        raise InvalidCredentialsException
+
+    access_token = manager.create_access_token(
+        data=dict(sub=email)
+    )
+    return {'access_token': access_token, 'token_type': 'bearer'}
+````
+
+Now whenever you want your user to be logged in to use a route, you can simply
+use your ``LoginManager`` instance as a dependency.
+
+````python
+from fastapi.security import OAuth2PasswordBearer
+# this has to be set first in order to use the instance as dependency
+manager.tokenUrl = '/auth/token'
+
+
+@app.get('/protected')
+def protected_route(user: Depends(manager)):
+    ...
+````
+
