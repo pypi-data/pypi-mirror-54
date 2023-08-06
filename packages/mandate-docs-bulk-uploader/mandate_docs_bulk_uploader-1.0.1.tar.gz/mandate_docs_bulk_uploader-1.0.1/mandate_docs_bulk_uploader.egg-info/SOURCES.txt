@@ -1,0 +1,9 @@
+setup.py
+mandate_docs_bulk_uploader/__init__.py
+mandate_docs_bulk_uploader.egg-info/PKG-INFO
+mandate_docs_bulk_uploader.egg-info/SOURCES.txt
+mandate_docs_bulk_uploader.egg-info/dependency_links.txt
+mandate_docs_bulk_uploader.egg-info/entry_points.txt
+mandate_docs_bulk_uploader.egg-info/not-zip-safe
+mandate_docs_bulk_uploader.egg-info/requires.txt
+mandate_docs_bulk_uploader.egg-info/top_level.txt
