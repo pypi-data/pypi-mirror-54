@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: flit_bumpversion
+Version: 0.0.6
+Summary: Simple bumpversion tool
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Niels Lemmens
+Author-email: draso.odin@gmail.com
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License

@@ -1,0 +1,3 @@
+[console_scripts]
+flit-bumpversion=flit_bumpversion.__main__:cli
+
