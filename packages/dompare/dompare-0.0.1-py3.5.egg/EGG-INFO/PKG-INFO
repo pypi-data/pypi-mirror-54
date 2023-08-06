@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: dompare
+Version: 0.0.1
+Summary: A program to diff files in two directories
+Home-page: https://github.com/vra/dompare
+Author: Yunfeng Wang
+Author-email: wyf.brz@gmail.com
+License: MIT Licence
+Description-Content-Type: UNKNOWN
+Description: A program to diff files in two directories
+Keywords: dompare,Linux,diff,directories
+Platform: any
