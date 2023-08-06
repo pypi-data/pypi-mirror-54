@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+smsedge_api_python/__init__.py
+smsedge_api_python/sms_edge_api.py
+smsedge_api_python_SMSEdge.egg-info/PKG-INFO
+smsedge_api_python_SMSEdge.egg-info/SOURCES.txt
+smsedge_api_python_SMSEdge.egg-info/dependency_links.txt
+smsedge_api_python_SMSEdge.egg-info/requires.txt
+smsedge_api_python_SMSEdge.egg-info/top_level.txt
