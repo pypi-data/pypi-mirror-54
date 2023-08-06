@@ -1,0 +1,9 @@
+objectmapper/__init__.py,sha256=UBCLpyFycAKYr-ISzsFqSCsgSjNjvFxgUEzD-OrnvRY,3450
+objectmapper/__version__.py,sha256=oipeiltiRObbQLwj1sIi96b_a_YyFdJmXURZrHVTF4s,271
+objectmapper/exceptions.py,sha256=0HXY6pfe_EseXfxJipZNgESUAuomdk0bBVPfqI6Y_Mw,1473
+objectmapper/objectmapper.py,sha256=trLj66klWLdC5ocurV_N8vxMpk_B3erEcucYF8HXjMU,2220
+objectmapper-0.0.5.dist-info/LICENSE,sha256=6uWbQU87l0IXqE825TGtiYMG4HUEpIjA0IEfYYdQSqI,1069
+objectmapper-0.0.5.dist-info/METADATA,sha256=zX8f8ljkd4rTqqLJB-6ri1bBnQBIrxh5OyYL2Gc0924,1889
+objectmapper-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+objectmapper-0.0.5.dist-info/top_level.txt,sha256=t_rW5orQCcQKwxNC_qLbfnlQex_1NyjU8hqlAz0cQ_k,13
+objectmapper-0.0.5.dist-info/RECORD,,

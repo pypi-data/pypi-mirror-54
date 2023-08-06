@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: objectmapper
+Version: 0.0.5
+Summary: A small module for mapping between object types.
+Home-page: UNKNOWN
+Author: ABoiledCarny
+Author-email: 
+License: MIT
+Project-URL: Documentation, https://objectmapper.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/ABoiledCarny/objectmapper
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: docs
+Requires-Dist: sphinx (==2.2.0) ; extra == 'docs'
+Provides-Extra: publish
+Requires-Dist: pylint (==2.4.3) ; extra == 'publish'
+Requires-Dist: pytest-cov (==2.8.1) ; extra == 'publish'
+Requires-Dist: pytest (==5.2.2) ; extra == 'publish'
+Requires-Dist: pytype (==2019.10.17) ; extra == 'publish'
+Requires-Dist: sphinx (==2.2.0) ; extra == 'publish'
+Requires-Dist: tox (==3.14.0) ; extra == 'publish'
+Requires-Dist: twine (==2.0.0) ; extra == 'publish'
+Requires-Dist: wheel (==0.33.6) ; extra == 'publish'
+Provides-Extra: tests
+Requires-Dist: pylint (==2.4.3) ; extra == 'tests'
+Requires-Dist: pytest-cov (==2.8.1) ; extra == 'tests'
+Requires-Dist: pytest (==5.2.2) ; extra == 'tests'
+Requires-Dist: pytype (==2019.10.17) ; extra == 'tests'
+Requires-Dist: sphinx (==2.2.0) ; extra == 'tests'
+Requires-Dist: tox (==3.14.0) ; extra == 'tests'
+
+objectmapper
+============
+
+A small module for mapping between object types.
+
+* `Documentation <https://objectmapper.readthedocs.io/en/latest/>`_
+* `Source <https://github.com/ABoiledCarny/objectmapper>`_
+* `PyPi Package <https://pypi.org/project/objectmapper/>`_
+
+Installation
+------------
+``objectmapper`` requires ``Python >= 3.6`` because it relies on modern type annotations.
+::
+
+   pip install objectmapper
+
+Example
+-------
+
+>>> import objectmapper
+>>> mapper = objectmapper.ObjectMapper()
+>>> def int_to_str(i: int) -> str:
+...     return str(i)
+>>> mapper.create_map(int, str, int_to_str)
+>>> mapper.map(42, str)
+'42'
+
+
