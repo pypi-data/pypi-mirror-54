@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: smsedge_api_python-SMSEdge
+Version: 1.7.0
+Summary: SMSEdge API package for Python development
+Home-page: https://github.com/SMSEdge/API-Python
+Author: Mimon Copitman
+Author-email: mimon@smsedge.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
