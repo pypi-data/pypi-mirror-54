@@ -1,0 +1,7 @@
+include maplearn/logging.cfg
+include maplearn/app/style/style.css
+include maplearn/app/img/*.png
+include maplearn/app/doc/*.html
+include maplearn/app/gui/Icon/*.png
+include maplearn/examples/*.ORI
+include maplearn/datasets/*.*

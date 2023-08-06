@@ -1,0 +1,44 @@
+[metadata]
+title = Ex. 3. : classification d'un jeu de donnees test (*iris*)
+description = Cet exemple utilise un jeu de donnees test tres connus en
+ en traitement du signal : *iris*.<br/><br/>
+
+ La separability des echantillons est analysee lors des pretraitements.
+ <br/><br/>
+ 3 algorithmes de classification (lda, knn et svm) sont compares, apres avoir
+ recherches les parametres donnant la meilleure precision.
+author = Mapping learning team
+[io]
+samples=iris
+# [optionnel] colonne correspondant au ID des classes (numeriques)
+label_id=
+# [optionnel] colonne correspondant aux libelles des classes (texte)
+label=
+# [optionnel] liste des features a utiliser
+features=
+# [optionnel] jeu de donnees sur lequel appliquer les classification
+data=
+# dossier qui contiendra les sorties
+output={path}/tmp/example3/
+[preprocess]
+# [optionnel:booleen] faut-il centrer/reduire ? [true/false]
+scale=
+# [optionnel:booleen] faut-il reequilibrer les echantillons ? [true/false]
+balance=
+# [optionnel:txt] Reduit les dimensions du jeu de donnees (pca, lda, kbest, rfe,kernel_pca)
+reduce=lda
+# [optionnel:nombre] nombre de dimensions souhaitees apres reduction
+ncomp=
+# [optionnel:booleen] faut-il analyser la separabilite des echantillons ? [true/false]
+separability=t
+[process]
+type=classification
+# [optionnel:txt] quelle mesure de distance utiliser (si different euclidean)
+distance=
+# [optionnel:txt ou list]algorithme(s) de classification a appliquer (ex: knn)
+algorithm=tree,knn,svm
+kfold=
+# optimize des parametres de classification ? [true/false]
+optimize=
+# faut-il predire des resultats (exporter des classifs) ? [true/false]
+predict=f
