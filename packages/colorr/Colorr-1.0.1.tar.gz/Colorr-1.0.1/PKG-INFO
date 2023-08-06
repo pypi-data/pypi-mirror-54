@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Colorr
+Version: 1.0.1
+Summary: A tool for picking Colorrs
+Home-page: https://github.com/ItzAfroBoy/colorr
+Author: ItzAfroBoy
+Author-email: spareafro@post.com
+License: UNKNOWN
+Description: # Colorr Package
+        
+        This is a package to do with colors like picking them or  
+        storing colors you come across that you can then retreive later
+        
+        You can email me here: [My email](mailto:spareafro@post.com)
+        You can also check out my other package, Timerr: [timerr](https://github.com/ItzAfroBoy/timerr)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
