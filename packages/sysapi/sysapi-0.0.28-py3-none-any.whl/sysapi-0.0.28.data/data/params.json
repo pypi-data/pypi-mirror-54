@@ -1,0 +1,12 @@
+{
+    "dbpath": "/zpool/shared/meta/etc/",
+    "pool": "zpool",
+    "rootfs": "zpool/shared",
+    "unionpath": "/srv/safer",
+    "resetkey": "toto",
+    "homes": "home",
+    "uowner": "www-data",
+    "admin": "root",
+    "adminpwd": "toto",
+    "createuser": "./bin/createuser.sh"
+}

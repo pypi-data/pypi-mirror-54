@@ -1,0 +1,151 @@
+{
+    "config": {
+        "pool": {
+            "name": "{pool}",
+            "mountpoint": "/{pool}",
+            "parent": "",
+            "dirs": []
+        },
+        "filesystems": [
+            {
+                "pool": "{pool}",
+                "name": "{rootfs}",
+                "parent": "{rootfs}",
+                "mountpoint": "/{rootfs}",
+                "backup": "HighFreq",
+                "dirs": [],
+                "owner": "root",
+                "fstype": "uroot"
+            },
+            {
+                "pool": "{pool}",
+                "name": "{rootfs}/hf-1",
+                "parent": "{rootfs}",
+                "mountpoint": "/{rootfs}/hf-1",
+                "backup": "HighFreq",
+                "dirs": [ "Documents", "Workspace", "Projects", "Desktop"],
+                "owner": "{uowner}",
+                "fstype": "udirs"
+            },
+            {
+                "pool": "{pool}",
+                "name": "{rootfs}/lf-1",
+                "parent": "{rootfs}",
+                "mountpoint": "/{rootfs}/lf-1",
+                "backup": "LowFreq",
+                "dirs": ["Photos", "Videos"],
+                "owner": "{uowner}",
+                "fstype": "udirs"
+            },
+            {
+                "pool": "{pool}",
+                "name": "{rootfs}/nobk-1",
+                "parent": "{rootfs}",
+                "mountpoint": "/{rootfs}/nobk-1",
+                "backup": "None",
+                "dirs": ["Downloads", "NoBackup", "Temp"],
+                "owner": "{uowner}",
+                "fstype": "udirs"
+            },
+            {
+                "pool": "{pool}",
+                "name": "{rootfs}/sync-1",
+                "parent": "{rootfs}",
+                "mountpoint": "/{rootfs}/sync-1",
+                "backup": "Synchonized",
+                "dirs": ["Archives", "Backups", "Music", "Applications"],
+                "owner": "{uowner}",
+                "fstype": "udirs"
+            }
+        ],
+        "volumes": [
+            {
+                "pool": "{pool}",
+                "name": "{rootfs}/external-1",
+                "fstype": "ext4",
+                "backup": "Synchronized",
+                "size": "1024G",
+                "thin": true
+            }
+        ],
+        "backups": {
+            "HighFreq": {
+                "policy": [
+                    {
+                        "duration": "2h",
+                        "period": "15min"
+                    },
+                    {
+                        "duration": "3d",
+                        "period": "4h"
+                    },
+                    {
+                        "duration": "10d",
+                        "period": "12h"
+                    },
+                    {
+                        "durartion": "1month",
+                        "period": "1d"
+                    },
+                    {
+                        "duration": "6month",
+                        "period": "1w"
+                    },
+                    {
+                        "duration": "2y",
+                        "period": "1month"
+                    }
+                ],
+                "target": {
+                    "node": "stor1.inspeere.net",
+                    "sshport": "11022",
+                    "login": "user1",
+                    "sshkey": "opt/safer/.ssh/id_rsa",
+                    "zpool": "zpool",
+                    "rootfs": "zpool/BACKUPS/hf"
+                }
+            },
+            "LowFreq": {
+                "policy": [
+                    {
+                        "duration": "1month",
+                        "period": "1d"
+                    },
+                    {
+                        "duration": "6month",
+                        "period": "1w"
+                    },
+                    {
+                        "duration": "2y",
+                        "period": "1month"
+                    }
+                ],
+                "target": {
+                    "node": "stor1.inspeere.net",
+                    "sshport": "11022",
+                    "login": "user1",
+                    "sshkey": "opt/safer/.ssh/id_rsa",
+                    "zpool": "zpool",
+                    "rootfs": "zpool/BACKUPS/lf"
+                }
+            },
+            "Synchronized": {
+                "policy": [
+                    {
+                        "duration": "1d",
+                        "period": "1d"
+                    }
+                ],
+                "target": {
+                    "node": "stor1.inspeere.net",
+                    "sshport": "11022",
+                    "login": "user1",
+                    "sshkey": "opt/safer/.ssh/id_rsa",
+                    "zpool": "zpool",
+                    "root": "zpool/BACKUPS/sync"
+                }
+            }
+        }
+
+    }
+}
