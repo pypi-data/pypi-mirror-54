@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: Arxivtrends
+Version: 0.0.1
+Summary: An ArXiV scraper to retrieve records from given research areas in mathematics and detect some trends in hyper-specialization and growth rate increase of scientific production in those fields.
+Home-page: https://github.com/amarine7/Arxivtrends
+Author: Alessandro Marinelli
+Author-email: alessandromarinelli7@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: hyper-specialization,scraper,api,arXiv
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
