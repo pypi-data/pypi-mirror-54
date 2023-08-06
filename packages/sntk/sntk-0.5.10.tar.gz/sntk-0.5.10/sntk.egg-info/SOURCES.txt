@@ -1,0 +1,5 @@
+setup.py
+sntk.egg-info/PKG-INFO
+sntk.egg-info/SOURCES.txt
+sntk.egg-info/dependency_links.txt
+sntk.egg-info/top_level.txt
