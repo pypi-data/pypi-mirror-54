@@ -1,0 +1,16 @@
+knora/MLS-import-libraries.py,sha256=tBZ7eBXfTJBGmciJvq62JQX6gde5f7Fb0TJOtNnr5kA,2946
+knora/__init__.py,sha256=0w-mUE_L_3BcfnwkRnSB9lAyHCJrXRVmOWaOCHm6604,206
+knora/create_ontology.py,sha256=a6SNYDIeQCYYBWSWj5Luqbq0wY2JEHd2pst8v8xT1JI,12019
+knora/knora-schema-lists.json,sha256=Axii1vJk5MSPFqIpzEsxvWEYc6AAxqnQOcuXfHdIjTk,1788
+knora/knora-schema.json,sha256=qdh-Ek_LlDg7eptUz2YwxOSq7PmIWCpKWUV9HKTp6dw,7359
+knora/knora.py,sha256=Mh9vkfDHeoscx6TxqxJAV4z-nntNteeOJorawXggKuI,63457
+knora/knoraConsole.py,sha256=EoDUHHDf5so3WBbLoK0xxHs9N_S2Uo38KhdIQ2Tlve8,11983
+knora/knoractl.py,sha256=da0kLqnOg6YvN4Bp6foXPOKVAPzx7etbhG2jgxT3PXI,737
+knora/reset_triplestore.py,sha256=da0kLqnOg6YvN4Bp6foXPOKVAPzx7etbhG2jgxT3PXI,737
+knora/xml2knora.py,sha256=LU-lR8TZ0phAIK1YIR7Yhqn41KDG3TfmOnLVZlXaNg4,13244
+knora-1.1.17.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+knora-1.1.17.dist-info/METADATA,sha256=t6vcAqC90drFKUBg_2GcoeYKyC1VWwNMGnQwWO4S-wA,2839
+knora-1.1.17.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+knora-1.1.17.dist-info/entry_points.txt,sha256=vK1gaqOvzJWHxW5b6XMBHhRnWg1QMyn7Ni_ifA2M9Qo,190
+knora-1.1.17.dist-info/top_level.txt,sha256=pEnroNav0C0OR74WHTMkd4IDmfjKh2LMjQ5EkmLTSQs,6
+knora-1.1.17.dist-info/RECORD,,
