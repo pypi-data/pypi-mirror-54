@@ -1,0 +1,44 @@
+# from your_module_dir import module
+from sys import modules
+import inspect
+
+import colorama
+from colorama.ansi import AnsiFore
+from colorama import Fore, Back
+
+ROOT_MAIN_NAME = 'main'
+
+
+def highlight_print(msg: str, fore_color: AnsiFore = Fore.RED) -> None:
+    print(Back.LIGHTYELLOW_EX + fore_color + msg)
+
+
+def main():
+    cur_module = modules[__name__]
+    list_all_modules = [(name, module) for name, module in inspect.getmembers(cur_module, inspect.ismodule)]
+
+    dict_modules = dict()
+    for cur_module_name, cur_module in list_all_modules:
+        dict_funcs = {name: func for name, func in inspect.getmembers(cur_module, inspect.isfunction)}
+        func = dict_funcs.get(ROOT_MAIN_NAME)
+        if func:
+            dict_modules[cur_module_name] = dict()
+            dict_modules[cur_module_name]['module'] = cur_module
+            dict_modules[cur_module_name]['func'] = dict_funcs
+
+    highlight_print(f"{'Action Number':<15} {'module_name':<30} {'description':<40}")
+    dict_run_module = {idx: module_name for idx, module_name in enumerate(dict_modules)}
+    [print(Fore.BLUE + f"{idx:<15} {module_name:<30} {dict_modules[module_name].__doc__.replace(chr(10), '|')}") for idx, module_name, in dict_run_module.items()]
+
+    case = input("run module: \n(input module_name or it's index)\n:")
+    if (eval(case) not in dict_run_module  # by index
+            and case not in dict_modules):  # by name
+        return
+    select_module_name = dict_run_module[eval(case)] if isinstance(eval(case), int) else case
+    dict_run_func = dict_modules[select_module_name]['func']
+    dict_run_func[ROOT_MAIN_NAME]()  # or you can run other methods. (of course, these methods should exist at that scripts)
+
+
+if __name__ == '__main__':
+    colorama.init(autoreset=True)
+    main()
