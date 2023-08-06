@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: geonetworkx
+Version: 0.4
+Summary: Python tools for geographic graphs
+Home-page: UNKNOWN
+Author: Hugo Chareyre - Artelys
+Author-email: hugo.chareyre@artelys.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pyproj (>=1.9.6)
+Requires-Dist: geopy (>=1.12.0)
+Requires-Dist: geopandas (>=0.4.0)
+Requires-Dist: networkx (>=2.2)
+Requires-Dist: numpy (>=1.12.0)
+Requires-Dist: shapely (>=1.2.18)
+Requires-Dist: scipy (>=0.19.0rc2)
+Requires-Dist: nose (>=1.3.7)
+
+GeoNetworkX
+===========
+
+Python tools for geographic graphs
+
+
+Introduction
+------------
+
+GeoNetworkX is a project to add support for geographic graphs to NetworkX (in the same way that GeoPandas support
+geographic data to Pandas). It currently implements four data structures that extends the networkx graph classes (Graph,
+ MultiGraph, DiGraph, MultiDiGraph).
+
+
+Install
+--------
+
+**Requirements**
+
+* pyproj>=1.9.6
+* geopy>=1.12.0
+* geopandas>=0.4.0
+* networkx>=2.2
+* numpy>=1.15.4
+* shapely>=1.2.18
+* scipy>=1.0.1
+
+Optional packages:
+
+* srtm (for elevation data)
+* pyvoronoi (for voronoi utils)
+* osmnx (for OSM data)
+
+**Installation**
+
+``pip install geonetworkx``
+
+
+Tests
+-----
+
+Tests can be launched with `unittest` with the following command:
+```
+python -m unittest discover -v geonetworkx
+```
+Or with `nose` like this:
+```
+nosetests
+```
+
+
+
+
