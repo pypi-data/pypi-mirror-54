@@ -1,0 +1,6 @@
+#!python
+
+import WowFile
+
+if __name__ == "__main__":
+    WowFile.tkViewer.main()
