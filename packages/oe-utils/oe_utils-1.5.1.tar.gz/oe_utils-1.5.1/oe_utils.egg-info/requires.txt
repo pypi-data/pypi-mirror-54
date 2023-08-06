@@ -1,0 +1,9 @@
+Deprecated
+PyYAML
+feedgen
+future
+python-stdnum
+pytz
+requests
+simplejson
+zope.interface
