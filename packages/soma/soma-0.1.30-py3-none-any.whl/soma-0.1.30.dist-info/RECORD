@@ -1,0 +1,9 @@
+soma/__init__.py,sha256=QXJRoMAplM44abTbLD6qkmN9CTQFRqxqTpbC9YfJ4EU,22
+soma/estilo/__init__.py,sha256=aX9CfTjWU3nrkvsSr6F3S5MDYOrP7f0Sm4KfbByAIrw,570
+soma/estilo/datasets.py,sha256=faKU8qL8KhM3l95OTlqf3qSpP-D_EklGAd92Ef_g3uI,13450
+soma/estilo/modelling.py,sha256=TE7GS8j0x8CDXrlzJJB77GwYdn0JxDyxu8MJZNe6ypI,8001
+soma/estilo/utils.py,sha256=XVsJeYnwwRRs2v6K12iYkWh7Es3u3bFAZtEdo7xCm3Y,15543
+soma-0.1.30.dist-info/METADATA,sha256=-GrxdwK2cQnD4M28W3HhFTi72GizUMk16YBklIiyL8E,838
+soma-0.1.30.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+soma-0.1.30.dist-info/top_level.txt,sha256=gUq1GmgiAuZaKzsTMI-na-O0l2GueHCW74P90DLaTGU,5
+soma-0.1.30.dist-info/RECORD,,
