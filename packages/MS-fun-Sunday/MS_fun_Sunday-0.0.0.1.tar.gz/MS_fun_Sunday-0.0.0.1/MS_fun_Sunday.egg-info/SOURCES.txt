@@ -1,0 +1,5 @@
+setup.py
+MS_fun_Sunday.egg-info/PKG-INFO
+MS_fun_Sunday.egg-info/SOURCES.txt
+MS_fun_Sunday.egg-info/dependency_links.txt
+MS_fun_Sunday.egg-info/top_level.txt
