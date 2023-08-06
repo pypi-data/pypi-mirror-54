@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+color/ColorConstant.py
+color/__init__.py
+colouredprinter.egg-info/PKG-INFO
+colouredprinter.egg-info/SOURCES.txt
+colouredprinter.egg-info/dependency_links.txt
+colouredprinter.egg-info/requires.txt
+colouredprinter.egg-info/top_level.txt
+printer/ColoredPrinter.py
+printer/__init__.py
+style/FontStyleConstant.py
+style/__init__.py
