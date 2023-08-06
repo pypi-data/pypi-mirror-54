@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: SICA-9
+Version: 0.0.9
+Summary: An feature extraction algorithm,   local repo testing
+Home-page: https://github.com/yifanff/sica_test_0513
+Author: Yifan
+Author-email: yifanff@126.com
+License: MIT Licence test
+Description: An feature extraction algorithm, improve the FastICA test
+Keywords: pip9,SICA9,featureextraction9
+Platform: any

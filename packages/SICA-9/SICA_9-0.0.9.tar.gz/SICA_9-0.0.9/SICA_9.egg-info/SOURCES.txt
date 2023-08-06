@@ -1,0 +1,10 @@
+README.md
+setup.py
+SICA/__init__.py
+SICA/sica.py
+SICA/ssica.py
+SICA_9.egg-info/PKG-INFO
+SICA_9.egg-info/SOURCES.txt
+SICA_9.egg-info/dependency_links.txt
+SICA_9.egg-info/requires.txt
+SICA_9.egg-info/top_level.txt
