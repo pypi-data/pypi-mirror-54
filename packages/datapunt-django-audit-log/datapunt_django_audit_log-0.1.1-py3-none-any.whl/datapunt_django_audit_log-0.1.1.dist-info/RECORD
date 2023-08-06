@@ -1,0 +1,9 @@
+django_audit_log/__init__.py,sha256=R9_nGpMmR9VSpVQQDOVU8zd-HaCRSQi_GuF-5JlEyNo,80
+django_audit_log/logger.py,sha256=3P4pWiE_4vARbxgHPYMRzU79EWBatEbtP77-9CX-ivA,1617
+django_audit_log/middleware.py,sha256=aE-XHy9SKyDGOE5AeQDNnZ2cvFHrfy49LI_9R0Lt0xQ,798
+django_audit_log/util.py,sha256=PN4EuK95lCkrZv5Pc_xk80tTvAYZShi0YvNpEBa8d9s,507
+datapunt_django_audit_log-0.1.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+datapunt_django_audit_log-0.1.1.dist-info/METADATA,sha256=k16UPXuun35-D-NMcvZkPEW2-16SUBot1ockcQRpAuw,4983
+datapunt_django_audit_log-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+datapunt_django_audit_log-0.1.1.dist-info/top_level.txt,sha256=DQiK396qWKwRhslbR4ImHHtB7K8rN-46V9n3xqRL-kg,17
+datapunt_django_audit_log-0.1.1.dist-info/RECORD,,
