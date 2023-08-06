@@ -1,0 +1,4 @@
+luigi
+sqlalchemy
+requests
+elasticsearch
