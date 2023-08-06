@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: productfeeds
+Version: 0.11.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Maciej Czerwinski
+Author-email: maciekcz2@gmail.com
+Maintainer: Maciej Czerwinski
+Maintainer-email: maciekcz2@gmail.com
+License: UNKNOWN
+Platform: All
+Requires-Dist: setuptools
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: nose
+Requires-Dist: mock
+Requires-Dist: requests-mock
+Requires-Dist: pymysql
+Requires-Dist: retrypy
+
+UNKNOWN
+
+
