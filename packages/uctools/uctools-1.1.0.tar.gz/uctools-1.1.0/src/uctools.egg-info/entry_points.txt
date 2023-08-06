@@ -1,0 +1,4 @@
+[console_scripts]
+ucenum = ucenum:main
+ucinfo = ucinfo:main
+
