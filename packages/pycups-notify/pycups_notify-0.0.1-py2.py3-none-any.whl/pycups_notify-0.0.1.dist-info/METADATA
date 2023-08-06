@@ -1,0 +1,79 @@
+Metadata-Version: 2.0
+Name: pycups-notify
+Version: 0.0.1
+Summary: Notification system for the pycups libarary.
+Home-page: https://github.com/anxuae/pycups-notify
+Author: Antoine Rousseaux
+Author-email: UNKNOWN
+License: MIT license
+Download-URL: https://github.com/anxuae/pycups-notify/archive/0.0.1.tar.gz
+Description-Content-Type: text/x-rst
+Keywords: printer,CUPS
+Platform: unix
+Platform: linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Natural Language :: English
+Classifier: Topic :: Printing
+Requires-Dist: pycups (>=1.9.73)
+
+.. image:: https://raw.githubusercontent.com/anxuae/pycups-notify/master/docs/pycups-notify.png
+   :align: center
+   :alt: pycups-notify
+
+
+The ``pycups-notify`` library is an extension to the `pycups <https://github.com/OpenPrinting/pycups>`_
+one. It enables subscription to CUPS RSS notifications.
+
+This library implements the `Event notify <http://www.marco.panizza.name/dispenseTM/slides/exerc/eventnotify/eventnotify.html>`_
+pattern to match with the `design description <https://www.cups.org/doc/spec-design.html>`_
+of the CUPS server.
+
+
+Install
+-------
+
+::
+
+     $> pip install pycups-notify
+
+
+Usage
+-----
+
+.. code-block:: python
+
+    import time
+    import cups
+    from cups_notify import Subscriber
+
+    def on_event(event):
+        print(event)
+
+    # Create a CUPS connection
+    conn = cups.Connection()
+
+    # Create a new subscriber
+    sub = Subscriber(conn)
+
+    # Subscribe the callback to all CUPS events
+    sub.subscribe(on_event)
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        sub.stop()
+
+
+A simple listener can be started by typing the following command line::
+
+     $> pycups-notify
+
+
