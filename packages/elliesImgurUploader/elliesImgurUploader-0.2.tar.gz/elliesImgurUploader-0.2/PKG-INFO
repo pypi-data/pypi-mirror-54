@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: elliesImgurUploader
+Version: 0.2
+Summary: A small library for uploading imgur albums
+Home-page: https://github.com/lifesgood123/elliesImgurUploader
+Author: Ellie Mae Schipper
+Author-email: UNKNOWN
+License: idgaf
+Download-URL: https://github.com/Lifesgood123/elliesImgurUploader/archive/0.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
