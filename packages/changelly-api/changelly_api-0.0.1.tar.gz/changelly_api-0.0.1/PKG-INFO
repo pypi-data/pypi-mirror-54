@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: changelly_api
+Version: 0.0.1
+Summary: Python wrapper library over Changelly RPC API
+Home-page: https://github.com/k0t3n/changelly_api
+Author: k0t3n
+Author-email: k0t3n.mail@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
