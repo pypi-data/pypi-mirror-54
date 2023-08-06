@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+malachite/__init__.py
+malachite/__main__.py
+malachite.egg-info/PKG-INFO
+malachite.egg-info/SOURCES.txt
+malachite.egg-info/dependency_links.txt
+malachite.egg-info/entry_points.txt
+malachite.egg-info/requires.txt
+malachite.egg-info/top_level.txt

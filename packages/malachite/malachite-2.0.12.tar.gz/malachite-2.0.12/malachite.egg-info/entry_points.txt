@@ -1,0 +1,3 @@
+[console_scripts]
+malachite = malachite.__main__:main
+
