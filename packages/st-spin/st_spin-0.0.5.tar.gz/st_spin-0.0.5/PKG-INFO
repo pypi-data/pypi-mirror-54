@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: st_spin
+Version: 0.0.5
+Summary: Interface for ST SpinFamily motor drivers
+Home-page: https://github.com/m-laniakea/st_spin
+Author: eir
+Author-email: m-laniakea@users.noreply.github.com
+License: GPLv1
+Description: # ST Spin Family Interface
+        
+Platform: UNKNOWN
