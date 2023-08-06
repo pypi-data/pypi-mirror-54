@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bagpipe
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/landier/bagpipe
+Author: Nicolas Landier
+Author-email: nicolas.landier@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: sanic
+
+# bagpipe
+
+
