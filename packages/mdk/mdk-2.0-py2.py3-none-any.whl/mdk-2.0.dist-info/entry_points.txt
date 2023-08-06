@@ -1,0 +1,3 @@
+[console_scripts]
+mdk = src.main:main
+
