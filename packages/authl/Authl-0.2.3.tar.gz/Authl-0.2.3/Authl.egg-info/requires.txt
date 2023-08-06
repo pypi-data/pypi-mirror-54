@@ -1,0 +1,15 @@
+beautifulsoup4
+expiringdict
+read_only_property
+requests
+requests_oauthlib
+validate_email
+
+[dev]
+autopep8
+flake8
+flask
+isort
+mypy
+pylint
+twine
