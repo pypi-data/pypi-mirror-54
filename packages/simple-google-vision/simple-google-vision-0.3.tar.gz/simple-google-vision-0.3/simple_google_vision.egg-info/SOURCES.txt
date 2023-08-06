@@ -1,0 +1,11 @@
+README.md
+setup.py
+gvision/__init__.py
+gvision/core.py
+simple_google_vision.egg-info/PKG-INFO
+simple_google_vision.egg-info/SOURCES.txt
+simple_google_vision.egg-info/dependency_links.txt
+simple_google_vision.egg-info/requires.txt
+simple_google_vision.egg-info/top_level.txt
+tests/__init__.py
+tests/test_gvision.py
