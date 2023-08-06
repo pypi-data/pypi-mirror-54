@@ -1,0 +1,12 @@
+pysatMissionPlanning/__init__.py,sha256=C01XcLyKVK7_V7g2an9IMInuMWF8A2ZF1eFO7C8T0o0,333
+pysatMissionPlanning/version.txt,sha256=gERzFlKfxiAU-6oEf7Z8Uaww4ygwzaNwQFNJ2NZtGWw,6
+pysatMissionPlanning/instruments/__init__.py,sha256=1RDgNCDpVZaCntSnSOSn1cA4-fPgqMVrEwrGj23NlNs,170
+pysatMissionPlanning/instruments/pysat_sgp4.py,sha256=2ckFLUCGzn29HXby-xVbA-79U6wpnVTiDFlsVMOts2M,50268
+pysatMissionPlanning/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysatMissionPlanning/tests/test_core.py,sha256=uIbsvipJpZ703iWX4w7xfp7zbM-ibY1ZoFO6gV_Ic38,481
+pysatMissionPlanning/tests/test_methods_pyglow.py,sha256=plaiF16wOiXZPzd8mqfMc66HsOXA_MmRhx905vJdu_g,1086
+pysatMissionPlanning-0.1.1.dist-info/LICENSE,sha256=AMHcRnFaBIpbBeU4uc2vr3ZTMtou6Gf59WJL3F9UYB4,1513
+pysatMissionPlanning-0.1.1.dist-info/METADATA,sha256=GA2fYeaX3pbKhze0adQ0rzVDU3cZFN1CMukYhssTofE,1616
+pysatMissionPlanning-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pysatMissionPlanning-0.1.1.dist-info/top_level.txt,sha256=-l4u1S3v3zoTPn-ikEC4ZSGbo1vL-bZfH_YjhcE0mwQ,21
+pysatMissionPlanning-0.1.1.dist-info/RECORD,,
