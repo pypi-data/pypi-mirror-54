@@ -1,0 +1,11 @@
+README.md
+setup.py
+pythonfuzz/__init__.py
+pythonfuzz/corpus.py
+pythonfuzz/fuzzer.py
+pythonfuzz/main.py
+pythonfuzz.egg-info/PKG-INFO
+pythonfuzz.egg-info/SOURCES.txt
+pythonfuzz.egg-info/dependency_links.txt
+pythonfuzz.egg-info/requires.txt
+pythonfuzz.egg-info/top_level.txt
