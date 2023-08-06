@@ -1,0 +1,40 @@
+Metadata-Version: 1.0
+Name: at-common-utils
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://pypi.org/project/at-common-utils
+Author: at-team
+Author-email: hylinux@126.com
+License: MIT
+Description: # at-common-utils:  at team python util packageâ„¢
+        
+        at-common-utils is ã€‚ã€‚ã€‚ã€‚.
+        
+        ## Feature Support
+        
+        at-common-utils is ready for today's web.
+        
+        - Global Data support
+        - MongoDB Support
+        - API Support
+        - ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚
+        
+        at-common-utils officially supports 3.xâ€“, and runs great on
+        PyPy.
+        
+        ## Installation
+        
+        To install at-common-utils, simply use [pipenv](http://pipenv.org/) (or pip, of
+        course):
+        
+            pipenv install at-common-utils
+            
+            
+        
+        Satisfaction guaranteed.
+        
+        ## Documentation
+        
+        Fantastic documentation is available at
+        [http://docs.python-requests.org/](http://docs.python-requests.org/), for a limited time only.
+Platform: UNKNOWN
