@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyCIF
+Version: 0.0.2
+Summary: A Python-based interface to the Community Inversion Framework
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7,<3
+Provides-Extra: dev

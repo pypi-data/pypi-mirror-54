@@ -1,0 +1,17 @@
+numpy
+scipy<=1.2
+matplotlib<3
+pandas
+netCDF4
+pytz
+python-dateutil
+xarray<=0.11
+pyyaml
+pyproj
+psutil
+Pillow<7
+
+[dev]
+Sphinx
+sphinx_rtd_theme
+sphinxcontrib-napoleon

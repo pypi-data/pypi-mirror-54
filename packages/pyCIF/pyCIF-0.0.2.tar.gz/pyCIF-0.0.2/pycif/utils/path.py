@@ -1,0 +1,62 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import errno
+import os
+
+
+def init_dir(path):
+    """Equivalent to "mkdir -p"
+    
+    Args:
+        path (str): path to the directory to create
+    
+    Returns:
+        True if created directory correctly, False if directory already existed
+    
+    """
+    
+    path = os.path.abspath(path)
+    
+    try:
+        os.makedirs(path)
+        return path, True
+    
+    # If already exists, pass; else, raise exception
+    except OSError as exc:  # Python >2.5
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            return path, False
+        else:
+            raise
+
+
+def link(source, target):
+    """Equivalent to "ln -sf". Force overwriting if the target exists.
+    
+    Args:
+        source (str): path to the source
+        target (str): path to the target
+    
+    """
+    
+    # If the same do nothin
+    if source == target:
+        return
+    
+    # Unlinks if existing
+    try:
+        os.unlink(target)
+    
+    except OSError, e:
+        if e.errno == errno.ENOENT:
+            pass
+        else:
+            raise e
+    
+    # Raise error if origin does not exist
+    if not os.path.exists(source):
+        raise IOError('Trying to link from a non-existing file: {}'
+                      .format(source))
+    
+    # Otherwise do the link
+    os.symlink(source, target)
