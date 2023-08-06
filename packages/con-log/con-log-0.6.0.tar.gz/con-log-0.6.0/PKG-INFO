@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: con-log
+Version: 0.6.0
+Summary: UNKNOWN
+Home-page: https://github.com/czwirl/conlog
+Author: Czwirl Coldwind
+Author-email: czwirl@gmail.com
+Maintainer: Czwirl Coldwind
+Maintainer-email: czwirl@gmail.com
+License: MIT
+Description: ## conlog
+        
+        ` A console logger / debugger for Python CLI programs`
+        
+        
+        Currently conlog only support functions. support for classes will be added later.
+        
+        
+        ### Getting Started
+        
+        
+        ### Installation
+        ------------
+        
+        ```shell
+        $ pip install conlog
+        
+        ````
+        
+        ### License
+        -------
+        
+        Copyright (c) 2019 Cswl Colwind 
+        
+        conlog is distributed under the terms 
+        
+        - `MIT License <https://choosealicense.com/licenses/mit>`_ 
+         
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
