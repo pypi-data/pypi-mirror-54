@@ -1,0 +1,2 @@
+include README.rst buildout.cfg LICENSE version.txt requirements.txt
+recursive-include doc *.rst *.png *.ico *.txt
