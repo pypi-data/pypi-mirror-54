@@ -1,0 +1,6 @@
+datastore_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datastore_client/client.py,sha256=wd_8VfPafWR4tcb5KYlGlV6HovU4mH-fKtYYu3uUrBs,1158
+datastore_client/mock_client.py,sha256=dFRHgVsTDVQABFTj7S1gve7MRn0jWoQSumUz_swN6II,2086
+datastore_client-0.0.5.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+datastore_client-0.0.5.dist-info/METADATA,sha256=ifFhsk9ge6ohIxHrL1eJhXS4SwocJnWxSGDEMrcrxYQ,2536
+datastore_client-0.0.5.dist-info/RECORD,,
