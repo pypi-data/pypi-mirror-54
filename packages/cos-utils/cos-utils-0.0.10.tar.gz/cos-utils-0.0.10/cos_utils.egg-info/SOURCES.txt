@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+cos_utils/__init__.py
+cos_utils/cos.py
+cos_utils/download_files.py
+cos_utils/list_files.py
+cos_utils/upload_files.py
+cos_utils.egg-info/PKG-INFO
+cos_utils.egg-info/SOURCES.txt
+cos_utils.egg-info/dependency_links.txt
+cos_utils.egg-info/entry_points.txt
+cos_utils.egg-info/requires.txt
+cos_utils.egg-info/top_level.txt
+cos_utils.egg-info/zip-safe
