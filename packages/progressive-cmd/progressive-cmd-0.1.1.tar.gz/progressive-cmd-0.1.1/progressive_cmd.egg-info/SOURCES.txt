@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+progressive_cmd/__init__.py
+progressive_cmd/progressive_cmd.py
+progressive_cmd/text.py
+progressive_cmd.egg-info/PKG-INFO
+progressive_cmd.egg-info/SOURCES.txt
+progressive_cmd.egg-info/dependency_links.txt
+progressive_cmd.egg-info/requires.txt
+progressive_cmd.egg-info/top_level.txt
+tests/test_testing.py
+tests/test_text.py
