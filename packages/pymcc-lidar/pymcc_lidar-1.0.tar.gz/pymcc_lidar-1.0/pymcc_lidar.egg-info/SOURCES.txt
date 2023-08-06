@@ -1,0 +1,7 @@
+README.md
+setup.py
+./__init__.py
+pymcc_lidar.egg-info/PKG-INFO
+pymcc_lidar.egg-info/SOURCES.txt
+pymcc_lidar.egg-info/dependency_links.txt
+pymcc_lidar.egg-info/top_level.txt
