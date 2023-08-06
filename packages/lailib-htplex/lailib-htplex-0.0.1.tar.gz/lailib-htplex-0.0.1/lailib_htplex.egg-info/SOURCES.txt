@@ -1,0 +1,8 @@
+README.md
+setup.py
+lailib/__init__.py
+lailib/io.py
+lailib_htplex.egg-info/PKG-INFO
+lailib_htplex.egg-info/SOURCES.txt
+lailib_htplex.egg-info/dependency_links.txt
+lailib_htplex.egg-info/top_level.txt
