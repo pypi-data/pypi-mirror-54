@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cc_net
+Version: 0.0.0
+Summary: Tools to download and clean Common Crawl
+Home-page: https://github.com/facebookresearch/cc_net
+Author: Guillaume Wenzek
+Author-email: guw@fb.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/facebookresearch/cc_net/issues
+Project-URL: Source Code, https://github.com/facebookresearch/cc_net
+Description: UNKNOWN
+Keywords: common crawl dataset
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Provides-Extra: dev
+Provides-Extra: slurm
+Provides-Extra: tools
