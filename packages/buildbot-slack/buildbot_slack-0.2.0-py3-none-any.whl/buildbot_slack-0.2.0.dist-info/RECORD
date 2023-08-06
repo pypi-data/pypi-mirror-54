@@ -1,0 +1,8 @@
+buildbot_slack/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+buildbot_slack/reporter.py,sha256=DwVlDk6FuJU1KjW0-bWeTL_fC3v3eFmJ1AKhviJ6g0s,8108
+buildbot_slack-0.2.0.dist-info/LICENSE,sha256=jNWPXghZWTCjzdHi_AhM9EqGwvvr38_-UAFqkyaA4qk,1060
+buildbot_slack-0.2.0.dist-info/METADATA,sha256=vuoFhd3xhaKZ04fova-qspH5LoameS1J21RjQIxead4,1706
+buildbot_slack-0.2.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+buildbot_slack-0.2.0.dist-info/entry_points.txt,sha256=zsUQx6vXCb8442BxXwFxJaM274LeybW3w61KoijnH6E,80
+buildbot_slack-0.2.0.dist-info/top_level.txt,sha256=wXwLtdHC3csshcL5ao3oAyCjuOttozDQ_8SmUwLHcfQ,15
+buildbot_slack-0.2.0.dist-info/RECORD,,
