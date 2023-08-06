@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hyperjet
+Version: 0.27.0
+Summary: Automatic differentiation with dual numbers
+Home-page: https://github.com/oberbichler/HyperJet
+Author: Thomas Oberbichler
+Author-email: thomas.oberbichler@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cmake
+Requires-Dist: numpy
+
+UNKNOWN
+
+
