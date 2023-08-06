@@ -1,0 +1,8 @@
+README.md
+setup.py
+BenBot/__init__.py
+BenBot.egg-info/PKG-INFO
+BenBot.egg-info/SOURCES.txt
+BenBot.egg-info/dependency_links.txt
+BenBot.egg-info/requires.txt
+BenBot.egg-info/top_level.txt
