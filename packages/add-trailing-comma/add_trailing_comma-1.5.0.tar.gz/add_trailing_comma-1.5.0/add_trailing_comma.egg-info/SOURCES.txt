@@ -1,0 +1,11 @@
+LICENSE
+README.md
+add_trailing_comma.py
+setup.cfg
+setup.py
+add_trailing_comma.egg-info/PKG-INFO
+add_trailing_comma.egg-info/SOURCES.txt
+add_trailing_comma.egg-info/dependency_links.txt
+add_trailing_comma.egg-info/entry_points.txt
+add_trailing_comma.egg-info/requires.txt
+add_trailing_comma.egg-info/top_level.txt

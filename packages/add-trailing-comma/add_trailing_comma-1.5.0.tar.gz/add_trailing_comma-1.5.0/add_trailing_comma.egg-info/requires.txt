@@ -1,0 +1,4 @@
+tokenize-rt>=3.0.1
+
+[:python_version == "2.7"]
+typing
