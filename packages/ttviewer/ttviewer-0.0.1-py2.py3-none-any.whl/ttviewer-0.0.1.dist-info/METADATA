@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ttviewer
+Version: 0.0.1
+Summary: parse thread raw data.
+Home-page: UNKNOWN
+Author: zjunwei
+Author-email: zjunweihit@163.com
+License: MIT
+Keywords: ttviewer
+Platform: UNKNOWN
+
+## ttViewer
+
+Parse thread trace raw data.
+
+
