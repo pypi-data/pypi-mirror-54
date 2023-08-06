@@ -1,0 +1,14 @@
+README.md
+setup.py
+autostack/__init__.py
+autostack/autostack-terminal
+autostack/main.py
+autostack.egg-info/PKG-INFO
+autostack.egg-info/SOURCES.txt
+autostack.egg-info/dependency_links.txt
+autostack.egg-info/entry_points.txt
+autostack.egg-info/requires.txt
+autostack.egg-info/top_level.txt
+autostack/error/__init__.py
+autostack/pipe/__init__.py
+autostack/so_web_scraper/__init__.py
