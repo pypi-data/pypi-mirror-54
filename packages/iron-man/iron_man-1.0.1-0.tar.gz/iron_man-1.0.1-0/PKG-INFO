@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: iron_man
+Version: 1.0.1-0
+Summary: C & Python Bloomfilter Based Memeroy || Redis .
+Home-page: http://gitlab.nuist.pro:3000/aberstone/IronMan.git
+Author: Aberstone
+Author-email: aberstone.hk@gmail.com
+License: MIT License
+Description: # Iron Man
+        
+        一个使用 Cython 和 C 混合编写的布隆过滤器，可通过配置最大有效过滤条数自动配置对应的HASH函数个数、可支持内存过滤器与Redis过滤器。
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
