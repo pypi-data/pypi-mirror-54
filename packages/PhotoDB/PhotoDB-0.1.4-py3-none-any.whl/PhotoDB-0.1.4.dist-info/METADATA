@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: PhotoDB
+Version: 0.1.4
+Summary: App for cataloguing vintage cameras, lenses, films, negatives & prints
+Home-page: https://github.com/djjudas21/photodb
+Author: Jonathan Gazeley
+Author-email: photodb@jonathangazeley.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Django (<3.0.0,>=2.1.0)
+Requires-Dist: pytz (<2020.0,>=2019.0)
+Requires-Dist: sqlparse (<1.0.0,>=0.3.0)
+Requires-Dist: django-admin-tools (<1.0.0,>=0.8.0)
+Requires-Dist: django-fluent-dashboard (<2.0.0,>=1.0.0)
+Requires-Dist: django-money (<1.0,>=0.15)
+Requires-Dist: django-choices (<2.0.0,>=1.7.0)
+Requires-Dist: django-favicon (<1.0.0,>=0.1.3)
+Requires-Dist: django-createsuperuserwithpassword (<3.0.0,>=2.0.0)
+Requires-Dist: psycopg2 (<3.0.0,>=2.8.0)
+Requires-Dist: PyMySQL (<1.0.0,>=0.9.0)
+Requires-Dist: django-currentuser (<0.5.0,>=0.4.0)
+Requires-Dist: uWSGI (<3.0.0,>=2.0.0)
+Requires-Dist: django-getenv (<2.0.0,>=1.3.2)
+
+# PhotoDB
+
+PhotoDB is a web app for film photography that can be used to track cameras, lenses, accessories, films, negatives and prints, to fully
+catalogue a collection of photographic equipment as well as the pictures that are made with them. Read the [Concepts](docs/CONCEPTS.md)
+section for full details on the capabilities of PhotoDB.
+
+It replaces an earlier command-line project, also called [PhotoDB](https://github.com/djjudas21/photodb-perl), which has now been deprecated.
+
+## Installing PhotoDB
+
+There are several ways of installing PhotoDB, depending on your needs:
+
+* With Pip
+* [From source](docs/INSTALL_SOURCE.md)
+* [With Docker](docs/INSTALL-DOCKER.md)
+* [With Kubernetes](docs/INSTALL-KUBERNETES.md)
+
+## Configuring PhotoDB
+
+PhotoDB requires no additional config to run with default settings. However it is **insecure** in this configuration so at least `SECRET_KEY` and
+`DJANGO_PROD` must be set if you are running in production.
+
+The following environment variables are supported:
+
+* `SECRET_KEY` - a large random value to be kept secret. Generate [here](https://miniwebtool.com/django-secret-key-generator/)
+* `DJANGO_PROD` - set to `true` to enable production mode. Defaults to `false` when running from source and `true` when running in Docker
+* `DB_ENGINE` - the database engine (default `django.db.backends.sqlite3`)
+* `DB_NAME` - the name of the database schema, or path to the SQLite db file (default `db/db.sqlite3`)
+* `DB_USER` - database username
+* `DB_PASS` - database password
+* `DB_HOST` - database hostname or IP address
+* `DB_PORT` - database port
+
+## See also
+
+* [Concepts](docs/CONCEPTS.md)
+* [Screenshots](docs/SCREENSHOTS.md)
+* [Contributing](docs/CONTRIBUTING.md)
+
+
+
