@@ -1,0 +1,17 @@
+site_name: py-data-api-postgres
+site_description: A user-friendly client for AWS Postgres Aurora Serverless's Data API
+
+theme:
+    name: 'material'
+    palette:
+      primary: 'light blue'
+      accent: 'light blue'
+
+markdown_extensions:
+  - codehilite
+
+repo_name: Leafeanking/py-data-api-postgres
+repo_url: https://github.com/Leafeanking/py-data-api-postgres
+
+nav:
+    - py-data-api: 'index.md'
