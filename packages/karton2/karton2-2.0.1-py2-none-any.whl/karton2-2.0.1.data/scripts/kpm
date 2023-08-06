@@ -1,0 +1,5 @@
+#!python
+
+from karton.manager import main
+
+main()
