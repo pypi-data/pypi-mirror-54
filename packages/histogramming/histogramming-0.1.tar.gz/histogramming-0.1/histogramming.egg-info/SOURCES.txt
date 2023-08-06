@@ -1,0 +1,10 @@
+README.md
+setup.py
+histogramming/__init__.py
+histogramming/histogram.py
+histogramming/test_histogram.py
+histogramming.egg-info/PKG-INFO
+histogramming.egg-info/SOURCES.txt
+histogramming.egg-info/dependency_links.txt
+histogramming.egg-info/requires.txt
+histogramming.egg-info/top_level.txt
