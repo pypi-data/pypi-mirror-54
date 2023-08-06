@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+py_workdocs_prep/__init__.py
+py_workdocs_prep/py_workdocs_prep.py
+py_workdocs_prep.egg-info/PKG-INFO
+py_workdocs_prep.egg-info/SOURCES.txt
+py_workdocs_prep.egg-info/dependency_links.txt
+py_workdocs_prep.egg-info/entry_points.txt
+py_workdocs_prep.egg-info/requires.txt
+py_workdocs_prep.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+wdp = py_workdocs_prep.py_workdocs_prep:start
+
