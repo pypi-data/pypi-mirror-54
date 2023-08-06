@@ -1,0 +1,15 @@
+touchstone/__init__.py,sha256=Zjl6RR9GXARXyyvDGknkCdj7z2Ij_J_FDW3XwuNqAaw,191
+touchstone/bindings.py,sha256=Sn2jK_AhPfTjqNeVxmQfC8n38qs8WD2EiqeuY5OJzr8,9587
+touchstone/container.py,sha256=z-Dqfw72FZexQIzZH8r42zuNNlr6UlWfQ2ne3xJN6B8,7346
+touchstone/exceptions.py,sha256=f8b_wLWoPwIFoZBRcK9hbSIci6vKhoVye_dEajqaAGQ,91
+touchstone/py.typed,sha256=KLIesgGHLKBzCUh3V9IFE9BEzvy4RhUd8ROYJ7wtnbI,37
+touchstone/version.py,sha256=qBs4HqYsPn6yUHWEuCN4rGUC05gABbl800d8LBd8h9w,22
+touchstone/django/__init__.py,sha256=eYwiuB7-g0yG27sQocIercZyL_IPEvzL0Inicm0FbTE,218
+touchstone/django/middleware.py,sha256=Y2DAaRwZKzDy3xM5EylGGm9hpeVBbOIhZ-l2ay7my_4,897
+touchstone/django/properties.py,sha256=QwAZiLQRXlANNqj20ERKf71vLqeM-nwqTTtvHCV44NA,1610
+touchstone-0.4.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+touchstone-0.4.1.dist-info/METADATA,sha256=ej9Qfl_9ZuJPvsKNygz78KGBT8c4rbsT7g_q613trAY,5724
+touchstone-0.4.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+touchstone-0.4.1.dist-info/top_level.txt,sha256=q2MUTcUvekcKFaURO66vsWy8JV8GezfzHn289UvqykE,11
+touchstone-0.4.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+touchstone-0.4.1.dist-info/RECORD,,
