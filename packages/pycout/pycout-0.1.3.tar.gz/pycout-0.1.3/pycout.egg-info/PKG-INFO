@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pycout
+Version: 0.1.3
+Summary: Python porting of: cout << "Hello" << " World !" << endl;
+Home-page: http://github.com/EnzoBnl/pycout
+Author: Enzo Bonnal
+Author-email: enzobonnal@gmail.com
+License: Apache 2.
+Description: UNKNOWN
+Platform: UNKNOWN
