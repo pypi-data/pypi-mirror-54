@@ -1,0 +1,3 @@
+[console_scripts]
+w600tool.py = w600tool:_main
+
