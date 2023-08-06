@@ -1,0 +1,6 @@
+cloud_events/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloud_events/handler.py,sha256=Hoi6N-O-UYrc30aRj_RV4qCqdw_wJ9BY57HYgFIUJUk,2464
+cloud_events-0.1.0.dist-info/METADATA,sha256=5l-hYQAQVLx7uiufrcbmc6EkW-nOYyVCrKnetHRGoms,929
+cloud_events-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cloud_events-0.1.0.dist-info/top_level.txt,sha256=idw8p-4NgGyj82mBIMjHWmJZ4SfRQNZJwdf-OLnO0Zo,13
+cloud_events-0.1.0.dist-info/RECORD,,
