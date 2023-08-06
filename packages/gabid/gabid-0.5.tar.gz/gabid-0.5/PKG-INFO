@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: gabid
+Version: 0.5
+Summary: Gaussian and Binomial distributions
+Home-page: UNKNOWN
+Author: Sara Garci
+Author-email: s@saragarci.com
+License: UNKNOWN
+Description: # gabid package
+        
+        This package implements the Gaussian and Binomial Distributions providing the following capabilities:
+        * Compute the mean and standard deviation given a file with all the samples
+        * Compute the pdf
+        * Allows to add two of the kind
+        
+        For Gaussian distribution only:
+        * Plot histogram
+        * Plot histogram pdf
+        
+        For Binomial distribution only:
+        * Plot bar
+        * Plot bar pdf
+        
+        ## Installation
+        
+        To start using this package just type: `pip install gabid`
+        
+        ## Files
+        
+        This package provides three classes: `Distribution`, `Gaussian` and `Binomial`.
+        The `Distribution` class is only used to read all the values from a txt file and convert them into a list.
+        Both `Gaussian` and `Binomial` inherit from this class.
+        
+        ## Quick start
+        
+        See Gaussian example:
+        
+        ```
+        gaussian = Gaussian(25, 2)
+        gaussian.read_data_file('numbers.txt') # numbers.txt is a txt with all the samples
+        gaussian.calculate_mean() # to recompute mean according to the data in the txt
+        gaussian.calculate_stdev() # to recompute standard deviation according to the data in the txt
+        gaussian.pdf(25) # to compute the pdf of a value
+        ```
+        
+        ## References
+        
+        ### Used resources
+        
+        * [Gaussian Distribution](https://en.wikipedia.org/wiki/Normal_distribution)
+        * [Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution)
+        
+        ### Contributors
+        
+        * [Sara Garci](s@saragarci.com)
+        
+        ## License
+        
+        © Copyright 2019 by Sara Garci. All rights reserved.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
