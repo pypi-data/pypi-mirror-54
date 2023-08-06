@@ -1,0 +1,12 @@
+COPYRIGHT
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+setupuser.bat
+setupuser.sh
+bytesfunc/__init__.py
+bytesfunc.egg-info/PKG-INFO
+bytesfunc.egg-info/SOURCES.txt
+bytesfunc.egg-info/dependency_links.txt
+bytesfunc.egg-info/top_level.txt

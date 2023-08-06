@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: bytesfunc
+Version: 0.0.0
+Summary: Fast bytes and bytearray processing functions
+Home-page: https://github.com/m1griffin/bytesfunc
+Author: M Griffin
+Author-email: m12.griffin@gmail.com
+License: Apache License V2.0
+Description: =========
+        BytesFunc
+        =========
+        
+        :Authors:
+            Michael Griffin
+        
+        :Version: 0.0.0 for 2019-10-29
+        :Copyright: 2014 - 2019
+        :License: This document may be distributed under the Apache 2.0 License.
+        :Language: Python 3.5 or later
+        
+        ---------------------------------------------------------------------
+        
+        Introduction
+        ============
+        
+        This is a placeholder for a new project based on arrayfunc. This will
+        provide many of the same functions used in arrayfunc for bytes and
+        bytearrays.
+        
+        
+        ---------------------------------------------------------------------
+        
+        Release History
+        ===============
+        
+        * 0.0.0 - No releases yet, this is a new project.
+        
+Keywords: bytes and bytearray functions
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
