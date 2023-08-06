@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/__init__.py
+src/seq2seq.py
+src/ts2s.py
+tseq2seq.egg-info/PKG-INFO
+tseq2seq.egg-info/SOURCES.txt
+tseq2seq.egg-info/dependency_links.txt
+tseq2seq.egg-info/requires.txt
+tseq2seq.egg-info/top_level.txt
