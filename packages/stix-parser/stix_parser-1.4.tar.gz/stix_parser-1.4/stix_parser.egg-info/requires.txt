@@ -1,0 +1,7 @@
+numpy
+PyQt5
+PyQtChart
+scipy
+pymongo
+python-dateutil
+xmltodict

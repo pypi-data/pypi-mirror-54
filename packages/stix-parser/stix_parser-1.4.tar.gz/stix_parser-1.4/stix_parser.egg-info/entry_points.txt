@@ -1,0 +1,7 @@
+[console_scripts]
+stix-parser = stix_parser.apps.parser:main
+stix-quicklook = stix_parser.apps.stix_quicklook:main
+
+[gui_scripts]
+stix-parser-gui = stix_parser.apps.stix_parser_gui:main
+

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: stix_parser
+Version: 1.4
+Summary: STIX python data parser
+Home-page: https://github.com/i4Ds/STIX-python-data-parser
+Author: Hualin Xiao
+Author-email: hualin.xiao@fhnw.ch
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
