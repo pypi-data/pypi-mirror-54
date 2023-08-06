@@ -1,0 +1,10 @@
+README.md
+setup.py
+jsonalize/__init__.py
+jsonalize/jsonalize.py
+jsonalize.egg-info/PKG-INFO
+jsonalize.egg-info/SOURCES.txt
+jsonalize.egg-info/dependency_links.txt
+jsonalize.egg-info/top_level.txt
+test/__init__.py
+test/test1.py
