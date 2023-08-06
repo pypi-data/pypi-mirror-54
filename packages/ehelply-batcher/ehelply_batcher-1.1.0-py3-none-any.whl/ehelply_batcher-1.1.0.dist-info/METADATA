@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ehelply-batcher
+Version: 1.1.0
+Summary: eHelply Batcher
+Home-page: https://github.com/ehelply/Batcher
+Author: Shawn Clake
+Author-email: shawn.clake@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: ehelply-logger (>=0.0.7)
+Requires-Dist: pytest
+
+# Batcher
+Automatic, scheduled, configurable, and scalable batching.
+
+`pip install ehelply-batcher`
+
+
