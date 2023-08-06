@@ -1,0 +1,4 @@
+sortedcontainers
+
+[testing]
+numpy
