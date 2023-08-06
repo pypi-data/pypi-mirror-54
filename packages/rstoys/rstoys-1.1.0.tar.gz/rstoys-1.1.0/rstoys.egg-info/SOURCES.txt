@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+rstoys/__init__.py
+rstoys.egg-info/PKG-INFO
+rstoys.egg-info/SOURCES.txt
+rstoys.egg-info/dependency_links.txt
+rstoys.egg-info/not-zip-safe
+rstoys.egg-info/requires.txt
+rstoys.egg-info/top_level.txt
+rstoys/geo/__init__.py
+rstoys/realtime/__init__.py
+rstoys/touchy/__init__.py
+rstoys/touchy/static/stick-back.png
+rstoys/touchy/templates/touchy.html
