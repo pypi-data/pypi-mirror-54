@@ -1,0 +1,3 @@
+[console_scripts]
+noy_black = noy_black.main:main
+
