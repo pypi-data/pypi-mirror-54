@@ -1,0 +1,17 @@
+ubgrade/__init__.py,sha256=fq4tWHffVq_Ab__nvYWpeKPtIPFVXYQ0-Xqu9dWpokM,239
+ubgrade/assemble_graded_tools.py,sha256=VSl6EU4thtgFtiSCuiywT-AJVSjb3NkH3jEYDmEMUcc,15019
+ubgrade/email_tools.py,sha256=zCACQ3wlrimzardTRZwlgMTyyOkiMyMRKl-BoDu5vP8,9417
+ubgrade/exam_code.py,sha256=esLCYcCn5jbCaqb5ZasjGtiGqoYQZR1WNYRl1nwfW1s,1706
+ubgrade/exam_template.tex,sha256=B48_CNp4WOELfTrWyRdftkHOZ0YlxMnolzrucDFOdNs,4262
+ubgrade/grading_base.py,sha256=La1-9-5bA99jDqvDL-1TC-yPzdXYjp_oZax4KOhQRaQ,6176
+ubgrade/helpers.py,sha256=XrkHB7HzxgYQLhxzh_DUAlhoOsCSjHVSFel8MqBOZbA,4936
+ubgrade/make_exams_tools.py,sha256=R4lExz5DUux-uia1t6iJTazQs5KFzJ9SonoxmwcMPuc,4246
+ubgrade/prepare_grading_tools.py,sha256=31emCWTeV9fWL-VihubTWNFvMxLoZIGBT24_-DoAgQo,31458
+ubgrade/read_scores_tools.py,sha256=-ja_ithS06UideHn-zp17ug1u4fyRA9Vejd_EJ5duE4,7365
+ubgrade/ubgrade.py,sha256=pRFtuS8mQJkRTOooRJ-Xz3zl728GxRS765ep2f9Vi0Q,80525
+ubgrade/wrappers.py,sha256=8Xmp02cF8dnufLSTNAwpv8r7ttzZr1qH5EQJgBzQRjg,1257
+ubgrade-0.1.3.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+ubgrade-0.1.3.dist-info/METADATA,sha256=bTwScin55V5flkYWEWzHHgAd21K76x5O3kkteNVbx_4,11360
+ubgrade-0.1.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ubgrade-0.1.3.dist-info/top_level.txt,sha256=FuMn7xlCLHjzONbh-mBq2lKxbMmiTguPlNJA_-s7iy0,8
+ubgrade-0.1.3.dist-info/RECORD,,
