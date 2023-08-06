@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: HeadersToDict
+Version: 1.0.3
+Summary: 把headers转化成为dict
+Home-page: UNKNOWN
+Author: lyg
+Author-email: 
+License: UNKNOWN
+Description: fromFile 
+        formStr
+        getMobile
+        getChrome
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

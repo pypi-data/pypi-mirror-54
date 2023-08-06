@@ -1,0 +1,4 @@
+fromFile 
+formStr
+getMobile
+getChrome

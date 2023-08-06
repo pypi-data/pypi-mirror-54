@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+HeadersToDict/HeadersToDict.py
+HeadersToDict/__init__.py
+HeadersToDict.egg-info/PKG-INFO
+HeadersToDict.egg-info/SOURCES.txt
+HeadersToDict.egg-info/dependency_links.txt
+HeadersToDict.egg-info/top_level.txt
+test/test.py
