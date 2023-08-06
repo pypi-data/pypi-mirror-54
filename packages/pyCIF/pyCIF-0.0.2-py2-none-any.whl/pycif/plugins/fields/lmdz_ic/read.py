@@ -1,0 +1,38 @@
+import pandas as pd
+import pycif.utils.check as check
+from pycif.utils import path
+from pycif.utils.netcdf import readnc
+from netCDF4 import Dataset
+import xarray as xr
+import datetime
+import numpy as np
+import os
+
+
+def read(self, name, tracdir, tracfile, dates,
+         interpol_flx=False, comp_type=None,
+         model=None, **kwargs):
+    """Get fluxes from pre-computed fluxes and load them into a pyCIF
+    variables
+
+    Args:
+        self: the fluxes Plugin
+        name: the name of the component
+        tracdir, tracfile: flux directory and file format
+        dates: list of dates to extract
+        interpol_flx (bool): if True, interpolates fluxes at time t from
+        values of surrounding available files
+
+    """
+
+    ic_file = min(dates).strftime('{}/{}'.format(tracdir, tracfile))
+    with Dataset(ic_file, 'r') as f:
+        spec_id = 'q{:02d}'.format(getattr(model.chemistry.acspecies, name)
+                                   .restart_id)
+        data = f.variables[spec_id][:]
+
+    xmod = xr.DataArray(data,
+                        coords={'time': [min(dates)]},
+                        dims=('time', 'lev', 'lat', 'lon'))
+
+    return xmod
