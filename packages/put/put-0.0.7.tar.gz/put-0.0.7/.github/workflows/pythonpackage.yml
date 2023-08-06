@@ -1,0 +1,86 @@
+name: build
+
+on:
+  push:
+    paths-ignore:
+    - '**.md'
+  schedule:
+    - cron:  '0 22 * * *'
+
+jobs:
+  build:
+    name: Python Package
+    runs-on: ${{ matrix.vm-os }}
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        vm-os: [ubuntu-latest, macOS-latest]
+        python-version: [3.5, 3.6, 3.7]
+
+    steps:
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Check out source code
+      uses: actions/checkout@v1
+      with:
+        fetch-depth: 2
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        make setupenv
+
+    - name: Check Python environment
+      run: |
+        python --version
+        pip freeze -l
+
+    - name: Lint with flake8
+      run: |
+        make lint
+      if: matrix.python-version != '3.5'
+
+    - name: Test with pytest
+      run: |
+        make test
+
+    - name: Upload report to Codecov
+      uses: codecov/codecov-action@v1.0.3
+      with:
+        token: ${{secrets.codecov_token}}
+        file: ./coverage.xml
+      if: startsWith(matrix.vm-os, 'ubuntu')
+
+    - name: Upload report to Codacy
+      shell: bash
+      run: |
+        pip install codacy-coverage
+        python-codacy-coverage -r coverage.xml
+      env:
+        CODACY_PROJECT_TOKEN: ${{ secrets. codacy_token }}
+      if: startsWith(matrix.vm-os, 'ubuntu')
+
+    - name: Upload report to Code Climate
+      shell: bash
+      run: |
+        curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > cc-test-reporter
+        chmod +x ./cc-test-reporter
+        ./cc-test-reporter before-build
+        ./cc-test-reporter format-coverage -t coverage.py
+        ./cc-test-reporter upload-coverage
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.cc_report_id }}
+      if: startsWith(matrix.vm-os, 'ubuntu')
+
+    - name: Upload report to DeepSource
+      shell: bash
+      run: |
+        curl https://deepsource.io/cli | sh
+        ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml
+      env:
+        DEEPSOURCE_DSN: ${{ secrets.deepsource_dsn }}
+      if: startsWith(matrix.vm-os, 'ubuntu')
