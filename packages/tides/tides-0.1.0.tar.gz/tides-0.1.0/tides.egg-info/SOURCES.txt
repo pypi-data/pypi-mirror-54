@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+tides/__init__.py
+tides/exceptions.py
+tides/provider.py
+tides.egg-info/PKG-INFO
+tides.egg-info/SOURCES.txt
+tides.egg-info/dependency_links.txt
+tides.egg-info/top_level.txt
