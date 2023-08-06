@@ -1,0 +1,7 @@
+MagicBaidu==0.0.9
+beautifulsoup4==4.7.1
+bs4==0.0.1
+html2text==2019.9.26
+readability-lxml==0.7.1
+requests==2.21.0
+textrank4zh==0.3
