@@ -1,0 +1,2 @@
+cython==0.29.13
+OctoBot-Commons==1.1.48
