@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: asposehtmlcloud
+Version: 19.6.1
+Summary: Aspose.HTML for Cloud API Reference
+Home-page: https://products.aspose.cloud/html
+Author: Aspose
+Author-email: alexander.makogon@aspose.com
+License: MIT
+Keywords: Aspose.HTML for Cloud API Reference,Aspose,Html cloud
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: pyopenssl
+Requires-Dist: urllib3[secure]
+Requires-Dist: python-dateutil
+Requires-Dist: requests[security]
+
+Aspose.HTML for Cloud API Reference
+This repository contains Aspose.HTML Cloud SDK for Python source code. This SDK allows you to work with Aspose.HTML Cloud REST APIs in your Python applications quickly and easily.
+
+
