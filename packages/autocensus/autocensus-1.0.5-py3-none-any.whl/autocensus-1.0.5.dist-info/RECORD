@@ -1,0 +1,15 @@
+autocensus/__init__.py,sha256=4Ni67ELM9RkMU5WdhEd0GRR3Jrv6ggDPyGAIRTrapk8,246
+autocensus/api.py,sha256=Yx_utGJ0p7Z0MrfI3cauwIGKhcTpRIQrKaOzJdFyUsw,6759
+autocensus/errors.py,sha256=3oLes_pGLPXtgqN_Zb1y8EkLX5_3EqBa7ND0xK3KacY,612
+autocensus/geography.py,sha256=zl8gMp_Fdinf98V0DjTEXmwQJyOo_67AhkRfH5qqg2E,5034
+autocensus/query.py,sha256=TvfKbcvFmL3R5B7eN9-27x_M_bovsL4JsGDc8FuhAl4,16156
+autocensus/resources/annotations.csv,sha256=xTOKVvjsoffkCW3SFKB46DDgblqexw_y28N4gHBQ1ds,891
+autocensus/resources/columns.csv,sha256=XNykJ39bQtWuqcRnuGnC7qioBUd9I7kDD-2HKUucERM,1882
+autocensus/resources/geo_codes.csv,sha256=Tuk_0iv2oYEKW00xbV1BIfv1SiXaZ-ivF3cuS5rU_Wg,729
+autocensus/resources/names.csv,sha256=ntd7QQ4MH_3XsRgO2dEDCcbYsCzEdilBPWRQ27oxGEc,234
+autocensus/socrata.py,sha256=9RHcQP-IKJ1__qgem45zAI7_AgqInRM8qa3hA-oPeYk,4836
+autocensus/utilities.py,sha256=uyeKSgWKr5_vtVmYjSy32S-4FPM63yqyYFhlgHKNH9E,5633
+autocensus-1.0.5.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+autocensus-1.0.5.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+autocensus-1.0.5.dist-info/METADATA,sha256=4RO7i0VtxuQ6y1otK9B2M_SZFE2S2R8_HPWz5zM5ZTM,9910
+autocensus-1.0.5.dist-info/RECORD,,
