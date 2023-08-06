@@ -1,0 +1,10 @@
+dnnnlp/__init__.py,sha256=gy1A76ALxwYNBb1a-SvINku_5avS0rYRE8E62BCkaWI,866
+dnnnlp/exec.py,sha256=-xfUtfUHx-bngnZqOp0tWsC4v303YbRDC8eSi_kx9ZQ,19938
+dnnnlp/layer.py,sha256=oSMkSoRtieFAZXVKUP_2kssMGtUupJQyPMreqDyz8Oo,19047
+dnnnlp/model.py,sha256=7jL0xQ40MKKKFxCLFksdZjjlPQDSmQ3X0psAwt09ut4,8767
+dnnnlp/utils.py,sha256=7lZhPUfzcA1D9ciKMzMt5QdO0bj0ykkr-vrB-Rz7wfg,9820
+dnnnlp-1.1.4.dist-info/LICENSE,sha256=U_417WC_hAh9eKSgoOXSO7XjnpNI_zLNBSQgoftxf_Q,1075
+dnnnlp-1.1.4.dist-info/METADATA,sha256=A4qElOKy7psMRdSS2YucfVmsXZaDY8FllhUBpzIEvjs,9095
+dnnnlp-1.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dnnnlp-1.1.4.dist-info/top_level.txt,sha256=Vn71MOE2wPaQCxzstRqFf1MULvVNGz7IYs0KmqpFr-8,7
+dnnnlp-1.1.4.dist-info/RECORD,,
