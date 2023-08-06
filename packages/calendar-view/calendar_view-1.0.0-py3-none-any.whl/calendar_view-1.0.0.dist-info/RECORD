@@ -1,0 +1,17 @@
+calendar_view/__init__.py,sha256=bEhl_KtZCZK5sAkUZ2pbWYl1uYi1Vnp88lsGqiQc_SQ,23
+calendar_view/calendar.py,sha256=eoe9iRKIivkJa1J65YOoJ2WY7kyZ6uNDBrzOh7inbLk,9883
+calendar_view/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calendar_view/config/i18n.py,sha256=StzNFNRK7nNCIUy3ZFjnpA_t68lX1S_-M92QRwpXc4I,1157
+calendar_view/config/style.py,sha256=cnCUjRInM41jcBUEr-wMpSLM9oevnP0v_Odw-h97S2M,1087
+calendar_view/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calendar_view/core/config.py,sha256=fcoWVlpX89wHjx1_Dq2yJUUgLJvlZsWez7MXUq1U0WA,3355
+calendar_view/core/data.py,sha256=dFbzo8xogddG2eulfuedEAOR7NtUF8vt7uI5cKtnR_U,1905
+calendar_view/core/event.py,sha256=bgOpqNPJmQCBsR6MX6HVwZzC2PCVM-DPWNGK0zCZq4w,2416
+calendar_view/core/round_rectangle.py,sha256=d0Nt6zUv1fPNS9WGdzMUnkX7eFTZF4qXfVK2_CrbptU,2415
+calendar_view/core/time_utils.py,sha256=Z1zD8_Ye9pkrWUZiB3V5fhHqyXfyZPTPZP7Kw87jSSc,4806
+calendar_view/core/utils.py,sha256=xkRCWJmyaGFn-M3XVueY2K3qRDUzJmWP1b3Q-ioY-go,140
+calendar_view-1.0.0.dist-info/LICENSE,sha256=guDm2BfNrMB1MgwmpGGXGAIljQYg3lXpX3z1f3cF9lY,1077
+calendar_view-1.0.0.dist-info/METADATA,sha256=Zk9v6wXlklunRZj5MYC756M1fqxEEucL8PtEY-wM3qE,7425
+calendar_view-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+calendar_view-1.0.0.dist-info/top_level.txt,sha256=Ic2a2o3sUYBBcJ9mufZH3Ej4fCEHJtLv7pMZbAohAS4,14
+calendar_view-1.0.0.dist-info/RECORD,,
