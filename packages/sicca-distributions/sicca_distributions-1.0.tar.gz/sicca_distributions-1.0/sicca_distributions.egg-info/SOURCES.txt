@@ -1,0 +1,10 @@
+setup.py
+sicca_distributions/Binomialdistribution.py
+sicca_distributions/Gaussiandistribution.py
+sicca_distributions/Generaldistribution.py
+sicca_distributions/__init__.py
+sicca_distributions.egg-info/PKG-INFO
+sicca_distributions.egg-info/SOURCES.txt
+sicca_distributions.egg-info/dependency_links.txt
+sicca_distributions.egg-info/not-zip-safe
+sicca_distributions.egg-info/top_level.txt
