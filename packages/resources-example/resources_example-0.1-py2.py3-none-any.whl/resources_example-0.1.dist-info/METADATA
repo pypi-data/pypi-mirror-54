@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: resources-example
+Version: 0.1
+Summary: An example project demonstrating various ways to access data files in Python package
+Home-page: https://github.com/wimglenn/resources-example
+Author: Wim Glenn
+Author-email: hey@wimglenn.com
+License: MIT
+Project-URL: Issue Tracker, https://github.com/wimglenn/resources-example/issues
+Keywords: packaging,resources
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Requires-Dist: setuptools
+Requires-Dist: importlib-resources ; python_version < "3.7"
+
+This project shows how to package data files within a Python distribution, and example code for reading the data files.
+
+To build this distribution, create a venv with setuptools, wheel, and pep517 installed, then execute the latter as a module:
+
+.. code-block:: bash
+
+   python -m pep517.build .
+
+The distributions (an sdist .tar.gz and a bdist .whl) will be written to ./dist/ subdirectory.
+
+To test it out, install a distribution and run the console script ``resources-example``.
+
+Accessing resources should work on both Python 2 and Python 3, Linux, macOS, Windows.. and all methods except for ``example1.py`` should still work when the package ``myapp`` has been 
+
