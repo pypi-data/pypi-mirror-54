@@ -1,0 +1,14 @@
+co2mpas_dice/__init__.py,sha256=l-c6VAg3-fBf_pWe0Oi4Qx6zxC21Dyi9x6-kFVKqX_k,15127
+co2mpas_dice/_version.py,sha256=MUc5eDQyopyQTBp6PexPqV-gx-FSGcBeojYpSA8jsOQ,692
+co2mpas_dice/crypto.py,sha256=61PXZP_aoM6qdyiz5n3-NPncoBISaw-SwVPjV2D1iAU,11857
+co2mpas_dice/declaration.py,sha256=KTsK7Bei6UvQzSERMB0RaVQClAQkkdHXf7X9MA670UA,10573
+co2mpas_dice/err.py,sha256=LB6U_ZQ8NTBaVtZm_GI32I8bILkqEf5U0_PcDbaPSCQ,37
+co2mpas_dice/schema.py,sha256=PS3VhBHdk_9OrgIo0vu5c0UHsgg5ODVTpK7VXzflFbY,1589
+co2mpas_dice/tar.py,sha256=q6MBlTsht_mUczdv_tJ0f6Abih-lsPDTcoQTKLHaumk,1838
+co2mpas_dice/verify.py,sha256=o3JJmF1wqtlfqH6LczLzrfSbTWBr0wGfL6vGUHrN6WM,16146
+co2mpas_dice-4.0.4.dist-info/LICENSE,sha256=bnb35gCP893XrpXUH8mQ1Su8fcj80fKjeVuji97AZzo,1069
+co2mpas_dice-4.0.4.dist-info/METADATA,sha256=58gBA61D-L-b4mkB_0SgKMqpFJ5Abx3mQM8jY1r9P-0,1004
+co2mpas_dice-4.0.4.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+co2mpas_dice-4.0.4.dist-info/entry_points.txt,sha256=igPBWhzU6dqpEE3jsyCRTRj2CBIRA78ZFrOCfUsy8DM,62
+co2mpas_dice-4.0.4.dist-info/top_level.txt,sha256=sAEYwAIoBY8oog1-75iKBVT4cmn9Igkfz68MMBqdVJU,13
+co2mpas_dice-4.0.4.dist-info/RECORD,,
