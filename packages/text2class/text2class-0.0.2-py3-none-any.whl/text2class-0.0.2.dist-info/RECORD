@@ -1,0 +1,14 @@
+text2class/__init__.py,sha256=VeQJmyXHSoqYDLUSlNeKnU72Y6f8ifT6EfvsNpuaYXI,655
+text2class/classification.py,sha256=Xd-e5gG4sAMZvqCCTbeAyiaLlSYd3IYnK280RXJfTws,17881
+text2class/modeling.py,sha256=b158LRV-9GwJL4vAU45gd1-foNQPlXyKNSnq0Y_03e0,37922
+text2class/modeling_test.py,sha256=rIb6DCb6OG-Qb4yyXI6T5Xm-yTnIS_mVmKA4UE-US20,9191
+text2class/optimization.py,sha256=WwlD8PBoMg8pAuO6EDKJc3OJ5hA95Lwkr-O6puSGJo8,6258
+text2class/optimization_test.py,sha256=1FOJuaUcwme8PRkEiYoNkkKFBi89y4S4m8fjaB14eHE,1721
+text2class/text_classifier.py,sha256=pQaaZ1bVgMiDJEq-BN2tDVxLcx0wGbNiguQ90KJjUZ8,9592
+text2class/tokenization.py,sha256=V2-OcJ6qWcmZqK7T8yxYFIfVmrRwef5ks9P6RXvH-zQ,12257
+text2class/tokenization_test.py,sha256=UjDBR56Tz7HMjptyOJ_LeB1oyt3tlVe4lSe4sQQXz1E,4589
+text2class-0.0.2.dist-info/LICENSE,sha256=CxozxRrHA6B-yqY1PD8dNs7ydToQedqwa9U3rSRB8UA,10617
+text2class-0.0.2.dist-info/METADATA,sha256=Q5NlqtUeR6tYPxzxNL-2-Pd7bf76JDOxegl6scq2bL0,3264
+text2class-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+text2class-0.0.2.dist-info/top_level.txt,sha256=dUKIN5UUmTErOO3kcigyhJaBjlBC5McfWfjwAoWJhrw,11
+text2class-0.0.2.dist-info/RECORD,,
