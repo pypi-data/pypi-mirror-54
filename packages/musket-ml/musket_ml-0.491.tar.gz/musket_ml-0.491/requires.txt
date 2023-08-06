@@ -1,0 +1,5 @@
+tensorflow==1.15
+musket_text>=0.42
+musket_core>=0.43
+classification_pipeline>=0.42
+segmentation_pipeline>=0.42

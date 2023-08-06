@@ -1,0 +1,44 @@
+#%Musket Segmentation 1.0
+backbone: resnet34 #let's select classifier backbone for our network 
+architecture: Unet #pre-trained model we are going to use
+augmentation: #define some minimal augmentations on images
+   Fliplr: 0.5
+   Flipud: 0.5
+
+classes: 1 #define the number of classes
+activation: sigmoid #as we have multilabel classification, the activation for last layer is sigmoid
+shape: [224,224, 3] #our desired input image size, everything will be resized to fit
+optimizer: Adam #Adam optimizer is a good default choice
+batch: 1 #our batch size will be 16
+folds_count: 1
+testSplit: 0.2
+#dumpPredictionsToCSV: true
+lr: 0.001 
+metrics: #we would like to track some metrics
+  - binary_accuracy
+  - dice
+primary_metric: val_dice #the most interesting metric is val_binary_accuracy
+primary_metric_mode: max
+callbacks: #configure some minimal callbacks
+  EarlyStopping:
+    patience: 10
+    monitor: val_dice
+    mode: max
+    verbose: 1
+  ReduceLROnPlateau:
+    patience: 2
+    factor: 0.3
+    monitor: val_binary_accuracy
+    mode: max
+    cooldown: 1
+    verbose: 1
+loss: binary_crossentropy #we use binary_crossentropy loss
+stages:
+  - epochs: 1 #let's go for 100 epochs
+    
+dumpPredictionsToCSV: true    
+dataset:
+   getSaltTrain: []
+final_metrics: [ map10_with_custom_treshold_true_negative_is_one ]   #You may use more then one metric here
+experiment_result: map10_with_custom_treshold_true_negative_is_one     
+testTimeAugmentation: Horizontal_and_vertical

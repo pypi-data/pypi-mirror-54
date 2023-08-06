@@ -1,0 +1,3 @@
+include *.txt
+recursive-include musket_ml/examples *.*
+recursive-include . *.yaml
