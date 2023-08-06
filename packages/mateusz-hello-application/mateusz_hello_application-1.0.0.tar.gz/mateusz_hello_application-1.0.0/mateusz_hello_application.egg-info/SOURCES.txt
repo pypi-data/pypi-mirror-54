@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+./hello_application/__init__.py
+./hello_application/hello.py
+mateusz_hello_application.egg-info/PKG-INFO
+mateusz_hello_application.egg-info/SOURCES.txt
+mateusz_hello_application.egg-info/dependency_links.txt
+mateusz_hello_application.egg-info/top_level.txt
