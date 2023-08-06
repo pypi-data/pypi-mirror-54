@@ -1,0 +1,5 @@
+# Base Configuration file for artellapipe-launcher
+
+version: 0.0.0
+name: Artella
+plugins: []
