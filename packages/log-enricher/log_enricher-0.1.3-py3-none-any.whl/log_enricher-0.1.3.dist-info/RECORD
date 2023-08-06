@@ -1,0 +1,5 @@
+log_enricher/__init__.py,sha256=9gceFayHOZtENXIK5j8j3rNrvT4vbKoS28rDp-Ch9HI,3252
+log_enricher/enrichers.py,sha256=yWeNpZ28MGVk_RtPLRDAJTngTdPg8T9iEpYugSznuaA,1118
+log_enricher-0.1.3.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+log_enricher-0.1.3.dist-info/METADATA,sha256=j0DxKhjUmgWacQTgDUpRrYS7Ip_V9yNuydwTUQuEnxs,2596
+log_enricher-0.1.3.dist-info/RECORD,,
