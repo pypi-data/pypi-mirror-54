@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: gym-crypto
+Version: 0.0.1
+Summary: Reinforcement Learning OpenAI Gym environment for crypto-currency trading.
+Home-page: UNKNOWN
+Author: Dema Ushchapovskyy, Suraj Tirupati
+Author-email: du116@ic.ac.uk
+License: MIT
+Download-URL: https://github.com/dema-u/gym-crypto/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: RL,OpenAI,Gym
+Platform: UNKNOWN
