@@ -1,0 +1,10 @@
+rauth
+autopep8
+pycodestyle
+requests
+appdirs
+pytest
+mkdocs
+cerberus
+argparse
+selenium

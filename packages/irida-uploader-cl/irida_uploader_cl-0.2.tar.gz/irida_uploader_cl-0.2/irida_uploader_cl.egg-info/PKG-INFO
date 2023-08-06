@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: irida-uploader-cl
+Version: 0.2
+Summary: IRIDA uploader: upload NGS data to IRIDA system
+Home-page: https://github.com/duanjunhyq/irida_uploader_cl
+Author: Jun Duan
+Author-email: jun.duan@bccdc.ca
+License: MIT
+Description: # IRIDA_uploader_cl
+        
+        ## IRIDA_uploader_cl is used to upload NGS sequences to irida system.
+        
+        #### This tool is developed by National Microbiology Laboratory (NML) and redistributed by BCCDC William Hsiao's lab.
+        
+        
+        
+Keywords: IRIDA NGS uploader
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
