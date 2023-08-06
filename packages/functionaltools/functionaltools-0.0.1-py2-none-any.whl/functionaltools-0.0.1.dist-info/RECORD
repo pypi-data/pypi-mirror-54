@@ -1,0 +1,8 @@
+functionaltools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+functionaltools/functionaltools.py,sha256=auzpMGXonR9YbMB5yUHeiw4uzxughTK6ALE-b6ONIgA,2370
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_functionaltools.py,sha256=WnwITh4pjVdf97FeqQqunwawcRm4EGYDxiryDsmqe8I,1826
+functionaltools-0.0.1.dist-info/METADATA,sha256=y_Va_8TrivHF9lAf4UfNw0y03rd9ws5ATS5x0i43MJo,291
+functionaltools-0.0.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+functionaltools-0.0.1.dist-info/top_level.txt,sha256=bIG_RarLWdn15zkkZw1i1Nt1_2PadVYiKhz-YNtbnX8,22
+functionaltools-0.0.1.dist-info/RECORD,,
