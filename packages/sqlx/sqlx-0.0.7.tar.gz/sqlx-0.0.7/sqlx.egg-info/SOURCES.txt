@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+sqlformat.py
+sqlx.py
+sqlx.egg-info/PKG-INFO
+sqlx.egg-info/SOURCES.txt
+sqlx.egg-info/dependency_links.txt
+sqlx.egg-info/entry_points.txt
+sqlx.egg-info/requires.txt
+sqlx.egg-info/top_level.txt
