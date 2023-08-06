@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: esu
+Version: 2.1.6
+Summary: Enjoy the flexibility of structs with esu!
+Home-page: http://github.com/torokmark/esu
+Author: Mark Torok
+License: Apache License 2.0
+Project-URL: Documentation, https://esu.readthedocs.io
+Project-URL: Source, https://github.com/torokmark/esu
+Description: # Welcome to Esu Struct!
+        
+        
+        [![Build Status](https://travis-ci.org/torokmark/esu.svg?branch=master)](https://travis-ci.org/torokmark/esu)
+        [![Documentation Status](https://readthedocs.org/projects/esu/badge/?version=latest)](https://esu.readthedocs.io/en/latest/)
+        [![PyPI](https://img.shields.io/pypi/v/esu.svg?color=blue)](https://pypi.org/project/esu/)
+        [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/esu.svg)](https://github.com/torokmark/esu)
+        [![PyPI - License](https://img.shields.io/github/license/torokmark/esu)](https://github.com/torokmark/esu/blob/master/LICENSE.md)
+        
+        
+        Enjoy the flexibility of structs with *esu*!
+        
+        You can create types on the fly with previously declared fields and methods by using *esu struct*.  
+        The created type additionally contains methods for equation, hashing and string representation.
+        
+        ### Install
+        
+        ```sh
+        pip install esu
+        ```
+        
+        ### Usage
+        
+        ```py
+        from esu import Struct
+        
+        Customer = Struct(
+                    'Customer', 
+                    'name', 'age', 
+                    methods={
+                        'greeting': lambda self: "Hello {}".format(self.__dict__['name'])
+                    })
+        
+        dave = Customer()
+        dave.name = 'Dave'
+        dave.age = 25
+        dave.greeting() # => Hello Dave 
+        
+        anna = Customer('Anna', 28)
+        anna.greeting() # => Hello Anna
+        ```
+        
+        ### Documentation
+        
+        For further information, read the documentation that can be found: [https://esu.readthedocs.io](https://esu.readthedocs.io)
+        
+        ### Contribution
+        
+        1. Fork it!
+        2. Make your changes!
+        3. Send a PR!
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
