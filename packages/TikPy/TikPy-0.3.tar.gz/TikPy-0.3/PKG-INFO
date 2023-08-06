@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: TikPy
+Version: 0.3
+Summary: Tiktok API. 
+Home-page: https://github.com/precog-recr/TikPy
+Author: Vishwesh Kumar
+Author-email: vishwesh18119@iiitd.ac.in
+License: MIT
+Download-URL: https://github.com/precog-recr/TikPy/archive/v_03.tar.gz
+Description: UNKNOWN
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
