@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: NLPKnowledge
+Version: 0.0.2.4
+Summary: Package to make sense of images with text information
+Home-page: UNKNOWN
+Author: Oleksandr Maistrov
+Author-email: maistrovas@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: click (==6.7)
+Requires-Dist: py (==1.4.34)
+Requires-Dist: pytest (==3.2.3)
+Requires-Dist: pytesseract (==0.3.0)
+Requires-Dist: summa (==1.2.0)
+Requires-Dist: spacy (==2.2.1)
+Requires-Dist: Pillow (==6.2.0)
+
+# NLPKnowledge
+
+### Installation instructions
+
+Install package:
+
+- `pip install NLPKnowledge`
+
+Install basic NLP model:
+
+- `python -m spacy download en_core_web_sm`
+
+Install tesseract (Mac OS) or use https://github.com/tesseract-ocr/tesseract/wiki
+to find instructions for your platform
+
+- `brew install tesseract`
+
+Check path where language models should be installed
+- `brew list tesseract`
+
+*t should look like "/usr/local/Cellar/tesseract/4.0.0/share/tessdata/"
+
+Install language models to tessdata:
+```
+wget -P /usr/local/Cellar/tesseract/4.0.0/share/tessdata/ https://github.com/tesseract-ocr/tessdata/raw/4.00/eng.traineddata
+wget -P /usr/local/Cellar/tesseract/4.0.0/share/tessdata/ https://github.com/tesseract-ocr/tessdata/raw/4.00/rus.traineddata
+```
+
+
+
+### How to
+
+Name images:
+```
+name_raw_screenshot <file_path>
+name_raw_screenshots <dir_path>
+name_raw_screenshots --ignore_named <dir_path>
+
+```
+
+Create text siblings for each image:
+```
+create_text_siblings <file_path>
+create_text_siblings <dir_path>
+create_text_siblings <path> --recursive
+
+```
+

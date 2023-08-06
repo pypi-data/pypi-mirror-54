@@ -1,0 +1,17 @@
+nlp_knowledge_cli.py,sha256=8sNx0N6WzUYDFMyQVk2g4xFfud8FFGTOEVk_tmf9XLw,1812
+knowledge_search_engine/__init__.py,sha256=bM7qJ7K9fwF5B1KiKzbncSpNbmcu9sRnL66cLNvOsGQ,208
+knowledge_search_engine/audio_from_video.py,sha256=zKrR0ltokwgrt0PHw9xEZQmLYFJWD6CMYbyE8rlcFdw,1770
+knowledge_search_engine/image_namer.py,sha256=URtAnrdT01JwAw2NH1mYXHj_c2n92zsCyDrRRcqO_8g,4235
+knowledge_search_engine/images_to_text.py,sha256=44fvY3UwQdNRY5sJexvW4-hn_xQ7lgNL1ruH9A76cs0,1808
+knowledge_search_engine/speach_recogn.py,sha256=cWKqufpSP-pwdoUt_jcOPZSoAp9L8EO28O5dKVxV4Po,1243
+knowledge_search_engine/video_to_text.py,sha256=m0sETmSnExTXpKxzRE9nkFeB3eJDJJSre_a3b9O6_fc,2038
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/image_processing.py,sha256=tcnpW2h0XUs8hD87XJzqU92OQOxwCN05HGXkFN-mMzM,977
+utils/profiling.py,sha256=gpcFTWjeldaLy9lbM4WThbnxffa3FtiD2Pgn7QpRNGA,407
+utils/text_processing.py,sha256=WGswHRqOqmmSilwgOdR3u2VYn5cze1f1OJs1fArPbpU,1422
+NLPKnowledge-0.0.2.4.dist-info/LICENSE,sha256=x9wiDtuCYdV0gBmKhVXoQp2ybT38rs4j7qFitznRVQA,1070
+NLPKnowledge-0.0.2.4.dist-info/METADATA,sha256=vDXgz44PlWAJxz5GoyjJxyXVyC8Gat_Zag0qFfQ8HYo,1629
+NLPKnowledge-0.0.2.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+NLPKnowledge-0.0.2.4.dist-info/entry_points.txt,sha256=XC22c9Bpyex2Oawa-cx76h_E61YHhu_Djl68xllGv6w,187
+NLPKnowledge-0.0.2.4.dist-info/top_level.txt,sha256=zfDxNMq51CWxs1CwwEtfzexeTsll_Izlg49SQsUKkys,48
+NLPKnowledge-0.0.2.4.dist-info/RECORD,,
