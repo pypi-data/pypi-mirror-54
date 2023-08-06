@@ -1,0 +1,265 @@
+{
+  "rank": {
+    "rank_id": 0,
+    "concurrency": 1,
+    "data": {
+      "cereal_class_version": 0,
+      "type": "real",
+      "description": "wall time",
+      "unit_value": 1,
+      "unit_repr": "sec",
+      "graph": [
+        {
+          "hash": -2469418722071608661,
+          "prefix": "> [cxx] cpu_profile_0",
+          "depth": 0,
+          "entry": {
+            "cereal_class_version": 0,
+            "is_transient": true,
+            "laps": 1,
+            "repr_data": 1.242555,
+            "value": 1570149959335790000,
+            "accum": 1242555000
+          }
+        },
+        {
+          "hash": -33728791212912142,
+          "prefix": "> [cxx] consume",
+          "depth": 1,
+          "entry": {
+            "is_transient": true,
+            "laps": 1,
+            "repr_data": 1.000003,
+            "value": 1570149959103024000,
+            "accum": 1000003000
+          }
+        },
+        {
+          "hash": -7400437269964144902,
+          "prefix": "> [cxx] allocate",
+          "depth": 1,
+          "entry": {
+            "is_transient": true,
+            "laps": 1,
+            "repr_data": 0.232749,
+            "value": 1570149959335789000,
+            "accum": 232749000
+          }
+        },
+        {
+          "hash": -6890552449773781172,
+          "prefix": "> [cxx] random_entry",
+          "depth": 2,
+          "entry": {
+            "is_transient": true,
+            "laps": 11,
+            "repr_data": 0.000058,
+            "value": -1175094522500144616,
+            "accum": 58000
+          }
+        },
+        {
+          "hash": -6770817710389623219,
+          "prefix": "> [cxx] consume",
+          "depth": 0,
+          "entry": {
+            "is_transient": true,
+            "laps": 1,
+            "repr_data": 1.007822,
+            "value": 1570149961412009000,
+            "accum": 1007822000
+          }
+        },
+        {
+          "hash": 7992572123944312017,
+          "prefix": "> [cxx] allocate",
+          "depth": 0,
+          "entry": {
+            "is_transient": true,
+            "laps": 1,
+            "repr_data": 0.238987,
+            "value": 1570149961651835000,
+            "accum": 238987000
+          }
+        },
+        {
+          "hash": -7013856127369120552,
+          "prefix": "> [cxx] random_entry",
+          "depth": 1,
+          "entry": {
+            "is_transient": true,
+            "laps": 11,
+            "repr_data": 0.00005,
+            "value": -1175094497030345616,
+            "accum": 50000
+          }
+        },
+        {
+          "hash": -7773118908142826251,
+          "prefix": "> [cxx] cpu_profile_2",
+          "depth": 0,
+          "entry": {
+            "is_transient": true,
+            "laps": 1,
+            "repr_data": 1.233999,
+            "value": 1570149963940256000,
+            "accum": 1233999000
+          }
+        },
+        {
+          "hash": 4905108652930305178,
+          "prefix": "> [cxx] consume",
+          "depth": 1,
+          "entry": {
+            "is_transient": true,
+            "laps": 1,
+            "repr_data": 1.000001,
+            "value": 1570149963713297000,
+            "accum": 1000001000
+          }
+        },
+        {
+          "hash": -2461599825820927582,
+          "prefix": "> [cxx] allocate",
+          "depth": 1,
+          "entry": {
+            "is_transient": true,
+            "laps": 1,
+            "repr_data": 0.226941,
+            "value": 1570149963940254000,
+            "accum": 226941000
+          }
+        },
+        {
+          "hash": 7925959882655870788,
+          "prefix": "> [cxx] random_entry",
+          "depth": 2,
+          "entry": {
+            "is_transient": true,
+            "laps": 11,
+            "repr_data": 0.00005,
+            "value": -1175094471835633616,
+            "accum": 50000
+          }
+        }
+      ]
+    },
+    "environment": {
+      "cereal_class_version": 0,
+      "environment": [
+        {
+          "key": "TIMEMORY_AUTO_LIST_INIT",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_AUTO_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_BANNER",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_COMPONENT_LIST_INIT",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_COUT_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_DEBUG",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_DESTRUCTOR_REPORT",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_ENABLE",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_ENABLED",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_ENABLE_SIGNAL_HANDLER",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_FILE_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_JSON_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_MAX_DEPTH",
+          "value": "65535"
+        },
+        {
+          "key": "TIMEMORY_MEMORY_PRECISION",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_MEMORY_SCIENTIFIC",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_MEMORY_UNITS",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_MEMORY_WIDTH",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_OUTPUT_PATH",
+          "value": "timemory-gperf-cpu-tests-output"
+        },
+        {
+          "key": "TIMEMORY_OUTPUT_PREFIX",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_PRECISION",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_SCIENTIFIC",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_TEXT_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_TIMING_PRECISION",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_TIMING_SCIENTIFIC",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_TIMING_UNITS",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_TIMING_WIDTH",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_VERBOSE",
+          "value": "0"
+        },
+        {
+          "key": "TIMEMORY_WIDTH",
+          "value": "-1"
+        }
+      ]
+    }
+  }
+}

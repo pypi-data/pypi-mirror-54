@@ -1,0 +1,1 @@
+>>> cpu_profile_2 :   99.0 % cpu_util, 1 laps, depth 0
