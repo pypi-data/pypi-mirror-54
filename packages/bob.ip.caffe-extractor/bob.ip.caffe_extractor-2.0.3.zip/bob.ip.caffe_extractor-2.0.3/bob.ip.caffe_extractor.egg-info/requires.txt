@@ -1,0 +1,4 @@
+setuptools
+bob.extension
+bob.io.base
+bob.io.image
