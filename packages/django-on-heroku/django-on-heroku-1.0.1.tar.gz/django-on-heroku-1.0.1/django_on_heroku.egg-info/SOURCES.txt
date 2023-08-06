@@ -1,0 +1,11 @@
+README.rst
+setup.py
+django_on_heroku/__init__.py
+django_on_heroku/__version__.py
+django_on_heroku/core.py
+django_on_heroku.egg-info/PKG-INFO
+django_on_heroku.egg-info/SOURCES.txt
+django_on_heroku.egg-info/dependency_links.txt
+django_on_heroku.egg-info/requires.txt
+django_on_heroku.egg-info/top_level.txt
+test/test_django_on_heroku.py
