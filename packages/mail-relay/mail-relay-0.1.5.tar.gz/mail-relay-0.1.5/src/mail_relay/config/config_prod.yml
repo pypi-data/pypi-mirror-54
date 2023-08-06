@@ -1,0 +1,19 @@
+smtp:
+    host: '208.81.212.70'
+    port: 587
+    use_tls: True
+    username: 'customsmtp.globalrelay.com@mailarchivespool1.globalrelay.com'
+    password: 'uaLKMLmhJXgLLEy2ZlKN'
+    send_to_user: 'customsmtp.globalrelay.com+Preveil@mailarchivespool1.globalrelay.com'
+
+imap:
+    host: 'asdasd'
+    port: 219
+    use_tls: False
+    username: 'adasdasdasd'
+    password: 'aaa'
+
+cs:
+    host: 'collections.preveil.com'
+    port: 80
+    use_tls: True

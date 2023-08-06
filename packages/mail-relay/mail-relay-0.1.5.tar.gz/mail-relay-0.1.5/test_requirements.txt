@@ -1,0 +1,2 @@
+pytest>=3.9.1
+https://github.com/PreVeil/vendor/raw/master/python/loremipsum-1.0.5.tar.gz

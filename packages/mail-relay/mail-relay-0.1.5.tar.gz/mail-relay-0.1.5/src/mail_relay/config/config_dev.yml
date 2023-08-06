@@ -1,0 +1,19 @@
+smtp:
+    host: '208.81.213.24'
+    port: 25
+    use_tls: True
+    username: 'feed-4b07f0d6-efff-4c44-92a8-de39891e297f@mailarchivespool1.globalrelay.com'
+    password: 'uaLKMLmhJXgLLEy2ZlKN'
+    send_to_user: 'feed-4b07f0d6-efff-4c44-92a8-de39891e297f@feeds.globalrelay.com'
+
+imap:
+    host: 'asdasd'
+    port: 219
+    use_tls: False
+    username: 'adasdasdasd'
+    password: 'aaa'
+
+cs:
+    host: '127.0.0.1'
+    port: 2121
+    use_tls: False
