@@ -1,0 +1,10 @@
+groom/__init__.py,sha256=r1Zj5TR07w66INt5rsBP5eHV0voYaO0p6m8-IEdn0VI,340
+groom/__main__.py,sha256=7BCklTIyIdpatAuuUCOubeMTzqDMpAPIJwOcg5boCDA,1664
+groom/annotations.py,sha256=jsdSodO9hOyQZtigsmUdo-HKx5SQQVr-7BaAUHabnpE,1716
+groom/dispatching.py,sha256=VMWS6NEwUvFw87z-yUCr0zSgLtGZSNdv1lAEPKcl1tg,6049
+groom-0.0.1a1.dist-info/DESCRIPTION.rst,sha256=KxGLnLQtkDPti38x23_fI6ZUQEKB1ALl6yumA1nW42Q,1178
+groom-0.0.1a1.dist-info/METADATA,sha256=m8xZlORnRatpSw8pPV7ZGq7KmC7ibEsbNCvoWoTvf_g,1930
+groom-0.0.1a1.dist-info/RECORD,,
+groom-0.0.1a1.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+groom-0.0.1a1.dist-info/metadata.json,sha256=UfZiNM4vEY3LrwqAEScLkBcbh4yDxpqa6eCpv6ECAhc,900
+groom-0.0.1a1.dist-info/top_level.txt,sha256=5RnQanu4JZJZyLc-yl6xH3_g1zHYiCY1aXum0nH5mag,6
