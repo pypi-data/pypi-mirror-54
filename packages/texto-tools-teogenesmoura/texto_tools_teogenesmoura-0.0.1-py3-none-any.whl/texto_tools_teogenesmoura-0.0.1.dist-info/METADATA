@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: texto-tools-teogenesmoura
+Version: 0.0.1
+Summary: A small text-processing package for content analysis
+Home-page: https://github.com/labhackercd/textoTools.git
+Author: Teógenes Moura
+Author-email: teogenes.moura@camara.leg.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# texto Tools
+
+This is a simple text-processing package for content analysis in the context of the social sciences and 
+use by legislative houses. 
+
