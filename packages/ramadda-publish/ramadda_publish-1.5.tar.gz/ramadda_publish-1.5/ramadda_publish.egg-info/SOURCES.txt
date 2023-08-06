@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+bin/ramadda_publish
+ramadda_publish.egg-info/PKG-INFO
+ramadda_publish.egg-info/SOURCES.txt
+ramadda_publish.egg-info/dependency_links.txt
+ramadda_publish.egg-info/top_level.txt
