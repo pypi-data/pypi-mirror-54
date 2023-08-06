@@ -1,0 +1,9 @@
+textconv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textconv/text.py,sha256=ReBdNE1Xwku2Bc09-l3xG_YCgrs_PcA0RuenKbEJzqY,5802
+textconv/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textconv/tests/test_textconv.py,sha256=qHEJ9UPS1wHG3u--6GrQTtt2RTyyaAr40HxXCJXzdgs,1211
+textconv-0.0.1.dist-info/LICENSE,sha256=r8Lo48pasGyLIPLIR17NEuuOtHsfzcftzg5DxRwO15w,1096
+textconv-0.0.1.dist-info/METADATA,sha256=WsKcGl48eS8UwBxhMn7ulgJDq11UM9RGc-YVdv7hqjI,1200
+textconv-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+textconv-0.0.1.dist-info/top_level.txt,sha256=TpwWOr5lDRGzLhCY2T6r_UO85vs89AvESNPOvT5Cg4E,9
+textconv-0.0.1.dist-info/RECORD,,
