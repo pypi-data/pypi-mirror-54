@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: graphmenu
+Version: 1.0.3
+Summary: some code
+Home-page: https://github.com/exclusive1214/Law_ChatBot
+Author: BensonKAO
+Author-email: bonson930235@gmail.com
+License: MIT
+Description: * psycopg2
+        
+        pip install psycopg2-binary
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
