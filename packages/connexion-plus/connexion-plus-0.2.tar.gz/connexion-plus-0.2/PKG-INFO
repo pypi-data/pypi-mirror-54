@@ -1,0 +1,28 @@
+Metadata-Version: 1.2
+Name: connexion-plus
+Version: 0.2
+Summary: Connexion with benefits for microservices
+Home-page: https://github.com/Heiss/connexion-plus
+Author: Peter Heiss
+Author-email: peter.heiss@uni-muenster.de
+License: MIT
+Download-URL: https://github.com/Heiss/connexion-plus/archive/0.1.tar.gz
+Description: 
+        # Connexion Plus
+        
+        If you want to use connexion for your microservice, you have to add an opentracing or prometheus client on your own. With this library, you instantiate everything before your connexion app starts and this library will take care to put it all together, so you get everything fine.
+        
+        
+        
+        
+Keywords: connexion,microservice,tracing,prometheus,jaeger
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
