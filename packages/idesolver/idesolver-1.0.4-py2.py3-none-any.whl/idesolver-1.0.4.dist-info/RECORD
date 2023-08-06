@@ -1,0 +1,17 @@
+idesolver/__init__.py,sha256=Z2DecUr9FdxJPz4BBRH9nfued23xMDnRLu9_e8PNd1c,267
+idesolver/exceptions.py,sha256=Lxj55cSvX7JgrX3nENdYW83d3gfoWxep4_hIjHV4Wwc,615
+idesolver/idesolver.py,sha256=S49Qut0OdjwvOPf4jrbUxLkE5K-ub96m7iIYv4VllBs,14677
+idesolver/version.py,sha256=QLwwdS9IVWSzEy4DvKpbU2o_pBKJoaaWavZZnPncYUs,786
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=6txFjtABx49UdVATpdCMRCrEiJEnA5z57Lw9_bxL7Jc,150
+tests/test_complex_quad.py,sha256=qxV8KPi56dZ2_EyoCM51xRLQy03HhFqa32d9v2H_M24,1863
+tests/test_complex_valued.py,sha256=EHz7TXWgqMtXiPGwtrkx2ocNl45qvLovfQc3-Z-SEFo,856
+tests/test_misc.py,sha256=4GjTqCuU9lIRponcBIS0qzrtQR7CkCOhukL4AOg66QQ,3495
+tests/test_solver_against_analytic_solutions.py,sha256=0yqPQaarneNVXBp3yaJCq0aW8e-w_nz1pxiWLpGDX5k,3289
+tests/test_solver_constructor_checks.py,sha256=IjuymWOZoOHty_hVnwGDXVrobIu4ton_I50F4uTuE-M,2583
+tests/test_version.py,sha256=AJdC--Y7Nh6la1WdVAQKg_CPWtYxd7Vve9LQOAbTLEM,473
+idesolver-1.0.4.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+idesolver-1.0.4.dist-info/METADATA,sha256=n_fQlt26j3mNxwnEwQOVjXmKPoRDagS5SJFYo8v_Hg8,2731
+idesolver-1.0.4.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+idesolver-1.0.4.dist-info/top_level.txt,sha256=FbgVR36r95ydWlu2Hm7QdOqeSIMrEEWDubxriHMKZPM,16
+idesolver-1.0.4.dist-info/RECORD,,
