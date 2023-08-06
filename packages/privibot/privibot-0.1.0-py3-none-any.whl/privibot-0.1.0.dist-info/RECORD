@@ -1,0 +1,14 @@
+README.md,sha256=yt2vSD3wRqJcwM7byV57jqkMprZW_uyuMxRavZDB6io,2165
+privibot/__init__.py,sha256=4oVkkFNJjjCU-fQ-oM8y1wahOpf9Gokhs2_4zzX3fv4,669
+privibot/__main__.py,sha256=_7h5o5T0n9xv1cibq5e8xIFr7bt34bLtM5EiN1Eiks8,387
+privibot/callbacks.py,sha256=0bLwmh9A6Ql5iegSq0ejhckU0medxM82g6EHIfUkfms,5922
+privibot/cli.py,sha256=s-47gMkQafuvMsHNuFXPOXXZDu3cW23YiC4uva6hJwU,1891
+privibot/database.py,sha256=M0VDYTInpj-Lp374b41FGBZT7CfJNHz4eSSiRz1v-iI,2965
+privibot/decorators.py,sha256=qQiaLzfQ-jatYXzXvFRTNB44H0CKReX-UQMrYjEjkoY,2303
+privibot/privileges.py,sha256=OWrUHphZQSNSJZ8Wryz7d6QydN9vCCQNd7Eujx4IX8U,855
+pyproject.toml,sha256=87bFfNYyC49sGINef5pFWydt8iVfvZnQ6ZeUX5EqpTk,1463
+privibot-0.1.0.dist-info/entry_points.txt,sha256=a7RmsF4wZ8IIUR-VN0mLE26ueGnOUUHdSObAq-f4S3s,54
+privibot-0.1.0.dist-info/LICENSE,sha256=CWPhZO4wCQgGXLc5hPRozRbGdwSWXL0exgU76L4yUvI,754
+privibot-0.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+privibot-0.1.0.dist-info/METADATA,sha256=l2lAqwIks1eTcs9Zu8Ti6FRBrQ9tlrlnoSsTck67SlQ,2778
+privibot-0.1.0.dist-info/RECORD,,
