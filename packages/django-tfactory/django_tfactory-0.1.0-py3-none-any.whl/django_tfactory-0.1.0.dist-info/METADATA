@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-tfactory
+Version: 0.1.0
+Summary: A Django template factory
+Home-page: https://github.com/SpiralDeveloper/django_tfactory
+Author: Ashish Sahu
+Author-email: spiraldeveloper@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: termcolor
+
+## django_tfactory
+This package convert your downloaded web template into django friendly environment.
+
+    tfactory -p some.html
+
