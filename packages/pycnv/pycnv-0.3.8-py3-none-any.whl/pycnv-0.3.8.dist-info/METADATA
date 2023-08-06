@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pycnv
+Version: 0.3.8
+Summary: Tool to convert Seabird cnv textfiles
+Home-page: https://github.com/MarineDataTools/pycnv
+Author: Peter Holtermann
+Author-email: peter.holtermann@io-warnemuende.de
+License: GPLv03
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.4
+Requires-Dist: gsw
+Requires-Dist: pyaml
+Requires-Dist: pyproj
+Requires-Dist: pytz
+
+UNKNOWN
+
+
