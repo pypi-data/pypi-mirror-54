@@ -1,0 +1,12 @@
+edc_form_describer/__init__.py,sha256=y0pkh9vCNrOwZ6Jiv_g9IMzhLjW_nPfGZqQOD7HCcXY,86
+edc_form_describer/form_describer.py,sha256=AgWwG1sXSOz6bf80xmG8SB0lCC1LxQXsFPWqrL_rMpM,7760
+edc_form_describer/forms_reference.py,sha256=zKng3aw4-UvCBaQ1kSJqRtcf-GH6t297EJD6DA3BKWY,4207
+edc_form_describer/markdown_writer.py,sha256=82cV-kraFWX4OE8-rFSXIVFBQU1Eoyr9gv9q4msPPEE,1507
+edc_form_describer/settings.py,sha256=bps_eaa6P-ydshFgpz1RCpHMjGzrSSlCV_D5N7vXENo,2788
+edc_form_describer/urls.py,sha256=EWTxNiR1t-qkknRCYOW3bUjvuwELp78oeARXpeGYauE,768
+edc_form_describer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edc_form_describer-0.1.5.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+edc_form_describer-0.1.5.dist-info/METADATA,sha256=a8CwGor0OiAqMT7iyOglLGhYySvdtFdBzen807xjdOg,1447
+edc_form_describer-0.1.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+edc_form_describer-0.1.5.dist-info/top_level.txt,sha256=M7mraA4DtDAPHXuZBjvCC763awngLGpqlcIYVU0pEBM,19
+edc_form_describer-0.1.5.dist-info/RECORD,,
