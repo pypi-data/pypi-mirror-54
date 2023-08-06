@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tf_helpers
+Version: 0.0.1
+Summary: A collection of useful functions for TensorFlow for training and visualization.
+Home-page: https://github.com/ltriess/tf_helpers
+Author: Larissa Triess
+Author-email: mail@triess.eu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Provides-Extra: tf
+Provides-Extra: tf_gpu
