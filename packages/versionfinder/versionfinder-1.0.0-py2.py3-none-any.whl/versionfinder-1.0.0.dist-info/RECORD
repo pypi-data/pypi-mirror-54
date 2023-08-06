@@ -1,0 +1,16 @@
+versionfinder/__init__.py,sha256=qILnYMPT8CGkUk0HhYpnzeFHAV2oxS1JeCSxkv6QWGU,3031
+versionfinder/version.py,sha256=QCWCOgctIYeIOpmTDJTsQ7_1hUv6PbFmOn172TG_aBo,1877
+versionfinder/versionfinder.py,sha256=L9ITb7TUggUq5UNImGA0Bm--or_Q1ewTykz1aAcdlUY,14330
+versionfinder/versioninfo.py,sha256=YtlheFpTP_E6ThMa-10cr_k8Sc-MmJIkJpfbKFSBmYA,12231
+versionfinder/tests/__init__.py,sha256=8gpIYGE2kAIoZYxv9NkcZAldlEmLoYRlYf3GL_YJX70,1801
+versionfinder/tests/test_acceptance.py,sha256=XVrHgwvmiPdVAQGfRRDTdYEJZhgVzwj2ZAn3ZGwDmHU,55753
+versionfinder/tests/test_init.py,sha256=0yb5O2Pn8TvbHEY67eJcSQ9ixORgEM3htkaHH52ismI,3514
+versionfinder/tests/test_version.py,sha256=ZclBoccBbC_56cPcZMWvK5YO6J6z5DQKHwmKbngnlk8,2753
+versionfinder/tests/test_versionfinder.py,sha256=HhkDpUWB4lUQ4PgULNWiAMKSH-XGfBGVW7J_o7CT6-g,33486
+versionfinder/tests/test_versioninfo.py,sha256=tQ9imFnRpkPDmWupLkAGVsACridoOv4zYIk98uyBGk4,11107
+versionfinder-1.0.0.dist-info/DESCRIPTION.rst,sha256=7qmIu2mP3eCNUqy1xJm8WSDC-y0NcD_ezWFBhmUhlUg,10173
+versionfinder-1.0.0.dist-info/METADATA,sha256=q3k9wXTqntXQMVZ9UdGVosJTA2sV-2y1i7z_XpTbbMg,11059
+versionfinder-1.0.0.dist-info/RECORD,,
+versionfinder-1.0.0.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+versionfinder-1.0.0.dist-info/metadata.json,sha256=4JhyILPj4Sm3cUGFuOplKPFyhAVrP_DwGnnSAUSspTc,1044
+versionfinder-1.0.0.dist-info/top_level.txt,sha256=U1b7PpHlTewnKWLKYBNqF20uJkt86Ljgm2MwaJ516F8,14
