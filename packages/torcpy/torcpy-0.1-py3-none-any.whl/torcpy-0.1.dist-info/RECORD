@@ -1,0 +1,9 @@
+torc/__init__.py,sha256=DZ_0u6by1uDC2FjAzwey2y9oGKOWQkwNvaenFRLrTF4,366
+torc/runtime.py,sha256=xrjjk7wbbpWyzmts1TDAuLMNaSiCPDXlQZlv-ihJFGk,22507
+torcpy/__init__.py,sha256=etgJ2nNDFLqgGSG2RgUzGs_oQpSnrywme81MOncLQ_Q,368
+torcpy/runtime.py,sha256=Zd1WCmqmm_fqMzAXPlB5aqGPAdb7ocmY9_UZbaJ74_8,22457
+torcpy-0.1.dist-info/LICENSE,sha256=ukwTIWZdYk8XObHnObhogGShNSZmLAVGAqeH1asKjVo,11585
+torcpy-0.1.dist-info/METADATA,sha256=6mTPhJx0OwbkBLIxbOPYO4CR607jRFK_iGQNFt1B4cg,26203
+torcpy-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+torcpy-0.1.dist-info/top_level.txt,sha256=D-22EP5e4Tfi6tHuoQhBu2Tzvlv4f3J-gmgR9joulJg,7
+torcpy-0.1.dist-info/RECORD,,
