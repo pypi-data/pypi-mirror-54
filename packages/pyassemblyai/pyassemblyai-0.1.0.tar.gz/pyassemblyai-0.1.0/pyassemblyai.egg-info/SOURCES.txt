@@ -1,0 +1,6 @@
+setup.py
+pyassemblyai/__init__.py
+pyassemblyai.egg-info/PKG-INFO
+pyassemblyai.egg-info/SOURCES.txt
+pyassemblyai.egg-info/dependency_links.txt
+pyassemblyai.egg-info/top_level.txt
