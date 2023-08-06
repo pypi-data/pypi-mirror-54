@@ -1,0 +1,9 @@
+prune bigants/data
+prune test/
+prune ".git/"
+
+prune .gitignore
+
+global-exclude *_test.py
+
+
