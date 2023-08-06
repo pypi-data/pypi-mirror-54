@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ban-converter
+Version: 0.0.1
+Summary: A simple BBAN <-> IBAN converter for bank account numbers
+Home-page: https://github.com/carlmatt/ban-converter
+Author: Carl Mattsson
+Author-email: carl.mattsson@gmail.com
+License: UNKNOWN
+Description: # ban-converter
+        A simple BBAN &lt;-> IBAN converter for bank account numbers
+        
+        ban-converter currently supports bank account numbers from the following countries:
+        - Finland
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3
+Description-Content-Type: text/markdown
