@@ -1,0 +1,3 @@
+[console_scripts]
+NLIMED = NLIMED.console:runTerminal
+
