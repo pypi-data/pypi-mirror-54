@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+sqs_polling/__init__.py
+sqs_polling/__version__.py
+sqs_polling/sqs_polling.py
+sqs_polling.egg-info/PKG-INFO
+sqs_polling.egg-info/SOURCES.txt
+sqs_polling.egg-info/dependency_links.txt
+sqs_polling.egg-info/requires.txt
+sqs_polling.egg-info/top_level.txt
+sqs_polling/tests/__init__.py
+sqs_polling/tests/test_sqs_polling.py
