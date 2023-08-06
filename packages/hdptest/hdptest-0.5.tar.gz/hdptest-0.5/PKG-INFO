@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: hdptest
+Version: 0.5
+Summary: Mecanismo simple para tests en Jupyter Notebooks
+Home-page: https://github.com/ifigueroap/hdptest
+Author: Ismael Figueroa
+Author-email: ifigueroap@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
