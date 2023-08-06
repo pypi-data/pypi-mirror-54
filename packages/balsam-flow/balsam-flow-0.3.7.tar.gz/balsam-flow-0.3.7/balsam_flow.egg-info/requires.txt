@@ -1,0 +1,7 @@
+django==2.1.1
+jinja2
+psycopg2-binary
+mpi4py
+sphinx
+sphinx_rtd_theme
+numpy
