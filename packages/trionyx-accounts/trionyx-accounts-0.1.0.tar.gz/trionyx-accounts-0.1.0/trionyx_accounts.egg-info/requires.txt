@@ -1,0 +1,13 @@
+
+[dev]
+Trionyx
+colorlog
+django-extensions
+django-debug-toolbar
+Werkzeug
+coverage
+flake8
+pydocstyle
+ipython
+Sphinx
+sphinx_rtd_theme

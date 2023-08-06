@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: trionyx-accounts
+Version: 0.1.0
+Summary: Trionyx app for accounts
+Home-page: https://github.com/krukas/Trionyx-Accounts
+Author: Maikel Martens
+Author-email: maikel@martens.me
+License: GPL3
+Download-URL: https://github.com/krukas/Trionyx-Accounts/releases/tag/0.1.0
+Description-Content-Type: UNKNOWN
+Description: Trionyx Accounts
+        ================
+        
+        Trionyx app that add accounts/type/contacts
+Keywords: Django,Trionyx,app,accounts,contacts
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Requires-Python: ~=3.5
