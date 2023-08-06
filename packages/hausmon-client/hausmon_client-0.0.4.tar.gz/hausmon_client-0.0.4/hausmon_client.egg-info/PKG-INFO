@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: hausmon-client
+Version: 0.0.4
+Summary: A client for the HausMon monitoring service
+Home-page: https://github.com/liber-tas/hausmon-client
+Author: Louis Calitz
+Author-email: louis@hausnet.io
+License: UNKNOWN
+Description: A thin wrapper for the HausNet monitoring service, a.k.a HausMon, in Python. HausMon
+        is a simple monitoring service for home automation networks, e.g. a home controlled by 
+        [Home Assistant](https://homeassistant.com).  
+        
+        Installation
+        ============
+        
+        Install the package:
+        ```
+        pip install hausmon_client
+        ```
+        
+        Configuration
+        =============
+        
+        First, create an account at [HausNet|HausMon](https//mon.hausnet.org). Then, define
+        a device to represent your home automation controller. Also, locate your authentication
+        token from your account. You'll need the device name and the token to use the library.
+        
+        Use
+        ===
+        
+        The library provides access to a device's heartbeat monitor. I.e. it enables your home 
+        control system to, at a fixed interval, let the monitor know it is still alive. The
+        heartbeat monitor should not be called more often than every 15 minutes.
+        
+        ```
+        from hausmon_client.client import HausMonClient
+        
+        API_URL = "[Hausmon API URL]"
+        API_TOKEN = "[token from HausMon user account]"
+        DEVICE_NAME = "[device name at HausMon]"
+        
+        client = HausMonClient(API_URL, API_TOKEN)
+        heartbeat = self._client.get_heartbeat(DEVICE_NAME)
+        client.send_heartbeat(heartbeat['id'])
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
