@@ -1,0 +1,11 @@
+oidckit/__init__.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+oidckit/crypto.py,sha256=P2YQXbA-l8wO1627dAIHTwa2W7xKIqsS9Eq7tUnNiig,1567
+oidckit/excs.py,sha256=f3ZSdq-89mBfHRe60ZNjFsE6QH7gLhKLuUJxYiYwf-0,460
+oidckit/objects.py,sha256=Q5s0c9WymqKPKyHaDFvbRXCtw5SF8H-Q_tq6wFzqnwY,2463
+oidckit/provider.py,sha256=WC05hhOZqNccdbY6T9YN5JRFPOcPYKPh7TrW426KZ6k,3700
+oidckit/routines.py,sha256=RjzlOPdXXqUK7M7J8ECWhcYmDTqs8ImBP7eiyjvrA6w,1976
+oidckit-0.1.dist-info/LICENSE,sha256=xIMNrtoxZdcwEulwoGRtv4oyGjGBzmOXJmV72oXgmqE,1075
+oidckit-0.1.dist-info/METADATA,sha256=NzRMIrl08WY46C_hNj8Qpsg7AgRiN5YfdFBYpJnGz64,555
+oidckit-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+oidckit-0.1.dist-info/top_level.txt,sha256=SBhpc6HF1bPUfJtQGFNttLRwWRfNeGUshpikZX-Do-w,8
+oidckit-0.1.dist-info/RECORD,,
