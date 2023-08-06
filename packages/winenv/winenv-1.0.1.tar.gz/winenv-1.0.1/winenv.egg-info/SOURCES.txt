@@ -1,0 +1,7 @@
+README.md
+setup.py
+winenv/__init__.py
+winenv.egg-info/PKG-INFO
+winenv.egg-info/SOURCES.txt
+winenv.egg-info/dependency_links.txt
+winenv.egg-info/top_level.txt
