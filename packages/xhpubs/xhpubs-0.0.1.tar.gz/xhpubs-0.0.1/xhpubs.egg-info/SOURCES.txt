@@ -1,0 +1,8 @@
+README.md
+setup.py
+xhpubs/__init__.py
+xhpubs/misc.py
+xhpubs.egg-info/PKG-INFO
+xhpubs.egg-info/SOURCES.txt
+xhpubs.egg-info/dependency_links.txt
+xhpubs.egg-info/top_level.txt

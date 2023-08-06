@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xhpubs
+Version: 0.0.1
+Summary: a pub library for python
+Home-page: https://github.com/lamborghini1993/mypypi/tree/master/xhpub
+Author: lamborghini1993
+Author-email: 1323242382@qq.com
+License: UNKNOWN
+Description: # Descripte
+        
+        This is a simple public module that helps you implement some simple function functions.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
