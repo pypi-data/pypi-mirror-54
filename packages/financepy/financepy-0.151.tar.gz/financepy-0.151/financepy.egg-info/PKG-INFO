@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: financepy
+Version: 0.151
+Summary: A Finance Library
+Home-page: https://github.com/domokane/FinancePy
+Author: Dominic O'Kane
+Author-email: okane.dominic@gmail.com
+License: UNKNOWN
+Description: # FinancePy
+        FinancePy is a library of functions for valuing, selecting and risk-managing financial assets. The project was first released in October 2019 by Dominic O'Kane. 
+        
+        ### Dependencies
+        FinancePy depends on Numpy and Numba and Scipy.
+        
+        ### Installation
+        FinancePy can be installed via pip as 
+        >>>> pip install financepy
+        
+        ### Changelog
+        See the changelog for a detailed history of changes 
+        
+        ### Contributions
+        Contributions are welcome, as long as you don't mind camel case ;-)
+        
+        ### License
+        MIT
+        
+Keywords: FINANCE,OPTIONS,BONDS,VALUATION,DERIVATIVES
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
