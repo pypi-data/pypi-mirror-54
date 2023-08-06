@@ -1,0 +1,8 @@
+README.md
+setup.py
+foliant/backends/aglio.py
+foliantcontrib.aglio.egg-info/PKG-INFO
+foliantcontrib.aglio.egg-info/SOURCES.txt
+foliantcontrib.aglio.egg-info/dependency_links.txt
+foliantcontrib.aglio.egg-info/requires.txt
+foliantcontrib.aglio.egg-info/top_level.txt
