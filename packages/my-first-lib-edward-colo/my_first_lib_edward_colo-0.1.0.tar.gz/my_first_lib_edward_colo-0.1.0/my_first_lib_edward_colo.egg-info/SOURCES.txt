@@ -1,0 +1,8 @@
+README.md
+setup.py
+my_first_lib_edward_colo/__init__.py
+my_first_lib_edward_colo/intro.py
+my_first_lib_edward_colo.egg-info/PKG-INFO
+my_first_lib_edward_colo.egg-info/SOURCES.txt
+my_first_lib_edward_colo.egg-info/dependency_links.txt
+my_first_lib_edward_colo.egg-info/top_level.txt
