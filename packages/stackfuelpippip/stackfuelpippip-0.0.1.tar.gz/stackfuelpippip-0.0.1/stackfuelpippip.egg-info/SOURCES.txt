@@ -1,0 +1,7 @@
+setup.py
+stackfuelpip/__init__.py
+stackfuelpip/mymodul.py
+stackfuelpippip.egg-info/PKG-INFO
+stackfuelpippip.egg-info/SOURCES.txt
+stackfuelpippip.egg-info/dependency_links.txt
+stackfuelpippip.egg-info/top_level.txt
