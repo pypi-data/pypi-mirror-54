@@ -1,0 +1,3 @@
+[console_scripts]
+delta = delta.main:nlp_entry
+
