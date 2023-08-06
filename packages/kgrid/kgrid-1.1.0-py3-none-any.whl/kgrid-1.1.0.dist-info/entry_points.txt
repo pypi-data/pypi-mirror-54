@@ -1,0 +1,4 @@
+[console_scripts]
+kgrid = kgrid.cli:main
+kgrid-series = kgrid.series:main
+
