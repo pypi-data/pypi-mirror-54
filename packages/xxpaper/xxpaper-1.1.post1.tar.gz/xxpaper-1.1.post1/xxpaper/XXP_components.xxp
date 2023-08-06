@@ -1,0 +1,12 @@
+COMPONENTS:
+  - charter
+  - wide_charter
+  - narrow_charter
+  - minor_charter
+  - private
+  - share
+  - swatch
+  - train
+  - token
+  - marker
+  - market2d
