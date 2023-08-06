@@ -1,0 +1,9 @@
+README.md
+setup.py
+spriteutils/__init__.py
+spriteutils/spriteutil.py
+spriteutils.egg-info/PKG-INFO
+spriteutils.egg-info/SOURCES.txt
+spriteutils.egg-info/dependency_links.txt
+spriteutils.egg-info/requires.txt
+spriteutils.egg-info/top_level.txt

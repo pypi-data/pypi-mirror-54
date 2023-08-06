@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: spriteutils
+Version: 1.0.2
+Summary: A program to detect soem sprite in an image
+Home-page: https://github.com/intek-training-jsc/sprite-detection-ntthanhvy
+Author: ntthanhvy
+Author-email: vy.nguyen@f4.intek.edu.vn
+License: MIT
+Description: # Spriteutils Package
+        
+        Spriteutil is a package contain SpriteSheet Class that can detect and create a new image contain the original image sprites.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
