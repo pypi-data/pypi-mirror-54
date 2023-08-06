@@ -1,0 +1,14 @@
+nanolib>=0.4
+msgpack>=0.6
+cryptography>=2.6
+appdirs>=1.4
+click>=7.0
+toml>=0.10
+aiohttp>=3.5
+filelock>=3.0
+ijson>=2.5
+python-rapidjson>=0.8
+
+[sphinx]
+sphinx-tabs
+sphinxcontrib-apidoc

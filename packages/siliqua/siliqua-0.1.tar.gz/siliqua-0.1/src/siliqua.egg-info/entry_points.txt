@@ -1,0 +1,6 @@
+[console_scripts]
+siliqua = siliqua.cli:main
+
+[siliqua.plugins.ui]
+stdio = siliqua.ui.stdio:StdioUI
+
