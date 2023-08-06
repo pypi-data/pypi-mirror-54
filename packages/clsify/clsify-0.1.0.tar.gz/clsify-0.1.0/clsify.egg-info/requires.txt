@@ -1,0 +1,17 @@
+pysam==0.15.3
+vcfpy
+logzero
+pyopenssl
+cryptography
+requests
+attr
+cattrs
+bioconvert
+xlsxwriter
+dash[testing]
+dash-renderer
+dash-html-components
+dash-core-components
+dash-bootstrap-components
+dash_table
+plotly
