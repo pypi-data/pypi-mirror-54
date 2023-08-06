@@ -1,0 +1,36 @@
+ftfy<6.0.0,>=5.0.0
+spacy<2.3.0,>=2.2.1
+srsly<1.1.0,>=0.0.7
+torch>=1.0.0
+torchcontrib<0.1.0,>=0.0.2
+transformers<2.1.0,>=2.0.0
+
+[:python_version < "3.7"]
+dataclasses<0.7,>=0.6
+
+[:python_version < "3.8"]
+importlib_metadata>=0.20
+
+[cuda]
+cupy>=5.0.0b4
+thinc_gpu_ops<0.1.0,>=0.0.1
+
+[cuda100]
+cupy-cuda100>=5.0.0b4
+thinc_gpu_ops<0.1.0,>=0.0.1
+
+[cuda80]
+cupy-cuda80>=5.0.0b4
+thinc_gpu_ops<0.1.0,>=0.0.1
+
+[cuda90]
+cupy-cuda90>=5.0.0b4
+thinc_gpu_ops<0.1.0,>=0.0.1
+
+[cuda91]
+cupy-cuda91>=5.0.0b4
+thinc_gpu_ops<0.1.0,>=0.0.1
+
+[cuda92]
+cupy-cuda92>=5.0.0b4
+thinc_gpu_ops<0.1.0,>=0.0.1
