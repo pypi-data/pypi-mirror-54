@@ -1,0 +1,2 @@
+PySide2>=5.13.1
+botwfstools>=1.4.3
