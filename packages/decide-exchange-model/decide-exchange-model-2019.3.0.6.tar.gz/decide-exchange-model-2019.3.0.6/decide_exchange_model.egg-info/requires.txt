@@ -1,0 +1,5 @@
+blinker==1.4
+environs==6.0.0
+matplotlib==3.0.2
+requests==2.21.0
+typesystem==0.2.2
