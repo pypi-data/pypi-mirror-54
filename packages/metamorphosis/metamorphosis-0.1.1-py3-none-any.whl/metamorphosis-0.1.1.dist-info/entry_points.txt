@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        name=metamorphosis.gregor:cli
+    
