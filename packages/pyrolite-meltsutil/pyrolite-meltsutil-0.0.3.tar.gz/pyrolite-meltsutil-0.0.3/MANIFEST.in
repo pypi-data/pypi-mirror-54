@@ -1,0 +1,3 @@
+include versioneer.py
+include pyrolite_meltsutil/_version.py
+include LICENSE
