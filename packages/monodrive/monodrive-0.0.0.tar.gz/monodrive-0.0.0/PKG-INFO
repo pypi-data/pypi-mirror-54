@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: monodrive
+Version: 0.0.0
+Summary: monodrive pip placeholder
+Home-page: https://github.com
+Author: monoDrive
+Author-email: devin@monodrive.io
+License: UNKNOWN
+Description: ## monodrive
+        placeholder
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
