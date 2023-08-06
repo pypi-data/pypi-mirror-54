@@ -1,0 +1,3 @@
+[console_scripts]
+paws_acronym = paws_acronym.paws_acronym:main
+
