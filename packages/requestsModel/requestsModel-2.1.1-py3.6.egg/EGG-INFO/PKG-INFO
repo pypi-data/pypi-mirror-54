@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: requestsModel
+Version: 2.1.1
+Summary: requests_Model
+Home-page: UNKNOWN
+Author: donglidunyin
+Author-email: donglidunyin@163.com
+License: UNKNOWN
+Description: args: get_response、get_resText、get_resText_cookies、get_resText_post、get_resText_post_cookies、parse_reg_info、get_cookie
+Platform: UNKNOWN
