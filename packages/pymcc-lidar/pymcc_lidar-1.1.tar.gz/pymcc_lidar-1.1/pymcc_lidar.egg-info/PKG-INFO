@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pymcc-lidar
+Version: 1.1
+Summary: A Python package for point cloud classification using relative height
+Home-page: https://github.com/stgl/pymcc
+Author: ['Robert Sare', 'George Hilley']
+Author-email: hilleye@stanford.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
