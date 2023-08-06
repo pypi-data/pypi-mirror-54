@@ -1,0 +1,12 @@
+README.md
+setup.py
+discriminator/critic.py
+discriminator/discriminator.py
+ganify.egg-info/PKG-INFO
+ganify.egg-info/SOURCES.txt
+ganify.egg-info/dependency_links.txt
+ganify.egg-info/requires.txt
+ganify.egg-info/top_level.txt
+generator/generator.py
+model/model.py
+utilities/utils.py
