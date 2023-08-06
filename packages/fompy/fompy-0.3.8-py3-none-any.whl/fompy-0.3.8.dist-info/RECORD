@@ -1,0 +1,12 @@
+fompy/__init__.py,sha256=8vzBngCjbFP7XuNY6q9-unt9DDd7_tG0nIxZmsLrmFo,247
+fompy/aux.py,sha256=30xsXRfZGLytB2gHtmCNx_grw1-G1amqVk79P3bGoeQ,3288
+fompy/conditioning.py,sha256=YaXEPHiiCrRhCPUMOESpTmrKlES6fUj0DpJPxJ9tVjY,10193
+fompy/fds.py,sha256=ongOlc8VVKYBp2Hb8lAYgRE31pXxturRiUqjCXCxmmk,18307
+fompy/fom.py,sha256=e1TZ4xIAo13mDt8IDjgJqO965QxgsPga-OVXYW1xLIk,32146
+fompy/plots.py,sha256=g5eMj81z1CL225eJHwIwj2CTx3aX1Hz2ngNYbJ_gR20,30316
+fompy/wrappers.py,sha256=B9akthVxLjifCDFwB36os3XRTtDVFu_-EHwQsGDYX0M,18131
+fompy-0.3.8.dist-info/LICENSE.rst,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+fompy-0.3.8.dist-info/METADATA,sha256=4yXo0pjYCcQOLkv1AR6wWYv2rnS641ksYHKu5ZWfnvM,698
+fompy-0.3.8.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+fompy-0.3.8.dist-info/top_level.txt,sha256=vhzX_1iDqTAxF_32MzvWyIdMEvqIlDuKUHCnd0JKZww,6
+fompy-0.3.8.dist-info/RECORD,,
