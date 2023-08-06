@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: progressive-cmd
+Version: 0.1
+Summary: Executes a cmd that outputs completion percentages, interpreting them and executing callbacks with the increment and total percentage.
+Home-page: https://github.com/bustawin/progressive-cmd
+Author: Xavier Bustamante Talavera
+Author-email: xavier@bustawin.com
+License: AGPLv3 License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Provides-Extra: testing
