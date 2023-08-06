@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyARG
+Version: 0.0.1
+Summary: This repo contains the needed Python dependencies for ARG
+Home-page: UNKNOWN
+Author: NexGen Analytics
+Author-email: info@ng-analytics.com
+License: UNKNOWN
+Description: This is the official PyPi repository for the ARG project. 
+        
+        It contains needed Python dependencies for the project.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7,<3
+Description-Content-Type: text/markdown
