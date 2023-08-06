@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: texcalc
+Version: 0.1.0
+Summary: Math calculations on LaTeX strings in pure Python.
+Home-page: https://github.com/TiGRoNdev/texcalc
+Author: Igor Nazarov
+Author-email: igoryan.ms@gmail.com
+Maintainer: Igor Nazarov
+Maintainer-email: igoryan.ms@gmail.com
+License: MIT
+Platform: all
+
+UNKNOWN
+
+
