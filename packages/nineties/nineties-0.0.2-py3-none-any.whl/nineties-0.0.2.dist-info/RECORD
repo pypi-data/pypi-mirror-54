@@ -1,0 +1,12 @@
+nineties/__init__.py,sha256=inF9hOyWUpaTpR38_kxRoHeKAcxQAFuN8QhWHj_o9MA,83
+nineties/__main__.py,sha256=GjBWCgbPDfIQmBZookWbwAEejWJ2Z9SBjiqtNWzqeQU,179
+nineties/cli.py,sha256=dxTbm1qEDT7vdQptD80qJ5xxYbcPqxIEjI7VQi4Ln7I,1406
+nineties/nineties.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nineties/parser.py,sha256=BeyeOnW3qzgC0gLpXEMy_B2DbRbuwR_W_8ELasGDS0U,2883
+nineties/privacy.py,sha256=MI-2HWCWUpffH_xw5U6yMv0_NmIDSqzmWCCgJJ46zzM,2669
+nineties-0.0.2.dist-info/LICENSE,sha256=dH0AkBTlTynp0PbKTR2Y5jBsNrBtyxAU34jpExJSJ88,1069
+nineties-0.0.2.dist-info/METADATA,sha256=ZEediEAzBlaJuc7RZMD_TYw7Yje2HZDZU24_7lWfjr0,498
+nineties-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+nineties-0.0.2.dist-info/entry_points.txt,sha256=zFFOGv7JLb09LnW6Q5jp5Y6_B5O9a3J6ilHXz3O5mls,48
+nineties-0.0.2.dist-info/top_level.txt,sha256=xRhXcwd29nOBOaKIHTW-YgqhDGUFqej8HrraTcmuyUg,9
+nineties-0.0.2.dist-info/RECORD,,
