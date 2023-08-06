@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Reçus fiscaux &#8212; Documentation Diacamma adhérent 2.4.3.19103011</title>
+    <link rel="stylesheet" href="_static/haiku.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Configuration" href="config.html" />
+    <link rel="prev" title="Statistiques des adhérents" href="statistic.html" /> 
+  </head><body>
+      <div class="header" role="banner"><h1 class="heading"><a href="index.html">
+          <span>Documentation Diacamma adhérent 2.4.3.19103011</span></a></h1>
+        <h2 class="heading"><span>Reçus fiscaux</span></h2>
+      </div>
+      <div class="topnav" role="navigation" aria-label="top navigation">
+      
+        <p>
+        «&#160;&#160;<a href="statistic.html">Statistiques des adhérents</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contenu</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="config.html">Configuration</a>&#160;&#160;»
+        </p>
+
+      </div>
+      <div class="content" role="main">
+        
+        
+  <div class="section" id="recus-fiscaux">
+<h1>Reçus fiscaux<a class="headerlink" href="#recus-fiscaux" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Pour les associations agréées à délivrer des reçus fiscaux, <em>Diacamma</em> vous permet de les générer.</p>
+<div class="section" id="configuration">
+<h2>Configuration<a class="headerlink" href="#configuration" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Afin de réaliser au mieux ces reçus fiscaux, voilà quelque configuration à vérifier:</p>
+<p><strong>Indiquer le codes comptables soumis à reçu</strong>
+Menu <em>Administration &gt; Configuration générale</em>, onglet <em>Adhérents</em>, champ « code comptable des reçus fiscaux »
+Séléctionnez ici les codes de produit correspondant à un revenu soumis à une déduction fiscale.
+Après rafraîchissement de l’application, un nouveau menu <em>Comptabilité &gt; Reçus fiscaux</em> apparaît.</p>
+<p><strong>Ajouter une image de signature.</strong>
+Une fois ajouté dans le gestionnaire de documentation, référencez la comme tel depuis le menu <em>Administration &gt; Configuration générale</em>, onglet <em>Gestion documentaire</em>, champ « image de cachet ou de signature ».
+Cette image sera ajouter dans le document PDF du reçu dans la zone « signature » du modèle d’impression par défaut.</p>
+<p><strong>Préciser la justification du reçu fiscal.</strong>
+L’association doit indiquer sur les reçu à quel titre elle peut les émettre.
+En général, elle précise la date de parution au JO de sa situation d’utilité publique.
+Rajouter donc cette mention depuis le menu <em>Général &gt; Nos coordonnées</em> en éditant la fiche et l’ajoutant sur le terme « N° SIRET/SIREN »
+Ce champ est ajouté par défaut en pied de page sur le reçu.</p>
+<p><strong>Ajouter le logo de votre structure.</strong>
+Afin d’éviter d’avoir un logo par défaut dans vos reçus fiscaux en PDF, modifiez le logo de votre association.
+Depuis le menu <em>Général &gt; Nos coordonnées</em>, éditez la fiche et associez lui une image.</p>
+</div>
+<div class="section" id="generation">
+<h2>Génération<a class="headerlink" href="#generation" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Depuis le menu <em>Comptabilité &gt; Reçus fiscaux</em>, on peux visualiser les reçus fiscaux déjà réalisés et filtrés par année civile.</p>
+<blockquote>
+<div><img alt="_images/taxreceipts.png" src="_images/taxreceipts.png" />
+</div></blockquote>
+<p>L’ensemble des reçus est généré manuellement, par année civil, via un bouton <em>Contrôle</em> (en bas à droite):</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>L’outil recherche toutes les lignes d’écritures validées avec les codes (précisés en configuration) non déjà associé à un reçu fiscal.</p></li>
+</ul>
+</div></blockquote>
+<p>C’est son montant qui sera reporté sur le reçu.
+L’outil regarde alors le tiers associés (unique).
+<em>Celui-ci doit être lettré garantissant qu’il est bien soldé.</em></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>L’outil recherche donc tout les écritures associées à son lettrage.</p></li>
+</ul>
+</div></blockquote>
+<p>Toutes ses écritures doivent être également validées.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Et de là, l’outil extrait l’ensemble des règlements.</p></li>
+</ul>
+</div></blockquote>
+<p>C’est ces règlements, et en particulier le dernier, qui font foi pour le reçu fiscal.
+C’est donc sur l’année de ce dernier règlement que sera constitué le reçu fiscal.
+Si le règlement est réalisé sur un autre exercice, c’est l’année de règlement qui fera foi comme date du reçu fiscal.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Attribution d’un numéro unique par année civil de ce nouveau reçu fiscal.</p></li>
+<li><p>Possibilité de gérer des reçus fiscaux pour « abandon de frais »: à la place d’une écriture de règlement, c’est une écriture de charge qui est lettré avec l’écriture d’origine défiscalisable.</p></li>
+</ul>
+</div></blockquote>
+<p>Une fois généré, chaque reçu pourra être imprimé en PDF ainsi qu’envoyer par courriel (comme les factures).</p>
+<p><strong>Attention:</strong> la génération de reçus fiscaux est définitive. Comme ils correspondent à la réalité d’une comptabilité validée, il n’est pas possible de les corriger ou de les annuler.</p>
+<p><strong>Note:</strong> Une version PDF des reçus est automatiquement sauvegardée dans le gestionnaire de document dans un répertoire ayant pour nom l’année civile. Si ce répertoire n’existe pas, il est créé.</p>
+</div>
+</div>
+
+
+      </div>
+      <div class="bottomnav" role="navigation" aria-label="bottom navigation">
+      
+        <p>
+        «&#160;&#160;<a href="statistic.html">Statistiques des adhérents</a>
+        &#160;&#160;::&#160;&#160;
+        <a class="uplink" href="index.html">Contenu</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="config.html">Configuration</a>&#160;&#160;»
+        </p>
+
+      </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, sd-libre.
+    </div>
+  </body>
+</html>
