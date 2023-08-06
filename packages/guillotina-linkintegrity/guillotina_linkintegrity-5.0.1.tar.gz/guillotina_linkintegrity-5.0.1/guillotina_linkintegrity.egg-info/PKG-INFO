@@ -1,0 +1,172 @@
+Metadata-Version: 2.1
+Name: guillotina-linkintegrity
+Version: 5.0.1
+Summary: Link integrity support for guillotina
+Home-page: https://github.com/guillotinaweb/guillotina_linkintegrity
+Author: Nathan Van Gheem
+Author-email: vangheem@gmail.com
+License: UNKNOWN
+Description: # Guillotina link integrity
+        
+        [![Travis CI](https://travis-ci.org/guillotinaweb/guillotina_linkintegrity.svg?branch=master)](https://travis-ci.org/guillotinaweb/guillotina_linkintegrity)
+        [![Test Coverage](https://codecov.io/gh/guillotinaweb/guillotina_linkintegrity/branch/master/graph/badge.svg)](https://codecov.io/gh/guillotinaweb/guillotina_linkintegrity/branch/master)
+        [![Python Versions](https://img.shields.io/pypi/pyversions/guillotina_linkintegrity.svg)](https://pypi.python.org/pypi/guillotina_linkintegrity/)
+        [![PyPi](https://img.shields.io/pypi/v/guillotina_linkintegrity.svg)](https://pypi.python.org/pypi/guillotina_linkintegrity)
+        [![License](https://img.shields.io/pypi/l/guillotina_linkintegrity.svg)](https://pypi.python.org/pypi/guillotina_linkintegrity/)
+        
+        
+        The package aims to provide link integrity support for Guillotina.
+        
+        Features:
+        - Ability to check for linked content
+        - Automatically redirect requests when content is renamed or moved
+        - Manage aliases to content
+        - Translate resolveuid urls in text
+        
+        
+        ## Dependencies
+        
+        - Python >= 3.7
+        - Guillotina > 5
+        - PG/Cockroachdb with redis
+        
+        
+        ## Installation
+        
+        This example will use virtualenv:
+        
+        ```
+          python -m venv .
+          ./bin/pip install .[test]
+        ```
+        
+        
+        ## Running
+        
+        Running Postgresql Server:
+        
+        ```
+        docker run --rm -e POSTGRES_DB=guillotina -e POSTGRES_USER=guillotina -p 127.0.0.1:5432:5432 --name postgres postgres:9.6
+        ```
+        
+        
+        Most simple way to get running:
+        
+        ```
+        ./bin/guillotina
+        ```
+        
+        
+        # API
+        
+        The package provides some high level APIs for interacting with content.
+        
+        Working with linked content:
+        
+        ```python
+        import guillotina_linkintegrity as li
+        
+        await li.get_links(ob)
+        await li.get_links_to(ob)
+        await li.add_links(ob, [ob2, ob3])
+        await li.remove_links(ob, [ob2, ob3])
+        await li.update_links_from_html(ob, content)
+        ```
+        
+        How about aliases:
+        
+        ```python
+        import guillotina_linkintegrity as li
+        
+        await li.get_aliases(ob)
+        await li.add_aliases(ob, ['/foo/bar'])
+        await li.remove_aliases(ob, ['/foo/bar'])
+        
+        # what about aliases from parents that might affect it?
+        await li.get_inherited_aliases(ob)
+        ```
+        
+        Translate uid linked content:
+        
+        ```python
+        import guillotina_linkintegrity as li
+        
+        result = await li.translate_links(content)
+        ```
+        
+        
+        5.0.1 (2019-10-29)
+        ------------------
+        
+        - Fixing behavior richtext field and G5
+          [bloodbare]
+        
+        
+        5.0.0 (2019-06-22)
+        ------------------
+        
+        - Upgrade to work with Guillotina 5
+        
+        
+        1.0.8 (2019-06-18)
+        ------------------
+        
+        - Restrict compat with guillotina
+        
+        
+        1.0.7 (2019-01-29)
+        ------------------
+        
+        - Fix use of storage lock
+          [vangheem]
+        
+        
+        1.0.6 (2019-01-15)
+        ------------------
+        
+        - Safe queries
+          [vangheem]
+        
+        
+        1.0.5 (2018-10-02)
+        
+        - Fix error on link integrity
+          [vangheem]
+        
+        ## 1.0.4 (2018-09-27)
+        
+        - Fix dummy storage 404 error
+        
+        ## 1.0.3 (2018-09-26)
+        
+        - Implement caching
+          [vangheem]
+        
+        
+        ## 1.0.2 (2018-09-26)
+        
+        - Add `@links-to` endpoint and utils.get_links_to
+          [vangheem]
+        
+        - Do not fail when using dummy storage
+          [vangheem]
+        
+        ## 1.0.1 (2018-09-26)
+        
+        - Fix imports to match docs
+          [vangheem]
+        
+        
+        ## 1.0.0 (2018-09-25)
+        
+        - initial release
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: test
