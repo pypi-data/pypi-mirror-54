@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: folstamp
+Version: 1.2
+Summary: Generate custom macOS folder icons.
+Home-page: https://github.com/glezseoane/folder-stamp
+Author: Borja González Seoane
+Author-email: garaje@glezseoane.es
+License: LICENSE
+Download-URL: https://github.com/glezseoane/folder-stamp/archive/v1.2.tar.gz
+Description: This program takes an image that has well differentiated light and dark tones and use it to create a custom stamped macOS folder icon.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Utilities
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Editors
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Requires-Python: >=3.6

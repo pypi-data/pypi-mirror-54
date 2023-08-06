@@ -1,0 +1,3 @@
+[console_scripts]
+folstamp = folstamp.__main__:main
+

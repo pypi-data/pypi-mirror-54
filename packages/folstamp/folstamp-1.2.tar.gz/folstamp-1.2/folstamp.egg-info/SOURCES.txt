@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+folstamp/__init__.py
+folstamp/__main__.py
+folstamp.egg-info/PKG-INFO
+folstamp.egg-info/SOURCES.txt
+folstamp.egg-info/dependency_links.txt
+folstamp.egg-info/entry_points.txt
+folstamp.egg-info/requires.txt
+folstamp.egg-info/top_level.txt
+folstamp/scripts/__init__.py
+folstamp/scripts/gen_iconset.py
+manpages/folstamp.1
+util/GenericFolderIcon.png
+util/apple.png
+util/green_folder.png
