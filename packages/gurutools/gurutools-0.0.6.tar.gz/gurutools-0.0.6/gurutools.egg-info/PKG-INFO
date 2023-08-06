@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gurutools
+Version: 0.0.6
+Summary: A collection of tools we commonly use in Guru services
+Home-page: https://gitlab.com/SchoolOrchestration/libs/gurutools
+Author: AppointmentGuru
+Author-email: tech@appointmentguru.co
+License: UNKNOWN
+Description: # GuruTools
+        
+        [![PyPI version](https://badge.fury.io/py/gurutools.svg)](https://badge.fury.io/py/gurutools)
+        
+        ## Getting started
+        
+        ### Tests:
+        
+        ```
+        docker-compose run --rm web python manage.py test
+        ```
+        
+        ### Run example app
+        
+        ```
+        docker-compose up
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
