@@ -1,0 +1,45 @@
+Metadata-Version: 1.0
+Name: gamification
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/monzita/gamification
+Author: Monika Ilieva
+Author-email: example@hidden.com
+License: MIT License
+Description: Gamification
+        ------------
+        
+        .. image:: https://i.postimg.cc/cCXjSNqs/logo.png
+        
+        Contains implementations of some console games.
+        
+        Installation
+        ************
+        
+        >>> pip install gamification
+        
+        Documentation
+        *************
+        
+        >>> gamification new [game]
+        """
+        Starts a new game, where game is the name of the game which will be played.
+        """
+        >>> gamification [game]
+        """
+        Same as `gamification new [game]`
+        """
+        >>> gamification new
+        """
+        Lists all available games.
+        """
+        
+        LICENSE
+        *******
+        
+        MIT License
+        
+        UPDATES
+        *******
+Keywords: game console
+Platform: UNKNOWN
