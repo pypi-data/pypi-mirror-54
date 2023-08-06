@@ -1,0 +1,11 @@
+supersql/__init__.py,sha256=_jz1dJ9CVg0-7B9iuVhuYj117Is_5QibV02_3KBOM20,30
+supersql/containers/__init__.py,sha256=vr5RKTgqK-TxcAQGFkhKi_X_QvuvO9tgboBgV6At4D4,28
+supersql/containers/integer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supersql/containers/schema.py,sha256=AVpMcGeCqnFK6QNLenJ8z9cz3md7_TMWzxj-LNHB6bQ,34
+supersql/containers/string.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supersql/containers/timestamp.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supersql/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supersql-2019.0.3.dist-info/entry_points.txt,sha256=1tplpgmWhzGRrY6IyLqAQc-MKgWLbPnYVRCdZwkABPU,42
+supersql-2019.0.3.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+supersql-2019.0.3.dist-info/METADATA,sha256=lLWqZu0lTof3EnVe31llCBSjS5xX9l3jaKtg0UCDTYo,2457
+supersql-2019.0.3.dist-info/RECORD,,
