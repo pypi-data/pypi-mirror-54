@@ -1,0 +1,462 @@
+concept,name
+huvudman,Huvudman
+huvudman_type,Typ av huvudman
+municipality,Kommun
+school_unit,Skolkod
+skolverket_delprov_tcv49,Delprov
+skolverket_provnamn_tcv193,Delprovsnamn
+skolverket_provnamn_tcv12,Provnamn
+skolverket_delprovsnamn_tcv12,Delprovsnamn
+skolverket_delprovsnamn,Delprovsnamn
+skolverket_inriktning,Inriktning
+skolverket_inriktning_tcv70,"Antal elever som började 2011 eller senare, per program och inriktning"
+skolverket_program,Program
+skolverket_prov,Prov
+skolverket_provkod,Provkod
+skolverket_provkod_tcv193,Provkod
+skolverket_provnamn,Provnamn
+skolverket_school_subject,Ämne
+skolverket_semester,Termin
+skolverket_andel_arbetar_tre_tcv185,Andel ungdomar som arbetar tre år efter gymnasiestudier
+skolverket_andel_studerar_tre_tcv185,Andel ungdomar som studerar tre år efter gymnasiestudier
+skolverket_andel_arbetar_fem_tcv185,Andel ungdomar som arbetar fem år efter gymnasiestudier
+skolverket_andel_studerar_fem_tcv185,Andel ungdomar som studerar fem år efter gymnasiestudier
+skolverket_ak1_elever_tcv6,Antal elever årskurs 1
+skolverket_ak2_elever_tcv6,Antal elever årskurs 2
+skolverket_ak3_elever_tcv6,Antal elever årskurs 3
+skolverket_ak4_elever_tcv6,Antal elever årskurs 4
+skolverket_ak5_elever_tcv6,Antal elever årskurs 5
+skolverket_ak6_elever_tcv6,Antal elever årskurs 6
+skolverket_ak7_elever_tcv6,Antal elever årskurs 7
+skolverket_ak8_elever_tcv6,Antal elever årskurs 8
+skolverket_ak9_elever_tcv6,Antal elever årskurs 9
+skolverket_and_ae_fli_tcv49,"Andel (%) med A-E, flickor"
+skolverket_and_ae_poj_tcv49,"Andel (%) med A-E, pojkar"
+skolverket_and_ae_tot_tcv49,"Andel (%) med A-E, totalt"
+skolverket_and_beh_ehs_tcv5,"Andel elever (%) behöriga till Ekonomi-, humanistiska och samhällsvetenskaps- program"
+skolverket_and_beh_ehs_exklok_tcv5,"Andel elever behöriga till Ekonomi-, humanistiska och samhällsvetenskaps- program, exklusive okänd bakgrund"
+skolverket_and_beh_est_tcv5,Andel elever (%) behöriga till estetiskt program
+skolverket_and_beh_est_exklok_tcv5,"Andel elever behöriga till estetiskt program, exklusive okänd bakgrund"
+skolverket_and_beh_nt_tcv5,Andel elever (%) behöriga till Naturvetenskapligt och tekniskt program
+skolverket_and_beh_nt_exklok_tcv5,"Andel elever behöriga till Naturvetenskapligt och tekniskt program, exklusive okänd bakgrund"
+skolverket_and_beh_yrk_tcv139,Andel elever behöriga till yrkesprogram
+skolverket_and_beh_yrk_tcv5,Andel elever behöriga till yrkesprogram
+skolverket_and_beh_yrk_exklok_tcv139,"Andel elever behöriga till yrkesprogram, exklusive okänd bakgrund"
+skolverket_and_beh_yrk_exklok_tcv5,"Andel elever behöriga till yrkesprogram, exklusive okänd bakgrund"
+skolverket_and_beh_yrk_exklok_fli_tcv140,"Andel elever behöriga till yrkesprogram, flickor, exklusive okänd bakgrund"
+skolverket_and_beh_yrk_exklok_poj_tcv140,"Andel elever behöriga till yrkesprogram, pojkar, exklusive okänd bakgrund"
+skolverket_and_behorig_eftgy_tcv26,"Andel (%) behöriga till yrkesprogram, föräldrar eftergymnasial utbildning"
+skolverket_and_behorig_f_sv_tcv25,"Andel (%) behöriga till yrkesprogram, utländsk bakgrund födda i Sverige"
+skolverket_and_behorig_f_utl_tcv25,"Andel (%) behöriga till yrkesprogram, utländsk bakgrund födda utomlands"
+skolverket_and_behorig_fli_tcv140,"Andel (%) behöriga till yrkesprogram, flickor"
+skolverket_and_behorig_forgy_tcv26,"Andel (%) behöriga till yrkesprogram, föräldrar förgymnasial utbildning"
+skolverket_and_behorig_gy_tcv26,"Andel (%) behöriga till yrkesprogram, föräldrar gymnasieutbildning"
+skolverket_and_behorig_poj_tcv140,"Andel (%) behöriga till yrkesprogram, pojkar"
+skolverket_and_behorig_sv_tcv25,"Andel (%) behöriga till yrkesprogram, svensk bakgrund"
+skolverket_and_behorig_tot_tcv140,"Andel (%) behöriga till yrkesprogram, totalt"
+skolverket_and_behorig_yrkes_exklok_tcv110,"Andel elever behöriga till yrkesprogram, exklusive okänd bakgrund"
+skolverket_and_behorig_yrkes_exl_tcv110,"Andel (%) behöriga till yrkesprogram, exklusive nyinvandrade"
+skolverket_and_behorig_yrkes_min4ar_tcv110,"Andel elever behöriga till yrkesprogram, exklusive nyinvandrade och okänd bakgrund"
+skolverket_and_behorig_yrkes_min4ar_fli_tcv110,"Andel elever behöriga till yrkesprogram, exklusive nyinvandrade och okänd bakgrund, flickor"
+skolverket_and_behorig_yrkes_min4ar_poj_tcv110,"Andel elever behöriga till yrkesprogram, exklusive nyinvandrade och okänd bakgrund, pojkar"
+skolverket_and_behorig_yrkes_nyinv_tcv110,"Andel (%) behöriga till yrkesprogram, nyinvandrade"
+skolverket_and_behorig_yrkes_samtl_tcv110,Andel elever behöriga till yrkesprogram
+skolverket_and_behoriga_tcv101,"Andel lärare med lärarlegitimation och behörighet i minst ett ämne, alla tjänstgörande lärare"
+skolverket_and_behoriga_tcv102,Andel lärare med lärarlegitimation och behörighet i ämnet
+skolverket_and_behoriga_tcv105,Andel lärare med lärarlegitimation och behörighet i minst ett ämne
+skolverket_and_behoriga_tcv106,Andel lärare med lärarlegitimation och behörighet i ämnet
+skolverket_and_behoriga_tcv263,Andel lärare med lärarlegitimation och behörighet i ämnet
+skolverket_and_delt_fli_tcv49,Andel deltagande flickor
+skolverket_and_delt_poj_tcv49,Andel deltagande flickor
+skolverket_and_delt_tot_tcv49,Andel deltagande totalt
+skolverket_and_ej_beh_tcv5,Andel elever (%) ej behöriga
+skolverket_and_ej_beh_exklok_tcv5,Andel elever ej behöriga exklusive okänd bakgrund
+skolverket_and_helttj_larare_leg_tcv101,"Andel med lärarlegitimation och behörighet i minst ett ämne, heltidstjänster"
+skolverket_and_helttj_larare_leg_tcv102,"Andel med lärarlegitimation och behörighet i ämnet, heltidstjänster"
+skolverket_and_helttj_larare_leg_tcv105,"Andel med lärarlegitimation och behörighet i minst ett ämne, heltidstjänster"
+skolverket_and_helttj_larare_leg_tcv106,"Andel med lärarlegitimation och behörighet i ämnet, heltidstjänster"
+skolverket_and_helttj_larare_leg_tcv263,"Andel med lärarlegitimation och behörighet i ämnet, heltidstjänster"
+skolverket_and_larare_pedex_tcv101,"Andel lärare med pedagogisk högskoleexamen, alla tjänstgörande lärare"
+skolverket_and_larare_pedex_tcv102,"Andel lärare med pedagogisk högskoleexamen, alla tjänstgörande lärare"
+skolverket_and_larare_pedex_tcv105,"Andel lärare med pedagogisk högskoleexamen, alla tjänstgörande lärare"
+skolverket_and_larare_pedex_tcv106,"Andel lärare med pedagogisk högskoleexamen, alla tjänstgörande lärare"
+skolverket_and_larare_pedex_tcv263,"Andel lärare med pedagogisk högskoleexamen, alla tjänstgörande lärare"
+skolverket_and_uppn_alla_amnen_eftgy_tcv26,"Andel som uppnått kunskapskraven i alla ämnen, föräldrar eftergymnasial utbildning"
+skolverket_and_uppn_alla_amnen_exklok_tcv110,"Andel som uppnått kunskapskraven i alla ämnen, exklusive okänd bakgrund"
+skolverket_and_uppn_alla_amnen_exklok_fli_tcv140,"Andel som uppnått kunskapskraven i alla ämnen, flickor, exklusive okänd bakgrund"
+skolverket_and_uppn_alla_amnen_exklok_poj_tcv140,"Andel som uppnått kunskapskraven i alla ämnen, pojkar, exklusive okänd bakgrund"
+skolverket_and_uppn_alla_amnen_exl_tcv110,"Andel som uppnått kunskapskraven i alla ämnen, exklusive nyinvandrade"
+skolverket_and_uppn_alla_amnen_f_sv_tcv25,"Andel som uppnått kunskapskraven i alla ämnen, utländsk bakgrund födda i Sverige"
+skolverket_and_uppn_alla_amnen_f_utl_tcv25,"Andel som uppnått kunskapskraven i alla ämnen, utländsk bakgrund födda utomlands"
+skolverket_and_uppn_alla_amnen_fli_tcv140,"Andel som uppnått kunskapskraven i alla ämnen, flickor"
+skolverket_and_uppn_alla_amnen_forgy_tcv26,"Andel som uppnått kunskapskraven i alla ämnen, föräldrar förgymnasial utbildning"
+skolverket_and_uppn_alla_amnen_gy_tcv26,"Andel som uppnått kunskapskraven i alla ämnen, föräldrar gymnasieutbildning"
+skolverket_and_uppn_alla_amnen_min4ar_tcv110,"Andel elever som uppnått kunskapskraven i alla ämnen, exklusive nyinvandrade och okänd bakgrund"
+skolverket_and_uppn_alla_amnen_min4ar_fli_tcv110,"Andel elever som uppnått kunskapskraven i alla ämnen, exklusive nyinvandrade och okänd bakgrund, flickor"
+skolverket_and_uppn_alla_amnen_min4ar_poj_tcv110,"Andel elever som uppnått kunskapskraven i alla ämnen, exklusive nyinvandrade och okänd bakgrund, pojkar"
+skolverket_and_uppn_alla_amnen_nyinv_tcv110,"Andel som uppnått kunskapskraven i alla ämnen, nyinvandrade"
+skolverket_and_uppn_alla_amnen_poj_tcv140,"Andel som uppnått kunskapskraven i alla ämnen, pojkar"
+skolverket_and_uppn_alla_amnen_samtl_tcv110,"Andel elever som uppnått kunskapskraven i alla ämnen, exklusive nyinvandrade och okänd bakgrund, totalt"
+skolverket_and_uppn_alla_amnen_sv_tcv25,"Andel som uppnått kunskapskraven i alla ämnen, svensk bakgrund"
+skolverket_and_uppn_alla_amnen_tot_tcv140,"Andel som uppnått kunskapskraven i alla ämnen, totalt"
+skolverket_and_utl_bakgr_tcv95,Andel nyinvandrade
+skolverket_andel_a_tcv65,Andel elever med kursprovsbetyg A
+skolverket_andel_ae_fli_tcv93,"Andel (%) med A-E, flickor"
+skolverket_andel_ae_poj_tcv93,"Andel (%) med A-E, pojkar"
+skolverket_andel_ae_tot_tcv93,"Andel (%) med A-E, totalt"
+skolverket_andel_arbetar_ett_tcv185,Andel ungdomar som arbetar ett år efter gymnasiestudier
+skolverket_andel_arbetar_ett_tcv97,Andel ungdomar som arbetar ett år efter gymnasiestudier
+skolverket_andel_arbetar_tre_tcv97,Andel ungdomar som arbetar tre år efter gymnasiestudier
+skolverket_andel_b_tcv65,Andel elever med kursprovsbetyg B
+skolverket_andel_behoriga_hs_tcv54,Andel behöriga till högskolestudier
+skolverket_andel_c_tcv65,Andel elever med kursprovsbetyg C
+skolverket_andel_d_tcv65,Andel elever med kursprovsbetyg D
+skolverket_andel_e_tcv65,Andel elever med kursprovsbetyg E
+skolverket_andel_eftgy_tcv26,"Andel elever, föräldrar eftergymnasial utbildning"
+skolverket_andel_ej_uppnatt_ett_tcv143,Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i ett ämne
+skolverket_andel_ej_uppnatt_ett_exkl_tcv145,"Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i ett ämne, exklusive nyinvandrade och okänd bakgrund"
+skolverket_andel_ej_uppnatt_ett_fli_tcv144,"Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i ett ämne, flickor"
+skolverket_andel_ej_uppnatt_ett_poj_tcv144,"Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i ett ämne, pojkar"
+skolverket_andel_ej_uppnatt_ett_tot_tcv145,"Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i ett ämne, totalt"
+skolverket_andel_ej_uppnatt_min_tva_exkl_tcv145,"Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i minst två ämnen, exklusive nyinvandrade och okänd bakgrund"
+skolverket_andel_ej_uppnatt_min_tva_tot_tcv145,"Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i minst två ämnen, totalt"
+skolverket_andel_ej_uppnatt_minst_tva_tcv143,Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i minst två ämnen
+skolverket_andel_ej_uppnatt_minst_tva_fli_tcv144,"Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i minst två ämnen, flickor"
+skolverket_andel_ej_uppnatt_minst_tva_poj_tcv144,"Andel elever i årskurs 6 som ej uppnått kunskapskraven (A-E) i minst två ämnen, pojkar"
+skolverket_andel_elever_exl_tcv110,Andel elever exklusive nyinvandrade
+skolverket_andel_elever_min4ar_tcv110,"Andel elever årskurs 9, exklusive nyinvandrade och okänd bakgrund"
+skolverket_andel_elever_min4ar_fli_tcv110,"Andel elever årskurs 9, exklusive nyinvandrade och okänd bakgrund, flickor"
+skolverket_andel_elever_min4ar_poj_tcv110,"Andel elever årskurs 9, exklusive nyinvandrade och okänd bakgrund, pojkar"
+skolverket_andel_elever_nyinv_tcv110,Andel elever nyinvandrade
+skolverket_andel_examen_inom_3_tcv90,Andel som slutfört med examen inom 3 år
+skolverket_andel_examen_inom_4_tcv90,Andel som slutfört med examen inom 4 år
+skolverket_andel_examen_inom_5_tcv90,Andel som slutfört med examen inom 5 år
+skolverket_andel_f_tcv65,Andel elever med kursprovsbetyg F
+skolverket_andel_f_sv_tcv25,Andel utländsk bakgrund födda i Sverige
+skolverket_andel_f_utl_tcv25,Andel utländsk bakgrund födda utomlands
+skolverket_andel_fli_tcv140,Andel flickor
+skolverket_andel_forald_eftergymn_utb_tcv136,Andel med föräldrar med eftergymnasial utbildning
+skolverket_andel_forald_eftergymn_utb_tcv21,Andel med föräldrar med eftergymnasial utbildning
+skolverket_andel_forald_eftergymn_utb_tcv70,Andel med föräldrar med eftergymnasial utbildning
+skolverket_andel_forgy_tcv26,"Andel elever, föräldrar förgymnasial utbildning"
+skolverket_andel_gy_tcv26,"Andel elever, föräldrar gymnasieutbildning"
+skolverket_andel_hojt_tcv55,Andel elever med högre kursbetyg än provbetyg i ämnet
+skolverket_andel_hojt_kvi_tcv55,"Andel elever med högre kursbetyg än provbetyg i ämnet, kvinnor"
+skolverket_andel_hojt_man_tcv55,"Andel elever med högre kursbetyg än provbetyg i ämnet, män"
+skolverket_andel_kvi_tcv136,Andel kvinnor
+skolverket_andel_kvi_tcv21,Andel kvinnor
+skolverket_andel_kvi_tcv70,Andel kvinnor
+skolverket_andel_lika_tcv55,Andel elever med lika kursbetyg som provbetyg i ämnet
+skolverket_andel_lika_kvi_tcv55,"Andel elever med lika kursbetyg som provbetyg i ämnet, kvinnor"
+skolverket_andel_lika_man_tcv55,"Andel elever med lika kursbetyg som provbetyg i ämnet, män"
+skolverket_andel_med_examen_tcv88,Andel avgångselever med examen
+skolverket_andel_med_gr_behorighet_tcv88,Andel avgångselever med grundläggande behörighet
+skolverket_andel_med_studiebevis_tcv88,Andel avgångselever med studiebevis
+skolverket_andel_med_utokat_prog_tcv88,Andel avgångselever med utökat program
+skolverket_andel_minst_e_eng5_tcv88,Andel avgångselever med minst betyget E i Engelska 5
+skolverket_andel_minst_e_gyarb_tcv88,Andel avgångselever med minst betyget E i gymnasiearbete
+skolverket_andel_minst_e_hist1_tcv88,Andel avgångselever med minst betyget E i Historia 1
+skolverket_andel_minst_e_idr1_tcv88,Andel avgångselever med minst betyget E i Idrott 1
+skolverket_andel_minst_e_ma1_tcv88,Andel avgångselever med minst betyget E i Matematik 1
+skolverket_andel_minst_e_na1_tcv88,Andel avgångselever med minst betyget E i Naturkunskap 1
+skolverket_andel_minst_e_re1_tcv88,Andel avgångselever med minst betyget E i Religion 1
+skolverket_andel_minst_e_sam1_tcv88,Andel avgångselever med minst betyget E i Samhällskunskap 1
+skolverket_andel_minst_e_sv1_tcv88,Andel avgångselever med minst betyget E i Svenska 1
+skolverket_andel_minst_e_sva1_tcv88,Andel avgångselever med minst betyget E i Svenska som andraspråk 1
+skolverket_andel_natt_malen_alla_amnen_tcv139,Andel som uppnått kunskapskraven i alla ämnen
+skolverket_andel_natt_malen_alla_exklok_tcv139,Andel som uppnått kunskapskraven i alla ämnen exklusive okänd bakgrund
+skolverket_andel_poj_tcv140,Andel pojkar
+skolverket_andel_pojkar_tcv95,Andel (%) pojkar
+skolverket_andel_samma_prog_inom_3_tcv90,Andel elever som startat och slutfört utbildningen inom samma program inom 3 år
+skolverket_andel_samma_prog_inom_4_tcv90,Andel elever som startat och slutfört utbildningen inom samma program inom 4 år
+skolverket_andel_samma_prog_inom_5_tcv90,Andel elever som startat och slutfört utbildningen inom samma program inom 5 år
+skolverket_andel_sankt_tcv55,Andel elever med lägre kursbetyg än provbetyg i ämnet
+skolverket_andel_sankt_kvi_tcv55,"Andel elever med lägre kursbetyg än provbetyg i ämnet, kvinnor"
+skolverket_andel_sankt_man_tcv55,"Andel elever med lägre kursbetyg än provbetyg i ämnet, män"
+skolverket_andel_studerar_ett_tcv185,Andel ungdomar som studerar ett år efter gymnasiestudier
+skolverket_andel_studerar_ett_tcv97,Andel ungdomar som studerar ett år efter gymnasiestudier
+skolverket_andel_studerar_tre_tcv97,Andel ungdomar som studerar tre år efter gymnasiestudier
+skolverket_andel_studiebevis_inom_3_tcv90,Andel elever som slutfört utbildningen med studiebevis om 2500 poäng inom 3 år
+skolverket_andel_studiebevis_inom_4_tcv90,Andel elever som slutfört utbildningen med studiebevis om 2500 poäng inom 4 år
+skolverket_andel_studiebevis_inom_5_tcv90,Andel elever som slutfört utbildningen med studiebevis om 2500 poäng inom 5 år
+skolverket_andel_sv_tcv25,Andel svensk bakgrund
+skolverket_andel_uppnatt_alla_tcv143,Andel elever i årskurs 6 som uppnått kunskapskraven (A-E) i alla ämnen
+skolverket_andel_uppnatt_alla_exkl_tcv145,"Andel elever i årskurs 6 som uppnått kunskapskraven (A-E) i alla ämnen, exklusive nyinvandrade och okänd bakgrund"
+skolverket_andel_uppnatt_alla_fli_tcv144,"Andel elever i årskurs 6 som uppnått kunskapskraven (A-E) i alla ämnen, flickor"
+skolverket_andel_uppnatt_alla_poj_tcv144,"Andel elever i årskurs 6 som uppnått kunskapskraven (A-E) i alla ämnen, pojkar"
+skolverket_andel_uppnatt_alla_tot_tcv145,"Andel elever i årskurs 6 som uppnått kunskapskraven (A-E) i alla ämnen, totalt"
+skolverket_andel_utl_tcv136,Andel elever med utländsk bakgrund
+skolverket_andel_utl_tcv21,Andel elever med utländsk bakgrund
+skolverket_andel_utl_tcv70,Andel elever med utländsk bakgrund
+skolverket_ant_af_fli_tcv49,Antal flickor med provbetyget A-F
+skolverket_ant_af_poj_tcv49,Antal pojkar med provbetyget A-F
+skolverket_ant_af_tot_tcv49,Antal elever med provbetyget A-F
+skolverket_ant_amnen_medel_tcv143,Genomsnittligt antal ämnesbetyg
+skolverket_ant_amnen_medel_exkl_tcv145,Genomsnittligt antal ämnesbetyg exklusive nyinvandrade
+skolverket_ant_amnen_medel_fli_tcv144,"Genomsnittligt antal ämnesbetyg, flickor"
+skolverket_ant_amnen_medel_poj_tcv144,"Genomsnittligt antal ämnesbetyg, pojkar"
+skolverket_ant_amnen_medel_tot_tcv145,"Genomsnittligt antal ämnesbetyg, totalt"
+skolverket_ant_behoriga_tcv101,"Antal lärare med lärarlegitimation och behörighet i minst ett ämne, alla tjänstgörande lärare"
+skolverket_ant_behoriga_tcv102,Antal lärare med lärarlegitimation och behörighet i ämnet
+skolverket_ant_behoriga_tcv105,Antal lärare med lärarlegitimation och behörighet i minst ett ämne
+skolverket_ant_behoriga_tcv106,Antal lärare med lärarlegitimation och behörighet i ämnet
+skolverket_ant_behoriga_tcv263,Antal lärare med lärarlegitimation och behörighet i ämnet
+skolverket_ant_forstelarare_tcv101,Antal tjänstgörande förstelärare
+skolverket_ant_forstelarare_tcv105,Antal tjänstgörande förstelärare
+skolverket_ant_larare_tcv101,Totalt antal tjänstgörande lärare
+skolverket_ant_larare_tcv102,Totalt antal tjänstgörande lärare i ämnet
+skolverket_ant_larare_tcv105,Totalt antal tjänstgörande lärare
+skolverket_ant_larare_tcv106,Totalt antal tjänstgörande lärare i ämnet
+skolverket_ant_larare_tcv263,Totalt antal tjänstgörande lärare i ämnet
+skolverket_ant_larare_pedex_tcv101,"Antal lärare med pedagogisk högskoleexamen, alla tjänstgörande lärare"
+skolverket_ant_larare_pedex_tcv102,"Antal lärare med pedagogisk högskoleexamen i ämnet, alla tjänstgörande lärare"
+skolverket_ant_larare_pedex_tcv105,"Antal lärare med pedagogisk högskoleexamen, alla tjänstgörande lärare"
+skolverket_ant_larare_pedex_tcv106,"Antal lärare med pedagogisk högskoleexamen, alla tjänstgörande lärare"
+skolverket_ant_larare_pedex_tcv263,"Antal lärare med pedagogisk högskoleexamen, alla tjänstgörande lärare"
+skolverket_ant_slutat_tcv185,Antal ungdomar som avslutade studierna detta år
+skolverket_ant_slutat_tcv97,Antal ungdomar som avslutade studierna detta år
+skolverket_antal_eftgy_tcv26,"Antal elever, föräldrar eftergymnasial utbildning"
+skolverket_antal_elever_tcv139,Antal elever
+skolverket_antal_elever_tcv5,Antal elever
+skolverket_antal_elever_tcv55,Totalt antal elever
+skolverket_antal_elever_tcv65,Totalt antal elever
+skolverket_antal_elever_tcv88,Totalt antal elever
+skolverket_antal_elever_exklok_tcv110,"Antal elever, exklusive okänd bakgrund"
+skolverket_antal_elever_exl_tcv110,Antal elever exklusive nyinvandrade
+skolverket_antal_elever_min4ar_tcv110,"Antal elever årskurs 9, exklusive nyinvandrade och okänd bakgrund"
+skolverket_antal_elever_min4ar_fli_tcv110,"Antal elever årskurs 9, exklusive nyinvandrade och okänd bakgrund, flickor"
+skolverket_antal_elever_min4ar_poj_tcv110,"Antal elever årskurs 9, exklusive nyinvandrade och okänd bakgrund, pojkar"
+skolverket_antal_elever_nyinv_tcv110,Antal elever nyinvandrade
+skolverket_antal_elever_samtl_tcv110,"Antal elever, totalt"
+skolverket_antal_f_sv_tcv25,Antal utländsk bakgrund födda i Sverige
+skolverket_antal_f_utl_tcv25,Antal utländsk bakgrund födda utomlands
+skolverket_antal_fli_tcv140,Antal flickor årskurs 9
+skolverket_antal_fli_tcv93,Antal flickor årskurs 9
+skolverket_antal_forgy_tcv26,"Antal elever, föräldrar förgymnasial utbildning"
+skolverket_antal_gy_tcv26,"Antal elever, föräldrar gymnasieutbildning"
+skolverket_antal_kvi_tcv55,Antal kvinnor
+skolverket_antal_m_betyg_tcv143,Antal elever årskurs 6
+skolverket_antal_m_betyg_exkl_tcv145,"Antal elever årskurs 6, exklusive nyinvandrade och okänd bakgrund"
+skolverket_antal_m_betyg_fli_tcv144,"Antal elever årskurs 6, flickor"
+skolverket_antal_m_betyg_poj_tcv144,"Antal elever årskurs 6, pojkar"
+skolverket_antal_m_betyg_tot_tcv145,"Antal elever årskurs 6, totalt"
+skolverket_antal_man_tcv55,Antal män
+skolverket_antal_poj_tcv140,Antal pojkar årskurs 9
+skolverket_antal_poj_tcv93,Antal pojkar i ämnet årskurs 9
+skolverket_antal_slutbetyg_tcv54,Antal elever med slutbetyg
+skolverket_antal_startat_tcv90,Antal elever som startat programmet
+skolverket_antal_sv_tcv25,Antal svensk bakgrund
+skolverket_antal_tot_tcv140,Antal elever i årskurs 9
+skolverket_antal_tot_tcv93,Antal elever i ämnet årskurs 9
+skolverket_ar1_tcv136,Antal elever år 1
+skolverket_ar1_tcv21,Antal elever år 1
+skolverket_ar1_tcv70,Antal elever år 1
+skolverket_ar2_tcv136,Antal elever år 2
+skolverket_ar2_tcv21,Antal elever år 2
+skolverket_ar2_tcv70,Antal elever år 2
+skolverket_ar3_tcv136,Antal elever år 3
+skolverket_ar3_tcv21,Antal elever år 3
+skolverket_ar3_tcv70,Antal elever år 3
+skolverket_ber_and_uppn_malen_tcv95,Modell- beräknat värde (B) för andel (%) som uppnått kunskapskraven
+skolverket_ber_meritvarde_tcv95,Modell- beräknat värde (B) för genomsnittligt meritvärde
+skolverket_betpoang_fli_tcv93,Betygspoäng flickor
+skolverket_betpoang_poj_tcv93,Betygspoäng pojkar
+skolverket_betpoang_tot_tcv93,Betygspoäng totalt
+skolverket_bi_andel_hojt_tcv4,"Andel (%) elever med högre slutbetyg jämfört med provbetyget, biologi"
+skolverket_bi_andel_lika_tcv4,"Andel (%) elever med lika slutbetyg jämfört med provbetyget, biologi"
+skolverket_bi_andel_sankt_tcv4,"Andel (%) elever med lägre slutbetyg jämfört med provbetyget, biologi"
+skolverket_bi_antal_m_betyg_tcv4,"Antal elever med provbetyg och slutbetyg, biologi"
+skolverket_elever_789_per_syv_tcv16,"Antal elever årskurs 7-9 per studie- och yrkesvägledare, heltidstjänster"
+skolverket_elever_per_helttj_tcv17,Antal elever per heltidstjänst
+skolverket_elever_per_larare_tcv16,"Antal elever per lärare, heltidstjänster"
+skolverket_elever_per_syv_tcv16,"Antal elever per studie- och yrkesvägledare, heltidstjänster"
+skolverket_elever_per_syvhelttj_tcv17,Antal elever per studie- och yrkesvägledare
+skolverket_en_andel_hojt_tcv1,Andel elever i årskurs 9 med högre slutbetyg i engelska jämfört med provbetyget
+skolverket_en_andel_hojt_tcv2,Andel elever i årskurs 9 med högre slutbetyg i engelska jämfört med provbetyget
+skolverket_en_andel_hojt_tcv83,Andel elever i årskurs 6 med högre slutbetyg i engelska jämfört med provbetyget
+skolverket_en_andel_lika_tcv1,Andel elever i årskurs 9 med lika slutbetyg i engelska jämfört med provbetyget
+skolverket_en_andel_lika_tcv2,Andel elever i årskurs 9 med lika slutbetyg i engelska jämfört med provbetyget
+skolverket_en_andel_lika_tcv83,Andel elever i årskurs 6 med lika slutbetyg i engelska jämfört med provbetyget
+skolverket_en_andel_sankt_tcv1,Andel elever i årskurs 9 med lägre slutbetyg i engelska jämfört med provbetyget
+skolverket_en_andel_sankt_tcv2,Andel elever i årskurs 9 med lägre slutbetyg i engelska jämfört med provbetyget
+skolverket_en_andel_sankt_tcv83,Andel elever i årskurs 6 med lägre slutbetyg i engelska jämfört med provbetyget
+skolverket_en_antal_m_betyg_tcv1,Antal elever i årskurs 9 med provbetyg och slutbetyg i engelska
+skolverket_en_antal_m_betyg_tcv2,Antal elever i årskurs 9 med provbetyg och slutbetyg i engelska
+skolverket_en_antal_m_betyg_tcv83,Antal elever i årskurs 6 med provbetyg och slutbetyg i engelska
+skolverket_fklass_andel_fli_tcv6,Andel (%) flickor förskoleklass
+skolverket_fklass_elever_tcv6,Antal elever förskoleklass
+skolverket_fli_andel_ae_tcv193,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) i nationella provets delprov, flickor"
+skolverket_fli_andel_ae_tcv196,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) nationella provet för ämnet, flickor"
+skolverket_fli_andel_ae_tcv199,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) i nationella provet för ämnet, flickor"
+skolverket_fli_andel_ae_tcv200,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) i nationella provet för ämnet, flickor"
+skolverket_fli_andel_ae_tcv71,"Andel elever i årskurs 6 som uppnått kunskapskraven (A-E) i ämnet, flickor"
+skolverket_fli_gbp_tcv193,"Genomsnittligt betygspoäng i nationella provets delprov för ämnet för elever i årskurs 9, flickor"
+skolverket_fli_gbp_tcv196,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 9, flickor"
+skolverket_fli_gbp_tcv199,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 9, flickor"
+skolverket_fli_gbp_tcv200,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 9, flickor"
+skolverket_fli_gbp_tcv71,"Genomsnittligt betygspoäng i ämnet för elever i årskurs 6, flickor"
+skolverket_fli_m_betyg_tcv193,Antal flickor som deltagit i nationella provets delprov i ämnet årskurs 9
+skolverket_fli_m_betyg_tcv196,Antal flickor som deltagit i nationella provet i ämnet årskurs 9
+skolverket_fli_m_betyg_tcv199,Antal flickor som deltagit i nationella provet i ämnet årskurs 9
+skolverket_fli_m_betyg_tcv200,Antal flickor som deltagit i nationella provet i ämnet årskurs 9
+skolverket_fli_m_betyg_tcv71,Antal flickor med betyg i ämnet årskurs 6
+skolverket_foraldr_utb_tcv95,Föräldrarnas genomsnittliga utbildningsnivå
+skolverket_fy_andel_hojt_tcv4,"Andel (%) elever med högre slutbetyg jämfört med provbetyget, fysik"
+skolverket_fy_andel_lika_tcv4,"Andel (%) elever med lika slutbetyg jämfört med provbetyget, fysik"
+skolverket_fy_andel_sankt_tcv4,"Andel (%) elever med lägre slutbetyg jämfört med provbetyget, fysik"
+skolverket_fy_antal_m_betyg_tcv4,"Antal elever med provbetyg och slutbetyg, fysik"
+skolverket_gbp_tcv54,Genomsnittligt betygspoäng
+skolverket_gbp_tcv88,Genomsnittligt betygspoäng för elever med examen eller studiebevis
+skolverket_gbp_examen_tcv88,Genomsnittligt betygspoäng för elever med examen
+skolverket_gbp_fli_tcv49,"Genomsnittligt betygspoäng, flickor"
+skolverket_gbp_poj_tcv49,"Genomsnittligt betygspoäng, pojkar"
+skolverket_gbp_tot_tcv49,"Genomsnittligt betygspoäng, totalt"
+skolverket_ge_andel_hojt_tcv123,"Andel (%) elever med högre slutbetyg jämfört med provbetyget, geografi"
+skolverket_ge_andel_lika_tcv123,"Andel (%) elever med lika slutbetyg jämfört med provbetyget, geografi"
+skolverket_ge_andel_sankt_tcv123,"Andel (%) elever med lägre slutbetyg jämfört med provbetyget, geografi"
+skolverket_ge_antal_m_betyg_tcv123,"Antal elever med provbetyg och slutbetyg, geografi"
+skolverket_gmv_eftgy_tcv26,"Genomsnittligt meritvärde (16), föräldrar eftergymnasial utbildning"
+skolverket_gmv_exklok_tcv110,"Genomsnittligt meritvärde årskurs 9, exklusive nyinvandrade"
+skolverket_gmv_exl_tcv110,"Genomsnittligt meritvärde (16), exklusive nyinvandrade"
+skolverket_gmv_f_sv_tcv25,"Genomsnittligt meritvärde (17), utländsk bakgrund födda i Sverige"
+skolverket_gmv_f_utl_tcv25,"Genomsnittligt meritvärde (17), utländsk bakgrund födda utomlands"
+skolverket_gmv_fli_tcv140,"Genomsnittligt meritvärde (17), flickor"
+skolverket_gmv_forgy_tcv26,"Genomsnittligt meritvärde (16), föräldrar förgymnasial utbildning"
+skolverket_gmv_gy_tcv26,"Genomsnittligt meritvärde (16), föräldrar gymnasieutbildning"
+skolverket_gmv_min4ar_tcv110,"Genomsnittligt meritvärde årskurs 9, exklusive nyinvandrade och okänd bakgrund"
+skolverket_gmv_min4ar_fli_tcv110,"Genomsnittligt meritvärde årskurs 9, exklusive nyinvandrade och okänd bakgrund, flickor"
+skolverket_gmv_min4ar_poj_tcv110,"Genomsnittligt meritvärde årskurs 9, exklusive nyinvandrade och okänd bakgrund, pojkar"
+skolverket_gmv_nyinv_tcv110,"Genomsnittligt meritvärde (16), nyinvandrade"
+skolverket_gmv_poj_tcv140,"Genomsnittligt meritvärde (17), pojkar"
+skolverket_gmv_samtl_tcv110,"Genomsnittligt meritvärde årskurs 9, totalt"
+skolverket_gmv_sv_tcv25,"Genomsnittligt meritvärde (17), svensk bakgrund"
+skolverket_gmv_tot_tcv140,"Genomsnittligt meritvärde (17), totalt"
+skolverket_gnm_betp_tcv65,Genomsnittligt provbetygspoäng
+skolverket_gnm_meritvarde_tcv139,Genomsnittligt meritvärde (17)
+skolverket_gnm_meritvarde_exklok_tcv139,Genomsnittligt meritvärde (17 exklusive okänd bakgrund
+skolverket_gnm_meritvarde_exklok_fli_tcv140,"Genomsnittligt meritvärde årskurs 9, exklusive nyinvandrade, flickor"
+skolverket_gnm_meritvarde_exklok_poj_tcv140,"Genomsnittligt meritvärde årskurs 9, exklusive nyinvandrade, pojkar"
+skolverket_helttj_adm_tcv16,"Antal rektorstjänster, heltid"
+skolverket_helttj_adm_tcv17,"Antal rektorer, heltidstjänster"
+skolverket_helttj_andel_kvi_tcv16,"Andel kvinnliga anställda, heltidstjänster"
+skolverket_helttj_andel_kvi_tcv17,Heltidstjänster andel kvinnor
+skolverket_helttj_andel_ped_tcv16,"Andel anställda med pedagogisk högskoleexamen, heltidstjänster"
+skolverket_helttj_andel_ped_tcv17,Heltidstjänster andel med pedagogisk högskoleexamen
+skolverket_helttj_andel_specped_tcv16,"Andel anställda med specialpedagogisk högskoleexamen, heltidstjänster"
+skolverket_helttj_andel_specped_tcv17,Heltidstjänster andel med specialpedagogisk högskoleexamen
+skolverket_helttj_andel_tillsv_tcv16,Andel tillsvidareanställda
+skolverket_helttj_andel_tillsv_tcv17,Heltidstjänster andel tillsvidareanställda
+skolverket_helttj_forstelarare_tcv101,"Antal förstelärare, heltidstjänster"
+skolverket_helttj_forstelarare_tcv105,"Antal förstelärare, heltidstjänster"
+skolverket_helttj_larare_tcv101,Antal heltidsjänster lärare
+skolverket_helttj_larare_tcv102,Antal heltidsjänster lärare i ämnet
+skolverket_helttj_larare_tcv105,Heltidstjänster lärare
+skolverket_helttj_larare_tcv106,Heltidstjänster lärare
+skolverket_helttj_larare_tcv16,Antal heltidsjänster lärare
+skolverket_helttj_larare_tcv17,Heltidstjänster lärare
+skolverket_helttj_larare_tcv263,Heltidstjänster lärare
+skolverket_helttj_larare_leg_tcv101,Antal heltidsjänster med lärarlegitimation och behörighet i minst ett ämne
+skolverket_helttj_larare_leg_tcv102,Antal heltidsjänster med lärarlegitimation och behörighet i ämnet
+skolverket_helttj_larare_leg_tcv105,Antal heltidstjänster lärare med lärarlegitimation och behörighet i ämnet
+skolverket_helttj_larare_leg_tcv106,Antal heltidstjänster lärare med lärarlegitimation och behörighet i minst ett ämne
+skolverket_helttj_larare_leg_tcv263,Antal heltidstjänster lärare med lärarlegitimation och behörighet i minst ett ämne
+skolverket_helttj_larare_o_adm_tcv16,"Antal lärar- och rektorstjänster, heltid"
+skolverket_helttj_larare_o_adm_tcv17,Heltidstjänster antal lärare och rektorer
+skolverket_helttj_syv_tcv16,"Antal studie- och yrkesvägledartjänster, heltid"
+skolverket_helttj_syv_tcv17,Heltidstjänster antal studie- och yrkesvägledare
+skolverket_hi_andel_hojt_tcv123,"Andel (%) elever med högre slutbetyg jämfört med provbetyget, historia"
+skolverket_hi_andel_lika_tcv123,"Andel (%) elever med lika slutbetyg jämfört med provbetyget, historia"
+skolverket_hi_andel_sankt_tcv123,"Andel (%) elever med lägre slutbetyg jämfört med provbetyget, historia"
+skolverket_hi_antal_m_betyg_tcv123,"Antal elever med provbetyg och slutbetyg, historia"
+skolverket_ke_andel_hojt_tcv4,"Andel (%) elever med högre slutbetyg jämfört med provbetyget, kemi"
+skolverket_ke_andel_lika_tcv4,"Andel (%) elever med lika slutbetyg jämfört med provbetyget, kemi"
+skolverket_ke_andel_sankt_tcv4,"Andel (%) elever med lägre slutbetyg jämfört med provbetyget, kemi"
+skolverket_ke_antal_m_betyg_tcv4,"Antal elever med provbetyg och slutbetyg, kemi"
+skolverket_ma_andel_hojt_tcv1,Andel elever i årskurs 9 med högre slutbetyg i matematik jämfört med provbetyget
+skolverket_ma_andel_hojt_tcv2,Andel elever i årskurs 9 med högre slutbetyg i matematik jämfört med provbetyget
+skolverket_ma_andel_hojt_tcv83,Andel elever i årskurs 6 med högre slutbetyg i matematik jämfört med provbetyget
+skolverket_ma_andel_lika_tcv1,Andel elever i årskurs 9 med lika slutbetyg i matematik jämfört med provbetyget
+skolverket_ma_andel_lika_tcv2,Andel elever i årskurs 9 med lika slutbetyg i matematik jämfört med provbetyget
+skolverket_ma_andel_lika_tcv83,Andel elever i årskurs 6 med lika slutbetyg i matematik jämfört med provbetyget
+skolverket_ma_andel_sankt_tcv1,Andel elever i årskurs 9 med lägre slutbetyg i matematik jämfört med provbetyget
+skolverket_ma_andel_sankt_tcv2,Andel elever i årskurs 9 med lägre slutbetyg i matematik jämfört med provbetyget
+skolverket_ma_andel_sankt_tcv83,Andel elever i årskurs 6 med lägre slutbetyg i matematik jämfört med provbetyget
+skolverket_ma_antal_m_betyg_tcv1,Antal elever i årskurs 9 med provbetyg och slutbetyg i matematik
+skolverket_ma_antal_m_betyg_tcv2,Antal elever i årskurs 9 med provbetyg och slutbetyg i matematik
+skolverket_ma_antal_m_betyg_tcv83,Antal elever i årskurs 6 med provbetyg och slutbetyg i matematik
+skolverket_poj_andel_ae_tcv193,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) i nationella provets delprov, pojkar"
+skolverket_poj_andel_ae_tcv196,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) nationella provet för ämnet, pojkar"
+skolverket_poj_andel_ae_tcv199,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) i nationella provet för ämnet, pojkar"
+skolverket_poj_andel_ae_tcv200,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) i nationella provet för ämnet, pojkar"
+skolverket_poj_andel_ae_tcv71,"Andel elever i årskurs 6 som uppnått kunskapskraven (A-E) i ämnet, pojkar"
+skolverket_poj_gbp_tcv193,"Genomsnittligt betygspoäng i nationella provets delprov för ämnet för elever i årskurs 9, pojkar"
+skolverket_poj_gbp_tcv196,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 9, pojkar"
+skolverket_poj_gbp_tcv199,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 9, pojkar"
+skolverket_poj_gbp_tcv200,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 9, pojkar"
+skolverket_poj_gbp_tcv71,"Genomsnittligt betygspoäng i ämnet för elever i årskurs 6, pojkar"
+skolverket_poj_m_betyg_tcv193,Antal pojkar som deltagit i nationella provets delprov i ämnet årskurs 9
+skolverket_poj_m_betyg_tcv196,Antal pojkar som deltagit i nationella provet i ämnet årskurs 9
+skolverket_poj_m_betyg_tcv199,Antal pojkar som deltagit i nationella provet i ämnet årskurs 9
+skolverket_poj_m_betyg_tcv200,Antal pojkar som deltagit i nationella provet i ämnet årskurs 9
+skolverket_poj_m_betyg_tcv71,Antal pojkar med betyg i ämnet årskurs 6
+skolverket_re_andel_hojt_tcv123,"Andel (%) elever med högre slutbetyg jämfört med provbetyget, religion"
+skolverket_re_andel_lika_tcv123,"Andel (%) elever med lika slutbetyg jämfört med provbetyget, religion"
+skolverket_re_andel_sankt_tcv123,"Andel (%) elever med lägre slutbetyg jämfört med provbetyget, religion"
+skolverket_re_antal_m_betyg_tcv123,"Antal elever med provbetyg och slutbetyg, religion"
+skolverket_riket_and_natt_tcv12,Andel elever i årskurs 3 i riket som nått kravnivån i nationella provet i ämnet
+skolverket_sa_andel_hojt_tcv123,"Andel (%) elever med högre slutbetyg jämfört med provbetyget, samhällskunskap"
+skolverket_sa_andel_lika_tcv123,"Andel (%) elever med lika slutbetyg jämfört med provbetyget, samhällskunskap"
+skolverket_sa_andel_sankt_tcv123,"Andel (%) elever med lägre slutbetyg jämfört med provbetyget, samhällskunskap"
+skolverket_sa_antal_m_betyg_tcv123,"Antal elever med provbetyg och slutbetyg, samhällskunskap"
+skolverket_sal_and_uppn_malen_tcv95,Residual (R=F-B) för andel som uppnått kunskapskraven
+skolverket_sal_meritvarde_tcv95,Residual (R=F-B) för genomsnittligt meritvärde
+skolverket_skola_and_natt_tcv12,Andel elever i årskurs 3 i skolan som nått kravnivån i nationella provet i ämnet
+skolverket_skola_ant_elever_tcv12,Antal elever som läser ämnet i årskurs 3
+skolverket_sv_andel_hojt_tcv1,Andel elever i årskurs 9 med högre slutbetyg i svenska jämfört med provbetyget
+skolverket_sv_andel_hojt_tcv2,Andel elever i årskurs 9 med högre slutbetyg i svenska jämfört med provbetyget
+skolverket_sv_andel_hojt_tcv83,Andel elever i årskurs 6 med högre slutbetyg i svenska jämfört med provbetyget
+skolverket_sv_andel_lika_tcv1,Andel elever i årskurs 9 med lika slutbetyg i svenska jämfört med provbetyget
+skolverket_sv_andel_lika_tcv2,Andel elever i årskurs 9 med lika slutbetyg i svenska jämfört med provbetyget
+skolverket_sv_andel_lika_tcv83,Andel elever i årskurs 6 med lika slutbetyg i svenska jämfört med provbetyget
+skolverket_sv_andel_sankt_tcv1,Andel elever i årskurs 9 med lägre slutbetyg i svenska jämfört med provbetyget
+skolverket_sv_andel_sankt_tcv2,Andel elever i årskurs 9 med lägre slutbetyg i svenska jämfört med provbetyget
+skolverket_sv_andel_sankt_tcv83,Andel elever i årskurs 6 med lägre slutbetyg i svenska jämfört med provbetyget
+skolverket_sv_antal_m_betyg_tcv1,Antal elever i årskurs 9 med provbetyg och slutbetyg i svenska
+skolverket_sv_antal_m_betyg_tcv2,Antal elever i årskurs 9 med provbetyg och slutbetyg i svenska
+skolverket_sv_antal_m_betyg_tcv83,Antal elever i årskurs 6 med provbetyg och slutbetyg i svenska
+skolverket_sva_andel_hojt_tcv1,Andel elever i årskurs 9 med högre slutbetyg i svenska som andraspråk jämfört med provbetyget
+skolverket_sva_andel_hojt_tcv2,Andel elever i årskurs 9 med högre slutbetyg i svenska som andraspråk jämfört med provbetyget
+skolverket_sva_andel_hojt_tcv83,Andel elever i årskurs 6 med högre slutbetyg i svenska som andraspråk jämfört med provbetyget
+skolverket_sva_andel_lika_tcv1,Andel elever i årskurs 9 med lika slutbetyg i svenska som andraspråk jämfört med provbetyget
+skolverket_sva_andel_lika_tcv2,Andel elever i årskurs 9 med lika slutbetyg i svenska som andraspråk jämfört med provbetyget
+skolverket_sva_andel_lika_tcv83,Andel elever i årskurs 6 med lika slutbetyg i svenska som andraspråk jämfört med provbetyget
+skolverket_sva_andel_sankt_tcv1,Andel elever i årskurs 9 med lägre slutbetyg i svenska som andraspråk jämfört med provbetyget
+skolverket_sva_andel_sankt_tcv2,Andel elever i årskurs 9 med lägre slutbetyg i svenska som andraspråk jämfört med provbetyget
+skolverket_sva_andel_sankt_tcv83,Andel elever i årskurs 6 med lägre slutbetyg i svenska som andraspråk jämfört med provbetyget
+skolverket_sva_antal_m_betyg_tcv1,Antal elever i årskurs 9 med provbetyg och slutbetyg i svenska som andraspråk
+skolverket_sva_antal_m_betyg_tcv2,Antal elever i årskurs 9 med provbetyg och slutbetyg i svenska som andraspråk
+skolverket_sva_antal_m_betyg_tcv83,Antal elever i årskurs 6 med provbetyg och slutbetyg i svenska som andraspråk
+skolverket_tot_andel_ae_tcv193,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) i nationella provets delprov, totalt"
+skolverket_tot_andel_ae_tcv196,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) nationella provet för ämnet, totalt"
+skolverket_tot_andel_ae_tcv199,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) i nationella provet för ämnet, totalt"
+skolverket_tot_andel_ae_tcv200,"Andel elever i årskurs 9 som uppnått kunskapskraven (A-E) i nationella provet för ämnet, totalt"
+skolverket_tot_andel_ae_tcv71,"Andel elever i årskurs 6 som uppnått kunskapskraven (A-E) i ämnet, pojkar"
+skolverket_tot_andel_fli_tcv6,Andel flickor årskurs 1-9
+skolverket_tot_andel_foraldr_eftergy_utb_tcv6,Andel elever med föräldrar med eftergymnasial utbildning årskurs 1-9
+skolverket_tot_andel_utl_bakgr_tcv6,Andel elever med utländsk bakgrund årskurs 1-9
+skolverket_tot_elever_tcv136,Totalt antal elever
+skolverket_tot_elever_tcv21,Totalt antal elever per program och inriktning
+skolverket_tot_elever_tcv6,Antal elever årskurs 1-9
+skolverket_tot_elever_tcv70,Totalt antal elever per program
+skolverket_tot_gbp_tcv193,"Genomsnittligt betygspoäng i nationella provets delprov för ämnet för elever i årskurs 9, totalt"
+skolverket_tot_gbp_tcv196,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 9, totalt"
+skolverket_tot_gbp_tcv199,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 9, totalt"
+skolverket_tot_gbp_tcv200,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 9, totalt"
+skolverket_tot_gbp_tcv71,"Genomsnittligt betygspoäng i nationella provet för ämnet för elever i årskurs 6, totalt"
+skolverket_tot_m_betyg_tcv193,Antal elever som deltagit i nationella provets delprov i ämnet årskurs 9
+skolverket_tot_m_betyg_tcv196,Antal elever som deltagit i nationella provet i ämnet årskurs 9
+skolverket_tot_m_betyg_tcv199,Antal elever som deltagit i nationella provet i ämnet årskurs 9
+skolverket_tot_m_betyg_tcv200,Antal elever som deltagit i nationella provet i ämnet årskurs 9
+skolverket_tot_m_betyg_tcv71,Antal elever med betyg i ämnet årskurs 6
+skolverket_ver_and_uppn_malen_tcv95,Faktiskt värde för andel (%) som uppnått kunskapskraven
+skolverket_ver_meritvarde_tcv95,Faktiskt genomsnittligt meritvärde
