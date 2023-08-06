@@ -1,0 +1,86 @@
+# Configuration for Solstice Project
+
+# Define configuration variables for Solstice
+project:
+  id_number: "2"
+  id: "2252d6c8-407d-4419-a186-cf90760c9967"
+  url: "https://www.solsticeshortfilm.com/"
+  documentation_url: "https://tpoveda.github.io/solstice/"
+  emails:
+    - "tpovedatd@gmail.com"
+  tag_types:
+    - "Scene"
+    - "Prop"
+    - "Character"
+    - "Background Element"
+    - "Light Rig"
+    - "Model"
+    - "Animation"
+    - "Shading"
+    - "Cloth"
+    - "Groom"
+    - "Camera"
+  outliner_categories:
+    "Props":
+      - "Prop"
+    "Characters":
+      - "Character"
+    "Cameras":
+      - "Camera"
+    "Lights":
+      - "Light Rig"
+    "FX":
+      - "Cloth"
+      - "Groom"
+
+# Define configuration variables for project assets
+asset:
+  types:
+    - "Props"
+    - "Background Elements"
+    - "Characters"
+  files:
+    - "textures"
+    - "model"
+    - "shading"
+    - "rig"
+    - "groom"
+  must_files:
+    - "textures"
+    - "model"
+    - "shading"
+    - "rig"
+  ignored_paths:
+    - "PIPELINE"
+    - "lighting"
+    - "Light Rigs"
+    - "S_CH_02_summer_scripts"
+  library_supported_files:
+    "rig":
+      ".ma"
+    "alembic":
+      ".abc"
+    "standin":
+      ".ass"
+
+# Define configuration variables for project shaders
+shaders:
+  extension: ".sshader"
+
+# Define configuration variables for project playblast
+playblast:
+  presets_url: "Assets/Scripts/PIPELINE/__working__/PlayblastPresets"
+
+# Define configuration variables for project shots
+shot:
+  regex: "(\\A[^_]+_\\d{2,2}_\\d{2,3})"
+  file_types:
+    - "Layout"
+    - "Animation"
+    - "FX"
+    - "Lighting"
+
+# Define configuration variables for project progress bar
+progress_bar:
+  color0: "245, 180, 148"
+  color1: "75, 70, 170"
