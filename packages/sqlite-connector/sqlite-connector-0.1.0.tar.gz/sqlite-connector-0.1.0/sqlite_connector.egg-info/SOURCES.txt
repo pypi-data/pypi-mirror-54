@@ -1,0 +1,9 @@
+README.md
+setup.py
+sqlite_connector/__init__.py
+sqlite_connector/sqlite.py
+sqlite_connector.egg-info/PKG-INFO
+sqlite_connector.egg-info/SOURCES.txt
+sqlite_connector.egg-info/dependency_links.txt
+sqlite_connector.egg-info/requires.txt
+sqlite_connector.egg-info/top_level.txt
