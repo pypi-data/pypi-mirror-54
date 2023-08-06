@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: BlackjackByIkers
+Version: 1.1.0
+Summary: A blackjack game, developed and packaged by Ikers
+Home-page: https://github.com/Ikers00/Blackjack
+Author: Ikers00
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: random
+Requires-Dist: time
+
+UNKNOWN
+
+
