@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bazel-workspaces-python
+Version: 0.1.0
+Summary: Generator of Bazel workspaces for Python modules
+Home-page: https://github.com/kubic-project/bazel-workspaces-python
+Author: Michal Rostecki
+Author-email: mrostecki@opensuse.org
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: bazel build workspaces
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6.*, <4
+Provides-Extra: dev
+Provides-Extra: test

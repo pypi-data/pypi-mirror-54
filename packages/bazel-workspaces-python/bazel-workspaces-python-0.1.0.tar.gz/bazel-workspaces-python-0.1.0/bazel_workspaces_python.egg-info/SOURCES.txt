@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+bazel_workspaces_python/__init__.py
+bazel_workspaces_python/cli.py
+bazel_workspaces_python/sources.py
+bazel_workspaces_python/template.py
+bazel_workspaces_python.egg-info/PKG-INFO
+bazel_workspaces_python.egg-info/SOURCES.txt
+bazel_workspaces_python.egg-info/dependency_links.txt
+bazel_workspaces_python.egg-info/entry_points.txt
+bazel_workspaces_python.egg-info/requires.txt
+bazel_workspaces_python.egg-info/top_level.txt
+bazel_workspaces_python/test/__init__.py
+bazel_workspaces_python/test/test_sources.py
+bazel_workspaces_python/test/test_template.py
