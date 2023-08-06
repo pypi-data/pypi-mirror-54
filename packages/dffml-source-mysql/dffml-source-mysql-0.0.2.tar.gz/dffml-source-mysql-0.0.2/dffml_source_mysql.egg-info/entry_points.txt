@@ -1,0 +1,3 @@
+[dffml.source]
+mysql = dffml_source_mysql.source:MySQLSource
+
