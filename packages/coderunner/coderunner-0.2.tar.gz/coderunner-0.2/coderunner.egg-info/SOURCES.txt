@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+coderunner/__init__.py
+coderunner/coderunner.py
+coderunner.egg-info/PKG-INFO
+coderunner.egg-info/SOURCES.txt
+coderunner.egg-info/dependency_links.txt
+coderunner.egg-info/requires.txt
+coderunner.egg-info/top_level.txt
