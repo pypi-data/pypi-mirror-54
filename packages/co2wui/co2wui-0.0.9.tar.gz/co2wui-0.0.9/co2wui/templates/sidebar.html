@@ -1,0 +1,67 @@
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+	
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-bolt"></i> <span>{{ _("Run Co<sub>2</sub>mpas") }}</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-down pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="/run/download-template-form"><i class="fa fa-download"></i> {{ _("Download input template") }}</a></li>
+            <li><a href="/run/simulation-form"><i class="fa fa-car"></i> {{ _("Run simulation") }}</a></li>
+            <li><a href="/run/view-results"><i class="fa fa-bars"></i> {{ _("View results") }}</a></li>
+						<li><a href="/demo/download-demo-form"><i class="fa fa-download"></i> {{ _("Download demo file") }}</a></li>
+          </ul>
+        </li>
+        <li class="treeview active">
+					<a href="#">
+            <i class="fa fa-random"></i> <span>Synchronise data</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-down pull-right"></i>
+            </span>
+          </a>
+					<ul class="treeview-menu">
+            <li><a href="/sync/template-form"><i class="fa fa-download"></i> {{ _("Donwload input template") }}</a></li>
+            <li><a href="/sync/synchronisation-form"><i class="fa fa-refresh"></i> {{ _("Synchronise data") }}</a></li>
+          </ul>              
+        </li>
+        <li class="treeview {{data.props.active.expert}}">
+          <a href="#">
+            <i class="fa fa-flask"></i> <span>{{ _("Expert functionalities") }}</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-down pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+{% if not data.globals.plot_port %}
+            <li><a href="/plot/launched"><i class="fa fa-download"></i> {{ _("Show model graph") }}</a></li>
+{% else %}
+						<li><a target=_blank href="http://localhost:{{ data.globals.plot_port }}"><i class="fa fa-download"></i> {{ _("Show model graph") }}</a></li>
+{% endif %}
+            <li><a href="/conf/configuration-form"><i class="fa fa-upload"></i> {{ _("Co2mpas configuration") }}</a></li>
+          </ul>
+        </li>
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-bookmark"></i> <span>{{ _("Support & docs") }}</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-down pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="https://co2mpas.readthedocs.io" target=_blank><i class="fa fa-book"></i> {{ _("Documentation") }}</a></li>
+            <li><a href="/contact-us"><i class="fa fa-question-circle"></i> {{ _("Contact us") }}</a></li>
+          </ul>
+        </li>
+      
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+		
+  </aside>

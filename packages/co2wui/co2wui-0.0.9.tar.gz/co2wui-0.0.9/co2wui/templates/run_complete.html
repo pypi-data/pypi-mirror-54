@@ -1,0 +1,89 @@
+<div class="row">	
+			
+	<section class="col-lg-12 connectedSortable" style="text-align: center;">
+		{% if data.result == 'OK' %}
+		<div class="small-box bg-green">
+			<div class="inner">
+				<h3><i class="fa fa-check"></i></h3>
+				<p style="text-align: center;">{{ _("Your simulation is complete") }}</p>
+			</div>
+			<div class="icon">
+				<i class="ion ion-stats-bars"></i>
+			</div>
+			<a href="#" class="small-box-footer">
+				Please review the list of result files below and click on a link to download the result files or display the summary of your simulation. 
+			</a>			
+		</div>
+		{% else %}
+		<div class="small-box bg-red">
+			<div class="inner">
+				<h3><i class="fa fa-exclamation-triangle"></i></h3>
+				<p style="text-align: center;">Simulation terminated {% if not data.stopped %} with some errors {% else %} at user's request {% endif %}</p>
+			</div>
+			<div class="icon">
+				<i class="ion ion-stats-bars"></i>
+			</div>
+			<a href="#" class="small-box-footer">
+				{% if not data.stopped %} Please check the logs for further information {% endif %}
+			</a>			
+		</div>
+		{% endif %}
+	</section>
+	
+	{% include "simulation_header.html" -%}
+		
+	{% if not data.result == 'KO' %}
+	<section class="col-lg-12">
+		
+		<div id="sim-result" class="box-body">
+		
+			<h3>Simulation results</h3>
+			<div class="box-header">
+				<p><strong>X</strong> {{ _("file(s) has/have been processed") }}</p>
+				
+				<div class="box-body">
+					<table class="table table-bordered">
+						<tr>
+							<th style="width: 10px">#</th>
+							<th style="width: 40px">{{ _("Run") }}</th>
+							<th style="width: 40px">{{ _("Result") }}</th>
+							<th style="width: 40px">{{ _("Summary") }}</th>
+							<th style="width: 40px">{{ _("Log") }}</th>
+							<th style="width: 40px">{{ _("Link") }}</th>							
+						</tr>
+						{% for result in data.results %}
+						<tr>
+							<td>{{loop.index}}.</td>
+							<td>{{result.name}}</td>
+							<td class="text-success">Ok</td>
+							<td class="text-success"><a href="#" onclick="load_summary('{{result.name}}'); return false;"><i class="fa fa-eye"></i> {{ _("View summary") }} </a></td>
+							<td><a href="/run/download-log/{{result.name}}"><i class="fa fa-newspaper-o"></i> </a></td>
+							<td style="list-style-type:none;">
+									{% for file in result.files %}
+									<li><a href="/run/download-result/{{result.name}}/{{loop.index}}">{{file}}</a></li>									
+									{% endfor %}
+							</td>							
+						</tr>
+						{% endfor %}
+						<tr>
+							<td colspan="5">&nbsp;</td>
+							<td><i class="fa fa-file-archive-o"></i> <a href="/run/download-all/{{data.run_id}}">Full archive</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>								
+		</div>
+
+	</section>
+	{% endif %}
+	
+	<section class="col-lg-12">
+		<div class="form-group">
+			<label>Co2mpas log</label>
+			<div style="width: 100%; min-height: 200px; background: white; border: 1px solid #999; padding: 15px;">
+			{{data.log | safe }}
+			</div>
+		</div>
+	</section>
+	
+</div>

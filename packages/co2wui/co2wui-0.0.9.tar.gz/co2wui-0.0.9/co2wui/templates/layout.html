@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Co2mpas</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  
+  {% include "styles.html" -%}
+  
+</head>
+<body class="hold-transition skin-blue sidebar-mini fixed">
+<div class="wrapper">
+
+  {% include "topbar.html" -%}
+  
+  {% include "sidebar.html" -%}
+	
+	{% include "modal.html" -%}
+	
+	{% if not data.nohints and action == 'dashboard' %}
+		{% include "modal-hints.html" -%}
+	{% endif %}
+
+	<span id="content-outer">
+  
+		{% include "content.html" -%}
+		
+	</span>
+  
+  {% include "footer.html" -%}
+  
+</div>
+<!-- ./wrapper -->
+
+{% include "scripts.html" -%}
+
+{% if not data.nohints and action == 'dashboard' %}
+<script>
+	$('#modal-hints').on('hide.bs.modal', function () {
+		if ($('#do-not-show').prop('checked')) {			
+			Cookies.set('nohints', 'valid', { expires: 9999, path: "/" }); // need to set the path to fix a FF bug
+		}
+	});
+	$('#modal-hints').modal('show');
+</script>		
+{% endif %}
+
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+</body>
+</html>

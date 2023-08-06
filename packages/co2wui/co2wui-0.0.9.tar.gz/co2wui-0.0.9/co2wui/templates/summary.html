@@ -1,0 +1,88 @@
+				
+		
+								<!-- /.box-header -->
+								<div class="box-body">
+
+									<h3>Simulation summary</h3>
+
+									<div class="box-body">
+
+										<div class="nav-tabs-custom">
+										
+											<ul class="nav nav-tabs">
+												{% for summary in data.summaries %}	
+												<li class="{{ "active" if loop.index == 1 }}"><a href="#tab_{{loop.index}}" data-toggle="tab" aria-expanded="true">File {{ summary['id'] }}</a></li>
+												{% endfor %}
+												<li><a href="#tab_parameters" data-toggle="tab" aria-expanded="true">Parameters</a></li>
+											</ul>
+						
+											<div class="tab-content">
+											{% for summary in data.summaries %}													
+												<div class="tab-pane {{ "active" if loop.index == 1 }}" id="tab_{{loop.index}}">
+
+												{% for method in ('nedc', 'wltp') %}
+													<!-- NEDC -->
+													<!-- /.box-header -->
+													<div class="box-body">
+														<table class="summary table table-bordered table-striped">
+															<tbody>
+															
+															<tr>													
+																<th rowspan="4">&nbsp;</th>		
+																<th colspan="12"> {{ method.upper() }}</th>
+															</tr>		
+															<tr>
+																{% for cycle in ('High', 'Low') %}																
+																<th colspan="4">{{cycle}}</th>
+																{% endfor %}	
+															</tr>
+															<tr>
+																{% for cycle in ('High', 'Low') %}
+																	{% for phase in ('prediction', 'calibration') %}
+																<th colspan="2">{{phase.capitalize()}}</th>
+																	{% endfor %}
+																{% endfor %}																														
+															</tr>	
+															<tr>
+																{% for cycle in ('High', 'Low') %}
+																	{% for phase in ('prediction', 'calibration') %}
+																		{% for outcome in ('output', 'target') %}
+																<th>{{outcome.capitalize()}}</th>
+																		{% endfor %}
+																	{% endfor %}
+																{% endfor %}																		
+															</tr>
+															
+															{% set readable = humanised(summary) %}
+															{% for key in readable["params"].keys() %}
+																{% if key[0:40].replace("_", " ").capitalize() in data.keep[method] %}
+															<tr>
+																<td>{{key[0:40].replace("_", " ").capitalize()}}</td>
+																	{% for cycle in (method + '_h', method + '_l') %}
+																		{% for phase in ('prediction', 'calibration') %}
+																			{% for outcome in ('output', 'target') %}
+																<th>{{readable["params"][key][cycle + "." + phase + "." + outcome + "." + key]}}</th>																
+																			{% endfor %}
+																		{% endfor %}	
+																	{% endfor %}
+															</tr>
+																{% endif %}
+															{% endfor %}
+														</tbody></table>
+													</div>
+												{% endfor %}
+																																							
+												</div>
+
+												<div class="tab-pane" id="tab_parameters">
+													<div class="tab-pane" id="tab_{{loop.index}}">
+														{% include "simulation_header.html" -%}
+													</div>
+												</div>
+
+											{% endfor %}
+											</div>
+										</div>
+											
+									</div>									
+								</div>

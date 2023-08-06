@@ -1,0 +1,59 @@
+
+									<div class="box-body">               	
+										{% if not data.inputs|length %}
+										<div>
+											<p>No input files have been uploaded</p>
+										</div>
+										{% else %}
+
+											<div class="box-header with-border">
+												<h3 class="box-title">{{ _("Your files ready to be processed") }}:</h3>
+											</div>
+											<!-- /.box-header -->
+											<div class="box-body">
+												<table class="table table-bordered">
+													<tbody><tr>
+														<th style="width: 10px">#</th>
+														<th style="width: 10px">{{ _('Exclude') }}</th>
+														<th>{{ _("Filename") }}</th>														
+														<th style="width: 40px">
+															{% if data.inputs|length > 1 %}
+																<form action="/run/delete-all" method="get">
+																	<button id="delete-button" class="btn btn-sm btn-warning"><i class="glyphicon glyphicon-trash"></i> {{ _("Delete all") }}</button>
+																</form>
+															{% else %}
+																&nbsp;
+															{% endif %}
+														</th>
+													</tr>
+													{% for file in data.inputs %}
+													<tr>
+														<td>{{loop.index}}.</td>
+														<td><input type="checkbox" id="exclude_file_{{loop.index}}" onclick="exclude_files({{loop.index}}, $('#exclude_file_{{loop.index}}').is(':checked'));"></td>
+														<td title="{{file}}">{{(file[:75] + '...') if file|length > 75 else file}}</td>
+														<td>
+															<form action="/run/delete-file" method="get">
+																<input type="hidden" name="fn" value="{{loop.index}}">
+																<button id="delete-button" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-trash"></i> {{ _("Delete") }}</button>
+															</form>
+														</td>
+													</tr>										
+													{% endfor %}
+												</tbody></table>
+											</div>
+											<!-- /.box-body -->
+
+										{% endif %}
+									</div>
+	
+<script>
+{% if data.inputs|length %};
+	$('#simulation-button').show();
+	$('#advanced-block').show();
+{% else %}
+	$('#simulation-button').hide();
+	$('#advanced-block').hide();
+{% endif %}
+	$('#file_path_xhr').val('')
+</script>
+											
