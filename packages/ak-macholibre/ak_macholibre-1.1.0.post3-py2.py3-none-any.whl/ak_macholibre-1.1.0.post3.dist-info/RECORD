@@ -1,0 +1,9 @@
+macholibre/__init__.py,sha256=7QoVTOUn_r2tR5DK9HW6IlbRLviHltGrFXucvzA-mNM,2983
+macholibre/dictionary.py,sha256=SaGVEq23eCijfMm_dSM_NJfr7UMh0PKFCUrAk-fH3Ds,12913
+macholibre/parser.py,sha256=qbLIYIusxDmuUnbbNr8U0ktqhbNBOgE3xuWKjKCUeHY,57148
+ak_macholibre-1.1.0.post3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+ak_macholibre-1.1.0.post3.dist-info/METADATA,sha256=ITJhM8iYTmFqWLrAGbzWlc6rFVTEl4wUf1bJzO-jTrU,1199
+ak_macholibre-1.1.0.post3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+ak_macholibre-1.1.0.post3.dist-info/entry_points.txt,sha256=d4_I1yG3ZWfbQu0ebIyfSDqz8HTo_UrlNcr5Vr7R37k,48
+ak_macholibre-1.1.0.post3.dist-info/top_level.txt,sha256=zqkTYSezHLMfIKaO73TWqjzkdk9kMEp4i56c-TFuRnY,11
+ak_macholibre-1.1.0.post3.dist-info/RECORD,,
