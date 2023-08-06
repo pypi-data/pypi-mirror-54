@@ -1,0 +1,11 @@
+pyats.connections-19.10-py3.4-nspkg.pth,sha256=e0Aa4MZQ9F423CwtNHHpsEDtEBEJtZolebDzazoPJyI,534
+pyats/connections/__init__.py,sha256=u7rpyLhV9O9S0SrSwPUKEa2JnTm61ieWVXeyHUbTnWw,307
+pyats/connections/bases.so,sha256=XDE6uRVz_nkGUIW67yoNpijWW7ylj8BCIAmz0X7e95A,108528
+pyats/connections/hooks.so,sha256=ivPnR0zrqeIcOfHN27RETPnRhGW2akubFkE_W66T714,88492
+pyats/connections/manager.so,sha256=APXkT5seFQlV_PYNJxJHM0nwE_iU5FNtDWESSfyLEsU,174644
+pyats/connections/pool.so,sha256=flqKI7mV--aFRSVdObRGeyHFO3gIvnCHzhgaJfwj0SI,153728
+pyats.connections-19.10.dist-info/METADATA,sha256=IOGAmkvOe3MXigLbjEDh2vzy7_dZut_LESI-X4N4rWw,3288
+pyats.connections-19.10.dist-info/WHEEL,sha256=NxJwBTuLPY7ebcEZAvprEKrQPjeP7QDJsmGX_XLjILM,111
+pyats.connections-19.10.dist-info/namespace_packages.txt,sha256=jGeyqyHwW1slwU9TmXM_iib2O5fPdh4peKwkj0m-bZU,6
+pyats.connections-19.10.dist-info/top_level.txt,sha256=jGeyqyHwW1slwU9TmXM_iib2O5fPdh4peKwkj0m-bZU,6
+pyats.connections-19.10.dist-info/RECORD,,
