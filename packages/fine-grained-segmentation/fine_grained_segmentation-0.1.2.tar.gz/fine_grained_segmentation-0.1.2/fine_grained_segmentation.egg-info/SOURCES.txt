@@ -1,0 +1,13 @@
+README.md
+setup.py
+fine_grained_segmentation/__init__.py
+fine_grained_segmentation/main.py
+fine_grained_segmentation/model.py
+fine_grained_segmentation/test_fine_grained_segmentation.py
+fine_grained_segmentation/utils.py
+fine_grained_segmentation/visualize.py
+fine_grained_segmentation.egg-info/PKG-INFO
+fine_grained_segmentation.egg-info/SOURCES.txt
+fine_grained_segmentation.egg-info/dependency_links.txt
+fine_grained_segmentation.egg-info/requires.txt
+fine_grained_segmentation.egg-info/top_level.txt
