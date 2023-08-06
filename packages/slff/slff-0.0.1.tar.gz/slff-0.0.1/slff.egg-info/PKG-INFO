@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: slff
+Version: 0.0.1
+Summary: SLFF Utility Suite
+Home-page: https://github.com/tervay/slff
+Author: Justin Tervay
+Author-email: justin@tervay.com
+License: MIT
+Description: # SLFF
+        
+        ---
+        
+        Provides a utility suite for SLFF.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

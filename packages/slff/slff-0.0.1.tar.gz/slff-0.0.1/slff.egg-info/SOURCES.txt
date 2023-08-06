@@ -1,0 +1,8 @@
+README.md
+setup.py
+slff/__init__.py
+slff.egg-info/PKG-INFO
+slff.egg-info/SOURCES.txt
+slff.egg-info/dependency_links.txt
+slff.egg-info/requires.txt
+slff.egg-info/top_level.txt
