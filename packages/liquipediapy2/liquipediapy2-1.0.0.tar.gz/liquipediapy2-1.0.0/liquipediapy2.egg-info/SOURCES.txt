@@ -1,0 +1,16 @@
+README.md
+setup.py
+liquipediapy/__init__.py
+liquipediapy/counterstrike.py
+liquipediapy/dota.py
+liquipediapy/exceptions.py
+liquipediapy/liquipediapy.py
+liquipediapy/dota_modules/__init__.py
+liquipediapy/dota_modules/player.py
+liquipediapy/dota_modules/pro_circuit.py
+liquipediapy/dota_modules/team.py
+liquipediapy2.egg-info/PKG-INFO
+liquipediapy2.egg-info/SOURCES.txt
+liquipediapy2.egg-info/dependency_links.txt
+liquipediapy2.egg-info/requires.txt
+liquipediapy2.egg-info/top_level.txt
