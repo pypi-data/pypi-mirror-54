@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: frida-rpc
+Version: 0.1.1
+Summary: Expose frida RPC as a service you can access over the web or network
+Home-page: https://github.com/ydaniels/frida-web-rpc
+Author: Yomi D
+Author-email: yomid4all@gmail.com
+License: MIT
+Description: 
+        What is this ?
+        ===============
+        This is a simple library to make frida rpc call over the internet. You can setup your reverse engineering environment
+        on another computer and perform a rpc call from your mobile phone or elsewhere over the internet.
+        
+        Installation
+        ==============
+        pip install frida_rpc
+        
+        Running
+        ========
+        
+         - export FLASK_APP=frida_rpc.app  FLASK_DEBUG=1 FRIDA_RPC_CONFIG=/path/to/your/config.cfg
+         - For windows change export above to set
+         - flask run
+        
+        
+        **Send request to http://your_ip:port/rpc  with request below**
+        
+            {'method_name': 'add', 'process': program,
+                                 'script': """{
+                                        add: function (a, b) {
+                                                    return a + b;
+                                                }
+            };""", 'args': '[2,4]'}
+        
+        **Result**
+        
+            {'success': true, 'result': 6}
+        
+Keywords: frida rpc web network internet reverse engineering
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
