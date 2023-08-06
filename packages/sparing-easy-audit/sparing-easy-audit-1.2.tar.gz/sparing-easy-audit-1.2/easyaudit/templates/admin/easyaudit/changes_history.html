@@ -1,0 +1,80 @@
+{% extends 'admin/base_site.html' %}
+{% load static i18n %}
+{% load admin_urls %}
+{% load utils_tags %}
+
+{% block extrastyle %}
+  {{ block.super }}
+  <link rel="stylesheet" type="text/css" href="{% static "admin/css/changelists.css" %}">
+  {% if cl.formset %}
+    <link rel="stylesheet" type="text/css" href="{% static "admin/css/forms.css" %}">
+  {% endif %}
+  {% if cl.formset or action_form %}
+    <script type="text/javascript" src="{% url 'admin:jsi18n' %}"></script>
+  {% endif %}
+  {{ media.css }}
+  {% if not actions_on_top and not actions_on_bottom %}
+    <style>
+      #changelist table thead th:first-child {width: inherit}
+    </style>
+  {% endif %}
+{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+&rsaquo; <a href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ opts.app_config.verbose_name }}</a>
+&rsaquo; <a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a>
+&rsaquo; <a href="{% url opts|admin_urlname:'change' original.pk|admin_urlquote %}">{{ original|truncatewords:"18" }}</a>
+&rsaquo; {% trans 'History' %}
+</div>
+{% endblock %}
+
+{% block content %}
+  <div id="changelist">
+  <div id="content-main">
+  <div class="results">
+    <table id="result_list">
+      <thead>
+        <tr>
+          <th scope="col">
+            <div class="text"></div>
+          </th>
+          <th scope="col">
+            <div class="text"><span>{% trans 'Date' %}</span></div>
+          </th>
+          <th scope="col">
+            <div class="text"><span>{% trans 'Event type' %}</span></div>
+          </th>
+          <th scope="col">
+            <div class="text"><span>{% trans 'Changed fields' %}</span></div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for entry in history %}
+      <tr>
+        <td class="field nowrap">{{ forloop.counter }}</td>
+        <td class="field nowrap">{{ entry.datetime }}</td>
+        <td class="field nowrap">{{ entry.get_event_type_display }}</td>
+        <td class="field nowrap">
+          <ul>
+            {% with entry.changed_fields|jsonify as changed_fields %}
+            {% for field, value in changed_fields.items %}
+            <li>
+              <strong>{{ field }}</strong><br />
+              {% if not value.0 or value.0 == 'None' %}(empty){% else %}{{ value.0 }}{% endif %}
+              -> {{ value.1 }}
+            </li>
+            {% endfor %}
+            {% endwith %}
+          </ul>
+        </td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  </div>
+  </div>
+{% endblock %}
