@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cryptonite
+Version: 0.0.5
+Summary: cryptography tools
+Home-page: UNKNOWN
+Author: Federico Rizzo
+Author-email: foo@bar.com
+License: BEER-WARE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: bestia
+Requires-Dist: pycrypto
+
+UNKNOWN
+
+
