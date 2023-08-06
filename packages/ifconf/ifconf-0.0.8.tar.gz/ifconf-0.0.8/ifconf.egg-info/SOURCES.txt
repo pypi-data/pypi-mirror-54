@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ifconf/__init__.py
+ifconf/__main__.py
+ifconf/config.py
+ifconf/config_common.py
+ifconf/config_load.py
+ifconf/config_print.py
+ifconf.egg-info/PKG-INFO
+ifconf.egg-info/SOURCES.txt
+ifconf.egg-info/dependency_links.txt
+ifconf.egg-info/requires.txt
+ifconf.egg-info/top_level.txt
