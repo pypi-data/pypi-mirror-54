@@ -1,0 +1,1 @@
+versionFromGradle='3.26.0',projectVersion='3.26.0.9',branch='rel-yau',lastCommitHash='bc7dd2f223c9c9d0fd3032527478994af6c92f30',gitDescribe='jenkins-3.26.0.8-25-gbc7dd2f',compiledOn='2019-10-29 15:01:20',compiledBy='jenkins'
