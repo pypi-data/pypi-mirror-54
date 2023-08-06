@@ -1,0 +1,12 @@
+pyalect/__init__.py,sha256=5bgbsDeFqfzHn0SObpfwCY4z8KpXtV-FgOCsF4iHWHI,204
+pyalect/dialect.py,sha256=csqh9bDvyGsxgFGIGM8U9ukSNk8384AfPVv6Dk9naUs,7794
+pyalect/importer.py,sha256=DP5JA3QwAOpgERU-cNps2gYu8A1itPSUgMRVhkPpvkQ,3231
+pyalect/py.typed,sha256=8PjyZ1aVoQpRVvt71muvuq5qE-jTFZkK-GLHkhdebmc,26
+pyalect/shims.py,sha256=xJ6glSOCwfQVzLFSjPTB2v4J5QbIRj5nA1YE7CfWfP8,3012
+pyalect/builtins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyalect/builtins/pytest.py,sha256=INPuNkYUBzI3_LbFMDAQn3_uGmERELCj5ynzSbDpyM4,586
+pyalect-0.1.0.dev9.dist-info/LICENSE,sha256=2g6gYokLtgiM_s7J3Jv41vRMaEfQ_GgkvQ718EqXxdQ,1083
+pyalect-0.1.0.dev9.dist-info/METADATA,sha256=tddl8OKjsUP9Zkr09J0CSsAWqYbWEaXUn5h98f6kU0M,637
+pyalect-0.1.0.dev9.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+pyalect-0.1.0.dev9.dist-info/top_level.txt,sha256=qNLK7j996-E4tJna5nmCQ6UPwD-xDz_weTjzQZq-N5M,8
+pyalect-0.1.0.dev9.dist-info/RECORD,,
