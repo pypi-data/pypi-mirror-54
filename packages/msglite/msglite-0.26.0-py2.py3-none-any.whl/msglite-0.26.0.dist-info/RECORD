@@ -1,0 +1,14 @@
+msglite/__init__.py,sha256=j6vSLVo8OYiPS5N4BlgSN406mQ07lpULiH-ifRyOs2M,1192
+msglite/attachment.py,sha256=iGQLH-xP70LDZNHEEM32RHxC5lAI6MmBHN3N-VWBR-Q,3044
+msglite/constants.py,sha256=hlXIFfnC-t3hP69nNNV6UVSmOA7gUOKaXAaql3NzKGQ,2325
+msglite/encoding.py,sha256=hQ0PYOw1W1WW0oF1o4aDPfiQb78Wy5vyQC7SU--yYEs,3609
+msglite/message.py,sha256=RRA1enJJJyd9crT2sBeN7OvzqQzGs7-t78szmnIRPZ4,11152
+msglite/prop.py,sha256=Bn1XW4WJyJdpHmLgFwggeyfK4URqRTxZfFEyD7jWI0s,3787
+msglite/properties.py,sha256=MM_NR08Hu_REo2CJJ8dBLRym597XwOV3EnK-IGjF9Lc,4199
+msglite/recipient.py,sha256=AcuNgCk52w1Jx07bxVkaGHpvzskd1FtQULAf9xBGKH8,844
+msglite/utils.py,sha256=h150UQ8zqDd8TsluMys8RJDtxNClDjJR4CcSD-jvGhY,3826
+msglite-0.26.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+msglite-0.26.0.dist-info/METADATA,sha256=QLArYpv6MxmtbVnq4zNSUDrgWoOzo4TGSq-lkl-_JEA,1340
+msglite-0.26.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+msglite-0.26.0.dist-info/top_level.txt,sha256=dygRc5F_gyVxSeTWi_OzBxxWUKuCP-ISRI58zG8XG10,8
+msglite-0.26.0.dist-info/RECORD,,
