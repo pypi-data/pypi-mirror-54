@@ -1,0 +1,12 @@
+sequence_server_wrapper/__init__.py,sha256=JOl41NviMN-qDV0Z8ZPmhNIxvgyauGGJHdB4A-8MhqM,93
+sequence_server_wrapper/_version.py,sha256=juoK_9ebVmu3_8RlegrzF0ki8qTHLlB_gyWRKSwXUlU,497
+sequence_server_wrapper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sequence_server_wrapper/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sequence_server_wrapper/tests/test_examples.py,sha256=Hm1x01HZ9BiYYw4dS44uo0o_ku16oFRwSMjIh8_Uu-s,99
+sequence_server_wrapper-0.0.0.dist-info/AUTHORS.rst,sha256=8MTaREP10UEUcl-xyiaAxHKLi-Y51YqVhYm2GHxcWu8,179
+sequence_server_wrapper-0.0.0.dist-info/LICENSE,sha256=XfCkn6sV9rYNiYls5RuMgEQG5RMvApS_Xz3BuoV_Fgo,1554
+sequence_server_wrapper-0.0.0.dist-info/METADATA,sha256=mh0ve4AECAT60ZSCIZxL0eKRqH0a7rsPQ5cAfiZ9TXc,989
+sequence_server_wrapper-0.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sequence_server_wrapper-0.0.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+sequence_server_wrapper-0.0.0.dist-info/top_level.txt,sha256=LAe8d1NNdvHiCr8BqkaKW87Y-cYvUXnogJfdX3aFHsk,24
+sequence_server_wrapper-0.0.0.dist-info/RECORD,,
