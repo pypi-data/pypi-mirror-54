@@ -1,0 +1,15 @@
+README.md
+setup.py
+jieba_calcu.egg-info/PKG-INFO
+jieba_calcu.egg-info/SOURCES.txt
+jieba_calcu.egg-info/dependency_links.txt
+jieba_calcu.egg-info/entry_points.txt
+jieba_calcu.egg-info/requires.txt
+jieba_calcu.egg-info/top_level.txt
+test/__init__.py
+test/append_helper.py
+test/http_inf.py
+test/req.py
+test/test.py
+test/test_flask.py
+test/test_ner.py
