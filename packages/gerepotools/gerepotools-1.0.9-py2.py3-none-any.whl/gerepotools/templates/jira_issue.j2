@@ -1,0 +1,19 @@
+h1. Référence du binaire
+
+|Repository ID      |{{artifact.repo_id}}   |
+|Group ID           |{{artifact.group}}     |
+|Artifact ID        |{{artifact.artifact}}  |
+|Extension          |{{artifact.extension}} |
+|Version            |{{artifact.version}}   |
+|Classifier         |{{artifact.classifier}}|
+
+URL de l'artefact dans le repo : {{artifact.url}}
+
+
+{% if quote is defined %}
+----
+{color:#0092bc}*Quote of the day*{color}
+
+_{{quote}}_
+----
+{% endif %}
