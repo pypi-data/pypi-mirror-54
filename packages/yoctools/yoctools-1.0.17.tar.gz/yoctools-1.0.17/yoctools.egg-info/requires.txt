@@ -1,0 +1,4 @@
+pyyaml>=5.0.0
+scons>=3.0.0
+GitPython>=2.0.0
+requests_toolbelt>=0.0.0
