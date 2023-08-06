@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sphinx-codefence
+Version: 0.1.0
+Summary: Sphinx extension to monkeypatch docutils with a codefence parser
+Home-page: https://github.com/cheshirekow/sphinx-codefence
+Author: Josh Bialkowski
+Author-email: josh.bialkowski@gmail.com
+License: GPLv3
+Download-URL: https://github.com/cheshirekow/sphinx-codefence/archive/0.1.0.tar.gz
+Keywords: sphinx
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+
+===========================
+Sphinx Code Fence Extension
+===========================
+
+This is a single-module sphinx extension that monkey-patches docutils adding
+the ability to parse code fences. For example, the following code fence is
+rendered as a block of python code:
+
+.. code::
+
+    ~~~py
+    def hello_codefence():
+      print("I am in a codefence!")
+    ~~~
+
+
