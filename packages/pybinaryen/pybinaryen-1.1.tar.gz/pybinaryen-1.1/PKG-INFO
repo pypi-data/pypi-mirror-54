@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pybinaryen
+Version: 1.1
+Summary: python bindings for the binaryen webassembly library
+Home-page: https://github.com/irmen/binaryen-interfaces/tree/master/pybinaryen
+Author: Irmen de Jong
+Author-email: irmen@razorvine.net
+License: MIT
+Description: [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/irmen)
+        [![Latest Version](https://img.shields.io/pypi/v/pybinaryen.svg)](https://pypi.python.org/pypi/pybinaryen/)
+        
+        
+        # Python interface to the Binaryen library
+        
+        This module provides a Python interface to the
+        [binaryen](https://github.com/WebAssembly/binaryen) webassembly library.
+        
+        That library has to be installed separately so it is available on your system as a shared library.
+        
+        *Requires Python 3.5 or newer.  Also works on pypy3 (because it uses cffi).* 
+        
+        Software license for these Python bindings: MIT
+        
+        
+        
+Keywords: webassembly
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
