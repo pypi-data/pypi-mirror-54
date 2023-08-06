@@ -1,0 +1,13 @@
+any_case/__init__.py,sha256=E_u6JeMT08J51M-lsDmwwunkU6xBy-zEUOxHDLe0zMI,152
+any_case/contrib/__init__.py,sha256=-6AW3bH2Mjn8Bzdo9-HxhN9iwtrnUwOiSUOfBMbT6Kc,39
+any_case/contrib/django/__init__.py,sha256=09V7eLKaDSheNRl8M3h9UmzuFKD2NT07EgF81H6nPTg,87
+any_case/contrib/django/middleware.py,sha256=na96mtttIDgbpbEWcXqjzNyxSu6iU8nIEcd_wMCeTs0,2150
+any_case/contrib/django/parser.py,sha256=aWrD4JNBy8i4ZuOrgfGROq0pOZfgVyIx0ZR4QbPMUQI,1187
+any_case/contrib/django/settings.py,sha256=tH3enHavYxrVBH-5tUBhwXfyevoO_lQ5PweSiLIcQKk,1739
+any_case/contrib/django/utils.py,sha256=Jr15s8t2MmisB5zVGeIhSq58b5tJhnngSy9UtCzBXrk,679
+any_case/contrib/parser.py,sha256=cRLm1BaNNNVLIQd5W9_glxctjQu_dIU7EgTGL0A51qU,752
+any_case/contrib/rest_framework.py,sha256=Kf1CtS-uwvEFltssvHJM1q15wQw-uQ8p-tohZtIJEF4,1510
+any_case/converter.py,sha256=FJxN9pHohY8imKIw4nVB_UTqSMdIaT80pYnvXi-aYaM,4340
+any_case-0.1.5.dist-info/WHEEL,sha256=fRZ0jyDPltM3MgdRgnIh981pt0qqbfzrEGV0U1fUdZo,85
+any_case-0.1.5.dist-info/METADATA,sha256=yCK0glL_T2i7YULAMSPr7CJQWXCw3QEYTZCcZBHjCro,5829
+any_case-0.1.5.dist-info/RECORD,,
