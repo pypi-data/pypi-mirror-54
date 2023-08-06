@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nineties/__init__.py
+nineties/__main__.py
+nineties/cli.py
+nineties/nineties.py
+nineties/parser.py
+nineties/privacy.py
+nineties.egg-info/PKG-INFO
+nineties.egg-info/SOURCES.txt
+nineties.egg-info/dependency_links.txt
+nineties.egg-info/entry_points.txt
+nineties.egg-info/top_level.txt
