@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: django-auth0-user
+Version: 0.16.5
+Summary: Django Authentication and Authorisation using Auth0 and Python Social Auth
+Home-page: https://github.com/techdragon/django-auth0-user
+License: BSD-2-Clause
+Keywords: Auth0,Django,Python Social Auth,Django Rest Framework
+Author: Samuel Bishop
+Author-email: sam@techdragon.io
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: auth0
+Provides-Extra: drf
+Requires-Dist: auth0-python (>=3.9.1,<4.0.0); extra == "auth0"
+Requires-Dist: cached-property (>=1.5.1,<2.0.0)
+Requires-Dist: djangorestframework (>=3.10.3,<4.0.0); extra == "drf"
+Requires-Dist: djangorestframework-jwt (>=1.11.0,<2.0.0); extra == "drf"
+Requires-Dist: pyjwt (>=1.7.1,<2.0.0); extra == "drf"
+Requires-Dist: social-auth-app-django (>=3.1.0,<4.0.0)
+Requires-Dist: social-auth-core[openidconnect] (>=3.2.0,<4.0.0)
+Project-URL: Repository, https://github.com/techdragon/django-auth0-user
