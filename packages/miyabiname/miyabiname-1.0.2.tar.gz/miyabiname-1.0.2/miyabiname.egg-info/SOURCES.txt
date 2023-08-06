@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+miyabiname/__init__.py
+miyabiname/helloworld.py
+miyabiname.egg-info/PKG-INFO
+miyabiname.egg-info/SOURCES.txt
+miyabiname.egg-info/dependency_links.txt
+miyabiname.egg-info/entry_points.txt
+miyabiname.egg-info/not-zip-safe
+miyabiname.egg-info/requires.txt
+miyabiname.egg-info/top_level.txt
