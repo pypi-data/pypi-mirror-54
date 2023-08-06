@@ -1,0 +1,11 @@
+ypackage/__init__.py,sha256=o-Uq_AM6kTE7UNiHP59S8lr0XQlOfZYGeWOWYt8Y_ZI,151
+ypackage/common.py,sha256=Nq58NOpI_r3HjlTEtpzQnlx3RGWdceTaE3dj1UQjG6c,962
+ypackage/filesystem.py,sha256=OiR5Oqzoe731FJs1mQrKsZgKW-pti5GV-iGI4lF4gXQ,3274
+ypackage/gitbook.py,sha256=ogjuH9JBPb3rsJ8lVe0MfXlkmIc3tSQuuzsehdBXKDk,9753
+ypackage/markdown.py,sha256=_VsD6PkoBRGqIS0od-sjOzi3HzBfIgO8jWSAvY7OvzI,5588
+ypackage/regex.py,sha256=mn0o0h0rpExvK3jHbsycteyUBffjNXJzkujeBtxOhH4,201
+ypackage-1.5.1.dist-info/LICENSE,sha256=7Qkxd_bKIV8-6o_8_J4ibRiprA_SrcXnlcaqcmUp528,1088
+ypackage-1.5.1.dist-info/METADATA,sha256=dhb1ct4CMaajh14m4MH2VU5iS79Ev-1bzG3GoLo1d_U,2541
+ypackage-1.5.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+ypackage-1.5.1.dist-info/top_level.txt,sha256=i4g0BuJ6-aJ0arNijgWZdolZ1hQ1HcrjD6uDAhTh5co,9
+ypackage-1.5.1.dist-info/RECORD,,
