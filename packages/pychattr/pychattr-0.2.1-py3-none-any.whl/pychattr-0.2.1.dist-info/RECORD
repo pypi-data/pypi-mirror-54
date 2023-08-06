@@ -1,0 +1,12 @@
+pychattr/__init__.py,sha256=Og8jS21ObfAZedT-bNNIA7DWzGV4RYjS8IVyK-G5gqs,446
+pychattr/channel_attribution/__init__.py,sha256=0r0v6UY1__JLOgKLzochTZOo3IQJMFM10h4SnKtbyRs,263
+pychattr/channel_attribution/_heuristic.py,sha256=SOl2d254HY81NpIQKU9UccausbUNw_Sx_EI93lZ9F74,5744
+pychattr/channel_attribution/_markov.py,sha256=_yeppqBDkEAiDoU1ZoMwYqpLJjx4aZeJMyvrQXgsrXM,15490
+pychattr/channel_attribution/_mixins.py,sha256=pRdNdQ2uHAseSNeiPSJuQ8SHMoAD3bDYYToF5pnri5s,4492
+pychattr/channel_attribution/heuristic.py,sha256=mc1hYlxKtLFZ1Fgucn4iPPIZ5RUICsY4RLfi_3L3G64,3637
+pychattr/channel_attribution/markov.py,sha256=Jo_1_lw_J0ZUge9PD8NL2iNKLpnqMa6yfTY0Z9q6Ak4,4450
+pychattr-0.2.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pychattr-0.2.1.dist-info/METADATA,sha256=2dNAUIs3iEDno5IctfrgW86CIFIoqlwBzfrTKsLTbac,847
+pychattr-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pychattr-0.2.1.dist-info/top_level.txt,sha256=VQq-VVE5Ch9ZHKFGEZbOvHQInZ314VgnrTlHMzUVfnM,9
+pychattr-0.2.1.dist-info/RECORD,,
