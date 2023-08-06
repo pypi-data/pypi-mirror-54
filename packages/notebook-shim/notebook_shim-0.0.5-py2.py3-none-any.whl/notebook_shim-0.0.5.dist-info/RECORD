@@ -1,0 +1,9 @@
+notebook_shim/__init__.py,sha256=75oR-cDrSZ_hoIh3G4OZQKl27acED4dAYqgqDBMqhBc,226
+notebook_shim/handlers.py,sha256=oVZzpilAWOoXKmams5FmlL7s_hT_gTv-njGXOz1MCds,1037
+notebook_shim/notebookapp.py,sha256=FSc8UgzJO2f7L-HFbA4MdHv7YhXuMrZZ7wx7jSyyPHs,12808
+notebook_shim/shimwarning.py,sha256=KIpgP72zUxxquzSX9nR-pTcpPaZYA1QUfGjoTkl2-94,778
+notebook_shim-0.0.5.data/data/etc/jupyter/jupyter_server_config.d/notebook_shim.json,sha256=H3MnUjHHdepjsS8_noxV3Thrw1o1GGB-86fE_Zatts4,105
+notebook_shim-0.0.5.dist-info/METADATA,sha256=0US1Ig7Or06enmw7cbU_KGmT2NIGY-GCo3RjTMCd-Ek,1246
+notebook_shim-0.0.5.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+notebook_shim-0.0.5.dist-info/top_level.txt,sha256=bR_4OSSg7z3IlVOkeL2Gxcc8g2Cxwq-9vGWpgujCXBw,14
+notebook_shim-0.0.5.dist-info/RECORD,,
