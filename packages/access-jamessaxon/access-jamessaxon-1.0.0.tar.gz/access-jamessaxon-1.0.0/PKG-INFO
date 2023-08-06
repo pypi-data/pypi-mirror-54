@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: access-jamessaxon
+Version: 1.0.0
+Summary: Calculate spatial accessibility metrics.
+Home-page: UNKNOWN
+Maintainer: 
+Maintainer-email: 
+License: 3-Clause BSD
+Description: # Spatial Access
+        
+        This package provides classical and novel measures of spatial accessibility to services.
+        
+        For full documentation, see [access.readthedocs.io](https://access.readthedocs.io/en/latest/).
+        
+        
+Keywords: spatial statistics access
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: tests
+Provides-Extra: docs
