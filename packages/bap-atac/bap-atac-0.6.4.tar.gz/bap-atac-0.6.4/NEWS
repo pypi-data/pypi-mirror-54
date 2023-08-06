@@ -1,0 +1,18 @@
+
+# 0.6.4
+- Inclusion of a prior table to skip merges when a prior annotation is known
+
+# 0.6.3
+- Rename of module to bap-atac to faclitate PyPi
+- Addition of flag to keep read names in the final frags file
+
+# 0.6.2
+- Removed dependency on cowplot
+
+# 0.6.1
+- Fixed minor dependency bug when generating Summarized Experiments with the --peak-file flag
+
+# 0.6.0
+- Alpha version of bap2 that can be deployed for all 10x and BioRad scATAC-seq datasets
+
+

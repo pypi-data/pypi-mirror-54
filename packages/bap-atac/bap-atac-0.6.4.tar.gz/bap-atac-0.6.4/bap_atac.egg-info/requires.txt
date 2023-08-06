@@ -1,0 +1,11 @@
+python-Levenshtein
+biopython
+fuzzysearch
+fuzzywuzzy
+click
+pytest
+snakemake
+optparse-pretty
+regex
+pysam
+ruamel.yaml

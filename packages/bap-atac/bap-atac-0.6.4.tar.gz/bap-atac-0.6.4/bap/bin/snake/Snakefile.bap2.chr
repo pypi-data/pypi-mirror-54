@@ -1,0 +1,364 @@
+import os
+import subprocess
+import shutil
+import re
+import pysam
+
+from os.path import join
+from collections import Counter
+
+configfile: config["cfp"]     
+outdir = config["output"]
+script_dir = config["script_dir"]   
+
+bgzip = config["bgzip"]
+tabix = config["tabix"]
+
+samtools = config["samtools"]
+bedtools = config["bedtools"]     
+R = config["R"] 
+
+name = config["name"] 
+output = config["output"]
+threads_max = int(config["ncores"])
+ 
+bead_tag = config["bead_tag"] 
+drop_tag = config["drop_tag"] 
+speciesMix = config["speciesMix"] 
+
+# Relevant thresholds
+minimum_barcode_fragments = config["minimum_barcode_fragments"]
+minimum_jaccard_index = str(config["minimum_jaccard_index"])
+nc_threshold = str(config["nc_threshold"])
+regularize_threshold = str(config["regularize_threshold"])
+mapq = str(config["mapq"])
+proper_pair = str(config["proper_pair"])
+max_insert = str(config["max_insert"])
+keep_read_names = str(config["keep_read_names"])
+barcode_prior_file = str(config["barcode_prior"])
+
+one_to_one = str(config["one_to_one"])
+barcoded_tn5 = str(config["barcoded_tn5"])
+barcode_whitelist = str(config["barcode_whitelist"])
+blacklistRegionsFile = str(config["blacklistFile"])
+tssFile = str(config["tssFile"])
+barcodeQuantFile =  outdir + "/final/" + name + ".barcodequants.csv"
+
+# Parse other parameters
+
+# Determine .bam files to execute for fragment overlap analysis
+infile_nuclear = outdir + "/.internal/samples/" + name + ".chrbam.txt"
+with open(infile_nuclear) as f:
+    SAMPLES = f.readlines()
+SAMPLES = [x.strip() for x in SAMPLES]
+
+with open(outdir + "/.internal/samples/" + name + ".mitochrbam.txt") as f:
+	mito_sample = f.readlines()
+mito_sample = [x.strip() for x in mito_sample]
+
+
+# Merge mito to the others
+SAMPLES_noMito = SAMPLES
+SAMPLES = SAMPLES + mito_sample
+
+# Create vectors of inputs
+rdsin = [re.sub(".raw.bam$", "_overlapCount.rds", x.replace("/filt_split/", "/frag_overlap/")) for x in SAMPLES_noMito]
+chrOut = [x.replace("/filt_split/", "/drop_barcode/") for x in SAMPLES_noMito]
+
+simple = [re.sub(".raw.bam$", "", x.replace(output + "/temp/filt_split/", "")) for x in SAMPLES]
+all_bead_counts = [output + "/temp/filt_split/" + x + ".bead_counts.tsv" for x in simple]
+
+simple_noMito = [re.sub(".raw.bam$", "", x.replace(output + "/temp/filt_split/", "")) for x in SAMPLES_noMito]
+HQfragsfiles = [output + "/temp/filt_split/" + x + ".frag.bedpe.annotated.dedup.tsv" for x in simple_noMito]
+sumstats_nomito = [output + "/temp/filt_split/" + x + "_frag.sumstats.tsv" for x in simple_noMito]
+
+simple_mito = list(set(simple) ^ set(simple_noMito))[0]
+
+# Filepaths to executable scripts
+knee_call_R = script_dir + "/bin/R/10b_knee_execute.R"
+annotate_fragments_R = script_dir + "/bin/R/21_annotate_fragments.R"
+fragOverlapChr_R = script_dir + "/bin/R/22_fragOverlapMetricsChr_bap2.R"
+
+determineDoubles_R = script_dir + "/bin/R/23_callDoublets_bap2.R"
+reannoFrags_R = script_dir + "/bin/R/24_reannoFrags_bap2.R"
+paint_py = script_dir + "/bin/python/25_paintDropBarcode_bap2.py"
+qcRep1_R = script_dir + "/bin/R/26a_QCsimple_bap2.R"
+
+
+rule all:
+	input:
+		outdir + "/final/"+name+".implicatedBarcodes.csv.gz",
+		outdir + "/final/"+name+".barcodeTranslate.tsv",
+		outdir + "/final/"+name+".NCsumstats.tsv",
+		outdir + "/final/"+name+".HQbeads.tsv",
+		outdir + "/final/"+name+".bap.bam",
+		outdir + "/final/"+name+".bap.bam.bai",
+		outdir + "/final/"+name+".fragments.tsv.gz",
+		outdir + "/final/"+name+".QCstats.csv", 
+		outdir + "/knee/" + name + ".kneesPlotted.txt"
+
+rule assemble_fragments:
+	input:
+		rawbam = output + "/temp/filt_split/" + "{name}" + ".raw.bam"
+	output:
+		outbedpe = output + "/temp/filt_split/" + "{name}" + ".frag.bedpe.gz",
+		outlog = output + "/logs/frag/" + "{name}" + ".bedtools.fragmerge.log"
+	threads:
+		1
+	run:
+		namesort_bam = input.rawbam.replace(".raw.bam", "_nameSorted.bam")
+		pysam.sort(input.rawbam, '-n','-o', namesort_bam, catch_stdout=False)
+		#os.system(samtools + " collate -o " + namesort_bam + " " + input.rawbam)
+		
+		# Assemble a long system call to generate valid fragments
+		if(proper_pair== "true"):
+			pp = "-bf 0x2 "
+		l0 = "(" + samtools + " view " + pp + namesort_bam + " | " # filter proper pairs
+		l1 = bedtools+" bamtobed -i stdin -bedpe | " # convert reads to frags
+		l2 = ' awk -v d=' + max_insert + ' -v q=' + mapq + ''' '$6 - $2 <= d && $8 >=q {print $0}' | '''  # awk command to filter based on insert size and mapq
+		l3 = ''' awk -v OFS="\t" '{if($9=="+"){print $1,$2+4,$6+4,$7}else if($9=="-"){print $1,$2-5,$6-5,$7}}' | gzip > ''' # awk to offset Tn5 insertions
+		l4 = output.outbedpe + ") 2> " + output.outlog
+		call_frag_gen = l0 + l1 + l2 + l3 + l4
+		os.system(call_frag_gen)
+
+
+# here, the blacklist is enforced
+rule annotate_fragments:
+	input:
+		inbedpe = output + "/temp/filt_split/" + "{name}" + ".frag.bedpe.gz"
+	output:
+		outbedpe = output + "/temp/filt_split/" + "{name}" + ".frag.bedpe.annotated.tsv.gz",
+		outbeadcounts = output + "/temp/filt_split/" + "{name}" + ".bead_counts.tsv"
+	threads:
+		1
+	run:
+		read_bead_file = input.inbedpe.replace(".frag.bedpe.gz", ".read_bead.tsv.gz")
+		temp_anno_bedpe = output.outbedpe.replace(".gz", "")
+		r_call1 = " ".join([R+"script", annotate_fragments_R, blacklistRegionsFile, input.inbedpe, read_bead_file, temp_anno_bedpe, output.outbeadcounts])
+		os.system(r_call1)
+		os.system("gzip " + temp_anno_bedpe)
+
+
+
+rule determine_HQ_beads:
+	input:
+		all_bead_counts 
+	output:
+		forKnee = outdir + "/knee/" + name + ".barcodeQuantSimple.csv",
+		bapParams = outdir + "/knee/" + name + ".bapParams.csv",
+		HQbeads = outdir + "/final/" + name + ".HQbeads.tsv"
+	threads: 
+		1
+	run:
+		
+		# Pool together per-chromosome fragment counts
+		temp_file_1 = outdir + "/temp/filt_split/" + name + "_tempCounts.tsv" 
+		for f in all_bead_counts:
+			os.system("cat "+f+" >> " + temp_file_1)
+		awk_call = '''awk '{ s[$1] += $2} END { for (i in s) { print i","s[i]} }' ''' + temp_file_1 + " > " + output.forKnee
+		os.system(awk_call)
+		
+		# Import the unique barcodes quants
+		
+		# Call a knee on the resulting fragment abundances, if necessary
+		knownBarcodes = False
+		
+		# Here, not necessary-- user has pre-specified barcodes
+		if(os.path.isfile(barcode_whitelist)):
+			knownBarcodes = True
+			preDeterminedBarcodes =[line.rstrip('\n') for line in open(barcode_whitelist)]
+			with open(output.bapParams, "w") as paramsFile:
+				paramsFile.write("bead_threshold,predetermined\n")
+		
+		# Here, necessary-- perform a knee call
+		elif(minimum_barcode_fragments == 0):		
+			R_call_knee = R + "script " + knee_call_R + " " + output.forKnee + " 1 V2"
+			os.system(R_call_knee)
+			with open(output.forKnee + "_kneeValue.txt") as knee_open:
+				minFrag = float(knee_open.readline().strip())
+				callFrag = float(knee_open.readline().strip())
+			with open(output.bapParams, "w") as paramsFile:
+				paramsFile.write("bead_threshold_nosafety,"+str(callFrag)+"\n")
+				paramsFile.write("bead_threshold,"+str(minFrag)+"\n")
+		
+		# Here, not necessary-- user has specified a custom hard cutoff
+		else:
+			with open(output.bapParams, "w") as paramsFile:
+				paramsFile.write("bead_threshold,"+str(minimum_barcode_fragments)+"\n")
+			minFrag = minimum_barcode_fragments
+		
+		# Irrespective of choice, define the set of high-quality bead barcodes, bc
+		unique_barcodes = Counter()
+		with open(output.forKnee) as bc_in_count:
+			for line in bc_in_count:
+				(key, val) = line.split(",")
+				unique_barcodes[key] += int(val)
+		
+		if(knownBarcodes):
+			barcodes = {x : unique_barcodes[x] for x in unique_barcodes if x in preDeterminedBarcodes}
+		else:
+			barcodes = {x : unique_barcodes[x] for x in unique_barcodes if unique_barcodes[x] >= minFrag and x != "NA"}
+		bc = list(barcodes.keys())
+		with open(output.HQbeads, 'w') as bc_file:
+			for i in bc:
+				bc_file.write(i+"\n")
+		
+rule compute_bap_stat_chr:
+	input:
+		HQbeads = outdir + "/final/" + name + ".HQbeads.tsv",
+		annobedpe = output + "/temp/filt_split/" + "{name}" + ".frag.bedpe.annotated.tsv.gz"
+	output:
+		fragrds = output + "/temp/frag_overlap/" + "{name}" + "_overlapCount.rds",
+		nc_count = output + "/temp/frag_overlap/" + "{name}" + "_ncCount.tsv"
+	threads:
+		1
+	run:
+		R_call_frag = R + "script " + fragOverlapChr_R + " " + nc_threshold + " " + input.HQbeads + " " + input.annobedpe + " "
+		R_call_frag = R_call_frag + output.fragrds + " " + output.nc_count + " " + regularize_threshold
+		os.system(R_call_frag)
+
+# Collate everything including NCs and bead merges; call knee if needed
+rule determine_barcode_merges:
+	input:
+		rdsin = rdsin,
+		forKnee = outdir + "/knee/" + name + ".barcodeQuantSimple.csv",
+		HQbeads = outdir + "/final/" + name + ".HQbeads.tsv"
+	output:
+		outcsv = outdir + "/final/"+name+".implicatedBarcodes.csv.gz",
+		outtsv = outdir + "/final/"+name+".barcodeTranslate.tsv",
+		outNCtsv = outdir + "/final/"+name+".NCsumstats.tsv"
+	threads:
+		1
+	run: 	
+		# collate chr inference and make a single file
+		rdsdir = outdir + "/temp/frag_overlap"
+		r_call_findDoublets = " ".join([R+"script", determineDoubles_R, rdsdir, input.forKnee, input.HQbeads, output.outcsv, minimum_jaccard_index, name, one_to_one, barcoded_tn5, barcode_prior_file])
+		os.system(r_call_findDoublets)
+
+rule reannotate_fragments_get_summary_stats_chr:
+	input:
+		annobedpe = output + "/temp/filt_split/" + "{name}" + ".frag.bedpe.annotated.tsv.gz",
+		bc_translate_tsv = outdir + "/final/"+name+".barcodeTranslate.tsv"
+	output:
+		cleanbedpe = output + "/temp/filt_split/" + "{name}" + ".frag.bedpe.annotated.dedup.tsv",
+		frag_ss = output + "/temp/filt_split/" + "{name}" + "_frag.sumstats.tsv"
+	run:
+		R_call_reanno_ss = " ".join([R+"script", reannoFrags_R, input.annobedpe, input.bc_translate_tsv, output.cleanbedpe, output.frag_ss])
+		os.system(R_call_reanno_ss)
+
+rule reannotate_bam_file:
+	input:
+		cleanbedpe = output + "/temp/filt_split/" + "{name}" + ".frag.bedpe.annotated.dedup.tsv",
+		dictionary = outdir + "/final/"+name+".barcodeTranslate.tsv",
+		rawbam = output + "/temp/filt_split/" + "{name}" + ".raw.bam"
+	output:
+		bcbam = output + "/temp/drop_barcode/" + "{name}" + ".raw.bam",
+		bcbai = output + "/temp/drop_barcode/" + "{name}" + ".raw.bam.bai"
+	threads:
+		1
+	run:
+		# Run python script that reannotates old split bam file
+		py_call = " ".join(["python", paint_py, "--input", input.rawbam, "--output", output.bcbam, "--bead-barcode", bead_tag, "--drop-barcode", drop_tag, "--dict-file", input.dictionary, "--hq-frags", input.cleanbedpe])
+		os.system(py_call)
+		pysam.index(output.bcbam)
+		
+rule final_bam_merge:
+	input:
+		chrOut = chrOut
+	output:
+		finalbam = outdir + "/final/"+name+".bap.bam",
+		finalbai = outdir + "/final/"+name+".bap.bam.bai",
+		samtools_merge_log_file = outdir + "/logs/" + name + "_finalmerge.log"
+	threads:
+		threads_max
+	run:
+		merge_parameters = [samtools, "merge", "-@", str(threads_max)] + [output.finalbam] + input.chrOut
+		os.popen("(" + " ".join(merge_parameters) + ")&>" + output.samtools_merge_log_file).read()
+		index_parameters = [samtools, "index", "-@", str(threads_max)] + [output.finalbam]
+		os.system(" ".join(index_parameters))
+		
+rule final_frag_merge:
+	input:
+		HQfragsfiles = HQfragsfiles
+	output:
+		finalfrags = outdir + "/final/"+name+".fragments.tsv.gz"
+	threads:
+		1
+	run:
+		infiles = " ".join(HQfragsfiles)
+		raw_out = output.finalfrags[:-3]
+		if(keep_read_names ==  "True"):
+			cut_cols = "1,2,3,4,5"
+		else:
+			cut_cols = "1,2,3,4"
+		os.system("cat " + infiles + " | cut -f "+cut_cols+" > " + raw_out)
+		os.system(bgzip + " " + raw_out)
+		os.system(tabix + " -p bed " + raw_out + ".gz" )
+
+rule assemble_basic_QC:
+	input:
+		mito_qc = output + "/temp/filt_split/" + simple_mito + "_frag.sumstats.tsv",
+		others_qc = sumstats_nomito
+	output:
+		basic_qc = outdir + "/final/"+name+".basicQC.tsv"
+	threads:
+		1
+	run:
+		# Throw all of the per-chromosome fragment counts together
+		basic_qc_temp = outdir + "/temp/"+name+".basicQC-temp.tsv"
+		infiles = " ".join(sumstats_nomito)
+		os.system("cat " + infiles + " > " + basic_qc_temp)	
+		
+		# Execute the first half of the QC report -- handle species mixing
+		R_call_reanno_ss = " ".join([R+"script", qcRep1_R, basic_qc_temp, input.mito_qc, output.basic_qc, str(speciesMix)])
+		os.system(R_call_reanno_ss)
+
+rule final_QC_SE:
+	input:
+		qcStatsBasicFile = outdir + "/final/"+name+".basicQC.tsv",
+		finalFragsFile = outdir + "/final/"+name+".fragments.tsv.gz",
+		barcodeTranslateFile =  outdir + "/final/"+name+".barcodeTranslate.tsv"
+	output:
+		advanced_qc = outdir + "/final/"+name+".QCstats.csv"
+	threads:
+		1
+	run:
+
+		# Determine user flags for proper QC input parameters (lots of binary configurations)		
+		if(str(config["peakFile"]) == ""):
+			peakFileGo = "none"
+		else:
+			peakFileGo = str(config["peakFile"])
+		
+		if(config["speciesMix"] == "none"):
+			speciesMixGo = "no"
+		else:
+			speciesMixGo = "yes"
+			
+		if(str(config["one_to_one"]) == "true"):
+			oneToOneGo = "yes"
+		else:
+			oneToOneGo = "no"
+		
+		# Define additional parameters
+		qc_final_R = script_dir + "/bin/R/26b_QCadvanced_SE_bap2.R"
+		
+		# Polish up QC and add additional metrics; make SE if necessary
+		r_callQC = " ".join([R+"script", qc_final_R, input.finalFragsFile, tssFile, peakFileGo, input.qcStatsBasicFile, speciesMixGo, oneToOneGo, input.barcodeTranslateFile])
+		os.system(r_callQC)
+		
+rule final_knee_call_plot:
+	input:
+		beadBarcodesFile = outdir + "/knee/" + name + ".barcodeQuantSimple.csv",
+		implicatedBarcodeFile = outdir + "/final/" + name + ".implicatedBarcodes.csv.gz"
+	output:
+		kneePlotsFile = outdir + "/knee/" + name + ".kneesPlotted.txt"
+	threads:
+		1
+	run:
+		bapParamsFile =  outdir + "/knee/" + name + ".bapParams.csv"
+		kneePlot_R = script_dir + "/bin/R/19_makeKneePlots.R"
+		r_callKneePlot = " ".join([R+"script", kneePlot_R, bapParamsFile, input.beadBarcodesFile, input.implicatedBarcodeFile])
+		os.system(r_callKneePlot)
+
+		

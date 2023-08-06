@@ -1,0 +1,8 @@
+[console_scripts]
+bap = bap.cli_old_dontEdit:main
+bap-barcode = bap.barcode.cli_barcode:main
+bap-bulk-frag = bap.cli_bap_bulk_frag:main
+bap-frag = bap.cli_bap_frag:main
+bap-reanno = bap.cli_reanno:main
+bap2 = bap.cli_bap2:main
+
