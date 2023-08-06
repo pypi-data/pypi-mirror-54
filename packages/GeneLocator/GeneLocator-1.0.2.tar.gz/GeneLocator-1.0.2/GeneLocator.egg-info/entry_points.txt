@@ -1,0 +1,3 @@
+[console_scripts]
+genelocator = genelocator.command_line:main
+
