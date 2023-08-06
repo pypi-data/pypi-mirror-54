@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+pptx_templater/__init__.py
+pptx_templater/core.py
+pptx_templater/file_handler.py
+pptx_templater/slides.py
+pptx_templater/text_parser.py
+python_pptx_templater.egg-info/PKG-INFO
+python_pptx_templater.egg-info/SOURCES.txt
+python_pptx_templater.egg-info/dependency_links.txt
+python_pptx_templater.egg-info/requires.txt
+python_pptx_templater.egg-info/top_level.txt
