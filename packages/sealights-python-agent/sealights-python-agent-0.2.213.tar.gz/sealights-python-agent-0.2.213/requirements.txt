@@ -1,0 +1,7 @@
+APScheduler==3.6.1
+coverage==4.5.4
+unittest2==1.1.0
+cryptography==2.7
+future==0.18.0
+gitpython==2.1.13
+astor==0.8.0
