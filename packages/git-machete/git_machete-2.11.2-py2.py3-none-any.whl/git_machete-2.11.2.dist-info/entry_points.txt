@@ -1,0 +1,3 @@
+[console_scripts]
+git-machete = git_machete.cmd:main
+
