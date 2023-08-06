@@ -1,0 +1,12 @@
+[tshistory.subcommands]
+audit-aliases = tshistory_alias.cli:audit_aliases
+export-aliases = tshistory_alias.cli:export_aliases
+migrate-alias-0.4-to-0.5 = tshistory_alias.cli:migrate_dot_four_to_dot_five
+register-arithmetic = tshistory_alias.cli:register_arithmetic
+register-outliers = tshistory_alias.cli:register_outliers
+register-priorities = tshistory_alias.cli:register_priorities
+remove-alias = tshistory_alias.cli:remove_alias
+reset-aliases = tshistory_alias.cli:reset_aliases
+shell = tshistory_alias.cli:shell
+verify-aliases = tshistory_alias.cli:verify_aliases
+

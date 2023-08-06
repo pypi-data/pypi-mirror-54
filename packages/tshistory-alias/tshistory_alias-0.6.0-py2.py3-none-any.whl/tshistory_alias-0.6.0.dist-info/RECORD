@@ -1,0 +1,12 @@
+tshistory_alias/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tshistory_alias/cli.py,sha256=VEP8_CeDofRfH46imWyHMzbP4nbLrilbHkA5CbtYxRE,7639
+tshistory_alias/db.py,sha256=-g2ZOrqGSsCpT2mTUF6wMQofMe-aOsS0CVIWqKOaRx0,1537
+tshistory_alias/helpers.py,sha256=MSvwdP9MHx5yQW2d1LYaKBPSPd1NV6606qa59tb_WIc,5826
+tshistory_alias/schema.py,sha256=BCeFv623tKx0S67WElxTgP3nIu8XZMoR3Ek_Ueg8jaA,333
+tshistory_alias/schema.sql,sha256=26oWKu2vx3mVrvwbl4ecOPl2HwXTtbX4t_xScj6fI0Q,670
+tshistory_alias/tsio.py,sha256=JV6-FvQFkLJ2c-ezMfpjIiPg9BAT0hwAzxpFG1pEthM,9669
+tshistory_alias-0.6.0.dist-info/METADATA,sha256=scWUush42QsqJ9ywshu6POrNVH6_sdcBsiMRGhIzTAs,705
+tshistory_alias-0.6.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+tshistory_alias-0.6.0.dist-info/entry_points.txt,sha256=8_xvWx2PpVlvzACv_p6ZPNeFZuuMPXmZZ6p2knnjURs,569
+tshistory_alias-0.6.0.dist-info/top_level.txt,sha256=zyqFU2Z_gHSXbO_a4re_vHrs6Wt7mCWp-9lf3EuMJwk,16
+tshistory_alias-0.6.0.dist-info/RECORD,,
