@@ -1,0 +1,9 @@
+README.md
+setup.py
+narrator/__init__.py
+narrator/narrator.py
+narrator.egg-info/PKG-INFO
+narrator.egg-info/SOURCES.txt
+narrator.egg-info/dependency_links.txt
+narrator.egg-info/requires.txt
+narrator.egg-info/top_level.txt
