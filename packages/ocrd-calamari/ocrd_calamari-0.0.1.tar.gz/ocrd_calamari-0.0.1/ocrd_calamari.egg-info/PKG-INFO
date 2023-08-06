@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ocrd-calamari
+Version: 0.0.1
+Summary: Calamari bindings
+Home-page: https://github.com/kba/ocrd_calamari
+Author: Konstantin Baierer, Mike Gerber
+Author-email: unixprog@gmail.com, mike.gerber@sbb.spk-berlin.de
+License: Apache License 2.0
+Description: # ocrd_calamari
+        
+        Recognize text using [Calamari OCR](https://github.com/Calamari-OCR/calamari).
+        
+        ## Introduction
+        
+        This offers a OCR-D compliant workspace processor for some of the functionality of Calamari OCR.
+        
+        This processor only operates on the text line level and so needs a line segmentation (and by extension a binarized 
+        image) as its input.
+        
+        ## Example Usage
+        
+        ```sh
+        ocrd-calamari-recognize -p test-parameters.json -m mets.xml -I OCR-D-SEG-LINE -O OCR-D-OCR-CALAMARI
+        ```
+        
+        With `test-parameters.json`:
+        
+        ```json
+        {
+            "checkpoint": "/path/to/some/trained/models/*.ckpt.json"
+        }
+        ```
+        
+        TODO
+        ----
+        
+        * Support Calamari's "extended prediction data" output
+        * Currently, the processor only supports a prediction using confidence voting of multiple models. While this is
+          superior, it makes sense to support single model prediction, too.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
