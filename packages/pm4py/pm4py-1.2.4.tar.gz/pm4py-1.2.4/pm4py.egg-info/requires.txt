@@ -1,0 +1,21 @@
+pyvis
+networkx>=2.4
+matplotlib
+numpy
+ciso8601
+lxml
+graphviz
+pandas>=0.25.2
+scipy
+scikit-learn
+pydotplus
+pulp
+pytz>=2019.3
+prefixspan
+fasttext
+pybind11
+intervaltree
+
+[:python_version < "3.8" and sys_platform != "win32"]
+pyarrow==0.13.0
+ortools
