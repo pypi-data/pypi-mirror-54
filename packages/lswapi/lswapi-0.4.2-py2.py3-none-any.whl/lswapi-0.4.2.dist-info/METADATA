@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: lswapi
+Version: 0.4.2
+Summary: a python client library for easy leaseweb api access
+Home-page: http://developer.leaseweb.com
+Author: Nico Di Rocco
+Author-email: n.dirocco@global.leaseweb.com
+License: GPLv3
+Download-URL: https://github.com/nrocco/lswapi/tags
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: requests
+
+lswapi (beta)
+=============
+
+[![Actions Status](https://github.com/nrocco/lswapi/workflows/Python%20package/badge.svg)](https://github.com/nrocco/lswapi/actions)
+
+Python module to talk to LeaseWeb's API.
+
+For more information refer to the documentation available at
+[http://developer.leaseweb.com]
+
+
+Installation
+------------
+
+Install the module using pip
+
+    pip install lswapi
+
+
+Usage
+-----
+
+The `lswapi.get_leaseweb_api` function creates an instance of the LeaseWeb Api
+object with the `X-Lsw-Auth` key. You can provide the api key as an argument
+to `get_leaseweb_api`
+
+    $ python
+    >>> import lswapi
+    >>> client = lswapi.get_leaseweb_api(api_key="xxxx-xxx-xxxxxx")
+    >>> response = client.get("/bareMetals/v2/servers")
+    >>> servers = response.json()
+
+
+or as an environment variable `LSW_API_KEY`
+
+    $ LSW_API_KEY=xxxx-xxxx-xxxxx python
+    >>> import lswapi
+    >>> client = lswapi.get_leaseweb_api()
+    >>> response = client.get("/bareMetals/v2/servers")
+    >>> servers = response.json()
+
+
+Contribute
+----------
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Make sure that tests pass (`make test`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create new Pull Request
+
+
