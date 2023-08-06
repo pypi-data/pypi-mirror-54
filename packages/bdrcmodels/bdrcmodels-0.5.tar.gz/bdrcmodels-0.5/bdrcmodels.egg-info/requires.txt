@@ -1,0 +1,2 @@
+eulfedora>=1.7.2
+bdrxml>=1.0
