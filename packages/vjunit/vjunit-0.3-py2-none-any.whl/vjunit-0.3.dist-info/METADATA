@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: vjunit
+Version: 0.3
+Summary: Generate html file from junit reports
+Home-page: http://github.com/ahelsayd/vjunit
+Author: Ahmed El-Sayed
+Author-email: ahmed.m.elsayed93@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: jinja2
+
+## VJunit
+
+### Installation
+```bash
+pip3 install vjunit
+```
+### Usage
+```bash
+vjunit --file <xml file> --output <html file>
+```
+
+### Screenshots
+![image](assets/screenshot1.png)
+
+
