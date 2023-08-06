@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: acpipe-acjson
+Version: 0.1.17
+Summary: acpipe_acjson is the python3 acjson base library. acjson - assay coordinate json - is a file format developed to log complicated biological wetlab experiment layouts.
+Home-page: https://gitlab.com/biotransistor/acpipe_acjson
+Author: Elmar Bucher
+Author-email: ulmusfagus@zoho.com
+License: GPL>=3
+Keywords: bioinformatics json wetlab experiment log_fomat
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# About the acjson project ...
+
+This is a python3 library to produce and process acjson objects.
+
+Acjson (assay coordinate java script object notation) is
+in the big picture a json syntax (http://json.org/) compatible file format,
+that was developed to capture the most essential experimental annotations
+of a biological wetlab experiment,
+how ever simple or complicated the layout may be.
+
+In the guts of this file format is each experimental condition described as a single coordinate.
+
+Each coordinate is an adaptation of the input-processing-output (IPO) model from software engineering, 
+which is used to describe the structure of an information processing program.
+In the biological experiment use-case, these are represented by (SPE) sample, perturbation, and assay endpoints, 
+which are represented as three axes.
+
+Each of this axis can hold as many sample or reagent records as needed to describe the experimental condition.
+
+This library can produce and process such acjson objects.
+
+
+## Howto guide
+
+How to install acpipe_acjson?
+```bash
+pip3 install acpipe_acjson
+```
+
+How to load the acpipe_acjson library?
+```python
+import acpipe_acjson.acjson as ac
+```
+
+Howto get reference information about the implemented constants and functions?
+```python
+import acpipe_acjson.acjson as ac
+
+# basic constants
+ac.ts_ABC
+ac.ts_ACAXIS
+ac.ts_NOTCOOR
+ac.ts_COORSYS
+ac.d_WELL
+ac.d_RECORD
+ac.d_RECORDLONG
+
+# record dictionary add on constants
+ac.d_SET
+ac.d_EXTERNALID
+ac.d_SAMPLE
+ac.d_MICROSCOPE
+ac.d_PRIMANTIBODY
+ac.d_SECANTIBODY
+
+# leaf constants
+ac.leaf
+ac.es_DATAFRAMELEAF
+
+# 96 to 386 well constantes
+ac.dii_96A1
+ac.dii_96A2
+ac.dii_96B1
+ac.dii_96B2
+
+# function
+help(ac.retype)
+help(ac.escoor)
+help(ac.icoormax)
+help(ac.ispotmax)
+help(ac.ispot)
+help(ac.xy2icoor)
+help(ac.acrelabel)
+help(ac.acbuild)
+help(ac.acfuseaxisrecord)
+help(ac.acfusewellrecord)
+help(ac.acfuserepeat0011)
+help(ac.acfuserepeat0101)
+help(ac.acfuseobject)
+help(ac.acfuse4to1)
+help(ac.count_record)
+help(ac.record_in_acjson)
+help(ac.list_uniq_record)
+help(ac.max_record)
+help(ac.pop_record)
+help(ac.pop_ac)
+help(ac.xray)
+help(ac.acjson2layouttsv)
+help(ac.acjson2dataframetsv)
+```
+
+

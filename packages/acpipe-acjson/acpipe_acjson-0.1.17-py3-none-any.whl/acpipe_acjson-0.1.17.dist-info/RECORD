@@ -1,0 +1,10 @@
+acpipe_acjson/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acpipe_acjson/acjson.py,sha256=X_8v1A61_Jxxm4tbb3WgpXHeGzI6PUfNPuZqIHoat1g,131891
+acpipe_acjson/error.json,sha256=oYxD1MRi_spnKedNfB2tFaHcTE-0Q2p8Md6XC6wDKjw,2419
+acpipe_acjson/test_acjson.py,sha256=5HhphGG9kpiEtT3gZ50dEwvUJyTc6uWcuND8a4tHqJ4,22099
+acpipe_acjson-0.1.17.dist-info/LICENSE.txt,sha256=TeIp_UfAp-OY5Af2Dkp6OSVgiePUu2zIwsVjHsR_izw,35253
+acpipe_acjson-0.1.17.dist-info/LICENSE.txt~,sha256=z9pVeDCN1JjMmsySNwYvsbytUy0pifKox6z5oDRZFwM,35250
+acpipe_acjson-0.1.17.dist-info/METADATA,sha256=oHEZmK0S9JUcIf-Y48dLC8xviPdw7SE0PpMDx_qhr08,3134
+acpipe_acjson-0.1.17.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+acpipe_acjson-0.1.17.dist-info/top_level.txt,sha256=e543nrH5NFWmcF1v1NaTpR-Q07SYftabHexHL6dKHfw,14
+acpipe_acjson-0.1.17.dist-info/RECORD,,
