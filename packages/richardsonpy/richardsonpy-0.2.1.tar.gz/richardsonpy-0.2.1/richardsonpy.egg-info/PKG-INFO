@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: richardsonpy
+Version: 0.2.1
+Summary: Python version of Richardson tool to generate stochastic user and electric load profiles
+Home-page: https://github.com/RWTH-EBC/richardsonpy
+Author: Institute of Energy Efficient Buildings and Indoor Climate, E.ON Energy Research Center, RWTH Aachen University
+Author-email: UNKNOWN
+License: GPL-3.0
+Description: UNKNOWN
+Platform: any
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
