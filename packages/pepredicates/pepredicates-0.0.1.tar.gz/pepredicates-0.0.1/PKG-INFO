@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pepredicates
+Version: 0.0.1
+Summary: Python package to return source classification probabilities for GW posterior samples
+Home-page: https://git.ligo.org/will.farr/pepredicates
+Author: Will Farr, Chris Pankow, Charlie Hoy
+Author-email: will.far@ligo.org
+License: GNU
+Download-URL: https://git.ligo.org/will.farr/pepredicates
+Description-Content-Type: text/markdown
+Description: # PEPredicates
+        
+        Code for computing various P_BLAH quantities in a general way from PE samples.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

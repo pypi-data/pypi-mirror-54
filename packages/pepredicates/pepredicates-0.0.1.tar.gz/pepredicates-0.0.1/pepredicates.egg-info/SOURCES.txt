@@ -1,0 +1,10 @@
+README.md
+setup.py
+pepredicates/__init__.py
+pepredicates/predicates.py
+pepredicates/utils.py
+pepredicates.egg-info/PKG-INFO
+pepredicates.egg-info/SOURCES.txt
+pepredicates.egg-info/dependency_links.txt
+pepredicates.egg-info/requires.txt
+pepredicates.egg-info/top_level.txt
