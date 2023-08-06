@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: env_export_top
+Version: 0.0
+Summary: ensure that $TOP is always exported
+Home-page: https://github.com/bukzor/python-env-export-top
+Author: Buck Evan
+Author-email: buck.2019@gmail.com
+License: MIT
+Description: 
+        This package installs a pth file that will ensure that a $TOP environment
+        variable is set to the top of your development codebase before running any other
+        piece of python. The $TOP environment variable is set by searching the filesytem
+        for a `.top` file, starting from the .pth file itself and travsering parent
+        directories.
+        
+        Demo::
+        
+            $ virtualenv tmpenv
+            $ . tmpenv/bin/activate
+            $ pip install export-top-var
+            $ touch .top
+            $ python -c 'import os; os.system("echo $TOP")'
+            /my/current/path
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
