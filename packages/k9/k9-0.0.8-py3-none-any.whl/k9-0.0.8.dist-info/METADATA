@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: k9
+Version: 0.0.8
+Summary: Automation Helper for K8 (Kubernetes)
+Home-page: https://gitlab.com/python-cicd/k9
+Author: SimonComputing, Inc.
+Author-email: simon@simoncomputing.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: kubernetes
+
+# K9
+
+What is K9?  It is a helper library to simplify the automation 
+of Kubernetes.
+
+Tested with: 
+
+kubernetes v10.0.1 
+
+## Getting Started
+
+Installing the library:
+
+```shell
+pip install -i https://test.pypi.org/simple/ k9==0.0.6
+```
+
+Here is a quick test, **test.py**
+
+```python
+import pprint
+
+pp = pprint.PrettyPrinter(indent=2)
+pp.pprint(helper.list_namespaces())
+```
+
+Run it by: 
+```shell
+python3 test.py
+```
+
+## API Definition
+
+
+
+### Utility Functions
+
+#### def last_word(value: str)
+
+This function returns the last word separated by a forward slash.  This is helpful when parsing out object names in strings delimited by forward slashes.  For example: 
+```python
+
+pod = last_word("pods/my-pod")
+# The value of pod is: my-pod
+```
+
+
+
+
