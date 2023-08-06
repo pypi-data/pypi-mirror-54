@@ -1,0 +1,7 @@
+.idea
+*.eggs
+*.egg-info
+.benchmarks
+.DS_Store
+*.pytest_chache
+*.pyc
