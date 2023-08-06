@@ -1,0 +1,3 @@
+[console_scripts]
+fashion-segmentator = fine_grained_segmentation.command_line:main
+
