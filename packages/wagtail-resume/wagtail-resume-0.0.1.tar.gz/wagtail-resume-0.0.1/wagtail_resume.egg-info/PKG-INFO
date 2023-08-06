@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: wagtail-resume
+Version: 0.0.1
+Summary: Wagtail resumes for developers
+Home-page: https://github.com/danihodovic/wagtail-resume
+Author: Dani Hodovic
+Author-email: hodovic.dani@gmail.com
+License: MIT
+Description: # Wagtail resume
+        
+        Wagtail resumes for developers
+        
+Keywords: [django,wagtail,resume]
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3

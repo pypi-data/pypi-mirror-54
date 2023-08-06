@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tests/__init__.py
+tests/settings.py
+tests/tests.py
+tests/urls.py
+wagtail_resume/__init__.py
+wagtail_resume/apps.py
+wagtail_resume/models.py
+wagtail_resume/signals.py
+wagtail_resume/urls.py
+wagtail_resume.egg-info/PKG-INFO
+wagtail_resume.egg-info/SOURCES.txt
+wagtail_resume.egg-info/dependency_links.txt
+wagtail_resume.egg-info/top_level.txt
