@@ -1,0 +1,2 @@
+ehelply-logger>=0.0.7
+pytest
