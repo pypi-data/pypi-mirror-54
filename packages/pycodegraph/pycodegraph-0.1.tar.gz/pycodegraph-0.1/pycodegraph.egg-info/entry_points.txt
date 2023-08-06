@@ -1,0 +1,3 @@
+[console_scripts]
+pycodegraph = pycodegraph.cli:main
+
