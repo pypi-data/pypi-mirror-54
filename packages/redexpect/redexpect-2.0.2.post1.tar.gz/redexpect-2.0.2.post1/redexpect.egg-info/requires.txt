@@ -1,0 +1,14 @@
+redssh>=2*
+
+[docs]
+sphinx
+sphinx_rtd_theme
+redssh>=2*
+
+[tests]
+sftpserver
+coveralls
+redssh>=2*
+paramiko
+asyncssh
+pytest-cov
