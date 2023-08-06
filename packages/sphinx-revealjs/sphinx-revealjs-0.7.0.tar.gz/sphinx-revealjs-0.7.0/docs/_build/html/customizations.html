@@ -1,0 +1,301 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Customize presentations &mdash; sphinx-revealjs 0.6.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Content directives" href="content_directives.html" />
+    <link rel="prev" title="Setup" href="setup.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> sphinx-revealjs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">List of Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Setup</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Customize presentations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#global-configuration">Global configuration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#usage">Usage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#parameters">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#slide-configuration">Slide configuration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Usage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#section-configuration">Section configuration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Usage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Parameters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content_directives.html">Content directives</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">sphinx-revealjs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Customize presentations</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/customizations.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="customize-presentations">
+<h1>Customize presentations<a class="headerlink" href="#customize-presentations" title="Permalink to this headline">¶</a></h1>
+<p>To customize presentations, you can configure by some approach.</p>
+<div class="section" id="global-configuration">
+<h2>Global configuration<a class="headerlink" href="#global-configuration" title="Permalink to this headline">¶</a></h2>
+<p>To customize all presentations, edit your <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> .</p>
+<div class="section" id="usage">
+<h3>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">sphinx-revealjs</span></code> is accept themes and theme options.
+If you want set parameters,
+write <code class="docutils literal notranslate"><span class="pre">revealjs_theme</span></code> and <code class="docutils literal notranslate"><span class="pre">revealjs_theme_options</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">revealjs_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;revealjs_config&#39;</span><span class="p">:</span> <span class="s1">&#39;{&quot;transition&quot;: &quot;cube&quot;}&#39;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h3>
+<dl>
+<dt>revealjs_theme_options</dt><dd><p>Options for default theme.
+Use to override from template default parameters.</p>
+</dd>
+<dt>revealjs_theme</dt><dd><p>Theme name to use. (default is <strong>sphinx_revealjs</strong>)</p>
+<p>If you want customize template, change it.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="slide-configuration">
+<h2>Slide configuration<a class="headerlink" href="#slide-configuration" title="Permalink to this headline">¶</a></h2>
+<p>For editing settings for specify presentation,
+you write custom directive at source reST.</p>
+<div class="section" id="id1">
+<h3>Usage<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Write <code class="docutils literal notranslate"><span class="pre">revealjs_slide</span></code> directive directly after first section.</p>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span><span class="gh">Slide title</span>
+<span class="gh">===========</span>
+
+<span class="p">..</span> <span class="ow">revealjs_slide</span><span class="p">::</span>
+    <span class="nc">:theme:</span> <span class="nf">solarized</span>
+    <span class="nc">:config:</span> <span class="nf">{&quot;transition&quot;: &quot;none&quot;}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id2">
+<h3>Parameters<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<dl class="simple">
+<dt>theme</dt><dd><p>Change Reveal.js theme for only slide</p>
+</dd>
+<dt>config</dt><dd><p>Override parameter to initialize Reveal.js</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="section-configuration">
+<h2>Section configuration<a class="headerlink" href="#section-configuration" title="Permalink to this headline">¶</a></h2>
+<p>To change behavior per section, write directive per section.</p>
+<div class="section" id="id3">
+<h3>Usage<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Write <code class="docutils literal notranslate"><span class="pre">revealjs_section</span></code> directive directly after subsections.</p>
+<div class="highlight-rest notranslate"><div class="highlight"><pre><span></span><span class="gh">Title</span>
+<span class="gh">=====</span>
+
+<span class="gh">Section</span>
+<span class="gh">-------</span>
+
+<span class="p">..</span> <span class="ow">revealjs_section</span><span class="p">::</span>
+    <span class="nc">:data-background-color:</span> <span class="nf">#009900</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h3>Parameters<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="admonition-todo admonition" id="id5">
+<p class="admonition-title">Todo</p>
+<p>write after</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="content_directives.html" class="btn btn-neutral float-right" title="Content directives" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="setup.html" class="btn btn-neutral float-left" title="Setup" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Kazuya Takei
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
