@@ -1,0 +1,7 @@
+ocrd_utils/__init__.py,sha256=d8giY98KiuwejwecHtoBZEFbMMTGhypVA6531qgHE4g,29160
+ocrd_utils/constants.py,sha256=fWHRVf34-P23MXMpr8zuwrFi9EtLdSHgm67XGY_8ZJY,623
+ocrd_utils/logging.py,sha256=LL67CutluSfWbNC-Ik5fPGyVE4yNDDIRMbvEi1fMRxc,3073
+ocrd_utils-2.0.0a1.dist-info/METADATA,sha256=qgLPebyXXu6QzgFEHA_ZaI9sro9NTmFxlDk4QwGqucU,490
+ocrd_utils-2.0.0a1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ocrd_utils-2.0.0a1.dist-info/top_level.txt,sha256=qu4eLMHl72fNP5n_p0sYhoUNLJumENuqszNZhD3WAvU,11
+ocrd_utils-2.0.0a1.dist-info/RECORD,,
