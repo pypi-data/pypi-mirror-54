@@ -1,0 +1,6 @@
+README.md
+setup.py
+scbtools.egg-info/PKG-INFO
+scbtools.egg-info/SOURCES.txt
+scbtools.egg-info/dependency_links.txt
+scbtools.egg-info/top_level.txt
