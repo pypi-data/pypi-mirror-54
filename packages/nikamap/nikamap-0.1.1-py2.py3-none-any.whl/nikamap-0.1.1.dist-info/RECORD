@@ -1,0 +1,17 @@
+benchmarks/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+benchmarks/benchmarks.py,sha256=wACxbiQHpRyf3LdTkGAjpBBlQrPfKoTb4i7Hx1AFLj4,885
+nikamap/__init__.py,sha256=sfdhrIqfDJklqg_PmdXuvcpFfIjHgQvFnBr4RgXjqKU,494
+nikamap/analysis.py,sha256=LyCFrRIAvB6dIojkUjoFnDI7loF4sYAvPqYSQPkOjQQ,9470
+nikamap/due.py,sha256=jrwiyEHejmQu4w8ASVKmV20Mky9mSmr8R21-9CrpUB0,2031
+nikamap/nikamap.py,sha256=pMX9-Q6OeJ4BIojybVRheMAxcQ8eH_HuhN3YNWm4mbs,37366
+nikamap/utils.py,sha256=whoNYpqQ48CHjFxjUiDAIGQGAldgpFVxhWBJNvKRuLM,15772
+nikamap/version.py,sha256=v0mjEZo60oEvpU13zbVCLoUvnGJAj7z3yUMK-BYhuIw,2436
+nikamap/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nikamap/tests/test_analysis.py,sha256=PBR1cWKYArU9sM5d_AIKYPTDcu8s4SHPTgI1D-G3zoY,10121
+nikamap/tests/test_nikamap.py,sha256=NMQjIfaU4h7NbVG24wGaz2E8v0J9SuP85uSudymjBuw,28097
+nikamap/tests/test_utils.py,sha256=kpVC1BvtsUWG12C42IP7IbSYr7ajpmvol9zP0L5WPbo,9969
+nikamap-0.1.1.dist-info/LICENSE,sha256=PBljiCzlvKg_-AT8lsvs2AXETgg3hj5hfUxgqu0vli0,1127
+nikamap-0.1.1.dist-info/METADATA,sha256=QsIJ4_d6lBN8kxyElHMcCFp57yfK9taclbtB3zeL2wU,1456
+nikamap-0.1.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+nikamap-0.1.1.dist-info/top_level.txt,sha256=02NhnO3bDryXtiLgAKDFSfmjVRcIk-oTtWrB61xi4X4,19
+nikamap-0.1.1.dist-info/RECORD,,
