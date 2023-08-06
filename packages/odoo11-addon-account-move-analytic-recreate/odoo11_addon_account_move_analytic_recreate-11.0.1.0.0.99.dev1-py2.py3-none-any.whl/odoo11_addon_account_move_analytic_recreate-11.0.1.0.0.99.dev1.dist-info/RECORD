@@ -1,0 +1,11 @@
+odoo/addons/account_move_analytic_recreate/README.rst,sha256=j1uslHMcO0V3VaMdJQEqZ7dAXXftFzqdW5ezQ1K7LAY,1474
+odoo/addons/account_move_analytic_recreate/__init__.py,sha256=IBgwvNUGoCAcfsMI2COb9DgacxjuqrwrZfXMaO8weI8,91
+odoo/addons/account_move_analytic_recreate/__manifest__.py,sha256=3usw-OAnUtbhlKE0t8_ASwWUcWtX05cg2wO_FSm5FQU,543
+odoo/addons/account_move_analytic_recreate/i18n/account_move_analytic_recreate.pot,sha256=tHP_eP9SU17MAhH6qVGvnja_WK-8fP5VO9_fc-JCQ2s,531
+odoo/addons/account_move_analytic_recreate/models/__init__.py,sha256=RfyzKNwbTZuNaXZw3TyIzKQrRAPV4z29b42Gvg_dNsc,97
+odoo/addons/account_move_analytic_recreate/models/account_move.py,sha256=eWwCx9xfuG48ZXvstE-titKSyFV6fMmZj0zSPM7AA0Y,469
+odoo/addons/account_move_analytic_recreate/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo11_addon_account_move_analytic_recreate-11.0.1.0.0.99.dev1.dist-info/METADATA,sha256=BUsrKHfvo75VcvATBifjFYWGQfqasIXYkbNLuBmd4Kg,2072
+odoo11_addon_account_move_analytic_recreate-11.0.1.0.0.99.dev1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+odoo11_addon_account_move_analytic_recreate-11.0.1.0.0.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo11_addon_account_move_analytic_recreate-11.0.1.0.0.99.dev1.dist-info/RECORD,,
