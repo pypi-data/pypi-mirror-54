@@ -1,0 +1,8 @@
+audit_log/__init__.py,sha256=R9_nGpMmR9VSpVQQDOVU8zd-HaCRSQi_GuF-5JlEyNo,80
+audit_log/formatter.py,sha256=Cwfq0AofYn40sGV7P4sUKbx5Yxww17T4PSNZ3W6Oy-k,355
+audit_log/logger.py,sha256=AW0b31SSBbJDT7vcDBcrjbZChdVIbwYFyXXVwdz_lRY,3115
+datapunt_audit_log-0.1.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+datapunt_audit_log-0.1.1.dist-info/METADATA,sha256=o-sTuz7nmaE6ev1bgEthvNL8fJwFar57x9mF1K296W4,5725
+datapunt_audit_log-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+datapunt_audit_log-0.1.1.dist-info/top_level.txt,sha256=LiJD2JQka3QWbkSft5OvjJ8FrEajrYstGKgT650jtmQ,10
+datapunt_audit_log-0.1.1.dist-info/RECORD,,
