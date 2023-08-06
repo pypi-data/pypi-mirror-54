@@ -1,0 +1,5 @@
+embeddingsprep.egg-info/PKG-INFO
+embeddingsprep.egg-info/SOURCES.txt
+embeddingsprep.egg-info/dependency_links.txt
+embeddingsprep.egg-info/requires.txt
+embeddingsprep.egg-info/top_level.txt
