@@ -1,0 +1,16 @@
+README.md
+setup.py
+red_magic/__init__.py
+red_magic/chi2.py
+red_magic/general.py
+red_magic/graphic_selection.py
+red_magic/manual_fitting.py
+red_magic/mcmc_addon.py
+red_magic/model_physics.py
+red_magic/psd.py
+red_magic/stream_reader.py
+red_magic.egg-info/PKG-INFO
+red_magic.egg-info/SOURCES.txt
+red_magic.egg-info/dependency_links.txt
+red_magic.egg-info/requires.txt
+red_magic.egg-info/top_level.txt
