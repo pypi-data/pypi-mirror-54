@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: utify
+Version: 0.0.1
+Summary: Utility Functions in Python
+Home-page: https://github.com/yajiez/utify/
+Author: yajiez
+Author-email: yajiez.me@gmail.com
+License: mit
+Project-URL: Documentation, https://utify.readthedocs.io
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: fire
+Requires-Dist: ipython
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: tox ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# utify: Utility Functions in Python
+
+This package aims to organise the utility functions that I frequently use both for my work and personal projects from time to time.
+
+
