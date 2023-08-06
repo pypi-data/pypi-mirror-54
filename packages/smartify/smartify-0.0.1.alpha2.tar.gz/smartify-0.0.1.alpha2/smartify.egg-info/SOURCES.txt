@@ -1,0 +1,12 @@
+setup.py
+smartify/__init__.py
+smartify/analyse.py
+smartify/arg.py
+smartify/attribute.py
+smartify/error.py
+smartify/param.py
+smartify/symbol.py
+smartify.egg-info/PKG-INFO
+smartify.egg-info/SOURCES.txt
+smartify.egg-info/dependency_links.txt
+smartify.egg-info/top_level.txt
