@@ -1,0 +1,6 @@
+README
+setup.py
+hca_cli.egg-info/PKG-INFO
+hca_cli.egg-info/SOURCES.txt
+hca_cli.egg-info/dependency_links.txt
+hca_cli.egg-info/top_level.txt
