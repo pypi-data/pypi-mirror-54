@@ -1,0 +1,3 @@
+[console_scripts]
+chainmanager = chainmanager.__main__:run
+

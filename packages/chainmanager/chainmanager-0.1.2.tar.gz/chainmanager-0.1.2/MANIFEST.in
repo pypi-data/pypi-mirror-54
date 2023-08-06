@@ -1,0 +1,14 @@
+include chainmanager/form/*
+include chainmanager/model/*
+include chainmanager/ui/*
+include chainmanager/web/*
+include chainmanager/web/bootstrap/*
+include chainmanager/web/bootstrap/css/*
+include chainmanager/web/bootstrap/css/theme/*
+include chainmanager/web/bootstrap/css/theme2/*
+include chainmanager/web/bootstrap/js/*
+include chainmanager/web/swal/*
+include chainmanager/web/swal/css/*
+include chainmanager/web/swal/js/*
+include chainmanager/web/js/*
+include chainmanager/*

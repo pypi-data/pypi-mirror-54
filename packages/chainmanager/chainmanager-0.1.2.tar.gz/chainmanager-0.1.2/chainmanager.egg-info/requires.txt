@@ -1,0 +1,7 @@
+Eel==0.10.4
+selenium
+pandas
+numpy
+pathlib
+numpy
+xlrd

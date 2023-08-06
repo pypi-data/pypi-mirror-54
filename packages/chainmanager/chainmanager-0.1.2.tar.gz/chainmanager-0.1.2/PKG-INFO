@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: chainmanager
+Version: 0.1.2
+Summary: Manages all the chains of a projects and inserts them into de gestor.
+Home-page: https://github.com/manso92/chain-manager
+Author: Pablo Manso
+Author-email: 92manso@gmail.com
+License: MIT
+Description: # Mayas Gestor
+Keywords: gui,executable
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
