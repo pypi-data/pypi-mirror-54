@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: voila
+Version: 0.1.15
+Summary: Serving read-only live Jupyter notebooks
+Home-page: UNKNOWN
+Author: Voila Development team
+Author-email: jupyter@googlegroups.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ipython,jupyter,widgets
+Platform: UNKNOWN
+Provides-Extra: test
