@@ -1,0 +1,12 @@
+atlas_metadata_validator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atlas_metadata_validator/atlas_checker.py,sha256=Lnb96L5IFq7haQSNXAH57IB-LQgwpmNH2LJDlTQyVNc,12586
+atlas_metadata_validator/atlas_validation_config.json,sha256=l0I6G0j1QKgLrvfgkdKo50oAuf89ylgZoeUBIDYNyZ4,2486
+atlas_metadata_validator/fetch.py,sha256=LgNwJLtOB5MAkiLV3aWUseGfC_TSt5P3o1DKHwbTMqE,2472
+atlas_metadata_validator/file.py,sha256=fc7qCQZwUTRt38hW6ZiCedaMKFuG-gi80ErHPRcSnfI,1469
+atlas_metadata_validator/parser.py,sha256=RqMUNPUji5mGK8jH7FL7o6Utp952b84aNwOQkMFDVdQ,5062
+atlas_metadata_validator-1.1.0.data/scripts/atlas_validation.py,sha256=HUxS-e6MrPff1SgoWqI86jDM0htR-xNbou-HcG7FI5M,3463
+atlas_metadata_validator-1.1.0.dist-info/LICENSE,sha256=yVuuHRzgI17MzTVgt3LsHvuX80innw--CmNPDCzO_iw,11358
+atlas_metadata_validator-1.1.0.dist-info/METADATA,sha256=_QOJMIfn4g-M2-LUvqx48XJNwFEcJlIhp3m7_nsjGZc,2482
+atlas_metadata_validator-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+atlas_metadata_validator-1.1.0.dist-info/top_level.txt,sha256=zjEyS64jHblMxTrFWhgl1REhalObQp4HXKnqvX-D64k,25
+atlas_metadata_validator-1.1.0.dist-info/RECORD,,
