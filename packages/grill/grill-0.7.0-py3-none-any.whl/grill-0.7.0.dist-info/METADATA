@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: grill
+Version: 0.7.0
+Summary: Pipeline and data flow tools for (but not limited to) audiovisual projects, with DCC support.
+Home-page: https://github.com/thegrill/grill
+Author: Christian Lopez Barron
+Author-email: christianlb.vfx@outlook.com
+License: UNKNOWN
+Download-URL: https://github.com/thegrill/grill/releases/tag/0.7.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: grill-names
+Provides-Extra: docs
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+
+UNKNOWN
+
+
