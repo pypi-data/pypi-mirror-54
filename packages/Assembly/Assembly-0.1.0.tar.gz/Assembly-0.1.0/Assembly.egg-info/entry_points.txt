@@ -1,0 +1,4 @@
+[console_scripts]
+asm = assembly.cli:cmd
+asm-admin = assembly.cli:cmd
+
