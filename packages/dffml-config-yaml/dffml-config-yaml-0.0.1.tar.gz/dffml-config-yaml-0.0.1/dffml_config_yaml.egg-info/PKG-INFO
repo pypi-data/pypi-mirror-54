@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dffml-config-yaml
+Version: 0.0.1
+Summary: DFFML config dffml-config-yaml
+Home-page: https://github.com/johnsa1/dffml-config-yaml
+Author: John Andersen
+Author-email: john.s.andersen@intel.com
+Maintainer: John Andersen
+Maintainer-email: john.s.andersen@intel.com
+License: MIT
+Description: # DFFML Config For YAML Format
+        
+        ## About
+        
+        Allows for reading and writing of ``yaml`` files.
+        
+        ## License
+        
+        model_name Models are distributed under the terms of the
+        [MIT License](LICENSE).
+        
+Keywords: dffml
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
