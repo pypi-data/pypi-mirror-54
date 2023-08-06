@@ -1,0 +1,11 @@
+aws_ecr_migration/__init__.py,sha256=E_31_HPFuRCgvpfcAzPp3kshXaXEXbhtlIadfoW4Kck,61
+aws_ecr_migration/aws_credentials.py,sha256=7oXjfazGAM5EUXxftvuoq9XEONOENN2tMKmDFh9ofHk,485
+aws_ecr_migration/ecr_pull.sh,sha256=rqO2y8RXH2RWAGWxqGwSuO7_ECbY6nyx7wJdjZs133o,70
+aws_ecr_migration/ecr_push_container.sh,sha256=96DGx9rb8-lYqdevTLydwSfoMaHUS4SvmClr1xcukaY,124
+aws_ecr_migration/ecr_push_image.sh,sha256=XxVzaez_LyXFxXVJcUhBUcda0nS4UDwwyyo4-UlFxk0,113
+aws_ecr_migration/manage.py,sha256=DxNI3Nfy7g19jHr4tKOclG2YQA3oeqNFeFqiEs2QEew,3462
+aws_ecr_migration-1.1.0.dist-info/LICENSE.txt,sha256=kWAUvFb_dsDIxONXWf5t2RSRM8KY4Va1rvfgbeTTqIQ,35099
+aws_ecr_migration-1.1.0.dist-info/METADATA,sha256=byyTgOivTJ8NSBOXucwNZBSOGHR_FMHp36CVGFL3jls,2039
+aws_ecr_migration-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+aws_ecr_migration-1.1.0.dist-info/top_level.txt,sha256=hozFomZ8v5cDIZMjgXb9qHbegRP4-6DUzMr6AWTMRjs,18
+aws_ecr_migration-1.1.0.dist-info/RECORD,,
