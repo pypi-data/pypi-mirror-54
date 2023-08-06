@@ -1,0 +1,10 @@
+xlrd
+Qt.py
+pymongo
+firebase_admin
+
+[:python_version<'3.0']
+PySide
+
+[:python_version>='3.0']
+PySide2
