@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: sequence-server-wrapper
+Version: 0.0.0
+Summary: Sequence Server Wrapper
+Home-page: https://github.com/vstadnytskyi/sequence-server-wrapper
+Author: Valentyn Stadnytskyi
+Author-email: v.stadnytskyi@gmail.com
+License: BSD (3-clause)
+Description: =======================
+        Sequence Server Wrapper
+        =======================
+        
+        .. image:: https://img.shields.io/travis/vstadnytskyi/sequence-server-wrapper.svg
+                :target: https://travis-ci.org/vstadnytskyi/sequence-server-wrapper
+        
+        .. image:: https://img.shields.io/pypi/v/sequence-server-wrapper.svg
+                :target: https://pypi.python.org/pypi/sequence-server-wrapper
+        
+        
+        Sequence Server Wrapper
+        
+        * Free software: 3-clause BSD license
+        * Documentation: (COMING SOON!) https://vstadnytskyi.github.io/sequence-server-wrapper.
+        
+        Features
+        --------
+        
+        * TODO
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
