@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: BringApi
+Version: 0.0.3
+Summary: Unofficial Bring! Api
+Home-page: https://github.com/philipp2310/bring-api
+Author: Philipp Duerr
+Author-email: phil@uselessbrickwall.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# bring-api
+Incomplete, reverse-engineered and unofficial Bring! API
+
+### Credits
+Reverse Engineering   by helvet003<br/>
+PHP version   by helvet003<br/>
+Example: https://twitter.com/HelveteD/status/836262765719347202
+
+Python version  by philipp2310<br/>
+Used in SNIPS for voice Access: https://console.snips.ai/?ref=vOXxdM4DQZ5X
+
+
