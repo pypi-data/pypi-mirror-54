@@ -1,0 +1,7 @@
+numpy>=1.11.1
+scipy
+imgaug<0.2.7,>=0.2.5
+PyYAML
+
+[tests]
+pytest
