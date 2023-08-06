@@ -1,0 +1,4 @@
+[console_scripts]
+libra = libra.cli.main:main
+libra_shell = libra.shell.libra_shell:main
+
