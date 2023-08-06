@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: plantuml2freemind
+Version: 0.1.0
+Summary: Converts plantuml mindmaps to freemind .mm files
+License: MIT
+Author: Boger
+Author-email: kotvberloge@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: attrs (>=19.3.0,<20.0.0)
