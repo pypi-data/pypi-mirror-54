@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: naming
+Version: 0.4.1
+Summary: Object-oriented names for the digital era.
+Home-page: https://github.com/chrizzFTD/naming
+Author: Christian López Barrón
+Author-email: chris.gfz@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/chrizzFTD/naming/releases/tag/0.4.1
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: docs
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+
+UNKNOWN
+
+
