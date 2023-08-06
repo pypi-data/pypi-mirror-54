@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: silicone
+Version: 0.1.0a7
+Summary: Automated filling of detail in reported emission scenarios
+Home-page: https://github.com/znicholls/silicone
+Author: Robin Lamboll, Zebedee Nicholls
+Author-email: r.lamboll@imperial.ac.uk, zebedee.nicholls@climate-energy-college.org
+License: 3-Clause BSD License
+Project-URL: Bug Reports, https://github.com/znicholls/silicone/issues
+Project-URL: Documentation, https://silicone.readthedocs.io/en/latest
+Project-URL: Source, https://github.com/znicholls/silicone
+Description: Silicone
+        ========
+        
+        .. sec-begin-index
+        
+        Silicone is a Python package which can be used to automatically fill in detail in emissions scenarios.
+        For example, adding emissions of aerosol precurors and methane based on carbon dioxide and nitrous oxide emissions pathways or adding regional emissions based on a global emissions pathway.
+        
+        .. sec-end-index
+        
+        License
+        -------
+        
+        .. sec-begin-license
+        
+        Silicone is free software under a BSD 3-Clause License, see `LICENSE <https://github.com/znicholls/silicone/blob/master/LICENSE>`_.
+        
+        .. sec-end-license
+Keywords: emissions,automation,filling,detail,climate
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: docs
+Provides-Extra: deploy
+Provides-Extra: notebooks
+Provides-Extra: tests
+Provides-Extra: dev
