@@ -1,0 +1,4 @@
+numpy>=1.16
+fdm
+plum-dispatch
+backends>=0.3
