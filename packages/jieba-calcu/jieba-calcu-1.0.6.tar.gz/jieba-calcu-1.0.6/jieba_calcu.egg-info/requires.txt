@@ -1,0 +1,6 @@
+tqdm
+PyHamcrest
+twisted
+jieba
+numpy
+requests
