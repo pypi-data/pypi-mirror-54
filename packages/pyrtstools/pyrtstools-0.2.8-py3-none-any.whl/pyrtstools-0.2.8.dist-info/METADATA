@@ -1,0 +1,26 @@
+Metadata-Version: 2.0
+Name: pyrtstools
+Version: 0.2.8
+Summary: Tools for real time speech processing, keyword spotting (compatibility for python 3.5 and earlier)
+Home-page: https://github.com/linto-ai/pyrtstools.git
+Author: Rudy Baraglia
+Author-email: baraglia.rudy@gmail.com
+License: AGPLv3+
+Project-URL: github, https://github.com/linto-ai/pyrtstools.git
+Project-URL: pypi, https://pypi.org/project/pyrtstools/
+Keywords: kws hotword keyword vad utterance voice-command speech
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: pyaudio
+Requires-Dist: webrtcvad
+Requires-Dist: sonopy
+Requires-Dist: requests
+Requires-Dist: speechpy
+
+Visit [github](https://github.com/linto-ai/pyrtstools.git)
+
+
