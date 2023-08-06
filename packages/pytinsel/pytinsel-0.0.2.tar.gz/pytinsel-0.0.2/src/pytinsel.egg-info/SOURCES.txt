@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/pytinsel/__init__.py
+src/pytinsel/functions.py
+src/pytinsel.egg-info/PKG-INFO
+src/pytinsel.egg-info/SOURCES.txt
+src/pytinsel.egg-info/dependency_links.txt
+src/pytinsel.egg-info/top_level.txt
