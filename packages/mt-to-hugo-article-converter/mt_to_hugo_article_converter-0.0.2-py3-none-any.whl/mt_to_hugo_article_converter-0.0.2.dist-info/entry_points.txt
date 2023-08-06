@@ -1,0 +1,3 @@
+[console_scripts]
+mt-to-hugo-article-converter = mt_to_hugo_article_converter.converter:main
+
