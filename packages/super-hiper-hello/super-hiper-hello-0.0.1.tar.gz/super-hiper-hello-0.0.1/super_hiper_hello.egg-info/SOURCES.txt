@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+hello.txt
+setup.py
+./hello/__init__.py
+./hello/hello.py
+super_hiper_hello.egg-info/PKG-INFO
+super_hiper_hello.egg-info/SOURCES.txt
+super_hiper_hello.egg-info/dependency_links.txt
+super_hiper_hello.egg-info/requires.txt
+super_hiper_hello.egg-info/top_level.txt
