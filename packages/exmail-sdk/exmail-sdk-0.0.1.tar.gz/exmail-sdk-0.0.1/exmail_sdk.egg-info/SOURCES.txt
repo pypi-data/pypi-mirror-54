@@ -1,0 +1,8 @@
+README.rst
+setup.py
+exmail/__init__.py
+exmail_sdk.egg-info/PKG-INFO
+exmail_sdk.egg-info/SOURCES.txt
+exmail_sdk.egg-info/dependency_links.txt
+exmail_sdk.egg-info/not-zip-safe
+exmail_sdk.egg-info/top_level.txt

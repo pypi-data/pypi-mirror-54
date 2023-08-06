@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: exmail-sdk
+Version: 0.0.1
+Summary: Tencent Exmail SDK for Python
+Home-page: https://github.com/ni-ning/exmail-sdk
+Author: ni-ning
+Author-email: nining1314@gmail.com
+License: UNKNOWN
+Description: Tencent Exmail SDK for Python
+Keywords: tencent,qq,exmail,exmail-sdk,SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
