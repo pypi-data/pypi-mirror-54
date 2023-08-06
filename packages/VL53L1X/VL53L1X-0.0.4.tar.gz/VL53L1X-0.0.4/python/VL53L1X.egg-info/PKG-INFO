@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: VL53L1X
+Version: 0.0.4
+Summary: vl53l1x distance sensor driver for Raspberry Pi
+Home-page: https://github.com/pimoroni/vl53l1x-python
+Maintainer: Phil Howard
+Maintainer-email: phil@pimoroni.com
+License: UNKNOWN
+Description: # vl53l1x-python
+        
+        Python library for the VL53L1X Laser Ranger.
+        
+        https://shop.pimoroni.com/products/vl53l1x-breakout
+        
+        # Installing
+        
+        ```
+        sudo pip install smbus2
+        sudo pip install vl53l1x
+        ```
+        
+        # Usage
+        
+        ```python
+        import VL53L1X
+        
+        tof = VL53L1X.VL53L1X(i2c_bus=1, i2c_address=0x29)
+        tof.open() # Initialise the i2c bus and configure the sensor
+        tof.start_ranging(1) # Start ranging, 1 = Short Range, 2 = Medium Range, 3 = Long Range
+        distance_in_mm = tof.get_distance() # Grab the range in mm
+        tof.stop_ranging() # Stop ranging
+        ```
+        
+        See examples for more advanced usage.
+        
+        0.0.4
+        -----
+        
+        * Enhancement: support for tca9548a, for #13
+        * Enhancement: support for i2c address change, for #14
+        * Enhancement: support for setting timing budget, for #16
+        * Synced API code with latest release from ST
+        
+        
+        0.0.3
+        -----
+        
+        * Fix: Use i2c_bus param for use with alternate buses/soft i2c
+        
+        0.0.2
+        -----
+        
+        * Improved search for .so file to pick up arch-specific files
+        
+        0.0.1
+        -----
+        
+        * Initial release
+        
+Platform: UNKNOWN
+Requires: smbus2
+Description-Content-Type: text/markdown
