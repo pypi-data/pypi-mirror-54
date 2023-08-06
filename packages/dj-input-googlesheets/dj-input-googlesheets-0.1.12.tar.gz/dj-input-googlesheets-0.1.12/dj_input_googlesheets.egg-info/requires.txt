@@ -1,0 +1,5 @@
+requests
+dj-oauth-clients>=0.1.5
+dj-input-flow
+pygsheets
+python-redis-lock>=3.3.1
