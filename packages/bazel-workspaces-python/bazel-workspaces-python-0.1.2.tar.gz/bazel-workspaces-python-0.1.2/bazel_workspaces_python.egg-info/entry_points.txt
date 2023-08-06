@@ -1,0 +1,3 @@
+[console_scripts]
+bazel-workspaces-python = bazel_workspaces_python.cli:main
+
