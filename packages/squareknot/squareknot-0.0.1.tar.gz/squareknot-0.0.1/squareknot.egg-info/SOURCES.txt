@@ -1,0 +1,7 @@
+README.md
+setup.py
+squareknot/__init__.py
+squareknot.egg-info/PKG-INFO
+squareknot.egg-info/SOURCES.txt
+squareknot.egg-info/dependency_links.txt
+squareknot.egg-info/top_level.txt
