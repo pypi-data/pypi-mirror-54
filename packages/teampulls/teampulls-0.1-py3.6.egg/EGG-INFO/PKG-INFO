@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: teampulls
+Version: 0.1
+Summary: teampulls lists all of the pull requests for a list of users and repositories and highlights the old ones in red.
+Home-page: https://github.com/brejoc/teampulls
+Author: Jochen Breuer
+Author-email: jbreuer@suse.de
+Maintainer: Jochen Breuer
+Maintainer-email: jbreuer@suse.de
+License: GPLv3
+Description: UNKNOWN
+Keywords: Github Pull Requests team
+Platform: any
