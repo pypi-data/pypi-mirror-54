@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sixties
+Version: 0.0.1
+Summary: Parsing of fixed width text databases derived in the Seventies from the Sixties' spirit of the previous century.
+Home-page: https://github.com/sdrees/python-sixties
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# Python-Sixties
+
+Parsing of fixed width text databases derived in the Seventies from the Sixties’ spirit of the previous century.
+
+
+
