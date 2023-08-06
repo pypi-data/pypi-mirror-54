@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: scmdata
+Version: 0.1.0
+Summary: Simple data handling for Simple Climate Model data
+Home-page: https://github.com/lewisjared/scmdata
+Author: Jared Lewis, Zeb Nicholls
+Author-email: jared.lewis@climate-energy-college.org, zebedee.nicholls@climate-energy-college.org
+License: 3-Clause BSD License
+Project-URL: Bug Reports, https://github.com/lewisjared/scmdata/issues
+Project-URL: Documentation, https://scmdata.readthedocs.io/en/latest
+Project-URL: Source, https://github.com/lewisjared/scmdata
+Keywords: data,simple climate model,climate,scm
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas (==0.24.2)
+Requires-Dist: python-dateutil
+Requires-Dist: pint
+Provides-Extra: deploy
+Requires-Dist: twine (>=1.11.0) ; extra == 'deploy'
+Requires-Dist: setuptools (>=38.6.0) ; extra == 'deploy'
+Requires-Dist: wheel (>=0.31.0) ; extra == 'deploy'
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pyam-iamc (>=0.2.0) ; extra == 'dev'
+Requires-Dist: codecov ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest (>=4.0) ; extra == 'dev'
+Requires-Dist: sphinx (<2.1,>=1.4) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: twine (>=1.11.0) ; extra == 'dev'
+Requires-Dist: setuptools (>=38.6.0) ; extra == 'dev'
+Requires-Dist: wheel (>=0.31.0) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (<2.1,>=1.4) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: pyam
+Requires-Dist: pyam-iamc (>=0.2.0) ; extra == 'pyam'
+Provides-Extra: tests
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest (>=4.0) ; extra == 'tests'
+
+SCMData
+=======
+
+.. sec-begin-links
+
++-------------------+----------------+-----------+-----------+
+| Repository health | |Build Status| | |Codecov| | |License| |
++-------------------+----------------+-----------+-----------+
+
++-----------------+------------------+
+| Latest releases | |Latest Version| |
++-----------------+------------------+
+
++-----------------+----------------+---------------+
+| Latest activity | |Contributors| | |Last Commit| |
++-----------------+----------------+---------------+
+
+.. |Build Status| image:: https://travis-ci.org/lewisjared/scmdata.svg?branch=master
+    :target: https://travis-ci.org/lewisjared/scmdata
+.. |Codecov| image:: https://img.shields.io/codecov/c/github/lewisjared/scmdata.svg
+    :target: https://codecov.io/gh/lewisjared/scmdata/branch/master/graph/badge.svg
+.. |License| image:: https://img.shields.io/github/license/lewisjared/scmdata.svg
+    :target: https://github.com/lewisjared/scmdata/blob/master/LICENSE
+.. |Latest Version| image:: https://img.shields.io/github/tag/lewisjared/scmdata.svg
+    :target: https://github.com/lewisjared/scmdata/releases
+.. |Last Commit| image:: https://img.shields.io/github/last-commit/lewisjared/scmdata.svg
+    :target: https://github.com/lewisjared/scmdata/commits/master
+.. |Contributors| image:: https://img.shields.io/github/contributors/lewisjared/scmdata.svg
+    :target: https://github.com/lewisjared/scmdata/graphs/contributors
+
+.. sec-end-links
+
+.. sec-begin-index
+
+SCMData provides some useful data handling routines for dealing with data pertaining to Simple Climate Models (SCMs).
+
+An ``ScmDataFrame`` provides a subset of the functionality provided by `pyam <https://github.com/IAMconsortium/pyam>`_'s IamDataFrame,
+but is adapted to provide better performance for timeseries data. This package was originally part of `openscm <https://github.com/openclimatedata/openscm>`_.
+
+.. sec-end-index
+
+Contributing
+------------
+
+If you'd like to contribute, please make a pull request!
+The pull request templates should ensure that you provide all the necessary information.
+
+.. sec-begin-license
+
+License
+-------
+
+ScmData is free software under a BSD 3-Clause License, see `LICENSE <https://github.com/lewisjared/license/blob/master/LICENSE>`_.
+
+.. sec-end-license
+
+
+
