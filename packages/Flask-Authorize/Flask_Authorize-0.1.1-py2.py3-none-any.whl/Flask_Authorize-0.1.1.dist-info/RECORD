@@ -1,0 +1,9 @@
+Flask_Authorize-0.1.1.dist-info/DESCRIPTION.rst,sha256=YzTP8MBDX8dTJN6Kugrd_CJrUt7G99tBpSNcgbfqQzk,8482
+Flask_Authorize-0.1.1.dist-info/METADATA,sha256=B-T7J7MdBelA3MXR2azHvSsRc671t-XyL0EvzPzelhE,9532
+Flask_Authorize-0.1.1.dist-info/RECORD,,
+Flask_Authorize-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+Flask_Authorize-0.1.1.dist-info/metadata.json,sha256=TStwDaczVW6l6QH_cG4F8dZ6pfxE9JHbZ7e28NtkEWU,1260
+Flask_Authorize-0.1.1.dist-info/top_level.txt,sha256=4ybS5GGcfYOuqMy7f0iurRTre3UJmLBfK2a2oUN0R14,16
+flask_authorize/__init__.py,sha256=nyd6oNfKhlVviEcXmnnKMxSRaI9Tlogc6eLQtk-JQco,770
+flask_authorize/mixins.py,sha256=PyaWs5y6CBEsV0QC08VTdW6ApXK8YQaXvgn3eTu7Ras,9866
+flask_authorize/plugin.py,sha256=Y77vFbzzCPqNLlAv1mt8OvFzy4d1V0SjiJ_aHWGMqdQ,10935
