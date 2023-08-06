@@ -1,0 +1,11 @@
+ms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ms/base.py,sha256=WtmEjgA7NfbCdIxF1UZKVLjUiy9LCc0FVHMj0WBvNuw,3351
+ms/example.py,sha256=QpQ9VOKwqdcrK0wu8OgHzq4SOzmYCkfcOh-oLKNjRJo,3164
+ms/generate_proto_file.py,sha256=FARQoycgcaLBY5_Iwfer5X40mGFYZ4nCQVhInYTG6vg,1953
+ms/ms-plugin.py,sha256=g4EVfWB-Aq-KEs6u_oiLqyHfImgfFkeItBpguxEKSYY,2811
+ms/protocol_pb2.py,sha256=wrz5Wn4abAEq4MlUtn-sapUzC6GVGxQOv5HHd8yGfrk,1051609
+ms/rpc.py,sha256=gG8Y7GqoCGmLdr5I6NQMBD3FjVO21FObv7fpyzXajWQ,39113
+ms_api-0.6.58.dist-info/METADATA,sha256=Ohg9WoM3Lsx-RXOVC9r6-DqeyaW5fi9iWfhr84bdbAU,610
+ms_api-0.6.58.dist-info/RECORD,,
+ms_api-0.6.58.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ms_api-0.6.58.dist-info/top_level.txt,sha256=8bK_TNUJkQ56A4VeIc7vxyhdsKDcpetvVidE9PZqjFA,3
