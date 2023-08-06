@@ -1,0 +1,8 @@
+README.md
+setup.py
+boolem/__init__.py
+boolem/boolem.py
+boolem.egg-info/PKG-INFO
+boolem.egg-info/SOURCES.txt
+boolem.egg-info/dependency_links.txt
+boolem.egg-info/top_level.txt
