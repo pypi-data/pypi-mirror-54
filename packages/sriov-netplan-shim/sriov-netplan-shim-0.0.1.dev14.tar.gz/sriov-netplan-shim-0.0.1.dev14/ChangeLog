@@ -1,0 +1,18 @@
+CHANGES
+=======
+
+* Sortout long description handling
+* Drop build status from readme
+* Revert "Drop description file from setup"
+* Drop description file from setup
+* Drop Py3.8 for now
+* Add travis build status
+* Add Python 3.8
+* Add travis configuration
+* More lint tidy
+* Add unit tests for PCI module
+* Add note about device skipping
+* Tidy README
+* Misc tidy and pydoc
+* Misc lint tidy
+* Baseline commit
