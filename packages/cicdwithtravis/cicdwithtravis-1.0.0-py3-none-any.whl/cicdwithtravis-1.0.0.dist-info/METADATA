@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cicdwithtravis
+Version: 1.0.0
+Summary: A Python Flask NLP application with CICD in Travis CI
+Home-page: https://github.com/axel-sirota/ci-cd-with-travis
+Author: Axel Sirota
+Author-email: axel.sirota@gmail.com
+License: UNKNOWN
+Keywords: travisci setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, <4
+Description-Content-Type: text/markdown
+
+[![Build Status](https://travis-ci.com/axel-sirota/ci-cd-with-travis.svg?branch=master)](https://travis-ci.com/axel-sirota/ci-cd-with-travis)
+
+Sample Flask app for Getting Started with Travis CI Course at Pluralsight
+
+This app is a simple nlp-based question-answering with web interface, based on https://sweetcode.io/flask-app-github-travis-heroku/, and extended on the travis side to test in parallel multiple OS, multiple versions and have multiple types of deployment.
+
+For each module in the course just run 
+
+`git checkout module2` or `git checkout module4-demo1` and you will be at the point of the recording.
+
+For any question, don't hesitate to leave an issue here, send me an email (axel.sirota@gmail.com) or tweet me (@AxelSirota)!
+
+
