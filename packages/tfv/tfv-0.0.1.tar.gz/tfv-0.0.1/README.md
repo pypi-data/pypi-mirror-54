@@ -1,0 +1,47 @@
+# TFV
+The [tfv](https://gitlab.com/JonahC/tfv/tree/master/tfv) package is primarily a suite of tools for post-processing results
+from the [TUFLOW FV](https://www.tuflow.com/Tuflow%20FV.aspx) hydrodynamic and sediment transport modelling software.
+
+It is also provides a basic framework for extracting and visualizing 2D and 3D oceanographic and atmospheric
+model result data on unstructured meshes.
+
+## Installing
+The tfv package is available via the Python Package Index ([PyPi](https://pypi.org/))
+
+From command prompt install and update using pip:
+
+```
+python -m pip install tfv
+```
+
+## Dependancies
+The tfv package depends on the following packages:
+
+```
+cftime >= 1.0.3.4
+cycler >= 0.10.0
+imagecodecs >= 2019.5.22
+kiwisolver >= 1.1.0
+matplotlib >= 3.1.1
+netCDF4 >= 1.5.1.2
+numpy >= 1.17.0
+pyparsing >= 2.4.2
+PyQt5 >= 5.13.0
+six >= 1.12.0
+```
+
+These will be automatically installed or updated as part of the tfv installation.
+
+## Support & Documentation
+[Documentation](https://gitlab.com/JonahC/tfv/wikis/home) is available on the GitLab wiki.
+
+For support contact support@tuflow.com
+
+## Authors
+* **Toby Devlin (BMT)**
+* **Jonah Chorley (BMT)**
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.txt](https://gitlab.com/JonahC/tfv/blob/master/tfv/LICENSE) file for details
+
+
