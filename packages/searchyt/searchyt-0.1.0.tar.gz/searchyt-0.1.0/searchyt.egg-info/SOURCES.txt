@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+searchyt/__init__.py
+searchyt/__main__.py
+searchyt/searchyt.py
+searchyt.egg-info/PKG-INFO
+searchyt.egg-info/SOURCES.txt
+searchyt.egg-info/dependency_links.txt
+searchyt.egg-info/requires.txt
+searchyt.egg-info/top_level.txt
+searchyt.egg-info/zip-safe
+tests/__init__.py
+tests/test_searchyt.py

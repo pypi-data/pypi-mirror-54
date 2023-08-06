@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: searchyt
+Version: 0.1.0
+Summary: Lightweight Python 3 library for searching youtube videos without API key
+Home-page: https://github.com/LaBlazer/searchyt
+Author: La_Blazer
+Author-email: blazer@lblzr.com
+License: Apache License
+Description: # searchyt
+        ### Lightweight Python 3 library for searching youtube videos  
+        
+        
+        Usage:
+        ```
+        from searchyt import searchyt
+        syt = searchyt()
+        res = syt.search("Cute Little Puppy Doing Cute things")
+        
+        for r in res:
+            print(r)
+        ```
+        
+        Prints:
+        ```
+        {'title': 'Cute Little Puppy Doing Cute things', 'author': 'YourUncleMoe', 'id': 'j5a0jTc9S10', 'thumb': 'https://i.ytimg.com/vi/j5a0jTc9S10/hqdefault.jpg'}
+        {'title': 'Cute Puppies Doing Funny Stuff', 'author': 'Kids And Animals Are The Best', 'id': 'Ce7hJ24a8yM', 'thumb': 'https://i.ytimg.com/vi/Ce7hJ24a8yM/hqdefault.jpg'}
+        {'title': 'Cutest Puppies Doing Funny Things - Cute Little Puppies Funny Videos | Cute Puppy Dog Compilation', 'author': 'Puppies TV', 'id': 'R7lnqfS1dUA', 'thumb': 'https://i.ytimg.com/vi/R7lnqfS1dUA/hqdefault.jpg'}
+        ...
+        ```
+Keywords: yt,youtube,search,scrape,videos,api,key
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
