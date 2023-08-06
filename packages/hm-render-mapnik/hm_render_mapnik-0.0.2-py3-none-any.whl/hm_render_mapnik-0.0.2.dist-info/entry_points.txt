@@ -1,0 +1,3 @@
+[console_scripts]
+hm-render-mapnik = hm_render_mapnik.hm_render_mapnik:main
+
