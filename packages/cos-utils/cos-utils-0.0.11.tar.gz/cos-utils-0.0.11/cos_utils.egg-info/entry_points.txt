@@ -1,0 +1,6 @@
+[console_scripts]
+download_files = cos_utils.download_files:main
+list_files = cos_utils.list_files:main
+remove_files = cos_utils.remove_files:main
+upload_files = cos_utils.upload_files:main
+
