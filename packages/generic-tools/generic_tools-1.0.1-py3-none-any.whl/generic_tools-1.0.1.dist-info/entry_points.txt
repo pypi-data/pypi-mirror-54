@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        generic_tools = generic_tools:main
+      
