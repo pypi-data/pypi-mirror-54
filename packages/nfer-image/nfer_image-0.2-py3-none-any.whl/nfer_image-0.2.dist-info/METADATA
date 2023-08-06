@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nfer-image
+Version: 0.2
+Summary: utilities for working with images
+Home-page: UNKNOWN
+Author: Martin Kang
+Author-email: martin@nference.net
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: boto3
+Requires-Dist: tqdm
+Requires-Dist: pathlib
+Requires-Dist: scikit-image
+Requires-Dist: sklearn
+Requires-Dist: pandas
+Requires-Dist: tensorflow
+
+# Utility module for working with images
+
+## Installation
+from source:
+```sh
+cd nfer_image
+pip install .
+```
+
+## HPA Utility Tools (hpa_utils)
+- image loading & download utility from s3 bucket
+- image download from specific s3 bucket
+- image save (pyplot based)
+- image tiling
+- stain estimation
+- tissue mask generation
+
+## Embedding Tools
+- CNN bottleneck/fully-connected layer extraction
+
+## Clustering Tools
+- TSNE generation from image embeddings
+
+
+
