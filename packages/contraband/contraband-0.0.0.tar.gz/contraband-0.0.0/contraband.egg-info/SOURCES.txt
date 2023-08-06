@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+contraband/__init__.py
+contraband.egg-info/PKG-INFO
+contraband.egg-info/SOURCES.txt
+contraband.egg-info/dependency_links.txt
+contraband.egg-info/top_level.txt
