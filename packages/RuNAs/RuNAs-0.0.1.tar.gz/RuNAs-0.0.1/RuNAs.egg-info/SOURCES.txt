@@ -1,0 +1,7 @@
+README.md
+runas
+setup.py
+RuNAs.egg-info/PKG-INFO
+RuNAs.egg-info/SOURCES.txt
+RuNAs.egg-info/dependency_links.txt
+RuNAs.egg-info/top_level.txt
