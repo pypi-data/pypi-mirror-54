@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chain Manager</title>
+    <link rel="stylesheet" href="bootstrap/css/theme2/bootstrap.css" />
+    <link rel="stylesheet" href="swal/css/sweetalert2.min.css" />
+    <style type="text/css">
+        .confirmButtonClass{
+            color: #000000 !important;
+            cursor: default !important;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-12 mt-4 m-2">
+            <h1 class="text-center">Chain manager</h1>
+        </div>
+    </div>
+    <div class="row mt-4 mb-4">
+        <div class="col-12">
+                <div class="form-row">
+                    <div class="col col-9">
+                        <div class="input-group mb-3">
+                            <input id="inputDataFileLabel" type="text" class="form-control" value="/home/mrmanso/chains.xlsx"
+                                   aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"
+                                      onclick="javascript:getFile('file', 'excel')" style="cursor: pointer;">Browse</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <button id="load" type="button" class="form-control btn btn-primary align-content-center"
+                                onclick="javascript:load_data()">
+                            Load data
+                        </button>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div id="chain_list" class="row" style="display: none">
+
+        <div class="col-12"><h4>Chains</h4></div>
+
+        <div class="col-12" style="max-height: 300px !important; overflow-y: scroll;">
+
+            <table class="table table-bordered table-striped text-center">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Chain</th>
+                        <th scope="col">Make</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+        </div>
+
+    </div>
+    <div class="row mt-5">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="javascript:writeData()">To WebGest</button>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="eel.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="swal/js/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/controller.js"></script>
+<script type="text/javascript" src="js/expose.js"></script>
+<script type="text/javascript" src="js/sha256.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript">
+username = "";
+password()
+
+</script>
+</html>
