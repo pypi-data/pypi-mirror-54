@@ -1,0 +1,6 @@
+pytest
+pycodestyle
+coveralls
+mock
+AWSIoTPythonSDK
+certifi
