@@ -1,0 +1,11 @@
+README.rst
+setup.py
+audio2book.egg-info/PKG-INFO
+audio2book.egg-info/SOURCES.txt
+audio2book.egg-info/dependency_links.txt
+audio2book.egg-info/entry_points.txt
+audio2book.egg-info/top_level.txt
+book/__init__.py
+book/__main__.py
+book/cli.py
+book/convert.py
