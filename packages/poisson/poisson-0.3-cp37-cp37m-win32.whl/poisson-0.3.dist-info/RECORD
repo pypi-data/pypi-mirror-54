@@ -1,0 +1,9 @@
+poisson/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+poisson/main.py,sha256=7eIVOWAo08frAA1SIR1pUJudFMG07G0PrtM0Gtn4unY,12655
+poisson/pthreadVC2.dll,sha256=usRHKZDB3C8DcBl5G9GIiOeKOuhmBfOq6G-BKk19T2A,55808
+poisson/pypoissonMG.cp37-win32.pyd,sha256=PcpP8nlgPfhBMRkWXOeIUPHZjpfC6oQMKNV4ra1NOGE,98816
+poisson-0.3.dist-info/LICENSE,sha256=7ld3plyMSAQ1JnMVJfmCLyVc9pKhZV5QMQWhs48yavs,22052
+poisson-0.3.dist-info/METADATA,sha256=d_rG3wiCGKNEVMHi6OeLf3VsgoG63D7XzQPzXchUg8I,223
+poisson-0.3.dist-info/WHEEL,sha256=lZrZVSunAsdph2A7GL0UUoLJct7efkntCUJ_-xF1QuQ,102
+poisson-0.3.dist-info/top_level.txt,sha256=4MIz2N0Z5yIYp-slH06rJZa8bYQsjOkdSR30xYnvnic,8
+poisson-0.3.dist-info/RECORD,,
