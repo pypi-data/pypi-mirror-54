@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: continual
+Version: 0.0.1
+Summary: Official Python SDK for ContinualIQ
+Home-page: UNKNOWN
+Author: Sahil Prasad
+Author-email: sahil@continualiq.com
+License: UNKNOWN
+Description: # Official ContinualIQ Python SDK
+        
+        https://www.continualiq.com
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
