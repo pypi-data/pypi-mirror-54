@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+trawa/__init__.py
+trawa/cli.py
+trawa/main.py
+trawa.egg-info/PKG-INFO
+trawa.egg-info/SOURCES.txt
+trawa.egg-info/dependency_links.txt
+trawa.egg-info/entry_points.txt
+trawa.egg-info/not-zip-safe
+trawa.egg-info/requires.txt
+trawa.egg-info/top_level.txt
