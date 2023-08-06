@@ -1,0 +1,8 @@
+README.md
+setup.py
+unimorph.py
+unimorph.egg-info/PKG-INFO
+unimorph.egg-info/SOURCES.txt
+unimorph.egg-info/dependency_links.txt
+unimorph.egg-info/entry_points.txt
+unimorph.egg-info/top_level.txt

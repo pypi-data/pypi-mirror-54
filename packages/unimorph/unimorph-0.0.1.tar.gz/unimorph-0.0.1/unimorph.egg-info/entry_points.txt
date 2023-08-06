@@ -1,0 +1,3 @@
+[console_scripts]
+unimorph = unimorph:main
+
