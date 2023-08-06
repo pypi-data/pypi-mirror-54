@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+hello/__init__.py
+idenajamajkechceszzarobicbanke.egg-info/PKG-INFO
+idenajamajkechceszzarobicbanke.egg-info/SOURCES.txt
+idenajamajkechceszzarobicbanke.egg-info/dependency_links.txt
+idenajamajkechceszzarobicbanke.egg-info/top_level.txt
