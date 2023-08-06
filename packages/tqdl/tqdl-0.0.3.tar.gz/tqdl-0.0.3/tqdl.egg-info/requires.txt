@@ -1,0 +1,11 @@
+requests
+tqdm
+
+[test]
+pytest
+coverage
+pytest-cov
+collective.checkdocs
+pygments
+requests
+tqdm
