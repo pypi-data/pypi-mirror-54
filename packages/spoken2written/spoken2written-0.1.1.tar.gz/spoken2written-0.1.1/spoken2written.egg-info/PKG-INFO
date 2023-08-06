@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: spoken2written
+Version: 0.1.1
+Summary: Spoken English to Written English translation package
+Home-page: https://github.com/HerambVD/s2w_en
+Author: Heramb Devbhankar
+Author-email: heramb1711@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

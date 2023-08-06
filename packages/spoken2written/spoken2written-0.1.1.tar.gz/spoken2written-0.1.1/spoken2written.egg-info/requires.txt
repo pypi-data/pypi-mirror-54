@@ -1,0 +1,3 @@
+spacy
+pprint
+word2number
