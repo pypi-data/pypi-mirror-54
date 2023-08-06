@@ -1,0 +1,2 @@
+include solstice/bootstrap/houdini/*.bat
+include solstice/bootstrap/houdini/*.xml
