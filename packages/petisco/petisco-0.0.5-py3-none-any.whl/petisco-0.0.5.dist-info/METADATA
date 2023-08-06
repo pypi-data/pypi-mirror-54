@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: petisco
+Version: 0.0.5
+Summary: Petisco is a framework for helping Python developers to build clean Applications
+Home-page: https://github.com/alice-biometrics/petisco
+Author: ALiCE Biometrics
+Author-email: support@alicebiometrics.com
+License: MIT
+Keywords: DDD,Use Case,Clean Architecture,REST,Applications
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: meiga
+Requires-Dist: dataclasses
+Requires-Dist: dataclasses-json
+Provides-Extra: flask
+Requires-Dist: connexion (==2.2.0) ; extra == 'flask'
+
+petisco
+=======
+
+Petisco is a framework for helping Python developers to build clean Applications
+
+#### Installation 
+
+```console
+pip install petisco
+```
+
+If you are using the flask framework you can use additional extras with:
+
+```console
+pip install petisco[flask]
+```
+
+#### Getting Started
+
+**petisco** provides us some sort of interfaces and decorators to help on the development of clean architecture Applications.
+
+## Developers
+
+##### Install requirements
+
+```console
+pip install -r requirements/dev.txt
+```
+
+##### Test
+
+```console
+pip install -e . && pytest
+```
+
+or if you are using flask extensions
+
+```console
+pip install -e .[flask] && pytest
+```
+
+##### Upload to PyPi 
+
+```console
+python setup.py sdist bdist_wheel
+twine check dist/*
+twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+```
+
+
