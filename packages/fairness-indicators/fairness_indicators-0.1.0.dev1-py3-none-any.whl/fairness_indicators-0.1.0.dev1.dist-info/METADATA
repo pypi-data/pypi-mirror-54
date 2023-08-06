@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: fairness-indicators
+Version: 0.1.0.dev1
+Summary: Fairness Indicators
+Home-page: https://github.com/tensorflow/fairness-indicators
+Author: Google LLC
+Author-email: packages@tensorflow.org
+License: Apache 2.0
+Keywords: tensorflow model analysis fairness indicators tensorboard machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >= 2.7, != 3.0.*, != 3.1.*
+Requires-Dist: setuptools (>=40.2.0)
+Requires-Dist: tensorboard (>=1.14.0)
+Requires-Dist: tensorflow-data-validation (>=0.15.0)
+Requires-Dist: tensorflow-model-analysis (>=0.15.0)
+Requires-Dist: tensorflow (>=1.14)
+Requires-Dist: witwidget (>=1.4.4)
+Requires-Dist: wheel ; python_version < "3"
+Requires-Dist: wheel (>=0.26) ; python_version >= "3"
+
+# Fairness Indicators
+
+
