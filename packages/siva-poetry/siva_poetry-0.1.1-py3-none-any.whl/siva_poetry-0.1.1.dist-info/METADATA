@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: siva-poetry
+Version: 0.1.1
+Summary: 
+Author: siva
+Author-email: sivakon@outlook.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pendulum (>=2.0,<3.0)
