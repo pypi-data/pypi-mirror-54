@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: aws-wall-e
+Version: 0.0.1
+Summary: AWS WALL·Entropic Behaviour Automation
+Home-page: https://github.com/Hotmart-Org/wall-e
+Author: Jônatas Renan Camilo Alves
+Author-email: jonatas.alves@hotmart.com
+License: UNKNOWN
+Description: # AWS WALL·Entropic Behaviour Automation
+        
+        ## Motivation
+        
+        With the increasing number of aws accounts and resources, its necessary tools to get information, to keep and to control resources in AWS Cloud.
+        
+Keywords: aws sdk api pinkboto boto
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
