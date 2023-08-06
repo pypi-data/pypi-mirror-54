@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fracture-contracts
+Version: 0.1
+Summary: dpcontracts with improved error reporting
+Home-page: https://github.com/Fracture17/contracts
+Author: Fracture
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: hypothesis
+Requires-Dist: pytest
+Requires-Dist: pytest-pycharm
+
+UNKNOWN
+
+
