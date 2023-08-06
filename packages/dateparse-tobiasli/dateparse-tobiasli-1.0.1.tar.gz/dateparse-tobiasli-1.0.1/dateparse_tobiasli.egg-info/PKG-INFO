@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: dateparse-tobiasli
+Version: 1.0.1
+Summary: Package for converting string timestamps into datetimes.
+Home-page: https://github.com/tobiasli/dateparse
+Author: Tobias Litherland
+Author-email: tobiaslland@gmail.com
+License: UNKNOWN
+Description: # dateparse
+        [![Build Status](https://travis-ci.org/tobiasli/dateparse.svg?branch=master)](https://travis-ci.org/tobiasli/dateparse)<br/>
+        [![Coverage Status](https://coveralls.io/repos/tobiasli/dateparse/badge.svg?branch=master&service=github)](https://coveralls.io/github/tobiasli/dateparse?branch=master)
+        
+        Dateparser for creating datetime objects from arbitrarily formated date strings. Primary support for Norwegian date formats.
+        
+        New version is a complete refactor, with reduced complexity and functionality.
+        
+        ## Install
+        
+        ```
+        pip install dateparse-tobiasli
+        ```
+        
+        ## Usage
+        
+        ```python
+        import datetime
+        from dateparse import DateParser
+        parser = DateParser()
+        dt = parser.parse('5. januar 2015')
+        print(dt == [datetime.datetime(2015, 1, 5, 0, 0)])
+        
+        dt = parser.parse('1/12/2014 kl 12, 11.12.2015 kl 14')
+        print(dt == [datetime.datetime(2014, 12, 1, 12, 00), datetime.datetime(2015, 12, 11, 14, 00)])
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
