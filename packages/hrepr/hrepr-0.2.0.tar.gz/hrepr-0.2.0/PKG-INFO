@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: hrepr
+Version: 0.2.0
+Summary: Extensible HTML representation for Python objects.
+Home-page: None
+Author: Olivier Breuleux
+Author-email: breuleux@gmail.com
