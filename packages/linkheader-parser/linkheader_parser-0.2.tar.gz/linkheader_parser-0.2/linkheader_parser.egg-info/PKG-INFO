@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: linkheader-parser
+Version: 0.2
+Summary: Python parser for LinkHeader
+Home-page: https://github.com/FlorianLouvetRN/linkheader_parser
+Author: Florian Louvet
+Author-email: UNKNOWN
+License: Apache License 2.0
+Description: # linkheader_parser
+        Python parser for link header
+        
+Keywords: link header parser python linkheader
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
