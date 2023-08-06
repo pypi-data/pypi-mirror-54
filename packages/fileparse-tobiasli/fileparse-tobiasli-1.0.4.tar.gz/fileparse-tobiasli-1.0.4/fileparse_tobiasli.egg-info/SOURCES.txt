@@ -1,0 +1,8 @@
+README.md
+setup.py
+fileparse/parsing.py
+fileparse/readers.py
+fileparse_tobiasli.egg-info/PKG-INFO
+fileparse_tobiasli.egg-info/SOURCES.txt
+fileparse_tobiasli.egg-info/dependency_links.txt
+fileparse_tobiasli.egg-info/top_level.txt
