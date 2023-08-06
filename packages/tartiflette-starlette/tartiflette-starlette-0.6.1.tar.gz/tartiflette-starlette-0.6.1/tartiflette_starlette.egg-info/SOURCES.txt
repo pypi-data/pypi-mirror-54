@@ -1,0 +1,10 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tartiflette_starlette/__init__.py
+tartiflette_starlette.egg-info/PKG-INFO
+tartiflette_starlette.egg-info/SOURCES.txt
+tartiflette_starlette.egg-info/dependency_links.txt
+tartiflette_starlette.egg-info/top_level.txt
