@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "logsensei"
+author = "Aditya Kelvianto Sidharta"
+author-email = "aditya.sdrt@gmail.com"
+home-page = "https://github.com/AdityaSidharta/logsensei"
+description-file="README.md"
+classifiers = ["License :: OSI Approved :: MIT License",
+               "Programming Language :: Python :: 3",
+               "Topic :: Software Development :: Libraries :: Python Modules",]
+requires = ['loguru', 'scikit-learn', 'numpy', 'pandas']
