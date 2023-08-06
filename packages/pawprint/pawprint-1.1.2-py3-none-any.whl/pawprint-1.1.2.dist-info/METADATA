@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pawprint
+Version: 1.1.2
+Summary: A flexible event tracker for rapid analysis.
+Home-page: http://github.com/qcaudron/pawprint
+Author: Quentin CAUDRON
+Author-email: quentincaudron@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas (>=0.19)
+Requires-Dist: sqlalchemy (>=1.0)
+Requires-Dist: psycopg2 (>=2.4)
+
+UNKNOWN
+
+
