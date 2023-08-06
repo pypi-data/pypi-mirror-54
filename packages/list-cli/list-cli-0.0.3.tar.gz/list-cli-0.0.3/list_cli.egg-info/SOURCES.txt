@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+bin/reset
+bin/run
+bin/setup
+list/__init__.py
+list/__main__.py
+list/cli.py
+list_cli.egg-info/PKG-INFO
+list_cli.egg-info/SOURCES.txt
+list_cli.egg-info/dependency_links.txt
+list_cli.egg-info/entry_points.txt
+list_cli.egg-info/top_level.txt

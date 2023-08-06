@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -e;
+
+source $(dirname $0)/../helpers/with-venv;
+
+_deactivate_venv;
+_remove_venv;
+_remove_lockfiles;
+_create_venv;
+_activate_venv;
+_load_env_files;
+_install_dependencies;
