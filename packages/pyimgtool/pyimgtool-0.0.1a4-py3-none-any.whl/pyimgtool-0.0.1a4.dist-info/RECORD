@@ -1,0 +1,17 @@
+pyimgtool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyimgtool/__main__.py,sha256=eAZnjbH8Y60Y7BAhsjPren_Ve8z10SMmvDHqPFCvt7k,1589
+pyimgtool/args.py,sha256=P06ewOGsQkAfNJ8EHmA1CtNJ8_FsRcLmYM_JBt-xGGo,6257
+pyimgtool/data_structures.py,sha256=n4F3YOR1UjaqTYUzl7heCy9dGEFdJtSmBwKkryWMikQ,4631
+pyimgtool/exceptions.py,sha256=4xmnM5suWJjv0knIi-GYNgu2FGfpNKhCa4uPxJaogIU,597
+pyimgtool/image.py,sha256=V7IIXokMxoPJZjAm00wV5TRx5u-kqLuRSWwjJ6F-JAg,3353
+pyimgtool/resize.py,sha256=x_eM5l8gXuXYASKn_UD0T51XZ3-evMl8wNyNm_lqXh8,7335
+pyimgtool/utils.py,sha256=ETb_0M3gwjBPdVKutmIR32-isCGDmMSMN4pJGOBUgQ4,2629
+pyimgtool/version.py,sha256=kvqVJCgQweAB5YbJWP7CXL4ZxfYD8q7vDjpuYRn6pu8,53
+pyimgtool/watermark.py,sha256=lBPrMCaOxVVVoyu1JrLBXwdYrQ9ZzrSbK4U21swBoNY,4021
+pyimgtool/fonts/SourceSansPro-Regular.ttf,sha256=MONd2noXna3sEcWOiYNbUAbuadO9Q7Vakd1S8fAqjKw,290156
+pyimgtool-0.0.1a4.dist-info/LICENSE,sha256=akCfK8LvfY6gL4VoXkNbsy8u-8eAFeatZayvBQDxHEA,1068
+pyimgtool-0.0.1a4.dist-info/METADATA,sha256=WhfNJLrDPD7rUnDN8GubElVFrMBratJH6JUf_f8SJ-U,1186
+pyimgtool-0.0.1a4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyimgtool-0.0.1a4.dist-info/entry_points.txt,sha256=9MAVTtWW3I7YakQP_UycFzb68F4SEtd7LkkUUueP7b0,55
+pyimgtool-0.0.1a4.dist-info/top_level.txt,sha256=36kV7ezHRjTcVo20hz83KBpyezg2zCajf5dnZL4p1E8,10
+pyimgtool-0.0.1a4.dist-info/RECORD,,
