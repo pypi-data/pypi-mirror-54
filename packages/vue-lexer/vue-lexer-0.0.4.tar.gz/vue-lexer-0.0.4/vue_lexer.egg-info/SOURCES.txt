@@ -1,0 +1,10 @@
+README.md
+setup.py
+vue/__init__.py
+vue/lexer.py
+vue_lexer.egg-info/PKG-INFO
+vue_lexer.egg-info/SOURCES.txt
+vue_lexer.egg-info/dependency_links.txt
+vue_lexer.egg-info/entry_points.txt
+vue_lexer.egg-info/requires.txt
+vue_lexer.egg-info/top_level.txt
