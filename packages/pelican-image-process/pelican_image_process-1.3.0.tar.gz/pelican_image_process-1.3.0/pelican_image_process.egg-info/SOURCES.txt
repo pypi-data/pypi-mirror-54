@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pelican_image_process/__init__.py
+pelican_image_process.egg-info/PKG-INFO
+pelican_image_process.egg-info/SOURCES.txt
+pelican_image_process.egg-info/dependency_links.txt
+pelican_image_process.egg-info/requires.txt
+pelican_image_process.egg-info/top_level.txt
+pelican_image_process.egg-info/zip-safe
