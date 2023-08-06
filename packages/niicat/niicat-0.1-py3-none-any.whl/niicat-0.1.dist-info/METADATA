@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: niicat
+Version: 0.1
+Summary: Preview nifti images on the terminal
+Home-page: https://github.com/wasserth/niicat/
+Author: Jakob Wasserthal
+Author-email: j.wasserthal@dkfz.de
+License: GPL v2
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: nibabel (>=2.3.0)
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+# niicat
+
+This is a tool to quickly preview nifti images on the terminal. 
+This can be helpful if you are working on a remote server via SSH and do not have
+an -X connection. However, it only works with [iTerm2](https://www.iterm2.com/) 
+because it depends on iTerm2's `imgcat` command.
+
+#### Install:
+
+```
+pip install niicat
+```
+
+#### Usage:
+
+![](niicat/resources/example.gif)
+
+
+#### This code is based on the following code:
+
+[niipre](https://github.com/vnckppl/niipre)  
+[imgcat](https://www.iterm2.com/utilities/imgcat)
+
+

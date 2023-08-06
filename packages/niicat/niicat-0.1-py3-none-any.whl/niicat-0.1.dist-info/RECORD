@@ -1,0 +1,10 @@
+niicat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+niicat/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+niicat/resources/imgcat.sh,sha256=BmWza7q4M_Wmj7F75FSYgdE2L3AIMo4DeJLP4DXooA8,3408
+niicat/resources/niipre.py,sha256=jXujekwpLMFmaagO7xx6KYUU89_o399DGKZnDVrRbWg,4294
+niicat-0.1.data/scripts/niicat,sha256=drg582BMHGroz9tCVcAStNAKBf0txGfJmNWDeveKnPo,603
+niicat-0.1.dist-info/LICENSE,sha256=BLscIF5pCK6cnd8DPZYg45-Nsxz3cYhMV3bQxt1ftWI,14815
+niicat-0.1.dist-info/METADATA,sha256=EzmxKnd9WMh7vpYBbQdeSQF07xl60F4eemwrBJV2KB4,1136
+niicat-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+niicat-0.1.dist-info/top_level.txt,sha256=IaQ3zGHjj5-SLR6-WxcUw01sEjhFDNfz0nsjL1j82S0,7
+niicat-0.1.dist-info/RECORD,,
