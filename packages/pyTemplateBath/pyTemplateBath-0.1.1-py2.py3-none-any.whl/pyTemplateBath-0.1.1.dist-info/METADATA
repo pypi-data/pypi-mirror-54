@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyTemplateBath
+Version: 0.1.1
+Summary: Template of python3 project. 
+Home-page: https://github.com/StephenRicher/pyTemplate
+Author: Stephen Richer
+Author-email: sr467@bath.ac.uk
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: pyCommonTools (>=1.0)
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+

@@ -1,0 +1,9 @@
+#!python
+
+""" Command line executable to run pyTemplateBath """
+
+import pyTemplateBath
+import sys
+
+if __name__ == '__main__':
+    sys.exit(pyTemplateBath.main.main())
