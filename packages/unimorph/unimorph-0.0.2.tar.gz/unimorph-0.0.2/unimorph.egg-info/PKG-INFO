@@ -1,0 +1,29 @@
+Metadata-Version: 1.2
+Name: unimorph
+Version: 0.0.2
+Summary: Annotated morphology in the world's languages
+Home-page: https://unimorph.github.io/
+Author: Arya D. McCarthy
+Author-email: arya@jhu.edu
+Maintainer-email: arya@jhu.edu
+License: UNKNOWN
+Description: 
+            The Universal Morphology (UniMorph) project is a collaborative 
+            effort to improve how NLP handles complex morphology in the world’s 
+            languages. The goal of UniMorph is to annotate morphological data
+            in a universal schema that allows an inflected word from any 
+            language to be defined by its lexical meaning, typically carried 
+            by the lemma, and by a rendering of its inflectional form in terms 
+            of a bundle of morphological features from our schema. The 
+            specification of the schema is described in Sylak-Glassman (2016).
+            
+Keywords: NLP, natural language processing, evaluation, computational linguistics, morphology
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
