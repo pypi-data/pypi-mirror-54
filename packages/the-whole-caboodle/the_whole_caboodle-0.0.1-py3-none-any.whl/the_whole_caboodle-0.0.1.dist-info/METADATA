@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: the-whole-caboodle
+Version: 0.0.1
+Summary: Utilities for artifact management for data science in the cloud.
+Home-page: https://github.com/smk508/caboodle
+Author: UNKNOWN
+Author-email: skhan8@mail.einstein.yu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: argo-models (==2.2.1a0)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: cachetools (==3.1.1)
+Requires-Dist: certifi (==2019.9.11)
+Requires-Dist: cffi (==1.13.1)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: cloudpickle (==1.1.1)
+Requires-Dist: cryptography (==2.8)
+Requires-Dist: Deprecated (==1.2.6)
+Requires-Dist: google-api-core (==1.14.3)
+Requires-Dist: google-auth (==1.6.3)
+Requires-Dist: google-cloud-core (==1.0.3)
+Requires-Dist: google-cloud-storage (==1.21.0)
+Requires-Dist: google-resumable-media (==0.4.1)
+Requires-Dist: googleapis-common-protos (==1.6.0)
+Requires-Dist: idna (==2.8)
+Requires-Dist: importlib-metadata (==0.23)
+Requires-Dist: jsonschema (==3.1.1)
+Requires-Dist: kfp (==0.1.32.2)
+Requires-Dist: kfp-server-api (==0.1.18.3)
+Requires-Dist: kubernetes (==9.0.0)
+Requires-Dist: more-itertools (==7.2.0)
+Requires-Dist: oauthlib (==3.1.0)
+Requires-Dist: protobuf (==3.10.0)
+Requires-Dist: pyasn1 (==0.4.7)
+Requires-Dist: pyasn1-modules (==0.2.7)
+Requires-Dist: pycparser (==2.19)
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: pyrsistent (==0.15.5)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: PyYAML (==5.1.2)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: requests-oauthlib (==1.2.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rsa (==4.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: tabulate (==0.8.3)
+Requires-Dist: urllib3 (==1.24.3)
+Requires-Dist: websocket-client (==0.56.0)
+Requires-Dist: wrapt (==1.11.2)
+Requires-Dist: zipp (==0.6.0)
+
+# caboodle
+A python library for artifact management for data science applications in the cloud.
+
+
