@@ -1,0 +1,11 @@
+krbticket
+pyarrow
+
+[doc]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
+flake8
+autopep8
