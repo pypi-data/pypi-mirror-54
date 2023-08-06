@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: frgfm_package
+Version: 0.1.0
+Summary: My package
+Home-page: https://github.com/frgfm/python_docs
+Author: François-Guillaume Fernandez
+License: MIT
+Description: # python_docs
+        Tests of Sphinx documentation on Github Pages
+        
+Keywords: python,docs
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
