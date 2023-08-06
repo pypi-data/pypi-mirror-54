@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+aliyun_python_sdk_hbase.egg-info/PKG-INFO
+aliyun_python_sdk_hbase.egg-info/SOURCES.txt
+aliyun_python_sdk_hbase.egg-info/dependency_links.txt
+aliyun_python_sdk_hbase.egg-info/requires.txt
+aliyun_python_sdk_hbase.egg-info/top_level.txt
+aliyunsdkhbase/__init__.py
+aliyunsdkhbase/endpoint.py
+aliyunsdkhbase/request/__init__.py
+aliyunsdkhbase/request/v20190101/DescribeEndpointsRequest.py
+aliyunsdkhbase/request/v20190101/DescribeInstanceRequest.py
+aliyunsdkhbase/request/v20190101/DescribeInstancesRequest.py
+aliyunsdkhbase/request/v20190101/DescribeIpWhitelistRequest.py
+aliyunsdkhbase/request/v20190101/DescribeRegionsRequest.py
+aliyunsdkhbase/request/v20190101/__init__.py
