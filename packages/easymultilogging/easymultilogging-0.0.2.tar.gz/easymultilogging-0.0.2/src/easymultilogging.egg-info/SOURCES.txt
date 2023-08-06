@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/easymultilogging.py
+src/easymultilogging.egg-info/PKG-INFO
+src/easymultilogging.egg-info/SOURCES.txt
+src/easymultilogging.egg-info/dependency_links.txt
+src/easymultilogging.egg-info/top_level.txt
