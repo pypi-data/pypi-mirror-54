@@ -1,0 +1,3 @@
+[console_scripts]
+bluebees = bluebees.__main__:cli
+
