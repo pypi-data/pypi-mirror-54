@@ -1,0 +1,14 @@
+TODO:
+* libmodi_handle.c address TODO to replace narrow_string_snprintf and wide_string_snprintf
+* add compressed dmg support
+  - add support for resource fork
+* add support for encrypted disk images
+* improve check signature to detect sparse bundle
+
+20161030
+* see `git log' for more recent change log
+* worked on sparse image format support
+
+20120723
+* initial version
+
