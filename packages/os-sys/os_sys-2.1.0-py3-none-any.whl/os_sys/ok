@@ -1,0 +1,11 @@
+hello I am matthijs and i will show you how this text editor works. so lets get started. first of all you need to start up this text editor.
+that is realy easy. if you cant find the file text_editor.py you need to go to this path:
+{disk}:\\Users\\{username}\\AppData\\Local\\Programs\\Python{python version}\\Lib\site-packages\os_sys
+then you will find the file text_editor.py. execute the file and you will start up text editor
+other way is type this in python:
+>>> from os_sys import text_editor
+
+>>> text_editor.main()
+that is how you start text editor.
+so lets see how it works. so the python code is complex and i won't show you becuse it will take to long to explain everything
+but what it does it takes your input. but it not only shows it here but also it will be saved in a file 
