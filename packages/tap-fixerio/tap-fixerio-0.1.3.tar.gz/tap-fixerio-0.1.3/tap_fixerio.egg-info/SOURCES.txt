@@ -1,0 +1,9 @@
+README.md
+setup.py
+tap_fixerio.py
+tap_fixerio.egg-info/PKG-INFO
+tap_fixerio.egg-info/SOURCES.txt
+tap_fixerio.egg-info/dependency_links.txt
+tap_fixerio.egg-info/entry_points.txt
+tap_fixerio.egg-info/requires.txt
+tap_fixerio.egg-info/top_level.txt

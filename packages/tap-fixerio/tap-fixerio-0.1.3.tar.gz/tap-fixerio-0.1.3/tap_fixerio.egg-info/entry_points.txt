@@ -1,0 +1,4 @@
+
+          [console_scripts]
+          tap-fixerio=tap_fixerio:main
+      
