@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas>=0.25
+lxml
+joblib
+matplotlib
+seaborn>=0.9
+scikit-learn
+psutil
