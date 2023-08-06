@@ -1,0 +1,17 @@
+rs4
+numpy
+sklearn
+scikit-image
+imageio
+future
+networkx
+librosa
+soundfile
+hyperopt
+protobuf
+
+[:python_version < "3.6"]
+matplotlib<3.1
+
+[:python_version >= "3.6"]
+matplotlib
