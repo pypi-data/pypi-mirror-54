@@ -1,0 +1,6 @@
+joblib>=0.14
+lightgbm
+numpy
+optuna
+pandas
+scikit-learn
