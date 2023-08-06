@@ -1,0 +1,6 @@
+# Base Configuration file for artellapipe-launcher in Solstice
+
+version: 0.0.1
+name: "Solstice"
+plugins:
+  - artellapipe.launcher.plugins.dccselector
