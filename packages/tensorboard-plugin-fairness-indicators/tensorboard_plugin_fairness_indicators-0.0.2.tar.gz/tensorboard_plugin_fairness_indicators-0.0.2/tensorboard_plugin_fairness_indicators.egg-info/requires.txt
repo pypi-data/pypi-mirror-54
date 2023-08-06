@@ -1,0 +1,8 @@
+protobuf>=3.6.0
+setuptools>=40.2.0
+
+[:python_version < "3"]
+wheel
+
+[:python_version >= "3"]
+wheel>=0.26
