@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: saywhen
+Version: 0.0.2
+Summary: Send notifications when command line job finishes
+Home-page: https://github.com/yunqing/saywhen
+Author: Yunqing Gong
+Author-email: gongyq10@gmail.com
+License: UNKNOWN
+Description: # SayWhen
+        ```
+           _____            _       ____
+          / ___/____ ___  _| |     / / /_  ___  ____
+          \__ \/ __ `/ / / / | /| / / __ \/ _ \/ __ \
+         ___/ / /_/ / /_/ /| |/ |/ / / / /  __/ / / /
+        /____/\__,_/\__, / |__/|__/_/ /_/\___/_/ /_/
+                   /____/
+                                           :-=+*
+                                       +#%@@@@@%
+                                      #@@@@@@@@%
+                                  :-+*@@@@@@@@@%
+                             :##@@@@@%%@@@@@@@@%
+                             ***+-:    -+#%%#*+=
+                   :---------#---
+                   %:        *  *
+                  :%         *  *
+                  +#         *  +:
+                  #+=++++++++#=++=
+                  +*#@@@@@@@@@@%+-
+                   =+*%@@@@@@%++=
+                    :+=******+=:
+                        :-+
+                         :+
+                         :+
+                         :+
+                         :+
+                    =+**###***+=
+        ```
+        
+        SayWhen sends sound and desktop notification to you when job finishes.
+        
+        Tested on Ubuntu 16.04 and macOS 10.14.
+        
+        ## Usage
+        Usage: saywhen command [args...]
+        
+        Example: saywhen echo helloworld
+        
+        Example: saywhen "echo -n hello && echo world"
+        
+        
+        The returncode of saywhen is the same as the command.
+        
+        ## Installation
+        `pip install saywhen`
+        
+        ## Unstallation
+        `pip uninstall saywhen`
+        
+        ## About audio
+        Audios are from freesound.org.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

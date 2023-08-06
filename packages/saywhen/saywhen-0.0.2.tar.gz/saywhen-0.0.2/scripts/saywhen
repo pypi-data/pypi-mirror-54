@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+import subprocess
+import sys
+import os
+import time
+from saywhen import notify, text_image
+
+def print_help():
+    print(text_image)
+    print("SayWhen sends sound and desktop notification to you when job finishes.")
+    print("Usage: saywhen command [args...]")
+    print("Usage: saywhen -h/--help")
+    print("Example: saywhen echo helloworld")
+    print("Example: saywhen \"echo -n hello && echo world\"")
+
+def main():
+    if len(sys.argv) == 1 or \
+            (len(sys.argv) > 1 and (sys.argv[1] == "-h" or sys.argv[1] == "--help")):
+        print_help()
+        exit()
+    cwd = os.getcwd()
+    tic = time.time()
+    try:
+        subprocess.check_call(
+                "$SHELL -i -c '{}'".format(" ".join(sys.argv[1:])),
+                shell=True,
+                env=os.environ,
+                executable=os.environ['SHELL'],
+                )
+    except subprocess.CalledProcessError as err:
+        time_elapsed = time.time() - tic
+        notify(False, time_elapsed, " ".join(sys.argv[1:]), cwd)
+        sys.exit(err.returncode)
+    else:
+        time_elapsed = time.time() - tic
+        notify(True, time_elapsed, " ".join(sys.argv[1:]), cwd)
+        sys.exit(0)
+
+
+if __name__ == '__main__':
+    main()
