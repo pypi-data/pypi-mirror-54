@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: kivysome
+Version: 0.1.3
+Summary: Font Awesome 5 Icons for Kivy
+Home-page: https://github.com/matfax/kivysome
+Author: matfax
+Author-email: matthias.fax@gmail.com
+License: MIT
+Keywords: kivy,fa,font,awesome,icons
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: appdirs
+Requires-Dist: cachecontrol
+Requires-Dist: cached-property
+Requires-Dist: certifi
+Requires-Dist: chardet
+Requires-Dist: filelock
+Requires-Dist: idna
+Requires-Dist: importlib-metadata
+Requires-Dist: lastversion
+Requires-Dist: lockfile
+Requires-Dist: more-itertools
+Requires-Dist: msgpack
+Requires-Dist: mutapath
+Requires-Dist: packaging
+Requires-Dist: path.py
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: remotezip
+Requires-Dist: requests
+Requires-Dist: singletons
+Requires-Dist: six
+Requires-Dist: tabulate
+Requires-Dist: urllib3
+Requires-Dist: zipp
+
+# kivysome
+
+[![CircleCI](https://circleci.com/gh/matfax/kivysome/tree/master.svg?style=shield)](https://circleci.com/gh/matfax/kivysome/tree/master)
+[![codecov](https://codecov.io/gh/matfax/kivysome/branch/master/graph/badge.svg)](https://codecov.io/gh/matfax/kivysome)
+[![Renovate Status](https://badges.renovateapi.com/github/matfax/kivysome)](https://renovatebot.com/)
+[![CodeFactor](https://www.codefactor.io/repository/github/matfax/kivysome/badge)](https://www.codefactor.io/repository/github/matfax/kivysome)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/kivysome)](https://pypi.org/project/kivysome/)
+[![PyPI](https://img.shields.io/pypi/v/kivysome?color=%2339A7A6)](https://pypi.org/project/kivysome/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/kivysome?color=%231447F9)](https://pypistats.org/packages/kivysome)
+[![GitHub License](https://img.shields.io/github/license/matfax/kivysome.svg)](https://github.com/matfax/kivysome/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/matfax/kivysome?color=%232954A5)](https://github.com/matfax/kivysome/commits/master)
+
+Font Awesome 5 Icons for Kivy
+
+## Usage
+
+### 1. Generate your kit
+
+Go to [Font Awesome](https://fontawesome.com/kits) and generate your kit there.
+The specified version is respected.
+For the moment, only free licenses are supported. 
+
+### 2. Enable it
+
+In your main.py register your font:
+
+```python
+import kivysome 
+kivysome.enable("https://kit.fontawesome.com/{YOURCODE}.js", group=kivysome.FontGroup.SOLID)
+```
+
+### 3. Use it
+
+In your `.kv` file or string, reference the short Font Awesome (i.e., without `fa-` prefix) as you can copy them from their website.
+
+```yaml
+#: import icon kivysome.icon
+Button:
+    markup: True # Always turn markup on
+    text: "%s"%(icon('comment'))
+```
+
+Check the `examples` folder for more insight.
+
+
