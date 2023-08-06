@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyARG
+Version: 0.0.2
+Summary: This repo contains the needed Python dependencies for ARG. Version 0.0.2 contains a dependency update for matplotlib
+Home-page: UNKNOWN
+Author: NexGen Analytics
+Author-email: info@ng-analytics.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7,<3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.16.3)
+Requires-Dist: PyYAML (==5.1)
+Requires-Dist: pylatex (==1.3.0)
+Requires-Dist: python-docx (==0.8.10)
+Requires-Dist: matplotlib (==2.2.4)
+
+This is the official PyPi repository for the ARG project. 
+
+It contains needed Python dependencies for the project.
+
+
