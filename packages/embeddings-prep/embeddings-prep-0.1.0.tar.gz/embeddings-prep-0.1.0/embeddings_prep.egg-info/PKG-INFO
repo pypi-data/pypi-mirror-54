@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: embeddings-prep
+Version: 0.1.0
+Summary: A word2vec preprocessing and training package
+Home-page: https://github.com/sally14/embeddings
+Author: sally14
+Author-email: sally14.doe@gmail.com
+License: UNKNOWN
+Description: 
+        # Embeddings
+        
+        
+        Embedding generation with text preprocessing.
+        
+        
+        ## Preprocessor
+        
+        For Word2Vec, we want a soft yet important preprocessing. We want to denoise the text while keeping as much variety and information as possible.
+        
+        Preprocesses the text/set of text in the following way :
+        1. Detects and replaces numbers/float by a generic token 'FLOAT', 'INT'
+        
+        2. Add spaces in between punctuation so that tokenisation avoids adding 'word.' to the vocabulary instead of 'word', '.'
+        
+        3. Lowers words
+        
+        4. Recursive word phrases detection : with a simple probabilistic rule, gathers the tokens 'new', york' to a single token 'new_york'.
+        
+        5. Frequency Subsampling : discards unfrequent words with a probability depending on their frequency.
+        
+         Outputs a vocabulary file and the modified files.
+        
+        Usage example :
+        
+        
+        ```python
+        from preprocessing.preprocessor import PreprocessorConfig, Preprocessor
+        config = PreprocessorConfig('/tmp/logdir')
+        config.set_config(writing_dir='/tmp/outputs')
+        config.save_config()
+        
+        
+        prep = Preprocessor('/tmp/logdir')
+        prep.fit('~/mydata/')
+        prep.filter()
+        prep.transform('~/mydata')
+        ```
+        
+        
+         ## Word2Vec
+        
+        For the Word2Vec, we just wrote a simple cli wrapper that takes the
+        preprocessed files as an input, trains a Word2Vec model with gensim and writes the vocab, embeddings .tsv files that can be visualized with tensorflow projector (http://projector.tensorflow.org/)
+        
+        
+        Usage example:
+        
+        ```bash
+        python training_word2vec.py file_dir writing_dir
+        ```
+        
+        ## Documentation 
+        
+        Documentation is available here : https://sally14.github.io/embeddings/
+        
+        TODO :
+        - [ ] Clean code for CLI wrapper
+        
+        - [X] Also write a python Word2Vec model class so that user doesn't have to switch from python to cli
+        
+        - [ ] Also write a cli wrapper for preprocessing
+        
+        - [X] Memory leak in preprocessor.transform
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
