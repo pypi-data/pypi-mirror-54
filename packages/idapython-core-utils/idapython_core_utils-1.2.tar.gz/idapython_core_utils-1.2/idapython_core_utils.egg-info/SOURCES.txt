@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+idapython_core_utils/__init__.py
+idapython_core_utils/core.py
+idapython_core_utils/core_utils.py
+idapython_core_utils/graphing.py
+idapython_core_utils/patching.py
+idapython_core_utils.egg-info/PKG-INFO
+idapython_core_utils.egg-info/SOURCES.txt
+idapython_core_utils.egg-info/dependency_links.txt
+idapython_core_utils.egg-info/not-zip-safe
+idapython_core_utils.egg-info/requires.txt
+idapython_core_utils.egg-info/top_level.txt
