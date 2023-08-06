@@ -1,0 +1,8 @@
+README.rst
+pyval
+setup.cfg
+setup.py
+eval.egg-info/PKG-INFO
+eval.egg-info/SOURCES.txt
+eval.egg-info/dependency_links.txt
+eval.egg-info/top_level.txt
