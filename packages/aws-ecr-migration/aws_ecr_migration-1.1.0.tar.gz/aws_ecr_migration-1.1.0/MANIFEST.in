@@ -1,0 +1,6 @@
+include *.txt
+include *.in
+
+recursive-include aws_ecr_migration *.py
+recursive-include aws_ecr_migration *.sh
+recursive-include aws_ecr_migration *.example

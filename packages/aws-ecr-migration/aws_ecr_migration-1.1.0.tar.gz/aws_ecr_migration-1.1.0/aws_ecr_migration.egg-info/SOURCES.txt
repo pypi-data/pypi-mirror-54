@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+aws_ecr_migration/__init__.py
+aws_ecr_migration/aws_credentials.py
+aws_ecr_migration/ecr_pull.sh
+aws_ecr_migration/ecr_push_container.sh
+aws_ecr_migration/ecr_push_image.sh
+aws_ecr_migration/manage.py
+aws_ecr_migration.egg-info/PKG-INFO
+aws_ecr_migration.egg-info/SOURCES.txt
+aws_ecr_migration.egg-info/dependency_links.txt
+aws_ecr_migration.egg-info/requires.txt
+aws_ecr_migration.egg-info/top_level.txt
