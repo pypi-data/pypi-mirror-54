@@ -1,0 +1,7 @@
+pillow
+graphviz
+bqplot
+IPython
+requests
+ipywidgets
+PyYAML
