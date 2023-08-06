@@ -1,0 +1,50 @@
+[
+    {
+        "short": "l",
+        "long": "line-length",
+        "help": "How many characters per line to allow. [default: 88]"
+    },
+    {
+        "short": "t",
+        "long": "target-version",
+        "help": "[py27|py33|py34|py35|py36|py37|py38] Python versions that should be supported by Black's output. [default: per-file auto-detection]"
+    },
+    {
+        "type": "bool",
+        "short": "S",
+        "long": "skip-string-normalization",
+        "help": "Don't normalize string quotes or prefixes."
+    },
+    {
+        "type": "bool",
+        "long": "check",
+        "help": "Don't write the files back, just return the status. Return code 0 means nothing would change. Return code 1 means some files would be reformatted.  Return code 123 means there was an internal error."
+    },
+    {
+        "type": "bool",
+        "long": "diff",
+        "help": "Don't write the files back, just output a diff for each file on stdout."
+    },
+    {
+        "type": "bool",
+        "long": "fast",
+        "help": "If --fast given, skip temporary sanity checks. [default: --safe]"
+    },
+    {
+        "type": "bool",
+        "short": "q",
+        "long": "quiet",
+        "help": "Don't emit non-error messages to stderr. Errors are still emitted, silence those with 2>/dev/null."
+    },
+    {
+        "type": "bool",
+        "short": "v",
+        "long": "verbose",
+        "help": "Verbose mode."
+    },
+    {
+        "type": "bool",
+        "long": "config",
+        "help": "Read configuration from PATH."
+    }
+]

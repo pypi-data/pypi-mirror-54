@@ -1,0 +1,6 @@
+#!python
+from jblack.cli import main
+
+
+if __name__ == '__main__':
+    main()

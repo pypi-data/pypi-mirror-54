@@ -1,0 +1,11 @@
+jblack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jblack/arguments.json,sha256=NwRZ20dil8jjR_AlHkfAAlhDDlP-u3tK8jVeFEepf-g,1528
+jblack/cli.py,sha256=-WJ0PHVaVL2kvC2ePmjnxrb2ej318SQkp0A2i_1HMXY,2561
+jblack/jblack,sha256=qX7KSEVAWtlTg6vmAD0L-Aj7yU66_0KEh3QdHiCgJ1w,93
+jblack/useful.py,sha256=i2E8EKez-BCUPvgY-Z0DK0PZjHyOSsHjLhUIa56AUk0,294
+jblack/worker.py,sha256=Wn7J2Uu9R51fZ3teiUiF3F5BdhYeyUzOr9_LljpfSFI,1609
+jblack-1.0.data/scripts/jblack,sha256=BQEZWVuT-NxA-6_1M5Z-LGpRiCNbqZbO5YwFI1MQMN0,77
+jblack-1.0.dist-info/METADATA,sha256=Xf5nLjrfrko9x3dfH9-iYmAkX8FHXg1IQZAoc9d2OuE,638
+jblack-1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+jblack-1.0.dist-info/top_level.txt,sha256=JXXcgKjPMzTJYexu3NLPgFCCHp4NdF6Dy8tGK9p16Kk,7
+jblack-1.0.dist-info/RECORD,,
