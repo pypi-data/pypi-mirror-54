@@ -1,0 +1,11 @@
+boto3
+botocore
+bs4
+ddf_utils
+defusedxml
+html5lib
+lxml
+openpyxl
+pandas
+requests
+unidecode
