@@ -1,0 +1,11 @@
+ocelot/__init__.py,sha256=AF5haptoeJbkT8fH0qY4BHR0EgO49fNu0_zD52BC5tw,788
+ocelot/constants.py,sha256=hf0Ms_PWJPm6xg1wnNfzMDjn2dUXpwWaFWNAhTCogkg,4279
+ocelot/core.py,sha256=IzJWLMPxVnQoPR5uy3Ac8pf42YxpGxRdsIZkP6aLcFk,21722
+ocelot/pseudopotential.py,sha256=nK2QZDjNvk4VgKXHdePjwjpy5yV5vINKYAFKOxgvIvw,725
+ocelot/visualizations.py,sha256=jDVlbrmyUHtH26MiizxXQMAVk0h86GIOkcGwWfYdV1A,723
+ocelot/wavefunction.py,sha256=sGzAoLcLBGcUxZHeOq58b16JOtt_YdIw6uT3wCuQipk,1925
+ocelot_materials-0.0.1.dist-info/LICENSE.txt,sha256=gMwbJCk2aCtlYv9zdFHljWeJ77i5o2q_vgJQG4LzLpQ,10765
+ocelot_materials-0.0.1.dist-info/METADATA,sha256=HMJP3qmMdHycmbG-MEw6dEzdgVp9G_TUI2cCugFMZB8,787
+ocelot_materials-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ocelot_materials-0.0.1.dist-info/top_level.txt,sha256=t2l5apOqfiw4AheDmkLNM9Ct5uDJMaHM6g1MgV9DV28,7
+ocelot_materials-0.0.1.dist-info/RECORD,,
