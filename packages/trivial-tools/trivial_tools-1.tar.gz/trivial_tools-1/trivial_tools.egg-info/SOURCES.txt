@@ -1,0 +1,10 @@
+README.md
+setup.py
+config_handling/__init__.py
+config_handling/base_config.py
+files/__init__.py
+files/json.py
+trivial_tools.egg-info/PKG-INFO
+trivial_tools.egg-info/SOURCES.txt
+trivial_tools.egg-info/dependency_links.txt
+trivial_tools.egg-info/top_level.txt
