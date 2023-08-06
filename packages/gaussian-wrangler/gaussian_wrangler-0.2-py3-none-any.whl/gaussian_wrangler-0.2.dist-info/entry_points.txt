@@ -1,0 +1,13 @@
+[console_scripts]
+check_gauss = gaussian_wrangler.check_gauss:main
+gauss_fragment = gaussian_wrangler.gauss_fragment:main
+gausscom2com = gaussian_wrangler.gausscom2com:main
+gausscom2pdb = gaussian_wrangler.gausscom2pdb:main
+gausslog2com = gaussian_wrangler.gausslog2com:main
+gausslog2pdb = gaussian_wrangler.gausslog2pdb:main
+gausslog_unique = gaussian_wrangler.gausslog_unique:main
+goodvibes_helper = gaussian_wrangler.goodvibes_helper:main
+pdbs2gausscoms = gaussian_wrangler.pdbs2gausscoms:main
+plot_steps = gaussian_wrangler.plot_steps:main
+run_gauss = gaussian_wrangler.run_gauss:main
+
