@@ -1,0 +1,13 @@
+sqlalchemy
+
+[bigquery]
+pybigquery>=0.4.11
+
+[mssql]
+pymssql>=2.1.4
+
+[postgres]
+psycopg2>=2.8.3
+
+[snowflake]
+snowflake-sqlalchemy>=1.1.14
