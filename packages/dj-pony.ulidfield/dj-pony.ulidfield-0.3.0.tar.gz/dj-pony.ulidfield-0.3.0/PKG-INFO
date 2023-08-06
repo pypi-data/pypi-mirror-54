@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dj-pony.ulidfield
+Version: 0.3.0
+Summary: A ULID Field for Django that does all the work for you.
+Author: Samuel Bishop
+Author-email: sam@techdragon.io
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: django (>=2.2,<3.0)
+Requires-Dist: ulid-py (>=0.0.9,<0.0.10)
