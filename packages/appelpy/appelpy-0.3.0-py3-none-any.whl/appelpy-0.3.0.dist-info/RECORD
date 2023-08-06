@@ -1,0 +1,11 @@
+appelpy/__init__.py,sha256=9QY1smyrhxKdTLvxCrTMvteYRodYXnV7TJqgjjETnhY,87
+appelpy/diagnostics.py,sha256=Xj78bdDCPmSaGzKMh8mcjtCSge7103ku16pLihQ0dCs,26251
+appelpy/discrete_model.py,sha256=bOlR1_DGeEeM-UKt1zS_tS6pkmtRcdD6mLjTvhxDe9c,17778
+appelpy/eda.py,sha256=elVTe5aN1ftSr4Kr3fTM4d71qHXfcq2XIbmLoqssGE8,2959
+appelpy/linear_model.py,sha256=EytZMOemnYfbp27uepTK4LPTgBYnqZvF1ozOCCrPw88,31562
+appelpy/utils.py,sha256=I9yQNsN7ZO5MQ_Yp7PoURjhD8hcXyYdYq5iyva4XAso,24146
+appelpy-0.3.0.dist-info/LICENSE.txt,sha256=g7AkU3hJbTVBUB2ozR_KljOEDXxP-nizZJ_xIzeu3ew,2864
+appelpy-0.3.0.dist-info/METADATA,sha256=Y2nDMS0J5cEH73wdISwLXCUt6jOCfGx2cqbIWDV2bQk,5085
+appelpy-0.3.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+appelpy-0.3.0.dist-info/top_level.txt,sha256=0fmzzfb4ei_eJCLpfrl4tqczs0zjN3ltUUQegHiOdD4,8
+appelpy-0.3.0.dist-info/RECORD,,
