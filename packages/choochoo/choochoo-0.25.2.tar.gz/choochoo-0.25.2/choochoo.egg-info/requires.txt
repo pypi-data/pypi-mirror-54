@@ -1,0 +1,16 @@
+cachetools
+urwid
+sqlalchemy
+openpyxl
+numpy
+pandas
+psutil
+textblob
+pyGeoTile
+colorama
+pendulum
+requests
+scipy
+bokeh
+jupyter
+matplotlib
