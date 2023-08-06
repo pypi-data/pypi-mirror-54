@@ -1,0 +1,3 @@
+[console_scripts]
+pkgfreeze=pypkgfreeze.pypkgfreeze:main
+
