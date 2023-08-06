@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: slackers
+Version: 0.1.0
+Summary: Slack interaction webhooks served by FastAPI
+License: MIT
+Author: Niels van Huijstee
+Author-email: niels@huijs.net
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Office/Business
+Provides-Extra: uvicorn
+Requires-Dist: fastapi (>=0.42,<0.43)
+Requires-Dist: pyee (>=6.0,<7.0)
+Requires-Dist: python-multipart (>=0.0.5,<0.0.6)
+Requires-Dist: requests (>=2.22,<3.0)
