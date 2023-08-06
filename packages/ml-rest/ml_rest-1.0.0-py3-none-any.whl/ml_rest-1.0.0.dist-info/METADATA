@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ml-rest
+Version: 1.0.0
+Summary: A small example package
+Home-page: https://github.com/JoseRoberts87/ml_rest
+Author: Jose Roberts
+Author-email: Jose.Roberts@intracitygeeks.org
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: tensorflow (==1.12.0)
+Requires-Dist: keras (==2.0.9)
+
+This project is dedicated to the easy and simple implementation of trained machine learning models
+
+
