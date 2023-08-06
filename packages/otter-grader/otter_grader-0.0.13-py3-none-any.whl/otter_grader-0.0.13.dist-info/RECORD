@@ -1,0 +1,14 @@
+otter/__init__.py,sha256=Vx54A0j4nPGuuPfBuJ3StEja3QqQtDZe7CLu8nYFBI8,30
+otter/cli.py,sha256=uO7SfGqF5yjlsRSJjenfDkFCV3ULLfVoSnUH9MyXO3w,3699
+otter/docker.py,sha256=A43AR1xvT5h90avNYo0_kAHNHoSk9BD0-0jhZeTT28I,4287
+otter/grade.py,sha256=5i8Qf0pPVZtRJbFn-a3hjveuZQOmTqZw1w4snNHC-jA,3984
+otter/metadata.py,sha256=mG9YTKtTnII3GO_ZitZByCqHHV9iMU0HBGeeoXXQs6I,7183
+otter/notebook.py,sha256=q1ERE7YcDGbun7gD02noY-i0w3sL5axld2P5MNcKAVI,1163
+otter/parallel.py,sha256=oS0kW7P3WgC4NYghckVNxGhJvxD_kmNgUF0lknO4XBY,1773
+otter/utils.py,sha256=RTEbFPVZHyICHwppiiIOOv3MOXueLAINseSUxbgaI9c,200
+otter_grader-0.0.13.data/scripts/otter,sha256=djAv_cFB-qCMPwWK3XvcOuYZh4ksiqWo916Mny1NGDQ,72
+otter_grader-0.0.13.dist-info/LICENSE,sha256=avID1BoB3wjOvxdBCRJzEFRK5PXze2p_aW0oezjThY4,1560
+otter_grader-0.0.13.dist-info/METADATA,sha256=1TJTpCkS7_b8l6GesNPsSjzlOB-u_1pVW0nXac0jx_E,551
+otter_grader-0.0.13.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+otter_grader-0.0.13.dist-info/top_level.txt,sha256=Wth72sCwBRUk3KZGknSKvLQDMFuJk6qiaAavMDOdG5k,6
+otter_grader-0.0.13.dist-info/RECORD,,
