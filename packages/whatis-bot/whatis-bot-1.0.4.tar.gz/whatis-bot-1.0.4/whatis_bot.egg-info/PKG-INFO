@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: whatis-bot
+Version: 1.0.4
+Summary: A Slack app to explore, create and curate your workspace's business terminology
+Home-page: https://github.com/wooddar/whatis
+Author: Hugo Darwood
+Author-email: hugodarwood@gmail.com
+License: mit
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
