@@ -1,0 +1,3 @@
+[console_scripts]
+move-migrations=move_migrations:move_migrations.main
+
