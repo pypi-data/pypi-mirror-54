@@ -1,0 +1,10 @@
+aws_vpc/__init__.py,sha256=E_31_HPFuRCgvpfcAzPp3kshXaXEXbhtlIadfoW4Kck,61
+aws_vpc/aws_cdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_vpc/aws_cdk/vpc_template.py,sha256=8lcLOe3Bsd1HSE17KlETJyEwqDQzNNU3rUpmPS28rQA,2337
+aws_vpc/troposphere/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_vpc/troposphere/vpc_template.py,sha256=WNHdYX0UsjS51wPPLjlg3DfFHan1RQRlD1x7I2V8LA0,8260
+aws_vpc-1.0.1.dist-info/LICENSE.txt,sha256=kWAUvFb_dsDIxONXWf5t2RSRM8KY4Va1rvfgbeTTqIQ,35099
+aws_vpc-1.0.1.dist-info/METADATA,sha256=fkKXZwsr9MGsMxSA8JPC7IzWW8KxbbSAGkVeX8aENk0,782
+aws_vpc-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+aws_vpc-1.0.1.dist-info/top_level.txt,sha256=l5AVD6KWanxgaN-Amz9nL7maH2XmSXtioW7wjJBS5CU,8
+aws_vpc-1.0.1.dist-info/RECORD,,
