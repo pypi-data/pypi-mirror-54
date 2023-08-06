@@ -1,0 +1,3 @@
+[console_scripts]
+hep.sub = smartHepsub.hepsub:main
+

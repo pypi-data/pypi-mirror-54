@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: SmartHepSub
+Version: 1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Xin-Xin Ma
+License: UNKNOWN
+Project-URL: Source, https://github.com/xxmawhu/SmartHepSub
+Platform: UNKNOWN
+Requires-Dist: termcolor
+Requires-Dist: progressbar
+Requires-Dist: configparser
+
+UNKNOWN
+
+
