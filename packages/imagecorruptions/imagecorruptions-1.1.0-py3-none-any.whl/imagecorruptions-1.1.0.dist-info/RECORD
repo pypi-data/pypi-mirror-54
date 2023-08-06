@@ -1,0 +1,13 @@
+imagecorruptions/__init__.py,sha256=LAoFlFa5CuoQwDuUUNOi1SOypzLnO8Oq2lGZOfxTQzE,3977
+imagecorruptions/corruptions.py,sha256=Cc95P7S875SBuhumkVKaQNAjE4JB8mtCe1ls6yF66Eo,19610
+imagecorruptions/frost/frost1.png,sha256=_5-QeGC9eoNdRZ4y-dWIBit_Ye4mc0PMciK1Z1OhR1U,1199930
+imagecorruptions/frost/frost2.png,sha256=_iEaibM2mZwgeoUs4FgY1FRdC1fFvq3YJLTMnZqbYTc,299002
+imagecorruptions/frost/frost3.png,sha256=LQ1QtKm7IT84sCTvd2hzG7g8wI0vJrV2a7wWfN-g5QQ,299002
+imagecorruptions/frost/frost4.jpg,sha256=P4uRyhqfpxZ7Cedz2lP1rmDQof2I8Cp4P24yinKIf24,36734
+imagecorruptions/frost/frost5.jpg,sha256=X8ahnfSkKbpoq9zI-KQnjUyfgcnMr9LJKrDIz4mS69I,155150
+imagecorruptions/frost/frost6.jpg,sha256=H5Ky9IQIdICFto3YHYFu8jn0LO8wKcJdBB_LZ2D7TyU,90185
+imagecorruptions-1.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+imagecorruptions-1.1.0.dist-info/METADATA,sha256=48PWZc03JIgc-dzUZSepp5H40AQ_0XMq85WC7rOsAfY,3470
+imagecorruptions-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+imagecorruptions-1.1.0.dist-info/top_level.txt,sha256=dCMqIEfyTYro0kmXpYhKA--jPyRb93enOMorwCUtSJA,17
+imagecorruptions-1.1.0.dist-info/RECORD,,
