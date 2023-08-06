@@ -1,0 +1,9 @@
+README.md
+setup.py
+Sveve.egg-info/PKG-INFO
+Sveve.egg-info/SOURCES.txt
+Sveve.egg-info/dependency_links.txt
+Sveve.egg-info/requires.txt
+Sveve.egg-info/top_level.txt
+sveve/__init__.py
+sveve/client.py
