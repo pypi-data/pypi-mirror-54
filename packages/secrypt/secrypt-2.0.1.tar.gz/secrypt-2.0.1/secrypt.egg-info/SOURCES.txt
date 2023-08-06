@@ -1,0 +1,7 @@
+README.md
+setup.py
+secrypt/__init__.py
+secrypt.egg-info/PKG-INFO
+secrypt.egg-info/SOURCES.txt
+secrypt.egg-info/dependency_links.txt
+secrypt.egg-info/top_level.txt
