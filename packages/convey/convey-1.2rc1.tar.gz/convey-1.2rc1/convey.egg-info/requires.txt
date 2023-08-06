@@ -1,0 +1,13 @@
+appdirs
+bs4
+humanize
+ipdb
+jsonpickle
+netaddr
+prompt_toolkit>=2
+pygments
+python-Levenshtein
+pythondialog
+requests
+tabulate
+validate_email
