@@ -1,0 +1,8 @@
+README.txt
+setup.py
+farsitools/PersianTools.py
+farsitools/__init__.py
+farsitools.egg-info/PKG-INFO
+farsitools.egg-info/SOURCES.txt
+farsitools.egg-info/dependency_links.txt
+farsitools.egg-info/top_level.txt
