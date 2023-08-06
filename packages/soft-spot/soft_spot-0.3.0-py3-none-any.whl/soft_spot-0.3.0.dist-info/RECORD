@@ -1,0 +1,13 @@
+soft_spot/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+soft_spot/__main__.py,sha256=Hb5QbITI2qOOmwP9AiKgcroA8ndxvdyK8M8jbdXQfxI,2769
+soft_spot/configuration.py,sha256=p0P45_KQjb_wCWaZQZH-gQ7RNvgozTGOuIgt-iR8WHc,220
+soft_spot/fab.py,sha256=UT56XYbYxd85fcC93kvzfl75LvIzfGNaxEvBS_IqjOk,990
+soft_spot/implementations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soft_spot/implementations/price.py,sha256=J7vxkDfxlj0cVpmRnTwqjOw96EdwkkxdAmZq1biF8hg,1200
+soft_spot/implementations/request.py,sha256=cyuksPFJakMj5W6HIySeTaLK4opsl1nDa11n9uYn_qM,3373
+soft_spot/implementations/scripts.py,sha256=BzZKvwCbbvopklmQbBvTM_K0wpLWlWIkwoJF9Robnv8,737
+soft_spot/implementations/volumes.py,sha256=M3uv0xFhrCuZ1dldXYoIsa-GiiNdPRLXsDZ0V5CfNhI,380
+soft_spot-0.3.0.dist-info/entry_points.txt,sha256=ZE3G9f4Qr2SU8NPEPd04nT_bxYqYg8iy14tN9XaRlwA,48
+soft_spot-0.3.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+soft_spot-0.3.0.dist-info/METADATA,sha256=_2BOQ9P4Zmf7l33llyYZWsDkWQ-ACL2ts2giV55HlLk,2495
+soft_spot-0.3.0.dist-info/RECORD,,
