@@ -1,0 +1,10 @@
+cups_notify/__init__.py,sha256=N_ZeOEbWWozxyXlvTv86r0fXG2yRJpShSrprntx3dMg,199
+cups_notify/event.py,sha256=y06N57JcdvL7wni9e6-QgLGQ-hewUXagqMQ0DRtUabk,2032
+cups_notify/listener.py,sha256=UK7ylreUtO3PHSN2hQsxsbiwNBI5VCJ6K06ecU0-iZ8,4784
+cups_notify/subscriber.py,sha256=_T0bhzFTn9YkB11hghovpebn2o63uNrvksnY0CtrgwE,1756
+pycups_notify-0.0.4.dist-info/LICENSE,sha256=WxdDpyQmSu65YK72YQzIU-PdWla_BqfUgu-qLg7AIKQ,1063
+pycups_notify-0.0.4.dist-info/METADATA,sha256=CIW74a6Q7rdYsSPQfuQ2n6CgY01TWMKP9JMmftqbbps,2971
+pycups_notify-0.0.4.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+pycups_notify-0.0.4.dist-info/entry_points.txt,sha256=b8GtyyG3arAcrzWZNsU4tP7vAZbQpUjq39Cz9ovrqKs,63
+pycups_notify-0.0.4.dist-info/top_level.txt,sha256=ULhfEaFRAbtGmu5iMHxY-JQ-bzz6V1LGx5b0dCe4Ne4,12
+pycups_notify-0.0.4.dist-info/RECORD,,
