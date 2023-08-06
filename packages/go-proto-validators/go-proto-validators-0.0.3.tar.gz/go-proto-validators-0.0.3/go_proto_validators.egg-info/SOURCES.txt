@@ -1,0 +1,5 @@
+setup.py
+go_proto_validators.egg-info/PKG-INFO
+go_proto_validators.egg-info/SOURCES.txt
+go_proto_validators.egg-info/dependency_links.txt
+go_proto_validators.egg-info/top_level.txt
