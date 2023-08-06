@@ -1,0 +1,6 @@
+[console_scripts]
+bert-deploy.py = bert.deploy.factory:run_from_cli
+bert-roles.py = bert.roles.factory:run_from_cli
+bert-runner.py = bert.runner.factory:run_from_cli
+bert-secrets.py = bert.secrets.factory:run_from_cli
+
