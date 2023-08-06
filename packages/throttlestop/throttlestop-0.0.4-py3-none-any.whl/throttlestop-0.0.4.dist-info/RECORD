@@ -1,0 +1,10 @@
+throttlestop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+throttlestop/__main__.py,sha256=b8Z6j92ToeeUvuV-j7tPa4dHQFntVIMJ7ROJVBBrI14,3659
+throttlestop/install.py,sha256=28PjeCAekGn1jB5l48rMYTpNWsiIh0mygff7dwus1Bk,1364
+throttlestop/msr.py,sha256=1mfvl5uRoK5OjYCmiVoNiyuAHXFakoPXHSXOhyW9TXQ,6012
+throttlestop/tools.py,sha256=r2vj7CI5XhnLPkXYQkfY-sOKK5RBZa4QeRka8E57-V4,538
+throttlestop-0.0.4.dist-info/entry_points.txt,sha256=ysqlqcFAXtTFEyuuehMttIYGCa0NEVq-0NGp24pKabY,114
+throttlestop-0.0.4.dist-info/LICENSE.txt,sha256=K9UeGkDge9ZczpUghfKNE-3mYLjeBVMfMiM0cxnwD1Y,1071
+throttlestop-0.0.4.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+throttlestop-0.0.4.dist-info/METADATA,sha256=Y_Qyoaa1KRwrFor2ZFqJXcQRYGdltQR8hCAYscTysuE,483
+throttlestop-0.0.4.dist-info/RECORD,,

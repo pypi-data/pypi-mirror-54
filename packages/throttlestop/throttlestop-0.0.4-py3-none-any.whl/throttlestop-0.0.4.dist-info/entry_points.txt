@@ -1,0 +1,4 @@
+[console_scripts]
+throttlestop=throttlestop.__main__:main
+throttlestop-install-service=throttlestop.install:main
+
