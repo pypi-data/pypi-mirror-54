@@ -1,0 +1,102 @@
+﻿description: Implements mouse-tracking using forms
+version: 2.0.0
+url: https://github.com/pascalkieslich/mousetrap-os
+author: "Pascal J. Kieslich & Felix Henninger"
+category: "Mousetrap"
+controls:
+-
+    type: "line_edit"
+    var: "cols"
+    name: "cols_widget"
+    label: "Number of columns:"
+    min_width: 600
+-
+    type: "line_edit"
+    var: "rows"
+    name: "rows_widget"
+    label: "Number of rows:"
+    min_width: 600
+-
+    type: "combobox"
+    var: "_theme"
+    name: "theme_widget"
+    label: "Theme"
+    options:
+    - "plain"
+    - "gray"
+-
+    type: "line_edit"
+    var: "correct_button"
+    name: "correct_button_widget"
+    label: "Correct button name:"
+    min_width: 600
+-
+    type: "checkbox"
+    var: "update_feedback"
+    name: "update_feedback_widget"
+    label: "Update feedback variables (average_response_time and accuracy)"
+-
+    type: "checkbox"
+    var: "reset_mouse"
+    name: "reset_mouse_widget"
+    label: "Reset mouse position when form is shown"
+-
+    type: "line_edit"
+    var: "start_coordinates"
+    name: "start_coordinates_widget"
+    label: "Start coordinates:"
+    min_width: 600
+-
+    type: "line_edit"
+    var: "timeout"
+    name: "timeout_widget"
+    label: "Timeout:"
+    min_width: 600
+-
+    type: "checkbox"
+    var: "click_required"
+    name: "click_required_widget"
+    label: "Click required to indicate response"
+-
+    type: "line_edit"
+    var: "mouse_buttons_allowed"
+    name: "mouse_buttons_allowed_widget"
+    label: "Allowed mouse buttons:"
+    min_width: 600
+-
+    type: "checkbox"
+    var: "check_initiation_time"
+    name: "check_initiation_time_widget"
+    label: "Display warning message immediately if maximum initiation time is exceeded"
+-
+    type: "line_edit"
+    var: "warning_message"
+    name: "warning_message_widget"
+    label: "Warning message:"
+    min_width: 600
+-
+    type: "spinbox"
+    var: "max_initiation_time"
+    name: "max_initiation_time_widget"
+    label: "Maximum initiation time:"
+    min_val: 1
+    max_val: 60000
+    suffix: " ms"
+-
+    type: "spinbox"
+    var: "logging_resolution"
+    name: "logging_resolution_widget"
+    label: "Logging resolution:"
+    min_val: 1
+    max_val: 1000
+    suffix: " ms"
+-
+    type: "checkbox"
+    var: "save_trajectories"
+    name: "save_trajectories_widget"
+    label: "Save mouse-tracking data"
+-
+    type: "checkbox"
+    var: "skip_item"
+    name: "skip_item_widget"
+    label: "Skip item and only load package"
