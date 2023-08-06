@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: pan-sdk-python
+Version: 1.0.0
+Summary: Panorama SDK for Python
+Home-page: https://gogs.analyticservice.net/AASRND/pan-python-sdk
+Author: tim.wang
+Author-email: 317302030@qq.com
+License: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+# paranoma python sdk release
+
+## 安装
+
+pan_sdk_python-0.0.1-py3-none-any.whl为linux环境安装包，使用方式如下：
+
+```
+pip install pan_sdk_python-0.0.1-py3-none-any.whl
+```
+
