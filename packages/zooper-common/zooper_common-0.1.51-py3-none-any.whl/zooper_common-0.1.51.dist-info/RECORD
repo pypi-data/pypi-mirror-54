@@ -1,0 +1,8 @@
+zooper_common/ai.py,sha256=sGFIl0XqQDZUbm4MNGeB7aTtt-GtrGL0LI3bDd9ifGk,15034
+zooper_common/ai_finetuner.py,sha256=v3dII5jThWx-vDq6fmXIGlVRFhsJeMhPMRFkQOAYpiI,19419
+zooper_common/s3.py,sha256=CtlamNnDfB9w89mQke4wgQxSZqkoIU2_l_IlNPLjzqA,5471
+zooper_common-0.1.51.dist-info/LICENSE,sha256=PX0yqE5wPX7doilKmx0frboBtGy8iqMvjVj3aMLge8w,555
+zooper_common-0.1.51.dist-info/METADATA,sha256=QMGX3BLqT2DnybPsJ21lufA_7SI7-PA0vXReHTxOO8c,624
+zooper_common-0.1.51.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+zooper_common-0.1.51.dist-info/top_level.txt,sha256=DNBXY8NEOeDdtYaw3tAUtfWJU6clG2ZtCtXAY7kc_Yo,14
+zooper_common-0.1.51.dist-info/RECORD,,
