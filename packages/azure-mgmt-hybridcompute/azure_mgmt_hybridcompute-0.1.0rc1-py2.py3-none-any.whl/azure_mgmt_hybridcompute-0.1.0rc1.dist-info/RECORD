@@ -1,0 +1,17 @@
+azure/mgmt/hybridcompute/__init__.py,sha256=ClHjsNhnsTf3dOCXwlXZoD7xDKQnFYwJMrSi7pxwuu4,766
+azure/mgmt/hybridcompute/_configuration.py,sha256=F9uewDzHFyW6Fp3wKDzkz6WdsZZd91OVPnBFBxmhXq4,2011
+azure/mgmt/hybridcompute/_hybrid_compute_management_client.py,sha256=bXVYTVJjOq9uDf8SyDBtShkQrmg-qD8uU3y2J_Z-I0w,2728
+azure/mgmt/hybridcompute/version.py,sha256=_DUq4DTLrEBIFLhpElC8501B_MUkEZH7vXdLORdmB1w,495
+azure/mgmt/hybridcompute/models/__init__.py,sha256=nrzHjMvYB_Yhpz_IBjNHQsnjhAb7PM_hKv4PE5oZQ_c,2449
+azure/mgmt/hybridcompute/models/_hybrid_compute_management_client_enums.py,sha256=t5P1QeO_tc4nZIW0l9dh8oBU7ESikCzTNxQT2XUWXjg,785
+azure/mgmt/hybridcompute/models/_models.py,sha256=4pPez-8t1HJuXGr9eE4NuUNMZOCE5xX-BZIOHIZXqao,23907
+azure/mgmt/hybridcompute/models/_models_py3.py,sha256=mN_kMTfEG-Hsn-gH6SNJDCv3QJ3gw2WuvNHZhU4Fpuo,24292
+azure/mgmt/hybridcompute/models/_paged_models.py,sha256=uoWtr_vXMPJpZ6t7epnFvg_b54qxWFvRv7YlR7-Qf5c,1827
+azure/mgmt/hybridcompute/operations/__init__.py,sha256=y7KP1GFVBzqKGsrI0GeouAzGe8v-QJt_VaMx95qmBNA,729
+azure/mgmt/hybridcompute/operations/_machine_extensions_operations.py,sha256=ohEskgn-TCeKqKPWcnwj3YyVJjjHSeqTfMzcVy0Z7iY,22675
+azure/mgmt/hybridcompute/operations/_machines_operations.py,sha256=s0ervHPk0q3uosAufA7D4QuiPVTo0CFRC6BCWa4suY8,23397
+azure/mgmt/hybridcompute/operations/_operations.py,sha256=Uh4G6rpd85bGGv0j0PhgZuVEz2bV438L2BaZ7rVP-9s,3870
+azure_mgmt_hybridcompute-0.1.0rc1.dist-info/METADATA,sha256=31rnCeh21YSRuLSB4Y1ymymnp1uhAWn_yat6nByOsRo,2148
+azure_mgmt_hybridcompute-0.1.0rc1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+azure_mgmt_hybridcompute-0.1.0rc1.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_mgmt_hybridcompute-0.1.0rc1.dist-info/RECORD,,
