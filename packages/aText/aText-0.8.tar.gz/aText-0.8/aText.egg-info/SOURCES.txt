@@ -1,0 +1,15 @@
+setup.py
+aText/AlcoholPython.xlsx
+aText/README.txt
+aText/ReviewsPython.xlsx
+aText/SentimentPython.xlsx
+aText/__init__.py
+aText/aTextObfuscated.jar
+aText/aTextUsageExamples.ipynb
+aText/jarFileCopy.ipynb
+aText/jupyter_notebook.bat
+aText.egg-info/PKG-INFO
+aText.egg-info/SOURCES.txt
+aText.egg-info/dependency_links.txt
+aText.egg-info/not-zip-safe
+aText.egg-info/top_level.txt
