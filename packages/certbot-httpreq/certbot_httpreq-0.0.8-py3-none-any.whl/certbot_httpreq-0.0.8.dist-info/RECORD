@@ -1,0 +1,10 @@
+certbot_httpreq/__init__.py,sha256=ToOJRB5ubBUromcZ8DYap9FWn0TRaUVvUon6hodESvo,56
+certbot_httpreq/authenticator.py,sha256=3Gf4-oK7Oq6xlzCY7jXEUG_t2jyVkyOBV1kxQIizmgM,6632
+certbot_httpreq/installer.py,sha256=iJ-MQJyafwCll3etryAwoVlhBHNFQxXXramexN9YjnI,5238
+certbot_httpreq-0.0.8.data/data/share/certbot-httpreq/etc/letsencrypt/certbot-httpreq.yml,sha256=MbAB2A20kaqKCJsX63ytHgRYySVPbILtuO4c9C9Yx_s,1386
+certbot_httpreq-0.0.8.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+certbot_httpreq-0.0.8.dist-info/METADATA,sha256=4Ltfxe6Mz-zudlCX5qwuURZAfJWKHZhLx022u0uPavE,1341
+certbot_httpreq-0.0.8.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+certbot_httpreq-0.0.8.dist-info/entry_points.txt,sha256=9XX4cXFw3dp3JVHH7PMfuI9HxbMbC369F8oEzLi2WsY,118
+certbot_httpreq-0.0.8.dist-info/top_level.txt,sha256=L8iUYzqTbfdG2EtaltmPJEP0Sns8s-okCYgvneZOOdQ,16
+certbot_httpreq-0.0.8.dist-info/RECORD,,
