@@ -1,0 +1,11 @@
+nineties/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nineties/__main__.py,sha256=GjBWCgbPDfIQmBZookWbwAEejWJ2Z9SBjiqtNWzqeQU,179
+nineties/cli.py,sha256=Gc3FTrFrI_-KEE87TtB3EFEEHha13w0u3uBGaExT9Es,231
+nineties/nineties.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nineties/parser.py,sha256=kxfUGmLnYlQ0gIznd-DqKqou4Ecz-8W-cCYTfhfIN6Y,2787
+nineties-0.0.1.dist-info/LICENSE,sha256=dH0AkBTlTynp0PbKTR2Y5jBsNrBtyxAU34jpExJSJ88,1069
+nineties-0.0.1.dist-info/METADATA,sha256=34Jf6CRM81nDjOXVB_YGiIMjgWgQ8-aaebQIzZr43NY,498
+nineties-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+nineties-0.0.1.dist-info/entry_points.txt,sha256=Mi-h2WiWHrhWgrrxIHiFWXoL0Bh2cO3zZeq-MtA4NpM,53
+nineties-0.0.1.dist-info/top_level.txt,sha256=xRhXcwd29nOBOaKIHTW-YgqhDGUFqej8HrraTcmuyUg,9
+nineties-0.0.1.dist-info/RECORD,,
