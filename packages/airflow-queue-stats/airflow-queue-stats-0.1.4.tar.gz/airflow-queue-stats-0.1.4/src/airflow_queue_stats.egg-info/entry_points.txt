@@ -1,0 +1,3 @@
+[airflow.plugins]
+queue_stats = airflow_queue_stats.plugin:QueueStatsPlugin
+
