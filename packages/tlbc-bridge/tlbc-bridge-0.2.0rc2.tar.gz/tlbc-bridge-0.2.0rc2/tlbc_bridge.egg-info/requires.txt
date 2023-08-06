@@ -1,0 +1,10 @@
+click<7.1,>=7.0
+attrs<19.2,>=19.1
+eth-utils<1.7,>=1.6.2
+gevent<1.5,>=1.4
+marshmallow<3.1.0,>=3.0.1
+toml<0.11,>=0.10
+web3<5.1,>=5.0
+tenacity<5.2,>=5.1.1
+setproctitle<1.2,>=1.1.10
+falcon<2.1,>=2.0.0
