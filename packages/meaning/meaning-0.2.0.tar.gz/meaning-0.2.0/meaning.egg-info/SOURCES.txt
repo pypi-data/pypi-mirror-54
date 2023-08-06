@@ -1,0 +1,12 @@
+README.md
+setup.py
+meaning/__init__.py
+meaning/meaning.py
+meaning/version.py
+meaning.egg-info/PKG-INFO
+meaning.egg-info/SOURCES.txt
+meaning.egg-info/dependency_links.txt
+meaning.egg-info/entry_points.txt
+meaning.egg-info/not-zip-safe
+meaning.egg-info/requires.txt
+meaning.egg-info/top_level.txt

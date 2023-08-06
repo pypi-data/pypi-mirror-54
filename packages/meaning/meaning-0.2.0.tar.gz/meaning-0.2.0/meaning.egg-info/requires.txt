@@ -1,0 +1,6 @@
+huepy
+pangu
+requests
+xmltodict
+sqlalchemy
+terminaltables
