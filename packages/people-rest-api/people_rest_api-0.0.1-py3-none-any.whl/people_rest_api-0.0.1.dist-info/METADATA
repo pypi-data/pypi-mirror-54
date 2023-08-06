@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: people-rest-api
+Version: 0.0.1
+Summary: Python REST APIs With Flask, Connexion, and SQLAlchemy
+Home-page: https://github.com/radcheb/book-store
+Author: radcheb
+Author-email: radcheb@example.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+
