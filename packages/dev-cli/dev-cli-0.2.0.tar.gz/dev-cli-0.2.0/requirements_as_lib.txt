@@ -1,0 +1,6 @@
+httpx>=0.7
+typefit>=0.1
+pendulum>=2.0
+python-frontmatter>=0.4
+coloredlogs>=10
+python-dotenv>=0.10
