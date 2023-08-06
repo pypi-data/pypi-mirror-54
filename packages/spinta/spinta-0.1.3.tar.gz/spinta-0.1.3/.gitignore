@@ -1,0 +1,11 @@
+*.egg-info/
+*.pyc
+/.coverage
+/.dockerignore
+/.eggs/
+/.env
+/build/
+/dist/
+/env/
+/tags
+/var/

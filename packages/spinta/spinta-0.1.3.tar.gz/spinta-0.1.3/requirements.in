@@ -1,0 +1,26 @@
+aiofiles
+asyncpg
+# FIXME: https://jira.tilaajavastuu.fi/browse/SPLAT-152
+authlib==0.11
+click
+gunicorn
+jinja2
+lxml
+msgpack
+multipledispatch
+psycopg2-binary
+pymongo
+pyrql
+python-multipart
+requests
+ruamel.yaml
+setuptools
+setuptools-scm
+sqlalchemy
+starlette
+texttable
+tqdm
+ujson
+unidecode
+uvicorn
+xlrd
