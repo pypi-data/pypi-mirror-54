@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+nested_csv/__init__.py
+nested_csv/writer.py
+nested_csv.egg-info/PKG-INFO
+nested_csv.egg-info/SOURCES.txt
+nested_csv.egg-info/dependency_links.txt
+nested_csv.egg-info/top_level.txt
