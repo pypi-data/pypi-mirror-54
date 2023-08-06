@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: denseblock
+Version: 1.1
+Summary: Keras Extended Dense Layer
+Home-page: https://github.com/ElPapi42/DenseBlock
+Author: Whitman Bohorquez
+Author-email: whitman-2@hotmail.com
+License: UNKNOWN
+Download-URL: https://github.com/ElPapi42/DenseBlock/archive/v1.1.tar.gz
+Description: Dense Block
+        
+        Keras Extended Dense Layer, Features Batch Normalization, Dropout and Dense layers, in that order, Created for convenient building of Complex Networks.
+        
+Keywords: Keras,Model,Plug And Play
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
