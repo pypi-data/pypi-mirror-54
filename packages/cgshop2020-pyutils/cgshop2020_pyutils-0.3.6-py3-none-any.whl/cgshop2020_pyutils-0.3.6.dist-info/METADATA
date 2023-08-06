@@ -1,0 +1,355 @@
+Metadata-Version: 2.1
+Name: cgshop2020-pyutils
+Version: 0.3.6
+Summary: Utilities for the CG:SHOP 2020 Optimization Competition on the Minimum Convex Partition Problem.
+Home-page: https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2020/
+Author: TU Braunschweig, IBR, Algorithms Group (Phillip Keldenich and Dominik Krupke)
+Author-email: keldenich@ibr.cs.tu-bs.de, krupke@ibr.cs.tu-bs.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: chardet
+
+# Official Python Utilities for the CG:SHOP 2020 Optimization Competition.
+
+We provide basic code to ease your participation in this year's [challenge](https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2020/).
+Due to it popularity and simplicity, the choice has fallen on Python.
+However, the real code is written in C++ with CGAL to provide the needed accuracy and
+efficiency.
+
+This python module allows you to easily read the instance and potentially convert them
+into an easier format. The JSON format is not as simple as last year's raw format but
+it allows to add metadata. Further, it allows you to verify your instances. It uses
+the same core as the server so if this code accepts your solution, so will our server.
+
+The code is not perfect but we will work to improve this code during the competition.
+Feedback is welcome.
+
+The C++-core unfortunately messes with the platform independence of Python.
+At this point, we already spent much more time into making the module as compatible as
+possible possible than into the actual code.
+Unfortunately, there are still a lot of ugly workarounds, which we try to remove soon.
+The module has been tested on OS X and Linux.
+__Windows is still experimentally.__
+
+We implemented a fallback mode that in case the native core could not be loaded at least
+the basic functionality for reading and writing solutions and instances is available.
+
+Please report any bugs you may find.
+You can simply write a mail to cgshop-admin@ibr.cs.tu-bs.de and one of our developers will take care of it (also if you have questions or suggestions).
+
+[https://gitlab.ibr.cs.tu-bs.de/alg/cgshop2020_pyutils](https://gitlab.ibr.cs.tu-bs.de/alg/cgshop2020_pyutils)
+
+## Features
+
+* Reading and writing instance files.
+* Reading and writing solution files.
+* Verifying solutions for feasibility.
+* Simple triangulation solver to get a trivial feasible solution.
+
+The exact same implementation will be used on the submission server.
+Thus, if this library will accept your solution, so will the submission server.
+
+## Installing
+
+You need to have a 64bit operating system (Linux, OS X, Windows) and a 64bit Python
+interpreter for full functionality. Unfortunately, it is very easy on Windows to 
+accidentally install outdated 32bit versions. 32bit users will only be able to use
+a limited functionality (or have to compile the core themselves).
+
+The module is available through pypi, e.g.,
+```python
+pip install cgshop2020-pyutils
+```
+
+or when using the generally recommended [pipenv](https://github.com/pypa/pipenv). 
+
+```python
+pipenv install cgshop2020-pyutils
+```
+
+Note that you have to use `_` instead of `-` when importing the module.
+
+You can also simply copy the folder `cgshop2020_pyutils` into your code folder and use
+it like a local module.
+
+If you want to work in C++ directly, you can also simply copy our `cpp_core`.
+If you have some experience with CMake, this should be straightforward.
+However, you will be missing the JSON functionality as this is written in pure Python
+(which is much simpler than doing this in C++).
+
+To update to the newest version, you have to use 
+```python
+pip install cgshop2020-pyutils --upgrade
+```
+or
+```python
+pipenv update cgshop2020-pyutils
+```
+
+## Getting started
+
+With the module installed, you can now try to create your first solution set (simple triangulations) as follows:
+```python
+# Load an instance
+from cgshop2020_pyutils import InstanceDatabase, BestSolutionSet, SolutionZipWriter, TrivialTriangulationSolver
+
+# load challenge instances
+idb = InstanceDatabase("/path/to/extracted/zip/")
+
+# compute the triangulation for all instances
+triangulation_solver = TrivialTriangulationSolver()
+solutions = BestSolutionSet()
+for instance in idb:
+    solutions.add(triangulation_solver(instance))
+    print(f"Computed triangulation for {instance.name}")
+
+# write solutions into zip
+print("Creating zip. This can take some time...")
+with SolutionZipWriter("my_first_upload.zip") as zipper:
+    zipper.add_solutions(solutions)
+
+print("You can now upload 'my_first_upload.zip' on",
+      "https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2020/")
+```
+
+You can find further examples in [./examples](https://gitlab.ibr.cs.tu-bs.de/alg/cgshop2020_pyutils/tree/master/examples)
+
+## Instances
+
+You can easily access the competitions instances by downloading the 
+[zip-archive of the first instances batch](https://cgshop.ibr.cs.tu-bs.de/static/competitions/cgshop_2020/instances_01.zip),
+extracting it, and using the `InstanceDatabase`.
+
+The `InstanceDatabase` does only need the directory of the extracted zip and will
+recursively search it for instances of a specific name, e.g.
+```python
+from cgshop2020_pyutils import InstanceDatabase
+instance_database = InstanceDatabase("/path/to/extracted/zip")
+mona_lisa_instance = instance_database["mona_lisa_1000000"]
+```
+alternatively, you could also simply iterate over all instances:
+```python
+from cgshop2020_pyutils import InstanceDatabase
+instance_database = InstanceDatabase("/path/to/extracted/zip")
+for instance in instance_database:
+    print(f"Found instance {instance.name}")
+```
+
+The instance class is rather simple:
+```python
+from cgshop2020_pyutils import InstanceDatabase
+instance_database = InstanceDatabase("/path/to/extracted/zip")
+instance = instance_database["uniform-0000100-2"]
+print(f"The instance is named {instance.name}.")
+print(f"It has {len(instance.name)} points.")
+print(f"The first point is f{instance[0]}.")
+print("I now list the other points:")
+for point in instance:
+    print(f"({point.get_x()}, {point.get_y()}")
+```
+
+You could also create your own instance by 
+```python
+from cgshop2020_pyutils import Instance, Point
+instance = Instance(name="my_instance", points=[Point(1.0, 1.0), Point(0.0, 3.0), Point(2.0, 0.0)])
+instance.add_point(Point(1.0, 5.0)) # add an additional point
+```
+
+### Instance Format
+
+An instance in json can look likes this:
+```json
+{"points": [
+            {"i": 0, "x": 2396.0, "y": 5284.0}, 
+            {"i": 1, "x": 2656.0, "y": 2938.0}, 
+            {"i": 2, "x": 4120.0, "y": 2278.0}, 
+            {"i": 3, "x": 4342.0, "y": 102.0}, 
+            {"i": 4, "x": 4384.0, "y": 2988.0}, 
+            {"i": 5, "x": 5136.0, "y": 2280.0}, 
+            {"i": 6, "x": 6634.0, "y": 5416.0}, 
+            {"i": 7, "x": 8598.0, "y": 2632.0}, 
+            {"i": 8, "x": 8898.0, "y": 4170.0}, 
+            {"i": 9, "x": 11738.0, "y": 1550.0}
+           ], 
+  "type": "Instance", 
+  "name": "euro-night-0000010", 
+  "meta": {
+            "comment": "HIP even point set instance (10 points) sampled from image ", 
+            "faces_in_triangulation": 12
+           }
+}
+```
+* `points`: a list of points with (i=index, x=x coordinate, y=y coordinate)
+* `type`: "Instance", just tells you that this json describes an instance
+* `meta` some optional metadata
+    * `comment`: Some comment on the instance
+    * `faces_in_triangulation`: Number of faces in the delaunay triangulation as trivially achievable objective value.
+* `name`: name of instance. 
+
+Last time we used some raw text format which is easier to parse but less powerful.
+If you don't want to read json in your software, we recommend to convert the instances
+via our python library to a simpler format.
+```python
+from cgshop2020_pyutils import InstanceDatabase
+instance_database = InstanceDatabase("/path/to/extracted/zip")
+for instance in instance_database:
+    with open(f"{instance.name}.txt", "w") as simple_file:
+        for index in range(len(instance)):
+            point = instance[index]
+            simple_file.write(f"{index} {point.get_x()} {point.get_y()}\n")
+```
+
+For loading an instance from a specific file, you can use the `InstanceReader`.
+
+
+## Solution
+
+```python
+from cgshop2020_pyutils import Solution, Edge
+solution = Solution(instance="my_instance")
+solution.add_edge(Edge(0, 1)) # edge from point with index 0 to point with index 1
+solution.add_edge(Edge(0, 2)) # edge from point with index 0 to point with index 2
+
+solution.delete_double_edges() # remove redundant edges, as double edges are illegal.
+for edge in solution:
+    print(edge)
+for i in range(len(solution)):
+    edge = solution[i]
+    print(edge)
+```
+you can easily create a valid json file:
+```python
+from cgshop2020_pyutils import SolutionWriter
+writer = SolutionWriter()
+writer.to_json(solution=solution, path="my_solution.json")
+```
+to create a zip for upload, use 
+```python
+from cgshop2020_pyutils import BestSolutionSet, SolutionZipWriter
+
+solutions = BestSolutionSet()
+solutions.add(solution)
+with SolutionZipWriter("my_upload.zip") as zipper:
+    zipper.add_solutions(solutions)
+```
+
+We will probably add a functionality for automatic upload from code in the near future.
+
+## Meta data
+
+`Solution` and `Instance` both have a `meta_data` attribute which is a dictionary.
+For example you can add a comment by
+```python
+my_solution.meta_data["comment"] = "This is a comment"
+```
+which will also be saved when converting to JSON.
+Everything that can be converted to string will be saved to json and also reloaded
+when reading the json.
+
+## Checker
+
+We provide an efficient checker for verifying solutions.
+In case of infeasibility, the checker also provides a message with an error description.
+If the solution is feasible, the objective value is computed.
+
+```python
+from cgshop2020_pyutils import SolutionChecker
+
+checker = SolutionChecker()
+status = checker(instance=instance, solution=solution)
+print(status.is_feasible())
+print(status.get_message())
+print(status.get_objective_value())
+```
+
+## Visualization
+
+We provide a simple visualization based on matplotlib to quickly plot instances and solutions.
+
+```python
+from cgshop2020_pyutils import Visualizer
+vis = Visualizer()
+vis.visualize_solution(solution=solution, instance=instance) # opens plot if possible
+vis.visualize_solution(solution=solution, instance=instance, path="my_fig.pdf") # writes plot to file
+```
+
+## Trivial Triangulation Solver
+
+We provide a simple solver that just computes the Delaunay triangulation.
+
+```python
+from cgshop2020_pyutils import TrivialTriangulationSolver
+solver = TrivialTriangulationSolver()
+solution = solver(instance)
+```
+
+## Check a zip
+```python
+from cgshop2020_pyutils import ZipSolutionIterator, SolutionChecker, InstanceDatabase
+checker = SolutionChecker()
+idb = InstanceDatabase("./my_folder_with_the_instances")
+zsi = ZipSolutionIterator() # Also allows to set some constraints on file size, etc.
+for solution in zsi("myzip.zip"):
+    instance = idb[solution.instance_name]
+    assert checker(instance=instance, solution=solution).is_feasible()
+
+```
+
+## Compiling yourself
+
+You should not need to do this as the module comes with precompiled binaries. However, it is possible to recompile the C++-core on your machine.
+
+You need to have the following libraries installed:
+* A C++ compiler e.g. Debian/Ubuntu `apt-get install g++`
+* CMake Debian/Ubuntu: `apt-get install cmake`, OS X:`brew install cmake`
+* CGAL Debian/Ubuntu: `apt-get install cgal`, OS X:`brew install cgal`
+* Boost Debian/Ubuntu: `apt-get install boost`, OS X:`brew install boost`
+* Python3 (of course)
+* matplotlib in Python3 (e.g., `pip3 install matplotlib`)
+
+Otherwise, you likely get an error. 
+
+Do a manual recompile with:
+```python
+import cgshop2020_pyutils
+cgshop2020_pyutils.compile_cpp_core()
+```
+This will only work if you installed into user space (without sudo) as otherwise the
+compiler cannot write the files into the module folder.
+
+This command actually just executes CMake.
+You could also do this by hand.
+
+For Windows, CMake might use slightly different paths. In that case, you could simply copy the created `.dll` into the `binaries` folder.
+
+## Changelog
+
+* _0.1.0_ First published version with native support for OS X and Linux.
+* _0.1.1_ Experimental Windows support
+* _0.1.2_ 32bit detection and warning.
+* _0.1.3_ fixed a problem with some Windows versions (could not find the supplied dependencies in the same folder)
+* _0.1.4_ Implemented InstanceDatabase, fixed bug with reading solution (thanks to Johannes Obenaus)
+* _0.1.5_ Bugfix in InstanceDatabase
+* _0.2.0_ Zip reading utilities.
+* _0.2.1_ Missing dependency declaration in pip package (chardet).
+* _0.3.0_ Added zip writing utilities and examples.
+* _0.3.1_ Removed potential problem in InstanceDatabase, improved documentation. Fixed a bug in zip reader (which makes me wonder why it worked on the test server?)
+* _0.3.2_ The ZIP module in the Python library has some breaking changes (problems with older versions).
+* _0.3.3_ The potential bugfix of 0.3.1 introduced a real bug with some paths.
+* _0.3.4_ Same as 0.3.3 but this time it should really fix it.
+* _0.3.5_ The InstanceDatabase has a serious memory consumption. Disabled caching by default.
+* _0.3.6_ Some improvements in handling exceptions of bad files.
+
+### Roadmap/Planned features
+
+* Proper testing with 100% coverage (currently don't have the manpower for that)
+* Upload of zips
+* Fetching the objective value for your currently best solutions from the server (and skipping upload of worse solutions)
+
