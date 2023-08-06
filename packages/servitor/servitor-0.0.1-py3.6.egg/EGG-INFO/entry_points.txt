@@ -1,0 +1,3 @@
+[console_scripts]
+servitor = servitor.__main__:main
+
