@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: sqlite-connector
+Version: 0.1.0
+Summary: Python package with SQLite convenience functions
+Home-page: https://github.com/fylein/sqlite-connector
+Author: Shwetabh Kumar
+Author-email: shwetabh.kumar@fyle.in
+License: MIT
+Keywords: fyle,db,python,sdk,sqlite
+Platform: UNKNOWN
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: logger (==1.4)
+
+# SQLite Connector
+Python package with SQLite convenience functions. [Fyle](https://www.fylehq.com/) is an expense management system.
+
+## Installation
+
+This project requires [Python 3+](https://www.python.org/downloads/).
+
+1. Download this project and use it (copy it in your project, etc).
+2. Install it from [pip](https://pypi.org).
+
+        $ pip install sqlite-connector
+
+## Usage
+
+This connector is very easy to use.
+
+First you'll need to create a connection using the main class FyleSDK.
+```python
+from sqlite_connector import SQLiteConnector
+
+sqlite_connector = SQLiteConnector('/tmp/file.db')
+```
+After that you'll be able to execute sql scripts
+```python
+sqlite_connector.execute_transform('file_name.sql')
+```
+
+## Contribute
+
+To contribute to this project follow the steps
+
+* Fork and clone the repository.
+* Run `pip install -r requirements.txt`
+* Setup pylint precommit hook
+    * Create a file `.git/hooks/pre-commit`
+    * Copy and paste the following lines in the file - 
+        ```bash
+        #!/usr/bin/env bash 
+        git-pylint-commit-hook
+        ```
+     * Run `chmod +x .git/hooks/pre-commit`
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+
