@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+TR_pypi_project.egg-info/PKG-INFO
+TR_pypi_project.egg-info/SOURCES.txt
+TR_pypi_project.egg-info/dependency_links.txt
+TR_pypi_project.egg-info/top_level.txt
