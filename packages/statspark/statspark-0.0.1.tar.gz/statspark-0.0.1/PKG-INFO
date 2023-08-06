@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: statspark
+Version: 0.0.1
+Summary: Functions for statistical analysis
+Home-page: https://github.com/joon3216/statspark
+Author: Junkyu Park
+Author-email: joon3216@gmail.com
+License: MIT License
+Description: 
+        <!-- README.md is generated from README.Rmd. Please edit that file -->
+        
+        # `statspark`
+        
+        <!-- badges: start -->
+        
+        <!-- [![Build Status](https://travis-ci.org/joon3216/statspark.svg?branch=master)](https://travis-ci.org/joon3216/statspark) -->
+        
+        <!-- [![codecov](https://codecov.io/gh/joon3216/statspark/branch/master/graph/badge.svg)](https://codecov.io/gh/joon3216/statspark)   -->
+        
+        [![PyPI
+        pyversions](https://img.shields.io/pypi/pyversions/statspark.svg)](https://pypi.python.org/pypi/statspark/)  
+        [![PyPI version
+        shields.io](https://img.shields.io/pypi/v/statspark.svg)](https://pypi.python.org/pypi/statspark/)  
+        [![PyPI
+        status](https://img.shields.io/pypi/status/statspark.svg)](https://pypi.python.org/pypi/statspark/)  
+        <!-- badges: end -->
+        
+        Functions for statistical analysis.
+        
+        ## Installation
+        
+        To install, type:
+        
+        ``` bash
+        pip install statspark
+        ```
+        
+        To update, type:
+        
+        ``` bash
+        pip install statspark --upgrade
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
