@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: kdxfsdk
+Version: 0.0.4
+Summary: kdxf sdk
+Home-page: http://xialingming
+Author: lmxia
+Author-email: xialingming@gmail.com
+License: MIT Licence
+Description: xf sdk for python
+Keywords: kdxf,sdk,xialingming
+Platform: any
