@@ -1,0 +1,8 @@
+.coverage
+.eggs/
+.mypy_cache/
+aiotus.egg-info/
+build/
+coverage_html/
+dist/
+venv/

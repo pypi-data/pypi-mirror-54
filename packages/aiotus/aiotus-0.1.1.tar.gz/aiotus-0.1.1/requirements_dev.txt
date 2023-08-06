@@ -1,0 +1,17 @@
+aiohttp
+tenacity
+
+black
+coverage
+codecov
+flake8
+grip
+isort
+mypy
+pytest
+pytest-aiohttp
+pytest-cov
+
+setuptools
+twine
+wheel
