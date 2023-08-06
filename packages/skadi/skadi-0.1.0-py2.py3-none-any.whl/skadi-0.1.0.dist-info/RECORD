@@ -1,0 +1,10 @@
+skadi/__init__.py,sha256=l-btC4-mxW05eNVJ7TCwZm2KTAyvmmLrCaWPyDLogrc,157
+skadi/cli.py,sha256=6r--0H_PJTHSEG8gZlsjDN6Z-XDNDuytLO3mv7TXo6M,436
+skadi/skadi.py,sha256=Qtq3EpSkdAFqQNQPDXTAouXS784LkR8Rh2D5s5w5_tc,47
+skadi-0.1.0.dist-info/AUTHORS.rst,sha256=GM5ujD052KjVnoAruAsWxTnZg8C_cLU4gWDLfFFHp9g,160
+skadi-0.1.0.dist-info/LICENSE,sha256=npbpIStbnM97eksuA8vlFArYSmC7GAgsszNrK6FCNhU,617
+skadi-0.1.0.dist-info/METADATA,sha256=yefPTKjZpZoMwzpn87ojrTofWvECvGKPSQtrZk3Ojfs,2122
+skadi-0.1.0.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+skadi-0.1.0.dist-info/entry_points.txt,sha256=UUNRxuMK8zjeDWn3HoZWuCzfhGeOQg9afMcPEA9wkEk,42
+skadi-0.1.0.dist-info/top_level.txt,sha256=U6Z4WH9YGIDDxV7Kd4HVzGvkphVOJZx5HbfYeZGtXUk,6
+skadi-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: skadi
+Version: 0.1.0
+Summary: Ailares Quantitative Research
+Home-page: https://github.com/franklinwu19/skadi
+Author: Zhonghao Wu
+Author-email: chunghao.ng@gmail.com
+License: Apache Software License 2.0
+Keywords: skadi
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Requires-Dist: Click (>=7.0)
+
+=================================
+skadi: Financial Machine Learning
+=================================
+.. image:: https://img.shields.io/badge/License-Apache%202.0-green.svg
+    :target: https://github.com/ailares-quant/skadi/blob/master/LICENSE
+    :alt: License
+
+.. image:: https://img.shields.io/pypi/v/skadi.svg
+
+
+.. image:: https://travis-ci.com/ailares-quant/skadi.svg?token=Q8VAKqwMEe56Bd2dytyt&branch=master
+    :target: https://travis-ci.com/ailares-quant/skadi
+    :alt: CI Status
+
+
+.. image:: https://readthedocs.com/projects/ailares-skadi/badge/?version=latest&token=8c809426dcdf8ee674fe784539ad6b093981d942f2af93a165133391ac9b402b
+    :target: https://ailares-skadi.readthedocs-hosted.com/en/latest/?badge=latest
+    :alt: Documentation Status
+
+Skadi is `Ailares, Inc. <https://www.ailares.com/>`_ in-house quantitative research infrastructure.
+
+**Ailares, Inc.** develops quantitative investment strategies to bring investors risk-adjusted return.
+
+* Free software: Apache Software License 2.0
+* Documentation: https://ailares-skadi.readthedocs-hosted.com/en/latest/
+
+Â© 2019 Ailares, Inc. All rights reserved.
+
+
+=======
+History
+=======
+
+0.1.0 (2019-10-27)
+------------------
+
+* First release on PyPI.
+
+
