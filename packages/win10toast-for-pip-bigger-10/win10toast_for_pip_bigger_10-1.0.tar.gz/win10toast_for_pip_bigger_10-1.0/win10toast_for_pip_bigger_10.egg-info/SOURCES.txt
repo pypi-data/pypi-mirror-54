@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+test/test.py
+win10toast_for_pip_bigger_10/__init__.py
+win10toast_for_pip_bigger_10/__main__.py
+win10toast_for_pip_bigger_10.egg-info/PKG-INFO
+win10toast_for_pip_bigger_10.egg-info/SOURCES.txt
+win10toast_for_pip_bigger_10.egg-info/dependency_links.txt
+win10toast_for_pip_bigger_10.egg-info/requires.txt
+win10toast_for_pip_bigger_10.egg-info/top_level.txt
