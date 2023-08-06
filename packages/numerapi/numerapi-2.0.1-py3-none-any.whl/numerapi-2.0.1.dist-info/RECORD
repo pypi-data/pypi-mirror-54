@@ -1,0 +1,10 @@
+numerapi/__init__.py,sha256=GiEXYPF9EqhZOObxXNH0pDohzwk0C8Isb8gINkCCAjs,210
+numerapi/cli.py,sha256=8pAbqS2hAmjoh570oSSCkRlD2DkphvDGDlj0KdDR6hY,7756
+numerapi/numerapi.py,sha256=ezw_izGlze0_oXZ1mCK-FkyVcupF_zNKlEwWKtJMePg,63164
+numerapi/utils.py,sha256=ctTzxbGEvYITuFkmmAug8SmmvmomvHtrIjIhDPj4D4c,2372
+numerapi-2.0.1.dist-info/LICENSE,sha256=BnOIJOdxTIxmbNPf_ZmCXqepXDTRWad1nQf9eYk-eSg,1056
+numerapi-2.0.1.dist-info/METADATA,sha256=WwosgY9V_K8Sccp6AzCimJbbBzwTPRn_1Oftmu40p5Q,6531
+numerapi-2.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+numerapi-2.0.1.dist-info/entry_points.txt,sha256=rXADI26njzOHNPz62nvThWFEQyvgCM7zlWZKxTzRLVo,47
+numerapi-2.0.1.dist-info/top_level.txt,sha256=7f4lKNQqRDEGaDXGIqRQCx-rU5pNl6ZgbXz864F1uXY,9
+numerapi-2.0.1.dist-info/RECORD,,
