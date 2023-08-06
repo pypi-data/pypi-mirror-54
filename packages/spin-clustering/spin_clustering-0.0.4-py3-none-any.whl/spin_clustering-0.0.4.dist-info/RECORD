@@ -1,0 +1,15 @@
+spin/__init__.py,sha256=akKzwt4v1-apazQR8DZBUiIhZBO_SeIXj1C8-uwpMTA,219
+spin/neighborhood_spin.py,sha256=uOQGmoP6Wm7U62Rkq9VItIyYoeVKc-Lcvyws85doQyQ,7864
+spin/side_to_side_spin.py,sha256=TLMUiqBV-kv809vAygn0ekhpvKrEx3O-pdiUEpqfsS8,5168
+spin/utils.py,sha256=PW56G8_iSVwndyiEUS2V76o50atSVm_nEBiEtLeXT3I,2400
+spin/distances/__init__.py,sha256=GuK49Cr9ggjPj_79W4cK1H9cdnz7IhyuEKSTOAhRClQ,395
+spin/distances/distances.py,sha256=IpE8-wqA2sueegGlL7AtwptDVFsg3GEaBETje08GMgQ,1987
+spin/distances/tests/__init__.py,sha256=oWbSCB0Dz-Y-MrkLgZa2LltcsPhi8zpeJlLnoe_uWsI,34
+spin/tests/__init__.py,sha256=RciLWXuP0GaMRpbaQ1DKXu1irLzSaDWL7noa2Qq5QwE,29
+spin/tests/test_spin.py,sha256=q82f8pVz6iKcM_yKYN8iz-cxg1dGtmRvMpECzxgbM70,20
+spin/tests/test_utils.py,sha256=ifeh8oqhMtwvFcfrWxkQhXmV1OZkJC7lg5wMSKEhy1Q,2557
+spin_clustering-0.0.4.dist-info/LICENSE,sha256=uhDBuwWjl5bB_x3LXJe8yE4XcqjVUGf-S0-tawG1vYs,1072
+spin_clustering-0.0.4.dist-info/METADATA,sha256=MB6AMn-JBhYPxRNozOpUhe7Bq1JGtYmuEFLjaLlYxRQ,318
+spin_clustering-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+spin_clustering-0.0.4.dist-info/top_level.txt,sha256=wAiqBkS4Olm8PGkVAYX19ShK1PrlLGVKqSW0MWLF4bw,5
+spin_clustering-0.0.4.dist-info/RECORD,,
