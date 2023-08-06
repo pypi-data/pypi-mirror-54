@@ -1,0 +1,13 @@
+fastapi_login/__init__.py,sha256=B4qOgPlLV2ImQdsAeWJ06Q8HyvaJKBZJOs_PjZCwCSc,79
+fastapi_login/config.py,sha256=X_ndi6j4PPbYPbq3suW9JywJ-6zh0vNJeyhqcsAiEBY,1539
+fastapi_login/exceptions.py,sha256=VX_lcO4RxcsSoHnAyAwAZv6w4QTwW3B-tIHAP2okDUw,266
+fastapi_login/fastapi_login.py,sha256=2F877IXm5BU6OZKHtyso9kq6otDZL17vg5Gun73M5zg,6520
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=dA-fQ9WUqve_o0J3hizwUxof-DjQmfIW1-C9_E5464M,400
+tests/test_fastapiconfig.py,sha256=O6Ix7yi_1w9PqkZOIL1Brtwp1YJEbUNVUBt4YeRe-Fg,755
+tests/test_login_manager.py,sha256=TcddIr1lnRUtPyoFFW0Km3lZ4GSpjCcjUqNCJB2g6TU,4219
+fastapi_login-1.0.4.dist-info/LICENSE,sha256=o2FDwRE1pxFBC7HgCasIiQf-Lf6oau-eq5pwzJOGHDM,1095
+fastapi_login-1.0.4.dist-info/METADATA,sha256=7tJ8qXHytQKA_-YYWMfqeijhZU-okEEGb7vLxtbDUFk,2934
+fastapi_login-1.0.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+fastapi_login-1.0.4.dist-info/top_level.txt,sha256=1s_XLaOHd4nbR1lxMm9QNwnq_LOdcRefZ7X8gqrKf98,20
+fastapi_login-1.0.4.dist-info/RECORD,,
