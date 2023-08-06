@@ -1,0 +1,12 @@
+[console_scripts]
+wasiar = wasienv.commands:wasiar
+wasic++ = wasienv.commands:wasicc
+wasicc = wasienv.commands:wasicc
+wasiconfigure = wasienv.commands:wasiconfigure
+wasienv = wasienv.commands:wasienv
+wasild = wasienv.commands:wasild
+wasimake = wasienv.commands:wasimake
+wasinm = wasienv.commands:wasinm
+wasiranlib = wasienv.commands:wasiranlib
+wasirun = wasienv.commands:wasirun
+
