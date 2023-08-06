@@ -1,0 +1,16 @@
+ciplog/__init__.py,sha256=BNKZU8IVB_cwKGUOErguus9FBinAoX8N19gQtZ4Rmbk,140
+ciplog/cip_log.py,sha256=Ck4BwFgqn_bro3q_2MiqpBZ4exEBEZlH97j_Su9KZag,5087
+ciplog/cip_log_new_format.py,sha256=sZjZGcfDtuv03v84UbfTPQIQ6PnEyrdF_FsWD52SeHM,6684
+ciplog/json_log_formatter.py,sha256=SLBTFWIIYCDPgLvbpSLCLN7b49AbLXSoMzm1N3XPVMg,3406
+ciplog/json_log_stdout_formatter.py,sha256=Q0ANgdBaTAI6KMiY4iZj0zf1esIPchk-AOohNAYdt9c,3408
+ciplog/v2/__init__.py,sha256=_OgDM2x2owLGWmArYXrTQE9UlqZOC_Oa30q6r5IQHIg,41
+ciplog/v2/json_log_formatter.py,sha256=NjXq6lGQlbQTrgskmgGIIjDmJtO0IAabE4HzQjDSG3k,3862
+ciplog/v2/new_log.py,sha256=KAMn1M3eh0K5Sc68dCkgq-KZVG212NhDZzsX-8TbaLw,8253
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/cip_log_new_format.py,sha256=wC8Y84bm0Yswy5xT2neEKa_X5Gyi69lcCcEYpbR6UBs,2796
+test/cip_log_v2_new_log.py,sha256=YNhR8Rpa66aTe4RtCM8Z_I4UStmiSRC2PPz84MFpcUE,2828
+test/test_cip_log.py,sha256=KocOzHUCDK4WA06GHIUoUJfhLhbtdusZhx2aIFxc47s,2124
+ciplog-1.1.5.dist-info/METADATA,sha256=ntrh1QTi6B8zGdoxhAlHmpznTmEvSPGc_rJRv-JpKe8,202
+ciplog-1.1.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ciplog-1.1.5.dist-info/top_level.txt,sha256=ktNdfXyPuJRcQ_V-GCR5vv3BM1Yv9sepBbIZR0eX6ho,12
+ciplog-1.1.5.dist-info/RECORD,,
