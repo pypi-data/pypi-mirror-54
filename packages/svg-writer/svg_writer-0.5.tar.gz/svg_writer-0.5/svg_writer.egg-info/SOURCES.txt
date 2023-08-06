@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+svg_writer.py
+svg_writer.egg-info/PKG-INFO
+svg_writer.egg-info/SOURCES.txt
+svg_writer.egg-info/dependency_links.txt
+svg_writer.egg-info/requires.txt
+svg_writer.egg-info/top_level.txt
