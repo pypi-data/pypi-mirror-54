@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: EXCELerator
+Version: 0.1
+Summary: Library of functions with utilities for the popular xlsx Python module openpyxl
+Home-page: https://github.com/jonathanchukinas/openpyxl_utils
+Author: Jonathan Chukinas
+Author-email: chukinas@gmail.com
