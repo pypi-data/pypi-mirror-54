@@ -1,0 +1,9 @@
+requests
+geopandas
+pandas
+shapely
+
+[dev]
+pytest
+pytest-cov
+coveralls

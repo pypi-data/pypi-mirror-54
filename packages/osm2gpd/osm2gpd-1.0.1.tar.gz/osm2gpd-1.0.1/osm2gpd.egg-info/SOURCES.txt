@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.dev.txt
+requirements.txt
+setup.py
+osm2gpd/__init__.py
+osm2gpd/core.py
+osm2gpd.egg-info/PKG-INFO
+osm2gpd.egg-info/SOURCES.txt
+osm2gpd.egg-info/dependency_links.txt
+osm2gpd.egg-info/requires.txt
+osm2gpd.egg-info/top_level.txt
