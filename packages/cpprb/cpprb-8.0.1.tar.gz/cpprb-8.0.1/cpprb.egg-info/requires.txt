@@ -1,0 +1,10 @@
+numpy
+cython>=0.29
+
+[all]
+matplotlib
+pyvirtualdisplay
+
+[gym]
+matplotlib
+pyvirtualdisplay
