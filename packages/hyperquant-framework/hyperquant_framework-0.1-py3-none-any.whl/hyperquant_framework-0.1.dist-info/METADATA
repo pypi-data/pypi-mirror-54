@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hyperquant-framework
+Version: 0.1
+Summary: HyperQuant Crypto-Trading Framework
+Home-page: UNKNOWN
+Author: HyperQuant
+Author-email: support@hyperquant.net
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: websocket-client (==0.56.0)
+Requires-Dist: requests (<3,>=2.20)
+Requires-Dist: signalr-client-threads (==0.0.12)
+Requires-Dist: python-dateutil (<3,>=2.8)
+
+UNKNOWN
+
+
