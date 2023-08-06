@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+rasa_cli_completion/__init__.py
+rasa_cli_completion/rasa-complete.sh
+rasa_cli_completion/rasa_complete.py
+rasa_cli_completion/show_config.py
+rasa_cli_completion.egg-info/PKG-INFO
+rasa_cli_completion.egg-info/SOURCES.txt
+rasa_cli_completion.egg-info/dependency_links.txt
+rasa_cli_completion.egg-info/requires.txt
+rasa_cli_completion.egg-info/top_level.txt
+tests/__init__.py
+tests/test_rasa_complete.py
