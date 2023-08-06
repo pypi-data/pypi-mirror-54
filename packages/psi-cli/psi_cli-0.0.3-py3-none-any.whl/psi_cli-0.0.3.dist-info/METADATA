@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: psi-cli
+Version: 0.0.3
+Summary: flutter-rs devtool
+Home-page: https://github.com/flutter-rs/psi-cli
+Author: juju
+Author-email: gliheng@live.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: toml (==0.10.0)
+Requires-Dist: dmgbuild (==1.3.2)
+Requires-Dist: requests (==2.22.0)
+
+# psi
+
+flutter-rs devtool
+
+# Usage
+
+psi create flutter_app
+    Create a flutter-rs app
+
+psi run --vscode
+    Run a flutter-rs app in dev mode
+
+psi build {nsis,mac,dmg,snap} --release
+    Bundle a flutter-rs app for distribution
+
+psi precache
+    Precache flutter engine library
+
