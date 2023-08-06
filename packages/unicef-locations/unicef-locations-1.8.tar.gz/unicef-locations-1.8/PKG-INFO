@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: unicef-locations
+Version: 1.8
+Summary: Locations for eTools
+Home-page: https://github.com/unicef/unicef-locations
+Author: UNICEF
+Author-email: rapidpro@unicef.org
+License: Apache 2 License
+Description: UNICEF Locations
+        ================
+        
+        Django applications to manage geographical locations
+        
+        
+        Contributing
+        ------------
+        
+            - checkout code
+            - pip install .[test]
+        
+        Links
+        -----
+        
+        +--------------------+----------------+--------------+--------------------+
+        | Stable             |                | |master-cov| |                    |
+        +--------------------+----------------+--------------+--------------------+
+        | Development        |                | |dev-cov|    |                    |
+        +--------------------+----------------+--------------+--------------------+
+        | Source Code        |https://github.com/unicef/unicef-locations          |
+        +--------------------+----------------+-----------------------------------+
+        
+        
+        .. |master-cov| image:: https://circleci.com/gh/unicef/unicef-locations/tree/master.svg?style=svg
+                            :target: https://circleci.com/gh/unicef/unicef-locations/tree/master
+        
+        
+        .. |dev-cov| image:: https://circleci.com/gh/unicef/unicef-locations/tree/develop.svg?style=svg
+                            :target: https://circleci.com/gh/unicef/unicef-locations/tree/develop
+        
+        
+        Compatibility Matrix
+        --------------------
+        
+        .. image:: https://travis-matrix-badges.herokuapp.com/repos/unicef/unicef-locations/branches/develop
+        
+        
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Provides-Extra: test
