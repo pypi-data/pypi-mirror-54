@@ -1,0 +1,14 @@
+process_improve/__init__.py,sha256=jwDSHbqcatfCltvFZLNp8uWwWhgshXGH5wXTY8YMQ5Y,558
+process_improve/case-studies.py,sha256=_z2mL7qsZh4rXmJ2SKi50w1QhrVkknlr2AV0DXT2OSI,9677
+process_improve/datasets.py,sha256=J3edUenAQrf1HVVqbKsVTYEpYnwM0qxBidqBdCqeD4Y,6184
+process_improve/designs_factorial.py,sha256=sAxLmAVeSsp0cUpsLzMR0z1ogXxwfJK7bDnn6eCyizo,772
+process_improve/models.py,sha256=-vCqJT4IvuTDhX6Ox5qSq92PgT8HVCAEZjTBZLqmbY0,5964
+process_improve/plotting.py,sha256=KZV4kMZhWPdcf3pOsDPfjtROh2lhYEsWMNz_vfUkL6w,18762
+process_improve/simulations.py,sha256=WCSqmu1J02NqfiakYBLYKAYg3XB5niaYF9GR1pGG2Go,2906
+process_improve/structures.py,sha256=S0oX09edL8LjKPN2yap1iWzvPRQnHsvLiTcQvBlFZ2g,8361
+process_improve/tests.py,sha256=pWoeDFGfOTCpWU48KTo64zRaSBs3eJ4g95M56rP1bHw,7495
+process_improve-0.5.2.dist-info/LICENSE,sha256=jks7NFopcFeTxaZ3nr496jiACBewwSzjRzXDcdYvej8,1068
+process_improve-0.5.2.dist-info/METADATA,sha256=ddPJjqm-Wok2tuijMxoeUrSTJ5xjKns8ZFP68ZjGWAU,795
+process_improve-0.5.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+process_improve-0.5.2.dist-info/top_level.txt,sha256=8PanY3Ijjhpq3LOv1bbkPW6Ul3TYUFk2VPynFtVJdjE,16
+process_improve-0.5.2.dist-info/RECORD,,
