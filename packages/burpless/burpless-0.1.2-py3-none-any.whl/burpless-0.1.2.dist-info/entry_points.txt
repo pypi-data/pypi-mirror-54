@@ -1,0 +1,3 @@
+[console_scripts]
+burpless=burpless.Cli:Cli.main
+

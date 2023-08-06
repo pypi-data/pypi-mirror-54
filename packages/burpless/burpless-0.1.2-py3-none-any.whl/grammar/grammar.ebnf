@@ -1,0 +1,47 @@
+start: _NL? block
+
+string: SINGLE_QUOTED | DOUBLE_QUOTED
+
+sentence: (WORD|string)+
+given_step: _GIVEN sentence _NL
+when_step: _WHEN sentence _NL
+then_step: _THEN sentence _NL
+steps: given_step* when_step* then_step*
+steps_block:_INDENT steps+ _DEDENT
+
+tag: _AT WORD
+tags: tag+
+tags_block: (tags _NL)*
+
+
+scenario: _SCENARIO _COLON sentence
+scenario_block: tags_block? scenario _NL steps_block
+
+feature: _FEATURE _COLON sentence
+feature_block: tags_block? feature _NL _INDENT scenario_block+ _DEDENT
+
+block: feature_block+
+
+
+_FEATURE: "feature"i
+_SCENARIO: "scenario"i
+_GIVEN: "given"i
+_WHEN: "when"i
+_THEN: "then"i
+WORD: /[a-zA-Z_0-9-()]+/
+SINGLE_QUOTED: /'([^'\\]*(?:\\(.|\n)[^'\\]*)*)'/
+DOUBLE_QUOTED: /"([^"\\]*(?:\\(.|\n)[^"\\]*)*)"/
+SINGLE_LINE_COMMENT: /(\r?\n)?\s*#[^\n\r]*/
+MULTI_LINE_COMMENT: /(\r?\n)?\s*#+##[^#](.|\n)*?###[^\n\r]*/
+
+
+_WS: (" ")+
+_NL: /(\r?\n[\t ]*)+/
+_INDENT: "<INDENT>"
+_DEDENT: "<DEDENT>"
+_COLON: ":"
+_AT: "@"
+
+%ignore _WS
+%ignore SINGLE_LINE_COMMENT
+%ignore MULTI_LINE_COMMENT
