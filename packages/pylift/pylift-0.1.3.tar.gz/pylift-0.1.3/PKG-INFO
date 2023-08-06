@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pylift
+Version: 0.1.3
+Summary: Python implementation of uplift modeling.
+Home-page: https://github.com/pylift/pylift
+Author: Robert Yi, Will Frost
+Author-email: robert@ryi.me
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
