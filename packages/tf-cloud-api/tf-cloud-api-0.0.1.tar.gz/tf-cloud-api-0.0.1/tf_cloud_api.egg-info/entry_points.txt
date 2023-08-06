@@ -1,0 +1,3 @@
+[console_scripts]
+tf-output = src.getTFOutput:main
+
