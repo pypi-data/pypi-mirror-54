@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: meta-auth
+Version: 0.1.9
+Summary: Authentication and Permissions
+Home-page: https://github.com/meta-trial/meta-auth
+Author: Erik van Widenfelt
+Author-email: ew2789@gmail.com
+License: GPL license, see LICENSE
+Keywords: django meta EDC auth and permissions
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.7
+Requires-Dist: edc-auth
+
+|pypi| |travis| |codecov| |downloads| |pyup|
+
+meta-auth
+---------
+
+See also ``edc-auth``.
+
+.. |pypi| image:: https://img.shields.io/pypi/v/meta-auth.svg
+    :target: https://pypi.python.org/pypi/meta-auth
+
+.. |travis| image:: https://travis-ci.com/meta-trial/meta-auth.svg?branch=develop
+    :target: https://travis-ci.com/meta-trial/meta-auth
+
+.. |codecov| image:: https://codecov.io/gh/meta-trial/meta-auth/branch/develop/graph/badge.svg
+  :target: https://codecov.io/gh/meta-trial/meta-auth
+
+.. |downloads| image:: https://pepy.tech/badge/meta-auth
+   :target: https://pepy.tech/project/meta-auth
+
+.. |pyup| image:: https://pyup.io/repos/github/meta-trial/meta-auth/shield.svg
+    :target: https://pyup.io/repos/github/meta-trial/meta-auth/
+    :alt: Updates
+
+
