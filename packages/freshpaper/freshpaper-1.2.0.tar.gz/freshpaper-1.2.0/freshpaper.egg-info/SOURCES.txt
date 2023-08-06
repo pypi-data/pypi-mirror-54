@@ -1,0 +1,9 @@
+README.rst
+freshpaper.py
+setup.py
+freshpaper.egg-info/PKG-INFO
+freshpaper.egg-info/SOURCES.txt
+freshpaper.egg-info/dependency_links.txt
+freshpaper.egg-info/entry_points.txt
+freshpaper.egg-info/requires.txt
+freshpaper.egg-info/top_level.txt
