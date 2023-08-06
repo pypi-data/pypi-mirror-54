@@ -1,0 +1,7 @@
+README.md
+setup.py
+jt_package_name/__init__.py
+jt_package_name.egg-info/PKG-INFO
+jt_package_name.egg-info/SOURCES.txt
+jt_package_name.egg-info/dependency_links.txt
+jt_package_name.egg-info/top_level.txt
