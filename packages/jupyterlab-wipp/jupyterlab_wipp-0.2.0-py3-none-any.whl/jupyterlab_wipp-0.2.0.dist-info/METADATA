@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jupyterlab-wipp
+Version: 0.2.0
+Summary: WIPP integration with JupyterLab
+Home-page: https://github.com/labshare/jupyterlab-extensions/jupyterlab_wipp
+Author: Konstantin Taletskiy
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: notebook
+
+UNKNOWN
+
+
