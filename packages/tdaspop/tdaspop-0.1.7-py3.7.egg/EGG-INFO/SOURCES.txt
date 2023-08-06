@@ -1,0 +1,11 @@
+README.md
+setup.py
+tdaspop/__init__.py
+tdaspop/pop_dists.py
+tdaspop/population_params_absracts.py
+tdaspop/rateDistributions.py
+tdaspop/version.py
+tdaspop.egg-info/PKG-INFO
+tdaspop.egg-info/SOURCES.txt
+tdaspop.egg-info/dependency_links.txt
+tdaspop.egg-info/top_level.txt
