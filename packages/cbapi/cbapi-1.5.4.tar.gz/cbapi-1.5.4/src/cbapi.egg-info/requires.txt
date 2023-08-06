@@ -1,0 +1,12 @@
+requests
+attrdict
+cachetools
+pyyaml
+pika
+prompt_toolkit
+pygments
+pytest<=5.0
+python-dateutil
+protobuf
+solrq
+validators
