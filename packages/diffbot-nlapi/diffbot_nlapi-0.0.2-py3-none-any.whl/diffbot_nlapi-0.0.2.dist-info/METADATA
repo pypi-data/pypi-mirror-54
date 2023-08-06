@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: diffbot-nlapi
+Version: 0.0.2
+Summary: Natural Language Understanding
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: jay@diffbot.com
+License: UNKNOWN
+Keywords: Swagger,Natural Language Understanding
+Platform: UNKNOWN
+Requires-Dist: certifi (>=2017.4.17)
+Requires-Dist: python-dateutil (>=2.1)
+Requires-Dist: six (>=1.10)
+Requires-Dist: urllib3 (>=1.23)
+
+Extracts entities (e.g., people, organizations, locations) and relations/properties about these entities from natural language text   # noqa: E501
+
+
