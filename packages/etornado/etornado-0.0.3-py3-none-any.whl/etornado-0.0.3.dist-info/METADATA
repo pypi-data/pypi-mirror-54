@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: etornado
+Version: 0.0.3
+Summary: a wrapper for tornado
+Home-page: UNKNOWN
+Author: sheng_xc
+Author-email: sheng_xc@126.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: tornado (==6.0.3)
+
+# enet
+This is a wrapper of tornado
+
+# build
+
+```
+python3 setup.py sdist bdist_wheel
+```
+
+# upload
+
+```
+twine upload  dist/*
+```
+
+
