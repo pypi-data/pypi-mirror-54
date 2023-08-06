@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+shinkansen/__init__.py
+shinkansen.egg-info/PKG-INFO
+shinkansen.egg-info/SOURCES.txt
+shinkansen.egg-info/dependency_links.txt
+shinkansen.egg-info/top_level.txt
