@@ -1,0 +1,8 @@
+setup.py
+girl/__init__.py
+girl/code1.py
+girl/code2.py
+girl.egg-info/PKG-INFO
+girl.egg-info/SOURCES.txt
+girl.egg-info/dependency_links.txt
+girl.egg-info/top_level.txt
