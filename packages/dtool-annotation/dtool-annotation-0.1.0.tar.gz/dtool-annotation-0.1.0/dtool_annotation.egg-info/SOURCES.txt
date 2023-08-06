@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+dtool_annotation/__init__.py
+dtool_annotation/cli.py
+dtool_annotation.egg-info/PKG-INFO
+dtool_annotation.egg-info/SOURCES.txt
+dtool_annotation.egg-info/dependency_links.txt
+dtool_annotation.egg-info/entry_points.txt
+dtool_annotation.egg-info/requires.txt
+dtool_annotation.egg-info/top_level.txt
