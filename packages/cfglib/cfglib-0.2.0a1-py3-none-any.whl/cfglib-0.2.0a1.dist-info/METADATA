@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cfglib
+Version: 0.2.0a1
+Summary: An extensible configuration library
+Home-page: https://github.com/swarmer/cfglib-py
+Keywords: configuration,settings
+Author: Anton Barkovsky
+Author-email: anton@swarmer.me
+Requires-Python: >=3.6,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Project-URL: Documentation, https://cfglib.readthedocs.io/en/latest/
