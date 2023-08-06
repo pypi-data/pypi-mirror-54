@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: shopkeepr
+Version: 1.0.1
+Summary: A pip wrapper to automate requirements.txt handling
+Home-page: https://github.com/ayushpriya10/ShopKeepr
+Author: Sameeran Bandishti, Ayush Priya
+Author-email: shopkeepr3.6@gmail.com
+License: UNKNOWN
+Description: # ShopKeepr
+        An automated requirements manager for python projects.
+        
+Keywords: pip requirements automation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License 
+Classifier: Programming Language :: Python :: 3.6
