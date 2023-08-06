@@ -1,0 +1,3 @@
+[console_scripts]
+subsonic-cli = subsonic_cli:main
+
