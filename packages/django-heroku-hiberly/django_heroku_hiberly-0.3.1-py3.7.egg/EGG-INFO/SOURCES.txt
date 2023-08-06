@@ -1,0 +1,11 @@
+README.rst
+setup.py
+django_heroku/__init__.py
+django_heroku/__version__.py
+django_heroku/core.py
+django_heroku_hiberly.egg-info/PKG-INFO
+django_heroku_hiberly.egg-info/SOURCES.txt
+django_heroku_hiberly.egg-info/dependency_links.txt
+django_heroku_hiberly.egg-info/requires.txt
+django_heroku_hiberly.egg-info/top_level.txt
+test/test_django_heroku.py
