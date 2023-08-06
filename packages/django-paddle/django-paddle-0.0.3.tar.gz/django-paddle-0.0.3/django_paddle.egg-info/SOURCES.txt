@@ -1,0 +1,9 @@
+README.md
+setup.py
+django_paddle/__init__.py
+django_paddle/models.py
+django_paddle.egg-info/PKG-INFO
+django_paddle.egg-info/SOURCES.txt
+django_paddle.egg-info/dependency_links.txt
+django_paddle.egg-info/requires.txt
+django_paddle.egg-info/top_level.txt
