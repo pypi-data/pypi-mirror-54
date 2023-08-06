@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: boost-histogram
+Version: 0.5.2
+Summary: The Boost::Histogram Python wrapper.
+Home-page: https://github.com/scikit-hep/boost-histogram
+Author: Henry Schreiner
+Author-email: hschrein@cern.ch
+Maintainer: Henry Schreiner
+Maintainer-email: hschrein@cern.ch
+License: UNKNOWN
+Requires-Dist: numpy
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=2.0.0) ; extra == 'docs'
+Requires-Dist: recommonmark (>=0.5.0) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-benchmark ; extra == 'test'
+Requires-Dist: numpy ; extra == 'test'
+Requires-Dist: futures ; (python_version < "3") and extra == 'test'
+
+# boost-histogram for Python
+
+
