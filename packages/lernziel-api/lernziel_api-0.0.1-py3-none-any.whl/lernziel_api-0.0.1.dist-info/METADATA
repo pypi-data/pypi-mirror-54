@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lernziel-api
+Version: 0.0.1
+Summary: Scrape lernzielplatform to get lernziele.
+Home-page: https://github.com/xiamaz/lernziel_api
+Author: Max Zhao
+Author-email: max.zhao@charite.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: lxml
+
+# Lernzielplattform API for python
+
+
