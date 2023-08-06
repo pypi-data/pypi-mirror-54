@@ -1,0 +1,7 @@
+django
+django-appconf
+django-model-utils
+django-filter
+djangorestframework
+psycopg2-binary
+pyaml
