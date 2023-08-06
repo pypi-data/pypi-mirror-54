@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flask-container
+Version: 1.0.1
+Summary: A small example package
+Home-page: https://github.com/JoseRoberts87/flask_container
+Author: Jose Roberts
+Author-email: Jose.Roberts@intracitygeeks.org
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+
+flask_container is an open source project developed with the intention of creating a simple yet effective way to containerize and deply flask applications, using a convenient convention and stylistic guide.
+
+with flask_container, building flask apps has never been easier!
+
