@@ -1,0 +1,8 @@
+PySide2
+appdirs
+beautifulsoup4
+keyring
+lxml
+pyparsing
+requests
+signalslot
