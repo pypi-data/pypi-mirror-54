@@ -1,0 +1,9 @@
+mdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdk/main.py,sha256=Q0fHypz33Pw46Lp1UG91so9MTnUjVob-W8y237SycsA,9642
+mdk/utils.py,sha256=PJkdHDEQ8SGyZ2E9ZvrI8y3m_yVFXle7o_vqDdXSPtw,4940
+mdk-2.3.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+mdk-2.3.dist-info/METADATA,sha256=kW__41ZN9MzL_DfCA5hmO1rTNJNtkuRdsft3rhRYp4E,1750
+mdk-2.3.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+mdk-2.3.dist-info/entry_points.txt,sha256=m7En6iKOVx_6ZiAxl0McU5PTTmYKDqFSWOXW8-LDEVw,38
+mdk-2.3.dist-info/top_level.txt,sha256=NFkkGA-Mk2c5F_4L3MDJ555VrVBM7TreQxj1JtTP-pw,4
+mdk-2.3.dist-info/RECORD,,
