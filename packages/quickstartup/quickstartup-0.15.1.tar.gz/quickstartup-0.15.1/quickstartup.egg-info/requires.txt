@@ -1,0 +1,5 @@
+django<2.3,>=2.2
+django-widget-tweaks<1.5,>=1.4
+django-model-utils<3.3,>=3.2
+django-ipware<2.2,>=2.1
+djmail<1.2,>=1.1
