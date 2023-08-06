@@ -1,0 +1,3 @@
+[pennylane.plugins]
+cirq.simulator = pennylane_cirq:SimulatorDevice
+
