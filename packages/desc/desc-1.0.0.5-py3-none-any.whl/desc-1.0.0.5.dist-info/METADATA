@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: desc
+Version: 1.0.0.5
+Summary: Deep Embedded Single-cell RNA-seq Clustering
+Home-page: https://github.com/eleozzr/desc
+Author: Xiangjie Li, Gang Hu, Mingyao Li, Yafei Lyu
+Author-email: ele717@163.com, huggs@nankai.edu.cn, mingyao@pennmedicine.upenn.edu, lyuyafei@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: matplotlib (>=2.2pydot)
+Requires-Dist: tensorflow (==1.7.0)
+Requires-Dist: keras
+Requires-Dist: scanpy
+Requires-Dist: louvain
+Requires-Dist: python-igraph
+Requires-Dist: h5py
+Requires-Dist: pandas (>=0.21)
+
+DESC is an unsupervised deep learning algorithm for clustering scRNA-seq data. The algorithm constructs a non-linear mapping function from the original scRNA-seq data space to a low-dimensional feature space by iteratively learning cluster-specific gene expression representation and cluster assignment based on a deep neural network. This iterative procedure moves each cell to its nearest cluster, balances biological and technical differences between clusters, and reduces the influence of batch effect. DESC also enables soft clustering by assigning cluster-specific probabilities to each cell, which facilitates the identification of cells clustered with high-confidence and interpretation of results.
+
+
