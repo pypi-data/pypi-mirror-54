@@ -1,0 +1,20 @@
+[console_scripts]
+nait = nanaimo.cli:main
+
+[nanaimo]
+nanaimo_builtin_bar = nanaimo.builtin.nanaimo_bar
+nanaimo_builtin_bkprecision = nanaimo.instruments.bkprecision
+nanaimo_builtin_gather = nanaimo.builtin.gather
+nanaimo_builtin_gtest = nanaimo.builtin.gtest_over_jlink
+nanaimo_builtin_saleae = nanaimo.instruments.saleae
+nanaimo_builtin_scp = nanaimo.builtin.scp
+nanaimo_builtin_serial_log_watch = nanaimo.builtin.serial_log_watch
+
+[pytest11]
+pytest_gtest_over_jlink = nanaimo.builtin.gtest_over_jlink
+pytest_nanaimo = nanaimo.pytest_plugin
+pytest_nanaimo_bar = nanaimo.builtin.nanaimo_bar
+pytest_nanaimo_gather = nanaimo.builtin.gather
+pytest_nanaimo_scp = nanaimo.builtin.scp
+pytest_serial_log_watch = nanaimo.builtin.serial_log_watch
+
