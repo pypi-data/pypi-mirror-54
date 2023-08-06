@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tf-keras-vis
+Version: 0.0.1
+Summary: Neural network visualization toolkit for tf.keras
+Home-page: https://github.com/keisen/tf-keras-vis
+Author: Keisen
+Author-email: k.keisen@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# tf-keras-vis
+Neural network visualization toolkit for tf.keras
+
+
