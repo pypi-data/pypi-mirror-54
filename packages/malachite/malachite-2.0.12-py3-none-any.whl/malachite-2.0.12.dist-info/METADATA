@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: malachite
+Version: 2.0.12
+Summary: A Gene Enrichment Meta-Analysis (GEM) Tool for ToppGene
+Home-page: https://github.com/ggersh/malachite-final
+Author: Gregory R. Gershkowitz, Zachary B. Abrams, Kevin R. Coombes
+Author-email: kevin.coombes@osumc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: mechanize
+Requires-Dist: requests
+Requires-Dist: lxml
+Requires-Dist: xlrd
+
+# Malachite: A Gene Enrichment Meta-Analysis (GEM) Tool for ToppGene
+
+Researchers commonly use software, such as Toppgene and online tools to conduct enrichment analyses on gene expression data. This process does not allow multiple gene data sets to be analyzed and compared at once. Malachite allows researchers to perform enrichment analyses on multiple gene lists and concatenate the resulting enrichment statistics, thus, enabling meta-enrichment analyses across multiple data sets. Requires Windows 10, MacOS 10.11 or Linux Mint 18.
+
+# How to Use:
+
+## Command Line Argument Descriptions:
+
+#### 1. Full path to input file:
+
+ex. "/Desktop/myInput/input.xlsx"
+
+#### 2. Input type:
+###### Choose one: HGNC, HGNC_SYNONYMS, ENTREZ, ENSEMBL, REFSEQ, UNIPROT
+
+ex. "HGNC"
+
+#### 3. Categories:
+###### Options: "GeneOntologyMolecularFunction": "GO: Molecular Function", "GeneOntologyBiologicalProcess": "GO: Biological Process", "GeneOntologyCellularComponent":"GO: Cellular Component", "HumanPheno":"Human Phenotype","MousePheno":"Mouse Phenotype","Domain":"Domain", "Pathway":"Pathway","Pubmed":"Pubmed","Interaction":"Interaction","Cytoband":"Cytoband","TFBS":"Transcription Factor Binding Site","GeneFamily":"Gene Family","Coexpression":"Coexpression","CoexpressionAtlas":"Coexpression Atlas","Computational":"Computational","MicroRNA":"MicroRNA","Drug":"Drug","Disease":"Disease"
+
+ex. ["Drug", "Disease", "GeneOntologyMolecularFunction"]
+
+#### 4. Individual Toppgene analyses output path:
+
+ex. "/Desktop/Results/IndividualResults/"
+
+
+#### 5. Final Concatenated Results Output path:
+
+ex. "/Desktop/Results/ConcatenatedResults/"
+
+# For Example,
+
+### In terminal type...
+
+malachite "/Desktop/myInput/input.xlsx" "HGNC" ["Drug", "Disease", "GeneOntologyMolecularFunction"] "/Desktop/Results/IndividualResults/" "/Desktop/Results/ConcatenatedResults/"
+
+### *NOTE: quotation marks (“/‘) can be glitchy, make sure you use straight quotes, not curly quotes.
+### *NOTE: input data has to be of type .xlsx
+
+
