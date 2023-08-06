@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: py-foldadt
+Version: 0.1.17
+Summary: Zero dependency, mypy friendly algebraic data types
+Home-page: https://github.com/beezee/py-foldadt
+Author: beezee
+Author-email: UNKNOWN
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/beezee/py-foldadt
+Description: UNKNOWN
+Keywords: algebraic data types,adt
+Platform: UNKNOWN
