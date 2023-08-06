@@ -1,0 +1,3 @@
+[console_scripts]
+ursctl = ursctl.__main__:run
+
