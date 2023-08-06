@@ -1,0 +1,2 @@
+melopero_autostart>=0.0.7
+RPi.GPIO
