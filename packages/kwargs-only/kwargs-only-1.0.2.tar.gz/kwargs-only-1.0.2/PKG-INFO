@@ -1,0 +1,136 @@
+Metadata-Version: 1.2
+Name: kwargs-only
+Version: 1.0.2
+Summary: A decorator to make a function accept keyword arguments only, on both Python 2 and 3.
+Home-page: https://github.com/adamchainz/kwargs-only
+Author: Adam Johnson
+Author-email: me@adamj.eu
+License: ISC License
+Description: ===========
+        kwargs-only
+        ===========
+        
+        .. image:: https://img.shields.io/travis/adamchainz/kwargs-only/master.svg
+                :target: https://travis-ci.org/adamchainz/kwargs-only
+        
+        .. image:: https://img.shields.io/pypi/v/kwargs-only.svg
+                :target: https://pypi.python.org/pypi/kwargs-only
+        
+        A decorator to make a function accept keyword arguments only, on both Python 2
+        and 3.
+        
+        If you are using only Python 3, you don't need this, you can just do:
+        
+        .. code-block:: python
+        
+            def myfunction(*, foo=1, bar=2):
+                pass
+        
+        Why?
+        ====
+        
+        If you are making a library (that still supports Python 2), you might want to
+        make all functions in its API take keyword arguments only, for a couple of
+        reasons:
+        
+        * To avoid user confusion, e.g. if you take ``x`` and ``y`` arguments as
+          coordinates, it's easy to forget which way round to pass them.
+        * To make your API easier to extend - you'll know no callers rely on the
+          positional argument ordering, so can refactor this to make sense.
+        
+        Installation
+        ============
+        
+        Use **pip**:
+        
+        .. code-block:: sh
+        
+            pip install kwargs-only
+        
+        Tested on Python 2.7 and Python 3.7.
+        
+        Usage
+        =====
+        
+        Import the decorator and apply it to a function:
+        
+        .. code-block:: python
+        
+            from kwargs_only import kwargs_only
+        
+            @kwargs_only
+            def myfunction(foo=1, bar=2):
+                pass
+        
+        Then calling the function with positional arguments will cause it to fail with
+        ``TypeError``:
+        
+        .. code-block:: python
+        
+            >>> myfunction(1, 2)
+            ...
+            TypeError: myfunction should only be called with keyword args
+        
+        The decorator detects methods and classmethods, by allowing for the first
+        argument to be a positional one if its name is ``self`` or ``cls``.
+        ``kwargs_only`` should be applied to the function before ``classmethod`` is.
+        For example:
+        
+        .. code-block:: python
+        
+            class MyClass:
+        
+                @classmethod
+                @kwargs_only
+                def my_class_method(cls, foo=1):
+                    pass
+        
+                @kwargs_only
+                def my_instance_method(self, bar=1):
+                    pass
+        
+        That's about all there is to it! Enjoy!
+        
+        
+        
+        
+        History
+        -------
+        
+        Pending Release
+        ---------------
+        
+        .. Insert new release notes below this line
+        
+        1.0.2 (2019-10-28)
+        ------------------
+        
+        * Update PyPI development status as active. This package is maintained again
+          since I have started using it on a Python 2 compatible project :)
+        
+        1.0.1 (2019-02-07)
+        ------------------
+        
+        * Update PyPI development status as inactive. This package is no longer
+          maintained, see README.rst.
+        
+        1.0.0 (2017-06-18)
+        ------------------
+        
+        * First release on PyPI, featuring ``kwargs_only`` decorator.
+        
+Keywords: kwargs
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
