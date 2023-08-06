@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: scdlbot
+Version: 0.9.21
+Summary: Telegram Bot for downloading MP3 rips of tracks/sets from SoundCloud, Bandcamp, YouTube with tags and artwork
+License: MIT
+Author: George Pchelkin
+Author-email: george@pchelk.in
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Celery (==4.3.0)
+Requires-Dist: bandcamp-downloader (==0.0.8.post12)
+Requires-Dist: boltons (==19.3.0)
+Requires-Dist: logentries (==0.17)
+Requires-Dist: mutagen (==1.42.0)
+Requires-Dist: patool (==1.12)
+Requires-Dist: plumbum (==1.6.7)
+Requires-Dist: pydub (==0.23.1)
+Requires-Dist: pyshorteners (==0.6.1)
+Requires-Dist: python-telegram-bot (==10.1.0)
+Requires-Dist: python-telegram-handler (==2.2)
+Requires-Dist: scdl (==1.6.12)
+Requires-Dist: youtube-dl (==2019.10.29)
