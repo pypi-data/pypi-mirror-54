@@ -1,0 +1,7 @@
+datalad>=0.10.0
+scrapy>=1.1.0
+
+[devel-docs]
+pypandoc
+sphinx
+sphinx-rtd-theme
