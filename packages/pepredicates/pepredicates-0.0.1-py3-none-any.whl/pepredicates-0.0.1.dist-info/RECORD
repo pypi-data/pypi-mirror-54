@@ -1,0 +1,10 @@
+pepredicates/.version,sha256=axN4nkPlSFY0Uz3hamXYup00xMl1hYi2ZYBUNfgOsRU,5
+pepredicates/__init__.py,sha256=N4v-JEm8KHCWgLtGeMptGK9dmRhefgIblRsEMNbgF-o,110
+pepredicates/predicates.py,sha256=a4e9Fnw6aoJJG7vkGhmGZLwWBldLhjM3myOR_9YRPi0,13589
+pepredicates/utils.py,sha256=-R-JBh8oGkLC_74nz5f_Yvvcapm5cze7qyukVPiaPzw,365
+pepredicates-0.0.1.dist-info/DESCRIPTION.rst,sha256=43faDAyNNQStYX4JpZUF7SKULZYNkGBNbZx46WvH824,96
+pepredicates-0.0.1.dist-info/METADATA,sha256=zvhWq-6_J0MU9occYJViY8lKYiX68tWFow0OOMj5whA,702
+pepredicates-0.0.1.dist-info/RECORD,,
+pepredicates-0.0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pepredicates-0.0.1.dist-info/metadata.json,sha256=vdMeW0DbH5zlENrRPO9Ku5yAcXojpl8AAkjHCWg6M_I,801
+pepredicates-0.0.1.dist-info/top_level.txt,sha256=CkrJ3dhvw4OAhZgF1qzfVxhwCPVkz5SNs4A7M6z7djg,13
