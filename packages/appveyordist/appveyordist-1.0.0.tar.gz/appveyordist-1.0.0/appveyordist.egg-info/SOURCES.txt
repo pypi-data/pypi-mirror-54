@@ -1,0 +1,11 @@
+README.md
+setup.py
+appveyordist/__init__.py
+appveyordist/appvapi.py
+appveyordist/main.py
+appveyordist.egg-info/PKG-INFO
+appveyordist.egg-info/SOURCES.txt
+appveyordist.egg-info/dependency_links.txt
+appveyordist.egg-info/entry_points.txt
+appveyordist.egg-info/requires.txt
+appveyordist.egg-info/top_level.txt
