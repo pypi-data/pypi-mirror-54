@@ -1,0 +1,16 @@
+README.md
+setup.py
+whatcha_readin/__init__.py
+whatcha_readin/cli.py
+whatcha_readin/config.py
+whatcha_readin/goodreads.py
+whatcha_readin/paths.py
+whatcha_readin/utils.py
+whatcha_readin.egg-info/PKG-INFO
+whatcha_readin.egg-info/SOURCES.txt
+whatcha_readin.egg-info/dependency_links.txt
+whatcha_readin.egg-info/entry_points.txt
+whatcha_readin.egg-info/requires.txt
+whatcha_readin.egg-info/top_level.txt
+whatcha_readin/resources/__init__.py
+whatcha_readin/resources/commit_msg.py

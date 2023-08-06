@@ -1,0 +1,8 @@
+certifi
+chardet
+Click
+configparser
+idna
+requests
+urllib3
+xmltodict
