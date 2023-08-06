@@ -1,0 +1,14 @@
+glutil/__init__.py,sha256=l5WeRLb7uLO-GYon76UEYL-iYxLaah1CVn9o3EVxI8E,199
+glutil/cli.py,sha256=6jFcobZTpQ5mPe0eXOa1uM5ZcZesGcFLyrWBjDB3MoU,8843
+glutil/database_cleaner.py,sha256=pNvWOVE7G8eapepKbGbjNUVs_za-ZAouFO7_7vEkr08,8009
+glutil/partitioner.py,sha256=LA8AwBqHH1whGnRZfJq-0OoDJvweJ5URUEcKOFG6BFo,17675
+glutil/serverless_function.py,sha256=0AlFHA_ZcImNlM5hq8JkaUGRlvs-N7xt3LTd19gtUr4,1312
+glutil/utils.py,sha256=dcS1EruMX1puw5yVyOFotvzjLPFyICURJvpWh5n1HPM,1126
+glutil/text/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glutil/text/cli_text.py,sha256=IadkzwzLZJ9t7fDRWykt7z4DtABP_pfJQ4P8hwHbDcI,3058
+glutil-1.0.0.dist-info/LICENSE,sha256=JSzvSbKSVEtsR1QFrfjUlgWLp2dxvBk1OHumNtt_VF0,1457
+glutil-1.0.0.dist-info/METADATA,sha256=GDGehI9ecdQoMZbZq__DXIK_VJ_sKsNH6iz9f-CcRR4,8773
+glutil-1.0.0.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+glutil-1.0.0.dist-info/entry_points.txt,sha256=L_Zh_8bMYJitI-AsGJ-nTWt30f_QaQuPaDIBGl2eoU0,39
+glutil-1.0.0.dist-info/top_level.txt,sha256=vGZlwag1z4Ho44rTlGkQYquX0vRgZ1l-CKnLrWIzTpA,7
+glutil-1.0.0.dist-info/RECORD,,
