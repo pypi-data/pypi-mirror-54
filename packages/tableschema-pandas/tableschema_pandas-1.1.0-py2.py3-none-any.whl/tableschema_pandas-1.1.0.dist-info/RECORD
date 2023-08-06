@@ -1,0 +1,10 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tableschema_pandas/VERSION,sha256=FXXhr0qV8S9wtO5qatzoFglT2T6hfcJhG5CIPMw607g,6
+tableschema_pandas/__init__.py,sha256=xSKfCdWYJhFcOiOavxHa31gFE5PcDPjvZzVRJT6ahgQ,367
+tableschema_pandas/mapper.py,sha256=gzNEwdVti82KkqV_JCoPEGeBysOJ-IMC8VZ2rxdNPys,7263
+tableschema_pandas/storage.py,sha256=00terP06bJ6sCCvN9hC5TqxomggTXSiQiuIYAyhJFoQ,5029
+tableschema_pandas-1.1.0.dist-info/LICENSE.md,sha256=K4_kmzrltSDv4s3SfSo0uIsVsg1_ugzBi7IjDN6w99g,7638
+tableschema_pandas-1.1.0.dist-info/METADATA,sha256=pxxJt7KvhMOOayKLn1h81J8e_L4HyTXM3nRixdrNBzs,7325
+tableschema_pandas-1.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+tableschema_pandas-1.1.0.dist-info/top_level.txt,sha256=Whik9r30HVJ_ZIvNbX7QpRm6ytu4qL-3czRJAyuzV8s,28
+tableschema_pandas-1.1.0.dist-info/RECORD,,
