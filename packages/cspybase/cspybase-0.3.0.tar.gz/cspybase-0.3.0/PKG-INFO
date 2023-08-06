@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: cspybase
+Version: 0.3.0
+Summary: A Python CSBase binding
+Home-page: https://git.tecgraf.puc-rio.br/csrxbase/cspybase
+Author: André Luiz Clinio
+Author-email: clinio@tecgraf.puc-rio.br
+License: Other/Proprietary License
+Description-Content-Type: text/markdown
+Description: # Intro
+        
+        Status:
+        * Planning and under development
+        
+        # How To Get It
+        *CsPyBase* is available on the Python Package index and can be installed with ``pip``::
+        
+          $ pip install cspybase
+        
+        # Requirements
+        *CsPyBase* works with Python 3.3 and higher. 
+Keywords: csbase gridcomputing
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3 :: Only
