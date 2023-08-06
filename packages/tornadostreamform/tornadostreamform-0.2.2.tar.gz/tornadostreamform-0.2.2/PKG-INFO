@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: tornadostreamform
+Version: 0.2.2
+Summary: Stream huge files with Tornado web server
+Home-page: https://bitbucket.org/nagylzs/tornadostreamform
+Author: László Zsolt Nagy
+Author-email: nagylzs@gmail.com
+License: http://www.apache.org/licenses/LICENSE-2.0
+Description: Provides a simple module that can be used to stream huge multipart/form-data requests with Tornado web server.
+Platform: UNKNOWN
+Classifier: Topic :: Security
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
