@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: SiteLogParser
+Version: 1.1.4
+Summary: Parsing IGS Sitelog files (supports version 2+3)
+Home-page: https://gitlab.com/dach.pos/sitelogparser
+Author: Juergen Fredriksson
+Author-email: juergen.fredriksson@bev.gv.at
+License: UNKNOWN
+Description: # SitelogParser
+        
+        Python Class to Parse a IGS-Sitelog
+Keywords: sitelog parser gnss gps galileo beidou glonass
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+Description-Content-Type: text/markdown

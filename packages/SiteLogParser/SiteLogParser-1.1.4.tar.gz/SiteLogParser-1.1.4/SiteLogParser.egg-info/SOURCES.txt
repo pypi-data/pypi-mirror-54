@@ -1,0 +1,17 @@
+Changelog.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+SiteLogParser.egg-info/PKG-INFO
+SiteLogParser.egg-info/SOURCES.txt
+SiteLogParser.egg-info/dependency_links.txt
+SiteLogParser.egg-info/top_level.txt
+sitelogparser/__init__.py
+sitelogparser/common/__init__.py
+sitelogparser/common/generate.py
+sitelogparser/common/sitelog.py
+sitelogparser/common/time_window.py
+sitelogparser/tests/__init__.py
+sitelogparser/tests/test_parser.py
