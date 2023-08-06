@@ -1,0 +1,9 @@
+scyjava_config.py,sha256=aaNZ8hSBP7W9v2HuujtzpJAAzx2FWYILg7JgL7qIdlQ,2871
+scyjava/__init__.py,sha256=QzoxmUeTf1bUFC7ZYVHXBmHOR6I0lF6btlkWO1a47k0,5805
+scyjava/convert/__init__.py,sha256=s6j3PVrII786NNouXLGrBt0BsDnQznTtrpguGG-reCc,24
+scyjava/convert/_convert.py,sha256=EWjq0-5wqvmmfRFzhoFYIu7RK8Qy10HM5AEZhWb3ZSI,11050
+scyjava/convert/_pandas.py,sha256=Ch-zfZnYRb9gsR6fndMSV1f7wUsn6tGdHH_JqHrRfbo,1785
+scyjava-0.3.1.dist-info/METADATA,sha256=qJMPkzR3MzxSVMgdfhj04VKqm8pEWzN2tD2TtwqwGPg,7326
+scyjava-0.3.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+scyjava-0.3.1.dist-info/top_level.txt,sha256=HhuNYkslAsXle2u9uI016Ut-sMIsLCTk2YwLQ3WrDBU,23
+scyjava-0.3.1.dist-info/RECORD,,
