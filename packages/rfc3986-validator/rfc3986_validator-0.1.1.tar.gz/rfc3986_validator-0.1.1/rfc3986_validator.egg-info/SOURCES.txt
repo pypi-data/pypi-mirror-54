@@ -1,0 +1,16 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.md
+rfc3986_validator.py
+setup.cfg
+setup.py
+rfc3986_validator.egg-info/PKG-INFO
+rfc3986_validator.egg-info/SOURCES.txt
+rfc3986_validator.egg-info/dependency_links.txt
+rfc3986_validator.egg-info/not-zip-safe
+rfc3986_validator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_rfc3986_validator.py
