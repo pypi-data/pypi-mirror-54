@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ssmenv
+Version: 2.1.0
+Summary: Allows you to read parameters from AWS Parameter Store and operate on results as on dictionary.
+Home-page: https://github.com/whisller/ssmenv
+Author: Daniel Ancuta
+Author-email: whisller@gmail.com
+Keywords: aws,boto,ssm,parameter-store,lambda
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: boto3 (>=1.9,<2.0)
+Project-URL: Repository, https://github.com/whisller/ssmenv
