@@ -1,0 +1,11 @@
+py_openthesaurus/__init__.py,sha256=E9eApxDtb2dlW49IzfgYxOqmBb543S_hccaJOME8z38,46
+py_openthesaurus/log.py,sha256=OWh1dEODFqm8W-L5xvqsZuxgFGUGMMuezW6AZmcaBCo,340
+py_openthesaurus/main.py,sha256=nXCqA-SnkGon1DuhfdZErwu5Nmjk3Fm_0QGu854y32M,1188
+py_openthesaurus/mysql_wrapper.py,sha256=-bun3d-WsoUo4md-u9xEa9MLb_MyCqVuHkG6XPXaK9w,1352
+py_openthesaurus/open_thesaurus.py,sha256=LE0-PZpOIJw7-FYR_5BuiuVq0i5PuVHtO_X1b_Wk1AQ,5255
+py_openthesaurus-1.0.4a0.dist-info/LICENSE,sha256=vB0i2dftHDnQ8aQIJI45Xj5w9AxeVVNTh6IApXtyFLM,1070
+py_openthesaurus-1.0.4a0.dist-info/METADATA,sha256=h_APk71c4rTOogZjLovW68X6161Jcotoo5-AnEbMBi0,5415
+py_openthesaurus-1.0.4a0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+py_openthesaurus-1.0.4a0.dist-info/entry_points.txt,sha256=nQzxCoIgU5pFsQi4ZzZWPYOsjWFhoZY2RgU_xdX1LVM,65
+py_openthesaurus-1.0.4a0.dist-info/top_level.txt,sha256=HTJNWpD5YIczaAlCjLU3_9CCem8uT7NvpGg6A2NMfO8,17
+py_openthesaurus-1.0.4a0.dist-info/RECORD,,
