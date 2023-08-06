@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: bottle-pyjwt
+Version: 1.3.4.post0
+Summary: El plugin de bottle-pyjwt permite usar autentificacion mediante token usando el estandar java jwt
+Home-page: UNKNOWN
+Author: Lorenzo A. Garcia Calzadilla
+Author-email: lorenzogarciacalzadilla@gmail.com
+Maintainer: 
+Maintainer-email: 
+License: MIT
+Description: Bottle PyJWT
+        ============
+        
+        Este es un plugin de **bottle** para poder usar la libreria de *JWT*
+        
+        Inicio rapido
+        -------------
+        
+        El plugin de **bottle-pyjwt** permite usar autentificacion mediante token usando el estandar java *jwt*
+        
+            from bottle import route, install
+            from bottle.ext.jwt import JwtPlugin
+        
+            validate = lambda auth, auth_role: auth == auth_role
+        
+            app.install(JwtPlugin(validate, "my secret", fail_redirect="/login"))
+        
+            @route("/", auth="any values and types")
+            def example():
+                return "OK"
+                
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
