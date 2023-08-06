@@ -1,0 +1,3 @@
+[console_scripts]
+emby-updater = embyupdater:main
+
