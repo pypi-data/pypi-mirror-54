@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: dbcache
+Version: 0.1.0
+Summary: A postgresql backed cache system 
+Home-page: https://bitbucket.org/pythonian/dbcache
+Author: Aurelien Campeas
+Author-email: aurelien.campeas@pythonian.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: Software Development :: Object Brokering
+Description-Content-Type: text/markdown
+Requires-Dist: sqlhelp
+Requires-Dist: sqlalchemy
+
+DBCACHE
+=======
+
+This small library allows to cache costly things within a postgresql
+table.
+
+`keys` and `values` are bytes.
+
+Example usage:
+
+```python
+  from time import sleep
+  from datetime import timedelta
+  from dbcache.api import dbcache
+
+  cache = dbcache('postgresql://foo:bar@postgresql/mydb')
+
+  assert cache.get(b'a') is None
+  cache.set(b'a', b'aaa')
+  assert cache.get(b'a') == b'aaa'
+
+  cache.set(b'b', b'bbb', lifetime=timedelta(seconds=1))
+  assert cache.get(b'b') == b'bbb'
+  sleep(1)
+  assert cache.get(b'b') is None
+```
+
+

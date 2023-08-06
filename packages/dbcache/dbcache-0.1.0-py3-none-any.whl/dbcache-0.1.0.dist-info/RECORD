@@ -1,0 +1,10 @@
+dbcache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbcache/api.py,sha256=aWQAOIgCwErv5SCVbIBTyfSJEWTcrorYOdIksv9naXA,2516
+dbcache/cli.py,sha256=Qa_xrF7GshNA2j4VlJdEAzp1DUKqJbjAzlEJ7a5iwXI,411
+dbcache/schema.py,sha256=QpAo9jE_kDNY9aTXivAIMIUHWFaBfCvEZbd_aoa0hQ8,428
+dbcache/schema.sql,sha256=YrmfT1wv_SkChontGqhOKtjGzWbb_mrOJLDR0qr83_Y,263
+dbcache-0.1.0.dist-info/METADATA,sha256=H0KY8RF0Y4TQYkYCQHktfPPkr2y36EN6N3tGekhp3Tg,1292
+dbcache-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+dbcache-0.1.0.dist-info/entry_points.txt,sha256=042-B_qvNRwiroFShLMDey7X6Yyx8ZXqhvQ-OwfGOgo,49
+dbcache-0.1.0.dist-info/top_level.txt,sha256=Iah37QqfxjOxruF5YodsvIGrRKd7BedDC6VRGwqggq8,8
+dbcache-0.1.0.dist-info/RECORD,,

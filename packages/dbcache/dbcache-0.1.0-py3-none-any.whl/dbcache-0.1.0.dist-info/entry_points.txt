@@ -1,0 +1,3 @@
+[console_scripts]
+dbcache = dbcache.cli:dbcache
+
