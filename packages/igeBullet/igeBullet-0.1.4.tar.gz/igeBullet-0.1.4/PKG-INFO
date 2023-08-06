@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: igeBullet
+Version: 0.1.4
+Summary: Bullet physics library for python.
+Home-page: UNKNOWN
+Author: Kiharu Shishikura
+Author-email: dev@indigames.net
+License: MIT
+Description: pyvmath
+        --------
+        
+        C++ extension Vector Mathematics Package for 3D and 2D games.
+        -------------------------------------------------------------
+        
+        object
+        vec2	2D vector
+        vec3	3D vector
+        vec4	4D vector
+        quat	Quaternion
+        mat22	2x2 matrix
+        mat33	3x3 matrix
+        mat44	4x4 matrix
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Games/Entertainment
