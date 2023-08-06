@@ -1,0 +1,39 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+autoflpy/AutoFLpy.py
+autoflpy/__init__.py
+autoflpy/flight_log_code.py
+autoflpy/log_to_xls.py
+autoflpy.egg-info/PKG-INFO
+autoflpy.egg-info/SOURCES.txt
+autoflpy.egg-info/dependency_links.txt
+autoflpy.egg-info/not-zip-safe
+autoflpy.egg-info/top_level.txt
+docs/Makefile
+docs/authors.rst
+docs/conf.py
+docs/contributing.rst
+docs/history.rst
+docs/index.rst
+docs/installation.rst
+docs/make.bat
+docs/readme.rst
+docs/usage.rst
+tests/__init__.py
+tests/test_flight_log_code.py
+tests/test_log_to_xls.py
+tests/test_files/Checklists emergency.xlsx
+tests/test_files/Checklists nominal.xlsx
+tests/test_files/test_arduino_2.CSV
+tests/test_files/test_data_sources.txt
+tests/test_files/test_generated_flight_log20191203 2.ipynb
+tests/test_files/test_log_to_xls.log
+tests/test_files/test_name_converter_list.txt
+tests/test_files/test_template.ipynb
+tests/test_files/test_xls.xls
