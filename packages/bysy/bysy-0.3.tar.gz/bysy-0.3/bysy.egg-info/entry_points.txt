@@ -1,0 +1,3 @@
+[console_scripts]
+bysy = bysy.__main__:main
+
