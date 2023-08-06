@@ -1,0 +1,6 @@
+README.md
+setup.py
+Canvas_Syncer_master_Salutin.egg-info/PKG-INFO
+Canvas_Syncer_master_Salutin.egg-info/SOURCES.txt
+Canvas_Syncer_master_Salutin.egg-info/dependency_links.txt
+Canvas_Syncer_master_Salutin.egg-info/top_level.txt
