@@ -1,0 +1,14 @@
+xlrd
+pyyaml
+pygraphviz
+datapackage
+pandas
+pulp
+flatten_dict
+
+[:python_version < "3.7"]
+importlib_resources
+
+[testing]
+pytest
+pytest-cov
