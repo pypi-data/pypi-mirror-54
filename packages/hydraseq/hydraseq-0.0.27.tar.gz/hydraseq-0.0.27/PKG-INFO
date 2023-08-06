@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hydraseq
+Version: 0.0.27
+Summary: Simple data structure for sequence memory
+Home-page: https://github.com/hydraseq/hydraseq
+Author: Efrain Olivares
+Author-email: efrain.olivares@gmail.com
+License: UNKNOWN
+Description: Simple data structure for sequence memory
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
