@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = ">=2.20.0"
+envparse = "*"
+jsonschema = "*"
+semver = "*"
+typing = "*"
+pytz = "*"
+six = "*"
+pykechain = {editable = true, path = "."}
+pyOpenSSL = {version="*", markers="python_version <= '2.7'"}
+
+[dev-packages]
+pytest = "*"
+betamax = "*"
+nbsphinx = "*"
+jupyter = "*"
+matplotlib = "*"
+"flake8" = "*"
+pydocstyle = "*"
+mypy = "*"
+twine = "*"
+Sphinx = "*"
+tox = "*"
+coverage = "*"
+recommonmark = "*"
+pandoc = "*"
+
+[requires]
+python_version = "3"
