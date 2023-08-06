@@ -1,0 +1,10 @@
+README.md
+setup.py
+fyle_db_connector/__init__.py
+fyle_db_connector/extract.py
+fyle_db_connector/load.py
+fyle_db_connector.egg-info/PKG-INFO
+fyle_db_connector.egg-info/SOURCES.txt
+fyle_db_connector.egg-info/dependency_links.txt
+fyle_db_connector.egg-info/requires.txt
+fyle_db_connector.egg-info/top_level.txt
