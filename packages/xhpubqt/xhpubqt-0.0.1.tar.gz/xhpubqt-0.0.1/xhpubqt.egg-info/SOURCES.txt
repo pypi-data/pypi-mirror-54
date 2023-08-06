@@ -1,0 +1,8 @@
+README.md
+setup.py
+xhpubqt/__init__.py
+xhpubqt/ue4slider.py
+xhpubqt.egg-info/PKG-INFO
+xhpubqt.egg-info/SOURCES.txt
+xhpubqt.egg-info/dependency_links.txt
+xhpubqt.egg-info/top_level.txt
