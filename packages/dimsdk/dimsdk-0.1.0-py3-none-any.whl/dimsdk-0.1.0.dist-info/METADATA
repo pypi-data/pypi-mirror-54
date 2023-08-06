@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dimsdk
+Version: 0.1.0
+Summary: Decentralized Instant Messaging SDK
+Home-page: https://github.com/dimchat/sdk-py
+Author: Albert Moky
+Author-email: albert.moky@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: dimp
+Requires-Dist: dkd
+Requires-Dist: mkm
+
+# sdk-py
+Decentralized Instant Messaging (Python SDK)
+
+
