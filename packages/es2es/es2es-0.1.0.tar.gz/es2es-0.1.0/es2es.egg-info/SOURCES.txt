@@ -1,0 +1,9 @@
+README.md
+setup.py
+es2es/__init__.py
+es2es/_es2es.py
+es2es.egg-info/PKG-INFO
+es2es.egg-info/SOURCES.txt
+es2es.egg-info/dependency_links.txt
+es2es.egg-info/requires.txt
+es2es.egg-info/top_level.txt
