@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+
+# Copyright (C) 2019 Vanessa Sochat.
+
+# This Source Code Form is subject to the terms of the
+# Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed
+# with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+from nushell.filter import FilterPlugin
+
+# Your filter function will be called by the FilterPlugin, and should
+# accept the plugin and the dictionary of params
+def runFilter(plugin, params):
+    '''runFilter will be executed by the calling FilterPlugin (method filter)
+       and should be able to parse the dictionary of params and respond
+       appropriately. Useful functions:
+
+       plugin.logger.<level>
+       plugin.get_string_primitive()
+       plugin.get_int_primitive()
+       plugin.print_int_response()
+       plugin.print_string_response()
+    '''
+    # don't care about type, can also be get_string_primitive or get_int_primitive
+    value = plugin.get_primitive()
+
+    # Get the string primitive passed from the filter (should be Int)
+    try:
+        value = int(value)
+
+        # Add to the required positional argument
+        total = value + params['_positional'][0]
+
+        # Print an integer response (can also be print_string_response)
+        plugin.print_string_response(str(total))
+
+    except:
+        plugin.print_string_response("%s is not a number" % value)
+        
+
+# The main function is where you create your plugin and run it.
+def main():
+
+    # Initialize a new plugin
+    plugin = FilterPlugin(name="plus", 
+                          usage="Add a number to what is passed to the filter.")
+
+
+    # Add positional arguments (print help if not provided)
+    plugin.add_positional_argument("number", "Optional", "Int", usage="number to parse")
+
+    # Run the plugin by passing your filter function
+    plugin.run(runFilter)
+
+
+if __name__ == '__main__':
+    main()
