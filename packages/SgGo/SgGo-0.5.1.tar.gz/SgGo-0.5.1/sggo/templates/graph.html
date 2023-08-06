@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/static/css/style.css">
+<link rel="stylesheet" href="/static/css/jquery.qtip.css">
+<style>
+/* This sets the color for "TK" nodes to a light blue green. */
+g.bk-Input > rect {
+  fill: #3ac569;
+}
+g.bk-SubGraph > rect {
+  fill: rgb(236, 116, 51);
+}
+g.bk-TypeCast-DataCrop > rect {
+  fill: rgb(59, 144, 212);
+}
+g.bk-Default > rect {
+  fill: rgb(245, 148, 96);
+}
+
+.qtip { max-width: none !important; }
+
+.qtip-my {
+    background: #423a3a;
+    border: 0 solid transparent;
+    font-size: 12px;
+    font-family: Verdana;
+    max-height: 600px;
+    overflow-y: auto;   
+}
+/*滚动条整体样式*/
+/*高宽分别对应横竖滚动条的尺寸*/
+.qtip-my::-webkit-scrollbar {
+    width: 4px;     
+    height: 4px;
+    scrollbar-arrow-color:red;
+}
+/*滚动条里面小方块*/
+.qtip-my::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #fff;
+    scrollbar-arrow-color:red;
+}
+.qtip-my::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+}
+.node-info {
+  display: block;
+  margin: 0;
+  font-size: 12px;
+  font-family: Verdana;
+}
+
+.node-info .lable-name {
+  color:#9e898982;
+}
+.node-info .val-name {
+  color: #1491a8;
+}
+.node-info .val-input {
+  color: green;
+}
+.node-info .val-op {
+  color:#3ac569;
+}
+.node-info .val-device {
+  color: #ff2500a8;
+}
+.node-info .val-type {
+  color: rgb(37, 163, 212);
+}
+.node-info .val-default {
+  color: rgb(153, 149, 149);
+}
+.node-label {
+    font-size: 14px;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+.node-label:not(:first-child) {
+    padding-top:5px;
+    margin-top:5px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+.node-label-head {
+    font-size: 20px;
+    color: #000;
+}
+</style>
+</head>
+
+<body>
+<svg width="100%" height="100%"></svg>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/d3.js"></script>
+<script src="/static/js/dagre-d3.js"></script>
+<script src="/static/js/jquery.qtip.js"></script>
+
+<script type="text/javascript">
+$(function(){
+
+  function get_type_class(op){
+    // use this https://www.webdesignrankings.com/resources/lolcolors/
+    var op_map = {
+      "Input": "bk-Input",
+      "TypeCast": "bk-TypeCast-DataCrop",
+      "DataCrop": "bk-TypeCast-DataCrop",
+      "SubGraph": "bk-SubGraph",
+      "Default": "bk-Default",
+    }
+    if(op in op_map){
+      return op_map[op];
+    } else {
+      return op_map['Default'];
+    }
+  }
+
+  function create_graph(data){
+    // Create the input graph
+    var g = new dagreD3.graphlib.Graph()
+      .setGraph({})
+      .setDefaultEdgeLabel(function() { return {}; });
+    
+    // Set Node
+    var node_map = {};
+    for (var i = 0; i < data.node.length; i++) {
+      var op_name = data.node[i]['op'];
+      if ('fused_ops' in data.node[i]){
+        var lable = "<div class='node-label node-label-head'>" + op_name + "</div>";
+        data.node[i]['fused_ops'].forEach(op => {
+          lable += "<div class='node-label'>" + op + "</div>";
+        });
+      } else {
+        var lable = "<div class='node-label'>" + op_name + "</div>";
+      }
+      g.setNode(i, {
+        labelType: 'html',
+        label: lable, 
+        class: get_type_class(op_name), 
+        labelStyle: "font: 300 14px 'Helvetica Neue', Helvetica",
+        rx: 5, 
+        ry: 5, 
+        info: data.node[i]
+      });
+      node_map[data.node[i]['name']] = i;
+    }
+    
+    // Set up edges, no special attributes.
+    for (var i = 0; i < data.edges.length; i++) {
+      var src_index = node_map[data.edges[i].source];
+      var dst_index = node_map[data.edges[i].target];
+      g.setEdge(src_index, dst_index, {
+        label: data.edges[i].shape, 
+        labelpos: 'r',
+      });
+    }
+    return g;
+  }
+
+  function getValFromAttrMap(attrMap){
+    if('i' in attrMap){
+      return attrMap['i'];
+    } else if('f' in attrMap){
+      return attrMap['f'];
+    } else if('b' in attrMap){
+      return attrMap['b'];
+    } else if('s' in attrMap){
+      return attrMap['s'];
+    } else if ('list' in attrMap){
+      return getValFromAttrMap(attrMap['list']);
+    }else {
+      return attrMap;
+    }
+  }
+
+  function sortNodeInfo(node){
+    var node_info = {};
+    node_info['name'] = node['name'];
+    delete node['name'];
+    node_info['op'] = node['op'];
+    delete node['op'];
+    node_info['device'] = node['device'];
+    delete node['device'];
+    node_info['type'] = node['type'];
+    delete node['type'];
+    node_info['input'] = node['input'];
+    delete node['input'];
+    if ('output' in node){
+      node_info['output'] = node['output']
+      delete node['output']
+    }
+    if ('attrMap' in node){
+      for(var key in node['attrMap']){
+        var val = getValFromAttrMap(node['attrMap'][key]);
+        if (key in node_info){
+          key = 'attr ' + key;
+        }
+        node_info[key] = val;
+
+      }
+      delete node['attrMap'];
+    }
+    for (var key in node){
+      node_info[key] = node[key];
+    }
+    return node_info
+  }
+
+  function create_tooltip(node_info, info){
+    for(var key in node_info){
+      if (key == 'name'){
+        info += "<p class='lable-name'>" + key + ": <span class=val-name>" + node_info[key] + "</span></p>";
+      } else if (key == 'op'){
+        info += "<p class='lable-name'>" + key + ": <span class=val-op>" + node_info[key] + "</span></p>";
+      } else if (key == 'device'){
+        info += "<p class='lable-name'>" + key + ": <span class=val-device>" + node_info[key] + "</span></p>";
+      } else if (key == 'type'){
+        info += "<p class='lable-name'>" + key + ": <span class=val-type>" + node_info[key] + "</span></p>";
+      } else if(key == 'input'){
+        for(var n in node_info[key]){
+          info += "<p class='lable-name'>" + key + ": <span class=val-input>" + node_info[key][n] + "</span></p>";
+        }
+      } else if(key == 'output'){
+        for(var n in node_info[key]){
+          info += "<p class='lable-name'>" + key + ": <span class=val-input>" + node_info[key][n] + "</span></p>";
+        }
+      } else {
+        info += "<p class='lable-name'>" + key + ": <span class=val-default>" + node_info[key] + "</span></p>";
+      }
+    }
+    return info;
+  }
+  // Simple function to style the tooltip for the given node.
+  var styleTooltip = function(node) {
+    var node_info = sortNodeInfo(node);
+    var info = "<div class='node-info'>";
+    let sub_infos = [];
+    if('fused_ops' in node_info){
+      for (let i=0; i < node_info['fused_ops'].length; i++){
+        let op = node_info['fused_ops'][i];
+        let sub_info = '';
+        let op_name = op + '_' + i;
+        if (op_name in node_info){
+          op = op_name;
+        }
+        if (op in node_info){
+          sub_info = create_tooltip(sortNodeInfo(node_info[op]), sub_info);
+          sub_infos.push(sub_info);
+          delete node_info[op];
+        }
+      }
+      delete node_info['fused_ops'];
+    }
+    info = create_tooltip(node_info, info);
+    sub_infos.forEach(sub_info => {
+      info += '<hr>';
+      info += sub_info;
+    });
+    info += "</div>"
+    return info;
+  };
+
+  function render_graph(g){
+    // Create the renderer
+    var render = new dagreD3.render();
+
+    // Set up an SVG group so that we can translate the final graph.
+    var svg = d3.select("svg"), inner = svg.append("g");
+
+    // Set up zoom support
+    var zoom = d3.zoom()
+        .on("zoom", function() {
+          inner.attr("transform", d3.event.transform);
+        });
+    svg.call(zoom);
+
+    // Run the renderer. This is what draws the final graph.
+    render(inner, g);
+    var that = this;
+    inner.selectAll("g.node").each(function(v) {
+      var position = {
+        my: 'left center',
+        at: 'right center'
+      };
+      position.viewport = $(window);
+      return $(this).qtip({
+          content: {
+            text: styleTooltip(g.node(v).info)
+          },
+          style: {
+            classes: 'qtip-my',
+          },
+          position: position,
+          show: {
+            delay: 0,
+            effect: false,
+            solo: true
+          },
+          hide: {
+            effect: false,
+            event: 'click'
+          },
+        });
+    });
+
+    // Center the graph
+    var initialScale = 0.15;
+    var tWidth = (svg._groups[0][0].clientWidth  - g.graph().width * initialScale) / 2; // horizontally centered
+    //var tHeight = (svg._groups[0][0].clientHeight  - g.graph().height * initialScale) / 1; // vertical centering
+    var tHeight = 20;       // Starting from the head
+    svg.call(zoom.transform, d3.zoomIdentity.translate(tWidth, tHeight).scale(initialScale)); //center graph
+  }
+
+  // Load SG
+  jQuery.getJSON('/sg', function(data){
+    var g = create_graph(data);
+    render_graph(g);
+  });
+
+  // Close the prompt popup when clicking on the svg background
+  $('svg').on('click', function(e){
+    $('.qtip').hide();
+  });
+
+});
+</script>
+</body>
+</head>
+</html>
