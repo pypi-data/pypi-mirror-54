@@ -1,0 +1,6 @@
+boto3>=1.9.199
+click>=6.7
+
+[:python_version < "3.6"]
+boto3>=1.9.211
+Click>=7.0
