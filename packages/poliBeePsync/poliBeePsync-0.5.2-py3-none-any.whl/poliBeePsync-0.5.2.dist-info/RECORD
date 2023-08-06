@@ -1,0 +1,17 @@
+polibeepsync/__init__.py,sha256=isJrmDBLRag7Zc2UK9ZovWGOv7ji1Oh-zJtJMNJFkXw,22
+polibeepsync/cmdlineparser.py,sha256=u6AWWr970N72NLXr_Hhs32zmGhRsz0na-G3gT64iyZg,804
+polibeepsync/common.py,sha256=jE34LaEdU2P6uOIYd6oV3QZhYJr67yTf_ipJ4kxjY5c,40049
+polibeepsync/custom_qt5_elements.py,sha256=9dQX_SKISvp6p8kN1oErnbOXSAb7T8XNp-JSZcQZiVc,7357
+polibeepsync/filesettings.py,sha256=3h522gEk9ISpJXCzAkh6sREmjEmmJNB4iroq-aMnsyc,3129
+polibeepsync/icone_rc.py,sha256=meE9N9V9eLQ1789nmPHyrUjdAIU8QkQOAUDUtfzfSCM,34664
+polibeepsync/new_gui.ui,sha256=6oNWt1RpJDUcC22keIYyoYEjDPyho1H5gE7kCzf79tM,30020
+polibeepsync/qtgui.py,sha256=lWdnNOzYuOgarCVOKoiwkmyzSDIgc1z-H0eO17Jd98M,23069
+polibeepsync/ui_resizable.py,sha256=qNchHG1NokjwS8WiK9Y13OONwS1n-GahCBdg4TLm3iY,7942
+polibeepsync/utils.py,sha256=39PN0K0oTtBXswiD3YSCeMr7cUBEVcGHcJxOR1y0sUc,468
+poliBeePsync-0.5.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+poliBeePsync-0.5.2.dist-info/LICENSE.old,sha256=o2ajCNZ2N_CKB612PhXWb1F2h8jQsT5TnNYvWJ20z7w,157
+poliBeePsync-0.5.2.dist-info/METADATA,sha256=HgB4TFrYvYucsbMBkyYgFJFWxn9zEIXoU8E5wN_9Ab4,6899
+poliBeePsync-0.5.2.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+poliBeePsync-0.5.2.dist-info/entry_points.txt,sha256=ZX69QoPNShdN_sl6IlvS8FyPHitd1J-Y4TUgxlzLyuA,116
+poliBeePsync-0.5.2.dist-info/top_level.txt,sha256=NKYSxj5MTCUxfBQKiIh3dTKLRRFl9TrAb_PYWcm-jeI,13
+poliBeePsync-0.5.2.dist-info/RECORD,,
