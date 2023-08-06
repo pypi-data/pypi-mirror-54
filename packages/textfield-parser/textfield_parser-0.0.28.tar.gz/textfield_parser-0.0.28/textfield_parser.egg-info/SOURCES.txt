@@ -1,0 +1,8 @@
+README.md
+setup.py
+textfield_parser/__init__.py
+textfield_parser/textfield_parser.py
+textfield_parser.egg-info/PKG-INFO
+textfield_parser.egg-info/SOURCES.txt
+textfield_parser.egg-info/dependency_links.txt
+textfield_parser.egg-info/top_level.txt
