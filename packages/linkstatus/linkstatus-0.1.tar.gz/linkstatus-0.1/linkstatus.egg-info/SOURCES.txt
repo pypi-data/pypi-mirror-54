@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+linkstatus/__init__.py
+linkstatus/linkstatus.py
+linkstatus/parser.py
+linkstatus.egg-info/PKG-INFO
+linkstatus.egg-info/SOURCES.txt
+linkstatus.egg-info/dependency_links.txt
+linkstatus.egg-info/entry_points.txt
+linkstatus.egg-info/not-zip-safe
+linkstatus.egg-info/requires.txt
+linkstatus.egg-info/top_level.txt
