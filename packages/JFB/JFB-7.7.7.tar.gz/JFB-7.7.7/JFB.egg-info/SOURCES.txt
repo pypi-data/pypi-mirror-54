@@ -1,0 +1,8 @@
+setup.py
+JFB/__init__.py
+JFB/code1.py
+JFB/code2.py
+JFB.egg-info/PKG-INFO
+JFB.egg-info/SOURCES.txt
+JFB.egg-info/dependency_links.txt
+JFB.egg-info/top_level.txt
