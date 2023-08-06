@@ -1,0 +1,8 @@
+aws_cdk/aws_transfer/__init__.py,sha256=KyhrW1MawPB5ZdHhrLJJ6ICp2uobdUCd_D9ds6a5uH4,25174
+aws_cdk/aws_transfer/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_transfer/_jsii/__init__.py,sha256=HYe19HfCWrirGkrqrUGvtl106_J-W58jjF_KCBu5J0w,200
+aws_cdk/aws_transfer/_jsii/aws-transfer@1.15.0.jsii.tgz,sha256=o6-JvtTqYt9FNX5V6SlARYTmci6WMNReobn5PbEqW9g,20520
+aws_cdk.aws_transfer-1.15.0.dist-info/METADATA,sha256=gaI2PRN3FLDYlazYJV_1dMzASPc6RofbTU9F7zlBka0,1279
+aws_cdk.aws_transfer-1.15.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+aws_cdk.aws_transfer-1.15.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_transfer-1.15.0.dist-info/RECORD,,
