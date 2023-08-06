@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: guang
+Version: 0.0.3
+Summary:  Some tools function
+Home-page: https://pypi.org/user/K.y/
+Author: K.y
+Author-email: beidongjiedeguang@gmail.com
+License: GNU
+Description: ## Some tools function.
+        
+        *This is the first edition*
+        
+        *Stay tuned for future releases！*
+        
+        
+Keywords: utils,Deep Learning,Machine Learning,Neural Networks
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
