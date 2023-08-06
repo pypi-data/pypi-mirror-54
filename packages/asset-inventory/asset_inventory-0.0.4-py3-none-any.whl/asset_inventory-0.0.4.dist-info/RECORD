@@ -1,0 +1,12 @@
+asset_inventory/__init__.py,sha256=cWyYiYTSeYzXZZEtQ2ldn_s9uJJqyUnLJXBzs6Dq3AA,237
+asset_inventory/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asset_inventory/asset_inventory.py,sha256=lYjAdTAu4B3Vg3lCG6P4jQsxVdppPeTsB_kj925bNJY,7233
+asset_inventory/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asset_inventory/models/device.py,sha256=y0oRv_OBHUhNlBwZCb2qWyLDJfY9vBQz2QkVAnmYzpY,504
+asset_inventory/models/inventory.py,sha256=jEWtD9OaFTvxwfmjTpCTXKWjGz-72cNIp8nXOfWEdT8,617
+asset_inventory/models/server.py,sha256=8ciWROGTJuR9Oq43l5FH_CEWJFQo_RTC5_YZ4J8KK94,549
+asset_inventory-0.0.4.dist-info/LICENSE,sha256=7Ca01VDNSuTMqlzzxDGthIVFN05kRKZ99hqKEgBsQc4,1074
+asset_inventory-0.0.4.dist-info/METADATA,sha256=W9m3zE0uzooDwI28MOXQoghRE2aYG3h1RE0Hw28Sy3Y,604
+asset_inventory-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+asset_inventory-0.0.4.dist-info/top_level.txt,sha256=Nkb4cZvFbN6CSpN5qN1O5LtECmFevcHRtIWnJCA0Xt8,16
+asset_inventory-0.0.4.dist-info/RECORD,,
