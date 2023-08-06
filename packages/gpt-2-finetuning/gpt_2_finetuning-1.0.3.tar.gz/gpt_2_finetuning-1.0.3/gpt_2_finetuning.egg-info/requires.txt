@@ -1,0 +1,6 @@
+numpy
+regex
+requests
+tqdm
+toposort
+tensorflow==1.14
