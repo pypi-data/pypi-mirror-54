@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: nota
+Version: 0.8.3
+Summary: Text-based note taker
+Home-page: https://github.com/dankelley/nota
+Author: Dan Kelley
+Author-email: kelley.dan@gmail.com
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
