@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: cabot-check-influxdb
+Version: 0.0.3
+Summary: A Influxdb plugin for Cabot
+Home-page: https://github.com/mlebee/cabot-check-influxdb
+Author: mlebee
+Author-email: mathieu.lebee@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: influxdb (==5.2.3)
+
+UNKNOWN
+
+
