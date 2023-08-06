@@ -1,0 +1,9 @@
+README.md
+adamod/__init__.py
+adamod/adamod.py
+adamod.egg-info/PKG-INFO
+adamod.egg-info/SOURCES.txt
+adamod.egg-info/dependency_links.txt
+adamod.egg-info/not-zip-safe
+adamod.egg-info/requires.txt
+adamod.egg-info/top_level.txt
