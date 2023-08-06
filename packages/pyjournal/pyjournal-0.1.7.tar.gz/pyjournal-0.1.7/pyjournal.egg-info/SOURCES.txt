@@ -1,0 +1,8 @@
+setup.py
+pyjournal/__init__.py
+pyjournal/__main__.py
+pyjournal.egg-info/PKG-INFO
+pyjournal.egg-info/SOURCES.txt
+pyjournal.egg-info/dependency_links.txt
+pyjournal.egg-info/entry_points.txt
+pyjournal.egg-info/top_level.txt
