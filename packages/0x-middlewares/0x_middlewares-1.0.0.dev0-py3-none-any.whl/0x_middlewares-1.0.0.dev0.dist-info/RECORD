@@ -1,0 +1,9 @@
+0x_middlewares-1.0.0.dev0-py3.7-nspkg.pth,sha256=aXa84nPTJoC1MuYjhrsZ-JgWOaY4-Vpgtfj2B654bCU,544
+zero_ex/middlewares/__init__.py,sha256=aJM8T4IcmIhLLu2DIZ0s4eZwSORzwh0ThmUZ5zA6iNo,123
+zero_ex/middlewares/local_message_signer.py,sha256=KO9FX72G4iWR9nySXnVzdH39Y0ZOC3Q2mZOuAPLDpUU,4094
+zero_ex/middlewares/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+0x_middlewares-1.0.0.dev0.dist-info/METADATA,sha256=6XL9g6a8tyov5b3hhfPCIQsjhKR28cw1d9ajF76hZ00,3209
+0x_middlewares-1.0.0.dev0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+0x_middlewares-1.0.0.dev0.dist-info/namespace_packages.txt,sha256=13m3G3AvpWPbUVAPmckTC4eQSFPMulgPCskObY8XRS0,8
+0x_middlewares-1.0.0.dev0.dist-info/top_level.txt,sha256=13m3G3AvpWPbUVAPmckTC4eQSFPMulgPCskObY8XRS0,8
+0x_middlewares-1.0.0.dev0.dist-info/RECORD,,
