@@ -1,0 +1,15 @@
+COPYRIGHT
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tox.ini
+little_pwny.egg-info/PKG-INFO
+little_pwny.egg-info/SOURCES.txt
+little_pwny.egg-info/dependency_links.txt
+little_pwny.egg-info/entry_points.txt
+little_pwny.egg-info/not-zip-safe
+little_pwny.egg-info/top_level.txt
+pwny/__init__.py
+tests/test_pwny.py
