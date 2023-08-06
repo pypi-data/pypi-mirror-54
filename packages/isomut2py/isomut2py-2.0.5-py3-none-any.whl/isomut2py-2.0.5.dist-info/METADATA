@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: isomut2py
+Version: 2.0.5
+Summary: A mutation detection software from NGS data with multiple filtering and plotting features
+Home-page: http://github.com/pipekorsi/isomut2
+Author: Orsolya Pipek
+Author-email: pipeko@caesar.elte.hu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: matplotlib (>=2.0.0)
+Requires-Dist: pandas (>=0.20.3)
+Requires-Dist: Theano (>=1.0.4)
+Requires-Dist: pymc3 (==3.1)
+Requires-Dist: setuptools (>=33.1.1)
+Requires-Dist: seaborn (>=0.8)
+Requires-Dist: scipy (==0.19.1)
+Requires-Dist: numpy (==1.12.1)
+Requires-Dist: biopython
+
+UNKNOWN
+
+
