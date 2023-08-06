@@ -1,0 +1,3 @@
+[distutils.commands]
+protobufferize = protobufferize:CompileProtoBuffers
+

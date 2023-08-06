@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+protobufferize.egg-info/PKG-INFO
+protobufferize.egg-info/SOURCES.txt
+protobufferize.egg-info/dependency_links.txt
+protobufferize.egg-info/entry_points.txt
+protobufferize.egg-info/top_level.txt
