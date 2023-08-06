@@ -1,0 +1,11 @@
+README.rst
+setup.py
+CollectiveIntelligence.egg-info/PKG-INFO
+CollectiveIntelligence.egg-info/SOURCES.txt
+CollectiveIntelligence.egg-info/dependency_links.txt
+CollectiveIntelligence.egg-info/not-zip-safe
+CollectiveIntelligence.egg-info/requires.txt
+CollectiveIntelligence.egg-info/top_level.txt
+clustering/__init__.py
+clustering/kmeans.py
+recommandations/__init__.py
