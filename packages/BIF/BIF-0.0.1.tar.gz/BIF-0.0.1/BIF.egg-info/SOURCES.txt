@@ -1,0 +1,7 @@
+setup.py
+BIF/__init__.py
+BIF.egg-info/PKG-INFO
+BIF.egg-info/SOURCES.txt
+BIF.egg-info/dependency_links.txt
+BIF.egg-info/requires.txt
+BIF.egg-info/top_level.txt
