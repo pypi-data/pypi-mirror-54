@@ -1,0 +1,7 @@
+README.md
+setup.py
+example_pkg_2019_10_23/__init__.py
+example_pkg_2019_10_23_alexwlchan.egg-info/PKG-INFO
+example_pkg_2019_10_23_alexwlchan.egg-info/SOURCES.txt
+example_pkg_2019_10_23_alexwlchan.egg-info/dependency_links.txt
+example_pkg_2019_10_23_alexwlchan.egg-info/top_level.txt
