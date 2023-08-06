@@ -1,0 +1,2 @@
+# TODO: add travis run, at least one or two for testing against master
+# git+https://github.com/datalad/datalad.git
