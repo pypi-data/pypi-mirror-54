@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyramid_services_viewmapper/__init__.py
+pyramid_services_viewmapper.egg-info/PKG-INFO
+pyramid_services_viewmapper.egg-info/SOURCES.txt
+pyramid_services_viewmapper.egg-info/dependency_links.txt
+pyramid_services_viewmapper.egg-info/requires.txt
+pyramid_services_viewmapper.egg-info/top_level.txt
