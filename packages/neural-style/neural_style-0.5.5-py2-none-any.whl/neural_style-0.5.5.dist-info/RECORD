@@ -1,0 +1,9 @@
+loader/CaffeLoader.py,sha256=1_5YXXG8EfJ79jyciwijmobfb_auVryBE6g1eutB1Zc,11528
+loader/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+neural_style-0.5.5.data/scripts/neural-style,sha256=HR7JCqYM5SV4-3iqi5WiYPzH-IgFTTHRofyrebobVvw,18863
+neural_style-0.5.5.dist-info/DESCRIPTION.rst,sha256=8r3k7OXRHG8SIIfuPQdPUgGOes8toZ3EN-59i-4_Ges,19594
+neural_style-0.5.5.dist-info/METADATA,sha256=iIJ1Zw0rD13BVRlTq2WdMmJYrFVsMTS2JpUyXmrKHk0,20662
+neural_style-0.5.5.dist-info/RECORD,,
+neural_style-0.5.5.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+neural_style-0.5.5.dist-info/metadata.json,sha256=DLy4QkZbbZlwplkVqqKOtdEvgUlhtfeXlnRA18czgDw,1236
+neural_style-0.5.5.dist-info/top_level.txt,sha256=L6sy4cmyVj3gEq2IWUSompHpWumfcuQgE2pbPFc2Hwk,7
