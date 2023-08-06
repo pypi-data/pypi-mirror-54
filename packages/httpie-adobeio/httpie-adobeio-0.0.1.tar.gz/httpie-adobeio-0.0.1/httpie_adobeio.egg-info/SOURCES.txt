@@ -1,0 +1,11 @@
+README.rst
+httpie_adobeio.py
+setup.cfg
+setup.py
+httpie_adobeio.egg-info/PKG-INFO
+httpie_adobeio.egg-info/SOURCES.txt
+httpie_adobeio.egg-info/dependency_links.txt
+httpie_adobeio.egg-info/entry_points.txt
+httpie_adobeio.egg-info/not-zip-safe
+httpie_adobeio.egg-info/requires.txt
+httpie_adobeio.egg-info/top_level.txt
