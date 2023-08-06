@@ -1,0 +1,8 @@
+Flask>=0.8
+
+[test]
+nose
+flake8
+mock==2.0.0
+coverage~=4.5.4
+celery~=4.3.0
