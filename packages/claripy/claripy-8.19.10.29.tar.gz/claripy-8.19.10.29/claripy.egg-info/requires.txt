@@ -1,0 +1,4 @@
+z3-solver>=4.8.5.0
+future
+cachetools
+pysmt
