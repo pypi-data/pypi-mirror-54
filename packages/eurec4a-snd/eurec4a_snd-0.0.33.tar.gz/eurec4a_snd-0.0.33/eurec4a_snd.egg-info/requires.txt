@@ -1,0 +1,7 @@
+pillow>=6.0.0
+matplotlib>=3.1.0
+basemap>=1.2.0
+numpy>=1.15.0
+netCDF4>=1.4.0
+metpy>=0.10.0
+basemap-data-hires>=1.0.8
