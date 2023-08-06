@@ -1,0 +1,1 @@
+Co mam robić plik __init__?

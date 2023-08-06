@@ -1,0 +1,10 @@
+MANIFEST.in
+Moje_notatki.txt
+README.md
+setup.py
+./package/__init__.py
+./package/daria.py
+daria_pypi_lib.egg-info/PKG-INFO
+daria_pypi_lib.egg-info/SOURCES.txt
+daria_pypi_lib.egg-info/dependency_links.txt
+daria_pypi_lib.egg-info/top_level.txt
