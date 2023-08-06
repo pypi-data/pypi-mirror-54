@@ -1,0 +1,3 @@
+[console_scripts]
+jjc-card-game=card_game.main:cli
+
