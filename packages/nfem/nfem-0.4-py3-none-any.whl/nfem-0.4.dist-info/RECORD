@@ -1,0 +1,11 @@
+nfem/__init__.py,sha256=v6r8Do7thXe0RJCzSTXnlaHPJWJFs2T_29MCicwamh4,47
+nfem/_canvas.py,sha256=2M2JhwGhIjqdDytDQPJtG2dq9i5jZOmbDgFRG-ICbzY,3905
+nfem/_dof.py,sha256=0idH-BvvcB4XkR9-k9WpqeZMGc1LpunDdjuyQOI8PZk,255
+nfem/_model.py,sha256=D0pxj-x3SKEmEj2ZYzj-zPCpUSjy4HPrBH8037JCErY,2737
+nfem/_node.py,sha256=F9jd-XLcjsWz9JQHT-m2ezan9qF1XqMR0fJIDvk3hpU,2126
+nfem/_system.py,sha256=evSyI9ojhfdGs45sDuBfKk4qOqWE4k4I2Wbs6XVsxbU,60
+nfem/_truss.py,sha256=nTGu_QgVzmTXMKclZY3MLkVi3o2h9d8gsNNyv3pHe8Q,332
+nfem-0.4.dist-info/METADATA,sha256=tmao7MaaFOHFFBsK0hodWg5AxPzJ3ZV17_Bvgd8cAj8,274
+nfem-0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+nfem-0.4.dist-info/top_level.txt,sha256=D-ffyOiPX0beItWh4vAo_7Yc2vZ635uO3tUKWvxCZcg,5
+nfem-0.4.dist-info/RECORD,,
