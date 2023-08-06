@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ddtrace_asgi/__init__.py
+ddtrace_asgi/__version__.py
+ddtrace_asgi/middleware.py
+ddtrace_asgi/py.typed
+ddtrace_asgi.egg-info/PKG-INFO
+ddtrace_asgi.egg-info/SOURCES.txt
+ddtrace_asgi.egg-info/dependency_links.txt
+ddtrace_asgi.egg-info/not-zip-safe
+ddtrace_asgi.egg-info/requires.txt
+ddtrace_asgi.egg-info/top_level.txt
