@@ -1,0 +1,103 @@
+/*source couleurs: http://www.colorpicker.com/color/arylide-yellow
+*/
+body {
+    margin-top: 3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: #FFF;
+
+}
+h1 {
+    margin-top:20px;
+    margin-bottom:70px;
+    padding-top:20px;
+    color: #E9976B;
+    font-family:verdana, sans-serif;
+
+}
+h2 {
+    background-color: #303030 ;/*#E9D66B;*/
+    margin-left:100;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:50px;
+    color: #FFF;
+
+}
+
+h3 {
+    background-color: #585858;
+    margin-left:150;
+    padding-left:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: #FFF;
+}
+
+h4 {
+    background-color: #787878;
+    margin-left:200;
+    padding-left:50px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color: #FFF;
+}
+.sigclass, sigclass_wide {
+    margin: 0 20 0 20;
+}
+sigclass_wide {
+    width:400px;}
+sigclass {
+    width:800px;}
+.logo,.cm,.sig {
+    float:left;
+}
+.logo,.cm,.sig, .small :after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.cm,.sig {
+     width:500px;
+     margin-right:50px;
+    }
+.small {
+     width:250px;
+}
+.logo{
+    margin-right:20px;
+    width:100px;
+    /*vertical-align:middle;*/
+    }
+.icon, .icon_big {
+    margin-right:10px;
+    vertical-align:middle;
+    }
+.icon {
+    height:25px;
+}
+.icon_big {
+    height:40px;
+}
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+h1,h2,h3,h4 {
+    font-family:"Verdana", sans-serif;
+}
+h2,h3,h4:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+h1,p,table,ul,li {color:#1C1C1C;}
+p.signature{
+	text-align:right;
+	font-family:Arial;
+	font-size:10px;
+	font-weight: bold;
+	margin-top:20px;
+	margin-left:400px;
+}

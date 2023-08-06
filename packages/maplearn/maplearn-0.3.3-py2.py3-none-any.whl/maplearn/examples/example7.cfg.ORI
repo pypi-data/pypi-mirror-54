@@ -1,0 +1,39 @@
+[metadata]
+title = Ex. 7 : Classification supervisee (image satellite)
+description = Une classification supervisee est appliquee a une image satellite
+ (format *tiff*).
+author = Mapping learning team
+[io]
+samples={path}/maplearn/datasets/samples_landsat_rennes.tif
+# [optionnel] colonne correspondant au ID des classes (numeriques)
+label_id=
+# [optionnel] colonne correspondant aux libelles des classes (texte)
+label=
+# [optionnel] liste des features a utiliser
+features=
+# [optionnel] jeu de donnees sur lequel appliquer les classification
+data={path}/maplearn/datasets/landsat_rennes.tif
+# dossier qui contiendra les sorties
+output={path}/tmp/example7/
+[preprocess]
+# [optionnel:booleen] faut-il centrer/reduire ? [true/false]
+scale=
+# [optionnel:booleen] faut-il reequilibrer les echantillons ? [true/false]
+balance=
+# [optionnel:txt] Reduit les dimensions du jeu de donnees (pca, lda, kbest, rfe,kernel_pca)
+reduce=
+# [optionnel:nombre] nombre de dimensions souhaitees apres reduction
+ncomp=
+# [optionnel:booleen] faut-il analyser la separabilite des echantillons ? [true/false]
+separability=
+[process]
+type=classification
+# [optionnel:txt] quelle mesure de distance utiliser (si different euclidean)
+distance=
+# [optionnel:txt ou list]algorithme(s) de classification a appliquer (ex: knn)
+algorithm=lda,knn,rforest
+kfold=
+# optimize des parametres de classification ? [true/false]
+optimize=
+# faut-il predire des resultats (exporter des classifs) ? [true/false]
+predict=true
