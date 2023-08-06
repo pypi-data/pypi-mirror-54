@@ -1,0 +1,150 @@
+tosca_definitions_version: tosca_simple_unfurl_1_0_0
+node_types:
+  unfurl.nodes.Configurator:
+    derived_from: tosca.nodes.Root
+    interfaces:
+      Provides:
+        type: unfurl.interfaces.Provides
+
+  unfurl.nodes.Default:
+    derived_from: tosca.nodes.Root
+
+  unfurl.nodes.K8sCluster:
+    derived_from: tosca.nodes.Root
+    properties:
+      connection:
+        type: map
+        required: false
+       # any K8S_AUTH_* in https://docs.ansible.com/ansible/latest/modules/k8s_module.html#k8s-module
+       # or if not specified checks in cluster KUBERNETES_SERVICE_HOST, KUBERNETES_SERVICE_PORT and /var/run/secrets/kubernetes.io/serviceaccount/
+       # see also https://www.terraform.io/docs/providers/kubernetes/index.html
+    capabilities:
+      host:
+        type: tosca.capabilities.Container
+        valid_source_types: [unfurl.nodes.K8sRawResource, unfurl.nodes.K8sNamespace]
+    attributes:
+      apiServer:
+        description: URL to the cluster's api server
+        type: string
+        metadata:
+          # mark this is as immutable to make sure the connection is pointing at the same cluster in subsequent runs
+         immutable: true
+    interfaces:
+      Standard:
+        inputs:
+          connection: {get_property: ['SELF', 'connection']}
+        create:
+          unfurl.k8s.ClusterConfigurator
+        configure:
+          unfurl.k8s.ClusterConfigurator
+
+  unfurl.nodes.DockerImage:
+    derived_from: tosca.nodes.Root
+    # usage: ::image::repoDigest::0
+    properties:
+      name:
+        type: string
+      tag:
+        type: string
+        default: 'latest'
+    attributes:
+       repoDigests:
+        type: list
+    interfaces:
+      Standard:
+        create:
+          # need to check hasChanged() if tag isn't a digest
+          unfurl.k8s.ImageConfigurator
+        configure:
+          unfurl.k8s.ImageConfigurator
+
+  unfurl.nodes.K8sRawResource:
+    derived_from: tosca.nodes.Root
+    requirements:
+      - host:
+          node: unfurl.nodes.K8sCluster
+          relationship: tosca.relationships.HostedOn
+    properties:
+     definition:
+       type: any
+       required: false
+    attributes:
+      apiResource:
+       type: map
+       required: false
+      name:
+       type: string
+       default:
+         eval: .name
+    interfaces:
+      Standard:
+        inputs:
+          connection: {get_property: ['HOST', 'connection']}
+        create:
+          unfurl.k8s.ResourceConfigurator
+        configure:
+          unfurl.k8s.ResourceConfigurator
+        delete:
+          unfurl.k8s.ResourceConfigurator
+
+  unfurl.nodes.K8sNamespace:
+    derived_from: unfurl.nodes.K8sRawResource
+    capabilities:
+      host:
+        type: tosca.capabilities.Container
+        valid_source_types: [unfurl.nodes.K8sResource]
+    properties:
+      name:
+        type: string
+        default: default
+        metadata:
+          # namespaces can't be renamed
+          immutable: true
+
+  unfurl.nodes.K8sResource:
+    derived_from: unfurl.nodes.K8sRawResource
+    requirements:
+      - host:
+          node: unfurl.nodes.K8sNamespace
+          relationship: tosca.relationships.HostedOn
+    attributes:
+      namespace:
+        type: string
+        default: {get_property: ['HOST', 'name']}
+
+  unfurl.nodes.k8sSecretResource:
+    derived_from: unfurl.nodes.K8sResource
+
+interface_types:
+  unfurl.interfaces.Configurator:
+    instantiate:
+      description: Coming soon!
+    revert:
+      description: Coming soon!
+    discover:
+      description: Coming soon!
+
+  unfurl.interfaces.Provides:
+    run:
+      description: Coming soon!
+    step1:
+      description: Coming soon!
+    step2:
+      description: Coming soon!
+    step3:
+      description: Coming soon!
+    step4:
+    step5:
+    step6:
+    step7:
+    step8:
+    step9:
+
+  unfurl.nodes.Configurator:
+    derived_from: tosca.nodes.Root
+    interfaces:
+      Provides:
+        type: unfurl.interfaces.Provides
+
+  unfurl.nodes.Default:
+    derived_from: tosca.nodes.Root
