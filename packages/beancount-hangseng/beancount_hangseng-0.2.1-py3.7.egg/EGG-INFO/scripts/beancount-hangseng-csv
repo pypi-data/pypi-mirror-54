@@ -1,0 +1,4 @@
+#!/home/yiufung/.virtualenvs/beancount/bin/python
+__copyright__ = "Copyright (C) 2019 Cheong Yiu Fung"
+__license__ = "GNU GPLv3"
+from beancount_hangseng.scripts.csv import main; main()
