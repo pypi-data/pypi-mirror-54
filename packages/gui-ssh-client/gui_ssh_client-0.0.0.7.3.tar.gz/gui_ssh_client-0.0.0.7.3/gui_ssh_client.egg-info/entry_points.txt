@@ -1,0 +1,6 @@
+[console_scripts]
+gui-ssh-client = gui_ssh_client.main:main
+
+[gui_scripts]
+gui-ssh-client = gui_ssh_client.main:main
+

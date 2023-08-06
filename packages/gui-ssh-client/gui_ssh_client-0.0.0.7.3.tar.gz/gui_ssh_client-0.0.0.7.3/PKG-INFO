@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: gui_ssh_client
+Version: 0.0.0.7.3
+Summary: Simple GUI SSH client implementation with Paramiko and Tkinter
+Home-page: https://gitlab.com/quantagonista/gui_ssh_client
+Author: quantagonista
+Author-email: quantagonista@gmail.com
+License: gpl-3.0
+Download-URL: https://gitlab.com/quantagonista/gui_ssh_client/-/archive/master/gui_ssh_client-master.tar.gz
+Description: Simple implementation of GUI for SSH Client for educational purposes.
+Keywords: ssh,tkinter,paramiko,ssh-client
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3

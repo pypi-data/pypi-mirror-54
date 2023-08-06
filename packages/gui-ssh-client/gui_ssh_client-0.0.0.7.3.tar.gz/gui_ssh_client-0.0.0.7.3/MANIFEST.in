@@ -1,0 +1,3 @@
+include gui_ssh_client/data/enve.png
+include gui_ssh_client/data/pc-3.png
+include gui_ssh_client/src/credentials.txt
