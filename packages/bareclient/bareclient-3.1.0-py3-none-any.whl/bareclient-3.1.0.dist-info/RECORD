@@ -1,0 +1,10 @@
+bareclient/__init__.py,sha256=ua_Q452_QjY6eMSj7ZBbp-eRgYy-vJPtFm7RZ2HFNII,364
+bareclient/client.py,sha256=R3dCozYjL0pl4RbGdAQwr7mdvLx8tQoRgsmlwvuLCnY,4188
+bareclient/helpers.py,sha256=GAu8vN-HHlQl88uNB_nLjoVtVCGmjhq8jbloGZ-5RRQ,8170
+bareclient/requester.py,sha256=bbENfbVZd2-125RA0SZ5Eu19IPaxvBC_2hqizQ190H0,4447
+bareclient/session.py,sha256=vu5TTR--h3yjJoWPnS1xzR8kOxmf1XvdtrJY0uGP3YA,3115
+bareclient/utils.py,sha256=8XKoCUcecMlKiSvfDBnZtZFAXYSJ0iu2OE6XkccZzqM,871
+bareclient-3.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bareclient-3.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+bareclient-3.1.0.dist-info/METADATA,sha256=j1w7esmo4i8eXgsAXbewTDx2VYoYvdaLKehzS-ndKOc,2765
+bareclient-3.1.0.dist-info/RECORD,,
