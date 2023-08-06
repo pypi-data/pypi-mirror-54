@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: zooper-common
+Version: 0.1.42
+Summary: This package contains useful common library
+Home-page: https://www.zooper.com
+Author: ZooperHacker
+Author-email: hi@zooper.com
+License: Apache License, Version 2.0
+Keywords: zooper-common
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: boto3
+Requires-Dist: keras (>=2.2.5)
+
+UNKNOWN
+
+
