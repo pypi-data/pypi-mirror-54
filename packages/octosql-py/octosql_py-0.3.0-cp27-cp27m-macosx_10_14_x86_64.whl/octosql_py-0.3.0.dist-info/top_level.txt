@@ -1,0 +1,2 @@
+octosql_py
+octosql_py_native
