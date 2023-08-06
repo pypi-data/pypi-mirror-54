@@ -1,0 +1,7 @@
+setup.py
+weimob123/__init__.py
+weimob123.egg-info/PKG-INFO
+weimob123.egg-info/SOURCES.txt
+weimob123.egg-info/dependency_links.txt
+weimob123.egg-info/not-zip-safe
+weimob123.egg-info/top_level.txt
