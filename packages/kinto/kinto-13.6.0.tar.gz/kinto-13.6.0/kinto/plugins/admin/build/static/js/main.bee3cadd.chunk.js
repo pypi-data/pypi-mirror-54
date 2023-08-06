@@ -1,0 +1,2 @@
+(this.webpackJsonpkwac=this.webpackJsonpkwac||[]).push([[0],{247:function(e,n,t){e.exports=t(248)},248:function(e,n,t){"use strict";t.r(n);var a=t(0),s=t.n(a),i=t(111),o=t.n(i),r=t(241),c=t.n(r),p=t(246),u={maxPerPage:50,singleServer:document.location.toString().split("/admin/")[0]};o.a.render(s.a.createElement(c.a,{settings:u,plugins:[p]}),document.getElementById("root"))}},[[247,1,2]]]);
+//# sourceMappingURL=main.bee3cadd.chunk.js.map
