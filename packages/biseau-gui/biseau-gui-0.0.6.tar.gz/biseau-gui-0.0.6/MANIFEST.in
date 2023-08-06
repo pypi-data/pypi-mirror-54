@@ -1,0 +1,12 @@
+include README.mkd MANIFEST.in
+exclude Makefile
+prune scripts
+recursive-include biseau_gui *.py
+recursive-include biseau_gui *.lp
+recursive-include biseau_gui *.json
+recursive-include biseau_gui *.csv
+recursive-include biseau_gui *.cxt
+recursive-include biseau_gui *.txt
+recursive-include scripts *.py
+recursive-include scripts *.lp
+recursive-include scripts *.json

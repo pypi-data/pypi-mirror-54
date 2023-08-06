@@ -1,0 +1,8 @@
+[{
+    "name": "Galois Lattice",
+    "tags": ["FCA", "initial example"],
+    "description": "Compute the Galois Lattice, represented as under/2 atoms",
+    "ASP": "% Generate the concept lattice of an input context.\n%\n% INPUT:\n%   - ext(N,X):- object X is in extent of concept N.\n%   - int(N,Y):- attribute X is in intent of concept N.\n%   - concept(N):- N is the unique id of a concept.\n% OUTPUT:\n%   - smaller(C,D):- concept C is smaller than concept D\n%   - under(C,D):- concept C is the biggest smaller than concept D\n\n\n% Ordering of two concepts.\nsmaller(C1,C2):- concept(C1) ; concept(C2) ; C1!=C2 ; ext(C1,X): ext(C2,X).\n\n% C1 is under C2 if there is no concepts between them.\nunder(C1,C3):- smaller(C1,C3) ; not concept(C2): smaller(C1,C2) , smaller(C2,C3).\n",
+    "inputs": ["rel/2", "ext/2", "int/2", "concept/1"],
+    "outputs": ["under/2", "smaller/2"]
+}]
