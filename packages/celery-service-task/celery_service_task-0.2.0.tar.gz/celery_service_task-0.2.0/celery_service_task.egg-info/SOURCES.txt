@@ -1,0 +1,8 @@
+README.md
+setup.py
+celery_service_task/__init__.py
+celery_service_task/task.py
+celery_service_task.egg-info/PKG-INFO
+celery_service_task.egg-info/SOURCES.txt
+celery_service_task.egg-info/dependency_links.txt
+celery_service_task.egg-info/top_level.txt
