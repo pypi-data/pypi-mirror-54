@@ -1,0 +1,3 @@
+[console_scripts]
+draw_mempool = draw_mempool.draw_mempool:main
+
