@@ -1,0 +1,38 @@
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.create_ucs').click(function (e) {
+            if (confirm('确定开启此课吗?')) {
+                e.preventDefault();
+                var url = $(this).attr('data-confirm');
+                $.post(url).done(function (data) {
+                    alert(data['message']);
+                    window.location.href = data['new_url'];
+                });
+            }
+        });
+
+        $('.pass_ucs').click(function (e) {
+            if (confirm('确定通过此课吗?')) {
+                e.preventDefault();
+                var url = $(this).attr('data-confirm');
+                $.post(url).done(function (data) {
+                    alert(data['message']);
+                    window.location.href = data['new_url'];
+                });
+            }
+        });
+
+        $('.close_ucs').click(function (e) {
+            if (confirm('此操作将清空课件学习时间，是否继续?')) {
+                e.preventDefault();
+                var url = $(this).attr('data-confirm');
+                $.post(url).done(function (data) {
+                    alert(data['message']);
+                    window.location.href = data['new_url'];
+                });
+            }
+        });
+
+    });
+
+</script>

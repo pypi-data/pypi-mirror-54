@@ -1,0 +1,34 @@
+{% if user and user.is_pause %}
+
+{% else %}
+    {% if ucs.status == 0 %}
+        {% if perms.bee_django_course.open_ucs %}
+            <a href="#" class="btn btn-danger create_ucs"
+               data-confirm="{% url 'bee_django_course:open_user_course_section' ucs_id=ucs.id %}">
+                开启课件
+            </a>
+        {% endif %}
+    {% elif ucs.status == 1 %}
+        {#无条件通过课件#}
+        {% if perms.bee_django_course.pass_ucs_super %}
+            <a href="#" class="btn btn-success pass_ucs"
+               data-confirm="{% url 'bee_django_course:pass_user_course_section' ucs_id=ucs.id %}">
+                通过课件
+            </a>
+            {#达到要求后通过课件#}
+        {% elif perms.bee_django_course.pass_ucs %}
+            {% if ucs.pass_check == True %}
+                <a href="#" class="btn btn-success pass_ucs"
+                   data-confirm="{% url 'bee_django_course:pass_user_course_section' ucs_id=ucs.id %}">
+                    通过课件
+                </a>
+            {% endif %}
+        {% endif %}
+        {% if perms.bee_django_course.close_ucs %}
+            <a href="#" class="btn btn-warning close_ucs"
+               data-confirm="{% url 'bee_django_course:close_user_course_section' ucs_id=ucs.id %}">
+                关闭课件
+            </a>
+        {% endif %}
+    {% endif %}
+{% endif %}

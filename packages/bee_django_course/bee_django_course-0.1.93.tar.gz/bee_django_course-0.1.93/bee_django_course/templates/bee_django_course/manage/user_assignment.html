@@ -1,0 +1,70 @@
+{% extends "bee_django_course/base.html" %}
+{% load bootstrap3 %}
+{% block content %}
+    <h4>作业详情</h4>
+    <h5>{{ ucs.section.name }} | 学生: {{ ucs.user_course.user }}</h5>
+
+    {% if ucs.section.has_imagework %}
+        <div class="well">
+            <h5>图片作业要求：需要上传{{ ucs.section.image_count_req }}张图片</h5>
+            {% if assignment_images.exists %}
+                <h5>
+                    已上传图片：
+                    {% for e in assignment_images %}
+                        <a href="{{ e.image.url }}" target="_blank">{{ forloop.counter }}</a>
+                    {% endfor %}
+                </h5>
+            {% else %}
+                还未上传图片作业
+            {% endif %}
+        </div>
+    {% endif %}
+
+    {% if ucs.section.has_videowork %}
+        <div class="well">
+            <h5>录播作业要求：需要录制{{ ucs.section.video_length_req }}分钟的作业</h5>
+            已录制{{ ucs.work_time }}分钟
+            <a href="{% url 'bee_django_course:live_list' user_id=ucs.user_course.user.id %}"
+               class="btn btn-default">查看</a>
+        </div>
+    {% endif %}
+
+    {% if ucs.section.has_textwork %}
+        <div class="well">
+            <h5>文字作业要求：{{ ucs.section.textwork_info }}</h5>
+            {% if assignments|length > 0 %}
+                <h5>状态：已提交</h5>
+                {% for e in assignments %}
+                    <div>
+                        {{ e.content | safe }}
+                    </div>
+                {% endfor %}
+            {% else %}
+                未提交
+            {% endif %}
+        </div>
+    {% endif %}
+
+    {% if ucs.section.has_questionwork %}
+        <div class="well">
+            <h5>作业要求：需回答问题</h5>
+            {% if ucs.question_passed %}
+                于【{{ ucs.question_passed_at|date:"Y-m-d H:i:s" }}】通过答题
+
+            {% else %}
+                未答题
+            {% endif %}
+        </div>
+    {% endif %}
+
+    {% if not ucs.is_passed %}
+        {% include 'bee_django_course/user/_ucs_management.html' %}
+    {% else %}
+        已通过
+    {% endif %}
+
+{% endblock content %}
+
+{% block scripts %}
+    {% include 'bee_django_course/user/_ucs_management_script.html' %}
+{% endblock scripts %}

@@ -1,0 +1,165 @@
+{% extends "bee_django_course/base.html" %}
+
+{% block content %}
+    {#课程列表#}
+    <div style="margin: 10px 0;">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                课程列表
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                {% for u_c in user_course_list %}
+                    <li><a href="{% url 'bee_django_course:user_course_detail' u_c.id %}">{{ u_c.course.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="text-center"><h4>{{ user_course.course.name }}</h4></div>
+
+    <table class="table">
+        <thead>
+        <tr>
+            {#            <th>顺序</th>#}
+            <th>ID</th>
+            <th>课件</th>
+            <th>状态</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for ucs in user_course_section_list %}
+            <tr>
+                {#                <td>#}
+                {#                    {{ucs.section.coursesectionmid_set.all }}#}
+                {#                </td>#}
+                <td>
+                    {{ucs.id }}
+                </td>
+                <td>
+                    {{ucs.section.name }}
+                </td>
+                <td>
+                    {% if ucs.status == 0 %}
+                        未开始
+                    {% elif ucs.status == 1 %}
+                        学习中
+                    {% elif ucs.status == 2 %}
+                        已通过
+                    {% elif ucs.status == 3 %}
+                        退回重修
+                    {% elif ucs.status == 4 %}
+                        已提交
+                    {% endif %}
+                    {% if not ucs.status == 0 %}
+                        <a href="{% url 'bee_django_course:user_course_section_detail' pk=ucs.id %}">详情</a>
+                    {% endif %}
+                </td>
+                <td>
+
+
+                    {#                    {{ucs.score | default:'' }}#}
+                </td>
+                <td>
+                    {% if ucs.is_learning %}
+                        <div>
+                            {% if ucs.section.has_videowork %}
+                                录播：{{ucs.work_time }}
+                                {% if ucs.minus_live_mins > 0 %}
+                                    - {{ucs.minus_live_mins }}
+                                {% endif %}
+                                /
+                                {{ucs.section.video_length_req }}
+                                {% if ucs.teacher_add_mins > 0 %}
+                                    + {{ucs.teacher_add_mins }}
+                                {% endif %}
+                                {% if ucs.work_time > 0 and ucs.is_learning %}
+                                    {% if perms.bee_django_course.minus_live_mins %}
+                                        <div>
+                                            修改扣减分钟数为：<input id="minus_live_mins_{{ucs.id }}" size="3"
+                                                            value="{{ucs.minus_live_mins }}">
+                                            <button class="btn-warning" onclick="save_minus_live_mins('{{ucs.id }}')">确定
+                                            </button>
+                                        </div>
+                                    {% endif %}
+                                {% endif %}
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if ucs.section.has_imagework %}
+                                图片：
+                                {{ ucs.get_assignment_img_count }} / {{ ucs.section.image_count_req }}
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if ucs.section.has_textwork %}
+                                文字作业：
+
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if ucs.section.has_to_finish_course_video %}
+                                看完全部视频：
+                                {% if ucs.check_video_watch_status == True %}
+                                    √
+                                {% else %}
+                                    ×
+                                {% endif %}
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if ucs.section.has_questionwork %}
+                                答题：
+                                {% if ucs.question_passed %}
+                                    √
+                                {% else %}
+                                    ×
+                                {% endif %}
+                            {% endif %}
+                        </div>
+                        <div>
+                            {% if ucs.section.pass_cooldown > 0 %}
+                                距最近通过课件时间间隔：{{ ucs.section.pass_cooldown }}天
+                            {% endif %}
+                        </div>
+                    {% elif ucs.is_passed %}
+                        {{ ucs.passed_at|date:"Y-m-d H:i" }}通过
+                    {% endif %}
+                </td>
+                <td>
+                    {% if ucs.is_learning %}
+                        {% if ucs.section.has_imagework or ucs.section.has_textwork or ucs.section.has_videowork or ucs.section.has_questionwork %}
+                            <a href="{% url 'bee_django_course:manage_user_assignment' ucs_id=ucs.id %}"
+                               class="btn btn-default">作业</a>
+                        {% endif %}
+                    {% endif %}
+                    {% include 'bee_django_course/user/_ucs_management.html' %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    {% include 'bee_django_course/paginator.html' %}
+
+
+{% endblock content %}
+{% block scripts %}
+    {% include 'bee_django_course/user/_ucs_management_script.html' %}
+    <script type="text/javascript">
+
+        function save_minus_live_mins(ucs_id) {
+            var mins = $("#minus_live_mins_" + ucs_id).val();
+            var url = "{% url 'bee_django_course:save_ucs_minus_live_mins' %}";
+            $.post(url, {"ucs_id": ucs_id, "mins": mins}).done(function (data) {
+                alert(data['msg']);
+                if (data.error == 0) {
+                    location.reload();
+                }
+            });
+        }
+    </script>
+{% endblock scripts %}
