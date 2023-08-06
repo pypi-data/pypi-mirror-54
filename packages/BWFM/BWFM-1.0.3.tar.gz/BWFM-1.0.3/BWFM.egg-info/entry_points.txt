@@ -1,0 +1,3 @@
+[gui_scripts]
+bwfm = BWFM.__init__:main
+
