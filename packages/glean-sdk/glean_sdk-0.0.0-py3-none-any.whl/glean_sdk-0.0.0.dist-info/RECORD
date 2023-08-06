@@ -1,0 +1,10 @@
+glean/__init__.py,sha256=68vaw7oIynoAgwQIHonj-s64tAps0DLQ3qN-3wvUskQ,651
+glean/_ffi.py,sha256=d-7Ur3zXCCndqM6EuWGDHRB8yTfeJji4XEhML4UfdEI,1078
+glean/config.py,sha256=v-nhaBBUm75qao_xuiExS0mkvaFY2iFIb2nqYavrbO4,277
+glean/glean.py,sha256=PfBgUrc8rq90P8jCcB9sKCOIP7br7pFuCXeUH0pGMpo,1414
+glean_sdk-0.0.0.data/data/glean/glean.h,sha256=fkT01KDn8Z6z0At-15RgNPxJVJeyARXdUMc8FWiYFAU,18163
+glean_sdk-0.0.0.data/data/glean/libglean_ffi.so,sha256=O2QQkdY52tazgq2P-GRLEyCNV1-DFnKtlc6eiM6iNl0,45669992
+glean_sdk-0.0.0.dist-info/METADATA,sha256=ns4qxe3qSJ4f-V4SiEcJUr2onFKz3ROC3OjfDpeIvtY,6609
+glean_sdk-0.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+glean_sdk-0.0.0.dist-info/top_level.txt,sha256=N-QDz2ZVFf_ri6I-rG78XOu7eeLTFHwrrRodPr2Xb08,6
+glean_sdk-0.0.0.dist-info/RECORD,,

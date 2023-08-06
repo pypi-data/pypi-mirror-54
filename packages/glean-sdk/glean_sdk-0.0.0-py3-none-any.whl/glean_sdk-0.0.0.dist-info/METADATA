@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: glean-sdk
+Version: 0.0.0
+Summary: Mozilla's Glean Telemetry SDK: The Machine that Goes 'Ping!'
+Home-page: https://github.com/mozilla/glean
+Author: The Glean Team
+Author-email: telemetry-client-dev@mozilla.com
+License: UNKNOWN
+Keywords: glean
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cffi (==1.13.1)
+
+# Glean SDK
+
+![Glean logo](docs/glean.jpeg)
+
+## Documentation
+
+All documentation is available online:
+
+## [The Glean SDK Book][book]
+
+## Overview
+
+Refer to the documentation for [using and developing the Glean SDK][book].
+
+For an overview of Glean beyond just the SDK, see the [section in the Firefox data docs](https://docs.telemetry.mozilla.org/concepts/glean/glean.html).
+
+The code in this repository is organized as follows:
+
+* [./glean-core/](glean-core) contains the source for the low-level Rust library.
+* [./glean-core/ffi](glean-core/ffi) contains the mapping into a C FFI.
+* [./glean-core/android](glean-core/android) contains the Kotlin bindings for use by Android applications.
+* [./glean-core/ios](glean-core/ios) contains the Swift bindings for use by iOS applications.
+
+**Note: The Glean SDK requires at least [Rust 1.34.2](https://blog.rust-lang.org/2019/05/14/Rust-1.34.2.html). Older versions are untested.**
+
+## Contact
+
+To contact us you can:
+
+* Find us on the Mozilla Slack in *#glean*, on [Mozilla IRC][mozirc] in *#telemetry*.
+* To report issues or request changes, file a bug in [Bugzilla in Data Platform & Tools :: Glean: SDK][newbugzilla].
+* Send an email to *glean-team@mozilla.com*.
+* The Glean Core team is: *:dexter*, *:janerik*, *:mdroettboom*, *:travis_*, *:gfritzsche*, *:chutten*, *:brizental*.
+
+## Credits
+
+The Glean logo artwork was contributed by [Diana Ciufo](https://dianaciufo.wordpress.com/).
+It's licensed under MPL.
+
+## License
+
+    This Source Code Form is subject to the terms of the Mozilla Public
+    License, v. 2.0. If a copy of the MPL was not distributed with this
+    file, You can obtain one at http://mozilla.org/MPL/2.0/
+
+
+[mozirc]: https://wiki.mozilla.org/IRC
+[newbugzilla]: https://bugzilla.mozilla.org/enter_bug.cgi?assigned_to=nobody%40mozilla.org&bug_ignored=0&bug_severity=normal&bug_status=NEW&cf_fission_milestone=---&cf_fx_iteration=---&cf_fx_points=---&cf_status_firefox65=---&cf_status_firefox66=---&cf_status_firefox67=---&cf_status_firefox_esr60=---&cf_status_thunderbird_esr60=---&cf_tracking_firefox65=---&cf_tracking_firefox66=---&cf_tracking_firefox67=---&cf_tracking_firefox_esr60=---&cf_tracking_firefox_relnote=---&cf_tracking_thunderbird_esr60=---&product=Data%20Platform%20and%20Tools&component=Glean%3A%20SDK&contenttypemethod=list&contenttypeselection=text%2Fplain&defined_groups=1&flag_type-203=X&flag_type-37=X&flag_type-41=X&flag_type-607=X&flag_type-721=X&flag_type-737=X&flag_type-787=X&flag_type-799=X&flag_type-800=X&flag_type-803=X&flag_type-835=X&flag_type-846=X&flag_type-855=X&flag_type-864=X&flag_type-916=X&flag_type-929=X&flag_type-930=X&flag_type-935=X&flag_type-936=X&flag_type-937=X&form_name=enter_bug&maketemplate=Remember%20values%20as%20bookmarkable%20template&op_sys=Unspecified&priority=P3&&rep_platform=Unspecified&status_whiteboard=%5Btelemetry%3Aglean-rs%3Am%3F%5D&target_milestone=---&version=unspecified
+[book]: https://mozilla.github.io/glean/
+[rustdoc]: https://mozilla.github.io/glean/docs/index.html
+[ktdoc]: https://mozilla.github.io/glean/javadoc/glean/index.html
+
+
+# Unreleased changes
+
+[Full changelog](https://github.com/mozilla/glean/compare/v19.0.0...master)
+
+* Fixed a crash calling `start` on a timing distribution metric before Glean is initialized.
+  Timings are always measured, but only recorded when upload is enabled ([#400](https://github.com/mozilla/glean/pull/400))
+* BUGFIX: When the Debug Activity is used to log pings, each ping is now logged only once ([#407](https://github.com/mozilla/glean/pull/407))
+* New `invalid state` error, used in timespan recording ([#230](https://github.com/mozilla/glean/pull/230))
+* Add an Android crash instrumentation walkthrough ([#399](https://github.com/mozilla/glean/pull/399))
+
+# v19.0.0 (2019-10-22)
+
+[Full changelog](https://github.com/mozilla/glean/compare/v0.0.1-TESTING6...v19.0.0)
+
+First stable release of Glean in Rust (aka glean-core).
+This is a major milestone in using a cross-platform implementation of Glean on the Android platform.
+
+* Fix roundtripping of timezone offsets in dates ([#392](https://github.com/mozilla/glean/pull/392))
+* Handle dynamic labels in coroutine tasks ([#394](https://github.com/mozilla/glean/pull/384))
+
+# v0.0.1-TESTING6 (2019-10-18)
+
+[Full changelog](https://github.com/mozilla/glean/compare/v0.0.1-TESTING5...v0.0.1-TESTING6)
+
+* Ignore dynamically stored labels if Glean is not initialized ([#374](https://github.com/mozilla/glean/pull/374))
+* Make sure ProGuard doesn't remove Glean classes from the app ([#380](https://github.com/mozilla/glean/pull/380))
+* Keep track of pings in all modes ([#378](https://github.com/mozilla/glean/pull/378))
+* Add 'jnaTest' dependencies to the 'forUnitTest' JAR ([#382](https://github.com/mozilla/glean/pull/382))
+
+# v0.0.1-TESTING5 (2019-10-10)
+
+[Full changelog](https://github.com/mozilla/glean/compare/v0.0.1-TESTING4...v0.0.1-TESTING5)
+
+* Upgrade to NDK r20 ([#365](https://github.com/mozilla/glean/pull/365))
+
+# v0.0.1-TESTING4 (2019-10-09)
+
+[Full changelog](https://github.com/mozilla/glean/compare/v0.0.1-TESTING3...v0.0.1-TESTING4)
+
+* Take DST into account when converting a calendar into its items ([#359](https://github.com/mozilla/glean/pull/359))
+* Include a macOS library in the `forUnitTests` builds ([#358](https://github.com/mozilla/glean/pull/358))
+* Keep track of all registered pings in test mode ([#363](https://github.com/mozilla/glean/pull/363))
+
+# v0.0.1-TESTING3 (2019-10-08)
+
+[Full changelog](https://github.com/mozilla/glean/compare/v0.0.1-TESTING2...v0.0.1-TESTING3)
+
+* Allow configuration of Glean through the GleanTestRule
+* Bump `glean_parser` version to 1.9.2
+
+# v0.0.1-TESTING2 (2019-10-07)
+
+[Full changelog](https://github.com/mozilla/glean/compare/v0.0.1-TESTING1...v0.0.1-TESTING2)
+
+* Include a Windows library in the `forUnitTests` builds
+
+# v0.0.1-TESTING1 (2019-10-02)
+
+[Full changelog](https://github.com/mozilla/glean/compare/95b6bcc03616c8d7c3e3e64e99ee9953aa06a474...v0.0.1-TESTING1)
+
+### General
+
+First testing release.
+
+
