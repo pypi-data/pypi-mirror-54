@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+data/data_file
+sample/__init__.py
+sample/package_data.dat
+sampleproject_doubleyoung18.egg-info/PKG-INFO
+sampleproject_doubleyoung18.egg-info/SOURCES.txt
+sampleproject_doubleyoung18.egg-info/dependency_links.txt
+sampleproject_doubleyoung18.egg-info/entry_points.txt
+sampleproject_doubleyoung18.egg-info/requires.txt
+sampleproject_doubleyoung18.egg-info/top_level.txt
