@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fishualize
+Version: 0.1.0
+Summary: Python version of the fishualize package
+Home-page: https://github.com/DoriMG/py_fishualize
+Author: Dori Grijseels
+Author-email: dgrijseels@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=0.19.0)
+Requires-Dist: numpy (>=1.13.0)
+Requires-Dist: matplotlib (>=2.0.0)
+
+# fishualize
+
+Color Palettes Based on Fish Species
+This is the python version of the R package made by [Nina Schiettekatte](https://github.com/nschiett), Simon Brandl and Jordan Casey. Find the R package on their [GitHub page](https://github.com/nschiett/fishualize). All credit to them for the dataset and the idea behind the package!
+
+## Installation
+You can find the package on pip:
+~~~~
+pip install fishualize
+~~~~
+
+## Usage
+
+To get all the possible fish options, run `fish_palettes()`
+
+To create a colormap, use the `fish` function. Several parameters are available:
+* n_colors: the number of colors you want the colormap to have.
+* option: the fish you want the pallette of (can be either int or string).
+* alpha: the alpha of the entire pallette.
+* direction: the direction of the colormap (either forward (1) or reverse (-1)).
+
+
