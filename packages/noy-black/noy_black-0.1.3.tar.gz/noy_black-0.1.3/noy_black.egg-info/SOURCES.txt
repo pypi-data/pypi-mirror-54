@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+noy_black/Grammar.txt
+noy_black/__init__.py
+noy_black/main.py
+noy_black.egg-info/PKG-INFO
+noy_black.egg-info/SOURCES.txt
+noy_black.egg-info/dependency_links.txt
+noy_black.egg-info/entry_points.txt
+noy_black.egg-info/requires.txt
+noy_black.egg-info/top_level.txt
