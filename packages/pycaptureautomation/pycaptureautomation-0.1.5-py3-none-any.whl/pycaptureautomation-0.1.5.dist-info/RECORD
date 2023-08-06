@@ -1,0 +1,12 @@
+pycaptureautomation/__init__.py,sha256=DqZwQhqjY9YRisXcvqX6R15s5gSOjgLp621KcDuClvI,196
+pycaptureautomation/capturearea.py,sha256=O1OqUJZRIro9vAPEUPPaX-e9eZXth_2LcgM8Px2rx2k,1329
+pycaptureautomation/circle.py,sha256=pRiRVdWIIqL-iRHyhzqEyi_dRMkNpTYRyZ4KORECgGU,1232
+pycaptureautomation/color.py,sha256=GFmOumJYwY8AfrPUbLq-KACoiPwFPv3NfJHH2L4iEGQ,267
+pycaptureautomation/mask.py,sha256=0bGFkgOhrpN-zmJY_qfmlALqB3xxILrNe31GmTmyw7I,1752
+pycaptureautomation/pycaptureautomation.py,sha256=5hV1mDctZUGlVQxDt0lrxdGJSvfiQHyLyY5fGUjmmTQ,2281
+pycaptureautomation/rectangle.py,sha256=mQ0AQQahRkj7WnxSoR7OQxKIYkW8DfCx2YFgpbWwuxY,1434
+pycaptureautomation-0.1.5.dist-info/LICENSE,sha256=li_wxHIGLrWKxwvprIBRxS1T5VvDLSVKZIOXy_nLCoI,1092
+pycaptureautomation-0.1.5.dist-info/METADATA,sha256=iJrdEvCGH62c6kIssWDa3aFtxJet-0_KA_k_okH4wYE,766
+pycaptureautomation-0.1.5.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+pycaptureautomation-0.1.5.dist-info/top_level.txt,sha256=m07vrJAG8RYxvSqsyrIZwPvweKmax7iI-u3LvMH_Aak,20
+pycaptureautomation-0.1.5.dist-info/RECORD,,
