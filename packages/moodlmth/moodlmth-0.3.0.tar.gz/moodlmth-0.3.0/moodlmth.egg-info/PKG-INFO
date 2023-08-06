@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: moodlmth
+Version: 0.3.0
+Summary: Convert raw HTML pages into python source code
+Home-page: https://github.com/sayanarijit/moodlmth
+Author: Arijit Basu
+Author-email: sayanarijit@gmail.com
+License: MIT
+Description: moodlmth
+        ========
+        Convert raw HTML pages into python source code
+        
+        [![PyPI version](https://img.shields.io/pypi/v/moodlmth.svg)](https://pypi.org/project/moodlmth)
+        [![PyPI pyversions](https://img.shields.io/pypi/pyversions/moodlmth.svg)](https://pypi.org/project/moodlmth)
+        [![Build Status](https://travis-ci.org/sayanarijit/moodlmth.svg?branch=master)](https://travis-ci.org/sayanarijit/moodlmth)
+        [![codecov](https://codecov.io/gh/sayanarijit/moodlmth/branch/master/graph/badge.svg)](https://codecov.io/gh/sayanarijit/moodlmth)
+        [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+        
+        What..?
+        -------
+        [moodlmth](https://github.com/sayanarijit/moodlmth) is the reverse of [htmldoom](https://github.com/sayanarijit/htmldoom)
+        
+        Usage
+        -----
+        ```bash
+        # Convert web page to Python syntax
+        moodlmth https://google.com
+        
+        # Convert web page into YAML syntax
+        moodlmth -s yaml https://google.com
+        
+        # Convert HTML file and write to another file
+        moodlmth /filepath/index.html -o index.py
+        
+        # Force conversion
+        moodlmth index.html -o index.py --fast --debug
+        ```
+        
+Keywords: html dom builder
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: dev
