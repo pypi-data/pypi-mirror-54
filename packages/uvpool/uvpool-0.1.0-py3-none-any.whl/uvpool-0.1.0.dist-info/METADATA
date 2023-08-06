@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: uvpool
+Version: 0.1.0
+Summary: A pool of network utilities based on uvloop
+License: MIT
+Author: Yehuda Deutsch
+Author-email: yeh@uda.co.il
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: uvloop (>=0.13,<0.14)
