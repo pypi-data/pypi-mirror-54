@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+achan_test.egg-info/PKG-INFO
+achan_test.egg-info/SOURCES.txt
+achan_test.egg-info/dependency_links.txt
+achan_test.egg-info/requires.txt
+achan_test.egg-info/top_level.txt
