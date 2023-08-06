@@ -1,0 +1,9 @@
+musdb==0.3.1
+museval==0.3.0
+norbert==0.2.1
+pandas==0.25.1
+requests
+tensorflow==1.14.0
+
+[:python_version < "3.7"]
+importlib_resources
