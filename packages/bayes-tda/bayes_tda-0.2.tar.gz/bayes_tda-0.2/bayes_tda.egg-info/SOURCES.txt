@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+bayes_tda/__init__.py
+bayes_tda/bayes_tda.py
+bayes_tda/circle_example.py
+bayes_tda/research_statement.py
+bayes_tda.egg-info/PKG-INFO
+bayes_tda.egg-info/SOURCES.txt
+bayes_tda.egg-info/dependency_links.txt
+bayes_tda.egg-info/requires.txt
+bayes_tda.egg-info/top_level.txt
