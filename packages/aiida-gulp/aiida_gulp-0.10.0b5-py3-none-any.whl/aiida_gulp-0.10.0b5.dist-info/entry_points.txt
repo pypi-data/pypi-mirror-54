@@ -1,0 +1,27 @@
+[aiida.calculations]
+gulp.fitting = aiida_gulp.calculations.gulp_fitting:GulpFittingCalculation
+gulp.optimize = aiida_gulp.calculations.gulp_optimize:GulpOptCalculation
+gulp.single = aiida_gulp.calculations.gulp_single:GulpSingleCalculation
+
+[aiida.cmdline.data]
+gulp.potentials = aiida_gulp.cmndline.potentials:potentials
+
+[aiida.data]
+gulp.potential = aiida_gulp.data.potential:EmpiricalPotential
+gulp.symmetry = aiida_gulp.data.symmetry:SymmetryData
+
+[aiida.parsers]
+gulp.fitting = aiida_gulp.parsers.parse_fitting:GulpFittingParser
+gulp.optimize = aiida_gulp.parsers.parse_opt:GulpOptParser
+gulp.single = aiida_gulp.parsers.parse_single:GulpSingleParser
+
+[aiida.workflows]
+
+
+[console_scripts]
+gulp_mock = aiida_gulp.tests.mock_gulp:main
+
+[gulp.potentials]
+lj = aiida_gulp.potentials.lj:PotentialWriterLJ
+reaxff = aiida_gulp.potentials.reaxff:PotentialWriterReaxff
+
