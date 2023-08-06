@@ -1,0 +1,11 @@
+README.md
+setup.py
+textaug/__init__.py
+textaug/core.py
+textaug/textaug.py
+textaug.egg-info/PKG-INFO
+textaug.egg-info/SOURCES.txt
+textaug.egg-info/dependency_links.txt
+textaug.egg-info/entry_points.txt
+textaug.egg-info/requires.txt
+textaug.egg-info/top_level.txt

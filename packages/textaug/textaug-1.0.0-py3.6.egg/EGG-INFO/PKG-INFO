@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: textaug
+Version: 1.0.0
+Summary: Text Image Augmentor: data generator for text recognition
+Home-page: UNKNOWN
+Author-email: rocketgrowthsj@publicai.co.kr
+License: MIT
+Description: # Text-Image-Augmentor
+        
+        한글 이미지 인식 데이터셋을 위한 데이터 증강 라이브러리
+        
+        ### 목적
+        
+        OCR 텍스트 인식 모델을 개발할 때, 부족한 데이터셋 수를 늘리기 위한 목적으로 개발
+        
+        
+        ### 사용법
+        
+        1. pypi에서 패키지 설치하기
+        
+            ````shell
+            pip install text-imgaug
+            ````
+        
+        2. CLI(Command-Line Interface)에서 실행하기
+            ````shell
+            textaug ./input_dir ./output_dir --multiples=3
+            ````
+            
+            
+        ----
+        Copyright 2019, NIA(한국정보화진흥원), All rights reserved.
+Keywords: text-recognition training-set-generator ocr dataset
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
