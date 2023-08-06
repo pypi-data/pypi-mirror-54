@@ -1,0 +1,29 @@
+graft docs
+graft src
+graft ci
+graft tests
+
+include AUTHORS.rst
+include CHANGELOG.rst
+include CONTRIBUTING.rst
+include LICENSE
+include README.rst
+include pyproject.toml
+include requirements.txt
+
+exclude .appveyor.yml
+exclude .bumpversion.cfg
+exclude .codacy.yaml
+exclude .cookiecutterrc
+exclude .coveragerc
+exclude .editorconfig
+exclude .travis.yml
+exclude tox.ini
+
+global-exclude *.py[cod] __pycache__/* *.so *.dylib
+
+recursive-include fake_project *.bat
+recursive-include fake_project *.md
+recursive-include fake_project *.py
+recursive-include fake_project *.rst
+recursive-include fake_project Makefile
