@@ -1,0 +1,3 @@
+[console_scripts]
+memory_analyzer = memory_analyzer.memory_analyzer:cli
+
