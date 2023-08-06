@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: SMUTHI
+Version: 0.9.0
+Summary: Light scattering by multiple particles in thin-film systems
+Home-page: https://gitlab.com/AmosEgel/smuthi
+Author: Amos Egel
+Author-email: amos.egel@gmail.com
+License: MIT
+Description: test
+Platform: UNKNOWN
