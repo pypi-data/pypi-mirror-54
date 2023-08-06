@@ -1,0 +1,13 @@
+mrio_common_metadata/__init__.py,sha256=Weydd29iiFWi-ezjN1oc8rfLXU1WPQTrTXLTU77-yz4,5485
+mrio_common_metadata/utils.py,sha256=ZD2KXJkDpSHo6QD7IeVYhRqdpYe9QVPMT49JQzW7IXM,626
+mrio_common_metadata/version.py,sha256=H1gCZSUKizbaFVykAiQmeLKxzmKwt6c38hEb8hmD1UU,20
+mrio_common_metadata/conversion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mrio_common_metadata/conversion/exiobase_3_hybrid/__init__.py,sha256=O08r6zFe7zazA-uCgQu2JtggOOaqSoqp88bJXpuA0OI,6506
+mrio_common_metadata/conversion/exiobase_3_hybrid/datapackage.py,sha256=JsiV8tjXOQcuCZhJZ6TDkwLKFNpHbqx0dIx3cjMZfMo,6997
+mrio_common_metadata/conversion/exiobase_3_hybrid/utils.py,sha256=GBarrVw4Iq6EbnLzqC_ydmqlIHcepG9CiVkVSs8OVQw,2189
+mrio_common_metadata/conversion/exiobase_3_hybrid/version_config.py,sha256=mw75mpMYPY9WLBRF9ZCtPUOksMEiNDrzrZfQhvSYQRE,3039
+mrio_common_metadata-0.1.1.dist-info/LICENSE,sha256=2_r6CZgf22wtDYO1nDA27AM64X11rQQmgxArORh6ADo,1511
+mrio_common_metadata-0.1.1.dist-info/METADATA,sha256=Mb_OkD-Y8hy585HRrJXX96Mmi95dGH2nywmuGuJkG-Y,2294
+mrio_common_metadata-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mrio_common_metadata-0.1.1.dist-info/top_level.txt,sha256=-U40OxSQTG7lWTmusIvIwhkWr2BEkiiihzY68fWCH4k,21
+mrio_common_metadata-0.1.1.dist-info/RECORD,,
