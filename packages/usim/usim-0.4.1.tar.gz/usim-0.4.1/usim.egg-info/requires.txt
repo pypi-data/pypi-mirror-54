@@ -1,0 +1,17 @@
+sortedcontainers
+
+[contrib]
+flake8
+flake8-bugbear
+pytest>=4.3.0
+pytest-timeout
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-trio
+sphinxcontrib-contentui
+
+[test]
+pytest>=4.3.0
+pytest-timeout
