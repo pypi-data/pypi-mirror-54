@@ -1,0 +1,6 @@
+setup.py
+FinKit.egg-info/PKG-INFO
+FinKit.egg-info/SOURCES.txt
+FinKit.egg-info/dependency_links.txt
+FinKit.egg-info/top_level.txt
+finkit/__init__.py
