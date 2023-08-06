@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: horovod-adasum
+Version: 0.18.2
+Summary: Horovod with Adasum for highly scalable distributed training.
+Home-page: https://www.microsoft.com/en-us/research/project/parasail/
+Author: The Horovod Authors
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Horovod is a distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.
+        The goal of Horovod is to make distributed Deep Learning fast and easy to use.
+        This version includes the highly scalable Adasum reduction algorithm.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
