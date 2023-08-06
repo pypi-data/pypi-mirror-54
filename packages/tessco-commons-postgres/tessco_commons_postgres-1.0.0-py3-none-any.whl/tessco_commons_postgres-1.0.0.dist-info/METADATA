@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tessco-commons-postgres
+Version: 1.0.0
+Summary: Tessco exclusive package for postgres connectivity
+Home-page: UNKNOWN
+Author: Andrew Welsh
+Author-email: welsha@tessco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Database Service - Postgres Package
+
+This package is a for Tessco use when a Postgres Service is required.
+
