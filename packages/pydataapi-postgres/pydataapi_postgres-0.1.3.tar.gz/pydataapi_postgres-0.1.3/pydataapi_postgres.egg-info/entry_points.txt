@@ -1,0 +1,4 @@
+[sqlalchemy.dialects]
+mysql.pydataapipostgres = pydataapipostgres.dialect:MySQLDataAPIDialect
+postgresql.pydataapipostgres = pydataapipostgres.dialect:PostgreSQLDataAPIDialect
+
