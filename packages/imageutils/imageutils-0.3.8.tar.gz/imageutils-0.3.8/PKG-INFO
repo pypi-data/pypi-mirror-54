@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: imageutils
+Version: 0.3.8
+Summary: Various utilities for working with images.
+Home-page: UNKNOWN
+Author: Jeremy Cantrell
+Author-email: jmcantrell@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
