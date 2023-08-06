@@ -1,0 +1,10 @@
+pyuwsgi.cpython-38-darwin.so,sha256=BN-cRRFpgtWgAXpoJWn3kYuTOx5yxMUUOZa4L7CweKs,1110204
+uwsgidecorators.py,sha256=_h8_gbFYC6qOy7x5zp6iJrtyxns9Rm_h1oHEOLX6eVI,10392
+.dylibspyuwsgi/libjansson.4.dylib,sha256=-BLrbhsmp4rLkr1XAUMTvF-MK7hF8yJANSYmh2fwxQ0,71732
+.dylibspyuwsgi/libpcre.1.dylib,sha256=-XB1mijtYW6ah60t-6KTJbUUE9KrI1z4RgWUq76KqsA,198204
+pyuwsgi-2.0.18.post0.dist-info/entry_points.txt,sha256=Y5sa_aLm2nEHKDg115cLGWKbml-8_tUvNFse-Pq24nQ,61
+pyuwsgi-2.0.18.post0.dist-info/LICENSE,sha256=yklTmfXaPOJyRkm0frEY91STRLpYwM81DZTDOQ5DWJc,18628
+pyuwsgi-2.0.18.post0.dist-info/METADATA,sha256=X8Qmg82HbxTIu4IgC5DS4WEwnls9VSKrxMVTr_9dSmo,3188
+pyuwsgi-2.0.18.post0.dist-info/RECORD,,
+pyuwsgi-2.0.18.post0.dist-info/top_level.txt,sha256=2hUbP7rqnIuGkFflVcnATIpi9ZVtMjLRsX3VG4ApvlE,24
+pyuwsgi-2.0.18.post0.dist-info/WHEEL,sha256=Q2jwauV7SdXlb20cz-bh9vn-BQ4tlA1IGNkj_GWnse8,109
