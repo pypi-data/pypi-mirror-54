@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data documentation compiled by Great Expectations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title></title>
+
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+    <style>  body {
+    position: relative;
+  }
+  .container {
+    padding-top: 50px;
+  }
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    max-height: 90vh;
+    overflow-y: auto;
+    top: 15px;
+  }
+
+  .ge-section {
+    clear:both;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+
+  .triangle {
+    border: solid #222;
+    border-width: 0 1px 1px 0;
+    display: inline;
+    cursor: pointer;
+    padding: 3px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    transition: .3s transform ease-in-out;
+  }
+
+  .collapsed .triangle{
+    transform: rotate(-140deg);
+    -webkit-transform: rotate(-140deg);
+    transition: .3s transform ease-in-out;
+  }
+
+  .popover {
+    max-width: 100%;
+  }
+
+  .cooltip {
+    display:inline-block;
+    position:relative;
+    text-align:left;
+    cursor:pointer;
+  }
+
+  .cooltip .top {
+    min-width:200px;
+    top:-6px;
+    left:50%;
+    transform:translate(-50%, -100%);
+    padding:10px 20px;
+    color:#FFFFFF;
+    background-color:#222222;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999 !important;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+    }
+
+  .cooltip:hover .top {
+      display:block;
+      z-index:99999999 !important;
+  }
+
+  .cooltip .top i {
+      position:absolute;
+      top:100%;
+      left:50%;
+      margin-left:-12px;
+      width:24px;
+      height:12px;
+      overflow:hidden;
+  }
+
+  .cooltip .top i::after {
+      content:'';
+      position:absolute;
+      width:12px;
+      height:12px;
+      left:50%;
+      transform:translate(-50%,-50%) rotate(45deg);
+      background-color:#222222;
+      box-shadow:0 1px 8px rgba(0,0,0,0.5);
+  }
+
+  ul {
+    padding-inline-start: 20px;
+  }
+
+  .table-cell-frame {
+      overflow-y: auto;
+      max-height: 335px;
+  }
+
+  .table-cell-frame ul {
+    padding-bottom: 20px
+  }
+
+  .table-cell-frame::-webkit-scrollbar {
+      -webkit-appearance: none;
+  }
+
+  .table-cell-frame::-webkit-scrollbar:vertical {
+      width: 11px;
+  }
+
+  .table-cell-frame::-webkit-scrollbar:horizontal {
+      height: 11px;
+  }
+
+  .table-cell-frame::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 2px solid white; /* should match background, can't be transparent */
+      background-color: rgba(0, 0, 0, .5);
+  }</style>
+    <style>/*index page*/
+.ge-index-page-datasource-title {}
+.ge-index-page-generator-title {}
+.ge-index-page-generator-table-container {}
+.ge-index-page-generator-table {}
+.ge-index-page-generator-table-data-asset-header {}
+.ge-index-page-generator-table-profiling-links-header {}
+.ge-index-page-generator-table-expectations-links-header {}
+.ge-index-page-generator-table-validations-links-header {}
+.ge-index-page-generator-table-data-asset-name {}
+.ge-index-page-generator-table-profiling-links-list {}
+.ge-index-page-generator-table-profiling-links-item {}
+.ge-index-page-generator-table-expectation-suite-link {}
+.ge-index-page-generator-table-validation-links-list {}
+.ge-index-page-generator-table-validation-links-item {}
+
+/*breadcrumbs*/
+.ge-breadcrumbs {}
+.ge-breadcrumbs-item {}
+
+/*navigation sidebar*/
+.ge-navigation-sidebar-container {}
+.ge-navigation-sidebar-content {}
+.ge-navigation-sidebar-title {}
+.ge-navigation-sidebar-link {}</style>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.3.5/build/vega.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.2.1/build/vega-lite.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@4.0.0/build/vega-embed.js"></script>
+    <script src="https://kit.fontawesome.com/8217dffd95.js"></script>
+  </head>
+
+  <body
+        data-spy="scroll"
+        data-target="#navigation"
+        data-offset="50"
+    >
+    
+<nav aria-label="breadcrumb">
+    <ol class="ge-breadcrumbs breadcrumb">
+        
+          <li class="ge-breadcrumbs-item breadcrumb-item"><a href="../../../../../index.html">Home</a></li>
+        
+        
+            <li class="ge-breadcrumbs-item breadcrumb-item">titanic</li>
+        
+            <li class="ge-breadcrumbs-item breadcrumb-item">default</li>
+        
+            <li class="ge-breadcrumbs-item breadcrumb-item">Titanic</li>
+        
+        <li class="ge-breadcrumbs-item breadcrumb-item active" aria-current="page">test_run_id_12345-BasicDatasetProfiler-ValidationResults</li>
+    </ol>
+</nav>
+
+
+    <div class="container-fluid px-3">
+      <div class="row">
+        <div class="col-2 navbar-collapse">
+          <nav id="navigation" class="navbar navbar-light bg-light sticky d-none d-sm-block ge-navigation-sidebar-container">
+    <nav class="nav nav-pills flex-column ge-navigation-sidebar-content">
+        <a class="navbar-brand ge-navigation-sidebar-title" href="#" style="white-space: normal; word-break: break-all;overflow-wrap: normal; font-size: 1rem; font-weight: 500;">Titanic</a>
+        
+            <a class="nav-link ge-navigation-sidebar-link" href="#section-1">Overview</a>
+        
+            <a class="nav-link ge-navigation-sidebar-link" href="#section-2">None</a>
+        
+            <a class="nav-link ge-navigation-sidebar-link" href="#section-3">Unnamed: 0</a>
+        
+            <a class="nav-link ge-navigation-sidebar-link" href="#section-4">Name</a>
+        
+            <a class="nav-link ge-navigation-sidebar-link" href="#section-5">PClass</a>
+        
+            <a class="nav-link ge-navigation-sidebar-link" href="#section-6">Age</a>
+        
+            <a class="nav-link ge-navigation-sidebar-link" href="#section-7">Sex</a>
+        
+            <a class="nav-link ge-navigation-sidebar-link" href="#section-8">Survived</a>
+        
+            <a class="nav-link ge-navigation-sidebar-link" href="#section-9">SexCode</a>
+        
+    </nav>
+</nav>
+        </div>
+        <div class="col-md-8 col-lg-8 col-xs-12">
+        
+          <div id="section-1" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-1-content-block-1" class="col-12" >
+
+    <div id="section-1-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        Validation Overview
+    </h3></div>
+
+</div>
+        
+
+<div id="section-1-content-block-2" class="col-12 table-responsive" style="margin-top:20px;" >
+
+    <div id="section-1-content-block-2-header" >
+        
+        <h4>
+            Info
+        </h4>
+        </div>
+
+
+<table id="section-1-content-block-2-body" class="table table-sm" >
+    
+
+    <tr>
+        <td id="section-1-content-block-2-cell-1-1" ><div class="table-cell-frame"><span>Full Data Asset Identifier</span></div></td><td id="section-1-content-block-2-cell-1-2" ><div class="table-cell-frame"><span>titanic/default/Titanic</span></div></td></tr><tr>
+        <td id="section-1-content-block-2-cell-2-1" ><div class="table-cell-frame"><span>Expectation Suite Name</span></div></td><td id="section-1-content-block-2-cell-2-2" ><div class="table-cell-frame"><span>BasicDatasetProfiler</span></div></td></tr><tr>
+        <td id="section-1-content-block-2-cell-3-1" ><div class="table-cell-frame"><span>Great Expectations Version</span></div></td><td id="section-1-content-block-2-cell-3-2" ><div class="table-cell-frame"><span>0.8.2.post0+28.g2caf09f7.dirty</span></div></td></tr><tr>
+        <td id="section-1-content-block-2-cell-4-1" ><div class="table-cell-frame"><span>Run ID</span></div></td><td id="section-1-content-block-2-cell-4-2" ><div class="table-cell-frame"><span>test_run_id_12345</span></div></td></tr><tr>
+        <td id="section-1-content-block-2-cell-5-1" ><div class="table-cell-frame"><span>Validation Succeeded</span></div></td><td id="section-1-content-block-2-cell-5-2" ><div class="table-cell-frame">False</div></td></tr></table>
+
+</div>
+        
+
+<div id="section-1-content-block-3" class="col-6 table-responsive" style="margin-top:20px;" >
+
+    <div id="section-1-content-block-3-header" >
+        
+        <h4>
+            Statistics
+        </h4>
+        </div>
+
+
+<table id="section-1-content-block-3-body" class="table table-sm" >
+    
+
+    <tr>
+        <td id="section-1-content-block-3-cell-1-1" ><div class="table-cell-frame"><span>Evaluated Expectations</span></div></td><td id="section-1-content-block-3-cell-1-2" ><div class="table-cell-frame">51</div></td></tr><tr>
+        <td id="section-1-content-block-3-cell-2-1" ><div class="table-cell-frame"><span>Successful Expectations</span></div></td><td id="section-1-content-block-3-cell-2-2" ><div class="table-cell-frame">43</div></td></tr><tr>
+        <td id="section-1-content-block-3-cell-3-1" ><div class="table-cell-frame"><span>Unsuccessful Expectations</span></div></td><td id="section-1-content-block-3-cell-3-2" ><div class="table-cell-frame">8</div></td></tr><tr>
+        <td id="section-1-content-block-3-cell-4-1" ><div class="table-cell-frame"><span>Success Percent</span></div></td><td id="section-1-content-block-3-cell-4-2" ><div class="table-cell-frame"><span>≈84.31%</span></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-2" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-2-content-block-1" class="col-12" >
+
+    <div id="section-2-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        Table-Level Expectations
+    </h3></div>
+
+</div>
+        
+
+<div id="section-2-content-block-2" class="m-3 table-responsive" >
+
+    
+
+<table id="section-2-content-block-2-body" class="table" >
+    
+        <tr>
+            
+                <th><span>Status</span></th>
+            
+                <th><span>Expectation</span></th>
+            
+                <th><span>Observed Value</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-2-content-block-2-cell-1-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-2-content-block-2-cell-1-2" ><div class="table-cell-frame">
+                <span >
+                    Must have more than <span class="badge badge-secondary" >0</span> rows.
+                </span>
+            </div></td><td id="section-2-content-block-2-cell-1-3" ><div class="table-cell-frame"><span>1,313</span></div></td></tr><tr>
+        <td id="section-2-content-block-2-cell-2-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-2-content-block-2-cell-2-2" ><div class="table-cell-frame">
+                <span >
+                    This table should have a list of columns in a specific order, but that order is not specified.
+                </span>
+            </div></td><td id="section-2-content-block-2-cell-2-3" ><div class="table-cell-frame"><span>['Unnamed: 0', 'Name', 'PClass', 'Age', 'Sex', 'Survived', 'SexCode']</span></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-3" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-3-content-block-1" class="col-12" >
+
+    <div id="section-3-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        Unnamed: 0
+    </h3></div>
+
+</div>
+        
+
+<div id="section-3-content-block-2" class="m-3 table-responsive" >
+
+    
+
+<table id="section-3-content-block-2-body" class="table" >
+    
+        <tr>
+            
+                <th><span>Status</span></th>
+            
+                <th><span>Expectation</span></th>
+            
+                <th><span>Observed Value</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-3-content-block-2-cell-1-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-1-2" ><div class="table-cell-frame">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >BIGINT</span> <span class="badge badge-secondary" >BYTEINT</span> <span class="badge badge-secondary" >DECIMAL</span> <span class="badge badge-secondary" >INT</span> <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >IntegerType</span> <span class="badge badge-secondary" >LongType</span> <span class="badge badge-secondary" >SMALLINT</span> <span class="badge badge-secondary" >TINYINT</span> <span class="badge badge-secondary" >int</span>.
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-1-3" ><div class="table-cell-frame"><span>int64</span></div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-2-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-2-2" ><div class="table-cell-frame">
+                <span >
+                    may have any number of unique values.
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-2-3" ><div class="table-cell-frame"><span>1,313</span></div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-3-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-3-2" ><div class="table-cell-frame">
+                <span >
+                    may have any fraction of unique values.
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-3-3" ><div class="table-cell-frame"><span>1</span></div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-4-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-4-2" ><div class="table-cell-frame">
+                <span >
+                    values must not be null, at least <span class="badge badge-secondary" >50</span> % of the time.
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-4-3" ><div class="table-cell-frame"><span>100% not null</span></div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-5-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-times text-danger" ></i>
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-5-2" ><div class="table-cell-frame">
+                <span >
+                    values must belong to this set: [ ].
+                </span>
+            
+                <strong class="text-danger" >
+                    <br><br>1,313 unexpected values found. 100% of 1,313 total rows.
+                </strong>
+            
+
+<table id="section-3-content-block-2-body" class="table-bordered table-sm mt-3" >
+    
+        <tr>
+            
+                <th><span>Unexpected Value</span></th>
+            
+                <th><span>Count</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-3-content-block-2-cell-1-1" ><div class="table-cell-frame">1</div></td><td id="section-3-content-block-2-cell-1-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-2-1" ><div class="table-cell-frame">2</div></td><td id="section-3-content-block-2-cell-2-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-3-1" ><div class="table-cell-frame">3</div></td><td id="section-3-content-block-2-cell-3-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-4-1" ><div class="table-cell-frame">4</div></td><td id="section-3-content-block-2-cell-4-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-5-1" ><div class="table-cell-frame">5</div></td><td id="section-3-content-block-2-cell-5-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-6-1" ><div class="table-cell-frame">6</div></td><td id="section-3-content-block-2-cell-6-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-7-1" ><div class="table-cell-frame">7</div></td><td id="section-3-content-block-2-cell-7-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-8-1" ><div class="table-cell-frame">8</div></td><td id="section-3-content-block-2-cell-8-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-9-1" ><div class="table-cell-frame">9</div></td><td id="section-3-content-block-2-cell-9-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-10-1" ><div class="table-cell-frame">10</div></td><td id="section-3-content-block-2-cell-10-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-11-1" ><div class="table-cell-frame">11</div></td><td id="section-3-content-block-2-cell-11-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-12-1" ><div class="table-cell-frame">12</div></td><td id="section-3-content-block-2-cell-12-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-13-1" ><div class="table-cell-frame">13</div></td><td id="section-3-content-block-2-cell-13-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-14-1" ><div class="table-cell-frame">14</div></td><td id="section-3-content-block-2-cell-14-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-15-1" ><div class="table-cell-frame">15</div></td><td id="section-3-content-block-2-cell-15-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-16-1" ><div class="table-cell-frame">16</div></td><td id="section-3-content-block-2-cell-16-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-17-1" ><div class="table-cell-frame">17</div></td><td id="section-3-content-block-2-cell-17-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-18-1" ><div class="table-cell-frame">18</div></td><td id="section-3-content-block-2-cell-18-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-19-1" ><div class="table-cell-frame">19</div></td><td id="section-3-content-block-2-cell-19-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-20-1" ><div class="table-cell-frame">20</div></td><td id="section-3-content-block-2-cell-20-2" ><div class="table-cell-frame">1</div></td></tr></table></div></td><td id="section-3-content-block-2-cell-5-3" ><div class="table-cell-frame"><span>100% unexpected</span></div></td></tr><tr>
+        <td id="section-3-content-block-2-cell-6-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-6-2" ><div class="table-cell-frame">
+                <span >
+                    values must be unique.
+                </span>
+            </div></td><td id="section-3-content-block-2-cell-6-3" ><div class="table-cell-frame"><span>0% unexpected</span></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-4" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-4-content-block-1" class="col-12" >
+
+    <div id="section-4-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        Name
+    </h3></div>
+
+</div>
+        
+
+<div id="section-4-content-block-2" class="m-3 table-responsive" >
+
+    
+
+<table id="section-4-content-block-2-body" class="table" >
+    
+        <tr>
+            
+                <th><span>Status</span></th>
+            
+                <th><span>Expectation</span></th>
+            
+                <th><span>Observed Value</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-4-content-block-2-cell-1-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-1-2" ><div class="table-cell-frame">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >CHAR</span> <span class="badge badge-secondary" >StringType</span> <span class="badge badge-secondary" >TEXT</span> <span class="badge badge-secondary" >VARCHAR</span> <span class="badge badge-secondary" >str</span> <span class="badge badge-secondary" >string</span>.
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-1-3" ><div class="table-cell-frame"><span>0% unexpected</span></div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-2-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-2-2" ><div class="table-cell-frame">
+                <span >
+                    may have any number of unique values.
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-2-3" ><div class="table-cell-frame"><span>1,310</span></div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-3-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-3-2" ><div class="table-cell-frame">
+                <span >
+                    may have any fraction of unique values.
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-3-3" ><div class="table-cell-frame"><span>≈0.9977151561</span></div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-4-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-4-2" ><div class="table-cell-frame">
+                <span >
+                    values must not be null, at least <span class="badge badge-secondary" >50</span> % of the time.
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-4-3" ><div class="table-cell-frame"><span>100% not null</span></div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-5-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-times text-danger" ></i>
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-5-2" ><div class="table-cell-frame">
+                <span >
+                    values must belong to this set: [ ].
+                </span>
+            
+                <strong class="text-danger" >
+                    <br><br>1,313 unexpected values found. 100% of 1,313 total rows.
+                </strong>
+            
+
+<table id="section-4-content-block-2-body" class="table-bordered table-sm mt-3" >
+    
+        <tr>
+            
+                <th><span>Unexpected Value</span></th>
+            
+                <th><span>Count</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-4-content-block-2-cell-1-1" ><div class="table-cell-frame"><span>Carlsson, Mr Frans Olof</span></div></td><td id="section-4-content-block-2-cell-1-2" ><div class="table-cell-frame">2</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-2-1" ><div class="table-cell-frame"><span>Connolly, Miss Kate</span></div></td><td id="section-4-content-block-2-cell-2-2" ><div class="table-cell-frame">2</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-3-1" ><div class="table-cell-frame"><span>Kelly, Mr James</span></div></td><td id="section-4-content-block-2-cell-3-2" ><div class="table-cell-frame">2</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-4-1" ><div class="table-cell-frame"><span>Allen, Miss Elisabeth Walton</span></div></td><td id="section-4-content-block-2-cell-4-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-5-1" ><div class="table-cell-frame"><span>Allison, Master Hudson Trevor</span></div></td><td id="section-4-content-block-2-cell-5-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-6-1" ><div class="table-cell-frame"><span>Allison, Miss Helen Loraine</span></div></td><td id="section-4-content-block-2-cell-6-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-7-1" ><div class="table-cell-frame"><span>Allison, Mr Hudson Joshua Creighton</span></div></td><td id="section-4-content-block-2-cell-7-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-8-1" ><div class="table-cell-frame"><span>Allison, Mrs Hudson JC (Bessie Waldo Daniels)</span></div></td><td id="section-4-content-block-2-cell-8-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-9-1" ><div class="table-cell-frame"><span>Anderson, Mr Harry</span></div></td><td id="section-4-content-block-2-cell-9-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-10-1" ><div class="table-cell-frame"><span>Andrews, Miss Kornelia Theodosia</span></div></td><td id="section-4-content-block-2-cell-10-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-11-1" ><div class="table-cell-frame"><span>Andrews, Mr Thomas, jr</span></div></td><td id="section-4-content-block-2-cell-11-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-12-1" ><div class="table-cell-frame"><span>Appleton, Mrs Edward Dale (Charlotte Lamson)</span></div></td><td id="section-4-content-block-2-cell-12-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-13-1" ><div class="table-cell-frame"><span>Artagaveytia, Mr Ramon</span></div></td><td id="section-4-content-block-2-cell-13-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-14-1" ><div class="table-cell-frame"><span>Astor, Colonel John Jacob</span></div></td><td id="section-4-content-block-2-cell-14-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-15-1" ><div class="table-cell-frame"><span>Astor, Mrs John Jacob (Madeleine Talmadge Force)</span></div></td><td id="section-4-content-block-2-cell-15-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-16-1" ><div class="table-cell-frame"><span>Aubert, Mrs Leontine Pauline</span></div></td><td id="section-4-content-block-2-cell-16-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-17-1" ><div class="table-cell-frame"><span>Barkworth, Mr Algernon H</span></div></td><td id="section-4-content-block-2-cell-17-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-18-1" ><div class="table-cell-frame"><span>Baumann, Mr John D</span></div></td><td id="section-4-content-block-2-cell-18-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-19-1" ><div class="table-cell-frame"><span>Baxter, Mr Quigg Edmond</span></div></td><td id="section-4-content-block-2-cell-19-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-20-1" ><div class="table-cell-frame"><span>Baxter, Mrs James (Helene DeLaudeniere Chaput)</span></div></td><td id="section-4-content-block-2-cell-20-2" ><div class="table-cell-frame">1</div></td></tr></table></div></td><td id="section-4-content-block-2-cell-5-3" ><div class="table-cell-frame"><span>100% unexpected</span></div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-6-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-times text-danger" ></i>
+                </span>
+            </div></td><td id="section-4-content-block-2-cell-6-2" ><div class="table-cell-frame">
+                <span >
+                    values must not match this regular expression: <span class="badge badge-secondary" >^\s+|\s+$</span>.
+                </span>
+            
+                <strong class="text-danger" >
+                    <br><br>3 unexpected values found. ≈0.2285% of 1,313 total rows.
+                </strong>
+            
+
+<table id="section-4-content-block-2-body" class="table-bordered table-sm mt-3" >
+    
+        <tr>
+            
+                <th><span>Unexpected Value</span></th>
+            
+                <th><span>Count</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-4-content-block-2-cell-1-1" ><div class="table-cell-frame"><span>Barber, Ms </span></div></td><td id="section-4-content-block-2-cell-1-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-2-1" ><div class="table-cell-frame"><span>Daly, Mr Peter Denis </span></div></td><td id="section-4-content-block-2-cell-2-2" ><div class="table-cell-frame">1</div></td></tr><tr>
+        <td id="section-4-content-block-2-cell-3-1" ><div class="table-cell-frame"><span>Geiger, Miss Emily </span></div></td><td id="section-4-content-block-2-cell-3-2" ><div class="table-cell-frame">1</div></td></tr></table></div></td><td id="section-4-content-block-2-cell-6-3" ><div class="table-cell-frame"><span>≈0.22848% unexpected</span></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-5" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-5-content-block-1" class="col-12" >
+
+    <div id="section-5-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        PClass
+    </h3></div>
+
+</div>
+        
+
+<div id="section-5-content-block-2" class="m-3 table-responsive" >
+
+    
+
+<table id="section-5-content-block-2-body" class="table" >
+    
+        <tr>
+            
+                <th><span>Status</span></th>
+            
+                <th><span>Expectation</span></th>
+            
+                <th><span>Observed Value</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-5-content-block-2-cell-1-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-1-2" ><div class="table-cell-frame">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >CHAR</span> <span class="badge badge-secondary" >StringType</span> <span class="badge badge-secondary" >TEXT</span> <span class="badge badge-secondary" >VARCHAR</span> <span class="badge badge-secondary" >str</span> <span class="badge badge-secondary" >string</span>.
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-1-3" ><div class="table-cell-frame"><span>0% unexpected</span></div></td></tr><tr>
+        <td id="section-5-content-block-2-cell-2-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-2-2" ><div class="table-cell-frame">
+                <span >
+                    may have any number of unique values.
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-2-3" ><div class="table-cell-frame"><span>4</span></div></td></tr><tr>
+        <td id="section-5-content-block-2-cell-3-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-3-2" ><div class="table-cell-frame">
+                <span >
+                    may have any fraction of unique values.
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-3-3" ><div class="table-cell-frame"><span>≈0.003046458492</span></div></td></tr><tr>
+        <td id="section-5-content-block-2-cell-4-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-4-2" ><div class="table-cell-frame">
+                <span >
+                    values must not be null, at least <span class="badge badge-secondary" >50</span> % of the time.
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-4-3" ><div class="table-cell-frame"><span>100% not null</span></div></td></tr><tr>
+        <td id="section-5-content-block-2-cell-5-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-times text-danger" ></i>
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-5-2" ><div class="table-cell-frame">
+                <span >
+                    values must belong to this set: [ ].
+                </span>
+            
+                <strong class="text-danger" >
+                    <br><br>1,313 unexpected values found. 100% of 1,313 total rows.
+                </strong>
+            
+
+<table id="section-5-content-block-2-body" class="table-bordered table-sm mt-3" >
+    
+        <tr>
+            
+                <th><span>Unexpected Value</span></th>
+            
+                <th><span>Count</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-5-content-block-2-cell-1-1" ><div class="table-cell-frame"><span>3rd</span></div></td><td id="section-5-content-block-2-cell-1-2" ><div class="table-cell-frame">711</div></td></tr><tr>
+        <td id="section-5-content-block-2-cell-2-1" ><div class="table-cell-frame"><span>1st</span></div></td><td id="section-5-content-block-2-cell-2-2" ><div class="table-cell-frame">322</div></td></tr><tr>
+        <td id="section-5-content-block-2-cell-3-1" ><div class="table-cell-frame"><span>2nd</span></div></td><td id="section-5-content-block-2-cell-3-2" ><div class="table-cell-frame">279</div></td></tr><tr>
+        <td id="section-5-content-block-2-cell-4-1" ><div class="table-cell-frame"><span>*</span></div></td><td id="section-5-content-block-2-cell-4-2" ><div class="table-cell-frame">1</div></td></tr></table></div></td><td id="section-5-content-block-2-cell-5-3" ><div class="table-cell-frame"><span>100% unexpected</span></div></td></tr><tr>
+        <td id="section-5-content-block-2-cell-6-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-6-2" ><div class="table-cell-frame">
+                <span >
+                    values must not match this regular expression: <span class="badge badge-secondary" >^\s+|\s+$</span>.
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-6-3" ><div class="table-cell-frame"><span>0% unexpected</span></div></td></tr><tr>
+        <td id="section-5-content-block-2-cell-7-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-7-2" ><div class="table-cell-frame">
+                <span >
+                    distinct values must belong to a set, but that set is not specified.
+                </span>
+            </div></td><td id="section-5-content-block-2-cell-7-3" ><div class="table-cell-frame"><span>['*', '1st', '2nd', '3rd']</span></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-6" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-6-content-block-1" class="col-12" >
+
+    <div id="section-6-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        Age
+    </h3></div>
+
+</div>
+        
+
+<div id="section-6-content-block-2" class="m-3 table-responsive" >
+
+    
+
+<table id="section-6-content-block-2-body" class="table" >
+    
+        <tr>
+            
+                <th><span>Status</span></th>
+            
+                <th><span>Expectation</span></th>
+            
+                <th><span>Observed Value</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-6-content-block-2-cell-1-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-1-2" ><div class="table-cell-frame">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >DOUBLE_PRECISION</span> <span class="badge badge-secondary" >DoubleType</span> <span class="badge badge-secondary" >FLOAT</span> <span class="badge badge-secondary" >FLOAT4</span> <span class="badge badge-secondary" >FLOAT8</span> <span class="badge badge-secondary" >FloatType</span> <span class="badge badge-secondary" >NUMERIC</span> <span class="badge badge-secondary" >float</span>.
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-1-3" ><div class="table-cell-frame"><span>float64</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-2-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-2-2" ><div class="table-cell-frame">
+                <span >
+                    may have any number of unique values.
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-2-3" ><div class="table-cell-frame"><span>75</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-3-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-3-2" ><div class="table-cell-frame">
+                <span >
+                    may have any fraction of unique values.
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-3-3" ><div class="table-cell-frame"><span>≈0.09920634921</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-4-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-4-2" ><div class="table-cell-frame">
+                <span >
+                    values must not be null, at least <span class="badge badge-secondary" >50</span> % of the time.
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-4-3" ><div class="table-cell-frame"><span>≈57.578% not null</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-5-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-times text-danger" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-5-2" ><div class="table-cell-frame">
+                <span >
+                    values must belong to this set: [ ].
+                </span>
+            
+                <strong class="text-danger" >
+                    <br><br>756 unexpected values found. ≈57.58% of 1,313 total rows.
+                </strong>
+            
+
+<table id="section-6-content-block-2-body" class="table-bordered table-sm mt-3" >
+    
+        <tr>
+            
+                <th><span>Unexpected Value</span></th>
+            
+                <th><span>Count</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-6-content-block-2-cell-1-1" ><div class="table-cell-frame">22.0</div></td><td id="section-6-content-block-2-cell-1-2" ><div class="table-cell-frame">35</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-2-1" ><div class="table-cell-frame">21.0</div></td><td id="section-6-content-block-2-cell-2-2" ><div class="table-cell-frame">31</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-3-1" ><div class="table-cell-frame">30.0</div></td><td id="section-6-content-block-2-cell-3-2" ><div class="table-cell-frame">31</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-4-1" ><div class="table-cell-frame">18.0</div></td><td id="section-6-content-block-2-cell-4-2" ><div class="table-cell-frame">30</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-5-1" ><div class="table-cell-frame">36.0</div></td><td id="section-6-content-block-2-cell-5-2" ><div class="table-cell-frame">29</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-6-1" ><div class="table-cell-frame">24.0</div></td><td id="section-6-content-block-2-cell-6-2" ><div class="table-cell-frame">27</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-7-1" ><div class="table-cell-frame">26.0</div></td><td id="section-6-content-block-2-cell-7-2" ><div class="table-cell-frame">27</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-8-1" ><div class="table-cell-frame">27.0</div></td><td id="section-6-content-block-2-cell-8-2" ><div class="table-cell-frame">24</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-9-1" ><div class="table-cell-frame">28.0</div></td><td id="section-6-content-block-2-cell-9-2" ><div class="table-cell-frame">24</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-10-1" ><div class="table-cell-frame">19.0</div></td><td id="section-6-content-block-2-cell-10-2" ><div class="table-cell-frame">23</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-11-1" ><div class="table-cell-frame">20.0</div></td><td id="section-6-content-block-2-cell-11-2" ><div class="table-cell-frame">23</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-12-1" ><div class="table-cell-frame">23.0</div></td><td id="section-6-content-block-2-cell-12-2" ><div class="table-cell-frame">23</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-13-1" ><div class="table-cell-frame">25.0</div></td><td id="section-6-content-block-2-cell-13-2" ><div class="table-cell-frame">23</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-14-1" ><div class="table-cell-frame">32.0</div></td><td id="section-6-content-block-2-cell-14-2" ><div class="table-cell-frame">22</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-15-1" ><div class="table-cell-frame">45.0</div></td><td id="section-6-content-block-2-cell-15-2" ><div class="table-cell-frame">20</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-16-1" ><div class="table-cell-frame">29.0</div></td><td id="section-6-content-block-2-cell-16-2" ><div class="table-cell-frame">15</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-17-1" ><div class="table-cell-frame">31.0</div></td><td id="section-6-content-block-2-cell-17-2" ><div class="table-cell-frame">14</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-18-1" ><div class="table-cell-frame">33.0</div></td><td id="section-6-content-block-2-cell-18-2" ><div class="table-cell-frame">14</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-19-1" ><div class="table-cell-frame">35.0</div></td><td id="section-6-content-block-2-cell-19-2" ><div class="table-cell-frame">14</div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-20-1" ><div class="table-cell-frame">39.0</div></td><td id="section-6-content-block-2-cell-20-2" ><div class="table-cell-frame">14</div></td></tr></table></div></td><td id="section-6-content-block-2-cell-5-3" ><div class="table-cell-frame"><span>≈57.578% unexpected</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-6-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-6-2" ><div class="table-cell-frame">
+                <span >
+                    minimum value may have any numerical value.
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-6-3" ><div class="table-cell-frame"><span>0.17</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-7-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-7-2" ><div class="table-cell-frame">
+                <span >
+                    maximum value may have any numerical value.
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-7-3" ><div class="table-cell-frame"><span>71</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-8-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-8-2" ><div class="table-cell-frame">
+                <span >
+                    mean may have any numerical value.
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-8-3" ><div class="table-cell-frame"><span>≈30.39798942</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-9-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-9-2" ><div class="table-cell-frame">
+                <span >
+                    median may have any numerical value.
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-9-3" ><div class="table-cell-frame"><span>28</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-10-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-10-2" class="alert alert-warning" ><div class="table-cell-frame">
+                <span >
+                    <span class="badge badge-warning" >expect_column_quantile_values_to_be_between</span>(**{'column': 'Age', 'quantile_ranges': {'quantiles': [0.05, 0.25, 0.5, 0.75, 0.95], 'value_ranges': [[None, None], [None, None], [None, None], [None, None], [None, None]]}, 'result_format': 'SUMMARY'})
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-10-3" ><div class="table-cell-frame"><span>{'quantiles': [0.05, 0.25, 0.5, 0.75, 0.95], 'values': [6.0, 21.0, 28.0, 39.0, 57.0]}</span></div></td></tr><tr>
+        <td id="section-6-content-block-2-cell-11-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-11-2" ><div class="table-cell-frame">
+                <span >
+                    Column can match any distribution.
+                </span>
+            </div></td><td id="section-6-content-block-2-cell-11-3" ><div class="table-cell-frame"><div id="section-6-content-block-2-graph" class="table" ></div>
+<script>
+    // Assign the specification to a local variable vlSpec.
+    vlSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.4.0.json",
+  "autosize": "fit",
+  "config": {
+    "mark": {
+      "tooltip": null
+    },
+    "view": {
+      "height": 300,
+      "width": 400
+    }
+  },
+  "data": {
+    "name": "data-239befdaa7503a2ed2cd7283306bb6f7"
+  },
+  "datasets": {
+    "data-239befdaa7503a2ed2cd7283306bb6f7": [
+      {
+        "bin_max": 4.1,
+        "bin_min": 0.2,
+        "fraction": 0.04365079365079365
+      },
+      {
+        "bin_max": 8.0,
+        "bin_min": 4.1,
+        "fraction": 0.017195767195767195
+      },
+      {
+        "bin_max": 12.0,
+        "bin_min": 8.0,
+        "fraction": 0.015873015873015872
+      },
+      {
+        "bin_max": 15.9,
+        "bin_min": 12.0,
+        "fraction": 0.01984126984126984
+      },
+      {
+        "bin_max": 19.8,
+        "bin_min": 15.9,
+        "fraction": 0.10052910052910052
+      },
+      {
+        "bin_max": 23.8,
+        "bin_min": 19.8,
+        "fraction": 0.14814814814814814
+      },
+      {
+        "bin_max": 27.7,
+        "bin_min": 23.8,
+        "fraction": 0.1335978835978836
+      },
+      {
+        "bin_max": 31.7,
+        "bin_min": 27.7,
+        "fraction": 0.1111111111111111
+      },
+      {
+        "bin_max": 35.6,
+        "bin_min": 31.7,
+        "fraction": 0.082010582010582
+      },
+      {
+        "bin_max": 39.5,
+        "bin_min": 35.6,
+        "fraction": 0.08068783068783068
+      },
+      {
+        "bin_max": 43.5,
+        "bin_min": 39.5,
+        "fraction": 0.051587301587301584
+      },
+      {
+        "bin_max": 47.4,
+        "bin_min": 43.5,
+        "fraction": 0.05952380952380952
+      },
+      {
+        "bin_max": 51.3,
+        "bin_min": 47.4,
+        "fraction": 0.04894179894179894
+      },
+      {
+        "bin_max": 55.3,
+        "bin_min": 51.3,
+        "fraction": 0.0291005291005291
+      },
+      {
+        "bin_max": 59.2,
+        "bin_min": 55.3,
+        "fraction": 0.022486772486772486
+      },
+      {
+        "bin_max": 63.1,
+        "bin_min": 59.2,
+        "fraction": 0.017195767195767195
+      },
+      {
+        "bin_max": 67.1,
+        "bin_min": 63.1,
+        "fraction": 0.011904761904761904
+      },
+      {
+        "bin_max": 71.0,
+        "bin_min": 67.1,
+        "fraction": 0.006613756613756613
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "bin_min",
+      "type": "ordinal"
+    },
+    "x2": {
+      "field": "bin_max"
+    },
+    "y": {
+      "field": "fraction",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "mark": "bar",
+  "width": 300
+};
+    // Embed the visualization in the container with id `vis`
+    vegaEmbed('#section-6-content-block-2-graph', vlSpec, {
+        actions: false
+    }).then(result=>console.log(result)).catch(console.warn);
+</script></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-7" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-7-content-block-1" class="col-12" >
+
+    <div id="section-7-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        Sex
+    </h3></div>
+
+</div>
+        
+
+<div id="section-7-content-block-2" class="m-3 table-responsive" >
+
+    
+
+<table id="section-7-content-block-2-body" class="table" >
+    
+        <tr>
+            
+                <th><span>Status</span></th>
+            
+                <th><span>Expectation</span></th>
+            
+                <th><span>Observed Value</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-7-content-block-2-cell-1-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-1-2" ><div class="table-cell-frame">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >CHAR</span> <span class="badge badge-secondary" >StringType</span> <span class="badge badge-secondary" >TEXT</span> <span class="badge badge-secondary" >VARCHAR</span> <span class="badge badge-secondary" >str</span> <span class="badge badge-secondary" >string</span>.
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-1-3" ><div class="table-cell-frame"><span>0% unexpected</span></div></td></tr><tr>
+        <td id="section-7-content-block-2-cell-2-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-2-2" ><div class="table-cell-frame">
+                <span >
+                    may have any number of unique values.
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-2-3" ><div class="table-cell-frame"><span>2</span></div></td></tr><tr>
+        <td id="section-7-content-block-2-cell-3-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-3-2" ><div class="table-cell-frame">
+                <span >
+                    may have any fraction of unique values.
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-3-3" ><div class="table-cell-frame"><span>≈0.001523229246</span></div></td></tr><tr>
+        <td id="section-7-content-block-2-cell-4-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-4-2" ><div class="table-cell-frame">
+                <span >
+                    values must not be null, at least <span class="badge badge-secondary" >50</span> % of the time.
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-4-3" ><div class="table-cell-frame"><span>100% not null</span></div></td></tr><tr>
+        <td id="section-7-content-block-2-cell-5-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-times text-danger" ></i>
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-5-2" ><div class="table-cell-frame">
+                <span >
+                    values must belong to this set: [ ].
+                </span>
+            
+                <strong class="text-danger" >
+                    <br><br>1,313 unexpected values found. 100% of 1,313 total rows.
+                </strong>
+            
+
+<table id="section-7-content-block-2-body" class="table-bordered table-sm mt-3" >
+    
+        <tr>
+            
+                <th><span>Unexpected Value</span></th>
+            
+                <th><span>Count</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-7-content-block-2-cell-1-1" ><div class="table-cell-frame"><span>male</span></div></td><td id="section-7-content-block-2-cell-1-2" ><div class="table-cell-frame">851</div></td></tr><tr>
+        <td id="section-7-content-block-2-cell-2-1" ><div class="table-cell-frame"><span>female</span></div></td><td id="section-7-content-block-2-cell-2-2" ><div class="table-cell-frame">462</div></td></tr></table></div></td><td id="section-7-content-block-2-cell-5-3" ><div class="table-cell-frame"><span>100% unexpected</span></div></td></tr><tr>
+        <td id="section-7-content-block-2-cell-6-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-6-2" ><div class="table-cell-frame">
+                <span >
+                    values must not match this regular expression: <span class="badge badge-secondary" >^\s+|\s+$</span>.
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-6-3" ><div class="table-cell-frame"><span>0% unexpected</span></div></td></tr><tr>
+        <td id="section-7-content-block-2-cell-7-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-7-2" ><div class="table-cell-frame">
+                <span >
+                    distinct values must belong to a set, but that set is not specified.
+                </span>
+            </div></td><td id="section-7-content-block-2-cell-7-3" ><div class="table-cell-frame"><span>['female', 'male']</span></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-8" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-8-content-block-1" class="col-12" >
+
+    <div id="section-8-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        Survived
+    </h3></div>
+
+</div>
+        
+
+<div id="section-8-content-block-2" class="m-3 table-responsive" >
+
+    
+
+<table id="section-8-content-block-2-body" class="table" >
+    
+        <tr>
+            
+                <th><span>Status</span></th>
+            
+                <th><span>Expectation</span></th>
+            
+                <th><span>Observed Value</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-8-content-block-2-cell-1-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-1-2" ><div class="table-cell-frame">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >BIGINT</span> <span class="badge badge-secondary" >BYTEINT</span> <span class="badge badge-secondary" >DECIMAL</span> <span class="badge badge-secondary" >INT</span> <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >IntegerType</span> <span class="badge badge-secondary" >LongType</span> <span class="badge badge-secondary" >SMALLINT</span> <span class="badge badge-secondary" >TINYINT</span> <span class="badge badge-secondary" >int</span>.
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-1-3" ><div class="table-cell-frame"><span>int64</span></div></td></tr><tr>
+        <td id="section-8-content-block-2-cell-2-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-2-2" ><div class="table-cell-frame">
+                <span >
+                    may have any number of unique values.
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-2-3" ><div class="table-cell-frame"><span>2</span></div></td></tr><tr>
+        <td id="section-8-content-block-2-cell-3-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-3-2" ><div class="table-cell-frame">
+                <span >
+                    may have any fraction of unique values.
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-3-3" ><div class="table-cell-frame"><span>≈0.001523229246</span></div></td></tr><tr>
+        <td id="section-8-content-block-2-cell-4-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-4-2" ><div class="table-cell-frame">
+                <span >
+                    values must not be null, at least <span class="badge badge-secondary" >50</span> % of the time.
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-4-3" ><div class="table-cell-frame"><span>100% not null</span></div></td></tr><tr>
+        <td id="section-8-content-block-2-cell-5-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-times text-danger" ></i>
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-5-2" ><div class="table-cell-frame">
+                <span >
+                    values must belong to this set: [ ].
+                </span>
+            
+                <strong class="text-danger" >
+                    <br><br>1,313 unexpected values found. 100% of 1,313 total rows.
+                </strong>
+            
+
+<table id="section-8-content-block-2-body" class="table-bordered table-sm mt-3" >
+    
+        <tr>
+            
+                <th><span>Unexpected Value</span></th>
+            
+                <th><span>Count</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-8-content-block-2-cell-1-1" ><div class="table-cell-frame"><span>null</span></div></td><td id="section-8-content-block-2-cell-1-2" ><div class="table-cell-frame">863</div></td></tr><tr>
+        <td id="section-8-content-block-2-cell-2-1" ><div class="table-cell-frame">1</div></td><td id="section-8-content-block-2-cell-2-2" ><div class="table-cell-frame">450</div></td></tr></table></div></td><td id="section-8-content-block-2-cell-5-3" ><div class="table-cell-frame"><span>100% unexpected</span></div></td></tr><tr>
+        <td id="section-8-content-block-2-cell-6-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-6-2" ><div class="table-cell-frame">
+                <span >
+                    distinct values must belong to a set, but that set is not specified.
+                </span>
+            </div></td><td id="section-8-content-block-2-cell-6-3" ><div class="table-cell-frame"><span>[0, 1]</span></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+          <div id="section-9" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-9-content-block-1" class="col-12" >
+
+    <div id="section-9-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        SexCode
+    </h3></div>
+
+</div>
+        
+
+<div id="section-9-content-block-2" class="m-3 table-responsive" >
+
+    
+
+<table id="section-9-content-block-2-body" class="table" >
+    
+        <tr>
+            
+                <th><span>Status</span></th>
+            
+                <th><span>Expectation</span></th>
+            
+                <th><span>Observed Value</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-9-content-block-2-cell-1-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-1-2" ><div class="table-cell-frame">
+                <span >
+                    value types must belong to this set: <span class="badge badge-secondary" >BIGINT</span> <span class="badge badge-secondary" >BYTEINT</span> <span class="badge badge-secondary" >DECIMAL</span> <span class="badge badge-secondary" >INT</span> <span class="badge badge-secondary" >INTEGER</span> <span class="badge badge-secondary" >IntegerType</span> <span class="badge badge-secondary" >LongType</span> <span class="badge badge-secondary" >SMALLINT</span> <span class="badge badge-secondary" >TINYINT</span> <span class="badge badge-secondary" >int</span>.
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-1-3" ><div class="table-cell-frame"><span>int64</span></div></td></tr><tr>
+        <td id="section-9-content-block-2-cell-2-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-2-2" ><div class="table-cell-frame">
+                <span >
+                    may have any number of unique values.
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-2-3" ><div class="table-cell-frame"><span>2</span></div></td></tr><tr>
+        <td id="section-9-content-block-2-cell-3-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-3-2" ><div class="table-cell-frame">
+                <span >
+                    may have any fraction of unique values.
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-3-3" ><div class="table-cell-frame"><span>≈0.001523229246</span></div></td></tr><tr>
+        <td id="section-9-content-block-2-cell-4-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-4-2" ><div class="table-cell-frame">
+                <span >
+                    values must not be null, at least <span class="badge badge-secondary" >50</span> % of the time.
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-4-3" ><div class="table-cell-frame"><span>100% not null</span></div></td></tr><tr>
+        <td id="section-9-content-block-2-cell-5-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-times text-danger" ></i>
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-5-2" ><div class="table-cell-frame">
+                <span >
+                    values must belong to this set: [ ].
+                </span>
+            
+                <strong class="text-danger" >
+                    <br><br>1,313 unexpected values found. 100% of 1,313 total rows.
+                </strong>
+            
+
+<table id="section-9-content-block-2-body" class="table-bordered table-sm mt-3" >
+    
+        <tr>
+            
+                <th><span>Unexpected Value</span></th>
+            
+                <th><span>Count</span></th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-9-content-block-2-cell-1-1" ><div class="table-cell-frame"><span>null</span></div></td><td id="section-9-content-block-2-cell-1-2" ><div class="table-cell-frame">851</div></td></tr><tr>
+        <td id="section-9-content-block-2-cell-2-1" ><div class="table-cell-frame">1</div></td><td id="section-9-content-block-2-cell-2-2" ><div class="table-cell-frame">462</div></td></tr></table></div></td><td id="section-9-content-block-2-cell-5-3" ><div class="table-cell-frame"><span>100% unexpected</span></div></td></tr><tr>
+        <td id="section-9-content-block-2-cell-6-1" ><div class="table-cell-frame">
+                <span >
+                    <i class="fas fa-check-circle text-success" ></i>
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-6-2" ><div class="table-cell-frame">
+                <span >
+                    distinct values must belong to a set, but that set is not specified.
+                </span>
+            </div></td><td id="section-9-content-block-2-cell-6-3" ><div class="table-cell-frame"><span>[0, 1]</span></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+        </div>
+        <div class="col-lg-2 col-md-2 col-xs-12 d-none d-md-block">
+            <div>
+  <div class="col-12">
+    <div class="row">
+      <img
+        src="https://great-expectations.readthedocs.io/en/latest/_images/generic_dickens_protagonist.png"
+        style="
+          width: 200px;
+          margin-left: auto;
+          margin-right: auto;
+        ">
+    </div>
+  </div>
+  <div class="col-12">
+    <p>
+      Documentation autogenerated using
+      <a href="https://greatexpectations.io">Great Expectations</a>.
+    </p>
+  </div>
+  <div class="alert alert-danger col-12" role="alert">
+      This is a beta feature! Expect changes in API, behavior, and design.
+  </div>
+</div>
+        </div>
+        <div class="d-block d-sm-none col-12">
+            <div>
+              <div class="row">
+                <img
+                  src="https://great-expectations.readthedocs.io/en/latest/_images/generic_dickens_protagonist.png"
+                  style="
+                    width: 200px;
+                    margin-left: auto;
+                    margin-right: auto;
+                  ">
+              </div>
+            </div>
+            <div class="col-12">
+              <p>
+                Documentation autogenerated using
+                <a href="https://greatexpectations.io">Great Expectations</a>.
+              </p>
+            </div>
+            <div class="alert alert-danger col-12" role="alert">
+                This is a beta feature! Expect changes in API, behavior, and design.
+            </div>
+          </div>
+
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(window).on('activate.bs.scrollspy', function () {
+          document.querySelector(".nav-link.active").scrollIntoViewIfNeeded();
+        });
+    </script>
+  </body>
+</html>

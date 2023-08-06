@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data documentation compiled by Great Expectations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title></title>
+
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+    <style>  body {
+    position: relative;
+  }
+  .container {
+    padding-top: 50px;
+  }
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    max-height: 90vh;
+    overflow-y: auto;
+    top: 15px;
+  }
+
+  .ge-section {
+    clear:both;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+
+  .triangle {
+    border: solid #222;
+    border-width: 0 1px 1px 0;
+    display: inline;
+    cursor: pointer;
+    padding: 3px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    transition: .3s transform ease-in-out;
+  }
+
+  .collapsed .triangle{
+    transform: rotate(-140deg);
+    -webkit-transform: rotate(-140deg);
+    transition: .3s transform ease-in-out;
+  }
+
+  .popover {
+    max-width: 100%;
+  }
+
+  .cooltip {
+    display:inline-block;
+    position:relative;
+    text-align:left;
+    cursor:pointer;
+  }
+
+  .cooltip .top {
+    min-width:200px;
+    top:-6px;
+    left:50%;
+    transform:translate(-50%, -100%);
+    padding:10px 20px;
+    color:#FFFFFF;
+    background-color:#222222;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999 !important;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+    }
+
+  .cooltip:hover .top {
+      display:block;
+      z-index:99999999 !important;
+  }
+
+  .cooltip .top i {
+      position:absolute;
+      top:100%;
+      left:50%;
+      margin-left:-12px;
+      width:24px;
+      height:12px;
+      overflow:hidden;
+  }
+
+  .cooltip .top i::after {
+      content:'';
+      position:absolute;
+      width:12px;
+      height:12px;
+      left:50%;
+      transform:translate(-50%,-50%) rotate(45deg);
+      background-color:#222222;
+      box-shadow:0 1px 8px rgba(0,0,0,0.5);
+  }
+
+  ul {
+    padding-inline-start: 20px;
+  }
+
+  .table-cell-frame {
+      overflow-y: auto;
+      max-height: 335px;
+  }
+
+  .table-cell-frame ul {
+    padding-bottom: 20px
+  }
+
+  .table-cell-frame::-webkit-scrollbar {
+      -webkit-appearance: none;
+  }
+
+  .table-cell-frame::-webkit-scrollbar:vertical {
+      width: 11px;
+  }
+
+  .table-cell-frame::-webkit-scrollbar:horizontal {
+      height: 11px;
+  }
+
+  .table-cell-frame::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 2px solid white; /* should match background, can't be transparent */
+      background-color: rgba(0, 0, 0, .5);
+  }</style>
+    <style>/*index page*/
+.ge-index-page-datasource-title {}
+.ge-index-page-generator-title {}
+.ge-index-page-generator-table-container {}
+.ge-index-page-generator-table {}
+.ge-index-page-generator-table-data-asset-header {}
+.ge-index-page-generator-table-profiling-links-header {}
+.ge-index-page-generator-table-expectations-links-header {}
+.ge-index-page-generator-table-validations-links-header {}
+.ge-index-page-generator-table-data-asset-name {}
+.ge-index-page-generator-table-profiling-links-list {}
+.ge-index-page-generator-table-profiling-links-item {}
+.ge-index-page-generator-table-expectation-suite-link {}
+.ge-index-page-generator-table-validation-links-list {}
+.ge-index-page-generator-table-validation-links-item {}
+
+/*breadcrumbs*/
+.ge-breadcrumbs {}
+.ge-breadcrumbs-item {}
+
+/*navigation sidebar*/
+.ge-navigation-sidebar-container {}
+.ge-navigation-sidebar-content {}
+.ge-navigation-sidebar-title {}
+.ge-navigation-sidebar-link {}</style>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.3.5/build/vega.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.2.1/build/vega-lite.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@4.0.0/build/vega-embed.js"></script>
+    <script src="https://kit.fontawesome.com/8217dffd95.js"></script>
+  </head>
+
+  <body
+        data-spy="scroll"
+        data-target="#navigation"
+        data-offset="50"
+    >
+    <div class="container-fluid p-4">
+      <div class="row">
+        <div class="col-md-10 col-lg-10 col-xs-12">
+        
+          <div id="section-1" class="ge-section container-fluid">
+    <div class="row">
+        
+
+<div id="section-1-content-block-1" class="col-12 ge-index-page-datasource-title" >
+
+    <div id="section-1-content-block-1-header" class="alert alert-secondary" >
+    <h3>
+        titanic
+    </h3></div>
+
+</div>
+        
+
+<div id="section-1-content-block-2" class="col-12 ml-4 ge-index-page-generator-title" >
+
+    <div id="section-1-content-block-2-header" >
+    <h3>
+        default
+    </h3></div>
+
+</div>
+        
+
+<div id="section-1-content-block-3" class="col-12" >
+
+    
+                <hr >
+                    
+                </hr>
+            
+
+</div>
+        
+
+<div id="section-1-content-block-4" class="col-12 ge-index-page-generator-table-container" style="margin-top:10px;" >
+
+    
+
+<table id="section-1-content-block-4-body" class="table table-sm ge-index-page-generator-table" >
+    
+        <tr>
+            
+                <th>
+                <span class="ge-index-page-generator-table-data-asset-header" >
+                    Data Asset
+                </span>
+            </th>
+            
+                <th>
+                <span class="ge-index-page-generator-table-profiling-links-header" >
+                    Profiling Results
+                </span>
+            </th>
+            
+                <th>
+                <span class="ge-index-page-generator-table-expectations-links-header" >
+                    Expectation Suite
+                </span>
+            </th>
+            
+                <th>
+                <span class="ge-index-page-generator-table-validations-links-header" >
+                    Validation Results
+                </span>
+            </th>
+            
+        </tr>
+    
+
+    <tr>
+        <td id="section-1-content-block-4-cell-1-1" rowspan="1" style="width:25.0%;" ><div class="table-cell-frame">
+                <blockquote >
+                    <span class="blockquote ge-index-page-generator-table-data-asset-name" >Titanic</span>
+                </blockquote>
+            </div></td><td id="section-1-content-block-4-cell-1-2" rowspan="1" style="width:25.0%;" ><div class="table-cell-frame">
+
+<ul id="section-1-content-block-4-body" class="ge-index-page-generator-table-profiling-links-list" >
+    
+            
+        
+        <li >
+                <a class="ge-index-page-generator-table-profiling-links-item" href="validations/profiling/titanic/default/Titanic/BasicDatasetProfiler.html" >
+                    BasicDatasetProfiler-ProfilingResults
+                </a>
+            </li>
+    
+</ul></div></td><td id="section-1-content-block-4-cell-1-3" style="width:25.0%;" ><div class="table-cell-frame">
+                <a class="ge-index-page-generator-table-expectation-suite-link" href="expectations/titanic/default/Titanic/BasicDatasetProfiler.html" >
+                    BasicDatasetProfiler
+                </a>
+            </div></td><td id="section-1-content-block-4-cell-1-4" style="width:25.0%;" ><div class="table-cell-frame">
+
+<ul id="section-1-content-block-4-body" class="pl-1 ge-index-page-generator-table-validation-links-list" >
+    
+            
+        
+        <li >
+                <a class="ge-index-page-generator-table-validation-links-item" href="validations/test_run_id_12345/titanic/default/Titanic/BasicDatasetProfiler.html" >
+                    <i class="fas fa-times text-danger" ></i> test_run_id_12345
+                </a>
+            </li>
+    
+</ul></div></td></tr></table>
+
+</div>
+        
+    </div>
+</div>
+        
+        </div>
+        <div class="col-lg-2 col-md-2 col-xs-12">
+            <div>
+  <div class="col-12">
+    <div class="row">
+      <img
+        src="https://great-expectations.readthedocs.io/en/latest/_images/generic_dickens_protagonist.png"
+        style="
+          width: 200px;
+          margin-left: auto;
+          margin-right: auto;
+        ">
+    </div>
+  </div>
+  <div class="col-12">
+    <p>
+      Documentation autogenerated using
+      <a href="https://greatexpectations.io">Great Expectations</a>.
+    </p>
+  </div>
+  <div class="alert alert-danger col-12" role="alert">
+      This is a beta feature! Expect changes in API, behavior, and design.
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
