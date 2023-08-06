@@ -1,0 +1,14 @@
+conrad/__init__.py,sha256=d-lpxHMW5J9AjcNMyaHU3i0IdKFsh2TDYFa99cDCrm4,224
+conrad/__main__.py,sha256=_cQT0ww4SwLTrHG9xcK2eYtDcHgMYxEe-EJuWG7iuIY,182
+conrad/__version__.py,sha256=jXSKtOS3K-cWYKuIGOYqo0r1lplw7qmS-zMlD6DNUVI,748
+conrad/cli.py,sha256=WFTO9EHVmObGgm82YV5SVIEHv91UP7hbwfTscEyQpO4,10268
+conrad/db.py,sha256=Xy5LicDT0ifXULN-B9XN3XulsO42Pt7RaYEo7VsLr_w,803
+conrad/models.py,sha256=R-_fSLHbAX9C8mPLIK0b1LCUBxupaItK4_RiqoL-ifU,902
+conrad/prettytable.py,sha256=cp8Ynx70JlWdhW5lv99IKlJHkGVmr3nrscuZ6GuUOsM,59067
+conrad/utils.py,sha256=0Iw3txYJv9DWBS_pqtp9YO06fH_ra_dDBsf4XwrE_AY,982
+conference_radar-0.2.0.dist-info/LICENSE,sha256=BzEPolwvYbFnz5m-4klrsopZc-pMa4Qc05o0CdQSaWU,11343
+conference_radar-0.2.0.dist-info/METADATA,sha256=F6g3W7tGJmIEmokHvEL1gP0DmAKMBDxwUHt6NbCmKT8,9270
+conference_radar-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+conference_radar-0.2.0.dist-info/entry_points.txt,sha256=66KnGAmM4wux87zQCSAQQU4bKzM1APFhK4cFlE-lu0U,43
+conference_radar-0.2.0.dist-info/top_level.txt,sha256=j0Avl-qjFTgBpw43ZFURAQ-398fmW9TFAdjxJwnnQBE,7
+conference_radar-0.2.0.dist-info/RECORD,,
