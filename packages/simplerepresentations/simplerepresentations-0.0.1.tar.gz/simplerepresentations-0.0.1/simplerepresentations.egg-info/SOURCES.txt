@@ -1,0 +1,12 @@
+README.md
+setup.py
+simplerepresentations/__init__.py
+simplerepresentations/input_example.py
+simplerepresentations/input_features.py
+simplerepresentations/representation_model.py
+simplerepresentations/utils.py
+simplerepresentations.egg-info/PKG-INFO
+simplerepresentations.egg-info/SOURCES.txt
+simplerepresentations.egg-info/dependency_links.txt
+simplerepresentations.egg-info/requires.txt
+simplerepresentations.egg-info/top_level.txt
