@@ -1,0 +1,71 @@
+/* Co2mpas help system */
+p {
+	text-align: justify;
+}
+
+img.co2mpas-logo-big {
+	display:block;
+	width:100%;
+	max-width:600px;
+}
+
+.co2-help {
+	color: rgb(60, 141, 188);
+	font-size: 0.7em;
+}
+
+label .co2-help {
+	font-size: 0.9em;
+}
+
+.logo-lg img {
+	width: 85%;
+	padding-top: 5px;
+}
+
+h2 {
+	color: rgb(60, 141, 188);
+}
+
+.logo-lg {
+	width: 150px;
+}
+
+.color-ok {
+	color: green;
+}
+
+.color-ko {
+	color: red;
+}
+
+table.summary th {
+	text-align: center;
+}
+
+.badge-warning {
+  background-color: #f39c12 !important;
+	color: white !important;
+}
+
+ul.treeview-menu {
+	background-color: #3c8dbc !important;
+}
+
+ul.treeview-menu > li > a {
+	color: white !important;
+}
+
+@media (max-width: 767px) {
+	.jrc-links {
+		display: inline-flex;
+		position: relative;
+		top: -10px;
+		margin: 0;
+		padding-bottom: 0;
+	}
+}
+
+.tooltip-inner {
+ text-align: left;
+}

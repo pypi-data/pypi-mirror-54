@@ -1,0 +1,53 @@
+				<section class="col-lg-12 connectedSortable">      
+				
+					<h1>{{ data.breadcrumb[-1] }}</h1>
+					
+					<p>{{ data.texts["run"]["view results"] | safe }}</p>
+					
+					<div class="box">
+					<form action="/run/delete-results" method="post">
+            <div class="box-header with-border">
+              <h3 class="box-title">Your Co<sub>2</sub>mpas past results</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table class="table table-bordered">
+                <tr>
+                  <th style="width: 10px">#</th>
+									<th style="width: 40px">{{ _("Date") }}</th>
+                  <th style="width: 40px">{{ _("Run") }}</th>
+                  <th style="width: 40px">{{ _("Result") }}</th>
+									<th style="width: 40px">{{ _("Summary") }}</th>
+									<th style="width: 40px">{{ _("Log") }}</th>
+                  <th style="width: 40px">{{ _("Link") }}</th>
+									<th style="width: 40px; text-align: center;">{{ _("Select all") }} &nbsp;<input type="checkbox" id="select-all" name="select-all" onchange="check_boxes();"></th>
+                </tr>
+								{% for result in data.results %}
+                <tr>
+                  <td>{{loop.index}}.</td>
+									<td>
+                    {{result.datetime}}
+                  </td>
+                  <td>{{result.name}}</td>
+                  <td class="text-{{ "info" if (data.running and loop.index == 1) else ("success" if result.outcome == "OK" else "danger") }}"><b>{{ 'RUNNING' if (data.running and loop.index == 1) else (result.outcome if result.outcome == 'OK' else 'ERROR') }}</b></td>
+									<td class="text-success"><a href="#" onclick="load_summary('{{result.name}}'); return false;"><i class="fa fa-eye"></i> {{ _("View") }} </a></td>
+									<td><a href="/run/download-log/{{result.name}}"><i class="fa fa-newspaper-o"></i> </a></td>
+                  <td style="list-style-type:none;">
+											{% for file in result.files %}
+											<li><a href="/run/download-result/{{result.name}}/{{loop.index}}">{{file}}</a></li>									
+											{% endfor %}
+											<li><i class="fa fa-file-archive-o"></i> <a href="/run/download-all/{{result.name}}">Full archive</a></li>
+									</td>
+									<td style="text-align: center;"><input type="checkbox" class="run-delete" name="select-{{result.name}}"></td>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>  
+						<div class="box-footer">
+							<button id="delete-selected" class="btn btn-sm btn-danger pull-right"><i class="glyphicon glyphicon-trash"></i> {{ _("Delete selected") }}</button>
+						</div>
+					</form>
+          </div>
+          <!-- /.box -->
+					
+				</section>
