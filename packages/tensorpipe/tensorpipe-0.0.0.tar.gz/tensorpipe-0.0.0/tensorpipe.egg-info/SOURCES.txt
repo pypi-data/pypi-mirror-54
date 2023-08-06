@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+tensorpipe/__init__.py
+tensorpipe.egg-info/PKG-INFO
+tensorpipe.egg-info/SOURCES.txt
+tensorpipe.egg-info/dependency_links.txt
+tensorpipe.egg-info/top_level.txt
