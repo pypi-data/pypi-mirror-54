@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: wagtail-code-blog
+Version: 0.0.1
+Summary: A wagtail code blog
+Home-page: https://github.com/danihodovic/wagtail-code-blog
+Author: Dani Hodovic
+Author-email: hodovic.dani@gmail.com
+License: MIT
+Description: # A code blog for wagtail
+        
+Keywords: django,wagtail,blog
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
