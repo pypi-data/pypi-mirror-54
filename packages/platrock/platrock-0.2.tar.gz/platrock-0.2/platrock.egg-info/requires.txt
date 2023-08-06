@@ -1,0 +1,14 @@
+numpy
+numpy-quaternion
+yappi
+ipython
+jsonpickle
+matplotlib
+numba
+h5py
+shapely
+descartes
+remi
+filemagic
+plotly
+scipy
