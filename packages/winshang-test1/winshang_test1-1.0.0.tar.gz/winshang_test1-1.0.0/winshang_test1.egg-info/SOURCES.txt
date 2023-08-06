@@ -1,0 +1,8 @@
+README.md
+setup.py
+winshang_test1/__init__.py
+winshang_test1/crawler.py
+winshang_test1.egg-info/PKG-INFO
+winshang_test1.egg-info/SOURCES.txt
+winshang_test1.egg-info/dependency_links.txt
+winshang_test1.egg-info/top_level.txt
