@@ -1,0 +1,8 @@
+README.md
+setup.py
+best_book_store/__init__.py
+best_book_store.egg-info/PKG-INFO
+best_book_store.egg-info/SOURCES.txt
+best_book_store.egg-info/dependency_links.txt
+best_book_store.egg-info/not-zip-safe
+best_book_store.egg-info/top_level.txt
