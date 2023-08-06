@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+gosuslugi_api/__init__.py
+gosuslugi_api/clients.py
+gosuslugi_api/consts.py
+gosuslugi_api/exceptions.py
+gosuslugi_api.egg-info/PKG-INFO
+gosuslugi_api.egg-info/SOURCES.txt
+gosuslugi_api.egg-info/dependency_links.txt
+gosuslugi_api.egg-info/not-zip-safe
+gosuslugi_api.egg-info/requires.txt
+gosuslugi_api.egg-info/top_level.txt
