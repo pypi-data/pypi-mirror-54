@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: GUISpices
+Version: 1.1.0
+Summary: A wrapper module for various GUI usages
+Home-page: UNKNOWN
+Author: Leon Wiesen
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: PySide2
+
+# Weasel's GUI Spices
+This is the one and only GUI module you really need...
+
+## Features
+- [Tray icons](#tray-icons) with custom sub-menus
+- [Windows Messages](#windows-messages)
+- [Qt Windows](#qt-windows)
+- [Windows Explorer extensions](#windows-explorer-extensions)
+- Borderless *and* draggable windows
+- Easy custom CSS Styling
+
+
+### Tray Icons
+This example creates a classic icon in the bottom right tray.
+```python
+from PySide2.QtWidgets import QApplication, QMenu
+from GUISpices import TrayIcon
+import sys
+
+# create main application (if not present)
+app = QApplication([])
+app.setQuitOnLastWindowClosed(False)
+
+# configure basic tray actions
+tray = TrayIcon(app, "examples/icon.png", "Test Program", click_action=lambda :print("Clicked"))
+tray.add_menu_feature("Change Icon", lambda: tray.set_icon("examples/icon2.png"))
+tray.add_menu_feature("Show a message from tray", lambda: tray.show_tray_message("Hello", "Hello my friend"))
+tray.add_separator()
+tray.add_menu_feature("Exit", app.exit)
+
+# Include a custom sub-menu
+menu_ = QMenu(title="Sub Menu")
+menu_.addAction("Egg sit (sub-action)", lambda: sys.exit(0))
+tray.add_menu(menu_)
+
+sys.exit(app.exec_())
+```
+
+### Windows Messages
+This shows a tray icon and creates a windows tray message with a custom icon and action.
+```python
+from PySide2.QtWidgets import QApplication, QMenu
+from GUISpices import TrayIcon
+import sys
+
+# create main application (if not present)
+app = QApplication([])
+app.setQuitOnLastWindowClosed(False)
+
+# configure basic tray
+tray = TrayIcon(app, "examples/icon.png", "Test Program")
+
+# Show message
+tray.show_tray_message("Title","This is the message body",
+                        icon="examples/icon.png",
+                        on_click=lambda:print("Message clicked"))
+
+sys.exit(app.exec_())
+```
+
+### Qt Windows
+The whole module lets you build all windows and popups with
+[Qt Designer](https://www.qt.io/), a powerful and easy-to-use environment for 
+drag & drop GUI building. This creates a `.ui` file which can be directly loaded 
+to create the desired window with full compatibility.
+```python
+from PySide2.QtWidgets import QApplication
+from GUISpices import UIWindow
+import sys
+
+app = QApplication()
+main_form = UIWindow('examples/wizard.ui', "examples/icon.png")
+main_form.window.show()
+sys.exit(app.exec_())
+```
+
+### Windows Explorer extensions
+This creates a new entry in the explorers context menu. 
+So a right-click in any folder or on the user's desktop 
+will show your custom action, as well. This example creates 
+a custom action "Run CMD", which opens up a terminal.
+```python
+from GUISpices import ExplorerContextManager
+ExplorerContextManager.register_entry("Run CMD", "C:\\Windows\\System32\\cmd.exe", "C:\\Windows\\System32\\cmd.exe")
+```
+
+
