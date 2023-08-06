@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: fireREST
+Version: 0.0.2
+Summary: Python api client for Cisco Firepower Management Center REST API
+Home-page: https://github.com/kaisero/fireREST.git
+Author: Oliver Kaiser
+Author-email: oliver.kaiser@outlook.com
+License: UNKNOWN
+Keywords: cisco firepower fmc ftd fpr api rest python api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+# What is FireREST
+
+FireREST is a simple wrapper for Cisco Firepower Management Center REST API. It exposes various api calls
+as functions and takes care of authentication, token refresh and paging for large datasets.
+
+## Requirements 
+
+* Python >= 3.6
+
+## Installation
+
+```bash
+$ pip install fireREST
+```
+
+## Authors 
+
+Oliver Kaiser (oliver.kaiser@outlook.com)
+
+## License
+
+GNU General Public License v3.0
+
+
