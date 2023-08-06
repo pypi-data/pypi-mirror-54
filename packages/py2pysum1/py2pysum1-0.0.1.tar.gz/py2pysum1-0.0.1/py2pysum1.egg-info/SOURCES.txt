@@ -1,0 +1,7 @@
+README.md
+setup.py
+py2pysum1/__init__.py
+py2pysum1.egg-info/PKG-INFO
+py2pysum1.egg-info/SOURCES.txt
+py2pysum1.egg-info/dependency_links.txt
+py2pysum1.egg-info/top_level.txt
