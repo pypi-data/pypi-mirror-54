@@ -1,0 +1,3 @@
+[console_scripts]
+gitmetheurl = gitmetheurl.cmd:main
+
