@@ -1,0 +1,3 @@
+[console_scripts]
+qiitacli = qiitacli.client:cmd
+
