@@ -1,0 +1,5 @@
+[console_scripts]
+kubectl-pk=policykit.cli:cli
+pk=policykit.cli:cli
+policykit=policykit.cli:cli
+
