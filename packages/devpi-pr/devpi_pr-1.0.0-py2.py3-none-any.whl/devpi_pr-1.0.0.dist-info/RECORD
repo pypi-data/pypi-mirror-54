@@ -1,0 +1,10 @@
+devpi_pr/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+devpi_pr/client.py,sha256=w7hWcfV9S3Ah2Iq2vrSDkcSROf-M-ZEh4wUxlN09lVo,16405
+devpi_pr/server.py,sha256=bf_x4QE5Ui877a-Lgb73-AQUkkowbp1tca_vEywzUV8,10385
+devpi_pr/views.py,sha256=eu_I6PkMcrFxUb4u_dcJLL2H1kAMI7-9BNANb_sqVgI,2476
+devpi_pr-1.0.0.dist-info/LICENSE,sha256=mqz2Iz3oYnH8Poma-navD0rbZPu-2CfJmIm3z-YI-X4,1072
+devpi_pr-1.0.0.dist-info/METADATA,sha256=xpL5FZ2qKGmJTiiba90Kx-ncXtHZsRj-2co_arfdzl0,7929
+devpi_pr-1.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+devpi_pr-1.0.0.dist-info/entry_points.txt,sha256=c5lcTbFomGmBL7o8spCzDmVQ8yoUHKDQRLlxv1NeoWY,86
+devpi_pr-1.0.0.dist-info/top_level.txt,sha256=06hclHj0IRyEHNjLtm1E-7zVGpmbH1bqpFS2B2XG7Yc,9
+devpi_pr-1.0.0.dist-info/RECORD,,
