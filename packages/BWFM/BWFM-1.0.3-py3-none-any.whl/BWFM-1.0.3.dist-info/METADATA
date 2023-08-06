@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: BWFM
+Version: 1.0.3
+Summary: Simple Qt front-end for botwfstools management.
+Home-page: https://github.com/23kreny/BWFM
+Author: kreny
+Author-email: kronerm9@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PySide2 (>=5.13.1)
+Requires-Dist: botwfstools (>=1.4.3)
+
+# Breath of the Wild Modding Toolkit
+All tools for all your needs!
+
+
