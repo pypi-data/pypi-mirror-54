@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: EXCELerator
+Version: 0.1.2
+Summary: Library for reading tabular data from excel in a very forgiving manner.
+Home-page: https://github.com/jonathanchukinas/openpyxl_utils
+License: UNKNOWN
+Author: Jonathan Chukinas
+Author-email: chukinas@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: openpyxl
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: tox; extra == "test"
+Provides-Extra: test
+
+# EXCELerator
+
+## Use Case
+Excel is often used to generator forms. Those forms are sometimes modified, even if slightly. Sometimes the header row gets displaced a few rows down or a few columns to the right. Sometimes a header is changed slightly - perhaps a whitespace was added to the end or a newline was inserted to make the header look nicer to the user.
+
+Either way, by the time it got back to you, it changed *just enough* to throw a wrench into the pandas, openpyxl, or xlrd script you wrote. 
+
+This library seeks to aide you in reading the content of such forms by providing you with high-level classes and functions for reading data out of excel sheets.
+
+## Future
+Currently, this is a barebones library. But more feature will come quickly.
+
+## Tutorial
+```powershell
+pip install EXCELerator
+```
+
+```python
+from excelerator import TableReader
+
+path = r'path\to\excel\sheet.xlsx'
+sheetname = 'worksheet name'
+tr = TableReader()
+my_table_as_dict = tr.read_from(path, sheetname)
+```

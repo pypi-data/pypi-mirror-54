@@ -1,0 +1,8 @@
+excelerator/__init__.py,sha256=OmdWtxobnDditRR2RrO0MWnclNJpcnZkMViHuFdNA1U,198
+excelerator/exceptions.py,sha256=Vw7Gh6JLTn5qW1IwGJd3wt-ubF9aBGhuoPdIbVBXQEw,465
+excelerator/table_reader.py,sha256=sjxxVE2dlHQqXHwOVT7OUZJzYI_LMH9RwK0zpYy3PzU,550
+excelerator/utils.py,sha256=XRPt2pdP-JoclkhbqeTvIPCF5AKJlA5JrF44_I-g8-o,1225
+excelerator/worksheet_rows.py,sha256=Ce-_VnH4b2JPeHK_z07e_1DHYLK2TH45J_sYhm6_KKs,2535
+EXCELerator-0.1.2.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+EXCELerator-0.1.2.dist-info/METADATA,sha256=Gjj9d90s6ysP76RU42pIYjnfP48S_EnVuyzm0FaleyU,1987
+EXCELerator-0.1.2.dist-info/RECORD,,
