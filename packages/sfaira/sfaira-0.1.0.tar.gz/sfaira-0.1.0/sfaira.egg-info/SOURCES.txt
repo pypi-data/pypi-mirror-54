@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+sfaira/__init__.py
+sfaira/_version.py
+sfaira.egg-info/PKG-INFO
+sfaira.egg-info/SOURCES.txt
+sfaira.egg-info/dependency_links.txt
+sfaira.egg-info/requires.txt
+sfaira.egg-info/top_level.txt

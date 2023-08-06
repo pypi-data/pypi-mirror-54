@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sfaira
+Version: 0.1.0
+Summary: sfaira
+Home-page: UNKNOWN
+Author: David S. Fischer, Leander Dony
+Author-email: david.fischer@helmholtz-muenchen.de
+License: UNKNOWN
+Description: # Sfaira
+        
+        Code to come soon.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: tensorflow_gpu
