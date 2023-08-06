@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: ovs-p4
+Version: 0.0.6
+Summary: The package contains a P4Runtime server for P4 capable ovs switch and a ovs-p4ctl command line tool for monitoring and administering
+Home-page: UNKNOWN
+Author: Tomasz Osinski, Mateusz Kossakowski
+Author-email: osinstom@gmail.com, mateusz.kossakowski.10@gmail.com
+License: UNKNOWN
+Description: # Requirements #
+        
+        This package has not only PyPi dependencies. It needs installation of PI:
+        https://github.com/p4lang/PI  
+        1. Install PI and its dependencies using `install_P4Runtime.sh` script (this script comes from https://github.com/jafingerhut/p4-guide).  
+        `cd scripts`  
+        `chmod +x install_P4Runtime.sh`  
+        `./install_P4Runtime.sh`  
+        
+        2. Copy from this repository p4runtime.proto file to folder
+        PI/proto/p4runtime/proto/p4/v1  
+        `cp <path to ovs-p4 repository>/proto/p4runtime.proto <path to PI>/proto/p4runtime/proto/p4/v1`
+        
+        3. Run PI installation once again:  
+        `./autogen.sh`  
+        `./configure --with-proto`  
+        `make`  
+        `make check`  
+        `[sudo] make install`  
+        
+        3. Install PI and its dependencies using `install_P4Runtime.sh` script (this script comes from https://github.com/jafingerhut/p4-guide).  
+        `cd scripts`  
+        `chmod +x install_P4Runtime.sh`  
+        `./install_P4Runtime.sh`  
+        
+        1. Clone PI and submodules  
+        `git clone https://github.com/p4lang/PI`  
+        `cd PI`  
+        `git submodule update --init --recursive` 
+        
+        Install PI according to its own instructions (including grpc, protobuf, etc.).  
+        Probably before protobuf installation you will have to install following dependencies on your own:  
+        `sudo apt-get --yes install autoconf automake libtool curl make g++ unzip`  
+        `sudo apt-get --yes install zlib1g-dev`  
+        `sudo apt-get --yes install cmake g++ git automake libtool libgc-dev bison flex libfl-dev libgmp-dev libboost-dev libboost-iostreams-dev libboost-graph-dev llvm pkg-config python python-scapy python-ipaddr python-ply tcpdump`
+        
+        
+        ## P4Runtime server - ovs-p4srv ##
+        
+        The ovs-p4srv P4Runtime server translates requests from P4Runtime to oko switch CLI commands.
+        
+        ### How to run? ###
+        
+        Run following command:
+        
+        `user@hostname:~$ ovs-p4srv`
+        
+        ## Command line tool - ovs-p4ctl ##
+        
+        The ovs-p4ctl program is a command line tool for monitoring and administering oko switch via P4Runtime.
+        
+        ### How to use? ###
+        
+        The tool can be used as follows:
+        
+        `user@hostname:~$ ovs-p4ctl [command] [args...]`
+        
+        #### Commands ####
+        
+        Every command requires at least one argument `--pipeline-id` - an identifier of a programme.  
+        Switch can have multiple programs. 
+        
+        ##### load_config #####
+        Loads compiled program to a switch.
+        
+        Arguments: `--pipeline-id | --p4info-path | --config-path`
+        
+        ##### get_config #####
+        Downloads current program from a switch
+        
+        Arguments: `--pipeline-id | --response-type | --show | --p4info-path | --config-path`
+        
+        ##### table_update #####
+        Updates table entries
+        
+        Arguments: `--pipeline-id | --p4info-path | --entry`
+        
+        ##### table_dump #####
+        Prints to the console information about table entries
+        
+        Arguments: `--pipeline-id | --p4info-path | --table`
+        
+        ### Contact ###
+        
+        Tomek Osiński < tomasz.osinski2@orange.com / osinstom@gmail.com >
+        
+        Mateusz Kossakowski < mateusz.kossakowski@orange.com / mateusz.kossakowski.10@gmail.com >
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
