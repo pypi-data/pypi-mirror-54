@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: roboeye
+Version: 0.0.0
+Summary: Enlightenment about humans for robots
+Home-page: https://triplet.gmbh/
+Author: Philipp Benjamin Koeppchen
+Author-email: bejamin.koeppchen@triplet.gmbh
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev

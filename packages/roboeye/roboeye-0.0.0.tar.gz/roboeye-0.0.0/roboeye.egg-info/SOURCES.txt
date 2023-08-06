@@ -1,0 +1,8 @@
+setup.py
+roboeye/__init__.py
+roboeye.egg-info/PKG-INFO
+roboeye.egg-info/SOURCES.txt
+roboeye.egg-info/dependency_links.txt
+roboeye.egg-info/requires.txt
+roboeye.egg-info/top_level.txt
+test/test_all.py
