@@ -1,0 +1,10 @@
+README.md
+setup.py
+bagpipe/__init__.py
+bagpipe/main.py
+bagpipe.egg-info/PKG-INFO
+bagpipe.egg-info/SOURCES.txt
+bagpipe.egg-info/dependency_links.txt
+bagpipe.egg-info/entry_points.txt
+bagpipe.egg-info/requires.txt
+bagpipe.egg-info/top_level.txt
