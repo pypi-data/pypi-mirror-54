@@ -1,0 +1,7 @@
+-r requirements.pip
+coverage
+mock
+tox
+pytest-django
+pytest-pythonpath
+factory_boy
