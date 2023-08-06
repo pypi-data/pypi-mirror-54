@@ -1,0 +1,37 @@
+.TH "BST BUILD" "1" "14-Jul-2019" "" "bst build Manual"
+.SH NAME
+bst\-build \- Build elements in a pipeline
+.SH SYNOPSIS
+.B bst build
+[OPTIONS] [ELEMENTS]...
+.SH DESCRIPTION
+Build elements in a pipeline
+.PP
+Specifying no elements will result in building the default targets
+of the project. If no default targets are configured, all project
+elements will be built.
+.PP
+When this command is executed from a workspace directory, the default
+is to build the workspace element.
+.SH OPTIONS
+.TP
+\fB\-\-all\fP
+Build elements that would not be needed for the current build plan
+.TP
+\fB\-\-track\fP PATH
+Specify elements to track during the build. Can be used repeatedly to specify multiple elements
+.TP
+\fB\-\-track\-all\fP
+Track all elements in the pipeline
+.TP
+\fB\-\-track\-except\fP PATH
+Except certain dependencies from tracking
+.TP
+\fB\-J,\fP \-\-track\-cross\-junctions
+Allow tracking to cross junction boundaries
+.TP
+\fB\-\-track\-save\fP
+Deprecated: This is ignored
+.TP
+\fB\-r,\fP \-\-remote TEXT
+The URL of the remote cache (defaults to the first configured cache)

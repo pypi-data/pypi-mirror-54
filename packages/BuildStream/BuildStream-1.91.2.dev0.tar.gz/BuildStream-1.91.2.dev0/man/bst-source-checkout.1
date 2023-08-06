@@ -1,0 +1,27 @@
+.TH "BST SOURCE CHECKOUT" "1" "14-Jul-2019" "" "bst source checkout Manual"
+.SH NAME
+bst\-source\-checkout \- Checkout sources for an element
+.SH SYNOPSIS
+.B bst source checkout
+[OPTIONS] [ELEMENT] [LOCATION]
+.SH DESCRIPTION
+Checkout sources of an element to the specified location
+.PP
+When this command is executed from a workspace directory, the default
+is to checkout the sources of the workspace element.
+.SH OPTIONS
+.TP
+\fB\-f,\fP \-\-force
+Allow files to be overwritten
+.TP
+\fB\-\-except\fP PATH
+Except certain dependencies
+.TP
+\fB\-d,\fP \-\-deps [build|none|run|all]
+The dependencies whose sources to checkout (default: none)
+.TP
+\fB\-\-tar\fP
+Create a tarball from the element's sources instead of a file tree.
+.TP
+\fB\-\-include\-build\-scripts\fP
+.PP
