@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: keras-model-specs
+Version: 2.0.0
+Summary: A helper package for managing tf.keras model base architectures with overrides for target size and preprocessing functions.
+Home-page: https://www.triage.com/
+Author: Triage Technologies Inc.
+Author-email: ai@triage.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: tensorflow (>=2.0)
+Requires-Dist: h5py
+Requires-Dist: Pillow
+Requires-Dist: six
+
+UNKNOWN
+
+
