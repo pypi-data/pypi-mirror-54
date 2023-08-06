@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: djhost
+Version: 0.0.2
+Summary: djhost package
+Home-page: https://github.com/neurobin/djhost
+Author: Md. Jahidul Hamid
+Author-email: jahidulhamid@yahoo.com
+License: BSD
+Description: DjHost
+        =============
+        
+        Serve multiple domain/subdomain from single django project with different urlconf
+Keywords: django cms content management system
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
