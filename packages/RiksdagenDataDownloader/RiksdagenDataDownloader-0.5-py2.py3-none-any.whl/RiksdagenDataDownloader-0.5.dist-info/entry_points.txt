@@ -1,0 +1,3 @@
+[console_scripts]
+rdd = RiksdagenDataDownloader.cli:main
+

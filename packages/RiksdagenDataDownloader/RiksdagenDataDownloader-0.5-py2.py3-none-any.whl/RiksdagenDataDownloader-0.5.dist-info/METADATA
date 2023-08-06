@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: RiksdagenDataDownloader
+Version: 0.5
+Summary: A tool to download data from data.riksdagen.se
+Home-page: https://github.com/rickardlofberg/RiksdagenDataDownloader
+Author: Rickard Lofberg
+Author-email: lofberg.rickard@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Requires-Dist: requests
+Requires-Dist: xmltodict
+
+
+Python code to download and save data from data.riksdagen.se to a local SQLite 
+DB.
+
+TODO/Things to contribute with:
+- Add primary keys, foreign keys and indexing to sql database
+- Add functionality to ignore multirow comments to sql feeder
+- Add syntax checking to sql feeder
+- Make the RiksDatasetInterface smarter, is there a better way to do this?
+- ...
+
+

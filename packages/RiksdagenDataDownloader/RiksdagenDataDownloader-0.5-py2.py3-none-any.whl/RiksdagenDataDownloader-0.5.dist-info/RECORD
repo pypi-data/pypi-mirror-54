@@ -1,0 +1,10 @@
+RiksdagenDataDownloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RiksdagenDataDownloader/api.py,sha256=GrmlasYZJ8q8Yg9XIU5ZPC0evbQLM5AMANuNAjZX3eg,954
+RiksdagenDataDownloader/cli.py,sha256=tsIpuZDnTLIws9rtnxuv3mKXzIsw-Y9qqR_70Pc_LOE,1614
+RiksdagenDataDownloader/riksdagen_client.py,sha256=5riG_FwOEret3d3nkk2053prqZ5Lw9S_KeB3ZYQWH-E,3800
+RiksdagenDataDownloader/unzip.py,sha256=HFq6sg00UGVQ1co4DO919Z87JoKIXineyUTH_r1LQFc,1059
+RiksdagenDataDownloader-0.5.dist-info/METADATA,sha256=88V48mVXyWYSxqp_nk6ppUbi-qPyzz-X8BqVrLr-rZo,1054
+RiksdagenDataDownloader-0.5.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+RiksdagenDataDownloader-0.5.dist-info/entry_points.txt,sha256=HZGS5MaCX0agy3kAmgMQuRRbSnmyZnerogkOBOIAVvY,58
+RiksdagenDataDownloader-0.5.dist-info/top_level.txt,sha256=S1EMe1-5T-vW0fAq-QeaaVKn1Rmp6-1rPbWL0qwmdqw,24
+RiksdagenDataDownloader-0.5.dist-info/RECORD,,
