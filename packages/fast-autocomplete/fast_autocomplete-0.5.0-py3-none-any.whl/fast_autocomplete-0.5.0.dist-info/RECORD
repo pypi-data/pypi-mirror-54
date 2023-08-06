@@ -1,0 +1,14 @@
+fast_autocomplete/__init__.py,sha256=ynWbxATHknk46rzRU3_77Kq7wUwS8hkvdxq74O2HBdQ,528
+fast_autocomplete/demo.py,sha256=HDboXacJ31Pg9Z3rceW88e9GI9fc1x1nfLBbONC1x3w,1245
+fast_autocomplete/draw.py,sha256=oXCo5sx3_oL4crISRPodIhBiS6Hnsk2iTJCQewqJd1s,3591
+fast_autocomplete/dwg.py,sha256=6XH_ZCKZWsMFow683xCgsAW4gdDU3IBnFlhl9yG01-g,22426
+fast_autocomplete/lfucache.py,sha256=MQp7LkwkjN7GmJXmqEA2dRoz-GgUFua2xD28_Thcr2k,5985
+fast_autocomplete/loader.py,sha256=W2rVmcIuQGddfaIepn_h70tww40DteIzsxOBtCBa9XY,4422
+fast_autocomplete/misc.py,sha256=xd4p4altUsIwIqKpyHhJdWgcg_akqWf5qGHo4XM4C_E,3254
+fast_autocomplete/normalize.py,sha256=EooVcOVIOh4SngYaJ7H6bzU02tPzlOuOe_swcPHsnx0,1915
+fast_autocomplete-0.5.0.dist-info/AUTHORS,sha256=gTv6SdAtL2BAep_v1A0LDowrQgRJjTWbn7a401v3ZcA,123
+fast_autocomplete-0.5.0.dist-info/LICENSE,sha256=KTbAswPdHa5MIQTbVak6hyRCA1sctf1poz1ApqFk-o4,1087
+fast_autocomplete-0.5.0.dist-info/METADATA,sha256=dzx6sC3x3fi4rEMlE27oFR4_iz3GLcRQji6K1sRAFHU,15605
+fast_autocomplete-0.5.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+fast_autocomplete-0.5.0.dist-info/top_level.txt,sha256=_p1N76f3PMLf1_qUSRq1RxIXQ-jh8ZZJdzhjSncfeKE,18
+fast_autocomplete-0.5.0.dist-info/RECORD,,
