@@ -1,0 +1,5 @@
+setup.py
+gfsanl_auto_download.egg-info/PKG-INFO
+gfsanl_auto_download.egg-info/SOURCES.txt
+gfsanl_auto_download.egg-info/dependency_links.txt
+gfsanl_auto_download.egg-info/top_level.txt
