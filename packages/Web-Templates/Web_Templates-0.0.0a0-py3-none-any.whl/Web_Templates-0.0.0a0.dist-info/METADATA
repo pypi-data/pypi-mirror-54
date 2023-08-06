@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: Web-Templates
+Version: 0.0.0a0
+Summary: Standardized templates for Python's web frameworks
+Home-page: https://gitlab.com/manaikan/web-templates/
+Author: Carel van Dam
+Author-email: carelvdam@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+
+Web Templates
+=============
+
+This project hopes to cater for the situation that one is working through a tutorial for their selected web framework and reads "Provide a base template for your website". 
+Your thinking that's probably important perhaps there is a standardized template only to realise that "The cake is not real".
+
+This package provides skeletal HTML templates for the different Python web frameworks one has used and will gladly accept contributions for the ones you are using.
+Hopefully, after a period of time this project might present the standard for such templates.
+
+Background 
+----------
+
+A number of Python web frameworks and template engines exist none of which appear to offer a standardized base template.
+As a result each extention to these frameworks provides its own variation of a "base" HTML template.
+
+This package hopes to provide a standardized **skeleton** for such packages and indeed the frameworks themselves.
+
+Purpose
+-------
+
+This package provides `skeleton` templates for other packages to extend.
+`skeleton` was chosen since it is less likely to clash with more customary terms, `base` and `layout`, used within web framework packages and their extentions.
+These `skeleton(s)` provide a standard structure, outlined by the package documentation, and are named and organized according to how they are processed ::
+
+    BACKEND_FRAMEWORK[/EXTENTION(S)][/FRONTEND_FRAMEWORK][/EXTENTION(S)]/skeleton.TEMPLATE_ENGINE.html
+
+.. rubric:: Example
+
+A template for the `RESTful` package, which exists for both `Django` as `Django-RESTfull` and `Flask` as `Flask-ReSTful`, might exist under the following paths ::
+
+    flask/flask-RESTful/skeleton.jinja2.html
+    flask/flask-RESTful/skeleton.mako.html
+    django/django-RESTful/skeleton.DTL.html
+    django/django-RESTful/skeleton.jinja2.html
+
+Installation
+------------
+
+The package can be installed directly through `pip` ::
+
+    pip install Web-Templates
+
+Documentation
+-------------
+
+Documentation will be available shortly through read the docs. 
+
