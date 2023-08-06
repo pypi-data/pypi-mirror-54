@@ -1,0 +1,11 @@
+syntax: glob
+
+.hgignore
+*.pyc
+*~
+RECORDS.txt
+MANIFEST
+dist/*
+build/*
+numenv/*
+numtogreek.egg-info/*
