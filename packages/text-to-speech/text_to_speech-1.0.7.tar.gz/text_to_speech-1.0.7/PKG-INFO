@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: text_to_speech
+Version: 1.0.7
+Summary: A python package that says something of your choice
+Home-page: https://github.com/dewittethomas/text-to-speech
+Author: Thomas Dewitte
+Author-email: thomasdewittecontact@gmail.com
+License: MIT
+Description: # text-to-speech
+        
+        [![npm](https://img.shields.io/pypi/v/text-to-speech.svg)](https://pypi.org/project/text-to-speech/)
+        
+        A simple text to speech engine
+        
+        ## Installation
+        To install the package run this command:
+        
+        ```bash
+        pip install text-to-speech
+        ```
+        
+        ## Usage
+        
+        ### Speak
+        
+        ```python
+        import text_to_speech as speech
+        
+        speech.speak("text", "ISO 639-1 Code")
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >= 2.7
+Description-Content-Type: text/markdown
