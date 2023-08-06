@@ -1,0 +1,54 @@
+[
+  {
+    "op": "remove",
+    "path": "/ResourceTypes/AWS::DataPipeline::Pipeline"
+  },
+  {
+    "op": "remove",
+    "path": "/ResourceTypes/AWS::Neptune::DBCluster"
+  },
+  {
+    "op": "remove",
+    "path": "/ResourceTypes/AWS::Neptune::DBClusterParameterGroup"
+  },
+  {
+    "op": "remove",
+    "path": "/ResourceTypes/AWS::Neptune::DBInstance"
+  },
+  {
+    "op": "remove",
+    "path": "/ResourceTypes/AWS::Neptune::DBParameterGroup"
+  },
+  {
+    "op": "remove",
+    "path": "/ResourceTypes/AWS::Neptune::DBSubnetGroup"
+  },
+  {
+    "op": "remove",
+    "path": "/ResourceTypes/AWS::SDB::Domain"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::DataPipeline::Pipeline.Field"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::DataPipeline::Pipeline.ParameterAttribute"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::DataPipeline::Pipeline.ParameterObject"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::DataPipeline::Pipeline.ParameterValue"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::DataPipeline::Pipeline.PipelineObject"
+  },
+  {
+    "op": "remove",
+    "path": "/PropertyTypes/AWS::DataPipeline::Pipeline.PipelineTag"
+  }
+]
