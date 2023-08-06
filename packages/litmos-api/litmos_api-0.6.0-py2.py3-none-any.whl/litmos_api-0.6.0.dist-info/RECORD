@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+litmos/__init__.py,sha256=RC1P5LXaSbYNLpVvNmz8w7RgidS_zNuw7gyVn-TGNoI,666
+litmos/api.py,sha256=BcsBkI-3FJuR_GL7Du0GX4rPDG2oq-IDqvmdUc-kFGg,5730
+litmos/course.py,sha256=T0rPGqo4HRanHaXVi0jOtzaOGXx-TLiWbAKyCRGPE4c,1370
+litmos/course_module.py,sha256=PiZR0gQyZdXDpYeAUEqsqQsb7elJpH0ORg_606XZ5HA,235
+litmos/litmos.py,sha256=S8LLQRAQj91Q6MTYqqSIFwA9g9Ec8juVPu9n7F1n7PE,2056
+litmos/team.py,sha256=OEdodyyzzU4GaLz0XzaYjGCkguHChqgZkWBSgfpaHxg,3811
+litmos/team_hierarchy.py,sha256=hvq9I9YmNtHn7j_yaD8VPl7ZSOpCPtbsPZCfDZyVs7k,1423
+litmos/user.py,sha256=qlS0y7LZwpuH2QzXBJSe0LVyf9913XlNjkuJMeHNl28,1614
+litmos_api-0.6.0.dist-info/AUTHORS.rst,sha256=DZUG5f4Eq0nIx1X8BsBQt4-tViETOykGfc4BExSgNrE,78
+litmos_api-0.6.0.dist-info/LICENSE,sha256=xqaatosEu9gETMOuEp009RrTy3eki8LAjcHyqcPUv30,1297
+litmos_api-0.6.0.dist-info/METADATA,sha256=GO_Y1hd9rrSWbQgd7pR9ctJIdBNCcPQXVwZ81KCDtfI,5398
+litmos_api-0.6.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+litmos_api-0.6.0.dist-info/top_level.txt,sha256=nylVJL4XagYo-7gO3gz3udGjtA-nUJloyMQC3udnwVg,16
+litmos_api-0.6.0.dist-info/RECORD,,
