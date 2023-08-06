@@ -1,0 +1,8 @@
+numpy
+scipy
+setuptools
+foolbox>=2.2.1
+eagerpy==0.2.2
+
+[testing]
+pytest
