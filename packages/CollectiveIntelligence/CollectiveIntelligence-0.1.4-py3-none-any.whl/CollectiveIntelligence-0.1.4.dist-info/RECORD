@@ -1,0 +1,8 @@
+clustering/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clustering/kmeans.py,sha256=0HnRXOk3FcjuoOuVDsK8JeVeMijnWUbo4y1W3mzZE3E,61
+recommandations/__init__.py,sha256=iHQ_SYP9J9gEy4Zi-9o1uywqvwta3Xj9-BNOYuc24M4,21
+CollectiveIntelligence-0.1.4.dist-info/LICENSE,sha256=tQk4WWKVJYUF-eb6cKbVmw8I2Sv0VM-WnTTsuY8kWkw,1068
+CollectiveIntelligence-0.1.4.dist-info/METADATA,sha256=QKIq93U-nK4HFEutTtM4K2kXVHesWilJ8qwLYMArsdQ,2008
+CollectiveIntelligence-0.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+CollectiveIntelligence-0.1.4.dist-info/top_level.txt,sha256=J0EkUx9mzm33RdVEBuHqmkM_eJKYudhaKUPwfOx5DE0,27
+CollectiveIntelligence-0.1.4.dist-info/RECORD,,
