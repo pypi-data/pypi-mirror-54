@@ -1,0 +1,31 @@
+# GUI SSH Client
+
+Simple implementation of GUI for SSH Client for educational purposes.
+
+
+## Getting Started
+
+install package
+
+```bash
+pip install gui-ssh-client
+```
+
+run package
+
+
+```bash
+gui-ssh-client
+```
+
+### Prerequisites
+
+Please make sure you have got <= Python3.5 and tkinter installed on your system
+
+```
+sudo apt-get install python3-tkinter
+```
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
