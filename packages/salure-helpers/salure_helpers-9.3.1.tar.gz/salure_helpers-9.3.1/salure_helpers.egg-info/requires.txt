@@ -1,0 +1,11 @@
+pandas
+mandrill
+pymysql
+requests
+pysftp
+twine
+clickhouse-driver
+fs
+gnupg
+xmltodict
+zeep
