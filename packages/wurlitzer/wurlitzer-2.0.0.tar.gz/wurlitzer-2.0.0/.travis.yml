@@ -1,0 +1,43 @@
+language: python
+python:
+  - 2.7
+  - 3.4
+  - 3.5
+  - 3.6
+  - nightly
+branches:
+  only:
+    - master
+before_install:
+  - |
+    # setup mac virtualenv
+    if [[ $(uname) == "Darwin" ]]; then
+      brew install python
+      python3 -m pip install virtualenv
+      virtualenv -p $(which python$PY) ./test-env
+      source ./test-env/bin/activate
+    fi
+install:
+  - pip install --upgrade setuptools pip
+  - pip install --upgrade . -r dev-requirements.txt
+  - pip freeze
+script:
+  - py.test --cov wurlitzer test.py
+after_success:
+  - codecov
+env:
+  global:
+    - HOMEBREW_NO_AUTO_UPDATE=1
+matrix:
+  include:
+    - os: osx
+      language: generic
+      env:
+        - PY=2
+    - os: osx
+      language: generic
+      env:
+        - PY=3
+    - os: linux
+      dist: xenial
+      python: 3.7
