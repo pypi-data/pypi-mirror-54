@@ -1,0 +1,5 @@
+fastavro<=0.22.3
+requests<=2.22.0
+
+[faust]
+faust<=1.8.1
