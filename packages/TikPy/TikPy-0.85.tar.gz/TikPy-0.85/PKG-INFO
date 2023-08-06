@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: TikPy
+Version: 0.85
+Summary: UNKNOWN
+Home-page: https://github.com/precog-recr/TikPy
+Author: Vishwesh Kumar
+Author-email: vishwesh18119@iiitd.ac.in
+License: MIT
+Download-URL: https://github.com/precog-recr/TikPy/archive/1.0.tar.gz
+Description: TikTok has no public API. TikPy is a **light weight API**, without the requirement of any browser sessions, to collect the public data available at https://www.tiktok.com. Collect trending posts, video metadata, user metadata, hashtags, music, related hashtags, related music and, download videos with the API. Everything is returned in a JSON object. 
+Keywords: TikTok,API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
