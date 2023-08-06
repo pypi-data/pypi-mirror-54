@@ -1,0 +1,3 @@
+[console_scripts]
+monobox = monobox.main:default
+
