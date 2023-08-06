@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+attax/__init__.py
+attax/pgd.py
+attax/utils.py
+attax.egg-info/PKG-INFO
+attax.egg-info/SOURCES.txt
+attax.egg-info/dependency_links.txt
+attax.egg-info/not-zip-safe
+attax.egg-info/requires.txt
+attax.egg-info/top_level.txt
