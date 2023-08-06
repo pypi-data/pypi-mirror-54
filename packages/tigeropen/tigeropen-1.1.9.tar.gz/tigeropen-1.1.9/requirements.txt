@@ -1,0 +1,9 @@
+six
+simplejson
+delorean
+pandas==0.24.2
+python-dateutil
+pytz
+pyasn1==0.4.2
+rsa==4.0
+stomp.py
