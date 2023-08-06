@@ -1,0 +1,3 @@
+[delb]
+https-loader=delb.plugins.contrib.https_loader
+
