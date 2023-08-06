@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sequence-builder
+Version: 0.0.2
+Summary: Building sequences from time-series data
+Home-page: https://github.com/DoraSz/sequenceBuilder
+Author: DoraSz
+Author-email: szuucs.dora@gmail.com
+License: UNKNOWN
+Description: # Sequence Builder
+        
+        Find more information about the Sequence Builder Package 
+        [here](https://github.com/DoraSz/sequenceBuilder).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,7 @@
+setup.py
+sequence_builder/__init__.py
+sequence_builder.egg-info/PKG-INFO
+sequence_builder.egg-info/SOURCES.txt
+sequence_builder.egg-info/dependency_links.txt
+sequence_builder.egg-info/requires.txt
+sequence_builder.egg-info/top_level.txt
