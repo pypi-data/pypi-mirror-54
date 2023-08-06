@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: easy-tokenizer
+Version: 0.0.4
+Summary: tokenizer tool
+Home-page: https://github.com/tilaboy/easy-tokenizer
+Author: Chao Li
+Author-email: chaoli.job@gmail.com
+License: MIT license
+Description-Content-Type: UNKNOWN
+Keywords: tokenizer
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+UNKNOWN
+
+
