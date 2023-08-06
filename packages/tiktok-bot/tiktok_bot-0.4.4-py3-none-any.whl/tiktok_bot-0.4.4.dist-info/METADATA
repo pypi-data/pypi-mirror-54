@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tiktok-bot
+Version: 0.4.4
+Summary: Tik Tok API
+License: MIT
+Keywords: tiktok,bot,api,wrapper,tiktokbot
+Author: Evgeny Kemerov
+Author-email: eskemerov@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: httpx (>=0.7.4,<0.8.0)
+Requires-Dist: loguru (>=0.3.2,<0.4.0)
+Requires-Dist: pydantic (>=0.32.2,<0.33.0)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+# tiktok-bot
+
+[![Build Status](https://travis-ci.org/sudoguy/tiktok_bot.svg?branch=master)](https://travis-ci.org/sudoguy/tiktok_bot)
+[![Downloads](https://pepy.tech/badge/tiktok-bot)](https://pepy.tech/project/tiktok-bot)
+
