@@ -1,0 +1,3 @@
+[console_scripts]
+rammon = rammon.__main__:main
+
