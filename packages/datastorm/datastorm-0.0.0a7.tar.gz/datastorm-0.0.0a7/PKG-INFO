@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: datastorm
+Version: 0.0.0a7
+Summary: Simple and easy to use ODM for Google Datastore. Documentation: https://datastorm-docs.rtfd.io
+Home-page: https://github.com/JavierLuna/datastorm
+License: MIT
+Keywords: odm,datastore,google-cloud,google-datastore,orm
+Author: JavierLuna
+Author-email: javierlunamolina@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Spanish
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: google-cloud-datastore (>=1.9,<2.0)
+Project-URL: Documentation, https://datastorm.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/JavierLuna/datastorm
