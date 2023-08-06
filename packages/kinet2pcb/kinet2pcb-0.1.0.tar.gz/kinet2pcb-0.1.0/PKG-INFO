@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: kinet2pcb
+Version: 0.1.0
+Summary: Convert KiCad netlist into a PCBNEW .kicad_pcb file.
+Home-page: https://github.com/xesscorp/kinet2pcb
+Author: XESS Corp.
+Author-email: info@xess.com
+License: MIT license
+Description: =========
+        kinet2pcb
+        =========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/kinet2pcb.svg
+                :target: https://pypi.python.org/pypi/kinet2pcb
+        
+        
+        Convert KiCad netlist into a PCBNEW ``.kicad_pcb`` file.
+        
+        
+        * Free software: MIT license
+        * Documentation: https://xesscorp.github.io/kinet2pcb.docs/_site/index.html .
+        
+        
+        Features
+        --------
+        
+        * Converts a KiCad netlist file into a ``.kicad_pcb`` file that can be edited with PCBNEW.
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-10-28)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: kinet2pcb KiCad EDA PCBNEW SKiDL
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
