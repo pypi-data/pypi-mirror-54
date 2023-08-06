@@ -1,0 +1,9 @@
+
+      [esgcet.project_handlers]
+      handler_dictionary = esgcet.config:builtinProjectHandlers
+      [esgcet.format_handlers]
+      handler_dictionary = esgcet.config:builtinFormatHandlers
+      [esgcet.metadata_handlers]
+      handler_name = cf_builtin
+      handler = esgcet.config:CFHandler
+      
