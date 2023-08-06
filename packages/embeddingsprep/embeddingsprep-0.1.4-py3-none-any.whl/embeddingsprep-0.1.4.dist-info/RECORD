@@ -1,0 +1,14 @@
+embeddingsprep/__init__.py,sha256=i6xk1iykvRoCR_QMl0eEMOxSjXdVn1pzuEKdTjrMvnk,4106
+embeddingsprep/models/__init__.py,sha256=J-_OwTzP5gigbQ593LaENc2uSNYhFQO5_DGXK-TYiek,1239
+embeddingsprep/models/utils.py,sha256=8lMIgX-sv6Ve5iedLzG1mfWxBxvx_ok8CTy5ZJULl54,980
+embeddingsprep/models/word2vec.py,sha256=RKH0t8uhjKMKT4p0youuBiUZzJ5OSAjkez9lGrQqmgA,4508
+embeddingsprep/preprocessing/__init__.py,sha256=w9oZYMWJyLa25Xrg2nf-yA3MuDIXYdPb5b6TQqKtzSg,3830
+embeddingsprep/preprocessing/preprocessor.py,sha256=DcKM4r6oYP0t-bywpZJTChvXzvgpeZLxjhTpf8XL-MA,20927
+embeddingsprep/preprocessing/utils/__init__.py,sha256=-lhwLnbbr-0rDaRMhz0LKjbZmZM8cQgbPEiuuz3tWIw,70
+embeddingsprep/preprocessing/utils/readers.py,sha256=hcR-yp5Ie5Cn7OBpW87jqJxDk1eVQ4osE0JKts989rw,3041
+embeddingsprep/preprocessing/utils/structure.py,sha256=j-3jDUD0etATzA8u-wlzc4XM_qI7R5Saq5PAH5zObR4,1849
+embeddingsprep-0.1.4.dist-info/LICENSE,sha256=VKcfardZbNBljwgp7EDQ2qvC4WEXanJVtKKtxrtDyfA,1068
+embeddingsprep-0.1.4.dist-info/METADATA,sha256=se3Pqf-fyBSeSHnKL2y9JOWgWt0_x2-uQ2c5-VYWnG8,3015
+embeddingsprep-0.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+embeddingsprep-0.1.4.dist-info/top_level.txt,sha256=uh6fszPiuW4nz7O2cNNRnr0eDCliLBG6kqRb8CQ8J1I,15
+embeddingsprep-0.1.4.dist-info/RECORD,,
