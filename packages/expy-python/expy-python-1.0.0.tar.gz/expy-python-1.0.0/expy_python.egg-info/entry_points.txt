@@ -1,0 +1,3 @@
+[console_scripts]
+nbc = nbc.nbc:main
+
