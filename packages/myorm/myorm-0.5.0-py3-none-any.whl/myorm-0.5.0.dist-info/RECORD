@@ -1,0 +1,17 @@
+myorm/__init__.py,sha256=XnVssgV7qeGBHBuPwNQ8ahaHjci1c1_QvrdfjcFwov4,56
+myorm/dbobject.py,sha256=gGgJqyviMEqmdZOzmOQv7okaUOfDb1S8cPQBHQG9ULA,3712
+myorm/exceptions.py,sha256=KujKBNK0ixS3GZvAnqEs_BQrnl8vATH8I8_iEzuMC7Y,235
+myorm/fields.py,sha256=3CuUJC5YBGfHJFI1xdDTzwdypOoeyHJQK3PzBI80NLw,3475
+myorm/managers.py,sha256=Gvc_IQGcNik16B8IrWhp1gwnJ2wBL5wKMy0q2A3mhSY,2491
+myorm/migrations.py,sha256=2-SOxyN9GRRQmGqRxsRdh4k5YAmLyzGMaHVW-ikrPqk,9832
+myorm/queryset.py,sha256=qC22p0F_9b5NUD8Sjf_MWAm07aRmsNh80UZGtgzKon4,5873
+myorm/tests.py,sha256=OT0ZBjHfqTk_1w-B4OCenC9vxXY8osXxTzlA5Qu8Cnk,17703
+myorm/adaptors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myorm/adaptors/db2.py,sha256=OO2DUwQguZQjPMySMNd9bKBtyugXrgz1NUrdrCOSuUo,8274
+myorm/adaptors/mysql.py,sha256=TZovO4iCg-XGIukNSoLL_Y3_ATr7xAB1HlgUxFDG3hM,8345
+myorm/adaptors/oracle.py,sha256=29XUYpKwEAgHBFR1cYxxh_2nqsNqIT49yGVtO7FI8fo,8697
+myorm/adaptors/sqlite.py,sha256=O9NjBov1i5VuS3Bu1PnLx_dx6MLcQ6sKrLIJ3PYmFnA,10070
+myorm-0.5.0.dist-info/METADATA,sha256=MQhLl84xJK2-qBmqij4JcFRZSoqQIJKaP7nh-OpeNUQ,3186
+myorm-0.5.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+myorm-0.5.0.dist-info/top_level.txt,sha256=G7w5CLMfZstjF3k6Ho8nE4WmI7SQ30gbkSvAz4VUXDA,6
+myorm-0.5.0.dist-info/RECORD,,
