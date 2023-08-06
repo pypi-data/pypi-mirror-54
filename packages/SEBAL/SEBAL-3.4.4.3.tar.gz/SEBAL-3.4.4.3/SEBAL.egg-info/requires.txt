@@ -1,0 +1,10 @@
+Pillow
+h5py
+lxml
+netCDF4
+openpyxl
+numpy
+pandas
+scipy
+pyproj
+joblib
