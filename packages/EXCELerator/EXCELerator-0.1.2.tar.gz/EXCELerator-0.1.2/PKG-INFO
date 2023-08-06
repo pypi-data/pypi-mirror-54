@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: EXCELerator
+Version: 0.1.2
+Summary: Library for reading tabular data from excel in a very forgiving manner.
+Home-page: https://github.com/jonathanchukinas/openpyxl_utils
+Author: Jonathan Chukinas
+Author-email: chukinas@gmail.com
