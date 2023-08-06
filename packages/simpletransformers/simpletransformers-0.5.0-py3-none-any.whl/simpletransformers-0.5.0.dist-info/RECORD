@@ -1,0 +1,11 @@
+simpletransformers/__init__.py,sha256=BpiUr06pK_e35FMKZosSO1Cwo6AQ1q3K-Lvwl_C9JEw,27
+simpletransformers/model.py,sha256=r7kUWlIGFOresETPzo5L9SS-8xSzzL5TircZsaylKZ0,22033
+simpletransformers/utils.py,sha256=Puhf_9YETMmlKs8sHhCzqmFJxlQ2pFNCaYjVdm7Lj0k,8267
+simpletransformers/ner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpletransformers/ner/ner_model.py,sha256=cfkYcG-ucvTgSgRcYu2xZsbN_aX9KCY7Zuh7u8ifwso,22516
+simpletransformers/ner/ner_utils.py,sha256=oGHA0bNlKrNWLSKiw9En6QjukMhJs29fdFVUZS-0QgE,8980
+simpletransformers-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simpletransformers-0.5.0.dist-info/METADATA,sha256=HbQfa5eRLOYAC8SyZXJiMuTaA3w5t_feAJS8534iV64,23522
+simpletransformers-0.5.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+simpletransformers-0.5.0.dist-info/top_level.txt,sha256=CUaD913Q8uBqP7MSE1_Moo_KTlpQqMFTmwH-X6k2ho4,19
+simpletransformers-0.5.0.dist-info/RECORD,,
