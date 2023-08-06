@@ -1,0 +1,10 @@
+Package: python3-spokennumbers
+Source: spokennumbers
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Daniel Andersson <daniel.4ndersson@gmail.com>
+Installed-Size: 1482
+Depends: python3-pydub, python3:any (>= 3.6~)
+Section: python
+Priority: optional
+Description: Generate spoken numbers mp3 files used for Memory Competitions.

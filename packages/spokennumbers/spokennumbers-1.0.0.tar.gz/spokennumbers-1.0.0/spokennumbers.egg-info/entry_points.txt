@@ -1,0 +1,4 @@
+[console_scripts]
+spoken = spokennumbers.__main__:main
+spokennumbers = spokennumbers.__main__:main
+
