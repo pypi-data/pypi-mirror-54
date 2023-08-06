@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pixelmatch
+Version: 0.1.0
+Summary: A pixel-level image comparison library. Python port of https://github.com/mapbox/pixelmatch
+License: ISC
+Author: Wu Haotian
+Author-email: whtsky@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
