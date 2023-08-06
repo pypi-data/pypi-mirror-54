@@ -1,0 +1,20 @@
+{
+    "project_name": "ccm_widgets",
+    "type": "Surface3dVtp",
+    "description": "Vtk surface rendering from .vtp file",
+    "defaultProps": {
+        "vtp_path": "sha1://22f242215ed2625db02b3a1f9d89364defa013f6/quas3.vtp",
+        "download_from": "spikeforest.public",
+        "scalar_info": {
+            "name": "value",
+            "component": 0
+        },
+        "preset_color_map_name": "erdc_rainbow_bright"
+    },
+    "alternateProps": {
+        "triangle": {
+            "vtp_path": "sha1://9bc22a4ff5cb6b6ac064b03f54b20c6880aa4a28/Triangle.vtp",
+            "download_from": "spikeforest.public"
+        }
+    }
+}

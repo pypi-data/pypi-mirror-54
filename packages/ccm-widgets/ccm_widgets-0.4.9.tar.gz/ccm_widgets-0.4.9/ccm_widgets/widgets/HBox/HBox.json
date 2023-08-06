@@ -1,0 +1,6 @@
+{
+    "project_name": "ccm_widgets",
+    "type": "HBox",
+    "description": "Horizontal layout",
+    "defaultProps": {}
+}
