@@ -1,0 +1,4 @@
+iso3166
+validators
+qrcode
+svgwrite
