@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: AMAT
+Version: 0.0.1.dev1
+Summary: Aerocapture Mission Analysis Tool
+Home-page: https://github.com/athulpg007/AMAT
+Author: Athul P. Girija
+Author-email: athulpg007@gmail.com
+License: cc-by-sa-4.0
+Description: # AMAT
+        
+        Aerocapture Mission Analysis Tool (AMAT) is designed to provide rapid mission analysis capability for aerocapture mission concepts in a concurrent engineering design environment. AMAT can also be used to peform broad sweep parametric studies, and high fidelity Monte Carlo simulations.
+        
+        The current version is a test release and has no useful functionality included.
+        
+        Check back for another release in December 2019.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
