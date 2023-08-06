@@ -1,0 +1,6 @@
+README.md
+setup.py
+xyTrader.egg-info/PKG-INFO
+xyTrader.egg-info/SOURCES.txt
+xyTrader.egg-info/dependency_links.txt
+xyTrader.egg-info/top_level.txt
