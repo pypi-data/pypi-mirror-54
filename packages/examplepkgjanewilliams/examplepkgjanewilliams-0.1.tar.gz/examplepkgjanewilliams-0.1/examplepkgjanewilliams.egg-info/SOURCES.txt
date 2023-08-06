@@ -1,0 +1,9 @@
+README.md
+setup.py
+examplepkgjanewilliams/Class1.py
+examplepkgjanewilliams/__init__.py
+examplepkgjanewilliams.egg-info/PKG-INFO
+examplepkgjanewilliams.egg-info/SOURCES.txt
+examplepkgjanewilliams.egg-info/dependency_links.txt
+examplepkgjanewilliams.egg-info/not-zip-safe
+examplepkgjanewilliams.egg-info/top_level.txt
