@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: bio-jtools
+Version: 0.2.1
+Summary: Various bioinformatics tools in one package
+Home-page: http://github.com/jrhawley/bio-jtools
+Author: James Hawley
+Author-email: james.hawley@mail.utoronto.ca
+License: UNKNOWN
+Description: # bio-jtools
+        
+        Various bioinformatics tools in one package
+        
+        [![Conda](https://img.shields.io/conda/pn/jrhawley/bio-jtools.svg)](https://anaconda.org/jrhawley/bio-jtools)
+        [![Python version](https://img.shields.io/pypi/pyversions/bio-jtools.svg)](https://pypi.python.org/pypi/bio-jtools)
+        [![PyPI](https://img.shields.io/pypi/v/bio-jtools.svg)](https://pypi.python.org/pypi/bio-jtools)
+        [![Wheel](https://img.shields.io/pypi/wheel/bio-jtools.svg)](https://pypi.python.org/pypi/bio-jtools)
+        [![Implementation](https://img.shields.io/pypi/implementation/bio-jtools.svg)](https://pypi.python.org/pypi/bio-jtools)
+        
+        [![Python build](https://github.com/jrhawley/bio-jtools/workflows/Python%20packaging/badge.svg)](https://github.com/jrhawley/bio-jtools/actions?workflow=Python+packaging)
+        [![Conda build](https://github.com/jrhawley/bio-jtools/workflows/Conda%20packaging/badge.svg)](https://github.com/jrhawley/bio-jtools/actions?workflow=Conda+packaging)
+        
+        ## Usage
+        
+        ```shell
+        jtools <sub-command>
+        ```
+        
+        ## Installation
+        
+        ```shell
+        # pip
+        pip install bio-jtools
+        
+        # conda
+        conda install -c jrhawley bio-jtools
+        ```
+        
+        ## Documentation
+        
+        For detailed documentation, see the [GitHub Wiki](https://github.com/jrhawley/bio-jtools/wiki).
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
