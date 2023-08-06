@@ -1,0 +1,5 @@
+setup.py
+chinese2digits.egg-info/PKG-INFO
+chinese2digits.egg-info/SOURCES.txt
+chinese2digits.egg-info/dependency_links.txt
+chinese2digits.egg-info/top_level.txt
