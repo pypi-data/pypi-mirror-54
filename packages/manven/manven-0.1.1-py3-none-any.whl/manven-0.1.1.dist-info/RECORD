@@ -1,0 +1,12 @@
+manven/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+manven/__main__.py,sha256=72r3_j0QrbY9CLdBJKG6vMjxd3Y-5yEDuiqnxEooizY,147
+manven/cli.py,sha256=bVuXWp2gwZXr-omHulXsmxj8VC1JavoxCJtcccdBJA8,5811
+manven/commands.py,sha256=tnY16jY1FhkM-kMwh4jgN6bWdbKJ2vM99Sj6ILHtr0Y,11349
+manven/settings.py,sha256=SnChvPIh_rePnWzx9jiR9Ix4XD3ux7FknL0dnqfXj-M,1507
+manven/toolbox.py,sha256=80ATRbvUsLAQjWECOcv7rNleq6GjqQfnFe9he18OXE0,586
+manven-0.1.1.data/scripts/manven,sha256=smC8rhbVM2RqcrWXU0ngm_oz9GA_HF4CD9Ka0rO3Tjw,206
+manven-0.1.1.data/scripts/manven.fish,sha256=HHstwb7dY9q8ln1SCP5OJ-Wce44a1eHnCQRP9CButAc,209
+manven-0.1.1.dist-info/METADATA,sha256=ohDB0qpFl6OnwYaTQD2ZKScC2jOwxIfe96hl2oQNBj4,1279
+manven-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+manven-0.1.1.dist-info/top_level.txt,sha256=06U_cTw5GJ2ozRXDRgN9kj7Uq0gBBkwouc8OURFys_8,7
+manven-0.1.1.dist-info/RECORD,,
