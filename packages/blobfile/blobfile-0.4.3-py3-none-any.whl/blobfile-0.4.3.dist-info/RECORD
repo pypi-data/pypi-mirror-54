@@ -1,0 +1,11 @@
+blobfile/__init__.py,sha256=X4BxMCnczLT186m26lAyklOupC561NcbJzZs9xBP5X0,626
+blobfile/azure.py,sha256=GJiGqTV48kDfOBaZFMONPUp0oG0g2J8TySX-P9tSgU8,7689
+blobfile/blobfile.py,sha256=HSEOBx9yoqlyrTI5zXcufnBFXfJwbp5c9M9I6WTpMPg,39447
+blobfile/blobfile_test.py,sha256=gw7PAS5ly236N9SwypgTkZk8QUEj-Lf6x3Cytsx3zLQ,15230
+blobfile/common.py,sha256=yrDBkqaSnPC2I-LavMPq0jAo36tNvb8-yUG4E57vujM,1276
+blobfile/google.py,sha256=rvJhAs8Oyr6NXRHZwQTS3kq7Gs-tgA8ByqbHYs6paKM,7661
+blobfile-0.4.3.dist-info/LICENSE,sha256=FHo3YUVhJ7y4raLDRyijAdAazTFpRqrX1gXDqc435vI,1233
+blobfile-0.4.3.dist-info/METADATA,sha256=_4E1JwJyTJngTJuDL48SrRs36YMtIYtq_ML2IN1VhD4,3221
+blobfile-0.4.3.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+blobfile-0.4.3.dist-info/top_level.txt,sha256=BsixHWRC2Vk13oMQM4HUfWAfrjXllowAwpGFz0w6MrM,9
+blobfile-0.4.3.dist-info/RECORD,,
