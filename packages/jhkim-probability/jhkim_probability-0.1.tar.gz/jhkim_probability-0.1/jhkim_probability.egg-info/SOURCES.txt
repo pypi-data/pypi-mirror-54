@@ -1,0 +1,10 @@
+setup.py
+jhkim_probability/Binomialdistribution.py
+jhkim_probability/Gaussiandistribution.py
+jhkim_probability/Generaldistribution.py
+jhkim_probability/__init__.py
+jhkim_probability.egg-info/PKG-INFO
+jhkim_probability.egg-info/SOURCES.txt
+jhkim_probability.egg-info/dependency_links.txt
+jhkim_probability.egg-info/not-zip-safe
+jhkim_probability.egg-info/top_level.txt
