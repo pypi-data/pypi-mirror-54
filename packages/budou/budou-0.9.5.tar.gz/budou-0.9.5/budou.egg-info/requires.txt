@@ -1,0 +1,10 @@
+chardet
+docopt
+future
+google-api-python-client
+google-auth-httplib2
+google-auth>=1.0.0
+html5lib==1.0.1
+six
+tinysegmenter3
+urllib3
