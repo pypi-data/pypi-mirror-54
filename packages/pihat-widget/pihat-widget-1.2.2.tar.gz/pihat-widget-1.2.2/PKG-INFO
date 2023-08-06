@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pihat-widget
+Version: 1.2.2
+Summary: Widgets for Python programming practise
+Home-page: https://github.com/chrisf17/pihat-widgets
+Author: Chris Farrell
+Author-email: pihat@xivuh.com
+License: MIT
+Description: # PIHAT Widgets
+        
+        ## About
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
