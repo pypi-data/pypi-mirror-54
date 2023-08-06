@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: SoSciKit
+Version: 0.1.15
+Summary: Social Science Kit - Open Source Software for Social Science
+Home-page: UNKNOWN
+Author: Marco Scarselli
+Author-email: scarselli@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: altair
+Requires-Dist: flask
+Requires-Dist: jupyter
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas (==0.25.1)
+Requires-Dist: pandas-profiling
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: uuid (==1.30)
+Requires-Dist: xlrd (==1.1.0)
+
+UNKNOWN
+
+
