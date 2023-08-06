@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: quilt-stack-installer
+Version: 1.0.0rc1
+Summary: Quilt Data installation tool
+Home-page: https://github.com/quiltdata/quilt
+Author: quiltdata
+Author-email: contact@quiltdata.io
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: appdirs (>=1.4.0)
+Requires-Dist: aws-requests-auth (>=0.4.2)
+Requires-Dist: boto3 (>=1.8.0)
+Requires-Dist: requests (>=2.12.4)
+Requires-Dist: pyyaml
+Requires-Dist: click
+
+
+Command-line tool for installing Quilt as a CloudFormation stack.
+
+
