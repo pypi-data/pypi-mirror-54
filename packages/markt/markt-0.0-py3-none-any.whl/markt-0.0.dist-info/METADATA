@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: markt
+Version: 0.0
+Summary: render lightly-styled markdown in the terminal
+Home-page: https://github.com/UnquietCode/markt.py
+Author: Benjamin Fagin
+Author-email: blouis@unquietcode.com
+License: OSI Approved :: Apache Software License
+Keywords: markt terminal markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: mistletoe (>=0.7)
+Requires-Dist: pyfiglet (>=0.8)
+
+# markt (v0.0)
+Render lightly-styled Markdown in the terminal.
+
