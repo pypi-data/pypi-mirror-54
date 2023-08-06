@@ -1,0 +1,3 @@
+[console_scripts]
+rosbackup = rosbackup.main:main
+
