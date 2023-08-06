@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: pyhpy
+Version: 0.0.1
+Summary: Micro-framework for dynamic HTTP endpoints
+Home-page: http://github.com/xrg/pyhpy
+Author: Panos Christeas
+Author-email: xrg@pefnos.com
+License: BSD-2-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: BSD License
+Provides: pyhpy
+Requires-Dist: jinja2
+Requires-Dist: werkzeug
+Provides-Extra: develop
+
+UNKNOWN
+
+
