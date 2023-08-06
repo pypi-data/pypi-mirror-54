@@ -1,0 +1,10 @@
+setup.py
+jaroken_distributions/Binomialdistribution.py
+jaroken_distributions/Gaussiandistribution.py
+jaroken_distributions/Generaldistribution.py
+jaroken_distributions/__init__.py
+jaroken_distributions.egg-info/PKG-INFO
+jaroken_distributions.egg-info/SOURCES.txt
+jaroken_distributions.egg-info/dependency_links.txt
+jaroken_distributions.egg-info/not-zip-safe
+jaroken_distributions.egg-info/top_level.txt
