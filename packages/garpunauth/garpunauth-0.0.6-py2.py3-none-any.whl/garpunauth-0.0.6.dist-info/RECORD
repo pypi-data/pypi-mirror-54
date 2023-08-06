@@ -1,0 +1,10 @@
+garpunauth/__init__.py,sha256=z7GJf3_NSVNXAG-pZqqYWopDKZ6mD_w5k6E-S4hukQM,324
+garpunauth/_default.py,sha256=KAarFTBbYXIkNuOn89J72bs_KCxCrdTCTWKfbtt5IPk,1365
+garpunauth/client.py,sha256=eqVwFzLoZQUiJkZUAnCR1LbaodJoMSWZzpDMZZtX3Ps,4406
+garpunauth/flow.py,sha256=aRToMuTJh5LFbiJmN85suK_EZwqXUcvUvd0FgL01M3U,739
+garpunauth/info.py,sha256=dEUO9becbhvYN9aYXcYg4_Xs8dXsApbcdRz9TfZtW-Q,105
+garpunauth-0.0.6.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+garpunauth-0.0.6.dist-info/METADATA,sha256=iPjR0ldDgg6GFpGIXVYfu2mnidiGDw3M3GcAijkw4_4,1515
+garpunauth-0.0.6.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+garpunauth-0.0.6.dist-info/top_level.txt,sha256=wKTsZ_wD4DaLDzbzINgHV4aKUzidbhx1-gCpo30Zjo0,11
+garpunauth-0.0.6.dist-info/RECORD,,
