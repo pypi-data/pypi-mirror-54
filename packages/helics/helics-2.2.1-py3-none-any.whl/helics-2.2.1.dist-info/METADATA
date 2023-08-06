@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: helics
+Version: 2.2.1
+Summary: Python interface to HELICS
+Home-page: https://github.com/GMLC-TDC/HELICS
+Author: Dheepak Krishnamurthy
+Author-email: me@kdheepak.com
+License: BSD-compatible
+Download-URL: https://github.com/GMLC-TDC/HELICS
+Keywords: HELICS
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: future
+Requires-Dist: six
+
+# HELICS Python extension
+
+
