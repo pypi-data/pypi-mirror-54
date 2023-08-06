@@ -1,0 +1,7 @@
+QtPy
+QtAwesome
+pyqtgraph
+PyQt5
+numpy
+matplotlib
+Pillow
