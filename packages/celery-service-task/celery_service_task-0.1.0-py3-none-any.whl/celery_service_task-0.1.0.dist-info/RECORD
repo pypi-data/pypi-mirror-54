@@ -1,0 +1,6 @@
+celery_service_task/__init__.py,sha256=76rw3Isk4beFNHW4F_LCcO_fvITe8z627sSaT_CNLZA,18
+celery_service_task/task.py,sha256=PKmGRJy7d2QoZPV3-OjBDwKPguHwM1PEJCyO8NqHg_w,1300
+celery_service_task-0.1.0.dist-info/METADATA,sha256=WkoYfCollhDNW_93-4zs8CScN15Iv0IoBKqIKUs9OVk,1054
+celery_service_task-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+celery_service_task-0.1.0.dist-info/top_level.txt,sha256=dusEINeormlbHoNnsWldhReD35W4TW0OgLSgLqZd1zg,20
+celery_service_task-0.1.0.dist-info/RECORD,,
