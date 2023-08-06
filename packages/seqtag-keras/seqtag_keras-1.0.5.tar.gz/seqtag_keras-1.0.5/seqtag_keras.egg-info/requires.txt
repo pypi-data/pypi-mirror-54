@@ -1,0 +1,3 @@
+Keras
+scikit-learn
+seqeval==0.0.3
