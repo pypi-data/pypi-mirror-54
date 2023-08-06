@@ -1,0 +1,13 @@
+causality
+mesa
+numpy
+pandas
+pyomo
+py_mini_racer
+scipy
+sklearn
+statsmodels
+tqdm
+
+[:python_version < "3.7"]
+dataclasses

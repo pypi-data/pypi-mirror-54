@@ -1,0 +1,45 @@
+POPULATIONEVENT_MAXPERSONS: src/lib/core/populationevent.h
+
+	The maximum number of persons that can be stored in an event
+	on creation. 
+
+POPULATIONEVENT_FAKEDELETE: src/lib/core/populationevent.h
+
+	If this is enabled, some algorithms will not actually delete
+	an event when it's no longer used, but will just set a flag.
+	The algorithms can then check to make sure that a (fake)
+	deleted event is not used in the code.
+
+DISABLE_PARALLEL: src/lib/core/parallel.h
+
+	This disables the use of the '#pragma omp' stuff, so that when
+	the parallel version is executed you actually get a single core
+	version. But in this version, the extra overhead code (mutexes
+	etc) is still executed, so this may be useful for benchmarking.
+
+PERSONALEVENTLIST_EXTRA_DEBUGGING: src/lib/core/personaleventlist.h
+	
+	If enabled, extra checks will be performed in the optimized
+	version to see if the earliest event is tracked correctly
+
+ALGORITHM_SHOW_EVENTS: src/lib/mnrm/algorithm.h:
+	
+	Will cause the events in the system to be listed each time
+	an event fires. Very useful to check at which point exactly
+	basic and optimized version start diverging.
+
+ALGORITHM_DEBUG_TIMER: src/lib/mnrm/algorithm.h:
+
+	Enable timing info about certain functions. Can be helpful while
+	profiling, to compare to another version.
+
+EVENTBASE_ALWAYS_CHECK_NANTIME: used in src/lib/mnrm/eventbase.h
+
+	If set, after calculation timing info, a check is always done to see
+	if the time has not become a NaN value.
+
+POPULATION_ALWAYS_RECALCULATE: used in src/lib/core/population.cpp
+
+	If set, all event times will always be recalculated, similar to the
+	basic mNRM version.
+
