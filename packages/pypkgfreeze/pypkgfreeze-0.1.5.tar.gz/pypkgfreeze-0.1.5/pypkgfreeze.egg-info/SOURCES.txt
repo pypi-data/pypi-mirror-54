@@ -1,0 +1,10 @@
+README.md
+setup.py
+pypkgfreeze.egg-info/PKG-INFO
+pypkgfreeze.egg-info/SOURCES.txt
+pypkgfreeze.egg-info/dependency_links.txt
+pypkgfreeze.egg-info/entry_points.txt
+pypkgfreeze.egg-info/requires.txt
+pypkgfreeze.egg-info/top_level.txt
+src/__init__.py
+src/pypkgfreeze.py
