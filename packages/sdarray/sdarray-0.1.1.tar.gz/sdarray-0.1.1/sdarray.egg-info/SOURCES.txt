@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+sdarray/__init__.py
+sdarray/accessor.py
+sdarray/arrayfact.py
+sdarray/arrayfunc.py
+sdarray/config.py
+sdarray.egg-info/PKG-INFO
+sdarray.egg-info/SOURCES.txt
+sdarray.egg-info/dependency_links.txt
+sdarray.egg-info/requires.txt
+sdarray.egg-info/top_level.txt
+sdarray/config/coords.toml

@@ -1,0 +1,8 @@
+numpy
+pandas
+xarray
+astropy
+netcdf4
+matplotlib
+dask[complete]
+toml

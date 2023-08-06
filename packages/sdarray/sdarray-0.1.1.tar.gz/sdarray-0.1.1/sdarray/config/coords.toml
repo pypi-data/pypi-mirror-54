@@ -1,0 +1,11 @@
+[t]
+dims = "t"
+dtype = "datetime64[ns]"
+default = "1970-01-01"
+doc = "Time index."
+
+[ch]
+dims = "ch"
+dtype = "int"
+default = 0
+doc = "Channel index."
