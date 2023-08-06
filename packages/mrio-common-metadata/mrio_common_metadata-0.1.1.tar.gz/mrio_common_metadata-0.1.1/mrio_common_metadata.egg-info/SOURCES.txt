@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mrio_common_metadata/__init__.py
+mrio_common_metadata/utils.py
+mrio_common_metadata/version.py
+mrio_common_metadata.egg-info/PKG-INFO
+mrio_common_metadata.egg-info/SOURCES.txt
+mrio_common_metadata.egg-info/dependency_links.txt
+mrio_common_metadata.egg-info/top_level.txt
+mrio_common_metadata/conversion/__init__.py
+mrio_common_metadata/conversion/exiobase_3_hybrid/__init__.py
+mrio_common_metadata/conversion/exiobase_3_hybrid/datapackage.py
+mrio_common_metadata/conversion/exiobase_3_hybrid/utils.py
+mrio_common_metadata/conversion/exiobase_3_hybrid/version_config.py
