@@ -1,0 +1,3 @@
+[console_scripts]
+explorer = explorer.command:main
+
