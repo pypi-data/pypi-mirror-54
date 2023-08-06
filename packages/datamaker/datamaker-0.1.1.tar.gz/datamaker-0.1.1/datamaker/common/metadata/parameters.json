@@ -1,0 +1,37 @@
+{
+  "parameter": [
+    "col_type",
+    "varchar_length",
+    "is_primary_key",
+    "is_name",
+    "is_email",
+    "is_date",
+    "is_timestamp",
+    "is_country",
+    "is_state",
+    "is_address",
+    "bounds",
+    "fixed_collection",
+    "fixed_map",
+    "is_nullable",
+    "proportion_null"
+  ],
+
+  "parameter_type": {
+    "col_type": "str",
+    "varchar_length": "int",
+    "is_primary_key": "bool",
+    "is_name": "bool",
+    "is_email": "bool",
+    "is_date": "bool",
+    "is_timestamp": "bool",
+    "is_country": "bool",
+    "is_state": "bool",
+    "is_address": "bool",
+    "bounds": "tuple",
+    "fixed_collection": "tuple",
+    "fixed_map": "tuple",
+    "is_nullable": "bool",
+    "proportion_null": "float"
+  }
+}
