@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "watermoccasin"
+version = "1.0.7"
+description = "Convert a NPR ONE news feed for offline listening with options for speed up and timed playlist"
+authors = ["Alex Reich <watermoccasin@alexreich.com>"]
+
+[tool.poetry.dependencies]
+python = "^3"
+humanfriendly = "^4.18"
+algoliasearch = "^1.17.0"
+certifi = "^2019.6.16"
+chardet = "^3.0.4"
+future = "^0.17.1"
+idna = "^2.8"
+mutagen = "^1.42.0"
+npr = "^2.3.0"
+requests = "^2.22.0"
+urllib3 = "^1.25.3"
+pydub = "^0.23.1"
+
+[tool.poetry.scripts]
+watermoccasin = 'watermoccasin:main'
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
