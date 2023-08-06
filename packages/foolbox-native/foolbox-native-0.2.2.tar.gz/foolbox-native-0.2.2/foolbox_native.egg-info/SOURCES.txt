@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+foolbox/ext/native/VERSION
+foolbox/ext/native/__init__.py
+foolbox_native.egg-info/PKG-INFO
+foolbox_native.egg-info/SOURCES.txt
+foolbox_native.egg-info/dependency_links.txt
+foolbox_native.egg-info/not-zip-safe
+foolbox_native.egg-info/requires.txt
+foolbox_native.egg-info/top_level.txt
