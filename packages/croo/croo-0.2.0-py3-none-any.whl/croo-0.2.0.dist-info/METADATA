@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: croo
+Version: 0.2.0
+Summary: CRomwell Output Organizer
+Home-page: https://github.com/ENCODE-DCC/croo
+Author: Jin Lee
+Author-email: leepc12@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >3.4.1
+Description-Content-Type: text/markdown
+Requires-Dist: caper (>=0.5.0)
+
+https://github.com/ENCODE-DCC/croo
+
+
