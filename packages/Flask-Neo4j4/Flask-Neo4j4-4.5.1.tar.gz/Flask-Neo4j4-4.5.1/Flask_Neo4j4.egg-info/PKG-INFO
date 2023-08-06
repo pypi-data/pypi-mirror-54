@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: Flask-Neo4j4
+Version: 4.5.1
+Summary: Flask extension providing integration with Neo4j. Branch from https://github.com/lashex/flask-neo4j by Brett Francis
+Home-page: https://github.com/tjbanks/flask-neo4j
+Author: Tyler Banks
+Author-email: tbanks@mail.missouri.edu
+License: MIT
+Description: 
+        Flask-Neo4jv4
+        -------------
+        
+        Flask extension that provides integration with the Neo4j graph database using
+        the py2neo library. Under initial development.
+        Branch from https://github.com/lashex/flask-neo4j by Brett Francis
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
