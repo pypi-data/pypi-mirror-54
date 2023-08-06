@@ -1,0 +1,3 @@
+[console_scripts]
+pyforever = pyforever.__main__:main
+

@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyforever/__init__.py
+pyforever/__main__.py
+pyforever/__version__.py
+pyforever.egg-info/PKG-INFO
+pyforever.egg-info/SOURCES.txt
+pyforever.egg-info/dependency_links.txt
+pyforever.egg-info/entry_points.txt
+pyforever.egg-info/requires.txt
+pyforever.egg-info/top_level.txt
