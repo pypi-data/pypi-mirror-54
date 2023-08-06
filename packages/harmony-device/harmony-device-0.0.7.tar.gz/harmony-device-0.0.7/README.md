@@ -1,0 +1,50 @@
+# Welcome to Harmony!
+With all the different IoT providers out there, it's not easy for developers to get them to talk to each other. That's what Harmony is for.
+
+## About
+Harmony is a protocol for how IoT devices should be defined, and how they should communicate with each other.
+
+Each Harmony device defines a list of "getters" and "setters", which are used to pass information to and from devices. They also have the ability to emit and listen to events from other Harmony devices.
+
+## Installation
+To install harmony for Python, run `pip install harmony-device`
+
+## Using harmony
+Creating your first harmony device is extremely simple:
+```
+#Import the HarmonyDevice and Attribute classes
+from harmony_device import HarmonyDevice, Attribute
+
+#Create an instance of the class
+device = HarmonyDevice()
+
+#For each attribute you need in your device, add a subclass of Attribute
+class MsgAttr:
+    #Give the attribute a name. This must be unique.
+    name = 'message'
+
+    #Optionally give the attribute a description
+    description = 'Manages a message to be viewed and edited by the user'
+
+    #You can 
+    msg = 'Hello, World!'
+    def getter(self, params):
+        return msg
+    def setter(self, value, params):
+        msg = value
+
+
+
+#Now, simply call the run method to start the harmony device server!
+device.run(port=5000)
+```
+
+As of right now, it is not possible to define attributes straight in the Python program as variables, hence the creation of a file for the message.
+However, in many cases that is unnecessary, because in general the information is stored in the program of the IoT device itself.
+
+
+This system is not meant to magically work with every IoT device. It's an abstraction layer that allows us to write code that can *potentially* work with many IoT devices - so long as they have their getters and setters defined correctly.
+
+
+## Supported Languages
+Currently, Python is the only supported language, but I'm hoping to add C++, Java, and NodeJS as well.
