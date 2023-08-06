@@ -1,0 +1,11 @@
+#!python
+import argparse
+
+from log_aggregator_server import log_aggregator_server
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Write log file name')
+    parser.add_argument('--filename', help='The log file name')
+    args = parser.parse_args()
+    filename = args.filename
+    log_aggregator_server.log_aggregator(filename)

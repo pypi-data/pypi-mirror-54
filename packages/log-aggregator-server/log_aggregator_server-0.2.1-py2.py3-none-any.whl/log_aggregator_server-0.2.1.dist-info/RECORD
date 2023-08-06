@@ -1,0 +1,12 @@
+log_aggregator_server/__init__.py,sha256=fLqYQ4XxFnJdmmSy-sY7wxz4WBGhqUMzoZyT74OdY9o,166
+log_aggregator_server/log_aggregator_server.py,sha256=0lbH4BD3UfOgzDvr_3BvufotAU9g4FMDtfZV_6Z8emc,1246
+log_aggregator_server/process.py,sha256=0jfZmeAYlIUWiYbPo9wd1jrp0MzTgKXi5A6lDJkq8fg,885
+log_aggregator_server/system.py,sha256=7xazIj-_oxRlydXr9uxqEibj8IWr1NEs5geCREOdZbI,1952
+log_aggregator_server/user_log.py,sha256=gAeJSaCmMXC0DY6NN1lDcH4wiTOxF826NEVChI3ynzY,1055
+log_aggregator_server-0.2.1.data/scripts/run_log_aggregator,sha256=O_Oxc0Sa_2Bg6a3PQkZdFX5VOH92NP4atnCM1ukHuUM,357
+log_aggregator_server-0.2.1.dist-info/AUTHORS.rst,sha256=IhZCVmPJjkOqfKZ9vIzGNAAICEyU6Cx0W8MhMmg5S3A,158
+log_aggregator_server-0.2.1.dist-info/LICENSE,sha256=uXm93VrbRbtGKNhiaUnxwaZ0guEwFfsI4fAnLH4dZyA,1070
+log_aggregator_server-0.2.1.dist-info/METADATA,sha256=TWl-TCK0pKrm7v7uP2zTdO-83uJN1OjbGwRKtMvK4c8,2569
+log_aggregator_server-0.2.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+log_aggregator_server-0.2.1.dist-info/top_level.txt,sha256=WjkoPylfZnD_V3iwqmT2VLZt-AiWiqD2iCnWyomaHn4,22
+log_aggregator_server-0.2.1.dist-info/RECORD,,
