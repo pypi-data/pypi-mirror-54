@@ -1,0 +1,4 @@
+[console_scripts]
+vda_data_node = vda.agent.data_node:launch_data_node
+vda_monitor = vda.monitor.launcher:launch_monitor
+
