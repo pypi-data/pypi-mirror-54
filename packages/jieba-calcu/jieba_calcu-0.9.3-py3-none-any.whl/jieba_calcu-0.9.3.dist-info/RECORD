@@ -1,0 +1,13 @@
+test/__init__.py,sha256=kvRcwCaWVuQ7JDVuxaATg4CHsfCQsV8Cd1CILM8VrK0,126
+test/append_helper.py,sha256=nRTunFMNQ3zeFrx5x7wph4OPoE_GDSgvukNgEpbFRjA,13562
+test/http_inf.py,sha256=P6DE17WUooPiRRBbfVq76acPD1q4TJk6TDm1QXAUZuI,944
+test/req.py,sha256=ZTMGUbnXSG663vQh4ydzHPwwCsaComhYSWUejmiCsvE,1621
+test/test.py,sha256=pa6FtTtxa9Q6BVxpY33WYdEfOYrU_c04yTgsww9YjQs,2215
+test/test_flask.py,sha256=3ay7vOUInuWHRUrRZ4qr2BgvX7Gs54QatLjOzD1CJOU,1783
+test/test_ner.py,sha256=9eQvWtD2Rv_ZXh2Yi3OXzkSeh8WNK-HDMir7gzUd270,1102
+jieba_calcu-0.9.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+jieba_calcu-0.9.3.dist-info/METADATA,sha256=O-qUb1Uo-lJVprDdhsjVQewwIOYHPRkCD_86YTxwHXw,300
+jieba_calcu-0.9.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+jieba_calcu-0.9.3.dist-info/entry_points.txt,sha256=-zZlHZSoTg_7iIq_D3FD3esoHT5pcuA-JqZui1Tqbz0,148
+jieba_calcu-0.9.3.dist-info/top_level.txt,sha256=8sobtsfpB9Btr-Roflefznazfk6Tt2BQItpS5szCb9I,5
+jieba_calcu-0.9.3.dist-info/RECORD,,
