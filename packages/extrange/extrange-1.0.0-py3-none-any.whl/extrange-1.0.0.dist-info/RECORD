@@ -1,0 +1,10 @@
+extrange/__init__.py,sha256=9jSXD3r8uoCyW0rP-O64tOHbnA59_DBKiGS5Gp0tU-c,58
+extrange/range.py,sha256=2T5qmhrwveKeW9TtwILQPiyfLVeUeql2qEU9uwOJPgQ,407
+extrange/test_range.py,sha256=HqIllm7zaOXOO9ZxOYAjnSfSStzK8fALDsfWvrasVGs,363
+extrange/test_timerange.py,sha256=DKMDIblPrqTZf7UyElOB04TFfUtkzDj7h-Qlrelf7-g,1426
+extrange/timerange.py,sha256=bHhDOKPJVA3tHTH-NpVYi633Nk9-B8RdNuy6C850OBc,1411
+extrange-1.0.0.dist-info/LICENSE,sha256=NipG86wiCwmVB3tPnQmU5j8ZAWRNr-WKJfHLqHb32p4,1064
+extrange-1.0.0.dist-info/METADATA,sha256=tAKV-kVI_R7jJZtQxT742-PwiGGK-ja1TIfVsM-1TJw,901
+extrange-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+extrange-1.0.0.dist-info/top_level.txt,sha256=7i7vJH6Dl0Fph-tP7aukjERu35RsJ3gy6U7jp3P0r2M,9
+extrange-1.0.0.dist-info/RECORD,,
