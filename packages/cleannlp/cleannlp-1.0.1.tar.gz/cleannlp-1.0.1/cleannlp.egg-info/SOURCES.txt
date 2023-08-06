@@ -1,0 +1,10 @@
+README.md
+setup.py
+cleannlp/__init__.py
+cleannlp/corenlp.py
+cleannlp/spacy.py
+cleannlp.egg-info/PKG-INFO
+cleannlp.egg-info/SOURCES.txt
+cleannlp.egg-info/dependency_links.txt
+cleannlp.egg-info/requires.txt
+cleannlp.egg-info/top_level.txt
