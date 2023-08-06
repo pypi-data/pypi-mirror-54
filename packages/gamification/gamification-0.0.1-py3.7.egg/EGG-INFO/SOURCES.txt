@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+gamification/__init__.py
+gamification/command.py
+gamification/main.py
+gamification.egg-info/PKG-INFO
+gamification.egg-info/SOURCES.txt
+gamification.egg-info/dependency_links.txt
+gamification.egg-info/entry_points.txt
+gamification.egg-info/requires.txt
+gamification.egg-info/top_level.txt
+gamification.egg-info/zip-safe
+gamification/game/__init__.py
+gamification/game/tic_tac_toe.py

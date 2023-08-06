@@ -1,0 +1,39 @@
+Metadata-Version: 1.0
+Name: gamification
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/monzita/gamification
+Author: Monika Ilieva
+Author-email: example@hidden.com
+License: MIT License
+Description: Gamification
+        ------------
+        
+        Something about the project
+        
+        Installation
+        ************
+        
+        >>> pip install gamification
+        
+        Documentation
+        *************
+        
+        Add `link <add-link-to-doc-here>`_ to it.
+        
+        Example
+        *******
+        
+        Example usage of gamification
+        
+        
+        Code of conduct
+        ***************
+        
+        
+        LICENSE
+        *******
+        
+        `MIT License <add-link-to-license-here>`_
+Keywords: game console
+Platform: UNKNOWN
