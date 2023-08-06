@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: cf_netSDM
+Version: 0.0.3
+Summary: ClowdFlows 3 module for network analysis for semantic data mining
+Home-page: https://github.com/JanKralj/cf_netSDM
+Author: Jan Kralj
+Author-email: jan.kralj@ijs.si
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
