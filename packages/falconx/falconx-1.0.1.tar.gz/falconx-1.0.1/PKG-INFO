@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: falconx
+Version: 1.0.1
+Summary: The official client for FalconX APIs
+Home-page: https://github.com/falconxio/falconx-python
+Author: FalconX
+Author-email: support@falconx.io
+License: UNKNOWN
+Description: # Overview
+        This is the official python client for the FalconX API.
+        
+        API Documentation: http://docs.falconx.io
+        
+        
+        # Quickstart
+        
+        ```python
+        from falconx import FalconxClient
+        
+        client = FalconxClient(key=KEY, secret=SECRET, passphrase=PASSPHRASE)
+        quote = client.get_quote('BTC', 'USD', 5, 'two-way')
+        result = client.execute_quote(quote['fx_quote_id'], 'buy')
+        ```
+        
+        # Installation
+        ```sh
+        pip install falconx
+        ```
+        
+        # About FalconX
+        FalconX is an institutional digital asset brokerage. 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
