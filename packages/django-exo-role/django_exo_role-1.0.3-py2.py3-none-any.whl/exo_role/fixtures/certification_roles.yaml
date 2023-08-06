@@ -1,0 +1,41 @@
+- model: exo_role.CertificationRole
+  pk: 1
+  fields:
+    name: ExO Ambassador
+    code: CEA
+    level: 2
+
+- model: exo_role.CertificationRole
+  pk: 2
+  fields:
+    name: ExO Board Advisor
+    code: CBA
+    level: 2
+
+- model: exo_role.CertificationRole
+  pk: 3
+  fields:
+    name: ExO Consultant
+    code: CCO
+    level: 1
+
+- model: exo_role.CertificationRole
+  pk: 4
+  fields:
+    name: ExO Foundations
+    code: CFO
+    level: 0
+
+- model: exo_role.CertificationRole
+  pk: 5
+  fields:
+    name: ExO Sprint Coach
+    code: CSC
+    level: 2
+
+- model: exo_role.CertificationRole
+  pk: 6
+  fields:
+    name: ExO Trainer
+    code: CTR
+    level: 2
