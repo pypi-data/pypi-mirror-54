@@ -1,0 +1,5 @@
+pytz
+python-qpid-proton==0.28.0
+PyYAML>=5.1.2
+marshmallow>=3.0.1
+python-ioc>=1.3.11
