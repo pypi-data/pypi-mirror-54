@@ -1,0 +1,372 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PyFoam.Basics.TemplateFile module &mdash; PyFoam 0.6.11-development documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="PyFoam 0.6.11-development documentation" href="../index.html"/>
+        <link rel="up" title="PyFoam.Basics package" href="PyFoam.Basics.html"/>
+        <link rel="next" title="PyFoam.Basics.TerminalFormatter module" href="PyFoam.Basics.TerminalFormatter.html"/>
+        <link rel="prev" title="PyFoam.Basics.TableData module" href="PyFoam.Basics.TableData.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PyFoam
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.6.11
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">API documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="PyFoam.html">PyFoam package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="PyFoam.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Applications.html">PyFoam.Applications package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="PyFoam.Basics.html">PyFoam.Basics package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Execution.html">PyFoam.Execution package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.IPythonHelpers.html">PyFoam.IPythonHelpers package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Infrastructure.html">PyFoam.Infrastructure package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.LogAnalysis.html">PyFoam.LogAnalysis package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Paraview.html">PyFoam.Paraview package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.RunDictionary.html">PyFoam.RunDictionary package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Site.html">PyFoam.Site package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.ThirdParty.html">PyFoam.ThirdParty package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Wrappers.html">PyFoam.Wrappers package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="PyFoam.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="PyFoam.html#module-PyFoam">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PyFoam</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">PyFoam</a> &raquo;</li>
+        
+          <li><a href="PyFoam.html">PyFoam package</a> &raquo;</li>
+        
+          <li><a href="PyFoam.Basics.html">PyFoam.Basics package</a> &raquo;</li>
+        
+      <li>PyFoam.Basics.TemplateFile module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/PyFoam.Basics.TemplateFile.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-PyFoam.Basics.TemplateFile">
+<span id="pyfoam-basics-templatefile-module"></span><h1>PyFoam.Basics.TemplateFile module<a class="headerlink" href="#module-PyFoam.Basics.TemplateFile" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMath">
+<em class="property">class </em><code class="descclassname">PyFoam.Basics.TemplateFile.</code><code class="descname">EvalPseudoSandboxWithMath</code><span class="sig-paren">(</span><em>allowExec=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#EvalPseudoSandboxWithMath"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMath" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="PyFoam.ThirdParty.pyratemp.html#PyFoam.ThirdParty.pyratemp.EvalPseudoSandbox" title="PyFoam.ThirdParty.pyratemp.EvalPseudoSandbox"><code class="xref py py-class docutils literal"><span class="pre">PyFoam.ThirdParty.pyratemp.EvalPseudoSandbox</span></code></a></p>
+<p>Add mathematical functions to the valid functons</p>
+<dl class="method">
+<dt id="PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMath.compile">
+<code class="descname">compile</code><span class="sig-paren">(</span><em>expr</em>, <em>mode='eval'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#EvalPseudoSandboxWithMath.compile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMath.compile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compile a python-eval-expression. Overrides the default implementation
+to allow ‘_[1]’ as a valid name</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMath.eval">
+<code class="descname">eval</code><span class="sig-paren">(</span><em>expr</em>, <em>locals</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#EvalPseudoSandboxWithMath.eval"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMath.eval" title="Permalink to this definition">¶</a></dt>
+<dd><p>Eval a python-eval-expression.</p>
+<p>Sets <code class="docutils literal"><span class="pre">self.locals_ptr</span></code> to <code class="docutils literal"><span class="pre">locales</span></code> and compiles the code
+before evaluating.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMathWithImport">
+<em class="property">class </em><code class="descclassname">PyFoam.Basics.TemplateFile.</code><code class="descname">EvalPseudoSandboxWithMathWithImport</code><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#EvalPseudoSandboxWithMathWithImport"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMathWithImport" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMath" title="PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMath"><code class="xref py py-class docutils literal"><span class="pre">PyFoam.Basics.TemplateFile.EvalPseudoSandboxWithMath</span></code></a></p>
+<p>Class that allows the import of packages</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.Basics.TemplateFile.PyratempPreprocessor">
+<em class="property">class </em><code class="descclassname">PyFoam.Basics.TemplateFile.</code><code class="descname">PyratempPreprocessor</code><span class="sig-paren">(</span><em>dovarline=True</em>, <em>doexpr=True</em>, <em>expressionDelimiter='$'</em>, <em>assignmentLineStart='$$'</em>, <em>allowExec=False</em>, <em>assignmentDebug=None</em>, <em>specials=[]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#PyratempPreprocessor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.PyratempPreprocessor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This class preprocesses the input that is give to it in such a
+way that the old format (using $$ at the line beginnings and $
+.. $ for expressions) is reworked into something that pyratemp understands</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.Basics.TemplateFile.RendererWithFilename">
+<em class="property">class </em><code class="descclassname">PyFoam.Basics.TemplateFile.</code><code class="descname">RendererWithFilename</code><span class="sig-paren">(</span><em>evalfunc</em>, <em>escapefunc</em>, <em>filename=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#RendererWithFilename"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.RendererWithFilename" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="PyFoam.ThirdParty.pyratemp.html#PyFoam.ThirdParty.pyratemp.Renderer" title="PyFoam.ThirdParty.pyratemp.Renderer"><code class="xref py py-class docutils literal"><span class="pre">PyFoam.ThirdParty.pyratemp.Renderer</span></code></a></p>
+<p>Usual renderer but report a filename</p>
+<dl class="method">
+<dt id="PyFoam.Basics.TemplateFile.RendererWithFilename.reportString">
+<code class="descname">reportString</code><span class="sig-paren">(</span><em>expr</em>, <em>err</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#RendererWithFilename.reportString"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.RendererWithFilename.reportString" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.Basics.TemplateFile.TemplateFile">
+<em class="property">class </em><code class="descclassname">PyFoam.Basics.TemplateFile.</code><code class="descname">TemplateFile</code><span class="sig-paren">(</span><em>name=None</em>, <em>content=None</em>, <em>encoding='utf-8'</em>, <em>expressionDelimiter='|'</em>, <em>assignmentLineStart='$$'</em>, <em>assignmentDebug=None</em>, <em>specials=[]</em>, <em>renderer_class=None</em>, <em>tolerantRender=False</em>, <em>allowExec=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#TemplateFile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.TemplateFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#PyFoam.Basics.TemplateFile.TemplateFileOldFormat" title="PyFoam.Basics.TemplateFile.TemplateFileOldFormat"><code class="xref py py-class docutils literal"><span class="pre">PyFoam.Basics.TemplateFile.TemplateFileOldFormat</span></code></a></p>
+<p>Works on template files. Does calculations between $$.
+Lines that start with $$ contain definitions</p>
+<dl class="method">
+<dt id="PyFoam.Basics.TemplateFile.TemplateFile.buildTemplate">
+<code class="descname">buildTemplate</code><span class="sig-paren">(</span><em>template</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#TemplateFile.buildTemplate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.TemplateFile.buildTemplate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.Basics.TemplateFile.TemplateFile.getString">
+<code class="descname">getString</code><span class="sig-paren">(</span><em>vals</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#TemplateFile.getString"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.TemplateFile.getString" title="Permalink to this definition">¶</a></dt>
+<dd><p>In the template, replaces all the strings between $$
+with the evaluation of the expressions
+:param vals: dictionary with the values
+:returns: The string with the replaced expressions</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.Basics.TemplateFile.TemplateFileOldFormat">
+<em class="property">class </em><code class="descclassname">PyFoam.Basics.TemplateFile.</code><code class="descname">TemplateFileOldFormat</code><span class="sig-paren">(</span><em>name=None</em>, <em>content=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#TemplateFileOldFormat"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.TemplateFileOldFormat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Works on template files. Does calculations between $$.
+Lines that start with $$ contain definitions</p>
+<dl class="method">
+<dt id="PyFoam.Basics.TemplateFile.TemplateFileOldFormat.buildTemplate">
+<code class="descname">buildTemplate</code><span class="sig-paren">(</span><em>template</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#TemplateFileOldFormat.buildTemplate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.TemplateFileOldFormat.buildTemplate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.Basics.TemplateFile.TemplateFileOldFormat.getString">
+<code class="descname">getString</code><span class="sig-paren">(</span><em>vals</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#TemplateFileOldFormat.getString"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.TemplateFileOldFormat.getString" title="Permalink to this definition">¶</a></dt>
+<dd><p>In the template, replaces all the strings between $$
+with the evaluation of the expressions
+:param vals: dictionary with the values
+:returns: The string with the replaced expressions</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.Basics.TemplateFile.TemplateFileOldFormat.writeToFile">
+<code class="descname">writeToFile</code><span class="sig-paren">(</span><em>outfile</em>, <em>vals</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#TemplateFileOldFormat.writeToFile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.TemplateFileOldFormat.writeToFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>In  the template, replaces all the strings between $$
+with the evaluation of the expressions and writes the results to a file
+:param outfile: the resulting output file
+:param vals: dictionary with the values</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.Basics.TemplateFile.TolerantRenderer">
+<em class="property">class </em><code class="descclassname">PyFoam.Basics.TemplateFile.</code><code class="descname">TolerantRenderer</code><span class="sig-paren">(</span><em>evalfunc</em>, <em>escapefunc</em>, <em>filename=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Basics/TemplateFile.html#TolerantRenderer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Basics.TemplateFile.TolerantRenderer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#PyFoam.Basics.TemplateFile.RendererWithFilename" title="PyFoam.Basics.TemplateFile.RendererWithFilename"><code class="xref py py-class docutils literal"><span class="pre">PyFoam.Basics.TemplateFile.RendererWithFilename</span></code></a></p>
+<p>Variant of the renderer that doesn’t choke on problems with evaluations</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="PyFoam.Basics.TerminalFormatter.html" class="btn btn-neutral float-right" title="PyFoam.Basics.TerminalFormatter module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="PyFoam.Basics.TableData.html" class="btn btn-neutral" title="PyFoam.Basics.TableData module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Bernhard F.W. Gschaider.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.6.11-development',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

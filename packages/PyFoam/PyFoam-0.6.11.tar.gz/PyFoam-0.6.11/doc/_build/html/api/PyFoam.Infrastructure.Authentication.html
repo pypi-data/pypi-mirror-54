@@ -1,0 +1,421 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PyFoam.Infrastructure.Authentication module &mdash; PyFoam 0.6.11-development documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="PyFoam 0.6.11-development documentation" href="../index.html"/>
+        <link rel="up" title="PyFoam.Infrastructure package" href="PyFoam.Infrastructure.html"/>
+        <link rel="next" title="PyFoam.Infrastructure.Blink1 module" href="PyFoam.Infrastructure.Blink1.html"/>
+        <link rel="prev" title="PyFoam.Infrastructure.RunHooks.WriteToSqliteDatabase module" href="PyFoam.Infrastructure.RunHooks.WriteToSqliteDatabase.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PyFoam
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.6.11
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">API documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="PyFoam.html">PyFoam package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="PyFoam.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Applications.html">PyFoam.Applications package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Basics.html">PyFoam.Basics package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Execution.html">PyFoam.Execution package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.IPythonHelpers.html">PyFoam.IPythonHelpers package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="PyFoam.Infrastructure.html">PyFoam.Infrastructure package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.LogAnalysis.html">PyFoam.LogAnalysis package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Paraview.html">PyFoam.Paraview package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.RunDictionary.html">PyFoam.RunDictionary package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Site.html">PyFoam.Site package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.ThirdParty.html">PyFoam.ThirdParty package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Wrappers.html">PyFoam.Wrappers package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="PyFoam.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="PyFoam.html#module-PyFoam">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PyFoam</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">PyFoam</a> &raquo;</li>
+        
+          <li><a href="PyFoam.html">PyFoam package</a> &raquo;</li>
+        
+          <li><a href="PyFoam.Infrastructure.html">PyFoam.Infrastructure package</a> &raquo;</li>
+        
+      <li>PyFoam.Infrastructure.Authentication module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/PyFoam.Infrastructure.Authentication.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-PyFoam.Infrastructure.Authentication">
+<span id="pyfoam-infrastructure-authentication-module"></span><h1>PyFoam.Infrastructure.Authentication module<a class="headerlink" href="#module-PyFoam.Infrastructure.Authentication" title="Permalink to this headline">¶</a></h1>
+<p>Simple public key authentication with RSA based on the
+implementation
+<a class="reference external" href="http://code.activestate.com/recipes/578797-public-key-encryption-rsa/">http://code.activestate.com/recipes/578797-public-key-encryption-rsa/</a></p>
+<dl class="class">
+<dt id="PyFoam.Infrastructure.Authentication.Key">
+<em class="property">class </em><code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">Key</code><span class="sig-paren">(</span><em>exponent</em>, <em>modulus</em><span class="sig-paren">)</span><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.Key" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">tuple</span></code></p>
+<dl class="attribute">
+<dt id="PyFoam.Infrastructure.Authentication.Key.exponent">
+<code class="descname">exponent</code><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.Key.exponent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 0</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="PyFoam.Infrastructure.Authentication.Key.modulus">
+<code class="descname">modulus</code><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.Key.modulus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 1</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.Infrastructure.Authentication.KeyPair">
+<em class="property">class </em><code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">KeyPair</code><span class="sig-paren">(</span><em>public</em>, <em>private</em><span class="sig-paren">)</span><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.KeyPair" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">tuple</span></code></p>
+<dl class="attribute">
+<dt id="PyFoam.Infrastructure.Authentication.KeyPair.private">
+<code class="descname">private</code><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.KeyPair.private" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 1</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="PyFoam.Infrastructure.Authentication.KeyPair.public">
+<code class="descname">public</code><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.KeyPair.public" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 0</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.authenticatedKeys">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">authenticatedKeys</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#authenticatedKeys"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.authenticatedKeys" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.checkAuthentication">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">checkAuthentication</code><span class="sig-paren">(</span><em>userName</em>, <em>challenge</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#checkAuthentication"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.checkAuthentication" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.checkChallenge">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">checkChallenge</code><span class="sig-paren">(</span><em>challenge</em>, <em>pubKey</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#checkChallenge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.checkChallenge" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.createChallengeString">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">createChallengeString</code><span class="sig-paren">(</span><em>msg</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#createChallengeString"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.createChallengeString" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.decode">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">decode</code><span class="sig-paren">(</span><em>bcipher</em>, <em>privkey</em>, <em>verbose=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#decode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.decode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.encode">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">encode</code><span class="sig-paren">(</span><em>msg</em>, <em>pubkey</em>, <em>verbose=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#encode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.encode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.ensureKeyPair">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">ensureKeyPair</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#ensureKeyPair"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.ensureKeyPair" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.is_prime">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">is_prime</code><span class="sig-paren">(</span><em>n</em>, <em>k=30</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#is_prime"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.is_prime" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.key_to_str">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">key_to_str</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#key_to_str"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.key_to_str" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert <cite>Key</cite> to string representation
+&gt;&gt;&gt; key_to_str(Key(50476910741469568741791652650587163073, 95419691922573224706255222482923256353))
+‘25f97fd801214cdc163796f8a43289c1:47c92a08bc374e96c7af66eb141d7a21’</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.keygen">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">keygen</code><span class="sig-paren">(</span><em>n</em>, <em>public=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#keygen"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.keygen" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate public and private keys from primes up to N.</p>
+<p>Optionally, specify the public key exponent (65537 is popular choice).</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">pubkey</span><span class="p">,</span> <span class="n">privkey</span> <span class="o">=</span> <span class="n">keygen</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="mi">64</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">msg</span> <span class="o">=</span> <span class="mi">123456789012345</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">coded</span> <span class="o">=</span> <span class="nb">pow</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="o">*</span><span class="n">pubkey</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plain</span> <span class="o">=</span> <span class="nb">pow</span><span class="p">(</span><span class="n">coded</span><span class="p">,</span> <span class="o">*</span><span class="n">privkey</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="n">msg</span> <span class="o">==</span> <span class="n">plain</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.multinv">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">multinv</code><span class="sig-paren">(</span><em>modulus</em>, <em>value</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#multinv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.multinv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Multiplicative inverse in a given modulus</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">multinv</span><span class="p">(</span><span class="mi">191</span><span class="p">,</span> <span class="mi">138</span><span class="p">)</span>
+<span class="go">18</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">multinv</span><span class="p">(</span><span class="mi">191</span><span class="p">,</span> <span class="mi">38</span><span class="p">)</span>
+<span class="go">186</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">multinv</span><span class="p">(</span><span class="mi">120</span><span class="p">,</span> <span class="mi">23</span><span class="p">)</span>
+<span class="go">47</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.myAuthenticatedKeysFile">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">myAuthenticatedKeysFile</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#myAuthenticatedKeysFile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.myAuthenticatedKeysFile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.myPrivateKey">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">myPrivateKey</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#myPrivateKey"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.myPrivateKey" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.myPrivateKeyFile">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">myPrivateKeyFile</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#myPrivateKeyFile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.myPrivateKeyFile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.myPublicKey">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">myPublicKey</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#myPublicKey"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.myPublicKey" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.myPublicKeyFile">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">myPublicKeyFile</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#myPublicKeyFile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.myPublicKeyFile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.myPublicKeyText">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">myPublicKeyText</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#myPublicKeyText"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.myPublicKeyText" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.randprime">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">randprime</code><span class="sig-paren">(</span><em>n=100000000</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#randprime"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.randprime" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.Infrastructure.Authentication.str_to_key">
+<code class="descclassname">PyFoam.Infrastructure.Authentication.</code><code class="descname">str_to_key</code><span class="sig-paren">(</span><em>key_str</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/Infrastructure/Authentication.html#str_to_key"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.Infrastructure.Authentication.str_to_key" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert string representation to <cite>Key</cite> (assuming valid input)
+&gt;&gt;&gt; (str_to_key(‘25f97fd801214cdc163796f8a43289c1:47c92a08bc374e96c7af66eb141d7a21’) ==
+…  Key(exponent=50476910741469568741791652650587163073, modulus=95419691922573224706255222482923256353))
+True</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="PyFoam.Infrastructure.Blink1.html" class="btn btn-neutral float-right" title="PyFoam.Infrastructure.Blink1 module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="PyFoam.Infrastructure.RunHooks.WriteToSqliteDatabase.html" class="btn btn-neutral" title="PyFoam.Infrastructure.RunHooks.WriteToSqliteDatabase module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Bernhard F.W. Gschaider.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.6.11-development',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

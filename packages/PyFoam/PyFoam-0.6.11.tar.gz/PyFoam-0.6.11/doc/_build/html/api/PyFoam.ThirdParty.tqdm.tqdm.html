@@ -1,0 +1,545 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PyFoam.ThirdParty.tqdm.tqdm package &mdash; PyFoam 0.6.11-development documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="PyFoam 0.6.11-development documentation" href="../index.html"/>
+        <link rel="up" title="PyFoam.ThirdParty.tqdm package" href="PyFoam.ThirdParty.tqdm.html"/>
+        <link rel="next" title="PyFoam.ThirdParty.tqdm.setup module" href="PyFoam.ThirdParty.tqdm.setup.html"/>
+        <link rel="prev" title="PyFoam.ThirdParty.tqdm package" href="PyFoam.ThirdParty.tqdm.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PyFoam
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.6.11
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">API documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="PyFoam.html">PyFoam package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="PyFoam.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Applications.html">PyFoam.Applications package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Basics.html">PyFoam.Basics package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Execution.html">PyFoam.Execution package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.IPythonHelpers.html">PyFoam.IPythonHelpers package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Infrastructure.html">PyFoam.Infrastructure package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.LogAnalysis.html">PyFoam.LogAnalysis package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Paraview.html">PyFoam.Paraview package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.RunDictionary.html">PyFoam.RunDictionary package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Site.html">PyFoam.Site package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="PyFoam.ThirdParty.html">PyFoam.ThirdParty package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Wrappers.html">PyFoam.Wrappers package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="PyFoam.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="PyFoam.html#module-PyFoam">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PyFoam</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">PyFoam</a> &raquo;</li>
+        
+          <li><a href="PyFoam.html">PyFoam package</a> &raquo;</li>
+        
+          <li><a href="PyFoam.ThirdParty.html">PyFoam.ThirdParty package</a> &raquo;</li>
+        
+          <li><a href="PyFoam.ThirdParty.tqdm.html">PyFoam.ThirdParty.tqdm package</a> &raquo;</li>
+        
+      <li>PyFoam.ThirdParty.tqdm.tqdm package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/PyFoam.ThirdParty.tqdm.tqdm.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pyfoam-thirdparty-tqdm-tqdm-package">
+<h1>PyFoam.ThirdParty.tqdm.tqdm package<a class="headerlink" href="#pyfoam-thirdparty-tqdm-tqdm-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-PyFoam.ThirdParty.tqdm.tqdm">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-PyFoam.ThirdParty.tqdm.tqdm" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm">
+<em class="property">class </em><code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">tqdm</code><span class="sig-paren">(</span><em>iterable=None</em>, <em>desc=None</em>, <em>total=None</em>, <em>leave=True</em>, <em>file=&lt;_io.TextIOWrapper name='&lt;stderr&gt;' mode='w' encoding='UTF-8'&gt;</em>, <em>ncols=None</em>, <em>mininterval=0.1</em>, <em>maxinterval=10.0</em>, <em>miniters=None</em>, <em>ascii=None</em>, <em>disable=False</em>, <em>unit='it'</em>, <em>unit_scale=False</em>, <em>dynamic_ncols=False</em>, <em>smoothing=0.3</em>, <em>bar_format=None</em>, <em>initial=0</em>, <em>position=None</em>, <em>gui=False</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Decorate an iterable object, returning an iterator which acts exactly
+like the original iterable, but prints a dynamically updating
+progressbar every time a value is requested.</p>
+<dl class="method">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.clear">
+<code class="descname">clear</code><span class="sig-paren">(</span><em>nomove=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.clear"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.clear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clear current bar display</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.close"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cleanup and (if leave=False) close the progressbar.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.format_interval">
+<em class="property">static </em><code class="descname">format_interval</code><span class="sig-paren">(</span><em>t</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.format_interval"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.format_interval" title="Permalink to this definition">¶</a></dt>
+<dd><p>Formats a number of seconds as a clock time, [H:]MM:SS</p>
+<dl class="docutils">
+<dt>t <span class="classifier-delimiter">:</span> <span class="classifier">int</span></dt>
+<dd>Number of seconds.</dd>
+</dl>
+<dl class="docutils">
+<dt>out <span class="classifier-delimiter">:</span> <span class="classifier">str</span></dt>
+<dd>[H:]MM:SS</dd>
+</dl>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.format_meter">
+<em class="property">static </em><code class="descname">format_meter</code><span class="sig-paren">(</span><em>n</em>, <em>total</em>, <em>elapsed</em>, <em>ncols=None</em>, <em>prefix=''</em>, <em>ascii=False</em>, <em>unit='it'</em>, <em>unit_scale=False</em>, <em>rate=None</em>, <em>bar_format=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.format_meter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.format_meter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a string-based progress bar given some parameters</p>
+<dl class="docutils">
+<dt>n <span class="classifier-delimiter">:</span> <span class="classifier">int</span></dt>
+<dd>Number of finished iterations.</dd>
+<dt>total <span class="classifier-delimiter">:</span> <span class="classifier">int</span></dt>
+<dd>The expected total number of iterations. If meaningless (), only
+basic progress statistics are displayed (no ETA).</dd>
+<dt>elapsed <span class="classifier-delimiter">:</span> <span class="classifier">float</span></dt>
+<dd>Number of seconds passed since start.</dd>
+<dt>ncols <span class="classifier-delimiter">:</span> <span class="classifier">int, optional</span></dt>
+<dd>The width of the entire output message. If specified,
+dynamically resizes the progress meter to stay within this bound
+[default: None]. The fallback meter width is 10 for the progress
+bar + no limit for the iterations counter and statistics. If 0,
+will not print any meter (only stats).</dd>
+<dt>prefix <span class="classifier-delimiter">:</span> <span class="classifier">str, optional</span></dt>
+<dd>Prefix message (included in total width) [default: ‘’].</dd>
+<dt>ascii <span class="classifier-delimiter">:</span> <span class="classifier">bool, optional</span></dt>
+<dd>If not set, use unicode (smooth blocks) to fill the meter
+[default: False]. The fallback is to use ASCII characters
+(1-9 #).</dd>
+<dt>unit <span class="classifier-delimiter">:</span> <span class="classifier">str, optional</span></dt>
+<dd>The iteration unit [default: ‘it’].</dd>
+<dt>unit_scale <span class="classifier-delimiter">:</span> <span class="classifier">bool, optional</span></dt>
+<dd>If set, the number of iterations will printed with an
+appropriate SI metric prefix (K = 10^3, M = 10^6, etc.)
+[default: False].</dd>
+<dt>rate <span class="classifier-delimiter">:</span> <span class="classifier">float, optional</span></dt>
+<dd>Manual override for iteration rate.
+If [default: None], uses n/elapsed.</dd>
+<dt>bar_format <span class="classifier-delimiter">:</span> <span class="classifier">str, optional</span></dt>
+<dd>Specify a custom bar string formatting. May impact performance.
+[default: ‘{l_bar}{bar}{r_bar}’], where l_bar is
+‘{desc}{percentage:3.0f}%|’ and r_bar is
+‘| {n_fmt}/{total_fmt} [{elapsed_str}&lt;{remaining_str}, {rate_fmt}]’
+Possible vars: bar, n, n_fmt, total, total_fmt, percentage,
+rate, rate_fmt, elapsed, remaining, l_bar, r_bar, desc.</dd>
+</dl>
+<p>out  : Formatted meter and stats, ready to display.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.format_sizeof">
+<em class="property">static </em><code class="descname">format_sizeof</code><span class="sig-paren">(</span><em>num</em>, <em>suffix=''</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.format_sizeof"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.format_sizeof" title="Permalink to this definition">¶</a></dt>
+<dd><p>Formats a number (greater than unity) with SI Order of Magnitude
+prefixes.</p>
+<dl class="docutils">
+<dt>num <span class="classifier-delimiter">:</span> <span class="classifier">float</span></dt>
+<dd>Number ( &gt;= 1) to format.</dd>
+<dt>suffix <span class="classifier-delimiter">:</span> <span class="classifier">str, optional</span></dt>
+<dd>Post-postfix [default: ‘’].</dd>
+</dl>
+<dl class="docutils">
+<dt>out <span class="classifier-delimiter">:</span> <span class="classifier">str</span></dt>
+<dd>Number with Order of Magnitude SI unit postfix.</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.moveto">
+<code class="descname">moveto</code><span class="sig-paren">(</span><em>n</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.moveto"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.moveto" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="classmethod">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.pandas">
+<em class="property">classmethod </em><code class="descname">pandas</code><span class="sig-paren">(</span><em>*targs</em>, <em>**tkwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.pandas"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.pandas" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Registers the given <cite>tqdm</cite> class with</dt>
+<dd>pandas.core.
+( frame.DataFrame
+| series.Series
+| groupby.DataFrameGroupBy
+| groupby.SeriesGroupBy
+).progress_apply</dd>
+</dl>
+<p>A new instance will be create every time <cite>progress_apply</cite> is called,
+and each instance will automatically close() upon completion.</p>
+<p>targs, tkwargs  : arguments for the tqdm instance</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">tqdm</span> <span class="k">import</span> <span class="n">tqdm</span><span class="p">,</span> <span class="n">tqdm_gui</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="p">(</span><span class="mi">100000</span><span class="p">,</span> <span class="mi">6</span><span class="p">)))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tqdm</span><span class="o">.</span><span class="n">pandas</span><span class="p">(</span><span class="n">ncols</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>  <span class="c1"># can use tqdm_gui, optional kwargs, etc</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Now you can use `progress_apply` instead of `apply`</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">progress_apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://stackoverflow.com/questions/18603270/">https://stackoverflow.com/questions/18603270/</a>
+progress-indicator-during-pandas-operations-python</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.refresh">
+<code class="descname">refresh</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.refresh"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.refresh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Force refresh the display of this bar</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.set_description">
+<code class="descname">set_description</code><span class="sig-paren">(</span><em>desc=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.set_description"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.set_description" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set/modify description of the progress bar.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.status_printer">
+<em class="property">static </em><code class="descname">status_printer</code><span class="sig-paren">(</span><em>file</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.status_printer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.status_printer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Manage the printing and in-place updating of a line of characters.
+Note that if the string is longer than a line, then in-place
+updating may not work (it will print a new line at each refresh).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.unpause">
+<code class="descname">unpause</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.unpause"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.unpause" title="Permalink to this definition">¶</a></dt>
+<dd><p>Restart tqdm timer from last print time.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.update">
+<code class="descname">update</code><span class="sig-paren">(</span><em>n=1</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.update"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Manually update the progress bar, useful for streams
+such as reading files.
+E.g.:
+&gt;&gt;&gt; t = tqdm(total=filesize) # Initialise
+&gt;&gt;&gt; for current_buffer in stream:
+…    …
+…    t.update(len(current_buffer))
+&gt;&gt;&gt; t.close()
+The last line is highly recommended, but possibly not necessary if
+<cite>t.update()</cite> will be called in such a way that <cite>filesize</cite> will be
+exactly reached and printed.</p>
+<dl class="docutils">
+<dt>n <span class="classifier-delimiter">:</span> <span class="classifier">int</span></dt>
+<dd>Increment to add to the internal counter of iterations
+[default: 1].</dd>
+</dl>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm.write">
+<em class="property">classmethod </em><code class="descname">write</code><span class="sig-paren">(</span><em>s</em>, <em>file=&lt;_io.TextIOWrapper name='&lt;stdout&gt;' mode='w' encoding='UTF-8'&gt;</em>, <em>end='\n'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#tqdm.write"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print a message via tqdm (without overlap with bars)</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm_gui">
+<em class="property">class </em><code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">tqdm_gui</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm_gui.html#tqdm_gui"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm_gui" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">PyFoam.ThirdParty.tqdm.tqdm._tqdm.tqdm</span></code></p>
+<p>Experimental GUI version of tqdm!</p>
+<dl class="method">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm_gui.close">
+<code class="descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm_gui.html#tqdm_gui.close"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm_gui.close" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm_gui.update">
+<code class="descname">update</code><span class="sig-paren">(</span><em>n=1</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm_gui.html#tqdm_gui.update"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm_gui.update" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="classmethod">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm_gui.write">
+<em class="property">classmethod </em><code class="descname">write</code><span class="sig-paren">(</span><em>s</em>, <em>file=&lt;_io.TextIOWrapper name='&lt;stdout&gt;' mode='w' encoding='UTF-8'&gt;</em>, <em>end='\n'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm_gui.html#tqdm_gui.write"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm_gui.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print a message via tqdm_gui (just an alias for print)</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.trange">
+<code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">trange</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#trange"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.trange" title="Permalink to this definition">¶</a></dt>
+<dd><p>A shortcut for tqdm(xrange(<a href="#id1"><span class="problematic" id="id2">*</span></a>args), <a href="#id3"><span class="problematic" id="id4">**</span></a>kwargs).
+On Python3+ range is used instead of xrange.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tgrange">
+<code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">tgrange</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm_gui.html#tgrange"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tgrange" title="Permalink to this definition">¶</a></dt>
+<dd><p>A shortcut for tqdm_gui(xrange(<a href="#id5"><span class="problematic" id="id6">*</span></a>args), <a href="#id7"><span class="problematic" id="id8">**</span></a>kwargs).
+On Python3+ range is used instead of xrange.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm_pandas">
+<code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">tqdm_pandas</code><span class="sig-paren">(</span><em>tclass</em>, <em>*targs</em>, <em>**tkwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm_pandas.html#tqdm_pandas"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm_pandas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Registers the given <cite>tqdm</cite> instance with
+<cite>pandas.core.groupby.DataFrameGroupBy.progress_apply</cite>.
+It will even close() the <cite>tqdm</cite> instance upon completion.</p>
+<p>tclass  : tqdm class you want to use (eg, tqdm, tqdm_notebook, etc)
+targs and tkwargs  : arguments for the tqdm instance</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">tqdm</span> <span class="k">import</span> <span class="n">tqdm</span><span class="p">,</span> <span class="n">tqdm_pandas</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="p">(</span><span class="mi">100000</span><span class="p">,</span> <span class="mi">6</span><span class="p">)))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tqdm_pandas</span><span class="p">(</span><span class="n">tqdm</span><span class="p">,</span> <span class="n">leave</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>  <span class="c1"># can use tqdm_gui, optional kwargs, etc</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Now you can use `progress_apply` instead of `apply`</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">progress_apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://stackoverflow.com/questions/18603270/">https://stackoverflow.com/questions/18603270/</a>
+progress-indicator-during-pandas-operations-python</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tqdm_notebook">
+<code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">tqdm_notebook</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm.html#tqdm_notebook"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tqdm_notebook" title="Permalink to this definition">¶</a></dt>
+<dd><p>See tqdm._tqdm_notebook.tqdm_notebook for full documentation</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.tnrange">
+<code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">tnrange</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm.html#tnrange"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.tnrange" title="Permalink to this definition">¶</a></dt>
+<dd><p>A shortcut for tqdm_notebook(xrange(<a href="#id9"><span class="problematic" id="id10">*</span></a>args), <a href="#id11"><span class="problematic" id="id12">**</span></a>kwargs).
+On Python3+ range is used instead of xrange.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.main">
+<code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_main.html#main"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="exception">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.TqdmTypeError">
+<em class="property">exception </em><code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">TqdmTypeError</code><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#TqdmTypeError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.TqdmTypeError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">TypeError</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.TqdmKeyError">
+<em class="property">exception </em><code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">TqdmKeyError</code><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#TqdmKeyError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.TqdmKeyError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">KeyError</span></code></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="PyFoam.ThirdParty.tqdm.tqdm.TqdmDeprecationWarning">
+<em class="property">exception </em><code class="descclassname">PyFoam.ThirdParty.tqdm.tqdm.</code><code class="descname">TqdmDeprecationWarning</code><span class="sig-paren">(</span><em>msg</em>, <em>fp_write=None</em>, <em>*a</em>, <em>**k</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/tqdm/tqdm/_tqdm.html#TqdmDeprecationWarning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.tqdm.tqdm.TqdmDeprecationWarning" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="PyFoam.ThirdParty.tqdm.setup.html" class="btn btn-neutral float-right" title="PyFoam.ThirdParty.tqdm.setup module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="PyFoam.ThirdParty.tqdm.html" class="btn btn-neutral" title="PyFoam.ThirdParty.tqdm package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Bernhard F.W. Gschaider.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.6.11-development',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+import unittest
+
+from PyFoam.Applications.CommonChangeBoundary import CommonChangeBoundary

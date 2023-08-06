@@ -1,0 +1,496 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PyFoam.ThirdParty.Gnuplot.PlotItems module &mdash; PyFoam 0.6.11-development documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="PyFoam 0.6.11-development documentation" href="../index.html"/>
+        <link rel="up" title="PyFoam.ThirdParty.Gnuplot package" href="PyFoam.ThirdParty.Gnuplot.html"/>
+        <link rel="next" title="PyFoam.ThirdParty.Gnuplot.demo module" href="PyFoam.ThirdParty.Gnuplot.demo.html"/>
+        <link rel="prev" title="PyFoam.ThirdParty.Gnuplot.Errors module" href="PyFoam.ThirdParty.Gnuplot.Errors.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PyFoam
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.6.11
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">API documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="PyFoam.html">PyFoam package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="PyFoam.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Applications.html">PyFoam.Applications package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Basics.html">PyFoam.Basics package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Execution.html">PyFoam.Execution package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.IPythonHelpers.html">PyFoam.IPythonHelpers package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Infrastructure.html">PyFoam.Infrastructure package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.LogAnalysis.html">PyFoam.LogAnalysis package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Paraview.html">PyFoam.Paraview package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.RunDictionary.html">PyFoam.RunDictionary package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Site.html">PyFoam.Site package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="PyFoam.ThirdParty.html">PyFoam.ThirdParty package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="PyFoam.Wrappers.html">PyFoam.Wrappers package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="PyFoam.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="PyFoam.html#module-PyFoam">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PyFoam</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">PyFoam</a> &raquo;</li>
+        
+          <li><a href="PyFoam.html">PyFoam package</a> &raquo;</li>
+        
+          <li><a href="PyFoam.ThirdParty.html">PyFoam.ThirdParty package</a> &raquo;</li>
+        
+          <li><a href="PyFoam.ThirdParty.Gnuplot.html">PyFoam.ThirdParty.Gnuplot package</a> &raquo;</li>
+        
+      <li>PyFoam.ThirdParty.Gnuplot.PlotItems module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/PyFoam.ThirdParty.Gnuplot.PlotItems.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-PyFoam.ThirdParty.Gnuplot.PlotItems">
+<span id="pyfoam-thirdparty-gnuplot-plotitems-module"></span><h1>PyFoam.ThirdParty.Gnuplot.PlotItems module<a class="headerlink" href="#module-PyFoam.ThirdParty.Gnuplot.PlotItems" title="Permalink to this headline">¶</a></h1>
+<p>PlotItems.py – Objects that can be plotted by Gnuplot.</p>
+<p>This module contains several types of PlotItems.  PlotItems can be
+plotted by passing them to a Gnuplot.Gnuplot object.  You can derive
+your own classes from the PlotItem hierarchy to customize their
+behavior.</p>
+<dl class="function">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.Data">
+<code class="descclassname">PyFoam.ThirdParty.Gnuplot.PlotItems.</code><code class="descname">Data</code><span class="sig-paren">(</span><em>*data</em>, <em>**keyw</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#Data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.Data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create and return a _FileItem representing the data from <a href="#id1"><span class="problematic" id="id2">*</span></a>data.</p>
+<p>Create a ‘_FileItem’ object (which is a type of ‘PlotItem’) out of
+one or more Float Python numpy arrays (or objects that can be
+converted to a float numpy array).  If the routine is passed a
+single with multiple dimensions, then the last index ranges over
+the values comprising a single data point (e.g., [&lt;x&gt;, &lt;y&gt;,
+&lt;sigma&gt;]) and the rest of the indices select the data point.  If
+passed a single array with 1 dimension, then each point is
+considered to have only one value (i.e., by default the values
+will be plotted against their indices).  If the routine is passed
+more than one array, they must have identical shapes, and then
+each data point is composed of one point from each array.  E.g.,
+‘Data(x,x**2)’ is a ‘PlotItem’ that represents x squared as a
+function of x.  For the output format, see the comments for
+‘write_array()’.</p>
+<p>How the data are written to gnuplot depends on the ‘inline’
+argument and preference settings for the platform in use.</p>
+<p>Keyword arguments:</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>‘cols=&lt;tuple&gt;’ – write only the specified columns from each</dt>
+<dd>data point to the file.  Since cols is used by python, the
+columns should be numbered in the python style (starting
+from 0), not the gnuplot style (starting from 1).</dd>
+<dt>‘inline=&lt;bool&gt;’ – transmit the data to gnuplot ‘inline’</dt>
+<dd>rather than through a temporary file.  The default is the
+value of gp.GnuplotOpts.prefer_inline_data.</dd>
+</dl>
+<p>‘filename=&lt;string&gt;’ – save data to a permanent file.</p>
+</div></blockquote>
+<p>The keyword arguments recognized by ‘_FileItem’ can also be used
+here.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.File">
+<code class="descclassname">PyFoam.ThirdParty.Gnuplot.PlotItems.</code><code class="descname">File</code><span class="sig-paren">(</span><em>filename</em>, <em>**keyw</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#File"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.File" title="Permalink to this definition">¶</a></dt>
+<dd><p>Construct a _FileItem object referring to an existing file.</p>
+<p>This is a convenience function that just returns a _FileItem that
+wraps the filename.</p>
+<p>&lt;filename&gt; is a string holding the filename of an existing file.
+The keyword arguments are the same as those of the _FileItem
+constructor.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.Func">
+<em class="property">class </em><code class="descclassname">PyFoam.ThirdParty.Gnuplot.PlotItems.</code><code class="descname">Func</code><span class="sig-paren">(</span><em>function</em>, <em>**keyw</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#Func"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.Func" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem" title="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem"><code class="xref py py-class docutils literal"><span class="pre">PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem</span></code></a></p>
+<p>Represents a mathematical expression to plot.</p>
+<p>Func represents a mathematical expression that is to be computed by
+gnuplot itself, as if you would type for example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">gnuplot</span><span class="o">&gt;</span> <span class="n">plot</span> <span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>into gnuplot itself.  The argument to the contructor is a string
+that should be a mathematical expression.  Example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">g</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">Func</span><span class="p">(</span><span class="s1">&#39;sin(x)&#39;</span><span class="p">,</span> <span class="n">with_</span><span class="o">=</span><span class="s1">&#39;line 3&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>As shorthand, a string passed to the plot method of a Gnuplot
+object is also treated as a Func:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">g</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s1">&#39;sin(x)&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.Func.get_base_command_string">
+<code class="descname">get_base_command_string</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#Func.get_base_command_string"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.Func.get_base_command_string" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.GridData">
+<code class="descclassname">PyFoam.ThirdParty.Gnuplot.PlotItems.</code><code class="descname">GridData</code><span class="sig-paren">(</span><em>data</em>, <em>xvals=None</em>, <em>yvals=None</em>, <em>inline=&lt;class 'PyFoam.ThirdParty.Gnuplot.PlotItems._unset'&gt;</em>, <em>filename=None</em>, <em>**keyw</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#GridData"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.GridData" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a _FileItem representing a function of two variables.</p>
+<p>‘GridData’ represents a function that has been tabulated on a
+rectangular grid.  The data are written to a file; no copy is kept
+in memory.</p>
+<p>Arguments:</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>‘data’ – the data to plot: a 2-d array with dimensions</dt>
+<dd>(numx,numy).</dd>
+</dl>
+<p>‘xvals’ – a 1-d array with dimension ‘numx’</p>
+<p>‘yvals’ – a 1-d array with dimension ‘numy’</p>
+<p>‘binary=&lt;bool&gt;’ – send data to gnuplot in binary format?</p>
+<p>‘inline=&lt;bool&gt;’ – send data to gnuplot “inline”?</p>
+<p>‘filename=&lt;string&gt;’ – save data to a permanent file.</p>
+</div></blockquote>
+<p>Note the unusual argument order!  The data are specified <em>before</em>
+the x and y values.  (This inconsistency was probably a mistake;
+after all, the default xvals and yvals are not very useful.)</p>
+<p>‘data’ must be a data array holding the values of a function
+f(x,y) tabulated on a grid of points, such that ‘data[i,j] ==
+f(xvals[i], yvals[j])’.  If ‘xvals’ and/or ‘yvals’ are omitted,
+integers (starting with 0) are used for that coordinate.  The data
+are written to a temporary file; no copy of the data is kept in
+memory.</p>
+<p>If ‘binary=0’ then the data are written to a datafile as ‘x y
+f(x,y)’ triplets (y changes most rapidly) that can be used by
+gnuplot’s ‘splot’ command.  Blank lines are included each time the
+value of x changes so that gnuplot knows to plot a surface through
+the data.</p>
+<p>If ‘binary=1’ then the data are written to a file in a binary
+format that ‘splot’ can understand.  Binary format is faster and
+usually saves disk space but is not human-readable.  If your
+version of gnuplot doesn’t support binary format (it is a
+recently-added feature), this behavior can be disabled by setting
+the configuration variable
+‘gp.GnuplotOpts.recognizes_binary_splot=0’ in the appropriate
+gp*.py file.</p>
+<p>Thus if you have three arrays in the above format and a Gnuplot
+instance called g, you can plot your data by typing
+‘g.splot(Gnuplot.GridData(data,xvals,yvals))’.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem">
+<em class="property">class </em><code class="descclassname">PyFoam.ThirdParty.Gnuplot.PlotItems.</code><code class="descname">PlotItem</code><span class="sig-paren">(</span><em>**keyw</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#PlotItem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Plotitem represents an item that can be plotted by gnuplot.</p>
+<p>For the finest control over the output, you can create ‘PlotItems’
+yourself with additional keyword options, or derive new classes
+from ‘PlotItem’.</p>
+<p>The handling of options is complicated by the attempt to allow
+options and their setting mechanism to be inherited conveniently.
+Note first that there are some options that can only be set in the
+constructor then never modified, and others that can be set in the
+constructor and/or modified using the ‘set_option()’ member
+function.  The former are always processed within ‘__init__’.  The
+latter are always processed within ‘set_option’, which is called
+by the constructor.</p>
+<p>‘set_option’ is driven by a class-wide dictionary called
+‘_option_list’, which is a mapping ‘{ &lt;option&gt; : &lt;setter&gt; }’ from
+option name to the function object used to set or change the
+option.  &lt;setter&gt; is a function object that takes two parameters:
+‘self’ (the ‘PlotItem’ instance) and the new value requested for
+the option.  If &lt;setter&gt; is ‘None’, then the option is not allowed
+to be changed after construction and an exception is raised.</p>
+<p>Any ‘PlotItem’ that needs to add options can add to this
+dictionary within its class definition.  Follow one of the
+examples in this file.  Alternatively it could override the
+‘set_option’ member function if it needs to do wilder things.</p>
+<p>Members:</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>‘_basecommand’ – a string holding the elementary argument that</dt>
+<dd>must be passed to gnuplot’s <a href="#id3"><span class="problematic" id="id4">`</span></a>plot’ command for this item;
+e.g., ‘sin(x)’ or ‘“filename.dat”’.</dd>
+<dt>‘_options’ – a dictionary of (&lt;option&gt;,&lt;string&gt;) tuples</dt>
+<dd><p class="first">corresponding to the plot options that have been set for
+this instance of the PlotItem.  &lt;option&gt; is the option as
+specified by the user; &lt;string&gt; is the string that needs to
+be set in the command line to set that option (or None if no
+string is needed).  Example:</p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s1">&#39;title&#39;</span> <span class="p">:</span> <span class="p">(</span><span class="s1">&#39;Data&#39;</span><span class="p">,</span> <span class="s1">&#39;title &quot;Data&quot;&#39;</span><span class="p">),</span>
+ <span class="s1">&#39;with&#39;</span> <span class="p">:</span> <span class="p">(</span><span class="s1">&#39;linespoints&#39;</span><span class="p">,</span> <span class="s1">&#39;with linespoints&#39;</span><span class="p">)}</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</div></blockquote>
+<dl class="method">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.clear_option">
+<code class="descname">clear_option</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#PlotItem.clear_option"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.clear_option" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clear (unset) a plot option.  No error if option was not set.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.command">
+<code class="descname">command</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#PlotItem.command"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.command" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build the plot command to be sent to gnuplot.</p>
+<p>Build and return the plot command, with options, necessary to
+display this item.  If anything else needs to be done once per
+plot, it can be done here too.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.get_base_command_string">
+<code class="descname">get_base_command_string</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#PlotItem.get_base_command_string"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.get_base_command_string" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.get_command_option_string">
+<code class="descname">get_command_option_string</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#PlotItem.get_command_option_string"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.get_command_option_string" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.get_option">
+<code class="descname">get_option</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#PlotItem.get_option"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.get_option" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the setting of an option.  May be overridden.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.pipein">
+<code class="descname">pipein</code><span class="sig-paren">(</span><em>f</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#PlotItem.pipein"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.pipein" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pipe necessary inline data to gnuplot.</p>
+<p>If the plot command requires data to be put on stdin (i.e.,
+‘plot “-“’), this method should put that data there.  Can be
+overridden in derived classes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.set_option">
+<code class="descname">set_option</code><span class="sig-paren">(</span><em>**keyw</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#PlotItem.set_option"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.set_option" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set or change a plot option for this PlotItem.</p>
+<p>See documentation for ‘__init__’ for information about allowed
+options.  This function can be overridden by derived classes
+to allow additional options, in which case those options will
+also be allowed by ‘__init__’ for the derived class.  However,
+it is easier to define a new ‘_option_list’ variable for the
+derived class.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.set_string_option">
+<code class="descname">set_string_option</code><span class="sig-paren">(</span><em>option</em>, <em>value</em>, <em>default</em>, <em>fmt</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/PyFoam/ThirdParty/Gnuplot/PlotItems.html#PlotItem.set_string_option"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#PyFoam.ThirdParty.Gnuplot.PlotItems.PlotItem.set_string_option" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set an option that takes a string value.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="PyFoam.ThirdParty.Gnuplot.demo.html" class="btn btn-neutral float-right" title="PyFoam.ThirdParty.Gnuplot.demo module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="PyFoam.ThirdParty.Gnuplot.Errors.html" class="btn btn-neutral" title="PyFoam.ThirdParty.Gnuplot.Errors module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Bernhard F.W. Gschaider.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.6.11-development',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

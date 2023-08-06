@@ -1,0 +1,809 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PyFoam.Applications.FunkyDoCalcFiles &mdash; PyFoam 0.6.11-development documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../../genindex.html"/>
+        <link rel="search" title="Search" href="../../../search.html"/>
+    <link rel="top" title="PyFoam 0.6.11-development documentation" href="../../../index.html"/>
+        <link rel="up" title="PyFoam" href="../../PyFoam.html"/> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> PyFoam
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.6.11
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/modules.html">API documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">PyFoam</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+          <li><a href="../../PyFoam.html">PyFoam</a> &raquo;</li>
+        
+      <li>PyFoam.Applications.FunkyDoCalcFiles</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for PyFoam.Applications.FunkyDoCalcFiles</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Application class that implements pyFoamFunkyDoCalcFiles.py</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">optparse</span> <span class="k">import</span> <span class="n">OptionGroup</span>
+<span class="kn">from</span> <span class="nn">.PyFoamApplication</span> <span class="k">import</span> <span class="n">PyFoamApplication</span>
+<span class="kn">from</span> <span class="nn">PyFoam.Basics.FoamOptionParser</span> <span class="k">import</span> <span class="n">Subcommand</span>
+<span class="kn">from</span> <span class="nn">PyFoam.RunDictionary.ParsedParameterFile</span> <span class="k">import</span> <span class="n">ParsedParameterFile</span>
+<span class="kn">from</span> <span class="nn">PyFoam.Basics.FoamFileGenerator</span> <span class="k">import</span> <span class="n">FoamFileGenerator</span> <span class="k">as</span> <span class="n">gen</span>
+<span class="kn">from</span> <span class="nn">PyFoam.Error</span> <span class="k">import</span> <span class="n">error</span>
+
+<span class="kn">from</span> <span class="nn">os</span> <span class="k">import</span> <span class="n">path</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">OrderedDict</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="k">import</span> <span class="n">pprint</span><span class="p">,</span><span class="n">pformat</span>
+
+<span class="kn">from</span> <span class="nn">PyFoam.ThirdParty.six</span> <span class="k">import</span> <span class="n">print_</span><span class="p">,</span><span class="n">iteritems</span>
+
+<span class="n">smallEps</span><span class="o">=</span><span class="mf">1e-15</span>
+
+<div class="viewcode-block" id="FunkyDoCalcData"><a class="viewcode-back" href="../../../api/PyFoam.Applications.FunkyDoCalcFiles.html#PyFoam.Applications.FunkyDoCalcFiles.FunkyDoCalcData">[docs]</a><span class="k">class</span> <span class="nc">FunkyDoCalcData</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">d</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">=</span><span class="n">d</span>
+
+    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">pformat</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__binop</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">other</span><span class="p">,</span><span class="n">op</span><span class="p">):</span>
+        <span class="k">def</span> <span class="nf">doOp</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">):</span>
+            <span class="n">result</span><span class="o">=</span><span class="p">{}</span>
+            <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">va</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="n">vb</span><span class="o">=</span><span class="n">b</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+                    <span class="k">try</span><span class="p">:</span>
+                        <span class="n">result</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">op</span><span class="p">(</span><span class="n">va</span><span class="p">,</span><span class="n">vb</span><span class="p">)</span>
+                    <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">va</span><span class="p">,</span><span class="s2">&quot;keys&quot;</span><span class="p">):</span>
+                            <span class="n">result</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">doOp</span><span class="p">(</span><span class="n">va</span><span class="p">,</span><span class="n">vb</span><span class="p">)</span>
+                        <span class="k">else</span><span class="p">:</span>
+                            <span class="n">result</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="p">[</span><span class="n">r</span> <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">r</span><span class="p">)</span><span class="o">&gt;</span><span class="n">smallEps</span> <span class="k">else</span> <span class="mf">0.</span>
+                                       <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="p">[</span><span class="n">op</span><span class="p">(</span><span class="n">aa</span><span class="p">,</span><span class="n">bb</span><span class="p">)</span> <span class="k">for</span> <span class="n">aa</span><span class="p">,</span><span class="n">bb</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">va</span><span class="p">,</span><span class="n">vb</span><span class="p">)]]</span>
+                <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+                    <span class="k">pass</span>
+            <span class="k">return</span> <span class="n">result</span>
+
+        <span class="k">return</span> <span class="n">FunkyDoCalcData</span><span class="p">(</span><span class="n">doOp</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">,</span><span class="n">other</span><span class="o">.</span><span class="n">data</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">k</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">__sub__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">other</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__binop</span><span class="p">(</span><span class="n">other</span><span class="p">,</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">:</span><span class="n">x</span><span class="o">-</span><span class="n">y</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__div__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">other</span><span class="p">):</span>
+        <span class="k">def</span> <span class="nf">secureDiv</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">):</span>
+            <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">b</span><span class="p">)</span><span class="o">&lt;</span><span class="n">smallEps</span><span class="p">:</span>
+                <span class="n">b</span><span class="o">=</span><span class="mi">0</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="n">b</span>
+            <span class="k">except</span> <span class="ne">ZeroDivisionError</span><span class="p">:</span>
+                <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="s2">&quot;NaN&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__binop</span><span class="p">(</span><span class="n">other</span><span class="p">,</span><span class="n">secureDiv</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="FunkyDoCalcFile"><a class="viewcode-back" href="../../../api/PyFoam.Applications.FunkyDoCalcFiles.html#PyFoam.Applications.FunkyDoCalcFiles.FunkyDoCalcFile">[docs]</a><span class="k">class</span> <span class="nc">FunkyDoCalcFile</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;The actual file&quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">fName</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__content</span><span class="o">=</span><span class="n">ParsedParameterFile</span><span class="p">(</span><span class="n">fName</span><span class="p">,</span>
+                                           <span class="n">doMacroExpansion</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                                           <span class="n">noHeader</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">fName</span><span class="o">=</span><span class="n">fName</span>
+        <span class="n">rawData</span><span class="o">=</span><span class="p">[]</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__content</span><span class="p">[</span><span class="s2">&quot;data&quot;</span><span class="p">]):</span>
+            <span class="n">rawData</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">v</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">],</span><span class="n">v</span><span class="p">))</span>
+        <span class="n">rawData</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__data</span><span class="o">=</span><span class="n">OrderedDict</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">entries</span><span class="o">=</span><span class="kc">None</span>
+
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">rawData</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__data</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">v</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">entries</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">entries</span><span class="o">=</span><span class="n">OrderedDict</span><span class="p">()</span>
+                <span class="k">for</span> <span class="n">k2</span><span class="p">,</span><span class="n">v2</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+                    <span class="k">if</span> <span class="n">k2</span><span class="o">==</span><span class="s2">&quot;time&quot;</span><span class="p">:</span>
+                        <span class="k">continue</span>
+                    <span class="n">e</span><span class="o">=</span><span class="n">OrderedDict</span><span class="p">()</span>
+                    <span class="k">for</span> <span class="n">k3</span><span class="p">,</span><span class="n">v3</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">v2</span><span class="p">):</span>
+                        <span class="k">try</span><span class="p">:</span>
+                            <span class="n">e</span><span class="p">[</span><span class="n">k3</span><span class="p">]</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">v3</span><span class="p">))</span>
+                        <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+                            <span class="n">e</span><span class="p">[</span><span class="n">k3</span><span class="p">]</span><span class="o">=</span><span class="mi">1</span>
+
+                    <span class="bp">self</span><span class="o">.</span><span class="n">entries</span><span class="p">[</span><span class="n">k2</span><span class="p">]</span><span class="o">=</span><span class="n">e</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">k2</span><span class="p">,</span><span class="n">v2</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+                    <span class="k">if</span> <span class="n">k2</span><span class="o">==</span><span class="s2">&quot;time&quot;</span><span class="p">:</span>
+                        <span class="k">continue</span>
+                    <span class="n">val</span><span class="o">=</span><span class="mi">0</span>
+                    <span class="k">for</span> <span class="n">k3</span><span class="p">,</span><span class="n">v3</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">v2</span><span class="p">):</span>
+                        <span class="k">try</span><span class="p">:</span>
+                            <span class="n">val</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">v3</span><span class="p">))</span>
+                        <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+                            <span class="n">val</span><span class="o">=</span><span class="mi">1</span>
+                        <span class="k">if</span> <span class="n">val</span><span class="o">!=</span><span class="bp">self</span><span class="o">.</span><span class="n">entries</span><span class="p">[</span><span class="n">k2</span><span class="p">][</span><span class="n">k3</span><span class="p">]:</span>
+                            <span class="n">error</span><span class="p">(</span><span class="s2">&quot;Inconsistency in data for time&quot;</span><span class="p">,</span><span class="n">k</span><span class="p">,</span>
+                                  <span class="s2">&quot;: expected&quot;</span><span class="p">,</span><span class="bp">self</span><span class="o">.</span><span class="n">entries</span><span class="p">[</span><span class="n">k2</span><span class="p">][</span><span class="n">k3</span><span class="p">],</span><span class="s2">&quot;values for&quot;</span><span class="p">,</span>
+                                  <span class="n">k2</span><span class="p">,</span><span class="s2">&quot;/&quot;</span><span class="p">,</span><span class="n">k3</span><span class="p">,</span><span class="s2">&quot;. Got&quot;</span><span class="p">,</span><span class="n">val</span><span class="p">)</span>
+
+<div class="viewcode-block" id="FunkyDoCalcFile.compare"><a class="viewcode-back" href="../../../api/PyFoam.Applications.FunkyDoCalcFiles.html#PyFoam.Applications.FunkyDoCalcFiles.FunkyDoCalcFile.compare">[docs]</a>    <span class="k">def</span> <span class="nf">compare</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">other</span><span class="p">,</span><span class="n">digits</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">times</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span><span class="n">additionalDigits</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="n">problems</span><span class="o">=</span><span class="p">[]</span>
+        <span class="n">checks</span><span class="o">=</span><span class="mi">0</span>
+        <span class="k">if</span> <span class="s2">&quot;tolerances&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__content</span><span class="p">:</span>
+            <span class="n">tolerances</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">calcTolerances</span><span class="p">(</span><span class="n">digits</span><span class="p">)[</span><span class="s2">&quot;tolerances&quot;</span><span class="p">]</span>
+            <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;No &#39;tolerances&#39; specified in file </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">fName</span><span class="p">))</span>
+            <span class="n">factor</span><span class="o">=</span><span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">tolerances</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">__content</span><span class="p">[</span><span class="s2">&quot;tolerances&quot;</span><span class="p">]</span>
+            <span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="nb">pow</span>
+            <span class="n">factor</span><span class="o">=</span><span class="nb">pow</span><span class="p">(</span><span class="mf">10.</span><span class="p">,</span><span class="o">-</span><span class="n">additionalDigits</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">times</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">times</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">times</span>
+
+        <span class="n">usedTimes</span><span class="o">=</span><span class="nb">set</span><span class="p">()</span>
+        <span class="n">span</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">span</span>
+        <span class="n">amax</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">absmax</span>
+
+        <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">times</span><span class="p">:</span>
+            <span class="n">aVal</span><span class="o">=</span><span class="bp">self</span><span class="p">[</span><span class="n">t</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">t</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">times</span><span class="p">:</span>
+                <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;Specified time </span><span class="si">{}</span><span class="s2"> not in </span><span class="si">{}</span><span class="s2">. &quot;</span>
+                                <span class="s2">&quot;Using </span><span class="si">{}</span><span class="s2"> instead (shift </span><span class="si">{}</span><span class="s2">)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">t</span><span class="p">,</span>
+                                                                     <span class="bp">self</span><span class="o">.</span><span class="n">fName</span><span class="p">,</span>
+                                                                     <span class="n">aVal</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">],</span>
+                                                                     <span class="n">aVal</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]</span><span class="o">-</span><span class="n">t</span><span class="p">))</span>
+                <span class="n">t</span><span class="o">=</span><span class="n">aVal</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">usedTimes</span><span class="p">:</span>
+                <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;Time </span><span class="si">{}</span><span class="s2"> was aready used (Duplicate). Skipping&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>
+                <span class="k">continue</span>
+            <span class="n">usedTimes</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+
+            <span class="n">bVal</span><span class="o">=</span><span class="n">other</span><span class="p">[</span><span class="n">t</span><span class="p">]</span>
+            <span class="n">diffVal</span><span class="o">=</span><span class="n">aVal</span><span class="o">-</span><span class="n">bVal</span>
+            <span class="k">if</span> <span class="n">t</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">other</span><span class="o">.</span><span class="n">times</span><span class="p">:</span>
+                <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;No exact match for time </span><span class="si">{}</span><span class="s2"> in </span><span class="si">{}</span><span class="s2">. &quot;</span>
+                              <span class="s2">&quot;Using </span><span class="si">{}</span><span class="s2"> instead (difference </span><span class="si">{}</span><span class="s2">)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">t</span><span class="p">,</span>
+                                                                        <span class="n">other</span><span class="o">.</span><span class="n">fName</span><span class="p">,</span>
+                                                                        <span class="n">bVal</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">],</span>
+                                                                        <span class="n">diffVal</span><span class="p">[</span><span class="s2">&quot;time&quot;</span><span class="p">]))</span>
+            <span class="k">for</span> <span class="n">key</span><span class="p">,</span><span class="n">tol</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">tolerances</span><span class="p">):</span>
+                <span class="k">for</span> <span class="n">acc</span><span class="p">,</span><span class="n">spec</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">tol</span><span class="p">):</span>
+                    <span class="k">try</span><span class="p">:</span>
+                        <span class="n">a</span><span class="o">=</span><span class="n">aVal</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">acc</span><span class="p">]</span>
+                    <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+                        <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;Missin/A: Item </span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> missing for t=</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                            <span class="n">key</span><span class="p">,</span><span class="n">acc</span><span class="p">,</span><span class="n">t</span><span class="p">))</span>
+                        <span class="k">continue</span>
+                    <span class="k">try</span><span class="p">:</span>
+                        <span class="n">b</span><span class="o">=</span><span class="n">bVal</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">acc</span><span class="p">]</span>
+                    <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+                        <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;Missin/B: Item </span><span class="si">{}</span><span class="s2">/</span><span class="si">{}</span><span class="s2"> missing for t=</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                            <span class="n">key</span><span class="p">,</span><span class="n">acc</span><span class="p">,</span><span class="n">t</span><span class="p">))</span>
+                        <span class="k">continue</span>
+                    <span class="n">d</span><span class="o">=</span><span class="n">diffVal</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">acc</span><span class="p">]</span>
+                    <span class="n">sp</span><span class="o">=</span><span class="n">span</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">acc</span><span class="p">]</span>
+                    <span class="n">am</span><span class="o">=</span><span class="n">amax</span><span class="p">[</span><span class="n">key</span><span class="p">][</span><span class="n">acc</span><span class="p">]</span>
+                    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">spec</span><span class="p">)</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                        <span class="n">a</span><span class="o">=</span><span class="p">[</span><span class="n">a</span><span class="p">]</span>
+                        <span class="n">b</span><span class="o">=</span><span class="p">[</span><span class="n">b</span><span class="p">]</span>
+                        <span class="n">d</span><span class="o">=</span><span class="p">[</span><span class="n">d</span><span class="p">]</span>
+                        <span class="n">sp</span><span class="o">=</span><span class="p">[</span><span class="n">sp</span><span class="p">]</span>
+                        <span class="n">am</span><span class="o">=</span><span class="p">[</span><span class="n">am</span><span class="p">]</span>
+
+                    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">spec</span><span class="p">)):</span>
+                        <span class="n">s</span><span class="o">=</span><span class="n">spec</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+                        <span class="n">specString</span><span class="o">=</span><span class="s2">&quot;t=</span><span class="si">{}</span><span class="s2"> Key: </span><span class="si">{}</span><span class="s2"> Accumulation: </span><span class="si">{}</span><span class="s2"> Component: </span><span class="si">{}</span><span class="s2">&quot;</span> \
+                            <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="n">key</span><span class="p">,</span><span class="n">acc</span><span class="p">,</span><span class="n">i</span><span class="p">)</span>
+                        <span class="n">eps</span><span class="o">=</span><span class="n">smallEps</span>
+                        <span class="k">if</span> <span class="s2">&quot;smallEps&quot;</span> <span class="ow">in</span> <span class="n">s</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="s2">&quot;smallEps&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                            <span class="n">eps</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;smallEps&quot;</span><span class="p">])</span>
+                        <span class="n">allowZero</span><span class="o">=</span><span class="kc">False</span>
+                        <span class="k">if</span> <span class="s2">&quot;allowZero&quot;</span> <span class="ow">in</span> <span class="n">s</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="s2">&quot;allowZero&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                            <span class="n">allowZero</span><span class="o">=</span><span class="nb">bool</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;allowZero&quot;</span><span class="p">])</span>
+                        <span class="k">if</span> <span class="s2">&quot;abstol&quot;</span> <span class="ow">in</span> <span class="n">s</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="s2">&quot;abstol&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                            <span class="k">try</span><span class="p">:</span>
+                                <span class="n">checks</span><span class="o">+=</span><span class="mi">1</span>
+                                <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">&gt;</span><span class="nb">float</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;abstol&quot;</span><span class="p">])</span><span class="o">*</span><span class="n">factor</span><span class="p">:</span>
+                                    <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;Abstol </span><span class="si">{}</span><span class="s2">&quot;</span>
+                                                  <span class="s2">&quot; Difference |</span><span class="si">{}</span><span class="s2">|&gt;</span><span class="si">{}</span><span class="s2"> (Orig: </span><span class="si">{}</span><span class="s2"> Real: </span><span class="si">{}</span><span class="s2">)&quot;</span>
+                                                  <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">specString</span><span class="p">,</span>
+                                                          <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;abstol&quot;</span><span class="p">]</span><span class="o">*</span><span class="n">factor</span><span class="p">,</span>
+                                                          <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+                            <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+                                <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;SpecError: </span><span class="si">{}</span><span class="s2"> - &#39;abstol&#39; &quot;</span>
+                                                <span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> is of type </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">specString</span><span class="p">,</span>
+                                                                          <span class="n">s</span><span class="p">[</span><span class="s2">&quot;abstol&quot;</span><span class="p">],</span>
+                                                                          <span class="nb">type</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;abstol&quot;</span><span class="p">])))</span>
+                        <span class="k">if</span> <span class="s2">&quot;reltol&quot;</span> <span class="ow">in</span> <span class="n">s</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="s2">&quot;reltol&quot;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                            <span class="k">for</span> <span class="n">typ</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">,</span><span class="s2">&quot;amax&quot;</span><span class="p">,</span><span class="s2">&quot;span&quot;</span><span class="p">]:</span>
+                                <span class="n">typName</span><span class="o">=</span><span class="n">typ</span><span class="o">+</span><span class="s2">&quot;Rel&quot;</span>
+                                <span class="k">if</span> <span class="n">typName</span> <span class="ow">in</span> <span class="n">s</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="n">typName</span><span class="p">]</span><span class="o">==</span><span class="kc">True</span><span class="p">:</span>
+                                    <span class="n">checks</span><span class="o">+=</span><span class="mi">1</span>
+                                    <span class="k">if</span> <span class="n">typ</span><span class="o">==</span><span class="s2">&quot;value&quot;</span><span class="p">:</span>
+                                        <span class="n">val</span><span class="o">=</span><span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">+</span><span class="nb">abs</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+                                    <span class="k">elif</span> <span class="n">typ</span><span class="o">==</span><span class="s2">&quot;amax&quot;</span><span class="p">:</span>
+                                        <span class="n">val</span><span class="o">=</span><span class="n">am</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+                                    <span class="k">elif</span> <span class="n">typ</span><span class="o">==</span><span class="s2">&quot;span&quot;</span><span class="p">:</span>
+                                        <span class="n">val</span><span class="o">=</span><span class="n">sp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+                                    <span class="k">try</span><span class="p">:</span>
+                                        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">val</span><span class="p">)</span><span class="o">&lt;</span><span class="n">eps</span><span class="p">:</span>
+                                            <span class="k">if</span> <span class="ow">not</span> <span class="n">allowZero</span><span class="p">:</span>
+                                                <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;AlmostZero/</span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">:&quot;</span>
+                                                                <span class="s2">&quot; Reference value for </span><span class="si">{}</span><span class="s2"> is almost zero (eps=</span><span class="si">{}</span><span class="s2">): </span><span class="si">{}</span><span class="s2">&quot;</span>
+                                                                <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">typ</span><span class="p">,</span><span class="n">specString</span><span class="p">,</span><span class="n">typ</span><span class="p">,</span><span class="n">eps</span><span class="p">,</span><span class="n">val</span><span class="p">))</span>
+                                            <span class="k">continue</span>
+                                        <span class="n">relError</span><span class="o">=</span><span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">/</span><span class="n">val</span>
+                                        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">relError</span><span class="p">)</span><span class="o">&gt;</span><span class="nb">float</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;reltol&quot;</span><span class="p">])</span><span class="o">*</span><span class="n">factor</span><span class="p">:</span>
+                                            <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;Reltol/</span><span class="si">{}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">&quot;</span>
+                                                            <span class="s2">&quot; Relative error |</span><span class="si">{}</span><span class="s2">|&gt;</span><span class="si">{}</span><span class="s2"> (Orig: </span><span class="si">{}</span><span class="s2"> Real: </span><span class="si">{}</span><span class="s2"> Ref: </span><span class="si">{}</span><span class="s2">)&quot;</span>
+                                                          <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">typ</span><span class="p">,</span><span class="n">specString</span><span class="p">,</span>
+                                                                  <span class="n">relError</span><span class="p">,</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;reltol&quot;</span><span class="p">]</span><span class="o">*</span><span class="n">factor</span><span class="p">,</span>
+                                                                  <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">val</span><span class="p">))</span>
+                                    <span class="k">except</span> <span class="ne">ZeroDivisionError</span><span class="p">:</span>
+                                        <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;Zero/</span><span class="si">{}</span><span class="s2">: </span><span class="si">{}</span><span class="s2"> - Value is zero. No relative error&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">typ</span><span class="p">,</span><span class="n">specString</span><span class="p">))</span>
+                                    <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+                                        <span class="n">problems</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;SpecError/</span><span class="si">{}</span><span class="s2">: </span><span class="si">{}</span><span class="s2"> - &#39;reltol&#39; &quot;</span>
+                                                        <span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> is of type </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">typ</span><span class="p">,</span><span class="n">specString</span><span class="p">,</span>
+                                                                                  <span class="n">s</span><span class="p">[</span><span class="s2">&quot;reltol&quot;</span><span class="p">],</span>
+                                                                                  <span class="nb">type</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;reltol&quot;</span><span class="p">])))</span>
+
+        <span class="k">return</span> <span class="n">checks</span><span class="p">,</span><span class="n">problems</span></div>
+
+<div class="viewcode-block" id="FunkyDoCalcFile.calcTolerances"><a class="viewcode-back" href="../../../api/PyFoam.Applications.FunkyDoCalcFiles.html#PyFoam.Applications.FunkyDoCalcFiles.FunkyDoCalcFile.calcTolerances">[docs]</a>    <span class="k">def</span> <span class="nf">calcTolerances</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">digits</span><span class="p">):</span>
+        <span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">log10</span><span class="p">,</span><span class="n">floor</span><span class="p">,</span><span class="nb">pow</span>
+        <span class="k">def</span> <span class="nf">calcDigits</span><span class="p">(</span><span class="n">w</span><span class="p">):</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">floor</span><span class="p">(</span><span class="n">log10</span><span class="p">(</span><span class="n">w</span><span class="p">)))</span>
+            <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+                <span class="k">return</span> <span class="o">-</span><span class="n">digits</span>
+        <span class="n">tol</span><span class="o">=</span><span class="n">OrderedDict</span><span class="p">()</span>
+        <span class="n">span</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">span</span>
+        <span class="n">amax</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">absmax</span>
+
+        <span class="k">def</span> <span class="nf">tolDict</span><span class="p">(</span><span class="n">span</span><span class="p">,</span><span class="n">amax</span><span class="p">):</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">relspan</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">span</span><span class="p">)</span><span class="o">/</span><span class="n">amax</span>
+            <span class="k">except</span> <span class="ne">ZeroDivisionError</span><span class="p">:</span>
+                <span class="n">relspan</span><span class="o">=</span><span class="kc">None</span>
+            <span class="k">if</span> <span class="n">span</span><span class="o">&gt;</span><span class="n">amax</span><span class="p">:</span> <span class="c1"># Don&#39;t calc relative tolerance if min and max have different signs</span>
+                <span class="n">relspan</span><span class="o">=</span><span class="kc">None</span>
+
+            <span class="k">return</span> <span class="p">{</span> <span class="s2">&quot;abstol&quot;</span> <span class="p">:</span> <span class="nb">max</span><span class="p">(</span><span class="nb">pow</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="n">calcDigits</span><span class="p">(</span><span class="n">span</span><span class="p">)</span><span class="o">-</span><span class="n">digits</span><span class="p">),</span>
+                                    <span class="nb">pow</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="n">calcDigits</span><span class="p">(</span><span class="n">amax</span><span class="p">)</span><span class="o">-</span><span class="n">digits</span><span class="p">)),</span>
+                     <span class="s2">&quot;reltol&quot;</span> <span class="p">:</span> <span class="kc">None</span> <span class="k">if</span> <span class="n">relspan</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="nb">min</span><span class="p">(</span><span class="nb">pow</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="n">calcDigits</span><span class="p">(</span><span class="n">relspan</span><span class="p">)),</span>
+                                                                 <span class="nb">pow</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="n">digits</span><span class="p">)),</span>
+                     <span class="s2">&quot;valueRel&quot;</span> <span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                     <span class="s2">&quot;spanRel&quot;</span> <span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                     <span class="s2">&quot;amaxRel&quot;</span> <span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+                     <span class="s2">&quot;span&quot;</span> <span class="p">:</span> <span class="n">span</span><span class="p">,</span>
+                     <span class="s2">&quot;amax&quot;</span> <span class="p">:</span> <span class="n">amax</span> <span class="p">,</span>
+                     <span class="s2">&quot;smallEps&quot;</span> <span class="p">:</span> <span class="mf">1e-15</span><span class="p">,</span>
+                     <span class="s2">&quot;allowZero&quot;</span> <span class="p">:</span> <span class="kc">False</span> <span class="p">}</span>
+
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">entries</span><span class="p">):</span>
+            <span class="n">t</span><span class="o">=</span><span class="n">OrderedDict</span><span class="p">()</span>
+            <span class="k">for</span> <span class="n">n</span><span class="p">,</span><span class="n">nr</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+               <span class="n">s</span><span class="o">=</span><span class="n">span</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="n">n</span><span class="p">]</span>
+               <span class="n">a</span><span class="o">=</span><span class="n">amax</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="n">n</span><span class="p">]</span>
+               <span class="k">if</span> <span class="n">nr</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                   <span class="n">s</span><span class="o">=</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
+                   <span class="n">a</span><span class="o">=</span><span class="p">[</span><span class="n">a</span><span class="p">]</span>
+               <span class="n">t</span><span class="p">[</span><span class="n">n</span><span class="p">]</span><span class="o">=</span><span class="p">[</span><span class="n">tolDict</span><span class="p">(</span><span class="o">*</span><span class="n">par</span><span class="p">)</span> <span class="k">for</span> <span class="n">par</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="n">a</span><span class="p">)]</span>
+            <span class="n">tol</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">t</span>
+        <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;tolerances&#39;</span><span class="p">:</span><span class="n">tol</span><span class="p">}</span></div>
+
+    <span class="k">def</span> <span class="nf">__accumulate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">func</span><span class="p">):</span>
+        <span class="n">ranges</span><span class="o">=</span><span class="p">{}</span>
+        <span class="n">init</span><span class="o">=</span><span class="bp">self</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">times</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+        <span class="k">for</span> <span class="n">k1</span><span class="p">,</span><span class="n">v1</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">init</span><span class="o">.</span><span class="n">data</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">k1</span><span class="o">==</span><span class="s2">&quot;time&quot;</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="n">ranges</span><span class="p">[</span><span class="n">k1</span><span class="p">]</span><span class="o">=</span><span class="p">{}</span>
+            <span class="k">for</span> <span class="n">k2</span><span class="p">,</span><span class="n">v2</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">v1</span><span class="p">):</span>
+                <span class="n">ranges</span><span class="p">[</span><span class="n">k1</span><span class="p">][</span><span class="n">k2</span><span class="p">]</span><span class="o">=</span><span class="n">v2</span>
+        <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">times</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+            <span class="n">val</span><span class="o">=</span><span class="bp">self</span><span class="p">[</span><span class="n">t</span><span class="p">]</span>
+            <span class="k">for</span> <span class="n">k1</span><span class="p">,</span><span class="n">v1</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">val</span><span class="o">.</span><span class="n">data</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">k1</span><span class="o">==</span><span class="s2">&quot;time&quot;</span><span class="p">:</span>
+                    <span class="k">continue</span>
+                <span class="k">for</span> <span class="n">k2</span><span class="p">,</span><span class="n">v2</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">v1</span><span class="p">):</span>
+                    <span class="n">old</span><span class="o">=</span><span class="n">ranges</span><span class="p">[</span><span class="n">k1</span><span class="p">][</span><span class="n">k2</span><span class="p">]</span>
+                    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">entries</span><span class="p">[</span><span class="n">k1</span><span class="p">][</span><span class="n">k2</span><span class="p">]</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                        <span class="n">ranges</span><span class="p">[</span><span class="n">k1</span><span class="p">][</span><span class="n">k2</span><span class="p">]</span><span class="o">=</span><span class="n">func</span><span class="p">(</span><span class="n">old</span><span class="p">,</span><span class="n">v2</span><span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="n">r</span><span class="o">=</span><span class="p">[]</span>
+                        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">entries</span><span class="p">[</span><span class="n">k1</span><span class="p">][</span><span class="n">k2</span><span class="p">]):</span>
+                            <span class="n">r</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">func</span><span class="p">(</span><span class="n">old</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">v2</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+                        <span class="n">ranges</span><span class="p">[</span><span class="n">k1</span><span class="p">][</span><span class="n">k2</span><span class="p">]</span><span class="o">=</span><span class="n">r</span>
+
+        <span class="k">return</span> <span class="n">FunkyDoCalcData</span><span class="p">(</span><span class="n">ranges</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">min</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__accumulate</span><span class="p">(</span><span class="nb">min</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">max</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__accumulate</span><span class="p">(</span><span class="nb">max</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">absmax</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__accumulate</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">:</span><span class="nb">max</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">x</span><span class="p">),</span><span class="nb">abs</span><span class="p">(</span><span class="n">y</span><span class="p">)))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">span</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">max</span><span class="o">-</span><span class="bp">self</span><span class="o">.</span><span class="n">min</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">spec</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__content</span><span class="p">[</span><span class="s2">&quot;spec&quot;</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">expressions</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__content</span><span class="p">[</span><span class="s2">&quot;expressions&quot;</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">times</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__data</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">tm</span><span class="p">):</span>
+        <span class="n">nearest</span><span class="o">=</span><span class="kc">None</span>
+        <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">times</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">nearest</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">nearest</span><span class="o">=</span><span class="n">t</span>
+                <span class="k">continue</span>
+            <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">nearest</span><span class="p">)</span><span class="o">-</span><span class="nb">float</span><span class="p">(</span><span class="n">tm</span><span class="p">))</span><span class="o">&gt;</span><span class="nb">abs</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="o">-</span><span class="nb">float</span><span class="p">(</span><span class="n">tm</span><span class="p">)):</span>
+                <span class="n">nearest</span><span class="o">=</span><span class="n">t</span>
+        <span class="k">return</span> <span class="n">FunkyDoCalcData</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__data</span><span class="p">[</span><span class="n">nearest</span><span class="p">])</span></div>
+
+<div class="viewcode-block" id="FunkyDoCalcFiles"><a class="viewcode-back" href="../../../api/PyFoam.Applications.FunkyDoCalcFiles.html#PyFoam.Applications.FunkyDoCalcFiles.FunkyDoCalcFiles">[docs]</a><span class="k">class</span> <span class="nc">FunkyDoCalcFiles</span><span class="p">(</span><span class="n">PyFoamApplication</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">args</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">description</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span><span class="se">\</span>
+<span class="s2">This utility helps handling the dictionary files produced by the funkyDoCalc-utility from the swak4Foam-package</span>
+<span class="s2">&quot;&quot;&quot;</span>
+        <span class="n">PyFoamApplication</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                                   <span class="n">args</span><span class="o">=</span><span class="n">args</span><span class="p">,</span>
+                                   <span class="n">description</span><span class="o">=</span><span class="n">description</span><span class="p">,</span>
+                                   <span class="n">usage</span><span class="o">=</span><span class="s2">&quot;%prog COMMAND &lt;dict-file&gt;&quot;</span><span class="p">,</span>
+                                   <span class="n">changeVersion</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                   <span class="n">examples</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;To use this command you must first create a result file with</span>
+<span class="s2">funkyDoCalc from the swak4Foam-packages. Assume that the result file is called &#39;checkValues&#39;. The command</span>
+
+<span class="s2">  %prog info checkValues</span>
+
+<span class="s2">gives an overview of the values in that dict that can be compared (including the time-steps). Calls like</span>
+
+<span class="s2">  %prog max checkValues</span>
+
+<span class="s2">  %prog span checkValues</span>
+
+<span class="s2">print statistics about the data. The data from one timestep can be printed with</span>
+
+<span class="s2">  %prog get checkValues 0.5</span>
+
+<span class="s2">if there is no time 0.5 the nearest time will be used. Similarily the command</span>
+
+<span class="s2">  %prog difftime checkValues 0.1 0.5</span>
+
+<span class="s2">compares the data from two timesteps.</span>
+
+<span class="s2">Based on the data the command</span>
+
+<span class="s2">  %prog defaults checkValues 3</span>
+
+<span class="s2">prints an example dictionary with tolerances that can be copy/pasted</span>
+<span class="s2">into &#39;checkValues&#39; and edited (change the calues and remove unwanted comparisons).</span>
+<span class="s2">The tolerances are calculated under the assumption</span>
+<span class="s2">that you want a precision of 3 digits</span>
+
+<span class="s2">The command</span>
+
+<span class="s2">  %prog diff checkValues ../otherCase/checkValues</span>
+
+<span class="s2">compares the results assuming that they were generated with the same</span>
+<span class="s2">funkyDoCalc-dictionary. If there is a &#39;tolerances&#39; dictionary in the</span>
+<span class="s2">first file then this is used. Otherwise the values that the &#39;defaults&#39; command</span>
+<span class="s2">genenerates will be used. If results differ by more than the specifies tolerances</span>
+<span class="s2">an output is done. Otherwise only the number of comparisons is printed</span>
+
+<span class="s2">The entries of a tolerances-specification are</span>
+
+<span class="s2">  abstol: the absolute tolerance for this value. If missing no absolute difference is compared</span>
+
+<span class="s2">  reltol: the relative tolerance. If missing no relative tolerance is calculated</span>
+
+<span class="s2">There are 3 different ways to calculate the relative tolerance depending</span>
+<span class="s2">on which value the error is calculated relative to: the average of the absolute values,</span>
+<span class="s2">the maximum of the absolute value over all times or the span over all times. These</span>
+<span class="s2">can be switched on with the entries valueRel, amaxRel and spanRel respectively&quot;&quot;&quot;</span><span class="p">,</span>
+                                   <span class="n">subcommands</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                                   <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+<div class="viewcode-block" id="FunkyDoCalcFiles.addOptions"><a class="viewcode-back" href="../../../api/PyFoam.Applications.FunkyDoCalcFiles.html#PyFoam.Applications.FunkyDoCalcFiles.FunkyDoCalcFiles.addOptions">[docs]</a>    <span class="k">def</span> <span class="nf">addOptions</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">infoCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;info&#39;</span><span class="p">,</span>
+                           <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Information about the dictionary&quot;</span><span class="p">,</span>
+                           <span class="n">aliases</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;print&#39;</span><span class="p">,),</span>
+                           <span class="n">nr</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                           <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">infoCmd</span><span class="p">)</span>
+
+        <span class="n">minCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;min&#39;</span><span class="p">,</span>
+                          <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Minimum over all the time-steps&quot;</span><span class="p">,</span>
+                          <span class="n">aliases</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;minimum&#39;</span><span class="p">,),</span>
+                          <span class="n">nr</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                          <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">minCmd</span><span class="p">)</span>
+
+        <span class="n">maxCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;max&#39;</span><span class="p">,</span>
+                          <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Maximum over all the time-steps&quot;</span><span class="p">,</span>
+                          <span class="n">aliases</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;maximum&#39;</span><span class="p">,),</span>
+                          <span class="n">nr</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                          <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">maxCmd</span><span class="p">)</span>
+
+        <span class="n">maxCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;absmax&#39;</span><span class="p">,</span>
+                          <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Maximum of the absolute values over all the time-steps&quot;</span><span class="p">,</span>
+                          <span class="n">nr</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                          <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">maxCmd</span><span class="p">)</span>
+
+        <span class="n">spanCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;span&#39;</span><span class="p">,</span>
+                           <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Span of the values&quot;</span><span class="p">,</span>
+                           <span class="n">aliases</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;width&#39;</span><span class="p">,),</span>
+                           <span class="n">nr</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                           <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">spanCmd</span><span class="p">)</span>
+
+        <span class="n">rspanCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;relativespan&#39;</span><span class="p">,</span>
+                            <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Relative span of the values (compared to the absolute values)&quot;</span><span class="p">,</span>
+                            <span class="n">aliases</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;rspan&#39;</span><span class="p">,),</span>
+                            <span class="n">nr</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                            <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">rspanCmd</span><span class="p">)</span>
+
+        <span class="n">getCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;get&#39;</span><span class="p">,</span>
+                          <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Get data for a specific time&quot;</span><span class="p">,</span>
+                          <span class="n">nr</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+                          <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">getCmd</span><span class="p">,</span>
+                                  <span class="n">usage</span><span class="o">=</span><span class="s2">&quot;%prog COMMAND &lt;dict-file&gt; &lt;time&gt;&quot;</span><span class="p">)</span>
+
+        <span class="n">difftimeCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;difftimes&#39;</span><span class="p">,</span>
+                               <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Compare two times&quot;</span><span class="p">,</span>
+                               <span class="n">nr</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+                               <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">difftimeCmd</span><span class="p">,</span>
+                                  <span class="n">usage</span><span class="o">=</span><span class="s2">&quot;%prog COMMAND &lt;dict-file&gt; &lt;time1&gt; &lt;time2&gt;&quot;</span><span class="p">)</span>
+
+        <span class="n">defaultCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;defaults&#39;</span><span class="p">,</span>
+                              <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Calculate a &#39;tolerances&#39; dictionary to insert into the data. Specify the number of digits you want to be relevant&quot;</span><span class="p">,</span>
+                              <span class="n">nr</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+                              <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">defaultCmd</span><span class="p">,</span>
+                                  <span class="n">usage</span><span class="o">=</span><span class="s2">&quot;%prog COMMAND &lt;dict-file&gt; &lt;digits&gt;&quot;</span><span class="p">)</span>
+
+        <span class="n">diffCmd</span><span class="o">=</span><span class="n">Subcommand</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;diff&#39;</span><span class="p">,</span>
+                           <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Compare two dictionaries assuming that they were made with the same specification&quot;</span><span class="p">,</span>
+                           <span class="n">aliases</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;compare&quot;</span><span class="p">,</span><span class="s2">&quot;diffcases&quot;</span><span class="p">),</span>
+                           <span class="n">nr</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+                           <span class="n">exactNr</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">addSubcommand</span><span class="p">(</span><span class="n">diffCmd</span><span class="p">,</span>
+                                  <span class="n">usage</span><span class="o">=</span><span class="s2">&quot;%prog COMMAND &lt;dict-file1&gt; &lt;dict-file2&gt;&quot;</span><span class="p">)</span>
+
+        <span class="n">diffCmd</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s2">&quot;--digits&quot;</span><span class="p">,</span>
+                                  <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store&quot;</span><span class="p">,</span>
+                                  <span class="n">dest</span><span class="o">=</span><span class="s2">&quot;nrDigits&quot;</span><span class="p">,</span>
+                                  <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;int&quot;</span><span class="p">,</span>
+                                  <span class="n">default</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+                                  <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Number of digits that are relevant if no &#39;tolerances&#39; dictionary is found. Default: 3&quot;</span><span class="p">)</span>
+
+        <span class="n">diffCmd</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s2">&quot;--additional-digits&quot;</span><span class="p">,</span>
+                                  <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store&quot;</span><span class="p">,</span>
+                                  <span class="n">dest</span><span class="o">=</span><span class="s2">&quot;addDigits&quot;</span><span class="p">,</span>
+                                  <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;int&quot;</span><span class="p">,</span>
+                                  <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                                  <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Number of digits to add if a &#39;tolerances&#39; dictionary is found. Default: 0&quot;</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">cmd</span> <span class="ow">in</span> <span class="p">[</span><span class="n">diffCmd</span><span class="p">]:</span>
+            <span class="n">timeGrp</span><span class="o">=</span><span class="n">OptionGroup</span><span class="p">(</span><span class="n">cmd</span><span class="o">.</span><span class="n">parser</span><span class="p">,</span>
+                                <span class="s2">&quot;Time selection&quot;</span><span class="p">,</span>
+                                <span class="s2">&quot;Select time-steps to operate on. These options can be used at the same time and only add time-steps&quot;</span><span class="p">)</span>
+            <span class="n">timeGrp</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s2">&quot;--time&quot;</span><span class="p">,</span>
+                               <span class="n">action</span><span class="o">=</span><span class="s2">&quot;append&quot;</span><span class="p">,</span>
+                               <span class="n">dest</span><span class="o">=</span><span class="s2">&quot;times&quot;</span><span class="p">,</span>
+                               <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">,</span>
+                               <span class="n">default</span><span class="o">=</span><span class="p">[],</span>
+                               <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Select a time. Can be used more than once. If unset all times are used&quot;</span><span class="p">)</span>
+            <span class="n">timeGrp</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s2">&quot;--after-time&quot;</span><span class="p">,</span>
+                               <span class="n">dest</span><span class="o">=</span><span class="s2">&quot;afterTime&quot;</span><span class="p">,</span>
+                               <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                               <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">,</span>
+                               <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Select all times after this time&quot;</span><span class="p">)</span>
+            <span class="n">timeGrp</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s2">&quot;--before-time&quot;</span><span class="p">,</span>
+                               <span class="n">dest</span><span class="o">=</span><span class="s2">&quot;beforeTime&quot;</span><span class="p">,</span>
+                               <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                               <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;float&quot;</span><span class="p">,</span>
+                               <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Select all times before this time&quot;</span><span class="p">)</span>
+            <span class="n">cmd</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">add_option_group</span><span class="p">(</span><span class="n">timeGrp</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="FunkyDoCalcFiles.run"><a class="viewcode-back" href="../../../api/PyFoam.Applications.FunkyDoCalcFiles.html#PyFoam.Applications.FunkyDoCalcFiles.FunkyDoCalcFiles.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+
+        <span class="k">def</span> <span class="nf">selectTimes</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">times</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">afterTime</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">beforeTime</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">return</span> <span class="kc">None</span>
+            <span class="n">times</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">times</span><span class="p">[:]</span>
+            <span class="n">availTimes</span><span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">times</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">afterTime</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">times</span><span class="o">+=</span><span class="p">[</span><span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">availTimes</span> <span class="k">if</span> <span class="nb">float</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="o">&gt;=</span><span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">afterTime</span><span class="p">]</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">beforeTime</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">times</span><span class="o">+=</span><span class="p">[</span><span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">availTimes</span> <span class="k">if</span> <span class="nb">float</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="o">&lt;=</span><span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">beforeTime</span><span class="p">]</span>
+
+            <span class="n">times</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">times</span><span class="p">))</span>
+            <span class="n">times</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">times</span>
+
+        <span class="n">args</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">getArgs</span><span class="p">()</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;info&quot;</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">times</span><span class="o">=</span><span class="n">f</span><span class="o">.</span><span class="n">times</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">times</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+                <span class="n">print_</span><span class="p">(</span><span class="s2">&quot;No times&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">times</span><span class="p">)</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                    <span class="n">print_</span><span class="p">(</span><span class="s2">&quot;Single time:&quot;</span><span class="p">,</span><span class="n">times</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">print_</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">times</span><span class="p">),</span><span class="s2">&quot;times from&quot;</span><span class="p">,</span><span class="n">times</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="s2">&quot;to&quot;</span><span class="p">,</span><span class="n">times</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">print_</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Values:&quot;</span><span class="p">)</span>
+            <span class="n">maxlen</span><span class="o">=</span><span class="nb">max</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">k</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">entries</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+            <span class="n">form</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">%%%d</span><span class="s2">s : &quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">maxlen</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">entries</span><span class="p">):</span>
+                <span class="n">print_</span><span class="p">(</span><span class="n">form</span> <span class="o">%</span> <span class="n">k</span><span class="p">,</span><span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> (</span><span class="si">%d</span><span class="s2"> values)&quot;</span><span class="o">%</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">v</span><span class="p">)))</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;min&quot;</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">pprint</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">min</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;absmax&quot;</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">pprint</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">absmax</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;max&quot;</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">pprint</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">max</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;span&quot;</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">pprint</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">span</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;relativespan&quot;</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">pprint</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">span</span><span class="o">/</span><span class="n">f</span><span class="o">.</span><span class="n">absmax</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;get&quot;</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">t</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">pprint</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">t</span><span class="p">])</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;defaults&quot;</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">d</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">print_</span><span class="p">(</span><span class="n">gen</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">calcTolerances</span><span class="p">(</span><span class="n">d</span><span class="p">)))</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;difftimes&quot;</span><span class="p">:</span>
+            <span class="n">f</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">t1</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">t2</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+            <span class="n">pprint</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">t1</span><span class="p">]</span><span class="o">-</span><span class="n">f</span><span class="p">[</span><span class="n">t2</span><span class="p">])</span>
+            <span class="c1">#            print_(gen(f[t]))</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="o">==</span><span class="s2">&quot;diff&quot;</span><span class="p">:</span>
+            <span class="n">f1</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">f2</span><span class="o">=</span><span class="n">FunkyDoCalcFile</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">times</span><span class="o">=</span><span class="n">selectTimes</span><span class="p">(</span><span class="n">f1</span><span class="p">)</span>
+            <span class="n">checks</span><span class="p">,</span><span class="n">problems</span><span class="o">=</span><span class="n">f1</span><span class="o">.</span><span class="n">compare</span><span class="p">(</span><span class="n">f2</span><span class="p">,</span>
+                                       <span class="n">digits</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">nrDigits</span><span class="p">,</span>
+                                       <span class="n">additionalDigits</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">opts</span><span class="o">.</span><span class="n">addDigits</span><span class="p">,</span>
+                                       <span class="n">times</span><span class="o">=</span><span class="n">times</span><span class="p">)</span>
+            <span class="n">print_</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">problems</span><span class="p">))</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">problems</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+                <span class="n">print_</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2"> </span><span class="si">{}</span><span class="s2"> problems&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">problems</span><span class="p">)))</span>
+            <span class="n">print_</span><span class="p">(</span><span class="n">checks</span><span class="p">,</span><span class="s2">&quot;Checks done&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Subcommand&quot;</span><span class="p">,</span><span class="bp">self</span><span class="o">.</span><span class="n">cmdname</span><span class="p">,</span><span class="s2">&quot;not implemeted&quot;</span><span class="p">)</span></div></div>
+</pre></div>
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Bernhard F.W. Gschaider.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'0.6.11-development',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
