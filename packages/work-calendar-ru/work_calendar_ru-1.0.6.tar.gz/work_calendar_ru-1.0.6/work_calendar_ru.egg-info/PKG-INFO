@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: work-calendar-ru
+Version: 1.0.6
+Summary: Russian work calendar
+Home-page: https://github.com/SLRover/work-calendar-ru
+Author: Ilya Sapunov
+Author-email: ilya.sapunov@gmail.com
+License: MIT
+Description: # Russian work calendar
+        
+        ## Setup
+        `pip install work_calendar_ru`
+        
+        ## Import package
+        `import work_calendar_ru.core as wcr`
+        
+        ## Using package
+        * Work time now `wcr.is_work_time()`
+        * Holiday today `wcr.is_holiday()`
+        * Work day today `wcr.is_work_day()`
+        * Short work day today `wcr.is_short_work_day()`
+        * Work weekend day today `wcr.is_work_weekend()`
+        * Weekend day today `wcr.is_weekend()`
+        
+        ## License
+        MIT license
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
