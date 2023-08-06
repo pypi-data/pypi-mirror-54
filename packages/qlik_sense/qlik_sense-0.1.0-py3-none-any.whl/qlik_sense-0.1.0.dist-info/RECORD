@@ -1,0 +1,17 @@
+qlik_sense/__init__.py,sha256=z6FfF2fNBqVgZbu-ZJWgtgj8xTbJQwOE8HXqv9m1JKw,104
+qlik_sense/api.py,sha256=kWknPmDMWic7iFnAYbi5RF46vZ_9lBGOS_jTmlTDrGQ,2192
+qlik_sense/abstract_repositories/__init__.py,sha256=UNvj4qwPYczhI2Y9FxXDQ0PyxmJ3yT_iJmvjNF2mtqw,40
+qlik_sense/abstract_repositories/app.py,sha256=4JEi7uhM5WM0YIywN4aKXDA3geYz_xLCTXr8ERGv_Tg,1145
+qlik_sense/domain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlik_sense/domain/models.py,sha256=ugl7bCDMB_TEyfB76FLQXJFjOkoiVtIjcdK0nJYygq0,78
+qlik_sense/orm/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+qlik_sense/orm/session.py,sha256=fYN1god8MKXwRzQ8qGTu3r_SLPcfzt5F2RQRN8npV3Y,10590
+qlik_sense/repositories/__init__.py,sha256=DdU3-cmdb6UgH01DiwOzPmGQVLbf-9T9SVJLr1TpSY8,52
+qlik_sense/repositories/app_qlik_sense.py,sha256=AOkk4BXeJowaZ_8PSOLaSdB-RnA7AeZ3Lbdp3IYkW9Q,914
+qlik_sense/service_layer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlik_sense/service_layer/services.py,sha256=ZEPX0mbaa1k2OCfhmINiya0H7chJus_--m09xrEIBhQ,273
+qlik_sense/service_layer/unit_of_work.py,sha256=PkX3Du0B-zo9oaCAwas62X7yQBIQbWGBMV0c90y3FPc,771
+qlik_sense-0.1.0.dist-info/LICENSE,sha256=oIGETUcH06xgODtcNtAuHSHc03I3km1iNosI0VzA6RM,11546
+qlik_sense-0.1.0.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+qlik_sense-0.1.0.dist-info/METADATA,sha256=HcIbXMsFjSN5E3ormxfIKT8FbJp5sz5IVj9a5_OZnDk,2082
+qlik_sense-0.1.0.dist-info/RECORD,,
