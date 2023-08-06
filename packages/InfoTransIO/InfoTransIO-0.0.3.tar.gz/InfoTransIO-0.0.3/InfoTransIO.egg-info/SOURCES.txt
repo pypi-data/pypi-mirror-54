@@ -1,0 +1,8 @@
+README.md
+setup.py
+InfoTransIO/__init__.py
+InfoTransIO.egg-info/PKG-INFO
+InfoTransIO.egg-info/SOURCES.txt
+InfoTransIO.egg-info/dependency_links.txt
+InfoTransIO.egg-info/requires.txt
+InfoTransIO.egg-info/top_level.txt
