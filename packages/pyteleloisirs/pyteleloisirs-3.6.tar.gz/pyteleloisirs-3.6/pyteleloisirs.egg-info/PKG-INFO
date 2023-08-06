@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyteleloisirs
+Version: 3.6
+Summary: Get TV program data from teleloisirs
+Home-page: https://github.com/pschmitt/pyteleloisirs
+Author: Philipp Schmitt
+Author-email: philipp@schmitt.co
+License: GPL3
+Description: pyteleloisirs
+        =============
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
