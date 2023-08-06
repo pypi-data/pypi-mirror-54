@@ -1,0 +1,9 @@
+---
+date: {{ today }}
+params:   
+  - DIMENSIONS:
+      attrs:
+        type: dimensions
+        value: 
+          - 2048
+          - 2560
