@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: silicone
+Version: 0.1.0a7
+Summary: Automated filling of detail in reported emission scenarios
+Home-page: https://github.com/znicholls/silicone
+Author: Robin Lamboll, Zebedee Nicholls
+Author-email: r.lamboll@imperial.ac.uk, zebedee.nicholls@climate-energy-college.org
+License: 3-Clause BSD License
+Project-URL: Bug Reports, https://github.com/znicholls/silicone/issues
+Project-URL: Documentation, https://silicone.readthedocs.io/en/latest
+Project-URL: Source, https://github.com/znicholls/silicone
+Keywords: emissions,automation,filling,detail,climate
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pint
+Requires-Dist: python-dateutil
+Requires-Dist: pyam-iamc (>=0.2.0)
+Requires-Dist: pandas (==0.24.2)
+Requires-Dist: click
+Provides-Extra: deploy
+Requires-Dist: setuptools (>=38.6.0) ; extra == 'deploy'
+Requires-Dist: twine (>=1.11.0) ; extra == 'deploy'
+Requires-Dist: wheel (>=0.31.0) ; extra == 'deploy'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bandit ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest-console-scripts ; extra == 'dev'
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: notebook ; extra == 'dev'
+Requires-Dist: seaborn ; extra == 'dev'
+Requires-Dist: statsmodels ; extra == 'dev'
+Requires-Dist: codecov ; extra == 'dev'
+Requires-Dist: nbval ; extra == 'dev'
+Requires-Dist: pytest (<5.0,>=4.0) ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: sphinx (<2.1,>=1.4) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: sphinx-click ; extra == 'dev'
+Requires-Dist: setuptools (>=38.6.0) ; extra == 'dev'
+Requires-Dist: twine (>=1.11.0) ; extra == 'dev'
+Requires-Dist: wheel (>=0.31.0) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (<2.1,>=1.4) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinx-click ; extra == 'docs'
+Provides-Extra: notebooks
+Requires-Dist: matplotlib ; extra == 'notebooks'
+Requires-Dist: notebook ; extra == 'notebooks'
+Requires-Dist: seaborn ; extra == 'notebooks'
+Requires-Dist: statsmodels ; extra == 'notebooks'
+Provides-Extra: tests
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: nbval ; extra == 'tests'
+Requires-Dist: pytest (<5.0,>=4.0) ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+Silicone
+========
+
+.. sec-begin-index
+
+Silicone is a Python package which can be used to automatically fill in detail in emissions scenarios.
+For example, adding emissions of aerosol precurors and methane based on carbon dioxide and nitrous oxide emissions pathways or adding regional emissions based on a global emissions pathway.
+
+.. sec-end-index
+
+License
+-------
+
+.. sec-begin-license
+
+Silicone is free software under a BSD 3-Clause License, see `LICENSE <https://github.com/znicholls/silicone/blob/master/LICENSE>`_.
+
+.. sec-end-license
+
