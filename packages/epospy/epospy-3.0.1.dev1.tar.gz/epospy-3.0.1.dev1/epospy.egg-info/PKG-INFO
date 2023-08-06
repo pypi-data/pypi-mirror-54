@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: epospy
+Version: 3.0.1.dev1
+Summary: the Exoplanet Population Observation Simulator
+Home-page: https://github.com/GijsMulders/epos
+Author: Gijs Mulders
+Author-email: gdmulders@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
