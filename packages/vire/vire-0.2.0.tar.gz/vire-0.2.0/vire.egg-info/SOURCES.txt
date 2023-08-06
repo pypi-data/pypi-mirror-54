@@ -1,0 +1,11 @@
+HISTORY.txt
+LICENSE.txt
+README.md
+setup.py
+vire.py
+vire.egg-info/PKG-INFO
+vire.egg-info/SOURCES.txt
+vire.egg-info/dependency_links.txt
+vire.egg-info/entry_points.txt
+vire.egg-info/requires.txt
+vire.egg-info/top_level.txt

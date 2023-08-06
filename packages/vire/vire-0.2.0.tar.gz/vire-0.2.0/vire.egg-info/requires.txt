@@ -1,0 +1,6 @@
+pygithub
+requests
+
+[:python_version < "3.0"]
+futures
+pathlib2
