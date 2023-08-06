@@ -1,0 +1,1 @@
+lame_nagios_output
