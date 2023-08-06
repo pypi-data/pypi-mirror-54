@@ -1,0 +1,10 @@
+nbclassic/__init__.py,sha256=75oR-cDrSZ_hoIh3G4OZQKl27acED4dAYqgqDBMqhBc,226
+nbclassic/handlers.py,sha256=oVZzpilAWOoXKmams5FmlL7s_hT_gTv-njGXOz1MCds,1037
+nbclassic/notebookapp.py,sha256=UVgPvCvH1rg4ZD-gBNrT42BK8iptDOYTDQc22qKWtsE,12792
+nbclassic/shimwarning.py,sha256=KIpgP72zUxxquzSX9nR-pTcpPaZYA1QUfGjoTkl2-94,778
+nbclassic-0.0.4.data/data/etc/jupyter/jupyter_server_config.d/nbclassic.json,sha256=bCdpys0Q4uWMFeSUeq2zpZ8UN9GfJvf73tbmhPj9-_c,101
+nbclassic-0.0.4.dist-info/METADATA,sha256=u0KDOpsAFxeuwEfsolbgxCW-vfzQNY8SRRnyTGv1iPE,1250
+nbclassic-0.0.4.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+nbclassic-0.0.4.dist-info/entry_points.txt,sha256=WMOVAexeTgo4Hr33Ga-GVQj1VMWdsIfxu0JlxM5tMLM,66
+nbclassic-0.0.4.dist-info/top_level.txt,sha256=brM-le3CjNVf6mSzHg97xupEEjynzPAddIel1KPBpJ0,10
+nbclassic-0.0.4.dist-info/RECORD,,
