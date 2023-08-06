@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "audio-slackbot"
+version = "0.1.0"
+description = "A slack bot which plays sounds from the filesystem upon certain triggers."
+authors = ["Nikolai Gulatz <nikolai.gulatz@posteo.de>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+playsound = "^1.2"
+slackclient = "==2.2.1"
+pyyaml = "^5.1"
+
+[tool.poetry.scripts]
+audio_slackbot = "audio_slackbot:run"
+
+[tool.poetry.extras]
+macos = ["PyObjC", "AppKit"]
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.4"
+pytest = "^5.2"
+pytest-cov = "^2.8"
+black = {version = "^18.3-alpha.0",allows-prereleases = true}
+tox = "^3.14"
+codecov = "^2.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
