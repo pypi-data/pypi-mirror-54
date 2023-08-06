@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: farsitools
+Version: 1.1
+Summary: this is simple utility to convert persain char to english
+Home-page: UNKNOWN
+Author: masiha ahmadi
+Author-email: esafb52@gmail.com
+License: GPL
+Platform: UNKNOWN
+
+
+Usage
+=====
+  >>> from farsitools import convert_farsi_char_to_english
+  >>> str='Ø³Ù„Ø§Ù…'
+  >>> convert_farsi_char_to_english(str)
+  >>> 'slam'
+
+
