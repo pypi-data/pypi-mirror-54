@@ -1,0 +1,10 @@
+README.md
+setup.py
+hangar_pil/__init__.py
+hangar_pil/plugin.py
+hangar_pil.egg-info/PKG-INFO
+hangar_pil.egg-info/SOURCES.txt
+hangar_pil.egg-info/dependency_links.txt
+hangar_pil.egg-info/entry_points.txt
+hangar_pil.egg-info/requires.txt
+hangar_pil.egg-info/top_level.txt
