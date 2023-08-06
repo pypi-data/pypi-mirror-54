@@ -1,0 +1,8 @@
+README.md
+setup.py
+gearbest_api/__init__.py
+gearbest_api.egg-info/PKG-INFO
+gearbest_api.egg-info/SOURCES.txt
+gearbest_api.egg-info/dependency_links.txt
+gearbest_api.egg-info/requires.txt
+gearbest_api.egg-info/top_level.txt

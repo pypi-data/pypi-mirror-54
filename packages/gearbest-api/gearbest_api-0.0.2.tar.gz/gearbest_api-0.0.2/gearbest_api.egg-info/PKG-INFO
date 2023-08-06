@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: gearbest-api
+Version: 0.0.2
+Summary: Retrieve info from gearbest api.
+Home-page: https://github.com/matteobaldelli/python-gearbest-api
+Author: Matteo Baldelli
+Author-email: baldelli.matteo2@google.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
