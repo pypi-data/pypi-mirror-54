@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: htnhello
+Version: 1.0.0
+Summary: Hello World for PyPI.
+Home-page: https://github.com/kynthus/htnpython
+Author: Kynthus Aueoau
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Description-Content-Type: text/markdown
+Requires-Dist: kafka
+
+# HtnHello
+「Hello, World」 for PyPI.
+
+[![Build Status](https://travis-ci.org/takezyou/pydata.svg?branch=master)](https://travis-ci.org/takezyou/pydata)
+[![Coverage Status](https://coveralls.io/repos/github/takezyou/pydata/badge.svg?branch=master)](https://coveralls.io/github/takezyou/pydata?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
+## Installation
+```
+pip install htnhello
+```
+
+## Usage
+```
+usage: htnhello
+
+Printing Hello, World.
+```
+
+
