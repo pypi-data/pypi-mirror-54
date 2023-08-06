@@ -1,0 +1,10 @@
+pytest_polarion_collect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_polarion_collect/collector_hooks.py,sha256=7GDEXFCvgKQJMvuUZQ47Iuu2wcjj54X9yDcNbNSnpG8,849
+pytest_polarion_collect/hookspec.py,sha256=fY2IBE9QCycyVPRbyfuTiRnrDy_QYGuCw_GkhrN5Cn0,202
+pytest_polarion_collect/polarion_collect.py,sha256=T9rw3cnFnIeDWYVk3bO-HFXWKqHrwUDedZWE28cBQY4,1957
+pytest_polarion_collect/utils.py,sha256=4MjViZbjH5He3vLXqSk8JQWSfVIH-S9CO-wc7n8yTxA,10906
+pytest_polarion_collect-0.21.1.dist-info/METADATA,sha256=L_DMNI0tt5aFVHGvtoC7oWAzpvFjWqtcEhQI0Eo1Iqk,1111
+pytest_polarion_collect-0.21.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pytest_polarion_collect-0.21.1.dist-info/entry_points.txt,sha256=Ez_MtL4ijys3PTequmw8XAISpbMiDfTb_31nrji38sU,151
+pytest_polarion_collect-0.21.1.dist-info/top_level.txt,sha256=_tS3_Pq2nayRLOKZyjQPOcB4I1YIthFO0vTUAuNOX9A,24
+pytest_polarion_collect-0.21.1.dist-info/RECORD,,
