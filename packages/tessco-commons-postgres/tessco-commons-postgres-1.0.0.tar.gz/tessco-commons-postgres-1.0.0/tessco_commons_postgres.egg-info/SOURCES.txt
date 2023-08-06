@@ -1,0 +1,7 @@
+README.md
+setup.py
+postgres_service_pkg/__init__.py
+tessco_commons_postgres.egg-info/PKG-INFO
+tessco_commons_postgres.egg-info/SOURCES.txt
+tessco_commons_postgres.egg-info/dependency_links.txt
+tessco_commons_postgres.egg-info/top_level.txt
