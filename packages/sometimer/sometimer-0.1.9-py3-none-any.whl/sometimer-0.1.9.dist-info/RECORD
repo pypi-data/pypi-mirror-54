@@ -1,0 +1,10 @@
+sometimer/__init__.py,sha256=HLELksf6RKPDz1-ncXOcJ44pTPP1rDfPrc81REuKSfI,174
+sometimer/sometimer.py,sha256=Yp60KFuJtPDNMngvb-I_wGrMM4mxzPYNxj3aeBnE65g,13196
+sometimer/timer.py,sha256=11b7Dp22psAp6KA22eay3g5hq71sRH3lIJOvb7TeJ6c,6545
+sometimer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sometimer/tests/test_timer.py,sha256=IsbmioCLc0mzJEuqsW-IULWOuH5GUWD0-oURmEQzUqM,12670
+sometimer-0.1.9.dist-info/LICENSE.md,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+sometimer-0.1.9.dist-info/METADATA,sha256=dxSoNIwNM_sHF9Eah6NS5-Ch5HSgdRkMQGwCDLAVXN4,1938
+sometimer-0.1.9.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+sometimer-0.1.9.dist-info/top_level.txt,sha256=BSQqzeQA_UfckssMOMhvEBEomZsoBysZxpk8QtwNG5M,10
+sometimer-0.1.9.dist-info/RECORD,,
