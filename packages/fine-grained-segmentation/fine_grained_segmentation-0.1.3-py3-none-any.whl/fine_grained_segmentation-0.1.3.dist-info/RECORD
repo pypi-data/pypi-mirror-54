@@ -1,0 +1,13 @@
+pathology,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fine_grained_segmentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fine_grained_segmentation/detect.py,sha256=_yZ2HT8dZUHLkABSlynAjBaRqi0UO3ibFgvfyZ-7LK0,2598
+fine_grained_segmentation/main.py,sha256=UcWHXxrFmQSpXS-EyXJJaHR-jgsGiq4s8PkpW1GAWh8,3102
+fine_grained_segmentation/model.py,sha256=ITV95fvnhXfcHxrN_h5T540TbLDdyNDEwZjXnIMvHuQ,7273
+fine_grained_segmentation/test_fine_grained_segmentation.py,sha256=3BdikghWCZL12dCbgXNKqTpZCJyqSxvFpei3knqcT_E,412
+fine_grained_segmentation/utils.py,sha256=_Cb0_jVG-49z8oIUT5twjLLXR1KQuCXa5QZtUkqD-rM,8369
+fine_grained_segmentation/visualize.py,sha256=ioIRg_aaxxjVW5xvtnI1riUiM1d2smRw1cku_7F6_yQ,4408
+fine_grained_segmentation-0.1.3.dist-info/LICENSE,sha256=BQbzX1BAnFF9LwWfLBoBe0C5puB7u_DCr8DWb9QqY-8,1132
+fine_grained_segmentation-0.1.3.dist-info/METADATA,sha256=h4VtNMTES6uO7WtkdBNe6bkHBPSvltG-mcHausfXLFA,1277
+fine_grained_segmentation-0.1.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+fine_grained_segmentation-0.1.3.dist-info/top_level.txt,sha256=z1P-2CYBbO_spXhP4_ZUnmIHjDmUWradlFbB_qLFn1Y,26
+fine_grained_segmentation-0.1.3.dist-info/RECORD,,
