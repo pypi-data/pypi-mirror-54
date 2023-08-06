@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: known-pose-client
+Version: 1.1.6
+Summary: Known Pose API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: Kai.Waelti@dfki.de
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Known Pose API
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+Define and retrieve (accurate) semantic poses in a 2D environment. This version is a workaround for some not yet available features of the OpenAPI Specification v3.0 (e.g. &#x60;anyOf&#x60; as a response type and adding a  &#x60;discriminator&#x60; for supporting polymorphism/composition). Therefore, ATM the sub-components BasicPose and InaccuratePose are reference objects inside their respective parent model.    # noqa: E501
+
+
