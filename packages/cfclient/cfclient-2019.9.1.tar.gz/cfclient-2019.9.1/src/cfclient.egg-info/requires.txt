@@ -1,0 +1,12 @@
+cflib>=0.1.8
+appdirs>=1.4.0
+pyzmq==18.1.0
+pyqtgraph>=0.10
+PyYAML==5.1.2
+quamash==0.6.1
+qtm>=2.0.2
+
+[dev]
+
+[qt5]
+PyQt5==5.13.1
