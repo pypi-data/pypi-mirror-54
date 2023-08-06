@@ -1,0 +1,8 @@
+cmake
+cython
+numpy
+matplotlib
+pdal
+scipy
+scikit-image
+scikit-learn
