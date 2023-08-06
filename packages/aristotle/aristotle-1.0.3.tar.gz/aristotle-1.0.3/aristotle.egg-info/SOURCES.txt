@@ -1,0 +1,9 @@
+README.rst
+setup.py
+aristotle/__init__.py
+aristotle/aristotle.py
+aristotle.egg-info/PKG-INFO
+aristotle.egg-info/SOURCES.txt
+aristotle.egg-info/dependency_links.txt
+aristotle.egg-info/requires.txt
+aristotle.egg-info/top_level.txt
