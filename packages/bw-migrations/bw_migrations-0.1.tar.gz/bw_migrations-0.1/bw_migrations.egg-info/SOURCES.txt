@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bw_migrations/__init__.py
+bw_migrations/strategies.py
+bw_migrations/utils.py
+bw_migrations/version.py
+bw_migrations.egg-info/PKG-INFO
+bw_migrations.egg-info/SOURCES.txt
+bw_migrations.egg-info/dependency_links.txt
+bw_migrations.egg-info/requires.txt
+bw_migrations.egg-info/top_level.txt
+bw_migrations/data/exiobase-3-ecoinvent-3.6.json
