@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+
+  relay:
+    image: relay:${VERSION}
+    volumes:
+      - ./store:/home/relay/store
+      - ./config:/home/relay/config
+    entrypoint:
+      - /home/relay/.local/bin/relay
+      - --store-path
+      - ${STORE_PATH}
+    command: start
