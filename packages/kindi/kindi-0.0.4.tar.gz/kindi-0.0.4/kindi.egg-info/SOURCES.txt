@@ -1,0 +1,10 @@
+README.md
+setup.py
+kindi/__init__.py
+kindi/config.py
+kindi.egg-info/PKG-INFO
+kindi.egg-info/SOURCES.txt
+kindi.egg-info/dependency_links.txt
+kindi.egg-info/not-zip-safe
+kindi.egg-info/requires.txt
+kindi.egg-info/top_level.txt

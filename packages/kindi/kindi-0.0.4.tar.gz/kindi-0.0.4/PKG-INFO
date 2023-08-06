@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: kindi
+Version: 0.0.4
+Summary: Kind incommunicados package for user secrets
+Home-page: https://github.com/dicaso/kindi
+Author: Christophe Van Neste
+Author-email: beukueb@gmail.com
+License: GNU GENERAL PUBLIC LICENSE
+Description: Kind incommunicados package 
+        for storing user [API] keys necessary for running
+        some programs/workflows.
+        
+Platform: UNKNOWN
