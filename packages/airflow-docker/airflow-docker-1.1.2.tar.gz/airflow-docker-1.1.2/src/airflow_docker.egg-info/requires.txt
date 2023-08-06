@@ -1,0 +1,23 @@
+apache-airflow[docker]==1.10.5
+airflow-docker-helper>=0.2.0
+airflow-queue-stats==0.1.4
+boto3<1.8.0,>=1.7.0
+
+[dev]
+releasely
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[linting]
+isort
+black
+flake8
+
+[testing]
+pytest
+pytest-cov
+
+[testing:python_version < "3"]
+mock
