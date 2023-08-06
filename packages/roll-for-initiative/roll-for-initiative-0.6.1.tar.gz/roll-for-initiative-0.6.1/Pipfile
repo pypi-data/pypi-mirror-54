@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pyflakes = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+prompt-toolkit = "*"
+flit = "*"
+pygments = "*"
+six = "*"
+texttable = "*"
+dice = "*"
+
+[requires]
+python_version = "3.6"
