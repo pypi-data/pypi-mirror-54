@@ -1,0 +1,3 @@
+scipy
+numpy>=1.16
+nionutils
