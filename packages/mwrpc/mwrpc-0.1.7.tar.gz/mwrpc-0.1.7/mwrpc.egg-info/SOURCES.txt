@@ -1,0 +1,8 @@
+README.md
+mwrpc.py
+setup.py
+mwrpc.egg-info/PKG-INFO
+mwrpc.egg-info/SOURCES.txt
+mwrpc.egg-info/dependency_links.txt
+mwrpc.egg-info/top_level.txt
+test/test.py
