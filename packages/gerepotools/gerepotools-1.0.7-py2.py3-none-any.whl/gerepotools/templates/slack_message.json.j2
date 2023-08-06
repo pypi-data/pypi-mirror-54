@@ -1,0 +1,39 @@
+[
+    {
+        "type": "section",
+        "text": {
+            "type": "mrkdwn",
+            "text": "*Nouvelle Livraison* {{artifact.artifact}} version {{artifact.version}}"
+        }
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "section",
+        "text": {
+            "type": "mrkdwn",
+            "text": "[artefact dans le repo]({{artifact.url}})"
+        },
+        "accessory": {
+            "type": "image",
+            "image_url": "https://picsum.photos/300/200",
+            "alt_text": "Link to the release"
+        }
+    },
+{% if quote is defined %}
+    {
+        "type": "divider"
+    },
+    {
+        "type": "section",
+        "text": {
+            "type": "mrkdwn",
+            "text": "*Quote of the day*: _{{quote}}_"
+        }
+    },
+    {
+        "type": "divider"
+    },
+{% endif %}
+]

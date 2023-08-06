@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: gerepotools
+Version: 1.0.7
+Summary: UNKNOWN
+Home-page: https://gitlab.com/guichet-entreprises.fr/tools/repo-tools
+Author: Arnaud Boidard
+Author-email: florent.tournois@gmail.fr
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: repositorytools
+Requires-Dist: pyyaml
+Requires-Dist: upref
+Requires-Dist: jira
+Requires-Dist: jinja2
+Requires-Dist: brainyquote
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: webbrowser
+Requires-Dist: slackclient
+
+
+Repo-tools for Guichet Entreprises
+=========================
+                                _              _     
+                               | |            | |    
+     _ __ ___ _ __   ___ ______| |_ ___   ___ | |___ 
+    | '__/ _ \ '_ \ / _ \______| __/ _ \ / _ \| / __|
+    | | |  __/ |_) | (_) |     | || (_) | (_) | \__ \
+    |_|  \___| .__/ \___/       \__\___/ \___/|_|___/
+             | |                                     
+             |_|                                     
+
+# Installation
+
+You can download the latest version of repo tools [here](https://gitlab.com/guichet-entreprises.fr/tools/repo-tools/-/releases)
+
+# Configuration
+
+The conf file is located in the upref user's folder  :
+
+    C:\Users\Michel\AppData\Roaming\.upref\
+
+# Usage
+
+    usage: repo-tools.py [-h] [--windows] [--verbose] --filename filename
+                     [--url url] [--login login] [--password url] --group
+                     group --repo_id repo_id [--version version]
+                     [--extension extension] [--jira] [--jira_url jira_url]
+                     [--jira_login jira_login] [--jira_password jira_password]
+                     [--jira_project jira_project]
+
+This program take a file or a directory and send it into a repo.
+
+# Positional arguments
+
+    --filename filename, -f filename
+                        file to upload. {artifact}-{version}.{extension}
+    --group group, -g group
+                        group
+    --repo_id repo_id, -r repo_id
+                        repo_id
+
+# Optional arguments
+
+This program take a file and upload it on repo
+
+    -h, --help            show this help message and exit
+    --windows, -w         Define if we need all popups windows.
+    --verbose, -v         Put the logging system on the console for info.
+    --url url, -u url     url of repo
+    --login login, -l login
+                        login
+    --password url, -p url
+                        password
+
+    --version version, -V version
+                        artifact version
+    --extension extension, -e extension
+                        Extension of the file, this can be usefull if the file
+                        extension is tar.gz.
+    --jira, -j            jira login
+    --jira_url jira_url, -U jira_url
+                        jira url
+    --jira_login jira_login, -L jira_login
+                        jira login
+    --jira_password jira_password, -P jira_password
+                        jira password
+    --jira_project jira_project, -o jira_project
+                        jira project
+
+# Example
+
+upload end create a Jira BL :
+
+    >python repo-tools.py -w -f www-2019.10.11 -g fr.ge.gpart -r releases -j
+
+
