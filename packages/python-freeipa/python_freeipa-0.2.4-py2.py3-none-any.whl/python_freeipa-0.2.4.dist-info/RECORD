@@ -1,0 +1,8 @@
+python_freeipa/__init__.py,sha256=RAfTCIYHwkp89pXwPnTGVy0-rxIlTD7ai1aDRPtBX6E,57
+python_freeipa/client.py,sha256=pkk26Zpim4X0VCZCA8Dsxhz320zUrcanJmQW5as0Ng4,52915
+python_freeipa/exceptions.py,sha256=Pf119N85QgLGvUPt8LQpC-xfghwQD0jjGs4nwhZtvBg,2257
+python_freeipa-0.2.4.dist-info/LICENSE.md,sha256=eeASeFnyo6z-tt5bq-f3sdeSN95eQODCwP4y6GzwgbM,1079
+python_freeipa-0.2.4.dist-info/METADATA,sha256=VJtVSnG28cIv5BuSy6JI7634QLIiYApSq9ky9zmUi44,859
+python_freeipa-0.2.4.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+python_freeipa-0.2.4.dist-info/top_level.txt,sha256=vp2rlv5k6bBvsmOAN55wJp3lkFZ5wVtjBeOjJq1IqY0,15
+python_freeipa-0.2.4.dist-info/RECORD,,
