@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pantab
+Version: 0.0.1b1
+Summary: Converts pandas DataFrames into Tableau Hyper Extracts
+Home-page: https://github.com/WillAyd/pantab
+Author: Will Ayd
+Author-email: william.ayd@icloud.com
+License: BSD
+Keywords: tableau visualization pandas dataframe
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+Official documentation for the project and all of its features is hosted at:
+
+https://pantab.readthedocs.io/en/latest/index.html
+
+Note that pantab is currently beta software. The API is experimental and subject to change.
+
+
+
