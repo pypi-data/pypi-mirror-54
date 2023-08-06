@@ -1,0 +1,10 @@
+bw_migrations/__init__.py,sha256=kSUm--hjHNSwwrm2lPHqm068W_Ihp0zjshMoKkJ1yM4,2038
+bw_migrations/strategies.py,sha256=Zud3WXpxhUA2xrcr5v5gsNARGHmzEBwxPRhbVP6xYog,1609
+bw_migrations/utils.py,sha256=wN-9HNTPmm3NaxmkxOYaat0bq9Vly6eWHLItGHe-AYk,2035
+bw_migrations/version.py,sha256=6ctKuZJ1bYgAuoyhnb1HF6V7bDosqGZPrVCRUH_trvY,17
+bw_migrations/data/exiobase-3-ecoinvent-3.6.json,sha256=sNqL3dRvL4VA35mEfRh2rzOXUVTk5pzy2IX8hC8h4PM,24968
+bw_migrations-0.1.dist-info/LICENSE,sha256=2_r6CZgf22wtDYO1nDA27AM64X11rQQmgxArORh6ADo,1511
+bw_migrations-0.1.dist-info/METADATA,sha256=I8xPq091qSxe2W-51foP-d6foBzqAQTWAt2xKJ2XjTc,2958
+bw_migrations-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bw_migrations-0.1.dist-info/top_level.txt,sha256=RCRLr7m_otTOp0OOu5akecS6sCm-jhJITprYqMKBLAA,14
+bw_migrations-0.1.dist-info/RECORD,,
