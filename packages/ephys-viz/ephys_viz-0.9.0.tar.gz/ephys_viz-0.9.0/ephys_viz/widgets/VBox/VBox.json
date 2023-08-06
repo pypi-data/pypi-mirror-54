@@ -1,0 +1,10 @@
+{
+    "project_name": "ephys_viz",
+    "type": "VBox",
+    "description": "Vertical layout",
+    "propsKeys": [],
+    "javaScriptStateKeys": [],
+    "pythonStateKeys": [],
+    "galleryProps": {
+    }
+}

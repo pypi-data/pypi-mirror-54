@@ -1,0 +1,12 @@
+{
+    "project_name": "ephys_viz",
+    "type": "NWBBrowser",
+    "description": "NWB brwoser",
+    "propsKeys": [],
+    "javaScriptStateKeys": ["path", "download_from"],
+    "pythonStateKeys": ["object", "status", "status_message"],
+    "galleryProps": {
+        "path": "sha1://ee3264cbd2ad0db9e4ea12db5902bc788cc934c5/bon03.nwb.json",
+        "download_from": "spikeforest.public"
+    }
+}

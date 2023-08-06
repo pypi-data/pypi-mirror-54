@@ -1,0 +1,10 @@
+{
+    "project_name": "ephys_viz",
+    "type": "Accordion",
+    "description": "Accordion",
+    "propsKeys": [],
+    "javaScriptStateKeys": [],
+    "pythonStateKeys": [],
+    "galleryProps": {
+    }
+}

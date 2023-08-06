@@ -1,0 +1,6 @@
+{
+    "project_name": "ephys_viz",
+    "type": "HBox",
+    "description": "Horizontal layout",
+    "galleryProps": {}
+}

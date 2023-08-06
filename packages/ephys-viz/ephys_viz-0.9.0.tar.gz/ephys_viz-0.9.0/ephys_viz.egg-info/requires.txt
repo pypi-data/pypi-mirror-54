@@ -1,0 +1,10 @@
+simplejson
+jupyter
+numpy
+mountaintools
+kachery
+spikeforest
+scipy
+vtk
+imageio
+imageio-ffmpeg

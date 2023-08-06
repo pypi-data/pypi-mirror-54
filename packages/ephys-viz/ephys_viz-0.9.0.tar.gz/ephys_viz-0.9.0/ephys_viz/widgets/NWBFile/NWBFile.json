@@ -1,0 +1,7 @@
+{
+    "project_name": "ephys_viz",
+    "type": "NWBFile",
+    "description": "View a .nwb file",
+    "defaultProps": {
+    }
+}
