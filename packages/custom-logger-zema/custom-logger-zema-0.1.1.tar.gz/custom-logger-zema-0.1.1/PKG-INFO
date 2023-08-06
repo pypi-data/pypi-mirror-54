@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: custom-logger-zema
+Version: 0.1.1
+Summary: A custom logger created for internal usage
+Home-page: UNKNOWN
+Author: Nirmal Kumar
+Author-email: n.ramadoss@zema.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
