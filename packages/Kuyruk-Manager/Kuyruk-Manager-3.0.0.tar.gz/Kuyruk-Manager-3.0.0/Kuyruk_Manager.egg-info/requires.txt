@@ -1,0 +1,4 @@
+kuyruk>=9.2.1
+redis>=2.10
+Flask>=0.10
+waitress>=1.0.2
