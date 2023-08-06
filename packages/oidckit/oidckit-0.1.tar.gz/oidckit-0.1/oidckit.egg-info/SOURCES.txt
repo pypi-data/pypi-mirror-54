@@ -1,0 +1,13 @@
+README.md
+setup.py
+oidckit/__init__.py
+oidckit/crypto.py
+oidckit/excs.py
+oidckit/objects.py
+oidckit/provider.py
+oidckit/routines.py
+oidckit.egg-info/PKG-INFO
+oidckit.egg-info/SOURCES.txt
+oidckit.egg-info/dependency_links.txt
+oidckit.egg-info/requires.txt
+oidckit.egg-info/top_level.txt

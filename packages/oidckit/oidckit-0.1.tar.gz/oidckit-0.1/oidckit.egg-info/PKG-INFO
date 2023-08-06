@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: oidckit
+Version: 0.1
+Summary: Unobtrusive pluggable OpenID Connect
+Home-page: https://github.com/valohai/oidckit
+Author: Valohai
+Maintainer: Aarni Koskela
+Maintainer-email: akx@iki.fi
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: dev

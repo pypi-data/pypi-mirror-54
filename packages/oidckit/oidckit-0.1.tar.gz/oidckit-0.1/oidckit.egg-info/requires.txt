@@ -1,0 +1,9 @@
+requests
+josepy>=1.2.0
+
+[dev]
+flake8
+isort
+pydocstyle
+pytest-cov
+pytest
