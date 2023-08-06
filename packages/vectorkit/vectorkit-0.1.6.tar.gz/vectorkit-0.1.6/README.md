@@ -1,0 +1,154 @@
+VECTOR KIT
+============
+
+Vector Kit seeks to make vector arithmetic simple for everyone. It may serve as a utility in a large ecosystem of scientific libraries or, more simply, as a toy to be played with to understand Vector math.
+This is a work in progress, and may not yet be ready for large data munging.
+
+INSTALLATION
+============
+
+```
+$ sudo pip install vectorkit
+
+```
+
+RUN INTERACTIVE SHELL
+=====================
+```
+$ vectorkit
+
+=====================================================
+
+        VECTORKIT :: v0.1.6
+        Interactive Shell
+
+=====================================================
+>>>>
+>>>>
+```
+
+IMPORTING
+=========
+
+```
+import vectorkit
+```
+
+OR,
+
+```
+from vectorkit import Vector, isovector, randvec
+````
+
+OVERVIEW
+========
+
+
+Properties
+----------
+
+`components` - a list of the components of a vector
+
+`dimensions` - the dimension of the vector, or count of its components
+
+`min` - the minimum component
+
+`max` - the maximum component
+
+`sum` - the sum of the components of a vector
+
+`memsize` - the size of a vector in memory
+
+
+Methods
+-------
+
+`add` - Adds two vectors
+
+`append` - Appends new components to a vector
+
+`concat` - Merges two vectors into a single vector
+
+`corr` - Returns the correlation of two vectors
+
+`cov` - Returns the covariance between two vectors
+
+`crossmul` - Returs the cross product of two 3-dimensional vectors
+
+`describe` - Returns a description of a vector, including its dimensions and memory size
+
+`distance` - Returns the euclidean distance between two vectors
+
+`dotmul` - Returns the dot product between two vectors
+
+`insert` - Inserts a new component at a specified index
+
+`magnitude` - Returns the magnitude of a vector
+
+`mean` - Returns the mean of the components of a vector
+
+`minmax` - Returns a variant of a vector which has been normalized using standard min-max feature scaling
+
+`minmaxmean` - Returns a variant of a vector which has been normalized using standard mean and min-max feature scaling
+
+`mse` - Returns the mean square error of two vectors
+
+`normalize` - Returns a variant of a vector which has been normalized using the z-score or standard deviation
+
+`pad` - Appends zeroes to vectors to a specified length, in-place
+
+`padded` - Returns a new vector with zero appended to it to a specified length,
+
+`pop` - Removes a component at a specified location
+
+`relu` - Passes a vector through a Rectified Linear Unit function and returns a new vector
+
+`reverse` - Reverses the direction of a vector in-place
+
+`reversed` - Returns a variant of a vector with reversed direction
+
+`sdiv` - Returns a new vector, which is the quotient from a scalar division of a vector
+
+`shuffle` - Shuffles vector components in place
+
+`shuffled` - Returns a new vector with shuffled version of a vector's components
+
+`sigmoid` - Passes a vector through a logistic sigmoid function and returns a new vector
+
+`smul` - Returns a new vector, which is the product from a scalar multiplication of a vector
+
+`softmax` - Passes a vector through a softmax function and returns a new vector
+
+`std` - Returns the standard deviation of the components of a vector
+
+`stdnorm` - Returns a variant of a vector which has been normalized using the z-score or standard deviation
+
+`subtract` - Returns a new vector, which is the result of the subtraction of one vector from another
+
+`subvec` - Returns a new vector which is a slice from the original vector
+
+`tanh` - Passes a vector through a TanH function and returns a new vector
+
+`to_list` - Returns a list of the components of a vector
+
+`to_tuple` - Returns a tuple of the components of a vector
+
+`unitvec` - Returns a new vector which has been scaled to unit length
+
+`vector_eq` - Returns the vector equation of a line between two vectors
+
+
+
+Other
+-----
+
+`isovector` - Returns a vector of a specified length containing the same component throughout
+
+`randvec` - Generates a vector of specified length having random components
+
+
+REGULAR USAGE
+=============
+
+Read full detailed usage guidelines [here](https://github.com/ayivima/vectorkit/blob/master/README.rst)
+
