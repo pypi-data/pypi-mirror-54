@@ -1,0 +1,16 @@
+touchstone/__init__.py,sha256=B7sGta7QI9A9cVUdaE_uHamH_T2QvQ2baqwJznRiP0c,175
+touchstone/bindings.py,sha256=uaB3pVeDiA2KVgwf2L8gNGCp_r35THe3GVgqeRSHsGQ,9114
+touchstone/container.py,sha256=scTeT1PzSN2O65ebYpc513n1iD8T0L3OyB3SkrM_Hww,7099
+touchstone/exceptions.py,sha256=f8b_wLWoPwIFoZBRcK9hbSIci6vKhoVye_dEajqaAGQ,91
+touchstone/py.typed,sha256=KLIesgGHLKBzCUh3V9IFE9BEzvy4RhUd8ROYJ7wtnbI,37
+touchstone/version.py,sha256=_7OlQdbVkK4jad0CLdpI0grT-zEAb-qgFmH5mFzDXiA,22
+touchstone/django/__init__.py,sha256=wIMbgesK4_1rGwzpzMMLJ376bZTw0rNXprW3dbH6Eq8,190
+touchstone/django/celery_task.py,sha256=6dTDK213UnCFK3OfeOzpjc8ejTiMg0PU7KWb3rcMuug,569
+touchstone/django/middleware.py,sha256=rKW5YS_SMbsyKjEyU5Osey6_pSEZvlZP7TW30U3OY8U,705
+touchstone/django/properties.py,sha256=jb5rkSfv7uS8DzEJAoYn7KLmFJ1N2lthhXvsNG0q1Ic,3123
+touchstone-2.0.0.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+touchstone-2.0.0.dist-info/METADATA,sha256=rm0pju5_-yyFduuuFlzNLvKPMH6pHmzn1bzTp-wDg14,7804
+touchstone-2.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+touchstone-2.0.0.dist-info/top_level.txt,sha256=q2MUTcUvekcKFaURO66vsWy8JV8GezfzHn289UvqykE,11
+touchstone-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+touchstone-2.0.0.dist-info/RECORD,,
