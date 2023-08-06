@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: easydbio
+Version: 0.1.2
+Summary: Python module for EasyDB.io
+Home-page: https://github.com/JakeCooper/EasyDB
+Author: JakeCooper
+Author-email: jake.elijah.cooper@gmail.com
+License: UNKNOWN
+Description: # EasyDB
+        
+        A Python module to hook into https://www.easydb.io/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
