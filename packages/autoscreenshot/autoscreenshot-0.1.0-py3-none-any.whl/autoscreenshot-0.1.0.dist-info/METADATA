@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: autoscreenshot
+Version: 0.1.0
+Summary: 
+Author: Zija
+Author-email: zija1504@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pillow (>=6.2.1,<7.0.0)
+Requires-Dist: pyperclip (>=1.7.0,<2.0.0)
+Requires-Dist: pyscreenshot (>=0.5.1,<0.6.0)
+Requires-Dist: requests (>=2.22.0,<3.0.0)
