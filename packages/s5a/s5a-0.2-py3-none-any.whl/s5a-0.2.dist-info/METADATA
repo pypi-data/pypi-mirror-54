@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: s5a
+Version: 0.2
+Summary: Sentinel-5 Algorithms
+Home-page: https://github.com/emissions-api/sentinel5algorithms
+Author: Emissions API Developers
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: GIS
+Description-Content-Type: text/x-rst
+Requires-Dist: gdal (>=2.2.0)
+Requires-Dist: numpy (>=1.10.0)
+Requires-Dist: python-dateutil (==2.8.0)
+
+Sentinel-5 Algorithms
+=====================
+
+.. image:: https://img.shields.io/github/issues-raw/emissions-api/sentinel5algorithms?color=blue
+    :target: https://github.com/emissions-api/sentinel5algorithms/issues
+    :alt: GitHub issues
+.. image:: https://img.shields.io/github/license/emissions-api/sentinel5algorithms
+    :target: https://github.com/emissions-api/sentinel5algorithms/blob/master/LICENSE
+    :alt: MIT license
+
+This library provides easy access to different algorithms which intend to make working with data from the European Space Agency's Sentinel 5 data easier.
+
+
