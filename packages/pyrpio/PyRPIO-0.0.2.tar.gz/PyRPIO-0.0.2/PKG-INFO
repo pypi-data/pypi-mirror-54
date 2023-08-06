@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: PyRPIO
+Version: 0.0.2
+Summary: Python-wrapped RPIO
+Home-page: https://github.com/Samtec-ASH/pyrpio
+Author: Samtec - ASH
+Author-email: samtec-ash@samtec.com
+License: UNKNOWN
+Description: Python-wrapped RPIO.
+Platform: UNKNOWN
