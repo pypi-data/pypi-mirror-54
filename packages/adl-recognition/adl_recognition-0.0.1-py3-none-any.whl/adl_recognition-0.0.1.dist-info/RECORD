@@ -1,0 +1,10 @@
+adl-recognition/__init__.py,sha256=bO2J6zgHhEBROpnXI9CwjkU_2Ze_AXrvZFSjdF7WYx0,1146
+adl-recognition/audio_data.py,sha256=zKrELgP95eRd1wIMYsuf5CV0W4KFbOjwMtkkWaHaSrM,1411
+adl-recognition/depth_data.py,sha256=vFcy3_JqHYjUYIDfh77DyM3SxkB2hSRR-y0pAXkDFgQ,1950
+adl-recognition/model.py,sha256=V2KIqQzDVAydTjBodVBGS6ULzHHrjT6JojPU_92X01o,296
+adl-recognition/predict.py,sha256=QEIeTb65SFXJjGuNaLXGQg3XL-Cud1m2Y9YZ0KemnNE,2349
+adl_recognition-0.0.1.dist-info/LICENCE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+adl_recognition-0.0.1.dist-info/METADATA,sha256=1Ch20lfT59sxFGmc7KafMUldYTkoqpN0VHByKpC7OD4,779
+adl_recognition-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+adl_recognition-0.0.1.dist-info/top_level.txt,sha256=6-6pf2b3qVLFteSg2_QuRBmQsvQH3HraseGzsg1of88,16
+adl_recognition-0.0.1.dist-info/RECORD,,

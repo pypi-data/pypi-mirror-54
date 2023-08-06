@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: adl-recognition
+Version: 0.0.1
+Summary: Classification of Activities of Daily Living(ADL) using depth videos and audio
+Home-page: https://github.com/RivinduM/AssistedLivingSystem
+Author: Rivindu Madushan <rivindum.15@cse.mrt.ac.lk>, Danushka Madhuranga <danushka.15@cse.mrt.ac.lk>, Chathuranga Siriwwardana <chathuranga.15@cse.mrt.ac.lk>
+Author-email: rivindum.15@cse.mrt.ac.lk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+# AssistedLivingSystem
+Ambient assisted living system with privacy protection. This project is developed as a FYP, UoM, 2019.
+
+
