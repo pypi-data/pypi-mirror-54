@@ -1,0 +1,9 @@
+mindsay_sdk/__init__.py,sha256=bppVbNYwA6j9X_PuqN35bKLNyXT7rZnv8ZPopIaBp8k,38
+mindsay_sdk/client.py,sha256=SLCMjegICdVQr-bwE1ijWBGuUuJvLUDn3IzvBSNqnGk,6974
+mindsay_sdk/exc.py,sha256=gof2zDVhcElWkF_HZzZVov1BoBaF8Nfr_wldRs2layk,117
+mindsay_sdk/utils.py,sha256=6kp4vU8ny5GuyrOqanUNWw7crQD6_6BXnn0u_jicD_s,410
+mindsay_sdk-1.0.0.dist-info/LICENSE.md,sha256=WbNSVjWQl3PxxM6K6-y3MFRnGuwF6UTB6PGI2lFUFBc,510
+mindsay_sdk-1.0.0.dist-info/METADATA,sha256=gbreCEkwbOheinf3EvsMnNX8PwSIwG9I6koqMbpPU8Y,1709
+mindsay_sdk-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mindsay_sdk-1.0.0.dist-info/top_level.txt,sha256=z_jSNWumT_rTcMdy4K_8x4A5qEXvxwiH7OdZpzN9M68,12
+mindsay_sdk-1.0.0.dist-info/RECORD,,
