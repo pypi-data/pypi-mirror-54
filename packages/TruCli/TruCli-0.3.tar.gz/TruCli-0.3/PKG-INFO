@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: TruCli
+Version: 0.3
+Summary: A small library to create CLIs fully contained in Python
+Home-page: https://github.com/FilippoDeAngelis/TruCli
+Author: Filippo De Angelis
+Author-email: filippodeangelis0@gmail.com
+License: GNU GPLv3
+Download-URL: https://github.com/FilippoDeAngelis/TruCli/archive/v0.3.tar.gz
+Description: UNKNOWN
+Keywords: CLI,CONTAINER,INSIDE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
