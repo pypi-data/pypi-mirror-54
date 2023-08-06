@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ethct
+Version: 19.10.25
+Summary: Ethereum contract tool(command line)
+Home-page: https://github.com/ccyanxyz/ethct
+Author: ccyanxyz
+Author-email: ccyanxyz@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ethereum contract command-line-tool
+Platform: UNKNOWN
