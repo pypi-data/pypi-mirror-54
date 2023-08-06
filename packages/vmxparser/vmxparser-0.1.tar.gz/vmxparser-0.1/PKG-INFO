@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: vmxparser
+Version: 0.1
+Summary: Parse a VMX (VMWare) file into a python dict
+Home-page: https://gitlab.com/sphipu/vmxparser
+Author: sphipu
+Author-email: sphipu@gmx.ch
+License: MIT
+Description: UNKNOWN
+Keywords: VMX,VMWARE
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Systems Administration
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
