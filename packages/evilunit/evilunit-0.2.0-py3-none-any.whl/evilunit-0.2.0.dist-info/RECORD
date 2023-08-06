@@ -1,0 +1,17 @@
+evilunit/__init__.py,sha256=PDhKaZCAqq-GI5nqDLYFXJNr8c3QKg6MBeijRW7G3lc,5510
+evilunit/_import.py,sha256=xCGRhKDxtYsB7MlyINF_JRkoX3jGKts-8fPcbkJmLec,453
+evilunit/nestedtest.py,sha256=2Xy8PQUe7oc2_CdThEH3D6q1CeMNrfRZ6GLxT0MN890,3795
+evilunit/parameterized.py,sha256=_qfPTpymHl6EJvUZ6RtVC_MwI-yGTfrqdHdBnM9jIHs,779
+evilunit/shortcuts.py,sha256=N8vQ6eIEXfVDy1CAD4R3oaIKfB4nraSYGYVhDDPL54w,813
+evilunit/tests/__init__.py,sha256=-yYBDkgMDSHYf_F_uX23wZsDSjrudhppJvm34su8_I4,23
+evilunit/tests/test_frame.py,sha256=gy6dAuYh-JH9ZEwHSn7gL_NN_QdZLLihl_mZWuC0KFM,356
+evilunit/tests/test_it_nested_test.py,sha256=skx9WZN1IGucahMecyqOZaqWs2hZGFmFTMXn-uQhnVM,2635
+evilunit/tests/test_nested.py,sha256=Zc4ZPO5vguuN5GGH1GfFkVsniN1RM1OgGcvyU0DSqFw,5108
+evilunit/tests/test_paramaterized.py,sha256=3_G1G3vay98uWBis8ioi-101YrpEkNpP39xIXjJ6-eQ,620
+evilunit/tests/test_parts.py,sha256=sjWwte90fE3p0SPEjUTKZEkGS4Eg-jVL3jnhheyOD7I,1416
+evilunit-0.2.0.dist-info/LICENSE,sha256=ArKJ6vd71OK2zFlsfz4LRbJdtoykP2NiukxUYQm5vj0,1063
+evilunit-0.2.0.dist-info/METADATA,sha256=NgWN643qJUygx-m_rbzoIhWFAhWunHhYsvZknJLhI8M,5017
+evilunit-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+evilunit-0.2.0.dist-info/entry_points.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+evilunit-0.2.0.dist-info/top_level.txt,sha256=94J7Q_8ovNDOHO9SRTRe1VfqZnGWbvgY39y6qTE2HdI,9
+evilunit-0.2.0.dist-info/RECORD,,
