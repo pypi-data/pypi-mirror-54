@@ -1,0 +1,7 @@
+{% extends template_base %}{% spaceless %}{% load rijkshuisstijl %}
+    {% block content %}
+        <div class="layout">
+            {% datagrid config=datagrid_config %}
+        </div>
+    {% endblock %}
+{% endspaceless %}

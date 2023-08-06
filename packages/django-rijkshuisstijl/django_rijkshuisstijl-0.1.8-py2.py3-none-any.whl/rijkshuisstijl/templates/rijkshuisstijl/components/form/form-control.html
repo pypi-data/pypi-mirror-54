@@ -1,0 +1,138 @@
+{% spaceless %}{% load i18n rijkshuisstijl_filters sniplates %}
+    <div class="form-control{% if class %} {{ class }}{% endif %}">
+
+        {% if label %}
+            {# Form control label #}
+            <header class="form-control__header">
+                {% if label and required %}
+                    {% include 'rijkshuisstijl/components/form/label.html' with label=label|add:'&nbsp;*'|safe for=id %}{% endif %}
+                {% if label and not required %}
+                    {% include 'rijkshuisstijl/components/form/label.html' with label=label for=id %}{% endif %}
+            </header>
+        {% endif %}
+
+
+        {% if label %}
+            {# Form control body #}
+            <div class="form-control__body">
+        {% endif %}
+
+        {% if type == 'checkbox' %}
+            {# (Mutliple) checkbox inputs  #}
+            {% if choices %}
+
+                {# CheckboxSelectMultiple #}
+                {% for val, display in choices %}
+                    {% if val in value or checked %}
+                        {% include 'rijkshuisstijl/components/form/checkbox.html' with checked=True id=id|add:'_'|add:forloop.counter0 label=display  value=val %}
+                    {% else %}
+                        {% include 'rijkshuisstijl/components/form/checkbox.html' with checked=False id=id|add:'_'|add:forloop.counter0 label=display value=val %}
+                    {% endif %}
+                {% endfor %}
+
+            {% else %}
+
+                {% if value|stringformat:'s' == form_field.value|stringformat:'s' %}
+
+                    {# CheckboxInput #}
+                    {% if form_field.value or checked %}
+                        {% include 'rijkshuisstijl/components/form/checkbox.html' with checked=True label=display value=foo %}
+                    {% else %}
+                        {% include 'rijkshuisstijl/components/form/checkbox.html' with checked=False label=display value=foo %}
+                    {% endif %}
+
+                {% else %}
+
+                    {# Custom #}
+                    {% if form_field.value or checked %}
+                        {% include 'rijkshuisstijl/components/form/checkbox.html' with checked=True label=display %}
+                    {% else %}
+                        {% include 'rijkshuisstijl/components/form/checkbox.html' with checked=False label=display %}
+                    {% endif %}
+
+                {% endif %}
+            {% endif %}
+
+
+        {% elif type == 'radio' %}
+            {# Mutliple radio inputs #}
+            <div class="form-control__choices">
+                {% for val, display in choices %}
+                    {% if val == value|default:"" or checked %}
+                        {% include 'rijkshuisstijl/components/form/radio.html' with checked=True id=id|add:'_'|add:forloop.counter0 label=display value=val %}
+                    {% else %}
+                        {% include 'rijkshuisstijl/components/form/radio.html' with checked=False id=id|add:'_'|add:forloop.counter0 label=display value=val %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+
+        {% elif type == 'select' %}
+            {# (Mutliple) select #}
+            {% include 'rijkshuisstijl/components/form/select.html' with label=display %}
+
+
+        {% elif type == 'textarea' %}
+            {# Textarea #}
+            {% if form_field %}
+                {# Form field #}
+                {% include 'rijkshuisstijl/components/form/textarea.html' with value=form_field.value %}
+            {% else %}
+                {# Custom #}
+                {% include 'rijkshuisstijl/components/form/textarea.html' with value=value %}
+            {% endif %}
+
+
+        {% elif type == 'datetime' %}
+            {# Datetime inputs #}
+            {% with date_name=name|add:'_0' time_name=name|add:'_1' %}
+                {% with date_value=raw_value|input_date_format time_value=raw_value|input_time_format %}
+                    {% include 'rijkshuisstijl/components/form/input.html' with id=id|add:'_date' name=date_name type='date' value=date_value %}
+                    {% include 'rijkshuisstijl/components/form/input.html' with id=id|add:'_time' name=time_name type='time' value=time_value %}
+                {% endwith %}
+            {% endwith %}
+
+
+        {% elif type == 'file' %}
+            {# File input #}
+            {% include 'rijkshuisstijl/components/form/input.html' %}
+
+            {% if raw_value %}
+                <div class="help-text">
+                    <div class="help-text__body">
+                        {{ _('Huidige') }}: <a class="form-control__link" href="{{ url }}">{{ url }}</a>
+                        {% include 'rijkshuisstijl/components/form/checkbox.html' with type='checkbox' name=html_name|add:'-clear' id=html_name|add:'-clear_id' label='wissen' %}
+                    </div>
+                </div>
+            {% endif %}
+
+
+        {% else %}
+            {# Regular input #}
+            {% if form_field %}
+                {# Form field #}
+                {% include 'rijkshuisstijl/components/form/input.html' with value=form_field.value %}
+            {% else %}
+                {# Custom #}
+                {% include 'rijkshuisstijl/components/form/input.html' with value=value %}
+            {% endif %}
+        {% endif %}
+
+
+        {% if errors %}
+            {# Input errors #}
+            {% include 'rijkshuisstijl/components/form/errors.html' with for=id %}
+        {% endif %}
+        {% if help_text %}
+            {# Input help text #}
+            {% include 'rijkshuisstijl/components/form/help-text.html' with for=id %}
+        {% endif %}
+
+
+        {% if label %}
+            {# Form control body #}
+            </div>
+        {% endif %}
+
+    </div>
+{% endspaceless %}
