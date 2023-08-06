@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: alphaqso
+Version: 4.1.0
+Summary: Fine-structure constant measurement and distortion analysis tools.
+Home-page: https://astroquasar.gitlab.io/programs/alphaqso
+Author: Vincent Dumont
+Author-email: vincentdumont11@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: numpy
+Requires: matplotlib
+Requires: scipy
+Requires: astropy
