@@ -1,0 +1,10 @@
+README.md
+setup.py
+paws_acronym/paws_acronym.py
+paws_acronym.egg-info/PKG-INFO
+paws_acronym.egg-info/SOURCES.txt
+paws_acronym.egg-info/dependency_links.txt
+paws_acronym.egg-info/entry_points.txt
+paws_acronym.egg-info/not-zip-safe
+paws_acronym.egg-info/requires.txt
+paws_acronym.egg-info/top_level.txt
