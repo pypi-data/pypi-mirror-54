@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ip_address
+Version: 1.0.1
+Summary: Gets your ip
+Home-page: https://github.com/dewittethomas/ip-address
+Author: Thomas Dewitte
+Author-email: thomasdewittecontact@gmail.com
+License: MIT
+Description: # ip-address
+        
+        [![npm](https://img.shields.io/pypi/v/ip-address.svg)](https://pypi.org/project/ip-address/)
+        
+        Gets your ip
+        
+        ## Installation
+        To install the package run this command:
+        
+        ```bash
+        pip install ip-address
+        ```
+        
+        ## Usage
+        
+        ### Get
+        
+        ```python
+        import ip_address as ip
+        
+        ip.get()
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >= 2.7
+Description-Content-Type: text/markdown
