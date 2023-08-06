@@ -1,0 +1,6 @@
+pyserial
+pathlib
+psutil
+azure-storage-blob
+tornado
+json
