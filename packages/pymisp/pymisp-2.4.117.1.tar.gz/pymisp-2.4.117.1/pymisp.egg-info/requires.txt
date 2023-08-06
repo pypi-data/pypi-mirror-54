@@ -1,0 +1,39 @@
+six
+requests
+python-dateutil
+jsonschema
+python-dateutil
+deprecated
+
+[:python_version < "3.0"]
+functools32
+cachetools
+
+[:python_version < "3.4"]
+enum34
+
+[docs]
+sphinx-autodoc-typehints
+recommonmark
+
+[fileobjects]
+python-magic
+pydeep
+
+[fileobjects:python_version < "3.5"]
+lief<0.10,>=0.8
+
+[fileobjects:python_version > "3.5"]
+lief>=0.10.0.dev0
+
+[neo]
+py2neo
+
+[openioc]
+beautifulsoup4
+
+[pdfexport]
+reportlab
+
+[virustotal]
+validators
