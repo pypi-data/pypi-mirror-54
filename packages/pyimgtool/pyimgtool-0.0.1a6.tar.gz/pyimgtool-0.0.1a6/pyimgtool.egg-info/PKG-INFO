@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyimgtool
+Version: 0.0.1a6
+Summary: Tool to help prep images for web sharing
+Home-page: https://github.com/comfortablynick/pyimgtool
+Author: Nick Murphy
+Author-email: comfortablynick@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/comfortablynick/pyimgtool/issues
+Project-URL: Source, https://github.com/comfortablynick/pyimgtool
+Description: # pyimgtool
+        
+        Image compression/watermarking using pillow. Useful for photographers to prep files for web sharing.
+        
+        ## Features
+        
+        - Resize/thumbnail images to maximum or minimum dimensions
+        - Image watermarking
+        - Text watermarking
+        - JPEG compression
+        
+        ## Install
+        
+        Simply run `pip install pyimgtool`  
+        
+        ## Todo
+        
+        - Automatically find best region for watermarking
+        - Set text watermark color based on target region
+        - Create specific print sizes at 300 dpi
+          - Add padding if image is smaller than print size
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
