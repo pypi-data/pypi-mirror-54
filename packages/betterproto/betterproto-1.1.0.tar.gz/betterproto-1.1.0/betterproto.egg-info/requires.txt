@@ -1,0 +1,6 @@
+grpclib
+stringcase
+
+[compiler]
+jinja2
+protobuf
