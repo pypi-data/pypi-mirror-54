@@ -1,0 +1,4 @@
+integration_test
+libmuscle
+muscle_manager
+muscle_manager_protocol

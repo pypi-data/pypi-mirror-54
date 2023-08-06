@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: muscle3
+Version: 0.2.0
+Summary: Version 3 of the MUltiScale Coupling Library and Environment
+Home-page: https://github.com/multiscale/muscle3
+Author: Lourens Veen
+Author-email: l.veen@esciencecenter.nl
+License: Apache License 2.0
+Keywords: multiscale,coupling,MUSCLE
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5, <4
+Requires-Dist: click
+Requires-Dist: grpcio (==1.17.1)
+Requires-Dist: msgpack
+Requires-Dist: netifaces
+Requires-Dist: protobuf
+Requires-Dist: ruamel.yaml (<=0.15.64)
+Requires-Dist: ymmsl (==0.10.0)
+Provides-Extra: dev
+Requires-Dist: grpcio-tools (==1.17.1) ; extra == 'dev'
+Requires-Dist: mypy-protobuf ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: yapf ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+
+UNKNOWN
+
+
