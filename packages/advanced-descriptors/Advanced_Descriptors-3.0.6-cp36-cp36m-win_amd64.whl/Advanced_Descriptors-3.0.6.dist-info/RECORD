@@ -1,0 +1,13 @@
+Advanced_Descriptors-3.0.6.dist-info/METADATA,sha256=rvP3oxKpr1NT4zhBkboJA4VlXXomg398ug4f0YBJ_3c,8169
+Advanced_Descriptors-3.0.6.dist-info/RECORD,,
+Advanced_Descriptors-3.0.6.dist-info/WHEEL,sha256=xq3J6sB2oJqjv0tDC7tGUGvne1fOugw1JUmk86QA7UM,106
+Advanced_Descriptors-3.0.6.dist-info/top_level.txt,sha256=2g0oA1iN3algEyqt3onbpQ6JXK4mhxSPbEW1CY8Kfsk,21
+advanced_descriptors/__init__.py,sha256=TTx7SyQymo298nlhDv9HN6w4-WZVx80YXrDYDipCwZg,1455
+advanced_descriptors/_version.py,sha256=yO77KHTYcCS8QCwaJtX9saPNz4TzsLMu_My9XqOHRsQ,120
+advanced_descriptors/advanced_property.cp36-win_amd64.pyd,sha256=FRq3gov-gcgmOA39nba-74jiliYVhmsZLsXKIls-lkU,62464
+advanced_descriptors/advanced_property.py,sha256=gXycPLnEcn1HhaKftHIXWE5tvxFQnNY8hWuiijXI2P0,5968
+advanced_descriptors/log_on_access.cp36-win_amd64.pyd,sha256=DyEolmhyzvq8NFFpgJSzYj_yLa00t8sYdn0O1NLes_k,146944
+advanced_descriptors/log_on_access.py,sha256=mXDPCPBMqbb2hlc6HdmEs_w66gu1QIKS7hEUj_k4NU8,14866
+advanced_descriptors/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+advanced_descriptors/separate_class_method.cp36-win_amd64.pyd,sha256=pWj2i1FgJvZV9lSUa4UIDu37Vq-RhBN8YWdxi8DR9uU,80384
+advanced_descriptors/separate_class_method.py,sha256=QU-3-1Vnpqhh_mCEqnxhrSpdoVTKHVJV30j7yjSsqEo,6234
