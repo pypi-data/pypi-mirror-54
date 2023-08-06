@@ -1,0 +1,17 @@
+setup.py
+ssb_optimize/__init__.py
+ssb_optimize/optimizer.py
+ssb_optimize.egg-info/PKG-INFO
+ssb_optimize.egg-info/SOURCES.txt
+ssb_optimize.egg-info/dependency_links.txt
+ssb_optimize.egg-info/requires.txt
+ssb_optimize.egg-info/top_level.txt
+test/__init__.py
+test/constraint_functions.py
+test/objective_functions.py
+test/test_bounded_constrained_nelder_mead.py
+test/test_bounded_constrained_particle_swarm.py
+test/test_bounds_constraints.py
+test/test_least_squares.py
+test/test_nelder_mead.py
+test/test_particle_swarm.py
