@@ -1,0 +1,10 @@
+intec_units-0.0.3.data/purelib/intec/units/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+intec_units-0.0.3.data/purelib/intec/units/construct.py,sha256=cvf0UO2r7hIDG0Oc2lv3S5BJxfyLp5WkwfKnekaNlgE,4439
+intec_units-0.0.3.data/purelib/intec/units/exotic.py,sha256=14OlT_hF_1-m643PUzE2cTlzvNYohIGnQF0U33EJUqw,711
+intec_units-0.0.3.data/purelib/intec/units/intecunits.pyd,sha256=Z4E3-dv5WvgVAdZnwfWf0Whbwtec2IHC4cn-JocBWOI,28672
+intec_units-0.0.3.data/purelib/intec/units/si.py,sha256=-AUxlKyhQ8_yi_WVH13pqHVra-0_Zpc0c7cv383lYyI,4628
+intec_units-0.0.3.data/purelib/intec/units/test/test_units.py,sha256=Ll6CROyLG4n-VU4u5vsSpQwG93cYuB2vt7FCj7scn_M,20805
+intec_units-0.0.3.dist-info/METADATA,sha256=n2sieROhHs5lkaQOO9wj1tLlJc-QHjqZg8DvBOyXaKA,695
+intec_units-0.0.3.dist-info/WHEEL,sha256=lZrZVSunAsdph2A7GL0UUoLJct7efkntCUJ_-xF1QuQ,102
+intec_units-0.0.3.dist-info/top_level.txt,sha256=51aQWDphAoXFfr8Vja88ko9w2Ntq-AjOB6jTLOt6kFQ,6
+intec_units-0.0.3.dist-info/RECORD,,
