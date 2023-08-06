@@ -1,0 +1,10 @@
+README.md
+setup.py
+svg.elements.egg-info/PKG-INFO
+svg.elements.egg-info/SOURCES.txt
+svg.elements.egg-info/dependency_links.txt
+svg.elements.egg-info/top_level.txt
+test/test_path.py
+test/test_path_matrix.py
+test/test_paths.py
+test/test_zingl.py
