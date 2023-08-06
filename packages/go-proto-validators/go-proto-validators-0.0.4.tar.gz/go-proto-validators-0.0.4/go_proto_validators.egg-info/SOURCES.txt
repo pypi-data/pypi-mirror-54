@@ -1,0 +1,10 @@
+setup.py
+github/__init__.py
+github/com/__init__.py
+github/com/mwitkow/__init__.py
+github/com/mwitkow/go_proto_validators/__init__.py
+github/com/mwitkow/go_proto_validators/validator_pb2.py
+go_proto_validators.egg-info/PKG-INFO
+go_proto_validators.egg-info/SOURCES.txt
+go_proto_validators.egg-info/dependency_links.txt
+go_proto_validators.egg-info/top_level.txt
