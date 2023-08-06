@@ -1,0 +1,9 @@
+github/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+github/com/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+github/com/mwitkow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+github/com/mwitkow/go_proto_validators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+github/com/mwitkow/go_proto_validators/validator_pb2.py,sha256=K8EG-ugH5HArwAiC26ODWS2yHCaW-YfhQE0y99O39j8,9448
+go_proto_validators-0.0.4.dist-info/METADATA,sha256=eNP8XK2-mA6HAddvtKndVxJwFLBWgHAa_bre7tPvLl0,290
+go_proto_validators-0.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+go_proto_validators-0.0.4.dist-info/top_level.txt,sha256=X_Dn8Q-zPGudQV37mRBM5uHhwhEsv4x1AeAuB1dfEls,7
+go_proto_validators-0.0.4.dist-info/RECORD,,
