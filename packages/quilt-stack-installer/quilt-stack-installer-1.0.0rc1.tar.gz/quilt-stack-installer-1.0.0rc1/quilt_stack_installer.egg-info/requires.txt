@@ -1,0 +1,6 @@
+appdirs>=1.4.0
+aws-requests-auth>=0.4.2
+boto3>=1.8.0
+requests>=2.12.4
+pyyaml
+click
