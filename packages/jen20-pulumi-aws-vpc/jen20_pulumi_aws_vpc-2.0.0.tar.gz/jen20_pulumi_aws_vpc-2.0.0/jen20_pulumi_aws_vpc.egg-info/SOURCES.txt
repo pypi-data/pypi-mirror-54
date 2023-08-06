@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+jen20_pulumi_aws_vpc/__init__.py
+jen20_pulumi_aws_vpc/iam_helpers.py
+jen20_pulumi_aws_vpc/subnet_distributor.py
+jen20_pulumi_aws_vpc/vpc.py
+jen20_pulumi_aws_vpc.egg-info/PKG-INFO
+jen20_pulumi_aws_vpc.egg-info/SOURCES.txt
+jen20_pulumi_aws_vpc.egg-info/dependency_links.txt
+jen20_pulumi_aws_vpc.egg-info/requires.txt
+jen20_pulumi_aws_vpc.egg-info/top_level.txt
+jen20_pulumi_aws_vpc.egg-info/zip-safe
