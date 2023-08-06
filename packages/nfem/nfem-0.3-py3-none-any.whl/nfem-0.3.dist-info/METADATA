@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nfem
+Version: 0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Thomas Oberbichler
+Author-email: thomas.oberbichler@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: plotly
+
+UNKNOWN
+
+
