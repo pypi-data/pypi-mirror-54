@@ -1,0 +1,3 @@
+[console_scripts]
+radish = radish.__main__:cli
+
