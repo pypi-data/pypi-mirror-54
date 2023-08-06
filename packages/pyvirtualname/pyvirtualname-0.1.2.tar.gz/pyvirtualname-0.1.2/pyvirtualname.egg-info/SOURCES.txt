@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+pyvirtualname/__init__.py
+pyvirtualname/client.py
+pyvirtualname/config.py
+pyvirtualname/exceptions.py
+pyvirtualname.egg-info/PKG-INFO
+pyvirtualname.egg-info/SOURCES.txt
+pyvirtualname.egg-info/dependency_links.txt
+pyvirtualname.egg-info/requires.txt
+pyvirtualname.egg-info/top_level.txt
