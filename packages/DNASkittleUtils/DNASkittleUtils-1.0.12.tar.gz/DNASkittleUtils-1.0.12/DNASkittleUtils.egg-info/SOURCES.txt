@@ -1,0 +1,12 @@
+README.md
+setup.py
+DNASkittleUtils/Annotations.py
+DNASkittleUtils/CommandLineUtils.py
+DNASkittleUtils/Contigs.py
+DNASkittleUtils/DDVUtils.py
+DNASkittleUtils/FastaStats.py
+DNASkittleUtils/__init__.py
+DNASkittleUtils.egg-info/PKG-INFO
+DNASkittleUtils.egg-info/SOURCES.txt
+DNASkittleUtils.egg-info/dependency_links.txt
+DNASkittleUtils.egg-info/top_level.txt
