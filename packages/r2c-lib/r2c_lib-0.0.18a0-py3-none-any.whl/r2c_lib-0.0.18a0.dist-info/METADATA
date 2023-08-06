@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: r2c-lib
+Version: 0.0.18a0
+Summary: Supporting libraries for R2C
+Home-page: https://ret2.co
+Author: R2C
+Author-email: cli@ret2.co
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: docker (>=3.7,<4.0)
+Requires-Dist: gitpython (>=2.1,<3.0)
+Requires-Dist: importlib_resources (>=1.0,<2.0)
+Requires-Dist: jsondiff (>=1.1,<2.0)
+Requires-Dist: jsonschema (>=3.0,<4.0)
+Requires-Dist: mypy-extensions (>=0.4,<0.5)
+Requires-Dist: requests (>=2.0,<3.0)
+Requires-Dist: semantic-version (>=2.6,<3.0)
+Requires-Dist: toposort (>=1.5,<2.0)
+Description-Content-Type: text/markdown
+
+# r2c.lib
+
+This publicly-distributable library contains supporting functionality
+for shared R2C components.
+
