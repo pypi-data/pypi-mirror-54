@@ -1,0 +1,3 @@
+[console_scripts]
+list-cli = list.__main__:main
+
