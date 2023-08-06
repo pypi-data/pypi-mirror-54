@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+example_pkg_tejaswi.egg-info/PKG-INFO
+example_pkg_tejaswi.egg-info/SOURCES.txt
+example_pkg_tejaswi.egg-info/dependency_links.txt
+example_pkg_tejaswi.egg-info/top_level.txt
+example_pkg_your_username.egg-info/PKG-INFO
+example_pkg_your_username.egg-info/SOURCES.txt
+example_pkg_your_username.egg-info/dependency_links.txt
+example_pkg_your_username.egg-info/top_level.txt
