@@ -1,0 +1,10 @@
+wdl_aid/__init__.py,sha256=eW8BdEIVS5vkZEtSaY-8kpE18ZgcrbBCAAXTpBQTh1Y,1340
+wdl_aid/wdl_aid.py,sha256=wXMxPeHirHSUFAqgWcGdNfNZkmtc3cRTZiLDv54Qq-E,16642
+wdl_aid/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wdl_aid/templates/default.md.j2,sha256=EKGzQ0uA9StLgh5YTdRa2OAqybhV6S_7Eb4HZFCtuLE,2153
+WDL_AID-0.1.0.dist-info/LICENSE,sha256=hKw_AmglUd5D41AOCWsp9Xf6yjUnQ7NVl1izRDaLWtw,1089
+WDL_AID-0.1.0.dist-info/METADATA,sha256=13hF__RcVuEvVCYP6_f7D-hKXJyNiQVcfH3JY1w5YTI,1076
+WDL_AID-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+WDL_AID-0.1.0.dist-info/entry_points.txt,sha256=SoTzvGq15EvOqx89pRaaDBZnr_YgYVKUpdxTWxMzXOU,50
+WDL_AID-0.1.0.dist-info/top_level.txt,sha256=4_RRe5FdX4TFUgroid1K9LmmWFkpaqWfjzFe8UvUhYE,8
+WDL_AID-0.1.0.dist-info/RECORD,,

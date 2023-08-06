@@ -1,0 +1,3 @@
+[console_scripts]
+wdl-aid = wdl_aid.wdl_aid:main
+
