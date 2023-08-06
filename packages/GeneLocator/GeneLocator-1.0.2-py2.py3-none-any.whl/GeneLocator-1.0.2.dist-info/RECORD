@@ -1,0 +1,16 @@
+genelocator/__init__.py,sha256=Lh-GDSOPv4kqVTdXSeR8QFpLhHz5FkJMbnZ9PP-xYi4,1264
+genelocator/__version__.py,sha256=yMGvOk_925Q3Z_CdwMQk2_cbjbjDV5MfUe6QcTi2I2Q,18
+genelocator/command_line.py,sha256=e90CH6wAs9ZsgtdOMtRolK4pSK_-uWTIcNMIRvklvDg,1717
+genelocator/download.py,sha256=zl9qwB7wqklKgxQZVxbrEfjBr4XWqHss1ifMvWtwhh8,3874
+genelocator/gencode-grch37-gencode32-all.json.gz,sha256=ujWp8lKhuZ7n9a6rRaJCaBZURZOtAebxmjs1IXvTZXw,1253047
+genelocator/gencode-grch37-gencode32-codinglike.json.gz,sha256=VOCDQTQEh3FqrXTTNP_itqFLlXTYHmRU528fjaU5yI8,433497
+genelocator/gencode-grch37-gencode32-codinglike.pickle,sha256=8vpSxddKM9KiL6vJCDXEVsZWTJYFORa_cPRss7EYx5Q,1908058
+genelocator/gencode-grch38-gencode32-all.json.gz,sha256=05ibcT6aEaPWNOf_HtNwlaE5wgUutlOoVgvrClU7XIY,1191994
+genelocator/gencode-grch38-gencode32-codinglike.json.gz,sha256=Le9JO2w7d3uAZcxSL7lAlejJogqvn6mBCGhKYNTGp84,418535
+genelocator/gencode-grch38-gencode32-codinglike.pickle,sha256=6a2wBO3X5UbzBEHq2ZiWzifcxY4qRQIblkJ-bweFOEo,1855679
+genelocator/locate.py,sha256=-w1EH7jMQRFrJic8VobjZa-sdLrESmoTyU-IrskDz2c,4829
+GeneLocator-1.0.2.dist-info/METADATA,sha256=bRxUuysvlo3HH1Ed4xpK-m5nU7AtNhYt97gkZXxQMWg,1107
+GeneLocator-1.0.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+GeneLocator-1.0.2.dist-info/entry_points.txt,sha256=_aIKomitjwxqBAvTYhB5kTnu9NpOkjRziYVtI8Y6MvU,63
+GeneLocator-1.0.2.dist-info/top_level.txt,sha256=9BsNft0liQ5Pc4s3dIO1UwipbuuAzR6C328MxW_NTI8,12
+GeneLocator-1.0.2.dist-info/RECORD,,
