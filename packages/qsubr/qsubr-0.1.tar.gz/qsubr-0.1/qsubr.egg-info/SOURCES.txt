@@ -1,0 +1,7 @@
+README.md
+setup.py
+qsubr.egg-info/PKG-INFO
+qsubr.egg-info/SOURCES.txt
+qsubr.egg-info/dependency_links.txt
+qsubr.egg-info/entry_points.txt
+qsubr.egg-info/top_level.txt
