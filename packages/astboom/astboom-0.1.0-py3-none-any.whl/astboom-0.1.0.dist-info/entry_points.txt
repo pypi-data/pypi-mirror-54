@@ -1,0 +1,3 @@
+[console_scripts]
+astboom=astboom.main:cli
+
