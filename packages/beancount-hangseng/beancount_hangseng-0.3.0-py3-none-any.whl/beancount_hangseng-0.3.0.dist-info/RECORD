@@ -1,0 +1,11 @@
+beancount_hangseng/MPowerMasterCard.py,sha256=pnlKXgkfk8RXFvQsvs0w39NfY64M2IyGoXkJso7hIPM,7126
+beancount_hangseng/Savings.py,sha256=dVdkCM10mob9txdvManL07buZHPkR1rAm3Y8vE3OrwY,5044
+beancount_hangseng/__init__.py,sha256=3B2Bd3bkkkRH8nDM-AiaHYn3L5z9DpJyOO3gOtGt1_o,171
+beancount_hangseng/utils.py,sha256=s5gebcPa8D5BCJNvYA1jc9NbhHClovXycWwIQfwOw6k,930
+beancount_hangseng/scripts/csv.py,sha256=NWbb7a2MgEhZKC2zpqP5BbXp_ZfhCQ9-qw8jzq_ALjY,3494
+beancount_hangseng-0.3.0.data/scripts/beancount-hangseng-csv,sha256=5BEd1zONTLCNdVdN8H4eEvErjfcmDP0Km9t5mGHMJvE,144
+beancount_hangseng-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+beancount_hangseng-0.3.0.dist-info/METADATA,sha256=6OSz-tXxNQtdXwwt0XnPmujwxsYfuqYdiSOGFa6F4Bg,2391
+beancount_hangseng-0.3.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+beancount_hangseng-0.3.0.dist-info/top_level.txt,sha256=9Ov8ipvdBKWc1f39suROr8TK7WLrvLc1Lv7kxksWsC4,19
+beancount_hangseng-0.3.0.dist-info/RECORD,,
