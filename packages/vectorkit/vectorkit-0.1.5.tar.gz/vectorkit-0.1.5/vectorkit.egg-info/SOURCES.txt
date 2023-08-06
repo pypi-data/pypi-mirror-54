@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+vectorkit/__init__.py
+vectorkit/vectortools.py
+vectorkit.egg-info/PKG-INFO
+vectorkit.egg-info/SOURCES.txt
+vectorkit.egg-info/dependency_links.txt
+vectorkit.egg-info/entry_points.txt
+vectorkit.egg-info/top_level.txt
