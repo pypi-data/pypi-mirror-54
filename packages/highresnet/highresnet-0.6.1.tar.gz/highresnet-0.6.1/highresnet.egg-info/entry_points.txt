@@ -1,0 +1,4 @@
+[console_scripts]
+deepgif = highresnet.cli.deepgif:main
+download_oasis = highresnet.cli.download_oasis:main
+
