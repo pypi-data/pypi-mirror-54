@@ -1,0 +1,7 @@
+README.rst
+lazyjson.py
+setup.py
+lazyjson.egg-info/PKG-INFO
+lazyjson.egg-info/SOURCES.txt
+lazyjson.egg-info/dependency_links.txt
+lazyjson.egg-info/top_level.txt
