@@ -1,0 +1,15 @@
+dkd/__init__.py,sha256=SmO9iqoLEvIDcFJzQNUEPBAYVgqr7GjmasZkRiBvEm4,2154
+dkd/content.py,sha256=g0nJV4YpNjrPFfT8vsDaOsgfvKFg7c2ZPJGht8jJ15I,4488
+dkd/delegate.py,sha256=NJurHyHGLmMTuYmVSfCMeKpZZjeriyXw60gxv4gcGQU,6027
+dkd/envelope.py,sha256=k-049cgGxviaGKMmNqIFU4P4h5P_suafPEdxHNCAqpo,4782
+dkd/forward.py,sha256=Wr4l7WUO30CV45sSlVMhZAiqls4CiiWQ9_B1tC_Pv7c,3119
+dkd/instant.py,sha256=MWLDPTcjmCGq52SydCdcCNq8VP9tU-onJ-D66zcobQc,6014
+dkd/message.py,sha256=4bRvpkMH47yjFz5nSZHsMmsena2cWCJhmu-IZl6SEJg,3915
+dkd/reliable.py,sha256=yoVyVhC9GbmVQATSi30zrXo9S4rhCAl4-qq3jwMySwY,4642
+dkd/secure.py,sha256=GPlmdsvonROlroWE0KUdz3xNy3X9YV336qE4njFnnN4,9897
+dkd/types.py,sha256=nfdvKRo5YvJhIVAHFssaJFXjx2ZRgzzXCzRtESVP5OQ,3990
+dkd-0.5.7.dist-info/LICENSE,sha256=f9RfCc6rHcYMkHraf6QV05J_AIkRVXVMHw_N9IMJ_RA,1068
+dkd-0.5.7.dist-info/METADATA,sha256=k4RYsEy68X9-ldOTGlKJgXCREQ-GuNIl--utjzeghHY,6021
+dkd-0.5.7.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+dkd-0.5.7.dist-info/top_level.txt,sha256=-JgwIa4yfVBzLuS84OT3ZvEaX4AJXkX6h9ggTG-kV1Q,4
+dkd-0.5.7.dist-info/RECORD,,
