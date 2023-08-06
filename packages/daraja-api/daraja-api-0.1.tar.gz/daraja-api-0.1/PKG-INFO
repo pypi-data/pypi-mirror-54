@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: daraja-api
+Version: 0.1
+Summary: yet another python daraja api library
+Home-page: https://github.com/jakhax/python_daraja_api
+Author: jack ogina
+Author-email: jackogina60@gmail.com
+License: MIT
+Download-URL: https://github.com/jakhax/python_daraja_api.git
+Description: UNKNOWN
+Keywords: daraja,safaricom,mpesa
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
