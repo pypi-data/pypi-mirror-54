@@ -1,0 +1,8 @@
+youtube-dl>=2019.01.24
+PyChromecast>=2.4.0
+Click>=5.0
+ifaddr>=0.1.4
+requests>=2.18.4
+
+[:python_version < "3.5"]
+typing
