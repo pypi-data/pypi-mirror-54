@@ -1,0 +1,12 @@
+noterrors_sdk/__init__.py,sha256=qizddNnORoyimCBYDM_mxqJLqtZ_23F1qansBd7LB5E,260
+noterrors_sdk/client.py,sha256=IJ3fvrzf9kmKFAgFgYmJyFkvNqo4xXXbo2mdROMKbOw,4064
+noterrors_sdk/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noterrors_sdk/integrations/aiohttp.py,sha256=fv_niGzSTAcN6qHu_SuP1OgUz1nHCRnIUs0Uh_dzUeU,779
+noterrors_sdk/integrations/asyncio.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noterrors_sdk/integrations/base.py,sha256=O9c0NTgLS4uxVK4PdNlMMN7XOXyPWEqzCnPfna7W7No,728
+noterrors_sdk/integrations/basic.py,sha256=karvoOXwQgkhq2KFi5i8M0v0KaJ1it-hZPa-RVtZ2gk,546
+noterrors_sdk/integrations/django.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noterrors_sdk-0.1.dist-info/METADATA,sha256=3TN7FqUx9_hiLyKYMAmwAhAkB3JXUnxBxY1Zj6xxfWo,425
+noterrors_sdk-0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+noterrors_sdk-0.1.dist-info/top_level.txt,sha256=DBefnvJlCl4Uc1Z66mXxFEDQhNw7ThbU7GdPb-VBnmg,14
+noterrors_sdk-0.1.dist-info/RECORD,,
