@@ -1,0 +1,7 @@
+README.md
+fdups.py
+setup.py
+fdups.egg-info/PKG-INFO
+fdups.egg-info/SOURCES.txt
+fdups.egg-info/dependency_links.txt
+fdups.egg-info/top_level.txt
