@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+BayesianOptimization/__init__.py
+BayesianOptimization.egg-info/PKG-INFO
+BayesianOptimization.egg-info/SOURCES.txt
+BayesianOptimization.egg-info/dependency_links.txt
+BayesianOptimization.egg-info/requires.txt
+BayesianOptimization.egg-info/top_level.txt
