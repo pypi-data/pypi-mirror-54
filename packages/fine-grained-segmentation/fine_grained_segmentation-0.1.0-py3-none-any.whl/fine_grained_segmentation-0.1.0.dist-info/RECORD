@@ -1,0 +1,6 @@
+fine_grained_segmentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fine_grained_segmentation/detect.py,sha256=EXx-n6WzR8Jv4SqAKA9sDH3Hhwmq6hzPC1ugvCDk17A,3135
+fine_grained_segmentation-0.1.0.dist-info/METADATA,sha256=q16XCT9OXAJGoP1WDVhWScrDRMWDdBvmCV4REJDu6d0,1277
+fine_grained_segmentation-0.1.0.dist-info/RECORD,,
+fine_grained_segmentation-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+fine_grained_segmentation-0.1.0.dist-info/top_level.txt,sha256=z1P-2CYBbO_spXhP4_ZUnmIHjDmUWradlFbB_qLFn1Y,26
