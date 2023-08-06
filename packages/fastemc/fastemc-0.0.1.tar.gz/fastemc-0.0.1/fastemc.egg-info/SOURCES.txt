@@ -1,0 +1,9 @@
+README.md
+setup.py
+fastemc/__init__.py
+fastemc/__main__.py
+fastemc/fastemc.py
+fastemc.egg-info/PKG-INFO
+fastemc.egg-info/SOURCES.txt
+fastemc.egg-info/dependency_links.txt
+fastemc.egg-info/top_level.txt

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fastemc
+Version: 0.0.1
+Summary: FastEMC is a method for dimensionality reduction.
+Home-page: https://github.com/rowland-208/fastemc
+Author: James Rowland
+Author-email: rowland.208@gmail.com
+License: UNKNOWN
+Description: # FastEMC
+        ### Fast Exponential Monte Carlo
+        
+        FastEMC is a modified version of exponential Monte Carlo.
+        FastEMC takes class features and labels as input,
+        and returns a list of scores and a list of selected features.
+        The score is based on logistic regression.
+        Two logistic regression classifiers are used:
+        1) a fast classifier with limited training,
+        2) and a slow classifier with full training.
+        
+        The fast classifier is used to explore feature space rapidly.
+        Features are occasionaly compared using the slow classifier.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
