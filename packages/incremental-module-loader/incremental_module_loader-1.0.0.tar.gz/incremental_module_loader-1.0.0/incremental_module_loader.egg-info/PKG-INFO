@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: incremental-module-loader
+Version: 1.0.0
+Summary: Micro-framework to allow incremental dependencies injection in inter-related modules.
+Home-page: https://gitlab.com/tackv/incremental-module-loader
+Author: William Laroche
+Author-email: william.laroche@tackv.ca
+Maintainer: William Laroche
+Maintainer-email: william.laroche@tackv.ca
+License: MIT
+Description: # Incremental Module Loader
+        
+        Proposes a injection pattern for your modules. Each module is simply a callable which takes other named modules as arguments. It is very simple with less than 40 statements of code and allows a great deal of flexibility while still removing frequent boilerplate we had to write on each of our projects. 
+        
+        This module is used by our SpinHub App (https://www.spinhub.ca) which is currently in development. It is the main building block of our module/service based architecture.
+        
+        ## Use-Case 1: Modularize a flask app
+        
+        You have an auth service, a database service and an blueprint creator function. How do you hook all of these together while keeping good separation of concerns and allowing injection of mocked services ? Let's see:
+        
+        ```python
+        
+        from incremental_module_loader import IncrementalModuleLoader
+        
+        from flask import request, jsonify
+        
+        class RequestParsingModule(object):
+            def get_authorization_header(self):
+                return request.headers.get('Authorization', None)
+        
+        class MyAuthModule(object):
+            def __init__(self, config, request_parser):
+                self.url = config['AUTH_URL']
+                self.request_parser = request_parser
+            
+            def get_user_id_from_token(self):
+                header = request_parser.get_authorization_header()
+                pass # Extract user id from header token...
+        
+        class MyDatabaseModule(object):
+            def __init__(self, config, auth):
+                self.db_uri = config['SQLALCHEMY_DATABASE_URI']
+                self.auth = auth
+        
+            def get_user(self):
+                user_id = self.auth.get_user_id_from_token()
+                pass # Retrieve user data from database...
+        
+        # Note the name of the arguments here:
+        def route_app(app, config, database):
+        
+            @app.route('/userinfo')
+            def userinfo():
+                # This triggers the auth verification from the header extracted from the request parser
+                user = database.get_user()
+                return jsonify(user.dump())
+                # ...
+        
+        
+        def create_app():
+            app = # (...) Standard app creation with config loading
+        
+            module_loader = IncrementalModuleLoader()
+        
+            # First init the modules with already created objects:
+            module_loader.update(
+                app=app,
+                config=app.config
+            )
+        
+            # Then load in order ("incrementally")
+            # Make sure to specify a CALLABLE object (function or class)
+            # The module_loader will call the parameter with the modules it is asking as parameters.
+            module_loader.load(request_parser=RequestParsingModule)
+            module_loader.load(auth=MyAuthModule)
+            module_loader.load(database=MyDatabaseModule)
+        
+            # Can be loaded anonymously, returns nothing.
+            module_loader.load(route_app)
+        
+            # There you have it !
+        
+        ```
+        
+        # Creators
+        
+        Created by Tack Verification, a company dedicated to reducing operational costs related to hardware systems verification. 
+        https://www.tackv.ca
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
