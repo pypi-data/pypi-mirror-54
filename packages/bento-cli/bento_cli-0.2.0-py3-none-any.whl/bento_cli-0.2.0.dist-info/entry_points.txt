@@ -1,0 +1,3 @@
+[console_scripts]
+bento = bento.cli:cli
+
