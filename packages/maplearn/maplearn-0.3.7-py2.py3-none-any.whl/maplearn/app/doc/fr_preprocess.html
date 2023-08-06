@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Mapping Learning</title>
+<link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+<h1><img src="../gui/Icon/preprocess_icon.png" class="icon_big"> Prétraitements</h1>
+
+Etape optionnelle mais qui peut s'avérer fondamentale, les prétraitements
+permettent :
+
+<ul>
+<li>d'<strong>améliorer les résultats</strong> des traitements,</li>
+<li>d'<strong>accélérer les traitements</strong> en réduisant la taille du jeu de 
+données,</li>
+<li>de <strong>corriger</strong> certains défauts dans le jeu de données.</li>
+</ul>
+
+<h3>Centrer/réduire</h3>
+
+Vos features peuvent avoir des <strong>gammes de valeur très différentes</strong>,
+ce qui gène nombre d'algorithmes. Centrer/réduire efface ces différences en 
+donnant à tous vos features une moyenne égale à 0, et un écart-type de 1.
+<br><br>
+<i>NB: cette technique accélérant généralement les traitements, il est coché 
+par défaut.</i>
+
+<h3>Equilibrage des échantillons</h3>
+
+Les échantillons sont <i>déséquilibrés</i> lorsqu'une ou plusieurs classes est
+prédominante. L'équilibrage consiste à <strong>sous-échantillonner les classes
+avec le plus d'individus</strong>.
+
+<h3>Séparabilité</h3>
+
+La sébarabilité donne une indication sur la faisabilité d'une classification, 
+avant celle-ci.
+Se reposant uniquement sur les distances entre les individus des 
+échantillons, une bonne séparabilité permettra logiquement des bons résultats
+de classification.
+
+<h2>Réduction des dimensions</h2>
+
+Réduire les dimensions peut s'avérer nécessaire pour des <strong>jeux de 
+données volumineux</strong>, mais aussi utile pour mieux comprendre ses données,
+en identifiant les <strong>features les plus importants</strong>.
+<br><br>
+La réduction peut se faire en :
+<ul>
+<li><strong>sélectionnant des features</strong>,comme avec les méthodes 
+<i>kbest, rfe...</i>,</li>
+<li><strong>transformant le jeu de données</strong>, comme avec les méthodes 
+<i>pca, lda...</i></li>
+</ul>
+Une fois la méthode choisie, vous pourrez préciser le <strong>nombre de 
+dimensions</strong> souhaité.
+</body>

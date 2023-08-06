@@ -1,0 +1,54 @@
+
+<!DOCTYPE html><html lang="fr"><head>
+<meta charset="utf-8">
+<title>Mapping Learning</title>
+<link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+<h1><img src="../gui/Icon/process_icon.png" class="icon_big"> Traitements</h1>
+
+<h2>Algorithmes</h2>
+
+Une des forces de <i>maplearn</i> est sa bibliothèque d'algorithmes, dont la
+richesse doit tout à la librairie <a href="https://scikit-learn.org/">
+scikit-learn</a> (merci à eux).
+<br><br>
+Vous pouvez choisir un ou plusieurs algorithmes dans la liste. Si aucun
+algorithme est sélectionné, ils seront tous appliqués (déconseillé, car long).
+
+<h2>Validation croisée (k-fold)</h2>
+
+Pour estimer la précision d'une précision, il faut désigner parmi les 
+échantillons des individus utilisés pour l'<strong>entraînement</strong> et d'autres pour la 
+<strong>validation</strong>.
+<br><br>
+La validation croisée s'en charge pour vous, en sélectionnant 1/k des 
+échantillons pour la validation, le reste servant à l'entraînement. De plus,
+l'opération est répétée k fois (avec à chaque fois des lots indépendants), 
+permettant d'évaluer la robustesse de vos prédictions.
+
+<h2>"Optimisation"</h2>
+
+L'optimisation, ou plutôt la <strong>recherche des hyperparamètres optimaux
+</strong> consiste à essayer différentes valeurs d'hyperparamètres et de ne
+retenir que les valeurs donnant la meilleure précision.
+
+<i>NB : le processus peut être long...</i>
+
+<h2>Prédiction</h2>
+
+Cela peut surprendre, mais <i>maplearn</i> se contente d'évaluer les modèles
+retenus, sans réaliser de prédiction sur votre jeu de données. La raison est
+qu'il est préférable de cerner le/les meilleurs modèles d'un point de vue 
+statistique, avant de réaliser des prédictions sur des jeux de données 
+potentiellement très volumineux...
+
+<h2>Distance (avancée)</h2>
+
+Les modèles en machine learning se composent généralement d'un algorithme 
+appliqué sur une <strong>matrice de distances</strong>. Par défaut, <i>maplearn</i>
+utilise la <strong>distance euclidienne</strong>, qui est de loin la plus 
+classique.
+
+</body>

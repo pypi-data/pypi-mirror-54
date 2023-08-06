@@ -1,0 +1,5 @@
+[console_scripts]
+maplearn = maplearn.run:run
+maplearn_example = maplearn.run_example:main
+maplearn_gui = maplearn.run_gui:main
+
