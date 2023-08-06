@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: HeroChatServer
+Version: 0.9.1
+Summary: Server package for HeroChat.
+Home-page: UNKNOWN
+Author: Rex1k
+Author-email: kiber-rex@mail.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+
+UNKNOWN
+
+
