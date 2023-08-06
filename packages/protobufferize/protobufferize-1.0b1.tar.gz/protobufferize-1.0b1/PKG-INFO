@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: protobufferize
+Version: 1.0b1
+Summary: Compile protobuffers with setuptools
+Home-page: https://github.com/pierlauro/protobufferize
+Author: pierlauro
+Author-email: foss@pstux.dev
+License: GNU Affero General Public License v3.0
+Project-URL: Bug Tracker, https://github.com/pierlauro/protobufferize/issues
+Project-URL: Source, https://github.com/pierlauro/protobufferize
+Description: ## protobufferize
+        
+        A simple setuptools plugin to compile proto files at build time.
+        
+        ### Installation
+        
+        Install from PyPI: ```pip install protobufferize```
+        
+        
+        ### Configuration
+        
+        Available configuration parameters:
+        - `clearOutputDirectory` [default: false]
+        - `outputDirectory` [default: ./output]
+        - `protoSourceRoot` [default: ./protos]
+        - `protoVersion` [default: 3.10.1]
+        
+        XML configuration example:
+        
+        ```xml
+        <ProtobufferizeConfiguration>
+        	<clearOutputDirectory>false</clearOutputDirectory>
+        	<outputDirectory>test_data/output</outputDirectory>
+        	<protoSourceRoot>test_data/protos</protoSourceRoot>
+        	<protoVersion>3.10.1</protoVersion>
+        </ProtobufferizeConfiguration>
+        ```
+        
+        A xml configuration file named `protobufferize.xml` should be put in the python's project root folder. 
+        In alternative, the configuration file's path can be specified in the environment variable `protobufferize_conf`.
+        
+        ### Usage
+        
+        Compile every `.proto` file in `protoSourceRoot` subdirectories and output in the specified `outputDirectory` (`outputDirectory` gets emptied beforewards if `clearOutputDirectory` set to `true`).
+        
+        ```sh
+        python setup.py protobufferize
+        ```
+        
+        
+Keywords: protocolbuffer proto protobuf grpc setuptools protobufferize
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
