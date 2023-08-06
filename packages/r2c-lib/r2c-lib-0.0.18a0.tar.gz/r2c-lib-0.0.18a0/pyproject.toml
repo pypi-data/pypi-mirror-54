@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "r2c-lib"
+version = "0.0.18-alpha.0"
+description = "Supporting libraries for R2C"
+authors = ["R2C <cli@ret2.co>"]
+readme = "README.md"
+homepage = "https://ret2.co"
+classifiers=[
+  "Programming Language :: Python :: 3",
+  "License :: Other/Proprietary License",
+  "Operating System :: OS Independent",
+]
+packages = [
+  { include = "r2c" },
+]
+exclude = ["r2c/lib/tests/**"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+docker = "^3.7"
+toposort = "^1.5"
+jsondiff = "^1.1"
+gitpython = "^2.1"
+requests = "^2.0"
+jsonschema = "^3.0"
+semantic-version = "^2.6"
+importlib_resources = "^1.0"
+mypy-extensions = "^0.4"
+
+[tool.poetry.dev-dependencies]
+black = "==18.9b0"
+pytest = "^3.9"
+lxml = "^4.2"
+mypy = "^0.740"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
