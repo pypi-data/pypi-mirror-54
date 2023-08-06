@@ -1,0 +1,12 @@
+functions/__init__.py,sha256=WlPDbU3AzkyKhhCIXLpZZMhkayHm8EDBhudafrU5qrM,104
+functions/readConfig.py,sha256=xDJtPOjzKdUCq8b-4N5ZCWWtABpQsxYTgzZ2iAfD9yc,757
+functions/sqlite_data.py,sha256=91bKQ90xstD-8rtZuYPlsHRhI10QsUAueDAggFgJlNg,7106
+theos_functions/__init__.py,sha256=32cupkr1PFoaRJAMcYCTeZIHplKueC08avIbXO0yiMI,120
+theos_functions/date_time_functions.py,sha256=B8Pfi74t6UTXp7LG_Fy0_8aQLF4Hj-ONFNMEH11i7t0,881
+theos_functions/readConfig.py,sha256=Rl6ErNuVTbxuMGGERiueIwRbAnrWYVuUHncf_QYzUGo,819
+theos_functions/sqlite_data.py,sha256=KXrH42QpUWdyyF6t_u_OC8t8MCj7RwCXeuUnHqS-gIk,9978
+Theos_python_functions-0.0.6.0.dist-info/LICENSE,sha256=FISFpVjTgVCqGg-OWebcF0U_UiOhwd_iPHP4Pl5Sv08,1076
+Theos_python_functions-0.0.6.0.dist-info/METADATA,sha256=r-fntXGgllxu3fEVGzGSPIqFv5UmZ66sK55LD8sUxjo,4928
+Theos_python_functions-0.0.6.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+Theos_python_functions-0.0.6.0.dist-info/top_level.txt,sha256=ibd_vxv-aluoVB5PhJhng3lfQK21i97qiELqPZeUHeM,16
+Theos_python_functions-0.0.6.0.dist-info/RECORD,,
