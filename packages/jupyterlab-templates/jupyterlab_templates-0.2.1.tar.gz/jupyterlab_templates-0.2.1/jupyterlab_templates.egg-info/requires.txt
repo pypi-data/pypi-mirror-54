@@ -1,0 +1,8 @@
+jupyterlab>=1.0.0
+
+[dev]
+pytest
+pytest-cov
+pylint
+flake8
+bumpversion
