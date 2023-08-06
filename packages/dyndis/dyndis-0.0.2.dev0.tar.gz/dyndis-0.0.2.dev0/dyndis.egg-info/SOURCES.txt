@@ -1,0 +1,13 @@
+CHANGELOG.md
+README.md
+setup.py
+dyndis/__data__.py
+dyndis/__init__.py
+dyndis/candidate.py
+dyndis/implementor.py
+dyndis/multi_dispatch.py
+dyndis/trie.py
+dyndis.egg-info/PKG-INFO
+dyndis.egg-info/SOURCES.txt
+dyndis.egg-info/dependency_links.txt
+dyndis.egg-info/top_level.txt
