@@ -1,0 +1,81 @@
+#!/Users/castro/miniconda2/envs/hstools/bin/python
+
+
+import sys
+import argparse
+from hstools.funcs import add, get, create, delete, ls, init
+
+def print_usage(args):
+
+    if len(args) == 0:
+        pass
+    else:
+        return 'hs'
+
+def set_usage(parser):
+
+    options = []
+    for k, v in parser._subparsers._actions[1].choices.items():
+        options.append(k)
+    
+    parser.usage = '%(prog)s {' \
+                   f'{", ".join(options)}' \
+                   '} [-h, --help]'
+
+
+if __name__ == '__main__':
+    
+    desc = """
+    HSTools is a humble collection of tools for interacting with data in the
+    HydroShare repository. It wraps the HydroShare REST API to provide
+    simple commands for working with resources.
+    """
+
+    argv = sys.argv[1:]
+    parser = argparse.ArgumentParser(description=desc)
+    parser.usage = print_usage(argv)
+
+    sub = parser.add_subparsers()
+
+    # hs get
+    hs_get = sub.add_parser('get', help = get.short_help())
+    get.add_arguments(hs_get)
+    hs_get.set_defaults(func=get.main)
+
+    # hs add
+    hs_add = sub.add_parser('add', help = add.short_help())
+    add.add_arguments(hs_add)
+    hs_add.set_defaults(func=add.main)
+
+    # hs create
+    hs_create = sub.add_parser('create', help = create.short_help())
+    create.add_arguments(hs_create)
+    hs_create.set_defaults(func=create.main)
+    
+    # hs delete
+    hs_delete = sub.add_parser('delete', help = delete.short_help())
+    delete.add_arguments(hs_delete)
+    hs_delete.set_defaults(func=delete.main)
+    
+    # hs list
+    hs_ls = sub.add_parser('ls', help = ls.short_help())
+    ls.add_arguments(hs_ls)
+    hs_ls.set_defaults(func=ls.main)
+
+    # hs initialize
+    hs_init = sub.add_parser('init', help = init.short_help())
+    init.add_arguments(hs_init)
+    hs_init.set_defaults(func=init.main)
+
+    set_usage(parser)
+
+    args = parser.parse_args()
+
+
+    # print help if sub-parser was not provided
+    if not getattr(args, 'func', 0):
+        parser.print_help()
+    else:
+        args.func(args)
+
+
