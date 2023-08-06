@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+k4a_python.egg-info/PKG-INFO
+k4a_python.egg-info/SOURCES.txt
+k4a_python.egg-info/dependency_links.txt
+k4a_python.egg-info/not-zip-safe
+k4a_python.egg-info/requires.txt
+k4a_python.egg-info/top_level.txt
+pyk4a/StaticImageProperties.cpp
+pyk4a/__init__.py
+pyk4a/pyk4a.cpp
+pyk4a/include/DepthPixelColorizer.h
+pyk4a/include/Pixel.h
+pyk4a/include/StaticImageProperties.h
+pyk4a/include/pyk4a.h
