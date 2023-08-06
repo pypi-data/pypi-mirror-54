@@ -1,0 +1,6 @@
+numpy
+matplotlib
+Cython
+scipy
+jinja2
+geomdl
