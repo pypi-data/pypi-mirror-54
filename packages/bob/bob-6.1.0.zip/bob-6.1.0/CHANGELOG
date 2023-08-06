@@ -1,0 +1,389 @@
+* bob/bob.buildout
+  * v2.2.1 (Sep 16, 2019 15:23)
+     * Python 3.7 support
+* bob/bob.extension
+  * v3.1.2 (Sep 16, 2019 15:31)
+     * Python 3.7 support
+  * minor
+     - bob/bob.extension!103 Resolve "bob config fixes"
+     - bob/bob.extension!104 [config] added confirmation prompt before deleting anything from global config file
+     - bob/bob.extension!105 Break circular dependency on bob.blitz by moving the related tests to bob.blitz
+* bob/bob.blitz
+  * v2.0.18 (Sep 16, 2019 15:56)
+     * Python 3.7 support
+  * patch
+     - bob/bob.blitz!12 Move the tests for an example package from bob.extension to here: This breaks the circular dependency of bob.extension and bob.blitz.
+* bob/bob.core
+  * v2.2.3 (Sep 16, 2019 16:09)
+     * Python 3.7 support
+* bob/bob.io.base
+  * v3.0.6 (Sep 16, 2019 17:42)
+     * Python 3.7 support
+* bob/bob.math
+  * v3.1.4 (Sep 16, 2019 17:58)
+     * Python 3.7 support
+* bob/bob.measure
+  * v4.1.1 (Sep 16, 2019 18:19)
+     * bob/bob.measure!95 Improve threshold calculation in ROC, DET, and Precision and Recall plots
+     * bob/bob.measure!96 Add an alpha option to ROC,DET,EPC figures: Also, enables you to change the default value in `tablefmt` option.
+     * Python 3.7 support
+* bob/bob.io.image
+  * v2.4.4 (Sep 16, 2019 19:46)
+     * Python 3.7 support
+* bob/bob.db.base
+  * v3.0.3 (Sep 17, 2019 04:17)
+     * Python 3.7 support
+* bob/bob.io.video
+  * patch
+     - Python 3.7 support
+* bob/bob.io.matlab
+  * patch
+     - Python 3.7 support
+* bob/bob.io.audio
+  * patch
+     - Python 3.7 support
+* bob/bob.sp
+  * patch
+     - Python 3.7 support
+* bob/bob.ap
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.base
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.color
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.draw
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.gabor
+  * patch
+     - Python 3.7 support
+* bob/bob.learn.activation
+  * patch
+     - Python 3.7 support
+* bob/bob.learn.libsvm
+  * patch
+     - Python 3.7 support
+* bob/bob.learn.linear
+  * patch
+     - Python 3.7 support
+* bob/bob.learn.mlp
+  * patch
+     - Python 3.7 support
+* bob/bob.learn.boosting
+  * patch
+     - bob/bob.learn.boosting!10 Do not build a library to avoid C++ API incompatibilities (see bob/bob.learn.boosting#2): This is not a "fix" to bob/bob.learn.boosting#2, but makes the package work again by avoiding a CMake-library that may have an incompatible C++ ABI.
+     - Python 3.7 support
+* bob/bob.db.iris
+  * patch
+     - Python 3.7 support
+* bob/bob.learn.em
+  * patch
+     - bob/bob.learn.em!37 Fixing possible issue with numpy.ndarray.resize: This fixes bob/bob.learn.em#31 for python 3.7
+     - Python 3.7 support
+* bob/bob.db.wine
+  * patch
+     - Python 3.7 support
+* bob/bob.db.mnist
+  * patch
+     - Python 3.7 support
+* bob/bob.db.atnt
+  * patch
+     - bob/bob.db.atnt!11 Using bob.extension download script
+     - Python 3.7 support
+* bob/bob.ip.facedetect
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.optflow.hornschunck
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.optflow.liu
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.flandmark
+  * patch
+     - Python 3.7 support
+* bob/gridtk
+  * patch
+     - bob/gridtk!29 Automatically remove G from memory commands in GPU queues
+     - bob/gridtk!30 Refresh the status of jobs from SGE before listing them
+     - Python 3.7 support
+* bob/bob.ip.qualitymeasure
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.skincolorfilter
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.facelandmarks
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.dlib
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.mtcnn
+  * patch
+     - Python 3.7 support
+* bob/bob.db.arface
+  * patch
+     - Python 3.7 support
+* bob/bob.db.asvspoof
+  * patch
+     - Python 3.7 support
+* bob/bob.db.asvspoof2017
+  * patch
+     - Python 3.7 support
+* bob/bob.db.atvskeystroke
+  * patch
+     - Python 3.7 support
+* bob/bob.db.avspoof
+  * patch
+     - Python 3.7 support
+* bob/bob.db.banca
+  * patch
+     - Python 3.7 support
+* bob/bob.db.biosecure
+  * patch
+     - Python 3.7 support
+* bob/bob.db.biosecurid.face
+  * patch
+     - Python 3.7 support
+* bob/bob.db.casia_fasd
+  * patch
+     - Python 3.7 support
+* bob/bob.db.casme2
+  * patch
+     - Python 3.7 support
+* bob/bob.db.caspeal
+  * patch
+     - Python 3.7 support
+* bob/bob.db.cohface
+  * patch
+     - Python 3.7 support
+* bob/bob.db.frgc
+  * patch
+     - Python 3.7 support
+* bob/bob.db.gbu
+  * patch
+     - Python 3.7 support
+* bob/bob.db.hci_tagging
+  * patch
+     - Python 3.7 support
+* bob/bob.db.ijba
+  * patch
+     - Python 3.7 support
+* bob/bob.db.ijbc
+  * patch
+     - Python 3.7 support
+* bob/bob.db.kboc16
+  * patch
+     - Python 3.7 support
+* bob/bob.db.lfw
+  * patch
+     - Python 3.7 support
+* bob/bob.db.livdet2013
+  * patch
+     - Python 3.7 support
+* bob/bob.db.mobio
+  * patch
+     - Python 3.7 support
+* bob/bob.db.msu_mfsd_mod
+  * patch
+     - Python 3.7 support
+* bob/bob.db.multipie
+  * patch
+     - Python 3.7 support
+* bob/bob.db.nist_sre12
+  * patch
+     - Python 3.7 support
+* bob/bob.db.putvein
+  * patch
+     - Python 3.7 support
+* bob/bob.db.replay
+  * patch
+     - Python 3.7 support
+* bob/bob.db.replaymobile
+  * patch
+     - Python 3.7 support
+* bob/bob.db.scface
+  * patch
+     - Python 3.7 support
+* bob/bob.db.utfvp
+  * patch
+     - Python 3.7 support
+* bob/bob.db.verafinger
+  * patch
+     - Python 3.7 support
+* bob/bob.db.fv3d
+  * patch
+     - Python 3.7 support
+* bob/bob.db.hkpu
+  * patch
+     - Python 3.7 support
+* bob/bob.db.thufvdt
+  * patch
+     - Python 3.7 support
+* bob/bob.db.mmcbnu6k
+  * patch
+     - Python 3.7 support
+* bob/bob.db.hmtvein
+  * patch
+     - Python 3.7 support
+* bob/bob.db.voicepa
+  * patch
+     - Python 3.7 support
+* bob/bob.db.xm2vts
+  * patch
+     - Python 3.7 support
+* bob/bob.db.youtube
+  * patch
+     - Python 3.7 support
+* bob/bob.db.pericrosseye
+  * patch
+     - Python 3.7 support
+* bob/bob.db.maskattack
+  * patch
+     - Python 3.7 support
+* bob/bob.db.casiasurf
+  * patch
+     - Python 3.7 support
+* bob/bob.db.fargo
+  * patch
+     - Python 3.7 support
+* bob/bob.bio.base
+  * patch
+     - bob/bob.bio.base!178 Fixed issue with numpy.ndarray.resize py37
+     - Python 3.7 support
+* bob/bob.bio.gmm
+  * patch
+     - Python 3.7 support
+* bob/bob.bio.face
+  * patch
+     - Python 3.7 support
+* bob/bob.bio.spear
+  * patch
+     - Python 3.7 support
+* bob/bob.bio.video
+  * patch
+     - Python 3.7 support
+* bob/bob.bio.vein
+  * patch
+     - Python 3.7 support
+* bob/bob.db.voxforge
+  * patch
+     - Python 3.7 support
+* bob/bob.rppg.base
+  * patch
+     - Python 3.7 support
+* bob/bob.pad.base
+  * patch
+     - bob/bob.pad.base!63 Use plot.roc instead of plot.roc_for_far in vulnerability ROC plots
+     - Python 3.7 support
+* bob/bob.pad.face
+  * patch
+     - Python 3.7 support
+* bob/bob.pad.voice
+  * patch
+     - Python 3.7 support
+* bob/bob.pad.vein
+  * patch
+     - Python 3.7 support
+* bob/bob.fusion.base
+  * patch
+     - Python 3.7 support
+* bob/bob.db.oulunpu
+  * minor
+     - bob/bob.db.oulunpu!6 Add support for external annotations
+     - Python 3.7 support
+* bob/bob.db.uvad
+  * patch
+     - Python 3.7 support
+* bob/bob.db.swan
+  * patch
+     - Python 3.7 support
+* bob/bob.db.cuhk_cufs
+  * patch
+     - Python 3.7 support
+* bob/bob.db.cbsr_nir_vis_2
+  * patch
+     - Python 3.7 support
+* bob/bob.db.nivl
+  * patch
+     - Python 3.7 support
+* bob/bob.db.pola_thermal
+  * patch
+     - Python 3.7 support
+* bob/bob.db.cuhk_cufsf
+  * patch
+     - Python 3.7 support
+* bob/bob.db.ldhf
+  * patch
+     - Python 3.7 support
+* bob/bob.ip.tensorflow_extractor
+  * patch
+     - bob/bob.ip.tensorflow_extractor!14 Corrected the external link to FaceNet model: If someone from outside Idiap is trying to use FaceNet model, it would not download it, since downloading from google drive requires cookies now. So, the link is replaced to the one on Dropbox.
+     - Python 3.7 support
+* bob/bob.ip.caffe_extractor
+  * patch
+     - Python 3.7 support
+* bob/bob.bio.caffe_face
+  * patch
+     - Python 3.7 support
+* bob/bob.learn.tensorflow
+  * patch
+     - Python 3.7 support
+* bob/bob.learn.pytorch
+  * patch
+     - bob/bob.learn.pytorch!37 Use matplotlib to save images: The old one breaks for the new scipy version; replaces image saving with matplotlib.
+     - bob/bob.learn.pytorch!39 change async to non_blocking: The `async` keyword is a reserved keyword in Python 3.7
+     - Python 3.7 support
+* bob/bob.bio.face_ongoing
+  * v1.0.4 (Jul 17, 2019 08:04)
+     * Shipped some missing .py
+  * patch
+     - Python 3.7 support
+* bob/bob.bio.htface
+  * patch
+     - Python 3.7 support
+* bob/bob.db.drive
+  * v1.0.0 (Sep 17, 2019 05:23)
+     * Initial public release
+* bob/bob.db.stare
+  * v1.0.0 (Sep 17, 2019 05:07)
+     * Initial public release
+* bob/bob.db.chasedb1
+  * v1.0.0 (Sep 17, 2019 05:38)
+     * Initial public release
+* bob/bob.db.iostar
+  * v1.0.0 (Sep 17, 2019 07:00)
+     * Initial public release
+* bob/bob.db.hrf
+  * v1.0.0 (Sep 17, 2019 05:51)
+     * Initial public release
+* bob/bob.db.rimoner3
+  * v1.0.0 (Sep 17, 2019 06:23)
+     * Initial public release
+* bob/bob.db.drionsdb
+  * v1.0.0 (Sep 17, 2019 06:03)
+     * Initial public release
+* bob/bob.db.refuge
+  * v1.0.0 (Sep 17, 2019 06:46)
+     * Initial public release
+* bob/bob.db.drishtigs1
+  * v1.0.0 (Sep 17, 2019 06:34)
+     * Initial public release
+* bob/bob.ip.binseg
+  * v1.0.0 (Sep 17, 2019 11:17)
+     * Initial public release
+  * patch
+     - Fixed issue with LICENSE file
+* bob/bob
+  * minor
+    - bob/bob.extension!103 Resolve "bob config fixes"
+    - bob/bob.extension!104 [config] added confirmation prompt before deleting anything from global config file
+    - bob.measure!95 Improve threshold calculation in ROC, DET, and Precision and Recall plots
+    - bob.measure!96 Add an alpha option to ROC,DET,EPC figures: Also, enables you to change the default value in `tablefmt` option.
+    - bob/gridtk!29 Automatically remove G from memory commands in GPU queues
+    - bob/bob.pad.base!63 Use plot.roc instead of plot.roc_for_far in vulnerability ROC plots
+    - bob/bob.db.oulunpu!6 Add support for external annotations
