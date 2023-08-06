@@ -1,0 +1,16 @@
+trivial_tools/__init__.py,sha256=9Ad8w1Iq9V2liNVDw7Z3xSHi9RJd1wYqKRic6LysGJE,80
+trivial_tools/config_handling/__init__.py,sha256=bmY-CtJmquQW7VD_UZgYA7dKwitwPFf2J-e3v47EmIs,57
+trivial_tools/config_handling/base_config.py,sha256=eu66uTnEB845JCYqwUXnet23Eza0TSUtnyfbig5M6JI,829
+trivial_tools/files/__init__.py,sha256=aX2l--Iq015Qa5UK9bk9noMXMBoO6kKDws8gH0fkrzY,40
+trivial_tools/files/json.py,sha256=kp2UFUzqpOqZLxxgysOmWzPP68iwb7y9FoWT8jZau5I,1002
+trivial_tools/json_rpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trivial_tools/json_rpc/basic_tools.py,sha256=DDb_ZvfX1RGXIYcvHX-kLNa_4GE1mY9xX7ku44MTBK4,600
+trivial_tools/spiders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trivial_tools/spiders/naming.py,sha256=zCtd5HxPygfWYr1PU2LwSU9YgoyfcskO5C5cAqDpxrk,2720
+trivial_tools/system/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trivial_tools/system/envs.py,sha256=GJLf3MS0qyrITu50eZoZ1zuwoZVZHnbLuX7LhcElRjg,1313
+trivial_tools-5.dist-info/LICENSE,sha256=A-aN8he1M-21p0tct0_E-V6U9DsDtP4Nck5-FUk5fEc,1093
+trivial_tools-5.dist-info/METADATA,sha256=iIEiUnB0JGwUSQL8bEQ8DqnLOiYjxZllYvD8OaGRO_A,531
+trivial_tools-5.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+trivial_tools-5.dist-info/top_level.txt,sha256=2ZySqNyXgcS4eO-FbtPEFn2pbRi7i4WosvaxzTKsFOA,14
+trivial_tools-5.dist-info/RECORD,,
