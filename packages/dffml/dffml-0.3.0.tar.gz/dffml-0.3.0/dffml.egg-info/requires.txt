@@ -1,0 +1,16 @@
+
+[dev]
+coverage
+codecov
+sphinx
+sphinxcontrib-asyncio
+black
+sphinx_rtd_theme
+
+[models]
+dffml-model-tensorflow
+dffml-model-scratch
+dffml-model-scikit
+
+[sources]
+dffml-source-mysql
