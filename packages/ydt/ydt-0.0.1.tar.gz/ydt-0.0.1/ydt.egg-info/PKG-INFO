@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ydt
+Version: 0.0.1
+Summary: a command line tool for simple translation from zd to en
+Home-page: UNKNOWN
+Author: Wu Lianwei
+Author-email: maxwupro@outlook.com
+License: MIT
+Description: a command line tool for simple translation from zd to en
+Keywords: ydt
+Platform: UNKNOWN

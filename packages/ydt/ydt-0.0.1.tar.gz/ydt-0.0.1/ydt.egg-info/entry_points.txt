@@ -1,0 +1,3 @@
+[console_scripts]
+ydt = ydt.ydt:get_info
+
