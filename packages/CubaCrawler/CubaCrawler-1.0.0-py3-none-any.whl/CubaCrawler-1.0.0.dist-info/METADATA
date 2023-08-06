@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: CubaCrawler
+Version: 1.0.0
+Summary: This library aims to obtain information from the sites of Cuban news.
+Home-page: https://github.com/fsadannn/CubaCrawler
+Author: Frank Sadan Naranjo Noda, Hian Cañizares Días
+Author-email: fsadannn@gmail.com, hiancdtrsnm@gmail.com
+License: MIT
+Download-URL: https://github.com/fsadannn/CubaCrawler/tarball/1.0.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: toml
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: lxml
+Requires-Dist: requests
+
+<img alt="PyPI - License" src="https://img.shields.io/pypi/l/CubaCrawler.svg"> <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/CubaCrawler.svg"> <img alt="PyPI" src="https://img.shields.io/pypi/v/CubaCrawler.svg"> <img alt="Travis (.org)" src="https://img.shields.io/travis/fsadannn/CubaCrawler/master.svg"> <img alt="Codecov" src="https://img.shields.io/codecov/c/github/fsadannn/CubaCrawler.svg">
+# CubaCrawler
+
+Esta biblioteca apunta a obtener información de los sitios de
+noticias cubanas (Ahora mismo solo funcionan [Cubadebate](http://www.cubadebate.cu/) y
+[Granma](http://www.granma.cu/)).
+
+## Como se usa
+
+```python
+from CubaCrawler import Crawler
+
+data = Crawler()
+
+data.request("http://www.cubadebate.cu/noticias/2018/09/26/fundada-la-primera-empresa-biotecnologica-cubano-estadounidense-innovative-immunotherapy-alliance-sa/#.W6uvSBQpDeM")
+print(data.text)
+print(data.comment)
+```
+
+En caso de tener que pasar por un proxy se puede usar de la siguiente manera
+
+```python
+from CubaCrawler import Crawler
+
+config = {
+    "proxy": "http://user:password@proxy.host:port"
+    }
+data = Crawler(config)
+
+data.request("http://www.cubadebate.cu/noticias/2018/09/26/fundada-la-primera-empresa-biotecnologica-cubano-estadounidense-innovative-immunotherapy-alliance-sa/#.W6uvSBQpDeM")
+print(data.text)
+print(data.comment)
+```
+
+O, se pude llamar explicitamente a un Scrapper
+
+```python
+from CubaCrawler import Cubadebate
+
+url = "http://www.cubadebate.cu/noticias/2018/09/26/fundada-la-primera-empresa-biotecnologica-cubano-estadounidense-innovative-immunotherapy-alliance-sa/#.W6uvSBQpDeM"
+cubadebate = Cubadebate(url)
+
+print(cubadebate.text)
+print(cubadebate.comment)
+```
+
+Esta biblioteca es desarrollada por GIA (Grupo de Inteligencia Artificial), cualquier contribución o referencia es agradecida.
+
+thanks,
+
+Frank Sadan Naranjo Noda <fsadannn@gmail.com>
+
+Hian Cañizares Díaz <hiancdtrsnm@gmail.com>
+
