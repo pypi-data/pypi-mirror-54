@@ -1,0 +1,961 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    <script type="text/javascript"> mxBasePath = 'https://jgraph.github.io/mxgraph/javascript/src/'; </script>
+    <script type="text/javascript" src="https://jgraph.github.io/mxgraph/javascript/src/js/mxClient.js"></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/elkjs@0.3.0/lib/elk.bundled.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/sha256.js"></script>
+    <script src="http://pablojs.com/downloads/pablo.min.js"></script>
+
+    <style type="text/css">
+        .flow {
+            stroke-dasharray: 8;
+            animation: dash 1.2s linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes dash {
+            to {
+                stroke-dashoffset: -16;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        window.CREST_DEBUG = false;
+    
+        let zoomIn_icon = "data:image/gif;base64,R0lGODlhEAAQAOZvAITL9QqWBgCBAI6VmLHiyP+FVOTj4//////6+f7+/v+VbO7u7gCRALvt0+zr64WertfW1ZLR8//9/QiVBQmWBZmhpJPT9pmmpq/jwcrIx7y7u4/S/f+fRrzrxY7L7Im20palq9HPz/+IW4iOkLKRcKShodra2ozQ/H632pejqJzU7crpz/b39v/ab3h0c8vq0Pz49/6DVfr6+rHM1dv92cv3//2JYLzoyv+qToGgs9//2dz//4Wfr7Hr/+Tj4v/aar/v09/p7o22z/+Xbbe7v8fnz3t4dwmVBv+aQ/L//5GgqMHm1/WtXfaSQ5CVmIe72//TYYepwaaprJTV+vD3/9jW1oSrwwCTAKywsdTT07bP1qrgwf/39aClpL2Ta8rwxPDv77C6wJOanfLy8qHf/v+sULSxr5ual7Csqp7Z9/Pz88HvxautsP/5+IfG7f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAG8ALAAAAAAQABAAAAeSgG+Cg4SFgwchXSliaGOGggkaWjtrPSpOC49VM0k6V0tpFiWPUjU0XwEvQFM8YIYgHQxHFBMCGEIQhhVkNysBRQRPUQaGZh4RDQIEbhsDj2oDAABbKCcPRmEwhg5nOR9WIy5UXjEIjz4ZWTJEJFA4Im2Pgyw2HC1lBVzyghIKSD9MlOwbNKRJEDYDB13AYiKhoUAAOw==";
+        let zoomOut_icon = "data:image/gif;base64,R0lGODlhEAAQAOZxAPL//46VmITL9f/6+eTj43eXrejm5P7+/oWerv+FVOTj4o7M7YW83IWfr4fG7YTH7JoSAO7u7tTT04iOkJmmpv/ab//9/Xh0c/+fRnt4d//aapLR87y7u7HM1ZPT9oepwYmhsfb39pGgqIXI8ezr64m20rHr/6QVAMrIx9jW1tLz+9HPz6XE2I22z5zU7ZCVmN/p7oGgs/aSQ/6DVbTi9rSxr/z4957Z97KRcJTV+o7O9f/39f+Xbf/5+PDv7+nm5I7L7PLy8tfW1aaprJmhpIzQ/KHf/v+aQ48OAJejqHUFAP+sUJalq/WtXdz//8vb4LC6wI+lsre7v8v3/6ywsYOdsPr6+sr2//+qTnyqyPD3/9ra2v+IW4/S/aShoZual72Ta//TYa7K2pOanZLO7vPz8/+VbLbP1rnr/7jP3KutsISrw/2JYKClpLCsqv///4MKAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHEALAAAAAAQABAAAAeSgHGCg4SFg28rbUljbkGGggccZ05XJi4vEY8pHQAAKjQ3Hl6PQ1MGP09pLDkNPoZMaCcQSHBKDC1ChkRGYlEgVQVZHwSGNUAbZAsPDl0Bj2UBAgIjOkUIGVA2hiRfMSVrExdaYDMDjwooElZSOGFYXD2PgyFsGBVLCTvyghZmRxpNROwbxEMGDDUDB1GgsiWhoUAAOw==";
+        let zoomDefault_icon = "data:image/gif;base64,R0lGODlhEAAQAOZzAI6VmP+Xbb28vBUdIsjp9////6bb/aTa/Ly7u4m20oiPkvPz8xojJxwiJP+FVKre+6rc+L7l9SAmKKra9qnY8oOJjITL9bXe9JrR7qCem7Hd8SEkJNfW1YSrw9ra2v/aatjW1qywsautsOz7/Y22z/b39o20wvT//3d9fU1qeUhmd0JhdPaSQ4XI8f/9/f/ab/+aQ7C6wPz49//39c3v+YWerv2JYJKQkP/TYYWTmP+IW4+Skv+VbJ2Zl+7u7v/5+Jual/+sUPLy8pCVmJSXmdHPz/+fRo7O9RgfI/r6+qvj/uzr67e7v8Po+PWtXXt4d3iWrNH4/8vKyvD3/9Lz+7rS2t/p7rOysbrj9L7U26nX8r2Ta/7+/hYeI8Ht/+Tj45GgqJmmprHr/47M7Xh0c4aRlcr2/4iOkP6DVfDv74Ggs/+qTrKRcP/6+Z7W963b+Nz//xQcIneNnP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHMALAAAAAAQABAAAAeSgHOCg4SFgwVFO2UVPUKGglwIWXBmYhpDPo8gVSgnVE0pEDePRFEbIxIEXQ9yaYY5Xg00JhEDEyQchgpKSFgMF3FvUF+GGRgqFGNaKwYAjwsAbhYtRwc1TzEyhktAagkdZ2RTW2htj1JXAklMbDhrOj+PgyU2Ri9BDjPygi48MB9OwOwbFICFFREDB4UJ4SGhoUAAOw==";
+        let print_icon = "data:image/gif;base64,R0lGODlhEAAQAPYAACsrKzU1NUVFRU5OTllZWWRkZGZmZmtra3BwcHJycnV1dXZ2dnd3d3l5eXp6ent7e35+fn9/f4m0f4rHe4KBgoKCgoKDgoODg4eFh4aGhoiIiIyMjI2NjZCOkIySmIyUnI6Wn5CQkJCTlpmZmZubnJ2dnZSukJGcqJKisZKjs6Gio6KjoqioqKipq62tra+wsKmxt6iwubGysrKysrW1tbe8tri4uLm5uLq6ur+/vpHCipyzyaC2zLLM5sDAwMLCwsLExcfHx8jIyMvLys3Nzc/Pz9DPz8rS2dDQ0NHQ0NLR0tPT09XV1dTZ0tfX2NjY2Nvb29zc3N3d3d7e3t/f38zd7MLa8MDb9sLi/8fk/8zl/87m/tXn+9Ho/9Po/9jq/93t/+Dg4OHh4eLi4uPj4+Xl5ebm5ufn5+vr6+zs7O3t7e7u7u/v7+Dw/+Xx/+Ty/+nx+er0//Dw8PHx8fD09/f39/b3+ff4+PD4//b6/fT5//j4+Pv7+/39/f7+/gAAACH5BAEAAH8AIf8LSW1hZ2VNYWdpY2sNZ2FtbWE9MC40NTQ1NQAsAAAAABAAEAAAB7yAf4J/RUxOQIOJg1J3d3l5cDGKiTJ0eHFvbVWTiUdvYF9cWiicgjFcXVpZWDulfx5WVz08KR8yM4ouPy0nHyIqNkpnaEsrgjZPT0w5Q1RocnJqTRM6F385Z2NSUGRsaGZSSjUSJhZ/OFRjZtpSRT80LCQdGAl/QmpSTE9URSwjGxYiLBD4J0gfPnPaycAQ4cGCBAseGPjDwcaYO33qCNGwIOKCAgISGShBZA4SDA8ODADgykIIAgFcyUwUCAA7";
+        let outline_icon = "data:image/gif;base64,R0lGODlhEAAQANUpAP816bfc/3Gl2GGQvHGm2M3m/8Dg/+Hv/+fz/wAw//826tLp//826drs/7Ta/+32/7ve//P5/2KRvWKQvP///7TZ/7fb//z+/9rt/8bj/8zl//j7/+Hx/8fk/+Dv/9Tq//P4/8fl/wClAACkAAAx/66urnKm2K+vrwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACkALAAAAAAQABAAAAZzwJRwSCwaj8efcsk0/goZE8RSkfwcv+JvAehCAoOl1qTomkyDwSRL/B0YCkbIMApgtYiDaVEQiepsQz9nZyOGf4FCPyAPJBwNfiMGiSk/GyQJJB4YIhodlD8kmKICBAICoBQXBBEPCAQNH6BMtJRIt7hCQQA7"
+        let enterGroup_icon = "data:image/gif;base64,R0lGODlhEAAQANUAAP797/765P321f765f311P755f3wwv3ww/zww/711P711fvgjvvhjvzlnfvknfvlnf3qr/zqr/3qsPzqsPvdg/zgjr2EFryDFrR6E7F4E7Z8FLZ9FLR6FLR7FLyCFrl/Fbh/FbuBFrqBFqluEKtwEapwEaluEa91Eq1yEq91E6dsEKZrEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACwALAAAAAAQABAAAAZiQJZwSCwaWavk6khUUZ4UFVM4glJMUxbJWsqirKjsyZrKZioLRiVz5HQ4mMbD4YBjOEQNZLKXTCQRfhtFHwcHBgYIhgcgRyEEBAoCAgkiUxcDAQUFHlksFgAAFp5CFqOkWUEAOw==";
+        let exitGroup_icon = "data:image/gif;base64,R0lGODlhEAAQANUAAP797/765P321f765f311P755f3wwv3ww/zww/711P711fvgjvvhjvzlnfvknfvlnf3qr/zqr/3qsPzqsPvdg/zgjr2EFryDFrR6E7F4E7Z8FLZ9FLR6FLR7FLyCFrl/Fbh/FbuBFrqBFqluEKtwEapwEaluEa91Eq1yEq91E6dsEKZrEP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACwALAAAAAAQABAAAAZgQJZwSCwahRbL0WgBAJRLoadQCAwuUVFCIFAQCKEj6EBGGAzkT3EzkUQk7QlEriFyMBiOw/Fo5DscRxkVDAsVGVEsKRSMFCeJKI0UKIklkiSJJpIjiSqSKoksK6MroaFBADs=";
+        let homeGroup_icon = "data:image/gif;base64,R0lGODlhEAAQAMQVAOvw+aGknJuhoYOSsIuWq5CaqIKRsJWdpO7z+ufu+YOSsd7o+Nzn99/p+OHq+OTs+e3y+ubu+erw+a2wp555Fv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABUALAAAAAAQABAAAAVkICVWZClSZXVObHumJyTLyJsGUq4DQJCSgkjkJEwISK/D47FqsV4FhyM2g9RGhIYWp8vxfCcGIygsR4wqkUGhXLqXhzSqEpXapYVfJavtNxYEP2FihDZIagoDAwYDhnJ6jnp6IQA7";
+        let plot_icon = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAALCAAKABABAREA/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQICv/EACIQAAAGAgICAwAAAAAAAAAAAAECAwQFBgcIABIRExQVIv/aAAgBAQAAPwDX3O7IZSYrndVvS/Yy61fsItZ6NlsC12SkGwD+HrWl3jMlYtjdBYoexFCYjYmUEhi+6OQOPTicbsFnK9n+mo+n+YaNJOQFE1sz7MYoptJrwnDqMg8Z0rJOQrpZPi+falEwVfTLInIVspNRKSovkbB4c//Z";
+        let exitPlot_icon = "data:image/gif;base64,R0lGODlhDAAMAIAAAP///0RERCH5BAAAAAAALAAAAAAMAAwAAAIdjI8Hy23w2JtR1bQiVDlIvnVIt3llqKFm4yRuUAAAOw==";
+        let exportImage_icon = "data:image/gif;base64,R0lGODlhEAAQAPZCAABeAwBgBQ9tGwtxKBh3LTB2LzJ2MF0+HmZLLG9XOnFYPF98TXheRGF9T3pmTHxqUzyeZm6DWHCPcDS80TvB1Ee4pkC7uXidlX6knHG/qUC+zEfH1V3LyljT22jLxWjXzWXa3HPYyHPc1Xbd4nXh3Hzl4oBoT4NtVIVzXYt5ZZB7ZpWBbJqGc7W7ZP63HfO4J8myS//DHunENoOpn4Wroqabjq+mm7GonrWtpL64sp7Rm4ff44js2IPl5Izy5pXl6Zn769XV1dXV1QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAEIALAAAAAAQABAAAAf+gEJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCNSgoKCgoKCgoKSkrKCgoKykIDw8PDw8oKCkoKA8PCQgpDxMTGR4dHSMlPT8+IxcIKQ8TMC4vISQeHyQkPTsXCikPGy8uMTokJSUeJCU7MwwpDxMtLjIkJD4+Pj0lO4A0DykPFBseICQ+PkA8ISQ9NCcqDxQWFRUfIhACAAABBBInKQ8DAAAAAQEBAQEBAQENJykOAQEBAAEAAQEBAQEADQ8pDgYGBQUGBgYGBgYFBREOKQcHBwgKJigrLCwsKicMCTk2NjY3Nzg4ODg4ODg4NzdCQkJCQkJCQkJCQkIGgEJCQkKBADs="
+        let xInitCoord = null;
+        let yInitCoord = null;
+        let parents = [];
+        let level = null;
+        let enterGroupFlag = false;
+        let outlineWnd;
+        let lastRemovedOnUpdate = {};
+        const numberOfPointsForRedrawingEdges = 3;
+
+        const objToArray = (obj) => {
+            return Object.keys(obj).map(function (key) {
+                return obj[key];
+            });
+        }
+
+        const setStylesForRoot = (graph) => {
+            let style = graph.getStylesheet().getDefaultVertexStyle();
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_SHAPE] = mxConstants.SHAPE_RECTANGLE;
+            style[mxConstants.STYLE_FILLCOLOR] = '#FFFFFF';
+            style[mxConstants.STYLE_STROKEWIDTH] = 0;
+            style[mxConstants.STYLE_STROKECOLOR] = "#FFFFFF";
+            graph.getStylesheet().putCellStyle('root', style);
+        }
+
+        const setStylesForEntity = (graph) => {
+            let style = graph.getStylesheet().getDefaultVertexStyle();
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_SHAPE] = mxConstants.SHAPE_SWIMLANE;
+            graph.getStylesheet().putCellStyle('entity', style);
+        }
+
+        const setStylesForOutputPort = (graph) => {
+            let style = graph.getStylesheet().getDefaultVertexStyle();
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_FILLCOLOR] = '#fcc5b3';
+            style[mxConstants.STYLE_SHAPE] = 'output';
+            style[mxConstants.STYLE_OVERFLOW] = 'width';
+            style[mxConstants.STYLE_SPACING_RIGHT] = OutputShape.prototype.extrude / 2;
+            graph.getStylesheet().putCellStyle('output', style);
+        }
+
+        const setStylesForLocalAndMidpoints = (graph) => {
+            let style = graph.getStylesheet().getDefaultVertexStyle();
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_FILLCOLOR] = '#d2ceef';
+            style[mxConstants.STYLE_OVERFLOW] = 'width';
+            graph.getStylesheet().putCellStyle('local', style);
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_RESIZABLE] = 0;
+            graph.getStylesheet().putCellStyle('midpoint', style);
+        }
+
+        const setStylesForInput = (graph) => {
+            let style = graph.getStylesheet().getDefaultVertexStyle();
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_FILLCOLOR] = '#b5fed9';
+            style[mxConstants.STYLE_SHAPE] = 'input';
+            style[mxConstants.STYLE_OVERFLOW] = 'width';
+            style[mxConstants.STYLE_SPACING_LEFT] = InputShape.prototype.extrude / 2;
+            graph.getStylesheet().putCellStyle('input', style);
+        }
+
+        const setStylesForEmbeddedGraph = (graph) => {
+            let style = graph.getStylesheet().getDefaultVertexStyle();
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_SHAPE] = 'embeddedGraph';
+            style[mxConstants.STYLE_SPACING_TOP] = BoxShape.prototype.extrude;
+            style[mxConstants.STYLE_SPACING_RIGHT] = BoxShape.prototype.extrude;
+            style[mxConstants.STYLE_GRADIENTCOLOR] = '#FFFFFF';
+            style[mxConstants.STYLE_SHADOW] = true;
+            graph.getStylesheet().putCellStyle('embeddedGraph', style);
+        }
+
+        const setStylesForStates = (graph) => {
+            let style = graph.getStylesheet().getDefaultVertexStyle();
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_SHAPE] = mxConstants.SHAPE_ELLIPSE;
+            style[mxConstants.STYLE_FILLCOLOR] = '#e2cbc1';
+            graph.getStylesheet().putCellStyle('state', style);
+
+            // currentstate
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_SHAPE] = mxConstants.SHAPE_DOUBLE_ELLIPSE;
+            graph.getStylesheet().putCellStyle('currentstate', style);
+        }
+
+        const setStylesForEdges = (graph) => {
+            let style = graph.getStylesheet().getDefaultEdgeStyle();
+            style[mxConstants.STYLE_CURVED] = 1;
+            style[mxConstants.STYLE_FONTCOLOR] = 'black';
+            style[mxConstants.STYLE_STROKECOLOR] = 'black';
+            style[mxConstants.STYLE_STROKEWIDTH] = '1';
+
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_DASHED] = true;
+            style[mxConstants.STYLE_DASH_PATTERN] = "7 3";
+            style[mxConstants.STYLE_FIX_DASH] = '1';
+
+            graph.getStylesheet().putCellStyle('update', style);
+
+            style = mxUtils.clone(style);
+            style[mxConstants.STYLE_DASH_PATTERN] = "2 2";
+            graph.getStylesheet().putCellStyle('action', style);
+        }
+
+        const setStyles = (graph) => {
+            setStylesForRoot(graph);
+            setStylesForEntity(graph);
+            setStylesForOutputPort(graph);
+            setStylesForLocalAndMidpoints(graph);
+            setStylesForInput(graph);
+            setStylesForEmbeddedGraph(graph);
+            setStylesForStates(graph);
+            setStylesForEdges(graph);
+        }
+
+        const setGraphGeneralFeatures = (graph) => {
+            graph.setTooltips(true);
+            graph.setConnectable(false);
+            graph.setCellsDisconnectable(false);  // stop edges from disconnecting
+            graph.setDisconnectOnMove(false);  // stop edges from disconnecting
+            graph.setCellsEditable(false);
+            graph.setResizeContainer(false);
+            graph.setHtmlLabels(true);
+            graph.isEdgeLabelsMovable(false);
+            graph.setAllowDanglingEdges(false);
+            graph.setCellsBendable(true);
+            graph.graphHandler.setRemoveCellsFromParent(false);
+            graph.gridSize = 25;
+        }
+
+        const setOulineWindowGeneralFeatures = (outlineWnd) => {
+            outlineWnd.setMaximizable(false);
+            outlineWnd.setScrollable(false);
+            outlineWnd.setResizable(true);
+            outlineWnd.setVisible(false);
+        }
+
+        const setStylesForToolbarContainer = (tbContainer) => {
+            tbContainer.style.position = 'absolute';
+            tbContainer.style.overflow = 'hidden';
+            tbContainer.style.padding = '2px';
+            tbContainer.style.left = '0px';
+            tbContainer.style.top = '0px';
+            tbContainer.style.width = '24px';
+            tbContainer.style.bottom = '0px';
+        }
+
+        const createPopupMenu = (graph, menu, cell, evt) => {
+            if (cell != null) {
+                if (cell.getChildCount() > 0 && cell.style != "embeddedGraph") {
+                    menu.addItem('Enter Group', enterGroup_icon, function () {
+                        enterGroupFlag = true;
+                        graph.enterGroup(cell);
+                    });
+                }
+                if (enterGroupFlag === true) {
+                    menu.addItem('Exit Group', exitGroup_icon, function () {
+                        graph.exitGroup();
+                    });
+                    menu.addItem('Exit ALL Groups', homeGroup_icon, function () {
+                        enterGroupFlag = false;
+                        graph.home();
+                    });
+                }
+                if (cell.style === "embeddedGraph") {
+                    menu.addItem('Plot', plot_icon, function () {
+                        let elkgraphEmbedded = cell.childrenGraph;
+                        let root = {
+                            'id': 'root',
+                            'label': { 'label': '', 'text': '' },
+                            'children': [elkgraphEmbedded],
+                            'edges': [],
+                            'cresttype': 'root'
+                        }
+                        parents.push(cell.parentGraph);
+                        if (outlineWnd.isVisible()) {
+                            outlineWnd.setVisible(false);
+                        }
+                        document.getElementById("outlineContainer").innerHTML = "";
+                        document.getElementById("graphContainer").innerHTML = "";
+                        mxgraph_main(root);
+                    });
+                }
+                if (parents.length > 0) {
+                    menu.addItem('Exit Plot', exitPlot_icon, function () {
+                        enterGroupFlag = false;
+                        if (outlineWnd.isVisible()) {
+                            outlineWnd.setVisible(false);
+                        }
+                        document.getElementById("outlineContainer").innerHTML = "";
+                        document.getElementById("graphContainer").innerHTML = "";
+                        mxgraph_main(parents.pop());
+                    });
+                }
+            }
+            menu.addSeparator();
+        };
+
+        const setClassForCurrentState = (graph, cells, onChanges) => {
+            if (typeof cells === "undefined") {
+                return;
+            }
+            let tempStr = "";
+            let tempView;
+            objToArray(cells).forEach((cell) => {
+                if (onChanges === true) {
+                    tempStr = "" + cell.style;
+                    if (tempStr.split(";")[0] === "update" && cell.source.style === "currentstate") {
+                        tempView = graph.view.getState(cell);
+                        if (typeof tempView != "undefined") {
+                            tempView.shape.node.getElementsByTagName('path')[1].setAttribute('class', 'flow');
+                        }
+                    }
+                } else if (onChanges === false) {
+                    if (cell.style === "update" && cell.source.style === "currentstate") {
+                        tempView = graph.view.getState(cell);
+                        if (typeof tempView != "undefined") {
+                            tempView.shape.node.getElementsByTagName('path')[1].setAttribute('class', 'flow');
+                        }
+                    }
+                }
+            });
+        }
+
+        /**
+        Define a new shape. Based on this:
+        https://github.com/jgraph/mxgraph-js/blob/master/javascript/examples/shape.html
+        */
+        function OutputShape() {
+            mxCylinder.call(this);
+        };
+        mxUtils.extend(OutputShape, mxCylinder);
+        OutputShape.prototype.extrude = 10;
+        OutputShape.prototype.redrawPath = function (path, x, y, w, h, isForeground) {
+            let dy = this.extrude * this.scale;
+            let dx = this.extrude * this.scale;
+            if (isForeground) {
+            } else {
+                path.moveTo(0, 0);
+                path.lineTo(w, 0);
+                path.lineTo(w + dx, h / 2);
+                path.lineTo(w, h);
+                path.lineTo(0, h);
+                path.lineTo(0, 0);
+                path.close();
+            }
+        };
+        mxCellRenderer.registerShape('output', OutputShape);
+
+        function InputShape() {
+            mxCylinder.call(this);
+        };
+        mxUtils.extend(InputShape, mxCylinder);
+        InputShape.prototype.extrude = 10;
+        InputShape.prototype.redrawPath = function (path, x, y, w, h, isForeground) {
+            let dy = this.extrude * this.scale;
+            let dx = this.extrude * this.scale;
+            if (isForeground) {
+            } else {
+                path.moveTo(0 - dx, 0);
+                path.lineTo(w, 0);
+                path.lineTo(w, h);
+                path.lineTo(0 - dx, h);
+                path.lineTo(0, h / 2);
+                path.lineTo(0 - dx, 0);
+                path.close();
+            }
+        };
+        mxCellRenderer.registerShape('input', InputShape);
+        // END INPUT DEFINITION
+
+        //embedded graph shape
+        function BoxShape() {
+            mxCylinder.call(this);
+        };
+        mxUtils.extend(BoxShape, mxCylinder);
+        BoxShape.prototype.extrude = 10;
+        BoxShape.prototype.redrawPath = function (path, x, y, w, h, isForeground) {
+            var dy = this.extrude * this.scale;
+            var dx = this.extrude * this.scale;
+
+            if (isForeground) {
+                path.moveTo(0, dy);
+                path.lineTo(w - dx, dy);
+                path.lineTo(w, 0);
+                path.moveTo(w - dx, dy);
+                path.lineTo(w - dx, h);
+            }
+            else {
+                path.moveTo(0, dy);
+                path.lineTo(dx, 0);
+                path.lineTo(w, 0);
+                path.lineTo(w, h - dy);
+                path.lineTo(w - dx, h);
+                path.lineTo(0, h);
+                path.lineTo(0, dy);
+                path.lineTo(dx, 0);
+                path.close();
+            }
+        };
+        mxCellRenderer.registerShape('embeddedGraph', BoxShape);
+        //end embedded graph definition
+
+        const showModalWindow = (graph, evt, title, content, width, height) => {
+            let background = document.createElement('div');
+            background.style.position = 'absolute';
+            background.style.left = '0px';
+            background.style.top = '0px';
+            background.style.right = '0px';
+            background.style.bottom = '0px';
+            background.style.background = 'black';
+            background.style.overflow = 'scroll';
+
+            mxUtils.setOpacity(background, 50);
+            document.body.appendChild(background);
+
+            if (mxClient.IS_IE) {
+                new mxDivResizer(background);
+            }
+
+            let x = Math.max(100, evt.offsetX - width / 2);
+            let y = Math.max(10, evt.offsetY);
+            let wnd = new mxWindow(title, content, x, y, width, height, false, true);
+            wnd.setScrollable(true);
+            wnd.setClosable(true);
+
+            // Fades the background out after after the window has been closed
+            wnd.addListener(mxEvent.DESTROY, function (evt) {
+                graph.setEnabled(true);
+                mxEffects.fadeOut(background, 50, true, 10, 30, true);
+            });
+
+            // close if we click on gray background
+            background.onclick = function () {
+                wnd.destroy();
+            }
+
+            graph.setEnabled(false);
+            graph.tooltipHandler.hide();
+            wnd.setVisible(true);
+
+            $('pre code').each(function (i, block) {
+                hljs.highlightBlock(block);
+            });
+        };
+
+        const fitAndCenterGraph = (container, graph) => {
+            let iframeWidth = iframe.getBoundingClientRect().width;
+            let graphbounds = graph.getGraphBounds();
+            let graphWidth = graphbounds.width;
+            let graphHeight = graphbounds.height;
+            let ratio = iframeWidth / graphWidth;
+            let wantedContainerHeight = graphHeight * ratio;
+            container.style.height = wantedContainerHeight + 'px';
+            if (iframeWidth < graphWidth) {
+                graph.fit();
+            }
+            graph.center();
+            iframe.style.height = (wantedContainerHeight + 10) + 'px';
+
+            if (xInitCoord === null && yInitCoord === null) {
+                xInitCoord = graph.getGraphBounds().x;
+                yInitCoord = graph.getGraphBounds().y;
+            } else {
+                graph.view.setTranslate(xInitCoord, yInitCoord);
+            }
+        }
+
+        //redrawing edges
+        class Point {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+            }
+        }
+
+        const calcMiddle = (a, b) => {
+            return new Point((a.x + b.x) / 2, (a.y + b.y) / 2);
+        }
+
+        const calcPoints = (left, right, source, target, pointsNewEdge) => {
+            if (left === right) {
+                return;
+            }
+            let middle = Math.floor((left + right) / 2);
+            pointsNewEdge[middle] = calcMiddle(source, target);
+            calcPoints(left, middle, source, pointsNewEdge[middle], pointsNewEdge);
+            calcPoints(middle + 1, right, pointsNewEdge[middle], target, pointsNewEdge);
+        }
+
+        const keepEdgeAndMoveTarget = (edge, sourcePoint, targetPoint, length) => {
+            edge.geometry.points[length - 1].y = targetPoint.y;
+            if (length > 1) {
+                edge.geometry.points[length - 1].x = (targetPoint.x + edge.geometry.points[length - 2].x) / 2;
+            } else {
+                edge.geometry.points[length - 1].x = (targetPoint.x + sourcePoint.x) / 2;
+            }
+        }
+
+        const removeAndRedrawEdge = (graph, oldEdge, source, target, targetPoint, sourcePoint, numberOfPoints) => {
+            let newEdge = oldEdge;
+            let cells = [];
+            cells.push(oldEdge);
+            graph.removeCells(cells, false);
+            let edge = graph.insertEdge(graph.getDefaultParent(), newEdge.id, newEdge.value, source, target, newEdge.style);
+            let pointsNewEdge = [];
+            calcPoints(0, numberOfPoints, sourcePoint, targetPoint, pointsNewEdge);
+            let points = [];
+            for (let i = 0; i < pointsNewEdge.length; i++) {
+                points.push(new mxPoint(pointsNewEdge[i].x, pointsNewEdge[i].y));
+            }
+            edge.geometry.points = points;
+        }
+
+        const calcTargetPoint = (edge, target) => {
+            let targetX;
+            let targetY;
+            if (edge.target.parent.parent.style === "root") {
+                targetX = edge.target.geometry.x;
+                targetY = edge.target.geometry.y + (target.geometry.height / 2);
+            } else {
+                targetX = edge.target.parent.geometry.x + edge.target.geometry.x;
+                targetY = edge.target.parent.geometry.y + edge.target.geometry.y + (target.geometry.height / 2);
+            }
+            return new Point(targetX, targetY);
+        }
+
+        const calcSourcePoint = (edge, source) => {
+            let sourceX;
+            let sourceY;
+            if (edge.source.parent.parent.style === "root") {
+                sourceX = edge.source.geometry.x;
+                sourceY = edge.source.geometry.y + (source.geometry.height / 2);
+            } else {
+                sourceX = edge.source.parent.geometry.x + edge.source.geometry.x;
+                sourceY = edge.source.parent.geometry.y + edge.source.geometry.y + (source.geometry.height / 2);
+            }
+            return new Point(sourceX, sourceY);
+        }
+        /////
+
+        //standardizeSVG
+        const makeSVG = (tag, attrs) => {
+            let el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+            for (let k in attrs)
+                el.setAttribute(k, attrs[k]);
+            return el;
+        }
+
+        const standardizeSvg = (forSvg) => {
+            const svg = document.getElementsByTagName("svg")[0];
+            let customSvg = document.createElementNS('http://www.w3.org/2000/svg', "svg");
+            let foreignObjects = null;
+            let stringOnLines = null;
+            let textElement = null;
+            customSvg.setAttribute('style', svg.style.cssText);
+            customSvg.innerHTML = svg.innerHTML;
+            if (forSvg === true) {
+                foreignObjects = customSvg.getElementsByTagName("foreignObject");
+                for (let i = foreignObjects.length - 1; i >= 0; i--) {
+                    if (foreignObjects[i].children[0].innerHTML.indexOf("<br>") != -1) {
+                        stringOnLines = foreignObjects[i].children[0].innerHTML.replace(/<br>/g, "-#temp#-");
+                    }
+                    textElement = makeSVG('text', { x: 0, style: "fill: #774400; font-family: Arial,Helvetica; font-size: 11px; font-weight: bold; alignment-baseline: central" });
+                    if (stringOnLines != null) {
+                        textElement.setAttribute('y', 0);
+                        let strArr = stringOnLines.split("-#temp#-");
+                        for (let j = 0; j < strArr.length; j++) {
+                            if (j === 0) {
+                                strArr[j] = strArr[j].replace(/\s/g, '');
+                            }
+                            let tspan = makeSVG('tspan', { x: 8, dy: "1.2em" });
+                            tspan.textContent = strArr[j];
+                            textElement.appendChild(tspan);
+                        }
+                        stringOnLines = null;
+                    } else {
+                        textElement.setAttribute('y', 10);
+                        textElement.textContent = foreignObjects[i].children[0].innerText;
+                    }
+                    foreignObjects[i].parentNode.appendChild(textElement);
+                    foreignObjects[i].parentNode.removeChild(foreignObjects[i]);
+                }
+            }
+            let newInnerHTML = customSvg.innerHTML.replace(/url\(about:srcdoc#mx-gradient-c3d9ff-1-ffffff-1-s-0\)/g, "#c3d9ff");
+            customSvg.innerHTML = newInnerHTML;
+            return customSvg;
+        }
+
+        const plot = (elkgraph) => {
+            let graph;
+            let container = document.getElementById('graphContainer');
+            let outline = document.getElementById('outlineContainer');
+            let outln;
+            let toolbarContainer;
+            let toolbar;
+
+            if (!mxClient.isBrowserSupported()) {
+                mxUtils.error('Browser is not supported!', 200, false);
+            }
+            else {
+                mxEvent.disableContextMenu(container);
+                graph = new mxGraph(container);
+                setGraphGeneralFeatures(graph);
+
+                graph.popupMenuHandler.factoryMethod = function (menu, cell, evt) {
+                    return createPopupMenu(graph, menu, cell, evt);
+                };
+
+                //setting up the outline
+                //i have to figure out how to handle mouseUp for outline -- or to
+                //find another way to zoom and see the graph
+                outln = new mxOutline(graph, outline);
+                outlineWnd = new mxWindow('Outline', outline, 100, 100, 180, 140, false);
+                setOulineWindowGeneralFeatures(outlineWnd);
+
+                //setGraphStyles
+                setStyles(graph);
+
+                toolbarContainer = document.createElement('div');
+                setStylesForToolbarContainer(toolbarContainer);
+                document.body.appendChild(toolbarContainer);
+                toolbar = new mxToolbar(toolbarContainer);
+                toolbar.addItem('Zoom In', zoomIn_icon, function (evt) {
+                    graph.zoomIn();
+                    //setClassForCurrentState(graph, graph.getModel().cells, true);
+                });
+                toolbar.addItem('Zoom Out', zoomOut_icon, function (evt) {
+                    graph.zoomOut();
+                    //setClassForCurrentState(graph, graph.getModel().cells, true);
+                });
+                toolbar.addItem('Actual Size', zoomDefault_icon, function (evt) {
+                    fitAndCenterGraph(container, graph);
+                    setClassForCurrentState(graph, graph.getModel().cells, true);
+                });
+                toolbar.addItem('Poster Print', print_icon, function (evt) {
+                    let pageCount = mxUtils.prompt('Enter maximum page count', '1');
+                    if (pageCount != null) {
+                        let scale = mxUtils.getScaleForPageCount(pageCount, graph);
+                        let preview = new mxPrintPreview(graph, scale);
+                        preview.open();
+                    }
+                });
+                toolbar.addItem('Outline', outline_icon, function (evt) {
+                    if (outlineWnd.isVisible()) {
+                        outlineWnd.setVisible(false);
+                    } else {
+                        outlineWnd.setVisible(true);
+                        outln.update(true);
+                    }
+                });
+                toolbar.addItem('Export Graph as SVG', exportImage_icon, function (evt) {
+                    let svgElement = standardizeSvg(true);
+                    let data = new XMLSerializer().serializeToString(svgElement);
+                    let imgData = 'data:image/svg+xml;base64,' + window.btoa(data);
+                    let a = document.createElement("a");
+                    a.style = "display:none";
+                    a.download = "graph.svg";
+                    a.href = imgData;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                });
+                if (navigator.userAgent.indexOf("Chrome") === -1) {
+                    toolbar.addItem('Export Graph as PNG', exportImage_icon, function (evt) {
+                        let svgElement = standardizeSvg(false);
+                        let canvas = document.createElement('canvas');
+                        var bounds = graph.getGraphBounds();
+                        svgElement.setAttribute('width', bounds.width);
+                        svgElement.setAttribute('height', bounds.height);
+                        canvas.width = bounds.width;
+                        canvas.height = bounds.height;
+                        let data = new XMLSerializer().serializeToString(svgElement);
+                        let win = window.URL || window.webkitURL || window;
+                        let img = new Image();
+                        let blob = new Blob([data], { type: 'image/svg+xml' });
+                        let url = win.createObjectURL(blob);
+                        img.onload = function () {
+                            canvas.getContext('2d').drawImage(img, 0, 0);
+                            win.revokeObjectURL(url);
+                            let uri = canvas.toDataURL('image/png');
+                            let a = document.createElement("a");
+                            document.body.appendChild(a);
+                            a.style = "display: none";
+                            a.href = uri;
+                            a.download = 'graph.png';
+                            a.click();
+                            window.URL.revokeObjectURL(uri);
+                            document.body.removeChild(a);
+                        };
+                        img.src = url;
+                    });
+                }
+
+                graph.getTooltipForCell = function (cell) {
+                    if (cell.value.text) {
+                        return '<b>' + cell.value.text + '</b>';
+                    } else {
+                        return '<b>' + cell.value.label + '</b>';
+                    }
+                }
+
+                graph.getLabel = function (cell) {
+                    if (cell.isEdge()) {
+                        return '';
+                    }
+                    if (cell.style === "embeddedGraph" || cell.style === "entity") {
+                        return '<b>' + cell.value.label + '</b>';
+                    }
+                    return cell.value.label;
+                }
+
+                let highlightable = ["state", "currentstate", "transition", "local", "input", "output"];
+                let movable = ["state", "currentstate", "local", "input", "output", "entity", "embeddedGraph"];
+
+                graph.getSelectionModel().addListener(mxEvent.CHANGE, function (sender, evt) {
+                    graph.getModel().beginUpdate();
+                    evt.consume();
+                    try {
+                        let remove = evt.properties.added;
+                        if (typeof remove != "undefined") {
+                            for (let i = 0; i < remove.length; i++) {
+                                let rem = remove[i];
+                                if ((Object.entries(lastRemovedOnUpdate).length != 0 && lastRemovedOnUpdate.id === rem.id)
+                                    && (lastRemovedOnUpdate.x != rem.geometry.x || lastRemovedOnUpdate.y != rem.geometry.y)) {
+                                    let target; //mxCell
+                                    let targetPoint; //Point
+                                    let source;
+                                    let sourcePoint;
+                                    let edge;
+                                    if (lastRemovedOnUpdate.style === "entity" || lastRemovedOnUpdate.style === "embeddedGraph") {
+                                        let children = rem.children;
+                                        for (let j = 0; j < children.length; j++) {
+                                            if (children[j].edges != null) {
+                                                for (let k = 0, index = 0; k < children[j].edges.length; k++) {
+                                                    //if the edge is inside the entity
+                                                    if (children[j].edges[k].source.parent === rem && children[j].edges[k].target.parent === rem) {
+                                                        continue;
+                                                    }
+                                                    target = graph.getModel().getCell(children[j].edges[k].target.id);
+                                                    source = graph.getModel().getCell(children[j].edges[k].source.id);
+                                                    edge = children[j].edges[k];
+                                                    targetPoint = calcTargetPoint(edge, target);
+                                                    sourcePoint = calcSourcePoint(edge, source);
+                                                    let len = children[j].edges[k].geometry.points.length;
+                                                    if ((edge.geometry.points[len - 1].x > targetPoint.x && target.style === "input")
+                                                        || (edge.geometry.points[0].x < sourcePoint.x && source.style === "output")) {
+                                                        removeAndRedrawEdge(graph, edge, source, target, targetPoint, sourcePoint, numberOfPointsForRedrawingEdges);
+                                                    } else {
+                                                        keepEdgeAndMoveTarget(edge, sourcePoint, targetPoint, len);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    lastRemovedOnUpdate = {};
+                                }
+                                if (highlightable.indexOf(rem.getStyle()) < 0) {
+                                    continue;
+                                }
+                                if (rem.edges) {
+                                    rem.edges.forEach(function (edge) {
+                                        graph.setCellStyles(mxConstants.STYLE_STROKECOLOR, 'black', [edge]);
+                                        graph.setCellStyles(mxConstants.STYLE_FONTCOLOR, 'black', [edge]);
+                                        graph.setCellStyles(mxConstants.STYLE_STROKEWIDTH, '1', [edge]);
+                                    });
+                                }
+                            }
+                        }
+                        let added = evt.properties.removed;
+                        if (typeof added != "undefined") {
+                            if (movable.indexOf(added[0].getStyle()) >= 0) {
+                                lastRemovedOnUpdate.style = added[0].getStyle();
+                                lastRemovedOnUpdate.id = added[0].id;
+                                lastRemovedOnUpdate.x = added[0].geometry.x;
+                                lastRemovedOnUpdate.y = added[0].geometry.y;
+                            }
+                            for (let i = 0; i < added.length; i++) {
+                                let add = added[i];
+                                if (highlightable.indexOf(add.getStyle()) < 0) {
+                                    continue;
+                                }
+                                if (add.edges) {
+                                    add.edges.forEach(function (edge) {
+                                        if (edge.source.id == add.id) {
+                                            graph.setCellStyles(mxConstants.STYLE_STROKECOLOR, 'blue', [edge]);
+                                            graph.setCellStyles(mxConstants.STYLE_FONTCOLOR, 'blue', [edge]);
+                                            graph.setCellStyles(mxConstants.STYLE_STROKEWIDTH, '2', [edge]);
+
+                                        } else if (edge.target.id == add.id) {
+                                            graph.setCellStyles(mxConstants.STYLE_STROKECOLOR, 'red', [edge]);
+                                            graph.setCellStyles(mxConstants.STYLE_FONTCOLOR, 'red', [edge]);
+                                            graph.setCellStyles(mxConstants.STYLE_STROKEWIDTH, '2', [edge]);
+                                        }
+                                    });
+                                }
+                            }
+                        }
+                    }
+                    catch (err) {
+                        console.log(err);
+                    }
+                    finally {
+                        graph.getModel().endUpdate();
+                        graph.refresh();
+                        setClassForCurrentState(graph, graph.getModel().cells, true);
+                    }
+                });
+
+                // Shift + click for adding/removing bendpoints
+                mxEdgeHandler.prototype.addEnabled = true;
+                mxEdgeHandler.prototype.removeEnabled = true;
+
+                graph.dblClick = function (evt, cell) {
+                    // Do not fire a DOUBLE_CLICK event here as mxEditor will
+                    // consume the event and start the in-place editor.    
+                    if (graph.isCellFoldable(cell) && cell.style != "root") {
+                        if (graph.isCellCollapsed(cell)) {
+                            graph.foldCells(false, false, null, true);
+                            setClassForCurrentState(graph, graph.getModel().cells, true);
+                        } else {
+                            graph.foldCells(true, false, null, true);
+                            setClassForCurrentState(graph, graph.getModel().cells, true);
+                        }
+                    }
+
+                    if (this.isEnabled() && !mxEvent.isConsumed(evt) && cell != null) {
+                        if (cell.isEdge()) {
+                            var content = document.createElement('div');
+                            console.log(cell);
+                            if (cell.value.code) {
+                                content.innerHTML = cell.value.code;
+                            } else {
+                                content.innerHTML = this.convertValueToString(cell);
+                            }
+                            showModalWindow(this, evt, 'SourceCode', content, 800, 300);
+                        }
+                    }
+                    // Disables any default behaviour for the double click
+                    mxEvent.consume(evt);
+                };
+                let parent = graph.getDefaultParent();
+                parent.setStyle("root");
+
+                // Adds cells to the model in a single step
+                graph.getModel().beginUpdate();
+                try {
+                    addRecursively(graph, parent, elkgraph);
+                }
+                finally {
+                    graph.getModel().endUpdate();
+                    fitAndCenterGraph(container, graph);
+                    setClassForCurrentState(graph, graph.getModel().cells, false);
+                }
+            }
+        }
+
+        /******************************
+                 GRAPH CREATION
+         ******************************/
+        function addRecursively(graph, parent, elknode) {
+            let root = addNode(graph, parent, elknode);
+            if (elknode.children) {
+                elknode.children.forEach(function (child) {
+                    addRecursively(graph, root, child);
+                });
+            }
+            if (elknode.ports) {
+                elknode.ports.forEach(function (port) {
+                    addRecursively(graph, root, port);
+                });
+            }
+            if (elknode.edges) {
+                elknode.edges.forEach(function (edge) {
+                    addEdge(graph, root, edge);
+                });
+            }
+        }
+
+        function addNode(graph, parent, elknode) {
+            let style = elknode.cresttype;
+            if (elknode.cresttype == "midpoint") {
+                return null;
+            }
+            if (elknode.cresttype == 'state' && elknode.currentstate) {
+                style = 'currentstate';
+            }
+            // TODO: we need to be aware that the height of an entity needs to be X pixels higher
+            // and that we also need to displace all x coordinates by that much
+            let vertex = graph.insertVertex(parent, elknode.id, elknode.label, elknode.x, elknode.y, elknode.width, elknode.height, style);
+            if (elknode.cresttype === "embeddedGraph") {
+                vertex.childrenGraph = elknode.childrenGraph;
+                vertex.parentGraph = elknode.parentGraph;
+            }
+            return vertex;
+        }
+
+        function addEdge(graph, parent, elknode) {
+            let style = elknode.cresttype;
+            let source = graph.getModel().getCell(elknode.sources[0]);
+            let target = graph.getModel().getCell(elknode.targets[0]);
+            let edge = graph.insertEdge(parent, elknode.id, elknode.label, source, target, style);
+            // for transitions add action attachment point
+            if (style === "transition") {
+                let mid = graph.insertVertex(edge, elknode.id + "_mid", "mid", 0, 0, 0, 0, 'strokeColor=green;rounded=1;', true);
+            }
+            let points = edge.geometry.points || []; // read original
+
+            if (elknode.sections && elknode.sections.length > 0) {
+                section = elknode.sections[0];
+                if (section.bendPoints) {
+                    for (let i = 0; i < section.bendPoints.length; i++) {
+                        points.push(new mxPoint(section.bendPoints[i].x, section.bendPoints[i].y));
+                    }
+                }
+                points.push(new mxPoint(section.endPoint.x, section.endPoint.y));
+            }
+            edge.geometry.points = points;  // write back
+        }
+
+        function mxgraph_main(elkgraph) {
+            const elk = new ELK({
+                defaultLayoutOptions: {
+                    'elk.algorithm': 'layered',
+                    'elk.direction': 'RIGHT',
+                    'elk.padding': '[top=50,left=50,bottom=50,right=50]',
+                    'elk.layered.spacing.nodeNodeBetweenLayers': 50,
+                    'elk.edgeRouting': 'POLYLINE',
+                    'elk.layered.unnecessaryBendpoints': true
+                }
+            });
+            let templateForEmbeddedGraph = function (id, childrenGraph, parentGraph, height) {
+                this.id = id;
+                this.width = 300;
+                this.height = height;
+                this.cresttype = 'embeddedGraph';
+                this.childrenGraph = childrenGraph;
+                this.parentGraph = parentGraph;
+                console.log("XXX", id, childrenGraph, parentGraph);
+                // this.label = { 'label': childrenGraph.label, 'text': '' };
+                this.label = childrenGraph.label;
+            }
+            let childrenOfFirstEntity = elkgraph.children[0].children;
+            let ports = null;
+            let height = null;
+            if (level === 3) {
+                if (typeof childrenOfFirstEntity != "undefined") {
+                    for (let i = 0; i < childrenOfFirstEntity.length; i++) {
+                        let thirdLevelChildrens = childrenOfFirstEntity[i].children;
+                        if (typeof thirdLevelChildrens != "undefined") {
+                            for (let j = 0; j < thirdLevelChildrens.length; j++) {
+                                if (thirdLevelChildrens[j].cresttype === "entity") {
+                                    if (typeof thirdLevelChildrens[j].ports != "undefined") {
+                                        ports = thirdLevelChildrens[j].ports;
+                                        height = ports.length;
+                                    }
+                                    let template = new templateForEmbeddedGraph(CryptoJS.SHA256(thirdLevelChildrens[j].id).toString(), thirdLevelChildrens[j], elkgraph, (height * 100) / 2);
+                                    thirdLevelChildrens[j] = {};
+                                    thirdLevelChildrens[j] = template;
+                                    if (ports != null) {
+                                        thirdLevelChildrens[j].ports = ports;
+                                        ports = null;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            } else if (level === 2) {
+                if (typeof childrenOfFirstEntity != "undefined") {
+                    for (let i = 0; i < childrenOfFirstEntity.length; i++) {
+                        if (childrenOfFirstEntity[i].cresttype === "entity") {
+                            if (typeof childrenOfFirstEntity[i].ports != "undefined") {
+                                ports = childrenOfFirstEntity[i].ports;
+                                height = ports.length;
+                            }
+                            let template = new templateForEmbeddedGraph(CryptoJS.SHA256(childrenOfFirstEntity[i].id).toString(), childrenOfFirstEntity[i], elkgraph, (height * 100) / 2);
+                            childrenOfFirstEntity[i] = {};
+                            childrenOfFirstEntity[i] = template;
+                            if (ports != null) {
+                                childrenOfFirstEntity[i].ports = ports;
+                                ports = null;
+                            }
+                        }
+                    }
+                }
+            }
+            elk.layout(elkgraph)
+                .then(function (graph_after_layout) {
+                    if(window.CREST_DEBUG){
+                        console.log("Graph after Layout", graph_after_layout);
+                    }
+                    plot(graph_after_layout);
+                });
+        }
+    </script>
+    <script type='text/javascript'>
+        const iframe = window.parent.document.getElementById('iframe_IFRAME_ID');
+        main = function () {
+            elkgraph = ELKGRAPH;
+            level = LEVEL;
+            if(window.CREST_DEBUG){
+                console.log("Graph as JSON", elkgraph);
+            }
+            mxgraph_main(elkgraph);
+        };
+    </script>
+</head>
+
+<body onload='main()' style="margin:0px;overflow:hidden;">
+    <div id="outlineContainer" style="height:100%;width:100%;"></div>
+    <div id='graphContainer'
+        style='position:absolute;overflow:hidden;left:24px;top:0px;right:0px;bottom:0px;cursor:default;'></div>
+</body>
+
+</html>
