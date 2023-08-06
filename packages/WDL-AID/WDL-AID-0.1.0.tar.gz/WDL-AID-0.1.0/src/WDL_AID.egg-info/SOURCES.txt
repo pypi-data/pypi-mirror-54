@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/WDL_AID.egg-info/PKG-INFO
+src/WDL_AID.egg-info/SOURCES.txt
+src/WDL_AID.egg-info/dependency_links.txt
+src/WDL_AID.egg-info/entry_points.txt
+src/WDL_AID.egg-info/requires.txt
+src/WDL_AID.egg-info/top_level.txt
+src/wdl_aid/__init__.py
+src/wdl_aid/wdl_aid.py
+src/wdl_aid/templates/__init__.py
+src/wdl_aid/templates/default.md.j2
