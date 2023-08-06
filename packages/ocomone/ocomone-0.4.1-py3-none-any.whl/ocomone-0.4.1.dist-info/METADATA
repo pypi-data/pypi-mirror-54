@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ocomone
+Version: 0.4.1
+Summary: Common helper library by Anton Kachurin
+Home-page: https://gitlab.com/outcatcher/ocomone
+License: Apache-2.0
+Author: Anton Kachurin
+Author-email: katchuring@gmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests (>=2.22,<3.0)
+Project-URL: Repository, https://gitlab.com/outcatcher/ocomone
+Description-Content-Type: text/markdown
+
+# ocomone
+
+[![PyPI version](https://img.shields.io/pypi/v/ocomone.svg)](https://pypi.org/project/ocomone/)
+
+This is the library with most simple and used functions
+
