@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mt-to-hugo-article-converter
+Version: 0.0.2
+Summary: Convert articles from MT to Hugo
+Home-page: https://github.com/mazgi/mt-to-hugo-article-converter
+Author: Hidenori MATSUKI
+Author-email: dev@mazgi.com
+License: UNKNOWN
+Description: # MT to Hugo Article Converter
+        
+        ## Requirements
+        
+        - Python3
+        
+        ## Installation
+        
+        ```shellsession
+        pip3 install mt-to-hugo-article-converter
+        ```
+        
+        ## How to use
+        
+        ```shellsession
+        python3 runner.py --input-file=path/to/mt-articles.txt --output-directory=path/to/outputs
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
