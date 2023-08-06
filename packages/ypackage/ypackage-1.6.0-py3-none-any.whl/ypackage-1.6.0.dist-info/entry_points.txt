@@ -1,0 +1,3 @@
+[console_scripts]
+ygitbookintegration = ypackage.integrate:main
+
