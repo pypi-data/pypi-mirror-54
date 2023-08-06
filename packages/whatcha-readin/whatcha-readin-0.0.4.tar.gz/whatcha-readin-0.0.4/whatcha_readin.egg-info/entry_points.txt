@@ -1,0 +1,3 @@
+[console_scripts]
+whatcha-readin = whatcha_readin.cli:cli
+

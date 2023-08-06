@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: whatcha-readin
+Version: 0.0.4
+Summary: githook for adding currently reading books to git commit messages
+Home-page: https://github.com/allisonking/whatcha-readin
+Author: Allison King
+Author-email: allisonjuliaking@gmail.com
+License: MIT 
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
