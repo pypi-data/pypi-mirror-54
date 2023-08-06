@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: jaeger_browser
+Version: 1.0.0
+Summary: Python HTTP server to record traces from the browser.
+Home-page: https://github.com/Quansight/jaeger-browser
+Author: Saul Shanabrook
+Author-email: saul@quansight.com
