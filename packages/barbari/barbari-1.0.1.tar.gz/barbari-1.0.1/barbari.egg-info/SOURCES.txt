@@ -1,0 +1,13 @@
+setup.py
+barbari/__init__.py
+barbari/config.py
+barbari/constants.py
+barbari/flatcam.py
+barbari/gerbers.py
+barbari/main.py
+barbari.egg-info/PKG-INFO
+barbari.egg-info/SOURCES.txt
+barbari.egg-info/dependency_links.txt
+barbari.egg-info/entry_points.txt
+barbari.egg-info/requires.txt
+barbari.egg-info/top_level.txt
