@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: paralelocs-qlikapi
+Version: 0.2.4
+Summary: Python Library to work with Qlik API
+Home-page: https://gitlab.com/paralelo/pyqlikapi/
+Author: Paralelo Consultoria e Servicos Ltda
+Author-email: contato@paralelocs.com.br
+License: Apache-2.0
+Project-URL: Changelog, https://paralelo/pyqlikapi/lucasmagalhaes/pyqlikapi/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://paralelo/pyqlikapi/lucasmagalhaes/pyqlikapi/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Requires-Dist: requests
+
+========
+Overview
+========
+
+Python Library to work with Qlik API
+
+* Free software: Apache Software License 2.0
+
+v0.2.4.
+
+Installation
+============
+
+::
+
+    pip install paralelocs-qlikapi
+
+You can also install the in-development version with::
+
+    pip install git+ssh://git@paralelo/pyqlikapi/.git@master
+
+Documentation
+=============
+
+
+To use the project:
+
+.. code-block:: python
+
+    import paralelocs_qlikapi
+    paralelocs_qlikapi.longest()
+
+
+Development
+===========
+
+To run the all tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.1.0 (2019-10-25)
+------------------
+
+* Adding the tag and stream 
+
+
+0.0.0 (2019-10-23)
+------------------
+
+* First release on PyPI.
+
+
