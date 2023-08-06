@@ -1,0 +1,13 @@
+adfs_aws_login/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adfs_aws_login/__main__.py,sha256=TXHt6dS_gBSSredPqfeAwEA8f8BfTvaN6sQK9WfaCWo,59
+adfs_aws_login/cli.py,sha256=ibthBtmf4RkvkBiovlLuHWu_WdaNYbmjFBRUZDLxekI,2547
+adfs_aws_login/conf.py,sha256=z9gs4UsgmUmJxqE2VhED_WxvhWbasxMxdLPaXUeC06o,2670
+adfs_aws_login/credentials.py,sha256=xGcG8oP_fjGb0GzmthTRG64G7qQGQrsFKSa6PtFuenQ,901
+adfs_aws_login/saml.py,sha256=IDdBJktJEDacjcOztgIrb_Ljfk0Qf85TLRxFoD5ksc0,4519
+adfs_aws_login-0.1.7.dist-info/DESCRIPTION.rst,sha256=sMNwpcVPbvEOpz1ZqRPPwLfPvFyyz5Hnf2nh2HXxpJE,1123
+adfs_aws_login-0.1.7.dist-info/METADATA,sha256=a7hWZvqSRgbD5g5jnynIPa4UbrUAuSiG2vQuUS-a4G8,1607
+adfs_aws_login-0.1.7.dist-info/RECORD,,
+adfs_aws_login-0.1.7.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+adfs_aws_login-0.1.7.dist-info/entry_points.txt,sha256=ee5U-FdIxLq6yrda9wesVlMQzIgJVjw8kTOVxOxQqu4,70
+adfs_aws_login-0.1.7.dist-info/metadata.json,sha256=navdCVkoqSxgny2PX-2NSQMD4ZpVezZGvJxI9gJTuXg,1037
+adfs_aws_login-0.1.7.dist-info/top_level.txt,sha256=vJFGQ0hHUuM-xR0lT1bpRjcRcFIaxvgJNfIgB-J2y7A,15
