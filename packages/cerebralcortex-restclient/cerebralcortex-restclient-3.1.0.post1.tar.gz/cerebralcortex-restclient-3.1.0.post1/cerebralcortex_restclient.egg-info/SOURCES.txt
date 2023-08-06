@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+cerebralcortex_rest/__init__.py
+cerebralcortex_rest/client.py
+cerebralcortex_restclient.egg-info/PKG-INFO
+cerebralcortex_restclient.egg-info/SOURCES.txt
+cerebralcortex_restclient.egg-info/dependency_links.txt
+cerebralcortex_restclient.egg-info/entry_points.txt
+cerebralcortex_restclient.egg-info/requires.txt
+cerebralcortex_restclient.egg-info/top_level.txt
