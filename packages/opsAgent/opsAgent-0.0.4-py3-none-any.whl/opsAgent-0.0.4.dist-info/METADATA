@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: opsAgent
+Version: 0.0.4
+Summary: Monitoring client based on OpsMgr
+Home-page: https://github.com/fanghongbo/opsAgent
+Author: fanghongbo
+Author-email: 718787573@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: APScheduler (==3.6.1)
+Requires-Dist: pycurl (==7.43.0.3)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: urllib3 (==1.25.6)
+
+## opsAgent
+
+[![python](https://img.shields.io/badge/python-3.x-blue)]()
+
+> 运维管理后台-监控客户端
+
+## Getting started
+```shell
+# install dependency package
+yum -y install epel-release python36 python36-devel python36-pip libcurl-devel gcc-c++ gcc libgcc
+
+# export PYCURL_SSL_LIBRARY
+echo 'export PYCURL_SSL_LIBRARY=nss' >> /root/.bash_profile
+source /root/.bash_profile
+
+# install opsAgent
+pip3 install opsAgent
+```
+
+## Use docker
+```shell
+docker run -d --name opsAgent -v `pwd`/config.json:/data/config.json fanghongbo/ops-agent:v0.0.3
+```
+
+
