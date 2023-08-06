@@ -1,0 +1,9 @@
+apache-airflow[celery]
+
+[linting]
+isort
+black
+
+[testing]
+pytest
+pytest-cov

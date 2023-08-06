@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/airflow_queue_stats/__init__.py
+src/airflow_queue_stats/calculate.py
+src/airflow_queue_stats/gather.py
+src/airflow_queue_stats/models.py
+src/airflow_queue_stats/plugin.py
+src/airflow_queue_stats.egg-info/PKG-INFO
+src/airflow_queue_stats.egg-info/SOURCES.txt
+src/airflow_queue_stats.egg-info/dependency_links.txt
+src/airflow_queue_stats.egg-info/entry_points.txt
+src/airflow_queue_stats.egg-info/requires.txt
+src/airflow_queue_stats.egg-info/top_level.txt
+src/airflow_queue_stats/views/__init__.py
+src/airflow_queue_stats/views/api.py
