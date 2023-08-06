@@ -1,0 +1,7 @@
+numpy>=1.16
+tensorflow
+pyaudio>=0.2
+webrtcvad>=2.0
+sonopy>=0.1.2
+requests>=2.22.0
+speechpy>=2.4
