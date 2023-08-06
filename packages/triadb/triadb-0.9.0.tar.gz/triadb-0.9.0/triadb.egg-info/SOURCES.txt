@@ -1,0 +1,72 @@
+MANIFEST.in
+NOTICE.txt
+README.rst
+setup.cfg
+setup.py
+triadb/LICENSE.txt
+triadb/NOTICE.txt
+triadb/__init__.py
+triadb/clients.py
+triadb/connectors.py
+triadb/exceptions.py
+triadb/meta_models.py
+triadb/meta_schema.py
+triadb/mis.py
+triadb/requirements_conda.txt
+triadb/requirements_pip.txt
+triadb/subsystems.py
+triadb/utils.py
+triadb.egg-info/PKG-INFO
+triadb.egg-info/SOURCES.txt
+triadb.egg-info/dependency_links.txt
+triadb.egg-info/top_level.txt
+triadb/data/DataModels/Bicycle Trips 2010-2018.json
+triadb/data/DataModels/Northwind.json
+triadb/data/DataModels/Physician CMS.json
+triadb/data/DataModels/SPC.json
+triadb/data/DataModels/SPC_ALL.json
+triadb/data/FlatFiles/SupplierPartCatalog/spc_catalog.tsv
+triadb/data/FlatFiles/SupplierPartCatalog/spc_parts.tsv
+triadb/data/FlatFiles/SupplierPartCatalog/spc_suppliers.tsv
+triadb/data/MySQLDumps/dump-Northwind8Entities-201909061113.sql
+triadb/data/MySQLDumps/dump-SPC-201909050814.sql
+triadb/data/XMLConfig/config.xml
+triadb/data/XMLConfig/users.xml
+triadb/test_cases/Northwind/Northwind_ASERD.py
+triadb/test_cases/Northwind/Northwind_aset_count.py
+triadb/test_cases/Northwind/Northwind_aset_ops.py
+triadb/test_cases/Northwind/Northwind_hacol_ops.py
+triadb/test_cases/Northwind/Apps/Northwind_Scenario1_dashboard.py
+triadb/test_cases/Northwind/Apps/assets/mystyles.css
+triadb/test_cases/Northwind/Notebooks/Northwind Mapping Importing Loading.ipynb
+triadb/test_cases/Northwind/Notebooks/Northwind Scenario1.ipynb
+triadb/test_cases/Northwind/Notebooks/Northwind_MSAccess_schema.png
+triadb/test_cases/Northwind/Notebooks/.ipynb_checkpoints/Northwind Mapping Importing Loading-checkpoint.ipynb
+triadb/test_cases/Northwind/Notebooks/.ipynb_checkpoints/Northwind Scenario1-checkpoint.ipynb
+triadb/test_cases/SPC/SPC_ASERD.py
+triadb/test_cases/SPC/SPC_MYSQL_mapping_loading.py
+triadb/test_cases/SPC/SPC_aset_count.py
+triadb/test_cases/SPC/SPC_aset_ops.py
+triadb/test_cases/SPC/SPC_association_construct.py
+triadb/test_cases/SPC/SPC_hacol_ops.py
+triadb/test_modules/ConnectionPool.py
+triadb/test_modules/ETL_json_model_Northwind.py
+triadb/test_modules/ETL_json_model_SPC.py
+triadb/test_modules/MIS_DMS_add_DataModel_with_commands.py
+triadb/test_modules/MIS_DMS_get.py
+triadb/test_modules/MIS_DRS_get.py
+triadb/test_modules/MIS_get_clickhouse_engines_info.py
+triadb/test_modules/MIS_populate_systems.py
+triadb/test_modules/MMC_add_DataModels_with_commands.py
+triadb/test_modules/MMC_add_DataSets.py
+triadb/test_modules/MMC_get.py
+triadb/test_modules/MMC_rebuild.py
+triadb/triaclick/LICENSE.md
+triadb/triaclick/NOTICE.txt
+triadb/triaclick/README.md
+triadb/triaclick/__init__.py
+triadb/triaclick/engine.py
+triadb/triaclick/generative.py
+triadb/triaclick/hacol.py
+triadb/triaclick/haset.py
+triadb/triaclick/hgraph.py

@@ -1,0 +1,32 @@
+Metadata-Version: 1.2
+Name: triadb
+Version: 0.9.0
+Summary: TRIADB - Self-Service Data Management and Analytics Framework
+Home-page: http://healis.eu/triadb
+Author: Athanassios I. Hatzis
+Author-email: hatzis@healis.eu
+License: Default license AGPL and TriaClick Open Source License Agreement
+Description: TRIADB - Self-Service Data Management and Analytics Framework
+Keywords: database engine,self-service BI,business intelligence,analytics,framework,graph database,information analysis,visualization
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Free For Home Use
+Classifier: License :: Free for non-commercial use
+Classifier: License :: Freely Distributable
+Classifier: License :: Free To Use But Restricted
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.7
