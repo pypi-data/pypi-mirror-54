@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+neoscrypt.c
+neoscrypt.h
+neoscryptmodule.c
+setup.cfg
+setup.py
+neoscrypt_python.egg-info/PKG-INFO
+neoscrypt_python.egg-info/SOURCES.txt
+neoscrypt_python.egg-info/dependency_links.txt
+neoscrypt_python.egg-info/top_level.txt
