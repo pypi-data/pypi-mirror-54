@@ -1,0 +1,6 @@
+README.md
+setup.py
+PyGryd.egg-info/PKG-INFO
+PyGryd.egg-info/SOURCES.txt
+PyGryd.egg-info/dependency_links.txt
+PyGryd.egg-info/top_level.txt
