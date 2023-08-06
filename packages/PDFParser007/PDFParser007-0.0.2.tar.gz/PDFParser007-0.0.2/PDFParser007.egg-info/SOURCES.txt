@@ -1,0 +1,9 @@
+README.md
+setup.py
+PDFParser007/PDFParser007.py
+PDFParser007/__init__.py
+PDFParser007.egg-info/PKG-INFO
+PDFParser007.egg-info/SOURCES.txt
+PDFParser007.egg-info/dependency_links.txt
+PDFParser007.egg-info/requires.txt
+PDFParser007.egg-info/top_level.txt

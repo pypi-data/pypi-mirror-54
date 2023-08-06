@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PDFParser007
+Version: 0.0.2
+Summary: Get Text,heading ,Para and Sentences from pdf.
+Home-page: UNKNOWN
+Author: Ankit Srivastava 007
+Author-email: ankits.7733@gmail.com
+License: UNKNOWN
+Description: ## PDFParser007
+        This is a package for getting Raw text, headings ,paragraphs and sentences from pdf files
+        Please install nltk and pdfminer.six use only for python>3 its dependencies
+        
+        Check the "methods" properties 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
