@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: py-virtnet
+Version: 1.0.1
+Summary: A library for building testnetworks
+Home-page: https://github.com/CN-TU/py-virtnet
+Author: Gernot Vormayr
+Author-email: gvormayr@gmail.com
+License: GPLv2
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Networking
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: pyroute2
+
+VIRTNET
+=======
+
+[![Python Versions](https://img.shields.io/pypi/pyversions/py-virtnet.svg)](https://pypi.org/project/py-virtnet/)
+[![PyPI - License](https://img.shields.io/pypi/l/py-virtnet.svg)](https://pypi.org/project/py-virtnet/)
+
+
+A minimalistic library for building your own test networks. Have a look at the [tests](test/) for examples or the provided python documentation.
+
+
