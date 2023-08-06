@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: known-pose-client
+Version: 1.1.2
+Summary: Known Pose API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: Kai.Waelti@dfki.de
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Known Pose API
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+Define and retrieve (accurate) semantic poses in a 2D environment.  # noqa: E501
+
+
