@@ -1,0 +1,8 @@
+azure-mgmt-cdn
+wagtail
+
+[testing]
+flake8
+black
+isort
+faker
