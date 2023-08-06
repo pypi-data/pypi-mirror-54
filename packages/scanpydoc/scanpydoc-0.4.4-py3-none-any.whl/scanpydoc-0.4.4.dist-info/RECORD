@@ -1,0 +1,12 @@
+scanpydoc/__init__.py,sha256=QBJQfXkZKQ9H_6vYD2wMcb2SuOkKVOfFI9oDIpY6W3Q,1155
+scanpydoc/autosummary_generate_imported.py,sha256=PfYJO2seHpK_rE2XOsqEbQYKvnKIyxyRz6D846t-TyA,1942
+scanpydoc/definition_list_typed_field.py,sha256=g4Zzc7sh-huG_rKWAK0vVF8WSFLf0ZgyObzq1zkslIU,3568
+scanpydoc/rtd_github_links.py,sha256=pxBGlwKqW-CJpJC3Djw4cRhAmmwRHOEHNIqY1A6IiJs,4952
+scanpydoc/elegant_typehints/__init__.py,sha256=sMP5wfZI49dBC6d4ewQDbTeowOSxn1mHhI5L40EMIkY,3900
+scanpydoc/elegant_typehints/formatting.py,sha256=-EZY7BzZxbqy6FHUaRG1ujRWqrtYxJJxaEy_DIMREkY,5851
+scanpydoc/elegant_typehints/return_tuple.py,sha256=HDllcNyPkxVAHhoK8DzFLj3SaZ2fCbF-FnQIwJSQLnA,2407
+scanpydoc/elegant_typehints/static/typehints.css,sha256=RQtxQSY3XAdaizSTOIQHQt7MApx5AEsDkFkvWMo7yus,104
+scanpydoc-0.4.4.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+scanpydoc-0.4.4.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+scanpydoc-0.4.4.dist-info/METADATA,sha256=IN2AEgZycoHPC7Fr-vA9Fc7HzgS0DUOMMag2kOShkwc,1875
+scanpydoc-0.4.4.dist-info/RECORD,,
