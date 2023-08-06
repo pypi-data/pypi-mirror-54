@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: VideoInfo
+Version: 1.0
+Summary: parse online video file metadata
+Home-page: https://www.github.com/kentxxq/VideoInfo
+Author: kentxxq
+Author-email: admin@kentxxq.com
+License: UNKNOWN
+Description: 简介
+        ===
+        
+        这个包是用来获取在线视频文件元数据的。
+        
+        USAGE
+        ==
+        
+        ```python
+        from VideoInfo import Mp4Url
+        
+        mp4=Mp4Url('http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4')
+        
+        mp4.getAll()
+        
+        print(mp4)
+        ```
+        
+        
+        TODO
+        ===
+        
+        后续没事的时候，把一些avi，rmvb，mkv什么的都弄好。
+        
+        如果是本地文件
+        ===
+        
+        推荐安装一个ffmpeg，通过调用命令行获取数据
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

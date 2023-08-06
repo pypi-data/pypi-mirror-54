@@ -1,0 +1,11 @@
+README.md
+setup.py
+VideoInfo/Mp4Url.py
+VideoInfo/VideoBase.py
+VideoInfo/__init__.py
+VideoInfo/parse.py
+VideoInfo.egg-info/PKG-INFO
+VideoInfo.egg-info/SOURCES.txt
+VideoInfo.egg-info/dependency_links.txt
+VideoInfo.egg-info/requires.txt
+VideoInfo.egg-info/top_level.txt
