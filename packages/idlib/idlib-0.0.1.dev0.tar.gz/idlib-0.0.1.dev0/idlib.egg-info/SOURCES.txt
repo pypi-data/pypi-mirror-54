@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+idlib/__init__.py
+idlib/core.py
+idlib/utils.py
+idlib.egg-info/PKG-INFO
+idlib.egg-info/SOURCES.txt
+idlib.egg-info/dependency_links.txt
+idlib.egg-info/entry_points.txt
+idlib.egg-info/requires.txt
+idlib.egg-info/top_level.txt
+test/__init__.py
