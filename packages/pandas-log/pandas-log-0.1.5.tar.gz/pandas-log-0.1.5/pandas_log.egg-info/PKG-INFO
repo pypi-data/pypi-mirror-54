@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pandas-log
+Version: 0.1.5
+Summary: pandas-log provides feedback about basic pandas operations. It provides simple wrapper functions for the most common functions, such as apply, map, query and more.
+Home-page: https://github.com/eyaltrabelsi/pandas-log
+Author: Eyal Trabelsi
+Author-email: eyaltrabelsi@gmail.com
+License: MIT license
+Description: pandas-log provides feedback about basic pandas operations. It provides simple wrapper functions for the most common functions, such as apply, map, query and more.
+Platform: UNKNOWN
+Requires-Python: >=3.4
+Description-Content-Type: text/x-rst
