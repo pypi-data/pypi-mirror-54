@@ -1,0 +1,9 @@
+README.md
+setup.py
+gsheets_db_connector/__init__.py
+gsheets_db_connector/googlesheets.py
+gsheets_db_connector.egg-info/PKG-INFO
+gsheets_db_connector.egg-info/SOURCES.txt
+gsheets_db_connector.egg-info/dependency_links.txt
+gsheets_db_connector.egg-info/requires.txt
+gsheets_db_connector.egg-info/top_level.txt
