@@ -1,0 +1,10 @@
+complexity_science/__init__.py,sha256=reA0-MX5eMS0CKhDqGvIwOvDIyYDoU1oPD_xWQA7HLM,110
+complexity_science/ca/__init__.py,sha256=q57Ub6aC7BG5FTVEOXlGk75ioij5aYCrKgXvW8ODMqY,41
+complexity_science/ca/ca1d.py,sha256=j0XWvWtQWRmvnOdL3MMWY8mPTHJYYxCPWJOHw1-zb_M,3879
+complexity_science/ca/rules.py,sha256=xSQKJZ88S-I3LyVFH7zmZiuGujcHp9yyuWYB1jPSA_4,3670
+complexity_science/ca/test.py,sha256=42H4Ls6y52e78f1ncmje09VucV0zXxmkvpTgiwHSms0,94
+complexity_science-0.0.1.dist-info/LICENSE,sha256=_WJQ1qU6XXqtBjQk1izy-OwyDew3K2Mxg2lGyG9wN0c,1078
+complexity_science-0.0.1.dist-info/METADATA,sha256=bHLwY46iwDveH9P876Z95MRaf8UxY_qHNNLy9QWPzC8,1352
+complexity_science-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+complexity_science-0.0.1.dist-info/top_level.txt,sha256=nh4sdHOey7CFZ-ae-pDwv0Y09JdzqZBf0dGiVr8VgJw,19
+complexity_science-0.0.1.dist-info/RECORD,,
