@@ -1,0 +1,4 @@
+google-cloud-spanner
+prompt-toolkit
+cli-helpers
+pygments
