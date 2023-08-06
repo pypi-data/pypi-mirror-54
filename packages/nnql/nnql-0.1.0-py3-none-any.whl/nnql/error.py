@@ -1,0 +1,2 @@
+class DependencyNotInstalled(Exception):
+    pass

@@ -1,0 +1,3 @@
+[console_scripts]
+nnql=nnql.cli:nnql
+
