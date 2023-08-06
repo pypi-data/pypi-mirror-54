@@ -1,0 +1,6 @@
+- model: exo_role.ExORole
+  pk: 121
+  fields:
+    name: Speaker
+    code: TAS
+    categories: [7]
