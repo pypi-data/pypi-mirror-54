@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requeriments.txt
+setup.py
+src/MicroBitTools.py
+src/MicroBitTools.egg-info/PKG-INFO
+src/MicroBitTools.egg-info/SOURCES.txt
+src/MicroBitTools.egg-info/dependency_links.txt
+src/MicroBitTools.egg-info/top_level.txt
