@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: jetblack-datemath
+Version: 1.0.0
+Summary: Date arithmetic for Python
+Home-page: https://github.com/rob-blackbourn/jetblack-datemath
+License: Apache-2.0
+Author: Rob Blackbourn
+Author-email: rob.blackbourn@googlemail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Project-URL: Repository, https://github.com/rob-blackbourn/jetblack-datemath
+Description-Content-Type: text/markdown
+
+# jetblack-datemath
+
+Date arithmetic for Python
+
+## Installation
+
+```bash
+$ pip install jetblack-datetime
+```
+
