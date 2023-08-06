@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: vvar
+Version: 0.4
+Summary: Virtual user-persistent variables, accessible via an environment object
+Home-page: https://github.com/swip3798/vvar
+Author: Christian Schweigel
+Author-email: 
+License: UNKNOWN
+Description: # VVar-Python
+        
+        ## Description
+        
+        Simple python module to save and load user-persistent strings, that will stay after application stop. Note that the variables will be stored unencrypted.
+        
+        ## Usage
+        
+        ```python
+        import vvar
+        
+        # Store
+        vvar.example_var = "Example String"
+        
+        # Read
+        print(vvar.example_var)
+        # Output: Example String
+        
+        # Delete
+        del vvar.example_var
+        ```
+        
+        ## Installation
+        ```
+        pip install vvar
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown

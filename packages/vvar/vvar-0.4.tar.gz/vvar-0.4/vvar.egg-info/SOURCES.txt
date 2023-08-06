@@ -1,0 +1,8 @@
+README.md
+setup.py
+vvar/__init__.py
+vvar/vvar.py
+vvar.egg-info/PKG-INFO
+vvar.egg-info/SOURCES.txt
+vvar.egg-info/dependency_links.txt
+vvar.egg-info/top_level.txt
