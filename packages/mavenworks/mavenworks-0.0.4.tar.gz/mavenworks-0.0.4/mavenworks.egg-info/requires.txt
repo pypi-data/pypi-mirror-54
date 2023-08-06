@@ -1,0 +1,7 @@
+requests
+rx<3,>=1.0
+jupyterlab>1.0
+pandas
+IPython
+ipywidgets
+matplotlib
