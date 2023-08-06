@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: musco-tf
+Version: 1.0.2
+Summary: MUSCO: Multi-Stage COmpression of neural networks
+Home-page: https://github.com/musco-ai/musco-tf
+Author: Julia Gusak, Maksym Kholiavchenko, Evgeny Ponomarev, Larisa Markeeva, Andrzej Cichocki, Ivan Oseledets
+Author-email: m.kholyavchenko@innopolis.ru
+License: Apache-2.0
+Download-URL: https://github.com/musco-ai/musco-tf/archive/1.0.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
