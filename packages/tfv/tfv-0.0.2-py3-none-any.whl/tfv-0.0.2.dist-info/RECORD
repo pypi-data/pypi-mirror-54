@@ -1,0 +1,11 @@
+tfv/__init__.py,sha256=jcxEvmG8SUXwqqO3QMq0pI2qr_cXqTkLzXX3iJBMPes,314
+tfv/extractor.py,sha256=IOtYai7T5oM5z0miKI4z5qxVc273dP7hB5i4gCEhB4I,33613
+tfv/geometry.py,sha256=c4FeCkWsXnylAh_3akhEzrwXlw-JCb03cmXDhXU0Zjw,18093
+tfv/misc.py,sha256=DMGXYCkZGxfNmke62UJjWSaC0Hn8LSTLp7bSIkYMMck,7107
+tfv/timeseries.py,sha256=G-x-UGq3tZddB1SDcx3c0HtHWpI66DAmky3w4AxuOA4,9519
+tfv/visual.py,sha256=XsAyqqbAkWhTvuGXXHgNA6KMwObpVSp4Znuw4zW16_g,44333
+tfv-0.0.2.dist-info/LICENSE,sha256=upng0swvDbl0YJLfdTM8_1koJxzFPfcZ7q0s8j701_E,1103
+tfv-0.0.2.dist-info/METADATA,sha256=mGys5Beic9_JEk7r0Ze5R81u9eHjLpqC2cpZPASRpqw,1993
+tfv-0.0.2.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+tfv-0.0.2.dist-info/top_level.txt,sha256=pBRfEkvJL7BnVAbYtthNGEVjGr2aha4-1MU6StESThM,4
+tfv-0.0.2.dist-info/RECORD,,
