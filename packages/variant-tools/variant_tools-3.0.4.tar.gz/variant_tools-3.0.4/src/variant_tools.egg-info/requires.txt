@@ -1,0 +1,7 @@
+pyzmq
+tables
+numpy
+Cython
+scipy
+pyzmq
+pycurl
