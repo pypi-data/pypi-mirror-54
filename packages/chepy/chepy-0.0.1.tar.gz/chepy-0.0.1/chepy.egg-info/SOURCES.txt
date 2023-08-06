@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+chepy/__init__.py
+chepy/__version__.py
+chepy.egg-info/PKG-INFO
+chepy.egg-info/SOURCES.txt
+chepy.egg-info/dependency_links.txt
+chepy.egg-info/top_level.txt
