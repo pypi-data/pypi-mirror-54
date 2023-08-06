@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: bysy
+Version: 0.7
+Summary: Self-management time logging tool
+Home-page: https://github.com/Godje/bysy
+Author: Daniel Mayovskiy
+Author-email: daniel.mayovskiy@gmail.com
+License: MPL 2.0
+Description: UNKNOWN
+Keywords: time,logging,management
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
