@@ -1,0 +1,12 @@
+Deprecated
+PyGObject
+bottle
+deepdiff
+fuzzywuzzy
+gobject
+pychromecast
+python-Levenshtein
+python-dateutil
+python-mpv
+pyyaml
+requests
