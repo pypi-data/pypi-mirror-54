@@ -1,0 +1,23 @@
+# sphinx build artifacts
+doc/sphinx/_build
+doc/sphinx/_generate
+
+# python distribution output directory
+dist/
+build/
+pycascrel.egg-info/
+.eggs/
+
+# default CLion build directories
+cmake-build*/
+
+# IDE-specific files
+.idea/
+
+# JetBrains recommended defaults
+# user-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries.xml
+.idea/**/shelf
