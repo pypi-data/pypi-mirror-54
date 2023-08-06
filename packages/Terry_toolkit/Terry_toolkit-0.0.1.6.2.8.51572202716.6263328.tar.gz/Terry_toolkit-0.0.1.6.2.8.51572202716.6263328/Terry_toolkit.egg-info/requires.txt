@@ -1,0 +1,17 @@
+MagicBaidu==0.0.9
+beautifulsoup4==4.8.1
+bs4==0.0.1
+cchardet==2.1.4
+certifi==2019.9.11
+chardet==3.0.4
+decorator==4.4.0
+html2text==2019.9.26
+idna==2.8
+jieba==0.39
+networkx==2.4
+numpy==1.17.3
+readability==0.3.1
+requests==2.22.0
+soupsieve==1.9.4
+textrank4zh==0.3
+urllib3==1.25.6
