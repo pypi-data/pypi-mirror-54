@@ -1,0 +1,14 @@
+README.rst
+setup.py
+fompy/__init__.py
+fompy/aux.py
+fompy/conditioning.py
+fompy/fds.py
+fompy/fom.py
+fompy/plots.py
+fompy/wrappers.py
+fompy.egg-info/PKG-INFO
+fompy.egg-info/SOURCES.txt
+fompy.egg-info/dependency_links.txt
+fompy.egg-info/requires.txt
+fompy.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+from __future__ import division, absolute_import, print_function
+
+from .fds import *
+from .fom import *
+from .plots import *
+from .conditioning import *
+from .aux import *
+from .wrappers import *
+
+name = "fompy"
+import os
+
+__version__ = '0.3.8'
+
+
