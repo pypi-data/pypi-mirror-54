@@ -1,0 +1,3 @@
+[console_scripts]
+pyimgtool = pyimgtool.__main__:main
+
