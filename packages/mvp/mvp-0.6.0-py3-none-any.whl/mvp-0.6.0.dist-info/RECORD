@@ -1,0 +1,17 @@
+mvp/__init__.py,sha256=EUaWuFirCMc0GQSS28ThTXPUFFCc8LMTCH3UF7x60F0,428
+mvp/config.py,sha256=SpHkDB5pVhhzM04AG11vJixKB10im_GTM7fl3N2uwR0,465
+mvp/extensions.py,sha256=R7FYckhO3qZcLrS58RKTS4WNGfmD4WnYeFBVvzJ6v7E,989
+mvp/forms.py,sha256=H3PttdibMyf4g4ip1oE1QYvsQ-kB2z6XNJjSYsbLi0c,1485
+mvp/hooks.py,sha256=JaqeZwijKFqgLZWGZaae7NjNW_RQVWdUpHbVqC_rNVk,2904
+mvp/integration.py,sha256=0hxm4kaUgp19UD8fFesRIj6rP12j1s4uCerwkEQKFqs,1643
+mvp/presets.py,sha256=OGS0ar2QVWxKxOms8rc5nXhLaTfuuHKLD4ePW4T188U,1503
+mvp/renderglobals.py,sha256=uZ_iuL4rBEr9sowaB05JrlfzzG1h7zRoJXLpZzaTmKs,1381
+mvp/style.css,sha256=lgvuqs7Z_aHP9DCfZO4EJJ23TXY9Y1fAkGMEoLVlE-c,1106
+mvp/ui.py,sha256=GKIW8l2Xd3UeeW3Rvsf_ZeYSNRiBvFeAAUNGbWOSAPQ,14305
+mvp/utils.py,sha256=lpoJ4V-DCBN7DHrFMCjsPP7w77K-Q_p9sTtt1kPn01U,1315
+mvp/viewport.py,sha256=jF-Qrwh-5CxQCJu1BICizN6Yfy56ojvOmlpkHgBJSrM,16061
+mvp-0.6.0.dist-info/LICENSE,sha256=e6gOtG7-W5GHdwRLFPmWhqueRCoctBptcCfac5um67k,1101
+mvp-0.6.0.dist-info/METADATA,sha256=sC8c1ob42fMswsp8ZPBMUFS1a9EjNlJE4ePSsJWH_LM,1935
+mvp-0.6.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+mvp-0.6.0.dist-info/top_level.txt,sha256=SaFcsQVm7up21a0ADiblEbwPAOIzoAg3vuK8BP6hYDc,4
+mvp-0.6.0.dist-info/RECORD,,
