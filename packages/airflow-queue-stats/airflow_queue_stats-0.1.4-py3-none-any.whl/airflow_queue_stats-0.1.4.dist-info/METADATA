@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: airflow-queue-stats
+Version: 0.1.4
+Summary: An airflow plugin for viewing queue statistics.
+Home-page: https://github.com/airflowdocker/airflow-queue-stats
+Author: Hunter Senft-Grupp
+Author-email: huntcsg@gmail.com
+License: MIT
+Keywords: airflow airflow-docker celery flower worker queue plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: linting
+Requires-Dist: apache-airflow[celery]
+Provides-Extra: linting
+Requires-Dist: isort; extra == 'linting'
+Requires-Dist: black; extra == 'linting'
+Provides-Extra: testing
+Requires-Dist: pytest; extra == 'testing'
+Requires-Dist: pytest-cov; extra == 'testing'
+
+# Welcome to Airflow Queue Stats
+
+#### An airflow plugin to assist with worker and queue management in airflow
+
+
