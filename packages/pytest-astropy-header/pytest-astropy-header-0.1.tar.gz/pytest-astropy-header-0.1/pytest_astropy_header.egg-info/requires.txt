@@ -1,0 +1,7 @@
+pytest>=2.8
+
+[test]
+pytest
+pytest-cov
+codecov
+coverage
