@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: CaseMachine
+Version: 0.1
+Summary: Casemachine
+Home-page: https://gitlab.com/vision-ec-labs/casem_evo2
+Author: Markus Hillebrand
+Author-email: markus.hillebrand@visioneleven.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+Casemachine
+
+
