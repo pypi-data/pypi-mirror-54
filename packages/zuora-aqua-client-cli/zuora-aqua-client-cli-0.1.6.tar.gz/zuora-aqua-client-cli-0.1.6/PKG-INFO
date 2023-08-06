@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: zuora-aqua-client-cli
+Version: 0.1.6
+Summary: Run ZOQL queries through AQuA from the command line
+Home-page: https://github.com/molnarjani/zuora-aqua-client-cli
+Keywords: Zuora,ZOQL
+Author: Janos Molnar
+Author-email: janosmolnar1001@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: flake8 (>=3.7,<4.0)
+Requires-Dist: requests (>=2.22,<3.0)
+Project-URL: Repository, https://github.com/molnarjani/zuora-aqua-client-cli
+Description-Content-Type: text/markdown
+
+# zuora-aqua-client-cli [![Build Status](https://travis-ci.com/molnarjani/zuora-aqua-client-cli.svg?branch=master)](https://travis-ci.com/molnarjani/zuora-aqua-client-cli)
+
+Run ZOQL queries through AQuA from the command line
+
+# Usage
+
+```
+$ zacc --help
+
+Usage: zacc [OPTIONS]
+
+Options:
+  -c, --config-filename PATH      Config file containing Zuora ouath
+                                  credentials  [default: zuora_oauth.ini]
+  -z, --zoql PATH                 ZOQL file to be executed  [default:
+                                  input.zoql]
+  -e, --environment [prod|preprod|local]
+                                  Zuora environment to execute on  [default:
+                                  local]
+  --help                          Show this message and exit.
+```
+
