@@ -1,0 +1,10 @@
+README.md
+setup.py
+brainyquote/__init__.py
+brainyquote/pybrainyquote.py
+brainyquote/test.py
+brainyquote.egg-info/PKG-INFO
+brainyquote.egg-info/SOURCES.txt
+brainyquote.egg-info/dependency_links.txt
+brainyquote.egg-info/requires.txt
+brainyquote.egg-info/top_level.txt
