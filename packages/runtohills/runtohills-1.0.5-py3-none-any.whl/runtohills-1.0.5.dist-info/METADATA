@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: runtohills
+Version: 1.0.5
+Summary: GUI for running economic experiments
+Home-page: https://github.com/espensirnes/runtohills
+Author: Espen Sirnes
+Author-email: espen.sirnes@uit.no
+License: GPL-3.0
+Requires-Dist: arcade
+Requires-Dist: pyglet
+
+runtohills
+
+
