@@ -1,0 +1,166 @@
+Metadata-Version: 2.1
+Name: bento-cli
+Version: 0.2.1
+Summary: Free program analysis focused on bugs that matter to you.
+Home-page: https://r2c.dev
+Author: Return To Corporation
+Author-email: bento@r2c.dev
+License: Proprietary
+Description: <p align="center">
+            <img src="https://raw.githubusercontent.com/returntocorp/bento/master/bento-logo.png" height="100" alt="Bento logo"/>
+        </p>
+        <h1 align="center" style="margin-top:0;"></h1>
+        
+        <br/>
+        <h3 align="center">
+            Free program analysis focused on bugs that matter to you.
+        </h3>
+        <p align="center">
+        Install, configure, and adopt Bento in seconds. Runs 100% locally.
+        </p>
+        
+        <p align="center">
+          <a href="https://pypi.org/project/bento-cli/">
+            <img alt="PyPI" src="https://img.shields.io/pypi/v/bento-cli?style=flat-square&color=blue">
+          </a>
+          <a href="https://pypi.org/project/bento-cli/">
+            <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/bento-cli?style=flat-square&color=green">
+          </a>
+          <a href="https://github.com/returntocorp/bento/issues/new/choose">
+            <img src="https://img.shields.io/badge/issues-welcome-green?style=flat-square" alt="Issues welcome!" />
+          </a>
+          <a href="https://join.slack.com/t/r2c-community/shared_invite/enQtNjU0NDYzMjAwODY4LWE3NTg1MGNhYTAwMzk5ZGRhMjQ2MzVhNGJiZjI1ZWQ0NjQ2YWI4ZGY3OGViMGJjNzA4ODQ3MjEzOWExNjZlNTA">
+            <img src="https://img.shields.io/badge/chat-on%20slack-blue?style=flat-square">
+          </a>
+          <a href="https://twitter.com/intent/follow?screen_name=r2cdev">
+            <img src="https://img.shields.io/twitter/follow/r2cdev?label=Follow%20r2cdev&style=social&color=blue" alt="Follow @r2cdev" />
+          </a>
+        </p>
+        <br>
+        <br>
+        
+        Bento is a free and opinionated toolkit for gradually adopting linters[¹](https://en.wikipedia.org/wiki/Lint_(software)) and program analysis[²](https://en.wikipedia.org/wiki/Program_analysis) in your codebase. Be the bug-squashing advocate your team needs but (maybe) doesn’t deserve.
+        
+        - **Find bugs that matter.** Bento automatically enables and configures relevant analysis based on your dependencies and frameworks, and it will never report style-related issues. You won’t painstakingly configure your tooling.
+        - **Get started immediately.** Bento doesn’t force you to fix all your preexisting issues today. Instead, you can archive them and address them incrementally when it makes sense for your project.
+        - **Go fast.** Bento installs in 5 seconds and self-configures in less than 30. Its tools check your code in parallel, not sequentially.
+        
+        Bento includes checks written by [r2c](https://r2c.dev/) and curated from [Bandit](https://pypi.org/project/bandit/), [ESLint](https://eslint.org/), [Flake8](https://pypi.org/project/flake8/), and their plugins. It runs on your local machine and never sends your code anywhere or to anyone.
+        
+        <p align="center">
+            <img src="https://raw.githubusercontent.com/returntocorp/bento/master/bento-demo.gif" width="90%" alt="gif demonstrating Bento running in a terminal"/>
+        </p>
+        
+        ## Installation
+        ```shell
+        $ pip3 install bento-cli
+        ```
+        
+        Bento is for JavaScript, TypeScript, and Python projects. It requires Python 3.6+ and works on macOS Mojave (10.14) and Ubuntu 18.04+.
+        
+        ## Usage
+        To get started right away with sensible defaults:
+        
+        ```shell
+        $ bento init && bento check
+        ```
+        
+        To set aside preexisting results so you only see issues in new code:
+        
+        ```shell
+        $ bento archive
+        ```
+        
+        Bento really sings when you run it automatically in your editor, as a commit hook (`bento install-hook`), or in CI.
+        
+        ## Command Line Options
+        ```shell
+        $ bento --help
+        
+        Usage: bento [OPTIONS] COMMAND [ARGS]...
+        
+        Options:
+          --version  Show current Bento version.
+          --agree    Automatically agree to terms of service.
+          --help     Show this message and exit.
+        
+        Commands:
+          archive       Adds all current findings to the whitelist.
+          check         Checks for new findings.
+          disable       Disables a check.
+          enable        Enables a check.
+          init          Autodetects and installs tools.
+          install-hook  Installs Bento as a git pre-commit hook.
+        ```
+        
+        
+        ## Help and Community
+        - Need help or want to share feedback? Reach out to us at [support@r2c.dev](mailto:support@r2c.dev). We’d love to hear from you! 💌
+        - Join #bento in our [community Slack](https://join.slack.com/t/r2c-community/shared_invite/enQtNjU0NDYzMjAwODY4LWE3NTg1MGNhYTAwMzk5ZGRhMjQ2MzVhNGJiZjI1ZWQ0NjQ2YWI4ZGY3OGViMGJjNzA4ODQ3MjEzOWExNjZlNTA) for support, to talk with other users, and share feedback. 🤝
+        - We’re fortunate to benefit from the contributions of the open source community and great projects such as [Bandit](https://pypi.org/project/bandit/), [ESLint](https://eslint.org/), [Flake8](https://pypi.org/project/flake8/), and their plugins. 🙏
+        
+        ## License and Legal
+        Please refer to the [terms and privacy document](https://github.com/returntocorp/bento/blob/master/PRIVACY.md).
+        
+        </br>
+        </br>
+        <p align="center">
+            <img src="https://r2c.dev/r2c-logo-silhouette.png?pp" height="24" alt="r2c logo"/>
+        </p>
+        <p align="center">
+            Copyright (c) <a href="https://r2c.dev">r2c</a>.
+        </p>
+        
+        ---
+        # Changelog
+        
+        This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+        
+        ## [0.2.1] - 2019-10-24
+        
+        ### Fixed
+        
+        - Fix an issue where cached results are not invalidated when a file changes on
+          the root path.
+        
+        ## [0.2.1] - 2019-10-29
+        
+        ### Fixed
+        
+        - Quoted emails in git configuration do not break user registration.
+        - Removed files properly invalidate results cache.
+        - Python tools do not crawl `node_modules`.
+        
+        ## [0.2.0] - 2019-10-23
+        
+        ### Changed
+        
+        - Results are cached between runs. This means that an immediate rerun of
+          `bento` will be much faster.
+        - Broadened library compatibility, especially for common packages:
+          - attrs from 18.2.0
+          - packaging from 14.0
+          - pre-commit from 1.0.0
+        - `r2c.eslint` ignores `.min.js` files. Bento should only report issues in code, not built artifacts.
+        - Telemetry endpoint uses `bento.r2c.dev`.
+        
+        ### Added
+        
+        - Bento check will optionally run only on passed paths, using `bento check [path] ...`.
+        - Add `r2c.pyre` as a configurable tool. To enable, it must be manually configured in `.bento.yml`.
+        - Formatters can be specified with short names, and these appear in the help text. For example, `bento check --formatter json`.
+        - `bento` version is passed to telemetry backend.
+        
+        ### Fixed
+        
+        - Tool does not crash if a git user does not have an email configured.
+        - Fixed a regression that caused progress bars to hang after first tool completed.
+        - Made fully compatible with Python 3.6.
+        - Tool does not mangle .gitignore when that file lacks a trailing newline.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
