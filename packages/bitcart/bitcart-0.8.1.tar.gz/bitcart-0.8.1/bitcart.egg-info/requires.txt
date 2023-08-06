@@ -1,0 +1,4 @@
+jsonrpcclient[requests]
+
+[webhook]
+flask
