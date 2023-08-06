@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+isort = "*"
+autoflake = "*"
+pytest = "*"
+pytest-cov = "*"
+qiitcli = {path = "."}
+twine = "*"
+
+[packages]
+
+[requires]
+python_version = "3"
+
+[scripts]
+main = "python qiitacli/client.py"

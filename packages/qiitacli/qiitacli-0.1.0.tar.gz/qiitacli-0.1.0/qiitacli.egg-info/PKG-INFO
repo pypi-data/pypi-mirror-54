@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: qiitacli
+Version: 0.1.0
+Summary: CLI Application for Qiita API v2
+Home-page: https://github.com/mypaceshun/qiitacli
+Author: KAWAI Shun
+Author-email: shun@osstech.co.jp
+Maintainer: KAWAI Shun
+Maintainer-email: shun@osstech.co.jp
+License: MIT
+Description: # QiitaCLI
+        
+        [![Build Status](https://travis-ci.org/mypaceshun/qiitacli.svg?branch=master)](https://travis-ci.org/mypaceshun/qiitacli)
+        [![codecov](https://codecov.io/gh/mypaceshun/qiitacli/branch/master/graph/badge.svg)](https://codecov.io/gh/mypaceshun/qiitacli)
+        
+        
+        
+        Qiita CUI Client
+        
+        CUIでQiitaの投稿をしたくて作ったもの
+        Qiitaの記事を投稿出来るようになるのが目標
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
