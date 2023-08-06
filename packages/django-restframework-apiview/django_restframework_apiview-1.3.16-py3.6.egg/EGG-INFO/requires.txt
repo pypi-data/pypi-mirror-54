@@ -1,0 +1,15 @@
+django-import-export
+
+[:python_version < "3"]
+django<2
+djangorestframework<3.10
+
+[:python_version >= "3"]
+django<3
+djangorestframework
+
+[dev]
+check-manifest
+
+[test]
+coverage
