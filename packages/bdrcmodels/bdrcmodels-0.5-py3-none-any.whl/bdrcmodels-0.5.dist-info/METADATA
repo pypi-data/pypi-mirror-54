@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bdrcmodels
+Version: 0.5
+Summary: UNKNOWN
+Home-page: https://github.com/Brown-University-Library/bdrcmodels
+Author: Brown University Library
+Author-email: bdr@brown.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: eulfedora (>=1.7.2)
+Requires-Dist: bdrxml (>=1.0)
+
+UNKNOWN
+
+
