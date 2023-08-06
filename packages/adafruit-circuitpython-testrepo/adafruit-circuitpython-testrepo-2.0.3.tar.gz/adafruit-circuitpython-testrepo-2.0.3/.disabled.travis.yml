@@ -1,0 +1,48 @@
+# This is a common .travis.yml for generating library release zip files for
+# CircuitPython library releases using circuitpython-build-tools.
+# See https://github.com/adafruit/circuitpython-build-tools for detailed setup
+# instructions.
+
+dist: xenial
+language: python
+python:
+  - "3.6"
+
+cache:
+  pip: true
+
+# TODO: if deployment to PyPi is desired, change 'DEPLOY_PYPI' to "true",
+#       or remove the env block entirely and remove the condition in the
+#       deploy block.
+env:
+  - DEPLOY_PYPI="true"
+
+deploy:
+  - provider: releases
+    api_key: "$GITHUB_TOKEN"
+    file_glob: true
+    file: "$TRAVIS_BUILD_DIR/bundles/*"
+    skip_cleanup: true
+    overwrite: true
+    on:
+      tags: true
+  # TODO: Use 'travis encrypt --com -r adafruit/<repo slug>' to generate
+  #       the encrypted password for adafruit-travis. Paste result below.
+  - provider: pypi
+    user: adafruit-travis
+    password:
+      secure: BOBAOtu0lzfn40FDdQOAKm7z8JnrPdX7irybdggEOOTSRaGxmoOw2yvk9c+0hpOCguvo7jUewMJC0tEdMO0sUnIyD/1vnLtXLdL948O6bIxCDxLH5WxyyEsMABvcn4kdmxJk3qky5HwTT5GCFF5I+p/aJWNrq46+UHFjDVTXO6VDrimSumvWlD+jr07s8AdicGm4MAZccs9Tt5GBDLCNRXGWcGmZpcE6svZqxI+c4+SKX3j5zpQ0PGX4OJsGQb5IGkTWxrKsM6H/meu81VPq3G7Bssg7fJIxI2iI4mzQBMOZQMfnRK/92sHfJLW3dzaDkGuovXO1DVLF14bEssJndem5wykr02lQZau+3T02sfYO0IUUTSTCKHo/MfmDlcp8mz5CeG8wzZs9NOxmDoWWtkkKo5gFNljaLQH7m12Rw+6ws0nbxoyIWN2synjw5Kpc7PP+LDGS0IRJttQsTjvX6gYqCfm+DspD5y/+n/+C66zt1pb675OtpsV55DcC3aeCO84ri4/2N7j+gf6az7SuweFTfsvRixub/0t1sZPY3ujn5wpF6EK29cvldrDhnA8hJhfil2xLsp+vkuO7+RTTUg/LnFV7S/WY6ADOVPyDqUwiv82P180vX0S5HyMAdrvZE/RwXz3ajX5oOUXO2Jnydi0GXxnWFY6eCaKDOdBdNp4=
+    on:
+      tags: true
+      condition: $DEPLOY_PYPI = "true"
+
+install:
+  - pip install -r requirements.txt
+  - pip install circuitpython-build-tools Sphinx sphinx-rtd-theme
+  - pip install --force-reinstall pylint==1.9.2
+
+script:
+  - pylint adafruit_testrepo.py
+  - ([[ ! -d "examples" ]] || pylint --disable=missing-docstring,invalid-name,bad-whitespace examples/*.py)
+  - circuitpython-build-bundles --filename_prefix adafruit-circuitpython-testrepo --library_location .
+  - cd docs && sphinx-build -E -W -b html . _build/html && cd ..
