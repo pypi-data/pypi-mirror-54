@@ -1,0 +1,10 @@
+rukip/__init__.py,sha256=FCmLXdf0Oi0oI5lXr45nK0Hb15C6dYgfNtOC271yHKg,15
+rukip/featurizer/__init__.py,sha256=A7tWT0xS9sFJqUDNDZ0K0pMXqxmH9vLwXFX4lZf5M0g,44
+rukip/featurizer/ckip_featurizer.py,sha256=JazDE7MRqgDNPTzCmg22I_WKQRSEv2iKqudrQrlO1lk,1948
+rukip/tokenizer/__init__.py,sha256=bl-39rYSAcGrZQLWP114J2NfdoP0sPZAwDUKMcoXuQk,42
+rukip/tokenizer/ckip_tokenizer.py,sha256=EiL21pVLuR6qRnEzg1Xp-pECTopB7X1BxNQjeinC8pA,4069
+rukip-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rukip-0.0.4.dist-info/METADATA,sha256=bZXMVypd_oycYkqUt6P0eljk2RwPuHrBnVNiGmSLNso,3101
+rukip-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+rukip-0.0.4.dist-info/top_level.txt,sha256=J36DwzdGj4q0GTWWx5f8e2Dc5b43LL4dqqziLY2LZoM,6
+rukip-0.0.4.dist-info/RECORD,,
