@@ -1,0 +1,6 @@
+build/
+venv/
+*.wow
+*.png
+*.pyc
+.idea/
