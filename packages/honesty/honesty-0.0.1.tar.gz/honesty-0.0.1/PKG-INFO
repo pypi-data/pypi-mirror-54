@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: honesty
+Version: 0.0.1
+Summary: Double check sdist/bdist on pypi
+Home-page: https://github.com/thatch/honesty
+Author: Tim Hatch
+Author-email: tim@timhatch.com
+License: Apache 2.0
+Description: # Honesty
+        
+        There's a long tail of people doing interesting/sketchy things to packages on
+        pypi.  Most aren't malicious, but this project gives you an easy way to check
+        for some of the obvious ways that packages might be tampered with.
+        
+        # Usage
+        
+        ```
+        honesty check <package name>[==version]
+        ```
+        
+        It will store a package cache by default under `~/.cache/honesty/pypi` but you
+        can change that with `HONESTY_CACHE` env var.  If you have a local bandersnatch,
+        specify `HONESTY_MIRROR_BASE` to your `/simple/` url.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
