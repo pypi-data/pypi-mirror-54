@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: artellapipe-tools-bugtracker
+Version: 0.0.1
+Summary: Tool to import/export Alembic files
+Home-page: https://github.com/ArtellaPipe/artellapipe-tools-bugtracker
+Author: Tomas Poveda
+Author-email: tpovedatd@gmail.com
+License: MIT
+Description: artellapipe-tools-alembicmanager
+        ============================================================
+        
+        Tool to import/export Alembic files
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: dev
