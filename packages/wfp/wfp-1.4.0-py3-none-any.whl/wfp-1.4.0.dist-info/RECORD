@@ -1,0 +1,12 @@
+wfp/__init__.py,sha256=LKbRrSXYT0hUsXyt1HnQqtnq7zJi3kx8iqRkl1Y5Oao,189
+wfp/_name.py,sha256=CeF1KdVVOCb006nAi2g-MTUX-Rom1GxRpqNs1gmj3xI,72
+wfp/_version.py,sha256=f2bugSHJrzBSVeApCRuNEE4pssVXO_yxAzAS_pBhl80,330
+wfp/app.py,sha256=ZvstxZk9A1HyMGB4vghfBvXq_9o2a8MSrpZHPRkR_3c,3142
+wfp/error.py,sha256=UV__NOmkJjA7U4GYuVtrO4vplsW5Z5GdKaSbUGZR_IM,183
+wfp/experiment.py,sha256=9uiGPuA-SgZ2ALSchHzuNfKRGqc0aEpaXPZ0eZmYSgg,7096
+wfp/pipeline.py,sha256=au-srGkwZ6x1Zvg7NLAy5VTFVG4xakQmeSJzX3ZMaRU,7798
+wfp-1.4.0.dist-info/METADATA,sha256=OG1Ad4VUDoyCZ6LoMa9PPc9Oi6YcbDcVaebFbVhhaLc,546
+wfp-1.4.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+wfp-1.4.0.dist-info/entry_points.txt,sha256=6KPtTJx5XsOGca5-Rnce78-EYAtS6u_wp6H5QGKZ0p4,38
+wfp-1.4.0.dist-info/top_level.txt,sha256=TUIi6fBkLcc8Di5mh44jW7eYrh-vRfxcwfnYMjf6jxM,4
+wfp-1.4.0.dist-info/RECORD,,
