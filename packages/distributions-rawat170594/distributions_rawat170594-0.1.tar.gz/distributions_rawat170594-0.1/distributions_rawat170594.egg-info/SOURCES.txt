@@ -1,0 +1,10 @@
+setup.py
+distributions_rawat170594/Binomialdistribution.py
+distributions_rawat170594/Gaussiandistribution.py
+distributions_rawat170594/Generaldistribution.py
+distributions_rawat170594/__init__.py
+distributions_rawat170594.egg-info/PKG-INFO
+distributions_rawat170594.egg-info/SOURCES.txt
+distributions_rawat170594.egg-info/dependency_links.txt
+distributions_rawat170594.egg-info/not-zip-safe
+distributions_rawat170594.egg-info/top_level.txt
