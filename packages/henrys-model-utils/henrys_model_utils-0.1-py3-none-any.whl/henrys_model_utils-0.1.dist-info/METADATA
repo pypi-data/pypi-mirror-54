@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: henrys-model-utils
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Henry Dashwood
+Author-email: hcndashwood@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: torch
+Requires-Dist: fastai
+
+UNKNOWN
+
+
