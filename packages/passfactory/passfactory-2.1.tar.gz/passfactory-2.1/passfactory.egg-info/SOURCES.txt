@@ -1,0 +1,10 @@
+README.txt
+setup.cfg
+setup.py
+generator/__init__.py
+generator/passfactory.py
+passfactory.egg-info/PKG-INFO
+passfactory.egg-info/SOURCES.txt
+passfactory.egg-info/dependency_links.txt
+passfactory.egg-info/requires.txt
+passfactory.egg-info/top_level.txt

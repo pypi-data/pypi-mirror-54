@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: passfactory
+Version: 2.1
+Summary: Save password generator and tool box to operate them
+Home-page: https://github.com/Tester86/passfactory
+Author: Tester86
+Author-email: tester86t@gmail.com
+License: MIT
+Download-URL: https://github.com/Tester86/passfactory/passfactory.py/v_01.tar.gz
+Description: UNKNOWN
+Keywords: PASSWORD,TOOLBOX,GENERATOR
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
