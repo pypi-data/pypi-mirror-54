@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyganja
+Version: 0.0.4
+Summary: Python interface to ganja.js
+Home-page: https://github.com/hugohadfield/pyganja
+Author: Hugo Hadfield
+Author-email: hadfield.hugo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: IPython
+
+UNKNOWN
+
+
