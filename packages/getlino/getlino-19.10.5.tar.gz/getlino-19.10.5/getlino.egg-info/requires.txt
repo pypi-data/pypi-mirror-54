@@ -1,0 +1,5 @@
+setuptools
+click
+virtualenv
+jinja2
+atelier

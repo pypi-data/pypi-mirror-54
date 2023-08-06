@@ -1,0 +1,3 @@
+global-include *.py
+include templates/*
+prune docs
