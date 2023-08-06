@@ -1,0 +1,9 @@
+lmsquery/__init__.py,sha256=XMQDfj6lr8_tFEmZrYnCueKfxFY5x9dwVmxSYB7ftlg,205
+lmsquery/const.py,sha256=ZNRdJPm15cjKagf8VM6nMrzSfFPOcl6wtYTKifDIICs,69
+lmsquery/lmsquery.py,sha256=0TFldISellq6whi9TknY1esn7NXMiN-RSroxabKdQe8,12709
+lmsquery/scanLMS.py,sha256=CctDY3xPkq246g-K03dNlLW07_se5rJve2bk8T9IPxg,1530
+LMSQuery_fork-0.4.91.dist-info/LICENSE,sha256=vtmzpN4r5yXH4xUaCQ-a0XESFSDqNtN8XQglycWd3v8,1071
+LMSQuery_fork-0.4.91.dist-info/METADATA,sha256=qtwNRZTT-wNJ31eey5Nd97SkBNc607GpKOM4w4mAmKQ,1326
+LMSQuery_fork-0.4.91.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+LMSQuery_fork-0.4.91.dist-info/top_level.txt,sha256=wV-L63PcVN1l5bvgF6SCovKwyJjCUzJa9noi9Fg9ok4,9
+LMSQuery_fork-0.4.91.dist-info/RECORD,,
