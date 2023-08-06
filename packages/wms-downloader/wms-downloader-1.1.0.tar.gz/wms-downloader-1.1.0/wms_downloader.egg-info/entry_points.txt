@@ -1,0 +1,3 @@
+[console_scripts]
+wms-downloader = wms_downloader.download:main
+
