@@ -1,0 +1,11 @@
+card_game/__init__.py,sha256=aepZoEgsHZDBicwLMr4Iq6-7oxP9t8Y4Y_xuuHFlNg0,58
+card_game/cards.py,sha256=QXRWmoxARoooJjselYHqjJonyGdKwIBgMGaRe3IxdqY,2580
+card_game/game.py,sha256=C3y43W7WF2a4sAyvCKYAShp4bxfvyAJpSBvjbNCpbAE,4843
+card_game/main.py,sha256=-bWwbQYHIMY-Dqnh1xD4Qleq9HWoanaD4Lwt7yfjFWY,3383
+card_game/player.py,sha256=j9le5l0-p5sXsbY_HAHbenBUp_-zOIm6PLLnrB4ZIng,3406
+card_game/print_utils.py,sha256=A92aBITpcMJbOGRJt3BtkPyjEG94TsJ-EnL8RcA1U4o,1683
+jjc_card_game-0.0.3.dist-info/entry_points.txt,sha256=Liw5I0HlSOWn0JZz6uExIgvZNyDuz0-DfTokPBYZVfw,52
+jjc_card_game-0.0.3.dist-info/LICENSE,sha256=OVUHj97nDg4AdHoYJDmZVa0IZ2FQ34S4yHQcAefrg7Y,1105
+jjc_card_game-0.0.3.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+jjc_card_game-0.0.3.dist-info/METADATA,sha256=64R-2GdmZDax2EeuSJgjWnS5nYrPwq2ivmuu4beYxyI,3713
+jjc_card_game-0.0.3.dist-info/RECORD,,
