@@ -1,0 +1,4 @@
+
+          [console_scripts]
+          tap-copper=tap_copper:main
+      
