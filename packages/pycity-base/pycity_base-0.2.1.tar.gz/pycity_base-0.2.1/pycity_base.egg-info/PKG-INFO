@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pycity-base
+Version: 0.2.1
+Summary: Python package for data handling and scenario generation of city districts.
+Home-page: https://github.com/RWTH-EBC/pyCity
+Author: Institute of Energy Efficient Buildings and Indoor Climate, Institute for Automation of Complex Power SystemsE.ON Energy Research Center, RWTH Aachen University
+Author-email: pycity@eonerc.rwth-aachen.de
+License: MIT License
+Description: Python package for data handling and scenario generation of city districts.
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
