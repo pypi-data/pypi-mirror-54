@@ -1,0 +1,13 @@
+teleserver/__init__.py,sha256=HykR642Go40WHjx-EcnkdLsRsNdjdjTAhR3oshmAoXc,24
+teleserver/keyboard_cli.py,sha256=NGcbf4fTORVd1ZLPPiCndteWMDlnvA2MnjKG4aJv3k8,929
+teleserver/login_cli.py,sha256=H81ABAq8vdC6csiIhjoWlXPMNPTHYDhZUx66VQ5nmt0,3432
+teleserver/requests_handler.py,sha256=MZm6YVAfgkDAiz8bjqzodhO7403AkxFf9AJPtpKNo9o,1472
+teleserver/system_cli.py,sha256=x6hHVryHgERw39Xfg5GFQUl0W97Q7SrhQimlbYFS_vY,2061
+teleserver/teleserver.py,sha256=BCllWY7txfCQCvmhl4y0G_JPtrB3jr_ECm4prqcQavE,1124
+teleserver/webbrowser_cli.py,sha256=SCV0qNQOvLaA7roqecRIOIj9soNAECYhSd4BSNOLhu8,1059
+teleserver-0.0.1.dist-info/LICENSE,sha256=fg4CXAhUS0BasfrnbdYwvz2zMDJtlqoPTfqvlao96V8,1078
+teleserver-0.0.1.dist-info/METADATA,sha256=ZLcKChzH0P9Q53ZG_nUD5e1wtv758EpRuttJ3vQQdWw,1153
+teleserver-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+teleserver-0.0.1.dist-info/entry_points.txt,sha256=Wyu49MKYiq_Ry5V-X_OrajpmnHbBbTEYwN2SnHJTwBU,68
+teleserver-0.0.1.dist-info/top_level.txt,sha256=y7m9fz1096EBV_Fg1-2Sl5Ly9ukyjY50i1pKOiWXfMc,11
+teleserver-0.0.1.dist-info/RECORD,,
