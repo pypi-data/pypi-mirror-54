@@ -1,0 +1,3 @@
+A3COSMOS DataSet_v20180801
+Blind-extraction photometry with PyBDSF
+SNRpeak>=5.40 && Pbcor>=0.2
