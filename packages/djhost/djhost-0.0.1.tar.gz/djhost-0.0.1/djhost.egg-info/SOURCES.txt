@@ -1,0 +1,10 @@
+README.md
+setup.py
+djhost/__init__.py
+djhost/middleware.py
+djhost/version.py
+djhost.egg-info/PKG-INFO
+djhost.egg-info/SOURCES.txt
+djhost.egg-info/dependency_links.txt
+djhost.egg-info/requires.txt
+djhost.egg-info/top_level.txt
