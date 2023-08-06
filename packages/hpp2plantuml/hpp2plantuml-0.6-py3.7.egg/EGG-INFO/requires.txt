@@ -1,0 +1,4 @@
+argparse
+CppHeaderParser
+jinja2
+sphinx
