@@ -1,0 +1,10 @@
+README.rst
+setup.py
+WizCoin.egg-info/PKG-INFO
+WizCoin.egg-info/SOURCES.txt
+WizCoin.egg-info/dependency_links.txt
+WizCoin.egg-info/top_level.txt
+src/wizcoin/__init__.py
+src/wizcoin/__main__.py
+src/wizcoin/__init__.py
+src/wizcoin/__main__.py

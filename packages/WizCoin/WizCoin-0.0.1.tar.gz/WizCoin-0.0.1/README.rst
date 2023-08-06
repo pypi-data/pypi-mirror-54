@@ -1,0 +1,58 @@
+=======
+wizcoin
+=======
+
+A Python module to represent the galleon, sickle, and knut coins of wizard currency.
+
+This module is meant as an education example of Python's object-oriented design practices.
+
+Installation
+============
+
+    pip install wizcoin
+
+Quickstart Guide
+================
+
+`CoinBag` objects hold a number of galleons, sickles, and knuts. There are 29 knuts per sickle, and 17 sickles per galleon. The `CoinBag` objects represent an amount of coins, not an amount of money. A `CoinBag` cannot have fractional amounts of coins or negative amounts of coins.
+
+
+    >>> bag = CoinBag(galleons=2, sickles=5, knuts=10)
+    >>> bag.galleons
+    2
+    >>> bag.sickles
+    5
+    >>> bag.knuts
+    10
+    >>> bag.value
+    1141
+    >>> bag.knuts = 20
+    >>> bag.value
+    1151
+    >>> bag.convertToSickles()
+    >>> str(bag)
+    '0g,39s,20k'
+    >>> bag + bag
+    CoinBag(galleons=0, sickles=78, knuts=40)
+    >>> bag += CoinBag(1, 0, 0)
+    >>> str(bag)
+    '1g,39s,20k'
+    >>> bag.convertToGalleons()
+    >>> str(bag)
+    '3g,5s,20k'
+    >>> del bag.knuts
+    >>> str(bag)
+    '3g,5s,0k'
+    >>> list(bag)
+    ['galleon', 'galleon', 'galleon', 'sickle', 'sickle', 'sickle', 'sickle', 'sickle']
+    >>> bag *= 2
+    >>> str(bag)
+    '6g,10s,0k'
+    >>> bag2 = CoinBag()
+    >>> str(bag2)
+    '0g,0s,0k'
+    >>> bag >> bag2
+    >>> str(bag)
+    '0g,0s,0k'
+    >>> str(bag2)
+    '6g,10s,0k'
