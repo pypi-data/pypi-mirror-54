@@ -1,0 +1,14 @@
+README.md
+setup.py
+nfem/__init__.py
+nfem/_canvas.py
+nfem/_dof.py
+nfem/_model.py
+nfem/_node.py
+nfem/_system.py
+nfem/_truss.py
+nfem.egg-info/PKG-INFO
+nfem.egg-info/SOURCES.txt
+nfem.egg-info/dependency_links.txt
+nfem.egg-info/requires.txt
+nfem.egg-info/top_level.txt
