@@ -1,0 +1,5 @@
+
+  mongo:
+    image: "mongo:latest"
+    volumes:
+      - ./database/data:/var/data

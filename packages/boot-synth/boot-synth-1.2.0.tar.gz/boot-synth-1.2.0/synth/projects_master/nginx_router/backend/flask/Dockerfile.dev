@@ -1,0 +1,15 @@
+# base python image
+FROM python:3.5.7-alpine3.8
+
+# set working directory
+WORKDIR '/app'
+
+RUN pip3 install flask requests flask_cors
+
+
+# move backend directory into root of app directory
+# OK b/c backend image contains no frontend code
+COPY ./ ./
+
+EXPOSE 5005
+CMD ["python3", "-u", "-m", "api.v1.app"]

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: synth-part-builder
+Version: 1.1
+Summary: Synth: a docker bootstrapping CLI tool (part builder)
+Home-page: UNKNOWN
+Author: Bennett Dixon, Jack Gindi
+Author-email: bennettdixon16@gmail.com, jmgindi@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
