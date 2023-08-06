@@ -1,0 +1,3 @@
+[console_scripts]
+pypi2nix = pypi2nix.cli:main
+

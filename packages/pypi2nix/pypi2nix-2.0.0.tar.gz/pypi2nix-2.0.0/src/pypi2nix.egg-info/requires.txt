@@ -1,0 +1,8 @@
+attrs
+click
+jinja2
+nix-prefetch-github
+packaging
+Parsley
+setuptools
+toml
