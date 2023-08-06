@@ -1,0 +1,6 @@
+numpy
+
+[dev]
+pytest-runner
+flake8
+pep8-naming
