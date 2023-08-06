@@ -1,0 +1,10 @@
+include LICENSE
+include *.md
+include *.spec
+include *.txt
+include *.yml
+include *.ini
+recursive-include rsrc *.gif
+recursive-include rsrc *.ico
+recursive-include rsrc *.png
+recursive-include rsrc *.rc
