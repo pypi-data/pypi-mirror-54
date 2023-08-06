@@ -1,0 +1,12 @@
+README.md
+setup.py
+nbclassic/__init__.py
+nbclassic/handlers.py
+nbclassic/notebookapp.py
+nbclassic/shimwarning.py
+nbclassic.egg-info/PKG-INFO
+nbclassic.egg-info/SOURCES.txt
+nbclassic.egg-info/dependency_links.txt
+nbclassic.egg-info/not-zip-safe
+nbclassic.egg-info/requires.txt
+nbclassic.egg-info/top_level.txt
