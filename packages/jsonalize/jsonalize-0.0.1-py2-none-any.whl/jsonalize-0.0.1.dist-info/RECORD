@@ -1,0 +1,9 @@
+jsonalize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonalize/jsonalize.py,sha256=6Or75ZaCBdLdgqY3o5ns1guoqTCOZyHHa3m1ytL89ZM,5044
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test1.py,sha256=v0WwWcdvR_SkC262c3_pouBvYrncouiUxCEgAUWnkHo,2797
+jsonalize-0.0.1.dist-info/LICENSE,sha256=ZPgkY0CERspUZfEkFD9dkOB3azOYEb6W_T6V4MQZJM0,1069
+jsonalize-0.0.1.dist-info/METADATA,sha256=TjrHAGSWOJN5KOVsIOwHokxwNz7_iPbtBtj0bb1ur5s,4361
+jsonalize-0.0.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+jsonalize-0.0.1.dist-info/top_level.txt,sha256=w-QDDKOUWac5YGYk2QlaNOrKIPQC6_ci1dFrpj0wMPg,15
+jsonalize-0.0.1.dist-info/RECORD,,
