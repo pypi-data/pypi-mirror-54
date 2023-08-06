@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+bacli/__init__.py
+bacli/cli.py
+bacli/cli_legacy.py
+bacli.egg-info/PKG-INFO
+bacli.egg-info/SOURCES.txt
+bacli.egg-info/dependency_links.txt
+bacli.egg-info/top_level.txt
