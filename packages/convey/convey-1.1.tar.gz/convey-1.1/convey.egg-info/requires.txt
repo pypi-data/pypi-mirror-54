@@ -1,0 +1,8 @@
+appdirs
+humanize
+ipdb
+jsonpickle
+netaddr
+pythondialog
+tabulate
+validate_email
