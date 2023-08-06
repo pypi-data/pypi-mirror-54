@@ -1,0 +1,7 @@
+[bumpversion]
+current_version = 0.3.6
+
+[bumpversion:file:setup.cfg]
+
+[bumpversion:file:versionflow.py]
+
