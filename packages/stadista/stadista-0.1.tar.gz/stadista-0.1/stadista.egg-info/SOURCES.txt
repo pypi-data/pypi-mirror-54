@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/__init__.py
+src/stadista.py
+stadista.egg-info/PKG-INFO
+stadista.egg-info/SOURCES.txt
+stadista.egg-info/dependency_links.txt
+stadista.egg-info/requires.txt
+stadista.egg-info/top_level.txt
