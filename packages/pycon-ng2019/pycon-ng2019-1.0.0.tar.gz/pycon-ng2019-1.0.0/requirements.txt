@@ -1,0 +1,6 @@
+gunicorn
+asciimatics
+django
+django-heroku
+sphinx
+m2r
