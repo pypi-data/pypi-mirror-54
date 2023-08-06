@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: whynot
+Version: 0.10.12
+Summary: A framework for benchmarking causal inference.
+Home-page: UNKNOWN
+Author: John Miller
+Author-email: miller_john@berkeley.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.6
+Requires-Dist: causality
+Requires-Dist: dataclasses
+Requires-Dist: mesa
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyomo
+Requires-Dist: py-mini-racer
+Requires-Dist: scipy
+Requires-Dist: sklearn
+Requires-Dist: statsmodels
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
