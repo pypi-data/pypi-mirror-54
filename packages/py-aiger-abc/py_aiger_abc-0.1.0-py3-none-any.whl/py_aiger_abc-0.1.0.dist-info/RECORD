@@ -1,0 +1,7 @@
+aiger_abc/__init__.py,sha256=QhJwURnP-oCCWgZwdqzKl5vrRo5jpfhHoAcLJiysemU,40
+aiger_abc/simplify.py,sha256=lwk36tvU6Yoo0moACsE95NUj8VHXmTvkdVEEi7KKgys,807
+aiger_abc/test_simplify.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+py_aiger_abc-0.1.0.dist-info/LICENSE,sha256=TsIcmtcb4ejYUV6d6hxHqCVHR1c-hWgWfv03ZBk9Xto,1082
+py_aiger_abc-0.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+py_aiger_abc-0.1.0.dist-info/METADATA,sha256=MtsTnVqCQdrGcyT6qjBSEd4CW8dtSEUw0hmY8RgHbQY,2195
+py_aiger_abc-0.1.0.dist-info/RECORD,,
