@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: torch-flame
+Version: 0.1.0
+Summary: A deep learning utility library for PyTorch
+Home-page: https://github.com/chenyaofo/flame
+Author: chenyaofo
+Author-email: chenyaofo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dataclasses
+Requires-Dist: pyhocon
+Requires-Dist: prettytable
+Requires-Dist: torch (>=0.4.0)
+
+UNKNOWN
+
+
