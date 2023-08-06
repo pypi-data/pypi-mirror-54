@@ -1,0 +1,11 @@
+README.md
+setup.py
+TypeFactory.egg-info/PKG-INFO
+TypeFactory.egg-info/SOURCES.txt
+TypeFactory.egg-info/dependency_links.txt
+TypeFactory.egg-info/top_level.txt
+typefactory/__init__.py
+typefactory.egg-info/PKG-INFO
+typefactory.egg-info/SOURCES.txt
+typefactory.egg-info/dependency_links.txt
+typefactory.egg-info/top_level.txt
