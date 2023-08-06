@@ -1,0 +1,6 @@
+[console_scripts]
+pybeecn2 = pybeecn2.cli:run
+
+[pybeecn2.subcommands]
+vis = pybeecn2.vis.cli
+
