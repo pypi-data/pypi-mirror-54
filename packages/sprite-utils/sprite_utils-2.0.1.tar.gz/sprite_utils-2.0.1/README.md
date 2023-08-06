@@ -1,0 +1,36 @@
+# Spriteutils Package
+
+Spriteutil is a package contain SpriteSheet Class that can detect and create a new image contain the original image sprites.
+
+
+Installation:
+
+```shell
+>>> pip install sprite-utils==2.0.1
+```
+
+Usage:
+
+```shell
+>>> from sprite_util_ndthinh.spriteutil import SpriteSheet
+>>> sprite_sheet = SpriteSheet('Barbarian.gif')
+>>> sprites, labels = sprite_sheet.find_sprites()
+Traceback (most recent call last):
+File "<input>", line 1, in <module>
+File "<input>", line 404, in find_sprites
+File "<input>", line 249, in background_color
+File "<input>", line 324, in find_most_common_color
+ValueError: 'The image mode 'P' is not supported
+>>> # GIF images are 8-bit pixels using a color palette. We need to
+>>> # convert our image to `RGB`.
+>>> from PIL import Image
+>>> image = Image.open('Barbarian.gif').convert('RGB')
+>>> sprite_sheet = SpriteSheet(image)
+>>> sprites, labels = sprite_sheet.find_sprites()
+>>> len(sprites)
+39
+>>> # Create the mask image with bounding boxes.
+>>> image = sprite_sheet.create_sprite_labels_image()
+>>> image.save('barbarian_bounding_boxes.png')
+```
+
