@@ -1,0 +1,12 @@
+{
+  "name": "{{ tsdbDatasource }}",
+  "type": "grafana-influxdb-flux-datasource",
+  "url": "http://localhost:8086/",
+  "access": "proxy",
+  "database": "{{ tsdbDatasource }}",
+  "user": "root",
+  "password": "root",
+  "jsonData": {
+    "httpMode": "POST"
+  }
+}
