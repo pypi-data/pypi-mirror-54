@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+tests/__init__.py
+tests/test_tqdl.py
+tqdl/__init__.py
+tqdl/_version.py
+tqdl/core.py
+tqdl.egg-info/PKG-INFO
+tqdl.egg-info/SOURCES.txt
+tqdl.egg-info/dependency_links.txt
+tqdl.egg-info/requires.txt
+tqdl.egg-info/top_level.txt
