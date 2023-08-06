@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+version.py
+src/ipsvm/__init__.py
+src/ipsvm/config.py
+src/ipsvm/data.py
+src/ipsvm/default.json
+src/ipsvm/ipsvm.py
+src/ipsvm/predictor.pkl
+src/ipsvm/shock.py
+src/ipsvm.egg-info/PKG-INFO
+src/ipsvm.egg-info/SOURCES.txt
+src/ipsvm.egg-info/dependency_links.txt
+src/ipsvm.egg-info/requires.txt
+src/ipsvm.egg-info/top_level.txt

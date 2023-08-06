@@ -1,0 +1,105 @@
+{
+  "SCALER": "./resources/scaler.pkl",
+  "PREDICTOR": "./resources/predictor.pkl",
+  "TRAIN_RATIO": 0.7,
+  "TEST_RATIO": 0.3,
+  "SCORING": "average_precision",
+  "CROSS_VALIDATION": 5,
+  "DOWNLOAD_CDF": true,
+  "DOWNLOAD_PROGRESS": false,
+  "MIN_FIELD": 0,
+  "MAX_FIELD": 1e3,
+  "MIN_DENSITY": 0,
+  "MAX_DENSITY": 1e3,
+  "MIN_SPEED": 0,
+  "MAX_SPEED": 1e4,
+  "MIN_SCAN_WINDOW": 10,
+  "MAX_SCAN_WINDOW": 25,
+  "SCAN_STEP": 5,
+  "MIN_POINTS": 6,
+  "MIN_POINTS_BEFORE": 3,
+  "MAX_POINTS_AFTER": 3,
+  "CACHE": "./cache",
+  "TRUE_NEGATIVES_PER_TRUE_POSITIVES": 10,
+  "TRUE_POSITIVES_SHIFT_NUMBER": 1,
+  "TRUE_POSITIVES_SHIFT_RANGE": 5,
+  "SPACECRAFT": {
+    "ACE": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_ace.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_ace.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_ace.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_ace.pkl",
+      "ALIASES": ["ace"]
+    },
+    "DSCOVR": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_dscovr.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_dscovr.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_dscovr.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_dscovr.pkl",
+      "ALIASES": ["dscovr"]
+    },
+    "HELIOSA": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_heliosa.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_heliosa.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_heliosa.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_heliosa.pkl",
+      "ALIASES": ["helios-a", "heliosa", "helios a", "helios-1", "helios 1", "helios1"]
+    },
+    "HELIOSB": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_heliosb.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_heliosb.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_heliosb.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_heliosb.pkl",
+      "ALIASES": ["helios-b", "heliosb", "helios b", "helios-2", "helios 2", "helios2"]
+    },
+    "OMNI": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_omni.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_omni.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_omni.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_omni.pkl",
+      "ALIASES": ["omni"]
+    },
+    "STEREOA": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_stereoa.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_stereoa.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_stereoa.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_stereoa.pkl",
+      "ALIASES": ["stereo-a", "stereoa", "stereo a", "sta"]
+    },
+    "STEREOB": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_stereob.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_stereob.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_stereob.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_stereob.pkl",
+      "ALIASES": ["stereo-b", "stereob", "stereo b", "stb"]
+    },
+    "ULYSSES": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_ulysses.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_ulysses.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_ulysses.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_ulysses.pkl",
+      "ALIASES": ["ulysses"]
+    },
+    "VOYAGER1": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_voyager1.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_voyager1.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_voyager1.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_voyager1.pkl",
+      "ALIASES": ["voyager-1", "voyager1", "voyager 1"]
+    },
+    "VOYAGER2": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_voyager2.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_voyager2.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_voyager2.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_voyager2.pkl",
+      "ALIASES": ["voyager-2", "voyager2", "voyager 2"]
+    },
+    "WIND": {
+      "TRUE_POSITIVES_LIST": "./resources/true_positives_list_wind.dat",
+      "TRUE_POSITIVES_FEATURES_SET": "./resources/true_positives_features_set_wind.pkl",
+      "FALSE_POSITIVES_FEATURES_SET": "./resources/false_positives_features_set_wind.pkl",
+      "TRUE_NEGATIVES_FEATURES_SET": "./resources/true_negatives_features_set_wind.pkl",
+      "ALIASES": ["wind"]
+    }
+  }
+}
