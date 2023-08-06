@@ -1,0 +1,6 @@
+numpy
+pycode_similar
+plotly
+mistune
+pygments
+diff-match-patch
