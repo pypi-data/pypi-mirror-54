@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+csvconv/__init__.py
+csvconv/__main__.py
+csvconv.egg-info/PKG-INFO
+csvconv.egg-info/SOURCES.txt
+csvconv.egg-info/dependency_links.txt
+csvconv.egg-info/entry_points.txt
+csvconv.egg-info/not-zip-safe
+csvconv.egg-info/top_level.txt

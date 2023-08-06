@@ -1,0 +1,3 @@
+[console_scripts]
+csvconv = csvconv.__main__:main
+

@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: csvconv
+Version: 1.1
+Summary: Convert csv from one dialect to another.
+Home-page: http://github.com/henriquebastos/csvconv/
+Author: Henrique Bastos
+Author-email: henrique@bastos.net
+License: MIT
+Description: CSV Convertor
+        =============
+        
+        Convert csv files from one dialect to another.
+        
+        Usage
+        -----
+        
+        .. code-block:: console
+        
+            csvconv filename.csv
+        
+        License
+        -------
+        
+        MIT
+        
+        TODO
+        ----
+        
+        - Enable csvconv to detect the input file dialect.
+        - ?
+        
+        
+Keywords: csv,converter,dialect,cli
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
