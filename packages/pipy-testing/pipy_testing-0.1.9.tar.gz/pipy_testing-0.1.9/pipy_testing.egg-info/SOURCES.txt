@@ -1,0 +1,8 @@
+README.md
+main.py
+setup.py
+.github/workflows/publish-to-test-pypi.yml
+pipy_testing.egg-info/PKG-INFO
+pipy_testing.egg-info/SOURCES.txt
+pipy_testing.egg-info/dependency_links.txt
+pipy_testing.egg-info/top_level.txt
