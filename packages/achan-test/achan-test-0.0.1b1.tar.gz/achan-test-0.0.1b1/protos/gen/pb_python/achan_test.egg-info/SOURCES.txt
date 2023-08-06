@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+protos/gen/pb_python/achan_test.egg-info/PKG-INFO
+protos/gen/pb_python/achan_test.egg-info/SOURCES.txt
+protos/gen/pb_python/achan_test.egg-info/dependency_links.txt
+protos/gen/pb_python/achan_test.egg-info/requires.txt
+protos/gen/pb_python/achan_test.egg-info/top_level.txt
+protos/gen/pb_python/datacatalog/__init__.py
+protos/gen/pb_python/datacatalog/service_pb2.py
+protos/gen/pb_python/datacatalog/service_pb2_grpc.py
