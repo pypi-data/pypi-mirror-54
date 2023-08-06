@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: spin-clustering
+Version: 0.0.3
+Summary: SPIN clustering method package.
+Home-page: UNKNOWN
+Maintainer: otaviocv
+Maintainer-email: otaviocv.deluqui@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

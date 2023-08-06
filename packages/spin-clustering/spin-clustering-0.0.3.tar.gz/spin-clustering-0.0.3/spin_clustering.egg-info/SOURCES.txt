@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+spin_clustering.egg-info/PKG-INFO
+spin_clustering.egg-info/SOURCES.txt
+spin_clustering.egg-info/dependency_links.txt
+spin_clustering.egg-info/requires.txt
+spin_clustering.egg-info/top_level.txt
