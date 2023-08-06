@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: updaterForExe
+Version: 0.4
+Summary: Updater for exe programs
+Home-page: https://github.com/Matthias-coding/updater/
+Author: Matthias
+Author-email: matthias.harzer03@gmail.com
+License: MIT
+Download-URL: https://github.com/Matthias-coding/updater/archive/v_0.4.tar.gz
+Description: UNKNOWN
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
