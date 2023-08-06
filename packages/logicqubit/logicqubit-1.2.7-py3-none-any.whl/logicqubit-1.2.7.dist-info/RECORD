@@ -1,0 +1,10 @@
+logicqubit/__init__.py,sha256=-KRGOS_mdkNDXWHqLqVl-MVUB-n9tC_Y0KDrzpJVV_Y,94
+logicqubit/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logicqubit/circuit.py,sha256=D8mMyDnSRDrnZRdQawZ8TKmb76ZP7kMG6Ty5HSfIlQY,247
+logicqubit/gates.py,sha256=qQBSHhERFYVJAOTbbsS3gqYcNvlOD3NOgMCNmaZxc7Q,246
+logicqubit/logic.py,sha256=z740T2z3SPN6lgZ716mzgJewJlMKsND2cQBB_sXMxUU,3177
+logicqubit-1.2.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+logicqubit-1.2.7.dist-info/METADATA,sha256=NGdL7eDVp1AEdqncm2xUBRAmkmRUcXS5Glg6J7tOKQI,745
+logicqubit-1.2.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+logicqubit-1.2.7.dist-info/top_level.txt,sha256=ZE2bl6TtgUvxkAQe5l4CdHbuOsKFWu-jKhLo98VrqZM,11
+logicqubit-1.2.7.dist-info/RECORD,,
