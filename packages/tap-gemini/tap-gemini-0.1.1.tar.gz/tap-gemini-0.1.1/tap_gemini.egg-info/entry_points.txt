@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-gemini=tap_gemini:main
+    

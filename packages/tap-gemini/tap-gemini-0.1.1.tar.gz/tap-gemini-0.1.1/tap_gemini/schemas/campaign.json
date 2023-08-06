@@ -1,0 +1,107 @@
+{
+  "type": [
+    "object"
+  ],
+  "additionalProperties": false,
+  "description": "See: https://developer.yahoo.com/nativeandsearch/guide/campaigns.html A campaign organizes one or more ad groups together and has its own budget and targeting settings. Campaigns allow you to manage your ads based on your advertising goals and business strategy. A campaign can include ads that run both in mobile search as well as in native positions within content streams across the Yahoo! network. You can control where your ads will run by configuring the channel attribute.\n\n",
+  "properties": {
+    "id": {
+      "type": ["integer", "null"]
+    },
+    "createdDate": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "lastUpdateDate": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "status": {
+      "type": ["string", "null"]
+    },
+    "budgetType": {
+      "type": ["string", "null"]
+    },
+    "conversionRuleIds": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "campaignName": {
+      "type": ["string", "null"]
+    },
+    "biddingStrategy": {
+      "type": ["string", "null"]
+    },
+    "advertiserId": {
+      "type": ["integer", "null"]
+    },
+    "conversionRuleConfig": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "subChannelModifier": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "budget": {
+      "type": ["integer", "null"]
+    },
+    "trackingUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "isPartnerNetwork": {
+      "type": ["string", "null"]
+    },
+    "language": {
+      "type": ["string", "null"]
+    },
+    "customParameters": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "advancedGeoPos": {
+      "type": ["string", "null"]
+    },
+    "advancedGeoNeg": {
+      "type": ["string", "null"]
+    },
+    "optimizationRuleIds": {
+      "type": "array"
+    },
+    "objective": {
+      "type": ["string", "null"]
+    },
+    "effectiveStatus": {
+      "type": ["string", "null"]
+    },
+    "subChannel": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "editorialStatus": {
+      "type": ["string", "null"]
+    },
+    "channel": {
+      "type": ["string", "null"]
+    },
+    "isDeepLink": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
