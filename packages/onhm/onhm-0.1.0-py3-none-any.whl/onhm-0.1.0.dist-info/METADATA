@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: onhm
+Version: 0.1.0
+Summary: Fetch data from the operational National Hydrologic Model
+Home-page: http://csdms.colorado.edu
+Author: Eric Hutton
+Author-email: huttone@colorado.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: bmipy
+Requires-Dist: click
+Requires-Dist: netcdf4
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: xarray
+
+UNKNOWN
+
+
