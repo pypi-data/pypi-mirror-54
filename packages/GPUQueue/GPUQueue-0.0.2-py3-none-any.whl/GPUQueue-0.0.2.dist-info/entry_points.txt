@@ -1,0 +1,3 @@
+[console_scripts]
+gpuqueue = gpu_queue.main:main
+
