@@ -1,0 +1,6 @@
+meiga
+dataclasses
+dataclasses-json
+
+[flask]
+connexion==2.2.0
