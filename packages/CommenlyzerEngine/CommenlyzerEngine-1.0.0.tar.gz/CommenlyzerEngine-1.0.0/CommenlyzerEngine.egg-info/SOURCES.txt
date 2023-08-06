@@ -1,0 +1,13 @@
+MANIFEST.in
+Pipfile
+README.md
+setup.py
+CommenlyzerEngine/__init__.py
+CommenlyzerEngine/classifier.py
+CommenlyzerEngine/entities.py
+CommenlyzerEngine/summarization.py
+CommenlyzerEngine.egg-info/PKG-INFO
+CommenlyzerEngine.egg-info/SOURCES.txt
+CommenlyzerEngine.egg-info/dependency_links.txt
+CommenlyzerEngine.egg-info/requires.txt
+CommenlyzerEngine.egg-info/top_level.txt
