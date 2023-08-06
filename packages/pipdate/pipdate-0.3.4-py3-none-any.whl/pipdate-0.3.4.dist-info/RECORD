@@ -1,0 +1,11 @@
+pipdate/__about__.py,sha256=_v5woI_pmj3jLU0nHydcAgMghucPsKvwEeHhtoK4a_Q,286
+pipdate/__init__.py,sha256=_eiP0_Ty19xJmFHxLnCib0Tvnl1Xi6dUrGTz-iNw93Y,347
+pipdate/cli.py,sha256=kHYTEKGNljz3xvV_2MWOFPQKd56CK1FPmwt3xabOU-4,707
+pipdate/main.py,sha256=IUbrVTLdfSvtv8lOPt_UafdFizES09EXb98yLNyfKnc,6679
+pipdate/update.py,sha256=I34E96pHlCinhyOYxupDzkQDy1-oeSkou-LO2pmO0Rc,983
+pipdate-0.3.4.dist-info/LICENSE,sha256=W0RENrfQRYi3y5ov8nFxsbXeFM73KgtD_As1Ai6Yj9M,1086
+pipdate-0.3.4.dist-info/METADATA,sha256=jJ5KbPN0Ozl0YZdTz5chgeJo6ppmAPMF86D-fXrCzJ4,3363
+pipdate-0.3.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+pipdate-0.3.4.dist-info/entry_points.txt,sha256=xVqfKPy-QQATpBGjEx8qu_-YEobxoLaYVaGow0sJHOg,49
+pipdate-0.3.4.dist-info/top_level.txt,sha256=KS2kFt0enQQ2WSD0F0niWSoAw5f968435El_P-mrX4o,8
+pipdate-0.3.4.dist-info/RECORD,,
