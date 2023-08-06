@@ -1,0 +1,12 @@
+>>> cpu_profile_0    :    1.414 sec real,  1 laps, depth 0 (exclusive:   0.3%)
+>>> |_consume        :    1.000 sec real,  1 laps, depth 1
+>>> |_allocate       :    0.409 sec real,  1 laps, depth 1 (exclusive: 100.0%)
+>>>   |_random_entry :    0.000 sec real, 11 laps, depth 2
+>>> cpu_profile_1    :    1.412 sec real,  1 laps, depth 0 (exclusive:   0.2%)
+>>> |_consume        :    1.000 sec real,  1 laps, depth 1
+>>> |_allocate       :    0.408 sec real,  1 laps, depth 1 (exclusive: 100.0%)
+>>>   |_random_entry :    0.000 sec real, 11 laps, depth 2
+>>> cpu_profile_2    :    1.417 sec real,  1 laps, depth 0 (exclusive:   0.3%)
+>>> |_consume        :    1.000 sec real,  1 laps, depth 1
+>>> |_allocate       :    0.414 sec real,  1 laps, depth 1 (exclusive: 100.0%)
+>>>   |_random_entry :    0.000 sec real, 11 laps, depth 2

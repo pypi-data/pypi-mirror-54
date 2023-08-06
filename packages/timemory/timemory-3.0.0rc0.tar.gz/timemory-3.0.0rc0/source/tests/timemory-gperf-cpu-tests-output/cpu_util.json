@@ -1,0 +1,159 @@
+{
+  "rank": {
+    "rank_id": 0,
+    "concurrency": 1,
+    "data": {
+      "cereal_class_version": 0,
+      "type": "cpu_util",
+      "description": "cpu utilization",
+      "unit_value": 1,
+      "unit_repr": "%",
+      "graph": [
+        {
+          "hash": -7773118908142826251,
+          "prefix": "> [cxx] cpu_profile_2",
+          "depth": 0,
+          "entry": {
+            "cereal_class_version": 0,
+            "is_transient": true,
+            "laps": 1,
+            "repr_data": 98.542547577319,
+            "value": {
+              "first": 6830000000,
+              "second": 1570149963941163000
+            },
+            "accum": {
+              "first": 1210000000,
+              "second": 1227896000
+            }
+          }
+        }
+      ]
+    },
+    "environment": {
+      "cereal_class_version": 0,
+      "environment": [
+        {
+          "key": "TIMEMORY_AUTO_LIST_INIT",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_AUTO_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_BANNER",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_COMPONENT_LIST_INIT",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_COUT_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_DART_OUTPUT",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_DART_TYPE",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_DEBUG",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_DESTRUCTOR_REPORT",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_ENABLE",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_ENABLED",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_ENABLE_SIGNAL_HANDLER",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_FILE_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_JSON_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_MAX_DEPTH",
+          "value": "65535"
+        },
+        {
+          "key": "TIMEMORY_MEMORY_PRECISION",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_MEMORY_SCIENTIFIC",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_MEMORY_UNITS",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_MEMORY_WIDTH",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_OUTPUT_PATH",
+          "value": "timemory-gperf-cpu-tests-output"
+        },
+        {
+          "key": "TIMEMORY_OUTPUT_PREFIX",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_PRECISION",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_SCIENTIFIC",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_TEXT_OUTPUT",
+          "value": "true"
+        },
+        {
+          "key": "TIMEMORY_TIMING_PRECISION",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_TIMING_SCIENTIFIC",
+          "value": "false"
+        },
+        {
+          "key": "TIMEMORY_TIMING_UNITS",
+          "value": ""
+        },
+        {
+          "key": "TIMEMORY_TIMING_WIDTH",
+          "value": "-1"
+        },
+        {
+          "key": "TIMEMORY_VERBOSE",
+          "value": "0"
+        },
+        {
+          "key": "TIMEMORY_WIDTH",
+          "value": "-1"
+        }
+      ]
+    }
+  }
+}

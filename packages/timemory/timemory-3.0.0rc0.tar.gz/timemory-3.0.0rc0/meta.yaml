@@ -1,0 +1,69 @@
+{% set name = "timemory" %}
+{% set version = "3.3.0rc0" %}
+{% set file_ext = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash_value = "363d0bdc74a84a0af3ff49dfa6e048dd57b33e35d71c434011fe0f2c68489bdb" %}
+
+package:
+  name: '{{ name|lower }}'
+  version: '{{ version }}'
+
+source:
+  fn: '{{ name }}-{{ version }}.{{ file_ext }}'
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
+  '{{ hash_type }}': '{{ hash_value }}'
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - { { compiler('c') } }
+    - { { compiler('cxx') } }
+    - python {{ python }}
+    - scikit-build
+    - { { mpi } }
+    - { { cuda } }
+    - cmake
+    - git
+    - gperftools
+  run:
+    - python {{ python }}
+    - pillow
+    - matplotlib
+    - numpy
+    - { { mpi } }
+    - { { cuda } }
+    - gperftools
+
+test:
+  imports:
+    - timemory
+    - timemory.libpytimemory
+    - timemory.mpi_support
+    - timemory.plotting
+    - timemory.tests
+    - timemory.ert
+    - timemory.options
+    - timemory.roofline
+    - timemory.signals
+    - timemory.units
+    - timemory.util
+
+about:
+  home: https://github.com/NERSC/timemory.git
+  license: MIT
+  license_family: MIT
+  license_file: ""
+  summary: Lightweight cross-language pseudo-profiling for C, C++, and Python reporting timing [wall, user, system, cpu, %cpu] and resident set size (RSS) memory [current page allocation and peak usage]
+  description: |
+    Lightweight, cross-language utility for recording timing, memory, resource usage, and hardware counters on the CPU and GPU.
+    Timemory provides 40+ metrics for C, C++, CUDA, and/or Python codes that can arbitrarily composed into distinct toolsets
+    which can inter-weaved and without nesting restrictions.
+  doc_url: "https://timemory.readthedocs.io/"
+  dev_url: "https://github.com/NERSC/timemory.git"
+
+extra:
+  recipe-maintainers:
+    - jrmadsen
