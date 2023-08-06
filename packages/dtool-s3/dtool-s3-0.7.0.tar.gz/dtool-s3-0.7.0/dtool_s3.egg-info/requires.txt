@@ -1,0 +1,4 @@
+click
+dtoolcore>=3.13
+dtool_cli
+boto3
