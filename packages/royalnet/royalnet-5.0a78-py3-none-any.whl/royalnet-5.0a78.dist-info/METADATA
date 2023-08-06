@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: royalnet
+Version: 5.0a78
+Summary: The great bot network of the User Games community
+Home-page: https://github.com/royal-games/royalnet
+Author: Stefano Pigozzi
+Author-email: ste.pigozzi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Database
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Video
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.5.4)
+Requires-Dist: async-timeout (==3.0.1)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: bcrypt (==3.1.7)
+Requires-Dist: certifi (==2019.9.11)
+Requires-Dist: cffi (==1.13.01)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: cryptography (==2.8)
+Requires-Dist: dateparser (==0.7.2)
+Requires-Dist: dice (==2.4.2)
+Requires-Dist: dnspython (==1.15.0)
+Requires-Dist: dnspython3 (==1.15.0)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: ffmpeg-python (==0.2.0)
+Requires-Dist: Flask (==1.1.1)
+Requires-Dist: future (==0.18.1)
+Requires-Dist: idna (==2.8)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.10.3)
+Requires-Dist: keyring (==19.2.0)
+Requires-Dist: markdown2 (==2.3.8)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: mcstatus (==2.2.1)
+Requires-Dist: multidict (==4.5.2)
+Requires-Dist: psycopg2-binary (==2.8.3)
+Requires-Dist: pycparser (==2.19)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: python-telegram-bot (==12.2.0)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: regex (==2019.8.19)
+Requires-Dist: royalherald (==5.1b2)
+Requires-Dist: sentry-sdk (==0.13.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: sortedcontainers (==2.1.0)
+Requires-Dist: SQLAlchemy (==1.3.10)
+Requires-Dist: tornado (==6.0.3)
+Requires-Dist: tzlocal (==2.0.0)
+Requires-Dist: urllib3 (==1.25.6)
+Requires-Dist: websockets (==8.0.2)
+Requires-Dist: Werkzeug (==0.16.0)
+Requires-Dist: yarl (==1.3.0)
+Requires-Dist: youtube-dl (==2019.10.16)
+Requires-Dist: riotwatcher (==2.7.1)
+
+# `royalnet` [![PyPI](https://img.shields.io/pypi/v/royalnet.svg)](https://pypi.org/project/royalnet/)
+
+The fifth rewrite of the Royal Network!
+
+It has a lot of submodules, many of which may be used in other bots.
+
+[Documentation available here](https://royal-games.github.io/royalnet/html/index.html).
+
+
