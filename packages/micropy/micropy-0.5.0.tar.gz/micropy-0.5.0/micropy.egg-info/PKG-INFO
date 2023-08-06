@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: micropy
+Version: 0.5.0
+Summary: Some Python nicieties
+Home-page: https://www.414soft.com/micropy
+Author: Jacob Oscarson
+Author-email: jacob@414soft.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: test
