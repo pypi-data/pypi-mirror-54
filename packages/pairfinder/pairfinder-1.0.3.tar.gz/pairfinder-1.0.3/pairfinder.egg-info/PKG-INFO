@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pairfinder
+Version: 1.0.3
+Summary: Finder for pairs trading
+Home-page: https://github.com/parallel/pairfinder
+Author: parallel
+Author-email: parallel9973@gmail.com
+License: MIT
+Description: This is Not for you
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
