@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: ibreakdown
+Version: 0.0.1a2
+Summary: ibreakdown - model agnostic explanations with interactions
+Home-page: https://github.com/jettify/ibreakdown
+Author: Nikolay Novik
+Author-email: nickolainovik@gmail.com
+License: Apache 2
+Download-URL: https://pypi.python.org/pypi/ibreakdown
+Description: ibreakdown
+        ==========
+        .. image:: https://travis-ci.com/jettify/ibreakdown.svg?branch=master
+            :target: https://travis-ci.com/jettify/ibreakdown
+        .. image:: https://codecov.io/gh/jettify/ibreakdown/branch/master/graph/badge.svg
+            :target: https://codecov.io/gh/jettify/ibreakdown
+        .. image:: https://img.shields.io/pypi/pyversions/ibreakdown.svg
+            :target: https://pypi.org/project/ibreakdown
+        .. image:: https://img.shields.io/pypi/v/ibreakdown.svg
+            :target: https://pypi.python.org/pypi/ibreakdown
+        
+        
+        **ibreakdown** is model agnostic predictions explainer with interactions support,
+        library can show contribution of each feature of your prediction value.
+        
+        CHANGES
+        =======
+Keywords: ibreakdown,model explanation,xai
+Platform: POSIX
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX
+Classifier: Development Status :: 2 - Pre-Alpha

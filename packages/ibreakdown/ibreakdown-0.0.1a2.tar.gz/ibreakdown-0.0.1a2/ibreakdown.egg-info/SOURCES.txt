@@ -1,0 +1,15 @@
+CHANGES.txt
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+ibreakdown/__init__.py
+ibreakdown/explainer.py
+ibreakdown/explanation.py
+ibreakdown/utils.py
+ibreakdown.egg-info/PKG-INFO
+ibreakdown.egg-info/SOURCES.txt
+ibreakdown.egg-info/dependency_links.txt
+ibreakdown.egg-info/requires.txt
+ibreakdown.egg-info/top_level.txt
+ibreakdown.egg-info/zip-safe
