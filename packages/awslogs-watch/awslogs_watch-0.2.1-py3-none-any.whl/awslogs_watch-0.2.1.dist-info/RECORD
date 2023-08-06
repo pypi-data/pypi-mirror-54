@@ -1,0 +1,17 @@
+awslogs_watch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awslogs_watch/_version.py,sha256=gdAUbJRLihTZTA83TLaiNqvu9GgR5steRNyXcvWXmK0,100
+awslogs_watch/base.py,sha256=VQOPK8EqDodzoqKqdBVizml1G0tVWPZQYiru_XaXrqY,2332
+awslogs_watch/console.py,sha256=QzhdLXZEaHDSKOANRFsRSVNwlt513_r7Jt3RsHPJmso,4199
+awslogs_watch/exceptions.py,sha256=UKN5Hunh5AeZ-IPavdIxxYQgNSEavTnexbVh0hrTnSU,49
+awslogs_watch/model.py,sha256=wMZrKC7BK9RdheLKVJoJfb-O5VZz-8HhDQix-MFvnDM,766
+awslogs_watch/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awslogs_watch/lib/execute.py,sha256=K1g_bG2MidG269Lp73EpBa7J2TSPrH9RpcfK7bM1Auc,785
+awslogs_watch/lib/path.py,sha256=m9Ppw6rj5kyqdfFXCWypcXK4lGCryATd8ferdlA3rm8,651
+awslogs_watch/lib/profile_config.py,sha256=-2SRX4NX2GF4Faij0byEBoj5e7bfwtQF4kll45pfcWw,414
+awslogs_watch/lib/prompt.py,sha256=JDATf5IfQYcx1n_I0jvlealU5mmiKZy0cJcGBDzkkfU,3424
+awslogs_watch-0.2.1.dist-info/LICENSE,sha256=1HedlMdFctY9KLg50lpmIh-_5U2QxQOFcaqaAtCnM74,1065
+awslogs_watch-0.2.1.dist-info/METADATA,sha256=W9hPb9EtJOJ1S9NW9sc82Ul7x9sriMWrlXBTdYOYN6U,2201
+awslogs_watch-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+awslogs_watch-0.2.1.dist-info/entry_points.txt,sha256=ubVPr4IEfZxp1Kn3cuWahx1iiK-6sYmLkjWIziUZGGc,71
+awslogs_watch-0.2.1.dist-info/top_level.txt,sha256=15AoAGepgK-HBhbupYwwqXtVDQdpi5ZbyD5pQUuRpMk,14
+awslogs_watch-0.2.1.dist-info/RECORD,,
