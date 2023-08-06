@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-juicenet
+Version: 0.1.5
+Summary: Read and control Juicenet/Juicepoint/Juicebox based EVSE devices
+Home-page: http://github.com/jesserockz/python-juicenet
+Author: Jesse Hills
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
