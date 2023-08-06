@@ -1,0 +1,16 @@
+py_ctp/lib64/USTPmduserapiAF.dll
+py_ctp/lib64/USTPtraderapiAF.dll
+py_ctp/lib64/ctp_quote.dll
+py_ctp/lib64/ctp_quote.so
+py_ctp/lib64/ctp_trade.dll
+py_ctp/lib64/ctp_trade.so
+py_ctp/lib64/libUSTPmduserapiAF.so
+py_ctp/lib64/libUSTPtraderapiAF.so
+py_femas/lib64/USTPmduserapiAF.dll
+py_femas/lib64/USTPtraderapiAF.dll
+py_femas/lib64/ctp_quote.dll
+py_femas/lib64/ctp_quote.so
+py_femas/lib64/ctp_trade.dll
+py_femas/lib64/ctp_trade.so
+py_femas/lib64/libUSTPmduserapiAF.so
+py_femas/lib64/libUSTPtraderapiAF.so
