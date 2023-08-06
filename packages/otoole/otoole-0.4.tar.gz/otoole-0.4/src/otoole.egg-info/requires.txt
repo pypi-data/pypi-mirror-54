@@ -1,0 +1,15 @@
+xlrd
+pyyaml
+pydot
+datapackage
+pandas
+pulp
+networkx
+flatten_dict
+
+[:python_version < "3.7"]
+importlib_resources
+
+[testing]
+pytest
+pytest-cov
