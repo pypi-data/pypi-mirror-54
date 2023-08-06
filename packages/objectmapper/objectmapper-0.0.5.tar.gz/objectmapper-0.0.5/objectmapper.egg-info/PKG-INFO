@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: objectmapper
+Version: 0.0.5
+Summary: A small module for mapping between object types.
+Home-page: UNKNOWN
+Author: ABoiledCarny
+Author-email: 
+License: MIT
+Project-URL: Documentation, https://objectmapper.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/ABoiledCarny/objectmapper
+Description: objectmapper
+        ============
+        
+        A small module for mapping between object types.
+        
+        * `Documentation <https://objectmapper.readthedocs.io/en/latest/>`_
+        * `Source <https://github.com/ABoiledCarny/objectmapper>`_
+        * `PyPi Package <https://pypi.org/project/objectmapper/>`_
+        
+        Installation
+        ------------
+        ``objectmapper`` requires ``Python >= 3.6`` because it relies on modern type annotations.
+        ::
+        
+           pip install objectmapper
+        
+        Example
+        -------
+        
+        >>> import objectmapper
+        >>> mapper = objectmapper.ObjectMapper()
+        >>> def int_to_str(i: int) -> str:
+        ...     return str(i)
+        >>> mapper.create_map(int, str, int_to_str)
+        >>> mapper.map(42, str)
+        '42'
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: docs
+Provides-Extra: publish
+Provides-Extra: tests
