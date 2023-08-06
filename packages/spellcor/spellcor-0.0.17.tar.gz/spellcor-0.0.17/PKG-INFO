@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: spellcor
+Version: 0.0.17
+Summary: spell checker
+Home-page: https://github.com/xvshiting/SpellCor
+Author: will xu
+Author-email: xvshiting@live.com
+License: UNKNOWN
+Download-URL: https://github.com/xvshiting/SpellCor0.0.17
+Description: context-based spell checker
+Keywords: nlp,spell,spell-checker,spellcor
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
