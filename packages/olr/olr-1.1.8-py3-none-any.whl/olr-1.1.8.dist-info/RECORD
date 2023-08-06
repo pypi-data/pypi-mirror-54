@@ -1,0 +1,9 @@
+data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/oildata.csv,sha256=evIkkXOVkp63x_DW3TmbUOfgEPkJw_1ZU2MNfniHfAw,5071
+olr/__init__.py,sha256=SFSLWGj0BRJiYaYhjsUqOz8nKhTA--AOlPANLQH26tg,228
+olr/olr_function.py,sha256=A4vWzkFUiol_qOBfIXB7AgYLKRfuPbC8XsNo0582Iy8,4181
+olr-1.1.8.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+olr-1.1.8.dist-info/METADATA,sha256=eMGxpBn-31bEW0ipf_5kF4WS_rsaQALqBT8O-EpK-Ro,1584
+olr-1.1.8.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+olr-1.1.8.dist-info/top_level.txt,sha256=ukiEMUc69Z_KEBiuqcIP3HawBSbBQRZCWpYxpcBU1-E,31
+olr-1.1.8.dist-info/RECORD,,
