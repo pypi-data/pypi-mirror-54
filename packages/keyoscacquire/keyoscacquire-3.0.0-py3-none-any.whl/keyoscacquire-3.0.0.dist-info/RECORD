@@ -1,0 +1,12 @@
+keyoscacquire/__init__.py,sha256=UrbEPVuOqsnT0Ve9Iezu8zB0GIvdaKPWRgSAkLWzfC4,250
+keyoscacquire/__main__.py,sha256=rFsH-Wk8_RkCn1xAD89F0RHq7bWZ2soedBrGueb7pno,246
+keyoscacquire/config.py,sha256=iUWwyPQXaAcnnATd5LBXD_D7_ZHUfybA2sqy8vSeng0,1332
+keyoscacquire/installed_cli_programmes.py,sha256=RVdH2NAQp6-AM9QF-nz_yPEA2vcQuWpOOcHM2dQN4RQ,9397
+keyoscacquire/oscacq.py,sha256=nll6dH3fekotlCGpVJ2S6-PV1v2QvwF-T9tEgAs-uis,41990
+keyoscacquire/programmes.py,sha256=GgdmOV75tgzavscXTZLHv3X-bo48COTNbLVwYIlDxeM,8803
+keyoscacquire-3.0.0.dist-info/LICENSE.md,sha256=lmygj0WGOXOtD4oCc1Y81FURgazpuQYvOe34kXySdDA,1053
+keyoscacquire-3.0.0.dist-info/METADATA,sha256=IkMFttdqhok--7HFqT13suiTXTnZ59OfH0YgynJnJPk,2352
+keyoscacquire-3.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+keyoscacquire-3.0.0.dist-info/entry_points.txt,sha256=NkCFbXofTJaZMa1REtqwqzohE4GCpac6WpaUAuG2-44,505
+keyoscacquire-3.0.0.dist-info/top_level.txt,sha256=GBYIqhYghR6SPTICb5thEeQXvNel6BsbibDuRrotFgk,14
+keyoscacquire-3.0.0.dist-info/RECORD,,
