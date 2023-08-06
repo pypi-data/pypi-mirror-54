@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cooltools
+Version: 0.2.0
+Summary: Analysis tools for genomic interaction data stored in .cool format
+Home-page: https://github.com/mirnylab/cooltools
+Author: Mirny Lab
+Author-email: espresso@mit.edu
+License: MIT
+Description: # cooltools
+        
+        [![Build Status](https://travis-ci.org/mirnylab/cooltools.svg?branch=master)](https://travis-ci.org/mirnylab/cooltools)
+        
+        The tools for your .cool's
+        
+        
+Keywords: genomics,bioinformatics,Hi-C,analysis,cooler
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
