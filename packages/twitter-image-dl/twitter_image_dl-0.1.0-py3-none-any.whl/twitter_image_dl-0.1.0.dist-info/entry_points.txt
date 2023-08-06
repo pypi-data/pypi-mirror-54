@@ -1,0 +1,3 @@
+[console_scripts]
+twt_img = twt_img.twt_img:main
+
