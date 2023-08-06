@@ -1,0 +1,4 @@
+websocket-client==0.56.0
+requests<3,>=2.20
+signalr-client-threads==0.0.12
+python-dateutil<3,>=2.8
