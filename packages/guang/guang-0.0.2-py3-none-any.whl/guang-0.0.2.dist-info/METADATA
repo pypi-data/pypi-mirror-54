@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: guang
+Version: 0.0.2
+Summary: Some tools function
+Home-page: https://pypi.org/user/K.y/
+Author: K.y
+Author-email: beidongjiedeguang@gmail.com
+License: GNU
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+
+## Some tools function.
+
+*This is the first edition*
+
+*Stay tuned for future releases！*
+
+
+
