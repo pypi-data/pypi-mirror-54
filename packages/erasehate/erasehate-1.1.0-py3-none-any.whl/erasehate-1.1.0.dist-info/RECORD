@@ -1,0 +1,11 @@
+erasehate/__init__.py,sha256=tEvOGppyBG8_yXrKFXZxMTxmevt-let2xqCKXWHp6YE,601
+erasehate/classifier.py,sha256=r8QXEcS_T70kVuy7SvI1zOe_W3hziexy39uW1FkHbws,12356
+erasehate/reclass.py,sha256=Tg7WlcaikZbxRLnkWUIAyOb42jVyye7LMS2LV-Q9YJQ,1883
+erasehate/submission.py,sha256=umrPIGJjypRZZrUA6cObvcSod1rDRvzkyOuIpsgqWxg,2002
+erasehate/twitter.py,sha256=BMjFzWnVJwdkBy5SDlUYqxWXUIRQ_xnUnnp6de-BLk4,7003
+erasehate-1.1.0.dist-info/LICENSE,sha256=8G76WfK7QFtgieMTK0RNFReTtV3rGHhfzCqsu76N-FE,1090
+erasehate-1.1.0.dist-info/METADATA,sha256=9t4iNbu3-871b9kScRsA5LNwKdKn3DxEv3hCWD8yJ5U,2828
+erasehate-1.1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+erasehate-1.1.0.dist-info/top_level.txt,sha256=NcuzKa7V9Jr0gWOxt2zn7k96wk7Zgl4IFPa_7oJnyIk,10
+erasehate-1.1.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+erasehate-1.1.0.dist-info/RECORD,,
