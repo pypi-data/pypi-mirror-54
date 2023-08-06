@@ -1,0 +1,6 @@
+README.md
+gem5art_artifact.egg-info/PKG-INFO
+gem5art_artifact.egg-info/SOURCES.txt
+gem5art_artifact.egg-info/dependency_links.txt
+gem5art_artifact.egg-info/requires.txt
+gem5art_artifact.egg-info/top_level.txt
