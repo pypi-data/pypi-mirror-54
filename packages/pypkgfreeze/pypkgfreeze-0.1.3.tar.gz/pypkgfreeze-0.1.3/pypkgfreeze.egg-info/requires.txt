@@ -1,0 +1,4 @@
+Click==7.0
+
+[test]
+pytest==4.1.0
