@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pypeform
+Version: 0.0.1
+Summary: This is the documentation for the package.
+Home-page: https://github.com/verhoek/pypeform
+License: UNKNOWN
+Author: Hendrik Verhoek
+Author-email: whatever@0rig.in
+Classifier: License :: OSI Approved :: MIT License
