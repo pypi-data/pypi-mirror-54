@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: eplot
+Version: 0.1.2
+Summary: pandas interface for pyecharts
+Home-page: https://github.com/pjgao/eplot
+Author: pipixiu
+Author-email: 1783198484@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
