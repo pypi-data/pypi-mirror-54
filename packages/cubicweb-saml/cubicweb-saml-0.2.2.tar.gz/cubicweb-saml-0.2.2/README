@@ -1,0 +1,23 @@
+Cubicweb-SAML
+=============
+SAML2 authentifier for cubicweb. This cube allow to authenticate from a SAML2
+provider with cubicweb login form.
+
+Installation
+------------
+The first step is to install cubicweb-saml into your python environment:
+::
+
+    pip install cubicweb-saml
+
+To add this cube into your cubicweb instance:
+::
+
+    cubicweb-ctl shell <your_app>
+    >>> add_cube('saml')
+    >>> exit
+
+To generate SAML related option in all-in-one.conf:
+::
+
+    cubicweb-ctl upgrade <your_app>
