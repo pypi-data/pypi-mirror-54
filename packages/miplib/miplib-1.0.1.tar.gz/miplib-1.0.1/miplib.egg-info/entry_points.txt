@@ -1,0 +1,15 @@
+[console_scripts]
+miplib.correlatem = miplib.bin.correlatem:main
+miplib.deconvolve = miplib.bin.deconvolve:main
+miplib.fuse = miplib.bin.fuse:main
+miplib.import = miplib.bin.import:main
+miplib.ism = miplib.bin.ism:main
+miplib.register = miplib.bin.register:main
+miplib.resolution = miplib.bin.resolution:main
+miplib.transform = miplib.bin.transform:main
+pyimq.main = miplib.bin.pyimq:main
+pyimq.power = miplib.bin.power:main
+pyimq.subjective = miplib.bin.subjective:main
+pyimq.util.blurseq = miplib.bin.utils.create_blur_sequence:main
+pyimq.util.imseq = miplib.bin.utils.create_photo_test_set:main
+
