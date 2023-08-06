@@ -1,0 +1,11 @@
+README.md
+setup.py
+kgrid/__init__.py
+kgrid/cli.py
+kgrid/series.py
+kgrid.egg-info/PKG-INFO
+kgrid.egg-info/SOURCES.txt
+kgrid.egg-info/dependency_links.txt
+kgrid.egg-info/entry_points.txt
+kgrid.egg-info/requires.txt
+kgrid.egg-info/top_level.txt

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kgrid
+Version: 1.1.0
+Summary: Reciprocal space sampling for atomistic crystal structures
+Home-page: https://github.com/WMD-group/kgrid
+Author: Adam J. Jackson
+Author-email: a.j.jackson@physics.org
+License: GPL v3
+Description: 
+        Generate reciprocal-space grids with scalar cutoff parameters and standard
+        crystal structure files. kgrid helps with k-point convergence problems when 
+        using ab initio codes that lack a single-parameter option, and help you
+        understand and plan calculations with codes that do.
+        
+Keywords: chemistry physics k-point sampling reciprocal
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, >=3.6, <4
+Description-Content-Type: text/markdown
