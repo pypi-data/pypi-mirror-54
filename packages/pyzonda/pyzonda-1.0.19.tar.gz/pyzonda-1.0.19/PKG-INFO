@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: pyzonda
+Version: 1.0.19
+Summary: Shared Python functions for Santander DataEngineering Team
+Home-page: UNKNOWN
+Author: Santander Data Engineering Team
+Author-email: data-engineering@santandertecnologia.com.ar
+License: MIT
+Description: UNKNOWN
+Keywords: santander,zonda,bi,de,data,engineering,engineer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=2.7
