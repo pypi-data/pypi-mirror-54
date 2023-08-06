@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+opencontainers/__init__.py
+opencontainers/logger.py
+opencontainers/version.py
+opencontainers.egg-info/PKG-INFO
+opencontainers.egg-info/SOURCES.txt
+opencontainers.egg-info/dependency_links.txt
+opencontainers.egg-info/not-zip-safe
+opencontainers.egg-info/top_level.txt
