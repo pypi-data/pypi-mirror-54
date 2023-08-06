@@ -1,0 +1,12 @@
+iteration_utilities/__init__.py,sha256=OF9CFsNymspKXO8xMjt59g1gLTpXVld7D162_unB5Cg,273
+iteration_utilities/_additional_recipes.py,sha256=gG2aEOCw5QAF7RDVeBBKHFP6ZPtuBo8atFDx35eezBs,22715
+iteration_utilities/_classes.py,sha256=5q6Cg7nPs9LH-BFwchyOvsECDxhQSE72TouujeDUeBE,83649
+iteration_utilities/_compat.py,sha256=PQ4rOwR3cpQJWJHwmZ7TZmpWSqfQPoqY-JNxQAG6yqg,939
+iteration_utilities/_iteration_utilities.pyd,sha256=JqWpZflJVIxAKpvEQDLoqUtGNNym8rx5lTZOjja5wog,149504
+iteration_utilities/_recipes.py,sha256=4TGXgxROiqdwrPISh0NpKP8smzInCIZWrUYCcV3CEoc,11834
+iteration_utilities/_utils.py,sha256=1iUEOmSbdhNHmxHkbx0iLDv9KG3EIi_rbkW4Lt-Y1js,1297
+iteration_utilities-0.8.0.dist-info/LICENSE.txt,sha256=k0I9WPU9IZK9bLl7pIoeg4wRFzOTRo85RLwbBhY3g5g,11546
+iteration_utilities-0.8.0.dist-info/METADATA,sha256=rx-l6iBfx5OWQcQhVtrUvu4IpUcIm9urcY9180fJgM0,14925
+iteration_utilities-0.8.0.dist-info/WHEEL,sha256=VgnquN2wmS-dr_fBLVW6BVf1-4JY9hxIFDEVNCtWYcA,102
+iteration_utilities-0.8.0.dist-info/top_level.txt,sha256=DHlE9oZnz6Bh6YfylJRNQnNQARr4q3dtY_0HSTpY3gA,20
+iteration_utilities-0.8.0.dist-info/RECORD,,
