@@ -1,0 +1,7 @@
+README.md
+setup.py
+epcdltranslator/__init__.py
+epcdltranslator.egg-info/PKG-INFO
+epcdltranslator.egg-info/SOURCES.txt
+epcdltranslator.egg-info/dependency_links.txt
+epcdltranslator.egg-info/top_level.txt
