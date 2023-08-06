@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: MESA_Plotter
+Version: 0.1.9
+Summary: Plot the evolution of pre-main sequence stars in various way. A tool for the asteroseismology group of the university of Innsbruck, Austria.
+Home-page: https://github.com/Steinerkadabra/MESA_Plotter
+Author: Thomas Steindl
+Author-email: thomas.steindl@uibk.ac.at
+License: UNKNOWN
+Description: # MESA_Plotter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
