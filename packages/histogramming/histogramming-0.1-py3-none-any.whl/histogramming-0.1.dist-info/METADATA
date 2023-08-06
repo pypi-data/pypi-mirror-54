@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: histogramming
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/hzanoli/histogramming
+Author: hzanoli
+Author-email: 
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
