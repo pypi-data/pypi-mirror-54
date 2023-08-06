@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pypi2nix
+Version: 2.0.0
+Summary: A tool that generates nix expressions for your python packages, so you do not have to.
+Home-page: https://github.com/nix-community/pypi2nix
+Author: Rok Garbas, Cillian de Róiste, Jaka Hudoklin
+Author-email: UNKNOWN
+License: BSD
+Keywords: nixos,nix,packaging
+Platform: UNKNOWN
+Requires-Dist: attrs
+Requires-Dist: click
+Requires-Dist: jinja2
+Requires-Dist: nix-prefetch-github
+Requires-Dist: packaging
+Requires-Dist: Parsley
+Requires-Dist: setuptools
+Requires-Dist: toml
+
+UNKNOWN
+
+

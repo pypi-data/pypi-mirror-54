@@ -1,0 +1,99 @@
+# generated using pypi2nix tool (version: {{ version }})
+# See more at: https://github.com/nix-community/pypi2nix
+#
+# COMMAND:
+#   pypi2nix {{ command_arguments }}
+#
+
+{ pkgs ? import <nixpkgs> {},
+  overrides ? ({ pkgs, python }: self: super: {})
+}:
+
+let
+
+  inherit (pkgs) makeWrapper;
+  inherit (pkgs.stdenv.lib) fix' extends inNixShell;
+
+  pythonPackages =
+  import "${toString pkgs.path}/pkgs/top-level/python-packages.nix" {
+    inherit pkgs;
+    inherit (pkgs) stdenv;
+    python = pkgs.{{ python_version }};
+  };
+
+  commonBuildInputs = {{ extra_build_inputs }};
+  commonDoCheck = {{ enable_tests }};
+
+  withPackages = pkgs':
+    let
+      pkgs = builtins.removeAttrs pkgs' ["__unfix__"];
+      interpreterWithPackages = selectPkgsFn: pythonPackages.buildPythonPackage {
+        name = "{{ python_version }}-interpreter";
+        buildInputs = [ makeWrapper ] ++ (selectPkgsFn pkgs);
+        buildCommand = ''
+          mkdir -p $out/bin
+          ln -s ${pythonPackages.python.interpreter} \
+              $out/bin/${pythonPackages.python.executable}
+          for dep in ${builtins.concatStringsSep " "
+              (selectPkgsFn pkgs)}; do
+            if [ -d "$dep/bin" ]; then
+              for prog in "$dep/bin/"*; do
+                if [ -x "$prog" ] && [ -f "$prog" ]; then
+                  ln -s $prog $out/bin/`basename $prog`
+                fi
+              done
+            fi
+          done
+          for prog in "$out/bin/"*; do
+            wrapProgram "$prog" --prefix PYTHONPATH : "$PYTHONPATH"
+          done
+          pushd $out/bin
+          ln -s ${pythonPackages.python.executable} python
+          ln -s ${pythonPackages.python.executable} \
+              python{{ python_major_version }}
+          popd
+        '';
+        passthru.interpreter = pythonPackages.python;
+      };
+
+      interpreter = interpreterWithPackages builtins.attrValues;
+    in {
+      __old = pythonPackages;
+      inherit interpreter;
+      inherit interpreterWithPackages;
+      mkDerivation = args: pythonPackages.buildPythonPackage (args // {
+        nativeBuildInputs = (args.nativeBuildInputs or []) ++ args.buildInputs;
+      });
+      packages = pkgs;
+      overrideDerivation = drv: f:
+        pythonPackages.buildPythonPackage (
+          drv.drvAttrs // f drv.drvAttrs // { meta = drv.meta; }
+        );
+      withPackages = pkgs'':
+        withPackages (pkgs // pkgs'');
+    };
+
+  python = withPackages {};
+
+  generated = self: {
+{{ generated_package_nix }}
+  };
+  localOverridesFile = {{ overrides_file }};
+  localOverrides = import localOverridesFile { inherit pkgs python; };
+  commonOverrides = [
+    {{ common_overrides }}
+  ];
+  paramOverrides = [
+    (overrides { inherit pkgs python; })
+  ];
+  allOverrides =
+    (if (builtins.pathExists localOverridesFile)
+     then [localOverrides] else [] ) ++ commonOverrides ++ paramOverrides;
+
+in python.withPackages
+   (fix' (pkgs.lib.fold
+            extends
+            generated
+            allOverrides
+         )
+   )
