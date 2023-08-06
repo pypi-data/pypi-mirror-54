@@ -1,0 +1,12 @@
+crau/__init__.py,sha256=KaK9zIYQbPkGlOQtcVxgcw90qaKU1sUq7pRPdnyQ7VU,85
+crau/__main__.py,sha256=VNXCcgJ6hm4LbZBeOMBPCzuFTICAcX2m_2ThvsGiB2M,29
+crau/cli.py,sha256=h8bp5gRPABNb1Iib1cqufN-iN87l5PDJlP2HWKGqqr8,3171
+crau/spider.py,sha256=Su8AmL0wEvmOh8j99I-Cc6ClnWoJrRwzMKiOpWlnqPs,9311
+crau/utils.py,sha256=hPVnphMhp5aPgM_syaCCW-nPhKET0n-MWc3vQn8MHCo,1378
+crau/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+crau-0.1.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+crau-0.1.0.dist-info/METADATA,sha256=VzHt7Gbk9wGqSQ_b7cM6xyqL7g2ygjeZkRqzQZ4rucw,611
+crau-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+crau-0.1.0.dist-info/entry_points.txt,sha256=V_dcLNDweRN4d6J3vwfOW5K8SPEUZDxV3nTgMtbtAOE,39
+crau-0.1.0.dist-info/top_level.txt,sha256=QFGfiNALnlNRvEOscwRHOT4BICjqkCxNXuiY6iZy5xQ,5
+crau-0.1.0.dist-info/RECORD,,
