@@ -1,0 +1,4 @@
+aiohttp
+aiohttp-sse
+numpy
+requests
