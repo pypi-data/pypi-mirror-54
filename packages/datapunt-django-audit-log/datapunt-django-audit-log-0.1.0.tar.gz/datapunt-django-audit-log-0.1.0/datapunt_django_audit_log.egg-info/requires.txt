@@ -1,0 +1,7 @@
+django
+datapunt-audit-log
+
+[dev]
+pytest
+pytest-cov
+twine

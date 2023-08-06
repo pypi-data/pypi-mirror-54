@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+datapunt_django_audit_log.egg-info/PKG-INFO
+datapunt_django_audit_log.egg-info/SOURCES.txt
+datapunt_django_audit_log.egg-info/dependency_links.txt
+datapunt_django_audit_log.egg-info/requires.txt
+datapunt_django_audit_log.egg-info/top_level.txt
+django_audit_log/__init__.py
+django_audit_log/logger.py
+django_audit_log/middleware.py
+django_audit_log/util.py
