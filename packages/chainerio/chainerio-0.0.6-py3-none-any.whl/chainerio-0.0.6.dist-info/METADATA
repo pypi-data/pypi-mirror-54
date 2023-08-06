@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: chainerio
+Version: 0.0.6
+Summary: Chainer IO library
+Home-page: http://github.com/chainer/chainerio
+Author: Tianqi Xu, Kota Uenishi
+Author-email: tianqi@preferred.jp, kota@preferred.jp
+License: UNKNOWN
+Keywords: filesystem hdfs chainer development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Filesystems
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: krbticket
+Requires-Dist: pyarrow
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: autopep8 ; extra == 'test'
+
+## ChainerIO
+
+ChainerIO is an IO abstraction library for Chainer, optimized for deep
+learning training with batteries included. It supports
+
+- Filesystem API abstraction with unified error semantics,
+- Explicit user-land caching system,
+- IO performance tracing and metrics stats, and
+- Fileset container utilities to save metadata.
+
+
+## Dependency
+
+- HDFS client and libhdfs for HDFS access
+- Python 3
+
+## Installation and Document build
+
+Installation
+
+```shell
+$ git clone https://github.com/chainer/chainerio.git
+$ cd chainerio
+$ pip install .
+```
+
+Documentation
+```sh
+$ cd chainerio/docs
+$ make html
+$ open build/html/index.html
+```
+
+Test
+```sh
+$ cd chainerio
+$ pip install .[test]
+$ pytest
+```
+
+## How to use
+
+Please refer to the `Documentation` for more information about the usage.
+Also you can find some examples in
+`examples` directory for usage in Chainer training script examples.
+
+
