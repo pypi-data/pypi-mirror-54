@@ -1,0 +1,5 @@
+xlrd
+PySide2
+Qt.py
+pymongo
+firebase_admin
