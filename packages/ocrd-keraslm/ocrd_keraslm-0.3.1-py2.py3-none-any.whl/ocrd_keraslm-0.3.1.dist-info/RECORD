@@ -1,0 +1,16 @@
+ocrd_keraslm/__init__.py,sha256=BbrkaIYdV19KGyds3aXbev7Z9hRhR3PVpxBo5GfvTyA,53
+ocrd_keraslm/lib/__init__.py,sha256=0Vf9HYBqRFV7aWPIBA63uHW6YMjwRatbHbcLlAtpwew,156
+ocrd_keraslm/lib/callbacks.py,sha256=batCv-geDvb2sl-EQ26-81znjFXOq3OyP7LSjtS6u-Q,2564
+ocrd_keraslm/lib/rating.py,sha256=joc6k_n5nTE2ffTsMmXbDCS_FIsaYR_PHvfpdRcQw_w,66739
+ocrd_keraslm/scripts/__init__.py,sha256=VUkxlpCeN_qqAG8xyme8lqDe9P24nKEZwsuO9YNr8mw,63
+ocrd_keraslm/scripts/run.py,sha256=uEtOZ0VuRjP6eg3Ozc-diz6TyrvMVPLBV0l1TaokYFQ,7917
+ocrd_keraslm/wrapper/__init__.py,sha256=yhCzbCHzZaKHisS0QE4zGVC7Ly-SguHNrIGDLqPY_cU,331
+ocrd_keraslm/wrapper/cli.py,sha256=QX-a6R_gXIiUcj6VFn8vANclSZCrw2Z1Q885083TdyE,247
+ocrd_keraslm/wrapper/config.py,sha256=KIGdj-YnnMrMvR84YgNQJVH0BO4DUYC_bRZDKGE5aNw,138
+ocrd_keraslm/wrapper/ocrd-tool.json,sha256=JDxFmDpDPDybj6w10gA-MWOpMme1KuLEwvSU9Kj4epI,1930
+ocrd_keraslm/wrapper/rate.py,sha256=0oGVjTYj5pT0o8LYrhqu7ItYbzZV3aXcaM5kQo1itHU,19360
+ocrd_keraslm-0.3.1.dist-info/METADATA,sha256=d6v2RfqfnbBZIs7K6XOp4aXKqIHAOdisLjT50T83WaU,11363
+ocrd_keraslm-0.3.1.dist-info/RECORD,,
+ocrd_keraslm-0.3.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+ocrd_keraslm-0.3.1.dist-info/entry_points.txt,sha256=SssLQSk-235cGJc0uSaygNwdsZWUj_NzXlW3pAvYgn8,126
+ocrd_keraslm-0.3.1.dist-info/top_level.txt,sha256=dPr2UNiic4Rrhz9RGCx_3ixbUAOU0ZzA1wf7MjiY7FQ,13
