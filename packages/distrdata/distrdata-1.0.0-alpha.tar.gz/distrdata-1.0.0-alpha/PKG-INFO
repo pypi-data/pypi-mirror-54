@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: distrdata
+Version: 1.0.0-alpha
+Summary: Collection of generators for generating points of different distributions.
+Home-page: https://github.com/VoIlAlex/distrdata
+Author: Ilya Vouk
+Author-email: ilya.vouk@gmail.com
+License: MIT
+Download-URL: https://github.com/VoIlAlex/distrdata/archive/v1.0.0-alpha.tar.gz
+Description: UNKNOWN
+Keywords: dataset,generator,data,science
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
