@@ -1,0 +1,3 @@
+include annofetch/lib/configuration/config.ini
+include annofetch/lib/database/cognames_function.tab
+include annofetch/lib/database/fun2003-2014.tab
