@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block body %}
+{% for playbook in playbooks %}
+    {% include "partials/playbook_card.html" %}
+{% endfor %}
+{% endblock %}
