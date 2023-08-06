@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: newconan
+Version: 1.69
+Summary: New cmake project based on conan
+Home-page: https://github.com/wumo/newconan
+Author: wumo
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: conan
+
+UNKNOWN
+
+
