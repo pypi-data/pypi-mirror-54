@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: repo_splitter
+Version: 0.2.2
+Summary: A CLI tool to split a part of a git repo into another git repo, separating the history
+Home-page: https://github.com/whoopnip/repo-splitter/
+Author: Nick DeRobertis
+Author-email: whoopnip@gmail.com
+License: MIT
+Project-URL: Code, https://github.com/whoopnip/repo-splitter/
+Project-URL: Documentation, https://whoopnip.github.io/repo-splitter/
+Description: 
+        A CLI tool to split a part of a git repo into another git repo, separating the history
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
