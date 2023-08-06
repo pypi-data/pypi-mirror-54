@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: bottle-pypugjs
+Version: 0.1.1.post4
+Summary: Este es un plugin de bottle para poder usar la libreria de pypugjs en las vistas
+Home-page: UNKNOWN
+Author: Lorenzo A. Garcia Calzadilla
+Author-email: lorenzogarciacalzadilla@gmail.com
+Maintainer: 
+Maintainer-email: 
+License: The MIT License (MIT)
+Requires-Dist: bottle
+Requires-Dist: pypugjs (>=5.8.1)
+
+Copyright (c) 2019 Lorenzo Antonio Garcia Calzadilla
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Description: #Bottle PyPugjs Template
+        
+        Este es un plugin de *bottle* para poder usar la libreria de **pypugjs** en las vistas
+        
+        ##Inicio rapido
+        
+        El plugin de **bottle-pypugjs** permite usar la tres formas que *bottle* define para manejar los templates
+        
+        .. code-block:: python
+        
+            from bottle import route, install
+            from bottle.ext.pypugjs import template, view, Plugin
+        
+            # Usando la funcion template
+            @route('/index')
+            def index():
+                return template('index.pug')
+        
+            # Usando el decorador view
+            @route('/index')
+            @view('index.pug')
+            def index():
+                return {}
+        
+            app.install(Plugin())
+        
+            # Usando el argumento *template* en la ruta que provee el plugin
+            @route('/index', template='index.pug')
+            def index():
+                return {}
+        
+        Con estos ejemplos se resume el funcionamiento del plugin.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

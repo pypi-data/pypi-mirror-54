@@ -1,0 +1,2 @@
+bottle_pypugjs
+bottle_pypugjs_version
