@@ -1,0 +1,10 @@
+trivial_tools/__init__.py,sha256=9Ad8w1Iq9V2liNVDw7Z3xSHi9RJd1wYqKRic6LysGJE,80
+trivial_tools/config_handling/__init__.py,sha256=bmY-CtJmquQW7VD_UZgYA7dKwitwPFf2J-e3v47EmIs,57
+trivial_tools/config_handling/base_config.py,sha256=eu66uTnEB845JCYqwUXnet23Eza0TSUtnyfbig5M6JI,829
+trivial_tools/files/__init__.py,sha256=aX2l--Iq015Qa5UK9bk9noMXMBoO6kKDws8gH0fkrzY,40
+trivial_tools/files/json.py,sha256=kp2UFUzqpOqZLxxgysOmWzPP68iwb7y9FoWT8jZau5I,1002
+trivial_tools-3.dist-info/LICENSE,sha256=A-aN8he1M-21p0tct0_E-V6U9DsDtP4Nck5-FUk5fEc,1093
+trivial_tools-3.dist-info/METADATA,sha256=RpFy1d7jvT94RZ9DBT5Lz135pYSkXj5foVu_Bcc8vWs,531
+trivial_tools-3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+trivial_tools-3.dist-info/top_level.txt,sha256=2ZySqNyXgcS4eO-FbtPEFn2pbRi7i4WosvaxzTKsFOA,14
+trivial_tools-3.dist-info/RECORD,,
