@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: damg
+Version: 1.0.1
+Summary: A package which are damg team style
+Home-page: https://github.com/vtta2008/damg
+Author: Trinh Do & Duong Minh Duc
+Author-email: damgteam@gmail.com
+License: MIT
+Description: JUST A SIMPLE PACKAGE
+        
+        A style of damg team object, I modified a bit base on PyQt5.
+        
+        DAMG: just an object.
+        DAMGERROR: An exception type object.
+        DAMGLIST: An list type object.
+        DAMGDICT: An dict type object.
+        DAMGWORKER: Using QRunable for multi threading.
+        DAMGTHREAD: Using QThread for multi threading.
+        
+        Enjoy.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

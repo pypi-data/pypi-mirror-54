@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+damg.egg-info/PKG-INFO
+damg.egg-info/SOURCES.txt
+damg.egg-info/dependency_links.txt
+damg.egg-info/not-zip-safe
+damg.egg-info/top_level.txt
