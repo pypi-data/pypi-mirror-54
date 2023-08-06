@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block body %}
+{% include "partials/playbook_card.html" %}
+{% load datetime_formatting %}
+
+<div class="pf-c-card" style="margin: 1em 0;">
+    <div class="pf-c-card__body">
+        <details id="arguments">
+            <summary>Arguments and configuration</summary>
+            <table class="pf-c-table pf-m-grid-md pf-m-compact" role="grid">
+                <thead>
+                    <tr>
+                        <th>Argument</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for arg, value in playbook.arguments.items %}
+                    <tr>
+                        <td>{{ arg }}</td>
+                        <td>{{ value }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </details>
+        <details id="records">
+            <summary>Records</summary>
+            {% if playbook.items.records %}
+            <ul class="pf-c-list">
+                {% for record in playbook.records %}
+                <li><a href="../record/{{ record.id }}.html">{{ record.key }}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            No records have been saved with <a href="https://ara.readthedocs.io/en/latest/ara-record.html" target="_blank">ara_record</a> for this playbook.
+            {% endif %}
+        </details>
+        <details id="files">
+            <summary>Files</summary>
+            <ul class="pf-c-list">
+                {% for file in playbook.files %}
+                <li><a href="../file/{{ file.id }}.html">{{ file.path }}</a></li>
+                {% endfor %}
+            </ul>
+        </details>
+        <details id="hosts" open="true">
+            <summary>Hosts</summary>
+            <table class="pf-c-table pf-m-grid-md pf-m-compact" role="grid" id="host-table">
+                <thead>
+                    <tr>
+                        <th>Host</th>
+                        <th>Changed</th>
+                        <th>Failed</th>
+                        <th>Ok</th>
+                        <th>Skipped</th>
+                        <th>Unreachable</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for host in playbook.hosts %}
+                    <tr>
+                        <td><a href="../host/{{ host.id }}.html">{{ host.name }}</a></td>
+                        <td>{{ host.changed }}</td>
+                        <td>{{ host.failed }}</td>
+                        <td>{{ host.ok }}</td>
+                        <td>{{ host.skipped }}</td>
+                        <td>{{ host.unreachable }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </details>
+        <details id="results" open="true">
+            <summary>Task results</summary>
+            <table class="pf-c-table pf-m-grid-md pf-m-compact" role="grid" id="result-table">
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Action</th>
+                        <th>Status</th>
+                        <th>Host</th>
+                        <th>Started</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for play in playbook.plays %}
+                    {% for task in play.tasks %}
+                    {% for result in task.results %}
+                    <tr>
+                        <td><a href="../result/{{ result.id }}.html">{{ task.name }}</a></td>
+                        <td><a href="../file/{{ task.file.id }}.html#{{ task.lineno }}">{{ task.action }}</a></td>
+                        <td>{{ result.status }}</td>
+                        <td>{{ result.host.name }}</td>
+                        <td>{{ result.started | format_date }}</td>
+                        <td>{{ result.duration | format_duration }}</td>
+                    </tr>
+                    {% endfor %}
+                    {% endfor %}
+                    {% endfor %}
+                </tbody>
+            </table>
+        </details>
+    </div>
+</div>
+{% endblock %}
