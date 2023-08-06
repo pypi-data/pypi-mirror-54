@@ -1,0 +1,9 @@
+config_handling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+config_handling/base_config.py,sha256=TxOeZnL7-JGev5riueUiXvKpT5I1YGmP0WZPrBaXR2o,815
+files/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+files/json.py,sha256=kp2UFUzqpOqZLxxgysOmWzPP68iwb7y9FoWT8jZau5I,1002
+trivial_tools-1.dist-info/LICENSE,sha256=A-aN8he1M-21p0tct0_E-V6U9DsDtP4Nck5-FUk5fEc,1093
+trivial_tools-1.dist-info/METADATA,sha256=pHBf3Eh5gcYhoTuYrqc97zUpyxI6BlrSg3IejLFpDkc,747
+trivial_tools-1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+trivial_tools-1.dist-info/top_level.txt,sha256=E1Fe-hEnMYoCVeboDdDOG47BOJ4EbcR-hT3uNg8vpSc,22
+trivial_tools-1.dist-info/RECORD,,
