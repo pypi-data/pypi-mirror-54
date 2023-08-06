@@ -1,0 +1,10 @@
+flask_required_args/__init__.py,sha256=NALyWEADJMsXaAvdjx1J5r2nmZZ3iNs_Al3RGbJOh_M,38
+flask_required_args/decorators.py,sha256=SU9hMNxcbR7IEMcVOLT-Ykxn96jM-MTDZuiPcialrhc,1081
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_app.py,sha256=kS0HTKdR664GJtKeSf9dQ9M3MNgtt7PFypEPQhVkP1Y,488
+tests/test_required_args.py,sha256=pKyL7kz5j0LJSZojfGfPL2IIGqex2M9RHBqO1Ky_0mg,1174
+flask_required_args-1.0.0.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+flask_required_args-1.0.0.dist-info/METADATA,sha256=VSznc-gMjNC2jOv-L4jfYz-vLEsguzPnc-gLszwwOMo,1557
+flask_required_args-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+flask_required_args-1.0.0.dist-info/top_level.txt,sha256=o66XfhYZ0zMHsacmYL4sXdzqGZoMBnHw9-1VX7Hq5OA,26
+flask_required_args-1.0.0.dist-info/RECORD,,
