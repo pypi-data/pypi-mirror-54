@@ -1,0 +1,7 @@
+gitpython
+pygithub
+python-gitlab
+tqdm
+
+[test]
+pytest
