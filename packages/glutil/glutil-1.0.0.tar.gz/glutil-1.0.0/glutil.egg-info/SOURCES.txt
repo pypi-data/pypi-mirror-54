@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+glutil/__init__.py
+glutil/cli.py
+glutil/database_cleaner.py
+glutil/partitioner.py
+glutil/serverless_function.py
+glutil/utils.py
+glutil.egg-info/PKG-INFO
+glutil.egg-info/SOURCES.txt
+glutil.egg-info/dependency_links.txt
+glutil.egg-info/entry_points.txt
+glutil.egg-info/requires.txt
+glutil.egg-info/top_level.txt
+glutil/text/__init__.py
+glutil/text/cli_text.py
