@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: contessa
+Version: 0.1.4
+Summary: Data-quality framework
+Home-page: https://github.com/kiwicom/contessa
+Author: Mario Hunka
+Author-email: mario.hunka@kiwi.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: sqlalchemy (>=1.2)
+Requires-Dist: psycopg2 (>=2.7)
+Requires-Dist: jinja2 (>=2.10.1)
+
+Contessa
+============================
+
+|docs-badge| |build-badge| |pypi-badge| |license-badge|
+
+.. |docs-badge| image:: https://readthedocs.org/projects/contessa/badge/?version=latest
+   :target: https://contessa.readthedocs.io/en/latest/
+.. |pypi-badge| image:: https://badge.fury.io/py/contessa.svg
+   :target:  https://pypi.org/project/contessa/
+.. |build-badge| image:: https://travis-ci.org/kiwicom/contessa.svg?branch=master
+   :target: https://travis-ci.org/kiwicom/contessa
+.. |license-badge| image:: https://img.shields.io/pypi/l/schemathesis.svg
+   :target: https://opensource.org/licenses/MIT
+
+
+Data Quality Framework
+
+Quick Example
+---------------------------
+
+.. code-block:: python
+
+    from contessa import ContessaRunner, NOT_NULL, GT, SQL
+    no_bags_sql = """
+        SELECT CASE WHEN is_no_bags_booking = 'T' AND bags > 0 THEN false ELSE true END
+        FROM {{table_fullname}};
+    """
+    contessa = ContessaRunner("postgres://:@localhost:5432")
+
+    RULES = [
+        {
+            "name": NOT_NULL,
+            "columns": ["status", "market", "src", "dst"], 
+        },
+        {
+            "name": GT,
+            "value": 0,
+            "columns": ["initial_price", "turnover_before_refunds", ],
+        },
+        {
+            "name": SQL,
+            "sql": no_bags_sql,
+            "description": "No bags booking should have bags = 0",
+        },
+    ]
+    contessa.run(
+        raw_rules=RULES,
+        check_table={"schema_name": "public", "table_name": "bookings"},
+        result_table={"schema_name": "dq", "table_name": "my_table"},
+    )
+
+How to run tests
+---------------------------
+
+.. code-block:: bash
+
+    $ make test-up  # run postgres + app
+    $ make test args="/app/test -s"  # args for pytest
+    $ make test-down  # delete containers + volumes
+
+
+In case of unit tests (you do not need db):
+
+.. code-block:: bash
+
+    $ pytest test/unit/test_operator.py
+
+How to add docs
+---------------------------
+
+.. code-block:: bash
+
+	$ pip3 install -r requirements-docs.txt
+	$ python3 watchdogs.py
+
+It will make html files with sphinx and serve a local webserver so that you can check it out.
+It should also reload it :)
+
+NOTE: If it doesn't work, build html manually. ``cd docs && make html``
+
+
