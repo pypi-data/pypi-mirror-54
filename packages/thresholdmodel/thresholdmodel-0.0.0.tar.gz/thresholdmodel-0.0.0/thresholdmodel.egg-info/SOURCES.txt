@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+thresholdmodel/__init__.py
+thresholdmodel/metadata.py
+thresholdmodel/model.py
+thresholdmodel.egg-info/PKG-INFO
+thresholdmodel.egg-info/SOURCES.txt
+thresholdmodel.egg-info/dependency_links.txt
+thresholdmodel.egg-info/not-zip-safe
+thresholdmodel.egg-info/requires.txt
+thresholdmodel.egg-info/top_level.txt
