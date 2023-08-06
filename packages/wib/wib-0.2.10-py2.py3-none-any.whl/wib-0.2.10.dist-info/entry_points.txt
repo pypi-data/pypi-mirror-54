@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        wib=wib.cli:main
+        
