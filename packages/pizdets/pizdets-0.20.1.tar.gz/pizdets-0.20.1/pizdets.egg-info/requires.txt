@@ -1,0 +1,5 @@
+zmq
+google
+pandas
+protobuf
+matplotlib
