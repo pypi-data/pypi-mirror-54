@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: finac
+Version: 0.0.6
+Summary: Financial accounting library
+Home-page: https://github.com/alttch/finac
+Author: Altertech
+Author-email: div@altertech.com
+License: MIT
+Description: # finac
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Description-Content-Type: text/markdown
