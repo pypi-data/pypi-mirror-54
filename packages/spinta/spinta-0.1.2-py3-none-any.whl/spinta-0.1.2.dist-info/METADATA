@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: spinta
+Version: 0.1.2
+Summary: Data store.
+Home-page: UNKNOWN
+Author: Mantas Zimnickas
+Author-email: sirexas@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Database :: Front-Ends
+Requires-Dist: aiofiles
+Requires-Dist: asyncpg
+Requires-Dist: authlib (==0.11)
+Requires-Dist: click
+Requires-Dist: gunicorn
+Requires-Dist: jinja2
+Requires-Dist: lxml
+Requires-Dist: msgpack
+Requires-Dist: multipledispatch
+Requires-Dist: psycopg2-binary
+Requires-Dist: pymongo
+Requires-Dist: pyrql
+Requires-Dist: python-multipart
+Requires-Dist: requests
+Requires-Dist: ruamel.yaml
+Requires-Dist: setuptools
+Requires-Dist: setuptools-scm
+Requires-Dist: sqlalchemy
+Requires-Dist: starlette
+Requires-Dist: texttable
+Requires-Dist: tqdm
+Requires-Dist: ujson
+Requires-Dist: unidecode
+Requires-Dist: uvicorn
+Requires-Dist: xlrd
+
+UNKNOWN
+
+
