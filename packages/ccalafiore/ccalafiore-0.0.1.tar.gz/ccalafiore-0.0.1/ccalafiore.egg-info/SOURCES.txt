@@ -1,0 +1,10 @@
+README.md
+setup.py
+ccalafiore/__init__.py
+ccalafiore/combinations.py
+ccalafiore/hacks.py
+ccalafiore/n_directories_up.py
+ccalafiore.egg-info/PKG-INFO
+ccalafiore.egg-info/SOURCES.txt
+ccalafiore.egg-info/dependency_links.txt
+ccalafiore.egg-info/top_level.txt
