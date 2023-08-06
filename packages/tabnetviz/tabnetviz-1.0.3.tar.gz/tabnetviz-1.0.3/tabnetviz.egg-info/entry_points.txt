@@ -1,0 +1,3 @@
+[console_scripts]
+tabnetviz = tabnetviz.__main__:main
+
