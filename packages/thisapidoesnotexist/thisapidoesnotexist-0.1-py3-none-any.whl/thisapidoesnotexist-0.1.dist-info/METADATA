@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: thisapidoesnotexist
+Version: 0.1
+Summary: Api não oficial das páginas thispersondoesnotexist e thiscatdoesnotexist
+Home-page: https://github.com/Arfafa/ThisApiDoesNotExist
+Author: Miguel Lopes
+Author-email: miguel.lopes.filho@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Projeto
+Projeto desenvolvido com o intuito de criar uma API não 
+oficial para páginas: [this person does not exist](https://thispersondoesnotexist.com/image) 
+e [this cat does not exist](https://thiscatdoesnotexist.com/) 
+
+
