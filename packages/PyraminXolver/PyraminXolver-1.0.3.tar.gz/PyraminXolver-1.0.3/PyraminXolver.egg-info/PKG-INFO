@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: PyraminXolver
+Version: 1.0.3
+Summary: Extremely fast optimal and suboptimal Pyraminx solver
+Home-page: https://github.com/Odder/PyraminXolver
+Author: Oscar Roth Andersen
+Author-email: oscarrothandersen@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
