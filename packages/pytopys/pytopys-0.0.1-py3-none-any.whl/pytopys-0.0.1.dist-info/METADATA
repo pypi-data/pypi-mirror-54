@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pytopys
+Version: 0.0.1
+Summary: adding number
+Home-page: UNKNOWN
+Author: Shivam Singh
+Author-email: shivam12lps@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+add twwo file.
+this is just tutorial at py2py.
+
+
+
+
+
+Documents.
+
+''' python
+def sum(a,b):
+	c = a+b
+	return c
+'''
+
