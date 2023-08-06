@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: amcp_pylib
+Version: 0.1.2
+Summary: AMCP (Advanced Media Control Protocol) Client Library
+Home-page: https://github.com/dolejska-daniel/amcp-pylib
+Author: Daniel Dolejska
+Author-email: dolejskad@gmail.com
+License: MIT
+Description: # Python AMCP Client Library
+        > v0.1.0
+        
+        
+        ## Introduction
+        _TBD_
+        
+        
+        ## Installation
+        ```shell
+        pip install amcp_pylib
+        ```
+        
+        
+        ## Usage examples
+        _TBD_
+        
+        ### Connecting to server
+        
+        ```python
+        from amcp_pylib.core import Client
+        
+        client = Client()
+        client.connect("caspar-server.local", 6969)  # defaults to 127.0.0.1, 5250
+        ```
+        
+        ### Sending commands
+        
+        ```python
+        from amcp_pylib.core import Client
+        from amcp_pylib.module.query import VERSION, BYE
+        
+        client = Client()
+        client.connect()
+        
+        response = client.send(VERSION(component="server"))
+        print(response)
+        
+        response = client.send(BYE())
+        print(response)
+        ```
+        
+        ```shell
+        201(VERSION) ['2.0.7.e9fc25a Stable']
+        0(EMPTY) ['SERVER SENT NO RESPONSE']
+        ```
+        
+        All supported protocol commands are listed and documented on CasparCG's [wiki pages](https://github.com/CasparCG/help/wiki/AMCP-Protocol#table-of-contents).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Topic :: Multimedia :: Video
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
