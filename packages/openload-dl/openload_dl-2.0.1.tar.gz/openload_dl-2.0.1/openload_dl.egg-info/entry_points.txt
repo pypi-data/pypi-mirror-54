@@ -1,0 +1,3 @@
+[console_scripts]
+openload-dl = openload_dl.script:openload_cli
+
