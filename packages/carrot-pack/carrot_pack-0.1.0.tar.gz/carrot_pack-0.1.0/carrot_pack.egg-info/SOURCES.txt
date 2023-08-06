@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+EvaMarcheva/__Init__.py
+EvaMarcheva/module.py
+carrot_pack.egg-info/PKG-INFO
+carrot_pack.egg-info/SOURCES.txt
+carrot_pack.egg-info/dependency_links.txt
+carrot_pack.egg-info/top_level.txt
