@@ -1,0 +1,8 @@
+mir/dlsite/__init__.py,sha256=rQyLxyFWdu7PmNCEIP-7OzFFS7W73hEdB3hZPMCF1cI,621
+mir/dlsite/api.py,sha256=0bQxXs60TXzNMojEN8MVA_kJbkqY_iXj8owaV58Xgwc,5348
+mir/dlsite/workinfo.py,sha256=fP8m1oOBuaJclAkhmhnVgM7lX0N-G47wT7s8OydsTQk,1919
+mir.dlsite-0.6.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+mir.dlsite-0.6.0.dist-info/METADATA,sha256=KQFBPhvpU7MLVyOAzksIFAOwxcL-prO_uHI7pX6fiLY,505
+mir.dlsite-0.6.0.dist-info/WHEEL,sha256=nMbBw29sRfQVdx260S14VLTQWKtc4i1BSU4yUopWy7U,93
+mir.dlsite-0.6.0.dist-info/top_level.txt,sha256=AncyDUeb-6naxuA6oqYf2DJvGk05FcF4Vs_3gvWePOI,4
+mir.dlsite-0.6.0.dist-info/RECORD,,
