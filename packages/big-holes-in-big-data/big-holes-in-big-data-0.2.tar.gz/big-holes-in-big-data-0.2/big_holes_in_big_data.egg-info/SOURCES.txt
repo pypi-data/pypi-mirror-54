@@ -1,0 +1,10 @@
+README.md
+setup.py
+big_holes_in_big_data.egg-info/PKG-INFO
+big_holes_in_big_data.egg-info/SOURCES.txt
+big_holes_in_big_data.egg-info/dependency_links.txt
+big_holes_in_big_data.egg-info/requires.txt
+big_holes_in_big_data.egg-info/top_level.txt
+bigholes/HoleFinder.py
+bigholes/HyperRectangle.py
+bigholes/__init__.py
