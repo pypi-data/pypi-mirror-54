@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: test-lightform-demo-package
+Version: 0.1.0
+Summary: This package does some very useful things.
+Home-page: UNKNOWN
+Author: Adam J. Plowman
+License: UNKNOWN
+Project-URL: Github, https://github.com/aplowman/test-lightform-demo-package
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
