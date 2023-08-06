@@ -1,0 +1,20 @@
+Welcome to FinancePy!
+
+FinancePy is a library of functions for valuing, selecting and risk-managing financial assets.
+
+The project was started in 2019 by Dominic O'Kane of the EDHEC Business School. 
+
+Dependencies
+============
+FinancePy depends on Numpy and Numba.
+
+Installation
+============
+FinancePy can be installed via pip as 
+>>>> pip install financepy
+
+See the changelog for a history of changes 
+
+Contributions
+=============
+Contributions are welcome, as long as you don't mind camel case ;-)
