@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: neocortex
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/tjbanks/neocortex
+Author: Tyler Banks
+Author-email: tbanks@mail.missouri.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click-plugins
+Requires-Dist: clint
+Requires-Dist: configparser
+Requires-Dist: flask
+Requires-Dist: flask-sqlalchemy
+Requires-Dist: flask-restful
+Requires-Dist: flask-migrate
+Requires-Dist: flask-jwt-extended
+Requires-Dist: tornado (==4.5.2)
+Requires-Dist: flask-marshmallow
+Requires-Dist: marshmallow-sqlalchemy
+Requires-Dist: python-dotenv
+Requires-Dist: passlib
+Requires-Dist: questionary
+Requires-Dist: tox
+Requires-Dist: twython
+Requires-Dist: webargs
+Requires-Dist: py2neo
+Requires-Dist: neo4j-driver
+Requires-Dist: flask-neo4j4
+
+# NeoCortex
+
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/tjbanks/neocortex/blob/master/LICENSE)
+
+## Docker Image for Neo4j / API Interface
+
+```
+docker-compose build
+docker-compose up
+```
+
+## Command Line Interface
+
+Install neocortex
+
+```
+python setup.py install
+```
+
+Run commands by executing `neo` from the command line
+
+```
+>neo config create
+Config file not found: C:/Users/tyler/neo.cfg
+Run 'neo config create' to create a required configuration file.
+? Create config file "C:/Users/tyler/neo.cfg" ?   Yes
+? Server:   127.0.0.1
+? Server Port:   5800
+? Username:   admin
+? Password:   admin
+Config written
+
+>neo
+Usage: neo [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --debug               Verbose printing
+  --config-path PATH    Configuration file to use, default: "~/neo.cfg"
+  --help                Show this message and exit.
+
+Commands:
+  config  View, edit, or create your configuration file
+  query   Run queries agains the graph db
+```
+
+## Accessing the Neo4j Graph DB
+
+```
+python setup.py develop
+python
+>>> from neocortex.api.client import NeoClient
+>>> nc = NeoClient('admin','admin','192.168.99.100:5000')
+>>> nc.query('MATCH (n) RETURN n')
+[]
+```
+
+

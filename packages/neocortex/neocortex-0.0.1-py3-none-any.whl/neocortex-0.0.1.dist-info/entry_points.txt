@@ -1,0 +1,5 @@
+[console_scripts]
+neo = neocortex.cli.manage:cli
+neo-api-server = neocortex.manage:cli
+neocortex = neocortex.cli.manage:cli
+
