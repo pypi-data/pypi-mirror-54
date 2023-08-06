@@ -1,0 +1,16 @@
+.gitignore
+LICENSE.txt
+Makefile
+README.md
+argmagic.py
+setup.py
+test_argmagic.py
+argmagic.egg-info/PKG-INFO
+argmagic.egg-info/SOURCES.txt
+argmagic.egg-info/dependency_links.txt
+argmagic.egg-info/top_level.txt
+examples/boolean_args.py
+examples/dict_hello.py
+examples/multiple_parsers.py
+examples/positional_hello.py
+examples/simple_hello.py
