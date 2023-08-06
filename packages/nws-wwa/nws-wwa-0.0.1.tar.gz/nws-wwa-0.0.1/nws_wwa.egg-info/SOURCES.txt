@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+nws_wwa/__init__.py
+nws_wwa/cli.py
+nws_wwa.egg-info/PKG-INFO
+nws_wwa.egg-info/SOURCES.txt
+nws_wwa.egg-info/dependency_links.txt
+nws_wwa.egg-info/entry_points.txt
+nws_wwa.egg-info/requires.txt
+nws_wwa.egg-info/top_level.txt
