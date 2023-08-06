@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: stakion-logger
+Version: 0.0.10
+Summary: Logger for stakion.
+Home-page: https://stakion.io/
+Author: Jacques Verre
+Author-email: jacques.verre@stackion.io
+License: LICENSE.txt
+Description: ==============
+        Stakion Logger
+        ==============
+        
+        `Stakion <https://stakion.io>`__ monitors ML models in realtime to detect breaking data changes and concept drift.
+Platform: UNKNOWN
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*
