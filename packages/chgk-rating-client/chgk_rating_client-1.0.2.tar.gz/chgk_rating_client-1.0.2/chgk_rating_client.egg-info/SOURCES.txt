@@ -1,0 +1,9 @@
+README.md
+setup.py
+chgk_rating_client/__init__.py
+chgk_rating_client/main.py
+chgk_rating_client.egg-info/PKG-INFO
+chgk_rating_client.egg-info/SOURCES.txt
+chgk_rating_client.egg-info/dependency_links.txt
+chgk_rating_client.egg-info/requires.txt
+chgk_rating_client.egg-info/top_level.txt
