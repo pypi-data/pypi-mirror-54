@@ -1,0 +1,14 @@
+appdirs
+attrs
+
+[client]
+devpi-client>=4.3.0
+
+[dev]
+pytest
+pytest-cov
+pytest-flake8
+webtest
+
+[server]
+devpi-server>=5.0.0
