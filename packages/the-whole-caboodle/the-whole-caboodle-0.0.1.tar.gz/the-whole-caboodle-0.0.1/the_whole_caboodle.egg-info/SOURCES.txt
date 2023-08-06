@@ -1,0 +1,15 @@
+README.md
+setup.py
+caboodle/__init__.py
+caboodle/artifacts.py
+caboodle/artifacts_test.py
+caboodle/cli.py
+caboodle/cli_test.py
+caboodle/gcs.py
+caboodle/workflow.py
+caboodle/workflow_test.py
+the_whole_caboodle.egg-info/PKG-INFO
+the_whole_caboodle.egg-info/SOURCES.txt
+the_whole_caboodle.egg-info/dependency_links.txt
+the_whole_caboodle.egg-info/requires.txt
+the_whole_caboodle.egg-info/top_level.txt

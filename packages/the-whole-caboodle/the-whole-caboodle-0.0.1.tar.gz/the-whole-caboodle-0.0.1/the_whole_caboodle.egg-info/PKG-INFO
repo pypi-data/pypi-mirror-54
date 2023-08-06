@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: the-whole-caboodle
+Version: 0.0.1
+Summary: Utilities for artifact management for data science in the cloud.
+Home-page: https://github.com/smk508/caboodle
+Author: UNKNOWN
+Author-email: skhan8@mail.einstein.yu.edu
+License: UNKNOWN
+Description: # caboodle
+        A python library for artifact management for data science applications in the cloud.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
