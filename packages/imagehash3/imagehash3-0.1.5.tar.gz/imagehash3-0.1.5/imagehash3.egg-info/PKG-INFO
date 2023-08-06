@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: imagehash3
+Version: 0.1.5
+Summary: Utility for images hashing
+Home-page: https://github.com/ThothMedia/image-utils
+Author: WISESIGHT DEV
+Author-email: dev@wisesight.com
+License: MIT
+Description: # image-utils
+        image utils
+        
+        python setup.py sdist
+Keywords: imagehash3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering

@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+./imagehash3/__init__.py
+imagehash3.egg-info/PKG-INFO
+imagehash3.egg-info/SOURCES.txt
+imagehash3.egg-info/dependency_links.txt
+imagehash3.egg-info/requires.txt
+imagehash3.egg-info/top_level.txt
