@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spmo-client
+Version: 1.0.0
+Summary: SPMO Service
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: Swagger,SPMO Service
+Platform: UNKNOWN
+Requires-Dist: certifi (>=2017.4.17)
+Requires-Dist: python-dateutil (>=2.1)
+Requires-Dist: six (>=1.10)
+Requires-Dist: urllib3 (>=1.23)
+
+The Software Project Management Ontology (SPMO) is defined as a layer over the Software Process Ontology, addressing aspects related to scope, time &amp; duration, and cost estimation of intended processes, as well as aspects related to tracking planned versus performed processes.  # noqa: E501
+
+
