@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: mongo-helper
+Version: 0.0.10
+Summary: Helper funcs and tools for working with MongoDB
+Home-page: https://github.com/kenjyco/mongo-helper
+Author: Ken
+Author-email: kenjyco@gmail.com
+License: MIT
+Download-URL: https://github.com/kenjyco/mongo-helper/tarball/v0.0.10
+Keywords: mongo,mongodb,helper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Developers
+Requires-Dist: pymongo (==3.7.2)
+Requires-Dist: settings-helper
+Requires-Dist: dt-helper
+
+Install
+-------
+
+::
+
+   $ pip3 install mongo-helper
+
+Usage
+-----
+
+::
+
+   TODO
+
+Resources
+---------
+
+-  https://docs.mongodb.com/manual/reference/connection-string/
+-  http://api.mongodb.com/python/current/tutorial.html
+-  https://api.mongodb.com/python/current/api/pymongo/collection.html
+-  https://docs.mongodb.com/manual/indexes/
+-  https://api.mongodb.com/python/current/api/index.html
+-  https://api.mongodb.com/python/current/examples/index.html
+-  https://api.mongodb.com/python/current/examples/bulk.html
+-  https://docs.mongodb.com/manual/tutorial/create-indexes-to-support-queries/
+-  https://docs.mongodb.com/manual/tutorial/sort-results-with-indexes/
+
+
