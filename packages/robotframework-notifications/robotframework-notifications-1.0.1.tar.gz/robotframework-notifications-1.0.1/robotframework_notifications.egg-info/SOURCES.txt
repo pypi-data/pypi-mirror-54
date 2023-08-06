@@ -1,0 +1,8 @@
+README.md
+setup.py
+RobotNotifications/__init__.py
+robotframework_notifications.egg-info/PKG-INFO
+robotframework_notifications.egg-info/SOURCES.txt
+robotframework_notifications.egg-info/dependency_links.txt
+robotframework_notifications.egg-info/requires.txt
+robotframework_notifications.egg-info/top_level.txt
