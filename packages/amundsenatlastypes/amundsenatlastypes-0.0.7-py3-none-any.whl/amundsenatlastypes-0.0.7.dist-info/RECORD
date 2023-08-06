@@ -1,0 +1,14 @@
+amundsenatlastypes/__init__.py,sha256=0Tq7PzbePpm3L4tYyOwTR2xsK13QRoBgoWRpSI_A1qE,4471
+amundsenatlastypes/types.py,sha256=6_RGDBPLH43IuZ2NW8rycUHoZ07XNUATgywX56E2H1o,613
+amundsenatlastypes/schema/01_1_column_schema.json,sha256=USMjRAHnmbIvb_aANQaX8gaP6UhGci1VgfU6UZUfnr4,109
+amundsenatlastypes/schema/01_table_schema.json,sha256=uYjazi6pdVlNVmCx9lNNfIkm9ndqO9xFsznFlOzmSEM,108
+amundsenatlastypes/schema/02_user.json,sha256=R1FVPuA-cjK6CiUJDtKiRCv_aJ_Q6fHccgNwOw6D1rk,237
+amundsenatlastypes/schema/03_reader.json,sha256=wT7iGKBS0ih58ldFHphJsl8HcwFfmW78jtOa2KMijcQ,727
+amundsenatlastypes/schema/04_user_reader_relation.json,sha256=WXeqRk6Ips_KZl3QG9941NTFTL07QXvdzV4OcOoyYp0,573
+amundsenatlastypes/schema/05_1_table_metadata.json,sha256=GkQ_O_GoQNz3z2FsPIZOZ74UujGFMK_INw6pYirmT3g,812
+amundsenatlastypes/schema/05_2_column_metadata.json,sha256=7ndImSvBaxsTTvZHCOdmCmmY3rxlbc8oAN9hyqVDsEI,821
+amundsenatlastypes/schema/05_metadata.json,sha256=MnJqQ1hLLmHlxGer-6gHBeGaZs9kZnxA9dIXpa1En1o,1658
+amundsenatlastypes-0.0.7.dist-info/METADATA,sha256=VMVQlzptwoZeUiIAwSO-tpx_wYOSVVdQAySHTwjsxyg,2746
+amundsenatlastypes-0.0.7.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+amundsenatlastypes-0.0.7.dist-info/top_level.txt,sha256=Xwn-aURWtbDhySc6N9YsoHewqXWcKv8x1dYmHgJP-Ns,19
+amundsenatlastypes-0.0.7.dist-info/RECORD,,
