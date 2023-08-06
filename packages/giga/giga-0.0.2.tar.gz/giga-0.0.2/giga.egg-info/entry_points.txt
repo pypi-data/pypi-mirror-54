@@ -1,0 +1,3 @@
+[console_scripts]
+giga = giga.cli:cli_giga
+

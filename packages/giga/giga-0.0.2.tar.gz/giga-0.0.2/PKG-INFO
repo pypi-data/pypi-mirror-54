@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: giga
+Version: 0.0.2
+Summary: deploy automation framework
+Home-page: https://github.com/ecks0/giga
+Author: Nick Zigarovich
+Author-email: eckso@eckso.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
