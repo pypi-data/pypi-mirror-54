@@ -1,0 +1,6 @@
+cloudpickle
+googleapis-common-protos>=1.5
+pathlib2>=2.2
+protobuf>=3.8
+requests<3.0,>=2.21
+six>=1.12
