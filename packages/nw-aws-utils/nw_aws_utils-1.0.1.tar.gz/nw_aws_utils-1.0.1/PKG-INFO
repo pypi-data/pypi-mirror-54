@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: nw_aws_utils
+Version: 1.0.1
+Summary: Reusable components for interacting with AWS services
+Home-page: http://github.com/marple-newsrobot/newsworthy-aws-utils
+Author: Journalism Robotics Stockholm
+Author-email: contact@newsworthy.se
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,14 @@
+CURRENT_VERSION.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+aws_utils/__init__.py
+aws_utils/exceptions.py
+aws_utils/ssm.py
+nw_aws_utils.egg-info/PKG-INFO
+nw_aws_utils.egg-info/SOURCES.txt
+nw_aws_utils.egg-info/dependency_links.txt
+nw_aws_utils.egg-info/not-zip-safe
+nw_aws_utils.egg-info/requires.txt
+nw_aws_utils.egg-info/top_level.txt
