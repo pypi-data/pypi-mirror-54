@@ -1,0 +1,10 @@
+README.md
+setup.py
+Arxivtrends.egg-info/PKG-INFO
+Arxivtrends.egg-info/SOURCES.txt
+Arxivtrends.egg-info/dependency_links.txt
+Arxivtrends.egg-info/top_level.txt
+arxivtrends/__init__.py
+arxivtrends/arxivtrends.py
+arxivtrends/graphics.py
+arxivtrends/methods.py
