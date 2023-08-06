@@ -1,0 +1,7 @@
+README.md
+setup.py
+meval/__init__.py
+meval.egg-info/PKG-INFO
+meval.egg-info/SOURCES.txt
+meval.egg-info/dependency_links.txt
+meval.egg-info/top_level.txt
