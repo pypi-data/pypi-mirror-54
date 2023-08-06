@@ -1,0 +1,4 @@
+pyOpenSSL>=16.2.0
+cryptography>=2.1.4
+msgpack-python>=0.4.8
+bson
