@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: geebam
+Version: 0.1.7
+Summary: Google Earth Engine Batch Assets Manager
+Home-page: https://github.com/tracek/gee_asset_manager
+Author: Lukasz Tracewski
+Author-email: lukasz.tracewski@outlook.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: GIS
+Description-Content-Type: text/markdown
+Requires-Dist: requests-toolbelt (>=0.9.0)
+Requires-Dist: pytest (>=5.0)
+Requires-Dist: setuptools (>=41.0.1)
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: chromedriver-binary (>=78.0.3904.70.0)
+Requires-Dist: earthengine-api (>=0.4)
+Requires-Dist: protobuf (>=3.10.0)
+Requires-Dist: retrying (>=1.3.3)
+Requires-Dist: selenium (>=3.141.0)
+
+# Google Earth Engine Batch Asset Manager
+Google Earth Engine Batch Asset Manager ambition is helping user with batch actions on assets. 
+
+To learn how to use the program, please check [our documentation](https://tracek.github.io/gee_asset_manager/).
+
+The program is open source and freely available, developed under Apache 2.0 licence. If you have any questions or feature requests, or perhaps would like to contribute, do visit [the GitHub page](https://github.com/tracek/gee_asset_manager).
+
+
