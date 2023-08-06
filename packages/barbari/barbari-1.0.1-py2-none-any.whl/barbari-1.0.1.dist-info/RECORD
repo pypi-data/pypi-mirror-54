@@ -1,0 +1,11 @@
+barbari/__init__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+barbari/config.py,sha256=lZDz1tmBshTC9Rz_sFaGOq_7X-Zv4xe0HqB0-VIoA1c,4661
+barbari/constants.py,sha256=jzdbAM0ZdB38boo62lsh7RMpZsHCE7aIL6KzpoFq-w8,562
+barbari/flatcam.py,sha256=m0WiSsiudBSh1Qi-B1BZQkY-XtkXJoaRxQ58Hl3omiw,11847
+barbari/gerbers.py,sha256=Llokh5deMGgxy8oBdJz02kAO5yc7LVWgD_R_GNSaReQ,1806
+barbari/main.py,sha256=HD-aD6DSlRLhXY77aXrOgf80IVBagQEOMjAq93gR8Fo,1721
+barbari-1.0.1.dist-info/METADATA,sha256=TKI5rH8aFolFA6XbusVDqpS26tnyEKab-Qhr6OV0ePI,523
+barbari-1.0.1.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+barbari-1.0.1.dist-info/entry_points.txt,sha256=Texejavko6TlO5AwUxSDWtBuKEnvu_3M2klkcMzEo_Q,47
+barbari-1.0.1.dist-info/top_level.txt,sha256=KDBEgZZVEjGr6_BVcUVpM8LEmrNrXoXwGUO8eBUpKg0,8
+barbari-1.0.1.dist-info/RECORD,,
