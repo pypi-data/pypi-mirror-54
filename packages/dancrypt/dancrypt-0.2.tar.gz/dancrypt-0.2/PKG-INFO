@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: dancrypt
+Version: 0.2
+Summary: A Simple Encryptor and Decryptor
+Home-page: https://github.com/DaniellSousa/dancrypt
+Author: Daniel Monteiro
+Author-email: daniell.monteirosousa@gmail.com
+License: DANIEL MONTEIRO
+Download-URL: http://github.com/DaniellSousa/dancrypt/raw/master/dist/dancrypt-0.2.tar.gz
+Description: UNKNOWN
+Keywords: key,password,security,encrypt,decrypt,text,message
+Platform: UNKNOWN
