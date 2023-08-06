@@ -1,0 +1,12 @@
+[dffml.model]
+scikitadaboost = dffml_model_scikit.scikit_models:AdaBoostClassifierModel
+scikitdtc = dffml_model_scikit.scikit_models:DecisionTreeClassifierModel
+scikitgnb = dffml_model_scikit.scikit_models:GaussianNBModel
+scikitgpc = dffml_model_scikit.scikit_models:GaussianProcessClassifierModel
+scikitknn = dffml_model_scikit.scikit_models:KNeighborsClassifierModel
+scikitlr = dffml_model_scikit.scikit_models:LinearRegressionModel
+scikitmlp = dffml_model_scikit.scikit_models:MLPClassifierModel
+scikitqda = dffml_model_scikit.scikit_models:QuadraticDiscriminantAnalysisModel
+scikitrfc = dffml_model_scikit.scikit_models:RandomForestClassifierModel
+scikitsvc = dffml_model_scikit.scikit_models:SVCModel
+
