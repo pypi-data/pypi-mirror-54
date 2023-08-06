@@ -1,0 +1,13 @@
+pydataapipostgres/__init__.py,sha256=Ko-WdKB8CjxdcrELInbOMtHQh5-mbPd92Su-cLO_BoA,358
+pydataapipostgres/dbapi.py,sha256=Lss1osuv2igDS0NxLOTwT4m8_3AlNYAgoa6hMGE5GOU,5281
+pydataapipostgres/dialect.py,sha256=rqFxMdS_UiSISoz60GKYGq2CIELcNpOgwVQKdqbW1YU,5209
+pydataapipostgres/exceptions.py,sha256=iBK-5oHXcXjPBMh-r_In6-Prn4h2j6MaL8tXn9GoB_c,371
+pydataapipostgres/pydataapi.py,sha256=v07wcfeI4R-BDGSai0HcOXzVCjC9dfqVwDvfbZj0g9k,13496
+pydataapipostgres/version.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydataapi_postgres-0.1.0.dist-info/LICENSE,sha256=K54Lwc6_jduycsy8oFFjQEeSSuEiqvVIjCGIXOMnuTQ,1068
+pydataapi_postgres-0.1.0.dist-info/METADATA,sha256=5s9Ix5_2t1LyJQ52aiiwHoC2zBpIitQJsDG2j17VAds,5985
+pydataapi_postgres-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pydataapi_postgres-0.1.0.dist-info/entry_points.txt,sha256=1UfVtPsXhJmuYbhNXnXTmBLJD6t4EQLNUoQNLmLXTvs,145
+pydataapi_postgres-0.1.0.dist-info/top_level.txt,sha256=K8bl0T3VlhKj-8bFywOOI6jmsEkEY3eAn9z2p3D0mTM,18
+pydataapi_postgres-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pydataapi_postgres-0.1.0.dist-info/RECORD,,
