@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: asset-inventory
+Version: 0.0.4
+Summary: An API wrapper over ansible package to fetch asst inventory
+Home-page: https://github.com/muhannadengineer/asset_inventory
+Author: Muhannad Alghamdi
+Author-email: muhannadengineer@gmail.com
+License: MIT
+Description: # Asset Inventory
+        
+        > Still under development
+        
+Keywords: ansible asset inventory
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

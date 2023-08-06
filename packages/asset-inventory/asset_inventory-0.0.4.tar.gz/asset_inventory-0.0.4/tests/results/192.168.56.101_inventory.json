@@ -1,0 +1,107 @@
+{
+  "distribution": "CentOS",
+  "distribution_version": "7",
+  "memory": null,
+  "hostname": "centos_1",
+  "vendor": "innotek GmbH",
+  "uptime": 9156,
+  "kernel": "3.10.0-1062.4.1.el7.x86_64",
+  "cpu": 1,
+  "space": 7704936448,
+  "system": null,
+  "devices": [
+    {
+      "name": "sr0",
+      "size": "1024.00 MB",
+      "label": [],
+      "uuid": [],
+      "vendor": "VBOX",
+      "ids": [
+        "ata-VBOX_CD-ROM_VB2-01700376"
+      ],
+      "model": "CD-ROM",
+      "host": "IDE interface: Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01)",
+      "partitions": []
+    },
+    {
+      "name": "sdb",
+      "size": "1.00 GB",
+      "label": [],
+      "uuid": [],
+      "vendor": "ATA",
+      "ids": [
+        "ata-VBOX_HARDDISK_VB00e26096-a151da8c"
+      ],
+      "model": "VBOX HARDDISK",
+      "host": "SATA controller: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] (rev 02)",
+      "partitions": []
+    },
+    {
+      "name": "sda",
+      "size": "8.00 GB",
+      "label": [],
+      "uuid": [],
+      "vendor": "ATA",
+      "ids": [
+        "ata-VBOX_HARDDISK_VBaf78eb81-d7e04659"
+      ],
+      "model": "VBOX HARDDISK",
+      "host": "SATA controller: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] (rev 02)",
+      "partitions": [
+        {
+          "name": "sda2",
+          "size": "7.00 GB",
+          "label": [],
+          "uuid": [],
+          "ids": [
+            "ata-VBOX_HARDDISK_VBaf78eb81-d7e04659-part2",
+            "lvm-pv-uuid-FIZEd2-JPbQ-dkbs-Qe0Q-yTzL-jpX4-gASC0y"
+          ]
+        },
+        {
+          "name": "sda1",
+          "size": "1.00 GB",
+          "label": [],
+          "uuid": [
+            "b1323667-10fa-492b-a35a-b4fc4142072c"
+          ],
+          "ids": [
+            "ata-VBOX_HARDDISK_VBaf78eb81-d7e04659-part1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dm-0",
+      "size": "6.20 GB",
+      "label": [],
+      "uuid": [
+        "dda7be34-e6f2-42af-908a-4e263448f6b9"
+      ],
+      "vendor": null,
+      "ids": [
+        "dm-name-centos-root",
+        "dm-uuid-LVM-ZqjjAGrJD8xFxP0UrY3I5fxlLRO34AoEj9wWlT1QxxNQmUW9pIo82ENINoozyCg2"
+      ],
+      "model": null,
+      "host": "",
+      "partitions": []
+    },
+    {
+      "name": "dm-1",
+      "size": "820.00 MB",
+      "label": [],
+      "uuid": [
+        "74dde8d9-4e7b-44d2-8f64-68c6c323a44c"
+      ],
+      "vendor": null,
+      "ids": [
+        "dm-name-centos-swap",
+        "dm-uuid-LVM-ZqjjAGrJD8xFxP0UrY3I5fxlLRO34AoEINfLBEmggzQ8lht2q2ZYlGZsiaA2pL77"
+      ],
+      "model": null,
+      "host": "",
+      "partitions": []
+    }
+  ]
+}
