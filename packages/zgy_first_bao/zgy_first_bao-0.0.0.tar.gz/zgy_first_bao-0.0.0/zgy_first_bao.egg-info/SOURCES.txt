@@ -1,0 +1,6 @@
+setup.py
+zgy_first_bao/__init__.py
+zgy_first_bao.egg-info/PKG-INFO
+zgy_first_bao.egg-info/SOURCES.txt
+zgy_first_bao.egg-info/dependency_links.txt
+zgy_first_bao.egg-info/top_level.txt
