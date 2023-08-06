@@ -1,0 +1,9 @@
+flask
+requests
+
+[dev]
+pytest==5.2.2
+pytest-cov==2.8.1
+pytest-mock==1.11.1
+codecov==2.0.15
+requests_mock==1.7.0

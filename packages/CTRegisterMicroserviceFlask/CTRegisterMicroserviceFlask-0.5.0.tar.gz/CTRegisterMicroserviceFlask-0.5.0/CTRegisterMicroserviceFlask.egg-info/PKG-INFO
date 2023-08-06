@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: CTRegisterMicroserviceFlask
+Version: 0.5.0
+Summary: Library to interact with the Control-Tower api-gateway (register, do requests to other microservices, etc)
+Home-page: UNKNOWN
+Author: Vizzuality
+Author-email: info@vizzuality.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
