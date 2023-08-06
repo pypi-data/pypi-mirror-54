@@ -1,0 +1,319 @@
+topic,name,wikidata,slug,parent_topic,country
+education,Education,Q8434,education,,
+politics,Politics,Q7163,politics,,
+democracy,Democracy,Q7174,democracy,Q7163,
+corruption,Corruption,Q366,corruption,Q7163,
+elections,Elections,Q40231,elections,Q7163,
+ideologies,Ideologies,Q7257,ideologies,Q7163,
+population,Population,Q2625603,population,,
+population-growth,Population growth,Q386191,population-growth,Q2625603,
+health,Health,Q12147,health,,
+global-health,Global health,Q2725393,global-health,Q12147,
+life-expectancy,Life expectancy,Q188419,life-expectancy,Q12147,
+burden-of-disease,Burden of disease,Q5282120,burden-of-disease,Q12147,
+causes-of-death,Causes of death,Q59029818,causes-of-death,Q12147,
+malaria,Malaria,Q12156,malaria,Q12147,
+hiv,HIV,Q15787,hiv,Q12147,
+vaccination,Vaccination,Q192995,vaccination,Q12147,
+cancer,Cancer,Q12078,cancer,Q12147,
+smoking,Smoking,Q662860,smoking,Q12147,
+alcohol-consumption,Alcohol consumption,Q2647488,alcohol-consumption,Q12147,
+substance-abuse,Substance abuse,Q3184856,substance-abuse,Q12147,
+mental-health,Mental health,Q317309,mental-health,Q12147,
+suicide,Suicide,Q10737,suicide,Q12147,
+accidents,Accidents,Q11190,accidents,Q12147,
+medicine,Medicine,Q11190,medicine,Q12147,
+psychology,Psychology,Q9418,psychology,,
+global-development,Global development,Q2477868,global-development,,
+global-goals,Global goals,Q7649586,global-goals,,
+food,Food,Q2095,food,,
+hunger,Hunger,Q165947,hunger,Q2095,
+obesity,Obesity,Q12174,obesity,Q2095,
+famine,Famine,Q168247,famine,Q2095,
+food-prices,Food prices,Q24886253,food-prices,Q2095,
+energy,Energy,Q11379,energy,,
+energy-production,Energy production,Q3406659,energy-production,Q11379,
+renewable-energy,Renewable energy,Q12705,renewable-energy,Q11379,
+fossil-fuels,Fossil fuels,Q12748,fossil-fuels,Q11379,
+electricity,Electricity,Q12725,electricity,Q11379,
+metals-and-minerals,Metals and Minerals,Q7946,metals-and-minerals,Q11379,
+environment,Environment,Q2249676,environment,,
+climate-change,Climate change,Q125928,climate-change,Q2249676,
+pollution,Pollution,Q58734,pollution,Q2249676,
+natural-disasters,Natural disasters,Q8065,natural-disasters,Q2249676,
+plastic-pollutiom,Plastic pollutiom,Q7202090,plastic-pollutiom,Q2249676,
+animals,Animals,Q729,animals,Q2249676,
+water,Water,Q283,water,,
+water-use,Water use,Q26534,water-use,Q283,
+science-and-technology,Science and technology,Q34104,science-and-technology,,
+emerging-technologies,Emerging technologies,Q120208,emerging-technologies,Q34104,
+synthetic-genomics,Synthetic genomics,Q1405450,synthetic-genomics,Q34104,
+quantum-computing,Quantum computing,Q176555,quantum-computing,Q34104,
+scientific-research,Scientific research,Q42240,scientific-research,Q34104,
+patents,Patents,Q253623,patents,Q34104,
+artificial-intelligence,Artificial intelligence,Q11660,artificial-intelligence,,
+economy,Economy,Q159810,economy,,
+economic-growth,Economic growth,Q189833,economic-growth,Q159810,
+income-inequality,Income inequality,Q5055020,income-inequality,Q159810,
+poverty,Poverty,Q10294,poverty,,
+architecture,Architecture,Q12271,architecture,,
+job-market,Job market,Q305186,job-market,,
+media,Media,Q1727518,media,,
+media-representation,Media representation,Q29585906,media-representation,Q1727518,
+books,Books,Q571,books,Q1727518,
+social-media,Social Media,Q202833,social-media,Q1727518,
+internet,Internet,Q75,internet,,
+eu,EU,Q458,eu,,
+global-trade,Global trade,Q601401,global-trade,,
+open-data,Open data,Q309901,open-data,,
+cities,Cities,Q515,cities,,
+urbanization,Urbanization,Q161078,urbanization,Q515,
+homelessness,Homelessness,Q131327,homelessness,Q515,
+public-sector,Public sector,Q294217,public-sector,,
+taxation,Taxation,Q1964442,taxation,Q294217,
+war-and-peace,War and peace,Q2051567,war-and-peace,,
+war,War,Q198,war,Q2051567,
+peacekeeping,Peacekeeping,Q10954043,peacekeeping,Q2051567,
+terrorism,Terrorism,Q7283,terrorism,Q2051567,
+military,Military,Q8473,military,Q2051567,
+nuclear-weapons,Nuclear weapons,Q12802,nuclear-weapons,Q2051567,
+geopolitics,Geopolitics,Q159385,geopolitics,Q2051567,
+genocide,Genocide,Q41397,genocide,Q2051567,
+civil-war,Civil war,Q8465,civil-war,Q2051567,
+human-rights,Human rights,Q8458,human-rights,,
+migration,Migration,Q177626,migration,,
+space,Space,Q4169,space,,
+satellites,Satellites,Q26540,satellites,Q4169,
+culture,Culture,Q11042,culture,,
+languages,Languages,Q29062707,languages,Q11042,
+trust,Trust,Q659974,trust,Q11042,
+values,Values,Q7912786,values,Q11042,
+cultural-institutions,Cultural Institutions,Q5193377,cultural-institutions,Q11042,
+future,Future,Q344,future,,
+future-forecasts,Future forecasts,Q748250,future-forecasts,Q344,
+history,History,Q309,history,,
+biology,Biology,Q420,biology,,
+the-human-body,The human body,Q23852,the-human-body,Q420,
+dna,DNA,,dna,Q420,
+planetary-boundaries,Planetary boundaries,Q961310,planetary-boundaries,,
+aid-and-philantropy,Aid and philantropy,Q2827815,aid-and-philantropy,,
+philantropy,Philantropy,Q185733,philantropy,Q2827815,
+philosophy,Philosophy,Q5891,philosophy,,
+business,Business,Q4830453,business,,
+crime,Crime,Q83267,crime,,
+cybercrime,Cybercrime,Q29137,cybercrime,Q83267,
+financial-crime,Financial crime,Q5449702,financial-crime,Q83267,
+new-solutions,New solutions,,new-solutions,,
+solutions-journalism,Solutions journalism,Q25339351,solutions-journalism,D2,
+religion,Religion,Q9174,religion,,
+transport,Transport,Q7590,transport,,
+air-travel,Air travel,Q376880,air-travel,Q7590,
+train,Train,Q870,train,Q7590,
+cars,Cars,Q1420,cars,Q7590,
+datastory-meta,Datastory meta,,datastory-meta,,
+easter-egg,Easter egg,Q330574,easter-egg,D1,
+review,Review,Q265158,review,D1,
+opinion,Opinion,Q3962655,opinion,D1,
+countries,Countries,Q6256,countries,,
+afghanistan,Afghanistan,Q889,afghanistan,Q6256,afg
+albania,Albania,Q222,albania,Q6256,alb
+algeria,Algeria,Q262,algeria,Q6256,dza
+andorra,Andorra,Q228,andorra,Q6256,and
+angola,Angola,Q916,angola,Q6256,ago
+antigua-and-barbuda,Antigua and Barbuda,Q781,antigua-and-barbuda,Q6256,atg
+argentina,Argentina,Q414,argentina,Q6256,arg
+armenia,Armenia,Q399,armenia,Q6256,arm
+australia,Australia,Q408,australia,Q6256,aus
+austria,Austria,Q40,austria,Q6256,aut
+azerbaijan,Azerbaijan,Q227,azerbaijan,Q6256,aze
+bahrain,Bahrain,Q398,bahrain,Q6256,bhr
+bangladesh,Bangladesh,Q902,bangladesh,Q6256,bgd
+barbados,Barbados,Q244,barbados,Q6256,brb
+belarus,Belarus,Q184,belarus,Q6256,blr
+belgium,Belgium,Q31,belgium,Q6256,bel
+belize,Belize,Q242,belize,Q6256,blz
+benin,Benin,Q962,benin,Q6256,ben
+bhutan,Bhutan,Q917,bhutan,Q6256,btn
+bolivia,Bolivia,Q750,bolivia,Q6256,bol
+bosnia-and-herzegovina,Bosnia and Herzegovina,Q225,bosnia-and-herzegovina,Q6256,bih
+botswana,Botswana,Q963,botswana,Q6256,bwa
+brazil,Brazil,Q155,brazil,Q6256,bra
+brunei,Brunei,Q921,brunei,Q6256,brn
+bulgaria,Bulgaria,Q219,bulgaria,Q6256,bgr
+burkina-faso,Burkina Faso,Q965,burkina-faso,Q6256,bfa
+burundi,Burundi,Q967,burundi,Q6256,bdi
+cambodia,Cambodia,Q424,cambodia,Q6256,khm
+cameroon,Cameroon,Q1009,cameroon,Q6256,cmr
+canada,Canada,Q16,canada,Q6256,can
+cape-verde,Cape Verde,Q1011,cape-verde,Q6256,cpv
+central-african-republic,Central African Republic,Q929,central-african-republic,Q6256,caf
+chad,Chad,Q657,chad,Q6256,tcd
+chile,Chile,Q298,chile,Q6256,chl
+colombia,Colombia,Q739,colombia,Q6256,col
+comoros,Comoros,Q970,comoros,Q6256,com
+costa-rica,Costa Rica,Q800,costa-rica,Q6256,cri
+croatia,Croatia,Q224,croatia,Q6256,hrv
+cuba,Cuba,Q241,cuba,Q6256,cub
+cyprus,Cyprus,Q229,cyprus,Q6256,cyp
+czech-republic,Czech Republic,Q213,czech-republic,Q6256,cze
+cote-d-ivoire,Côte d'Ivoire,Q1008,cote-d-ivoire,Q6256,civ
+democratic-republic-of-the-congo,Democratic Republic of the Congo,Q974,democratic-republic-of-the-congo,Q6256,cod
+denmark,Denmark,Q35,denmark,Q6256,dnk
+djibouti,Djibouti,Q977,djibouti,Q6256,dji
+dominica,Dominica,Q784,dominica,Q6256,dma
+dominican-republic,Dominican Republic,Q786,dominican-republic,Q6256,dom
+east-timor,East Timor,Q574,east-timor,Q6256,tls
+ecuador,Ecuador,Q736,ecuador,Q6256,ecu
+egypt,Egypt,Q79,egypt,Q6256,egy
+el-salvador,El Salvador,Q792,el-salvador,Q6256,slv
+equatorial-guinea,Equatorial Guinea,Q983,equatorial-guinea,Q6256,gnq
+eritrea,Eritrea,Q986,eritrea,Q6256,eri
+estonia,Estonia,Q191,estonia,Q6256,est
+ethiopia,Ethiopia,Q115,ethiopia,Q6256,eth
+federated-states-of-micronesia,Federated States of Micronesia,Q702,federated-states-of-micronesia,Q6256,fsm
+fiji,Fiji,Q712,fiji,Q6256,fji
+finland,Finland,Q33,finland,Q6256,fin
+france,France,Q142,france,Q6256,fra
+gabon,Gabon,Q1000,gabon,Q6256,gab
+gambia,Gambia,Q1005,gambia,Q6256,gmb
+georgia,Georgia,Q230,georgia,Q6256,geo
+germany,Germany,Q183,germany,Q6256,deu
+ghana,Ghana,Q117,ghana,Q6256,gha
+greece,Greece,Q41,greece,Q6256,grc
+grenada,Grenada,Q769,grenada,Q6256,grd
+guatemala,Guatemala,Q774,guatemala,Q6256,gtm
+guinea,Guinea,Q1006,guinea,Q6256,gin
+guinea-bissau,Guinea-Bissau,Q1007,guinea-bissau,Q6256,gnb
+guyana,Guyana,Q734,guyana,Q6256,guy
+haiti,Haiti,Q790,haiti,Q6256,hti
+honduras,Honduras,Q783,honduras,Q6256,hnd
+hungary,Hungary,Q28,hungary,Q6256,hun
+iceland,Iceland,Q189,iceland,Q6256,isl
+india,India,Q668,india,Q6256,ind
+indonesia,Indonesia,Q252,indonesia,Q6256,idn
+iran,Iran,Q794,iran,Q6256,irn
+iraq,Iraq,Q796,iraq,Q6256,irq
+ireland,Ireland,Q27,ireland,Q6256,irl
+israel,Israel,Q801,israel,Q6256,isr
+italy,Italy,Q38,italy,Q6256,ita
+jamaica,Jamaica,Q766,jamaica,Q6256,jam
+japan,Japan,Q17,japan,Q6256,jpn
+jordan,Jordan,Q810,jordan,Q6256,jor
+kazakhstan,Kazakhstan,Q232,kazakhstan,Q6256,kaz
+kenya,Kenya,Q114,kenya,Q6256,ken
+kiribati,Kiribati,Q710,kiribati,Q6256,kir
+kuwait,Kuwait,Q817,kuwait,Q6256,kwt
+kyrgyzstan,Kyrgyzstan,Q813,kyrgyzstan,Q6256,kgz
+laos,Laos,Q819,laos,Q6256,lao
+latvia,Latvia,Q211,latvia,Q6256,lva
+lebanon,Lebanon,Q822,lebanon,Q6256,lbn
+lesotho,Lesotho,Q1013,lesotho,Q6256,lso
+liberia,Liberia,Q1014,liberia,Q6256,lbr
+libya,Libya,Q1016,libya,Q6256,lby
+liechtenstein,Liechtenstein,Q347,liechtenstein,Q6256,lie
+lithuania,Lithuania,Q37,lithuania,Q6256,ltu
+luxembourg,Luxembourg,Q32,luxembourg,Q6256,lux
+madagascar,Madagascar,Q1019,madagascar,Q6256,mdg
+malawi,Malawi,Q1020,malawi,Q6256,mwi
+malaysia,Malaysia,Q833,malaysia,Q6256,mys
+maldives,Maldives,Q826,maldives,Q6256,mdv
+mali,Mali,Q912,mali,Q6256,mli
+malta,Malta,Q233,malta,Q6256,mlt
+marshall-islands,Marshall Islands,Q709,marshall-islands,Q6256,mhl
+mauritania,Mauritania,Q1025,mauritania,Q6256,mrt
+mauritius,Mauritius,Q1027,mauritius,Q6256,mus
+mexico,Mexico,Q96,mexico,Q6256,mex
+moldova,Moldova,Q217,moldova,Q6256,mda
+monaco,Monaco,Q235,monaco,Q6256,mco
+mongolia,Mongolia,Q711,mongolia,Q6256,mng
+montenegro,Montenegro,Q236,montenegro,Q6256,mne
+morocco,Morocco,Q1028,morocco,Q6256,mar
+mozambique,Mozambique,Q1029,mozambique,Q6256,moz
+myanmar,Myanmar,Q836,myanmar,Q6256,mmr
+namibia,Namibia,Q1030,namibia,Q6256,nam
+nauru,Nauru,Q697,nauru,Q6256,nru
+nepal,Nepal,Q837,nepal,Q6256,npl
+new-zealand,New Zealand,Q664,new-zealand,Q6256,nzl
+nicaragua,Nicaragua,Q811,nicaragua,Q6256,nic
+niger,Niger,Q1032,niger,Q6256,ner
+nigeria,Nigeria,Q1033,nigeria,Q6256,nga
+north-korea,North Korea,Q423,north-korea,Q6256,prk
+norway,Norway,Q20,norway,Q6256,nor
+oman,Oman,Q842,oman,Q6256,omn
+pakistan,Pakistan,Q843,pakistan,Q6256,pak
+palau,Palau,Q695,palau,Q6256,plw
+panama,Panama,Q804,panama,Q6256,pan
+papua-new-guinea,Papua New Guinea,Q691,papua-new-guinea,Q6256,png
+paraguay,Paraguay,Q733,paraguay,Q6256,pry
+people-s-republic-of-china,People's Republic of China,Q148,people-s-republic-of-china,Q6256,chn
+peru,Peru,Q419,peru,Q6256,per
+philippines,Philippines,Q928,philippines,Q6256,phl
+poland,Poland,Q36,poland,Q6256,pol
+portugal,Portugal,Q45,portugal,Q6256,prt
+qatar,Qatar,Q846,qatar,Q6256,qat
+republic-of-macedonia,Republic of Macedonia,Q221,republic-of-macedonia,Q6256,mkd
+republic-of-the-congo,Republic of the Congo,Q971,republic-of-the-congo,Q6256,cog
+romania,Romania,Q218,romania,Q6256,rou
+russia,Russia,Q159,russia,Q6256,rus
+rwanda,Rwanda,Q1037,rwanda,Q6256,rwa
+saint-kitts-and-nevis,Saint Kitts and Nevis,Q763,saint-kitts-and-nevis,Q6256,kna
+saint-lucia,Saint Lucia,Q760,saint-lucia,Q6256,lca
+saint-vincent-and-the-grenadines,Saint Vincent and the Grenadines,Q757,saint-vincent-and-the-grenadines,Q6256,vct
+samoa,Samoa,Q683,samoa,Q6256,wsm
+san-marino,San Marino,Q238,san-marino,Q6256,smr
+sao-tome-and-principe,Sao Tomé and Príncipe,Q1039,sao-tome-and-principe,Q6256,stp
+saudi-arabia,Saudi Arabia,Q851,saudi-arabia,Q6256,sau
+senegal,Senegal,Q1041,senegal,Q6256,sen
+serbia,Serbia,Q403,serbia,Q6256,srb
+seychelles,Seychelles,Q1042,seychelles,Q6256,syc
+sierra-leone,Sierra Leone,Q1044,sierra-leone,Q6256,sle
+singapore,Singapore,Q334,singapore,Q6256,sgp
+slovakia,Slovakia,Q214,slovakia,Q6256,svk
+slovenia,Slovenia,Q215,slovenia,Q6256,svn
+solomon-islands,Solomon Islands,Q685,solomon-islands,Q6256,slb
+somalia,Somalia,Q1045,somalia,Q6256,som
+south-africa,South Africa,Q258,south-africa,Q6256,zaf
+south-korea,South Korea,Q884,south-korea,Q6256,kor
+south-sudan,South Sudan,Q958,south-sudan,Q6256,ssd
+spain,Spain,Q29,spain,Q6256,esp
+sri-lanka,Sri Lanka,Q854,sri-lanka,Q6256,lka
+sudan,Sudan,Q1049,sudan,Q6256,sdn
+suriname,Suriname,Q730,suriname,Q6256,sur
+swaziland,Swaziland,Q1050,swaziland,Q6256,swz
+sweden,Sweden,Q34,sweden,Q6256,swe
+switzerland,Switzerland,Q39,switzerland,Q6256,che
+syria,Syria,Q858,syria,Q6256,syr
+taiwan,Taiwan,Q865,taiwan,Q6256,twn
+tajikistan,Tajikistan,Q863,tajikistan,Q6256,tjk
+tanzania,Tanzania,Q924,tanzania,Q6256,tza
+thailand,Thailand,Q869,thailand,Q6256,tha
+the-bahamas,The Bahamas,Q778,the-bahamas,Q6256,bhs
+togo,Togo,Q945,togo,Q6256,tgo
+tonga,Tonga,Q678,tonga,Q6256,ton
+trinidad-and-tobago,Trinidad and Tobago,Q754,trinidad-and-tobago,Q6256,tto
+tunisia,Tunisia,Q948,tunisia,Q6256,tun
+turkey,Turkey,Q43,turkey,Q6256,tur
+turkmenistan,Turkmenistan,Q874,turkmenistan,Q6256,tkm
+tuvalu,Tuvalu,Q672,tuvalu,Q6256,tuv
+uganda,Uganda,Q1036,uganda,Q6256,uga
+ukraine,Ukraine,Q212,ukraine,Q6256,ukr
+united-arab-emirates,United Arab Emirates,Q878,united-arab-emirates,Q6256,are
+united-kingdom,United Kingdom,Q145,united-kingdom,Q6256,gbr
+united-states-of-america,United States of America,Q30,united-states-of-america,Q6256,usa
+uruguay,Uruguay,Q77,uruguay,Q6256,ury
+uzbekistan,Uzbekistan,Q265,uzbekistan,Q6256,uzb
+vanuatu,Vanuatu,Q686,vanuatu,Q6256,vut
+vatican-city,Vatican City,Q237,vatican-city,Q6256,vat
+venezuela,Venezuela,Q717,venezuela,Q6256,ven
+vietnam,Vietnam,Q881,vietnam,Q6256,vnm
+yemen,Yemen,Q805,yemen,Q6256,yem
+zambia,Zambia,Q953,zambia,Q6256,zmb
+zimbabwe,Zimbabwe,Q954,zimbabwe,Q6256,zwe
+regions,Regions,Q82794,regions,,
+asia,Asia,Q48,asia,Q82794,
+europe,Europe,Q46,europe,Q82794,
+north-america,North america,Q49,north-america,Q82794,
+south-america,South america,Q18,south-america,Q82794,
+africa,Africa,Q15,africa,Q82794,
+sub-saharan-africa,Sub-saharan africa,Q132959,sub-saharan-africa,Q82794,
+oceania,Oceania,Q538,oceania,Q82794,
