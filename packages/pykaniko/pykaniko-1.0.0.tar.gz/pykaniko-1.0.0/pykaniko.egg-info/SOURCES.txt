@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+kaniko/__init__.py
+kaniko/kaniko.py
+pykaniko.egg-info/PKG-INFO
+pykaniko.egg-info/SOURCES.txt
+pykaniko.egg-info/dependency_links.txt
+pykaniko.egg-info/top_level.txt
+pykaniko.egg-info/zip-safe
