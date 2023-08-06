@@ -1,0 +1,61 @@
+CHANGES
+=======
+
+* Docs: Deleted development-only information
+* Docker: Fixed containers - added missing gcc after adding dependency that requires compilation
+* Added correct requirements.txt
+* Tests: Corrected paths in tests
+* Checks: Add swap-usage-max-percent
+* Checks: Added load-average and load-average-auto
+* CI: Increased timeout for SSH container
+* CI: Added missing make task
+* CI: debug
+* CI: Fix build by allowing running in venv
+* CI: Fix build by allowing running in venv
+* Docs: Added all new checks to docs
+* Docs: Fixed errors in the docs
+* Added new check - \`ssh-files-checksum\`: \`Calls remote process using SSH and expects: the listed files and checksums will be matching\`
+* SSH-based checks are now sharing the same code by using a library, simplified imports and made them more safe
+* Runner: Added support for lists and dicts in parameters
+* Add \`ssh-fingerprint\` check: \`Verifies if remote host fingerprint matches. Helps detecting man-in-the-middle and server takeover attacks.\`
+* Tests: Close the docker socket to avoid warnings in tests
+* Tests: Separate unit tests from functional tests, improve pipeline - correct mistake
+* Tests: Separate unit tests from functional tests, improve pipeline
+* Tests: Improved tests that uses SSH container - the container is setup one for a class
+* Tests: Collecting output from SSH container
+* Refactored "replication-running" check syntax and added additional status information
+* CI: Attempt to run unit tests on travis
+* CI: Trying to bring up the unit tests
+* Covered "reminder" check with tests
+* CI: Fixing Python 3.7 build
+* CI: Add missing pipenv
+* Add compatibility with Python 3.7 stage
+* Downgrade packages for Python 3.6 compatibility
+* No longer require strict Python version, correct Docker builds
+* Corrected mistake in travis configuration
+* Changing the way the application is deployed. Introducing pipenv
+* Enabled docker in travis builds as it is required for testing
+* Covered "ssh-command" with tests and fixed all spotted bugs
+* Preparation for the Pipenv support
+* Updated documentation for requirements
+* Added documentation for "reminder" check
+* Added ssh-command
+* Added "reminder" check that should remind about upcoming dates
+* Docker: Fixed typo in entrypoint
+
+v1.6.1
+------
+
+* Cleared username from cron entry
+* Restored /etc/crontabs/root as it was previously working
+* Unified docker images to base on same OS - Alpine 3.9: Do not have to support two cron types
+* Unified docker images to base on same OS - Alpine 3.9
+* Correct crontab support to be compatible with multiple cron systems
+* Corrected ARM dockerfile by adding supervisord config file
+
+v1.6
+----
+
+* Makefile: Switched shell to bash
+* CI: Fixed typo
+* Moving to Travis
