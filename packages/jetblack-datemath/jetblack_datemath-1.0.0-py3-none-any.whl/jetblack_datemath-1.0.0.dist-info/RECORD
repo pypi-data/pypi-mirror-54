@@ -1,0 +1,10 @@
+jetblack_datemath/__init__.py,sha256=G3Co3S5qTlkruIXwU2VNXUQhN4LGOonUL60Y51u6ZjU,1141
+jetblack_datemath/arithmetic.py,sha256=qUfhD1xmlaS1HPoK1-yiHu95SlAN9BCYhH3Gw3ibK_w,10617
+jetblack_datemath/calendars.py,sha256=xpGod4Q2qpgeCKdTdaUSW-trsbVlMxjJ_Rg5FBbsBiY,2948
+jetblack_datemath/daterules.py,sha256=3W358YzMysjb3t9GdA08qdPOdQUKr_Va4t-TDK6_bQo,238
+jetblack_datemath/months.py,sha256=tTyDghSzFNHqcJtwo-v9epCtv3ZAsXH88pz1tg8roYw,289
+jetblack_datemath/weekdays.py,sha256=OeEv3xu60kOS9gENQIznxedAuCTece22GGJKd2qqmWY,215
+jetblack_datemath-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jetblack_datemath-1.0.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+jetblack_datemath-1.0.0.dist-info/METADATA,sha256=qHuN0hMv8DNeUl_3dyNUbGK-7F3eRcAS4KmF5YMY0jE,665
+jetblack_datemath-1.0.0.dist-info/RECORD,,
