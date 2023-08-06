@@ -1,0 +1,9 @@
+discriminator/critic.py,sha256=uXHTaFyo-O2JvCjwsyLvPTKiV-wjFWqgZZJYFojVIZU,1325
+discriminator/discriminator.py,sha256=O_bruj0bQ4S0-4PVM_OMipseq7MrvV1Txms2WZsPgj0,1373
+generator/generator.py,sha256=4mQ1xmtpw4VwfRJcHhPziGv-QenNkF7nHEBIlqMsNn4,1126
+model/model.py,sha256=_MnIzSKtZxn9zAh24urz1zzKGLG2cdg2vGI5Dft1peg,7247
+utilities/utils.py,sha256=eXV9f-SvTHJR6VqBJYaf2CTy6E5awoEvXtTtq229ZTo,1258
+ganify-1.0.1.dist-info/METADATA,sha256=sb8kMqlCswDwXZi6Sh4jjNEGAISNKBr91D4G16g_S78,565
+ganify-1.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+ganify-1.0.1.dist-info/top_level.txt,sha256=9LmbLc3-W-qGbrA1jBMlSr8sQpviEBFOy6U4VzQPjyc,40
+ganify-1.0.1.dist-info/RECORD,,
