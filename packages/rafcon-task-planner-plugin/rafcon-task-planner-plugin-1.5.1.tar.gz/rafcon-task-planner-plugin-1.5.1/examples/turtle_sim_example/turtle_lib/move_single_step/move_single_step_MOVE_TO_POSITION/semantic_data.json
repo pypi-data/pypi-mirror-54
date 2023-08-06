@@ -1,0 +1,11 @@
+{
+    "RAFCONTPP": {
+        "PDDL_ACTION": {
+            "description": {}, 
+            "pddl_action": {}, 
+            "pddl_predicates": {}, 
+            "pddl_types": {}, 
+            "requirements": {}
+        }
+    }
+}
