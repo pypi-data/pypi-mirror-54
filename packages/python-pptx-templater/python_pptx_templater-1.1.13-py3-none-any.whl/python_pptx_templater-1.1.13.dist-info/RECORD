@@ -1,0 +1,10 @@
+pptx_templater/__init__.py,sha256=vPp84geNshXCpwiHQwu9Y8MZAySmXN9a_cxf8xn8Cxw,73
+pptx_templater/core.py,sha256=z4WIwB345Al2kouSn239-_vhIEU3RQMeueJ8q8sKv9o,478
+pptx_templater/file_handler.py,sha256=QL6Ways3raW-xENqCR_JFMzMTtjXliJLHk4i94SE7FU,285
+pptx_templater/slides.py,sha256=I7u7V8gCA2KE3lF44kXJowTC5Z7m6A9pbyUBmuzSsQE,2412
+pptx_templater/text_parser.py,sha256=Oc50YA2pf8C6ll7BhAQKFbCM_DAB4i39fa8853BmWE0,125
+python_pptx_templater-1.1.13.dist-info/LICENSE,sha256=NWSejtf_l2vBInIQd6u47BSDCXqoXeGZ712b0q9UgtU,1061
+python_pptx_templater-1.1.13.dist-info/METADATA,sha256=-s3JLYDD1jJLJyG8SW4KNAigg9PqNU82zqWVEQeOKqc,3651
+python_pptx_templater-1.1.13.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+python_pptx_templater-1.1.13.dist-info/top_level.txt,sha256=980Ky_7UwDlFMchS7og9bPVCl4yjndyd_UAzo7ZU-MY,15
+python_pptx_templater-1.1.13.dist-info/RECORD,,
