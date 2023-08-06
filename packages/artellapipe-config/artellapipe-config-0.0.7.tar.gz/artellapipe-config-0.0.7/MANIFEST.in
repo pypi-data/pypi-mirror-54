@@ -1,0 +1,2 @@
+include artellapipe/config/*.json
+include artellapipe/config/*.yml
