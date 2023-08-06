@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: toy-orm
+Version: 0.1.0
+Summary: A small ORM
+Home-page: https://github.com/julianossilva/toy-orm
+Author: Juliano Silva
+Author-email: julianosoaresdasilva@outlook.com
+License: UNKNOWN
+Description: # toy-orm
+        Toy Orm
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
