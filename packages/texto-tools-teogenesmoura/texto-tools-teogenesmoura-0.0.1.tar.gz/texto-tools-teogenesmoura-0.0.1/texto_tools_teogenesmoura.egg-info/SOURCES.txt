@@ -1,0 +1,7 @@
+README.md
+setup.py
+texto_tools/__init__.py
+texto_tools_teogenesmoura.egg-info/PKG-INFO
+texto_tools_teogenesmoura.egg-info/SOURCES.txt
+texto_tools_teogenesmoura.egg-info/dependency_links.txt
+texto_tools_teogenesmoura.egg-info/top_level.txt
