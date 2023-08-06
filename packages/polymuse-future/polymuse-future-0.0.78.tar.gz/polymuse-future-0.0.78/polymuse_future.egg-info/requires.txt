@@ -1,0 +1,7 @@
+numpy
+magenta
+magenta-gpu
+keras
+pyfiglet
+midi2audio
+googledrivedownloader
