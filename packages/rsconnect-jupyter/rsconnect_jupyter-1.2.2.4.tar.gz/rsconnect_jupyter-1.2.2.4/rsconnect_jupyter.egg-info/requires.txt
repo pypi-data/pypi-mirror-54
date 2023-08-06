@@ -1,0 +1,5 @@
+notebook
+nbformat
+nbconvert>=5.0
+six
+ipython
