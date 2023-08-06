@@ -1,0 +1,7 @@
+appdirs
+ipdb
+jsonpickle
+lepl
+netaddr
+pythondialog
+tabulate
