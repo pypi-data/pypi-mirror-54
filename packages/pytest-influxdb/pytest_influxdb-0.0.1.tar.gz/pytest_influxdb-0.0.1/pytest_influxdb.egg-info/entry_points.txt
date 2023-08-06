@@ -1,0 +1,3 @@
+[pytest11]
+pytest-influxdb-plugin = influxdb_plugin.influxdb_plugin
+
