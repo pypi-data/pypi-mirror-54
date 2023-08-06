@@ -1,0 +1,10 @@
+README.md
+setup.py
+hangar_matplotlib/__init__.py
+hangar_matplotlib/plugin.py
+hangar_matplotlib.egg-info/PKG-INFO
+hangar_matplotlib.egg-info/SOURCES.txt
+hangar_matplotlib.egg-info/dependency_links.txt
+hangar_matplotlib.egg-info/entry_points.txt
+hangar_matplotlib.egg-info/requires.txt
+hangar_matplotlib.egg-info/top_level.txt
