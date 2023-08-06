@@ -1,0 +1,11 @@
+uproot
+awkward
+numba
+
+[cuda]
+cupy
+cudatoolkit
+
+[dask]
+dask
+distributed
