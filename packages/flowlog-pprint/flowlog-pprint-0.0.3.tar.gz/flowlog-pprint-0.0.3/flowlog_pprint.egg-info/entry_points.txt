@@ -1,0 +1,3 @@
+[console_scripts]
+flowlog-pprint = flowlog_pprint.__main__:main
+
