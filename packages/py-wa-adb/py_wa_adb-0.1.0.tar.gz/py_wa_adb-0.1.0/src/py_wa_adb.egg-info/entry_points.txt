@@ -1,0 +1,3 @@
+[console_scripts]
+py_wa_adb = py_wa_adb.cli:main
+

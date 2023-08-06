@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: py-wa-adb
+Version: 0.1.0
+Summary: Utility functions for whatsapp through android's ADB.
+Home-page: https://github.com/me/myproject
+Author: Ernesto Solis
+Author-email: esolis@yalochat.com
+License: MIT
+Description: 
+        # Python Whatsapp ADB
+        
+        ## Python utility methods for Whatsapp through ADB commands.
+        
+        Initial commit
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
