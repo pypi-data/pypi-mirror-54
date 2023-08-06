@@ -1,0 +1,14 @@
+diacamma/__init__.py,sha256=QFK_Ko3j4WuNt53V4_Uyv7pFYGxkXaa8UVv6-cAK4cY,876
+diacamma/microbusiness/__init__.py,sha256=XAxjncJTcZzr0AB3UvSurfYAnzwf4E1nXq6zmh9bimw,1335
+diacamma/microbusiness/models.py,sha256=HAwzM8C1eqYwKGl8ihr0lQUt7Ht3zsdMpgFBifVoUwI,5703
+diacamma/microbusiness/tests.py,sha256=HgkSYjtr75_e39mBlIR5jo-dFyXfEGIG9N1xKzD4XoE,851
+diacamma/microbusiness/views.py,sha256=LF3wh1I5pwmseExSczHaL26XE3do9srDUclVR165wDE,4459
+diacamma/pro/__init__.py,sha256=2-Wud8gRJ7wvOABAOcvBsIl9jbkuCnyek1lNf9Jm-XE,1394
+diacamma/pro/appli_settings.py,sha256=0psuDZ-JJewGVslvsWPEqwpRuajhr3NORC_UyHGZKZQ,2239
+diacamma/pro/tests.py,sha256=LFU-m5w-qvoBNBPXf714GRsQaqaPHnlw_S7o1PjjE1I,3111
+diacamma/pro/views.py,sha256=YrIiAXntetXJ6XNNMJd5XQcs6ZBGFvbfUyLP4a6KqUo,1391
+diacamma_pro-2.4.0.19103011.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+diacamma_pro-2.4.0.19103011.dist-info/METADATA,sha256=jf9pEppNEiHnnV8KKja7U1p_2UntUfgh_8EQeO5Qzi0,1096
+diacamma_pro-2.4.0.19103011.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+diacamma_pro-2.4.0.19103011.dist-info/top_level.txt,sha256=rsslsZ7esdvKUIpBPKiLIQtPuiaZvorceGFO-A5s5xw,9
+diacamma_pro-2.4.0.19103011.dist-info/RECORD,,
