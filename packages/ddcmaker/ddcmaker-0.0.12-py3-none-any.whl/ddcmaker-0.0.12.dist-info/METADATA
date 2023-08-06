@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ddcmaker
+Version: 0.0.12
+Summary: This is a package for Raspberry pie system of maker  
+Home-page: https://github.com/NocoldBob/robot
+Author: fastbiubiu
+Author-email: fastbiubiu@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+2019-10-15更新
+集成getip_address功能到ddcmaker0.0.10以后的版本，修复WIFI链接不稳定的情况，优化robot、car中对函数的调用
+限制部分核心动作函数的调用次数，集成音乐播放功能（仅限有声卡的旧型机器人，后续新款将不具备播放声音的功能）
+缩减运行的程序进程，减少系统资源的使用
+
+2019-10-25更新
+集成makeros定时超时功能到ddcmaker中，增加动作接口函数，更新兼容包，适配不同的设备之间的识别，兼容两款机器人的重载函数，开机联网热更新
+
+2019-10-31更新
+增加代码安全性检查，对于风险代码严格审查，阻断危险代码的运行
+增加在线播放音乐接口
+增加对总线控制的权限判定
+增加温度读取的接口
+增加电压读取的接口
+增加语音的输出接口
+增加对“天才”少年的彩蛋
+
+
+
