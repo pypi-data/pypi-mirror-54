@@ -1,0 +1,12 @@
+README.md
+setup.py
+infobeamerhosted/API.py
+infobeamerhosted/Exceptions.py
+infobeamerhosted/Infobeamer.py
+infobeamerhosted/__init__.py
+infobeamerhosted/__main__.py
+infobeamerhosted.egg-info/PKG-INFO
+infobeamerhosted.egg-info/SOURCES.txt
+infobeamerhosted.egg-info/dependency_links.txt
+infobeamerhosted.egg-info/requires.txt
+infobeamerhosted.egg-info/top_level.txt
