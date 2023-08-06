@@ -1,0 +1,17 @@
+scikit-learn
+nltk
+pyyaml
+transformers
+
+[dev]
+bumpversion
+
+[docs]
+mkdocs
+mkdocs-material
+
+[tests]
+pytest
+pytest-cov
+codecov
+tensorflow~=2.0.0
