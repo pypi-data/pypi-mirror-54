@@ -1,0 +1,10 @@
+rstoys/__init__.py,sha256=CzN22ldXx4q7Prlo_AjpyuUrM-Q5xfdYZ6sc8h2k9Qg,19
+rstoys/realtime/__init__.py,sha256=KDLpK2c8HjaQAtp9c5y7k6F_E9zVu-UV3VPQMKiGSj8,853
+rstoys/touchy/__init__.py,sha256=4igJeRCBLF5Dm8huX8nJQGGPovoLXSGyaFfroZKAulY,3205
+rstoys/touchy/static/stick-back.png,sha256=uB1oaaNgfpvA2ghhW4NSmA6-GnotoK6Fs6plblIgUQM,68481
+rstoys/touchy/templates/touchy.html,sha256=X3UPAUoxRHao56gfbr8gj4unqKJoXz0DDkVTo1YJnrc,6959
+rstoys-1.0.9.dist-info/LICENSE,sha256=sw5R9x7YiaESz--wct2pp-gEY_aBiJlnEMnoPHzU0m4,1075
+rstoys-1.0.9.dist-info/METADATA,sha256=h3hil9nkDL7X-YJywz9WV_ZeKTDt0pZqOeO1cCMEFFY,3321
+rstoys-1.0.9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+rstoys-1.0.9.dist-info/top_level.txt,sha256=JCj4oeOYtnVDqyHhLmTD3zRiNtfPf6kHH4X5SnghV6U,7
+rstoys-1.0.9.dist-info/RECORD,,
