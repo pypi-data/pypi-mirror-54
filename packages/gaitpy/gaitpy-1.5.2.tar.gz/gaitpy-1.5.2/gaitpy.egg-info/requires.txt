@@ -1,0 +1,9 @@
+deepdish
+pandas
+scipy
+numpy
+PyWavelets
+scikit-learn
+statsmodels
+bokeh==0.12.10
+dill==0.2.7.1
