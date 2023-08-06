@@ -1,0 +1,8 @@
+chaopdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chaopdf/pdf2image.py,sha256=FKCPhiSyXj-tNDXA0VqlbWzKx6KZPmuJa5cBogvi_4o,40
+chaopdf/pdf2text.py,sha256=pytsQluFxxAX6PBn5ukos1z_4vUtHAJUMbE073CcN5Q,288
+chaopdf-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+chaopdf-1.0.dist-info/METADATA,sha256=IfZXCNVK708a9ID51qB4qT-BDDJGCYPx5Br0z6WMHqA,198
+chaopdf-1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+chaopdf-1.0.dist-info/top_level.txt,sha256=ktvncBOLfmKsddB4ymppBtNMY9bI2lKoTUkcfMOiJxE,8
+chaopdf-1.0.dist-info/RECORD,,
