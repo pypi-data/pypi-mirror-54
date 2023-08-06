@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+__init__.py
+requirements.txt
+setup.cfg
+setup.py
+src/svg.elements.egg-info/PKG-INFO
+src/svg.elements.egg-info/SOURCES.txt
+src/svg.elements.egg-info/dependency_links.txt
+src/svg.elements.egg-info/top_level.txt
+src/svg.elements.egg-info/zip-safe
+test/test_path.py
+test/test_path_matrix.py
+test/test_paths.py
+test/test_zingl.py
