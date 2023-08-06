@@ -1,0 +1,414 @@
+{
+    "type": [
+        "null",
+        "object"
+    ],
+    "properties": {
+        "ProductInfo": {
+            "type": [
+                "string",
+                "object"
+            ],
+            "properties": {
+                "NumberOfItems": {
+                    "type": [
+                        "integer",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "QuantityOrdered": {
+            "type": [
+                "integer",
+                "string"
+            ]
+        },
+        "Title": {
+            "type": [
+                "string"
+            ]
+        },
+        "ConditionSubtypeId": {
+            "type": [
+                "string"
+            ]
+        },
+        "PointsGranted": {
+            "type": [
+                "object"
+            ],
+            "properties": {
+                "PointsMonetaryValue": {
+                    "type": [
+                        "object"
+                    ],
+                    "properties": {
+                        "CurrencyCode": {
+                            "type": [
+                                "string"
+                            ]
+                        },
+                        "Amount": {
+                            "type": [
+                                "string"
+                            ]
+                        }
+                    },
+                    "additional_properties": false
+                },
+                "PointsNumber": {
+                    "type": [
+                        "integer"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "TaxCollection": {
+            "type": [
+                "object"
+            ],
+            "properties": {
+                "Model": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "ResponsibleParty": {
+                    "type": [
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "QuantityShipped": {
+            "type": [
+                "integer",
+                "string"
+            ]
+        },
+        "ConditionNote": {
+            "type": [
+                "string"
+            ]
+        },
+        "OrderItemId": {
+            "type": [
+                "string"
+            ]
+        },
+        "CODFee": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "ShippingDiscount": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "ScheduledDeliveryEndDate": {
+            "type": [
+                "string"
+            ]
+        },
+        "BuyerCustomizedInfo": {
+            "type": [
+                "object"
+            ],
+            "properties": {
+                "CustomizedURL": {
+                    "type": [
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "InvoiceData": {
+            "type": [
+                "object"
+            ],
+            "properties": {
+                "InvoiceRequirement": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "InvoiceInformation": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "InvoiceTitle": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "BuyerSelectedInvoiceCategory": {
+                    "type": [
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "ShippingTax": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "GiftMessageText": {
+            "type": [
+                "string"
+            ]
+        },
+        "OrderId": {
+            "type": [
+                "string"
+            ]
+        },
+        "IsGift": {
+            "type": [
+                "boolean",
+                "string"
+            ]
+        },
+        "PromotionDiscount": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "SerialNumberRequired": {
+            "type": [
+                "boolean",
+                "string"
+            ]
+        },
+        "ASIN": {
+            "type": [
+                "string"
+            ]
+        },
+        "ItemPrice": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "GiftWrapPrice": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "ShippingPrice": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "GiftWrapTax": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "SellerSKU": {
+            "type": [
+                "string"
+            ]
+        },
+        "IsTransparency": {
+            "type": [
+                "boolean",
+                "string"
+            ]
+        },
+        "GiftWrapLevel": {
+            "type": [
+                "string"
+            ]
+        },
+        "ConditionId": {
+            "type": [
+                "string"
+            ]
+        },
+        "PromotionIds": {
+            "type": [
+                "array",
+                "string"
+            ]
+        },
+        "CODFeeDiscount": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "ScheduledDeliveryStartDate": {
+            "type": [
+                "string"
+            ]
+        },
+        "ItemTax": {
+            "type": [
+                "null",
+                "object"
+            ],
+            "properties": {
+                "CurrencyCode": {
+                    "type": [
+                        "string"
+                    ]
+                },
+                "Amount": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                }
+            },
+            "additional_properties": false
+        },
+        "PriceDesignation": {
+            "type": [
+                "string"
+            ]
+        }
+    },
+    "additional_properties": false
+}

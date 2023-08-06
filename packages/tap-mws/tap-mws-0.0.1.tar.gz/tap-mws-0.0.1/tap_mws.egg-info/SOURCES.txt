@@ -1,0 +1,16 @@
+README.md
+setup.py
+tap_mws/__init__.py
+tap_mws/runner.py
+tap_mws.egg-info/PKG-INFO
+tap_mws.egg-info/SOURCES.txt
+tap_mws.egg-info/dependency_links.txt
+tap_mws.egg-info/entry_points.txt
+tap_mws.egg-info/requires.txt
+tap_mws.egg-info/top_level.txt
+tap_mws/schemas/order_items.json
+tap_mws/schemas/orders.json
+tap_mws/streams/__init__.py
+tap_mws/streams/base.py
+tap_mws/streams/order_items.py
+tap_mws/streams/orders.py

@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: tap-mws
+Version: 0.0.1
+Summary: Singer.io tap for extracting data from the Amazon MWS API
+Home-page: UNKNOWN
+Author: HICKIES
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
