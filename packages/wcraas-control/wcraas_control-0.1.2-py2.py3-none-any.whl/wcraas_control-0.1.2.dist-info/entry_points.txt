@@ -1,0 +1,4 @@
+[console_scripts]
+wcraas_control = wcraas_control.cli:main
+wcraas_list_collections = wcraas_control.cli:list_collections
+
