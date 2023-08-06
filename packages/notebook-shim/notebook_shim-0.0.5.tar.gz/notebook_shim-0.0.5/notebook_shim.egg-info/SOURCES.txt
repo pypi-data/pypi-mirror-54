@@ -1,0 +1,13 @@
+README.md
+setup.py
+jupyter-config/jupyter_server_config.d/notebook_shim.json
+notebook_shim/__init__.py
+notebook_shim/handlers.py
+notebook_shim/notebookapp.py
+notebook_shim/shimwarning.py
+notebook_shim.egg-info/PKG-INFO
+notebook_shim.egg-info/SOURCES.txt
+notebook_shim.egg-info/dependency_links.txt
+notebook_shim.egg-info/not-zip-safe
+notebook_shim.egg-info/requires.txt
+notebook_shim.egg-info/top_level.txt
