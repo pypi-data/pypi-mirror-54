@@ -1,0 +1,3 @@
+[console_scripts]
+annofetch = annofetch.main:main
+

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: annofetch
+Version: 1.0.0
+Summary: Command Line Script to fetch annotations.
+Home-page: UNKNOWN
+Author: Sarah Kasemann
+Author-email: sarah.kasemann@uni-bielefeld.de
+License: GPL
+Keywords: accession fetching annotations
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: biopython
+Requires-Dist: requests
+
+AnnoFetch is a command line script that fetches biological annotations for valid
+database accessions.
+Called with a file containing valid gene or protein accessions it produces a
+csv-file containing available annotations for each accession.
+Therefore AnnoFetch fetches entries from several databases like Genbank (NCBI),
+Ena (EMBL) or UniProtKB and extracts the desired annotations.
+
+A short Tutorial is given in the README.md file
+within the Example folder.
+
+
