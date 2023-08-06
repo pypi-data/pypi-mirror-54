@@ -1,0 +1,8 @@
+README.md
+setup.py
+useragent-xxc/PersonComputer.py
+useragent-xxc/__init__.py
+useragent_xxc.egg-info/PKG-INFO
+useragent_xxc.egg-info/SOURCES.txt
+useragent_xxc.egg-info/dependency_links.txt
+useragent_xxc.egg-info/top_level.txt
