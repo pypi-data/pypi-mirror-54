@@ -1,0 +1,2 @@
+boto3 >= 1.4.2
+argcomplete >= 1.8.1
