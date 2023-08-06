@@ -1,0 +1,71 @@
+Metadata-Version: 1.0
+Name: meaning
+Version: 0.2.1
+Summary: A terminal bilingual dictionary
+Home-page: https://github.com/laugh12321/meaning
+Author: Laugh
+Author-email: zhang26162@gmail.com
+License: UNKNOWN
+Description: meaning
+        =======
+        
+        Translate words via command line. Inspired by
+        `afc163/fanyi <https://github.com/afc163/fanyi>`__, but more features.
+        
+        |Python version| |License|
+        
+        |image2|
+        
+        Features
+        --------
+        
+        -  英文单词查询
+        
+        Install
+        -------
+        
+        ::
+        
+           pip install meaning
+        
+        Usage
+        -----
+        
+        ::
+        
+           Usage: meaning <words> [options]
+        
+           Options:
+             -v, --vers    output the current version
+             -h, --help    output usage information
+        
+           Examples:
+             $ meaning love
+        
+        支持语言
+        ~~~~~~~~
+        
+        +------+----------+
+        | 语言 | 目标语言 |
+        +======+==========+
+        | 英文 | 中文     |
+        +------+----------+
+        
+        Notes
+        -----
+        
+        -  增加数据记录功能
+        
+        License
+        -------
+        
+        MIT.
+        
+        .. |Python version| image:: https://img.shields.io/pypi/pyversions/fy.svg?colorB=brightgreen
+           :target: https://pypi.org/project/meaning/
+        .. |License| image:: https://img.shields.io/badge/License-MIT-brightgreen.svg
+           :target: https://opensource.org/licenses/MIT
+        .. |image2| image:: https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/meaning/imgs/example.png
+        
+        
+Platform: UNKNOWN
