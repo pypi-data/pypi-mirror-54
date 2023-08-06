@@ -1,0 +1,16 @@
+language: python
+python:
+- "3.6"
+
+branches:
+  only:
+    - master
+
+install:
+- python -m pip install flit pylint pytest black
+- python -m flit install
+
+script:
+- pylint rfi
+- black rfi --check --line-length=100
+- pytest
