@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: smartify
+Version: 0.0.1.alpha
+Summary: Make your python development easier
+Home-page: https://github.com/lqj679ssn/smartify
+Author: Adel Liu
+Author-email: i@6-79.cn
+License: MIT Licence
+Description: Supporting analysing field and customizing error
+Keywords: easy,smart,field detect,error handle
+Platform: any
