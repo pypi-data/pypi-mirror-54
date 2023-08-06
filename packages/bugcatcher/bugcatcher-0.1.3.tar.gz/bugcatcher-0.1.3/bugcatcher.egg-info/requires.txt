@@ -1,0 +1,4 @@
+gitpython
+requests
+colorama
+pytest>=3.5.0
