@@ -1,0 +1,43 @@
+
+fsds_100719 package
+===================
+
+main module (fsds_100719/*)
+---------------------------
+
+.. automodule:: fsds_100719
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+imports module
+--------------------
+.. automodule:: fsds_100719.imports
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+cohort-sub-packages
+===================
+.. automodule:: fsds_100719/ft
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: fsds_100719/pt
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: fsds_100719/jmi
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+
+
+
+
+
