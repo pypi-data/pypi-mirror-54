@@ -1,0 +1,10 @@
+MANIFEST.in
+readme.md
+setup.py
+setuptools_git_ver.py
+setuptools_git_ver.egg-info/PKG-INFO
+setuptools_git_ver.egg-info/SOURCES.txt
+setuptools_git_ver.egg-info/dependency_links.txt
+setuptools_git_ver.egg-info/entry_points.txt
+setuptools_git_ver.egg-info/requires.txt
+setuptools_git_ver.egg-info/top_level.txt
