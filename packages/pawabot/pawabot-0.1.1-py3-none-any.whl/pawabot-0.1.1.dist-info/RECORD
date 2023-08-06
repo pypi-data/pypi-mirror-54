@@ -1,0 +1,14 @@
+README.md,sha256=PczMW9JVKcm3Bi3uqBykwHQBn9Hcd9kQqQC4HUIX4cw,3965
+pawabot/__init__.py,sha256=K_qXC06PZEnvDO7GQBTRKgxSXuyZN1INLbk5Wg4eEn4,352
+pawabot/__main__.py,sha256=1fKlG8ysuGXL4ZRdP2maGjvY-cVX6fexL0vnR0JkwTM,397
+pawabot/callbacks.py,sha256=5pnDIt_FqK3IQKa3rIQJKj9KmNQRkTJT9gVjRQaQ0IU,11010
+pawabot/cli.py,sha256=l3W9jbdMwOiaaO_3E12euFNev86_RXJCnpJkSZOCg80,7269
+pawabot/privileges.py,sha256=KURwtmVVeBhj87_-W8OLGTlDay1auIEVn9LuPL-C5hg,1097
+pawabot/torrents.py,sha256=qoBJKY3sGm5z2Js0J-Fz3-1CskNomX9d9IIslltpi58,5598
+pawabot/utils.py,sha256=0_HsZ8awKK0Eb910ABXjhjXLqT03-Bf3QCIqQXRCy0k,445
+pyproject.toml,sha256=KtzfsUlhfmpMEDkxscyun6swELgzed3zwiAKDWCJe-M,1975
+pawabot-0.1.1.dist-info/entry_points.txt,sha256=oVEgIOM9juRaMa-J2Mxp05VVhUjKmapyKjYqfWUqH5Y,44
+pawabot-0.1.1.dist-info/LICENSE,sha256=CWPhZO4wCQgGXLc5hPRozRbGdwSWXL0exgU76L4yUvI,754
+pawabot-0.1.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+pawabot-0.1.1.dist-info/METADATA,sha256=If4qHMZSu7MdrZEgXLNyKNVL9tovn7lQ3oBOXHk3pU8,4903
+pawabot-0.1.1.dist-info/RECORD,,

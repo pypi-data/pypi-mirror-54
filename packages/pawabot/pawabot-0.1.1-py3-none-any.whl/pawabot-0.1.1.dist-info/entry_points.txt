@@ -1,0 +1,3 @@
+[console_scripts]
+pawabot=pawabot.cli:main
+
