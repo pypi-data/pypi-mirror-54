@@ -1,0 +1,10 @@
+pydatasource/DataSource.py,sha256=duLncbuWxrzGpzqIH_ZKsZ0wp0CgwUslVjenKhjHFhY,3012
+pydatasource/__init__.py,sha256=erWgIz9lhunMKc71V9gf9pqScqTb4xjpHYYGG3DS2j0,46
+pydatasource/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydatasource/core/gds_view.py,sha256=9yw_hJAkVIcGNQ3cSEr-y7b_WMyZu4MOB4KY_MNxot8,20
+pydatasource/core/snippet.py,sha256=adCeayqT4aGr-F9URY4IdRgDjQGpDroS3qP_gfIPYvI,1377
+pydatasource-0.0.6.dist-info/LICENSE,sha256=q1jZyTIZpHrstbFQRrQznA8hU13VfN-TbmtDEh1w1Kw,1049
+pydatasource-0.0.6.dist-info/METADATA,sha256=Sep6vAAjV7JUtuVuRCXZbQfmLhnwWwnRpUl-rQpBb-c,509
+pydatasource-0.0.6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pydatasource-0.0.6.dist-info/top_level.txt,sha256=Ifgl-y5h5g2NjxQMPZZ4yTIu0_X48AWDOk0VSUsSqkY,13
+pydatasource-0.0.6.dist-info/RECORD,,
