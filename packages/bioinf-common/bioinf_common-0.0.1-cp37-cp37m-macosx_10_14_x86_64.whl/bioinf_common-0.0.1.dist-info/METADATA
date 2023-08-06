@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: bioinf-common
+Version: 0.0.1
+Summary: Aggregation of functionalities needed in multiple projects
+Home-page: UNKNOWN
+Author: kpj
+Author-email: kpjkpjkpjkpjkpjkpj@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: dask[complete]
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+Requires-Dist: gene-map
+Requires-Dist: obonet
+Requires-Dist: tqdm
+Requires-Dist: joblib
+Requires-Dist: bs4
+Requires-Dist: jupyter
+Requires-Dist: click
+Requires-Dist: psutil
+Requires-Dist: pybind11
+
+UNKNOWN
+
+
