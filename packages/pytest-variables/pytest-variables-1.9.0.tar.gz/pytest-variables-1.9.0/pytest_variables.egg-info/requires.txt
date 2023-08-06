@@ -1,0 +1,10 @@
+pytest>=2.4.2
+
+[hjson]
+hjson
+
+[toml]
+toml
+
+[yaml]
+PyYAML
