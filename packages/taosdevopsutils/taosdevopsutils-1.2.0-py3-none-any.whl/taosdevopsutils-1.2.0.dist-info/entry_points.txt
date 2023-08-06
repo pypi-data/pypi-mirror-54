@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        devops=taosdevopsutils.cli.main:main
+        

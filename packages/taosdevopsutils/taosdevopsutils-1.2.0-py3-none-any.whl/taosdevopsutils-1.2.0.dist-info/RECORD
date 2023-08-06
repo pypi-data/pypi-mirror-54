@@ -1,0 +1,11 @@
+taosdevopsutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taosdevopsutils/config.py,sha256=lnoyUye6lp9d4xKUW9NarkUV3zwSVRnB_qzElHQhfEQ,211
+taosdevopsutils/slack.py,sha256=ZWaHXQQbG1nuX24Vzs-ERiBAGhPhNI0kJIISds6UgnA,1451
+tests/test_taosdevopsutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_taosdevopsutils/test_slack.py,sha256=LrQSnmzWzrQq_XKGi5gwcOIud_ZtM_X3fi0XvmYmZGk,1348
+taosdevopsutils-1.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+taosdevopsutils-1.2.0.dist-info/METADATA,sha256=D3L2ET_OAJD_M-QbbaeRyC7rit57AxblVB3h1MJHn9w,982
+taosdevopsutils-1.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+taosdevopsutils-1.2.0.dist-info/entry_points.txt,sha256=7j7mi5czDtgR-5NTf7Tw_H_C--x4ZWLuYPREnYkx_go,80
+taosdevopsutils-1.2.0.dist-info/top_level.txt,sha256=By_MPBNI1D5GzZ7irnUa0TN3o51duAHfGWxDompwrww,22
+taosdevopsutils-1.2.0.dist-info/RECORD,,
