@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+dataclass_serializer/__init__.py
+dataclass_serializer/dataclass_serializer.py
+dataclass_serializer.egg-info/PKG-INFO
+dataclass_serializer.egg-info/SOURCES.txt
+dataclass_serializer.egg-info/dependency_links.txt
+dataclass_serializer.egg-info/top_level.txt
