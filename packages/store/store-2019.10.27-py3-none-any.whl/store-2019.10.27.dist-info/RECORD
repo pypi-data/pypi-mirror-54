@@ -1,0 +1,10 @@
+store/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+store/database.py,sha256=GXmrZZcP5Qpr-Y6pXOQ-r3Oj-sf5aUqf8WgvOc5imGk,19564
+store/parser.py,sha256=GTYKcLl5EFl0ti-MEIRwvk3cd1EsP3mt4IIOIew965k,3583
+store/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+store/contrib/factory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+store/contrib/factory/db.py,sha256=lEZCqb8_iOrLqYWTrcdunXdtBEyeaGZnkeNhCAfESYg,1361
+store-2019.10.27.dist-info/METADATA,sha256=YbYcZiukBhPmQsUcJ9_XdKmj_-oJI1FV4I6CPEUi7Xo,538
+store-2019.10.27.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+store-2019.10.27.dist-info/top_level.txt,sha256=gHWCTlj95DUfKS0zcS-5w_5cILfTuY7SpCgu-D2GUMw,6
+store-2019.10.27.dist-info/RECORD,,
