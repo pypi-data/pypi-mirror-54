@@ -1,0 +1,13 @@
+#ifndef CASCREL_PARAMETER_HPP
+#define CASCREL_PARAMETER_HPP
+
+#include "factory/Builder.hpp"
+
+class Parameter {
+public:
+    virtual void visit(cascrel::factory::Builder& builder) const = 0;
+
+    virtual void visitAlternative(cascrel::factory::Builder& builder) const {}
+};
+
+#endif //CASCREL_PARAMETER_HPP
