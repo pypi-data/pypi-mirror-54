@@ -1,0 +1,10 @@
+ldappool/__init__.py,sha256=b6B4V3ZHucPgvWuSB7og_V6yo6K38ga52zC99IOvPbQ,13284
+ldappool/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ldappool/tests/test_ldapconnection.py,sha256=F3L45jmRDUC5adDABrumrpSSntxNno5SuhiJqOWuq7E,5472
+ldappool/tests/test_ldappool.py,sha256=e_3CdkfV00Pe488g_jG1v9PTLEuNgSAVjiIbjAAEj4k,7989
+ldappool-2.2.1.dist-info/AUTHORS,sha256=oh0M5cQCm_wYYeR75TpZfCh9-iFyryAsgC3F56Bg1MI,793
+ldappool-2.2.1.dist-info/METADATA,sha256=7fadfwO6THpTRwdZFwU5Uj_w4jdsTYIGwotfjcfQUD4,2820
+ldappool-2.2.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+ldappool-2.2.1.dist-info/pbr.json,sha256=ehfaoLQKskmdbvzci90dBzMLF3RGOfvBpmULR6CS2Z0,46
+ldappool-2.2.1.dist-info/top_level.txt,sha256=nNvn2-sxmJoWfngU_U9rOSlNKH41YO_OdAiboPh4ka4,9
+ldappool-2.2.1.dist-info/RECORD,,
