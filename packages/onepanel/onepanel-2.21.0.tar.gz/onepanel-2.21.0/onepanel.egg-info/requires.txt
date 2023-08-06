@@ -1,0 +1,15 @@
+configparser
+PyYAML>=3.10
+prettytable
+requests<3.0.0dev,>=2.18.0
+click>=7
+PTable
+configobj
+websocket-client
+humanize
+boto3>=1.9.0
+watchdog
+iso8601
+future
+psutil
+nvidia-ml-py3
