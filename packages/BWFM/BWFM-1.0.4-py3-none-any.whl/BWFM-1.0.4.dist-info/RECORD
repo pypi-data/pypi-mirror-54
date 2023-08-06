@@ -1,0 +1,15 @@
+BWFM/__init__.py,sha256=a21I5AYboJHrDdt9AslgkFG65JtUenjULXRL6gFIfnU,10469
+BWFM/util.py,sha256=0vMf6nFdt8Us3YjZzkBZdmeLDkCADWdfzpvp5qElYQQ,141
+BWFM/Ui/about.py,sha256=RXOPte6WXbh5AFbe2r46dFMN2DGv-ZCg3zs_9r837J0,2159
+BWFM/Ui/about.ui,sha256=rfWdlNeGSH5oG_P6_NyPYCRLAbcTcxIhQe81z1-xhZ8,1446
+BWFM/Ui/mainwindow.py,sha256=UM-uLHdvI1-fCfVQ51_KsVwExrwrrn-lCBiOYIy9N5I,10408
+BWFM/Ui/mainwindow.ui,sha256=Zdec-6k_jUc3G8850vtYPPhOFT9ivdZ5wOwklHpqfPg,8277
+BWFM/Ui/settings.py,sha256=2vL_t1tqPzjBTQlA1pFfJNhcrEqwYcHAkIruP80IqWw,5890
+BWFM/Ui/settings.ui,sha256=8R7OugpPLkEqYpf5WmYgWora3o9vHJCn0Jv6XkNaPnI,3836
+BWFM/Ui/ui_py.sh,sha256=8BZB3Lw6udsJoa87lxsu7LG6DFWOXpuWZPz4kEabSRE,93
+BWFM-1.0.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+BWFM-1.0.4.dist-info/METADATA,sha256=Mfht45ZFiPfx0mlW5W96LyYjwVpYTHD7kXKSXhRJ_KE,624
+BWFM-1.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+BWFM-1.0.4.dist-info/entry_points.txt,sha256=x8n8oxBgyqFKx4a6DJM4YMqTokZlACpJGCWRyuF4JOw,41
+BWFM-1.0.4.dist-info/top_level.txt,sha256=Ng0J-l0HfbP_AqCx7HPNMQiimzgd5f1lbD4zxPhoxzQ,5
+BWFM-1.0.4.dist-info/RECORD,,
