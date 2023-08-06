@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pytus
+Version: 0.2.1
+Summary: yet another tus (resumable file upload protocol) client in python
+License: MIT
+Author: yatmanov
+Author-email: yatmanov@megaputer.ru
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests (>=2.22,<3.0)
