@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cirq
+Version: 0.5.555
+Summary: TOMBSTONE RELEASE. CIRQ NO LONGER SUPPORTS THIS VERSION OF PYTHON
+Home-page: http://github.com/quantumlib/cirq
+Author: The Cirq Developers
+Author-email: cirq@googlegroups.com
+License: Apache 2
+Platform: UNKNOWN
+Requires-Python: >=2.7,<=3.5
+Provides-Extra: contrib
+Provides-Extra: dev_env
+
+UNKNOWN
+
+
