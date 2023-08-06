@@ -1,0 +1,13 @@
+microserver/__init__.py,sha256=S1jas35Y_ptOdgR9cPH_KC3J4XAA0O7KGGMtZL88tHE,940
+microserver/__main__.py,sha256=S7ImQw3MGzzl6TtzHma9bXlvJQI3sMoYt90zKr58Ojc,5560
+microserver/glb.py,sha256=dgEoXUgCwtZftLN80aHwn1UJC1OBy0pZclwrnpdmI7g,997
+microserver/hookset.py,sha256=j81R_WfcrAGWEUyVENzcPQnNIa8lCtSlMoltnCg_c5M,2749
+microserver/microserver.py,sha256=KhDtlAMmZuUlmAM-GfbceFZAc7WFbag6187Fk2WVnHU,5606
+microserver/servers.py,sha256=rOHxqeEWscQ1Kl5G-d4WXmKSpqtOSLWNHAAbjEeGt2A,19690
+microserver-1.0.4.dist-info/LICENSE,sha256=FGADlJomCWzH4_axfLZ9dlY0QliWabcQ0H1VFW1stiE,11564
+microserver-1.0.4.dist-info/METADATA,sha256=cPHWn0KhTqt0TsUu476RDQuFYvJ9z2kEK_hMCzmGMt4,558
+microserver-1.0.4.dist-info/NOTICE,sha256=Zjemrp4OI5XZynNg80rkIJ-QzLAdEEIwKV0Bxn6WwEk,180
+microserver-1.0.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+microserver-1.0.4.dist-info/entry_points.txt,sha256=7rjP-e923WoDCKEHgY0JE8uFeuhEuk58tglieHZ1L8o,59
+microserver-1.0.4.dist-info/top_level.txt,sha256=CYsILBwFvCxwAH8pCgzBIjt1wMAbTCGED0TR--xk87Y,12
+microserver-1.0.4.dist-info/RECORD,,
