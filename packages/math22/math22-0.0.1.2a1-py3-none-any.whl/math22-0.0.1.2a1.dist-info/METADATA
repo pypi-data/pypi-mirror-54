@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: math22
+Version: 0.0.1.2a1
+Summary: open it!
+Home-page: https://baidu.com
+Author: math22
+Author-email: 2691475984@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+0.0.1.0b2:cannot use\n
+0.0.1.0b3:You can use it but it has no use\n
+0.0.1.1:add "isprime" function,to determine if it is a prime number\n
+0.0.1.2/0.0.1.2a1:optimize the code
+
+
