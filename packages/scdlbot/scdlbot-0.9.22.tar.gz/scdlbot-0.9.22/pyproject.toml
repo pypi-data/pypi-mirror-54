@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "scdlbot"
+version = "0.9.22"
+description = "Telegram Bot for downloading MP3 rips of tracks/sets from SoundCloud, Bandcamp, YouTube with tags and artwork"
+authors = ["George Pchelkin <george@pchelk.in>"]
+license = "MIT"
+include = ["AUTHORS.rst", "CONTRIBUTING.rst", "HISTORY.rst", "LICENSE", "README.rst", "tests/*", "docs/*.rst", "docs/conf.py", "docs/Makefile", "docs/make.bat", "docs/*.jpg", "docs/*.png", "docs/*.gif", "scdlbot/texts/*"]
+readme = "README.rst"
+keywords = ["scdlbot", "telegram", "bot", "soundcloud", "bandcamp", "youtube", "audio", "music", "download"]
+classifiers = ["Development Status :: 5 - Production/Stable", "Intended Audience :: End Users/Desktop", "Topic :: Multimedia :: Sound/Audio", "Topic :: Internet", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent", "Natural Language :: English", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3.5", "Programming Language :: Python :: 3.6", "Programming Language :: Python :: 3.7", "Programming Language :: Python :: 3.8"]
+
+[tool.poetry.scripts]
+scdlbot = "scdlbot.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+python-telegram-bot = "10.1.0"
+python-telegram-handler = "2.2"
+boltons = "19.3.0"
+plumbum = "1.6.7"
+scdl = "1.6.12"
+bandcamp-downloader = "0.0.8.post12"
+youtube-dl = "2019.10.29"
+pydub = "0.23.1"
+mutagen = "1.42.0"
+patool = "1.12"
+pyshorteners = "0.6.1"
+Celery = "4.3.0"
+logentries = "0.17"
+#transliterate = "1.10.2"
+
+[tool.poetry.dev-dependencies]
+pip = "19.3.1"
+wheel = "0.33.6"
+watchdog = "0.9.0"
+flake8 = "3.7.9"
+tox = "3.14.0"
+coverage = "4.5.4"
+Sphinx = "2.2.1"
+cryptography = "2.8"
+PyYAML = "5.1.2"
+pytest = "5.2.2"
+
+[build-system]
+requires = ["poetry>=1.0.0b3"]
+build-backend = "poetry.masonry.api"
+
+#[tool.dephell.main]
+#to = {format = "poetry", path = "pyproject2.toml"}
+#from = {format = "setuppy", path = "setup.py"}
