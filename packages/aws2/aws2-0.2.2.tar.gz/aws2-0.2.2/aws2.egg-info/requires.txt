@@ -1,0 +1,7 @@
+boto3
+botocore
+fabric
+pandas
+pyperclip
+requests
+nbextensions
