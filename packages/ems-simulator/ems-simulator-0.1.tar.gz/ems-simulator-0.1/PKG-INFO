@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ems-simulator
+Version: 0.1
+Summary: Python library for EMS simulations
+Home-page: https://github.com/EMSTrack/EMS-Simulator
+Author: Mauricio C. de Oliveira, Timothy Lam, Hans Yuan
+Author-email: mauricio@ucsd.edu
+License: MIT
+Download-URL: https://github.com/EMSTrack/EMS-Simulator/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: EMS,Simulation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
