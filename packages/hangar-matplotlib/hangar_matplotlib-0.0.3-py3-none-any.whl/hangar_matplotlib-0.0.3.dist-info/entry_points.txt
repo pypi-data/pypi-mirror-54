@@ -1,0 +1,3 @@
+[hangar.external.plugins]
+matplotlib = hangar_matplotlib:HangarMatplotlib
+
