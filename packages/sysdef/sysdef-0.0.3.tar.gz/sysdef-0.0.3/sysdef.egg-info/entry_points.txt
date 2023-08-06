@@ -1,0 +1,3 @@
+[console_scripts]
+sysdef = sysdef:main
+
