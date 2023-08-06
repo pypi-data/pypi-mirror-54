@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: shapSD
+Version: 0.3.0
+Summary: An black-box interpretation framework to explain variable influence
+Home-page: https://github.com/XiaoqiMa/shapSD
+Author: xiaoqi
+Author-email: xiaoqima2013@gmail.com
+License: MIT License (MIT)
+Download-URL: https://github.com/XiaoqiMa/shapSD/archive/v2.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
