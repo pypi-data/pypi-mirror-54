@@ -1,0 +1,8 @@
+README.md
+alpaca.py
+setup.py
+Alpyca.egg-info/PKG-INFO
+Alpyca.egg-info/SOURCES.txt
+Alpyca.egg-info/dependency_links.txt
+Alpyca.egg-info/requires.txt
+Alpyca.egg-info/top_level.txt
