@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: k4a-python
+Version: 0.2.37
+Summary: python wrapper for k4a
+Home-page: https://github.com/ykoneee/k4a-python
+Author: ykone
+Author-email: 245403188gm@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
