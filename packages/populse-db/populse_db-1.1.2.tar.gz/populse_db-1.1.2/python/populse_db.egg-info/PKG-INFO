@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: populse-db
+Version: 1.1.2
+Summary: populse_db
+Home-page: http://populse.github.io/populse_db/
+Author: Populse
+Author-email: econdami@yahoo.fr
+License: CeCILL-B
+Description: 
+        ==========
+        populse_db 
+        ==========
+        
+        The meta-data storage and query system for Populse.
+        
+Platform: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: SQL
+Classifier: Natural Language :: English
+Classifier: Topic :: Database
+Provides-Extra: doc
+Provides-Extra: postgres
