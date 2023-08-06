@@ -1,0 +1,7 @@
+flask>=1.1.1
+blinker
+requests
+simplejson
+lxml
+pandas
+colour_printing>=0.3.16
