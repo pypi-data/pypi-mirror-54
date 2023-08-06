@@ -1,0 +1,9 @@
+README.md
+setup.py
+pangaeapy/__init__.py
+pangaeapy/pandataset.py
+pangaeapy.egg-info/PKG-INFO
+pangaeapy.egg-info/SOURCES.txt
+pangaeapy.egg-info/dependency_links.txt
+pangaeapy.egg-info/requires.txt
+pangaeapy.egg-info/top_level.txt
