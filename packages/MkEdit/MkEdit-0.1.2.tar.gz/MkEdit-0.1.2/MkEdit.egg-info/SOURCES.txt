@@ -1,0 +1,16 @@
+README.md
+setup.py
+MkEdit.egg-info/PKG-INFO
+MkEdit.egg-info/SOURCES.txt
+MkEdit.egg-info/dependency_links.txt
+MkEdit.egg-info/requires.txt
+MkEdit.egg-info/top_level.txt
+mkedit/__init__.py
+mkedit/core/DataClass.py
+mkedit/core/Dialog.py
+mkedit/core/EditCenter.py
+mkedit/core/FileUtils.py
+mkedit/core/MenusBar.py
+mkedit/core/MkEdit.py
+mkedit/core/__init__.py
+mkedit/test/__init__.py
