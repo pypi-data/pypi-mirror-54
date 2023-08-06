@@ -1,0 +1,10 @@
+discriminator/critic.py,sha256=EDPkTeKtXvFErgAYXykDEe3VNX1ZaQQR1L_EJCqUay8,1223
+discriminator/discriminator.py,sha256=3CYIm7LFLkqvu1OOgAKZUpg-9RkCY8arTfFvfTi8Xtk,1366
+generator/generator.py,sha256=4mQ1xmtpw4VwfRJcHhPziGv-QenNkF7nHEBIlqMsNn4,1126
+model/__init__.py,sha256=crlYURA_2Ujkpz7iVPHovvxZRtvt4QBXF5AAFJzRfz0,23
+model/model.py,sha256=GW8SlRqQAJ96Bf4LNbqGSA8Wf7qsE__4cK5dWpE9e8A,7219
+utilities/utils.py,sha256=eXV9f-SvTHJR6VqBJYaf2CTy6E5awoEvXtTtq229ZTo,1258
+ganify-1.0.0.dist-info/METADATA,sha256=yTZkk6X5Zg6Asl6CxB0chfSjzTX6b0-nJ520NEpmn7Q,542
+ganify-1.0.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+ganify-1.0.0.dist-info/top_level.txt,sha256=9LmbLc3-W-qGbrA1jBMlSr8sQpviEBFOy6U4VzQPjyc,40
+ganify-1.0.0.dist-info/RECORD,,
