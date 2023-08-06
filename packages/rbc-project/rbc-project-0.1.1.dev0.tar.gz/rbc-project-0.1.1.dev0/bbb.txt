@@ -1,0 +1,171 @@
+============================= test session starts ==============================
+platform linux -- Python 3.7.3, pytest-4.4.0, py-1.8.0, pluggy-0.12.0 -- /home/pearu/mconda3/envs/rbc-dev/bin/python
+cachedir: .pytest_cache
+rootdir: /home/pearu/git/xnd-project/rbc
+collecting ... collected 1 item
+
+rbc/tests/test_omnisci_udtf.py::test_simple 
+---------------------------------- signatures ----------------------------------
+
+thrift_call connect('admin', 'HyperInteractive', 'omnisci')
+thrift_call get_device_parameters('IQsQerBleY4X9BOORScbUk6e0mg7IVje',)
+------------------------------------IR[cpu]-------------------------------------
+; ModuleID = 'rbc.irtools.compile_to_IR'
+source_filename = "<string>"
+target datalayout = "e-m:e-i64:64-f80:128-n8:16:32:64-S128"
+target triple = "x86_64-unknown-linux-gnu"
+
+================================================================================
+thrift_call register_runtime_udf('IQsQerBleY4X9BOORScbUk6e0mg7IVje', '', {'cpu': '; ModuleID = \'rbc.irtools.compile_to_IR\'\nsource_filename = "<string>"\ntarget datalayout = "e-m...linux-gnu"\n'})
+  DROP TABLE IF EXISTS rbc_test_omnisci_udtf;
+thrift_call sql_execute('IQsQerBleY4X9BOORScbUk6e0mg7IVje', 'DROP TABLE IF EXISTS rbc_test_omnisci_udtf', True, '', -1, -1)
+  CREATE TABLE IF NOT EXISTS rbc_test_omnisci_udtf (f4 FLOAT,
+f8 DOUBLE,
+i1 TINYINT,
+i2 SMALLINT,
+i4 INT,
+i8 BIGINT,
+b BOOLEAN);;
+thrift_call sql_execute('IQsQerBleY4X9BOORScbUk6e0mg7IVje', 'CREATE TABLE IF NOT EXISTS rbc_test_omnisci_udtf (f4 FLOAT,\nf8 DOUBLE,\ni1 TINYINT,\ni2 SMALLINT,\ni4 INT,\ni8 BIGINT,...ue, '', -1, -1)
+  INSERT INTO rbc_test_omnisci_udtf VALUES (0, 0, 0, 0, 0, 0, 'true');
+thrift_call sql_execute('IQsQerBleY4X9BOORScbUk6e0mg7IVje', "INSERT INTO rbc_test_omnisci_udtf VALUES (0, 0, 0, 0, 0, 0, 'true')", True, '', -1, -1)
+  INSERT INTO rbc_test_omnisci_udtf VALUES (1, 1, 1, 1, 1, 1, 'false');
+thrift_call sql_execute('IQsQerBleY4X9BOORScbUk6e0mg7IVje', "INSERT INTO rbc_test_omnisci_udtf VALUES (1, 1, 1, 1, 1, 1, 'false')", True, '', -1, -1)
+  INSERT INTO rbc_test_omnisci_udtf VALUES (2, 2, 2, 2, 2, 2, 'true');
+thrift_call sql_execute('IQsQerBleY4X9BOORScbUk6e0mg7IVje', "INSERT INTO rbc_test_omnisci_udtf VALUES (2, 2, 2, 2, 2, 2, 'true')", True, '', -1, -1)
+  INSERT INTO rbc_test_omnisci_udtf VALUES (3, 3, 3, 3, 3, 3, 'false');
+thrift_call sql_execute('IQsQerBleY4X9BOORScbUk6e0mg7IVje', "INSERT INTO rbc_test_omnisci_udtf VALUES (3, 3, 3, 3, 3, 3, 'false')", True, '', -1, -1)
+  INSERT INTO rbc_test_omnisci_udtf VALUES (4, 4, 4, 4, 4, 4, 'true');
+thrift_call sql_execute('IQsQerBleY4X9BOORScbUk6e0mg7IVje', "INSERT INTO rbc_test_omnisci_udtf VALUES (4, 4, 4, 4, 4, 4, 'true')", True, '', -1, -1)
+
+---------------------------------- signatures ----------------------------------
+
+thrift_call get_device_parameters('IQsQerBleY4X9BOORScbUk6e0mg7IVje',)
+------------------------------------IR[cpu]-------------------------------------
+; ModuleID = 'rbc.irtools.compile_to_IR'
+source_filename = "<string>"
+target datalayout = "e-m:e-i64:64-f80:128-n8:16:32:64-S128"
+target triple = "x86_64-unknown-linux-gnu"
+
+================================================================================
+thrift_call register_runtime_udf('IQsQerBleY4X9BOORScbUk6e0mg7IVje', '', {'cpu': '; ModuleID = \'rbc.irtools.compile_to_IR\'\nsource_filename = "<string>"\ntarget datalayout = "e-m...linux-gnu"\n'})
+SIGNATURE:  my_row_copier3 'int32_t(Cursor, int64_t*)'
+
+---------------------------------- signatures ----------------------------------
+
+thrift_call get_device_parameters('IQsQerBleY4X9BOORScbUk6e0mg7IVje',)
+compile_to_IR: the following functions are not used and will be removed:
+   _ZN3rbc5tests17test_omnisci_udtf11test_simple12$3clocals$3e18my_row_copier3$241E10float64$2a8int64$2a8int64$2a8int64$2a10float64$2a
+------------------------------------IR[cpu]-------------------------------------
+; ModuleID = 'rbc.irtools.compile_to_IR'
+source_filename = "<string>"
+target datalayout = "e-m:e-i64:64-f80:128-n8:16:32:64-S128"
+target triple = "x86_64-unknown-linux-gnu"
+
+@"_ZN08NumbaEnv3rbc5tests17test_omnisci_udtf11test_simple12$3clocals$3e18my_row_copier3$241E10float64$2a8int64$2a8int64$2a8int64$2a10float64$2a" = common local_unnamed_addr global i8* null
+
+; Function Attrs: norecurse nounwind
+define i32 @my_row_copier3(double* nocapture readnone %.1, i64* nocapture readonly %.2, i64* nocapture readonly %.3, i64* nocapture %.4, double* nocapture readnone %.5) local_unnamed_addr #0 {
+entry:
+  %.34.i = load i64, i64* %.2, align 8, !noalias !0
+  %.54.i = load i64, i64* %.3, align 8, !noalias !0
+  %.248.i = mul nsw i64 %.54.i, %.34.i
+  store i64 %.248.i, i64* %.4, align 8, !noalias !0
+  ret i32 0
+}
+
+attributes #0 = { norecurse nounwind }
+
+!0 = !{!1}
+!1 = distinct !{!1, !2, !"_ZN3rbc5tests17test_omnisci_udtf11test_simple12$3clocals$3e18my_row_copier3$241E10float64$2a8int64$2a8int64$2a8int64$2a10float64$2a: %retptr"}
+!2 = distinct !{!2, !"_ZN3rbc5tests17test_omnisci_udtf11test_simple12$3clocals$3e18my_row_copier3$241E10float64$2a8int64$2a8int64$2a8int64$2a10float64$2a"}
+
+================================================================================
+thrift_call register_table_function('IQsQerBleY4X9BOORScbUk6e0mg7IVje', 'my_row_copier3', "my_row_copier3 'int32_t(Cursor, int64_t*)'", 1, 1, [11, 9, 9, 9], [11], {'cpu': '; Module...oat64$2a"}\n'})
+  explain select * from table(my_row_copier3(cursor(select f8 from rbc_test_omnisci_udtf), 3));;
+thrift_call sql_execute('IQsQerBleY4X9BOORScbUk6e0mg7IVje', 'explain select * from table(my_row_copier3(cursor(select f8 from rbc_test_omnisci_udtf), 3));', True, '', -1, -1)
+DESCRIPTION:
+[Description(name='Explanation', type_code=6, display_size=None, internal_size=None, precision=None, scale=None, null_ok=False)]
+RESULT:
+IR for the CPU:
+===============
+
+; Function Attrs: uwtable
+define void @query_group_by_template(i8** nocapture readnone %byte_stream, i8* nocapture readonly %literals, i64* nocapture readnone %row_count_ptr, i64* nocapture readonly %frag_row_off_ptr, i32* %max_matched_ptr, i64* %agg_init_val, i64** %group_by_buffers, i32 %frag_idx, i64* %join_hash_tables, i32* %total_matched, i32* %error_code) #22 {
+.entry:
+  %0 = getelementptr i8*, i8** %byte_stream, i32 0
+  %1 = load i8*, i8** %0
+  %row_count = load i64, i64* %row_count_ptr, align 8
+  %2 = load i32, i32* %max_matched_ptr, align 4
+  %crt_matched = alloca i32
+  %old_total_matched = alloca i32
+  %3 = call i32 @pos_start_impl(i32* %error_code)
+  %4 = call i32 @pos_step_impl()
+  %5 = call i32 @group_buff_idx_impl()
+  %6 = sext i32 %3 to i64
+  %7 = getelementptr i64*, i64** %group_by_buffers, i32 %5
+  %col_buffer = load i64*, i64** %7, align 8
+  %result_buffer = call i64* @init_shared_mem_nop(i64* %col_buffer, i32 0)
+  %8 = icmp slt i64 %6, %row_count
+  br i1 %8, label %.loop.preheader, label %.exit
+
+.loop.preheader:                                  ; preds = %.entry
+  %9 = sext i32 %4 to i64
+  br label %.forbody
+
+.forbody:                                         ; preds = %13, %.loop.preheader
+  %pos = phi i64 [ %6, %.loop.preheader ], [ %14, %13 ]
+  %10 = call i32 @row_func(i64* %result_buffer, i32* %crt_matched, i32* %total_matched, i32* %old_total_matched, i32* %max_matched_ptr, i64* %agg_init_val, i64 %pos, i64* %frag_row_off_ptr, i64* %row_count_ptr, i8* %literals, i8* %1, i64* %join_hash_tables)
+  %11 = call i32 @record_error_code(i32 %10, i32* %error_code)
+  %12 = icmp ne i32 %11, 0
+  br i1 %12, label %.error_exit, label %13
+
+.error_exit:                                      ; preds = %.forbody
+  ret void
+
+; <label>:13:                                     ; preds = %.forbody
+  %14 = add i64 %pos, %9
+  %15 = icmp slt i64 %14, %row_count
+  br i1 %15, label %.forbody, label %._crit_edge
+
+._crit_edge:                                      ; preds = %13
+  br label %.exit
+
+.exit:                                            ; preds = %._crit_edge, %.entry
+  call void @write_back_nop(i64* %col_buffer, i64* %result_buffer, i32 0)
+  ret void
+}
+
+; Function Attrs: alwaysinline
+define i32 @row_func(i64* %group_by_buff, i32* %crt_matched, i32* %total_matched, i32* %old_total_matched, i32* %max_matched, i64* %agg_init_val, i64 %pos, i64* %frag_row_off, i64* %num_rows_per_scan, i8* %literals, i8* %col_buf0, i64* %join_hash_tables) #23 {
+entry:
+  br i1 true, label %filter_true, label %filter_false
+
+filter_true:                                      ; preds = %entry
+  store i32 1, i32* %crt_matched
+  %0 = load i32, i32* %total_matched
+  %1 = add i32 %0, 1
+  store i32 %1, i32* %total_matched
+  store i32 %0, i32* %old_total_matched
+  %2 = load i32, i32* %old_total_matched
+  %3 = call i64* @get_scan_output_slot(i64* %group_by_buff, i32 16384, i32 %2, i64 %pos, i32 1)
+  %4 = icmp ne i64* %3, null
+  br i1 %4, label %groupby_nullcheck_true, label %groupby_nullcheck_false
+
+filter_false:                                     ; preds = %groupby_nullcheck_true, %entry
+  ret i32 0
+
+groupby_nullcheck_true:                           ; preds = %filter_true
+  br label %filter_false
+
+groupby_nullcheck_false:                          ; preds = %filter_true
+  %5 = trunc i64 %pos to i32
+  %6 = sub i32 0, %5
+  ret i32 %6
+}
+
+PASSED  DROP TABLE IF EXISTS rbc_test_omnisci_udtf;
+thrift_call sql_execute('IQsQerBleY4X9BOORScbUk6e0mg7IVje', 'DROP TABLE IF EXISTS rbc_test_omnisci_udtf', True, '', -1, -1)
+
+
+=========================== 1 passed in 3.12 seconds ===========================
