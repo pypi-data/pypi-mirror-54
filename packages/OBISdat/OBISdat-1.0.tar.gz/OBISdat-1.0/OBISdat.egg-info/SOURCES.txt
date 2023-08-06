@@ -1,0 +1,8 @@
+README.md
+setup.py
+OBISdat.egg-info/PKG-INFO
+OBISdat.egg-info/SOURCES.txt
+OBISdat.egg-info/dependency_links.txt
+OBISdat.egg-info/top_level.txt
+src/__init__.py
+src/obis.py
