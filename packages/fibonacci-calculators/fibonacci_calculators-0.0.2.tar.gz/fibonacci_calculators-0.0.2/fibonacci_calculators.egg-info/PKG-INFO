@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fibonacci-calculators
+Version: 0.0.2
+Summary: A package to calculate fibonacci number
+Home-page: https://github.com/leon0707/fibonacci-calculators
+Author: Leon Feng
+Author-email: leonlibinfeng@gmail.com
+License: UNKNOWN
+Description: # fibonacci_calculators
+        Provide two different ways to calculate fibonacci
+        
+        ## install
+        ```shell
+        pip install fibonacci_calculators
+        ```
+        
+        ## use
+        ```python
+        from fibonacci_calculators import fib_dfs, fib_dp
+        print(fibonacci_dfs(5))
+        print(fibonacci_dp(5))
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 2.7, >=3.6
+Description-Content-Type: text/markdown
