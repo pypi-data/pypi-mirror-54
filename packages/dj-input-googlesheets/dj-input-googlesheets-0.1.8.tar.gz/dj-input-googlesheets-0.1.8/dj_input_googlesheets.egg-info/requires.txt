@@ -1,0 +1,4 @@
+requests
+dj-oauth-clients>=0.1.3
+dj-input-flow
+pygsheets
