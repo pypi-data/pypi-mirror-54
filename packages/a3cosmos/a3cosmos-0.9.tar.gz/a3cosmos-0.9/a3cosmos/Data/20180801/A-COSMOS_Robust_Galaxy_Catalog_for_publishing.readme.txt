@@ -1,0 +1,3 @@
+A3COSMOS DataSet_v20180801
+Robust galaxy catalog 
+/Users/dzliu/Work/AlmaCosmos/Samples/DataSet_v20180801/20181203/datatable_ID_RA_Dec_z_Mstar_SFR_sSFR_with_deltaGas.fits
