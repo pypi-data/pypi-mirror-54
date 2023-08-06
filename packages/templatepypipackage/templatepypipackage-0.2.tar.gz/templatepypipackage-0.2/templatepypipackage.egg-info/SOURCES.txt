@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/setup-pypi-package
+templatepypipackage/__init__.py
+templatepypipackage/logger.py
+templatepypipackage/setupper.py
+templatepypipackage/utils.py
+templatepypipackage.egg-info/PKG-INFO
+templatepypipackage.egg-info/SOURCES.txt
+templatepypipackage.egg-info/dependency_links.txt
+templatepypipackage.egg-info/not-zip-safe
+templatepypipackage.egg-info/top_level.txt
+templatepypipackage/input/gitignore.txt
