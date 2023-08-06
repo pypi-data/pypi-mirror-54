@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pixiv-dl
+Version: 0.4.0
+Summary: A tool to download from pixiv
+Home-page: https://github.com/Fuyukai/pixiv-dl
+License: GPL-3.0-or-later
+Author: Laura F Dickinson
+Author-email: l@veriny.tf
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: filter
+Requires-Dist: arrow (>=0.15.2,<0.16.0)
+Requires-Dist: jq (>=0.1.6,<0.2.0); extra == "filter"
+Requires-Dist: pixivpy (>=3.5.0,<4.0.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Requires-Dist: tomlkit (>=0.5.8,<0.6.0)
+Project-URL: Repository, https://github.com/Fuyukai/pixiv-dl
+Description-Content-Type: text/x-rst
+
+pixiv-dl
+========
+
+A simple tool to automatically download stuff from pixiv.
+
+Usage
+-----
+
+.. code-block::
+
+    usage: pixiv-dl [-h] [-u USERNAME] [-p PASSWORD] [-o OUTPUT] [--allow-r18]
+                    [--min-lewd-level MIN_LEWD_LEVEL]
+                    [--max-lewd-level MAX_LEWD_LEVEL] [--filter-tag FILTER_TAG]
+                    [--require-tag REQUIRE_TAG] [--min-bookmarks MIN_BOOKMARKS]
+                    [--max-bookmarks MAX_BOOKMARKS] [--max-pages MAX_PAGES]
+                    {bookmarks,following,mirror,tag} ...
+
+    A pixiv downloader tool. This can download your bookmarks, your following
+    feed, whole user accounts, etc.
+
+    positional arguments:
+      {bookmarks,following,mirror,tag}
+        bookmarks           Download bookmarks
+        following           Download all following
+        mirror              Mirror a user
+        tag                 Download works with a tag
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -u USERNAME, --username USERNAME
+                            Your pixiv username
+      -p PASSWORD, --password PASSWORD
+                            Your pixiv password
+      -o OUTPUT, --output OUTPUT
+                            The output directory for the command to run
+      --allow-r18           If R-18 works should also be downloaded
+      --min-lewd-level MIN_LEWD_LEVEL
+                            The minimum 'lewd level'
+      --max-lewd-level MAX_LEWD_LEVEL
+                            The maximum 'lewd level'
+      --filter-tag FILTER_TAG
+                            Ignore any illustrations with this tag
+      --require-tag REQUIRE_TAG
+                            Require illustrations to have this tag
+      --min-bookmarks MIN_BOOKMARKS
+                            Minimum number of bookmarks
+      --max-bookmarks MAX_BOOKMARKS
+                            Maximum number of bookmarks
+      --max-pages MAX_PAGES
+                            Maximum number of pages
+
+
