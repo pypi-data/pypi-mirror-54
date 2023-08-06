@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: gearbest-api
+Version: 0.0.3
+Summary: Retrieve info from gearbest api.
+Home-page: https://github.com/matteobaldelli/python-gearbest-api
+Author: Matteo Baldelli
+Author-email: baldelli.matteo2@google.com
+License: MIT
+Description: # Gearbest Api
+        [![codecov](https://codecov.io/gh/matteobaldelli/python-gearbest-api/branch/master/graph/badge.svg)](https://codecov.io/gh/matteobaldelli/python-gearbest-api)
+        
+        A simple wrapper for gearbest api in python
+        
+        ## Installing
+        ```
+        $ pipenv install gearbest-api
+        ```
+        
+        ## A Simple Example
+        ```
+        from gearbest_api import GearbestApi
+        
+        gearbest_api = GearbestApi(api_key=1234, api_secret='secret')
+        gearbest_api.get_app_exclusive_price_product()
+        
+        ```
+        
+        ## License
+        
+        This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
