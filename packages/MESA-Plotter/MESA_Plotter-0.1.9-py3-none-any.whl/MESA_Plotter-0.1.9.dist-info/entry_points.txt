@@ -1,0 +1,3 @@
+[console_scripts]
+MESA_Plotter = MESA_Plotter.__main__:main
+
