@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: matomo-sdk-py
+Version: 0.1.0
+Summary: Python SDK to send POST http requests to matomo
+Home-page: https://gitlab.com/autofitcloud/matomoSdkPy
+Author: Shadi Akiki, AutofitCloud
+Author-email: shadi@autofitcloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.22.0)
+
+Check repository link
+
+
