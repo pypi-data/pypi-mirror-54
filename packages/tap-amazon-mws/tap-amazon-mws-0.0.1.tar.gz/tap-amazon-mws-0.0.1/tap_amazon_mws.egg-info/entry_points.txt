@@ -1,0 +1,4 @@
+
+          [console_scripts]
+          tap-amazon-mws=tap_amazon_mws:main
+      
