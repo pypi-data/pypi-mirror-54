@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: wfp
+Version: 1.4.0
+Summary: A proxy application for kubeflow pipeline
+Home-page: http://www.yunanbao.com.cn
+Author: wangab
+Author-email: wangab@yunanbao.com.cn
+License: UNKNOWN
+Description: A proxy application for kubeflow pipeline
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
