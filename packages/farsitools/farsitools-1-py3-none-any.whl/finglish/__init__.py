@@ -1,0 +1,1 @@
+from finglish.PersianTools import convert_farsi_char_to_english
