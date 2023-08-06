@@ -1,0 +1,14 @@
+ganify/__init__.py,sha256=R66vYZRUXFX0iSzCP2JUpJ4u-No6wkTrzTY6TDtLGCQ,256
+ganify/model.py,sha256=sROBptPCeddk2cHfBUXnaPi2Hd0bgc0hqCXUZHw0e-0,7148
+ganify/test-ganify.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ganify/discriminator/__init__.py,sha256=NpkxijO32vZVzUwqvNXwau62bgVIUj1fn0COmppxsKk,135
+ganify/discriminator/critic.py,sha256=uXHTaFyo-O2JvCjwsyLvPTKiV-wjFWqgZZJYFojVIZU,1325
+ganify/discriminator/discriminator.py,sha256=O_bruj0bQ4S0-4PVM_OMipseq7MrvV1Txms2WZsPgj0,1373
+ganify/generator/__init__.py,sha256=UIt5V6T48XDOvte7JL4lQJ0JW51sj5Sj2HVGAVPE4Ps,75
+ganify/generator/generator.py,sha256=4mQ1xmtpw4VwfRJcHhPziGv-QenNkF7nHEBIlqMsNn4,1126
+ganify/utilities/__init__.py,sha256=zeKDZLnzW04Q6vNoS272LTRdnUefho607MZ-8sq7vWs,63
+ganify/utilities/utils.py,sha256=eXV9f-SvTHJR6VqBJYaf2CTy6E5awoEvXtTtq229ZTo,1258
+ganify-1.0.8.dist-info/METADATA,sha256=gVfhcGSr3GO29d3OeCASbBxFmNm-5o8zsKUFOSNNHzo,598
+ganify-1.0.8.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+ganify-1.0.8.dist-info/top_level.txt,sha256=yYqWpxcH31YGGKMqZp1UX1GsoyMUY6xTvagnI8hzIN4,7
+ganify-1.0.8.dist-info/RECORD,,
