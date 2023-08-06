@@ -1,0 +1,14 @@
+README.md
+setup.py
+cicdwithtravis.egg-info/PKG-INFO
+cicdwithtravis.egg-info/SOURCES.txt
+cicdwithtravis.egg-info/dependency_links.txt
+cicdwithtravis.egg-info/entry_points.txt
+cicdwithtravis.egg-info/top_level.txt
+qa/__init__.py
+qa/app.py
+qa/edit_distance.py
+qa/parsedata.py
+qa/dataset/Answers.txt
+qa/dataset/Questions.txt
+qa/dataset/Topics.txt
