@@ -1,0 +1,9 @@
+artellapipe
+py-cpuinfo
+gputil
+
+[dev]
+wheel
+
+[test]
+pytest
