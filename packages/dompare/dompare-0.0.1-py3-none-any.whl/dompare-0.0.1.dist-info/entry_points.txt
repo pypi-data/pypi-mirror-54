@@ -1,0 +1,3 @@
+[console_scripts]
+dompare = dompare.__init__:main
+
