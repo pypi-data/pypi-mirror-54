@@ -1,0 +1,12 @@
+barbatruc/__init__.py,sha256=56178JHq22P30mMqzDyUxMmSIU5r_crT-waqw9BS3Vc,316
+barbatruc/fd_ns_2d.py,sha256=IFg8AzQuCRuOzHxxbGCqF6GnRexwv6I7cl0fkfDMOJw,6483
+barbatruc/fd_operators.py,sha256=bDGwRUg4Gco4SjhhL_-hfjgtrF5FoITmYWnS8RVAzgE,2941
+barbatruc/fluid_domain.py,sha256=jQqkb6EkS3kGp5WyfCeSWrXkGnwQisPvQgTj6xSeTnA,8627
+examples/__init__.py,sha256=Y3EDlencLjNxaixllfy4rmy4xIO4tvgRCm5yrKtgjlY,139
+examples/pollution_ns.py,sha256=Z6o8fX6Dj33PhzVieJ-L9D7c-VZ2zW6FuppGZVAAFmI,1067
+examples/smurf_test.py,sha256=dJC2bytbvG0KHNh_8NDAF_s0Gm4Rn20I7y5YJJoy-lg,2531
+barbatruc-0.0.2.dist-info/LICENSE,sha256=IYRO2dy8tmKRIjcdxRWiJ4J2kryHDbWALfh9Iwkq0k0,1611
+barbatruc-0.0.2.dist-info/METADATA,sha256=QO9m1-x8rpkxUIFCJ3P4WeHpHJ2yqrHMVKQd7LhTxo8,2423
+barbatruc-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+barbatruc-0.0.2.dist-info/top_level.txt,sha256=9G9gO5I5nKX8cYOr5Po7k7X7mIqhLzM713CBgRKZ0XU,19
+barbatruc-0.0.2.dist-info/RECORD,,
