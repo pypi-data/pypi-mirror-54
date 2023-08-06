@@ -1,0 +1,112 @@
+1.3.3
+=====
+
+* SSL certificate support
+* More doc
+* Fixed on_load schema validation
+* Gevent, monkey patcjing breaks python's multi=processing. Removed grequests as the default, back to requests.
+* Removed grequests and gevent as hard dependencies. Added explicit error messages, to prompt users can install them if needed.
+* Jwauth is not in it's own file
+* Generic rest call to database support (action) for connection, database.
+* Foxx support
+* Tasks create, delete, fetch support
+
+1.3.2
+=====
+
+* Validation bug fixes
+* New Numeric, Int, Bool, String, Enumeration, Range validators
+* Fields can have default values
+* When creationg a new document, Collection will serve one populated with defaults
+* stastd support thx to: @dothebart
+* properties definition in schema
+* AQL errors now come with prints and line numbers for everyone's convenience
+* Bulk save for Document objects and dicts
+
+1.3.1
+=====
+
+* Will die gracefully if server response is empty
+* getStore and getPatches shorthands added to Document
+
+1.3.0
+=====
+
+* Fixed nested store patch update
+* REFACT: New DocumentStore class for taking care of storing document in a hierarchy of stores (nested objects) and validate them
+* Minor bug fixes
+
+1.2.9
+=====
+
+* Added bulk import to connection
+* Added binvars to explain
+
+1.2.8
+=====
+
+* BugFix: recursive field validation
+* BugFix: fullCount option now works
+* Length validator will raise a ValidationError if value has no length
+* users can now specify custon json encoders
+
+1.2.7
+=====
+
+* Fixed connection reuse
+
+1.2.6
+=====
+
+* Fixed Cache
+
+* Cache now exposes document store and attributes transparently
+
+1.2.5
+=====
+
+* Added getter for users
+
+* Edges back compatibility with 2.8 solved "_from" "_to" are no longer foreign fields, ._from ._to work again
+
+* Calls to json() now print the request's content upon failure.
+
+
+1.2.4
+=====
+
+* missing import in collections.py added
+
+1.2.3
+=====
+
+* Some more meaningful error messages
+
+1.2.2
+======
+
+* Cross python support for iterators
+
+1.2.1
+======
+
+* Cross python support for metclasses
+
+1.2.0
+======
+
+* Support for python 3, does not support python 2.7 yet.
+* Test root password and username can be defined in environement variables.
+
+1.1.0
+======
+
+* Support for ArangoDB 3.X, pyArango no longer supports 2.X versions
+* Support for authentication
+* User support added
+* Adedd AikidoSession to seemlessly manage request sessions
+* AikidoSession stores basic stats about the requests
+* AikidoSession detects 401 errors and notifies the user that authentication is required
+* AikidoSession detects connection errors and notifies the user that arango is probably not running
+* save() and patch() functions now empty _patchStore is succesfull
+* Added free key word arguments for the creation of AQL Queries
