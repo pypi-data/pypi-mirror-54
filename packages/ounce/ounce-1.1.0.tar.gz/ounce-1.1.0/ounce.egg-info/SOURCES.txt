@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ounce/__init__.py
+ounce/core.py
+ounce/package_version.py
+ounce.egg-info/PKG-INFO
+ounce.egg-info/SOURCES.txt
+ounce.egg-info/dependency_links.txt
+ounce.egg-info/top_level.txt
