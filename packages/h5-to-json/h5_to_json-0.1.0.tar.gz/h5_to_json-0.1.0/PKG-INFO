@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: h5_to_json
+Version: 0.1.0
+Summary: Represent .hdf5 files in .json format - derived from https://github.com/HDFGroup/hdf5-json
+Home-page: UNKNOWN
+Author: Jeremy Magland
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
