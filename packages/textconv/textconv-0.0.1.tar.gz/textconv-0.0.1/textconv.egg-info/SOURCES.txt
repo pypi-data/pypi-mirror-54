@@ -1,0 +1,10 @@
+README.md
+setup.py
+textconv/__init__.py
+textconv/text.py
+textconv.egg-info/PKG-INFO
+textconv.egg-info/SOURCES.txt
+textconv.egg-info/dependency_links.txt
+textconv.egg-info/top_level.txt
+textconv/tests/__init__.py
+textconv/tests/test_textconv.py
