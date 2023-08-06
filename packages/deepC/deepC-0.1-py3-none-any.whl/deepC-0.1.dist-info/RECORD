@@ -1,0 +1,15 @@
+deepC/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepC/_dnnc.so,sha256=y3ddvk_9cDiSjYPIvPgFfFkCdMAhk_FAvxRuVmeWIdo,11510448
+deepC/dnnc.py,sha256=DQo4QzK1jy-JNlygD_sYX-1JAmPM8gdDOujf4SWpKCA,485522
+deepC/op_gen.py,sha256=J6qtJpNqB7JZgSiG6Fmqy_TO3NMfn2eNo2d6s267YZI,15870
+deepC/setup.py,sha256=nugwZkgRX8PE3eCl0IkwWTx93dJDzohfoeSq3psUXnk,3422
+deepC/tensor_interface_helper.py,sha256=FhmO9dQeFt7JU9ID4Ms2hZ3vv8RZYLgzL0WLLy0IwCw,5569
+deepC/scripts/onnx2cpp.py,sha256=zjhQLyLCY7W-RmsalktI4yRP23YQVCSXBdChONOQCAE,2206
+deepC/scripts/onnx2exe.py,sha256=uIogDzXqHgHfNsTEJ7gEU-_16KO7nlGv3rATfq77Yas,1731
+deepC/scripts/read_onnx.py,sha256=VKqJWgBACsIlBsxkY769ZPU97_NWYD8uRaMb5Sm8VcU,19461
+deepC-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+deepC-0.1.dist-info/METADATA,sha256=nbQPGvEcibaGDYA-XgwyWmbQM1jF63yy_JhyOCvX_S0,5152
+deepC-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+deepC-0.1.dist-info/entry_points.txt,sha256=4br8rOrj-Wj49QNdZTORkpnBdXtienGM7_rluiwC5G8,101
+deepC-0.1.dist-info/top_level.txt,sha256=AyoH1pOIzGfwWeEZPF_5Y1z4KEbng9FfAxSOThakL9M,6
+deepC-0.1.dist-info/RECORD,,

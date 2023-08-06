@@ -1,0 +1,4 @@
+[console_scripts]
+compile-onnx = deepC.scripts.onnx2exe:main
+onnx-cpp = deepC.scripts.onnx2cpp:main
+
