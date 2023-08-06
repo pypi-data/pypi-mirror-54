@@ -1,0 +1,13 @@
+cspybase/__init__.py,sha256=boJocGU9Y5zkrb3iRhefFw67oIXr7-xppVxlLHEb7_U,133
+cspybase/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cspybase/core/access.py,sha256=fy9FIhTi_OYgIpjaIDgTOT4rIWanXJnkqOsQZHxgx6Y,632
+cspybase/core/connection.py,sha256=711axeRANh9maxsru5-8GZIVVAmGqdvUxwdpTkA7pVY,6428
+cspybase/core/exception.py,sha256=8jWQmLRMiocwT6lg2QXP32A8Hjx0FFW_IuyBQFnbXsM,597
+cspybase/core/object.py,sha256=XhnKmBIDjU86-bKiP1ht9cqSM57QowvsunXXCVailPI,2546
+cspybase-0.3.0.dist-info/DESCRIPTION.rst,sha256=9wAjflDb6JJ-RKZE1lgdlMBXzkBxDHhFJMGcM0XfwBI,244
+cspybase-0.3.0.dist-info/METADATA,sha256=8xkiwV7tiHmGdg5gg6bQEQuiejTRPwuvRk7ruYwyKpI,1000
+cspybase-0.3.0.dist-info/RECORD,,
+cspybase-0.3.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+cspybase-0.3.0.dist-info/entry_points.txt,sha256=jVBPUrDvYkTUNlAOm_XIbfkH3_1xAkHHGHiS9iyDHf0,277
+cspybase-0.3.0.dist-info/metadata.json,sha256=rLnjudEn0dV6LvGpgPWgTQVsRGCbmW3LFwWnXkMaiGA,1548
+cspybase-0.3.0.dist-info/top_level.txt,sha256=MZtbgR1DW9k7z77NEf276ELZYS31TAVbN2FZNLnes98,9
