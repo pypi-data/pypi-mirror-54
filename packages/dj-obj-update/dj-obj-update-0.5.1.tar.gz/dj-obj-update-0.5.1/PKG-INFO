@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: dj-obj-update
+Version: 0.5.1
+Summary: `dj-obj-update` helps you update an object but only saves if something changed.
+Home-page: https://github.com/crccheck/obj_update
+Author: Chris Chang
+Author-email: c@crccheck.com
