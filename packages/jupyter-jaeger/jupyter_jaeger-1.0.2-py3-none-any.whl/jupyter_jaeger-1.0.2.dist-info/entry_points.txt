@@ -1,0 +1,4 @@
+[jupyter_serverproxy_servers]
+jaeger=jupyter_jaeger:setup_jaeger_all
+jaeger_proxy=jupyter_jaeger:setup_jaeger_proxy
+
