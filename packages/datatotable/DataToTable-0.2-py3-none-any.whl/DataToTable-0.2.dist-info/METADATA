@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: DataToTable
+Version: 0.2
+Summary: Create SQLite database tables automatically from data
+Home-page: https://github.com/Spencer-Weston/DatatoTable
+Author: Spencer Weston
+Author-email: Spencerweston3214@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+# DatatoTable
+Generate SQLite tables automatically from input data
+
+
