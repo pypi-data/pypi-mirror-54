@@ -1,0 +1,9 @@
+migrator/__init__.py,sha256=KMpDEuTQuz_oCRvkEut3DmLWzWxqMwCiPKchOpZ5dMo,54
+migrator/dynamodb_migrator.py,sha256=A7Pss0kycb-xEjkAVcDyWbBZPgh4Nj69ni9SWCYkxgI,2212
+src/migrator/__init__.py,sha256=o6EY-7aFjIibA-llCLBlQFHZbSoNP1DCBMgeaQHGgL0,55
+src/migrator/dynamodb_migrator.py,sha256=aBoAMtIuSct9FfvR3UEvqOkOyGaBCp9Vh1UlX8KPQnA,3984
+dynamodb_migrator-0.0.3.dist-info/LICENSE,sha256=AR59JiSmhmxs7O3zSXPFJ__Nqq4na2_YrgFrxOSWfwE,1070
+dynamodb_migrator-0.0.3.dist-info/METADATA,sha256=Ka9CuSousqbej2VHDlWd3i-_2XUg8e_nBdcnUhmewxc,3899
+dynamodb_migrator-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dynamodb_migrator-0.0.3.dist-info/top_level.txt,sha256=OA_3fxjfdAtjoHmPa8p3l2ABAFHzyHfLLthWKFd30Bo,9
+dynamodb_migrator-0.0.3.dist-info/RECORD,,
