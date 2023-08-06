@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pydynaa
+Version: 0.0.1
+Summary: PyDynAA is a discrete event simulation engine
+Home-page: https://netsquid.org
+Author: TNO
+Author-email: rob.knegjens@tno.nl
+License: UNKNOWN
+Project-URL: Website, https://netsquid.org
+Keywords: simulator discrete event
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+PyDynAA
+=======
+
+_This package is a place holder for an upcoming public release of PyDynAA._
+
+Until the public release the latest version of this package is available from our private PYPI index _pypi.netsquid.org_.
+To install it using pip you should specify this index using the `--extra-index-url` option, for example:
+
+```shell
+pip3 install --user --extra-index-url https://<username>:<password>@pypi.netsquid.org pydynaa
+```
+where `<username>` and `<password>` need to be substituted with your credentials.
+
+
