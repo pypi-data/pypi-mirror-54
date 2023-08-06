@@ -1,0 +1,11 @@
+include *.txt
+include *.md
+include *.cfg
+exclude pyvenv.cfg
+exclude .installed.cfg
+
+recursive-include Products *
+recursive-include docs *
+
+global-exclude *.pyc
+global-exclude *.pyo
