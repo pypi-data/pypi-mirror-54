@@ -1,0 +1,16 @@
+shiv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shiv/builder.py,sha256=LqXjzh7obWpgkxaQnSUVrURahDrekhr3119dbtraM-M,3840
+shiv/cli.py,sha256=62eKg8VxOBQC6-j1urRhNglAdGmcQFNr7c12dsPJ3NU,5864
+shiv/constants.py,sha256=ICZo8gLOWlEjQZYu5HAHkUyb4vLuJ7R-HvDainzuFws,1158
+shiv/info.py,sha256=hrc7CsrLG96wBuS6hi3eKSbjcTB-xxPqZXQfq2wFrjk,883
+shiv/pip.py,sha256=PaV0xK2sbI_KPqeOyY8J82__ECl7UuciBLztBnPuZK8,1963
+shiv/bootstrap/__init__.py,sha256=oycIIrpOHEKu9rbXhUQii8eOrk9GV1L0qy4fTkwWYGo,6414
+shiv/bootstrap/environment.py,sha256=VkVp1jd0t8TVtrc7HfrvgX-1Hfwf0foSDXkWh_BOK9s,2496
+shiv/bootstrap/filelock.py,sha256=seMPxMbhBS2hVm9Wu6_UGIR85uV_16ct6Ki8UEoqd2w,2275
+shiv/bootstrap/interpreter.py,sha256=-tU16awsWmAfqKq_BKI9orAZfjGo7m9TOkmeLKcd03o,1495
+shiv-0.0.51.dist-info/LICENSE,sha256=reD8YvFISGJygxacODFsON7zoxS6dvMd9m-3_gki3Jk,1326
+shiv-0.0.51.dist-info/METADATA,sha256=DCzBFkAboBDbPSVrkRN2DtNcWESUGnMEjUZiB83GrC4,4228
+shiv-0.0.51.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+shiv-0.0.51.dist-info/entry_points.txt,sha256=wxVBOFyGUcq9Xi5u5etVLDFl5QpL105l3yxjyBE2l9k,67
+shiv-0.0.51.dist-info/top_level.txt,sha256=qsLSPSXqxW2zpe6arVEmAhxgbNClbNfuVZ7FcJW92U4,5
+shiv-0.0.51.dist-info/RECORD,,
