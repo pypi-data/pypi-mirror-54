@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+instalacjaczornytom.egg-info/PKG-INFO
+instalacjaczornytom.egg-info/SOURCES.txt
+instalacjaczornytom.egg-info/dependency_links.txt
+instalacjaczornytom.egg-info/top_level.txt
