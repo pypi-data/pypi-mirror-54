@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ex-tools
+Version: 0.1.0
+Summary: Tools that include/extend functools/itertools +alpha
+Home-page: https://github.com/yu-ichiro/ex-tools
+Author: Yuichiro Luke Smith
+Author-email: yuichiro.luke@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
