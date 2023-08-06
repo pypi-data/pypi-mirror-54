@@ -1,0 +1,25 @@
+# This is our new experiment file
+# Please note that you may override this settings in experiment configuration file
+declarations: 
+  net: 
+    body: 
+      - dense: [40,"tanh"]
+      - dense: [5,"relu"]    
+      - dense: [1,"sigmoid"]
+  preprocess: 
+    #Sequence of preprocesing operations  
+callbacks:
+architecture: net
+optimizer: adam 
+lr: 0.0001
+batch: 10
+testSplit: 0.2
+folds_count: 1
+metrics: [binary_accuracy, macro_f1  ]
+primary_metric: binary_accuracy 
+stages:
+  - epochs: 10
+dataset: #You need to feel it
+  getTitanic: []
+loss: binary_crossentropy
+dumpPredictionsToCSV: true 

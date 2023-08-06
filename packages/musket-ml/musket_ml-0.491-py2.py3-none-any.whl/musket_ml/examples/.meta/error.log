@@ -1,0 +1,3 @@
+Using TensorFlow backend.
+D:\Python36\lib\site-packages\classification_models\resnext\__init__.py:4: UserWarning: Current ResNext models are deprecated, use keras.applications ResNeXt models
+  warnings.warn('Current ResNext models are deprecated, '
