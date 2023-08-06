@@ -1,0 +1,4 @@
+1;letter_1.png;411850;300
+2;letter_2.png;4b2234;200
+3;letter_3.png;4e7858;400
+4;letter_4.png;489909;300
