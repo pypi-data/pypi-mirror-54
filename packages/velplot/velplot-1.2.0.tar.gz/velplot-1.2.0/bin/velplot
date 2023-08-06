@@ -1,0 +1,36 @@
+#!/usr/bin/env python
+import argparse
+from datetime import datetime
+from velplot import make_figure
+
+parser = argparse.ArgumentParser(prog='velplot',description='Velocity plot for quasar absorption line systems.')
+parser.add_argument("fortfile", help='Input fort.13 model.')
+parser.add_argument("--atom",metavar='',default='./atom.dat',help='Path to a custom atom.dat')
+parser.add_argument("--cont",action='store_true',help='Consider continuum FITS file')
+parser.add_argument("--details",action='store_true',help='Plot individual Voigt profiles')
+parser.add_argument("--dispersion",metavar='',default=0.01,type=float,help='Spectral velocity dispersion for high-resolution individual Voigt profiles (in km/s)')
+parser.add_argument("--dv",metavar='',type=float,nargs='*',help='Custom velocity range for plotting (in km/s)')
+parser.add_argument("--error",action='store_true',help='Run VPFIT only once to get error estimates')
+parser.add_argument("--extra",metavar='',help='Add vertical line to identify specific region. Multiple velocities can be specified by using the colon symbol (:) to separate the values')
+parser.add_argument("--fit",action='store_true',help='Run VPFIT and embed final results in fort.13')
+parser.add_argument("--getwave",action='store_true',help='Get wavelength array from the spectrum')
+parser.add_argument("--header",metavar='',help='List of transition IDs for each fitting region (default: embedded in the fort file)')
+parser.add_argument("--illcond",action='store_true',help='Run VPFIT with ill-conditioning')
+parser.add_argument("--ncols",metavar='',type=int,help='Number of columns in output figure')
+parser.add_argument("--nores",action='store_true',help='Do not plot the residuals')
+parser.add_argument("--nrows",metavar='',type=int,help='Number of rows in output figure')
+parser.add_argument("--output",metavar='',default=(datetime.now()).strftime('%y%m%d-%H%M%S'),help='Give custom output filename (default: date-time in yyyymmdd-HHMMSS format)')
+parser.add_argument("--posidx",metavar='',help='Input list of custom subplot position for transitions')
+parser.add_argument("--seaborn",action='store_true',help='Use seaborn plotting style')
+parser.add_argument("--pubstyle",action='store_true',help='Style for publication')
+parser.add_argument("--save2pdf",metavar='',type=int,default=1,help='Whether figure is saved to PDF (0: not saved, 1: saved in multi-page if needed, 2: saved in one page or custom plot)')
+parser.add_argument("--unscale",action='store_true',help='Do not correct the data, instead distort the model')
+parser.add_argument("--version",metavar='',default='vpfit',help='Path to a custom vpfit executable')
+parser.add_argument("--vpsetup",metavar='',default='./vp_setup.dat',help='Path to a custom vp_setup.dat (default: in current repository)')
+parser.add_argument("--zmid",metavar='',type=float,help='Central redshift to plot transitions')
+args = parser.parse_args()
+
+make_figure(args.fortfile,args.atom,args.details,args.dispersion,args.dv,args.error,args.extra,
+            args.fit,args.getwave,args.header,args.illcond,args.nores,args.output,args.save2pdf,
+            args.unscale,args.version,args.vpsetup,args.zmid,args.cont,args.ncols,args.nrows,
+            args.pubstyle,args.seaborn,args.posidx)
