@@ -1,0 +1,8 @@
+numpy
+
+[optional]
+astropy
+h5py
+iminuit
+pyemf
+sampy
