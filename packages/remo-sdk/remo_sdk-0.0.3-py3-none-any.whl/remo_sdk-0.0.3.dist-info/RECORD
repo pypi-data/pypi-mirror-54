@@ -1,0 +1,16 @@
+remo/__init__.py,sha256=hvcvqabwcbBYJLmhA5M8I1PvPhn8jqTpeyingXDQmW4,2958
+remo/api.py,sha256=HXQHxIbE2s_ph455a2EHsQe3jLOLoRkkm73iO-3r8rM,9246
+remo/config.py,sha256=ZW4WBimvujnkPPA4N7YZEyBaB_VxOc-UP58kPNhPO8E,976
+remo/sdk.py,sha256=cOx9hj7oOTrozbqnDKzRZw4sAayoCLWr2qEF9j2sPg4,7690
+remo/ui.py,sha256=JXQ5ARQBeZQwlqSZuW1ycRdfAKCw0mjZokZ5DJDhBNI,422
+remo/utils.py,sha256=gJYRF6Lm0tdjb9CtaS83rD41Ks-xuksFbnpBMsaa-W4,2483
+remo/domain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remo/domain/annotation_set.py,sha256=2RXw6KAg5hBbpNgXKZP22qZYnQM93L5a3mv1fedLmKk,866
+remo/domain/dataset.py,sha256=v-1Y6NChQFTVvlIvTtJApvWC7QU3lyj1OI0fRpe7jg4,3666
+remo/domain/interfaces.py,sha256=MYv4ZwigDO09LFos0oBYHmfIY0ZLV-LRtc7jnwJGlG8,398
+remo/domain/task.py,sha256=cBPhWe0nz7Pea-YpWsgu8K8Fw-cm1sb-KB_7Oc6pKfI,196
+remo_sdk-0.0.3.dist-info/LICENSE.txt,sha256=3pHFS_BotzfXq_609EPgSp3DFc8iEkXOluO7rlgz_SA,18435
+remo_sdk-0.0.3.dist-info/METADATA,sha256=dzAIcVg-SV-6HoeSPwRs4_2G0ybVWadDyWf095qkZ6Q,577
+remo_sdk-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+remo_sdk-0.0.3.dist-info/top_level.txt,sha256=-Tjiqwa55hyaArBOUC_qvCYKxGgO0-FkZHjpJLXe_lk,5
+remo_sdk-0.0.3.dist-info/RECORD,,
