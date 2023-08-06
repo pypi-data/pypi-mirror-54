@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyrfid
+Version: 1.2
+Summary: Python written library for an 125kHz RFID reader
+Home-page: http://www.pm-codeworks.de/pyrfid.html
+Author: Philipp Meisberger
+Author-email: team@pm-codeworks.de
+License: D-FSL
+Platform: UNKNOWN
+Requires-Dist: pyserial
+
+UNKNOWN
+
+
