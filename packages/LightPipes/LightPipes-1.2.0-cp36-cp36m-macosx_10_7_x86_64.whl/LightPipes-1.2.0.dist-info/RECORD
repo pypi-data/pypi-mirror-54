@@ -1,0 +1,11 @@
+LightPipes-1.2.0.dist-info/RECORD,,
+LightPipes-1.2.0.dist-info/metadata.json,sha256=DJmqzTA8UC-A_FD6LZIYPq8tSAGX5L11caKsXtHrba8,737
+LightPipes-1.2.0.dist-info/WHEEL,sha256=74RyQNQ88rBYFsd2n9fSga6HOET28X3dMSV592JcRcw,110
+LightPipes-1.2.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+LightPipes-1.2.0.dist-info/top_level.txt,sha256=FbLuUkH7cEVHX5aAYy6IwhXU5igjn6d54dZZfWXVV60,11
+LightPipes-1.2.0.dist-info/METADATA,sha256=D0Ggqa3fs0I-2hIOMaqFUC5ZEwdo1HHVU2FvU5Nm_z8,579
+LightPipes/_version.py,sha256=EC4J1WCRNbur19qU-_rvaR6FXNDwZwpfyqCichJKmVQ,23
+LightPipes/__init__.py,sha256=-4HK32dIbal_hDHFECdOwbmMXDjJVDlnLiJCs-yykEI,1421
+LightPipes/_LightPipes.cpython-36m-darwin.so,sha256=Mms3rQP-K9IFxyBmvoeaGoDtHEXr2DnSZIGf-8eFgUk,389420
+LightPipes/TEST-Young.py,sha256=eMH12SDBNZuAQ-Qk2nKbedvF6mg9tIDIQhDYAM6okBI,809
+LightPipes/.dylibs/libfftw3.3.dylib,sha256=VBp9U76LxcwPqXvIi_bPe5lUSQPBAMCZ6iNeqH9e6_c,1483996
