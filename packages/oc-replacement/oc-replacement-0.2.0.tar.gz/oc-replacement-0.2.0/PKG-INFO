@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: oc-replacement
+Version: 0.2.0
+Summary: A replacement for the OAuth flow for interacting with OpenShift-based Kubernetes clusters
+Home-page: https://github.com/thelonelyghost/oc-auth
+Author: David Alexander
+Author-email: opensource@thelonelyghost.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: dev

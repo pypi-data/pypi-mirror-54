@@ -1,0 +1,15 @@
+README.md
+setup.py
+oc_auth/__init__.py
+oc_auth/http.py
+oc_auth/kube_config.py
+oc_auth/cli/__init__.py
+oc_auth/cli/_base.py
+oc_auth/cli/main.py
+oc_replacement.egg-info/PKG-INFO
+oc_replacement.egg-info/SOURCES.txt
+oc_replacement.egg-info/dependency_links.txt
+oc_replacement.egg-info/entry_points.txt
+oc_replacement.egg-info/requires.txt
+oc_replacement.egg-info/top_level.txt
+oc_replacement.egg-info/zip-safe
