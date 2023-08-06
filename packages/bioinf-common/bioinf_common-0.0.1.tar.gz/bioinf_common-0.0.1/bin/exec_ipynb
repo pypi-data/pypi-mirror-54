@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+
+import os
+import sys
+import argparse
+
+from bioinf_common.tools import execute_notebook
+
+
+def main() -> None:
+    # parse arguments
+    parser = argparse.ArgumentParser(description='Execute notebook')
+    parser.add_argument(
+        'notebook',
+        help='notebook to execute')
+    parser.add_argument(
+        '--allow-errors', action='store_true',
+        help='continue even when errors occur')
+    parser.add_argument(
+        '--inplace', action='store_true',
+        help='save executed notebook')
+
+    args = parser.parse_args()
+
+    # execute
+    execute_notebook(
+        args.notebook,
+        allow_errors=args.allow_errors, inplace=args.inplace)
+
+
+if __name__ == '__main__':
+    main()
