@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: nutcracker
+Version: 0.3.1
+Summary: Tools for editing resources in SCUMM games.
+Home-page: https://github.com/blooperz/nutcracker
+Author: Niv Baehr (BLooperZ)
+License: UNKNOWN
+Description: # NUTCracker
+        Tools for editing resources in SCUMM games.
+        
+        ## Usage
+        ### Decoding
+        Decode given font file (NUT_FILE)
+        ```
+        nutcracker.py -d NUT_FILE
+        ```
+        This will result in NUT_FILE.PNG font image which can be edited using regular image editing software (e.g. GIMP)
+        
+        ### Encoding
+        Encode given font image (PNG_FILE) with given codec number (CODEC)
+        ```
+        nutcracker.py -e PNG_FILE CODEC
+        ```
+        This will convert font image file back to font file which can be used in game
+        
+        Available codecs: 
+        * 21 (FT)
+        * 44 (COMI*)
+        
+        *FONT3.NUT was actually encoded using codec 21 method. it can be forced using `-f CODEC`:
+        ```
+        nutcracker.py -e FONT3.NUT.PNG 44 -f 21
+        ```
+        
+        see more examples in [cmds.txt](cmds.txt)
+        
+Keywords: game resource edit extract parse chunk index scumm sputm smush lucasarts humongous entertainment
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
