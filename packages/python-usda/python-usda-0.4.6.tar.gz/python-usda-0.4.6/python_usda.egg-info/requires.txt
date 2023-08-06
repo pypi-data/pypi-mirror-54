@@ -1,0 +1,11 @@
+requests>=2.16.0
+
+[dev]
+pytest
+pytest-cov
+pytest-runner
+httmock
+flake8>=3.5
+doc8>=0.8
+codecov
+Sphinx>=1.8.1

@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: python-usda
+Version: 0.4.6
+Summary: A fork of pygov focused on USDA nutritional database API
+Home-page: https://gitlab.com/Lucidiot/python-usda
+Author: Lucidiot
+License: GNU General Public License 3
+Project-URL: Source Code, https://gitlab.com/Lucidiot/python-usda
+Project-URL: GitHub Mirror, https://github.com/Lucidiot/python-usda
+Project-URL: Gitter Chat, https://gitter.im/BrainshitPseudoScience/Lobby
+Description: python-usda
+        ===========
+        
+           ⚠️ Since October 1, 2019, the APIs this package relies on have been
+           deprecated. python-usda 1.x will remove those APIs and rely on the new
+           `Food Data Central`_ APIs.
+        
+        python-usda is a fork of `pygov`_ focused on
+        `USDA's Food Composition Database API <usda>`_.
+        Have a look at the `documentation`_!
+        
+        Setup
+        -----
+        
+        ::
+        
+          pip install python-usda
+        
+        Usage
+        -----
+        
+        .. code:: python
+        
+           from usda.client import UsdaClient
+        
+           client = UsdaClient("YOUR_API_KEY")
+           foods = client.list_foods(5)
+        
+           for food in foods:
+               print(food.name)
+        
+        Result::
+        
+           Abiyuch, raw
+           Acerola juice, raw
+           Acerola, (west indian cherry), raw
+           Acorn stew (Apache)
+           Agave, cooked (Southwest)
+        
+        .. _Food Data Central: https://fdc.nal.usda.gov/api-guide.html
+        .. _pygov: https://pypi.org/project/pygov/
+        .. _usda: http://ndb.nal.usda.gov/ndb/doc/
+        .. _documentation: https://lucidiot.gitlab.io/python-usda/
+        
+Keywords: api usda nutrition food
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
