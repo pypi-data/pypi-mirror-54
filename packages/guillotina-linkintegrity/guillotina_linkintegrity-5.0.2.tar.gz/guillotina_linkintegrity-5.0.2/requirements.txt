@@ -1,0 +1,4 @@
+guillotina>=5.0.0a5
+aioredis
+pypika
+lxml
