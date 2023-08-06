@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/lgplibdemo/__init__.py
+src/lgplibdemo/demo_library2.py
+src/lgplibdemo/lgpdemo.py
+src/lgplibdemo.egg-info/PKG-INFO
+src/lgplibdemo.egg-info/SOURCES.txt
+src/lgplibdemo.egg-info/dependency_links.txt
+src/lgplibdemo.egg-info/top_level.txt
