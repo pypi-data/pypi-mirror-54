@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: Interclip
+Version: 0.1
+Summary: Interclip API functionality
+Home-page: https://github.com/aperta-principium/Interclip/
+Author: Filip Troníček
+Author-email: filip.tronicek@seznam.cz
+License: MIT
+Description: # Interclip-python
+        [![BCH compliance](https://bettercodehub.com/edge/badge/aperta-principium/Interclip-python?branch=master)](https://bettercodehub.com/)
+        
+         A little python program that uses the Interclip public API
+        
+Platform: UNKNOWN

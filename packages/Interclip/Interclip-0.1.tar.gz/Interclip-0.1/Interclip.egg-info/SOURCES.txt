@@ -1,0 +1,7 @@
+README.md
+setup.py
+Interclip.egg-info/PKG-INFO
+Interclip.egg-info/SOURCES.txt
+Interclip.egg-info/dependency_links.txt
+Interclip.egg-info/not-zip-safe
+Interclip.egg-info/top_level.txt
