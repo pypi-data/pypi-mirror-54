@@ -1,0 +1,11 @@
+README.md
+setup.py
+traits_finder/Traits_MG.py
+traits_finder/Traits_WG.py
+traits_finder/__init__.py
+traits_finder/__main__.py
+traits_finder.egg-info/PKG-INFO
+traits_finder.egg-info/SOURCES.txt
+traits_finder.egg-info/dependency_links.txt
+traits_finder.egg-info/entry_points.txt
+traits_finder.egg-info/top_level.txt
