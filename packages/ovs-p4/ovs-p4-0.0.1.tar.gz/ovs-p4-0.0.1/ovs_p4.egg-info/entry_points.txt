@@ -1,0 +1,4 @@
+[console_scripts]
+ovs-p4ctl = p4_ctl.p4_ctl:main
+ovs-p4srv = ovs_p4.ovs_p4:main
+
