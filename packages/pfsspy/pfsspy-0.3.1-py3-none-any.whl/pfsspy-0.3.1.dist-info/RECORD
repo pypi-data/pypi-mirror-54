@@ -1,0 +1,12 @@
+pfsspy/__init__.py,sha256=TLtJidlKr-vHQvj_ak_dq5_92Sq3LBpaG40IyGibZfg,20744
+pfsspy/_version.py,sha256=N9cg5g-VQgLpgm330c3H3j9BX3J3Eddk2SS990MGxr0,497
+pfsspy/coords.py,sha256=X3087roYAfdIpjmR3yGOi3G_HVPhDA2GdekXnlCvjEw,1298
+pfsspy/fieldline.py,sha256=yUfc9P2aR4FgWF2YVloZ-vCTlh5A2WJxLPZ3saRq0oE,8103
+pfsspy/interpolator.py,sha256=w2p4iWJoExMCKFMv7nKNtrHqql74C54C7XGCMP_aQuk,5565
+pfsspy/plot.py,sha256=i0s2hdith_mLmHp_6XVLNQ6iEN7D5EB2uVrLbSaeol0,1139
+pfsspy/tracing.py,sha256=JRf8CRy9wHwYvTJDftI7JCte_WV_Dgd9NXLh4HLXtBA,2281
+pfsspy-0.3.1.dist-info/LICENSE,sha256=TC_6ubYJdEqU7z1opeWUT_koxvjzWAYQSTl8-A2nHqM,35288
+pfsspy-0.3.1.dist-info/METADATA,sha256=Z9XVnZmtqT7wj-rrNvg0teE2ymr1raa49Jg1vNxN00E,660
+pfsspy-0.3.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pfsspy-0.3.1.dist-info/top_level.txt,sha256=5Guj9NoLVpfAJ165p0xdv2oNVa43zLXMHWjH_3VkWzE,7
+pfsspy-0.3.1.dist-info/RECORD,,
