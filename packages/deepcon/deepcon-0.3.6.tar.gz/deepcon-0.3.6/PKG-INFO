@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: deepcon
+Version: 0.3.6
+Summary: Protein Contact Prediction using Dilated Convolutional Neural Networks with Dropout
+Home-page: https://github.com/ba-lab/deepcon-package
+Author: Badri Adhikari
+Author-email: adhikarib@umsl.edu
+License: UNKNOWN
+Description: # Deepcon-package
+        Python package for the DEEPCON contact prediction tool at https://github.com/ba-lab/DEEPCON
+        
+        ## How to install DEEPCON package?
+        ```bash
+        pip3 install deepcon
+        ```
+        ## How to test DEEPCON package?
+        ```bash
+        wget https://raw.githubusercontent.com/ba-lab/deepcon-package/master/deepcon/test/1a0tP0.aln
+        ```
+        ```bash
+        python3
+        ```
+        ```python
+        import deepcon
+        from deepcon import deepconcovariance
+        deepconcovariance.main("1a0tP0.aln","1a0tP0.rr")
+        ```
+        To print the contact map as image, add the image name as the last parameter (optional)
+        ```
+        deepconcovariance.main("1a0tP0.aln","1a0tP0.rr", "1a0tP0.png")
+        ```
+        Example contact map as an image:
+        ![](1a0tP0.png)
+        
+        ### Python package developed by:
+        Chase Richards<br/>
+        Email: CNRichards@gmail.com
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
