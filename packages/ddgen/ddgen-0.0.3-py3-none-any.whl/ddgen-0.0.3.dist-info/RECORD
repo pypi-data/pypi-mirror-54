@@ -1,0 +1,9 @@
+ddgen/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+ddgen/db/jar/h2-1.4.199.jar,sha256=MSWhZ0O8a0z7thq7p4MgPx-2gjCqD9yXiY95b5ml1C4,2178179
+ddgen/utils/data/hg19.dict,sha256=FBFkQqg5v7VRTZ3dQvYH20Vg9SzeoA4i5ledEQYTvZs,10271
+ddgen/utils/data/hg38.dict,sha256=wSLoJvV1VGnqMlvsf0n-_w-7uO5fCPlorsCaxI3csAA,52190
+ddgen-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ddgen-0.0.3.dist-info/METADATA,sha256=NOu2Qfmb14e5XNIW-aJ1wRLOVeycVi10cG8KiUH6lfk,1861
+ddgen-0.0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+ddgen-0.0.3.dist-info/top_level.txt,sha256=Haey5iqLiYP4WOgt59Rfg96RHq0y1CgpDsEz_9ClqLg,6
+ddgen-0.0.3.dist-info/RECORD,,
