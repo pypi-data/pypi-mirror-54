@@ -1,0 +1,20 @@
+mount_web_app: false
+web_app_mount_point: /web
+mount_graphql: false
+graphql_mount_point: /graphql
+
+request:
+  max_count: 100
+  default_count: 10
+
+web_app:
+  mount: false
+  route: /graphql
+
+graphql:
+  mount: false
+  route: /web
+
+port: 3000
+
+
