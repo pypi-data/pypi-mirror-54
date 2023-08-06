@@ -1,0 +1,16 @@
+geffnet/__init__.py,sha256=1w2xsDcA-rt8JY5dzeBX0lhy91LTt7FTss0O0UnGzz8,99
+geffnet/activations.py,sha256=L0Zo3mVjuohMvxzXBANB45yRfP5SdWcLVqFN5PXGUC0,5249
+geffnet/conv2d_layers.py,sha256=8n9YF2QMvtIEEUq-C4F2jru37A56Si9wPsW2QHzEKaE,11388
+geffnet/efficientnet_builder.py,sha256=S8x6Sryx66bEXBFW1blbIDyEateYZDbA8PIETXpBtHE,23132
+geffnet/exportable.py,sha256=4xLqV1Ad457XHdQySSKp-7oRLTfHmzu_0hbheeAxW8g,128
+geffnet/gen_efficientnet.py,sha256=ntw5RnwALZ0bx-iFMG26mJsdy7uk5b3h1y0gG8SVcQY,34765
+geffnet/helpers.py,sha256=BBXxmLiofLNMn5rtefJnBDAQ-9GX4n34Bbq50HDagu0,1097
+geffnet/layers.py,sha256=DzrB1fuFfH5IOGcJneu_bg_L13x4B-yyrfseFPnm7m8,958
+geffnet/mobilenetv3.py,sha256=XjGC5SD9M0eLN34x27drzHI_xjJ3Y7fRUfvjwEbEmDw,5059
+geffnet/model_factory.py,sha256=AgwY53Fq1rTS1AbPd5hCW_udj0yLGOJornelAAYBP4A,655
+geffnet/version.py,sha256=pF8TnH2QJF8nfDmcD7oPTrAOnioy05dV4YmYDzkT5Es,22
+geffnet-0.9.1.dist-info/LICENSE,sha256=cbERYg-jLBeoDM1tstp1nTGlkeSX2LXzghdPWdG1nUk,11343
+geffnet-0.9.1.dist-info/METADATA,sha256=n9xg2gbar6vywH2y1iOFQU0qNrMjpbCWVyZNdQqe67I,10899
+geffnet-0.9.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+geffnet-0.9.1.dist-info/top_level.txt,sha256=o1uTAFkNs49mWKa89ZQnI73JlOmNpv0Nmre_3WYG6qo,8
+geffnet-0.9.1.dist-info/RECORD,,
