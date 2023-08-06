@@ -1,0 +1,10 @@
+README.md
+setup.py
+dynamof/__init__.py
+dynamof/attribute.py
+dynamof.egg-info/PKG-INFO
+dynamof.egg-info/SOURCES.txt
+dynamof.egg-info/dependency_links.txt
+dynamof.egg-info/requires.txt
+dynamof.egg-info/top_level.txt
+test/__init__.py
