@@ -1,0 +1,14 @@
+JACK-Client
+SoundFile
+connectors
+numexpr
+numpy
+scipy
+
+[dev]
+pylint
+pytest-cov
+
+[test]
+hypothesis
+pytest
