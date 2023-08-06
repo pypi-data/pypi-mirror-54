@@ -1,0 +1,11 @@
+cups_notify/__init__.py,sha256=3owBz9wFGuEkRDMd7oybtHogxHQUUklEk_o0qVbu1tE,152
+cups_notify/event.py,sha256=y06N57JcdvL7wni9e6-QgLGQ-hewUXagqMQ0DRtUabk,2032
+cups_notify/listener.py,sha256=RxPoXhvVqVGcClnLKyE3QsCtZMvS6nRuUd8rpP8Vtn0,4713
+cups_notify/subscriber.py,sha256=Dt38jdBCEPVcX4aZzzp28b1dhXUazmCCMdnuPtGnUEg,1563
+pycups_notify-0.0.2.dist-info/DESCRIPTION.rst,sha256=BdoU7Hpw2auuTR2jUqhSgAEp4q1XnZyaYAAK81V-E34,2088
+pycups_notify-0.0.2.dist-info/METADATA,sha256=MnXxpFlorY7T4f5ebMGfDVRt7SE8u83em4RX5wcqbLs,2981
+pycups_notify-0.0.2.dist-info/RECORD,,
+pycups_notify-0.0.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pycups_notify-0.0.2.dist-info/entry_points.txt,sha256=b8GtyyG3arAcrzWZNsU4tP7vAZbQpUjq39Cz9ovrqKs,63
+pycups_notify-0.0.2.dist-info/metadata.json,sha256=yBnorTAM-a6uNAx-1HiMNupfCFk1b-COmJOvsYDWD_M,1225
+pycups_notify-0.0.2.dist-info/top_level.txt,sha256=ULhfEaFRAbtGmu5iMHxY-JQ-bzz6V1LGx5b0dCe4Ne4,12
