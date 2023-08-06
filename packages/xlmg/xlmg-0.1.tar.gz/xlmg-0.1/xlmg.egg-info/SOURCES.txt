@@ -1,0 +1,9 @@
+README.md
+setup.py
+xlmg/__init__.py
+xlmg/xlmg.py
+xlmg.egg-info/PKG-INFO
+xlmg.egg-info/SOURCES.txt
+xlmg.egg-info/dependency_links.txt
+xlmg.egg-info/requires.txt
+xlmg.egg-info/top_level.txt

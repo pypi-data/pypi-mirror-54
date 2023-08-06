@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: xlmg
+Version: 0.1
+Summary: Module for importing and exporting data between Microsoft Excel workbook and MongoDB database
+Home-page: https://github.com/naiim-khaskhoussi/xlmg
+Author: Naiim Khaskhoussi
+Author-email: khaskhoussi.naiim@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
