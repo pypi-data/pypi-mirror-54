@@ -1,0 +1,55 @@
+{% extends "bee_django_user/custom_base.html" %}
+{% load static %}
+{% load bootstrap3 %}
+{% block nav %}
+{% endblock %}
+{% block content %}
+    {% include 'bee_django_user/messages.html' %}
+    <div class="text-center"><h4>申请表</h4></div>
+    <table class="table">
+        <tr>
+            <td class="col-xs-3">申请人</td>
+            <td>{{ record.user }}</td>
+        </tr>
+        <tr>
+            <td>标题</td>
+            <td>{{ record.level.title }}</td>
+        </tr>
+        <tr>
+            <td>申请状态</td>
+            <td>{{ record.get_status_str }}</td>
+        </tr>
+        {% if record.application %}
+            <tr>
+                <td>申请详情</td>
+                <td>{{ record.application|default:""|safe|linebreaks }}</td>
+            </tr>
+        {% endif %}
+        <tr>
+            <td>历史记录</td>
+            <td>{{ record.history|default:""|safe|linebreaks }}</td>
+        </tr>
+    </table>
+    {% if record.status == -1 or record.status == 2 %}
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+
+            {% bootstrap_form form %}
+            {% bootstrap_button '提交' %}
+
+        </form>
+    {% endif %}
+    {#    {% if cert %}#}
+    {#        预览图:#}
+    {#        {{ cert }}#}
+    {#    {% endif %}#}
+{% endblock %}
+
+
+{% block scripts %}
+    <script>
+        $(document).ready(function () {
+
+        });
+    </script>
+{% endblock %}

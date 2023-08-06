@@ -1,0 +1,70 @@
+{% extends "bee_django_user/base.html" %}
+{% load bee_django_user_filter %}
+{% block nav %}
+    {% include 'bee_django_user/logo.html' %}
+    {% include 'bee_django_user/nav.html' %}
+{% endblock %}
+{% block content %}
+    <div class="text-center"><h3>
+        升级规则列表
+    </h3>
+    </div>
+    {% if perms.bee_django_user.add_level %}
+        <div class="text-right">
+            <a class="btn btn-default" href="{% url 'bee_django_user:level_add' %}">添加升级规则</a>
+        </div>
+    {% endif %}
+    <table class="table">
+        <thead>
+        <tr>
+            <th>顺序</th>
+            <th>标题</th>
+            <th>升级前用户组</th>
+            <th>升级后用户组</th>
+            <th></th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for level in level_list %}
+            <tr>
+                <td>{{ level.number }}</td>
+                <td>{{ level.title }}</td>
+                <td>
+                    {% for group in level.before_group.all %}
+                        {{ group.name }}{% if not forloop.last %} / {% endif %}
+                    {% endfor %}
+                </td>
+                <td>{{ level.after_group }}</td>
+                <td>
+                    <a href="{% url 'bee_django_user:level_detail' level.id %}  ">详情</a>
+                    {% if perms.bee_django_user.change_userlevel %}
+                        <a href="{% url 'bee_django_user:level_update' level.id %}  ">修改</a>
+                    {% endif %}
+                    {% if perms.bee_django_user.delete_userlevel %}
+                        <a href="#" id="delete_{{ level.id }}"
+                           data-confirm="{% url "bee_django_user:level_delete" level.id %}"
+                           onclick="click_del(this)">删除</a>
+                    {% endif %}
+                </td>
+            </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+    {% include 'bee_django_user/paginator.html' %}
+{% endblock %}
+{% block scripts %}
+    <script>
+        function click_del(_this) {
+            if (!confirm('确认要执行这个操作？')) {
+                return false;
+            }
+            var url = $(_this).attr('data-confirm');
+            $.post(url).done(function (data) {
+                alert('删除成功!');
+                location.reload();
+            });
+        }
+    </script>
+{% endblock %}

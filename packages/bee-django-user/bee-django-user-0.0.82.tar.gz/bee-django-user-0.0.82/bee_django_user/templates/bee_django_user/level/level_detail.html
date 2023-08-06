@@ -1,0 +1,47 @@
+{% extends "bee_django_user/base.html" %}
+{% load bee_django_user_filter %}
+{% block nav %}
+    {% include 'bee_django_user/logo.html' %}
+    {% include 'bee_django_user/nav.html' %}
+{% endblock %}
+
+{% block content %}
+    <h3>规则详情</h3>
+    {% if perms.bee_django_user.change_userlevel %}
+        <a href="{% url 'bee_django_user:level_update'  level.id %}">修改</a>
+    {% endif %}
+    <table class="table">
+        <tr>
+            <td class="col-xs-3">名称</td>
+            <td>{{ level.title }}</td>
+        </tr>
+        <tr>
+            <td>顺序</td>
+            <td>{{ level.number }}</td>
+        </tr>
+        <tr>
+            <td>升级前用户组</td>
+            <td>{% for group in level.before_group.all %}
+                {{ group.name }}{% if not forloop.last %} / {% endif %}
+            {% endfor %}</td>
+        </tr>
+        <tr>
+            <td>升级后用户组</td>
+            <td>{{ level.after_group }}</td>
+        </tr>
+        <tr>
+            <td>申请要求</td>
+            <td>{{ level.req|default:""|safe|linebreaks }}</td>
+        </tr>
+
+
+    </table>
+
+
+    {% if level.detail %}
+        <hr>
+        <h3>详情</h3>
+        <hr>
+        {{ level.detail|safe|default:"" }}
+    {% endif %}
+{% endblock %}

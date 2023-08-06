@@ -1,0 +1,31 @@
+{% extends "bee_django_user/base.html" %}
+{% load static %}
+{% load bootstrap3 %}
+{% block nav %}
+    {% include 'bee_django_user/logo.html' %}
+    {% include 'bee_django_user/nav.html' %}
+{% endblock %}
+{% block content %}
+    {% include 'bee_django_user/messages.html' %}
+    <div><h4>添加/修改【{{ record.user.first_name }}】的记录</h4></div>
+    <form method="post"  enctype="multipart/form-data">
+        {% csrf_token %}
+
+        {% bootstrap_form form %}
+        {% bootstrap_button '提交' %}
+
+    </form>
+{#    {% if cert %}#}
+{#        预览图:#}
+{#        {{ cert }}#}
+{#    {% endif %}#}
+{% endblock %}
+
+
+{% block scripts %}
+    <script>
+        $(document).ready(function () {
+
+        });
+    </script>
+{% endblock %}

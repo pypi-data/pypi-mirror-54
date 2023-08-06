@@ -1,0 +1,46 @@
+{% extends "bee_django_user/base.html" %}
+{% load bee_django_user_filter %}
+{% block nav %}
+    {% include 'bee_django_user/logo.html' %}
+    {% include 'bee_django_user/nav.html' %}
+{% endblock %}
+{% block content %}
+    <h4>记录详情</h4>
+    {% if perms.bee_django_user.change_userleveluprecord %}
+        <a href="{% url 'bee_django_user:level_record_update'  record.id %}">操作</a>
+    {% endif %}
+    <table class="table">
+        <tr>
+            <td class="col-xs-3">学生</td>
+            <td>{{ record.user }}</td>
+        </tr>
+        <tr>
+            <td class="col-xs-3">标题</td>
+            <td>{{ record.level.title }}</td>
+        </tr>
+
+        <tr>
+            <td>添加时间</td>
+            <td>{{ record.created_at|date:"Y-m-d H:i" }}</td>
+        </tr>
+        <tr>
+            <td>最后更新时间</td>
+            <td>{{ record.updated_at|date:"Y-m-d H:i" }}</td>
+        </tr>
+        <tr>
+            <td>状态</td>
+            <td>{{ record.get_status_str }}</td>
+        </tr>
+        <tr>
+            <td>申请内容</td>
+            <td>{{ record.application|default:""|safe|linebreaks }}</td>
+        </tr>
+        <tr>
+            <td>历史记录</td>
+            <td>{{ record.history|default:""|safe|linebreaks }}</td>
+        </tr>
+
+
+
+    </table>
+{% endblock %}
