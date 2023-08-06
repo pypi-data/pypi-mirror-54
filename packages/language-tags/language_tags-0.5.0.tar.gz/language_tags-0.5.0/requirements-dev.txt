@@ -1,0 +1,10 @@
+# Runtime requirements
+--requirement requirements.txt
+
+# Testing
+pytest==5.2.1
+pytest-cov==2.8.1
+
+# Documentation
+Sphinx==2.2.0
+sphinx_rtd_theme==0.4.3
