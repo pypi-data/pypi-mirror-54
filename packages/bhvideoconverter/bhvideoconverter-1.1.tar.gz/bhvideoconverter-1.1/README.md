@@ -1,0 +1,126 @@
+# BHVideoConverter
+convert any video format to any format :).! 
+
+# Features:
+- Convert any video format to another format.
+- Convert multiple videos format to another format.
+- Change FPS of video.
+- Remove the sound from video.
+- Merge video with sound.
+
+# installation:
+```shell
+pip install bhvideoconverter
+```
+
+# Help page:
+```shell
+bandarhelal@BandarHelals-MacBook-Air Desktop % ./bhvideoconverter -h
+usage: bhvideoconverter [-h] [-d] [-q]
+                        {ConvertVideo,ConvertVideos,MergeVideo,RemoveSound}
+                        ...
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d, --debug           full application debug mode
+  -q, --quiet           suppress all console output
+
+sub-commands:
+  {ConvertVideo,ConvertVideos,MergeVideo,RemoveSound}
+    ConvertVideo        Convert specific video format to another format
+    ConvertVideos       convert multiple videos from folder
+    MergeVideo          merge specific video with specific audio
+    RemoveSound         remove sound from video
+```
+
+# How to use with e.x:
+- convert specific video:
+## help:
+```shell
+bandarhelal@BandarHelals-MacBook-Air Desktop % ./bhvideoconverter ConvertVideo -h
+usage: bhvideoconverter ConvertVideo [-h] [--videopath VIDEOPATH]
+                                     [--outputpath OUTPUTPATH] [--fps FPS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --videopath VIDEOPATH, -v VIDEOPATH
+                        video file path
+  --outputpath OUTPUTPATH, -o OUTPUTPATH
+                        output file path with format e.x:/Destop/output.mov
+  --fps FPS, -f FPS     frames of video (optional argument, you can convert without typing this argument)
+```
+```shell
+bandarhelal@BandarHelals-MacBook-Air Desktop % ./bhvideoconverter ConvertVideo -v '/Users/bandarhelal/Downloads/file_example.mp4' -o '/Users/bandarhelal/Downloads/test.mov' -f 60
+```
+#
+#
+- Convert multiple videos:
+## help:
+```shell
+bandarhelal@BandarHelals-MacBook-Air Desktop % ./bhvideoconverter ConvertVideos -h
+usage: bhvideoconverter ConvertVideos [-h] [--folderpath FOLDERPATH]
+                                      [--outputfolderpath OUTPUTFOLDERPATH]
+                                      [--videoformat VIDEOFORMAT] [--fps FPS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --folderpath FOLDERPATH, -fp FOLDERPATH
+                        enter folder path and put all videos you want to
+                        converted
+  --outputfolderpath OUTPUTFOLDERPATH, -o OUTPUTFOLDERPATH
+                        enter output of folder you want put all converted
+                        videos
+  --videoformat VIDEOFORMAT, -e VIDEOFORMAT
+                        enter format you want to convert all videos to it
+  --fps FPS, -f FPS     frames of video (optional argument, you can convert without typing this argument)
+```
+```shell
+bandarhelal@BandarHelals-MacBook-Air Desktop % ./bhvideoconverter ConvertVideos -fp '/Users/bandarhelal/Desktop/Videos_unconverted' -o '/Users/bandarhelal/Desktop/videos_converted' -e 'mov' -f 6
+```
+#
+#
+- Remove sound from video:
+## help:
+```shell
+bandarhelal@BandarHelals-MacBook-Air Desktop % ./bhvideoconverter RemoveSound -h
+usage: bhvideoconverter RemoveSound [-h] [--videopath VIDEOPATH]
+                                    [--outputfilepath OUTPUTFILEPATH]
+                                    [--fps FPS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --videopath VIDEOPATH, -v VIDEOPATH
+                        enter video path you want to extract
+  --outputfilepath OUTPUTFILEPATH, -o OUTPUTFILEPATH
+                        enter out put of file with name end format for
+                        e.g:/Desktop/test.mp4
+  --fps FPS, -f FPS     frams of video (optional argument, you can convert without typing this argument)
+```
+```shell
+bandarhelal@BandarHelals-MacBook-Air Desktop % ./bhvideoconverter RemoveSound -v '/Users/bandarhelal/Desktop/file_example.mp4' -o '/Users/bandarhelal/Desktop/file_example_no_sound.mp4' -f 60
+```
+#
+#
+- Merge video with sound:
+## help:
+```shell
+bandarhelal@BandarHelals-MacBook-Air Desktop % ./bhvideoconverter MergeVideo -h
+usage: bhvideoconverter MergeVideo [-h] [--audiofilepath AUDIOFILEPATH]
+                                   [--videofilepath VIDEOFILEPATH]
+                                   [--outputfilepath OUTPUTFILEPATH]
+                                   [--fps FPS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --audiofilepath AUDIOFILEPATH, -a AUDIOFILEPATH
+                        enter audio file path
+  --videofilepath VIDEOFILEPATH, -v VIDEOFILEPATH
+                        enter video file path
+  --outputfilepath OUTPUTFILEPATH, -o OUTPUTFILEPATH
+                        enter out put of file with name end format for
+                        e.g:/Desktop/test.mp4
+  --fps FPS, -f FPS     frames of video (optional argument, you can convert without typing this argument)
+```
+```shell
+bandarhelal@BandarHelals-MacBook-Air Desktop % ./bhvideoconverter MergeVideo -a '/Users/bandarhelal/Desktop/file_example.mp3' -v '/Users/bandarhelal/Desktop/file_example.mp4' -o '/Users/bandarhelal/Desktop/new_video.mov' -f 60
+```
