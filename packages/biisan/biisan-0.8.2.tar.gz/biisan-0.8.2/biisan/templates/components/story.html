@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ element.title }}{% endblock title %}
+
+{% block extra_headers %}
+  {% include "components/story_extra_headers.html" %}
+{% endblock extra_headers %}
+
+{% block contents %}
+{% include "components/story_extra_top1.html" %}
+    <section class="biisan-section_meta">
+      <h1>{{ element.title }}</h1>
+      <p class="biisan-section_published_date">{{ element.published_datetime }}</p>
+    </section>
+    <section>
+{% include "components/story_extra_top2.html" %}
+{% for content in element.contents %}
+{{ content.to_html() }}
+{% endfor %}
+    </section>
+    {% if element.comments %}
+    <section class="comments">
+      {% for comment in element.comments %}
+      <fieldset class="comment">
+        <legend>{{ comment.comemnted_datetime }} by {{ comment.commentator }}</legend>
+        {% for text in comment.contents %}
+        <pre>{{ text }}</pre>
+        {% endfor %}
+      </fieldset>
+      {% endfor %}
+    </section>
+    {% endif %}
+{% include "components/story_extra_bottom.html" %}
+{% endblock contents %}

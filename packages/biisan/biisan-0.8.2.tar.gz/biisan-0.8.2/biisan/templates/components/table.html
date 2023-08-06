@@ -1,0 +1,6 @@
+<table>
+  <caption class="biisan-table-caption">{{ element.title.text }}</caption>
+{% for content in element.contents -%}
+{{ content.to_html() }}
+{%- endfor %}
+</table>
