@@ -1,0 +1,100 @@
+{
+  "densenet_121": {
+    "model": "tensorflow.keras.applications.densenet.DenseNet121",
+    "preprocess_func": "mean_std_normalization",
+    "preprocess_args": [123.68, 116.779, 103.939, 58.4, 57.12, 57.38],
+    "target_size": [224, 224, 3]
+  },
+  "densenet_169": {
+    "model": "tensorflow.keras.applications.densenet.DenseNet169",
+    "preprocess_func": "mean_std_normalization",
+    "preprocess_args": [123.68, 116.779, 103.939, 58.4, 57.12, 57.38],
+    "target_size": [224, 224, 3]
+  },
+   "densenet_201": {
+    "model": "tensorflow.keras.applications.densenet.DenseNet201",
+    "preprocess_func": "mean_std_normalization",
+    "preprocess_args": [123.68, 116.779, 103.939, 58.4, 57.12, 57.38],
+    "target_size": [224, 224, 3]
+  },
+  "inception_resnet_v2": {
+    "model": "tensorflow.keras.applications.inception_resnet_v2.InceptionResNetV2",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [299, 299, 3]
+  },
+  "inception_v3": {
+    "model": "tensorflow.keras.applications.inception_v3.InceptionV3",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [299, 299, 3]
+  },
+  "mobilenet_v1": {
+    "model": "tensorflow.keras.applications.mobilenet.MobileNet",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [224, 224, 3]
+  },
+  "mobilenet_v2": {
+    "model": "tensorflow.keras.applications.mobilenet_v2.MobileNetV2",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [224, 224, 3]
+  },
+  "nasnet_large": {
+    "model": "tensorflow.keras.applications.nasnet.NASNetLarge",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [331, 331, 3]
+  },
+  "nasnet_mobile": {
+    "model": "tensorflow.keras.applications.nasnet.NASNetMobile",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [224, 224, 3]
+  },
+  "resnet50": {
+    "model": "tensorflow.keras.applications.resnet.ResNet50",
+    "preprocess_func": "bgr_mean_subtraction",
+    "preprocess_args": [123.68, 116.779, 103.939],
+    "target_size": [224, 224, 3]
+  },
+  "resnet101": {
+    "model": "tensorflow.keras.applications.resnet.ResNet101",
+    "preprocess_func": "bgr_mean_subtraction",
+    "preprocess_args": [123.68, 116.779, 103.939],
+    "target_size": [224, 224, 3]
+  },
+  "resnet152": {
+    "model": "tensorflow.keras.applications.resnet.ResNet152",
+    "preprocess_func": "bgr_mean_subtraction",
+    "preprocess_args": [123.68, 116.779, 103.939],
+    "target_size": [224, 224, 3]
+  },
+  "resnet50_v2": {
+    "model": "tensorflow.keras.applications.resnet_v2.ResNet50V2",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [224, 224, 3]
+  },
+  "resnet101_v2": {
+    "model": "tensorflow.keras.applications.resnet_v2.ResNet101V2",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [224, 224, 3]
+  },
+  "resnet152_v2": {
+    "model": "tensorflow.keras.applications.resnet_v2.ResNet152V2",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [224, 224, 3]
+  },
+  "vgg16": {
+    "model": "tensorflow.keras.applications.vgg16.VGG16",
+    "preprocess_func": "bgr_mean_subtraction",
+    "preprocess_args": [123.68, 116.779, 103.939],
+    "target_size": [224, 224, 3]
+  },
+  "vgg19": {
+    "model": "tensorflow.keras.applications.vgg19.VGG19",
+    "preprocess_func": "bgr_mean_subtraction",
+    "preprocess_args": [123.68, 116.779, 103.939],
+    "target_size": [224, 224, 3]
+  },
+  "xception": {
+    "model": "tensorflow.keras.applications.xception.Xception",
+    "preprocess_func": "between_plus_minus_1",
+    "target_size": [299, 299, 3]
+  }
+}
