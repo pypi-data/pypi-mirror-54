@@ -1,0 +1,3 @@
+[console_scripts]
+agipy = agipy.agipy:interface
+
