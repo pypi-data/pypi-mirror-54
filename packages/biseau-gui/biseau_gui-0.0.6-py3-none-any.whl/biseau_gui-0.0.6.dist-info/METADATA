@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: biseau-gui
+Version: 0.0.6
+Summary: A graphical interface for biseau
+Home-page: https://gitlab.inria.fr/lbourneu/biseau-gui
+Author: Lucas Bourneuf
+Author-email: lucas.bourneuf@inria.fr
+License: GPL
+Keywords: Answer Set Programming,wrapper,clingo,gui
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: ASP
+Description-Content-Type: text/markdown
+Requires-Dist: biseau (>=0.0.17)
+Requires-Dist: graphviz (>=0.11)
+Requires-Dist: PySide2 (>=5.12.1)
+Requires-Dist: rofetta (>=1.1.6)
+
+UNKNOWN
+
+

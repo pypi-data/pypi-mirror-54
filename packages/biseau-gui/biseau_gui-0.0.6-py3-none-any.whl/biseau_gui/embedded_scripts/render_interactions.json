@@ -1,0 +1,7 @@
+{
+    "name": "Interactions renderer",
+    "description": "Render score/3 as a graph",
+    "ASP": "link(A,B) :- score(A,B,_).\nlabel(A,B,L) :- score(A,B,L).",
+    "inputs": ["score/3"],
+    "outputs": ["link/2", "label/3"]
+}
