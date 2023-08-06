@@ -1,0 +1,7 @@
+argparse
+numpy
+pandas
+matplotlib
+tikzplotlib
+seaborn
+bayesian-optimization
