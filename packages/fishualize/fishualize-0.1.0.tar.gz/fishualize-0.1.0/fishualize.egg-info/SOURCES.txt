@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+fishualize/__init__.py
+fishualize/fish_functions.py
+fishualize.egg-info/PKG-INFO
+fishualize.egg-info/SOURCES.txt
+fishualize.egg-info/dependency_links.txt
+fishualize.egg-info/requires.txt
+fishualize.egg-info/top_level.txt
+fishualize/data/fishcolors.csv
