@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pwngrid-api
+Version: 0.0.2
+Summary: Pwnagotchi's Pwngrid API client (⌐■_■)
+Home-page: https://github.com/python273/pwngrid-api
+Author: python273
+Author-email: pwngrid@python273.pw
+License: MIT
+Download-URL: https://github.com/python273/pwngrid-api/archive/v0.0.2.zip
+Description: # pwngrid-api
+        
+        [![PyPI](https://img.shields.io/pypi/v/pwngrid-api.svg)](https://pypi.org/project/pwngrid-api/) ![Python 3.6, 3.7, 3.8](https://img.shields.io/pypi/pyversions/pwngrid-api.svg)
+        
+        [Pwnagotchi](https://pwnagotchi.ai/)'s Pwngrid API client (⌐■_■)
+        
+        - https://pwnagotchi.ai/api/grid/
+        
+        ```
+        $ pip install pwngrid-api
+        ```
+        
+        ## Example
+        ```python
+        import pwngrid_api
+        
+        
+        try:
+            private_key = pwngrid_api.utils.load_key("./id_rsa_client")
+        except FileNotFoundError:
+            private_key = pwngrid_api.utils.gen_key()
+            pwngrid_api.utils.save_key(private_key, "./id_rsa_client")
+        
+        pwngrid = pwngrid_api.PwngridClient("pygotchi", private_key)
+        print(pwngrid.unit.identity)
+        
+        pwngrid.enroll()
+        
+        pwngrid.send_message(
+            recipient="94b67781c4057533d2e2700a9fcce924fbcfc0abf57724415ebc6819a51e4e39",
+            cleartext=b"Hello World!",
+        )
+        
+        for m in pwngrid.get_inbox()["messages"]:
+            data, cleartext, sender = pwngrid.read_message(m["id"])
+            print(sender.identity, cleartext.decode("utf-8"))
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
