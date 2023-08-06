@@ -1,0 +1,4 @@
+[console_scripts]
+bot = nlpia_bot.clibot:main
+ircbot = nlpia_bot.ircbot:run
+
