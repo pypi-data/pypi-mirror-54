@@ -1,0 +1,5 @@
+setup.py
+LgpDemo/LgpDemo.egg-info/PKG-INFO
+LgpDemo/LgpDemo.egg-info/SOURCES.txt
+LgpDemo/LgpDemo.egg-info/dependency_links.txt
+LgpDemo/LgpDemo.egg-info/top_level.txt
