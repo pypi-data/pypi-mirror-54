@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dirtrace
+Version: 0.0.2
+Summary: generate chromium's trace event format json file from directory content file size
+Home-page: https://github.com/everettjf/dirtrace
+Author: everettjf
+Author-email: everettjf@live.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

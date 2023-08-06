@@ -1,0 +1,10 @@
+README.md
+setup.py
+dirtrace/__init__.py
+dirtrace/dirtrace.py
+dirtrace.egg-info/PKG-INFO
+dirtrace.egg-info/SOURCES.txt
+dirtrace.egg-info/dependency_links.txt
+dirtrace.egg-info/entry_points.txt
+dirtrace.egg-info/not-zip-safe
+dirtrace.egg-info/top_level.txt
