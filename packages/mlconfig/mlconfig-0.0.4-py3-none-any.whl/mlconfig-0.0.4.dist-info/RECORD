@@ -1,0 +1,10 @@
+mlconfig/__init__.py,sha256=2IW_G-fCYlY8zd3suF9LssT7li-d3xuPHZRUpiCC_Uc,59
+mlconfig/collections.py,sha256=F6yiZpMMceKuJAie2d4xwxIMRnbURuqE7jXWx_vqVuU,1940
+mlconfig/config.py,sha256=bsRNUqfaTPQWv9xNx7ZuVhNsAofvd2IH9oq-x6bdEvA,3862
+mlconfig/utils.py,sha256=MC6NDCYbTSpJq5ZXDjNYHGO945OCMadyoC_YVcETPlg,1250
+mlconfig/torch/__init__.py,sha256=XdC6vWRvSpSVsa30RKkcelSpW-phxhjfQiJ45rXBT84,801
+mlconfig-0.0.4.dist-info/LICENSE,sha256=vK26DADDD3vPEl4y8fDmCE1Ub_iX3vSP4APVkSiROZs,1066
+mlconfig-0.0.4.dist-info/METADATA,sha256=RXDcJKFb9a-7j7veUhKGSEIpWpfBWRxGL2oEEc38suY,202
+mlconfig-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mlconfig-0.0.4.dist-info/top_level.txt,sha256=pnUlgd9zC6T7MrE3Cku56MvkF-oxnJVucOwEci5YVi0,9
+mlconfig-0.0.4.dist-info/RECORD,,
