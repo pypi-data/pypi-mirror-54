@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: baretypes
+Version: 3.1.0
+Summary: Types for bareASGI and bareClient
+Home-page: https://github.com/rob-blackbourn/baretypes
+License: Apache-2.0
+Author: Rob Blackbourn
+Author-email: rob.blackbourn@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Project-URL: Repository, https://github.com/rob-blackbourn/baretypes
+Description-Content-Type: text/markdown
+
+# bareTypes
+
+Types for bareASGI and bareClient
+
