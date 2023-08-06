@@ -1,0 +1,1 @@
+from test_lightform_demo_package._version import __version__
