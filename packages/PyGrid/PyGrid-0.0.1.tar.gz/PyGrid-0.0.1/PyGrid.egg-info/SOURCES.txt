@@ -1,0 +1,6 @@
+README.md
+setup.py
+PyGrid.egg-info/PKG-INFO
+PyGrid.egg-info/SOURCES.txt
+PyGrid.egg-info/dependency_links.txt
+PyGrid.egg-info/top_level.txt
