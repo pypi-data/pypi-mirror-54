@@ -1,0 +1,10 @@
+six
+
+[tensorflow]
+tensorflow>=2.0.0
+
+[tensorflow-hub]
+tensorflow-hub>=0.6.0
+
+[tensorflow_gpu]
+tensorflow-gpu>=2.0.0
