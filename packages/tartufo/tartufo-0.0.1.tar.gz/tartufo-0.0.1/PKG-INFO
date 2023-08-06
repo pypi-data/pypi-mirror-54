@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tartufo
+Version: 0.0.1
+Summary: tartufo is a tool for scanning git repositories for secrets/passwords/high-entropy data
+Home-page: https://github.com/godaddy/tartufo
+Author: GoDaddy
+Author-email: oss@godaddy.com
+License: GNU
+Download-URL: https://pypi.org/project/tartufo/#files
+Description: Seaches for secrets/high-entropy/passwords in git histories and pre-commit blobs with the intent to provide developers a way of preventing accidental leaking of privileged data. This project was inspired by Dylan Ayrey's project truffleHog https://github.com/dxa4481/truffleHog
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Version Control :: Git
+Provides-Extra: tests

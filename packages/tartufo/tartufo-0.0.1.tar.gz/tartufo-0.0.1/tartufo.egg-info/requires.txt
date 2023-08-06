@@ -1,0 +1,13 @@
+GitPython==2.1.1
+truffleHogRegexes==0.0.7
+
+[tests]
+coverage
+pre-commit
+pytest
+pytest-cov
+pytest-sugar
+tox
+
+[tests:python_version == "2.7"]
+mock
