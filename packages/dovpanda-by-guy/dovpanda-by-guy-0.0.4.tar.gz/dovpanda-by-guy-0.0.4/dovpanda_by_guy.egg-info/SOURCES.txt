@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+dovpanda/__init__.py
+dovpanda_by_guy.egg-info/PKG-INFO
+dovpanda_by_guy.egg-info/SOURCES.txt
+dovpanda_by_guy.egg-info/dependency_links.txt
+dovpanda_by_guy.egg-info/top_level.txt
