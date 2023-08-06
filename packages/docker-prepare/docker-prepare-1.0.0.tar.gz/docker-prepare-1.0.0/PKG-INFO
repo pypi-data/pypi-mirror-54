@@ -1,0 +1,58 @@
+Metadata-Version: 1.2
+Name: docker-prepare
+Version: 1.0.0
+Summary: Docker-prepare is a tool for generating Dockerfile from a combination of templates
+Home-page: https://github.com/Javidjms/docker-prepare
+Author: Javid Mougamadou
+Author-email: javidjms0@gmail.com
+License: MIT
+Download-URL: https://github.com/Javidjms/docker-prepare/archive/1.0.0.zip
+Project-URL: Source, https://github.com/Javidjms/docker-prepare
+Description: Docker-prepare
+        ==============
+        
+        Docker-prepare is a tool for generating Dockerfile from a combinaisons of templates
+        
+        Note
+        ----
+        
+        This project is currently in development.
+        
+        A better documentation and testing scripts will be added in the next release.
+        
+        Quick start
+        -----------
+        
+        .. code:: python
+        
+            # Installation
+            pip install -U docker-prepare
+        
+        .. code:: bash
+        
+            # Usage
+            docker-prepare --input Dockertemplate --output Dockerfile
+            docker-prepare --input Dockertemplate --output Dockerfile --env_file .env --env_file .env.local
+        
+        ::
+        
+            # Dockertemplate
+            {% include "Dockertemplate.base" %}
+            {% include "Dockertemplate.core" %}
+        
+        Contributors
+        ------------
+        
+        -  `Javid Mougamadou <https://github.com/Javidjms>`__
+        
+Keywords: docker,docker-prepare,template,jinja,dockerfile,extends
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.0.*

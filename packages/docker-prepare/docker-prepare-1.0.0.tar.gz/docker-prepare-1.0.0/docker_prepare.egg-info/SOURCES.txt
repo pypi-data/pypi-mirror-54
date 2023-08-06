@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+requirements-dev.txt
+requirements.txt
+setup.cfg
+setup.py
+docker_prepare/__init__.py
+docker_prepare/command_line.py
+docker_prepare/core.py
+docker_prepare.egg-info/PKG-INFO
+docker_prepare.egg-info/SOURCES.txt
+docker_prepare.egg-info/dependency_links.txt
+docker_prepare.egg-info/entry_points.txt
+docker_prepare.egg-info/requires.txt
+docker_prepare.egg-info/top_level.txt
