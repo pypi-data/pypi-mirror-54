@@ -1,0 +1,6 @@
+freediscovery[core]
+seaborn
+pandas
+numpy
+scipy
+matplotlib

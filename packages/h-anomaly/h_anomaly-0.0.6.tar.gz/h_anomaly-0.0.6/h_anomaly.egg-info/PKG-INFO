@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: h-anomaly
+Version: 0.0.6
+Summary: A small example package Anomaly detection using hierarchical clustering, anomaly detector, classifiers and fast model rebuilding
+Home-page: https://github.com/ai-se/h_anomaly
+Author: RAISE_LAB
+Author-email: smajumd3@ncsu.edu
+License: UNKNOWN
+Description: # h_anomaly
+        A small example package Anomaly detection using hierarchical clustering, anomaly detector, classifiers and fast model rebuilding
+        
+        ## Required Packages to run - 
+        
+        ```
+        1) pandas
+        2) numpy
+        3) pickle
+        4) scipy
+        5) freediscovery
+        6) sklearn
+        7) matplotlib
+        
+        ```
+        
+        ## Install the Package
+        
+        ```
+        pip install -U h_anomaly
+        
+        ```
+        
+        ## To Use the Package:
+        
+        ### Import h_anomaly
+        ```
+        import h_anomaly - 'from h_anomaly import driver'
+        
+        ```
+        ### Building Tree for the 1st time
+        ```
+        cluster,cluster_tree,max_depth = driver.cluster_driver(file_path,target_class,default_class)
+        
+        ```
+        ### Loading New data for testing
+        ```
+        df,train_X,train_y = driver.get_data(file_path,target_class,default_class)
+        
+        ```
+        ### Storing Test Data for future uses
+        ```
+        test_df,test_X,test_y = driver.get_data(file_path,target_class,default_class)
+        cluster.set_test(test_X,test_y)
+        
+        ```
+        ### Certify Model for performance monitoring:
+        ```
+        cluster.certify_model(cluster_tree,test_y)
+        
+        ```
+        ### Check Cluster model for retraining
+        ```
+        cluster.check_model(cluster_tree,threshold)
+        
+        ```
+        
+        ## Available Functions:
+        ```
+        1) fit - Fit the Data into the Birch algorithm to create the clusters
+          def fit(self,data,y)
+        2) set_test - Store the test data for future uses
+          set_test(self,data,y)
+        3) get_cluster_tree - For each cluster at every level creates the bcluster objects
+          get_cluster_tree(self)
+        4) model_adder - Classification model added to each cluster by this function (Change this function to add different model)
+          def model_adder(self,cluster_tree)
+        5) update_model - Classification model is updated with new data
+           update_model(self,cluster_tree,cluster_id)
+        6) outlier_model_adder - Outlier detection model is added to each cluster (Change this function to add different model)
+          outlier_model_adder(self,cluster_tree)
+        7) certify_model - Scores are calculated in this function
+          certify_model(self,cluster_tree,test_y)
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
