@@ -1,0 +1,73 @@
+Metadata-Version: 2.0
+Name: maplearn
+Version: 0.3.6
+Summary: Mapping Learning
+Home-page: https://bitbucket.org/thomas_a/maplearn/
+Author: Alban Thomas
+Author-email: alban.thomas@univ-rennes2.fr
+License: LGPL
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Framework :: Sphinx
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: French
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: statsmodels (>=0.7)
+Requires-Dist: patsy
+Requires-Dist: scikit-learn (>=0.18.1)
+Requires-Dist: markdown
+Requires-Dist: matplotlib
+Requires-Dist: GDAL
+Requires-Dist: xlrd
+Requires-Dist: xlwt
+Requires-Dist: openpyxl
+Requires-Dist: pytest
+Requires-Dist: seaborn
+
+# Mapping Learning #
+![logo_100.png](https://bitbucket.org/repo/5Rn74B/images/2433912438-logo_100.png)
+
+
+Mapping Learning se veut un outil pour assister l'utilisateur dans une tache de
+cartographie automatisee (d'images issues de teledetection, notamment). Il 
+donne acces a un grand nombre d'algorithmes issus du domaine du *Machine 
+Learning*, ainsi que des moyens pour les appliquer a des jeux de donnees de 
+differentes natures (tableau, image, donnees vectorielles).
+
+
+## Fonctionnalites ##
+
+* Nombreux algorithmes de classification supervisee et non supervisee, et de regression
+* Emploi de methode robuste (k-fold) et possibilite d'optimiser les algorithmes
+* Plusieurs pretraitements : reductions de dimensions...
+* Lecture/Ecriture d'une grande variete de formats de fichiers, geographiques ou non
+* Rendu du resultat sous la forme d'un rapport standardise
+* Accompagnement de l'utilisateur avec des conseils statistiques ou empiriques
+
+## Developpement ##
+
+Mapping Learning est developpe en Python et fait appel a des librairies Open Source dont scikit-learn et mlpy pour les algorithmes de Machine Learning, osgeo (Gdal/Ogr) pour la manipulation des donnees geographiques.
+
+Mapping Learning est un logiciel libre, sous licence LGPL v3.
+Alban Thomas (alban.thomas@univ-rennes2.fr)
+
+![letg.jpeg](https://bitbucket.org/repo/5Rn74B/images/1800694338-letg.jpeg)![sgdn.jpeg](https://bitbucket.org/repo/5Rn74B/images/612087003-sgdn.jpeg)![ur2.png](https://bitbucket.org/repo/5Rn74B/images/2154561398-ur2.png)
+
