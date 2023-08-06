@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bardolph
+Version: 0.0.12
+Summary: Simple script interpreter for LIFX light bulbs
+Home-page: http://www.bardolph.org
+Author: Al Fontes
+Author-email: bardolph@fontes.org
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Requires-Dist: lifxlan
+
+UNKNOWN
+
+
