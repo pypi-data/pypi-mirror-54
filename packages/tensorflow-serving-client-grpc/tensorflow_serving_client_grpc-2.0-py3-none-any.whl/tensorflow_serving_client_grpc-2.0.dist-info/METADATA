@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tensorflow-serving-client-grpc
+Version: 2.0
+Summary: A prebuilt tensorflow serving client from the tensorflow serving proto files
+Home-page: https://github.com/figroc/tensorflow-serving-client
+Author: Figroc Chen
+Author-email: figroc@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/plain
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+
+This library does not coexist with tensorflow, tensorflow-serving and
+tensorflow-serving-api. The official tensorflow-serving-api requires package
+tensorflow. To eliminate this requirement, this library is setup to generate
+only neccessary *_pb2.py from the apis of tensorflow_serving.
+
