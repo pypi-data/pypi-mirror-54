@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: shrinkray
+Version: 0.0.1
+Summary: A test case reducer
+Home-page: https://github.com/DRMacIver/shrinkray
+Author: David R. MacIver
+Author-email: david@drmaciver.com
+License: MPL 2.0
+Description: 
+        ==========
+        Shrink Ray
+        ==========
+        
+        Shrink Ray is a new type of test-case reducer designed to be effective on
+        a wide range of formats. See the
+        [full README](https://github.com/DRMacIver/shrinkray/blob/master/README.md)
+        for more details.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython

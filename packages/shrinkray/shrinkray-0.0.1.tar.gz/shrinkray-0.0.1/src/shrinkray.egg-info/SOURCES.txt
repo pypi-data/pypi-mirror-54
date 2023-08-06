@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/shrinkray/__init__.py
+src/shrinkray/__main__.py
+src/shrinkray/cutting.py
+src/shrinkray/junkdrawer.py
+src/shrinkray/reducer.py
+src/shrinkray.egg-info/PKG-INFO
+src/shrinkray.egg-info/SOURCES.txt
+src/shrinkray.egg-info/dependency_links.txt
+src/shrinkray.egg-info/entry_points.txt
+src/shrinkray.egg-info/not-zip-safe
+src/shrinkray.egg-info/requires.txt
+src/shrinkray.egg-info/top_level.txt
