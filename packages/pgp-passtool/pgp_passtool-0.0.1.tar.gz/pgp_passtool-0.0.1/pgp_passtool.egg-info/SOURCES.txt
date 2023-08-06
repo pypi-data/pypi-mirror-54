@@ -1,0 +1,13 @@
+COPYRIGHT
+MANIFEST.in
+README
+README.md
+setup.cfg
+setup.py
+pgp_passtool/__init__.py
+pgp_passtool/__main__.py
+pgp_passtool.egg-info/PKG-INFO
+pgp_passtool.egg-info/SOURCES.txt
+pgp_passtool.egg-info/dependency_links.txt
+pgp_passtool.egg-info/requires.txt
+pgp_passtool.egg-info/top_level.txt

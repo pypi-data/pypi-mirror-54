@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pgp-passtool
+Version: 0.0.1
+Summary: OpenPGP Passphrase Tool (and library)
+Home-page: https://github.com/BjarniRunar/python-pgp_passtool
+Author: Bjarni R. Einarsson <bre@mailpile.is>
+Author-email: UNKNOWN
+License: BSD
+Download-URL: https://github.com/BjarniRunar/python-pgp_passtool/archive/v0.0.1.tar.gz
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: pgp gpg rfc2440 rfc4880 crypto cryptography
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
