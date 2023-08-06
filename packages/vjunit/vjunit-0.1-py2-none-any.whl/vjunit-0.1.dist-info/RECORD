@@ -1,0 +1,11 @@
+vjunit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vjunit/__main__.py,sha256=TUkIADUT5mrK3tnvRsyOdrPKC_-_nCMouUQzQj4xPsg,431
+vjunit/template.html,sha256=rxkHFBH4_vLu9kMHzn2bQyxClziD53TUd8YUm_hzpW8,6214
+vjunit/vjunit.py,sha256=LhuVeK5sZ1K78dl70xP6ZtJWJjkmrKJUfo4aktMm7qE,2099
+vjunit-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+vjunit-0.1.dist-info/METADATA,sha256=zE3eJchSbd44oUFfO9DPAIoSDluEZxCAJtUx96lya6M,273
+vjunit-0.1.dist-info/RECORD,,
+vjunit-0.1.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+vjunit-0.1.dist-info/entry_points.txt,sha256=57nhynqVr3Z6Zrt5Ev65MzDlgmwEdNwnMea9AkngerA,49
+vjunit-0.1.dist-info/metadata.json,sha256=pxA2QyKip0NUTXZgov6cJcTZcqY02xeApYOsf7A87yg,611
+vjunit-0.1.dist-info/top_level.txt,sha256=mq86TeSQxbtKPdqsjCT_SxQL2hxibeqAlQS3fVKf_OQ,7
