@@ -1,0 +1,4 @@
+[console_scripts]
+asmbl = flask_assembly.cli:cmd
+asmbl-admin = flask_assembly.cli:cmd
+
