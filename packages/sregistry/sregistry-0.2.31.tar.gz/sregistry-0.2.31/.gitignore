@@ -1,0 +1,8 @@
+sregistry.egg-info/
+.env
+_site
+dist/
+OLD
+__pycache__
+*.simg
+*.img

@@ -1,0 +1,8 @@
+examples/*
+examples
+.env
+build
+*.simg
+*.img
+dist
+*.egg.info
