@@ -1,0 +1,22 @@
+---
+name: sql
+type: dataset
+version: 1
+date: "2019-05-17"
+resources:
+  db:
+    type: sql
+    objects:
+      "":
+        country:
+          source: tests_country
+          properties:
+            _id:
+              type: pk
+              source: kodas
+            code:
+              type: string
+              source: kodas
+            title:
+              type: string
+              source: pavadinimas

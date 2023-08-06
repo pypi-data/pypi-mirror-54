@@ -1,0 +1,40 @@
+---
+type: model
+name: backends/mongo/report
+endpoint: backends/mongo/reports
+backend: mongo
+title: "Report"
+version: 1
+date: "2019-04-17"
+properties:
+  _id: {type: pk}
+  _revision: {type: string}
+  report_type: {type: string}
+  status: {type: string}
+  valid_from_date: {type: date}
+  update_time: {type: datetime}
+  count: {type: integer}
+
+  notes:
+    type: array
+    items:
+      type: object
+      properties:
+        note: {type: string}
+        note_type: {type: string}
+        create_date: {type: date}
+
+  operating_licenses:
+    type: array
+    items:
+      type: object
+      properties:
+        license_types:
+          type: array
+          items:
+            type: string
+
+  pdf:
+    type: file
+    backend: fs
+    hidden: true
