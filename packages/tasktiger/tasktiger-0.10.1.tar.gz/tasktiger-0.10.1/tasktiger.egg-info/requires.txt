@@ -1,0 +1,4 @@
+click
+redis<3,>=2
+six
+structlog
