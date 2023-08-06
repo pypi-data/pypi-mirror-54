@@ -1,0 +1,49 @@
+Metadata-Version: 1.2
+Name: Trionyx
+Version: 1.0.2
+Summary: Trionyx is an application framework for managing data and processes
+Home-page: https://github.com/krukas/Trionyx
+Author: Maikel Martens
+Author-email: maikel@martens.me
+License: GPL3
+Download-URL: https://github.com/krukas/Trionyx/releases/tag/1.0.2
+Description-Content-Type: UNKNOWN
+Description: .. image:: https://circleci.com/gh/krukas/Trionyx/tree/master.svg?style=svg
+            :target: https://circleci.com/gh/krukas/Trionyx/tree/master
+            
+        .. image:: https://readthedocs.org/projects/trionyx/badge/?version=latest
+            :target: http://trionyx.readthedocs.io/en/latest
+        
+        .. image:: https://codecov.io/gh/krukas/Trionyx/branch/master/graph/badge.svg
+          :target: https://codecov.io/gh/krukas/Trionyx
+        
+        .. image:: https://badge.fury.io/py/Trionyx.svg
+            :target: https://badge.fury.io/py/Trionyx
+            
+        
+        Trionyx
+        =======
+        
+        Trionyx is an application framework for managing data and processes, or can be used as an glorified customer admin panel for Django.
+        
+        
+        .. image:: screenshots/dashboard.jpg
+        
+        Installation
+        ============
+        To install Trionyx, run:
+        
+            pip install Trionyx
+        
+        Create new project
+        ==================
+        For creating a new project, run:
+        
+            trionyx create_project new_project
+        
+Keywords: Django,Trionyx,framework,admin,data,processes,application,stack
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Requires-Python: ~=3.5

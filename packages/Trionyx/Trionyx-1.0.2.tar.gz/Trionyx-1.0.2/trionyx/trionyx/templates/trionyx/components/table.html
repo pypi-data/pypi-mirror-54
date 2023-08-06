@@ -1,0 +1,38 @@
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            {% for field in component.get_fields %}
+                <th {% if field.width %}style="width: {{ field.width }};"{% endif %}>
+                    {{ field.label }}
+                </th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in component.get_rendered_objects %}
+            <tr>
+                {% for column in row %}
+                   <td {% if column.class %}class="{{ column.class }}"{% endif %}>
+                       {{ column.value|safe }}
+                   </td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+    {% if component.footer_objects %}
+        <tfooter class="">
+            {% for row in component.get_rendered_footer_objects %}
+                <tr>
+                    {% for column in row %}
+                       <td
+                               {% if column.class %}class="{{ column.class }}"{% endif %}
+                               {% if column.colspan %}colspan="{{ column.colspan }}"{% endif %}
+                       >
+                           {{ column.value|safe }}
+                       </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tfooter>
+    {% endif %}
+</table>
