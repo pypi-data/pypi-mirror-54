@@ -1,0 +1,7 @@
+nebuchadnezzar
+lxml
+cnx-litezip
+click
+
+[test]
+pytest>=4

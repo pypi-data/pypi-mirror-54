@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: neb-tasks
+Version: 0.4.0
+Summary: Content task addons to neb
+Home-page: https://github.com/openstax/neb-tasks
+Author: tomjw64
+Author-email: tomjw64@gmail.com
+License: AGPL, See also LICENSE.txt
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+Provides-Extra: test
