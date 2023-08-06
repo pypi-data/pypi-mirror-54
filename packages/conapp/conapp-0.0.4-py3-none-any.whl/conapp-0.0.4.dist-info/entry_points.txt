@@ -1,0 +1,3 @@
+[console_scripts]
+conapp = conapp.__main__:main
+
