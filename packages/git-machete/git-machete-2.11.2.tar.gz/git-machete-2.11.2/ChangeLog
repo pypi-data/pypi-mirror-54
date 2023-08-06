@@ -1,0 +1,347 @@
+CHANGES
+=======
+
+v2.11.2
+-------
+
+* Correctly handle fork point corner cases (#55)
+
+v2.11.1
+-------
+
+* Fix wrong spacing in status
+
+v2.11.0
+-------
+
+* Fix UnicodeEncodeError for non-TTY output under Python 2
+* Add --color flag to \`status\`
+
+v2.10.1
+-------
+
+* Implement displaying absolute path by \`file\` command
+
+v2.10.0
+-------
+
+* Make the ZSH completion file autoloadable
+* Make codebase compatible with both Python 2.7 and 3 (#35)
+* Migrate codebase to Python 3 (#35)
+* Update blog links to Medium
+* Update links to blogs
+* Add entry in README for Arch AUR package
+
+v2.9.0
+------
+
+* Add missing help to status (#47)
+* Mark branch merged to its parent with grey edge (#47)
+* Consider branches commit-wise equal to their upstreams as slidable (#22)
+* Optimize fetching data from git (#18)
+* Hightlight fork point in 'status --list-commits' in case of a yellow edge (#17)
+* Enable choosing the roots for discovery (#16)
+* Refactor handle\_untracked\_branch (#15)
+* Fix format + replace raise with return (#15)
+* Add 'yq' option in traverse (#15)
+* Implement hooks + provide samples (#14)
+* Temporarily use Python 2.7 for pep8 toxenv
+
+v2.8.8
+------
+
+* Fix Makefile
+* Provide zsh completion (#21)
+
+v2.8.7
+------
+
+* Change refname:lstrip=2 to refname:strip=2 to make sure old versions of git work properly
+
+v2.8.6
+------
+
+* Improve README
+* Bump to 2.8.6
+* Simplify installation process
+* Mark definition\_file and opt\_\* vars as global
+* Setup project in python way
+* Add icon
+* Add Gitter badge
+
+v2.8.5
+------
+
+* Exclude the no-op rebase case from the adjusted reflog
+
+v2.8.4
+------
+
+* Fix branch creation in case of tag named after a managed branch
+
+v2.8.3
+------
+
+* Improve bash completion for long options
+
+v2.8.2
+------
+
+* Handle the case when tag named exactly as a branch exists
+
+v2.8.1
+------
+
+* Fix formatting
+* Handle untracked branches whose remote counterpart candidate already exists properly in \`traverse\`
+
+v2.8.0
+------
+
+* Suggest sliding out merged branches during traverse
+
+v2.7.2
+------
+
+* Fix location of bash completion script on Mac OS
+
+v2.7.1
+------
+
+* Improved visibility on white terminal backgrounds (#10)
+
+v2.7.0
+------
+
+* 1st round of fixes (#7)
+* Improve behavior of traverse in case of untracked branch (#7)
+* Update ISSUE\_TEMPLATE.md
+
+v2.6.2
+------
+
+* Fix remote\_tracking\_branches\_cached
+* Use explicit git reflog show
+* Cache the logs
+* Cache branch\_defs\_by\_sha\_in\_reflog instead of individual reflogs
+* Update RELEASE\_NOTES.md
+* Reorganize codebase
+* Improve match\_log\_to\_adjusted\_reflogs
+* Add comment to status
+* Use extended branch\_defs to cater for remote counterpart in discovery
+* Pass local counterpart rather than remote to matching result
+* Use match\_log\_to\_adjusted\_reflogs for inference
+* Extract fork\_point\_and\_base\_branches
+* Extract spoonfeed\_log\_shas
+* Refactor fork-point algorithm
+* Take reflogs of remote counterparts of local branches into account in fork-point algorithm
+
+v2.6.1
+------
+
+* Use remote counterparts for upstream inference as well
+* Simplify upstream inference (more aligned with fork-point)
+
+v2.6.0
+------
+
+* Add debug logging of command outputs
+* Support command-line option
+* Provide debug for upstream inference
+* Provide debug for fork-point
+* Provide ISSUE\_TEMPLATE.md
+* Replace 'prune-branches' with 'delete-unmanaged'
+
+v2.5.5
+------
+
+* Fix behavior of 'discover' in a repo with no local branches
+
+v2.5.4
+------
+
+* Use 'git for-each-ref' instead of 'git branch'
+
+v2.5.3
+------
+
+* Bump version
+* Remove obsolete comment
+* Modify start\_points in infer\_upstream
+* Fix infer\_upstream crashing in case of empty branch reflog (#2)
+
+v2.5.2
+------
+
+* Add link to new blogpost
+
+v2.5.1
+------
+
+* Fix handling aliases by 'help'
+
+v2.5.0
+------
+
+* Fix help
+* Add an 'l' alias for 'log'
+* Improve README
+* Replace 'infer' with 'discover'
+
+v2.4.6
+------
+
+* Improve perfomance of infer command
+
+v2.4.5
+------
+
+* Unify criteria for finding a fork point
+
+v2.4.4
+------
+
+* Fix prune-branches crashing when branch is merged to HEAD but not to remote tracking branch
+
+v2.4.3
+------
+
+* Improve perfomance of status command
+
+v2.4.2
+------
+
+* Update repository URL in README.md
+
+v2.4.1
+------
+
+* Rename head() to current\_branch() and h to cb
+* Change backticks to apostrophes
+
+v2.4.0
+------
+
+* Infer the upstream for \`show up\`, \`go up\` and \`update\`
+
+v2.3.0
+------
+
+* Add log subcommand
+
+v2.2.0
+------
+
+* Fix bug with first
+* Add first/last directions to go and show
+
+v2.1.2
+------
+
+* Fix order issue
+* Fix logged git commands + optimize branch checking
+
+v2.1.1
+------
+
+* Fix Makefile
+
+v2.1.0
+------
+
+* Add anno subcommand
+
+v2.0.1
+------
+
+* Fix prune-branches crashing on current branch
+
+v2.0.0
+------
+
+* Fix prompt
+* Fix version
+* Add show subcommand
+* Revert "Fix version"
+* Fix add logic
+* Default param
+* Fix version
+* Fix add command messages
+* Skip backup if .git/machete does not exist
+* Fix prompts for add
+* Fix prune-branches
+* Tidy up
+* Fix gen
+* WIP improved infer upstream
+* Auto add
+* Add -l option
+* New infer algorithm
+* Implement automatic inference of parent branches
+* Fix pull
+* More fixes
+* Drop --remote option
+* Pull support
+* Fix traverse accordingly
+* Use is\_a\_branch
+* Improve remote sync status
+
+v1.5.0
+------
+
+* Improve command-line prompt
+
+v1.4.0
+------
+
+* Add \`traverse\` subcommand
+
+v1.3.1
+------
+
+* Check for indent errors in definition file
+
+v1.3.0
+------
+
+* Enable custom annotations for branches
+
+v1.2.0
+------
+
+* Enable sliding out multiple branches at once
+
+v1.1.0
+------
+
+* Rename \`all\_branches\` to \`managed\_branches\` and \`revision\` to \`refspec\`
+* Check if branch exists and allow to NOT occur in .git/machete for \`diff\`, \`fork-point\` and \`reapply\` commands
+
+v1.0.2
+------
+
+* Fix definition file location to work with submodules (#1)
+
+v1.0.1
+------
+
+* Filter out git branch output to prevent crashes during a rebase
+
+v1.0.0
+------
+
+* Fix README
+* Cosmetic fixes
+* Improve README
+* Fix fork\_point condition
+* Fix status -l
+* Fix fork point in status
+* Improve autocomplete
+* Document yellow edge
+* Add README
+* Introduce yellow edges
+* Cache fork points and SHAs
+* Improve Makefile
+* Extend bash completion
+* Add basic bash completion
+* Add Makefile and install.sh
+* Initial commit
