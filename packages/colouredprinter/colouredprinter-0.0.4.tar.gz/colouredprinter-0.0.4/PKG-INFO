@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: colouredprinter
+Version: 0.0.4
+Summary: Make your output more colorful
+Home-page: https://github.com/code4like/ColouredPrinter
+Author: code4like
+Author-email: 3129463533@qq.com
+License: GPL Licence
+Description: An util to make your output more colorful!
+Keywords: colorful,print,style
+Platform: any
