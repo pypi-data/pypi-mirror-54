@@ -1,0 +1,5 @@
+setuptools
+bob.extension
+bob.bio.base
+bob.bio.face
+bob.ip.caffe_extractor

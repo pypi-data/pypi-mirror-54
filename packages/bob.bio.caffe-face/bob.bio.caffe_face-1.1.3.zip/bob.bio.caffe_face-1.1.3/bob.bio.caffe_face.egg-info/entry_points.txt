@@ -1,0 +1,11 @@
+[bob.bio.extractor]
+lightcnn = bob.bio.caffe_face.config.extractor.lightcnn:extractor
+vgg_features = bob.bio.caffe_face.config.extractor.vgg_features:extractor
+
+[bob.bio.preprocessor]
+face-detect-lightcnn = bob.bio.caffe_face.config.preprocessor.lightcnn_preprocessor:preprocessor
+face-detect-vgg = bob.bio.caffe_face.config.preprocessor.vgg_preprocessor:preprocessor
+face-eyes-lightcnn = bob.bio.caffe_face.config.preprocessor.lightcnn_preprocessor:preprocessor_eyes
+face-eyes-vgg = bob.bio.caffe_face.config.preprocessor.vgg_preprocessor:preprocessor_eyes
+face-head-vgg = bob.bio.caffe_face.config.preprocessor.vgg_preprocessor:preprocessor_head
+
