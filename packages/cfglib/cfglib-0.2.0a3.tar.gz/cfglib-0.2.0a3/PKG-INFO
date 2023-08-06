@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cfglib
+Version: 0.2.0a3
+Summary: An extensible configuration library
+Home-page: https://github.com/swarmer/cfglib-py
+Keywords: configuration,settings
+Author: Anton Barkovsky
+Author-email: anton@swarmer.me
+Requires-Python: >=3.6,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Project-URL: Documentation, https://cfglib.readthedocs.io/en/latest/
+Description-Content-Type: text/x-rst
+
+======
+cfglib
+======
+
+
+.. image:: https://img.shields.io/pypi/v/cfglib.svg
+        :target: https://pypi.python.org/pypi/cfglib
+
+.. image:: https://readthedocs.org/projects/cfglib/badge/?version=latest
+        :target: https://cfglib.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+An extensible configuration library
+
+
+* Free software: MIT license
+* Documentation: https://cfglib.readthedocs.io.
+
+
+Features
+--------
+
+* Describe config schema and perform validation
+* Numerous utils to compose configs from multiple sources, etc.
+* Read settings from environment
+
