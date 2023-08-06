@@ -1,0 +1,4 @@
+[console_scripts]
+ggo = git_gopher:main
+ggo-get-incremented-version = git_gopher:get_incremented_version
+
