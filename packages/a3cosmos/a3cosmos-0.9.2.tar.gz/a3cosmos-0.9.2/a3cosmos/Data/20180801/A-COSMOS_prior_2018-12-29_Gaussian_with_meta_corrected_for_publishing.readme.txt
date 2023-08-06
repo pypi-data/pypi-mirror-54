@@ -1,0 +1,3 @@
+A3COSMOS DataSet_v20180801
+Prior-fitting photometry with A3COSMOS master catalog: "A3COSMOS_Master_Catalog_20181106/master_catalog_single_entry_v20181109.fits"
+SNRpeak>=4.35 && Pbcor>=0.2

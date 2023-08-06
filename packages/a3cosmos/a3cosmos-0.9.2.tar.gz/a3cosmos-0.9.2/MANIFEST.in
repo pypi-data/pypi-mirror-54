@@ -1,0 +1,8 @@
+include README.rst
+include README.md
+include LICENSE.txt
+include AUTHORS.txt
+
+recursive-include   a3cosmos/Data/          *.txt *.pdf *.fits *.FITS
+recursive-include   a3cosmos/Software/      *.py
+

@@ -1,0 +1,10 @@
+numpy
+astropy
+matplotlib
+requests-toolbelt
+
+[:python_version < "3.0"]
+funcsigs
+
+[:python_version >= "3.0"]
+inspect
