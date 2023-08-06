@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: headliner
+Version: 0.0.20
+Summary: Easy training and deployment of seq2seq models.
+Home-page: UNKNOWN
+Author: Christian Schäfer
+Author-email: c.schaefer.home@gmail.com
+License: MIT
+Description: 
+        Headliner is a sequence modeling library that eases the training and 
+        **in particular, the deployment of custom sequence models** for both researchers and developers. 
+        You can very easily deploy your models in a few lines of code. It was originally 
+        built for our own research to generate headlines from news articles. 
+        That's why we chose the name, Headliner. Although this library was created internally to 
+        generate headlines, you can also use it for other tasks like machine translations,
+        text summarization and many more.
+        
+        Read the documentation at: https://as-ideas.github.io/headliner/
+        
+        Headliner is compatible with Python 3.6 and is distributed under the MIT license.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: tests
+Provides-Extra: dev
+Provides-Extra: docs
