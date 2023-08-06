@@ -1,0 +1,33 @@
+{
+    "django_form_module_function": {
+        "hola": {
+            "__function__": "hola",
+            "__async__": false,
+            "__return__": "text",
+            "mensaje": {
+                "__type__": "text",
+                "label_desc": "mensaje",
+                "placeholder": "mensaje",
+                "value": ""
+            },
+            "edad": {
+                "__type__": "number",
+                "label_desc": "edad",
+                "placeholder": "edad",
+                "value": 23
+            },
+            "casado": {
+                "__type__": "checkbox",
+                "label_desc": "casado",
+                "placeholder": "casado",
+                "value": false,
+                "selected": false
+            },
+            "__pool_it_hola__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        }
+    }
+}
