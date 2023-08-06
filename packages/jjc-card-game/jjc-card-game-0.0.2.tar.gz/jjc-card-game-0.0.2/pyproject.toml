@@ -1,0 +1,45 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "card_game"  # source code directory
+    # The __init__.py must contain:
+    #   - description. Must take the form of docstring at top of file.
+    #       Only the first line will be publish to PyPI. The other lines are there for developers' benefit.
+    #   - version. example:  __verion__ = "0.1.0"
+dist-name = "jjc-card-game"  # Module name as shown on PyPI. If this ever changes, be sure to update get_versions() func.
+author = "Jonathan Chukinas"  # Visible on PyPI
+author-email = "chukinas@gmail.com"  # Visible on PyPI
+home-page = "https://github.com/jonathanchukinas/card_game"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Environment :: Console",
+    "Topic :: Games/Entertainment :: Board Games",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+]
+description-file = "README.md"
+requires-python = ">=3.6"
+requires = [
+    "click",
+    "colorama",
+    "PTable"
+]
+
+[tool.flit.scripts]
+jjc-card-game = "card_game.main:cli"
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest",
+     "pytest-cov",
+     "tox"
+]
