@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: setuptools-git-ver
+Version: 0.0.4
+Summary: Automatically set package version using git tag/hash
+Home-page: https://github.com/camas/setuptools-git-ver
+Author: Camas
+Author-email: camas@hotmail.co.uk
+License: UNKNOWN
+Description: # setuptools-git-ver
+        
+        Automatically set package version using git tag/hash
+        
+        ## Install
+        
+        Install using pip
+        
+        ## Usage
+        
+        To just use the default templates for versioning:
+        
+        ```python
+        setuptools.setup(
+            ...
+            version_config=True,
+            ...
+            setup_requires=['setuptools-git-ver'],
+            ...
+        )
+        ```
+        
+        Changing templates (also shows the defaults):
+        
+        ```python
+        setuptools.setup(
+            ...
+            version_config={
+                "template": "{tag}",
+                "dev_template": "{tag}.dev{ccount}+git.{sha}"
+                "dirty_template": "{tag}.dev{ccount}+git.{sha}.dirty"
+            },
+            ...
+            setup_requires=['setuptools-git-ver'],
+            ...
+        )
+        ```
+        
+        ### Templates
+        
+        - `template`: used if no untracked files and latest commit is tagged
+        
+        - `dev_template`: used if no untracked files and latest commit isn't tagged
+        
+        - `dirty_template`: used if untracked files exist or uncommitted changes have been made
+        
+Keywords: setuptools git version-control
+Platform: UNKNOWN
+Classifier: Framework :: Setuptools Plugin
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
