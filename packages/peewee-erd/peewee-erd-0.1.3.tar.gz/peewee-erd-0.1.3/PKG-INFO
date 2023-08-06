@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: peewee-erd
+Version: 0.1.3
+Summary: Draw the ER diagram based on peewee models.
+Home-page: https://github.com/rominf/peewee-erd
+Author: Roman Inflianskas
+Author-email: infroma@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: live-view
+Requires-Dist: PySide2 (>=5.13,<6.0); extra == "live-view"
+Requires-Dist: dataclasses (>=0.6,<0.7); python_version < "3.7"
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: graphviz (>=0.13.0,<0.14.0)
+Requires-Dist: jinja2 (>=2.10,<3.0)
+Requires-Dist: peewee (>=3.0,<4.0)
+Requires-Dist: watchdog (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/rominf/peewee-erd
