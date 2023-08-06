@@ -1,0 +1,5 @@
+===========
+``cavcalc``
+===========
+
+.. automodule:: cavcalc
