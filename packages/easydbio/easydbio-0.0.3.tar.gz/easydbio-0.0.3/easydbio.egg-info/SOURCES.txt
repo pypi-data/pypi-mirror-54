@@ -1,0 +1,7 @@
+README.md
+setup.py
+easydbio/__init__.py
+easydbio.egg-info/PKG-INFO
+easydbio.egg-info/SOURCES.txt
+easydbio.egg-info/dependency_links.txt
+easydbio.egg-info/top_level.txt
