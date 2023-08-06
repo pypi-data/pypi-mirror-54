@@ -1,0 +1,8 @@
+---
+- name: Destroy
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - include: destroy/docker.yml
+    # - include: create/vagrant.yml
