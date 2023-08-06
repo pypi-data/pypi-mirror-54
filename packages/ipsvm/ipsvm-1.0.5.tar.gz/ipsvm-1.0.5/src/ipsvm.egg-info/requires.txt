@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+astropy
+python-dateutil
+sklearn
+joblib
+PyPrind
+ai.cdas

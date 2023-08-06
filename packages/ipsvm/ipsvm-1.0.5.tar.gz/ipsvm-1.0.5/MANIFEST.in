@@ -1,0 +1,3 @@
+include version.py
+include src/ipsvm/default.json
+include src/ipsvm/predictor.pkl
