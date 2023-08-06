@@ -1,0 +1,93 @@
+{# The Primary Template                                                                                      #}
+{#                                                                                                           #}
+{# The structure is flattened to some degree by ignoring the HTML,HEAD, FOOT and BODY elements. The nesting  #}
+{# Starts at META,RSS,CSS,PAGE and SECTION for the HEAD and HEADER,FOOTER,NAV,MAIN, and FOOTER for the BODY. #}
+{# Indentation is based upon a single indent per HTML tag. I suppose indents are acceptable but are avoided. #}
+{#                                                                                                           #}
+{# There is an inherint hierarchy in the blocks, the order is SITE>PAGE>VIEW. If you need more granularity I #}
+{# would use PART over say SECTION or SUBSECTION. as it's 4 letters long, as an added level resulting in the #}
+{# following hierarchy SITE>PAGE>PART>VIEW                                                                   #}
+{#                                                                                                           #}
+{# Specify the following default context in your views.py                                                    #}
+{# context = {'site' : {'title' : 'SITE'},'page' : {'title' : 'PAGE'}}                                       #}
+
+{% block dtd %}<!DOCTYPE html>{% endblock dtd %}
+{% block html %}
+{% block html_open %}<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ LANGUAGE_CODE }}" lang="{{ LANGUAGE_CODE }}">{% endblock html_open %}
+ {% block head %}
+ <head>
+  {% block browser %}
+   {% block IE %}<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->{% endblock IE %}
+  {% endblock browser %}
+  {% block site %}
+   {% block site_icon %}{% endblock site_icon %}
+   {% block site_prefix %}{% endblock site_prefix %}
+   {% block site_title %}{% endblock site_title%}
+   {% block site_suffix %}{% endblock site_suffix %}
+  {% endblock site %}
+  {% block meta %}
+   {% block meta_prefix %}{% endblock meta_prefix %}
+   {% block meta_author%}{% endblock meta_author %}
+   {% block meta_charset %}{% endblock meta_charset %}
+   {% block meta_language %}{% endblock meta_language %}
+   {% block meta_description %}{% endblock meta_description %}
+   {% block meta_keywords %}{% endblock meta_keywords %}
+   {% block meta_othertags %}{% endblock meta_othertags %}
+   {% block meta_refresh %}{% endblock meta_refresh %}
+   {% block meta_robots %}{% endblock meta_robots %}
+   {% block meta_suffix %}{% endblock meta_suffix %}
+  {% endblock meta %}
+  {% block rss %}
+  {% endblock rss %}
+  {% block css %}
+   {% block css_prefix %}{% endblock css_prefix %}
+   {% block css_layout %}{% endblock css_layout%}
+   {% block css_fonts %}{% endblock css_fonts%}
+   {% block css_style %}{% endblock css_style%}
+   {% block css_site %}{% endblock css_site %}
+   {% block css_page %}{% endblock css_page %}
+   {% block css_view %}{% endblock css_view %}
+   {% block css_suffix %}{% endblock css_suffix %}
+  {% endblock css %}
+  {% block page %}{% endblock page %}
+  {% block view %}{% endblock view %}
+ </head>
+ {% endblock head %}
+ {% block body %}
+ <body>
+  {% block header %}
+  <header>
+   {% block header_banner %}{% endblock header_banner %}
+   {% block header_title %}{% endblock header_title %}
+   {% block header_breadcrumb %}{% endblock header_breadcrumb %}
+  </header>
+  {% endblock header %}
+  {% block nav %}
+  <nav>
+   {% block nav_content %}{% endblock nav_content %}
+  </nav>
+  {% endblock nav %}
+  {% block main %}
+  <main>
+   {% block main_notice %}{% endblock main_notice %}
+   {% block main_content %}{% endblock main_content %} {# Consider nesting {% block content %}{% endblock content %} within the main_content block, it si commonly used within Django #}
+  </main>
+  {% endblock main %}
+  {% block footer %}
+  <footer>
+   {% block footer_breadcrumb %}{% endblock footer_breadcrumb %}
+   {% block footer_legal %}{% endblock footer_legal %}
+  </footer>
+  {% endblock footer %}
+ </body>
+ {% endblock body %}
+ {% block foot %}
+  {% block js %}
+   {% block js_libs %}{% endblock js_libs %}
+   {% block js_site %}{% endblock js_site %}
+   {% block js_page %}{% endblock js_page %}
+   {% block js_view %}{% endblock js_view %}
+  {% endblock js %}
+ {% endblock foot %}
+</html>
+{% endblock html %}

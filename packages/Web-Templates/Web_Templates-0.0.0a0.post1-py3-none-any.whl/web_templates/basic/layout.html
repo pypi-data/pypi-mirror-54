@@ -1,0 +1,156 @@
+{# There are various commnet block within this file suggesting  #}
+{# subbstitutions that could be supported by sphinx incorporate #}
+{# it within a django project                                   #}
+
+{{ '{% extends "base.sphinx.html" %}' }}
+
+{{ '{% block dtd %}' }}
+{%- block doctype -%}
+{{ super() }}
+{%- endblock %}
+{{ '{% endblock dtd %}' }}
+
+    {{ '{% block meta_charset %}' }}
+    <meta http-equiv="Content-Type" content="text/html; charset={{ encoding }}" />
+    {{ '{% endblock meta_charset %}' }}
+    {{ '{% block meta_suffix %}' }}
+    {{ metatags }}
+    {{ '{% endblock meta_suffix %}' }}
+    {{ '{% block site_title %}' }}
+    {%- block htmltitle %}
+    {{ super() }}
+    {%- endblock %}
+    {{ '{% endblock site_title %}' }}
+    {{ '{% block css_suffix %}' }}
+    {# block css #}
+    {{ css() }}
+    {# endblock css #}
+    {{ '{% endblock css_suffix %}' }}
+    {{ '{% block site_suffix %}' }}
+    {# block embedded #}
+    {%- if not embedded %}
+    {# block js #}
+    {{ script() }}
+    {# endblock js #}
+    {# block opensearch #}
+    {%- if use_opensearch %}
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}"
+          href="{{ pathto('_static/opensearch.xml', 1) }}"/>
+    {%- endif %}
+    {# endblock opensearch #}
+    {# block favicon #}
+    {%- if favicon %}
+    <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1) }}"/>
+    {%- endif %}
+    {# endblock favicon #}
+    {%- endif %}
+    {# endblock embedded #}
+    {# block links #}
+    {%- block linktags %}
+    {# block about #}
+    {%- if hasdoc('about') %}
+    <link rel="author" title="{{ _('About these documents') }}" href="{{ pathto('about') }}" />
+    {%- endif %}
+    {# endblock about #}
+    {# lock index #}
+    {%- if hasdoc('genindex') %}
+    <link rel="index" title="{{ _('Index') }}" href="{{ pathto('genindex') }}" />
+    {%- endif %}
+    {# endblock index #}
+    {# block search #}
+    {%- if hasdoc('search') %}
+    <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}" />
+    {%- endif %}
+    {# endblock search #}
+    {# block copyright #}
+    {%- if hasdoc('copyright') %}
+    <link rel="copyright" title="{{ _('Copyright') }}" href="{{ pathto('copyright') }}" />
+    {%- endif %}
+    {# endblock copyright #}
+    {# block title #}
+    <link rel="top" title="{{ docstitle|e }}" href="{{ pathto(master_doc) }}" />
+    {# endblock title #}
+    {# block parents #}
+    {%- if parents %}
+    <link rel="up" title="{{ parents[-1].title|striptags|e }}" href="{{ parents[-1].link|e }}" />
+    {%- endif %}
+    {# endblock parents #}
+    {# block next #}
+    {%- if next %}
+    <link rel="next" title="{{ next.title|striptags|e }}" href="{{ next.link|e }}" />
+    {%- endif %}
+    {# endblock next #}
+    {# block prev #}
+    {%- if prev %}
+    <link rel="prev" title="{{ prev.title|striptags|e }}" href="{{ prev.link|e }}" />
+    {%- endif %}
+    {# endblock prev #}
+    {%- endblock %}
+    {# endblock links #}
+    {{ '{% endblock site_suffix %}' }}
+   {%- block extrahead %} 
+   {% endblock extrahead %}
+   {{'{% block header %}' }}
+   {%- block header %}{% endblock header%}
+   {{ '{% endblock header %}' }}
+   {{'{% block nav %}' }}
+   {# We Cancel out the Django templates' Nav section for now #}
+   {{ '{% endblock nav %}' }}
+
+   {{ '{% block body %}' }}
+   {%- block relbar1 %}
+   {{ relbar() }}
+   {% endblock relbar1 %}
+
+   {%- block content %}
+   {%- block sidebar1 %}
+   {# possible location for sidebar #}
+   {% endblock %}
+
+   <div class="document">
+   {%- block document %}
+      <div class="documentwrapper">
+      {%- if render_sidebar %}
+        <div class="bodywrapper">
+      {%- endif %}
+        <div class="body" role="main">
+         {% block body %} {% endblock %}
+        </div>
+      {%- if render_sidebar %}
+        </div>
+      {%- endif %}
+      </div>
+   {%- endblock %}
+
+  {%- block sidebar2 %}
+  {{ sidebar() }}
+  {% endblock %}
+      <div class="clearer"></div>
+    </div>
+{%- endblock %}
+
+{%- block relbar2 %}
+ {{ relbar() }}
+{% endblock %}
+
+{%- block footer %}
+    <div class="footer" role="contentinfo">
+    {%- if show_copyright %}
+      {%- if hasdoc('copyright') %}
+        {% trans path=pathto('copyright'), copyright=copyright|e %}&#169; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+      {%- else %}
+        {% trans copyright=copyright|e %}&#169; Copyright {{ copyright }}.{% endtrans %}
+      {%- endif %}
+    {%- endif %}
+    {%- if last_updated %}
+      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+    {%- endif %}
+    {%- if show_sphinx %}
+      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+    {%- endif %}
+    </div>
+{%- endblock %}
+  </body>
+{{ '{% endblock body %}' }}
+

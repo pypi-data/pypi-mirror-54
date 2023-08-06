@@ -1,0 +1,117 @@
+{# The Primary Template                                                                                      #}
+{#                                                                                                           #}
+{# The structure is flattened to some degree by ignoring the HTML,HEAD, FOOT and BODY elements. The nesting  #}
+{# Starts at META,RSS,CSS,PAGE and SECTION for the HEAD and HEADER,FOOTER,NAV,MAIN, and FOOTER for the BODY. #}
+{# Indentation is based upon a single indent per HTML tag. I suppose indents are acceptable but are avoided. #}
+{#                                                                                                           #}
+{# There is an inherint hierarchy in the blocks, the order is SITE>PAGE>VIEW. If you need more granularity I #}
+{# would use PART over say SECTION or SUBSECTION. as it's 4 letters long, as an added level resulting in the #}
+{# following hierarchy SITE>PAGE>PART>VIEW                                                                   #}
+{#                                                                                                           #}
+{# Specify the following default context in your views.py                                                    #}
+{# context = {'site' : {'title' : 'SITE'},'page' : {'title' : 'PAGE'}}                                       #}
+
+{{ '{% block dtd %}' }}<!DOCTYPE html>{{ '{% endblock dtd %}' }}
+{{ '{% block html %}' }}
+{{ '{% block html_open %}' }}<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ LANGUAGE_CODE }}" lang="{{ LANGUAGE_CODE }}">{{ '{% endblock html_open %}' }}
+ {{ '{% block head %}' }}
+ <head>
+  {{ '{% block browser %}' }}
+   {{ '{% block html5 %}' }}<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->{{ '{% endblock html5 %}' }}
+  {{ '{% endblock browser %}' }}
+  {{ '{% block site %}' }}
+   {{ '{% block site_icon %}' }}{{ '{% endblock site_icon %}' }}
+   {{ '{% block site_prefix %}' }}{{ '{% endblock site_prefix %}' }}
+   {{ '{% block site_title %}' }}<title>{{ site.title }} : {{ page.title }}</title>{{ '{% endblock site_title%}' }}
+   {{ '{% block site_suffix %}' }}{{ '{% endblock site_suffix %}' }}
+  {{ '{% endblock site %}' }}
+  {{ '{% block meta %}' }}
+   {{ '{% block meta_prefix %}' }}{{ '{% endblock meta_prefix %}' }}
+   {{ '{% block meta_author%}' }}{{ '{% endblock meta_author %}' }}
+   {{ '{% block meta_charset %}' }}<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />{{ '{% endblock meta_charset %}' }}
+   {{ '{% block meta_language %}' }}<meta http-equiv="Content-Language" value="en-US" />{{ '{% endblock meta_language %}' }}
+   {{ '{% block meta_description %}' }}{{ '{% endblock meta_description %}' }}
+   {{ '{% block meta_keywords %}' }}{{ '{% endblock meta_keywords %}' }}
+   {{ '{% block meta_othertags %}' }}{{ '{% endblock meta_othertags %}' }}
+   {{ '{% block meta_refresh %}' }}{{ '{% endblock meta_refresh %}' }}
+   {{ '{% block meta_robots %}' }}{{ '{% endblock meta_robots %}' }}
+   {{ '{% block meta_suffix %}' }}{{ '{% endblock meta_suffix %}' }}
+  {{ '{% endblock meta %}' }}
+  {{ '{% block rss %}' }}
+  {{ '{% endblock rss %}' }}
+  {{ '{% block css %}' }}
+   {{ '{% block css_prefix %}' }}{{ '{% endblock css_prefix %}' }}
+   {{ '{% block css_layout %}' }}<link rel="stylesheet" type="text/css" href="{{ '{% static "css/layout.css" %}' }}">{{ '{% endblock css_layout%}' }}
+   {{ '{% block css_fonts %}' }}<link rel="stylesheet" type="text/css" href="{{ '{% static "css/fonts.css" %}' }}">{{ '{% endblock css_fonts%}' }}
+   {{ '{% block css_style %}' }}<link rel="stylesheet" type="text/css" href="{{ '{% static "css/style.css" %}' }}">{{ '{% endblock css_style%}' }}
+   {{ '{% block css_site %}' }}{{ '{% endblock css_site %}' }}
+   {{ '{% block css_page %}' }}{{ '{% endblock css_page %}' }}
+   {{ '{% block css_view %}' }}{{ '{% endblock css_view %}' }}
+   {{ '{% block css_suffix %}' }}{{ '{% endblock css_suffix %}' }}
+  {{ '{% endblock css %}' }}
+  {{ '{% block page %}' }}{{ '{% endblock page %}' }}
+  {{ '{% block view %}' }}{{ '{% endblock view %}' }}
+ </head>
+ {{ '{% endblock head %}' }}
+ {{ '{% block body %}' }}
+ <body>
+  {{ '{% block header %}' }}
+  <header>
+   {{ '{% block header_banner %}' }}
+   {{ '{% if messages %}' }}
+   <div>
+   <ul class="messages">
+   {{ '{% for message in messages %}' }}
+    <li{{ '{% if message.tags %}' }} class="{{ message.tags }}"{{ '{% endif %}' }}>{{ message }}</li>
+   {{ '{% endfor %}' }}
+   </ul>
+   </div>
+   {{ '{% endif %}' }}
+   {{ '{% endblock header_banner %}' }}
+   {{ '{% block header_title %}' }}
+   <div>
+    <img src="{{ '{% static "images/logo.png" %}' }}" height="32" width ="32" alt="Logo">
+    <h1>{{ page.title }}</h1>
+    {{ '{% include "accounts/user.html" %}' }}
+   </div>
+   {{ '{% endblock header_title %}' }}
+   {{ '{% block header_breadcrumb %}' }}
+    {{ '{% sitetree_breadcrumbs from "sitemenu" %}' }}
+   {{ '{% endblock header_breadcrumb %}' }}
+  </header>
+  {{ '{% endblock header %}' }}
+  {{ '{% block nav %}' }}
+  <nav>
+   {{ '{% block nav_content %}' }}
+    {{ '{% sitetree_menu from "sitemenu" include "trunk" template "sitetree/menu.html"%}' }}
+   {{ '{% endblock nav_content %}' }}
+  </nav>
+  {{ '{% endblock nav %}' }}
+  {{ '{% block main %}' }}
+  <main>
+   {{ '{% block main_notice %}' }}{{ '{% endblock main_notice %}' }}
+   {{ '{% block main_content %}' }}{{ '{% endblock main_content %}' }}
+  </main>
+  {{ '{% endblock main %}' }}
+  {{ '{% block footer %}' }}
+  <footer>
+   {{ '{% block footer_breadcrumb %}' }}{{ '{% endblock footer_breadcrumb %}' }}
+   {{ '{% block footer_legal %}' }}{{ '{% endblock footer_legal %}' }}
+  </footer>
+  {{ '{% endblock footer %}' }}
+ </body>
+ {{ '{% endblock body %}' }}
+ {{ '{% block foot %}' }}
+  {{ '{% block js %}' }}
+   {{ '{% block js_libs %}' }}
+   <!-- <script language="JavaScript" type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>"></script> Dropping jQuery for Angular
+   <script language="JavaScript" type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script></script> -->
+   <script language="JavaScript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.3/angular.min.js"></script>
+   {{ '{% endblock js_libs %}' }}
+   {{ '{% block js_site %}' }}{{ '{% endblock js_site %}' }}
+   {{ '{% block js_page %}' }}{{ '{% endblock js_page %}' }}
+   {{ '{% block js_view %}' }}{{ '{% endblock js_view %}' }}
+  {{ '{% endblock js %}' }}
+ {{ '{% endblock foot %}' }}
+</html>
+{{ '{% endblock html %}' }}
