@@ -1,0 +1,42 @@
+Metadata-Version: 1.2
+Name: vii-sdk
+Version: 1.0.0
+Summary: Code for managing vii.vip blockchain transactions and accounts using vii_sdk in python. Allows full functionality interfacing with the Horizon front end. Visit https://vii.vip for more information.
+Home-page: UNKNOWN
+Author: VII
+Author-email: admin@vii.vip
+License: Apache
+Description: vii_sdk
+        =======
+        
+        vii_sdk is a Python library for communicating with
+        a Vii Horizon server. It is used for building Vii apps on Python.
+        
+        It provides:
+        
+        - a networking layer API for Horizon endpoints.
+        - facilities for building and signing transactions, for communicating with a Vii Horizon instance, and for submitting transactions or querying network history.
+        
+        Installing
+        ----------
+        
+        Install from pypi:
+        
+        .. code-block:: text
+        
+            pip install -U vii-sdk
+        
+Keywords: vii.vip,blockchain,distributed exchange,cryptocurrency,dex,sdex,trading
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*

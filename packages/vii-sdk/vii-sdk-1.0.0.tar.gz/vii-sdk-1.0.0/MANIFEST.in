@@ -1,0 +1,4 @@
+include vii_sdk/wordlist/chinese.txt
+include README.rst
+include LICENSE
+include requirements.txt
