@@ -1,0 +1,11 @@
+README.md
+setup.py
+RattletrapPython/__init__.py
+RattletrapPython/rattletrap.exe
+RattletrapPython/rattletrap.py
+RattletrapPython/version.py
+RattletrapPython.egg-info/PKG-INFO
+RattletrapPython.egg-info/SOURCES.txt
+RattletrapPython.egg-info/dependency_links.txt
+RattletrapPython.egg-info/requires.txt
+RattletrapPython.egg-info/top_level.txt
