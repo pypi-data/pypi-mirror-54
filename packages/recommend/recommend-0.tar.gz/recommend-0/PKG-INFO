@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: recommend
+Version: 0
+Summary: squat
+Home-page: https://github.com/maxhumber/recommend
+Author: Max Humber
+Author-email: max.humber@gmail.com
+License: MIT
+Description: # recommend
+Keywords: recommend
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
