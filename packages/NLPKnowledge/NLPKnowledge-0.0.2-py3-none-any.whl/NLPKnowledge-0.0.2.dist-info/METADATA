@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: NLPKnowledge
+Version: 0.0.2
+Summary: Package to make sense of images with text information
+Home-page: UNKNOWN
+Author: Oleksandr Maistrov
+Author-email: maistrovas@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.4
+Requires-Dist: click (==6.7)
+Requires-Dist: py (==1.4.34)
+Requires-Dist: pytest (==3.2.3)
+Requires-Dist: pytesseract (==0.3.0)
+Requires-Dist: summa (==1.2.0)
+Requires-Dist: spacy (==2.2.1)
+Requires-Dist: Pillow (==6.2.0)
+
+
+Install instruction:
+Install package
+>>> pip install pip install NLPKnowledge
+Install basic NLP model
+>>> python -m spacy download en_core_web_sm
+Install tesseract (Mac OS)
+>>> brew install tesseract
+Or use use this guide https://github.com/tesseract-ocr/tesseract/wiki for other platform
+install instruction.
+Check path where language models should be installed
+>>>brew list tesseract
+
+it should look like "/usr/local/Cellar/tesseract/4.0.0/share/tessdata/"
+
+Install language models to tessdata:
+wget -P /usr/local/Cellar/tesseract/4.0.0/share/tessdata/ https://github.com/tesseract-ocr/tessdata/raw/4.00/eng.traineddata
+wget -P /usr/local/Cellar/tesseract/4.0.0/share/tessdata/ https://github.com/tesseract-ocr/tessdata/raw/4.00/rus.traineddata
+
+
