@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ifmodel
+Version: 1.2.0
+Summary: A dataclass Collection that amisoftware use
+Home-page: https://git.netsdl.com/chenchu/promotion-api
+Author: chenchu
+Author-email: chenchu@netsdl.com
+License: MIT
+Description: UNKNOWN
+Keywords: model python
+Platform: UNKNOWN

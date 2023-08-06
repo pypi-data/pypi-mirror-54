@@ -1,0 +1,10 @@
+setup.py
+ifmodel/__init__.py
+ifmodel/ifconfig.py
+ifmodel/ifheadmod.py
+ifmodel/ifjobmod.py
+ifmodel/iflinemod.py
+ifmodel.egg-info/PKG-INFO
+ifmodel.egg-info/SOURCES.txt
+ifmodel.egg-info/dependency_links.txt
+ifmodel.egg-info/top_level.txt
