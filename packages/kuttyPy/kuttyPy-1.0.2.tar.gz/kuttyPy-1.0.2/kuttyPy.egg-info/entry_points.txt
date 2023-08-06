@@ -1,0 +1,3 @@
+[console_scripts]
+kuttypy = kuttyPyGui:KuttyPyGUI
+
