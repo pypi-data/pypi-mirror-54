@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+jkg_evaluators/__init__.py
+jkg_evaluators/_version.py
+jkg_evaluators.egg-info/PKG-INFO
+jkg_evaluators.egg-info/SOURCES.txt
+jkg_evaluators.egg-info/dependency_links.txt
+jkg_evaluators.egg-info/top_level.txt
+jkg_evaluators/challenges/__init__.py
+jkg_evaluators/challenges/dragonfind.py
+jkg_evaluators/challenges/egg.py
+jkg_evaluators/core/__init__.py
+jkg_evaluators/core/core_classes.py

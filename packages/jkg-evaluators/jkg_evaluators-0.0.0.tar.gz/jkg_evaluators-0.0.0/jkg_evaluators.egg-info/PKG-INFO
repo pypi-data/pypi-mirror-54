@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jkg-evaluators
+Version: 0.0.0
+Summary: challenge evaluation
+Home-page: https://github.com/endremborza/jkg_evaluators
+Author: Endre Márk Borza
+Author-email: endremborza@gmail.com
+License: MIT
+Description: # *J*elm*K*nowledge*G*raph  evaluators
+        
+        python package, for evaluating programming challenges
+        
+        
+Keywords: education challenges
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
