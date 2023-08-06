@@ -1,0 +1,9 @@
+README.md
+setup.py
+saywhen/__init__.py
+saywhen/notification.py
+saywhen.egg-info/PKG-INFO
+saywhen.egg-info/SOURCES.txt
+saywhen.egg-info/dependency_links.txt
+saywhen.egg-info/top_level.txt
+scripts/saywhen
