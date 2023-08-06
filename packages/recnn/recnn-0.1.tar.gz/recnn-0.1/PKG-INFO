@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: recnn
+Version: 0.1
+Summary: A Python toolkit for Reinforced News Recommendation.
+Home-page: UNKNOWN
+Author: Mike Watts
+Author-email: awarebayes@gmail.com
+License: Apache 2.0
+Description: A Python toolkit for Reinforced News Recommendation.
+Platform: UNKNOWN
