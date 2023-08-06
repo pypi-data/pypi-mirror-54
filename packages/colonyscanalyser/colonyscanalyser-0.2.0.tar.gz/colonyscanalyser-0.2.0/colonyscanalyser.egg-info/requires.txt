@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scikit-image>=0.15
+
+[dev]
+check-manifestpytest
+pytest-cov
+
+[test]
+pytest
+pytest-cov
