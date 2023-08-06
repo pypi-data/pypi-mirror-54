@@ -1,0 +1,11 @@
+webscrapetools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webscrapetools/keyvalue.py,sha256=n-fEB0je9BS6NCXbNkUjTFgfic93G9YK-PpIVZYmJ9A,10407
+webscrapetools/osaccess.py,sha256=6Ugj0JUwc12y5uN9T_BvsPYW2M3zqZgcqvDHrtNEOaQ,3412
+webscrapetools/taskpool.py,sha256=TAt-Rmd4XeqJlSdIk_qZaQunSMXxxnmahI8mpDg-Cdc,2425
+webscrapetools/urlcaching.py,sha256=g8BB6oTQRuGc5tkEPWJQHsETYw5LHRyehiwq6S91j9A,4429
+webscrapetools-0.5.5.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+webscrapetools-0.5.5.dist-info/METADATA,sha256=P-q2J-oarExeCj6CXbudqshNyM5_eWFbifDHrU6v2gg,3075
+webscrapetools-0.5.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+webscrapetools-0.5.5.dist-info/top_level.txt,sha256=bNZ-bQWJYW2TeOizT9y845uA4tgli26zRuKF-_HeMNk,15
+webscrapetools-0.5.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+webscrapetools-0.5.5.dist-info/RECORD,,
