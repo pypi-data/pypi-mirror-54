@@ -1,0 +1,7 @@
+include dash_coreui_components/dash_coreui_components.min.js
+include dash_coreui_components/dash_coreui_components.min.js.map
+include dash_coreui_components/metadata.json
+include dash_coreui_components/package-info.json
+include README.md
+include LICENSE
+include package.json
