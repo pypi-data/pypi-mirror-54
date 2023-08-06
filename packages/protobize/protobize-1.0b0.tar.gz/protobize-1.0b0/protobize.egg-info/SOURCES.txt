@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+protobize.egg-info/PKG-INFO
+protobize.egg-info/SOURCES.txt
+protobize.egg-info/dependency_links.txt
+protobize.egg-info/entry_points.txt
+protobize.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: protobize
+Version: 1.0b0
+Summary: Compile protobuffers at package build time
+Home-page: https://github.com/pierlauro/protobize
+Author: Pierlauro Sciarelli
+Author-email: foss@pstux.dev
+License: GNU Affero General Public License v3.0
+Description: UNKNOWN
+Platform: UNKNOWN
