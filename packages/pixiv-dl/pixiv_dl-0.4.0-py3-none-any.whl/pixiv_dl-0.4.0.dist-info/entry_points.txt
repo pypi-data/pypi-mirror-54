@@ -1,0 +1,4 @@
+[console_scripts]
+pixiv-dl=pixiv_dl.downloader:main
+pixiv-filter=pixiv_dl.filter:main
+
