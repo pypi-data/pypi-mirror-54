@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: pipenode
+Version: 0.381
+Summary: A clone of Spotify's Luigi library with less features and intended for workflows on a single machine.
+Home-page: https://gitee.com/Harlaus/pipenode
+Author: qize.luo
+Author-email: qize.luo@miniso.com
+License: UNKNOWN
+Download-URL: https://gitee.com/Harlaus/pipenode/archive/0.5.tar.gz
+Keywords: python,workflow
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pipenode
+pipenode supported mode:
+* thread
+* process
+* coroutine
+
+## example
+
+```
+import pipenode
+import time
+def work(**kwargs):
+    print('my work', kwargs.get('name'))
+    time.sleep(1)
+
+server = pipenode.Server(run_type='thread|process|coroutine', max_workers=10)
+_ = [server.add_worker(work, name='luo') for _ in range(10)]
+server.run_executor()
+```
+
+## Extensions
+
+Extensions folder include modulers or other tools someone sharing. You can push your code without bugs.
+
+
+|logo|
+
+|Build Status|
+
+
+|Demo|
+
+Documentation
+-------------
+
+* `HEAD `
+
+GitHub.
+
+Roadmap
+-------
+
+.. 
+
