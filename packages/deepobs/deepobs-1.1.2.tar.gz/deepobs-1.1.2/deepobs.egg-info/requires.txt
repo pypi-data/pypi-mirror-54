@@ -1,0 +1,6 @@
+argparse
+numpy
+pandas
+matplotlib
+matplotlib2tikz==0.6.18
+seaborn
