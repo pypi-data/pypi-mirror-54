@@ -1,0 +1,9 @@
+README.md
+setup.py
+django_tfactory/__init__.py
+django_tfactory/tfactory.py
+django_tfactory.egg-info/PKG-INFO
+django_tfactory.egg-info/SOURCES.txt
+django_tfactory.egg-info/dependency_links.txt
+django_tfactory.egg-info/requires.txt
+django_tfactory.egg-info/top_level.txt
