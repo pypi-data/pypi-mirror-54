@@ -1,0 +1,12 @@
+jupyterlab
+altair-transform
+altair
+vega_datasets
+ibis-framework
+mypy_extensions
+typing_extensions
+jaeger-client
+jupyter_jaeger
+
+[dev]
+black
