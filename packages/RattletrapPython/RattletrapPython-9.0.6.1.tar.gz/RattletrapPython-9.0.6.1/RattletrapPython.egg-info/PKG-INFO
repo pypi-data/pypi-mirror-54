@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: RattletrapPython
+Version: 9.0.6.1
+Summary: A package to interact with rattletrap from python
+Home-page: https://github.com/skyborgff/RattletrapPython
+Author: Fabio Ferreira
+Author-email: fabiorcferreira@gmail.com
+License: MIT License
+Description: # Rattletrap Python
+        
+        
+        python setup.py install
+        
+        
+        import RattletrapPython.rattletrap as rattletrap
+        
+Keywords: rocket-league,rattletrap,rattletrap-python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
