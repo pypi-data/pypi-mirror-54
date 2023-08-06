@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: sentry2csv
+Version: 1.0a2
+Summary: Export Sentry issues to CSV for further analysis
+Home-page: https://github.com/sparkmeter/sentry2csv
+Author: SparkMeter
+Author-email: aru.sahni@sparkmeter.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sparkmeter/sentry2csv/issues
+Project-URL: Source Code, https://github.com/sparkmeter/sentry2csv
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.6.1)
+Provides-Extra: dev
+Requires-Dist: black (==19.3b0) ; extra == 'dev'
+Requires-Dist: mypy (==0.730) ; extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.2) ; extra == 'dev'
+Requires-Dist: pylint (==2.4.2) ; extra == 'dev'
+
+# sentry2csv
+
+![](https://github.com/sparkmeter/sentry2csv/workflows/build/badge.svg)
+![](https://img.shields.io/pypi/v/sentry2csv)
+![](https://img.shields.io/pypi/pyversions/sentry2csv)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![](https://img.shields.io/pypi/l/sentry2csv)
+
+Dump Sentry issues to CSV for further analysis.
+
+## Use
+
+1. Install the package: `pip install sentry2csv`
+2. Get a Sentry API Token from https://sentry.io/settings/account/api/auth-tokens/
+3. Run the exporter: `sentry2csv <API_TOKEN> <SENTRY_ORG> <SENTRY_PROJECT>`
+    * For example, `sentry2csv f9u3fdu821ed9j10sj19kjd991010 sparkmeter TopSecretProject13`
+
+This also accepts an optional `--enrich` flag. Enrichments augment issues with data from the latest event.
+An enrichment is in the form of `CSV Field Name=dotted.sentry.path`, and multiple enrichments are comma-separated.
+
+## Development
+1. Clone this repository
+2. Create a virtualenv with Python 3.7 or greater
+   * e.g., `mkvirtualenv -p $(which python3.7) sentry2csv`
+3. Install the package in editable mode: `pip install -e .[dev]`
+4. Hack away!
+
+
