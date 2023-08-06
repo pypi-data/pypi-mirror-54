@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+tartufo/__init__.py
+tartufo/__main__.py
+tartufo/cli.py
+tartufo/config.py
+tartufo/scanner.py
+tartufo/util.py
+tartufo.egg-info/PKG-INFO
+tartufo.egg-info/SOURCES.txt
+tartufo.egg-info/dependency_links.txt
+tartufo.egg-info/entry_points.txt
+tartufo.egg-info/requires.txt
+tartufo.egg-info/top_level.txt
