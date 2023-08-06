@@ -1,0 +1,2 @@
+include artellapipe/launcher/plugins/dccselector/__logging__.ini
+include artellapipe/launcher/plugins/dccselector/resources/icons/color/*.*
