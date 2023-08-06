@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: clifford
+Version: 1.1.0
+Summary: Numerical Geometric Algebra Module
+Home-page: http://clifford.readthedocs.io
+Author: Robert Kern
+Author-email: alexarsenovic@gmail.com
+License: bsd
+Description: 
+        A numerical geometric algebra module for python. BSD License.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
