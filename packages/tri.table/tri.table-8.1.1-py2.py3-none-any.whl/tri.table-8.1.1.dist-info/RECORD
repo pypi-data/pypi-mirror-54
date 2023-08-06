@@ -1,0 +1,14 @@
+tri_table/__init__.py,sha256=dFkFph1SXk8v65jzkh52ebGCxpNirLGI3fIwOKi-Dak,58772
+tri_table/db_compat.py,sha256=PMu1FH3az8lV75Y-fD3zIUMeMHWRnHuyEx1pOTghHU8,1888
+tri_table/templates/tri_table/header.html,sha256=KDpbBpsxT4e5a7iSF1VG1x6xx6hZ-gTRC0QxBkJoGNI,197
+tri_table/templates/tri_table/list.html,sha256=EK6iQEh4xlal6Lsno_XMoA5lFHv2cxOHweYXH82h0zI,115
+tri_table/templates/tri_table/paginator.html,sha256=Qbj79KkcMSWzlplyuznte82LDPXLQ2CIwAhBd4chIcM,1505
+tri_table/templates/tri_table/table.html,sha256=l_vUF2PnVNVaZBzUfQgTB3lg8j2cPsdORbknHDkcUrY,478
+tri_table/templates/tri_table/table_container.html,sha256=iLr033LiyXy7CCoglYPZ2wEQ06iJJOB_RJvhi1CHLKk,2078
+tri_table/templates/tri_table/table_header_rows.html,sha256=DZ3LvNfxNYZUOZisp3XK4S1NqK08L97_bPO7cI9U1nM,209
+tri.table-8.1.1.dist-info/AUTHORS.rst,sha256=KbOiCxcyKa1ie4y3AJjiFzzAS1o2J-xDVq27MYHV0ww,122
+tri.table-8.1.1.dist-info/LICENSE,sha256=4X7qTzx1MHerhZ97-2pGL-cg40b19BsM_Ij3RS1kcD8,1488
+tri.table-8.1.1.dist-info/METADATA,sha256=_98zh16LSmgHTeCZs2RFzyzqED-59TglOr6ppbc6lvg,17038
+tri.table-8.1.1.dist-info/WHEEL,sha256=CihQvCnsGZQBGAHLEUMf0IdA4fRduS_NBUTMgCTtvPM,110
+tri.table-8.1.1.dist-info/top_level.txt,sha256=-d4L9ICUyIFHwQJcMyhdJ56BvUYmigglpcQLLjzsx7A,10
+tri.table-8.1.1.dist-info/RECORD,,
