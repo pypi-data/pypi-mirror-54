@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+./project_bm/__init__.py
+project_bm.egg-info/PKG-INFO
+project_bm.egg-info/SOURCES.txt
+project_bm.egg-info/dependency_links.txt
+project_bm.egg-info/top_level.txt
