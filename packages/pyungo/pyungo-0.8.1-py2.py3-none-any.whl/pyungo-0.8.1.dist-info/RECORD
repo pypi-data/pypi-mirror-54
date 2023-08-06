@@ -1,0 +1,12 @@
+.DS_Store,sha256=cGQ38Y9chhgwF_h1Svs0xkr0EdkD4OH3p-wmw3Dnw54,8196
+pyungo/__init__.py,sha256=3a4qYWvYvPlntNiA7Zj5_n4g8bjop8F5qqhfdeYLtSk,64
+pyungo/core.py,sha256=o-TDiWkzqukbOVdbyzs-lElHMv2oxE0FHe18ftTIJ0k,14401
+pyungo/data.py,sha256=6EtX0LjmyRN0FwSw76EmGR15JMVUgJJffBAiJRgXRxY,1423
+pyungo/errors.py,sha256=5c_w3jSYlOTwbMJISnPn7dV5FU3dfnIMZAFEBnpiazU,99
+pyungo/io.py,sha256=zgRipQbtSZt58MekVeP13fsMnWYy1tnA2vQ7dWOMuOg,4342
+pyungo-0.8.1.dist-info/DESCRIPTION.rst,sha256=UQjox1L4jCQBTEq3-xjx9wD3aIv7OBfd2lnygMKQHbI,1838
+pyungo-0.8.1.dist-info/METADATA,sha256=CD6oBROr3rrzLNbgIp6qBBCVz2ut3evSTKqqxIn7Ogs,2457
+pyungo-0.8.1.dist-info/RECORD,,
+pyungo-0.8.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+pyungo-0.8.1.dist-info/metadata.json,sha256=En-tMbmPtnVcJ_LHe-KWficvdBcbTOZ9sWpPSyy_YVY,775
+pyungo-0.8.1.dist-info/top_level.txt,sha256=zUTdnalQS8rXeYkUMt4OHSGztKAQMcqaOh0QittR70k,7
