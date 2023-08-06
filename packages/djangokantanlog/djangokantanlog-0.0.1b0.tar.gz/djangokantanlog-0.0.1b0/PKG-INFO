@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: djangokantanlog
+Version: 0.0.1b0
+Summary: Django helper app for logging ID.
+Home-page: https://github.com/mmiyajima2/django-kantanlog
+Author: Masafumi Miyajima
+Author-email: mmiyajima2@gmail.com
+License: UNKNOWN
+Description: ============
+        Kantan Log
+        ============
+        
+        .. image:: https://coveralls.io/repos/github/mmiyajima2/django-kantanlog/badge.svg?branch=master
+        	:target: https://coveralls.io/github/mmiyajima2/django-kantanlog?branch=master
+        
+        
+        Kantan log is a simple Django helper app.
+        This app supports logging to Django Model's created_by, updated_by and http requests interception.
+        
+        
+        Quick Start
+        -----------
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
