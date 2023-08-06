@@ -1,0 +1,9 @@
+README.md
+setup.py
+servitor/__init__.py
+servitor/__main__.py
+servitor.egg-info/PKG-INFO
+servitor.egg-info/SOURCES.txt
+servitor.egg-info/dependency_links.txt
+servitor.egg-info/entry_points.txt
+servitor.egg-info/top_level.txt
