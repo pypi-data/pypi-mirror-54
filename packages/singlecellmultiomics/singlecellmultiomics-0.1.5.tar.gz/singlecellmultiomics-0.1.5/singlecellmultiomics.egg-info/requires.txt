@@ -1,0 +1,12 @@
+pysam
+numpy
+pandas
+colorama
+pysamiterators
+more-itertools
+matplotlib
+tabulate
+wheel
+setuptools
+scikit-learn
+seaborn
