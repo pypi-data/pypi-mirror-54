@@ -1,0 +1,14 @@
+celery_progress/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_progress/backend.py,sha256=falbC7Jt-_ttkitO4EdU_R39PHpa3hXebhMzaocXb0Q,4080
+celery_progress/consumers.py,sha256=z4eUg3JJYjCK5EhR4PZYs2Xie9LvX8q3WYYUbCbVcSY,1126
+celery_progress/routing.py,sha256=f6nzDDCIF5mBE7x7_M2guz2I6iVzMKqP7UgvcF-uIMM,163
+celery_progress/tasks.py,sha256=vTaeplret8PmzXo4cCe5rP4f_QqqfzYC7VIilUZGndQ,474
+celery_progress/urls.py,sha256=1XK0EoSx9RTG02-7MkfK6JCP8ZaP8WNiMDEbt9ndFW8,176
+celery_progress/views.py,sha256=B-pl_HVedBUc80x6l3js1zpX7bzyqIiuxHDUvsQ-zSA,255
+celery_progress/static/celery_progress/celery_progress.js,sha256=Yj1W7VGTozloOpI9ezofT-qKKskkwa7jXn0uXMoP20g,3045
+celery_progress/static/celery_progress/celery_progress_websockets.js,sha256=CIKiN5yxFaCOZBCGIfNtesNLZP1ZNDOftSmcN9SBlr8,2826
+celery_progress-0.0.7.dist-info/LICENSE,sha256=wpecdUT65cplKo35MRqfXciAzfuKM6GDSAq7T18yQTE,1065
+celery_progress-0.0.7.dist-info/METADATA,sha256=5ypSIcnTeRUBpdCgVb-9Zt87agLajm7oOXH7zOSpM3I,8992
+celery_progress-0.0.7.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+celery_progress-0.0.7.dist-info/top_level.txt,sha256=MH5Zn5_Hq1MtfSYgctTD6_qf-DXdloSuiumiO1KQMIw,16
+celery_progress-0.0.7.dist-info/RECORD,,
