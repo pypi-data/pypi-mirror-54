@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tf-models-official
+Version: 0.0.3.dev0
+Summary: TensorFlow Official Models
+Home-page: https://github.com/tensorflow/models
+Author: Google Inc.
+Author-email: no-reply@google.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: six
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (>=2.0.0) ; extra == 'tensorflow'
+Provides-Extra: tensorflow-hub
+Requires-Dist: tensorflow-hub (>=0.6.0) ; extra == 'tensorflow-hub'
+Provides-Extra: tensorflow_gpu
+Requires-Dist: tensorflow-gpu (>=2.0.0) ; extra == 'tensorflow_gpu'
+
+UNKNOWN
+
+
