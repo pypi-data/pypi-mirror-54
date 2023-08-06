@@ -1,0 +1,6 @@
+README.md
+setup.py
+pysyft.egg-info/PKG-INFO
+pysyft.egg-info/SOURCES.txt
+pysyft.egg-info/dependency_links.txt
+pysyft.egg-info/top_level.txt
