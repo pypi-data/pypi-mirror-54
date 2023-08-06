@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: r6statsapi
+Version: 0.1.5
+Summary: Async Wrapper for R6 Stats API
+Home-page: https://github.com/flaree/r6statsapi
+Author: flare
+License: MIT
+Description: # r6statsapi
+        ---
+        # Docs 
+        https://r6statsapi.readthedocs.io/en/latest/index.html
+        ---
+        ## Installation
+        
+        **Python 3.7 or higher is required**
+        
+        To install the library, you can just run the following command:
+        
+        ```sh
+        # Linux/Mac
+        python3.7 -m pip install -U r6statsapi
+        
+        # Windows
+        py -3.7 -m pip install -U r6statsapi
+        ```
+        
+        To install the dev version, replace `r6statsapi` with `git+https://github.com/flareee/r6statsapi`
+        ```py
+        import r6statsapi
+        import asyncio
+        
+        
+        loop = asyncio.get_event_loop()
+        
+        client = r6statsapi.Client('TOKEN')
+        players = loop.run_until_complete(
+            client.get_generic_stats("fiareee", Platform.uplay)
+        )
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Provides-Extra: docs
+Provides-Extra: style
