@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+gnn/GNN.py
+gnn/__init__.py
+gnn/gnn_utils.py
+gnn/load.py
+gnn.egg-info/PKG-INFO
+gnn.egg-info/SOURCES.txt
+gnn.egg-info/dependency_links.txt
+gnn.egg-info/top_level.txt
