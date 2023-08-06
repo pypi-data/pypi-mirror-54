@@ -1,0 +1,11 @@
+jblack
+setup.py
+jblack/__init__.py
+jblack/cli.py
+jblack/jblack
+jblack/useful.py
+jblack/worker.py
+jblack.egg-info/PKG-INFO
+jblack.egg-info/SOURCES.txt
+jblack.egg-info/dependency_links.txt
+jblack.egg-info/top_level.txt

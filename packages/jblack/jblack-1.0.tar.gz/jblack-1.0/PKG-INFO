@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jblack
+Version: 1.0
+Summary: Apply black on your jupyter notebook.
+Home-page: https://github.com/jupyter-black/jblack
+Author: QuentinN42
+Author-email: jupyter.black@gmail.com
+License: UNKNOWN
+Description: # JupyterBlack
+        Apply black on your jupyter notebook.\
+        Usage :
+        ```bash
+        $ jblack filename1.ipynb filename2.ipynb ... args
+        ```
+        Use `jblack -h` for more information.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
