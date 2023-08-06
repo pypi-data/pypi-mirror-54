@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flask-querykit
+Version: 2019.10.25
+Summary: A useful kit makes flask's query more pythonic.
+Home-page: https://github.com/suckmybigdick/flask-querykit
+Author-email: 13750192465@163.com
+License: UNKNOWN
+Description: A useful kit makes flask's query more pythonic.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

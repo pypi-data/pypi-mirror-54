@@ -1,0 +1,4 @@
+Flask==1.0.2
+mongoengine==0.18.0
+flask_mongoengine==0.9.5
+setuptools==41.0.1

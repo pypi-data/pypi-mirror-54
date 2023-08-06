@@ -1,0 +1,8 @@
+README.md
+setup.py
+flask_querykit/__init__.py
+flask_querykit.egg-info/PKG-INFO
+flask_querykit.egg-info/SOURCES.txt
+flask_querykit.egg-info/dependency_links.txt
+flask_querykit.egg-info/requires.txt
+flask_querykit.egg-info/top_level.txt
