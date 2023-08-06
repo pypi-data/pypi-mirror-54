@@ -1,0 +1,11 @@
+README.md
+setup.py
+ddgen/__init__.py
+ddgen.egg-info/PKG-INFO
+ddgen.egg-info/SOURCES.txt
+ddgen.egg-info/dependency_links.txt
+ddgen.egg-info/requires.txt
+ddgen.egg-info/top_level.txt
+ddgen/db/jar/h2-1.4.199.jar
+ddgen/utils/data/hg19.dict
+ddgen/utils/data/hg38.dict
