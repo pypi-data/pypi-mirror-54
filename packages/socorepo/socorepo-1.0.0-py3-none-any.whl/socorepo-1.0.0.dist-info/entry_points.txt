@@ -1,0 +1,3 @@
+[console_scripts]
+socorepo-default-config = socorepo_cli:default_config
+
