@@ -1,0 +1,82 @@
+Metadata-Version: 1.1
+Name: easy-tokenizer
+Version: 0.0.1
+Summary: tokenizer tool
+Home-page: https://github.com/tilaboy/easy-tokenizer
+Author: Chao Li
+Author-email: chaoli.job@gmail.com
+License: MIT license
+Description: Easy-Tokenizer
+        ==================
+        
+        Description
+        -----------
+        
+        Try with the following script:
+        ``easy_tokenizer input_text``
+        
+        Status
+        ------------
+        
+        ::
+        
+            todo
+        
+        Requirements
+        ------------
+        
+        Python 3.6+
+        
+        Installation
+        ------------
+        
+        ::
+        
+            pip install easy-tokenizer
+        
+        
+        Usage
+        -----
+        
+        ::
+        
+            todo
+        
+        Development
+        -----------
+        
+        To install package and its dependencies, run the following from project
+        root directory:
+        
+        ::
+        
+            python setup.py install
+        
+        To work the code and develop the package, run the following from project
+        root directory:
+        
+        ::
+        
+            python setup.py develop
+        
+        To run unit tests, execute the following from the project root
+        directory:
+        
+        ::
+        
+            python setup.py test
+        
+        
+        0.0.1 (2019-10-22)
+        ==================
+        
+        - Add the first version of the tokenizer
+        
+Keywords: tokenizer
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,3 @@
+[console_scripts]
+easy-tokenizer = easy_tokenizer.__main__:main
+
