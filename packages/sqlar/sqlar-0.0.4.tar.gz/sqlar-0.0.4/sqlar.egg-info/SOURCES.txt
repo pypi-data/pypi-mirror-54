@@ -1,0 +1,7 @@
+setup.py
+sqlar/__init__.py
+sqlar/repository.py
+sqlar.egg-info/PKG-INFO
+sqlar.egg-info/SOURCES.txt
+sqlar.egg-info/dependency_links.txt
+sqlar.egg-info/top_level.txt
