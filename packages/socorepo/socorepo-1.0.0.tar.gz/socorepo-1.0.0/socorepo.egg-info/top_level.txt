@@ -1,0 +1,2 @@
+socorepo
+socorepo_cli
