@@ -1,0 +1,5 @@
+[console_scripts]
+budget-app = pbp.ui.budget_app:main
+init-budget = pbp.cli.init_budget:run
+plot-budget = pbp.cli.plot_budget:run
+

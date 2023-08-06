@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: PyBudgetPlot
+Version: 2.0.0
+Summary: Simple budged plotting application.
+Home-page: https://github.com/Hrissimir/PyBudgetPlot
+Author: Hrissimir
+Author-email: hrisimir.dakov@gmail.com
+License: mit
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: python-dateutil
+Requires-Dist: recurrent
+Requires-Dist: pyyaml
+Requires-Dist: tabulate
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+
+============
+PyBudgetPlot
+============
+
+
+    Simple budged plotting application.
+
+
+Description
+===========
+
+    Takes a budget definition from .yaml file and plots the near future.
+
+
+Installation
+============
+
+First check your version of pip by calling `pip --version`
+
+    - If the output says (Python 3.*) -> install with `pip install PyBudgetPlot`
+
+    - If not -> install with `pip3 install PyBudgetPlot`
+
+
+Usage
+=====
+
+1. Open terminal/CMD and navigate to preferred working dir
+
+2. Init sample budget.yaml in the current working dir
+
+    - type `init-budget` and hit ENTER
+
+3. Open the 'budget.yaml' with a text redactor and use it as a base for creating you budget definition.
+
+    - the 'Dates' section is used to define the scale of the plot, but it's not mandatory.
+
+    - if you delete the 'Dates' section, the program will default to [start=today, end=after 365 days]
+
+4. Save your changes and plot your budget
+
+    - type `plot-budget` and hit ENTER
+
+5. Interactive UI panel will appear showing the budget plot
+
+    - use it to inspect/export your plot or parts of it
+
+
+Note
+====
+
+Requires installed Python >=3.6
+
+
+
