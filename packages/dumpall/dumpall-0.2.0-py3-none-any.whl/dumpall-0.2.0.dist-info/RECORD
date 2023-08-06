@@ -1,0 +1,16 @@
+dumpall/__init__.py,sha256=j0du7845E5wQzq7VTSQ8ewntUIZHR26mQj4FH1mTADQ,2298
+dumpall/__version__.py,sha256=nGD7a0eCq9lCIpJyGlNQD0TifQif32_9htzhD30JVG8,363
+dumpall/dumper.py,sha256=2lshgZDGqnsMf5gYxEPBLBdznvdBqi2X9sdO4JCURPM,3542
+dumpall/addons/__init__.py,sha256=Xatx-iAFjezUp4l_yApHIFYf5VqNr2BddBKbxZcbS5M,100
+dumpall/addons/dsdumper.py,sha256=NciGMlJzmCp5JYAdTeISri61ufU_Gnl9GcOwcZdSyOA,2207
+dumpall/addons/gitdumper.py,sha256=okoyWPQnd6cHF9zLwyngEufgFVXpYV_OIug5jFa_e70,1648
+dumpall/addons/svndumper.py,sha256=IBOFvTKFijK7B-VdcjGIFSqJldIYoB_7rPcGDhWYECc,2248
+dumpall/thirdparty/__init__.py,sha256=Xatx-iAFjezUp4l_yApHIFYf5VqNr2BddBKbxZcbS5M,100
+dumpall/thirdparty/dsstore.py,sha256=qBMxUUXuwMFAl1gpXiRLT1Y_oZ0u5KT4xJ0wrNmcKpo,14335
+dumpall/thirdparty/gin.py,sha256=mlOOcBqzYnXVpqxUj0OdEXiLkP5sxTPtW21iNTfAp9U,7328
+dumpall-0.2.0.dist-info/LICENSE,sha256=ccPUmwUe8vHzJV78ZyfXk6Vtl6qcferE1dAYtlnBxV8,1060
+dumpall-0.2.0.dist-info/METADATA,sha256=DBaqM5iXRCP_V_qclSM459u-iSW2Rax_cZM0mZZ3bWM,3702
+dumpall-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dumpall-0.2.0.dist-info/entry_points.txt,sha256=STD-8RXDyrY1zYaKKKnc0p9h9WjiUr-WZy5-x6oU26w,42
+dumpall-0.2.0.dist-info/top_level.txt,sha256=2r5qVNMUujX2w_6OKysATvnGuXbBtYLQeWcdFwcZ5h4,8
+dumpall-0.2.0.dist-info/RECORD,,
