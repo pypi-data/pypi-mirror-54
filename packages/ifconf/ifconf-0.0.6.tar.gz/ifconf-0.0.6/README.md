@@ -1,0 +1,69 @@
+# Ingenious Framework for Configuration
+
+Alternative configuration framework using argparse and configparser.
+Designed for the following purposes.
+
+* Integration of command line args and configuration files
+* Generation of default configuration files
+* Class initialization procedure using parameter object pattern
+
+* SAMPLE
+
+
+** main.py 
+
+ from ifconf import configure_main
+ 
+ if __name__ == "__main__":
+     configure_main()
+    
+** server.py
+
+ from ifconf import configure_module, config_callback
+ 
+ @config_callback
+ def config(loader):
+     loader.add_attr('addr', '0.0.0.0')
+     loader.add_attr_int('port', 8080)
+         
+ class MyClass:
+ 
+     def __init__(self, main_config=None):
+         self.conf = configure_module(configure)
+         self.addr = self.conf.addr
+         self.port = self.conf.port
+         self.conf.logger.info(self.conf)
+
+** config.ini
+
+ [server_config]
+ 
+ #addr = 0.0.0.0
+ port = 8888
+
+
+You can print config.ini template
+
+ python -m ifconf server.config
+
+----
+
+This is the README file for the project.
+
+The file should use UTF-8 encoding and can be written using
+[reStructuredText][rst] or [markdown][md use] with the appropriate [key set][md
+use]. It will be used to generate the project webpage on PyPI and will be
+displayed as the project homepage on common code-hosting services, and should be
+written for that purpose.
+
+Typical contents for this file would include an overview of the project, basic
+usage examples, etc. Generally, including the project changelog in here is not a
+good idea, although a simple “What's New” section for the most recent version
+may be appropriate.
+
+[packaging guide]: https://packaging.python.org
+[distribution tutorial]: https://packaging.python.org/tutorials/packaging-projects/
+[src]: https://github.com/pypa/sampleproject
+[rst]: http://docutils.sourceforge.net/rst.html
+[md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
+[md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
