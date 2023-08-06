@@ -1,0 +1,4 @@
+wget
+pygame
+PyOpenGL
+pytmx
