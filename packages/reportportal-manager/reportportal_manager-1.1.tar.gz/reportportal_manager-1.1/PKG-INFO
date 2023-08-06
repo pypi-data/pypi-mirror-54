@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: reportportal_manager
+Version: 1.1
+Summary: A simple abstraction for report portal library, for behave tests.
+Home-page: https://github.com/mdalboni
+Author: Maxwell Martins Dalboni
+Author-email: dalboni.max@hotmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_05.tar.gz
+Description: UNKNOWN
+Keywords: report,portal,behave
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
