@@ -1,0 +1,6 @@
+README.md
+setup.py
+Canvas_Syncer_master.egg-info/PKG-INFO
+Canvas_Syncer_master.egg-info/SOURCES.txt
+Canvas_Syncer_master.egg-info/dependency_links.txt
+Canvas_Syncer_master.egg-info/top_level.txt
