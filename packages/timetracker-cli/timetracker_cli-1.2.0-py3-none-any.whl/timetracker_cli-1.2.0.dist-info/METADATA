@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: timetracker-cli
+Version: 1.2.0
+Summary: A command-line utility to interact with BairesDev Time tracker
+Home-page: https://github.com/eyscode/timetracker/
+Author: Eysenck Gómez
+Author-email: eysenck.gomez@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Requires-Dist: beautifulsoup4 (==4.7.1)
+Requires-Dist: beautifultable (==0.7.0)
+Requires-Dist: click (==7.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: toml (==0.10.0)
+Requires-Dist: dateparser (==0.7.1)
+Requires-Dist: tzlocal (==1.5.1)
+
+UNKNOWN
+
+
