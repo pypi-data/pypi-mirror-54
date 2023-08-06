@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+django_fsa.egg-info/PKG-INFO
+django_fsa.egg-info/SOURCES.txt
+django_fsa.egg-info/dependency_links.txt
+django_fsa.egg-info/not-zip-safe
+django_fsa.egg-info/requires.txt
+django_fsa.egg-info/top_level.txt
+django_fsm/__init__.py
+django_fsm/models.py
+django_fsm/signals.py
+django_fsm/management/__init__.py
