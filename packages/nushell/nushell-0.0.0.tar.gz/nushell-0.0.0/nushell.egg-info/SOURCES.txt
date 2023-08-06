@@ -1,0 +1,17 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+.github/CODE_OF_CONDUCT.md
+.github/CONTRIBUTING.md
+nushell/__init__.py
+nushell/version.py
+nushell.egg-info/PKG-INFO
+nushell.egg-info/SOURCES.txt
+nushell.egg-info/dependency_links.txt
+nushell.egg-info/not-zip-safe
+nushell.egg-info/top_level.txt
