@@ -1,0 +1,16 @@
+README.md
+setup.py
+fairness_indicators/__init__.py
+fairness_indicators/example_model.py
+fairness_indicators/example_model_test.py
+fairness_indicators.egg-info/PKG-INFO
+fairness_indicators.egg-info/SOURCES.txt
+fairness_indicators.egg-info/dependency_links.txt
+fairness_indicators.egg-info/requires.txt
+fairness_indicators.egg-info/top_level.txt
+fairness_indicators/examples/Fairness_Indicators_Example_Colab.ipynb
+fairness_indicators/examples/Fairness_Indicators_on_TF_Hub_Text_Embeddings.ipynb
+fairness_indicators/examples/README.md
+fairness_indicators/examples/tensorboard_e2e_demo_standalone_binary.py
+fairness_indicators/g3doc/guidance.md
+fairness_indicators/images/fairnessIndicators.png
