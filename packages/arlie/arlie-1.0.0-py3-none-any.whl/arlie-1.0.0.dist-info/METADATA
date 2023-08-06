@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: arlie
+Version: 1.0.0
+Summary: Agent of Reinforcement Learning for Intelligent Environments
+Home-page: UNKNOWN
+Author: Plain Concepts S.L.
+Author-email: info@plainconcepts.com
+License: MIT
+Project-URL: Source, https://github.com/PlainConcepts/ARLIE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: googleapis-common-protos
+Requires-Dist: protobuf
+Requires-Dist: pip (>=18.1)
+Requires-Dist: gym
+Requires-Dist: keyboard
+
+Agent of Reinforcement Learning for Intelligent Environments
+
+
