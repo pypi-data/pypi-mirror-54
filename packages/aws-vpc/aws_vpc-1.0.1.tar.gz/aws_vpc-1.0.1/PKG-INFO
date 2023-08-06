@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aws_vpc
+Version: 1.0.1
+Summary: Infrastructure-as-a-code project which creates a highly opinionated VPC for troposphere or aws cdk.
+Home-page: https://github.com/laimonassutkus/AwsVpc
+Author: Laimonas Sutkus
+Author-email: laimonas.sutkus@gmail.com
+License: UNKNOWN
+Description: # AWS VPC
+        
+        ## Prerequisites
+        
+        ## Usage
+        
+        
+        # Release history
+        
+        #### 1.0.1
+        Add missing vpc resource.
+        
+        #### 1.0.0
+        Initial.
+Keywords: AWS SDK CDK Troposphere VPC Infrastructure Cloud
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
