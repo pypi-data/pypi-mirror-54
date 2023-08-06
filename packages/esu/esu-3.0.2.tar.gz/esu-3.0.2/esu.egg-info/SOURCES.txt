@@ -1,0 +1,11 @@
+README.md
+setup.py
+esu/__init__.py
+esu/command_line.py
+esu/open_struct.py
+esu/struct.py
+esu.egg-info/PKG-INFO
+esu.egg-info/SOURCES.txt
+esu.egg-info/dependency_links.txt
+esu.egg-info/entry_points.txt
+esu.egg-info/top_level.txt
