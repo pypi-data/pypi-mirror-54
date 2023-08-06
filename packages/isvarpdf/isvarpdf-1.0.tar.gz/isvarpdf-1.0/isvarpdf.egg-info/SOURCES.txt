@@ -1,0 +1,9 @@
+README.md
+setup.py
+isvarpdf/__init__.py
+isvarpdf/pdf2image.py
+isvarpdf/text2pdf.py
+isvarpdf.egg-info/PKG-INFO
+isvarpdf.egg-info/SOURCES.txt
+isvarpdf.egg-info/dependency_links.txt
+isvarpdf.egg-info/top_level.txt
