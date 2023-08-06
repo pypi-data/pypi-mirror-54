@@ -1,0 +1,3 @@
+[console_scripts]
+ez-deploy = ez_deploy:main
+
