@@ -1,0 +1,603 @@
+/*! For license information please see chunk.89ecb00dd1532283839f.js.LICENSE */
+(self.webpackJsonp=self.webpackJsonp||[]).push([[88,6],{113:function(e,t,i){"use strict";i(5);var n=i(94),o=i(61),a=i(6),r=i(1),s=i(4);Object(a.a)({_template:s.a`
+    <style>
+      :host {
+        display: inline-block;
+      }
+    </style>
+    <slot id="content"></slot>
+`,is:"iron-input",behaviors:[o.a],properties:{bindValue:{type:String,value:""},value:{type:String,computed:"_computeValue(bindValue)"},allowedPattern:{type:String},autoValidate:{type:Boolean,value:!1},_inputElement:Object},observers:["_bindValueChanged(bindValue, _inputElement)"],listeners:{input:"_onInput",keypress:"_onKeypress"},created:function(){n.a.requestAvailability(),this._previousValidInput="",this._patternAlreadyChecked=!1},attached:function(){this._observer=Object(r.a)(this).observeNodes(function(e){this._initSlottedInput()}.bind(this))},detached:function(){this._observer&&(Object(r.a)(this).unobserveNodes(this._observer),this._observer=null)},get inputElement(){return this._inputElement},_initSlottedInput:function(){this._inputElement=this.getEffectiveChildren()[0],this.inputElement&&this.inputElement.value&&(this.bindValue=this.inputElement.value),this.fire("iron-input-ready")},get _patternRegExp(){var e;if(this.allowedPattern)e=new RegExp(this.allowedPattern);else switch(this.inputElement.type){case"number":e=/[0-9.,e-]/}return e},_bindValueChanged:function(e,t){t&&(void 0===e?t.value=null:e!==t.value&&(this.inputElement.value=e),this.autoValidate&&this.validate(),this.fire("bind-value-changed",{value:e}))},_onInput:function(){this.allowedPattern&&!this._patternAlreadyChecked&&(this._checkPatternValidity()||(this._announceInvalidCharacter("Invalid string of characters not entered."),this.inputElement.value=this._previousValidInput));this.bindValue=this._previousValidInput=this.inputElement.value,this._patternAlreadyChecked=!1},_isPrintable:function(e){var t=8==e.keyCode||9==e.keyCode||13==e.keyCode||27==e.keyCode,i=19==e.keyCode||20==e.keyCode||45==e.keyCode||46==e.keyCode||144==e.keyCode||145==e.keyCode||e.keyCode>32&&e.keyCode<41||e.keyCode>111&&e.keyCode<124;return!(t||0==e.charCode&&i)},_onKeypress:function(e){if(this.allowedPattern||"number"===this.inputElement.type){var t=this._patternRegExp;if(t&&!(e.metaKey||e.ctrlKey||e.altKey)){this._patternAlreadyChecked=!0;var i=String.fromCharCode(e.charCode);this._isPrintable(e)&&!t.test(i)&&(e.preventDefault(),this._announceInvalidCharacter("Invalid character "+i+" not entered."))}}},_checkPatternValidity:function(){var e=this._patternRegExp;if(!e)return!0;for(var t=0;t<this.inputElement.value.length;t++)if(!e.test(this.inputElement.value[t]))return!1;return!0},validate:function(){if(!this.inputElement)return this.invalid=!1,!0;var e=this.inputElement.checkValidity();return e&&(this.required&&""===this.bindValue?e=!1:this.hasValidator()&&(e=o.a.validate.call(this,this.bindValue))),this.invalid=!e,this.fire("iron-input-validate"),e},_announceInvalidCharacter:function(e){this.fire("iron-announce",{text:e})},_computeValue:function(e){return e}})},119:function(e,t,i){"use strict";i.d(t,"a",function(){return a});i(5);var n=i(55),o=i(35);const a=[n.a,o.a,{hostAttributes:{role:"option",tabindex:"0"}}]},122:function(e,t,i){"use strict";i(5);const n={properties:{animationConfig:{type:Object},entryAnimation:{observer:"_entryAnimationChanged",type:String},exitAnimation:{observer:"_exitAnimationChanged",type:String}},_entryAnimationChanged:function(){this.animationConfig=this.animationConfig||{},this.animationConfig.entry=[{name:this.entryAnimation,node:this}]},_exitAnimationChanged:function(){this.animationConfig=this.animationConfig||{},this.animationConfig.exit=[{name:this.exitAnimation,node:this}]},_copyProperties:function(e,t){for(var i in t)e[i]=t[i]},_cloneConfig:function(e){var t={isClone:!0};return this._copyProperties(t,e),t},_getAnimationConfigRecursive:function(e,t,i){var n;if(this.animationConfig)if(this.animationConfig.value&&"function"==typeof this.animationConfig.value)this._warn(this._logf("playAnimation","Please put 'animationConfig' inside of your components 'properties' object instead of outside of it."));else if(n=e?this.animationConfig[e]:this.animationConfig,Array.isArray(n)||(n=[n]),n)for(var o,a=0;o=n[a];a++)if(o.animatable)o.animatable._getAnimationConfigRecursive(o.type||e,t,i);else if(o.id){var r=t[o.id];r?(r.isClone||(t[o.id]=this._cloneConfig(r),r=t[o.id]),this._copyProperties(r,o)):t[o.id]=o}else i.push(o)},getAnimationConfig:function(e){var t={},i=[];for(var n in this._getAnimationConfigRecursive(e,t,i),t)i.push(t[n]);return i}};i.d(t,"a",function(){return o});const o=[n,{_configureAnimations:function(e){var t=[],i=[];if(e.length>0)for(let a,r=0;a=e[r];r++){let e=document.createElement(a.name);if(e.isNeonAnimation){let t=null;e.configure||(e.configure=function(e){return null}),t=e.configure(a),i.push({result:t,config:a,neonAnimation:e})}else console.warn(this.is+":",a.name,"not found!")}for(var n=0;n<i.length;n++){let e=i[n].result,a=i[n].config,r=i[n].neonAnimation;try{"function"!=typeof e.cancel&&(e=document.timeline.play(e))}catch(o){e=null,console.warn("Couldnt play","(",a.name,").",o)}e&&t.push({neonAnimation:r,config:a,animation:e})}return t},_shouldComplete:function(e){for(var t=!0,i=0;i<e.length;i++)if("finished"!=e[i].animation.playState){t=!1;break}return t},_complete:function(e){for(var t=0;t<e.length;t++)e[t].neonAnimation.complete(e[t].config);for(t=0;t<e.length;t++)e[t].animation.cancel()},playAnimation:function(e,t){var i=this.getAnimationConfig(e);if(i){this._active=this._active||{},this._active[e]&&(this._complete(this._active[e]),delete this._active[e]);var n=this._configureAnimations(i);if(0!=n.length){this._active[e]=n;for(var o=0;o<n.length;o++)n[o].animation.onfinish=function(){this._shouldComplete(n)&&(this._complete(n),delete this._active[e],this.fire("neon-animation-finish",t,{bubbles:!1}))}.bind(this)}else this.fire("neon-animation-finish",t,{bubbles:!1})}},cancelAnimation:function(){for(var e in this._active){var t=this._active[e];for(var i in t)t[i].animation.cancel()}this._active={}}}]},143:function(e,t,i){"use strict";i(5),i(45),i(144);var n=i(6),o=i(4),a=i(119);Object(n.a)({_template:o.a`
+    <style include="paper-item-shared-styles">
+      :host {
+        @apply --layout-horizontal;
+        @apply --layout-center;
+        @apply --paper-font-subhead;
+
+        @apply --paper-item;
+      }
+    </style>
+    <slot></slot>
+`,is:"paper-item",behaviors:[a.a]})},144:function(e,t,i){"use strict";i(45),i(68),i(42),i(54);const n=document.createElement("template");n.setAttribute("style","display: none;"),n.innerHTML="<dom-module id=\"paper-item-shared-styles\">\n  <template>\n    <style>\n      :host, .paper-item {\n        display: block;\n        position: relative;\n        min-height: var(--paper-item-min-height, 48px);\n        padding: 0px 16px;\n      }\n\n      .paper-item {\n        @apply --paper-font-subhead;\n        border:none;\n        outline: none;\n        background: white;\n        width: 100%;\n        text-align: left;\n      }\n\n      :host([hidden]), .paper-item[hidden] {\n        display: none !important;\n      }\n\n      :host(.iron-selected), .paper-item.iron-selected {\n        font-weight: var(--paper-item-selected-weight, bold);\n\n        @apply --paper-item-selected;\n      }\n\n      :host([disabled]), .paper-item[disabled] {\n        color: var(--paper-item-disabled-color, var(--disabled-text-color));\n\n        @apply --paper-item-disabled;\n      }\n\n      :host(:focus), .paper-item:focus {\n        position: relative;\n        outline: 0;\n\n        @apply --paper-item-focused;\n      }\n\n      :host(:focus):before, .paper-item:focus:before {\n        @apply --layout-fit;\n\n        background: currentColor;\n        content: '';\n        opacity: var(--dark-divider-opacity);\n        pointer-events: none;\n\n        @apply --paper-item-focused-before;\n      }\n    </style>\n  </template>\n</dom-module>",document.head.appendChild(n.content)},145:function(e,t,i){"use strict";i(5),i(42);var n=i(123),o=i(6),a=i(4);Object(o.a)({_template:a.a`
+    <style>
+      :host {
+        display: block;
+        padding: 8px 0;
+
+        background: var(--paper-listbox-background-color, var(--primary-background-color));
+        color: var(--paper-listbox-color, var(--primary-text-color));
+
+        @apply --paper-listbox;
+      }
+    </style>
+
+    <slot></slot>
+`,is:"paper-listbox",behaviors:[n.a],hostAttributes:{role:"listbox"}})},146:function(e,t,i){"use strict";i(5),i(31),i(109),i(93),i(147),i(111),i(42),i(148),i(149);var n=i(55),o=i(35),a=i(60),r=i(61),s=i(6),c=i(1),l=i(36),d=i(4);Object(s.a)({_template:d.a`
+    <style include="paper-dropdown-menu-shared-styles"></style>
+
+    <!-- this div fulfills an a11y requirement for combobox, do not remove -->
+    <span role="button"></span>
+    <paper-menu-button id="menuButton" vertical-align="[[verticalAlign]]" horizontal-align="[[horizontalAlign]]" dynamic-align="[[dynamicAlign]]" vertical-offset="[[_computeMenuVerticalOffset(noLabelFloat, verticalOffset)]]" disabled="[[disabled]]" no-animations="[[noAnimations]]" on-iron-select="_onIronSelect" on-iron-deselect="_onIronDeselect" opened="{{opened}}" close-on-activate allow-outside-scroll="[[allowOutsideScroll]]" restore-focus-on-close="[[restoreFocusOnClose]]">
+      <!-- support hybrid mode: user might be using paper-menu-button 1.x which distributes via <content> -->
+      <div class="dropdown-trigger" slot="dropdown-trigger">
+        <paper-ripple></paper-ripple>
+        <!-- paper-input has type="text" for a11y, do not remove -->
+        <paper-input type="text" invalid="[[invalid]]" readonly disabled="[[disabled]]" value="[[value]]" placeholder="[[placeholder]]" error-message="[[errorMessage]]" always-float-label="[[alwaysFloatLabel]]" no-label-float="[[noLabelFloat]]" label="[[label]]">
+          <!-- support hybrid mode: user might be using paper-input 1.x which distributes via <content> -->
+          <iron-icon icon="paper-dropdown-menu:arrow-drop-down" suffix slot="suffix"></iron-icon>
+        </paper-input>
+      </div>
+      <slot id="content" name="dropdown-content" slot="dropdown-content"></slot>
+    </paper-menu-button>
+`,is:"paper-dropdown-menu",behaviors:[n.a,o.a,a.a,r.a],properties:{selectedItemLabel:{type:String,notify:!0,readOnly:!0},selectedItem:{type:Object,notify:!0,readOnly:!0},value:{type:String,notify:!0},label:{type:String},placeholder:{type:String},errorMessage:{type:String},opened:{type:Boolean,notify:!0,value:!1,observer:"_openedChanged"},allowOutsideScroll:{type:Boolean,value:!1},noLabelFloat:{type:Boolean,value:!1,reflectToAttribute:!0},alwaysFloatLabel:{type:Boolean,value:!1},noAnimations:{type:Boolean,value:!1},horizontalAlign:{type:String,value:"right"},verticalAlign:{type:String,value:"top"},verticalOffset:Number,dynamicAlign:{type:Boolean},restoreFocusOnClose:{type:Boolean,value:!0}},listeners:{tap:"_onTap"},keyBindings:{"up down":"open",esc:"close"},hostAttributes:{role:"combobox","aria-autocomplete":"none","aria-haspopup":"true"},observers:["_selectedItemChanged(selectedItem)"],attached:function(){var e=this.contentElement;e&&e.selectedItem&&this._setSelectedItem(e.selectedItem)},get contentElement(){for(var e=Object(c.a)(this.$.content).getDistributedNodes(),t=0,i=e.length;t<i;t++)if(e[t].nodeType===Node.ELEMENT_NODE)return e[t]},open:function(){this.$.menuButton.open()},close:function(){this.$.menuButton.close()},_onIronSelect:function(e){this._setSelectedItem(e.detail.item)},_onIronDeselect:function(e){this._setSelectedItem(null)},_onTap:function(e){l.c(e)===this&&this.open()},_selectedItemChanged:function(e){var t="";t=e?e.label||e.getAttribute("label")||e.textContent.trim():"",this.value=t,this._setSelectedItemLabel(t)},_computeMenuVerticalOffset:function(e,t){return t||(e?-4:8)},_getValidity:function(e){return this.disabled||!this.required||this.required&&!!this.value},_openedChanged:function(){var e=this.opened?"true":"false",t=this.contentElement;t&&t.setAttribute("aria-expanded",e)}})},147:function(e,t,i){"use strict";i(5);var n=i(31),o=i(35),a=i(87),r=i(122),s=i(6),c=i(1),l=i(4);Object(s.a)({_template:l.a`
+    <style>
+      :host {
+        position: fixed;
+      }
+
+      #contentWrapper ::slotted(*) {
+        overflow: auto;
+      }
+
+      #contentWrapper.animating ::slotted(*) {
+        overflow: hidden;
+        pointer-events: none;
+      }
+    </style>
+
+    <div id="contentWrapper">
+      <slot id="content" name="dropdown-content"></slot>
+    </div>
+`,is:"iron-dropdown",behaviors:[o.a,n.a,a.a,r.a],properties:{horizontalAlign:{type:String,value:"left",reflectToAttribute:!0},verticalAlign:{type:String,value:"top",reflectToAttribute:!0},openAnimationConfig:{type:Object},closeAnimationConfig:{type:Object},focusTarget:{type:Object},noAnimations:{type:Boolean,value:!1},allowOutsideScroll:{type:Boolean,value:!1,observer:"_allowOutsideScrollChanged"}},listeners:{"neon-animation-finish":"_onNeonAnimationFinish"},observers:["_updateOverlayPosition(positionTarget, verticalAlign, horizontalAlign, verticalOffset, horizontalOffset)"],get containedElement(){for(var e=Object(c.a)(this.$.content).getDistributedNodes(),t=0,i=e.length;t<i;t++)if(e[t].nodeType===Node.ELEMENT_NODE)return e[t]},ready:function(){this.scrollAction||(this.scrollAction=this.allowOutsideScroll?"refit":"lock"),this._readied=!0},attached:function(){this.sizingTarget&&this.sizingTarget!==this||(this.sizingTarget=this.containedElement||this)},detached:function(){this.cancelAnimation()},_openedChanged:function(){this.opened&&this.disabled?this.cancel():(this.cancelAnimation(),this._updateAnimationConfig(),a.b._openedChanged.apply(this,arguments))},_renderOpened:function(){!this.noAnimations&&this.animationConfig.open?(this.$.contentWrapper.classList.add("animating"),this.playAnimation("open")):a.b._renderOpened.apply(this,arguments)},_renderClosed:function(){!this.noAnimations&&this.animationConfig.close?(this.$.contentWrapper.classList.add("animating"),this.playAnimation("close")):a.b._renderClosed.apply(this,arguments)},_onNeonAnimationFinish:function(){this.$.contentWrapper.classList.remove("animating"),this.opened?this._finishRenderOpened():this._finishRenderClosed()},_updateAnimationConfig:function(){for(var e=this.containedElement,t=[].concat(this.openAnimationConfig||[]).concat(this.closeAnimationConfig||[]),i=0;i<t.length;i++)t[i].node=e;this.animationConfig={open:this.openAnimationConfig,close:this.closeAnimationConfig}},_updateOverlayPosition:function(){this.isAttached&&this.notifyResize()},_allowOutsideScrollChanged:function(e){this._readied&&(e?this.scrollAction&&"lock"!==this.scrollAction||(this.scrollAction="refit"):this.scrollAction="lock")},_applyFocus:function(){var e=this.focusTarget||this.containedElement;e&&this.opened&&!this.noAutoFocus?e.focus():a.b._applyFocus.apply(this,arguments)}});const d={properties:{animationTiming:{type:Object,value:function(){return{duration:500,easing:"cubic-bezier(0.4, 0, 0.2, 1)",fill:"both"}}}},isNeonAnimation:!0,created:function(){document.body.animate||console.warn("No web animations detected. This element will not function without a web animations polyfill.")},timingFromConfig:function(e){if(e.timing)for(var t in e.timing)this.animationTiming[t]=e.timing[t];return this.animationTiming},setPrefixedProperty:function(e,t,i){for(var n,o={transform:["webkitTransform"],transformOrigin:["mozTransformOrigin","webkitTransformOrigin"]}[t],a=0;n=o[a];a++)e.style[n]=i;e.style[t]=i},complete:function(e){}};Object(s.a)({is:"fade-in-animation",behaviors:[d],configure:function(e){var t=e.node;return this._effect=new KeyframeEffect(t,[{opacity:"0"},{opacity:"1"}],this.timingFromConfig(e)),this._effect}}),Object(s.a)({is:"fade-out-animation",behaviors:[d],configure:function(e){var t=e.node;return this._effect=new KeyframeEffect(t,[{opacity:"1"},{opacity:"0"}],this.timingFromConfig(e)),this._effect}});i(42),i(86);Object(s.a)({is:"paper-menu-grow-height-animation",behaviors:[d],configure:function(e){var t=e.node,i=t.getBoundingClientRect().height;return this._effect=new KeyframeEffect(t,[{height:i/2+"px"},{height:i+"px"}],this.timingFromConfig(e)),this._effect}}),Object(s.a)({is:"paper-menu-grow-width-animation",behaviors:[d],configure:function(e){var t=e.node,i=t.getBoundingClientRect().width;return this._effect=new KeyframeEffect(t,[{width:i/2+"px"},{width:i+"px"}],this.timingFromConfig(e)),this._effect}}),Object(s.a)({is:"paper-menu-shrink-width-animation",behaviors:[d],configure:function(e){var t=e.node,i=t.getBoundingClientRect().width;return this._effect=new KeyframeEffect(t,[{width:i+"px"},{width:i-i/20+"px"}],this.timingFromConfig(e)),this._effect}}),Object(s.a)({is:"paper-menu-shrink-height-animation",behaviors:[d],configure:function(e){var t=e.node,i=t.getBoundingClientRect().height;return this.setPrefixedProperty(t,"transformOrigin","0 0"),this._effect=new KeyframeEffect(t,[{height:i+"px",transform:"translateY(0)"},{height:i/2+"px",transform:"translateY(-20px)"}],this.timingFromConfig(e)),this._effect}});var p={ANIMATION_CUBIC_BEZIER:"cubic-bezier(.3,.95,.5,1)",MAX_ANIMATION_TIME_MS:400};const u=Object(s.a)({_template:l.a`
+    <style>
+      :host {
+        display: inline-block;
+        position: relative;
+        padding: 8px;
+        outline: none;
+
+        @apply --paper-menu-button;
+      }
+
+      :host([disabled]) {
+        cursor: auto;
+        color: var(--disabled-text-color);
+
+        @apply --paper-menu-button-disabled;
+      }
+
+      iron-dropdown {
+        @apply --paper-menu-button-dropdown;
+      }
+
+      .dropdown-content {
+        @apply --shadow-elevation-2dp;
+
+        position: relative;
+        border-radius: 2px;
+        background-color: var(--paper-menu-button-dropdown-background, var(--primary-background-color));
+
+        @apply --paper-menu-button-content;
+      }
+
+      :host([vertical-align="top"]) .dropdown-content {
+        margin-bottom: 20px;
+        margin-top: -10px;
+        top: 10px;
+      }
+
+      :host([vertical-align="bottom"]) .dropdown-content {
+        bottom: 10px;
+        margin-bottom: -10px;
+        margin-top: 20px;
+      }
+
+      #trigger {
+        cursor: pointer;
+      }
+    </style>
+
+    <div id="trigger" on-tap="toggle">
+      <slot name="dropdown-trigger"></slot>
+    </div>
+
+    <iron-dropdown id="dropdown" opened="{{opened}}" horizontal-align="[[horizontalAlign]]" vertical-align="[[verticalAlign]]" dynamic-align="[[dynamicAlign]]" horizontal-offset="[[horizontalOffset]]" vertical-offset="[[verticalOffset]]" no-overlap="[[noOverlap]]" open-animation-config="[[openAnimationConfig]]" close-animation-config="[[closeAnimationConfig]]" no-animations="[[noAnimations]]" focus-target="[[_dropdownContent]]" allow-outside-scroll="[[allowOutsideScroll]]" restore-focus-on-close="[[restoreFocusOnClose]]" on-iron-overlay-canceled="__onIronOverlayCanceled">
+      <div slot="dropdown-content" class="dropdown-content">
+        <slot id="content" name="dropdown-content"></slot>
+      </div>
+    </iron-dropdown>
+`,is:"paper-menu-button",behaviors:[n.a,o.a],properties:{opened:{type:Boolean,value:!1,notify:!0,observer:"_openedChanged"},horizontalAlign:{type:String,value:"left",reflectToAttribute:!0},verticalAlign:{type:String,value:"top",reflectToAttribute:!0},dynamicAlign:{type:Boolean},horizontalOffset:{type:Number,value:0,notify:!0},verticalOffset:{type:Number,value:0,notify:!0},noOverlap:{type:Boolean},noAnimations:{type:Boolean,value:!1},ignoreSelect:{type:Boolean,value:!1},closeOnActivate:{type:Boolean,value:!1},openAnimationConfig:{type:Object,value:function(){return[{name:"fade-in-animation",timing:{delay:100,duration:200}},{name:"paper-menu-grow-width-animation",timing:{delay:100,duration:150,easing:p.ANIMATION_CUBIC_BEZIER}},{name:"paper-menu-grow-height-animation",timing:{delay:100,duration:275,easing:p.ANIMATION_CUBIC_BEZIER}}]}},closeAnimationConfig:{type:Object,value:function(){return[{name:"fade-out-animation",timing:{duration:150}},{name:"paper-menu-shrink-width-animation",timing:{delay:100,duration:50,easing:p.ANIMATION_CUBIC_BEZIER}},{name:"paper-menu-shrink-height-animation",timing:{duration:200,easing:"ease-in"}}]}},allowOutsideScroll:{type:Boolean,value:!1},restoreFocusOnClose:{type:Boolean,value:!0},_dropdownContent:{type:Object}},hostAttributes:{role:"group","aria-haspopup":"true"},listeners:{"iron-activate":"_onIronActivate","iron-select":"_onIronSelect"},get contentElement(){for(var e=Object(c.a)(this.$.content).getDistributedNodes(),t=0,i=e.length;t<i;t++)if(e[t].nodeType===Node.ELEMENT_NODE)return e[t]},toggle:function(){this.opened?this.close():this.open()},open:function(){this.disabled||this.$.dropdown.open()},close:function(){this.$.dropdown.close()},_onIronSelect:function(e){this.ignoreSelect||this.close()},_onIronActivate:function(e){this.closeOnActivate&&this.close()},_openedChanged:function(e,t){e?(this._dropdownContent=this.contentElement,this.fire("paper-dropdown-open")):null!=t&&this.fire("paper-dropdown-close")},_disabledChanged:function(e){o.a._disabledChanged.apply(this,arguments),e&&this.opened&&this.close()},__onIronOverlayCanceled:function(e){var t=e.detail,i=this.$.trigger;Object(c.a)(t).path.indexOf(i)>-1&&e.preventDefault()}});Object.keys(p).forEach(function(e){u[e]=p[e]})},148:function(e,t,i){"use strict";i(88);const n=document.createElement("template");n.setAttribute("style","display: none;"),n.innerHTML='<iron-iconset-svg name="paper-dropdown-menu" size="24">\n<svg><defs>\n<g id="arrow-drop-down"><path d="M7 10l5 5 5-5z"></path></g>\n</defs></svg>\n</iron-iconset-svg>',document.head.appendChild(n.content)},149:function(e,t,i){"use strict";i(42);const n=document.createElement("template");n.setAttribute("style","display: none;"),n.innerHTML='<dom-module id="paper-dropdown-menu-shared-styles">\n  <template>\n    <style>\n      :host {\n        display: inline-block;\n        position: relative;\n        text-align: left;\n\n        /* NOTE(cdata): Both values are needed, since some phones require the\n         * value to be `transparent`.\n         */\n        -webkit-tap-highlight-color: rgba(0,0,0,0);\n        -webkit-tap-highlight-color: transparent;\n\n        --paper-input-container-input: {\n          overflow: hidden;\n          white-space: nowrap;\n          text-overflow: ellipsis;\n          max-width: 100%;\n          box-sizing: border-box;\n          cursor: pointer;\n        };\n\n        @apply --paper-dropdown-menu;\n      }\n\n      :host([disabled]) {\n        @apply --paper-dropdown-menu-disabled;\n      }\n\n      :host([noink]) paper-ripple {\n        display: none;\n      }\n\n      :host([no-label-float]) paper-ripple {\n        top: 8px;\n      }\n\n      paper-ripple {\n        top: 12px;\n        left: 0px;\n        bottom: 8px;\n        right: 0px;\n\n        @apply --paper-dropdown-menu-ripple;\n      }\n\n      paper-menu-button {\n        display: block;\n        padding: 0;\n\n        @apply --paper-dropdown-menu-button;\n      }\n\n      paper-input {\n        @apply --paper-dropdown-menu-input;\n      }\n\n      iron-icon {\n        color: var(--disabled-text-color);\n\n        @apply --paper-dropdown-menu-icon;\n      }\n    </style>\n  </template>\n</dom-module>',document.head.appendChild(n.content)},177:function(e,t,i){"use strict";var n=i(3),o=i(0);class a extends o.a{static get styles(){return o.c`
+      :host {
+        background: var(
+          --ha-card-background,
+          var(--paper-card-background-color, white)
+        );
+        border-radius: var(--ha-card-border-radius, 2px);
+        box-shadow: var(
+          --ha-card-box-shadow,
+          0 2px 2px 0 rgba(0, 0, 0, 0.14),
+          0 1px 5px 0 rgba(0, 0, 0, 0.12),
+          0 3px 1px -2px rgba(0, 0, 0, 0.2)
+        );
+        color: var(--primary-text-color);
+        display: block;
+        transition: all 0.3s ease-out;
+        position: relative;
+      }
+
+      .card-header,
+      :host ::slotted(.card-header) {
+        color: var(--ha-card-header-color, --primary-text-color);
+        font-family: var(--ha-card-header-font-family, inherit);
+        font-size: var(--ha-card-header-font-size, 24px);
+        letter-spacing: -0.012em;
+        line-height: 32px;
+        padding: 24px 16px 16px;
+        display: block;
+      }
+
+      :host ::slotted(.card-content:not(:first-child)),
+      slot:not(:first-child)::slotted(.card-content) {
+        padding-top: 0px;
+        margin-top: -8px;
+      }
+
+      :host ::slotted(.card-content) {
+        padding: 16px;
+      }
+
+      :host ::slotted(.card-actions) {
+        border-top: 1px solid #e8e8e8;
+        padding: 5px 16px;
+      }
+    `}render(){return o.f`
+      ${this.header?o.f`
+            <div class="card-header">${this.header}</div>
+          `:o.f``}
+      <slot></slot>
+    `}}Object(n.c)([Object(o.g)()],a.prototype,"header",void 0),customElements.define("ha-card",a)},179:function(e,t,i){"use strict";i.d(t,"a",function(){return a});i(109);const n=customElements.get("iron-icon");let o=!1;class a extends n{listen(e,t,n){super.listen(e,t,n),o||"mdi"!==this._iconsetName||(o=!0,i.e(76).then(i.bind(null,210)))}}customElements.define("ha-icon",a)},182:function(e,t,i){"use strict";i(5),i(45),i(42),i(54);var n=i(6),o=i(4);Object(n.a)({_template:o.a`
+    <style>
+      :host {
+        overflow: hidden; /* needed for text-overflow: ellipsis to work on ff */
+        @apply --layout-vertical;
+        @apply --layout-center-justified;
+        @apply --layout-flex;
+      }
+
+      :host([two-line]) {
+        min-height: var(--paper-item-body-two-line-min-height, 72px);
+      }
+
+      :host([three-line]) {
+        min-height: var(--paper-item-body-three-line-min-height, 88px);
+      }
+
+      :host > ::slotted(*) {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      :host > ::slotted([secondary]) {
+        @apply --paper-font-body1;
+
+        color: var(--paper-item-body-secondary-color, var(--secondary-text-color));
+
+        @apply --paper-item-body-secondary;
+      }
+    </style>
+
+    <slot></slot>
+`,is:"paper-item-body"})},195:function(e,t,i){"use strict";var n=i(3),o=i(0),a=(i(222),i(206));const r=customElements.get("mwc-switch");let s=class extends r{firstUpdated(){super.firstUpdated(),this.style.setProperty("--mdc-theme-secondary","var(--primary-color)"),this.classList.toggle("slotted",Boolean(this._slot.assignedNodes().length))}static get styles(){return[a.a,o.c`
+        :host {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+        .mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb {
+          background-color: var(--paper-toggle-button-unchecked-button-color);
+          border-color: var(--paper-toggle-button-unchecked-button-color);
+        }
+        .mdc-switch:not(.mdc-switch--checked) .mdc-switch__track {
+          background-color: var(--paper-toggle-button-unchecked-bar-color);
+          border-color: var(--paper-toggle-button-unchecked-bar-color);
+        }
+        :host(.slotted) .mdc-switch {
+          margin-right: 24px;
+        }
+      `]}};Object(n.c)([Object(o.h)("slot")],s.prototype,"_slot",void 0),s=Object(n.c)([Object(o.d)("ha-switch")],s)},205:function(e,t,i){"use strict";i.d(t,"a",function(){return o});var n=i(14);i.d(t,"b",function(){return n.c}),i.d(t,"c",function(){return n.f}),i.d(t,"d",function(){return n.g}),i.d(t,"e",function(){return n.h}),i.d(t,"f",function(){return n.i}),i.d(t,"g",function(){return n.j});class o extends n.a{createRenderRoot(){return this.attachShadow({mode:"open",delegatesFocus:!0})}click(){this.formElement&&(this.formElement.focus(),this.formElement.click())}setAriaLabel(e){this.formElement&&this.formElement.setAttribute("aria-label",e)}firstUpdated(){super.firstUpdated(),this.mdcRoot.addEventListener("change",e=>{this.dispatchEvent(new Event("change",e))})}}},206:function(e,t,i){"use strict";i.d(t,"a",function(){return n});const n=i(14).e`.mdc-switch{display:inline-block;position:relative;outline:none;user-select:none}.mdc-switch.mdc-switch--checked .mdc-switch__track{background-color:#018786;background-color:var(--mdc-theme-secondary, #018786);border-color:#018786;border-color:var(--mdc-theme-secondary, #018786)}.mdc-switch.mdc-switch--checked .mdc-switch__thumb{background-color:#018786;background-color:var(--mdc-theme-secondary, #018786);border-color:#018786;border-color:var(--mdc-theme-secondary, #018786)}.mdc-switch:not(.mdc-switch--checked) .mdc-switch__track{background-color:#000;border-color:#000}.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb{background-color:#fff;border-color:#fff}.mdc-switch__native-control{left:0;right:initial;position:absolute;top:0;width:68px;height:48px;margin:0;opacity:0;cursor:pointer;pointer-events:auto}[dir=rtl] .mdc-switch__native-control,.mdc-switch__native-control[dir=rtl]{left:initial;right:0}.mdc-switch__track{box-sizing:border-box;width:32px;height:14px;border:1px solid;border-radius:7px;opacity:.38;transition:opacity 90ms cubic-bezier(0.4, 0, 0.2, 1),background-color 90ms cubic-bezier(0.4, 0, 0.2, 1),border-color 90ms cubic-bezier(0.4, 0, 0.2, 1)}.mdc-switch__thumb-underlay{left:-18px;right:initial;display:flex;position:absolute;top:-17px;align-items:center;justify-content:center;width:48px;height:48px;transform:translateX(0);transition:transform 90ms cubic-bezier(0.4, 0, 0.2, 1),background-color 90ms cubic-bezier(0.4, 0, 0.2, 1),border-color 90ms cubic-bezier(0.4, 0, 0.2, 1)}[dir=rtl] .mdc-switch__thumb-underlay,.mdc-switch__thumb-underlay[dir=rtl]{left:initial;right:-18px}.mdc-switch__thumb{box-shadow:0px 3px 1px -2px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 1px 5px 0px rgba(0,0,0,.12);box-sizing:border-box;width:20px;height:20px;border:10px solid;border-radius:50%;pointer-events:none;z-index:1}.mdc-switch--checked .mdc-switch__track{opacity:.54}.mdc-switch--checked .mdc-switch__thumb-underlay{transform:translateX(20px)}[dir=rtl] .mdc-switch--checked .mdc-switch__thumb-underlay,.mdc-switch--checked .mdc-switch__thumb-underlay[dir=rtl]{transform:translateX(-20px)}.mdc-switch--checked .mdc-switch__native-control{transform:translateX(-20px)}[dir=rtl] .mdc-switch--checked .mdc-switch__native-control,.mdc-switch--checked .mdc-switch__native-control[dir=rtl]{transform:translateX(20px)}.mdc-switch--disabled{opacity:.38;pointer-events:none}.mdc-switch--disabled .mdc-switch__thumb{border-width:1px}.mdc-switch--disabled .mdc-switch__native-control{cursor:default;pointer-events:none}@keyframes mdc-ripple-fg-radius-in{from{animation-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transform:translate(var(--mdc-ripple-fg-translate-start, 0)) scale(1)}to{transform:translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1))}}@keyframes mdc-ripple-fg-opacity-in{from{animation-timing-function:linear;opacity:0}to{opacity:var(--mdc-ripple-fg-opacity, 0)}}@keyframes mdc-ripple-fg-opacity-out{from{animation-timing-function:linear;opacity:var(--mdc-ripple-fg-opacity, 0)}to{opacity:0}}.mdc-ripple-surface--test-edge-var-bug{--mdc-ripple-surface-test-edge-var: 1px solid #000;visibility:hidden}.mdc-ripple-surface--test-edge-var-bug::before{border:var(--mdc-ripple-surface-test-edge-var)}.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb-underlay::before,.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb-underlay::after{background-color:#9e9e9e}.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb-underlay:hover::before{opacity:.08}.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb-underlay:not(.mdc-ripple-upgraded):focus::before,.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb-underlay.mdc-ripple-upgraded--background-focused::before{transition-duration:75ms;opacity:.24}.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb-underlay:not(.mdc-ripple-upgraded)::after{transition:opacity 150ms linear}.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb-underlay:not(.mdc-ripple-upgraded):active::after{transition-duration:75ms;opacity:.24}.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb-underlay.mdc-ripple-upgraded{--mdc-ripple-fg-opacity: 0.24}.mdc-switch__thumb-underlay{--mdc-ripple-fg-size: 0;--mdc-ripple-left: 0;--mdc-ripple-top: 0;--mdc-ripple-fg-scale: 1;--mdc-ripple-fg-translate-end: 0;--mdc-ripple-fg-translate-start: 0;-webkit-tap-highlight-color:rgba(0,0,0,0)}.mdc-switch__thumb-underlay::before,.mdc-switch__thumb-underlay::after{position:absolute;border-radius:50%;opacity:0;pointer-events:none;content:""}.mdc-switch__thumb-underlay::before{transition:opacity 15ms linear,background-color 15ms linear;z-index:1}.mdc-switch__thumb-underlay.mdc-ripple-upgraded::before{transform:scale(var(--mdc-ripple-fg-scale, 1))}.mdc-switch__thumb-underlay.mdc-ripple-upgraded::after{top:0;left:0;transform:scale(0);transform-origin:center center}.mdc-switch__thumb-underlay.mdc-ripple-upgraded--unbounded::after{top:var(--mdc-ripple-top, 0);left:var(--mdc-ripple-left, 0)}.mdc-switch__thumb-underlay.mdc-ripple-upgraded--foreground-activation::after{animation:mdc-ripple-fg-radius-in 225ms forwards,mdc-ripple-fg-opacity-in 75ms forwards}.mdc-switch__thumb-underlay.mdc-ripple-upgraded--foreground-deactivation::after{animation:mdc-ripple-fg-opacity-out 150ms;transform:translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1))}.mdc-switch__thumb-underlay::before,.mdc-switch__thumb-underlay::after{top:calc(50% - 50%);left:calc(50% - 50%);width:100%;height:100%}.mdc-switch__thumb-underlay.mdc-ripple-upgraded::before,.mdc-switch__thumb-underlay.mdc-ripple-upgraded::after{top:var(--mdc-ripple-top, calc(50% - 50%));left:var(--mdc-ripple-left, calc(50% - 50%));width:var(--mdc-ripple-fg-size, 100%);height:var(--mdc-ripple-fg-size, 100%)}.mdc-switch__thumb-underlay.mdc-ripple-upgraded::after{width:var(--mdc-ripple-fg-size, 100%);height:var(--mdc-ripple-fg-size, 100%)}.mdc-switch__thumb-underlay::before,.mdc-switch__thumb-underlay::after{background-color:#018786}@supports not (-ms-ime-align: auto){.mdc-switch__thumb-underlay::before,.mdc-switch__thumb-underlay::after{background-color:var(--mdc-theme-secondary, #018786)}}.mdc-switch__thumb-underlay:hover::before{opacity:.04}.mdc-switch__thumb-underlay:not(.mdc-ripple-upgraded):focus::before,.mdc-switch__thumb-underlay.mdc-ripple-upgraded--background-focused::before{transition-duration:75ms;opacity:.12}.mdc-switch__thumb-underlay:not(.mdc-ripple-upgraded)::after{transition:opacity 150ms linear}.mdc-switch__thumb-underlay:not(.mdc-ripple-upgraded):active::after{transition-duration:75ms;opacity:.12}.mdc-switch__thumb-underlay.mdc-ripple-upgraded{--mdc-ripple-fg-opacity: 0.12}:host{outline:none}`},217:function(e,t,i){"use strict";i(109);var n=i(179);customElements.define("ha-icon-next",class extends n.a{connectedCallback(){super.connectedCallback(),setTimeout(()=>{this.icon="ltr"===window.getComputedStyle(this).direction?"hass:chevron-right":"hass:chevron-left"},100)}})},222:function(e,t,i){"use strict";var n=i(3),o=i(205),a=i(75),r=i(76),s={CHECKED:"mdc-switch--checked",DISABLED:"mdc-switch--disabled"},c={NATIVE_CONTROL_SELECTOR:".mdc-switch__native-control",RIPPLE_SURFACE_SELECTOR:".mdc-switch__thumb-underlay"},l=function(e){function t(i){return e.call(this,n.a({},t.defaultAdapter,i))||this}return n.d(t,e),Object.defineProperty(t,"strings",{get:function(){return c},enumerable:!0,configurable:!0}),Object.defineProperty(t,"cssClasses",{get:function(){return s},enumerable:!0,configurable:!0}),Object.defineProperty(t,"defaultAdapter",{get:function(){return{addClass:function(){},removeClass:function(){},setNativeControlChecked:function(){},setNativeControlDisabled:function(){}}},enumerable:!0,configurable:!0}),t.prototype.setChecked=function(e){this.adapter_.setNativeControlChecked(e),this.updateCheckedStyling_(e)},t.prototype.setDisabled=function(e){this.adapter_.setNativeControlDisabled(e),e?this.adapter_.addClass(s.DISABLED):this.adapter_.removeClass(s.DISABLED)},t.prototype.handleChange=function(e){var t=e.target;this.updateCheckedStyling_(t.checked)},t.prototype.updateCheckedStyling_=function(e){e?this.adapter_.addClass(s.CHECKED):this.adapter_.removeClass(s.CHECKED)},t}(r.a);class d extends o.a{constructor(){super(...arguments),this.checked=!1,this.disabled=!1,this.mdcFoundationClass=l}_changeHandler(e){this.mdcFoundation.handleChange(e),this.checked=this.formElement.checked}createAdapter(){return Object.assign(Object.assign({},Object(o.b)(this.mdcRoot)),{setNativeControlChecked:e=>{this.formElement.checked=e},setNativeControlDisabled:e=>{this.formElement.disabled=e}})}get ripple(){return this.rippleNode.ripple}render(){return o.d`
+      <div class="mdc-switch">
+        <div class="mdc-switch__track"></div>
+        <div class="mdc-switch__thumb-underlay" .ripple="${Object(a.a)({interactionNode:this})}">
+          <div class="mdc-switch__thumb">
+            <input
+              type="checkbox"
+              id="basic-switch"
+              class="mdc-switch__native-control"
+              role="switch"
+              @change="${this._changeHandler}">
+          </div>
+        </div>
+      </div>
+      <slot></slot>`}}Object(n.c)([Object(o.f)({type:Boolean}),Object(o.e)(function(e){this.mdcFoundation.setChecked(e)})],d.prototype,"checked",void 0),Object(n.c)([Object(o.f)({type:Boolean}),Object(o.e)(function(e){this.mdcFoundation.setDisabled(e)})],d.prototype,"disabled",void 0),Object(n.c)([Object(o.g)(".mdc-switch")],d.prototype,"mdcRoot",void 0),Object(n.c)([Object(o.g)("input")],d.prototype,"formElement",void 0),Object(n.c)([Object(o.g)(".mdc-switch__thumb-underlay")],d.prototype,"rippleNode",void 0);var p=i(206);let u=class extends d{};u.styles=p.a,u=Object(n.c)([Object(o.c)("mwc-switch")],u)},263:function(e,t,i){"use strict";var n=i(3),o=(i(109),i(182),i(143),i(177),i(217),i(0));const a=[{page:"ais_dom_config_update",caption:"Oprogramowanie bramki",description:"Aktualizacja systemu i synchronizacja bramki z Portalem Integratora"},{page:"ais_dom_config_wifi",caption:"Sieć WiFi",description:"Ustawienia połączenia z siecią WiFi"},{page:"ais_dom_config_display",caption:"Ekran",description:"Ustawienia ekranu"},{page:"ais_dom_config_tts",caption:"Głos asystenta",description:"Ustawienia głosu asystenta"},{page:"ais_dom_config_night",caption:"Tryb nocny",description:"Ustawienie godzin, w których asystent ma działać ciszej"},{page:"ais_dom_config_remote",caption:"Zdalny dostęp",description:"Konfiguracja zdalnego dostępu do bramki"},{page:"ais_dom_config_power",caption:"Zatrzymanie bramki",description:"Restart lub wyłączenie bramki"}];let r=class extends o.a{render(){return o.f`
+      <ha-card>
+        ${a.map(({page:e,caption:t,description:i})=>o.f`
+              <a href=${`/config/${e}`}>
+                <paper-item>
+                  <paper-item-body two-line=""
+                    >${`${t}`}
+                    <div secondary>${`${i}`}</div>
+                  </paper-item-body>
+                  <ha-icon-next></ha-icon-next>
+                </paper-item>
+              </a>
+            `)}
+      </ha-card>
+    `}static get styles(){return o.c`
+      a {
+        text-decoration: none;
+        color: var(--primary-text-color);
+      }
+    `}};Object(n.c)([Object(o.g)()],r.prototype,"hass",void 0),Object(n.c)([Object(o.g)()],r.prototype,"showAdvanced",void 0),r=Object(n.c)([Object(o.d)("ha-config-ais-dom-navigation")],r)},327:function(e,t,i){"use strict";i(93),i(145),i(143),i(146);var n=i(4),o=i(30);customElements.define("paper-time-input",class extends o.a{static get template(){return n.a`
+      <style>
+        :host {
+          display: block;
+          @apply --paper-font-common-base;
+        }
+
+        paper-input {
+          width: 30px;
+          text-align: center;
+          --paper-input-container-input: {
+            /* Damn you firefox
+             * Needed to hide spin num in firefox
+             * http://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box
+             */
+            -moz-appearance: textfield;
+            @apply --paper-time-input-cotnainer;
+          }
+          --paper-input-container-input-webkit-spinner: {
+            -webkit-appearance: none;
+            margin: 0;
+            display: none;
+          }
+          --paper-input-container-shared-input-style_-_-webkit-appearance: textfield;
+        }
+
+        paper-dropdown-menu {
+          width: 55px;
+          padding: 0;
+          /* Force ripple to use the whole container */
+          --paper-dropdown-menu-ripple: {
+            color: var(
+              --paper-time-input-dropdown-ripple-color,
+              var(--primary-color)
+            );
+          }
+          --paper-input-container-input: {
+            @apply --paper-font-button;
+            text-align: center;
+            padding-left: 5px;
+            @apply --paper-time-dropdown-input-cotnainer;
+          }
+          --paper-input-container-underline: {
+            border-color: transparent;
+          }
+          --paper-input-container-underline-focus: {
+            border-color: transparent;
+          }
+        }
+
+        paper-item {
+          cursor: pointer;
+          text-align: center;
+          font-size: 14px;
+        }
+
+        paper-listbox {
+          padding: 0;
+        }
+
+        label {
+          @apply --paper-font-caption;
+        }
+
+        .time-input-wrap {
+          @apply --layout-horizontal;
+          @apply --layout-no-wrap;
+        }
+
+        [hidden] {
+          display: none !important;
+        }
+      </style>
+
+      <label hidden$="[[hideLabel]]">[[label]]</label>
+      <div class="time-input-wrap">
+        <!-- Hour Input -->
+        <paper-input
+          id="hour"
+          type="number"
+          value="{{hour}}"
+          on-change="_shouldFormatHour"
+          required=""
+          auto-validate="[[autoValidate]]"
+          prevent-invalid-input=""
+          maxlength="2"
+          max="[[_computeHourMax(format)]]"
+          min="0"
+          no-label-float=""
+          disabled="[[disabled]]"
+        >
+          <span suffix="" slot="suffix">:</span>
+        </paper-input>
+
+        <!-- Min Input -->
+        <paper-input
+          id="min"
+          type="number"
+          value="{{min}}"
+          on-change="_formatMin"
+          required=""
+          auto-validate="[[autoValidate]]"
+          prevent-invalid-input=""
+          maxlength="2"
+          max="59"
+          min="0"
+          no-label-float=""
+          disabled="[[disabled]]"
+        >
+        </paper-input>
+
+        <!-- Dropdown Menu -->
+        <paper-dropdown-menu
+          id="dropdown"
+          required=""
+          hidden$="[[_equal(format, 24)]]"
+          no-label-float=""
+          disabled="[[disabled]]"
+        >
+          <paper-listbox
+            attr-for-selected="name"
+            selected="{{amPm}}"
+            slot="dropdown-content"
+          >
+            <paper-item name="AM">AM</paper-item>
+            <paper-item name="PM">PM</paper-item>
+          </paper-listbox>
+        </paper-dropdown-menu>
+      </div>
+    `}static get properties(){return{label:{type:String,value:"Time"},autoValidate:{type:Boolean,value:!0},hideLabel:{type:Boolean,value:!1},format:{type:Number,value:12},disabled:{type:Boolean,value:!1},hour:{type:String,notify:!0},min:{type:String,notify:!0},amPm:{type:String,notify:!0,value:"AM"},value:{type:String,notify:!0,readOnly:!0,computed:"_computeTime(min, hour, amPm)"}}}validate(){var e=!0;return!this.$.hour.validate()|!this.$.min.validate()&&(e=!1),12!==this.format||this.$.dropdown.validate()||(e=!1),e}_computeTime(e,t,i){if(t&&e)return 24===this.format&&(i=""),t+":"+e+" "+i}_formatMin(){1===this.min.toString().length&&(this.min=this.min<10?"0"+this.min:this.min)}_shouldFormatHour(){24===this.format&&1===this.hour.toString().length&&(this.hour=this.hour<10?"0"+this.hour:this.hour)}_computeHourMax(e){return 12===e?e:23}_equal(e,t){return e===t}})},702:function(e,t,i){"use strict";i.r(t);i(218),i(150);var n=i(4),o=i(30);i(151),i(95),i(263),i(327),i(195);customElements.define("ha-config-ais-dom-config-night",class extends o.a{static get template(){return n.a`
+      <style include="iron-flex ha-style">
+        .content {
+          padding-bottom: 32px;
+        }
+
+        .border {
+          margin: 32px auto 0;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+          max-width: 1040px;
+        }
+        .narrow .border {
+          max-width: 640px;
+        }
+        .card-actions {
+          display: flex;
+        }
+        ha-card > div#ha-switch-id {
+          margin: -4px 0;
+          position: absolute;
+          top: 32px;
+          right: 8px;
+        }
+        .center-container {
+          @apply --layout-vertical;
+          @apply --layout-center-center;
+          height: 70px;
+        }
+        div.person {
+          display: inline-block;
+          margin: 10px;
+        }
+        img {
+          border-radius: 50%;
+          width: 100px;
+          height: 100px;
+          border: 20px;
+        }
+      </style>
+
+      <hass-subpage header="Konfiguracja bramki AIS dom">
+        <div class$="[[computeClasses(isWide)]]">
+          <ha-config-section is-wide="[[isWide]]">
+            <span slot="header">Ustawienia trybu nocnego</span>
+            <span slot="introduction"
+              >Możesz ustalić, w jakich godzinach asystent ma ściszać audio oraz
+              zmieniać wygląd aplikacji na "nocny"</span
+            >
+            <ha-card header="Uruchamiaj tryb nocny*">
+              <div id="ha-switch-id">
+                <ha-switch
+                  checked="{{quietMode}}"
+                  on-change="changeQuietMode"
+                ></ha-switch>
+              </div>
+              <div
+                class="card-content"
+                style="display: flex; align-items: center;"
+              >
+                Rozpocznij o godzinie
+                <paper-time-input
+                  id="ais_quiet_mode_start"
+                  hour="[[quietModeStartH]]"
+                  min="[[quietModeStartM]]"
+                  amPm="false"
+                  hide-label
+                  format="24"
+                  maxlength="2"
+                  on-change="_selectedValueChanged"
+                  style="margin-right:7px;margin-left:7px;"
+                ></paper-time-input>
+                zakończ o godzinie
+                <paper-time-input
+                  id="ais_quiet_mode_stop"
+                  hour="[[quietModeStopH]]"
+                  min="[[quietModeStopM]]"
+                  amPm="false"
+                  hide-label
+                  format="24"
+                  maxlength="2"
+                  on-change="_selectedValueChanged"
+                  style="margin-right:7px;margin-left:7px;"
+                ></paper-time-input>
+              </div>
+              <div class="card-content">
+                *[[quietModeInfo]] o godzinie
+                [[quietModeStartH]]:[[quietModeStartM]] asystent:
+                <ul>
+                  <li>zredukuje głośność czytanych powiadomień do 20%</li>
+                  <li>zredukuje głośność odtwarzacza audio do 20%</li>
+                  <li>zmieni motyw wyglądu aplikacji na nocny</li>
+                </ul>
+                Po zakończeniu ciszy nocnej, o godzinie
+                [[quietModeStopH]]:[[quietModeStopM]], głośność i wygląd zostaną
+                automatycznie przywrócone do wartości przed ciszą nocną.
+              </div>
+            </ha-card>
+          </ha-config-section>
+        </div>
+      </hass-subpage>
+    `}static get properties(){return{hass:Object,isWide:Boolean,showAdvanced:Boolean,quietMode:{type:Boolean,computed:"_computeQuietMode(hass)"},quietModeInfo:String,quietModeStartH:String,quietModeStartM:String,quietModeStopH:String,quietModeStopM:String}}computeClasses(e){return e?"content":"content narrow"}_computeQuietMode(e){return this.quietModeStartH=e.states["input_datetime.ais_quiet_mode_start"].state.split(":")[0]||"22",this.quietModeStartM=e.states["input_datetime.ais_quiet_mode_start"].state.split(":")[1]||"00",this.quietModeStopH=e.states["input_datetime.ais_quiet_mode_stop"].state.split(":")[0]||"6",this.quietModeStopM=e.states["input_datetime.ais_quiet_mode_stop"].state.split(":")[1]||"00","off"===e.states["input_boolean.ais_quiet_mode"].state?(this.quietModeInfo="Jeśli włączysz tryb nocny, to ",!1):(this.quietModeInfo="",!0)}_selectedValueChanged(e){var t=e.target;this.hass.callService("input_datetime","set_datetime",{entity_id:"input_datetime."+t.id,time:t.value})}changeQuietMode(){this.hass.callService("input_boolean","toggle",{entity_id:"input_boolean.ais_quiet_mode"})}})},93:function(e,t,i){"use strict";i(5),i(113),i(114),i(115),i(116);var n=i(60),o=(i(41),i(6)),a=i(4),r=i(97);Object(o.a)({is:"paper-input",_template:a.a`
+    <style>
+      :host {
+        display: block;
+      }
+
+      :host([focused]) {
+        outline: none;
+      }
+
+      :host([hidden]) {
+        display: none !important;
+      }
+
+      input {
+        /* Firefox sets a min-width on the input, which can cause layout issues */
+        min-width: 0;
+      }
+
+      /* In 1.x, the <input> is distributed to paper-input-container, which styles it.
+      In 2.x the <iron-input> is distributed to paper-input-container, which styles
+      it, but in order for this to work correctly, we need to reset some
+      of the native input's properties to inherit (from the iron-input) */
+      iron-input > input {
+        @apply --paper-input-container-shared-input-style;
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        letter-spacing: inherit;
+        word-spacing: inherit;
+        line-height: inherit;
+        text-shadow: inherit;
+        color: inherit;
+        cursor: inherit;
+      }
+
+      input:disabled {
+        @apply --paper-input-container-input-disabled;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        @apply --paper-input-container-input-webkit-spinner;
+      }
+
+      input::-webkit-clear-button {
+        @apply --paper-input-container-input-webkit-clear;
+      }
+
+      input::-webkit-calendar-picker-indicator {
+        @apply --paper-input-container-input-webkit-calendar-picker-indicator;
+      }
+
+      input::-webkit-input-placeholder {
+        color: var(--paper-input-container-color, var(--secondary-text-color));
+      }
+
+      input:-moz-placeholder {
+        color: var(--paper-input-container-color, var(--secondary-text-color));
+      }
+
+      input::-moz-placeholder {
+        color: var(--paper-input-container-color, var(--secondary-text-color));
+      }
+
+      input::-ms-clear {
+        @apply --paper-input-container-ms-clear;
+      }
+
+      input::-ms-reveal {
+        @apply --paper-input-container-ms-reveal;
+      }
+
+      input:-ms-input-placeholder {
+        color: var(--paper-input-container-color, var(--secondary-text-color));
+      }
+
+      label {
+        pointer-events: none;
+      }
+    </style>
+
+    <paper-input-container id="container" no-label-float="[[noLabelFloat]]" always-float-label="[[_computeAlwaysFloatLabel(alwaysFloatLabel,placeholder)]]" auto-validate$="[[autoValidate]]" disabled$="[[disabled]]" invalid="[[invalid]]">
+
+      <slot name="prefix" slot="prefix"></slot>
+
+      <label hidden$="[[!label]]" aria-hidden="true" for$="[[_inputId]]" slot="label">[[label]]</label>
+
+      <!-- Need to bind maxlength so that the paper-input-char-counter works correctly -->
+      <iron-input bind-value="{{value}}" slot="input" class="input-element" id$="[[_inputId]]" maxlength$="[[maxlength]]" allowed-pattern="[[allowedPattern]]" invalid="{{invalid}}" validator="[[validator]]">
+        <input aria-labelledby$="[[_ariaLabelledBy]]" aria-describedby$="[[_ariaDescribedBy]]" disabled$="[[disabled]]" title$="[[title]]" type$="[[type]]" pattern$="[[pattern]]" required$="[[required]]" autocomplete$="[[autocomplete]]" autofocus$="[[autofocus]]" inputmode$="[[inputmode]]" minlength$="[[minlength]]" maxlength$="[[maxlength]]" min$="[[min]]" max$="[[max]]" step$="[[step]]" name$="[[name]]" placeholder$="[[placeholder]]" readonly$="[[readonly]]" list$="[[list]]" size$="[[size]]" autocapitalize$="[[autocapitalize]]" autocorrect$="[[autocorrect]]" on-change="_onChange" tabindex$="[[tabIndex]]" autosave$="[[autosave]]" results$="[[results]]" accept$="[[accept]]" multiple$="[[multiple]]">
+      </iron-input>
+
+      <slot name="suffix" slot="suffix"></slot>
+
+      <template is="dom-if" if="[[errorMessage]]">
+        <paper-input-error aria-live="assertive" slot="add-on">[[errorMessage]]</paper-input-error>
+      </template>
+
+      <template is="dom-if" if="[[charCounter]]">
+        <paper-input-char-counter slot="add-on"></paper-input-char-counter>
+      </template>
+
+    </paper-input-container>
+  `,behaviors:[r.a,n.a],properties:{value:{type:String}},get _focusableElement(){return this.inputElement._inputElement},listeners:{"iron-input-ready":"_onIronInputReady"},_onIronInputReady:function(){this.$.nativeInput||(this.$.nativeInput=this.$$("input")),this.inputElement&&-1!==this._typesThatHaveText.indexOf(this.$.nativeInput.type)&&(this.alwaysFloatLabel=!0),this.inputElement.bindValue&&this.$.container._handleValueAndAutoValidate(this.inputElement)}})},94:function(e,t,i){"use strict";i.d(t,"a",function(){return a});i(5);var n=i(6),o=i(4);const a=Object(n.a)({_template:o.a`
+    <style>
+      :host {
+        display: inline-block;
+        position: fixed;
+        clip: rect(0px,0px,0px,0px);
+      }
+    </style>
+    <div aria-live$="[[mode]]">[[_text]]</div>
+`,is:"iron-a11y-announcer",properties:{mode:{type:String,value:"polite"},_text:{type:String,value:""}},created:function(){a.instance||(a.instance=this),document.body.addEventListener("iron-announce",this._onIronAnnounce.bind(this))},announce:function(e){this._text="",this.async(function(){this._text=e},100)},_onIronAnnounce:function(e){e.detail&&e.detail.text&&this.announce(e.detail.text)}});a.instance=null,a.requestAvailability=function(){a.instance||(a.instance=document.createElement("iron-a11y-announcer")),document.body.appendChild(a.instance)}}}]);
+//# sourceMappingURL=chunk.89ecb00dd1532283839f.js.map
