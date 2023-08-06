@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: brainyquote
+Version: 0.2
+Summary: Fetches and Returns quotes from www.brainyquote.com
+Home-page: https://github.com/viveksb007/pybrainyquote
+Author: Vivek Singh Bhadauria
+Author-email: viveksbhadauria007@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/viveksb007/pybrainyquote/tarball/0.2
+Keywords: quotes,pyquotes,brainyquote
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+UNKNOWN
+
+
