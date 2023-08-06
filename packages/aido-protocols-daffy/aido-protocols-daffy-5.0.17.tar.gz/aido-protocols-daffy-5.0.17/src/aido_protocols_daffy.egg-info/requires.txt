@@ -1,0 +1,9 @@
+compmake
+pyparsing
+PyContracts
+networkx<=2.2
+termcolor
+cbor2
+pydot
+zuper-ipce-z5>=5.1.0
+zuper-nodes-z5>=5.0.7
