@@ -1,0 +1,8 @@
+README.md
+setup.py
+tregex/__init__.py
+tregex/tregex.py
+tregex_tobiasli.egg-info/PKG-INFO
+tregex_tobiasli.egg-info/SOURCES.txt
+tregex_tobiasli.egg-info/dependency_links.txt
+tregex_tobiasli.egg-info/top_level.txt
