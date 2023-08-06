@@ -1,0 +1,2 @@
+numpy>=1.14.0
+numpy-stubs@ git+https://github.com/szb0/numpy-stubs.git
