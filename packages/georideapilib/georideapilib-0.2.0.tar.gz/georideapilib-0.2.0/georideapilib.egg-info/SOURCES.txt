@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+georideapilib/api.py
+georideapilib/objects.py
+georideapilib.egg-info/PKG-INFO
+georideapilib.egg-info/SOURCES.txt
+georideapilib.egg-info/dependency_links.txt
+georideapilib.egg-info/top_level.txt
