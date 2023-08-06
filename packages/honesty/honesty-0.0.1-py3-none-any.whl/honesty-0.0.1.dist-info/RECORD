@@ -1,0 +1,16 @@
+honesty/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+honesty/__version__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+honesty/cache.py,sha256=r1gXwoSuGm7CWUGjZcaQ8s1W0geC66cD1Mo6T9neE5U,1405
+honesty/checker.py,sha256=Yiej4qxn30aPTevIlTYVukbs8ZvD0yC5Z5JTcxC1v7M,2967
+honesty/cmdline.py,sha256=vYURqy2pwyQqdMnDwgAKTAp5ifBIKDUlbitQl0Qrh8I,784
+honesty/releases.py,sha256=h6mEdijC4cwH31sRxq__xnfqFkvf_ME14EPxhNGOUec,1747
+honesty/tests/__init__.py,sha256=xHuNJng7b5BN6zrPvNuUe4_95DT046n8HgIGTJkl1WI,64
+honesty/tests/__main__.py,sha256=UtXOv2CA2jKvt1P_bIqDVFg4qJAZeU_L1qbR7903v7k,99
+honesty/tests/cache.py,sha256=IJw2m8fAUvWy1q8UY7Fx2YGzvEmYz5muDBfnUNjAzbE,1163
+honesty/tests/releases.py,sha256=efyhti_ANlGqgCW7L4RJ2tbA726DZauRIiIxWtIXZio,2791
+honesty-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+honesty-0.0.1.dist-info/METADATA,sha256=HrJj8jCllXTKRLX8w0o21sKVgOTWVsIIDUvLtcilYyY,1267
+honesty-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+honesty-0.0.1.dist-info/entry_points.txt,sha256=ajtyG64-jlq51UCqcZx9NjXH4-j1r_bkZxGk8ZPOUSo,50
+honesty-0.0.1.dist-info/top_level.txt,sha256=wuc0luHZFdC8Y38YrJ--XnWq0e8ndFI2AtJxEKvhBac,8
+honesty-0.0.1.dist-info/RECORD,,
