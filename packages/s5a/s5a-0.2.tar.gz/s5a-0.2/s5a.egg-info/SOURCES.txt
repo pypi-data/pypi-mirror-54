@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+s5a/__init__.py
+s5a.egg-info/PKG-INFO
+s5a.egg-info/SOURCES.txt
+s5a.egg-info/dependency_links.txt
+s5a.egg-info/requires.txt
+s5a.egg-info/top_level.txt
