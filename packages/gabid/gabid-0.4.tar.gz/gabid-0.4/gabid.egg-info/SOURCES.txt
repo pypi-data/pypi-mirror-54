@@ -1,0 +1,11 @@
+README.md
+setup.py
+gabid/Binomialdistribution.py
+gabid/Gaussiandistribution.py
+gabid/Generaldistribution.py
+gabid/__init__.py
+gabid.egg-info/PKG-INFO
+gabid.egg-info/SOURCES.txt
+gabid.egg-info/dependency_links.txt
+gabid.egg-info/not-zip-safe
+gabid.egg-info/top_level.txt

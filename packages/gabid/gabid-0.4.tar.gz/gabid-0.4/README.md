@@ -1,0 +1,45 @@
+# gabid package
+
+This package implements the Gaussian and Binomial Distributions providing the following capabilities:
+* Compute the mean and standard deviation given a file with all the samples
+* Compute the pdf
+* Allows to add two of the kind
+
+For Gaussian distribution only:
+* Plot histogram
+* Plot histogram pdf
+
+For Binomial distribution only:
+* Plot bar
+* Plot bar pdf
+
+## Installation
+
+To start using this package just type: `pip install gabid`
+
+## Files
+
+This package provides three classes: `Distribution`, `Gaussian` and `Binomial`.
+The `Distribution` class is only used to read all the values from a txt file and convert them into a list.
+Both `Gaussian` and `Binomial` inherit from this class.
+
+## Quick start
+
+Instanciate the distribution classes as:
+`Gaussian(35, 2)`
+`Binomial(0.4, 60)`
+
+## References
+
+### Used resources
+
+* [Gaussian Distribution](https://en.wikipedia.org/wiki/Normal_distribution)
+* [Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution)
+
+### Contributors
+
+* [Sara Garci](s@saragarci.com)
+
+## License
+
+© Copyright 2019 by Sara Garci. All rights reserved.
