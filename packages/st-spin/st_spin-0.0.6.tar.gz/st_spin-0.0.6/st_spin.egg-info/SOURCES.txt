@@ -1,0 +1,11 @@
+README.md
+setup.py
+st_spin.egg-info/PKG-INFO
+st_spin.egg-info/SOURCES.txt
+st_spin.egg-info/dependency_links.txt
+st_spin.egg-info/not-zip-safe
+st_spin.egg-info/top_level.txt
+stspin/__init__.py
+stspin/constants.py
+stspin/st_spin_chain.py
+stspin/st_spin_device.py
