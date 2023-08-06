@@ -1,0 +1,126 @@
+comment
+  This is a file with custom definitions for Gaphor's data model.
+
+  Parts are separated by '%%' (no training spaces) on a line.
+  Comment parts start with 'comment' on the line below the percentage
+  symbols, 'override' is used to define a overridden variable.
+
+  Overrides may in their turn derive from other properties, in that case
+  the 'derives' keyword may be used. It's only useful to declare the
+  associations (and other derived properties) an overridden value depends
+  on, since attributes have been written anyway. Note that no smart things
+  wrt inheritance is done.
+%%
+header
+import gaphor.UML.uml2overrides as overrides
+import gaphor.UML.umllex as umllex
+%%
+override Element
+from gaphor.UML.element import Element
+%%
+override Diagram
+from gaphor.UML.diagram import Diagram
+%%
+override Presentation
+from gaphor.UML.presentation import Presentation
+%%
+override Presentation.subject
+# Presentation.subject is directly defined in the Presentation class
+%%
+override Transition
+# Invert order of superclasses to avoid MRO issues
+class Transition(RedefinableElement, NamedElement):
+    kind: umlproperty[str, str]
+    container: umlproperty[Region, Region]
+    source: umlproperty[Vertex, Vertex]
+    target: umlproperty[Vertex, Vertex]
+    effect: umlproperty[Behavior, Behavior]
+    guard: umlproperty[Constraint, Constraint]
+    redefintionContext: umlproperty[Classifier, Classifier]
+    redefinedTransition: umlproperty[Transition, Transition]
+%%
+override MultiplicityElement.lower(MultiplicityElement.lowerValue): umlproperty[str, str]
+MultiplicityElement.lower = derived('lower', object, 0, 1, lambda obj: [ obj.lowerValue ], MultiplicityElement.lowerValue)
+%%
+override MultiplicityElement.upper(MultiplicityElement.upperValue): umlproperty[str, str]
+MultiplicityElement.upper = derived('upper', object, 0, 1, lambda obj: [ obj.upperValue ], MultiplicityElement.upperValue)
+%%
+override NamedElement.qualifiedName: property
+
+NamedElement.qualifiedName = property(overrides.namedelement_qualifiedname, doc=overrides.namedelement_qualifiedname.__doc__)
+
+%%
+override Association.endType(Association.memberEnd, Property.type): umlproperty[Type, collection[Type]]
+
+# References the classifiers that are used as types of the ends of the
+# association.
+
+Association.endType = derived('endType', Type, 0, '*', lambda self: [end.type for end in self.memberEnd if end], Association.memberEnd, Property.type)
+
+%%
+override Class.extension(Extension.metaclass): property
+# See https://www.omg.org/spec/UML/2.5/PDF, section 11.8.3.6, page 219
+# It defines `Extension.allInstances()`, which basically means we have to query the element factory.
+
+# TODO: use those as soon as Extension.metaclass can be used.
+#Class.extension = derived('extension', Extension, 0, '*', class_extension, Extension.metaclass)
+
+Class.extension = property(lambda self: self.model.lselect(lambda e: e.isKindOf(Extension) and self is e.metaclass), doc=\
+"""References the Extensions that specify additional properties of the
+metaclass. The property is derived from the extensions whose memberEnds
+are typed by the Class.""")
+%%
+override Extension.metaclass(Extension.ownedEnd, Association.memberEnd): property
+# Don't use derived() now, it can not deal with a [0..1] property derived from a [0..*] property.
+#Extension.metaclass = derived('metaclass', Class, 0, 1, Extension.ownedEnd, Association.memberEnd)
+#Extension.metaclass.filter = extension_metaclass
+Extension.metaclass = property(overrides.extension_metaclass, doc=overrides.extension_metaclass.__doc__)
+%%
+override Classifier.inheritedMember: umlproperty[NamedElement, collection[NamedElement]]
+Classifier.inheritedMember = derivedunion('inheritedMember', NamedElement, 0, '*')
+%%
+override Classifier.general: property
+Classifier.general = property(lambda self: [g.general for g in self.generalization], doc="""
+    Return a list of all superclasses for class (iterating the Generalizations.
+    """)
+%%
+override Class.superClass: property
+Class.superClass = Classifier.general
+%%
+override Namespace.importedMember: umlproperty[PackageableElement, collection[PackageableElement]]
+Namespace.importedMember = derivedunion('importedMember', PackageableElement, 0, '*')
+%%
+override Property.opposite: property
+Property.opposite = property(overrides.property_opposite, doc=overrides.property_opposite.__doc__)
+%%
+override Property.isComposite(Property.aggregation): umlproperty[Namespace, Namespace]
+Property.isComposite = derived('isComposite', bool, 0, 1, lambda obj: [obj.aggregation == 'composite'], Property.aggregation)
+%%
+override Constraint.context: umlproperty[Namespace, Namespace]
+Constraint.context = derivedunion('context', Namespace, 0, 1)
+%%
+override Property.navigability: property
+Property.navigability = property(overrides.property_navigability, doc=overrides.property_navigability.__doc__)
+%%
+override Operation.type: umlproperty[DataType, DataType]
+Operation.type = derivedunion('type', DataType, 0, 1)
+%%
+override Lifeline.parse: Callable[[Lifeline, str], None]
+Lifeline.parse = umllex.parse_lifeline
+%%
+override Lifeline.render: Callable[[Lifeline], str]
+Lifeline.render = umllex.render_lifeline
+%%
+override Component.provided: property
+Component.provided = property(overrides.component_provided, doc=overrides.component_provided.__doc__)
+%%
+override Component.required: property
+Component.required = property(overrides.component_required, doc=overrides.component_required.__doc__)
+%%
+override Message.messageKind: property
+Message.messageKind = property(overrides.message_messageKind, doc=overrides.message_messageKind.__doc__)
+%%
+override StructuredClassifier.part: property
+StructuredClassifier.part = property(lambda self: tuple(a for a in self.ownedAttribute if a.isComposite), doc="""
+    Properties owned by a classifier by composition.
+""")
