@@ -1,0 +1,6 @@
+setup.py
+dolittle_timeseries_runtime_contracts.egg-info/PKG-INFO
+dolittle_timeseries_runtime_contracts.egg-info/SOURCES.txt
+dolittle_timeseries_runtime_contracts.egg-info/dependency_links.txt
+dolittle_timeseries_runtime_contracts.egg-info/requires.txt
+dolittle_timeseries_runtime_contracts.egg-info/top_level.txt
