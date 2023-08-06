@@ -1,0 +1,8 @@
+README.md
+setup.py
+fine_grained_segmentation/detect.py
+fine_grained_segmentation.egg-info/PKG-INFO
+fine_grained_segmentation.egg-info/SOURCES.txt
+fine_grained_segmentation.egg-info/dependency_links.txt
+fine_grained_segmentation.egg-info/requires.txt
+fine_grained_segmentation.egg-info/top_level.txt
