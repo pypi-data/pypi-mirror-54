@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+pyanom/__init__.py
+pyanom/density_ratio_estimation.py
+pyanom/outlier_detection.py
+pyanom/structure_learning.py
+pyanom/subspace_methods.py
+pyanom/utils.py
+pyanom.egg-info/PKG-INFO
+pyanom.egg-info/SOURCES.txt
+pyanom.egg-info/dependency_links.txt
+pyanom.egg-info/requires.txt
+pyanom.egg-info/top_level.txt
