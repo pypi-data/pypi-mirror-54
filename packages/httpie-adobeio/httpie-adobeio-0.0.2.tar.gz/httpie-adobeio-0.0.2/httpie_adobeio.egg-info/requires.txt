@@ -1,0 +1,6 @@
+requests
+edgegrid-python
+httpie
+pyjwt
+flake8
+pipenv
