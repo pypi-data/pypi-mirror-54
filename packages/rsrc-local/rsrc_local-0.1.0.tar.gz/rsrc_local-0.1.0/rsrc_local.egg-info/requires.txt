@@ -1,0 +1,3 @@
+memoir>=0.0.1
+reprit>=0.0.1
+rsrc>=0.0.4
