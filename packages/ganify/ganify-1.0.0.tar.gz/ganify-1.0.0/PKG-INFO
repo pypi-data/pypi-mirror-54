@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ganify
+Version: 1.0.0
+Summary: An Easy way to use GANs for data augmentation
+Home-page: https://github.com/arnonbruno/ganify
+Author: Arnon Bruno
+Author-email: asantos.quantum@gmail.com
+License: UNKNOWN
+Description: # ganify
+        Project to ease the implementation of GAN and WGAN for data augmentation!
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
