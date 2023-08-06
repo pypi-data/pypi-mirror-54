@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+DenseBlock/DenseBlock.py
+DenseBlock/__init__.py
+denseblock.egg-info/PKG-INFO
+denseblock.egg-info/SOURCES.txt
+denseblock.egg-info/dependency_links.txt
+denseblock.egg-info/requires.txt
+denseblock.egg-info/top_level.txt
