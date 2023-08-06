@@ -1,0 +1,11 @@
+[console_scripts]
+summaryclassification = pesummary.cli.summaryclassification:main
+summaryclean = pesummary.cli.summaryclean:main
+summarycombine = pesummary.cli.summarycombine:main
+summarycombine_metafiles = pesummary.cli.summarycombine_metafiles:main
+summaryconvert = pesummary.gw.file.one_format:main
+summarypages = pesummary.cli.summarypages:main
+summaryplots = pesummary.cli.summaryplots:main
+summarypublication = pesummary.cli.summarypublication:main
+summaryreview = pesummary.cli.summaryreview:main
+
