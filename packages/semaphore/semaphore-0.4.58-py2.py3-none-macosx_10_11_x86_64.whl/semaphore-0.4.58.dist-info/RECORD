@@ -1,0 +1,13 @@
+semaphore/__init__.py,sha256=1g9An-AmAb74svfUkQ7P2D5eQqSy7LG2zPzSvBPcEs8,577
+semaphore/_compat.py,sha256=Xj0taOAKjqrMHZZkr8benMXgh-Ig2mlPKEzmF2nTQvE,889
+semaphore/_lowlevel.py,sha256=HrG0jWMA8uxxVKEibTgPZ6BSQdxHVjdgpAetztN5nVY,191
+semaphore/_lowlevel__ffi.py,sha256=Z6ddGcp6HGU5q32j9AkzWnDNP0sfr0j17nlwXCXqLbQ,5982
+semaphore/_lowlevel__lib.so,sha256=J0tRlN4qJ1MtYsQikXrYDQQUd-a5ULP6vx1zWDSoMHM,9772184
+semaphore/auth.py,sha256=yMhirxHvF60BHAECvO0l1_NUg9VKt_U_fzEUHgwqKfo,3624
+semaphore/exceptions.py,sha256=kyQBBtdMLzhOWxkUGJEoYO4GCvhztmtGBEibAzrO9gI,1522
+semaphore/processing.py,sha256=LZepAm_l1UdjxqUFWU3Sw8nPnjc2PgOUGoqt-2vkr4Q,4083
+semaphore/utils.py,sha256=fxc4Fuc_6eZkMddDAlWoVIkMwj6nZYjb3dVBmEtpS6w,3004
+semaphore-0.4.58.dist-info/METADATA,sha256=_4WlS-sFW1pYFQF20LF1OO7dIqx5gHPkuLhBqTAH-gc,255
+semaphore-0.4.58.dist-info/WHEEL,sha256=EmICx9wHBH-Pi8rSinpSfpdomhGI_nNlUFwDC2_vw5Y,143
+semaphore-0.4.58.dist-info/top_level.txt,sha256=_6yD1N2zWfnly73576hNx0TJ4w0LTP_vJsjbyUSR5fM,10
+semaphore-0.4.58.dist-info/RECORD,,
