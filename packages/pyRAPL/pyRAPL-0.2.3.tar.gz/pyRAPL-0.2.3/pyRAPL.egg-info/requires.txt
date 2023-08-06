@@ -1,0 +1,11 @@
+psutil>=5.0.0
+
+[docs]
+sphinx>=1.8.1
+sphinx-autodoc-typehints>=1.6.0
+
+[mongodb]
+pymongo>=3.9.0
+
+[pandas]
+pandas>=0.25.1
