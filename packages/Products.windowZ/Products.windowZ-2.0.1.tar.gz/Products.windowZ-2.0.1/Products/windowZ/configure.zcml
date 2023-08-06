@@ -1,0 +1,26 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:gs="http://namespaces.zope.org/genericsetup"
+           i18n_domain="windowZ">
+
+  <include package="Products.CMFCore" file="configure.zcml" />
+  <include package="plone.app.registry" />
+
+  <include file="upgrades.zcml" />
+
+  <gs:registerProfile
+      name="default"
+      title="windowZ"
+      directory="profiles/default"
+      description="Include iFrames as Plone content"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <browser:page
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      name="Products-windowZ-controlpanel"
+      class=".controlpanel.WindowZControlPanelForm"
+      permission="cmf.ManagePortal"
+      />
+
+</configure>

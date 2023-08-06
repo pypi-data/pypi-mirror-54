@@ -1,0 +1,15 @@
+plone.app.registry
+plone.z3cform
+Products.Archetypes
+Products.ATContentTypes
+Products.CMFCore
+Products.CMFPlone
+Products.GenericSetup
+setuptools
+stripogram
+zope.i18nmessageid
+zope.interface
+zope.schema
+
+[test]
+Products.PloneTestCase
