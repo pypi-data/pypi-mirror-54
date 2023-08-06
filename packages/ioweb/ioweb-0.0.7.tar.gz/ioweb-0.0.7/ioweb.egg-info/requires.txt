@@ -1,0 +1,12 @@
+urllib3==1.24.1
+pyopenssl
+cryptography
+idna
+certifi
+cachetools
+gevent
+pysocks
+lxml
+defusedxml
+selection
+cssselect

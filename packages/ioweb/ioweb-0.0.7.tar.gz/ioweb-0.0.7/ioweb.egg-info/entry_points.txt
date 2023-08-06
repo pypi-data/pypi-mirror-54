@@ -1,0 +1,3 @@
+[console_scripts]
+ioweb = ioweb_gevent.cli:command_ioweb
+
