@@ -1,0 +1,9 @@
+LICENSE
+README.md
+lernziel_api.py
+setup.py
+lernziel_api.egg-info/PKG-INFO
+lernziel_api.egg-info/SOURCES.txt
+lernziel_api.egg-info/dependency_links.txt
+lernziel_api.egg-info/requires.txt
+lernziel_api.egg-info/top_level.txt
