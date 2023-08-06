@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: liam
+Version: 0.1.0
+Summary: I will look for you, I will find you, and I will delete you.
+Home-page: https://github.com/racker/liam
+Author: Rackers
+Author-email: bruce.stringer@rackspace.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: liam aws b682af8b
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Provides-Extra: test
+Provides-Extra: style
+Provides-Extra: lint
+Provides-Extra: test-requirements
