@@ -1,0 +1,8 @@
+README.md
+setup.py
+compare_strings_lib.egg-info/PKG-INFO
+compare_strings_lib.egg-info/SOURCES.txt
+compare_strings_lib.egg-info/dependency_links.txt
+compare_strings_lib.egg-info/top_level.txt
+strings/__init__.py
+strings/compare.py

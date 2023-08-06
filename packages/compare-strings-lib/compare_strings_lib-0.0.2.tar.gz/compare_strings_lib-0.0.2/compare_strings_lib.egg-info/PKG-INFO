@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: compare-strings-lib
+Version: 0.0.2
+Summary: module for comparing to strings
+Home-page: https://github.com/qalfaki/py-lib/tree/master/cs_lib
+Author: qalfaki
+Author-email: qusai.alfaki@gmail.com
+License: UNKNOWN
+Description: # Compare strings
+        
+        * A python library for comparing 2 strings
+        
+        - in the case of str1 = str2 returned value would be `1 `
+        - in the case of str1 > str2 returned value would be `0`
+        - in the case of str1 < str2 returned value would be `-1`
+        
+        #### Installation:
+        
+        > `pip3 install compare_strings_lib`
+        
+        #### Usage:
+        ```
+        from strings.compare import compare
+        
+            result = compare("1.2", "1.1")
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
