@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: dompare
+Version: 0.0.2
+Summary: A program to diff two directories recursively
+Home-page: https://github.com/vra/dompare
+Author: Yunfeng Wang
+Author-email: wyf.brz@gmail.com
+License: MIT Licence
+Keywords: dompare,Linux,diff,directories
+Platform: any
+Requires-Dist: binaryornot (>=0.4.4)
+
+dompare is  program to diff same name iles in two directories recursively
+
+
