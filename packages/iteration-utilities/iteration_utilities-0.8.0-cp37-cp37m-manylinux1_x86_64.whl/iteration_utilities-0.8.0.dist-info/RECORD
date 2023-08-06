@@ -1,0 +1,11 @@
+iteration_utilities/_additional_recipes.py,sha256=iudkAI9jt-3xbDZLqhYcEao8kL6_P8O50Bx03EiYymk,22010
+iteration_utilities/__init__.py,sha256=jXz9M4mOl9j1lbmRrPmkx_LuMqc_z7aHsRAbxv629eg,262
+iteration_utilities/_compat.py,sha256=TBpAR_P4ZcnY2lWgScV9ZcPfsQrT-eI8yYnKhyhx_Z0,910
+iteration_utilities/_classes.py,sha256=iWORDfVMQ3YNmc65rTumPXyyJfcj8QsEQvK5xiJZPkQ,81416
+iteration_utilities/_recipes.py,sha256=nL-TZTRymL3Q4xPOvjMXQSk-euTJUoUIhZXePrQtk8U,11396
+iteration_utilities/_utils.py,sha256=fb875P3pG1ONs-YLKgwX8IC7kQ0_8PPHcEi1WSzLX1A,1259
+iteration_utilities/_iteration_utilities.cpython-37m-x86_64-linux-gnu.so,sha256=B-FhHUhCuJa8U8mEjJz0MHaC54xzY2zmoiwEMQvsiE0,1165128
+iteration_utilities-0.8.0.dist-info/RECORD,,
+iteration_utilities-0.8.0.dist-info/top_level.txt,sha256=DHlE9oZnz6Bh6YfylJRNQnNQARr4q3dtY_0HSTpY3gA,20
+iteration_utilities-0.8.0.dist-info/METADATA,sha256=SBAmVmVV189yBINS6lJ05PaMYuqZAeSEc16hOn7iR58,14851
+iteration_utilities-0.8.0.dist-info/WHEEL,sha256=AhV6RMqZ2IDfreRJKo44QWYxYeP-0Jr0bezzBLQ1eog,109
