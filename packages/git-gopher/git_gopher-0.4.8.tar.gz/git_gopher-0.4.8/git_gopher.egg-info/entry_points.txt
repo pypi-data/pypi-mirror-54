@@ -1,0 +1,6 @@
+[console_scripts]
+ggo = git_gopher:main
+ggo-add-preview = git_gopher:add_preview
+ggo-colorize = git_gopher:colorize
+ggo-get-incremented-version = git_gopher:get_incremented_version
+
