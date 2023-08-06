@@ -1,0 +1,8 @@
+{% extends template_base %}{% spaceless %}{% load rijkshuisstijl %}
+    {% block body-class %}{{ block.super }} view--vcenter{% endblock %}
+    {% block content %}
+        <div class="layout layout--small" role="row">
+            {% textbox config=textbox_config %}
+        </div>
+    {% endblock %}
+{% endspaceless %}

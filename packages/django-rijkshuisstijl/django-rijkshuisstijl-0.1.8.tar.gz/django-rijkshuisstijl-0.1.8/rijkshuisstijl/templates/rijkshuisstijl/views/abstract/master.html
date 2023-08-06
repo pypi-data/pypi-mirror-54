@@ -1,0 +1,22 @@
+{% spaceless %}{% load i18n rijkshuisstijl_meta staticfiles %}
+<!DOCTYPE html>
+<html lang="nl" class="view view--full-width {% block body-class %}view--{{ request.resolver_match.namespaces|join:'-' }}-{{ request.resolver_match.url_name }}{% endblock %}" {% block html-data %}{% endblock %}>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ _('Werkbezoek') }}{% endblock %}</title>
+    {% meta_css %}
+    <link href="{% static 'css/screen.css' %}" media="all" rel="stylesheet"/>
+    {% block extra_css %}{% endblock %}
+    {% meta_icons %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="view__body">
+{% block body %}
+{% endblock body %}
+{% meta_js %}
+<script src="{% static 'js/main.js' %}"></script>
+{% block extra_js %}{% endblock %}
+</body>
+</html>
+{% endspaceless %}

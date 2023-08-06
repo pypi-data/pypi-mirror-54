@@ -1,0 +1,23 @@
+{% load sniplates rijkshuisstijl %}{% singleline %}
+
+    {% comment %}
+
+    class: Sets additional wrapper classes.
+    id: Sets the textarea id.
+    name: Sets the textarea name.
+    placeholder: Sets the placeholder label.
+    value: Sets the textarea value.
+    disabled: Makes the textarea disabled.
+    readonly: Makes the textarea read-only.
+    required: Makes the textarea required.
+
+    {% endcomment %}
+
+    <textarea class="textarea{% if errors %} textarea--error{% endif %}{% if class %} {{ class }}{% endif %}"
+            {% if id %} id="{{ id }}"{% endif %}
+            {% if name %} name="{{ name }}"{% endif %}
+            {% if placeholder %} placeholder="{{ placeholder }}"{% endif %}
+            {% if disabled %} disabled{% endif %}
+            {% if readonly %} readonly{% endif %}
+            {% if required %} required{% endif %}
+            {% if widget.attrs %} {{ widget.attrs|flatattrs }}{% endif %}>{% endsingleline %}{% if value %}{{ value }}{% endif %}</textarea>

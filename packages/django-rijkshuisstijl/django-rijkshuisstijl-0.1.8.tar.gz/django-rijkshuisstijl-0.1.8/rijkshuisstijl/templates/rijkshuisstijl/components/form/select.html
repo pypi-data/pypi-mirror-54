@@ -1,0 +1,55 @@
+{% load sniplates rijkshuisstijl %}{% singleline %}
+
+    {% comment %}
+
+    class: Sets additional wrapper classes.
+    id: Sets the select id.
+    name: Sets the select name.
+    placeholder: Sets the placeholder label.
+    value: Sets the select value.
+    type: Sets the select type.
+    size: Sets the select size.
+    disabled: Makes the select disabled.
+    min: Sets the select mininum value.
+    max: Sets the select maximum value.
+    required: Makes the select required.
+
+    {% endcomment %}
+
+    <select class="select{% if errors %} select--error{% endif %}{% if class %} {{ class }}{% endif %}"
+            {% if id %} id="{{ id }}"{% endif %}
+            {% if multiple %} multiple{% endif %}
+            {% if name %} name="{{ name }}"{% endif %}
+            {% if placeholder %} placeholder="{{ placeholder }}"{% endif %}
+            {% if value %} value="{{ value }}"{% endif %}
+            {% if type %} type="{{ type }}"{% endif %}
+            {% if size %} size={{ size }}{% endif %}
+            {% if disabled %} disabled{% endif %}
+            {% if required %} required{% endif %}
+            {% if widget.attrs %} {{ widget.attrs|flatattrs }}{% endif %}>
+
+
+        {% if multiple %}
+
+            {% for val, display in choices %}
+                <option class="select__option" value="{{ val }}"
+                        {% if val in value %} selected{% endif %}>{{ display }}</option>
+            {% endfor %}
+
+        {% else %}
+
+            {% for choice in choices %}
+                {% if choice.is_group %}
+                    <optgroup label="{{ choice.value }}">
+                        {% for val, display in choice.display %}
+                            <option class="select__option" value="{{ val }}" {% if val == value|default:None %}selected{% endif %}>{{ display }}</option>
+                        {% endfor %}
+                    </optgroup>
+                {% else %}
+                    <option class="select__option" value="{{ choice.value }}" {% if choice.value == value|default:None %}selected{% endif %}>{{ choice.display }}</option>
+                {% endif %}
+            {% endfor %}
+
+        {% endif %}
+    </select>
+{% endsingleline %}

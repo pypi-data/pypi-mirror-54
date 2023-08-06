@@ -1,0 +1,32 @@
+{% load sniplates rijkshuisstijl %}{% singleline %}
+
+    {% comment %}
+
+    class: Sets additional wrapper classes.
+    checked: Whether the input should be checked.
+    id: Sets the input id.
+    label: Sets the label next to the input.
+    name: Sets the input name.
+    value: Sets the input value.
+    disabled: Makes the input disabled.
+    required: Makes the input required.
+    select-all: Allow a queryselector for other checkboxes to be passed, this checkbox will function as select all toggle.
+
+    {% endcomment %}
+
+    <div class="checkbox">
+        <input class="input{% if errors %} input--error{% endif %}{% if select_all %} select-all{% endif %}{% if class %} {{ class }}{% endif %}"
+               type="checkbox"
+                {% if checked %} checked{% endif %}
+                {% if id %} id="{{ id }}"{% endif %}
+                {% if name %} name="{{ name }}"{% endif %}
+                {% if value %} value="{{ value }}"{% endif %}
+                {% if disabled %} disabled{% endif %}
+                {% if required %} required{% endif %}
+                {% if select_all %} data-select-all="{{ select_all }}"{% endif %}
+                {% if widget.attrs %} {{ widget.attrs|flatattrs }}{% endif %}>
+        <div class="checkbox__checkmark"></div>
+        {% if label %}{% include 'rijkshuisstijl/components/form/label.html' with for=id label=label %}{% endif %}
+    </div>
+{% endsingleline %}
+

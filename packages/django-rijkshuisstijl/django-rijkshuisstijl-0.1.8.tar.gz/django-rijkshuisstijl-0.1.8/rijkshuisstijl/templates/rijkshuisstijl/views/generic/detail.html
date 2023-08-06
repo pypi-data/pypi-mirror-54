@@ -1,0 +1,10 @@
+{% extends template_base %}{% spaceless %}{% load rijkshuisstijl %}
+    {% block content %}
+        <div class="layout">
+        {% if toolbar_config %}
+            {% toolbar config=toolbar_config %}
+        {% endif %}
+        {% title_header title=object %}
+        {% key_value_table config=key_value_table_config %}
+    {% endblock %}
+{% endspaceless %}
