@@ -1,0 +1,6 @@
+numpy>=1.11
+pandas>=0.15.0
+pybedtools
+biopython
+seaborn
+tqdm
