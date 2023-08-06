@@ -1,0 +1,6 @@
+scikit-image
+opencv-python==4.1.1.26
+matplotlib
+scipy
+scikit-image
+numpy
