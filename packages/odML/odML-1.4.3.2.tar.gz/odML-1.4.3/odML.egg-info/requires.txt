@@ -1,0 +1,5 @@
+lxml
+pyyaml==4.2b4
+rdflib
+docopt
+pathlib
