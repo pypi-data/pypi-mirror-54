@@ -1,0 +1,12 @@
+nfstream/__init__.py,sha256=v9ahAjr6mEWNrUP6qkI5-jMxkZGjI5rCJbI0UhfiUzI,235
+nfstream/classifier.py,sha256=HLSAjERBErNg4LYPHu5ztxXmkknVmEAbPNIvsD574N0,5376
+nfstream/ndpi_bindings.py,sha256=8S_iZIDnf6TEPbk1cnifg_kws0AUDk_1Xz5H58Z7q5w,24442
+nfstream/ndpi_wrap.so,sha256=tlGs0xSWj_3eIum72bfZ_pcJtXpCmnBqgP6a51ISCBU,3273520
+nfstream/observer.py,sha256=WplK-goQzYSZ5MtwAwN3wESKsSMrowaI4jRunSzz5FI,39017
+nfstream/observer_cc.py,sha256=_MxwAqH4HByID8WRk4CBJy2ldpPcA8wLHYGtxm1roIA,4549
+nfstream/streamer.py,sha256=hz1isLfnAeyIZmefFq1lmyy-VIlRpNRGS27pW_LPalM,9380
+nfstream-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nfstream-1.0.0.dist-info/METADATA,sha256=VaoDTMTEDlfE0_Q4Qc6vy8fn7uy4QRhiiq8nb7YL6RE,4762
+nfstream-1.0.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+nfstream-1.0.0.dist-info/top_level.txt,sha256=hJ2_QvVtHeXq7gxlOUnWap26uMhrrs1m4bQCgVeYZps,9
+nfstream-1.0.0.dist-info/RECORD,,
