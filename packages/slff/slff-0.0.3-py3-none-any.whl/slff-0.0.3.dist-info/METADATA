@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: slff
+Version: 0.0.3
+Summary: SLFF Utility Suite
+Home-page: https://github.com/tervay/slff
+Author: Justin Tervay
+Author-email: justin@tervay.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: tbapy
+
+# SLFF
+
+---
+
+Provides a utility suite for SLFF.
+
+Usage:
+
+```python
+
+from slff.scoring import score_team_event
+from tbapy import TBA
+
+tba = TBA('my tba key')
+scores = score_team_event(2791, '2019nytr')
+```
+
+### Currently only supports 2019 scoring.
+
+#### score_team_event
+
+* `tba: tbapy.TBA`: tbapy class that SLFF uses internally; will be removed in future version
+* `team_number: int`: team number (not key)
+* `event_key: str`: event key to score the team at (Einstein scoring currently unimplemented)
+* `score_as_year: Union[int, NoneType] = None`: force SLFF to score the event as if it happened in the given year; a value of `None` will instead score it as the year the event occurred
+
+
