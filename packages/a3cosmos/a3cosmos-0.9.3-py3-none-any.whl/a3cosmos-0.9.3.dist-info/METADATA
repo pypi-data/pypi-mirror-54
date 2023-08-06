@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: a3cosmos
+Version: 0.9.3
+Summary: A Python Package of A3COSMOS Astronomical Data and Catalog Utilities.
+Home-page: https://sites.google.com/view/a3cosmos
+Author: A3COSMOS Team
+Author-email: dzliu@mpia.de
+Maintainer: A3COSMOS Team
+Maintainer-email: dzliu@mpia.de
+License: BSD License
+Project-URL: Documentation, https://sites.google.com/view/a3cosmos/code/code-a3cosmos
+Keywords: a3cosmos astronomical data and catalog utilities
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: matplotlib
+Requires-Dist: requests-toolbelt
+Requires-Dist: funcsigs ; python_version < "3.0"
+
+########
+a3cosmos
+########
+
+********************************************************************
+A Python Package of A3COSMOS Astronomical Data and Catalog Utilities
+********************************************************************
+
+
+
+
+A simple introduction:
+======================
+
+This Python package contains some useful functions to query A3COSMOS catalog and make cutout images. 
+
+It is currently under development. 
+
+
+
+
+A simple usage:
+===============
+
+To query source by RA Dec coordinate::
+    import a3cosmos as a3c
+    a3cosmos.find_source(RA = 150.0, Dec = 2.0)
+
+
+
+To make a cutout image centered at a source RA Dec coordinate::
+    import a3cosmos as a3c
+    a3cosmos.make_cutout(RA = 150.0, Dec = 2.0, FoV = 10, Band='Ks')
+    # Note that this is currently not working for ALMA images because our data are still waiting to be released on COSMOS IRSA website.
+
+
+
+More functions underway::
+    TODO
+
+
+
+
+
+
