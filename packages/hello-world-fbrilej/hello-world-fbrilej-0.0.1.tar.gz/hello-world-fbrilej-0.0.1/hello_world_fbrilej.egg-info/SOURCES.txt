@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+hello_world/__init__.py
+hello_world/__main__.py
+hello_world/data/index.html
+hello_world_fbrilej.egg-info/PKG-INFO
+hello_world_fbrilej.egg-info/SOURCES.txt
+hello_world_fbrilej.egg-info/dependency_links.txt
+hello_world_fbrilej.egg-info/requires.txt
+hello_world_fbrilej.egg-info/top_level.txt
