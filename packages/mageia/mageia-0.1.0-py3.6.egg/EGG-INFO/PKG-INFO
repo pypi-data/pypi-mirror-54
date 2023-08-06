@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: mageia
+Version: 0.1.0
+Summary: DataBase engine for you
+Home-page: https://mageia.cn
+Author: stefanlei
+Author-email: stefanlei@qq.com
+License: Apache
+Description: Pascal by stefanlei
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
