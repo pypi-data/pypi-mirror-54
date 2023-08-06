@@ -1,0 +1,9 @@
+README.md
+setup.py
+quantastor/__init__.py
+quantastor/qs_client.py
+quantastor_pkg.egg-info/PKG-INFO
+quantastor_pkg.egg-info/SOURCES.txt
+quantastor_pkg.egg-info/dependency_links.txt
+quantastor_pkg.egg-info/requires.txt
+quantastor_pkg.egg-info/top_level.txt
