@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+test.py
+version.txt
+e2fyi/utils/__init__.py
+e2fyi_utils.egg-info/PKG-INFO
+e2fyi_utils.egg-info/SOURCES.txt
+e2fyi_utils.egg-info/dependency_links.txt
+e2fyi_utils.egg-info/not-zip-safe
+e2fyi_utils.egg-info/requires.txt
+e2fyi_utils.egg-info/top_level.txt
