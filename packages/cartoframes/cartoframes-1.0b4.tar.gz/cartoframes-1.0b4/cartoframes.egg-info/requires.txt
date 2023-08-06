@@ -1,0 +1,10 @@
+appdirs<2.0,>=1.4.3
+carto<2.0,>=1.8.1
+jinja2<3.0,>=2.10.1
+geopandas<1.0,>=0.6.0
+tqdm<5.0,>=4.32.1
+unidecode<2.0,>=1.1.0
+pyarrow<1.0,>=0.14.1
+google-cloud-bigquery<2.0,>=1.19.0
+geojson<3.0,>=2.5.0
+matplotlib>=2.0.2
