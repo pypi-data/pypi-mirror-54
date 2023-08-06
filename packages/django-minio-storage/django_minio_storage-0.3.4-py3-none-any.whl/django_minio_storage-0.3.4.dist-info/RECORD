@@ -1,0 +1,15 @@
+minio_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minio_storage/apps.py,sha256=3DOQBiQkcFPVZOcX3NtW-WMlissWi2HpRe0GO0BqsbM,102
+minio_storage/errors.py,sha256=lFSPJMwceBEvTQfH1UC4yi7XkULDY92ddzVU97Jg2HU,773
+minio_storage/files.py,sha256=X2NZjVX6MAl24SrEsGFKDHPa268O4W_dAqj3KcCFyA4,4416
+minio_storage/policy.py,sha256=rDPUbrttZVXSVsG73bFUZGwWJ7LuJ_w69QfsgkbuA3A,4048
+minio_storage/storage.py,sha256=t-hXV6Bs3lG-Sj7RvoQ6MYUXK-5-hPj0vJuhPIIDtGs,13207
+minio_storage/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minio_storage/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minio_storage/management/commands/minio.py,sha256=4-70Zld661TmidW9uKaeUd6jbhWor2sQc74psMRg7S4,8296
+django_minio_storage-0.3.4.dist-info/LICENSE-APACHE,sha256=b_8cWBQiqT6xxVQoiP4NWhNdkJJ0WcY7oV0QNNr7fJk,11004
+django_minio_storage-0.3.4.dist-info/LICENSE-MIT,sha256=1LFKq0KOcNTJmMdHlhR1qjMaH1Hxk4UXp0iZ3HaM8lI,1102
+django_minio_storage-0.3.4.dist-info/METADATA,sha256=T8O_0ouA_hXgqccVH_iEle7MYz1W3CBo2yEb5zp9TQU,790
+django_minio_storage-0.3.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_minio_storage-0.3.4.dist-info/top_level.txt,sha256=co0lzrG_Fq9p6dmBZ_jhSTukHR86EFhqV0Yj7sXIep0,75
+django_minio_storage-0.3.4.dist-info/RECORD,,
