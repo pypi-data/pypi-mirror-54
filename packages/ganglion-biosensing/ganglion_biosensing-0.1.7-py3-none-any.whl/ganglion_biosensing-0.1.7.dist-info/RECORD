@@ -1,0 +1,15 @@
+ganglion_biosensing/__init__.py,sha256=_kJFf6Pp9_bxdJqNn-xGaslCaVL3vMdjxEnuFnJLuLU,87
+ganglion_biosensing/board/__init__.py,sha256=V3sjCKhvDmeZTOWPTRrNzKpLoOhrgzoOwHS6JGHFkUs,51
+ganglion_biosensing/board/board.py,sha256=vTWLBMJfmVPom2TjmMv13Dwno0yi0CZ4bJql0h1u-6Q,1564
+ganglion_biosensing/board/ganglion.py,sha256=bSxxXw9cWIoeNRDVl8a035Ud6foRsfDm4hmtf4C-6gQ,10671
+ganglion_biosensing/hub/__init__.py,sha256=NT5AlhTYnGJfHI1aZcY4vzbNtk3UOel_xMsYrOUSkTs,50
+ganglion_biosensing/hub/hub_connection.py,sha256=6tQQAuH0eN-hV3aJX-f0bi1ev25SWqvdABVZAVeTGAc,12202
+ganglion_biosensing/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ganglion_biosensing/util/bluetooth.py,sha256=njNotmJeiJUOBkTRzbpBiY7Gt1fLHTfGfEiwXyxrb8A,1595
+ganglion_biosensing/util/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ganglion_biosensing/util/constants/ganglion.py,sha256=vLQvJcsaHgAh0PDq6Hz4xAYGYuwTjX-6Lbgy7do4D8U,1824
+ganglion_biosensing-0.1.7.dist-info/LICENSE,sha256=Jzh8oNFaKIcXY_-D4iem2568ZSDGc14_j7DnF69Q3RU,1086
+ganglion_biosensing-0.1.7.dist-info/METADATA,sha256=1NYHWo5bf62UtWTyxbTGglkx0XmLuzYWFasiu8nQgow,2681
+ganglion_biosensing-0.1.7.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ganglion_biosensing-0.1.7.dist-info/top_level.txt,sha256=Sz84GxKKIdjAwuRh9fjC179zkvHnMizjnVLJof6cU3s,20
+ganglion_biosensing-0.1.7.dist-info/RECORD,,
