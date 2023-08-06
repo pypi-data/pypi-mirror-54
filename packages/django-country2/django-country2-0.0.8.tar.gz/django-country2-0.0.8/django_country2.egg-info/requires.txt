@@ -1,0 +1,2 @@
+geoip2>=2.9.0
+django-countries>=5.3.3
