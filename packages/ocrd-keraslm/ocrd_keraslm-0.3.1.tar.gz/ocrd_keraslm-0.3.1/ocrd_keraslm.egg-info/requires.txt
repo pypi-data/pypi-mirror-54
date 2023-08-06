@@ -1,0 +1,11 @@
+ocrd>=1.0.1
+click
+keras>=2.2.4
+numpy
+tensorflow
+h5py
+networkx
+
+[plotting]
+sklearn
+matplotlib
