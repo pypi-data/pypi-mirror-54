@@ -1,0 +1,4 @@
+twisted
+jieba
+numpy
+requests
