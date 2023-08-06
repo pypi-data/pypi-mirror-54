@@ -1,0 +1,16 @@
+LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+README.md,sha256=mlqTHn3c44fJkUIbOO8KWNF-PkbfZAwh8GbEOWFvmj4,72
+burpless/Burpless.py,sha256=Hlk36HilPgkoZ5tgKtu5TLqzmjLJCglsddr_5ixD9lE,966
+burpless/Cli.py,sha256=pVcYN8HKz_UVrhcRUHdigWXhm1K8eeui0uC0YcGeQdE,1095
+burpless/Grammar.py,sha256=wdNqQWNHH2kw5Rz-so8OgIsFlhaLDVFaIjEsjE-w0cg,867
+burpless/Indenter.py,sha256=ely6ZrY5FmvOfq2xqcL8nUAQtpzwtBp399nmQZBbYkM,935
+burpless/Parser.py,sha256=Fa6tBKLP5lFxGDXs2U7IHLBnFTXG3AA-Tr0VT17osaA,1844
+burpless/Transformer.py,sha256=ncqRgcdYSl_ksdDvUULBD26UDP4H6lXkF0OJTLlULg8,933
+burpless/Tree.py,sha256=0Kuvy_8BSvJiQNNMPNTj2vq5NwW1AA5Etr5TIYnZd9U,1081
+burpless/Version.py,sha256=zJmo_HHJmnoArPMFnv7QIgbGfgQvDdcalOOVuj9-A54,739
+burpless/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+burpless-0.1.1.dist-info/entry_points.txt,sha256=j0_nBQGEdqh-uuSbaBzPgfC3FpCCO29yUBu1ZvV1X0k,83
+burpless-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+burpless-0.1.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+burpless-0.1.1.dist-info/METADATA,sha256=qqtM244uJQkMEWCxI8BanB8pXHPSykqJExm-qhKJoAQ,702
+burpless-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+burpless=burpless.Cli:Cli.main
+include=['grammar/grammar.ebnf']
+
