@@ -1,0 +1,7 @@
+README.md
+setup.py
+Colorr.egg-info/PKG-INFO
+Colorr.egg-info/SOURCES.txt
+Colorr.egg-info/dependency_links.txt
+Colorr.egg-info/top_level.txt
+colorr/__init__.py
