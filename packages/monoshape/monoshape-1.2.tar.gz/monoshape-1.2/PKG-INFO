@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: monoshape
+Version: 1.2
+Summary: Extracts monochromatic shapes.
+Home-page: https://github.com/glezseoane/monoshape
+Author: Borja González Seoane
+Author-email: garaje@glezseoane.es
+License: LICENSE
+Download-URL: https://github.com/glezseoane/monoshape/archive/v1.2.tar.gz
+Description: This program takes an image that has well differentiated light and dark tones and extracts its monochromatic shape in the desired colour with a transparent background.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Utilities
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Editors
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+manpages/monoshape.1
+monoshape/__init__.py
+monoshape/__main__.py
+monoshape.egg-info/PKG-INFO
+monoshape.egg-info/SOURCES.txt
+monoshape.egg-info/dependency_links.txt
+monoshape.egg-info/entry_points.txt
+monoshape.egg-info/requires.txt
+monoshape.egg-info/top_level.txt

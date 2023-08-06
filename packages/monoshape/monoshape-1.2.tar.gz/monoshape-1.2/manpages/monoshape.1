@@ -1,0 +1,31 @@
+.\" Manpage for monoshape.
+.\" Contact dev@glezseoane.com to any requirement.
+.TH man 1 "27 Oct 2019" "1.2" "gitcher man page"
+.SH NAME
+monoshape \- Extracts monochromatic shapes
+.SH SYNOPSIS
+\fBmonoshape\fR\ \fI\ src_path\fR\ \fI\ dest_path\fR\ [\fB\-bb\fR | \fB\-ws\fR | \fB\-rgb\fR red green blue]
+.SH DESCRIPTION
+This program takes an image that has well differentiated light and dark tones and extracts its monochromatic shape in the desired colour with a transparent background.
+
+The source and destination path arguments are mandatory and have to be the two first arguments, and respectively in this order. The destination path has to be free, i.e. not occupied by another source.
+
+If the RGB flag is used, the next three arguments have to be the red, green and blue integer colour values, respectively. E.g.: "...-rgb 40 54 11...".
+
+White shape and RGB shape modes can not be combinable, so only one of this flags can be passed. Black background one is independent.
+.SH OPTIONS
+.IP "\fB\--black_background\fR"
+Considers the image inverse situation: dark background and light shape.
+.IP "\fB\--white_shape\fR"
+Draws the output shape on white. Per omission is black.
+.IP "\fB\-rgb_shape\fR"
+Draws the output shape with the input rgb colour. The next three arguments have to be the red, green and blue integer colour values.
+
+.IP "\fB\-bb\fR"
+Idem to \fI\--black_background\fR.
+.IP "\fB\-ws\fR"
+Idem to \fI\--white_shape\fR.
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Borja Gonzalez Seoane <dev@glezseoane.com> is the author of \fBmonoshape\fR.
