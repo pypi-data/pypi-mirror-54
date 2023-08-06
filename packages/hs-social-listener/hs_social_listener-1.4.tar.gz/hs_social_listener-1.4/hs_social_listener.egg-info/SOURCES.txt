@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+hs_social_listener/__init__.py
+hs_social_listener.egg-info/PKG-INFO
+hs_social_listener.egg-info/SOURCES.txt
+hs_social_listener.egg-info/dependency_links.txt
+hs_social_listener.egg-info/not-zip-safe
+hs_social_listener.egg-info/requires.txt
+hs_social_listener.egg-info/top_level.txt
