@@ -1,0 +1,9 @@
+README.md
+setup.py
+dompare/__init__.py
+dompare.egg-info/PKG-INFO
+dompare.egg-info/SOURCES.txt
+dompare.egg-info/dependency_links.txt
+dompare.egg-info/entry_points.txt
+dompare.egg-info/requires.txt
+dompare.egg-info/top_level.txt
