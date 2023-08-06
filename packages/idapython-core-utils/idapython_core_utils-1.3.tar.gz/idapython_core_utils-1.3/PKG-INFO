@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: idapython_core_utils
+Version: 1.3
+Summary: Utilities for developing IDAPython scripts
+Home-page: https://xxx/idapython_core_utils
+Author: The Council of Pwners
+Author-email: carlos.g.prado@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: ida api research reversing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Disassemblers
+Provides-Extra: dev
