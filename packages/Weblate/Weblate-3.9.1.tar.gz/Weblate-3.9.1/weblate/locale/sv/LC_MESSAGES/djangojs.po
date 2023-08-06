@@ -1,0 +1,363 @@
+# Johan Jacobsson <johan.jacobsson@telia.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: Weblate 3.9.1\n"
+"Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
+"POT-Creation-Date: 2019-10-26 12:14+0000\n"
+"PO-Revision-Date: 2018-12-10 15:11+0000\n"
+"Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/weblate/"
+"javascript/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.4-dev\n"
+
+#: weblate/static/loader-bootstrap.js:188
+msgid "Add to screenshot"
+msgstr "Lägg till skärmbild"
+
+#: weblate/static/loader-bootstrap.js:205
+msgid "Error loading search results!"
+msgstr "Fel vid inläsning av sökresultat!"
+
+#: weblate/static/loader-bootstrap.js:207
+msgid "No new matching source strings found."
+msgstr "Inga nya matchande källsträngar hittades."
+
+#: weblate/static/loader-bootstrap.js:322
+msgid "Copy"
+msgstr "Kopiera"
+
+#: weblate/static/loader-bootstrap.js:329
+msgid "Copy and save"
+msgstr "Kopiera och spara"
+
+#: weblate/static/loader-bootstrap.js:382
+#, javascript-format
+msgid "Ctrl+M then %s"
+msgstr "Ctrl+M sedan %s"
+
+#: weblate/static/loader-bootstrap.js:401
+#, javascript-format
+msgid "The request for machine translation using %s has failed:"
+msgstr "Begäran om maskinöversättning med %s misslyckades:"
+
+#: weblate/static/loader-bootstrap.js:414
+msgid "The request for machine translation has failed:"
+msgstr "Begäran om maskinöversättning misslyckades:"
+
+#: weblate/static/loader-bootstrap.js:480
+msgid "Sort this column"
+msgstr "Sortera denna kolumn"
+
+#: weblate/static/loader-bootstrap.js:644
+msgid "Error while loading page:"
+msgstr "Fel vid inläsning av sida:"
+
+#: weblate/static/loader-bootstrap.js:998
+#, javascript-format
+msgid "Ctrl/Command+%s"
+msgstr "Ctrl/Command+%s"
+
+#: weblate/static/loader-bootstrap.js:1167
+msgid "There are some unsaved changes, are you sure you want to leave?"
+msgstr "Det finns osparade ändringar, är du säker att du vill överge dessa?"
+
+#: weblate/static/loader-bootstrap.js:1193
+#: weblate/static/loader-bootstrap.js:1195
+msgid "Sunday"
+msgstr "Söndag"
+
+#: weblate/static/loader-bootstrap.js:1193
+msgid "Monday"
+msgstr "Måndag"
+
+#: weblate/static/loader-bootstrap.js:1193
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: weblate/static/loader-bootstrap.js:1194
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: weblate/static/loader-bootstrap.js:1194
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: weblate/static/loader-bootstrap.js:1194
+msgid "Friday"
+msgstr "Fredag"
+
+#: weblate/static/loader-bootstrap.js:1195
+msgid "Saturday"
+msgstr "Lördag"
+
+#: weblate/static/loader-bootstrap.js:1198
+#: weblate/static/loader-bootstrap.js:1205
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Sun"
+msgstr "Sön"
+
+#: weblate/static/loader-bootstrap.js:1199
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Mon"
+msgstr "Mån"
+
+#: weblate/static/loader-bootstrap.js:1200
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Tue"
+msgstr "Tis"
+
+#: weblate/static/loader-bootstrap.js:1201
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Wed"
+msgstr "Ons"
+
+#: weblate/static/loader-bootstrap.js:1202
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Thu"
+msgstr "Tor"
+
+#: weblate/static/loader-bootstrap.js:1203
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Fri"
+msgstr "Fre"
+
+#: weblate/static/loader-bootstrap.js:1204
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Sat"
+msgstr "Lör"
+
+#: weblate/static/loader-bootstrap.js:1208
+#: weblate/static/loader-bootstrap.js:1215
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Su"
+msgstr "Sö"
+
+#: weblate/static/loader-bootstrap.js:1209
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Mo"
+msgstr "Må"
+
+#: weblate/static/loader-bootstrap.js:1210
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Tu"
+msgstr "Ti"
+
+#: weblate/static/loader-bootstrap.js:1211
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "We"
+msgstr "On"
+
+#: weblate/static/loader-bootstrap.js:1212
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Th"
+msgstr "To"
+
+#: weblate/static/loader-bootstrap.js:1213
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Fr"
+msgstr "Fr"
+
+#: weblate/static/loader-bootstrap.js:1214
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Sa"
+msgstr "Lö"
+
+#: weblate/static/loader-bootstrap.js:1218
+msgid "January"
+msgstr "Januari"
+
+#: weblate/static/loader-bootstrap.js:1218
+msgid "February"
+msgstr "Februari"
+
+#: weblate/static/loader-bootstrap.js:1218
+msgid "March"
+msgstr "Mars"
+
+#: weblate/static/loader-bootstrap.js:1219
+msgid "April"
+msgstr "April"
+
+#: weblate/static/loader-bootstrap.js:1219
+msgid "May"
+msgstr "Maj"
+
+#: weblate/static/loader-bootstrap.js:1219
+msgid "June"
+msgstr "Juni"
+
+#: weblate/static/loader-bootstrap.js:1219
+msgid "July"
+msgstr "Juli"
+
+#: weblate/static/loader-bootstrap.js:1220
+msgid "August"
+msgstr "Augusti"
+
+#: weblate/static/loader-bootstrap.js:1220
+msgid "September"
+msgstr "September"
+
+#: weblate/static/loader-bootstrap.js:1220
+msgid "October"
+msgstr "Oktober"
+
+#: weblate/static/loader-bootstrap.js:1221
+msgid "November"
+msgstr "November"
+
+#: weblate/static/loader-bootstrap.js:1221
+msgid "December"
+msgstr "December"
+
+#: weblate/static/loader-bootstrap.js:1224
+msgctxt "Short name of month"
+msgid "Jan"
+msgstr "Jan"
+
+#: weblate/static/loader-bootstrap.js:1225
+msgctxt "Short name of month"
+msgid "Feb"
+msgstr "Feb"
+
+#: weblate/static/loader-bootstrap.js:1226
+msgctxt "Short name of month"
+msgid "Mar"
+msgstr "Mar"
+
+#: weblate/static/loader-bootstrap.js:1227
+msgctxt "Short name of month"
+msgid "Apr"
+msgstr "Apr"
+
+#: weblate/static/loader-bootstrap.js:1228
+msgctxt "Short name of month"
+msgid "May"
+msgstr "Maj"
+
+#: weblate/static/loader-bootstrap.js:1229
+msgctxt "Short name of month"
+msgid "Jun"
+msgstr "Jun"
+
+#: weblate/static/loader-bootstrap.js:1230
+msgctxt "Short name of month"
+msgid "Jul"
+msgstr "Jul"
+
+#: weblate/static/loader-bootstrap.js:1231
+msgctxt "Short name of month"
+msgid "Aug"
+msgstr "Aug"
+
+#: weblate/static/loader-bootstrap.js:1232
+msgctxt "Short name of month"
+msgid "Sep"
+msgstr "Sep"
+
+#: weblate/static/loader-bootstrap.js:1233
+msgctxt "Short name of month"
+msgid "Oct"
+msgstr "Okt"
+
+#: weblate/static/loader-bootstrap.js:1234
+msgctxt "Short name of month"
+msgid "Nov"
+msgstr "Nov"
+
+#: weblate/static/loader-bootstrap.js:1235
+msgctxt "Short name of month"
+msgid "Dec"
+msgstr "Dec"
+
+#: weblate/static/loader-bootstrap.js:1237
+msgid "Today"
+msgstr "I dag"
+
+#: weblate/static/loader-bootstrap.js:1238
+msgid "Clear"
+msgstr "Rensa"
+
+#: weblate/static/loader-bootstrap.js:1263
+#, javascript-format
+msgid "Ctrl+I then %s"
+msgstr "Ctrl+I sedan %s"
+
+#: weblate/static/loader-bootstrap.js:1477
+msgid "Copied"
+msgstr "Kopierat"
+
+#: weblate/static/loader-bootstrap.js:1500
+msgid "Search…"
+msgstr "Sök…"
+
+#: weblate/static/loader-bootstrap.js:1501
+msgid "Available:"
+msgstr "Tillgängliga:"
+
+#: weblate/static/loader-bootstrap.js:1502
+msgid "Chosen:"
+msgstr "Valt:"
+
+#~ msgid "Selected:"
+#~ msgstr "Markerade:"
+
+#~ msgid "Alt+%s"
+#~ msgstr "Alt+%s"
+
+#, fuzzy
+#~| msgctxt "Short name of month"
+#~| msgid "Nov"
+#~ msgid "Now"
+#~ msgstr "Nov"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Strings with any failing checks"
+#~ msgstr "Strängar med kontroller som misslyckats"
+
+#~ msgid "Fuzzy strings"
+#~ msgstr "Luddiga strängar"
+
+#~ msgid "Translated strings"
+#~ msgstr "Översatta strängar"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "AJAX request to load this content has failed!"
+#~ msgstr "AJAX-begäran att läsa in detta innehåll misslyckades!"
+
+#~ msgid "Loading…"
+#~ msgstr "Läser in…"
+
+#~ msgid "Confirm resetting repository"
+#~ msgstr "Bekräfta återställning av förråd"
+
+#~ msgid "Resetting the repository will throw away all local changes!"
+#~ msgstr "Återställning av förrådet kommer kasta bort alla lokala ändringar!"
+
+#~ msgid "Failed translation"
+#~ msgstr "Misslyckad översättning"
+
+#~ msgid "Error details:"
+#~ msgstr "Detaljer om felet:"
+
+#~ msgid "Translate using Apertium"
+#~ msgstr "Översätt med Apertium"
+
+#~ msgid "Translate using Microsoft Translator"
+#~ msgstr "Översätt med Microsoft Translator"
+
+#~ msgid "Translate using MyMemory"
+#~ msgstr "Översätt med MyMemory"
+
+#, fuzzy
+#~ msgid "Loading..."
+#~ msgstr "Läser in…"

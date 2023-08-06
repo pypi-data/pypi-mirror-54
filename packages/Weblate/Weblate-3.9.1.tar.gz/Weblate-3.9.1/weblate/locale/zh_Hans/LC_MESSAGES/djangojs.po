@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Weblate 3.9.1\n"
+"Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
+"POT-Creation-Date: 2019-10-26 12:14+0000\n"
+"PO-Revision-Date: 2018-06-27 02:04+0000\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"weblate/javascript/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.1-dev\n"
+
+#: weblate/static/loader-bootstrap.js:188
+msgid "Add to screenshot"
+msgstr "添加至截图"
+
+#: weblate/static/loader-bootstrap.js:205
+msgid "Error loading search results!"
+msgstr "加载搜索结果出错！"
+
+#: weblate/static/loader-bootstrap.js:207
+msgid "No new matching source strings found."
+msgstr "未找到新的匹配的源字符串。"
+
+#: weblate/static/loader-bootstrap.js:322
+msgid "Copy"
+msgstr "复制"
+
+#: weblate/static/loader-bootstrap.js:329
+msgid "Copy and save"
+msgstr "复制并保存"
+
+#: weblate/static/loader-bootstrap.js:382
+#, javascript-format
+msgid "Ctrl+M then %s"
+msgstr "Ctrl+M 然后 %s"
+
+#: weblate/static/loader-bootstrap.js:401
+#, javascript-format
+msgid "The request for machine translation using %s has failed:"
+msgstr "请求使用 %s 机器翻译失败："
+
+#: weblate/static/loader-bootstrap.js:414
+msgid "The request for machine translation has failed:"
+msgstr "请求机器翻译失败："
+
+#: weblate/static/loader-bootstrap.js:480
+msgid "Sort this column"
+msgstr "按此列排序"
+
+#: weblate/static/loader-bootstrap.js:644
+msgid "Error while loading page:"
+msgstr "载入页面时出错："
+
+#: weblate/static/loader-bootstrap.js:998
+#, javascript-format
+msgid "Ctrl/Command+%s"
+msgstr "Ctrl/Command+%s"
+
+#: weblate/static/loader-bootstrap.js:1167
+msgid "There are some unsaved changes, are you sure you want to leave?"
+msgstr "某些修改尚未保存。您确定要离开吗？"
+
+#: weblate/static/loader-bootstrap.js:1193
+#: weblate/static/loader-bootstrap.js:1195
+msgid "Sunday"
+msgstr "星期日"
+
+#: weblate/static/loader-bootstrap.js:1193
+msgid "Monday"
+msgstr "星期一"
+
+#: weblate/static/loader-bootstrap.js:1193
+msgid "Tuesday"
+msgstr "星期二"
+
+#: weblate/static/loader-bootstrap.js:1194
+msgid "Wednesday"
+msgstr "星期三"
+
+#: weblate/static/loader-bootstrap.js:1194
+msgid "Thursday"
+msgstr "星期四"
+
+#: weblate/static/loader-bootstrap.js:1194
+msgid "Friday"
+msgstr "星期五"
+
+#: weblate/static/loader-bootstrap.js:1195
+msgid "Saturday"
+msgstr "星期六"
+
+#: weblate/static/loader-bootstrap.js:1198
+#: weblate/static/loader-bootstrap.js:1205
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Sun"
+msgstr "周日"
+
+#: weblate/static/loader-bootstrap.js:1199
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Mon"
+msgstr "周一"
+
+#: weblate/static/loader-bootstrap.js:1200
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Tue"
+msgstr "周二"
+
+#: weblate/static/loader-bootstrap.js:1201
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Wed"
+msgstr "周三"
+
+#: weblate/static/loader-bootstrap.js:1202
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Thu"
+msgstr "周四"
+
+#: weblate/static/loader-bootstrap.js:1203
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Fri"
+msgstr "周五"
+
+#: weblate/static/loader-bootstrap.js:1204
+msgctxt "Short (eg. three letter) name of day in week"
+msgid "Sat"
+msgstr "周六"
+
+#: weblate/static/loader-bootstrap.js:1208
+#: weblate/static/loader-bootstrap.js:1215
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Su"
+msgstr "日"
+
+#: weblate/static/loader-bootstrap.js:1209
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Mo"
+msgstr "一"
+
+#: weblate/static/loader-bootstrap.js:1210
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Tu"
+msgstr "二"
+
+#: weblate/static/loader-bootstrap.js:1211
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "We"
+msgstr "三"
+
+#: weblate/static/loader-bootstrap.js:1212
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Th"
+msgstr "四"
+
+#: weblate/static/loader-bootstrap.js:1213
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Fr"
+msgstr "五"
+
+#: weblate/static/loader-bootstrap.js:1214
+msgctxt "Minimal (eg. two letter) name of day in week"
+msgid "Sa"
+msgstr "六"
+
+#: weblate/static/loader-bootstrap.js:1218
+msgid "January"
+msgstr "一月"
+
+#: weblate/static/loader-bootstrap.js:1218
+msgid "February"
+msgstr "二月"
+
+#: weblate/static/loader-bootstrap.js:1218
+msgid "March"
+msgstr "三月"
+
+#: weblate/static/loader-bootstrap.js:1219
+msgid "April"
+msgstr "四月"
+
+#: weblate/static/loader-bootstrap.js:1219
+msgid "May"
+msgstr "五月"
+
+#: weblate/static/loader-bootstrap.js:1219
+msgid "June"
+msgstr "六月"
+
+#: weblate/static/loader-bootstrap.js:1219
+msgid "July"
+msgstr "七月"
+
+#: weblate/static/loader-bootstrap.js:1220
+msgid "August"
+msgstr "八月"
+
+#: weblate/static/loader-bootstrap.js:1220
+msgid "September"
+msgstr "九月"
+
+#: weblate/static/loader-bootstrap.js:1220
+msgid "October"
+msgstr "十月"
+
+#: weblate/static/loader-bootstrap.js:1221
+msgid "November"
+msgstr "十一月"
+
+#: weblate/static/loader-bootstrap.js:1221
+msgid "December"
+msgstr "十二月"
+
+#: weblate/static/loader-bootstrap.js:1224
+msgctxt "Short name of month"
+msgid "Jan"
+msgstr "一月"
+
+#: weblate/static/loader-bootstrap.js:1225
+msgctxt "Short name of month"
+msgid "Feb"
+msgstr "二月"
+
+#: weblate/static/loader-bootstrap.js:1226
+msgctxt "Short name of month"
+msgid "Mar"
+msgstr "三月"
+
+#: weblate/static/loader-bootstrap.js:1227
+msgctxt "Short name of month"
+msgid "Apr"
+msgstr "四月"
+
+#: weblate/static/loader-bootstrap.js:1228
+msgctxt "Short name of month"
+msgid "May"
+msgstr "五月"
+
+#: weblate/static/loader-bootstrap.js:1229
+msgctxt "Short name of month"
+msgid "Jun"
+msgstr "六月"
+
+#: weblate/static/loader-bootstrap.js:1230
+msgctxt "Short name of month"
+msgid "Jul"
+msgstr "七月"
+
+#: weblate/static/loader-bootstrap.js:1231
+msgctxt "Short name of month"
+msgid "Aug"
+msgstr "八月"
+
+#: weblate/static/loader-bootstrap.js:1232
+msgctxt "Short name of month"
+msgid "Sep"
+msgstr "九月"
+
+#: weblate/static/loader-bootstrap.js:1233
+msgctxt "Short name of month"
+msgid "Oct"
+msgstr "十月"
+
+#: weblate/static/loader-bootstrap.js:1234
+msgctxt "Short name of month"
+msgid "Nov"
+msgstr "十一月"
+
+#: weblate/static/loader-bootstrap.js:1235
+msgctxt "Short name of month"
+msgid "Dec"
+msgstr "十二月"
+
+#: weblate/static/loader-bootstrap.js:1237
+msgid "Today"
+msgstr "今天"
+
+#: weblate/static/loader-bootstrap.js:1238
+msgid "Clear"
+msgstr "清除"
+
+#: weblate/static/loader-bootstrap.js:1263
+#, javascript-format
+msgid "Ctrl+I then %s"
+msgstr "Ctrl+I 然后 %s"
+
+#: weblate/static/loader-bootstrap.js:1477
+msgid "Copied"
+msgstr "已复制"
+
+#: weblate/static/loader-bootstrap.js:1500
+msgid "Search…"
+msgstr "搜索…"
+
+#: weblate/static/loader-bootstrap.js:1501
+msgid "Available:"
+msgstr "可用："
+
+#: weblate/static/loader-bootstrap.js:1502
+msgid "Chosen:"
+msgstr "已选择："
+
+#~ msgid "Selected:"
+#~ msgstr "已选择："
+
+#~ msgid "Alt+%s"
+#~ msgstr "Alt+%s"
+
+#, fuzzy
+#~| msgid "Available:"
+#~ msgid "Available %s"
+#~ msgstr "可用："
+
+#, fuzzy
+#~| msgctxt "Short name of month"
+#~| msgid "Nov"
+#~ msgid "Now"
+#~ msgstr "十一月"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Strings with any failing checks"
+#~ msgstr "未通过检查的条目"
+
+#~ msgid "Fuzzy strings"
+#~ msgstr "模糊条目"
+
+#~ msgid "Translated strings"
+#~ msgstr "已翻译条目"
+
+#~ msgid "Ok"
+#~ msgstr "确定"
+
+#~ msgid "AJAX request to load this content has failed!"
+#~ msgstr "通过 AJAX 加载内容失败！"
+
+#~ msgid "Loading…"
+#~ msgstr "正在加载…"
+
+#~ msgid "Confirm resetting repository"
+#~ msgstr "确认代码库重设"
+
+#~ msgid "Resetting the repository will throw away all local changes!"
+#~ msgstr "重设代码库将丢失所有本地修改！"
+
+#~ msgid "Failed translation"
+#~ msgstr "翻译失败"
+
+#~ msgid "Error details:"
+#~ msgstr "错误详情："
+
+#~ msgid "Translate using Apertium"
+#~ msgstr "使用 Apertium 翻译"
+
+#~ msgid "Translate using Microsoft Translator"
+#~ msgstr "使用 Microsoft Translator 翻译"
+
+#~ msgid "Translate using MyMemory"
+#~ msgstr "使用 MyMemory 翻译"
+
+#, fuzzy
+#~ msgid "Loading..."
+#~ msgstr "正在加载…"
