@@ -1,0 +1,10 @@
+fsva/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsva/main.py,sha256=-9iGsPjCIQpzHhwCvOgNtj3EkA6_37CVPdCOMlOpIuo,6314
+fsva/verification_target.py,sha256=hItDwmMkQRMg-mXPdUhXaGZOpuGtg63IJ-fjIAsP3bg,4165
+fsva/version.py,sha256=LvMfjIjUdldMlc_6osYO8yDA0-qQNQqgscUkb6x59qU,16
+fsva-0.0.2.dist-info/LICENSE,sha256=HBYmMZ3StnQOEDFome8Q5osO2xbhCJ1GnMn8caUSU5w,1075
+fsva-0.0.2.dist-info/METADATA,sha256=iPB-xdOYE9jdLVWpGGZ7KtRj58W6Z57JNDAZ9t9E6ec,4392
+fsva-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+fsva-0.0.2.dist-info/entry_points.txt,sha256=djXEwOPKTE652pFaDU6MU7DJDshJ-_Jz2IL9baTWOJc,41
+fsva-0.0.2.dist-info/top_level.txt,sha256=ToJfGuiPDD063YIvuOm5YeRyu42FbHjvSs93BTKupxQ,5
+fsva-0.0.2.dist-info/RECORD,,
