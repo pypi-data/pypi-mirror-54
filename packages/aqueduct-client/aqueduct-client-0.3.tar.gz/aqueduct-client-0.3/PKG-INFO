@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: aqueduct-client
+Version: 0.3
+Summary: Python wrapper for Quantopian's Aqueduct API
+Home-page: https://github.com/quantopian/aqueduct-client
+Author: Quantopian
+Author-email: support@quantopian.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Office/Business :: Financial

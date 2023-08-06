@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+aqueduct_client/__init__.py
+aqueduct_client/_version.py
+aqueduct_client/aqueduct_client.py
+aqueduct_client/errors.py
+aqueduct_client/utils.py
+aqueduct_client.egg-info/PKG-INFO
+aqueduct_client.egg-info/SOURCES.txt
+aqueduct_client.egg-info/dependency_links.txt
+aqueduct_client.egg-info/requires.txt
+aqueduct_client.egg-info/top_level.txt
