@@ -1,0 +1,9 @@
+aiida_graphql/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+aiida_graphql/api/computer.py,sha256=nXupN1rNMIr5pEdXkDlrz0xpgCYXBxKCzfwVywXfvuY,946
+aiida_graphql/api/node.py,sha256=oFs1PTkpqg_dxgnEvJG6CBpdfHBjdOSNO9ctwUnePu4,2709
+aiida_graphql/api/user.py,sha256=MHQCtHY-uBD17aIHwtkHjovvw2C-lXZ-Z4IEYHCifLE,490
+aiida_graphql/schema.py,sha256=ORfCGa6D6NwALzedCmmJlrbrzxJdlMII0SbO5MfnzJU,5141
+aiida_graphql-0.0.2.dist-info/LICENSE,sha256=z010R3BBaf8CCQzhdO1v_yyMhEV1o4A7uMi7eHj0c8k,1072
+aiida_graphql-0.0.2.dist-info/WHEEL,sha256=2cuNvJXfe2HLnOJxNBVnVfpJIOzFSTsZ7ZQ2qj1jFGs,85
+aiida_graphql-0.0.2.dist-info/METADATA,sha256=e6cO2Ag26ACZVz3B0OOxM4tY8-8xygfMnRDfaMFkuBQ,3321
+aiida_graphql-0.0.2.dist-info/RECORD,,
