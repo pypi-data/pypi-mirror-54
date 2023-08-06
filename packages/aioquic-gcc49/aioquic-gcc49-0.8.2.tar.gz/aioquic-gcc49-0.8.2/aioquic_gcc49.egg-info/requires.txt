@@ -1,0 +1,5 @@
+cryptography>=2.5
+pylsqpack-gcc49>=0.3.0
+
+[:python_version < "3.7"]
+dataclasses
