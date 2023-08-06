@@ -1,0 +1,9 @@
+urdfpy/__init__.py,sha256=Cv7dkY6OS9BAkVrRWATFOsyyeQl2OBu8l703bTAn12U,919
+urdfpy/urdf.py,sha256=8wYBRzF5nyXwLV96Hjfq-DW4K-2T2zTlxGl2aCVpZyc,126306
+urdfpy/utils.py,sha256=I6cMTcbJFe1tXKQAnrCVKgA1OdlL3sKMeK8M7vtXhEY,8010
+urdfpy/version.py,sha256=Te1DfrvgEn6zd58FwD1NO8Ms7gZvtmQkfEmQw_u7h7k,23
+urdfpy-0.0.18.dist-info/LICENSE,sha256=U6_PokTiaLBZpO40yd9YAqGRBZ77_eV3RDXOjgzbwMc,1069
+urdfpy-0.0.18.dist-info/METADATA,sha256=UzfF4a4t9GYP9Q007AZqhDS2iZW8Sc2tThCJ06IG_0U,1294
+urdfpy-0.0.18.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+urdfpy-0.0.18.dist-info/top_level.txt,sha256=GXzVGfB9drTrzWBtLWBR35VKkXyO-gCOnufO7TMtBtw,7
+urdfpy-0.0.18.dist-info/RECORD,,
