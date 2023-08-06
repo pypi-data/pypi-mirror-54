@@ -1,0 +1,3 @@
+[console_scripts]
+teamtrees = teamtrees.cli:teamtrees_
+
