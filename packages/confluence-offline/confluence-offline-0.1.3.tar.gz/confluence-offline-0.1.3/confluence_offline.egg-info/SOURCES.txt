@@ -1,0 +1,12 @@
+COPYING
+README.md
+setup.cfg
+setup.py
+coff/__init__.py
+coff/cli.py
+confluence_offline.egg-info/PKG-INFO
+confluence_offline.egg-info/SOURCES.txt
+confluence_offline.egg-info/dependency_links.txt
+confluence_offline.egg-info/entry_points.txt
+confluence_offline.egg-info/requires.txt
+confluence_offline.egg-info/top_level.txt
