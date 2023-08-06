@@ -1,0 +1,12 @@
+README.md
+setup.py
+parkrun_to_sqlite/__init__.py
+parkrun_to_sqlite/__main__.py
+parkrun_to_sqlite/events.json
+parkrun_to_sqlite.egg-info/PKG-INFO
+parkrun_to_sqlite.egg-info/SOURCES.txt
+parkrun_to_sqlite.egg-info/dependency_links.txt
+parkrun_to_sqlite.egg-info/entry_points.txt
+parkrun_to_sqlite.egg-info/top_level.txt
+tests/__init__.py
+tests/test_get_parkruns.py
