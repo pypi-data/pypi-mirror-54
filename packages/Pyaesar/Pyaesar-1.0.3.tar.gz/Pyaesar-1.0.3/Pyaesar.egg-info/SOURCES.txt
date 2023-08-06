@@ -1,0 +1,12 @@
+README.md
+setup.py
+Pyaesar/Emperor.py
+Pyaesar/Legionnaire.py
+Pyaesar/Legions.py
+Pyaesar/__init__.py
+Pyaesar/utils.py
+Pyaesar.egg-info/PKG-INFO
+Pyaesar.egg-info/SOURCES.txt
+Pyaesar.egg-info/dependency_links.txt
+Pyaesar.egg-info/requires.txt
+Pyaesar.egg-info/top_level.txt
