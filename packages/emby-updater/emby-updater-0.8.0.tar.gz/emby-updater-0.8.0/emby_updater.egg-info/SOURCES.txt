@@ -1,0 +1,11 @@
+README.md
+setup.py
+emby_updater.egg-info/PKG-INFO
+emby_updater.egg-info/SOURCES.txt
+emby_updater.egg-info/dependency_links.txt
+emby_updater.egg-info/entry_points.txt
+emby_updater.egg-info/requires.txt
+emby_updater.egg-info/top_level.txt
+embyupdater/__init__.py
+embyupdater/__main__.py
+embyupdater/version.py
