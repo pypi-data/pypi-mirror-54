@@ -1,0 +1,6 @@
+dataclass_serializer/__init__.py,sha256=2FkGO93AyhNikail8x1ePp7J0-b63RF6yG4EB_1aZJ8,118
+dataclass_serializer/dataclass_serializer.py,sha256=DS0oKkNRwTwpvxyRlbVGsXS3-JCAYLpvbUWv88zeRzE,5895
+dataclass_serializer-1.0.0.dist-info/METADATA,sha256=YptajlAmZ_W3_S4YR7LCsb9b7stkBVZjB48iB34mLmg,277
+dataclass_serializer-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dataclass_serializer-1.0.0.dist-info/top_level.txt,sha256=nNKT1lQ-8NjoeJspYk6v_LcaHJubAkzrCpWAbMVHBng,21
+dataclass_serializer-1.0.0.dist-info/RECORD,,
