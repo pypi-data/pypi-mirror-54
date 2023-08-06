@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+bump2version = "*"
+black = "==19.3b0"
+flit = "*"
+pytest = "*"
+tox = "*"
+pylint = "*"
+python-dotenv = "*"
+pytest-cov = "*"
+codecov = "*"
+testfixtures = "*"
+ipykernel = "*"
+mypy = "*"
+pandas = "*"
+portray = "*"
+
+[packages]
+loguru = "*"
+scikit-learn = "*"
+numpy = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.7.2"
