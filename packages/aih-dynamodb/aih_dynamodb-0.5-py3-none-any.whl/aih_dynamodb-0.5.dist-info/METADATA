@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aih-dynamodb
+Version: 0.5
+Summary: Aih Dynamodb
+Home-page: https://github.com/quyencao/aih-dynamodb
+Author: aih
+Author-email: quyen.cm@example.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: boto3
+Requires-Dist: dynamodb-json
+
+UNKNOWN
+
+
