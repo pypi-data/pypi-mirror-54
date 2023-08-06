@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: protobuf-robotframework-requests
+Version: 0.1.2
+Summary: This library is a frok from https://pypi.org/project/robotframework-requests/. Robot Framework keyword library wrapper around requests, support protobuf
+Home-page: https://github.com/mmikirtumov/protobuf-robotframework-requests
+Author: Bulkan Savun Evcimen, Mikayel Mikirtumov
+Author-email: bulkan@gmail.com, mmikirtumov@gmail.com
+License: MIT
+Description: Robot Framework keyword library wrapper around the HTTP client library requests, support protobuf.
+Keywords: robotframework testing test automation http client requests,support protobuf
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
