@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+audit_log/__init__.py
+audit_log/formatter.py
+audit_log/logger.py
+datapunt_audit_log.egg-info/PKG-INFO
+datapunt_audit_log.egg-info/SOURCES.txt
+datapunt_audit_log.egg-info/dependency_links.txt
+datapunt_audit_log.egg-info/requires.txt
+datapunt_audit_log.egg-info/top_level.txt
