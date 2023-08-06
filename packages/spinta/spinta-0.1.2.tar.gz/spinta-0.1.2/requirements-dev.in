@@ -1,0 +1,14 @@
+codecov
+ipdb
+ipython
+pp-ez
+pprintpp
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+responses
+snoop
+sqlalchemy-utils
+sqlparse
+toposort
