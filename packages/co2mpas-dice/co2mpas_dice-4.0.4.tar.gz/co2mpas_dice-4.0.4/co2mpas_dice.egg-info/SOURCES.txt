@@ -1,0 +1,16 @@
+README.rst
+setup.py
+co2mpas_dice/__init__.py
+co2mpas_dice/_version.py
+co2mpas_dice/crypto.py
+co2mpas_dice/declaration.py
+co2mpas_dice/err.py
+co2mpas_dice/schema.py
+co2mpas_dice/tar.py
+co2mpas_dice/verify.py
+co2mpas_dice.egg-info/PKG-INFO
+co2mpas_dice.egg-info/SOURCES.txt
+co2mpas_dice.egg-info/dependency_links.txt
+co2mpas_dice.egg-info/entry_points.txt
+co2mpas_dice.egg-info/requires.txt
+co2mpas_dice.egg-info/top_level.txt
