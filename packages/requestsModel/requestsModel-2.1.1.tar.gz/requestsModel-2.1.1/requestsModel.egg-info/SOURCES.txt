@@ -1,0 +1,8 @@
+setup.py
+requestsModel.egg-info/PKG-INFO
+requestsModel.egg-info/SOURCES.txt
+requestsModel.egg-info/dependency_links.txt
+requestsModel.egg-info/requires.txt
+requestsModel.egg-info/top_level.txt
+requests_model/__init__.py
+requests_model/myRequests.py
