@@ -1,0 +1,7 @@
+aio-pika
+aiohttp
+bs4
+Click>=7.0
+environs
+wcraas-common
+yarl
