@@ -1,0 +1,14 @@
+[console_scripts]
+murakami=murakami.__main__:main
+
+[murakami.exporters]
+gcs=murakami.exporters.gcs:GCSExporter
+local=murakami.exporters.local:LocalExporter
+scp=murakami.exporters.scp:SCPExporter
+
+[murakami.runners]
+dash=murakami.runners.dash:DashClient
+ndt5=murakami.runners.libndt5:LibndtClient
+ndt7=murakami.runners.libndt7:LibndtClient
+speedtest=murakami.runners.speedtest:SpeedtestClient
+
