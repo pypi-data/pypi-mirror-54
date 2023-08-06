@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+lol.txt
+setup.py
+hello_super_try.egg-info/PKG-INFO
+hello_super_try.egg-info/SOURCES.txt
+hello_super_try.egg-info/dependency_links.txt
+hello_super_try.egg-info/top_level.txt
