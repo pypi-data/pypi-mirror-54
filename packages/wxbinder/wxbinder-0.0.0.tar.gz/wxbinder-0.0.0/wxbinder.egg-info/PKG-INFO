@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: wxbinder
+Version: 0.0.0
+Summary: A simple module for binding wxpython events
+Home-page: https://github.com/chrisnorman7/
+Author: Chris Norman
+Author-email: chris.norman2@googlemail.com
+License: MPL-2
+Description: # wxbinder
+        A very simple module containing decorator binders for wxpython
+        
+        
+Platform: UNKNOWN

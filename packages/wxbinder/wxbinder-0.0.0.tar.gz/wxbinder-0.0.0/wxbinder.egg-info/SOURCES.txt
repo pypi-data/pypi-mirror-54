@@ -1,0 +1,13 @@
+AUTHORS
+ChangeLog
+LICENSE
+README.md
+setup.cfg
+setup.py
+wxbinder/__init__.py
+wxbinder.egg-info/PKG-INFO
+wxbinder.egg-info/SOURCES.txt
+wxbinder.egg-info/dependency_links.txt
+wxbinder.egg-info/not-zip-safe
+wxbinder.egg-info/pbr.json
+wxbinder.egg-info/top_level.txt
