@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+head_controller/Camera.py
+head_controller/Features.py
+head_controller/Model.py
+head_controller/__init__.py
+head_controller/capture_features.py
+head_controller/db.py
+head_controller/init_db.py
+head_controller/predict_gesture.py
+head_controller/tests.py
+head_controller.egg-info/PKG-INFO
+head_controller.egg-info/SOURCES.txt
+head_controller.egg-info/dependency_links.txt
+head_controller.egg-info/requires.txt
+head_controller.egg-info/top_level.txt
