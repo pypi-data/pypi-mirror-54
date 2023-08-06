@@ -1,0 +1,3 @@
+[console_scripts]
+mako_render=mako_render:main
+
