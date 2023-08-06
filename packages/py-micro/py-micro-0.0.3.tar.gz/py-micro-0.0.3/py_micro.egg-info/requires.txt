@@ -1,0 +1,3 @@
+grpcio
+python-consul
+grpcio-tools

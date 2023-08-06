@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: py-micro
+Version: 0.0.3
+Summary: 基于grpc的Python微服务
+Home-page: https://github.com/jiangxuewen16/py-micro
+Author: jiangxuewen
+Author-email: 445251692@qq.com
+License: MIT
+Description: ###py-micro
+Keywords: py-micro micro
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
