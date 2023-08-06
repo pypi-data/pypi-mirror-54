@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+./nd_project/__init__.py
+nd_project.egg-info/PKG-INFO
+nd_project.egg-info/SOURCES.txt
+nd_project.egg-info/dependency_links.txt
+nd_project.egg-info/top_level.txt
