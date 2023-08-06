@@ -1,0 +1,4 @@
+pyodbc>=3.0
+
+[tests]
+dj-database-url==0.5.0
