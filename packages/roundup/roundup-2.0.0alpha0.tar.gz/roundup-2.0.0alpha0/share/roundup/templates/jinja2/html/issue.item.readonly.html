@@ -1,0 +1,16 @@
+<dl class='dl-horizontal'>
+  <dt>{{ i18n.gettext('Title')|u }}</dt>
+  <dd>{{ context.title.plain()|u|e }}</dd>
+  <dt>{{ i18n.gettext('Priority')|u }}</dt>
+  <dd>{{ context.priority.plain()|u|e }}</dd>
+  <dt>{{ i18n.gettext('Status')|u }}</dt>
+  <dd>{{ context.status.plain()|u|e }}</dd>
+  <dt>{{ i18n.gettext('Superseder')|u }}</dt>
+  <dd>{{ context.superseder.plain()|u|e }}</dd>
+  <dt>{{ i18n.gettext('Nosy list')|u }}</dt>
+  <dd>{{ context.nosy.plain()|u|e }}</dd>
+  <dt>{{ i18n.gettext('Assigned to')|u }}</dt>
+  <dd>{{ context.assignedto.plain()|u|e }}</dd>
+  <dt>{{ i18n.gettext('Keywords')|u }}</dt>
+  <dd>{{ context.keyword.plain()|u|e }}</dd>
+</dl>

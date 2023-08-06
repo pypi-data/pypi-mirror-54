@@ -1,0 +1,349 @@
+Metadata-Version: 1.1
+Name: roundup
+Version: 2.0.0alpha0
+Summary: A simple-to-use and -install issue-tracking system with command-line, web and e-mail interfaces. Highly customisable.
+Home-page: http://www.roundup-tracker.org
+Author: Ralf Schlatterbeck
+Author-email: rsc@runtux.com
+License: UNKNOWN
+Download-URL: https://pypi.org/project/roundup
+Description: I'm proud to release version 2.0.0alpha0 of the Roundup issue tracker
+        which has been possible due to the help of several contributors. This
+        release contains some major changes, so make sure to read
+        `docs/upgrading.txt
+        <http://www.roundup-tracker.org/dev-docs/upgrading.html>`_ to bring
+        your tracker up to date. The changes, as usual, include some new
+        features and many bug fixes.
+        
+        You can download it with:
+        
+           pip download roundup==2.0.0alpha0
+        
+        then unpack and test/install the tarball.
+        
+        Among the notable improvements are:
+        
+           Roundup is multilingual and will run under either Python 3 or
+           Python 2. If you want to use Python 3, you *must read* the Python 3
+           Support section in the upgrading doc. Depending on the database
+           backend you may have to export/import the tracker. Also you will
+           need to make sure your tracker's Python code is Python 3
+           compliant. Thanks to Joseph Myers with help from Christof Meerwald.
+        
+           Roundup has a rest API to go along with the existing xmlrpc
+           API. See doc/rest.txt for details on configuring, authorizing
+           access (per role) and making a request. Thanks to Ralf
+           Schlatterbeck who integrated and updated Chau Nguyen's GSOC code.
+           
+           PGP encryption is now done using the gpg module and not the
+           obsolete pyme library. Thanks to Christof Meerwald.
+        
+           Use of mod_python is deprecated. Apache mod_wsgi documentation
+           has been updated along with gunicorn and uwsgi and is the
+           preferred mechanism.
+        	
+        The file CHANGES.txt has a detailed list of feature additions and bug
+        fixes. The most recent changes from there are at the end of this
+        announcement.  Also see the information in doc/upgrading.txt.
+        
+        How You Can Help
+        ================
+        
+        We are looking for one or two front end developers to kick the tires
+        on the rest interface. The rest interface is available by running
+        demo.py as described below. If you are interested in helping please
+        contact "rouilj+rit at ieee.org".
+        
+        The Zope deployment mode has not had any testing under Python 3. We
+        are looking for community involvement to help get this deployment
+        mode validated. It may also have issues under Python 2. If you are
+        interested in helping with this please see:
+        https://issues.roundup-tracker.org/issue2141835
+        
+        Email input using POP and IMAP modes need testing under Python 3
+        and Python 2.
+        
+        We have new documentation for deploying with apache and mod_wsgi. It
+        needs testing and enhancement.
+        
+        There are other documentation issues at:
+        
+            https://issues.roundup-tracker.org/issue?@columns=title,id,activity,status&components=7&status=-1,1,2&@template=index&@action=search
+        
+        If you find bugs, please report them to issues AT roundup-tracker.org
+        or create an account at https://issues.roundup-tracker.org and open a
+        new ticket. If you have patches to fix the issues they can be attached
+        to the email or uploaded to the tracker.
+        
+        Upgrading
+        =========
+        
+        If you're upgrading from an older version of Roundup you *must* follow
+        all the "Software Upgrade" guidelines given in the doc/upgrading.txt
+        documentation.
+        
+        Roundup requires Python 2 newer than version 2.7.2 or Python 3 newer
+        than or equal to version 3.4 for correct operation.
+        
+        The wsgi, server and cgi web deployment modes are the ones with the
+        most testing.
+        
+        To give Roundup a try, just download (see below), unpack and run::
+        
+            python demo.py
+        
+        Release info and download page:
+             https://pypi.org/project/roundup
+        Source and documentation is available at the website:
+             http://roundup-tracker.org/
+        Mailing lists - the place to ask questions:
+             https://sourceforge.net/p/roundup/mailman/
+        
+        
+        About Roundup
+        =============
+        
+        Roundup is a simple-to-use and install issue-tracking system with
+        command-line, web and e-mail interfaces. It is based on the winning design
+        from Ka-Ping Yee in the Software Carpentry "Track" design competition.
+        
+        Note: Ping is not responsible for this project. The contact for this
+        project is richard@users.sourceforge.net.
+        
+        Roundup manages a number of issues (with flexible properties such as
+        "description", "priority", and so on) and provides the ability to:
+        
+        (a) submit new issues,
+        (b) find and edit existing issues, and
+        (c) discuss issues with other participants.
+        
+        The system facilitates communication among the participants by managing
+        discussions and notifying interested parties when issues are edited. One of
+        the major design goals for Roundup that it be simple to get going. Roundup
+        is therefore usable "out of the box" with any Python 2.7.2+ (or 3.4+)
+        installation. It doesn't even need to be "installed" to be operational,
+        though an install script is provided.
+        
+        It comes with five issue tracker templates
+        
+        * a classic bug/feature tracker
+        * a more extensive devel tracker for bug/features etc.
+        * a responsive version of the devel tracker
+        * a jinja2 version of the devel template (work in progress)
+        * a minimal skeleton
+        
+        and supports four database back-ends (anydbm, sqlite, mysql and postgresql).
+        
+        Recent Changes
+        ==============
+        
+        Features:
+        
+        - issue2550901: add search page to jinja2 template (Christof Meerwald)
+        - issue2550982: use PBKDF2 in Python's hashlib, if available (Python
+          2.7.8+), to improve performance over bundled pure Python
+          version. Note that acceleration via m2crypto is no longer supported
+          (Christof Meerwald)
+        - issue2550989: PGP encryption is now done using the gpg module
+          instead of pyme. (Christof Meerwald)
+        - issue2550987: Use updated MySQL client module that supports Python
+          3. (Christof Meerwald)
+        - issue2550967: the jinja2 loader has been extended to look for .xml
+          files as well as .html files similar to the TAL loader. (Christof
+          Meerwald)
+        - Support for Python 3 (3.4 and later).  See doc/upgrading.txt for
+          details of what is required to move an existing tracker from Python
+          2 to Python 3 (Joseph Myers, Christof Meerwald)
+        - Merge the Google Summer of Code Project of 2015, the implementation of
+          a REST-API for Roundup. This was implemented by Chau Nguyen under the
+          supervision of Ezio Melotti. Some additions were made, most notably we
+          never destroy an object in the database but retire them with the
+          DELETE method. We also don't allow to DELETE a whole class. Python3
+          support was also fixed and we have cherry-picked two patches from the
+          bugs.python.org branch in the files affected by the REST-API changes.
+        - Patch to client.py and roundup-server needed by REST-API
+          code. Support OPTIONS verb and prevent hangs when processing a verb
+          other than GET that doesn't have a payload. E.G. DELETE, PATCH or
+          OPTIONS. Verbs like PUT and POST usually have payloads, so this
+          patch doesn't touch processing of these methods. (John Rouillard)
+        - Patches to new rest code:
+           - Generated links in responses should use the base url specified
+             in config.ini.
+           - allow user (e.g. in browser) to override response type/Accept
+             header using extension in url. E.G. .../issues.json. This fixes
+             the existing code so it works.
+           - fix SECURITY issue. Retrieving the item of a class
+             (e.g. /rest/data/user/2) would display properties the user wasn't
+             allowed to access. Note that unlike the web interface,  passwords
+             and roles for users are still retreivable if the user has access
+             rights to the properties.
+           - ETags are sent by GET operations and required for DELETE, PUT and
+             PATCH operations. ETag can be supplied by HTTP header or in the
+             payload by adding the field @etag to the form with the value of
+             the etag.
+           - If dict2xml.py is installed, the rest interface can produce an XML
+             format response if the accept header is set to text/xml.
+             (See: https://pypi.org/project/dict2xml/)
+           - When retrieving collection move list of collection elements to
+             collection property. Add @links property with self, next and prev
+             links (where needed). Add @total_size with size of entire
+             collection (unpaginated). Pagination index starts at 1 not 0.
+           - accept content-type application/json payload for PUT, PATCH, POST
+             requests in addition to application/x-www-form-urlencoded.
+             (John Rouillard)
+        - issue2550833: the export_csv web action now returns labels/names
+          rather than id's. Replace calls to export_csv with the export_csv_id
+          action to return the same data as the old export_csv action. (Tom
+          Ekberg (tekberg), Andreas (anrounham14) edited/applied and tests
+          created by John Rouillard)
+        - issue2551018: Add new note_filter parameter to nosymessage. The
+          function supplied by this parameter can rewrite the body of the
+          nosymessage before it gets sent. See issue:
+          https://issues.roundup-tracker.org/issue2551018 for example
+          nosyreaction and generated email. (Tom Ekberg (tekberg))
+        - issue2550949: Rate limit password guesses/login attempts.  Rate
+          limit mechanism added for web page logins. Default is 3 login
+          attempts/minute for a user. After which one login attempt every 20
+          seconds can be done. (John Rouillard)
+        - issue2551043: Add X-Roundup-issue-id email header. Add a new header
+          to make it easier to filter notification emails without having to
+          parse the subject line. (John Rouillard)
+        - The database filter method now can also do an exact string search.
+        - The database filter method now has limit and offset parameters that
+          map to the corresponding parameters of SQL.
+        - issue2551061: Add rudimentary experimental support for JSON Web
+          Tokens (jwt) to allow delegation of limited access rights to third
+          parties. See doc/rest.txt for details and intent. (John Rouillard)
+        - issue2551058: Add new permissions: 'Rest Access' and 'Xmlrpc Access'
+          to allow per-user access control to rest and xmlrpc interfaces using
+          roles. (John Rouillard)
+        - issue2551059: added new values for tx_Source to indicate when /rest
+          or /xmlrpc endpoint is being used rather than the normal web
+          endpoints. (John Rouillard)
+        - issue2551062: roundup-admin security now validates all properties in
+          permissions. It reports invalid properties. (John Rouillard)
+        - issue2551065: Reorder html entities generated by submit button so that
+          styles can be applied. Thanks to Garth Jensen for the patch against
+          release 1.6 that was ported to upcoming 2.0 release (Ralf
+          Schlatterbeck).
+        
+        Fixed:
+        
+        - issue2550811: work around Unicode encoding issues in jinja2 template
+          by explicitly converting data to Unicode; also fixed pagination and
+          selecting columns to display in the issues list (Christof Meerwald)
+        - issue2550988: fixed fallback to pseudo random number generator in
+          case SystemRandom isn't available, prefer use of secrets module if
+          available (Python 3.6+) (Christof Meerwald)
+        - issue2550993: fixed edit CSV action to update restored items to the
+          new value instead of restoring with the previous value (Christof
+          Meerwald)
+        - issue2550994: avoid breakage caused by use of backports of Python 3
+          configparser module to Python 2. (Joseph Myers)
+        - Make non-existent items in history not cause a traceback (Ralf
+          Schlatterbeck)
+        - issue2550722: avoid errors from selecting "no selection" on
+          multilink. (Joseph Myers)
+        - issue2550992: avoid errors from invalid Authorization
+          headers. (Joseph Myers)
+        - issue2551022: support non-ASCII prefixes in instance config for
+          finding static files. (Cedric Krier)
+        - issue2551023: Fix CSRF headers for use with wsgi and cgi. The
+          env variable array used - separators rather than _. Compare:
+          HTTP_X-REQUESTED-WITH to HTTP_X_REQUESTED_WITH. The last is
+          correct. Also fix roundup-server to produce the latter form. (Patch
+          by Cedric Krier, reviewed/applied John Rouillard.)
+        - issue2551035 - fix XSS issue in wsgi and cgi when handing url not
+          found/404. Reported by hannob at
+          https://github.com/python/bugs.python.org/issues/34, issue opened by
+          JulienPalard.
+        - issue2551026: template variable not defined even though it is.
+          Fix issue where variables defined in TAL expression are not
+          available in the scope of the definition. (Tom Ekberg (tekberg))
+        - Make all links created with rel=nofollow include noopener. Deals
+          with possible hijack of original page due to malicious link target.
+          https://mathiasbynens.github.io/rel-noopener/ (John Rouillard)
+        - Fix bug where some protected properties were not identified as such
+          when using the anydbm backend (John Rouillard)
+        - issue2551041 - change permission check from "Create User" to "Register
+          User" in page.html for the responsive and devel templates. (reporter
+          Cedric Krier, John Rouillard)
+        - issue2550144 - fix use of undefined icing macro in devel
+          template. Replace with frame macro. (Cedric Krier)
+        - handle UnicodeDecodeError in file class when file contents are
+          not text (e.g. jpg). (John Rouillard)
+        - issue2551033: prevent reverse engineering hidden data by using etags
+          as an oracle to identify when the right data has been
+          guessed. (Joseph Myers, John Rouillard)
+        - issue2551029: Jinja2 template install error. Update configuration
+          code to make sure valid backend database is set. Remove config.ini
+          from templates to make sure that roundup-admin install writes a new
+          default config.ini based on configuration.py.
+        - issue2551040: New release of psycopg2 drops support for psycopg1 -
+          need to rewrite. Now uses psycopg2 throughout. (John Rouillard)
+        - issue2551009: Flint not supported error during reindex. Upgrading
+          doc updates to discuss this when reindexing. (Reported by Gabi,
+          Change by John Rouillard)
+        - issue2551030: Roundup fails to start if pytz to access Olson
+          timezone database not installed. (John Rouillard)
+        - issue2551029: Jinja2 template install error. Handle issue with
+          template's config.ini not getting updated. Provide an alternate
+          file: config_ini.ini for required config settings that are merged
+          into the default values producing an up to date config.ini on
+          install.
+        - issue2551008: fix incorrect encoding handling in mailgw.py
+          (Ezio Melotti, John Rouillard)
+        - issue2551053: the routing dictionary in rest.py used compiled regular
+          expressions as dictionary keys. This worked most of the time because
+          the regex lib uses a cache but resulted in duplicate keys in the
+          dictionary in some cases where a single key should have been used.
+          Thanks to Robert Klonner for discovering the problem, debugging the
+          root cause and providing a first proposed fix.
+        - Make searching with a multiselect work for Link/Multilink properties
+          that may contain numeric *key* values. For these a menu would render
+          options with IDs and later look up the IDs as *key* of the
+          Link/Multilink. Now numeric IDs take precedence -- like they already
+          do in the menu method of Link and Multilink.
+        - issue2551013: Reversed sorting in hyperdb property wrapper object's
+          sorted() method. Patch by David Sowder, application and doc change
+          by John Rouillard.
+        - issue2550821 - patches for depricated mod_python apache.py interface
+          (John Rouillard)
+        - issue2551005 - deprecation of mod_python (John Rouillard)
+        - issue2551066: IMAP mail handling wasn't working and produced a
+          traceback.
+        - issue2550925 if deployed as CGI and client sends an http PROXY
+          header, the tainted HTTP_PROXY environment variable is created. It
+          can affect calls using requests package or curl. A roundup admin
+          would have to write detectors/extensions that use these mechanisms.
+          Not exploitable in default config. (John Rouillard)
+        - Add config option to keep/delete previous logging config. Needed to
+          make gunicorn --access-logfile work as it uses python logfile module
+          too.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Software Development :: Bug Tracking
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
