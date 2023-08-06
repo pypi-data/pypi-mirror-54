@@ -1,0 +1,12 @@
+README.md
+setup.py
+rukip/__init__.py
+rukip.egg-info/PKG-INFO
+rukip.egg-info/SOURCES.txt
+rukip.egg-info/dependency_links.txt
+rukip.egg-info/requires.txt
+rukip.egg-info/top_level.txt
+rukip/featurizer/__init__.py
+rukip/featurizer/ckip_featurizer.py
+rukip/tokenizer/__init__.py
+rukip/tokenizer/ckip_tokenizer.py
