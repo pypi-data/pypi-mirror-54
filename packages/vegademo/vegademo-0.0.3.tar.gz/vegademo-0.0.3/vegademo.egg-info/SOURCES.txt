@@ -1,0 +1,8 @@
+README.md
+setup.py
+vegademo/__init__.py
+vegademo/gcs_operation.py
+vegademo.egg-info/PKG-INFO
+vegademo.egg-info/SOURCES.txt
+vegademo.egg-info/dependency_links.txt
+vegademo.egg-info/top_level.txt
