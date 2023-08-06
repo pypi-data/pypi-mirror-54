@@ -1,0 +1,26 @@
+Tardis
+======
+
+Tardis is a minimal `CalDAV`_ client.
+
+Configuration
+-------------
+
+Tardis will look for a configuration file in this order `tardis.cfg`,
+`~/.tardis.cfg`. The format is based on `configparser`_.
+
+A section describes parameters for a CalDAV calendar. `url` is minimum requirement::
+
+    [Amy]
+    url = http://amy:****@example.com/calendars/amelia
+    color = blue
+
+    [Rory]
+    url = http://rory:***@example.com/calendars/rory
+    color = red
+
+For more information please visit the `tardis website`_.
+
+.. _CalDAV: http://en.wikipedia.org/wiki/Caldav
+.. _configparser: http://docs.python.org/library/configparser.html
+.. _tardis website: http://bitbucket.org/cedk/tardis

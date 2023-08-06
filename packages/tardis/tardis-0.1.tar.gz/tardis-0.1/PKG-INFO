@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: tardis
+Version: 0.1
+Summary: A minimal CalDAV client
+Home-page: http://bitbucket.org/cedk/tardis
+Author: Cédric Krier
+Author-email: cedric.krier@b2ck.com
+License: GPL-3
+Download-URL: http://bitbucket.org/cedk/tardis/downloads
+Description: Tardis
+        ======
+        
+        Tardis is a minimal `CalDAV`_ client.
+        
+        Configuration
+        -------------
+        
+        Tardis will look for a configuration file in this order `tardis.cfg`,
+        `~/.tardis.cfg`. The format is based on `configparser`_.
+        
+        A section describes parameters for a CalDAV calendar. `url` is minimum requirement::
+        
+            [Amy]
+            url = http://amy:****@example.com/calendars/amelia
+            color = blue
+        
+            [Rory]
+            url = http://rory:***@example.com/calendars/rory
+            color = red
+        
+        For more information please visit the `tardis website`_.
+        
+        .. _CalDAV: http://en.wikipedia.org/wiki/Caldav
+        .. _configparser: http://docs.python.org/library/configparser.html
+        .. _tardis website: http://bitbucket.org/cedk/tardis
+        
+Platform: UNKNOWN
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Office/Business :: Scheduling
