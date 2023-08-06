@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: django-declarative-apis
+Version: 0.18.3
+Summary: Simple, readable, declarative APIs for Django
+Home-page: https://salesforce.com
+Author: Drew Shafer
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: celery (!=4.1.0,<=4.2.1,>=4.0.2)
+Requires-Dist: cryptography (<=2.6,>=2.0)
+Requires-Dist: decorator (==4.0.11)
+Requires-Dist: django-dirtyfields (>=1.2.1)
+Requires-Dist: Django (~=1.11.0)
+Requires-Dist: oauthlib[rsa,signedtoken] (<3.1.0,>=2.0.6)
+
+UNKNOWN
+
+
