@@ -1,0 +1,3 @@
+[console_scripts]
+mycloud = mycloud.__main__:main
+
