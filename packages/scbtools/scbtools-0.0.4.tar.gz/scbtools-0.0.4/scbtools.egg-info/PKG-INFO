@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: scbtools
+Version: 0.0.4
+Summary: Personal Tools
+Home-page: UNKNOWN
+Author: shenchenbin
+Author-email: 18390210785@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

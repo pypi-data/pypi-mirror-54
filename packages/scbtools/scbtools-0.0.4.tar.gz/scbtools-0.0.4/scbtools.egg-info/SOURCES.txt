@@ -1,0 +1,9 @@
+README.md
+setup.py
+packaging_tutorial/__init__.py
+packaging_tutorial/scb_tools/__init__.py
+packaging_tutorial/scb_tools/mixed.py
+scbtools.egg-info/PKG-INFO
+scbtools.egg-info/SOURCES.txt
+scbtools.egg-info/dependency_links.txt
+scbtools.egg-info/top_level.txt
