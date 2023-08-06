@@ -1,0 +1,11 @@
+[Unit]
+Description=sysdef
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sysdef --boot
+
+[Install]
+WantedBy=multi-user.target
