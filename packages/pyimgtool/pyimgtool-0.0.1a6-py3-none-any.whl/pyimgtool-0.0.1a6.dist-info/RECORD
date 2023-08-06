@@ -1,0 +1,17 @@
+pyimgtool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyimgtool/__main__.py,sha256=A-fHqEiD-csHAEu748qm84tlCsIOhaQ9ql7ynzBPl2A,2180
+pyimgtool/args.py,sha256=MaQXSOMq6AQ_bPwYMZyNe6OcK9YIMMNuneZUQ6A0vic,6377
+pyimgtool/data_structures.py,sha256=hptytFI5UIuqwFLVssCovmgiAn_4sZawo_c8IJDYlxY,4686
+pyimgtool/exceptions.py,sha256=4xmnM5suWJjv0knIi-GYNgu2FGfpNKhCa4uPxJaogIU,597
+pyimgtool/image.py,sha256=V7IIXokMxoPJZjAm00wV5TRx5u-kqLuRSWwjJ6F-JAg,3353
+pyimgtool/resize.py,sha256=x_eM5l8gXuXYASKn_UD0T51XZ3-evMl8wNyNm_lqXh8,7335
+pyimgtool/utils.py,sha256=ETb_0M3gwjBPdVKutmIR32-isCGDmMSMN4pJGOBUgQ4,2629
+pyimgtool/version.py,sha256=QJQMa0SKiGxe_hwQymEFEkpFCx3yAs2czgaaFaJIESk,53
+pyimgtool/watermark.py,sha256=4ewWA3vmgWv-IE6cexnGyjaXH6Z_TZxe_0QuLfmdQkc,4449
+pyimgtool/fonts/SourceSansPro-Regular.ttf,sha256=MONd2noXna3sEcWOiYNbUAbuadO9Q7Vakd1S8fAqjKw,290156
+pyimgtool-0.0.1a6.dist-info/LICENSE,sha256=akCfK8LvfY6gL4VoXkNbsy8u-8eAFeatZayvBQDxHEA,1068
+pyimgtool-0.0.1a6.dist-info/METADATA,sha256=lVBzlWk_QKZXXlHwO--NVjWSGVYxDvpYCgnkWPflYOE,1205
+pyimgtool-0.0.1a6.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyimgtool-0.0.1a6.dist-info/entry_points.txt,sha256=9MAVTtWW3I7YakQP_UycFzb68F4SEtd7LkkUUueP7b0,55
+pyimgtool-0.0.1a6.dist-info/top_level.txt,sha256=36kV7ezHRjTcVo20hz83KBpyezg2zCajf5dnZL4p1E8,10
+pyimgtool-0.0.1a6.dist-info/RECORD,,
