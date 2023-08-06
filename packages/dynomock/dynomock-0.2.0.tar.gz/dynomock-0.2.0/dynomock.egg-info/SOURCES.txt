@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+dynomock/__init__.py
+dynomock/__main__.py
+dynomock.egg-info/PKG-INFO
+dynomock.egg-info/SOURCES.txt
+dynomock.egg-info/dependency_links.txt
+dynomock.egg-info/entry_points.txt
+dynomock.egg-info/requires.txt
+dynomock.egg-info/top_level.txt

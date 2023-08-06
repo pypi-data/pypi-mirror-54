@@ -1,0 +1,3 @@
+[console_scripts]
+dynomock = dynomock.__main__:main
+
