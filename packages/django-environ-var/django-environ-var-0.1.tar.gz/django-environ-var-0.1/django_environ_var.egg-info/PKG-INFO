@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-environ-var
+Version: 0.1
+Summary: Declare Environment To Django Project
+Home-page: https://github.com/datasik/django-environ-var
+Author: Monirul Hasan
+Author-email: 89monirulhasan@gmail.com
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN
