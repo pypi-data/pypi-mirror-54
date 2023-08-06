@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tensorflow-play
+Version: 0.0.1
+Summary: The lightweight engineering TensorFlow wrapper for AI engineer. Write less, Reuse more, Scale easily.
+Home-page: https://github.com/Marcnuth/tensorflow-play
+Author: Marcnuth
+Author-email: hxianxian@gmail.com
+License: Apache License 2.0
+Description: # tensorflow-play
+        The lightweight engineering TensorFlow wrapper for AI engineer. Write less, Reuse more, Scale easily.
+        
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

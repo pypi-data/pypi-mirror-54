@@ -1,0 +1,8 @@
+README.md
+setup.py
+tensorflow_play/__init__.py
+tensorflow_play.egg-info/PKG-INFO
+tensorflow_play.egg-info/SOURCES.txt
+tensorflow_play.egg-info/dependency_links.txt
+tensorflow_play.egg-info/requires.txt
+tensorflow_play.egg-info/top_level.txt

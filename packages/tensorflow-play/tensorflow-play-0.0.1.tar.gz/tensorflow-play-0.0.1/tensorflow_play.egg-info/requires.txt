@@ -1,0 +1,6 @@
+tensorflow>=r2.0
+numpy
+spacy
+Pillow
+opencv-python
+pathlib
