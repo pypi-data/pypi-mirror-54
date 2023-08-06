@@ -1,0 +1,6 @@
+5;letter_5.png;3441f0;170
+6;letter_6.png;4d6ad6;130
+7;letter_7.png;4c3370;120
+8;letter_8.png;5a8012;250
+9;letter_9.png;2d5450;100
+10;letter_10.png;4a1010;90
