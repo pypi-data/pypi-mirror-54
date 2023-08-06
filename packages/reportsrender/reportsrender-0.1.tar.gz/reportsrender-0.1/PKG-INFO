@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: reportsrender
+Version: 0.1
+Summary: Execute and Render notebooks as HTML reports. 
+Home-page: https://github.com/grst/reportsrender
+Author: Gregor Sturm
+Author-email: mail@gregor-sturm.de
