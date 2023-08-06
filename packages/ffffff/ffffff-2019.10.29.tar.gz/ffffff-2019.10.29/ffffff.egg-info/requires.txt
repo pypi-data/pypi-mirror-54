@@ -1,0 +1,2 @@
+regex
+typed-ast>=1.4.0
