@@ -1,0 +1,1 @@
+from pyms.flask.healthcheck.healthcheck import healthcheck_blueprint
