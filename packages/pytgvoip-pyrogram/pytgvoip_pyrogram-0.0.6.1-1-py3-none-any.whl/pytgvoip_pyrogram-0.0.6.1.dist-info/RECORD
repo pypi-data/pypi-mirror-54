@@ -1,0 +1,13 @@
+tgvoip_pyrogram/__init__.py,sha256=a8j_IXRaQFUsj1uH-u-AELjGQ0R8lFDg-nmF1nsuTqE,1366
+tgvoip_pyrogram/base_call.py,sha256=sRkwU3gZyiuMUhBLzyFKkfUOiIg_z0GVwNr_KBn1IQM,7524
+tgvoip_pyrogram/file_stream_call.py,sha256=52RQRTmrNqhQfJVLkUtyw4ll69JvE26TffWVxcce0Ng,4079
+tgvoip_pyrogram/incoming_call.py,sha256=ScultQ1xMMl_iBumvLvfFlZZW-T8aAmpPoeo-xMc5WA,3861
+tgvoip_pyrogram/outgoing_call.py,sha256=Dvlwv7FnGZriY2JQN8DfC5bkJlW1ezEbTPvG0-_f2JA,3134
+tgvoip_pyrogram/service.py,sha256=mOzvQCVxQi8cU4ZeOJQ94OiM48kHD9BOw8_jgsYbI30,2404
+pytgvoip_pyrogram-0.0.6.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pytgvoip_pyrogram-0.0.6.1.dist-info/COPYING.lesser,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pytgvoip_pyrogram-0.0.6.1.dist-info/METADATA,sha256=qIpcSUnLEMdwfVbAoOcWcV4j17qMFHRMSrnm-HLOYa8,3892
+pytgvoip_pyrogram-0.0.6.1.dist-info/NOTICE,sha256=u7vMy8YweSeVxmo2HuMUZIXUqrpStYSp-65I4EkJzG4,798
+pytgvoip_pyrogram-0.0.6.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pytgvoip_pyrogram-0.0.6.1.dist-info/top_level.txt,sha256=ZUVS7tjmE88OyBph8U5LoWvT1WoO2FqeNk5SDHWAS5Y,16
+pytgvoip_pyrogram-0.0.6.1.dist-info/RECORD,,
