@@ -1,0 +1,8 @@
+setup.py
+myfirstdlr/__init__.py
+myfirstdlr/spt.py
+myfirstdlr.egg-info/PKG-INFO
+myfirstdlr.egg-info/SOURCES.txt
+myfirstdlr.egg-info/dependency_links.txt
+myfirstdlr.egg-info/entry_points.txt
+myfirstdlr.egg-info/top_level.txt
