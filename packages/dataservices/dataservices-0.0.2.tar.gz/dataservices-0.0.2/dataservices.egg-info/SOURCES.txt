@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+dataservices/__init__.py
+dataservices.egg-info/PKG-INFO
+dataservices.egg-info/SOURCES.txt
+dataservices.egg-info/dependency_links.txt
+dataservices.egg-info/requires.txt
+dataservices.egg-info/top_level.txt
+dataservices/amsterdam_schema/__init__.py
