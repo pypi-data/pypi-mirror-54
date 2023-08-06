@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+statsmodels>=0.7
+patsy
+scikit-learn>=0.18.1
+markdown
+matplotlib
+xlrd
+xlwt
+openpyxl
+pytest
+seaborn
