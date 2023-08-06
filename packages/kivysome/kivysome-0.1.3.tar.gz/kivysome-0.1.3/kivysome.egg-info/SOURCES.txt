@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+kivysome/__init__.py
+kivysome/iconfonts.py
+kivysome/kivysome.py
+kivysome.egg-info/PKG-INFO
+kivysome.egg-info/SOURCES.txt
+kivysome.egg-info/dependency_links.txt
+kivysome.egg-info/requires.txt
+kivysome.egg-info/top_level.txt
+tests/__init__.py
+tests/test_all.py
