@@ -1,0 +1,8 @@
+# Describes the format for available AIS Google Home Service
+ask_google_home:
+  description: Wysłanie pytanie do Asystenta Google
+  fields:
+    question:
+      description: Pytanie
+      example: '{"question": "Jaką mamy pogodę?"}'
+
