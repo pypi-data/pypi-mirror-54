@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: mediagrains
+Version: 2.6.0.post0
+Summary: Simple utility for grain-based media
+Home-page: https://github.com/bbc/rd-apmm-python-lib-mediagrains
+Author: James Weaver
+Author-email: james.barrett@bbc.co.uk
+License: Apache 2
+Description: 
+        Simple python library for dealing with grain data in a python-native format.
+        
+Platform: UNKNOWN

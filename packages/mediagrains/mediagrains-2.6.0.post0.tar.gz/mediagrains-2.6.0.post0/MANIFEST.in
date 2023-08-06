@@ -1,0 +1,8 @@
+include README.md
+include tox.ini
+include COPYING
+recursive-include examples *.gsf
+recursive-include tests *.py
+recursive-include mediagrains_py36 *.py
+include ICLA.md
+include LICENSE.md
