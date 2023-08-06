@@ -1,0 +1,8 @@
+README.md
+setup.py
+parktoma/vscconan/__init__.py
+parktoma/vscconan/_vscconan.py
+parktoma_vscconan.egg-info/PKG-INFO
+parktoma_vscconan.egg-info/SOURCES.txt
+parktoma_vscconan.egg-info/dependency_links.txt
+parktoma_vscconan.egg-info/top_level.txt
