@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/pyfuncs/__init__.py
+src/pyfuncs.egg-info/PKG-INFO
+src/pyfuncs.egg-info/SOURCES.txt
+src/pyfuncs.egg-info/dependency_links.txt
+src/pyfuncs.egg-info/top_level.txt
