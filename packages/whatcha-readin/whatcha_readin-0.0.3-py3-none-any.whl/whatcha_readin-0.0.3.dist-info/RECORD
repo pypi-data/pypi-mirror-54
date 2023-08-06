@@ -1,0 +1,14 @@
+whatcha_readin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whatcha_readin/cli.py,sha256=JUaFLU0XLQNHh4rFxh7RmNfn1mvyVU-Eg58k9HGQyrc,3048
+whatcha_readin/config.py,sha256=wvxb1F0RuSOZIQjO7YCYxL2W6oHUA0k-7hPN64YOHAY,255
+whatcha_readin/goodreads.py,sha256=W6Ilnzmwk_9MNDbIEvWQYRxFztj-RCwMG-9d1Z0mkjA,1030
+whatcha_readin/paths.py,sha256=MdLDGxmaihEL1AQu31tx2O3neEa6UzANueYe2Pgs67I,1360
+whatcha_readin/utils.py,sha256=SFEdLULWLZEd4GdUuVhfIWLLp2KJbD1v6sn80PhiSdM,313
+whatcha_readin/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whatcha_readin/resources/commit_msg.py,sha256=CjLCGxW1wbm2KN8KrGO1HUMUGFJclA3TZGSshoQimPY,358
+whatcha_readin-0.0.3.dist-info/LICENSE,sha256=rODUg1FN5x4Z2t5ahDUOtRQMF_cQPZ7PssgOZEo6Z0U,1069
+whatcha_readin-0.0.3.dist-info/METADATA,sha256=BfHoF1OfwFKDO157MA5TnLWclsQntOC3E1E50vXCpRc,505
+whatcha_readin-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+whatcha_readin-0.0.3.dist-info/entry_points.txt,sha256=preK3P8rnbvIXJfO9z3e8nocc223VG_xihyv6U5pUQk,59
+whatcha_readin-0.0.3.dist-info/top_level.txt,sha256=o-ZmmkJYNkWQgf2-BOoBX1ce4CIQRhhOUfqBOskfVj8,15
+whatcha_readin-0.0.3.dist-info/RECORD,,
