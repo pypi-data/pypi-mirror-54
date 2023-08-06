@@ -1,0 +1,10 @@
+README.md
+setup.py
+adversarial_labeller/__init__.py
+adversarial_labeller/adversarial_labeller.py
+adversarial_labeller/adversarial_scoring.py
+adversarial_labeller.egg-info/PKG-INFO
+adversarial_labeller.egg-info/SOURCES.txt
+adversarial_labeller.egg-info/dependency_links.txt
+adversarial_labeller.egg-info/requires.txt
+adversarial_labeller.egg-info/top_level.txt
