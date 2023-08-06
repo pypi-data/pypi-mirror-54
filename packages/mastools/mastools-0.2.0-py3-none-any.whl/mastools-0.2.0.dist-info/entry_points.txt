@@ -1,0 +1,4 @@
+[console_scripts]
+mastools=mastools.scripts.cmd_mastools:handle_command_line
+show-user-changes=mastools.scripts.show_user_changes:handle_command_line
+
