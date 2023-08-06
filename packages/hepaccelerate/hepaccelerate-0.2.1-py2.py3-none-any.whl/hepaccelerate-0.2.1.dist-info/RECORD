@@ -1,0 +1,10 @@
+hepaccelerate/__init__.py,sha256=K0kNy26Vm6A-1V5lST3ily6yVsNLUbiqk6AZDFm2nJI,20
+hepaccelerate/__version__.py,sha256=MobQVtrO9Ze27biO6l6QreTAONnDTqbALI54Q1gpCI8,352
+hepaccelerate/backend_cpu.py,sha256=vW8TVkzYq5VjqAqFHOi-GKg85ryJy-m4C1XPF65KeCw,19350
+hepaccelerate/backend_cuda.py,sha256=hK6QcN2j_pEArfGm4M-MvVVS5YGbYO9QpgmDYNmv3A8,18193
+hepaccelerate/core.py,sha256=p1qrlHmMZnWCfE_lLdihYWdqEzypcckqMxmKWE5tUTs,80
+hepaccelerate/utils.py,sha256=Fg09kbY-xU7GFen3iSrnf4_vjqzVWNibueYDjsj273w,35063
+hepaccelerate-0.2.1.dist-info/METADATA,sha256=OGNk9AoB6rus_wcwJON34wIozZtYFsKqA6g7Gpdome8,12260
+hepaccelerate-0.2.1.dist-info/RECORD,,
+hepaccelerate-0.2.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+hepaccelerate-0.2.1.dist-info/top_level.txt,sha256=7Xcp3hgm9J01gcl8PAehX6FTsOBRbNnmLUNWfFaNijA,14
