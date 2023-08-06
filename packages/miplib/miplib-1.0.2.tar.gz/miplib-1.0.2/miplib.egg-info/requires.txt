@@ -1,0 +1,11 @@
+numpy
+scipy
+h5py
+SimpleITK
+jpype1
+matplotlib
+numba
+pyculib
+pandas
+pims
+scikit-image
