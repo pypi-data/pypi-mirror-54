@@ -1,0 +1,14 @@
+numpy
+scipy
+numba
+pandas
+pycuda
+networkx
+ase
+pymatgen
+pysmiles
+mendeleev
+
+[docs]
+sphinx
+sphinx-rtd-theme
