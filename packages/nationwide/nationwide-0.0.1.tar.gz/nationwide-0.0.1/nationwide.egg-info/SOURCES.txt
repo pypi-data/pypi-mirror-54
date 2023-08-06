@@ -1,0 +1,7 @@
+README.md
+setup.py
+nationwide/__init__.py
+nationwide.egg-info/PKG-INFO
+nationwide.egg-info/SOURCES.txt
+nationwide.egg-info/dependency_links.txt
+nationwide.egg-info/top_level.txt
