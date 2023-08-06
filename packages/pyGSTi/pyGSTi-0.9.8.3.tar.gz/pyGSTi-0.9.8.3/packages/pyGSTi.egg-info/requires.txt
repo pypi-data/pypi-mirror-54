@@ -1,0 +1,74 @@
+numpy>=1.15.0
+scipy
+plotly==3.10.0
+ply
+
+[accurate memory profiling]
+psutil
+
+[complete]
+ipython
+cython
+autopep8
+rednose
+deap
+matplotlib
+msgpack
+zmq
+nose
+coverage
+psutil
+mpi4py
+flake8
+cvxopt
+nose-timer
+cvxpy
+pandas
+notebook
+
+[diamond norm computation]
+cvxpy
+cvxopt
+
+[evolutionary optimization algorithm]
+deap
+
+[extension modules]
+cython
+
+[generating PDFs of report figures]
+matplotlib
+
+[generating report notebooks]
+ipython
+notebook
+
+[linting]
+autopep8
+flake8
+
+[multi-processor support]
+mpi4py
+
+[nose testing]
+nose
+
+[pickling report tables]
+pandas
+
+[read/write message pack format]
+msgpack
+
+[testing]
+nose
+nose-timer
+cython
+cvxpy
+cvxopt
+psutil
+mpi4py
+pandas
+msgpack
+coverage
+zmq
+rednose
