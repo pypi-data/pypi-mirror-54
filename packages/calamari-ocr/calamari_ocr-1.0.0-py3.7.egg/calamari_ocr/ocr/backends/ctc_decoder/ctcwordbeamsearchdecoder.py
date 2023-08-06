@@ -1,0 +1,17 @@
+from .ctc_decoder import CTCDecoder
+import numpy as np
+from calamari_ocr.thirdparty.ctcwordbeamsearch.WordBeamSearch import wordBeamSearch, LanguageModel
+
+
+class WordBeamSearchCTCDecoder(CTCDecoder):
+    def __init__(self, params, codec):
+        super().__init__(params, codec)
+        self.language_model = LanguageModel(" ".join(params.dictionary), "".join(codec.charset), "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+
+    def decode(self, probabilities):
+        if self.params.blank_index == 0:
+            probabilities = np.roll(probabilities, -1, axis=1)
+        r = wordBeamSearch(probabilities,
+                           self.params.beam_width if self.params.beam_width > 0 else 25,
+                           self.language_model, False)
+        return self._prediction_from_string(probabilities, r)
