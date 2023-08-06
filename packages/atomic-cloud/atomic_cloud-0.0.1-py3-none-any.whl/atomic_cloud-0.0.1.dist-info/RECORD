@@ -1,0 +1,9 @@
+aws/__init__.py,sha256=X3WU7CcpHBiFxSnTjGJAvTuYYX03d2vgistrDxvO-hI,35
+aws/ec2.py,sha256=OiECL8gii-HIOisPhYiUp6c0AZgW0s4Jot-fFGwr17g,3365
+aws/elb.py,sha256=s_5tFySrOBr6Q5YFrD0ajakawgJ3uq98QkRclaajtHM,609
+aws/iam.py,sha256=0-xrT6CT3Q8y-NuHFsS8Jei7znNE1XgTCgfhjuvWUsg,305
+aws/rds.py,sha256=Rz5WL6l-YAX6Sg2TruSWpuSQXQFX_AReh2us7lPFNvg,1049
+atomic_cloud-0.0.1.dist-info/METADATA,sha256=E3Jt-hlDe_aBy0O90r3I3pFy5L41sHwFMQH06heBZJ0,1265
+atomic_cloud-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+atomic_cloud-0.0.1.dist-info/top_level.txt,sha256=cGN9AygK9hJ6obZkvkz9vh2cDIwiYSmUDUzkbuWVdBo,4
+atomic_cloud-0.0.1.dist-info/RECORD,,
