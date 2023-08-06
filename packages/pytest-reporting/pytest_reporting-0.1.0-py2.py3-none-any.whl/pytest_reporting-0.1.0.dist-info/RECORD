@@ -1,0 +1,12 @@
+pytest_reporting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_reporting/behaviors.py,sha256=ZSXpjzzZ0bsJW-jgY8pfneRaiGBZlkZvj9opQ8NVikM,2041
+pytest_reporting/colors.py,sha256=UMIqlP3d8yStq5gHuc-1p8AtbFvc2TA5AMJ3_y2Fl-Q,571
+pytest_reporting/fixtures.py,sha256=epqMVnywVlpSY2f7O28-n22v0BhgTalASK8HDThyIE0,414
+pytest_reporting/plugin.py,sha256=MavQ_ukYJrqsf_hm3U9KI0R6wUbTW1Bg9jMG-_uKLYY,663
+pytest_reporting/session.py,sha256=lWVBJ6tqUFkt2Kpkj6WCNxNXcipbeweB3i32_rkmIAQ,4574
+pytest_reporting-0.1.0.dist-info/LICENSE,sha256=3Kt3dhMeqlg7a0f_3jTuvkdCUCoGmF08JjsAXXeS59A,1083
+pytest_reporting-0.1.0.dist-info/METADATA,sha256=SWwOTRhV0ToBWMKA_5UPbIV_nAzBKDuH7FjRibH_k9M,2942
+pytest_reporting-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+pytest_reporting-0.1.0.dist-info/entry_points.txt,sha256=0NDVjrm7Gdl7670WQEG_aESbkWgdALDlMlhugxPSX3g,48
+pytest_reporting-0.1.0.dist-info/top_level.txt,sha256=KGYeGAoOYPU3tobEuyEuLjfyhdzKUetnhbgxq9DW9uw,17
+pytest_reporting-0.1.0.dist-info/RECORD,,
