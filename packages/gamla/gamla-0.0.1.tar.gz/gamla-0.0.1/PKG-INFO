@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gamla
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: Gamla is a functional programming library for python.
+        
+        `pip install gamla`
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
