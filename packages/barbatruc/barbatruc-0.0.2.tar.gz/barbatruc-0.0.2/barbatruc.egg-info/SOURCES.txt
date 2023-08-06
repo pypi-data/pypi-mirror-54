@@ -1,0 +1,14 @@
+README.md
+setup.py
+barbatruc/__init__.py
+barbatruc/fd_ns_2d.py
+barbatruc/fd_operators.py
+barbatruc/fluid_domain.py
+barbatruc.egg-info/PKG-INFO
+barbatruc.egg-info/SOURCES.txt
+barbatruc.egg-info/dependency_links.txt
+barbatruc.egg-info/requires.txt
+barbatruc.egg-info/top_level.txt
+examples/__init__.py
+examples/pollution_ns.py
+examples/smurf_test.py
