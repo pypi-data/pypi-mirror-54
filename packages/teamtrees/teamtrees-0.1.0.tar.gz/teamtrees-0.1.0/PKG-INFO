@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: teamtrees
+Version: 0.1.0
+Summary: Get data from official TeamTrees website
+Home-page: https://github.com/nm17/teamtrees
+Author: NeverMine17
+Author-email: dannevergame@gmail.com
+License: MIT
+Description: # teamtrees
+        Get the amount of trees planted by TeamTrees!
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
