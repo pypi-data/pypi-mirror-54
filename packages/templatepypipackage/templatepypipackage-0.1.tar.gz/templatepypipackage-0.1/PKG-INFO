@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: templatepypipackage
+Version: 0.1
+Summary: Package to setup a basic PyPI package
+Home-page: https://github.com/tklijnsma/templatepypipackage.git
+Author: Thomas Klijnsma
+Author-email: tklijnsm@gmail.com
+License: BSD 3-Clause License
+Download-URL: https://github.com/tklijnsma/templatepypipackage/archive/v0_1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
