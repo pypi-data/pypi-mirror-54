@@ -1,0 +1,17 @@
+numba
+numpy
+scipy
+
+[all]
+tqdm
+brian2
+pytest
+torch
+torchvision
+rpyc
+jax
+jaxlib
+sphinx
+nbsphinx
+sphinx-autobuild
+sphinx-rtd-theme
