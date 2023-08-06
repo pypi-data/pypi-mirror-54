@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pizdets
+Version: 0.19.8
+Summary: PMachine Python package
+Home-page: https://github.com/catalin-rusnac/pizdets
+Author: Catalin Rusnac
+Author-email: crusnac@ist.ac.at
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: zmq
+Requires-Dist: google
+Requires-Dist: pandas
+Requires-Dist: google.protobuf.reflection
+
+UNKNOWN
+
+
