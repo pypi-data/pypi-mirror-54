@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pyquickjoin
+Version: 1.0.0
+Summary: Quickly join two unsorted files
+Home-page: https://gitlab.com/onlynone/pyquickjoin
+Author: Steven Willis
+Author-email: onlynone@gmail.com
+License: BSD
+Keywords: quickjoin
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: bsddb3
+
+===============================
+Quick Join
+===============================
+
+.. image:: https://img.shields.io/pypi/v/pyquickjoin.svg
+        :target: https://pypi.python.org/pypi/pyquickjoin
+
+
+Utility to quickly join two unsorted files
+
+* Free software: BSD license
+
+Features
+--------
+
+* TODO
+
+
+
+
+History
+-------
+
+0.1.0 (2015-01-11)
+---------------------
+
+* Starting out with in-memory db.
+
+
